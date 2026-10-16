@@ -14,8 +14,8 @@ from pipeline.common import load_settings, load_json, save_json, find_previous_r
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 SLEEP_BETWEEN = 1.5
-MAX_PER_SOURCE = 40
-COUNTRY_TOTAL_CAP = 240
+MAX_PER_SOURCE = 25
+COUNTRY_TOTAL_CAP = 150
 MIN_KEEP_PER_SOURCE = 10
 
 
