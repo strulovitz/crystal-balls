@@ -28,3 +28,4 @@ text and the country, not an exact per-file date.
 | Vietnam | 2026-09-26 | Qwen 3.8 27B abliterated |
 | France | 2026-09-26 | Qwen 3.8 27B abliterated |
 | India | 2026-09-30 | Qwen 3.8 27B abliterated |
+| Egypt | 2026-10-01 | Qwen 3.8 27B abliterated |
