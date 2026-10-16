@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Crystal Balls — next week's news, forecast from this week's momentum</title>
+  <meta name="description" content="Crystal Balls forecasts next week's news for 32 countries, shown as three nested transparent globes, free and open source, run at home with a local AI.">
+
+  <meta property="og:title" content="Crystal Balls — next week's news, forecast from this week's momentum">
+  <meta property="og:description" content="Three nested globes: last week, this week, and next week's forecast, for 32 countries.">
+  <meta property="og:image" content="https://www.strulovitz.org/crystal-balls/assets/og.png">
+  <meta property="og:url" content="https://www.strulovitz.org/crystal-balls/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Crystal Balls">
+  <meta name="twitter:description" content="Next week's news, forecast from this week's momentum.">
+  <meta name="twitter:image" content="https://www.strulovitz.org/crystal-balls/assets/og.png">
+  <link rel="canonical" href="https://www.strulovitz.org/crystal-balls/">
+  <link rel="icon" href="./assets/icon.png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script type="importmap">
+  { "imports": { "three": "./assets/vendor/three.module.min.js" } }
+  </script>
+  <script src="./assets/vendor/topojson-client.min.js"></script>
+</head>
+<body>
+
+  <div id="loading-screen">
+    <div class="rings"><span></span><span></span><span></span></div>
+    <p>Polishing the crystal balls...</p>
+  </div>
+
+  <div id="error-screen">
+    <p id="error-message">No forecast rounds published yet. Come back soon.</p>
+  </div>
+
+  <div id="canvas-container"></div>
+
+  <header id="header">
+    <div id="brand">
+      <img src="./assets/icon.png" alt="">
+      <div class="titles">
+        <h1>Crystal Balls</h1>
+        <div class="subtitle">Next week's news, forecast from this week's momentum</div>
+      </div>
+    </div>
+    <select id="round-select" aria-label="Round"></select>
+    <div id="header-right">
+      <select id="country-select" aria-label="Country"></select>
+      <a id="about-link" href="./about.html" target="_blank" rel="noopener">How it works</a>
+      <button id="list-toggle" type="button">List view</button>
+      <button id="menu-button" type="button" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <div id="scorecard-badge">Scorecard starts after the second automated round</div>
+
+  <div id="legend">
+    <div class="row"><span class="ring-icon outer"></span><span class="text full">Next week, forecast</span><span class="text short">Outer: next week</span></div>
+    <div class="row"><span class="ring-icon middle"></span><span class="text full">This week, what happened</span><span class="text short">Middle: this week</span></div>
+    <div class="row"><span class="ring-icon inner"></span><span class="text full">Last week, what happened</span><span class="text short">Inner: last week</span></div>
+  </div>
+
+  <div id="footer">
+    Made at home with a free local AI by Nir Strulovitz ·
+    <a href="https://github.com/strulovitz/crystal-balls" target="_blank" rel="noopener">open source and open data on GitHub</a> ·
+    <a href="https://www.strulovitz.org" target="_blank" rel="noopener">strulovitz.org</a>
+  </div>
+
+  <div id="hover-label"></div>
+
+  <div id="list-view"></div>
+
+  <aside id="panel" class="hidden"></aside>
+
+  <div id="modal-backdrop">
+    <div id="modal"></div>
+  </div>
+
+  <div id="scorecard-modal-backdrop">
+    <div id="scorecard-modal"></div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

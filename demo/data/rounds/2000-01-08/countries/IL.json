@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "round": "2000-01-08",
+  "previous_round": "2000-01-01",
+  "is_legacy": false,
+  "code": "IL",
+  "name": "Israel",
+  "model": "demo-data-generator",
+  "generated_at": "2026-10-16T20:27:15+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "done",
+    "wind": "done",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "This week brought a steady stream of headlines about Israel, covering several overlapping storylines across politics, the economy and diplomacy. Officials in Israel made public statements addressing both domestic concerns and the country's relations with its neighbors and trading partners. Markets connected to Israel showed modest movement as analysts weighed new data against expectations set earlier in the month. Commentators noted that the situation in Israel reflects broader regional trends rather than any single isolated event. Civil society groups in Israel continued to raise concerns that received coverage across several of the sources tracked this week. Diplomatic contacts involving Israel proceeded at a measured pace, with neither side signaling a dramatic shift in position. This week brought a steady stream of headlines about Israel, covering several overlapping storylines across politics, the economy and diplomacy. Officials in Israel made public statements addressing both domestic concerns and the country's relations with its neighbors and trading partners. Markets connected to Israel showed modest movement as analysts weighed new data against expectations set earlier in the month.",
+    "key_events": [
+      {
+        "event": "A policy announcement in Israel draws attention from several outlets.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Economic data from Israel is released and discussed by analysts.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A diplomatic meeting touching Israel takes place.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A social or cultural story about Israel receives coverage.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "health"
+    ],
+    "emojis": [
+      "🛰️",
+      "📦",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Reflects a theme from this week's coverage of Israel.",
+      "Reflects a theme from this week's coverage of Israel.",
+      "Reflects a theme from this week's coverage of Israel."
+    ]
+  },
+  "velocity": {
+    "summary": "Compared with the previous round, the overall tone around Israel shifted only modestly, without a dramatic change in direction. Some themes that dominated coverage of Israel last week faded somewhat, replaced by a slightly different mix of stories. The pace of developments concerning Israel remained roughly steady, neither accelerating sharply nor slowing to a standstill. A few new angles entered the conversation about Israel, though the core storylines carried over largely unchanged from before. Compared with the previous round, the overall tone around Israel shifted only modestly, without a dramatic change in direction. Some themes that dominated coverage of Israel last week faded somewhat, replaced by a slightly different mix of stories. The pace of developments concerning Israel remained roughly steady, neither accelerating sharply nor slowing to a standstill. A few new angles entered the conversation about Israel, though the core storylines carried over largely unchanged from before.",
+    "direction": "escalating",
+    "speed": 5,
+    "intensity_change": -2,
+    "rising": [
+      "Economic coverage of Israel"
+    ],
+    "fading": [
+      "Earlier political storylines about Israel"
+    ],
+    "new": [
+      "A fresh diplomatic angle involving Israel"
+    ]
+  },
+  "wind": {
+    "previous_round": "2000-01-01",
+    "naive": {
+      "statements": [
+        {
+          "id": "N1",
+          "text": "A senior official in Israel makes a public statement about the economy.",
+          "probability": 0.4,
+          "domain": "environment",
+          "outcome": 0,
+          "evidence": "No supporting headline found in demo data."
+        },
+        {
+          "id": "N2",
+          "text": "A new trade or diplomatic agreement involving Israel is announced.",
+          "probability": 0.55,
+          "domain": "technology",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "N3",
+          "text": "A court in Israel issues a ruling on a high-profile case.",
+          "probability": 0.25,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "No supporting headline found in demo data."
+        },
+        {
+          "id": "N4",
+          "text": "A notable protest or demonstration takes place in Israel.",
+          "probability": 0.7,
+          "domain": "health",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "N5",
+          "text": "A government in Israel announces a change to a major policy.",
+          "probability": 0.85,
+          "domain": "society",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.107
+    },
+    "crystal": {
+      "statements": [
+        {
+          "id": "C1",
+          "text": "A senior official in Israel makes a public statement about the economy.",
+          "probability": 0.7,
+          "domain": "technology",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "C2",
+          "text": "A new trade or diplomatic agreement involving Israel is announced.",
+          "probability": 0.85,
+          "domain": "security",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "C3",
+          "text": "A court in Israel issues a ruling on a high-profile case.",
+          "probability": 0.4,
+          "domain": "health",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "C4",
+          "text": "A notable protest or demonstration takes place in Israel.",
+          "probability": 0.55,
+          "domain": "environment",
+          "outcome": 1,
+          "evidence": "Simulated evidence for demo data."
+        },
+        {
+          "id": "C5",
+          "text": "A government in Israel announces a change to a major policy.",
+          "probability": 0.25,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "No supporting headline found in demo data."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.147
+    },
+    "winner": "naive",
+    "systematic_error": "Both the naive and crystal forecasts for Israel tended to overweight dramatic single-day stories while underweighting slower-moving economic and social trends that took longer to show up in headlines. Neither forecast fully captured the pace at which diplomatic contacts around Israel would stall, suggesting future rounds should discount announced talks until a concrete date is confirmed in reporting. Both the naive and crystal forecasts for Israel tended to overweight dramatic single-day stories while underweighting slower-moving economic and social trends that took longer to show up in headlines. Neither forecast fully captured the pace at which diplomatic contacts around Israel would stall, suggesting future rounds should discount announced talks until a concrete date is confirmed in reporting.",
+    "correction_hint": "Weight slower-moving economic signals more heavily for Israel next round."
+  },
+  "naive_forecast": {
+    "horizon_start": "2000-01-08",
+    "horizon_end": "2000-01-15",
+    "summary": "Based on this week's headlines alone, Israel is expected to see a continuation of its current trajectory without a sharp turn. Analysts following Israel point to ordinary seasonal and political rhythms as the main driver of the coming week's news. Watch for incremental developments in Israel on the economic front, alongside routine diplomatic and political activity. Without additional context beyond this week's reporting, forecasters expect Israel to remain within its recent range of outcomes. Based on this week's headlines alone, Israel is expected to see a continuation of its current trajectory without a sharp turn. Analysts following Israel point to ordinary seasonal and political rhythms as the main driver of the coming week's news. Watch for incremental developments in Israel on the economic front, alongside routine diplomatic and political activity.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "A senior official in Israel makes a public statement about the economy.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "A new trade or diplomatic agreement involving Israel is announced.",
+        "probability": 0.7,
+        "domain": "health"
+      },
+      {
+        "id": "N3",
+        "text": "A court in Israel issues a ruling on a high-profile case.",
+        "probability": 0.25,
+        "domain": "society"
+      },
+      {
+        "id": "N4",
+        "text": "A notable protest or demonstration takes place in Israel.",
+        "probability": 0.85,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N5",
+        "text": "A government in Israel announces a change to a major policy.",
+        "probability": 0.4,
+        "domain": "security"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2000-01-08",
+    "horizon_end": "2000-01-15",
+    "summary": "Factoring in the trend and the lessons of the previous round, the outlook for Israel leans toward a continuation of recent momentum rather than a sharp reversal. The correction for past forecasting errors regarding Israel suggests paying closer attention to the economic dimension this time around. Where the raw headlines about Israel might suggest one reading, the trend and the wind correction argue for a more measured view. This forecast for Israel weighs both the momentum from recent weeks and the systematic errors identified in the previous round's judging. Factoring in the trend and the lessons of the previous round, the outlook for Israel leans toward a continuation of recent momentum rather than a sharp reversal.",
+    "reasoning": "A naive reading of this week's headlines about Israel might overstate the pace of change, since headlines tend to emphasize dramatic single events. The trend data for Israel points toward a steadier trajectory than the raw headlines alone would suggest on their own. Correcting for the kind of errors identified in the previous round's judging of Israel shifts this forecast toward somewhat more caution. A naive reading of this week's headlines about Israel might overstate the pace of change, since headlines tend to emphasize dramatic single events. The trend data for Israel points toward a steadier trajectory than the raw headlines alone would suggest on their own.",
+    "confidence": 6,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A senior official in Israel makes a public statement about the economy.",
+        "probability": 0.55,
+        "domain": "health"
+      },
+      {
+        "id": "C2",
+        "text": "A new trade or diplomatic agreement involving Israel is announced.",
+        "probability": 0.7,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "A court in Israel issues a ruling on a high-profile case.",
+        "probability": 0.25,
+        "domain": "health"
+      },
+      {
+        "id": "C4",
+        "text": "A notable protest or demonstration takes place in Israel.",
+        "probability": 0.4,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C5",
+        "text": "A government in Israel announces a change to a major policy.",
+        "probability": 0.85,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Israel faces a steady week ahead",
+    "emojis": [
+      "🔒",
+      "🌡️",
+      "⚰️"
+    ],
+    "emoji_reasons": [
+      "Reflects the forecast for Israel.",
+      "Reflects the forecast for Israel.",
+      "Reflects the forecast for Israel."
+    ],
+    "tldr": "Israel is expected to see continued, gradual developments next week, following the trend of recent coverage without a sharp change in direction.",
+    "eli5": "Israel has been in the news this week for a mix of reasons, some about money, some about politics, and some about how it gets along with other countries.\n\nThe reason this matters is that small changes in Israel can ripple outward, affecting trade, prices, or how safe people feel in the region.\n\nLooking ahead, the most likely path is more of the same: gradual change rather than a sudden dramatic shift, based on how things have been moving lately.\n\nWhat would be surprising is if something changed very suddenly, like a major announcement or an unexpected event that breaks the current pattern."
+  }
+}

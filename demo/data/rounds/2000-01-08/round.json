@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "round": "2000-01-08",
+  "previous_round": "2000-01-01",
+  "is_legacy": false,
+  "window_start": "2000-01-01",
+  "window_end": "2000-01-08",
+  "horizon_days": 7,
+  "model": "demo-data-generator",
+  "llm_host": "demo",
+  "started_at": "2026-10-16T20:27:15+03:00",
+  "finished_at": "2026-10-16T20:27:15+03:00",
+  "status": "complete",
+  "countries_total": 32,
+  "countries_done": 32,
+  "headlines_total": 0,
+  "round_scorecard": {
+    "scored": 32,
+    "crystal_wins": 13,
+    "naive_wins": 19,
+    "ties": 0,
+    "mean_brier_crystal": 0.208,
+    "mean_brier_naive": 0.194
+  }
+}

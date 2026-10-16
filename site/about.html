@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Crystal Balls works</title>
+  <link rel="icon" href="./assets/icon.png">
+  <style>
+    body {
+      margin: 0; padding: 40px 20px 80px;
+      max-width: 720px; margin-left: auto; margin-right: auto;
+      background: radial-gradient(ellipse at center, #101a33 0%, #05070d 75%);
+      color: #e8f0ff;
+      font-family: -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      line-height: 1.6;
+    }
+    h1 { font-size: 28px; }
+    h2 { font-size: 19px; color: #6ee7f9; margin-top: 32px; }
+    a { color: #6ee7f9; }
+    .back { display: inline-block; margin-bottom: 24px; color: #9aa6bd; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <a class="back" href="./index.html">&larr; Back to the globes</a>
+  <h1>How Crystal Balls works</h1>
+  <p>
+    This page is a placeholder. The full marketing page explaining the
+    project — the method, the three nested globes, and how the scoring
+    works — is written later (Bible Part 6, section 6.3 notes this page is
+    "written later").
+  </p>
+  <h2>In short</h2>
+  <p>
+    Crystal Balls reads this week's headlines for 32 countries from 12
+    news sources, asks a local AI to describe what happened (the
+    "position"), how it changed since last week (the "velocity"), and how
+    far off last week's forecasts were (the "wind"). It then asks for two
+    forecasts for the coming week: a plain one from headlines alone, and a
+    "Crystal" one that also uses the trend and the correction. Every
+    forecast is graded automatically once the following week's news comes
+    in, using the
+    <a href="https://en.wikipedia.org/wiki/Brier_score" target="_blank" rel="noopener">Brier score</a>
+    (lower is better; always guessing 50% scores 0.25).
+  </p>
+  <p>
+    Everything is free, open source, and runs on a home computer. The code
+    and all the data are on
+    <a href="https://github.com/strulovitz/crystal-balls" target="_blank" rel="noopener">GitHub</a>.
+  </p>
+</body>
+</html>

@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T20:27:15+03:00",
+  "baseline_brier_always_50_percent": 0.25,
+  "rounds_scored": 1,
+  "country_rounds_scored": 32,
+  "crystal_wins": 13,
+  "naive_wins": 19,
+  "ties": 0,
+  "crystal_win_rate": 0.406,
+  "mean_brier_crystal": 0.208,
+  "mean_brier_naive": 0.194,
+  "per_round": [
+    {
+      "round": "2000-01-08",
+      "scored": 32,
+      "crystal_wins": 13,
+      "naive_wins": 19,
+      "ties": 0,
+      "mean_brier_crystal": 0.208,
+      "mean_brier_naive": 0.194
+    }
+  ],
+  "per_country": {
+    "AU": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.268,
+      "mean_brier_naive": 0.128
+    },
+    "BR": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.227
+    },
+    "CA": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.168,
+      "mean_brier_naive": 0.107
+    },
+    "CD": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.307,
+      "mean_brier_naive": 0.268
+    },
+    "CH": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.208
+    },
+    "CL": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.287,
+      "mean_brier_naive": 0.247
+    },
+    "CN": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.367,
+      "mean_brier_naive": 0.147
+    },
+    "DE": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.287,
+      "mean_brier_naive": 0.208
+    },
+    "EG": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.388
+    },
+    "FR": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.307,
+      "mean_brier_naive": 0.287
+    },
+    "GB": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.247,
+      "mean_brier_naive": 0.107
+    },
+    "ID": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.267
+    },
+    "IL": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.147,
+      "mean_brier_naive": 0.107
+    },
+    "IN": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.147
+    },
+    "IQ": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.187,
+      "mean_brier_naive": 0.247
+    },
+    "IR": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.267,
+      "mean_brier_naive": 0.208
+    },
+    "IT": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.247,
+      "mean_brier_naive": 0.147
+    },
+    "JP": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.347,
+      "mean_brier_naive": 0.247
+    },
+    "KP": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.128,
+      "mean_brier_naive": 0.187
+    },
+    "KR": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.208,
+      "mean_brier_naive": 0.147
+    },
+    "NL": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.247,
+      "mean_brier_naive": 0.168
+    },
+    "PE": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.147,
+      "mean_brier_naive": 0.247
+    },
+    "RU": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.147,
+      "mean_brier_naive": 0.307
+    },
+    "SA": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.208,
+      "mean_brier_naive": 0.228
+    },
+    "SG": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.128,
+      "mean_brier_naive": 0.107
+    },
+    "TR": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.147,
+      "mean_brier_naive": 0.208
+    },
+    "TW": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.307,
+      "mean_brier_naive": 0.128
+    },
+    "UA": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.147,
+      "mean_brier_naive": 0.168
+    },
+    "US": {
+      "scored": 1,
+      "crystal_wins": 1,
+      "naive_wins": 0,
+      "ties": 0,
+      "mean_brier_crystal": 0.107,
+      "mean_brier_naive": 0.208
+    },
+    "VE": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.268,
+      "mean_brier_naive": 0.107
+    },
+    "VN": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.307,
+      "mean_brier_naive": 0.147
+    },
+    "ZA": {
+      "scored": 1,
+      "crystal_wins": 0,
+      "naive_wins": 1,
+      "ties": 0,
+      "mean_brier_crystal": 0.208,
+      "mean_brier_naive": 0.147
+    }
+  },
+  "calibration": {
+    "crystal": [
+      {
+        "range": [
+          0.0,
+          0.1
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.1,
+          0.2
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.2,
+          0.3
+        ],
+        "count": 32,
+        "mean_probability": 0.25,
+        "observed_frequency": 0.312
+      },
+      {
+        "range": [
+          0.3,
+          0.4
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.4,
+          0.5
+        ],
+        "count": 32,
+        "mean_probability": 0.4,
+        "observed_frequency": 0.438
+      },
+      {
+        "range": [
+          0.5,
+          0.6
+        ],
+        "count": 32,
+        "mean_probability": 0.55,
+        "observed_frequency": 0.562
+      },
+      {
+        "range": [
+          0.6,
+          0.7
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.7,
+          0.8
+        ],
+        "count": 32,
+        "mean_probability": 0.7,
+        "observed_frequency": 0.781
+      },
+      {
+        "range": [
+          0.8,
+          0.9
+        ],
+        "count": 32,
+        "mean_probability": 0.85,
+        "observed_frequency": 0.812
+      },
+      {
+        "range": [
+          0.9,
+          1.0
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      }
+    ],
+    "naive": [
+      {
+        "range": [
+          0.0,
+          0.1
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.1,
+          0.2
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.2,
+          0.3
+        ],
+        "count": 32,
+        "mean_probability": 0.25,
+        "observed_frequency": 0.25
+      },
+      {
+        "range": [
+          0.3,
+          0.4
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.4,
+          0.5
+        ],
+        "count": 32,
+        "mean_probability": 0.4,
+        "observed_frequency": 0.5
+      },
+      {
+        "range": [
+          0.5,
+          0.6
+        ],
+        "count": 32,
+        "mean_probability": 0.55,
+        "observed_frequency": 0.594
+      },
+      {
+        "range": [
+          0.6,
+          0.7
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.7,
+          0.8
+        ],
+        "count": 32,
+        "mean_probability": 0.7,
+        "observed_frequency": 0.75
+      },
+      {
+        "range": [
+          0.8,
+          0.9
+        ],
+        "count": 32,
+        "mean_probability": 0.85,
+        "observed_frequency": 0.906
+      },
+      {
+        "range": [
+          0.9,
+          1.0
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      }
+    ]
+  }
+}
