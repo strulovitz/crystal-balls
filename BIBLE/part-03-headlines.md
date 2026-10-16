@@ -201,3 +201,14 @@ Sources with zero items are listed as AFP (0) with no bullets, so the model know
 ### 3.8 Done criteria for Part 3
 
 Running .venv/bin/python pipeline/fetch_headlines.py --only IR,FR creates data/rounds/<today>/headlines/IR.json and FR.json with real headlines, the console shows per-source counts, running it again skips both files, and headlines_as_text renders them as in 3.7. The implementer reports to Nir the per-source counts for these two countries, so Nir can see which sources are weak (AFP is expected to be weak). The test round folder may be deleted afterwards or kept; the real first round starts in Part 7.
+
+### 3.9 Relevance filter and size budget
+
+Observed in testing: with site: plus date operators, Google News returns loosely matching items and every source hits the cap. Therefore:
+
+1. Add a field keywords to each country in config/countries.json: a list of lowercase words or phrases, any of which appearing in a headline (case-insensitive substring match) makes it relevant. Derive it from query_en and query_fr plus the demonym and common short forms. Examples: United States: ["united states", "u.s.", "us ", "american", "washington", "white house", "trump", "congress", "pentagon", "états-unis", "américain"]. Iran: ["iran", "tehran", "téhéran", "iranien", "khamenei", "irgc"]. France: ["france", "french", "paris", "macron", "français", "française", "élysée"]. Germany: ["germany", "german", "berlin", "merz", "bundestag", "allemagne", "allemand"]. The implementer writes these lists for all 32 countries with the same care; leader names are allowed because they change rarely and the list is easy to edit.
+2. In fetch_country, drop any headline that matches no keyword. Count the dropped ones in a new field "filtered_out": <n> per source.
+3. Lower MAX_PER_SOURCE to 40. Add a country-wide cap: after filtering, if the total exceeds 240, keep the newest items while preserving at least 10 per source that has them, so no source disappears.
+4. headlines_as_text must never render more than 240 headlines. It appends a line "(N older headlines omitted)" when truncating.
+
+Re-run the --only IR,FR test and report the new counts and the filtered_out numbers. Expected: 100 to 240 relevant headlines per country.

@@ -126,9 +126,14 @@ def log(msg):
 # Headline rendering for prompts
 # ---------------------------------------------------------------------------
 
+MAX_HEADLINES_IN_TEXT = 240
+
+
 def headlines_as_text(headlines_json):
     """Render a headlines/XX.json object into the compact text block used
-    in prompts (see Bible Part 3, section 3.7)."""
+    in prompts (see Bible Part 3, sections 3.7 and 3.9). Never renders more
+    than MAX_HEADLINES_IN_TEXT headlines; truncates the newest-first and
+    appends a line noting how many older headlines were omitted."""
     name = headlines_json.get("name", "?")
     start = headlines_json.get("window_start", "?")
     end = headlines_json.get("window_end", "?")
@@ -136,6 +141,9 @@ def headlines_as_text(headlines_json):
     sources = headlines_json.get("sources", [])
     n_sources = len(sources)
     lines = [f"Headlines about {name}, {start} to {end} ({total} headlines from {n_sources} sources)", ""]
+
+    rendered_count = 0
+    omitted_count = 0
     for src in sources:
         src_name = src.get("name", "?")
         items = src.get("items", [])
@@ -143,10 +151,19 @@ def headlines_as_text(headlines_json):
         lang_note = ", in French" if src.get("id") == "tv5monde" else ""
         lines.append(f"{src_name} ({count}{lang_note}):")
         for item in items:
+            if rendered_count >= MAX_HEADLINES_IN_TEXT:
+                omitted_count += 1
+                continue
             published = item.get("published") or "?"
             title = item.get("title", "")
             lines.append(f"- {published}: {title}")
+            rendered_count += 1
         lines.append("")
+
+    if omitted_count > 0:
+        lines.append(f"({omitted_count} older headlines omitted)")
+        lines.append("")
+
     return "\n".join(lines).rstrip("\n") + "\n"
 
 

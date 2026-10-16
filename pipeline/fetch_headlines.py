@@ -14,7 +14,9 @@ from pipeline.common import load_settings, load_json, save_json, find_previous_r
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 SLEEP_BETWEEN = 1.5
-MAX_PER_SOURCE = 60
+MAX_PER_SOURCE = 40
+COUNTRY_TOTAL_CAP = 240
+MIN_KEEP_PER_SOURCE = 10
 
 
 def build_url(query, domain, lang, start, end):
@@ -37,6 +39,12 @@ def norm(title):
     return re.sub(r"\s+", " ", title.lower()).strip(" .,:;!?\"'")
 
 
+def is_relevant(title, keywords):
+    """True if title (case-insensitive substring match) contains any keyword."""
+    t = title.lower()
+    return any(kw.lower() in t for kw in keywords)
+
+
 def fetch_one(url):
     for attempt in range(3):
         resp = requests.get(url, headers={"User-Agent": UA}, timeout=30)
@@ -50,19 +58,55 @@ def fetch_one(url):
     return None, "HTTP 429 after 3 attempts"
 
 
+def apply_country_cap(out_sources, total_cap=COUNTRY_TOTAL_CAP, min_keep=MIN_KEEP_PER_SOURCE):
+    """If the total across all sources exceeds total_cap, keep the newest
+    items overall while preserving at least `min_keep` per source that has
+    them. Mutates each source's "items" and "count" in place."""
+    total = sum(len(s["items"]) for s in out_sources)
+    if total <= total_cap:
+        return
+
+    guaranteed = {}
+    pool = []  # (published_or_empty, src_index, item) for items beyond the guaranteed slice
+    for i, src in enumerate(out_sources):
+        items = src["items"]  # already sorted newest first
+        keep_n = min(min_keep, len(items))
+        guaranteed[i] = items[:keep_n]
+        for item in items[keep_n:]:
+            pool.append((item.get("published") or "", i, item))
+
+    guaranteed_count = sum(len(v) for v in guaranteed.values())
+    remaining_budget = max(0, total_cap - guaranteed_count)
+
+    pool.sort(key=lambda x: x[0], reverse=True)
+    extra_by_source = {}
+    for published, i, item in pool[:remaining_budget]:
+        extra_by_source.setdefault(i, []).append(item)
+
+    for i, src in enumerate(out_sources):
+        final_items = guaranteed[i] + extra_by_source.get(i, [])
+        final_items.sort(key=lambda x: x.get("published") or "", reverse=True)
+        src["items"] = final_items
+        src["count"] = len(final_items)
+
+
 def fetch_country(country, sources, start, end, round_id):
     seen = set()
     out_sources = []
-    total = 0
+    keywords = country.get("keywords", [])
     for src in sources:
         query = country["query_fr"] if src["lang"] == "fr" else country["query_en"]
         url = build_url(query, src["domain"], src["lang"], start, end)
         feed, err = fetch_one(url)
         items = []
+        filtered_out = 0
         if feed is not None:
             for e in feed.entries:
                 t = clean_title(getattr(e, "title", ""))
                 if not t or norm(t) in seen:
+                    continue
+                if keywords and not is_relevant(t, keywords):
+                    filtered_out += 1
                     continue
                 seen.add(norm(t))
                 pub = None
@@ -71,13 +115,19 @@ def fetch_country(country, sources, start, end, round_id):
                 items.append({"title": t, "published": pub, "link": getattr(e, "link", None)})
         items.sort(key=lambda x: x["published"] or "", reverse=True)
         items = items[:MAX_PER_SOURCE]
-        entry = {"id": src["id"], "name": src["name"], "count": len(items), "items": items}
+        entry = {
+            "id": src["id"], "name": src["name"], "count": len(items),
+            "filtered_out": filtered_out, "items": items,
+        }
         if err:
             entry["error"] = err
         out_sources.append(entry)
-        total += len(items)
-        log(f"  {src['name']}: {len(items)}" + (f" ({err})" if err else ""))
+        log(f"  {src['name']}: {len(items)} (filtered out {filtered_out})" + (f" ({err})" if err else ""))
         time.sleep(SLEEP_BETWEEN)
+
+    apply_country_cap(out_sources)
+    total = sum(s["count"] for s in out_sources)
+
     return {
         "schema_version": 1,
         "round": round_id,
