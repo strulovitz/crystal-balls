@@ -3,7 +3,7 @@
 
 ### 0.1 What this project is
 
-Crystal Balls is a free, open, run-at-home system that forecasts the news of the coming week for 31 influential countries, and shows the result as three transparent globes nested inside each other (like matryoshka dolls): the inner globe is the situation two rounds ago, the middle globe is the previous round, and the outer bright globe is the forecast for the coming week. Each country on each globe carries a large flag and three emojis that summarize that country's situation in that round. Clicking a country opens a short TLDR; "Read more" opens a plain-language ELI5 explanation.
+Crystal Balls is a free, open, run-at-home system that forecasts the news of the coming week for 32 influential countries, and shows the result as three transparent globes nested inside each other (like matryoshka dolls): the inner globe is the situation two rounds ago, the middle globe is the previous round, and the outer bright globe is the forecast for the coming week. Each country on each globe carries a large flag and three emojis that summarize that country's situation in that round. Clicking a country opens a short TLDR; "Read more" opens a plain-language ELI5 explanation.
 
 Author and owner: Nir Strulovitz. Public page: https://www.strulovitz.org/crystal-balls/. Source and data repository: https://github.com/strulovitz/crystal-balls. License: MIT for code, CC BY 4.0 for data and texts. Everything is free; nothing in this project is ever paywalled.
 
@@ -71,7 +71,7 @@ Rule 8. Documents written for Nir (README, Bible, logs) never contain tables or 
 Rule 9. Keep dependencies minimal: Python 3 standard library plus requests and feedparser; in the browser only Three.js from a CDN (with a vendored copy in the repo as fallback).
 Rule 10. When something in this Bible is impossible or clearly worse in practice, the implementer must say so to Nir plainly and propose the alternative, instead of silently deviating.
 
-### 0.7 The countries (31), with a one-word reason each
+### 0.7 The countries (32), with a one-word reason each
 
 Superpowers: United States, Russia, China.
 Epidemic: Democratic Republic of the Congo.

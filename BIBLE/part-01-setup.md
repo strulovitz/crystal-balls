@@ -199,7 +199,7 @@ The script speaks to Nir in plain sentences, one per step, with a timestamp, for
 
 ### 1.9 Legacy rounds
 
-Nir pastes his two existing manual rounds as plain text files, one file per country, named by country name, into data/legacy/round-1/ and data/legacy/round-2/. The file contains whatever he has: the model's prediction text, possibly the headlines too. pipeline/import_legacy.py (Part 7) converts them into round folders data/rounds/2026-10-04-legacy and data/rounds/2026-10-11-legacy (Nir provides the real approximate dates) with position, three emojis and a TLDR extracted by the model, and no scored forecasts. These become layers 0 and 1 of the first published globe.
+Nir pastes his two existing manual rounds as plain text files, one file per country, named by country name, into data/legacy/round-1/ and data/legacy/round-2/. The file contains whatever he has: the model's prediction text, possibly the headlines too. pipeline/import_legacy.py (Part 7) converts them into round folders data/rounds/2026-10-04/ and data/rounds/2026-10-11/ (Nir provides the real approximate dates, plain date names, no suffix, so sorting stays simple) with "is_legacy": true inside round.json, plus position, three emojis and a TLDR extracted by the model, and no scored forecasts. These become layers 0 and 1 of the first published globe.
 
 ### 1.10 Done criteria for Part 1
 
