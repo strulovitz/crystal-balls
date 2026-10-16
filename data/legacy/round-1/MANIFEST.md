@@ -17,3 +17,4 @@ text and the country, not an exact per-file date.
 | DR Congo | 2026-09-16 | Qwen 3.8 27B abliterated |
 | Iran | 2026-09-16 | Qwen 3.8 27B abliterated |
 | Ukraine | 2026-09-20 | Qwen 3.8 27B abliterated |
+| North Korea | 2026-09-20 | Qwen 3.8 27B abliterated |
