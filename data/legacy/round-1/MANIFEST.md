@@ -30,3 +30,4 @@ text and the country, not an exact per-file date.
 | India | 2026-09-30 | Qwen 3.8 27B abliterated |
 | Egypt | 2026-10-01 | Qwen 3.8 27B abliterated |
 | Turkey | 2026-10-01 | Qwen 3.8 27B abliterated |
+| South Africa | 2026-10-01 | Qwen 3.8 27B abliterated |
