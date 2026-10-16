@@ -90,6 +90,24 @@ def apply_country_cap(out_sources, total_cap=COUNTRY_TOTAL_CAP, min_keep=MIN_KEE
         src["count"] = len(final_items)
 
 
+def compute_window(round_id, settings=None):
+    """The headline window for a round: (start, end) date objects. end is
+    the round date; start is the previous complete round's date (capped to
+    MAX_WINDOW_DAYS back), or 7 days back if there is no previous round.
+    Shared by fetch_round() and run_round.py (which needs the same window
+    for the position/wind prompts even with --skip-fetch)."""
+    if settings is None:
+        settings = load_settings()
+    end = date.fromisoformat(round_id)
+    prev = find_previous_round(round_id)
+    max_days = int(settings.get("MAX_WINDOW_DAYS", 14))
+    if prev:
+        start = max(date.fromisoformat(prev), end - timedelta(days=max_days))
+    else:
+        start = end - timedelta(days=7)
+    return start, end
+
+
 def fetch_country(country, sources, start, end, round_id):
     seen = set()
     out_sources = []
@@ -141,6 +159,40 @@ def fetch_country(country, sources, start, end, round_id):
     }
 
 
+def fetch_round(round_id, countries=None, only_codes=None, force=False, settings=None):
+    """Fetch headlines for every (selected) country of one round, skipping
+    files that already exist unless force=True. Importable by run_round.py
+    (Bible 7.3 step 3: "import it, do not shell out"). Returns the window
+    (start, end) as date objects."""
+    if settings is None:
+        settings = load_settings()
+    if countries is None:
+        countries = load_json(ROOT / "config" / "countries.json")
+    sources = load_json(ROOT / "config" / "sources.json")
+    start, end = compute_window(round_id, settings)
+    prev = find_previous_round(round_id)
+
+    out_dir = ROOT / "data" / "rounds" / round_id / "headlines"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    set_log_round(round_id)
+    if only_codes:
+        wanted = set(only_codes)
+        countries = [c for c in countries if c["code"] in wanted]
+
+    log(f"Fetching headlines for round {round_id}, window {start} to {end}, previous round: {prev or 'none'}")
+    for i, c in enumerate(countries, 1):
+        path = out_dir / f"{c['code']}.json"
+        if path.exists() and not force:
+            log(f"Country {i} of {len(countries)}: {c['name']} already fetched, skipping")
+            continue
+        log(f"Country {i} of {len(countries)}: {c['name']}")
+        data = fetch_country(c, sources, start, end, round_id)
+        save_json(path, data)
+        log(f"  total {data['total_items']} headlines")
+    log("Headline fetch complete.")
+    return start, end
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--round", default=date.today().isoformat())
@@ -148,35 +200,8 @@ def main():
     ap.add_argument("--only", help="comma-separated country codes, for testing")
     args = ap.parse_args()
 
-    settings = load_settings()
-    countries = load_json(ROOT / "config" / "countries.json")
-    sources = load_json(ROOT / "config" / "sources.json")
-    end = date.fromisoformat(args.round)
-    prev = find_previous_round(args.round)
-    max_days = int(settings.get("MAX_WINDOW_DAYS", 14))
-    if prev:
-        start = max(date.fromisoformat(prev), end - timedelta(days=max_days))
-    else:
-        start = end - timedelta(days=7)
-
-    out_dir = ROOT / "data" / "rounds" / args.round / "headlines"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    set_log_round(args.round)
-    if args.only:
-        wanted = set(args.only.split(","))
-        countries = [c for c in countries if c["code"] in wanted]
-
-    log(f"Fetching headlines for round {args.round}, window {start} to {end}, previous round: {prev or 'none'}")
-    for i, c in enumerate(countries, 1):
-        path = out_dir / f"{c['code']}.json"
-        if path.exists() and not args.force:
-            log(f"Country {i} of {len(countries)}: {c['name']} already fetched, skipping")
-            continue
-        log(f"Country {i} of {len(countries)}: {c['name']}")
-        data = fetch_country(c, sources, start, end, args.round)
-        save_json(path, data)
-        log(f"  total {data['total_items']} headlines")
-    log("Headline fetch complete.")
+    only_codes = set(args.only.split(",")) if args.only else None
+    fetch_round(args.round, only_codes=only_codes, force=args.force)
 
 
 if __name__ == "__main__":

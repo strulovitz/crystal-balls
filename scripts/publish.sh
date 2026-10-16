@@ -20,8 +20,37 @@ if [ "${1:-}" = "--in-terminal" ] && [ -z "${CRYSTAL_BALLS_IN_TERMINAL:-}" ]; th
   fi
 fi
 
-echo "$(date '+%Y-%m-%d %H:%M:%S') Crystal Balls — Publish to Website"
-echo "Pipeline not implemented yet (Part 7)."
+say() { echo "[$(date '+%H:%M:%S')] $*"; }
+
+say "Pulling latest from GitHub..."
+if ! git pull --rebase; then
+  say "git pull failed."
+  exit 1
+fi
+
+say "Building site data..."
+"$REPO_DIR/.venv/bin/python" pipeline/build_site_data.py
+
+say "Updating the public folder..."
+mkdir -p public
+rsync -a --delete --exclude data site/ public/
+mkdir -p public/data/rounds
+cp data/index.json data/meta.json data/scorecard.json public/data/
+for R in data/rounds/*/; do
+  if [ -f "$R/round.json" ] && grep -q '"status": "complete"' "$R/round.json"; then
+    N="$(basename "$R")"
+    mkdir -p "public/data/rounds/$N"
+    rsync -a --delete --include='bundle.json' --include='round.json' --include='countries/***' \
+      --exclude='*' "$R" "public/data/rounds/$N/"
+  fi
+done
+
+if pgrep -x caddy >/dev/null 2>&1; then
+  say "Websites are ON. The new round is live at https://www.strulovitz.org/crystal-balls/"
+else
+  say "Websites are OFF right now. The page will be live next time you turn the websites on."
+fi
+say "Publish done."
 
 if [ -n "${CRYSTAL_BALLS_IN_TERMINAL:-}" ] && [ "${1:-}" = "--in-terminal" ]; then
   read -p "Press Enter to close. "

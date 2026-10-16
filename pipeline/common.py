@@ -1177,10 +1177,19 @@ def _llm_test():
         print(json.dumps(display, indent=2, ensure_ascii=False))
 
 
+def _ping():
+    """python3 -m pipeline.common --ping (Bible 7.7): exit 0 if the model
+    server answers, 1 otherwise. Used by run_round.sh before a round."""
+    ok = llm_ping()
+    sys.exit(0 if ok else 1)
+
+
 if __name__ == "__main__":
     if "--selftest" in sys.argv:
         _selftest()
     elif "--llm-test" in sys.argv:
         _llm_test()
+    elif "--ping" in sys.argv:
+        _ping()
     else:
-        print("Usage: python3 -m pipeline.common --selftest | --llm-test")
+        print("Usage: python3 -m pipeline.common --selftest | --llm-test | --ping")
