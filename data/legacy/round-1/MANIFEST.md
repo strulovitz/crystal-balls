@@ -22,3 +22,4 @@ text and the country, not an exact per-file date.
 | Canada | 2026-09-21 | Qwen 3.8 27B abliterated |
 | Iraq | 2026-09-21 | Qwen 3.8 27B abliterated |
 | Saudi Arabia | 2026-09-21 | Qwen 3.8 27B abliterated |
+| Indonesia | 2026-09-26 | Qwen 3.8 27B abliterated |
