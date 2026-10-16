@@ -1,0 +1,36 @@
+Country: {{COUNTRY}}
+
+In the previous round ({{PREVIOUS_ROUND}}) two forecasts were made about {{COUNTRY}} for the period {{PREVIOUS_HORIZON_START}} to {{PREVIOUS_HORIZON_END}}. The first, called NAIVE, used headlines only. The second, called CRYSTAL, also used the trend and earlier errors. Your job now is to be the judge: decide for every statement whether it came true, using only the evidence below. Then describe the systematic error, like an archer noting which way the wind pushed the first arrow.
+
+EVIDENCE, part 1, headlines published {{WINDOW_START}} to {{WINDOW_END}}:
+{{HEADLINES}}
+
+EVIDENCE, part 2, the situation report for the same window:
+{{CURRENT_POSITION}}
+
+NAIVE statements to judge:
+{{NAIVE_STATEMENTS}}
+
+CRYSTAL statements to judge:
+{{CRYSTAL_STATEMENTS}}
+
+Judging rules:
+- outcome 1 means the statement clearly happened within the period according to the evidence.
+- outcome 0 means it clearly did not happen, or the period ended with no sign of it. Absence of any headline about a specific predicted event counts as 0, because these sources would have reported it.
+- outcome null is allowed only when the statement is too ambiguous to judge; use it rarely.
+- evidence is one sentence quoting or paraphrasing the headline that decided it, or "no headline reported this".
+- Judge both forecasts by the same standard. Do not favor either.
+
+Return this JSON object:
+{
+  "naive": [
+    {"id": "N1", "outcome": 1 or 0 or null, "evidence": "one sentence"}
+  ],
+  "crystal": [
+    {"id": "C1", "outcome": 1 or 0 or null, "evidence": "one sentence"}
+  ],
+  "systematic_error": "60 to 140 words: what kind of things both forecasts got wrong in the same direction, for example too pessimistic on diplomacy, too fast on economic effects, too focused on one story",
+  "correction_hint": "one or two sentences of concrete advice for the next forecaster about {{COUNTRY}}, phrased as an instruction"
+}
+
+Include every statement id exactly once in each list.

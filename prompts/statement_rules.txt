@@ -1,0 +1,8 @@
+Rules for the five statements:
+1. Each statement is one sentence about something that can be checked from news headlines published between {{HORIZON_START}} and {{HORIZON_END}}.
+2. Each statement describes a specific observable event: an announcement, a vote, a strike, an attack, a visit, a decision, a number crossing a threshold, a resignation, a court ruling. Not a mood, not a trend, not "tensions remain high".
+3. No vague verbs. Forbidden words: may, might, could, possibly, likely, continue, remain, ongoing.
+4. Probabilities are decimals between 0.05 and 0.95. At least one statement below 0.5 and at least one above 0.5. Avoid 0.5 itself.
+5. Cover at least two different domains from: politics, security, economy, diplomacy, society, technology, health, environment.
+6. Make at least one statement that would be surprising if true, and give it the low probability it deserves. Calibration is scored: an event you give 0.8 should happen about 8 times out of 10.
+7. Statement ids are {{ID_PREFIX}}1 to {{ID_PREFIX}}5.

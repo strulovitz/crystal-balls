@@ -1,0 +1,28 @@
+Country: {{COUNTRY}}
+Forecast horizon: {{HORIZON_START}} to {{HORIZON_END}}
+
+Write the public-facing display texts for the Crystal Balls forecast of {{COUNTRY}}. Visitors of a website will see the headline and emojis on a globe, the TLDR in a popup, and the ELI5 when they click "read more". Write for curious people with no background knowledge. Be concrete and vivid, never vague, never condescending.
+
+THE FORECAST:
+{{CRYSTAL_SUMMARY}}
+
+Reasoning behind it:
+{{CRYSTAL_REASONING}}
+
+Statements with probabilities:
+{{CRYSTAL_STATEMENTS}}
+
+Current situation for context:
+{{CURRENT_POSITION}}
+
+Emoji vocabulary (choose exactly three different emojis that best summarize the coming week; the first is the most important):
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "headline": "at most 12 words, newspaper style, no final period, about next week",
+  "emojis": ["one", "two", "three"],
+  "emoji_reasons": ["one sentence each"],
+  "tldr": "two or three sentences, at most 60 words, what to expect next week in {{COUNTRY}}",
+  "eli5": "three to five short paragraphs separated by blank lines: what is going on, why, what will probably happen next, what would be a surprise. Explain as if to a smart 12-year-old. Mention at least two of the probabilities in words such as 'about a one in three chance'."
+}

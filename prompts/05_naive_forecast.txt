@@ -1,0 +1,18 @@
+Country: {{COUNTRY}}
+Forecast horizon: {{HORIZON_START}} to {{HORIZON_END}}
+
+Below are the headlines about {{COUNTRY}} from the past week. Forecast what will happen in {{COUNTRY}} during the horizon, using these headlines and your general knowledge only. This is the plain forecast; you have no information about earlier weeks or earlier forecasts.
+
+{{HEADLINES}}
+
+{{STATEMENT_RULES}}
+
+Return this JSON object:
+{
+  "summary": "100 to 180 words, future tense, what the coming week will most probably bring and why",
+  "statements": [
+    {"id": "N1", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "one of the domain names"}
+  ]
+}
+
+Exactly five statements.

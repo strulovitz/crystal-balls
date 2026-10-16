@@ -1,0 +1,24 @@
+Country: {{COUNTRY}}
+Reporting window: {{WINDOW_START}} to {{WINDOW_END}}
+
+Below are the headlines published about {{COUNTRY}} during the window, grouped by source. Your task is to describe what actually happened in and around {{COUNTRY}} during this window, based only on these headlines. Do not forecast anything in this answer. If headlines contradict each other, say so in the summary. Ignore headlines that are not really about {{COUNTRY}}.
+
+{{HEADLINES}}
+
+Emoji vocabulary (choose exactly three different emojis from this list that best summarize the window; the first is the most important):
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "summary": "120 to 220 words, plain English, past tense, what happened and why it matters",
+  "key_events": [
+    {"event": "one sentence", "date": "YYYY-MM-DD or null", "domain": "one of politics, security, economy, diplomacy, society, technology, health, environment", "importance": 1 to 5}
+  ],
+  "mood": "one of escalating, tense, stable, improving, mixed",
+  "intensity": 1 to 10 where 1 is a sleepy week and 10 is war or national crisis,
+  "domains_active": ["two to four domain names from the list above"],
+  "emojis": ["one", "two", "three"],
+  "emoji_reasons": ["one sentence each, pointing to the headline that justifies the emoji"]
+}
+
+key_events has between 4 and 10 entries, most important first.

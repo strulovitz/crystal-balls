@@ -1,0 +1,29 @@
+Country: {{COUNTRY}}
+Approximate date of this material: {{ROUND}}
+
+Below is a text that was produced by hand in an earlier version of this project. It contains a model's reading of one week of headlines about {{COUNTRY}} and its prediction for the following week, possibly with the headlines themselves. Extract from it a situation report (what the text says happened) and a display summary (what the text predicted). If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
+
+LEGACY TEXT:
+{{LEGACY_TEXT}}
+
+Emoji vocabulary:
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "position": {
+    "summary": "120 to 220 words, past tense, what happened according to the text",
+    "key_events": [{"event": "one sentence", "date": null, "domain": "domain name", "importance": 1 to 5}],
+    "mood": "one of escalating, tense, stable, improving, mixed",
+    "intensity": 1 to 10,
+    "domains_active": ["two to four domain names"],
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"]
+  },
+  "display": {
+    "headline": "at most 12 words about what the text predicted",
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"],
+    "tldr": "two or three sentences, at most 60 words, what the text predicted"
+  }
+}

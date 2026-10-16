@@ -1,0 +1,20 @@
+Country: {{COUNTRY}}
+
+You are comparing two consecutive situation reports for {{COUNTRY}}, like comparing two photographs of a moving car to understand its direction and speed. The first report is from the previous round, the second from the current round. Describe the change: what grew, what faded, what appeared for the first time, and how fast things are moving. Do not forecast anything yet.
+
+PREVIOUS REPORT ({{PREVIOUS_ROUND}}):
+{{PREVIOUS_POSITION}}
+
+CURRENT REPORT ({{ROUND}}):
+{{CURRENT_POSITION}}
+
+Return this JSON object:
+{
+  "summary": "100 to 180 words describing the direction and speed of change between the two reports",
+  "direction": "one of escalating, de-escalating, shifting, steady",
+  "speed": 1 to 10 where 1 is almost no change and 10 is a complete transformation of the agenda,
+  "intensity_change": integer from -9 to 9, current intensity minus previous intensity as you judge it,
+  "rising": ["one to four short phrases for themes that grew"],
+  "fading": ["zero to four short phrases for themes that shrank or disappeared"],
+  "new": ["zero to four short phrases for themes absent last time and present now"]
+}

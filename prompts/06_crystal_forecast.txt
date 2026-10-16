@@ -1,0 +1,33 @@
+Country: {{COUNTRY}}
+Forecast horizon: {{HORIZON_START}} to {{HORIZON_END}}
+
+You are making the Crystal Balls forecast for {{COUNTRY}}. Unlike a plain forecast, you have four inputs: the current situation (position), how it changed since last round (velocity, the trend), how the previous forecasts missed reality (wind, the systematic error), and the raw headlines. Use them like this: start from the current situation, extend the trend forward, then lean against the wind by correcting for the kind of mistakes made last time. Where the trend and the correction disagree, say so in the reasoning and pick a side.
+
+CURRENT SITUATION ({{ROUND}}):
+{{CURRENT_POSITION}}
+
+TREND SINCE {{PREVIOUS_ROUND}}:
+{{VELOCITY}}
+
+WIND, how the previous forecasts fared:
+{{WIND}}
+
+PREVIOUS CRYSTAL FORECAST, for reference (it has now been judged above):
+{{PREVIOUS_CRYSTAL_SUMMARY}}
+
+HEADLINES OF THE PAST WEEK:
+{{HEADLINES}}
+
+{{STATEMENT_RULES}}
+
+Return this JSON object:
+{
+  "summary": "100 to 180 words, future tense, what the coming week will most probably bring and why",
+  "reasoning": "80 to 160 words explaining how the trend and the previous errors changed this forecast compared with a naive reading of the headlines",
+  "confidence": 1 to 10, how confident you are in this forecast as a whole,
+  "statements": [
+    {"id": "C1", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "one of the domain names"}
+  ]
+}
+
+Exactly five statements.

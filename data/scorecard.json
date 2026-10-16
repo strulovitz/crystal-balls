@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T19:16:18+03:00",
+  "baseline_brier_always_50_percent": 0.25,
+  "rounds_scored": 0,
+  "country_rounds_scored": 0,
+  "crystal_wins": 0,
+  "naive_wins": 0,
+  "ties": 0,
+  "crystal_win_rate": null,
+  "mean_brier_crystal": null,
+  "mean_brier_naive": null,
+  "per_round": [],
+  "per_country": {},
+  "calibration": {
+    "crystal": [
+      {
+        "range": [
+          0.0,
+          0.1
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.1,
+          0.2
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.2,
+          0.3
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.3,
+          0.4
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.4,
+          0.5
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.5,
+          0.6
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.6,
+          0.7
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.7,
+          0.8
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.8,
+          0.9
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.9,
+          1.0
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      }
+    ],
+    "naive": [
+      {
+        "range": [
+          0.0,
+          0.1
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.1,
+          0.2
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.2,
+          0.3
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.3,
+          0.4
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.4,
+          0.5
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.5,
+          0.6
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.6,
+          0.7
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.7,
+          0.8
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.8,
+          0.9
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      },
+      {
+        "range": [
+          0.9,
+          1.0
+        ],
+        "count": 0,
+        "mean_probability": null,
+        "observed_frequency": null
+      }
+    ]
+  }
+}
