@@ -1,14 +1,14 @@
 [
-  {"name": "Reuters", "domain": "reuters.com", "language": "en"},
-  {"name": "Associated Press", "domain": "apnews.com", "language": "en"},
-  {"name": "Agence France-Presse", "domain": "afp.com", "language": "en"},
-  {"name": "BBC", "domain": "bbc.com", "language": "en"},
-  {"name": "CNN", "domain": "cnn.com", "language": "en"},
-  {"name": "Deutsche Welle", "domain": "dw.com", "language": "en"},
-  {"name": "TV5Monde", "domain": "tv5monde.com", "language": "fr"},
-  {"name": "Bloomberg", "domain": "bloomberg.com", "language": "en"},
-  {"name": "The Wall Street Journal", "domain": "wsj.com", "language": "en"},
-  {"name": "Financial Times", "domain": "ft.com", "language": "en"},
-  {"name": "CNBC", "domain": "cnbc.com", "language": "en"},
-  {"name": "Al Jazeera English", "domain": "aljazeera.com", "language": "en"}
+  {"id":"reuters","name":"Reuters","domain":"reuters.com","lang":"en"},
+  {"id":"ap","name":"Associated Press","domain":"apnews.com","lang":"en"},
+  {"id":"afp","name":"AFP","domain":"afp.com","lang":"en"},
+  {"id":"bbc","name":"BBC","domain":"bbc.com","lang":"en"},
+  {"id":"cnn","name":"CNN","domain":"cnn.com","lang":"en"},
+  {"id":"dw","name":"Deutsche Welle","domain":"dw.com","lang":"en"},
+  {"id":"tv5monde","name":"TV5Monde","domain":"tv5monde.com","lang":"fr"},
+  {"id":"bloomberg","name":"Bloomberg","domain":"bloomberg.com","lang":"en"},
+  {"id":"wsj","name":"Wall Street Journal","domain":"wsj.com","lang":"en"},
+  {"id":"ft","name":"Financial Times","domain":"ft.com","lang":"en"},
+  {"id":"cnbc","name":"CNBC","domain":"cnbc.com","lang":"en"},
+  {"id":"aljazeera","name":"Al Jazeera","domain":"aljazeera.com","lang":"en"}
 ]
