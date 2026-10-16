@@ -12,3 +12,4 @@ text and the country, not an exact per-file date.
 |---|---|---|
 | Israel | 2026-09-15 | Qwen 3.8 27B abliterated |
 | United States | 2026-09-15 | Qwen 3.8 27B abliterated |
+| Russia | 2026-09-16 | Qwen 3.8 27B abliterated |
