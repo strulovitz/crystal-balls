@@ -14,7 +14,8 @@ let countriesMeta = [], countriesByCode = {}, vocabulary = [], vocabByEmoji = {}
 let indexData = null, scorecardData = null;
 let currentRoundId = null, previousRoundId = null, nextRoundId = null;
 let bundleR = null, bundleP = null, bundleNext = null; // bundleNext used for outcomes on R's statements
-let sprites = []; // { sprite, code, layer, anchor: Vector3 }
+let sprites = []; // { sprite, code, layer, anchor: Vector3 } — anchor is meaningful only for OUTER (Bible 6.16)
+let spritesByCountry = {}; // code -> { 0: entry, 1: entry, 2: entry }
 let connectorLine = null;
 let hoveredCode = null, selectedCode = null;
 let pointerDownPos = null, pointerMoved = false;
@@ -32,7 +33,7 @@ const RADIUS = { 2: 1.00, 1: 0.74, 0: 0.50 };
 const SPRITE_SIZE = { 2: [0.26, 0.235], 1: [0.21, 0.19], 0: [0.17, 0.154] };
 const SPRITE_COLOR = { 2: 0xffffff, 1: 0xaaaaaa, 0: 0x585858 };
 const HOVER_COLOR = 0xffffff;
-const SPRITE_CENTER_Y = { 2: 0.0, 1: 1.08, 0: 2.55 };
+const SPRITE_CENTER = 0.5; // Bible 6.16: all cards centered; middle/inner repositioned in screen space each frame.
 const RENDER_ORDER = { 0: 10, 1: 20, 2: 30 };
 
 // ---------------------------------------------------------------------
@@ -459,6 +460,7 @@ async function rebuildCards() {
     s.sprite.material.dispose();
   });
   sprites = [];
+  spritesByCountry = {};
   if (connectorLine) { globeGroup.remove(connectorLine); connectorLine = null; }
 
   // Preload every flag + emoji PNG we need for this round.
@@ -494,16 +496,20 @@ async function rebuildCards() {
       });
       const sprite = new THREE.Sprite(mat);
       sprite.scale.set(w, h, 1);
-      sprite.center.set(0.5, SPRITE_CENTER_Y[layer]);
+      sprite.center.set(SPRITE_CENTER, SPRITE_CENTER);
       sprite.renderOrder = RENDER_ORDER[layer];
 
-      const r = RADIUS[layer];
-      const anchor = latLngToVector3(country.lat, country.lng, r * 1.015);
+      // Bible 6.16: only the outer card gets a real 3D anchor on its own
+      // globe. Middle and inner start at the same local position and are
+      // repositioned every frame in screen space by updateCardColumns().
+      const anchor = latLngToVector3(country.lat, country.lng, RADIUS[LAYER.OUTER] * 1.015);
       sprite.position.copy(anchor);
       sprite.userData = { code: country.code, layer, anchor, baseColor: SPRITE_COLOR[layer] };
 
       globeGroup.add(sprite);
-      sprites.push({ sprite, code: country.code, layer, anchor });
+      const entry = { sprite, code: country.code, layer, anchor };
+      sprites.push(entry);
+      (spritesByCountry[country.code] = spritesByCountry[country.code] || {})[layer] = entry;
     }
   }
 }
@@ -515,44 +521,93 @@ function emojiToTwemoji(emoji) {
 }
 
 // ---------------------------------------------------------------------
-// Per-frame update: fading, hover, connector line (Bible 6.6, 6.7)
+// Per-frame update: screen-space column stacking, fading, hover,
+// connector line (Bible 6.16, 6.7)
 // ---------------------------------------------------------------------
+
+// Half-heights (world units) used for the vertical gaps between cards,
+// per Bible 6.16's formula.
+const GAP_MIDDLE = SPRITE_SIZE[2][1] * 0.5 + SPRITE_SIZE[1][1] * 0.5 + 0.012;
+const GAP_INNER = SPRITE_SIZE[1][1] * 0.5 + SPRITE_SIZE[0][1] * 0.5 + 0.012;
 
 function animate() {
   requestAnimationFrame(animate);
   controls.update();
-  updateSpriteOpacities();
+  updateCardColumns();
   renderer.render(scene, camera);
 }
 
-function updateSpriteOpacities() {
-  const camDir = camera.position.clone().normalize();
-  sprites.forEach(({ sprite, layer, anchor, code }) => {
-    const worldAnchor = anchor.clone().applyMatrix4(globeGroup.matrixWorld).normalize();
-    const d = worldAnchor.dot(camDir);
-    let visible, opacity;
-    if (layer === LAYER.OUTER) {
-      visible = d > 0.02;
-      opacity = clamp((d - 0.02) / 0.25, 0, 1);
-    } else if (layer === LAYER.MIDDLE) {
-      visible = d > 0.30;
-      opacity = clamp((d - 0.30) / 0.25, 0, 1) * 0.95;
-    } else {
-      visible = d > 0.45;
-      opacity = clamp((d - 0.45) / 0.25, 0, 1) * 0.90;
-    }
-    sprite.visible = visible;
+function worldToScreenScale(worldPoint) {
+  const p1 = worldPoint.clone().project(camera);
+  const offsetPoint = worldPoint.clone().add(camera.up.clone().normalize().multiplyScalar(0.01));
+  const p2 = offsetPoint.clone().project(camera);
+  const dyNdc = Math.abs(p2.y - p1.y);
+  const dyPx = (dyNdc / 2) * renderer.domElement.clientHeight;
+  return dyPx / 0.01; // screen pixels per world unit, at this depth
+}
 
-    const isHovered = (hoveredCode === code) || (selectedCode === code);
-    if (isHovered) {
-      sprite.material.opacity = 1;
-      sprite.material.color.setHex(HOVER_COLOR);
-    } else {
-      const dim = (hoveredCode || selectedCode) ? 0.3 : 1;
-      sprite.material.opacity = opacity * dim;
-      sprite.material.color.setHex(sprite.userData.baseColor);
+function applyLayerVisibility(entry, d) {
+  const { sprite, layer, code } = entry;
+  let visible, opacity;
+  if (layer === LAYER.OUTER) {
+    visible = d > 0.02;
+    opacity = clamp((d - 0.02) / 0.25, 0, 1);
+  } else if (layer === LAYER.MIDDLE) {
+    visible = d > 0.30;
+    opacity = clamp((d - 0.30) / 0.25, 0, 1) * 0.95;
+  } else {
+    visible = d > 0.45;
+    opacity = clamp((d - 0.45) / 0.25, 0, 1) * 0.90;
+  }
+  sprite.visible = visible;
+
+  const isHovered = (hoveredCode === code) || (selectedCode === code);
+  if (isHovered) {
+    sprite.material.opacity = 1;
+    sprite.material.color.setHex(HOVER_COLOR);
+  } else {
+    const dim = (hoveredCode || selectedCode) ? 0.3 : 1;
+    sprite.material.opacity = opacity * dim;
+    sprite.material.color.setHex(sprite.userData.baseColor);
+  }
+}
+
+function updateCardColumns() {
+  const camDir = camera.position.clone().normalize();
+  const invGlobeMatrix = globeGroup.matrixWorld.clone().invert();
+  const ndcPerPx = 2 / renderer.domElement.clientHeight;
+
+  for (const code in spritesByCountry) {
+    const group = spritesByCountry[code];
+    const outer = group[LAYER.OUTER];
+    if (!outer) continue; // no outer card for this country this round
+
+    // Visibility/fading direction d is always computed from the outer
+    // card's own 3D anchor, shared by all three layers (Bible 6.16).
+    const worldAnchorDir = outer.anchor.clone().applyMatrix4(globeGroup.matrixWorld).normalize();
+    const d = worldAnchorDir.dot(camDir);
+    applyLayerVisibility(outer, d);
+
+    const outerWorldPos = outer.sprite.position.clone().applyMatrix4(globeGroup.matrixWorld);
+    const ndc = outerWorldPos.clone().project(camera);
+    const pxPerWorld = worldToScreenScale(outerWorldPos);
+
+    const middle = group[LAYER.MIDDLE];
+    if (middle) {
+      const targetNdc = new THREE.Vector3(ndc.x, ndc.y - GAP_MIDDLE * pxPerWorld * ndcPerPx, ndc.z);
+      const worldPos = targetNdc.unproject(camera);
+      middle.sprite.position.copy(worldPos.applyMatrix4(invGlobeMatrix));
+      applyLayerVisibility(middle, d);
     }
-  });
+
+    const inner = group[LAYER.INNER];
+    if (inner) {
+      const targetNdc = new THREE.Vector3(ndc.x, ndc.y - (GAP_MIDDLE + GAP_INNER) * pxPerWorld * ndcPerPx, ndc.z);
+      const worldPos = targetNdc.unproject(camera);
+      inner.sprite.position.copy(worldPos.applyMatrix4(invGlobeMatrix));
+      applyLayerVisibility(inner, d);
+    }
+  }
 
   updateConnectorLine();
 }
@@ -561,7 +616,11 @@ function updateConnectorLine() {
   const activeCode = hoveredCode || selectedCode;
   if (connectorLine) { globeGroup.remove(connectorLine); connectorLine.geometry.dispose(); connectorLine.material.dispose(); connectorLine = null; }
   if (!activeCode) return;
-  const points = sprites.filter(s => s.code === activeCode).sort((a, b) => a.layer - b.layer).map(s => s.anchor);
+  const group = spritesByCountry[activeCode];
+  if (!group) return;
+  const points = [group[LAYER.OUTER], group[LAYER.MIDDLE], group[LAYER.INNER]]
+    .filter(Boolean)
+    .map(entry => entry.sprite.position);
   if (points.length < 2) return;
   const geom = new THREE.BufferGeometry().setFromPoints(points);
   const mat = new THREE.LineBasicMaterial({ color: 0x6ee7f9, transparent: true, opacity: 0.8 });
