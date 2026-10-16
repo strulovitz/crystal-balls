@@ -227,3 +227,20 @@ The outer globe is clearly white, the middle clearly gray, the inner clearly dar
 ### 6.15 Done criteria for Part 6
 
 python3 pipeline/build_site_data.py downloads the vendor files, the world atlas, and all emoji PNGs (reporting any failures), and produces meta.json, index.json, scorecard.json and bundles from whatever rounds exist. python3 pipeline/make_demo_data.py produces the demo rounds. scripts/dev_server.sh --demo serves a page where: three nested wireframe globes rotate together; 32 countries show flag-plus-three-emoji cards on all three layers with the specified dimming; the cards of a country facing the camera form a column; hover highlights a column and draws the connector line; click opens the panel with headline, emojis, TLDR, the three "how we got here" rows, and the score line; "Read more" opens the modal with ELI5, probability bars, both forecasts, position, velocity and wind; the round selector switches between the two demo rounds; the country picker rotates the globe to the chosen country; list view works; the URL hash deep link works; the page works on a phone-sized viewport in the browser's device emulation. The implementer sends Nir the two screenshots and commits everything.
+
+### 6.16 Column fix: screen-space stacking (replaces the sprite.center offsets of 6.6)
+
+Set sprite.center to (0.5, 0.5) on all cards. Only the outer card is anchored in 3D at latLngToVector3(lat, lng, 1.015). The middle and inner cards are repositioned every frame so they sit directly below the outer card on the screen, at the same camera depth:
+
+```js
+// once per frame, per country, after controls.update()
+const ndc = outerAnchorWorld.clone().project(camera);        // x, y in -1..1, z = depth
+const gapMiddle = 0.235 * 0.5 + 0.19 * 0.5 + 0.012;          // half outer height + half middle height + gap, in world units
+const gapInner  = 0.19 * 0.5 + 0.154 * 0.5 + 0.012;
+const pxPerWorld = worldToScreenScale(outerAnchorWorld);     // helper below
+const ndcPerPx = 2 / renderer.domElement.clientHeight;
+middle.position.copy(new THREE.Vector3(ndc.x, ndc.y - gapMiddle * pxPerWorld * ndcPerPx, ndc.z).unproject(camera));
+inner.position.copy(new THREE.Vector3(ndc.x, ndc.y - (gapMiddle + gapInner) * pxPerWorld * ndcPerPx, ndc.z).unproject(camera));
+```
+
+worldToScreenScale(p) returns how many screen pixels one world unit covers at the depth of point p: project p and p plus the camera's up vector times 0.01, measure the pixel distance, divide by 0.01. The visibility and fading rules of 6.6 keep using the country's own 3D anchor direction d (computed from the outer anchor), unchanged. The connector line of 6.7 goes through the three sprite positions as they are that frame. Result: every visible country shows a perfectly vertical column wherever it is on the globe, with the forecast on top. Re-take the two screenshots after this change.
