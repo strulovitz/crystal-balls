@@ -15,3 +15,4 @@ text and the country, not an exact per-file date.
 | Russia | 2026-09-16 | Qwen 3.8 27B abliterated |
 | China | 2026-09-16 | Qwen 3.8 27B abliterated |
 | DR Congo | 2026-09-16 | Qwen 3.8 27B abliterated |
+| Iran | 2026-09-16 | Qwen 3.8 27B abliterated |
