@@ -25,3 +25,4 @@ text and the country, not an exact per-file date.
 | Indonesia | 2026-09-26 | Qwen 3.8 27B abliterated |
 | Chile | 2026-09-26 | Qwen 3.8 27B abliterated |
 | Peru | 2026-09-26 | Qwen 3.8 27B abliterated |
+| Vietnam | 2026-09-26 | Qwen 3.8 27B abliterated |
