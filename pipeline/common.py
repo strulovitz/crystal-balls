@@ -747,10 +747,14 @@ def _chat_completion(messages, settings, temperature, use_response_format):
     model = settings.get("LLM_MODEL", "qwen-local")
     api_key = settings.get("LLM_API_KEY", "not-needed-for-local")
     timeout = int(settings.get("LLM_TIMEOUT_SECONDS", 600))
+    max_tokens = int(settings.get("LLM_MAX_TOKENS", 4096))
+    reasoning_effort = settings.get("LLM_REASONING_EFFORT", "").strip()
 
-    payload = {"model": model, "messages": messages, "temperature": temperature}
+    payload = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens}
     if use_response_format:
         payload["response_format"] = {"type": "json_object"}
+    if reasoning_effort:
+        payload["reasoning_effort"] = reasoning_effort
 
     headers = {"Content-Type": "application/json"}
     if api_key and api_key != "not-needed-for-local":
