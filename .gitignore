@@ -1,0 +1,5 @@
+config/settings.env
+pipeline/__pycache__/
+.venv/
+*.pyc
+data/rounds/*/logs/*.tmp
