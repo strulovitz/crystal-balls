@@ -5,12 +5,19 @@ Read this FIRST when the new session starts.
 ## IMPORTANT: Fable is NOT consulted mid-task, only notified at the end
 
 Nir's rule, said directly tonight: just build the fix below yourself, no
-waiting on anyone, no asking Fable for design input. There is a file
+waiting on Fable, no asking Fable for design input. There is a file
 `FYI-FOR-FABLE-LEGACY-FORECASTS-2026-10-17.md` in the repo root — it is a
 ONE-WAY NOTIFICATION draft, to be finished and sent to Fable only once
 everything below is actually done. Update its bracketed [[Sonnet: ...]]
 notes with the real final approach as you build it. Do not treat it as a
 question to wait on an answer for.
+
+THIS DOES NOT CHANGE THE RULE ABOUT NIR. Writing code, writing prompts,
+and testing with --mock-llm need nobody's go-ahead — just do them. But
+every REAL model call (anything that is not --mock-llm) still needs
+Nir's own explicit, unambiguous go-ahead first, every single time, same
+as always. "No waiting on anyone" means Fable only. It does not mean
+Nir.
 
 ## What's DONE, verified, committed, pushed (do not redo)
 
@@ -76,10 +83,11 @@ it already has, twice, differently.
 6. Re-run the real round for 2026-10-17 again too (Israel+USA, --only
    IL,US --no-finalize), since wind for today's round depends on Point
    2's forecast — it should now score something other than a forced tie.
-7. Validate, commit, push. Update this repo's docs if the schema/approach
-   changed (Bible part-02/part-07 already documents the duplicate-copy
-   approach from today — if the two-forecast approach replaces it, update
-   those same two files again, same spirit as commit 67c2c54).
+7. Validate, commit, push. Update the FYI-FOR-FABLE file's bracketed
+   notes with the real final approach used. DO NOT touch Bible part-02 or
+   part-07 again based on this — those stay as Sonnet left them earlier
+   today until Fable actually replies (per tonight's correction: Fable is
+   notified at the end, the Bible is only changed if/when he says so).
 
 ## Standing rules (apply every time, no exceptions)
 
