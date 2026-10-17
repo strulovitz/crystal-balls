@@ -91,6 +91,11 @@ running as a daemon.
   more thinking = better quality, not something to cut down for speed on his
   own hardware. Any future Bible guidance about "reasoning_effort=low to
   save time" should be reconsidered/removed in light of this.
+- temperature was also wrong (0.4) and top_p/top_k/min_p were never sent at
+  all. Both fixed to match the model's own documented recommended thinking-
+  mode settings (straight from Unsloth's official docs): temperature=1.0,
+  top_p=0.95, top_k=20, min_p=0.0. pipeline/common.py now reads and sends
+  LLM_TOP_P/LLM_TOP_K/LLM_MIN_P if set in settings.
 
 
 ## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
