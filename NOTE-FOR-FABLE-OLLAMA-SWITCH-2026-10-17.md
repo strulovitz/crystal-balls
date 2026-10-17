@@ -76,6 +76,17 @@ loading screen to at least 32768") doesn't exist for Ollama running
 headless as a systemd service — there's no loading screen at all once it's
 running as a daemon.
 
+## Fixes applied same day after this was found
+
+- `pipeline/import_legacy.py` had a real bug (time module shadowed, crashed
+  on first real call) — fixed.
+- Ollama now runs with OLLAMA_CONTEXT_LENGTH=262144, OLLAMA_FLASH_ATTENTION=1,
+  OLLAMA_KV_CACHE_TYPE=q8_0 (the last two keep more layers on GPU at this
+  bigger context — verified working, model loads correctly: 25% GPU/75% CPU).
+- config/settings.env LLM_CONTEXT_BUDGET raised from 12000 to 200000 to
+  actually use the verified window instead of truncating prompts pointlessly.
+
+
 ## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
 
 Nir pushed back hard on "32768 because the Bible says so" and demanded the
