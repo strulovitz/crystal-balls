@@ -26,3 +26,4 @@ date, which is expected.
 | India | 2026-10-11 | Qwen 3.8 27B abliterated |
 | Egypt | 2026-10-14 | Qwen 3.8 27B abliterated |
 | Turkey | 2026-10-14 | Qwen 3.8 27B abliterated |
+| South Africa | 2026-10-14 | Qwen 3.8 27B abliterated |
