@@ -14,3 +14,4 @@ date, which is expected.
 | DR Congo | 2026-10-03 | Qwen 3.8 27B abliterated |
 | Iran | 2026-10-04 | Qwen 3.8 27B abliterated |
 | Ukraine | 2026-10-04 | Qwen 3.8 27B abliterated |
+| North Korea | 2026-10-04 | Qwen 3.8 27B abliterated |
