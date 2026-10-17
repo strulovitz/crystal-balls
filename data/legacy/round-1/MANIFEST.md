@@ -40,3 +40,4 @@ text and the country, not an exact per-file date.
 | Singapore | 2026-09-22 | Qwen 3.8 27B abliterated |
 | Brazil | 2026-09-24 | Qwen 3.8 27B abliterated |
 | Australia | 2026-09-24 | Qwen 3.8 27B abliterated |
+| United Kingdom | 2026-09-27 | Qwen 3.8 27B abliterated |
