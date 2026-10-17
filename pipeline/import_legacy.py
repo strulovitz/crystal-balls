@@ -7,6 +7,7 @@ pipeline has a starting velocity and wind baseline (Bible Part 7, section
 import argparse
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -98,7 +99,6 @@ def main():
         validator = lambda obj: common.validate_legacy(obj, vocabulary=vocabulary)
         common.fill_prompt("legacy_import.txt", variables)
         if args.mock_llm:
-            import time
             t0 = time.time()
             obj = mock_llm.mock_response("legacy_import", variables, code, vocabulary=vocabulary)
             validator(obj)
