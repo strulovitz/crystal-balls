@@ -7,6 +7,17 @@ Nir asked you to run this end-to-end, with NO back-and-forth to Sonnet
 unless something genuinely breaks. Both legacy folders already have all
 32 files each (round-1 and round-2) — already verified.
 
+## IMPORTANT: when Nir switches back to Sonnet after this
+
+Whether this run finishes perfectly or you hit a real problem and stop,
+tell Nir to tell Sonnet (the next time Sonnet is active) to read
+`HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` (in the repo root) FIRST.
+That file explains exactly how Sonnet should pick up from here — whether
+everything went fine or you're reporting a real problem list. Make sure
+whatever you tell Nir to pass along includes real numbers (how many
+countries matched, how long it took, any real errors verbatim) so Sonnet
+isn't guessing.
+
 ## What changed today that affects this run (so you understand the timing)
 
 The local model server was switched from Unsloth Studio to Ollama, and
