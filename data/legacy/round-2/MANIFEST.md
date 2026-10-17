@@ -9,3 +9,4 @@ date, which is expected.
 |---|---|---|
 | Israel | 2026-10-02 | Qwen 3.8 27B abliterated |
 | United States | 2026-10-02 | Qwen 3.8 27B abliterated |
+| Russia | 2026-10-02 | Qwen 3.8 27B abliterated |
