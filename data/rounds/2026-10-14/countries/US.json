@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "US",
+  "name": "United States",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T17:55:08+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The United States was in the midst of an active conflict with Iran centered on the Strait of Hormuz, with a seven-day deadline approaching. Iran had proposed a trust-building plan to reopen shipping lanes in exchange for sanctions relief, frozen-fund releases, and nuclear monitoring, but Trump had rejected the original package while mediators pushed for a compromise. The third U.S. aircraft carrier group and thousands of troops were moving into the region. Diesel prices were surging, the 10-year Treasury yield was near or above 5 percent, and the administration was weighing diesel export restrictions while pressuring Europe to release fuel reserves. A Trump-Xi summit had produced partial tariff cuts and an AI communication channel but no full reset. The U.S. had completed its military withdrawal from Iraq after more than two decades. Congress was splitting over Israel policy and war oversight, and the administration was pushing federal agencies to rebrand AI as superintelligence while rejecting new safety legislation. An early-season storm had flooded parts of the Northeast.",
+    "key_events": [
+      {
+        "event": "Iran proposed a seven-day plan to reopen the Strait of Hormuz in exchange for U.S. sanctions relief and nuclear monitoring, which Trump initially rejected.",
+        "date": "2026-10-10",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "The third U.S. aircraft carrier group and thousands of troops began moving into the Middle East region.",
+        "date": "2026-10-12",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The 10-year U.S. Treasury yield approached or crossed 5 percent as bond markets reacted to war-driven energy costs.",
+        "date": "2026-10-13",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Trump-Xi summit produced partial tariff cuts and an AI safety communication channel but no full trade reset.",
+        "date": "2026-10-09",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "The U.S. completed its military withdrawal from Iraq after more than two decades of presence.",
+        "date": "2026-10-11",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "An early-season storm brought flooding and strong winds to the U.S. Northeast.",
+        "date": "2026-10-08",
+        "domain": "environment",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "🚢",
+      "⛽",
+      "💣"
+    ],
+    "emoji_reasons": [
+      "The Strait of Hormuz and shipping lanes are the geographic center of the Iran standoff.",
+      "Diesel prices, fuel reserves, and mortgage rates are the main domestic economic pressures.",
+      "Limited U.S. military strikes or near-strike actions against Iranian targets are a core forecast scenario."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicted the Iran Hormuz deadline would dominate the week, with the most probable outcome being a narrow U.S.-Iran trust-building announcement involving partial Hormuz reopening and targeted sanctions relief, or alternatively limited U.S. military strikes against Iranian or Houthi-linked targets. A major escalation carried a smaller probability. Domestically, diesel prices and the 10-year Treasury yield near 5 percent would create political pressure ahead of midterms, prompting the administration to issue a fuel security order or diesel export quota. Congress would use the war, Israel policy, and fuel costs as midterm attack platforms. U.S.-China tariff product lists would surface from the summit, the Canada trade fight would intensify over alcohol and dairy bans, and the administration would push superintelligence branding across federal agencies while rejecting new AI safety laws. The Iraq withdrawal would be framed as another Trump victory in the war-wins narrative.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The U.S. government announces a limited trust-building agreement with Iran that includes the partial reopening of at least one Strait of Hormuz shipping lane and targeted sanctions relief for specific sectors.",
+        "probability": 0.51,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "The U.S. military conducts limited airstrikes against at least one Iranian missile, drone, or coastal-defense target during the week.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "The Trump administration signs an executive order establishing a temporary U.S. diesel export quota or a national fuel security framework before the end of the week.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "The 10-year U.S. Treasury yield closes a single trading day above 5.0 percent at least once during the week.",
+        "probability": 0.6,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "A U.S. federal agency publishes a new directive or memorandum that designates the national AI program as superintelligence in its official text.",
+        "probability": 0.55,
+        "domain": "technology"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicted the Iran Hormuz deadline would dominate the week, with the most probable outcome being a narrow U.S.-Iran trust-building announcement involving partial Hormuz reopening and targeted sanctions relief, or alternatively limited U.S. military strikes against Iranian or Houthi-linked targets. A major escalation carried a smaller probability. Domestically, diesel prices and the 10-year Treasury yield near 5 percent would create political pressure ahead of midterms, prompting the administration to issue a fuel security order or diesel export quota. Congress would use the war, Israel policy, and fuel costs as midterm attack platforms. U.S.-China tariff product lists would surface from the summit, the Canada trade fight would intensify over alcohol and dairy bans, and the administration would push superintelligence branding across federal agencies while rejecting new AI safety laws. The Iraq withdrawal would be framed as another Trump victory in the war-wins narrative.",
+    "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The U.S. government announces a limited trust-building agreement with Iran that includes the partial reopening of at least one Strait of Hormuz shipping lane and targeted sanctions relief for specific sectors.",
+        "probability": 0.51,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C2",
+        "text": "The U.S. military conducts limited airstrikes against at least one Iranian missile, drone, or coastal-defense target during the week.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "The Trump administration signs an executive order establishing a temporary U.S. diesel export quota or a national fuel security framework before the end of the week.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "The 10-year U.S. Treasury yield closes a single trading day above 5.0 percent at least once during the week.",
+        "probability": 0.6,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "A U.S. federal agency publishes a new directive or memorandum that designates the national AI program as superintelligence in its official text.",
+        "probability": 0.55,
+        "domain": "technology"
+      }
+    ]
+  },
+  "display": {
+    "headline": "U.S. pursues narrow Iran deal as fuel prices sting",
+    "emojis": [
+      "🕊️",
+      "⛽",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The central prediction is a limited trust-building de-escalation between the U.S. and Iran.",
+      "Diesel and gasoline prices are the primary domestic economic pain point for voters.",
+      "Congress will turn the war, fuel costs, and Israel policy into a midterm political brawl."
+    ],
+    "tldr": "The forecast predicted the U.S. would announce a limited Iran trust-building agreement or conduct strikes before the Hormuz deadline, while diesel prices, bond yields, and midterm politics dominated domestic life.",
+    "eli5": null
+  }
+}

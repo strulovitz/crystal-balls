@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "US",
+  "name": "United States",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T17:15:40+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The U.S. entered the period under simultaneous pressure from multiple fronts. The Federal Reserve faced mounting pressure from persistent inflation and 10-year Treasury yields hovering near or above 5 percent, with crude oil trading between 95 and 110 dollars per barrel. The Iran conflict around the Strait of Hormuz remained an active, grinding engagement with periodic military incidents, while Houthi attacks in the Red Sea compounded energy-shipping disruptions. The Pentagon issued a watchdog report flagging advanced munitions shortages and base damage from sustained operations. Congress began preparing hearings on war costs and AI safety as existential-risk warnings from researchers gained public traction. The U.S. imposed new import bans on Canadian dairy, alcohol, and motorcycles, escalating a trade dispute that was already politically painful in border states. A G20 energy summit took place in Texas, and the U.S. confirmed the deployment of weapons in space. Russian deepfake campaigns began circulating in domestic media, adding noise to the midterm cycle. Trump tied oil prices, the Iran war, and inflation directly to the upcoming elections.",
+    "key_events": [
+      {
+        "event": "The Fed faced pressure from inflation and yields near 5 percent, with oil above 95 dollars.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The Iran conflict around the Strait of Hormuz remained an active low-intensity engagement with periodic strikes.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "The U.S. imposed new import bans on Canadian dairy, alcohol, and motorcycles.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The Pentagon released a watchdog report on munitions shortages and base damage.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "AI existential-risk warnings and tech-leader calls for a slowdown intensified the domestic debate.",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "economy",
+      "security",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "🛢️",
+      "⚔️",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Oil prices above 95 dollars and the Iran conflict around Hormuz defined the economic and energy backdrop.",
+      "The U.S.-Iran military engagement and Pentagon munitions shortages made security a dominant theme.",
+      "The Fed's hawkish posture and yields near 5 percent anchored the macroeconomic story."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text predicted a week of managed stress across the U.S. economy and foreign policy. The Fed would deliver a hawkish outcome or aftermath keeping Treasury yields at or above 5 percent, pressuring equities and mortgages. Oil would trade above 95 dollars and potentially break back above 100 as Iran-Hormuz friction continued with at least one new military incident. Congress would hold at least one major hearing on war costs or AI risk but pass no significant legislation. The Canada trade dispute would escalate with new threats and protests while avoiding a full collapse. No formal U.S.-Iran ceasefire would be signed, no major AI law would pass, and no Trump-Xi summit would occur. The dominant mood would be expensive, noisy, politically charged management rather than resolution, with Trump using every issue to set up his midterm narrative. The bottom line: the U.S. manages Iran, talks about AI, postures on Canada trade, fights over inflation, and stages midterm theater.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The 10-year U.S. Treasury yield closes at 5.0 percent or higher on the final trading day of the week ending October 8, 2026.",
+        "probability": 0.85,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "WTI crude oil closes above 100 dollars per barrel at least once during the week of October 1 to October 8, 2026.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "At least one new military incident between the U.S. and Iran—comprising a strike, drone attack, missile launch, or naval engagement—is reported between October 1 and October 8, 2026.",
+        "probability": 0.6,
+        "domain": "security"
+      },
+      {
+        "id": "N4",
+        "text": "The U.S. Congress holds at least one formal hearing on Iran war costs, munitions shortages, or AI safety risk between October 1 and October 8, 2026.",
+        "probability": 0.75,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "The United States and Iran announce a formal ceasefire agreement between October 1 and October 8, 2026.",
+        "probability": 0.2,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text predicted a week of managed stress across the U.S. economy and foreign policy. The Fed would deliver a hawkish outcome or aftermath keeping Treasury yields at or above 5 percent, pressuring equities and mortgages. Oil would trade above 95 dollars and potentially break back above 100 as Iran-Hormuz friction continued with at least one new military incident. Congress would hold at least one major hearing on war costs or AI risk but pass no significant legislation. The Canada trade dispute would escalate with new threats and protests while avoiding a full collapse. No formal U.S.-Iran ceasefire would be signed, no major AI law would pass, and no Trump-Xi summit would occur. The dominant mood would be expensive, noisy, politically charged management rather than resolution, with Trump using every issue to set up his midterm narrative. The bottom line: the U.S. manages Iran, talks about AI, postures on Canada trade, fights over inflation, and stages midterm theater.",
+    "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The 10-year U.S. Treasury yield closes at 5.0 percent or higher on the final trading day of the week ending October 8, 2026.",
+        "probability": 0.85,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "WTI crude oil closes above 100 dollars per barrel at least once during the week of October 1 to October 8, 2026.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "At least one new military incident between the U.S. and Iran—comprising a strike, drone attack, missile launch, or naval engagement—is reported between October 1 and October 8, 2026.",
+        "probability": 0.6,
+        "domain": "security"
+      },
+      {
+        "id": "C4",
+        "text": "The U.S. Congress holds at least one formal hearing on Iran war costs, munitions shortages, or AI safety risk between October 1 and October 8, 2026.",
+        "probability": 0.75,
+        "domain": "politics"
+      },
+      {
+        "id": "C5",
+        "text": "The United States and Iran announce a formal ceasefire agreement between October 1 and October 8, 2026.",
+        "probability": 0.2,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Hawkish Fed, Hot Oil, Iran Stalemate Define the Week",
+    "emojis": [
+      "🗣️",
+      "💰",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "Trump used every crisis to frame his midterm narrative and political messaging.",
+      "Inflation, gas prices, and bond yields drove the cost-of-living story at the center.",
+      "AI became a second major domestic political fight alongside Iran and oil."
+    ],
+    "tldr": "The U.S. spent the week managing multiple simultaneous crises—hawkish Fed pressure, elevated oil prices, and low-level Iran escalation—without resolving any of them. Trump framed every issue as midterm theater, while Congress staged hearings and the Canada trade dispute intensified.",
+    "eli5": null
+  }
+}

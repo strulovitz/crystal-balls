@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "IL",
+  "name": "Israel",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T17:42:57+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "Israel faced two simultaneous security shocks during the forecast period. The FlyDubai cockpit attack, involving an Omani copilot and a hero Indian pilot who prevented a crash, landed as Israeli passengers returned from Dubai weeks before the October 27 election. Simultaneously, leaks revealed that Egypt had warned Netanyahu before the October 7 attack, handing the opposition a potent political weapon. Netanyahu responded by projecting a protector image while his far-right coalition partners, Itamar Ben-Gvir and Bezalel Smotrich, pushed aggressive West Bank and economic moves. Settlers attacked villages and marched during Sukkot. Gaza's war entered its third year with over 74,000 confirmed deaths and strikes still ongoing. The UAE and Saudi Arabia balanced closeness to Israel against post-incident caution. The Netherlands revoked Israeli diplomats' status over settlement sanctions, and the UN expanded its settlement-linked company list. The ZIM/Hapag-Lloyd deal was halted over Gulf-linked stakes. Legal battles over Arab party eligibility consumed the courts. The overall atmosphere was one of mounting pressure ahead of the election.",
+    "key_events": [
+      {
+        "event": "The FlyDubai cockpit attack involving an Omani copilot and a hero Indian pilot became a national security story weeks before the election.",
+        "date": "2026-10-02",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Leaks revealed Egypt had warned Netanyahu before the October 7 attack, giving the opposition a major political weapon.",
+        "date": "2026-10-01",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Netanyahu's secret Abu Dhabi visit included sharing new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed.",
+        "date": "2026-09-28",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Settlers attacked villages and marched between settlements during Sukkot while Israeli forces struggled to control clashes.",
+        "date": "2026-10-03",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The Netherlands revoked Israeli diplomats' status over settlement sanctions and the UN expanded its settlement-linked company list.",
+        "date": "2026-10-04",
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "politics",
+      "security",
+      "diplomacy",
+      "economy"
+    ],
+    "emojis": [
+      "✈️",
+      "⚔️",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "The FlyDubai cockpit attack and its aftermath dominated the security and political narrative.",
+      "The war in Gaza, West Bank violence, and elevated threat levels kept Israel in a fighting posture.",
+      "The October 27 election and campaign clashes between Netanyahu and the opposition framed every other event."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicted Israel would manage two colliding security narratives while running a heated election campaign. Netanyahu would convert the cockpit attack into a survival message and deliver a major state speech at the October 7 anniversary. The opposition would hammer the Egypt warning leak in rallies and Knesset debates. Ben-Gvir would conduct a publicized Al-Aqsa incursion, and Smotrich would announce a fuel subsidy to calm his base. Gaza strikes would persist without a full ceasefire, with Qatar pushing for humanitarian packages. Israel would announce new cockpit security regulations including biometric pilot verification at Ben Gurion Airport. Europe would escalate with a new visa or trade measure targeting Israel over settlements. The Gulf would stay cautious, with the Omani copilot connection complicating any clean Iran narrative. Security services would maintain elevated alert levels with tighter airport and border checks. No formal ceasefire, no government collapse, and no Saudi normalization were expected within the week.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Israel's government announces new cockpit security regulations including biometric pilot verification requirements at Ben Gurion Airport.",
+        "probability": 0.8,
+        "domain": "security"
+      },
+      {
+        "id": "N2",
+        "text": "Prime Minister Netanyahu delivers a formal campaign speech at the October 7 anniversary state commemoration in the Knesset or at Yad Vashem.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "N3",
+        "text": "Itamar Ben-Gvir enters the Al-Aqsa compound in a publicized incursion accompanied by far-right followers.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "N4",
+        "text": "Finance Minister Smotrich announces a new fuel price subsidy or one-time cash transfer package for voters before the election.",
+        "probability": 0.45,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "Israel announces retaliatory visa restrictions or a formal trade complaint targeting the UK or France over settlement-related sanctions.",
+        "probability": 0.4,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicted Israel would manage two colliding security narratives while running a heated election campaign. Netanyahu would convert the cockpit attack into a survival message and deliver a major state speech at the October 7 anniversary. The opposition would hammer the Egypt warning leak in rallies and Knesset debates. Ben-Gvir would conduct a publicized Al-Aqsa incursion, and Smotrich would announce a fuel subsidy to calm his base. Gaza strikes would persist without a full ceasefire, with Qatar pushing for humanitarian packages. Israel would announce new cockpit security regulations including biometric pilot verification at Ben Gurion Airport. Europe would escalate with a new visa or trade measure targeting Israel over settlements. The Gulf would stay cautious, with the Omani copilot connection complicating any clean Iran narrative. Security services would maintain elevated alert levels with tighter airport and border checks. No formal ceasefire, no government collapse, and no Saudi normalization were expected within the week.",
+    "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Israel's government announces new cockpit security regulations including biometric pilot verification requirements at Ben Gurion Airport.",
+        "probability": 0.8,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "Prime Minister Netanyahu delivers a formal campaign speech at the October 7 anniversary state commemoration in the Knesset or at Yad Vashem.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "C3",
+        "text": "Itamar Ben-Gvir enters the Al-Aqsa compound in a publicized incursion accompanied by far-right followers.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "Finance Minister Smotrich announces a new fuel price subsidy or one-time cash transfer package for voters before the election.",
+        "probability": 0.45,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "Israel announces retaliatory visa restrictions or a formal trade complaint targeting the UK or France over settlement-related sanctions.",
+        "probability": 0.4,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Israel navigates cockpit crisis and election storm",
+    "emojis": [
+      "✈️",
+      "🗳️",
+      "⚔️"
+    ],
+    "emoji_reasons": [
+      "The FlyDubai cockpit attack was the central security shock of the period.",
+      "The October 27 election and Netanyahu's campaign defined the political stakes.",
+      "Gaza strikes, West Bank clashes, and Gulf tensions kept the military dimension prominent."
+    ],
+    "tldr": "Israel would spend the week managing the cockpit attack aftermath and October 7 anniversary politics while Netanyahu converted fear into campaign fuel. The far-right would push West Bank provocations, Gaza strikes would persist, Europe would escalate diplomatic pressure, and the Gulf would stay cautious. No full ceasefire or government collapse was expected.",
+    "eli5": null
+  }
+}

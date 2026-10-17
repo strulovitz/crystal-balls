@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "IL",
+  "name": "Israel",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T16:49:33+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, Israel was caught in a multi-front escalation across diplomacy, security, and domestic politics. The United Kingdom, France, Canada, and other nations imposed sanctions banning settlement goods and services from Israeli trade, triggering a 30-day countdown toward closure of the British East Jerusalem consulate. Israeli forces conducted repeated airstrikes in Gaza under a US-brokered ceasefire arrangement, with strikes persisting despite the formal designation. The Israel-Lebanon peace talks in Rome were postponed, leaving southern Lebanon under continued air pressure and UNIFIL friction. Prime Minister Netanyahu visited troops on Mount Hermon in southern Syria, provoking a Damascus diplomatic protest. A report surfaced that the United Arab Emirates had warned Netanyahu about an impending threat before the October 7 attacks, igniting a domestic political firestorm with defamation suits and opposition attacks. Houthi forces seized the port of Mokha and issued alerts near the Saudi coast, raising Red Sea shipping risk. The IAEA observed new construction at Iran's Pickaxe Mountain nuclear site. A Gaza documentary titled Naza sparked a cultural-war controversy in Israeli politics. B'Tselem published new reports on West Bank conditions. A water agreement with Jordan lapsed, and an Iranian strike on Jordan damaged US military aircraft. National elections were scheduled for October 27.",
+    "key_events": [
+      {
+        "event": "UK, France, Canada and others imposed sanctions banning settlement goods and services, starting a 30-day consulate closure countdown",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Israel conducted continued airstrikes in Gaza under a US-brokered ceasefire arrangement",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Report emerged that the UAE warned Netanyahu before the October 7 attacks, triggering a domestic political firestorm",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Houthi forces seized the port of Mokha and issued alerts near the Saudi coast, elevating Red Sea risk",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Israel-Lebanon peace talks in Rome were postponed, leaving southern Lebanon under continued air pressure",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "politics",
+      "economy"
+    ],
+    "emojis": [
+      "🚫",
+      "💣",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "Settlement sanctions and the British consulate closure deadline dominate the diplomatic picture.",
+      "Repeated Israeli airstrikes in Gaza, Lebanon, and against Iranian-proxy targets define the security landscape.",
+      "The October 27 election, the UAE warning scandal, and the Naza documentary make domestic politics a central front."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text predicts a tense multi-front week for Israel with no single decisive endgame. Diplomatically, Israel will escalate symbolically against the UK and Europe over settlement sanctions, enforcing or responding to the 30-day British consulate closure deadline and announcing concrete countermeasures. Militarily, Israeli airstrikes in Gaza and southern Lebanon will persist, with at least one high-profile strike drawing international attention. Domestically, the UAE warning report will spawn a formal defamation lawsuit against Haaretz and fuel the pre-election campaign ahead of October 27. The Red Sea corridor will see at least one Houthi or Iranian-backed projectile hit a commercial vessel, spiking oil and shipping headlines. The base case is 60 per cent controlled escalation, 25 per cent a diplomatic lull around holidays, and 15 per cent a sharp escalation driven by a direct Israel-Iran exchange or a major ground operation.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Israel's Foreign Ministry enforces or formally responds to the 30-day closure deadline for the British East Jerusalem consulate by issuing a diplomatic note of protest or announcing at least one concrete countermeasure against UK settlement-sanctions measures.",
+        "probability": 0.88,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "An Israeli airstrike in Gaza kills a named senior Hamas or Palestinian Islamic Jihad commander or causes 50 or more reported civilian deaths in a single incident.",
+        "probability": 0.82,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "Israeli aircraft conduct at least one strike in southern Lebanon before any formal Israel-Lebanon peace agreement takes legal effect.",
+        "probability": 0.77,
+        "domain": "security"
+      },
+      {
+        "id": "N4",
+        "text": "A defamation lawsuit naming Haaretz as defendant is filed in an Israeli court or publicly announced by Netanyahu, a Likud MP, or a government minister over the UAE warning report.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "A Houthi or Iranian-backed projectile strikes a commercial vessel in the Red Sea, the Bab el-Mandeb Strait, or within 50 nautical miles of the Saudi or Jordanian coast.",
+        "probability": 0.4,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text predicts a tense multi-front week for Israel with no single decisive endgame. Diplomatically, Israel will escalate symbolically against the UK and Europe over settlement sanctions, enforcing or responding to the 30-day British consulate closure deadline and announcing concrete countermeasures. Militarily, Israeli airstrikes in Gaza and southern Lebanon will persist, with at least one high-profile strike drawing international attention. Domestically, the UAE warning report will spawn a formal defamation lawsuit against Haaretz and fuel the pre-election campaign ahead of October 27. The Red Sea corridor will see at least one Houthi or Iranian-backed projectile hit a commercial vessel, spiking oil and shipping headlines. The base case is 60 per cent controlled escalation, 25 per cent a diplomatic lull around holidays, and 15 per cent a sharp escalation driven by a direct Israel-Iran exchange or a major ground operation.",
+    "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Israel's Foreign Ministry enforces or formally responds to the 30-day closure deadline for the British East Jerusalem consulate by issuing a diplomatic note of protest or announcing at least one concrete countermeasure against UK settlement-sanctions measures.",
+        "probability": 0.88,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C2",
+        "text": "An Israeli airstrike in Gaza kills a named senior Hamas or Palestinian Islamic Jihad commander or causes 50 or more reported civilian deaths in a single incident.",
+        "probability": 0.82,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "Israeli aircraft conduct at least one strike in southern Lebanon before any formal Israel-Lebanon peace agreement takes legal effect.",
+        "probability": 0.77,
+        "domain": "security"
+      },
+      {
+        "id": "C4",
+        "text": "A defamation lawsuit naming Haaretz as defendant is filed in an Israeli court or publicly announced by Netanyahu, a Likud MP, or a government minister over the UAE warning report.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "C5",
+        "text": "A Houthi or Iranian-backed projectile strikes a commercial vessel in the Red Sea, the Bab el-Mandeb Strait, or within 50 nautical miles of the Saudi or Jordanian coast.",
+        "probability": 0.4,
+        "domain": "economy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Israel faces sanctions row, strikes, and election fight",
+    "emojis": [
+      "🚫",
+      "💣",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "The UK-EU settlement sanctions and consulate closure deadline are the top diplomatic story.",
+      "Continued Israeli strikes in Gaza and Lebanon anchor the security narrative.",
+      "The pre-election fight over the UAE warning and the Naza documentary drive domestic politics."
+    ],
+    "tldr": "Israel will spend the week in controlled escalation: symbolic retaliation against Britain over settlement sanctions, continued selective strikes in Gaza and Lebanon, Red Sea and Hormuz jitters, and a vicious pre-election political fight over the UAE warning and the Naza documentary. A full regional war is possible but not the base case.",
+    "eli5": null
+  }
+}
