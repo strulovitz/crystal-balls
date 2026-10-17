@@ -9,8 +9,8 @@
     "horizon_days": 7,
     "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
     "llm_host": "http://localhost:11434/v1",
-    "started_at": "2026-10-17T17:15:40+03:00",
-    "finished_at": "2026-10-17T17:15:40+03:00",
+    "started_at": "2026-10-17T21:39:34+03:00",
+    "finished_at": "2026-10-17T21:39:34+03:00",
     "status": "complete",
     "countries_total": 2,
     "countries_done": 2,
@@ -26,7 +26,7 @@
       "code": "IL",
       "name": "Israel",
       "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-      "generated_at": "2026-10-17T16:49:33+03:00",
+      "generated_at": "2026-10-17T21:10:49+03:00",
       "status": {
         "position": "done",
         "velocity": "skipped",
@@ -36,56 +36,55 @@
         "display": "done"
       },
       "position": {
-        "summary": "According to the text, Israel was caught in a multi-front escalation across diplomacy, security, and domestic politics. The United Kingdom, France, Canada, and other nations imposed sanctions banning settlement goods and services from Israeli trade, triggering a 30-day countdown toward closure of the British East Jerusalem consulate. Israeli forces conducted repeated airstrikes in Gaza under a US-brokered ceasefire arrangement, with strikes persisting despite the formal designation. The Israel-Lebanon peace talks in Rome were postponed, leaving southern Lebanon under continued air pressure and UNIFIL friction. Prime Minister Netanyahu visited troops on Mount Hermon in southern Syria, provoking a Damascus diplomatic protest. A report surfaced that the United Arab Emirates had warned Netanyahu about an impending threat before the October 7 attacks, igniting a domestic political firestorm with defamation suits and opposition attacks. Houthi forces seized the port of Mokha and issued alerts near the Saudi coast, raising Red Sea shipping risk. The IAEA observed new construction at Iran's Pickaxe Mountain nuclear site. A Gaza documentary titled Naza sparked a cultural-war controversy in Israeli politics. B'Tselem published new reports on West Bank conditions. A water agreement with Jordan lapsed, and an Iranian strike on Jordan damaged US military aircraft. National elections were scheduled for October 27.",
+        "summary": "The text described a week in which Israel faced simultaneous diplomatic, military, and domestic pressures. The United Kingdom, France, and Canada moved to ban settlement goods and services, triggering a sharp diplomatic row that Israel treated as both an economic and political insult. Gaza airstrikes persisted under a US-brokered ceasefire arrangement, with the word ceasefire described as doing heavy lifting. The Israel-Lebanon talks in Rome were postponed, leaving a gap filled by continued strikes and UNIFIL friction. Netanyahu visited troops at Mount Hermon in southern Syria, provoking diplomatic protests from Damascus. The IAEA observed construction activity at Pickaxe Mountain, while Pezeshkian declared Iran would not surrender. The Houthis seized Mokha, raising Red Sea and Saudi-border risks. A report that the UAE had warned Netanyahu before October 7 detonated into a domestic political grenade. The Naza documentary about Gaza ignited a cultural and political storm. Elections were set for October 27, and a water deal with Jordan lapsed amid a reported Iranian strike that damaged US military aircraft on Jordanian soil.",
         "key_events": [
           {
-            "event": "UK, France, Canada and others imposed sanctions banning settlement goods and services, starting a 30-day consulate closure countdown",
+            "event": "The UK, France, and Canada moved to ban settlement goods and services from Israeli-controlled territories.",
             "date": null,
             "domain": "diplomacy",
             "importance": 5
           },
           {
-            "event": "Israel conducted continued airstrikes in Gaza under a US-brokered ceasefire arrangement",
-            "date": null,
-            "domain": "security",
-            "importance": 5
-          },
-          {
-            "event": "Report emerged that the UAE warned Netanyahu before the October 7 attacks, triggering a domestic political firestorm",
+            "event": "A report emerged that the UAE had warned Netanyahu before October 7, triggering a domestic political firestorm.",
             "date": null,
             "domain": "politics",
             "importance": 4
           },
           {
-            "event": "Houthi forces seized the port of Mokha and issued alerts near the Saudi coast, elevating Red Sea risk",
+            "event": "Gaza airstrikes continued under a US-brokered ceasefire arrangement, with the word ceasefire doing heavy diplomatic work.",
             "date": null,
-            "domain": "economy",
+            "domain": "security",
             "importance": 4
           },
           {
-            "event": "Israel-Lebanon peace talks in Rome were postponed, leaving southern Lebanon under continued air pressure",
+            "event": "The Houthis seized Mokha, raising Red Sea and Saudi-border shipping risks.",
+            "date": null,
+            "domain": "security",
+            "importance": 4
+          },
+          {
+            "event": "The Israel-Lebanon talks in Rome were postponed, leaving a diplomatic gap filled by continued Israeli strikes.",
             "date": null,
             "domain": "diplomacy",
             "importance": 3
           }
         ],
-        "mood": "tense",
+        "mood": "escalating",
         "intensity": 7,
         "domains_active": [
           "diplomacy",
           "security",
-          "politics",
-          "economy"
+          "politics"
         ],
         "emojis": [
           "🚫",
-          "💣",
+          "⚔️",
           "🗳️"
         ],
         "emoji_reasons": [
-          "Settlement sanctions and the British consulate closure deadline dominate the diplomatic picture.",
-          "Repeated Israeli airstrikes in Gaza, Lebanon, and against Iranian-proxy targets define the security landscape.",
-          "The October 27 election, the UAE warning scandal, and the Naza documentary make domestic politics a central front."
+          "The UK, France, and Canada settlement-sanctions ban is the dominant diplomatic story of the week.",
+          "Gaza, Lebanon, and Syria strikes keep the military dimension active across multiple fronts.",
+          "The October 27 election and the UAE-warning political grenade define the domestic mood."
         ]
       },
       "velocity": null,
@@ -93,92 +92,92 @@
       "naive_forecast": {
         "horizon_start": "2026-10-01",
         "horizon_end": "2026-10-08",
-        "summary": "The text predicts a tense multi-front week for Israel with no single decisive endgame. Diplomatically, Israel will escalate symbolically against the UK and Europe over settlement sanctions, enforcing or responding to the 30-day British consulate closure deadline and announcing concrete countermeasures. Militarily, Israeli airstrikes in Gaza and southern Lebanon will persist, with at least one high-profile strike drawing international attention. Domestically, the UAE warning report will spawn a formal defamation lawsuit against Haaretz and fuel the pre-election campaign ahead of October 27. The Red Sea corridor will see at least one Houthi or Iranian-backed projectile hit a commercial vessel, spiking oil and shipping headlines. The base case is 60 per cent controlled escalation, 25 per cent a diplomatic lull around holidays, and 15 per cent a sharp escalation driven by a direct Israel-Iran exchange or a major ground operation.",
+        "summary": "The naive reading takes the 60 percent controlled-escalation scenario and the highest-confidence predictions at face value. Israel files formal diplomatic protests against the UK and expands entry restrictions on British diplomats and MPs. A significant strike hits a senior Hamas target in Gaza, drawing international attention. Netanyahu's office files a defamation lawsuit against Haaretz over the UAE pre-October-7 warning report. The IDF conducts an airstrike on a Hezbollah tunnel complex in southern Lebanon during the Rome talks gap. A Houthi projectile targets a commercial vessel near the Bab el-Mandab strait. The week is defined by symbolic diplomatic retaliation, sustained selective military pressure across multiple fronts, and a vicious pre-election political firestorm, with no decisive diplomatic breakthrough or full regional war breaking out.",
         "statements": [
           {
             "id": "N1",
-            "text": "Israel's Foreign Ministry enforces or formally responds to the 30-day closure deadline for the British East Jerusalem consulate by issuing a diplomatic note of protest or announcing at least one concrete countermeasure against UK settlement-sanctions measures.",
+            "text": "Israel announces expanded entry restrictions on British diplomats and MPs in response to the UK settlement-sanctions package.",
             "probability": 0.88,
             "domain": "diplomacy"
           },
           {
             "id": "N2",
-            "text": "An Israeli airstrike in Gaza kills a named senior Hamas or Palestinian Islamic Jihad commander or causes 50 or more reported civilian deaths in a single incident.",
+            "text": "Israel strikes a senior Hamas commander in Gaza, drawing international attention to the target's rank and civilian casualties.",
             "probability": 0.82,
             "domain": "security"
           },
           {
             "id": "N3",
-            "text": "Israeli aircraft conduct at least one strike in southern Lebanon before any formal Israel-Lebanon peace agreement takes legal effect.",
-            "probability": 0.77,
-            "domain": "security"
-          },
-          {
-            "id": "N4",
-            "text": "A defamation lawsuit naming Haaretz as defendant is filed in an Israeli court or publicly announced by Netanyahu, a Likud MP, or a government minister over the UAE warning report.",
+            "text": "Netanyahu's office files a defamation lawsuit against Haaretz over the UAE pre-October-7 warning report.",
             "probability": 0.85,
             "domain": "politics"
           },
           {
+            "id": "N4",
+            "text": "The IDF conducts an airstrike on a Hezbollah tunnel complex in southern Lebanon during the Rome talks gap.",
+            "probability": 0.77,
+            "domain": "security"
+          },
+          {
             "id": "N5",
-            "text": "A Houthi or Iranian-backed projectile strikes a commercial vessel in the Red Sea, the Bab el-Mandeb Strait, or within 50 nautical miles of the Saudi or Jordanian coast.",
+            "text": "A Houthi missile or drone targets a commercial vessel near the Bab el-Mandab strait.",
             "probability": 0.4,
-            "domain": "economy"
+            "domain": "security"
           }
         ]
       },
       "crystal_forecast": {
         "horizon_start": "2026-10-01",
         "horizon_end": "2026-10-08",
-        "summary": "The text predicts a tense multi-front week for Israel with no single decisive endgame. Diplomatically, Israel will escalate symbolically against the UK and Europe over settlement sanctions, enforcing or responding to the 30-day British consulate closure deadline and announcing concrete countermeasures. Militarily, Israeli airstrikes in Gaza and southern Lebanon will persist, with at least one high-profile strike drawing international attention. Domestically, the UAE warning report will spawn a formal defamation lawsuit against Haaretz and fuel the pre-election campaign ahead of October 27. The Red Sea corridor will see at least one Houthi or Iranian-backed projectile hit a commercial vessel, spiking oil and shipping headlines. The base case is 60 per cent controlled escalation, 25 per cent a diplomatic lull around holidays, and 15 per cent a sharp escalation driven by a direct Israel-Iran exchange or a major ground operation.",
-        "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+        "summary": "The crystal reading weighs the full 60-25-15 scenario distribution and the text's own caveats. The 25 percent holiday-calm scenario introduces the possibility that Yom Kippur and Gulf-Iran Hormuz diplomacy produce a temporary operational pause, pulling down the probability of a mid-week Gaza strike from the naive 0.82 to 0.70. The 15 percent sharp-escalation scenario and the text's 25-35 percent estimate for a direct Israel-Iran exchange make an Iranian missile or drone salvo a real tail risk, assigned 0.30. The UAE-warning political fight, while dominant, is tempered by the holiday lull, dropping to 0.55. The IAEA Pickaxe Mountain observation becomes a checkable diplomatic trigger at the intersection of multiple scenarios. The Houthi Bab el-Mandab event remains a moderate-risk surprise. Overall, the crystal reading sees a week that is more volatile at the edges and more uncertain in the middle than the headline case suggests.",
+        "reasoning": "The naive reading isolates the 60 percent base case and the five highest-confidence predictions, treating them as near-certainties. The crystal reading folds in the 25 percent holiday-calm scenario, which the text explicitly ties to Yom Kippur and Gulf-Iran Hormuz diplomacy, and the 15 percent sharp-escalation scenario. This forces a downward adjustment on the Gaza-strike probability from 0.82 to 0.70, a 0.12 shift exceeding the 0.10 threshold, and elevates two minority-scenario events into checkable predictions: the Hormuz shipping arrangement from the 25 percent scenario and the direct Israel-Iran exchange from the 15-35 percent range. The UAE-warning political fight is tempered because, in the holiday-lull scenario, domestic politics yield to diplomacy for several days. The IAEA Pickaxe Mountain observation, mentioned as background in the text, becomes a standalone checkable event because it intersects multiple scenarios simultaneously.",
         "confidence": 5,
         "statements": [
           {
             "id": "C1",
-            "text": "Israel's Foreign Ministry enforces or formally responds to the 30-day closure deadline for the British East Jerusalem consulate by issuing a diplomatic note of protest or announcing at least one concrete countermeasure against UK settlement-sanctions measures.",
-            "probability": 0.88,
+            "text": "Israel and a Gulf state announce a temporary Hormuz shipping arrangement during the Yom Kippur holiday week.",
+            "probability": 0.3,
             "domain": "diplomacy"
           },
           {
             "id": "C2",
-            "text": "An Israeli airstrike in Gaza kills a named senior Hamas or Palestinian Islamic Jihad commander or causes 50 or more reported civilian deaths in a single incident.",
-            "probability": 0.82,
+            "text": "Israel conducts at least one significant airstrike in Gaza before Yom Kippur, followed by a 48-hour operational pause.",
+            "probability": 0.7,
             "domain": "security"
           },
           {
             "id": "C3",
-            "text": "Israeli aircraft conduct at least one strike in southern Lebanon before any formal Israel-Lebanon peace agreement takes legal effect.",
-            "probability": 0.77,
+            "text": "Iran launches a missile or drone salvo toward an Israeli or US-linked military target in the region.",
+            "probability": 0.3,
             "domain": "security"
           },
           {
             "id": "C4",
-            "text": "A defamation lawsuit naming Haaretz as defendant is filed in an Israeli court or publicly announced by Netanyahu, a Likud MP, or a government minister over the UAE warning report.",
-            "probability": 0.85,
+            "text": "An opposition leader announces a formal no-confidence motion citing the UAE pre-October-7 warning report.",
+            "probability": 0.55,
             "domain": "politics"
           },
           {
             "id": "C5",
-            "text": "A Houthi or Iranian-backed projectile strikes a commercial vessel in the Red Sea, the Bab el-Mandeb Strait, or within 50 nautical miles of the Saudi or Jordanian coast.",
-            "probability": 0.4,
-            "domain": "economy"
+            "text": "The IAEA publishes a preliminary finding on Pickaxe Mountain construction that triggers Israeli and US diplomatic statements within 24 hours.",
+            "probability": 0.45,
+            "domain": "diplomacy"
           }
         ]
       },
       "display": {
-        "headline": "Israel faces sanctions row, strikes, and election fight",
+        "headline": "Israel faces multi-front escalation ahead of October election",
         "emojis": [
           "🚫",
           "💣",
           "🗳️"
         ],
         "emoji_reasons": [
-          "The UK-EU settlement sanctions and consulate closure deadline are the top diplomatic story.",
-          "Continued Israeli strikes in Gaza and Lebanon anchor the security narrative.",
-          "The pre-election fight over the UAE warning and the Naza documentary drive domestic politics."
+          "Settlement sanctions from Britain and Europe form the central diplomatic conflict.",
+          "Selective airstrikes in Gaza, Lebanon, and Syria keep the military escalation live.",
+          "The pre-election political fight over the UAE warning and the Naza documentary shapes the domestic narrative."
         ],
-        "tldr": "Israel will spend the week in controlled escalation: symbolic retaliation against Britain over settlement sanctions, continued selective strikes in Gaza and Lebanon, Red Sea and Hormuz jitters, and a vicious pre-election political fight over the UAE warning and the Naza documentary. A full regional war is possible but not the base case.",
+        "tldr": "The text predicted Israel would spend the week trading diplomatic blows with Britain and Europe over settlement sanctions while maintaining selective strikes in Gaza and Lebanon. Domestic politics would intensify around the UAE warning report and pre-election fighting, with Red Sea and Iran risks keeping oil markets jumpy.",
         "eli5": null
       }
     },
@@ -190,7 +189,7 @@
       "code": "US",
       "name": "United States",
       "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-      "generated_at": "2026-10-17T17:15:40+03:00",
+      "generated_at": "2026-10-17T21:39:34+03:00",
       "status": {
         "position": "done",
         "velocity": "skipped",
@@ -200,56 +199,56 @@
         "display": "done"
       },
       "position": {
-        "summary": "The U.S. entered the period under simultaneous pressure from multiple fronts. The Federal Reserve faced mounting pressure from persistent inflation and 10-year Treasury yields hovering near or above 5 percent, with crude oil trading between 95 and 110 dollars per barrel. The Iran conflict around the Strait of Hormuz remained an active, grinding engagement with periodic military incidents, while Houthi attacks in the Red Sea compounded energy-shipping disruptions. The Pentagon issued a watchdog report flagging advanced munitions shortages and base damage from sustained operations. Congress began preparing hearings on war costs and AI safety as existential-risk warnings from researchers gained public traction. The U.S. imposed new import bans on Canadian dairy, alcohol, and motorcycles, escalating a trade dispute that was already politically painful in border states. A G20 energy summit took place in Texas, and the U.S. confirmed the deployment of weapons in space. Russian deepfake campaigns began circulating in domestic media, adding noise to the midterm cycle. Trump tied oil prices, the Iran war, and inflation directly to the upcoming elections.",
+        "summary": "The United States entered the period under multiple simultaneous pressures. The Federal Reserve faced mounting pressure from elevated inflation, with 10-year Treasury yields sitting at or above 5 percent and oil prices trading in the 95-to-110 dollar per barrel range. The Iran conflict, centered on the Strait of Hormuz and Gulf shipping lanes, had become a grinding, managed confrontation marked by periodic U.S. airstrikes and Iranian retaliatory drone and missile attacks. A Pentagon watchdog report flagged munitions shortfalls and base damage, forcing congressional attention. The Canada trade war escalated, with import bans on dairy, alcohol, and motorcycles set to take effect. AI had emerged as a political flashpoint, with tech leaders calling for a slowdown and existential-risk warnings gaining mainstream traction. President Trump was framing oil prices, the Iran war, and inflation as midterm campaign issues. The U.S. had confirmed the deployment of weapons in space. Energy diplomacy was active around Gulf states and Venezuela. Russian disinformation campaigns were drawing increasing media attention in Washington.",
         "key_events": [
           {
-            "event": "The Fed faced pressure from inflation and yields near 5 percent, with oil above 95 dollars.",
+            "event": "The Federal Reserve faced mounting pressure as 10-year Treasury yields held at or above 5 percent amid elevated oil prices.",
             "date": null,
             "domain": "economy",
-            "importance": 5
+            "importance": 4
           },
           {
-            "event": "The Iran conflict around the Strait of Hormuz remained an active low-intensity engagement with periodic strikes.",
+            "event": "U.S. and Iranian forces engaged in periodic airstrikes and drone attacks around the Strait of Hormuz and Gulf shipping lanes.",
             "date": null,
             "domain": "security",
             "importance": 5
           },
           {
-            "event": "The U.S. imposed new import bans on Canadian dairy, alcohol, and motorcycles.",
+            "event": "U.S. import bans on Canadian dairy, alcohol, and motorcycles were set to take effect, escalating the trade dispute.",
             "date": null,
             "domain": "diplomacy",
             "importance": 4
           },
           {
-            "event": "The Pentagon released a watchdog report on munitions shortages and base damage.",
-            "date": null,
-            "domain": "security",
-            "importance": 4
-          },
-          {
-            "event": "AI existential-risk warnings and tech-leader calls for a slowdown intensified the domestic debate.",
+            "event": "Tech leaders and researchers issued existential-risk warnings about AI, pushing the issue into the political arena.",
             "date": null,
             "domain": "technology",
+            "importance": 3
+          },
+          {
+            "event": "A Pentagon watchdog report flagged advanced munitions shortfalls and base damage from the Iran conflict.",
+            "date": null,
+            "domain": "security",
             "importance": 3
           }
         ],
         "mood": "tense",
-        "intensity": 8,
+        "intensity": 7,
         "domains_active": [
           "economy",
           "security",
-          "politics",
-          "technology"
+          "diplomacy",
+          "politics"
         ],
         "emojis": [
           "🛢️",
-          "⚔️",
-          "🏦"
+          "🏦",
+          "⚔️"
         ],
         "emoji_reasons": [
-          "Oil prices above 95 dollars and the Iran conflict around Hormuz defined the economic and energy backdrop.",
-          "The U.S.-Iran military engagement and Pentagon munitions shortages made security a dominant theme.",
-          "The Fed's hawkish posture and yields near 5 percent anchored the macroeconomic story."
+          "Oil prices and the Hormuz shipping conflict are the dominant economic and security stressors.",
+          "The Federal Reserve hawkish posture and elevated Treasury yields drive persistent market anxiety.",
+          "The U.S.-Iran military confrontation in the Gulf is the primary security story of the period."
         ]
       },
       "velocity": null,
@@ -257,36 +256,36 @@
       "naive_forecast": {
         "horizon_start": "2026-10-01",
         "horizon_end": "2026-10-08",
-        "summary": "The text predicted a week of managed stress across the U.S. economy and foreign policy. The Fed would deliver a hawkish outcome or aftermath keeping Treasury yields at or above 5 percent, pressuring equities and mortgages. Oil would trade above 95 dollars and potentially break back above 100 as Iran-Hormuz friction continued with at least one new military incident. Congress would hold at least one major hearing on war costs or AI risk but pass no significant legislation. The Canada trade dispute would escalate with new threats and protests while avoiding a full collapse. No formal U.S.-Iran ceasefire would be signed, no major AI law would pass, and no Trump-Xi summit would occur. The dominant mood would be expensive, noisy, politically charged management rather than resolution, with Trump using every issue to set up his midterm narrative. The bottom line: the U.S. manages Iran, talks about AI, postures on Canada trade, fights over inflation, and stages midterm theater.",
+        "summary": "The naive reading takes the text's top-listed predictions at face value and ignores the alternative paths the text also describes. The Federal Reserve delivers a hawkish outcome, either a rate hike or a higher-for-longer hold, keeping the 10-year Treasury yield at or above 5.0 percent. Brent crude oil breaks above 100 dollars per barrel at least once during the week. The U.S. military conducts a new strike on an Iranian missile or drone target near the Strait of Hormuz. Congress holds a public hearing specifically on Iran war costs and munitions shortages or on AI existential risk. The U.S. announces an additional trade restriction or tariff targeting Canadian dairy, alcohol, or motorcycle imports. All five events are treated as the single most probable outcomes, with the text's stated confidences carried directly into the forecast probabilities, and the Hormuz-strike scenario is narrowed to a lower probability to reflect its specificity as a subset of the broader military-incident prediction.",
         "statements": [
           {
             "id": "N1",
-            "text": "The 10-year U.S. Treasury yield closes at 5.0 percent or higher on the final trading day of the week ending October 8, 2026.",
+            "text": "The Federal Reserve announces a rate decision or statement that the 10-year Treasury yield holds at or above 5.0 percent for the full week.",
             "probability": 0.85,
             "domain": "economy"
           },
           {
             "id": "N2",
-            "text": "WTI crude oil closes above 100 dollars per barrel at least once during the week of October 1 to October 8, 2026.",
+            "text": "The Brent crude oil price closes above 100 dollars per barrel on at least one trading day during the week.",
             "probability": 0.75,
             "domain": "economy"
           },
           {
             "id": "N3",
-            "text": "At least one new military incident between the U.S. and Iran—comprising a strike, drone attack, missile launch, or naval engagement—is reported between October 1 and October 8, 2026.",
-            "probability": 0.6,
+            "text": "The U.S. Navy or Air Force executes a new strike on an Iranian missile, drone, or coastal target within 200 nautical miles of the Strait of Hormuz.",
+            "probability": 0.45,
             "domain": "security"
           },
           {
             "id": "N4",
-            "text": "The U.S. Congress holds at least one formal hearing on Iran war costs, munitions shortages, or AI safety risk between October 1 and October 8, 2026.",
+            "text": "The U.S. House or Senate holds a public hearing specifically on Iran war costs and munitions shortages or on AI existential risk.",
             "probability": 0.75,
             "domain": "politics"
           },
           {
             "id": "N5",
-            "text": "The United States and Iran announce a formal ceasefire agreement between October 1 and October 8, 2026.",
-            "probability": 0.2,
+            "text": "The U.S. Treasury or Commerce Department announces a new tariff or import restriction targeting Canadian dairy, alcohol, or motorcycle products.",
+            "probability": 0.7,
             "domain": "diplomacy"
           }
         ]
@@ -294,55 +293,55 @@
       "crystal_forecast": {
         "horizon_start": "2026-10-01",
         "horizon_end": "2026-10-08",
-        "summary": "The text predicted a week of managed stress across the U.S. economy and foreign policy. The Fed would deliver a hawkish outcome or aftermath keeping Treasury yields at or above 5 percent, pressuring equities and mortgages. Oil would trade above 95 dollars and potentially break back above 100 as Iran-Hormuz friction continued with at least one new military incident. Congress would hold at least one major hearing on war costs or AI risk but pass no significant legislation. The Canada trade dispute would escalate with new threats and protests while avoiding a full collapse. No formal U.S.-Iran ceasefire would be signed, no major AI law would pass, and no Trump-Xi summit would occur. The dominant mood would be expensive, noisy, politically charged management rather than resolution, with Trump using every issue to set up his midterm narrative. The bottom line: the U.S. manages Iran, talks about AI, postures on Canada trade, fights over inflation, and stages midterm theater.",
-        "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are identical because the original text made one forecast, not two.",
+        "summary": "The crystal reading weighs the text's full scenario distribution and its own explicit hedges. The Canada trade war, while more likely to escalate, carries a genuine 30 percent probability of a last-minute face-saving deal that the naive reading overlooks. The Fed's outcome is hedged between a rate hike and a hawkish hold, two distinct outcomes, so the probability of a single hawkish event is adjusted down from the text's 85 percent. Iran's foreign minister is expected to complete a diplomatic visit to China and return with a formal statement providing backing but no ceasefire framework, a specific event the text mentions within the Iran section. Energy diplomacy around Gulf states and OPEC+ is active but described as not a game-changer, warranting a moderate probability. The space weapons story, while strategically significant, is expected to produce a congressional briefing or public testimony rather than a dramatic announcement, placing it below the midpoint.",
+        "reasoning": "The naive reading selects the text's highest-probability outcome for each of the five numbered predictions and treats the text's hedges as mere caveats. The crystal reading promotes the 30 percent Canada-deal scenario from a footnote to a full forecast statement, adjusts the Fed probability downward because the text explicitly hedges between a hike and a hawkish hold as two distinct outcomes, and elevates three secondary scenarios, the Iran foreign minister's China visit, Gulf energy diplomacy, and the space weapons congressional briefing, that the text mentions with specific probability bands but does not headline. Where the text offers an either-or framing, the crystal reading distributes probability across both branches rather than assigning full weight to the more dramatic option, and where the text says probably or not a game-changer, it treats that language as a meaningful probability discount.",
         "confidence": 5,
         "statements": [
           {
             "id": "C1",
-            "text": "The 10-year U.S. Treasury yield closes at 5.0 percent or higher on the final trading day of the week ending October 8, 2026.",
-            "probability": 0.85,
-            "domain": "economy"
+            "text": "The U.S. and Canadian governments announce a face-saving trade agreement or tariff extension before new import bans on dairy, alcohol, or motorcycles take effect.",
+            "probability": 0.3,
+            "domain": "diplomacy"
           },
           {
             "id": "C2",
-            "text": "WTI crude oil closes above 100 dollars per barrel at least once during the week of October 1 to October 8, 2026.",
-            "probability": 0.75,
+            "text": "The Federal Reserve holds the federal funds rate and issues a hawkish higher-for-longer statement, with the 10-year Treasury yield spiking above 5.2 percent in the following trading session.",
+            "probability": 0.7,
             "domain": "economy"
           },
           {
             "id": "C3",
-            "text": "At least one new military incident between the U.S. and Iran—comprising a strike, drone attack, missile launch, or naval engagement—is reported between October 1 and October 8, 2026.",
-            "probability": 0.6,
-            "domain": "security"
+            "text": "Iran's foreign minister completes a diplomatic visit to China and issues a joint statement providing Tehran with diplomatic backing but no formal ceasefire framework.",
+            "probability": 0.55,
+            "domain": "diplomacy"
           },
           {
             "id": "C4",
-            "text": "The U.S. Congress holds at least one formal hearing on Iran war costs, munitions shortages, or AI safety risk between October 1 and October 8, 2026.",
-            "probability": 0.75,
-            "domain": "politics"
+            "text": "The U.S. State or Energy Department announces a new oil-supply coordination deal with at least two Gulf states or OPEC+ members.",
+            "probability": 0.55,
+            "domain": "economy"
           },
           {
             "id": "C5",
-            "text": "The United States and Iran announce a formal ceasefire agreement between October 1 and October 8, 2026.",
-            "probability": 0.2,
-            "domain": "diplomacy"
+            "text": "The U.S. Space Force or Department of Defense releases a public briefing or congressional testimony describing deployed space-based weapons and their operational scope.",
+            "probability": 0.45,
+            "domain": "security"
           }
         ]
       },
       "display": {
-        "headline": "Hawkish Fed, Hot Oil, Iran Stalemate Define the Week",
+        "headline": "U.S. Faces Oil, Fed, Iran, and Trade Pressures Simultaneously",
         "emojis": [
-          "🗣️",
-          "💰",
-          "🤖"
+          "🛢️",
+          "🏦",
+          "⚔️"
         ],
         "emoji_reasons": [
-          "Trump used every crisis to frame his midterm narrative and political messaging.",
-          "Inflation, gas prices, and bond yields drove the cost-of-living story at the center.",
-          "AI became a second major domestic political fight alongside Iran and oil."
+          "Sustained high oil prices and Hormuz tension anchor the economic outlook.",
+          "A hawkish Federal Reserve keeping yields above 5 percent dominates market headlines.",
+          "Recurring U.S.-Iran military incidents in the Gulf define the security backdrop."
         ],
-        "tldr": "The U.S. spent the week managing multiple simultaneous crises—hawkish Fed pressure, elevated oil prices, and low-level Iran escalation—without resolving any of them. Trump framed every issue as midterm theater, while Congress staged hearings and the Canada trade dispute intensified.",
+        "tldr": "The text predicted the U.S. would manage elevated oil prices, a hawkish Fed keeping yields above 5 percent, continued low-level Iran military incidents near Hormuz, a growing AI political fight, and an escalating Canada trade dispute, all framed by Trump as a midterm issue.",
         "eli5": null
       }
     }

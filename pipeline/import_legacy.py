@@ -88,10 +88,6 @@ def main():
     horizon_days = int(settings.get("HORIZON_DAYS", 7))
     horizon_start = round_id
     horizon_end = (datetime.strptime(round_id, "%Y-%m-%d").date() + _timedelta(days=horizon_days)).isoformat()
-    statement_rules = common.fill_prompt("statement_rules.txt", {
-        "HORIZON_START": horizon_start, "HORIZON_END": horizon_end, "ID_PREFIX": "F",
-    })
-
     done = 0
     for path, c in matched:
         code, name = c["code"], c["name"]
@@ -103,7 +99,7 @@ def main():
         variables = {
             "COUNTRY": name, "ROUND": round_id, "LEGACY_TEXT": text,
             "VOCABULARY": common.vocabulary_as_text(vocabulary),
-            "STATEMENT_RULES": statement_rules,
+            "HORIZON_START": horizon_start, "HORIZON_END": horizon_end,
         }
         validator = lambda obj: common.validate_legacy(obj, vocabulary=vocabulary)
         common.fill_prompt("legacy_import.txt", variables)
@@ -121,32 +117,22 @@ def main():
             log(f"  {name}: FAILED, skipping")
             continue
 
-        # Build real naive_forecast and crystal_forecast from the text's own
-        # reconstructed statements, so a later round's wind step has a real
-        # bet to grade instead of nothing (Nir, 2026-10-17: the legacy text
-        # IS a real forecast with real percentages; don't throw it away).
-        # Historically there was only ONE forecast (not a naive vs
-        # model-corrected pair), so naive and crystal share the same
-        # statements, just with different id prefixes.
-        raw_statements = obj["forecast"]["statements"]
-        forecast_summary = obj["forecast"]["summary"]
-        def _mk_statements(prefix):
-            return [
-                {"id": f"{prefix}{i + 1}", "text": s["text"], "probability": s["probability"],
-                 "domain": s["domain"]}
-                for i, s in enumerate(raw_statements)
-            ]
+        # Build naive_forecast and crystal_forecast from the model's own two
+        # distinct readings of the same legacy text (Nir, 2026-10-17: the
+        # legacy text is a real forecast with real percentages; reconstruct
+        # a naive "top scenario" reading and a crystal "full distribution"
+        # reading that genuinely differ, not duplicate copies).
         naive_forecast = {
             "horizon_start": horizon_start, "horizon_end": horizon_end,
-            "summary": forecast_summary, "statements": _mk_statements("N"),
+            "summary": obj["naive_forecast"]["summary"],
+            "statements": obj["naive_forecast"]["statements"],
         }
         crystal_forecast = {
             "horizon_start": horizon_start, "horizon_end": horizon_end,
-            "summary": forecast_summary,
-            "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are "
-                         "identical because the original text made one forecast, not two.",
+            "summary": obj["crystal_forecast"]["summary"],
+            "reasoning": obj["crystal_forecast"]["reasoning"],
             "confidence": 5,
-            "statements": _mk_statements("C"),
+            "statements": obj["crystal_forecast"]["statements"],
         }
 
         country_file = {

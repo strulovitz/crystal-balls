@@ -1,19 +1,18 @@
-16:38:30 Importing legacy round 2026-10-01 from /tmp/opencode/il-us-r1: 2 matched, 0 unmatched
-16:49:33   [IL legacy_import] attempt 1: 663.6s, prompt_tokens=4338, completion_tokens=4490
-16:49:33   Israel: done (664s)
-17:04:33   [US legacy_import] request error on attempt 1: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=900)
-17:15:40   [US legacy_import] attempt 2: 666.8s, prompt_tokens=4504, completion_tokens=4827
-17:15:40   United States: done (1567s)
-17:15:40 Downloading vendor files and world atlas...
-17:15:40   three.module.min.js: already present, skipping
-17:15:40   OrbitControls.js: already present, skipping
-17:15:40   topojson-client.min.js: already present, skipping
-17:15:40   countries-110m.json: already present, skipping
-17:15:40 Downloading emoji PNGs...
-17:15:40 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
-17:15:40 data/meta.json written
-17:15:40 data/index.json written (1 complete rounds)
-17:15:40 Building bundles...
-17:15:40   bundle for 2026-10-01: 2 countries
-17:15:40 build_site_data.py complete.
-17:15:40 Legacy import complete: 2 of 2 countries imported.
+20:46:55 Importing legacy round 2026-10-01 from /tmp/opencode/il-us-r1b: 2 matched, 0 unmatched
+21:10:49   [IL legacy_import] attempt 1: 1434.3s, prompt_tokens=4555, completion_tokens=9960
+21:10:49   Israel: done (1434s)
+21:39:34   [US legacy_import] attempt 1: 1724.4s, prompt_tokens=4721, completion_tokens=11163
+21:39:34   United States: done (1724s)
+21:39:34 Downloading vendor files and world atlas...
+21:39:34   three.module.min.js: already present, skipping
+21:39:34   OrbitControls.js: already present, skipping
+21:39:34   topojson-client.min.js: already present, skipping
+21:39:34   countries-110m.json: already present, skipping
+21:39:34 Downloading emoji PNGs...
+21:39:34 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+21:39:34 data/meta.json written
+21:39:34 data/index.json written (1 complete rounds)
+21:39:34 Building bundles...
+21:39:34   bundle for 2026-10-01: 2 countries
+21:39:34 build_site_data.py complete.
+21:39:34 Legacy import complete: 2 of 2 countries imported.

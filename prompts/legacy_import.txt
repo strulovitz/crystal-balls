@@ -1,7 +1,7 @@
 Country: {{COUNTRY}}
 Approximate date of this material: {{ROUND}}
 
-Below is a text that was produced by hand in an earlier version of this project. It is a real forecast: a model's reading of one week of headlines about {{COUNTRY}}, with a genuine prediction for the following week, usually including scenario weights or numbered predictions with stated confidence. Extract from it a situation report (what the text says happened), a display summary (what the text predicted), AND the five clearest, most concrete, checkable predictions it actually made, turned into proper statements. If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
+Below is a text that was produced by hand in an earlier version of this project. It is a real forecast: a model's reading of one week of headlines about {{COUNTRY}}, with a genuine prediction for the following week, usually including scenario weights or numbered predictions with stated confidence. Extract from it a situation report (what the text says happened) and a display summary (what the text predicted). If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
 
 LEGACY TEXT:
 {{LEGACY_TEXT}}
@@ -9,9 +9,20 @@ LEGACY TEXT:
 Emoji vocabulary:
 {{VOCABULARY}}
 
-{{STATEMENT_RULES}}
+For the two forecasts below, read the text's own numbered predictions and scenario weights, and produce TWO genuinely different readings of the SAME text — do not just reword one reading twice:
 
-For the forecast statements: read the text's own numbered predictions and scenario weights, and turn its five clearest, most concrete, checkable predictions into statements following the rules above. Convert the text's own stated confidence (e.g. "85-90%") into the matching probability. Do not invent predictions the text does not support; only reconstruct one if the text truly has fewer than five concrete predictions.
+NAIVE reading: take the text's own single most-likely scenario or top-listed predictions literally, at face value, ignoring the alternative/minority scenarios it also mentions. This is the "headline case" reading.
+
+CRYSTAL reading: weigh the text's FULL scenario distribution, including the alternative/lower-probability scenarios and any caveats or hedges it states. At least one of the five crystal statements must come from a minority-probability scenario the text mentions (something the naive reading, which only looks at the top case, would miss) OR must adjust a probability by more than 0.1 compared to the naive reading's take on the same event. If the text genuinely only describes one scenario with no real alternative, say so in the crystal summary and explain the adjustment is based on the text's own stated uncertainty/caveats instead.
+
+Each of the five statements in BOTH forecasts follows these rules:
+1. One sentence about something checkable from headlines published between {{HORIZON_START}} and {{HORIZON_END}}.
+2. A specific observable event: an announcement, a vote, a strike, an attack, a visit, a decision, a number crossing a threshold, a resignation, a court ruling. Not a mood, not a trend.
+3. No vague verbs. Forbidden words: may, might, could, possibly, likely, continue, remain, ongoing.
+4. Probabilities are decimals between 0.05 and 0.95. At least one statement below 0.5 and at least one above 0.5 per forecast. Avoid 0.5 itself.
+5. Cover at least two different domains from: politics, security, economy, diplomacy, society, technology, health, environment.
+6. Convert the text's own stated confidence (e.g. "85-90%") into the matching probability where the text gives one.
+7. Naive statement ids are N1 to N5. Crystal statement ids are C1 to C5.
 
 Return this JSON object:
 {
@@ -30,8 +41,13 @@ Return this JSON object:
     "emoji_reasons": ["one sentence each"],
     "tldr": "two or three sentences, at most 60 words, what the text predicted"
   },
-  "forecast": {
-    "summary": "100 to 180 words, what the text predicted for the following week",
-    "statements": [{"id": "F1 to F5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
+  "naive_forecast": {
+    "summary": "100 to 180 words, the naive/literal reading of what the text predicted",
+    "statements": [{"id": "N1 to N5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
+  },
+  "crystal_forecast": {
+    "summary": "100 to 180 words, the crystal/weighed reading of what the text predicted",
+    "reasoning": "80 to 160 words: exactly how and why this reading differs from the naive one",
+    "statements": [{"id": "C1 to C5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
   }
 }

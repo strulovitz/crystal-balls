@@ -59,9 +59,15 @@ def mock_response(step_name, variables, country_code, vocabulary=None, naive_ids
         position = demo.make_position(name, vocabulary)
         display = demo.make_display(name, vocabulary)
         display["eli5"] = None  # legacy import never has eli5 (Bible 7.6)
-        forecast = {
-            "summary": demo._words(130, demo._crystal_pool(name)),
-            "statements": demo.make_statements("F", name, demo._crystal_pool(name)),
+        naive_forecast = {
+            "summary": demo._words(130, demo._naive_pool(name)),
+            "statements": demo.make_statements("N", name, demo._naive_pool(name)),
         }
-        return {"position": position, "display": display, "forecast": forecast}
+        crystal_forecast = {
+            "summary": demo._words(130, demo._crystal_pool(name)),
+            "reasoning": demo._words(100, demo._reasoning_pool(name)),
+            "statements": demo.make_statements("C", name, demo._crystal_pool(name)),
+        }
+        return {"position": position, "display": display,
+                "naive_forecast": naive_forecast, "crystal_forecast": crystal_forecast}
     raise ValueError(f"mock_llm: no mock generator for step {step_name!r}")

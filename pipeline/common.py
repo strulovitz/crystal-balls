@@ -641,16 +641,51 @@ def validate_legacy(obj, vocabulary=None):
         if not isinstance(tldr, str) or not tldr.strip():
             errors.append("display.tldr: missing or empty")
 
-    forecast = obj.get("forecast")
-    if not isinstance(forecast, dict):
-        errors.append("forecast: missing")
+    naive_forecast = obj.get("naive_forecast")
+    if not isinstance(naive_forecast, dict):
+        errors.append("naive_forecast: missing")
     else:
-        summary = forecast.get("summary", "")
+        summary = naive_forecast.get("summary", "")
         if not isinstance(summary, str) or not summary.strip():
-            errors.append("forecast.summary: missing or empty")
+            errors.append("naive_forecast.summary: missing or empty")
         else:
-            _check_no_markdown_table("forecast.summary", summary, errors)
-        _check_statements("forecast.statements", forecast.get("statements", []), errors, id_prefix="F")
+            _check_no_markdown_table("naive_forecast.summary", summary, errors)
+        _check_statements("naive_forecast.statements", naive_forecast.get("statements", []), errors, id_prefix="N")
+
+    crystal_forecast = obj.get("crystal_forecast")
+    if not isinstance(crystal_forecast, dict):
+        errors.append("crystal_forecast: missing")
+    else:
+        summary = crystal_forecast.get("summary", "")
+        if not isinstance(summary, str) or not summary.strip():
+            errors.append("crystal_forecast.summary: missing or empty")
+        else:
+            _check_no_markdown_table("crystal_forecast.summary", summary, errors)
+        reasoning = crystal_forecast.get("reasoning", "")
+        if not isinstance(reasoning, str) or not reasoning.strip():
+            errors.append("crystal_forecast.reasoning: missing or empty")
+        _check_statements("crystal_forecast.statements", crystal_forecast.get("statements", []), errors, id_prefix="C")
+
+    # The two forecasts must genuinely differ (Nir, 2026-10-17: not just
+    # the same prediction copied twice with different id letters).
+    if isinstance(naive_forecast, dict) and isinstance(crystal_forecast, dict):
+        n_stmts = naive_forecast.get("statements", [])
+        c_stmts = crystal_forecast.get("statements", [])
+        if len(n_stmts) == 5 and len(c_stmts) == 5:
+            n_texts = [s.get("text", "") for s in n_stmts]
+            c_texts = [s.get("text", "") for s in c_stmts]
+            n_probs = [s.get("probability") for s in n_stmts]
+            c_probs = [s.get("probability") for s in c_stmts]
+            text_diff = sum(1 for a, b in zip(n_texts, c_texts) if a != b)
+            prob_diff = sum(1 for a, b in zip(n_probs, c_probs)
+                             if isinstance(a, (int, float)) and isinstance(b, (int, float))
+                             and abs(a - b) > 0.1)
+            if text_diff < 1 and prob_diff < 1:
+                errors.append("naive_forecast/crystal_forecast: the two readings are "
+                               "identical (no statement text differs and no probability "
+                               "differs by more than 0.1) — re-read the text's full "
+                               "scenario distribution for the crystal forecast, not just "
+                               "the top case")
 
     if errors:
         raise ValueError("Legacy validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
