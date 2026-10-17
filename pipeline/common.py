@@ -801,7 +801,11 @@ def llm_json(prompt_file, variables, validator, step_name, country_code, round_i
     attempt = 0
     while attempt < max_retries:
         attempt += 1
-        temperature = base_temperature + 0.1 * (attempt - 1)
+        # No longer escalates temperature on retry (2026-10-17 fix): base_temperature
+        # already matches this model's own documented best setting (1.0). Going
+        # higher on retries moved AWAY from the model's recommended quality, not
+        # toward a fix.
+        temperature = base_temperature
         t0 = time.time()
         try:
             resp = _chat_completion(messages, settings, temperature, use_response_format)
