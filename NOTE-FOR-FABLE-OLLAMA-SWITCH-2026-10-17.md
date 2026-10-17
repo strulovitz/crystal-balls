@@ -96,6 +96,12 @@ running as a daemon.
   mode settings (straight from Unsloth's official docs): temperature=1.0,
   top_p=0.95, top_k=20, min_p=0.0. pipeline/common.py now reads and sends
   LLM_TOP_P/LLM_TOP_K/LLM_MIN_P if set in settings.
+- Retry logic no longer escalates temperature above the model's own
+  documented best value (was 1.0 -> 1.1 -> 1.2 across retries; now stays
+  at 1.0 every attempt).
+- LLM_MAX_TOKENS raised from 2500 to 16000 — with full-quality reasoning
+  now allowed, 2500 could truncate the final answer mid-thought before it
+  was even written.
 
 
 ## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
