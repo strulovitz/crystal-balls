@@ -22,3 +22,4 @@ date, which is expected.
 | Japan | 2026-10-07 | Qwen 3.8 27B abliterated |
 | South Korea | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Taiwan | 2026-10-07 | Qwen 3.8 27B abliterated |
+| Italy | 2026-10-11 | Qwen 3.8 27B abliterated |
