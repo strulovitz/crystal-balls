@@ -102,6 +102,11 @@ running as a daemon.
 - LLM_MAX_TOKENS raised from 2500 to 16000 — with full-quality reasoning
   now allowed, 2500 could truncate the final answer mid-thought before it
   was even written.
+- LLM_MAX_TOKENS raised again, to 128000 (final value), based on real
+  measured benchmarks found via research: a verified real-world case used
+  25,499 total tokens (22,276 thinking + 3,223 answer) in ONE call at
+  xhigh reasoning. LLM_CONTEXT_BUDGET adjusted to 120000 to fit safely
+  alongside it inside the 262144 window.
 
 
 ## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
