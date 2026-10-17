@@ -35,3 +35,4 @@ date, which is expected.
 | Germany | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Netherlands | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Switzerland | 2026-10-08 | Qwen 3.8 27B abliterated |
+| Singapore | 2026-10-08 | Qwen 3.8 27B abliterated |
