@@ -30,3 +30,4 @@ date, which is expected.
 | Indonesia | 2026-10-08 | Qwen 3.8 27B abliterated |
 | Chile | 2026-10-09 | Qwen 3.8 27B abliterated |
 | Peru | 2026-10-09 | Qwen 3.8 27B abliterated |
+| Vietnam | 2026-10-09 | Qwen 3.8 27B abliterated |
