@@ -85,6 +85,12 @@ running as a daemon.
   bigger context — verified working, model loads correctly: 25% GPU/75% CPU).
 - config/settings.env LLM_CONTEXT_BUDGET raised from 12000 to 200000 to
   actually use the verified window instead of truncating prompts pointlessly.
+- LLM_REASONING_EFFORT removed entirely (was never actually working — wrong
+  field format for this model's API anyway). IMPORTANT FOR THE BIBLE: Nir
+  wants the model's own DEFAULT (highest/"xhigh") reasoning effort, always —
+  more thinking = better quality, not something to cut down for speed on his
+  own hardware. Any future Bible guidance about "reasoning_effort=low to
+  save time" should be reconsidered/removed in light of this.
 
 
 ## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
