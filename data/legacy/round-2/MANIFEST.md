@@ -28,3 +28,4 @@ date, which is expected.
 | Turkey | 2026-10-14 | Qwen 3.8 27B abliterated |
 | South Africa | 2026-10-14 | Qwen 3.8 27B abliterated |
 | Indonesia | 2026-10-08 | Qwen 3.8 27B abliterated |
+| Chile | 2026-10-09 | Qwen 3.8 27B abliterated |
