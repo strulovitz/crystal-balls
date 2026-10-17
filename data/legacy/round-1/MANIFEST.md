@@ -31,3 +31,4 @@ text and the country, not an exact per-file date.
 | Egypt | 2026-10-01 | Qwen 3.8 27B abliterated |
 | Turkey | 2026-10-01 | Qwen 3.8 27B abliterated |
 | South Africa | 2026-10-01 | Qwen 3.8 27B abliterated |
+| Japan | 2026-09-21 | Qwen 3.8 27B abliterated |
