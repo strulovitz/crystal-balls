@@ -55,39 +55,319 @@ straight-line extension of what the text describes) and one "crystal"
 more carefully). This only requires re-prompting the model with the text
 it already has, twice, differently.
 
-## What to actually do next, in order
+## What to actually do next, in order — EXACT steps, nothing left to decide
 
-1. Design a new prompt (or extend legacy_import.txt) that makes the model
-   produce two DISTINCT forecast reconstructions from one legacy text:
-   naive = simplest reading, crystal = most carefully reasoned reading.
-   This is a prompt-design decision — think about how to phrase it so the
-   two outputs are honestly different, not just reworded duplicates.
-2. Test with `--mock-llm` first (update pipeline/mock_llm.py's
-   "legacy_import" branch to produce two different statement sets if the
-   schema changes).
-3. Get Nir's explicit go-ahead before any real model call (standing
-   rule). Warn him of real time estimates based on today's numbers:
-   each legacy_import call took 260s-730s; a two-forecast version will
-   likely take longer per country.
-4. Re-run for Israel + USA only (still the test pair) at BOTH legacy
-   dates: 2026-10-01 and 2026-10-14. Source folders can be rebuilt the
-   same way as today:
-   ```
-   mkdir -p /tmp/opencode/il-us-r1 /tmp/opencode/il-us-r2
-   cp "data/legacy/round-1/Israel.txt" "data/legacy/round-1/United States.txt" /tmp/opencode/il-us-r1/
-   cp "data/legacy/round-2/Israel.txt" "data/legacy/round-2/United States.txt" /tmp/opencode/il-us-r2/
-   ```
-5. Delete the existing data/rounds/2026-10-01 and data/rounds/2026-10-14
-   before re-running (they currently have the old duplicated-forecast
-   version), same as was done earlier today.
-6. Re-run the real round for 2026-10-17 again too (Israel+USA, --only
-   IL,US --no-finalize), since wind for today's round depends on Point
-   2's forecast — it should now score something other than a forced tie.
-7. Validate, commit, push. Update the FYI-FOR-FABLE file's bracketed
-   notes with the real final approach used. DO NOT touch Bible part-02 or
-   part-07 again based on this — those stay as Sonnet left them earlier
-   today until Fable actually replies (per tonight's correction: Fable is
-   notified at the end, the Bible is only changed if/when he says so).
+### Step 1: replace prompts/legacy_import.txt with this EXACT content
+
+Use the Write tool to replace the whole file with exactly this (the only
+change from the current file: the "forecast" object is replaced by two
+separate "naive_forecast" and "crystal_forecast" objects, with explicit
+instructions for how they must differ):
+
+```
+Country: {{COUNTRY}}
+Approximate date of this material: {{ROUND}}
+
+Below is a text that was produced by hand in an earlier version of this project. It is a real forecast: a model's reading of one week of headlines about {{COUNTRY}}, with a genuine prediction for the following week, usually including scenario weights or numbered predictions with stated confidence. Extract from it a situation report (what the text says happened) and a display summary (what the text predicted). If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
+
+LEGACY TEXT:
+{{LEGACY_TEXT}}
+
+Emoji vocabulary:
+{{VOCABULARY}}
+
+For the two forecasts below, read the text's own numbered predictions and scenario weights, and produce TWO genuinely different readings of the SAME text — do not just reword one reading twice:
+
+NAIVE reading: take the text's own single most-likely scenario or top-listed predictions literally, at face value, ignoring the alternative/minority scenarios it also mentions. This is the "headline case" reading.
+
+CRYSTAL reading: weigh the text's FULL scenario distribution, including the alternative/lower-probability scenarios and any caveats or hedges it states. At least one of the five crystal statements must come from a minority-probability scenario the text mentions (something the naive reading, which only looks at the top case, would miss) OR must adjust a probability by more than 0.1 compared to the naive reading's take on the same event. If the text genuinely only describes one scenario with no real alternative, say so in the crystal summary and explain the adjustment is based on the text's own stated uncertainty/caveats instead.
+
+Each of the five statements in BOTH forecasts follows these rules:
+1. One sentence about something checkable from headlines published between {{HORIZON_START}} and {{HORIZON_END}}.
+2. A specific observable event: an announcement, a vote, a strike, an attack, a visit, a decision, a number crossing a threshold, a resignation, a court ruling. Not a mood, not a trend.
+3. No vague verbs. Forbidden words: may, might, could, possibly, likely, continue, remain, ongoing.
+4. Probabilities are decimals between 0.05 and 0.95. At least one statement below 0.5 and at least one above 0.5 per forecast. Avoid 0.5 itself.
+5. Cover at least two different domains from: politics, security, economy, diplomacy, society, technology, health, environment.
+6. Convert the text's own stated confidence (e.g. "85-90%") into the matching probability where the text gives one.
+7. Naive statement ids are N1 to N5. Crystal statement ids are C1 to C5.
+
+Return this JSON object:
+{
+  "position": {
+    "summary": "120 to 220 words, past tense, what happened according to the text",
+    "key_events": [{"event": "one sentence", "date": null, "domain": "domain name", "importance": 1 to 5}],
+    "mood": "one of escalating, tense, stable, improving, mixed",
+    "intensity": 1 to 10,
+    "domains_active": ["two to four domain names"],
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"]
+  },
+  "display": {
+    "headline": "at most 12 words about what the text predicted",
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"],
+    "tldr": "two or three sentences, at most 60 words, what the text predicted"
+  },
+  "naive_forecast": {
+    "summary": "100 to 180 words, the naive/literal reading of what the text predicted",
+    "statements": [{"id": "N1 to N5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
+  },
+  "crystal_forecast": {
+    "summary": "100 to 180 words, the crystal/weighed reading of what the text predicted",
+    "reasoning": "80 to 160 words: exactly how and why this reading differs from the naive one",
+    "statements": [{"id": "C1 to C5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
+  }
+}
+```
+
+Note: `{{STATEMENT_RULES}}` is no longer used in this file (the rules are
+now written directly inline above, covering both prefixes at once, since
+the shared `statement_rules.txt` template only supports one ID_PREFIX at
+a time). This means `import_legacy.py` no longer needs to build or pass a
+`STATEMENT_RULES` variable for this prompt — remove that if present.
+
+### Step 2: edit pipeline/common.py's validate_legacy function
+
+Replace the current `forecast = obj.get("forecast") ...` block (the one
+added in commit 67c2c54, checking a single generic "forecast" field)
+with this instead — validates naive_forecast and crystal_forecast
+separately, AND checks they actually differ:
+
+```python
+    naive_forecast = obj.get("naive_forecast")
+    if not isinstance(naive_forecast, dict):
+        errors.append("naive_forecast: missing")
+    else:
+        summary = naive_forecast.get("summary", "")
+        if not isinstance(summary, str) or not summary.strip():
+            errors.append("naive_forecast.summary: missing or empty")
+        else:
+            _check_no_markdown_table("naive_forecast.summary", summary, errors)
+        _check_statements("naive_forecast.statements", naive_forecast.get("statements", []), errors, id_prefix="N")
+
+    crystal_forecast = obj.get("crystal_forecast")
+    if not isinstance(crystal_forecast, dict):
+        errors.append("crystal_forecast: missing")
+    else:
+        summary = crystal_forecast.get("summary", "")
+        if not isinstance(summary, str) or not summary.strip():
+            errors.append("crystal_forecast.summary: missing or empty")
+        else:
+            _check_no_markdown_table("crystal_forecast.summary", summary, errors)
+        reasoning = crystal_forecast.get("reasoning", "")
+        if not isinstance(reasoning, str) or not reasoning.strip():
+            errors.append("crystal_forecast.reasoning: missing or empty")
+        _check_statements("crystal_forecast.statements", crystal_forecast.get("statements", []), errors, id_prefix="C")
+
+    # The two forecasts must genuinely differ (Nir, 2026-10-17: not just
+    # the same prediction copied twice with different id letters).
+    if isinstance(naive_forecast, dict) and isinstance(crystal_forecast, dict):
+        n_stmts = naive_forecast.get("statements", [])
+        c_stmts = crystal_forecast.get("statements", [])
+        if len(n_stmts) == 5 and len(c_stmts) == 5:
+            n_texts = [s.get("text", "") for s in n_stmts]
+            c_texts = [s.get("text", "") for s in c_stmts]
+            n_probs = [s.get("probability") for s in n_stmts]
+            c_probs = [s.get("probability") for s in c_stmts]
+            text_diff = sum(1 for a, b in zip(n_texts, c_texts) if a != b)
+            prob_diff = sum(1 for a, b in zip(n_probs, c_probs)
+                             if isinstance(a, (int, float)) and isinstance(b, (int, float))
+                             and abs(a - b) > 0.1)
+            if text_diff < 1 and prob_diff < 1:
+                errors.append("naive_forecast/crystal_forecast: the two readings are "
+                               "identical (no statement text differs and no probability "
+                               "differs by more than 0.1) — re-read the text's full "
+                               "scenario distribution for the crystal forecast, not just "
+                               "the top case")
+```
+
+This replaces (delete) the old block that checked `obj.get("forecast")`.
+
+### Step 3: edit pipeline/import_legacy.py
+
+Find this block (added in commit 67c2c54, right after the `if obj is
+None:` check and before `country_file = {`):
+
+```python
+        raw_statements = obj["forecast"]["statements"]
+        forecast_summary = obj["forecast"]["summary"]
+        def _mk_statements(prefix):
+            return [
+                {"id": f"{prefix}{i + 1}", "text": s["text"], "probability": s["probability"],
+                 "domain": s["domain"]}
+                for i, s in enumerate(raw_statements)
+            ]
+        naive_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": forecast_summary, "statements": _mk_statements("N"),
+        }
+        crystal_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": forecast_summary,
+            "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are "
+                         "identical because the original text made one forecast, not two.",
+            "confidence": 5,
+            "statements": _mk_statements("C"),
+        }
+```
+
+Replace it with this (the model now produces both directly, no Python
+duplication):
+
+```python
+        naive_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": obj["naive_forecast"]["summary"],
+            "statements": obj["naive_forecast"]["statements"],
+        }
+        crystal_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": obj["crystal_forecast"]["summary"],
+            "reasoning": obj["crystal_forecast"]["reasoning"],
+            "confidence": 5,
+            "statements": obj["crystal_forecast"]["statements"],
+        }
+```
+
+Also find this block, a bit earlier in the same function (building the
+`statement_rules` variable before the per-country loop), and DELETE it
+entirely (no longer needed, the rules are now inline in the prompt):
+
+```python
+    statement_rules = common.fill_prompt("statement_rules.txt", {
+        "HORIZON_START": horizon_start, "HORIZON_END": horizon_end, "ID_PREFIX": "F",
+    })
+```
+
+And remove `"STATEMENT_RULES": statement_rules,` from the `variables`
+dict inside the per-country loop (a few lines below where it's built).
+
+### Step 4: edit pipeline/mock_llm.py's "legacy_import" branch
+
+Current code (from commit 67c2c54):
+
+```python
+    if step_name == "legacy_import":
+        position = demo.make_position(name, vocabulary)
+        display = demo.make_display(name, vocabulary)
+        display["eli5"] = None  # legacy import never has eli5 (Bible 7.6)
+        forecast = {
+            "summary": demo._words(130, demo._crystal_pool(name)),
+            "statements": demo.make_statements("F", name, demo._crystal_pool(name)),
+        }
+        return {"position": position, "display": display, "forecast": forecast}
+    raise ValueError(f"mock_llm: no mock generator for step {step_name!r}")
+```
+
+Replace with:
+
+```python
+    if step_name == "legacy_import":
+        position = demo.make_position(name, vocabulary)
+        display = demo.make_display(name, vocabulary)
+        display["eli5"] = None  # legacy import never has eli5 (Bible 7.6)
+        naive_forecast = {
+            "summary": demo._words(130, demo._naive_pool(name)),
+            "statements": demo.make_statements("N", name, demo._naive_pool(name)),
+        }
+        crystal_forecast = {
+            "summary": demo._words(130, demo._crystal_pool(name)),
+            "reasoning": demo._words(100, demo._reasoning_pool(name)),
+            "statements": demo.make_statements("C", name, demo._crystal_pool(name)),
+        }
+        return {"position": position, "display": display,
+                "naive_forecast": naive_forecast, "crystal_forecast": crystal_forecast}
+    raise ValueError(f"mock_llm: no mock generator for step {step_name!r}")
+```
+
+### Step 5: test with --mock-llm (no cost, no go-ahead needed)
+
+```
+cd /home/nir/crystal-balls
+rm -rf /tmp/opencode/mocktest2 && mkdir -p /tmp/opencode/mocktest2
+cp "data/legacy/round-1/Israel.txt" /tmp/opencode/mocktest2/
+.venv/bin/python pipeline/import_legacy.py --round 2099-05-02 --source /tmp/opencode/mocktest2 --mock-llm
+```
+Then verify with:
+```
+.venv/bin/python3 -c "
+from pipeline import common
+f = common.load_json('data/rounds/2099-05-02/countries/IL.json')
+common.validate_country_file(f, vocabulary=common.load_json('config/emoji_vocabulary.json'))
+print('OK, naive=', f['status']['naive_forecast'], 'crystal=', f['status']['crystal_forecast'])
+"
+rm -rf data/rounds/2099-05-02 /tmp/opencode/mocktest2
+git checkout -- data/index.json 2>/dev/null
+```
+If this fails, fix the code until it passes BEFORE telling Nir anything
+or spending any real model time.
+
+### Step 6: tell Nir exactly this, then wait for his literal "go"
+
+Say: "Mock test passed. Ready to redo Israel+USA at both legacy dates
+(2026-10-01, 2026-10-14) plus today's round (2026-10-17) for real with
+the two-distinct-forecast fix — same 2 countries as before, about
+8 real model calls for the legacy imports plus 12 for today's round,
+likely 2-4 hours total based on today's timing. Go ahead?" Do not start
+anything real until he replies with a clear yes.
+
+### Step 7: once he says go, run for real, in this exact order
+
+```
+mkdir -p /tmp/opencode/il-us-r1b /tmp/opencode/il-us-r2b
+cp "data/legacy/round-1/Israel.txt" "data/legacy/round-1/United States.txt" /tmp/opencode/il-us-r1b/
+cp "data/legacy/round-2/Israel.txt" "data/legacy/round-2/United States.txt" /tmp/opencode/il-us-r2b/
+rm -rf data/rounds/2026-10-01 data/rounds/2026-10-14 data/rounds/2026-10-17
+git checkout -- data/index.json
+```
+Then run round-1 (2026-10-01), wait for it to fully finish, check the log,
+commit. Then round-2 (2026-10-14), same way, commit. Then the real round
+for today:
+```
+.venv/bin/python pipeline/run_round.py --round 2026-10-17 --only IL,US --no-finalize
+```
+(run each of these three with `setsid ... </dev/null > log 2>&1 &`,
+checking in periodically with `sleep 115; date; tail -5 log; ps aux | grep ...`
+— same pattern used successfully earlier today, never plain `&` alone).
+
+### Step 8: after all three finish, validate for real
+
+```
+.venv/bin/python3 -c "
+from pipeline import common
+vocab = common.load_json('config/emoji_vocabulary.json')
+for rid in ['2026-10-01','2026-10-14']:
+    for cc in ['IL','US']:
+        f = common.load_json(f'data/rounds/{rid}/countries/{cc}.json')
+        common.validate_country_file(f, vocabulary=vocab)
+        n = [s['text'] for s in f['naive_forecast']['statements']]
+        c = [s['text'] for s in f['crystal_forecast']['statements']]
+        diff = sum(1 for a,b in zip(n,c) if a!=b)
+        print(f'{rid} {cc}: OK, {diff}/5 statements differ between naive and crystal')
+for cc in ['IL','US']:
+    f = common.load_json(f'data/rounds/2026-10-17/countries/{cc}.json')
+    common.validate_country_file(f, vocabulary=vocab)
+    print(f'2026-10-17 {cc}: wind winner =', f['wind']['winner'], ', naive brier =', f['wind']['naive']['brier'], ', crystal brier =', f['wind']['crystal']['brier'])
+"
+```
+Confirm the printed "diff" counts are 1 or more (not 0 — that would mean
+the model still produced identical readings despite the new validator
+check, which should already have forced a retry). Confirm wind's winner
+is no longer forced to "tie" for both (it CAN still legitimately be a
+tie if the two readings score the same on actual outcomes, but it
+should not be tie-by-construction anymore).
+
+### Step 9: commit, push, update the FYI file, tell Nir
+
+```
+git add -A && git commit -m "Legacy import: two genuinely distinct forecasts (naive vs crystal) reconstructed from the same text, not duplicate copies" && git push
+```
+Update `FYI-FOR-FABLE-LEGACY-FORECASTS-2026-10-17.md`'s bracketed notes
+with the real final approach (the exact prompt wording from Step 1, the
+real diff counts and wind results from Step 8). Do not send it to Fable
+yet unless Nir says the whole thing is done — ask him first. Tell Nir
+in plain words what the real numbers were (diff counts, wind winners),
+not just "it worked."
 
 ## Standing rules (apply every time, no exceptions)
 
