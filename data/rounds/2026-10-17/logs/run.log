@@ -1,0 +1,63 @@
+23:21:58 Round 2026-10-17 started. Previous round: 2026-10-14 (3 days ago).
+23:21:58 Fetching headlines for round 2026-10-17, window 2026-10-14 to 2026-10-17, previous round: 2026-10-14
+23:21:58 Country 1 of 2: United States
+23:21:59   Reuters: 25 (filtered out 25)
+23:22:01   Associated Press: 25 (filtered out 47)
+23:22:03   AFP: 25 (filtered out 61)
+23:22:05   BBC: 25 (filtered out 64)
+23:22:08   CNN: 25 (filtered out 66)
+23:22:10   Deutsche Welle: 20 (filtered out 80)
+23:22:12   TV5Monde: 25 (filtered out 63)
+23:22:15   Bloomberg: 25 (filtered out 30)
+23:22:17   Wall Street Journal: 25 (filtered out 65)
+23:22:20   Financial Times: 25 (filtered out 67)
+23:22:22   CNBC: 25 (filtered out 59)
+23:22:25   Al Jazeera: 25 (filtered out 49)
+23:22:26   total 150 headlines
+23:22:26 Country 2 of 2: Israel
+23:22:27   Reuters: 12 (filtered out 88)
+23:22:30   Associated Press: 9 (filtered out 91)
+23:22:32   AFP: 2 (filtered out 10)
+23:22:34   BBC: 13 (filtered out 87)
+23:22:36   CNN: 3 (filtered out 97)
+23:22:38   Deutsche Welle: 4 (filtered out 96)
+23:22:40   TV5Monde: 4 (filtered out 96)
+23:22:42   Bloomberg: 4 (filtered out 96)
+23:22:45   Wall Street Journal: 6 (filtered out 66)
+23:22:47   Financial Times: 4 (filtered out 96)
+23:22:49   CNBC: 0 (filtered out 3)
+23:22:52   Al Jazeera: 25 (filtered out 57)
+23:22:53   total 86 headlines
+23:22:53 Headline fetch complete.
+23:22:53 Country 1 of 2: United States
+23:28:46   [US position] attempt 1: 352.9s, prompt_tokens=5800, completion_tokens=2275
+23:28:46 Step 1 of 12 done (position, United States, 5m53s). Estimated remaining: 1h04m. You can stop any time and continue later.
+23:32:21   [US velocity] attempt 1: 215.0s, prompt_tokens=1745, completion_tokens=1429
+23:32:21   [US velocity] attempt 1 rejected: Velocity validation failed:
+  - new: expected 0 to 4 entries, got 5
+23:33:11   [US velocity] attempt 2: 49.8s, prompt_tokens=2224, completion_tokens=492
+23:33:11 Step 2 of 12 done (velocity, United States, 4m25s). Estimated remaining: 51m28s. You can stop any time and continue later.
+23:40:53   [US wind] attempt 1: 461.7s, prompt_tokens=6382, completion_tokens=2699
+23:40:53 Step 3 of 12 done (wind, United States, 7m42s). Estimated remaining: 53m58s. You can stop any time and continue later.
+23:53:59   [US naive_forecast] attempt 1: 786.5s, prompt_tokens=5158, completion_tokens=4573
+23:53:59 Step 4 of 12 done (naive_forecast, United States, 13m07s). Estimated remaining: 1h02m. You can stop any time and continue later.
+00:07:25   [US crystal_forecast] attempt 1: 805.6s, prompt_tokens=7751, completion_tokens=4170
+00:07:25 Step 5 of 12 done (crystal_forecast, United States, 13m26s). Estimated remaining: 1h02m. You can stop any time and continue later.
+00:11:35   [US display] attempt 1: 249.8s, prompt_tokens=2684, completion_tokens=1657
+00:11:35 Step 6 of 12 done (display, United States, 4m10s). Estimated remaining: 48m41s. You can stop any time and continue later.
+00:11:35 Country 1 of 2: United States. position done (353s), velocity done (265s), wind done (462s), naive done (787s), crystal done (806s), display done (250s)
+00:11:35 Country 2 of 2: Israel
+00:16:41   [IL position] attempt 1: 306.8s, prompt_tokens=3726, completion_tokens=2131
+00:16:41 Step 7 of 12 done (position, Israel, 5m07s). Estimated remaining: 38m26s. You can stop any time and continue later.
+00:20:02   [IL velocity] attempt 1: 200.3s, prompt_tokens=1732, completion_tokens=1229
+00:20:02 Step 8 of 12 done (velocity, Israel, 3m20s). Estimated remaining: 28m34s. You can stop any time and continue later.
+00:25:25   [IL wind] attempt 1: 323.2s, prompt_tokens=4376, completion_tokens=2227
+00:25:25 Step 9 of 12 done (wind, Israel, 5m23s). Estimated remaining: 20m51s. You can stop any time and continue later.
+00:34:29   [IL naive_forecast] attempt 1: 543.9s, prompt_tokens=3085, completion_tokens=3422
+00:34:29 Step 10 of 12 done (naive_forecast, Israel, 9m04s). Estimated remaining: 14m19s. You can stop any time and continue later.
+00:44:02   [IL crystal_forecast] attempt 1: 573.3s, prompt_tokens=5675, completion_tokens=3287
+00:44:02 Step 11 of 12 done (crystal_forecast, Israel, 9m33s). Estimated remaining: 7m23s. You can stop any time and continue later.
+00:48:18   [IL display] attempt 1: 256.1s, prompt_tokens=2567, completion_tokens=1754
+00:48:18 Step 12 of 12 done (display, Israel, 4m16s). Estimated remaining: 0s. You can stop any time and continue later.
+00:48:18 Country 2 of 2: Israel. position done (307s), velocity done (200s), wind done (323s), naive done (544s), crystal done (573s), display done (256s)
+00:48:18 Not finalizing (--no-finalize or --only was used).

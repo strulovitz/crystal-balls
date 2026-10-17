@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-14",
+  "is_legacy": false,
+  "code": "IL",
+  "name": "Israel",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T00:48:18+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "done",
+    "wind": "done",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The week was dominated by escalating settler violence in the West Bank during the olive harvest. Israeli settlers repeatedly attacked Palestinian farmers, and on October 17 they assaulted a group of European diplomats and a Washington Post journalist who had come to observe the harvest. Belgium confirmed the attack, and the incident drew broad international condemnation. At the same time, Israel halted the entry of commercial goods into Gaza, prompting the UN to warn that malnutrition gains were fragile and the Health Ministry to describe conditions as catastrophic. Israel's general elections were two weeks away, with polls showing a tight race and the possibility that Arab-led parties could become swing voters. Italy opened a formal probe naming senior Israelis, including Defense Minister Katz, over the treatment of Gaza flotilla activists. China publicly urged Israel to stop the forced establishment of settlements in the West Bank. A BBC Verify investigation found that hundreds of IDF investigations into killings produced no public outcome. Israel also stripped Dutch diplomats of their status in the West Bank. The overall picture was one of mounting pressure on multiple fronts as the country headed into a critical election.",
+    "key_events": [
+      {
+        "event": "Israeli settlers attacked a group of European diplomats and a US journalist in the West Bank during the olive harvest, prompting Belgium and other EU states to demand accountability.",
+        "date": "2026-10-17",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Israel stopped commercial goods from entering Gaza after merchants suspended coordination, raising fears of worsening shortages and catastrophic malnutrition.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Israel's general elections were set for two weeks later, with polls showing a tight race and Arab-led parties potentially in a decisive position.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Italy opened a formal probe naming Defense Minister Katz and other senior Israelis over the abuse and sexual assault of Gaza flotilla activists.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Recurring settler attacks on Palestinian farmers during the olive harvest saw cars torched, olive trees burned, and multiple Palestinians and journalists injured.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "China publicly called on Israel to stop the forced establishment of West Bank settlements, marking a sharper tone than in previous years.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A BBC Verify investigation found that hundreds of IDF investigations into Palestinian killings produced no public outcome.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Researchers revealed that an Israeli firm had used online ads to run a vast zero-click spyware operation affecting targets including Al Jazeera staff.",
+        "date": "2026-10-15",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Gaza's Health Ministry described malnutrition and starvation levels as catastrophic as commercial supply lines dried up.",
+        "date": "2026-10-16",
+        "domain": "health",
+        "importance": 4
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "diplomacy",
+      "society",
+      "health"
+    ],
+    "emojis": [
+      "🌾",
+      "🗳️",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The olive harvest was the central stage for the week's most repeated violence, as settlers attacked Palestinian farmers and European diplomats collecting olives.",
+      "Israel's general election was two weeks away, dominating political commentary from TV5Monde, Bloomberg, and Al Jazeera.",
+      "China, Belgium, Italy, and the Netherlands all issued diplomatic statements or took action in response to Israel's actions in the West Bank and Gaza."
+    ]
+  },
+  "velocity": {
+    "summary": "The most dramatic single-event shock from the previous round, the FlyDubai cockpit attack and the Egypt warning leak, has vanished entirely from the agenda, replacing a spike of security anxiety with a broader, more diffuse pressure. Meanwhile, West Bank settler violence has sharpened from routine Sukkot marches into a specific, high-visibility attack on European diplomats and a US journalist during the olive harvest, drawing formal EU demands for accountability. Gaza's story has pivoted from a general 'war in its third year' to a concrete humanitarian crisis: Israel halted commercial goods, and the Health Ministry now calls malnutrition catastrophic. The election, mentioned in passing before, has become the organizing frame, with Arab-led parties now cast as potential swing voters. New diplomatic and legal fronts have opened, including Italy naming Defense Minister Katz in a formal probe, China publicly demanding a halt to settlements, and Israel reciprocally stripping Dutch diplomats. The overall tempo is one of multiple simultaneous pressures compounding rather than a single dramatic event, and the country is two weeks from a vote that could reframe all of it.",
+    "direction": "escalating",
+    "speed": 6,
+    "intensity_change": -1,
+    "rising": [
+      "settler violence hitting diplomats and journalists",
+      "Gaza humanitarian crisis from halted goods",
+      "international legal and diplomatic probes multiplying",
+      "election as central political frame with Arab parties as swing voters"
+    ],
+    "fading": [
+      "FlyDubai cockpit attack and Iran attribution",
+      "Egypt pre-October 7 warning leak",
+      "Netanyahu secret Abu Dhabi Iran intelligence visit",
+      "ZIM-Hapag-Lloyd shipping deal dispute"
+    ],
+    "new": [
+      "Italy formal probe naming Defense Minister Katz over flotilla abuse",
+      "China publicly demanding end to West Bank settlement expansion",
+      "BBC Verify finding that hundreds of IDF killing investigations went public nowhere",
+      "Israeli zero-click spyware operation targeting Al Jazeera staff and others"
+    ]
+  },
+  "wind": {
+    "previous_round": "2026-10-14",
+    "naive": {
+      "statements": [
+        {
+          "id": "N1",
+          "text": "The Israeli Knesset holds a formal debate or the Security Cabinet convenes a special session on the October 7 anniversary and the Egypt warning leaks between October 14 and October 21, 2026.",
+          "probability": 0.85,
+          "domain": "politics",
+          "outcome": 0,
+          "evidence": "No headline reported a Knesset debate or Security Cabinet special session on the October 7 anniversary or an Egypt warning."
+        },
+        {
+          "id": "N2",
+          "text": "Israel's aviation authority or Shin Bet announces a new cockpit-access or pilot-verification protocol at Ben Gurion Airport between October 14 and October 21, 2026.",
+          "probability": 0.9,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "No headline reported a new cockpit-access or pilot-verification protocol at Ben Gurion Airport."
+        },
+        {
+          "id": "N3",
+          "text": "Netanyahu delivers a campaign speech or Likud airs a national television ad explicitly referencing the FlyDubai cockpit incident as evidence of Israel's survival between October 14 and October 21, 2026.",
+          "probability": 0.8,
+          "domain": "politics",
+          "outcome": 0,
+          "evidence": "Election headlines focused on polls and Arab-led parties as swing voters, with no mention of Netanyahu or Likud explicitly referencing the FlyDubai cockpit incident."
+        },
+        {
+          "id": "N4",
+          "text": "A settler march in the West Bank results in at least one recorded clash with Palestinian residents or Israeli security forces between October 14 and October 21, 2026.",
+          "probability": 0.7,
+          "domain": "society",
+          "outcome": 1,
+          "evidence": "Multiple headlines on October 16-17 confirm settlers torched cars, burned olive trees, and attacked Palestinian farmers and European diplomats during the West Bank olive harvest."
+        },
+        {
+          "id": "N5",
+          "text": "Finance Minister Smotrich announces or extends a fuel price subsidy program for Israeli voters between October 14 and October 21, 2026.",
+          "probability": 0.4,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "No headline reported Finance Minister Smotrich announcing or extending a fuel price subsidy program."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.485
+    },
+    "crystal": {
+      "statements": [
+        {
+          "id": "C1",
+          "text": "The FlyDubai cockpit investigation report attributes the copilot's actions to a personal, medical, or criminal motive rather than terrorism, and opposition leaders publicly denounce Netanyahu for overstating the threat between October 14 and October 21, 2026.",
+          "probability": 0.35,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "No headline reported a FlyDubai cockpit investigation report or opposition leaders denouncing Netanyahu over it."
+        },
+        {
+          "id": "C2",
+          "text": "Israel's aviation authority publishes a formal rule change to cockpit-door procedures, pilot identification checks, or emergency protocol training at Ben Gurion Airport between October 14 and October 21, 2026.",
+          "probability": 0.55,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "No headline reported a formal rule change to cockpit-door procedures or pilot identification checks at Ben Gurion Airport."
+        },
+        {
+          "id": "C3",
+          "text": "The United States deploys at least one additional naval vessel or squadron of combat aircraft to the eastern Mediterranean or Red Sea between October 14 and October 21, 2026.",
+          "probability": 0.4,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "No headline reported a US naval or air deployment to the eastern Mediterranean or Red Sea."
+        },
+        {
+          "id": "C4",
+          "text": "A formal ceasefire agreement or a binding humanitarian framework for Gaza is signed or announced by the negotiating parties between October 14 and October 21, 2026.",
+          "probability": 0.25,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "The Gaza situation worsened with commercial goods halted and malnutrition described as catastrophic, but no ceasefire or binding humanitarian framework was signed or announced."
+        },
+        {
+          "id": "C5",
+          "text": "An Israeli court issues a ruling or the Central Elections Committee accepts a petition that changes the eligibility or party status of at least one Arab-listed candidate or party between October 14 and October 21, 2026.",
+          "probability": 0.45,
+          "domain": "politics",
+          "outcome": 0,
+          "evidence": "Headlines discussed Arab-led parties as potential swing voters but no court ruling or Central Elections Committee petition changing Arab-listed candidate eligibility was reported."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.17
+    },
+    "winner": "crystal",
+    "systematic_error": "Both forecasts over-indexed on the FlyDubai cockpit incident and its institutional aftermath, with five of the ten statements anchored to that single story. By the 14-21 October window the news cycle had already rotated: settler-diplomat violence during the olive harvest, Gaza's commercial supply collapse and catastrophic malnutrition, and the election countdown dominated headlines. Both forecasts were too quiet on the diplomatic front (settler-diplomat attack, China's settlements call, Italy's Katz probe) and too optimistic that a dramatic event from the prior week would still generate institutional responses. The NAIVE forecast in particular assigned high confidence to specific institutional actions (Knesset debate, aviation protocol) that never materialized, while CRYSTAL hedged probabilities but pointed at the same absent stories.",
+    "correction_hint": "Anchor your Israel forecast to the three active threads visible in this week's headlines: West Bank settler violence and its diplomatic fallout, Gaza's worsening humanitarian and supply situation, and the election dynamics two weeks out. Treat a dramatic one-off event (a flight incident, a single court ruling) as already absorbed after 48-72 hours unless institutional follow-through is explicitly in motion, and give at least one slot to the recurring diplomatic friction (China, EU, Italy, Colombia) rather than defaulting to domestic security."
+  },
+  "naive_forecast": {
+    "summary": "The coming week in Israel will be dominated by the final stretch of the legislative election campaign, which is expected to take place in the days immediately after the forecast window. Voters and commentators will focus on polling swings, coalition mathematics, and whether Arab-led parties will be courted as decisive partners. In the West Bank, the settler attacks on European diplomats and the stripping of Dutch diplomatic status will push the European Union and individual member states to issue formal diplomatic notes or name specific Israeli officials for targeted measures. In Gaza, the halt of commercial goods will deepen the humanitarian crisis, and the UN or WHO will publish updated acute-malnutrition figures that are expected to cross earlier thresholds. Italy's judicial probe into the flotilla incident will advance to its next procedural step, most plausibly a formal summons for Defense Minister Katz. A less expected development would be a government announcement of a specific new settlement block in the West Bank, which would compound diplomatic friction just before the vote.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "A pre-election poll published in Israel before October 24 shows no single party or bloc leading its closest rival by more than five percentage points.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "The European Union issues a formal joint statement or adopts targeted sanctions naming at least one specific Israeli official in response to the settler attacks on European diplomats in the West Bank, published by October 24.",
+        "probability": 0.6,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N3",
+        "text": "The World Health Organization or the United Nations announces that the number of children in Gaza classified as having acute malnutrition has exceeded 20,000, citing the suspension of commercial goods entry.",
+        "probability": 0.55,
+        "domain": "health"
+      },
+      {
+        "id": "N4",
+        "text": "Italian prosecutors issue a formal summons or arrest warrant for Israeli Defense Minister Yoav Katz as the next step in their probe into the Gaza flotilla activists incident, and the document is made public by October 24.",
+        "probability": 0.4,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "Israel's cabinet approves a new settlement plan for at least 1,000 housing units in the West Bank and the decision is publicly announced by October 24.",
+        "probability": 0.25,
+        "domain": "politics"
+      }
+    ],
+    "horizon_start": "2026-10-17",
+    "horizon_end": "2026-10-24"
+  },
+  "crystal_forecast": {
+    "summary": "The coming week will be defined by the diplomatic aftershock of the settler attack on European diplomats, which will drive formal EU and bilateral responses as Israel's government decides between accountability and defiance. Gaza's humanitarian situation will worsen as the commercial goods halt takes its toll, with the Health Ministry and UN agencies publishing new figures on malnutrition and starvation that will intensify calls for emergency food intervention. The election countdown will accelerate, with campaign rhetoric sharpening around whether Arab-led parties can be brought into a governing coalition. Security attention will turn to the confirmed Hezbollah explosives, creating pressure on the military to act before the vote. Cumulative diplomatic pressure from China, Italy, Belgium, and the UK will test Israel's willingness to show flexibility on settlements, though the hardline political mood suggests resistance. The overall week will be one of compounding external pressures against a government preparing for its most contested election in years.",
+    "reasoning": "The previous forecast lost points by anchoring five of ten statements to the FlyDubai cockpit incident, which had already rotated out of the news cycle within 48 hours. This forecast corrects that error by anchoring to the three threads that actually dominated the Oct 14-17 headlines: the settler-diplomat violence and its diplomatic fallout, Gaza's supply collapse and malnutrition, and the two-week election countdown. The trend shows multiple pressures compounding rather than a single shock, so the statements track those compounding threads rather than a one-off event. I also give two slots to the diplomatic front per the wind correction, and one to the Hezbollah explosives security thread the previous round underweighted. The low-probability settlement-moratorium statement reflects cumulative pressure from China, the EU, and Italy while acknowledging the hardline mood that makes it unlikely.",
+    "confidence": 6,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Belgium or the EU's High Representative for Foreign Affairs issues a formal diplomatic response to the October 17 settler attack on European diplomats, including a demand for an official Israeli investigation or the recall of an Israeli ambassador to Brussels.",
+        "probability": 0.72,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C2",
+        "text": "Gaza's Health Ministry or the World Health Organization publishes a new report quantifying the number of children under five with severe acute malnutrition in Gaza as a direct consequence of the commercial goods halt.",
+        "probability": 0.68,
+        "domain": "health"
+      },
+      {
+        "id": "C3",
+        "text": "A leading Israeli party or candidate publicly announces a formal coalition agreement or partnership understanding with an Arab-led party during the pre-election campaign period.",
+        "probability": 0.42,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "The Israeli Defense Forces conducts an air strike or ground operation in Lebanon or northern Israel and publicly attributes it to the Hezbollah explosives that were confirmed as intended to attack Israel.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "The Israeli cabinet or Prime Minister's office announces a temporary suspension of new settlement building permits in the West Bank in response to cumulative diplomatic pressure from China, the European Union, and Italy.",
+        "probability": 0.15,
+        "domain": "diplomacy"
+      }
+    ],
+    "horizon_start": "2026-10-17",
+    "horizon_end": "2026-10-24"
+  },
+  "display": {
+    "headline": "Israel's Election Week Meets Diplomatic Storm and Gaza Famine",
+    "emojis": [
+      "🗳️",
+      "🌐",
+      "🏥"
+    ],
+    "emoji_reasons": [
+      "The general election is two weeks away and campaign rhetoric about coalitions and Arab-led parties will define domestic politics all week.",
+      "Belgium, the EU, China, Italy, and the UK are all pressing Israel for accountability on the settler-diplomat attack and settlement policy.",
+      "Gaza's commercial goods halt is producing new, grim figures on child malnutrition and starvation as food supply lines dry up."
+    ],
+    "tldr": "Israel's election countdown collides with the diplomatic fallout from the settler attack on European diplomats and a worsening Gaza food crisis. Expect formal EU responses, new malnutrition reports, and hardline campaign rhetoric as the government balances accountability against defiance. The week is one of compounding external pressures.",
+    "eli5": "Israel is heading into its most important election in years, and this week everything is piling up at once. Settlers in the West Bank physically attacked a group of European diplomats who had come to watch the olive harvest, and now Belgium, France, and other EU countries are demanding Israel explain itself. At the same time, commercial trucks have stopped rolling into Gaza, and hospitals are reporting children under five getting dangerously thin.\n\nThe diplomatic incident is huge because those diplomats were on official business, not just tourists, so other governments feel they cannot simply shrug it off. Gaza's food crisis is deepening because local merchants suspended coordination over unpaid bills, and the UN warns that the small nutritional gains families had made are now being erased. The elections make everything more charged because every leader wants to look tough for their voters while also managing the foreign complaints.\n\nThere is about a seven in ten chance that Belgium or the EU's top foreign-policy official will issue a formal demand for an Israeli investigation into the attack, possibly recalling an ambassador. There is about a seven in ten chance that the Gaza Health Ministry or the World Health Organization will publish a new report quantifying how many young children now have severe acute malnutrition, a number that will be grim. Campaign speeches will sharpen around whether Arab-led parties can be pulled into a governing coalition, and the military may act against confirmed Hezbollah explosives before the ballot.\n\nThe biggest surprise of the week would be the cabinet actually pausing new settlement building permits to ease the growing pressure from China, the EU, and Italy. That has only about a one in seven chance of happening because the political mood is very hardline right now and no leader wants to look soft two weeks before their constituents go to vote."
+  }
+}
