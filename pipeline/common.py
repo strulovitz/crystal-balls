@@ -748,13 +748,19 @@ def _chat_completion(messages, settings, temperature, use_response_format):
     api_key = settings.get("LLM_API_KEY", "not-needed-for-local")
     timeout = int(settings.get("LLM_TIMEOUT_SECONDS", 600))
     max_tokens = int(settings.get("LLM_MAX_TOKENS", 4096))
-    reasoning_effort = settings.get("LLM_REASONING_EFFORT", "").strip()
 
     payload = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens}
     if use_response_format:
         payload["response_format"] = {"type": "json_object"}
-    if reasoning_effort:
-        payload["reasoning_effort"] = reasoning_effort
+    # Sampling params matching the model's own documented recommended defaults
+    # (e.g. Unsloth's Qwen3.8 thinking-mode settings). Only sent if set, so
+    # this is harmless for servers/models that don't use these fields.
+    if settings.get("LLM_TOP_P", "").strip():
+        payload["top_p"] = float(settings["LLM_TOP_P"])
+    if settings.get("LLM_TOP_K", "").strip():
+        payload["top_k"] = int(settings["LLM_TOP_K"])
+    if settings.get("LLM_MIN_P", "").strip():
+        payload["min_p"] = float(settings["LLM_MIN_P"])
 
     headers = {"Content-Type": "application/json"}
     if api_key and api_key != "not-needed-for-local":
@@ -781,7 +787,7 @@ def llm_json(prompt_file, variables, validator, step_name, country_code, round_i
 
     base_url = settings.get("LLM_BASE_URL", "http://localhost:11434/v1").rstrip("/")
     max_retries = int(settings.get("LLM_MAX_RETRIES", 3))
-    base_temperature = float(settings.get("LLM_TEMPERATURE", 0.4))
+    base_temperature = float(settings.get("LLM_TEMPERATURE", 1.0))
 
     user_prompt = fill_prompt(prompt_file, variables)
     system_message = build_system_message(round_id, settings)
@@ -860,7 +866,7 @@ def llm_ping(settings=None):
     try:
         resp = _chat_completion(
             [{"role": "user", "content": "Reply with the single word OK."}],
-            settings, float(settings.get("LLM_TEMPERATURE", 0.4)), use_response_format=False,
+            settings, float(settings.get("LLM_TEMPERATURE", 1.0)), use_response_format=False,
         )
         return resp.status_code == 200
     except requests.RequestException as e:
