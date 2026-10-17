@@ -1,8 +1,12 @@
 # Handoff: for Sonnet, after Haiku finishes the legacy import
 
-Read this when Nir brings you back in after Haiku's run (whether it went
-perfectly or Haiku hit a real problem and stopped per
-`data/legacy/HANDOFF-FOR-HAIKU-RUN-IMPORT-2026-10-17.md`).
+Read this when Nir brings you back in after Haiku finishes BOTH rounds
+all the way through (Haiku runs all 64 countries end-to-end regardless of
+individual country failures, per
+`data/legacy/HANDOFF-FOR-HAIKU-RUN-IMPORT-2026-10-17.md` — it only stops
+early if the script itself crashes, not for individual country issues).
+Haiku should hand you a FULL PROBLEM LIST: exact counts per round, which
+specific countries (if any) failed, and the real error text for each.
 
 ## Step 1: find out what actually happened — don't assume
 

@@ -9,14 +9,15 @@ unless something genuinely breaks. Both legacy folders already have all
 
 ## IMPORTANT: when Nir switches back to Sonnet after this
 
-Whether this run finishes perfectly or you hit a real problem and stop,
-tell Nir to tell Sonnet (the next time Sonnet is active) to read
+Whether every country succeeded or some didn't, when you're done (or if
+the script itself crashes entirely — see below), tell Nir to tell Sonnet
+(the next time Sonnet is active) to read
 `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` (in the repo root) FIRST.
-That file explains exactly how Sonnet should pick up from here — whether
-everything went fine or you're reporting a real problem list. Make sure
+That file explains exactly how Sonnet should pick up from here. Make sure
 whatever you tell Nir to pass along includes real numbers (how many
-countries matched, how long it took, any real errors verbatim) so Sonnet
-isn't guessing.
+countries matched, how many succeeded/failed per round, how long it took,
+any real error messages verbatim for failed countries) so Sonnet isn't
+guessing.
 
 ## What changed today that affects this run (so you understand the timing)
 
@@ -41,7 +42,9 @@ cd /home/nir/crystal-balls
 .venv/bin/python pipeline/import_legacy.py --round 2026-10-01 --source data/legacy/round-1
 ```
 
-Wait for it to finish completely (all 32 countries). Then run:
+Wait for it to finish completely (it runs through all 32 countries on its
+own, one by one — you do not need to intervene between countries). Then
+run:
 
 ```
 .venv/bin/python pipeline/import_legacy.py --round 2026-10-14 --source data/legacy/round-2
@@ -52,32 +55,42 @@ per round, each potentially several minutes with full reasoning quality —
 could be multiple hours per round) and can run unattended, he doesn't
 need to watch it.
 
-## What is NORMAL (do not panic, do not call Sonnet back for these)
+## KEEP GOING NO MATTER WHAT — DO NOT STOP FOR INDIVIDUAL COUNTRY ISSUES
 
-- The script prints a list of "unmatched" filenames if any — only a
-  problem if country names don't match (all 32 should match; the
-  matching logic already handles spacing/case/aliases like "UK"->GB,
-  "DRC"->CD).
-- A country's model call can retry once automatically (e.g. a JSON syntax
-  error) and still succeed after the retry. Normal.
-- Long run times, potentially multiple hours per round, given full-quality
-  reasoning is now intentional, not a bug.
+The script ALREADY handles a single country's failure gracefully on its
+own: if one country's model call fails validation even after retries, the
+script logs "FAILED, skipping" and automatically moves on to the next
+country by itself. **You do not need to do anything when you see this —
+just let it keep running.** Your job is to let BOTH rounds run all the way
+through to the end, then collect and report the FULL list of whatever
+happened (successes AND failures) — not to stop partway through because
+some countries had problems.
+
+Things that are completely normal, just let them happen and keep going:
+- The script prints a list of "unmatched" filenames if any (shouldn't
+  happen since both folders already have all 32 matching files, but if it
+  does, just note it in your final report).
+- Any number of "FAILED, skipping" lines for individual countries —
+  note each one, but do NOT stop, do NOT try to fix them yourself, just
+  let the script continue and keep a running list.
+- A country's model call retrying automatically (built into the script).
+- Long run times — potentially multiple hours per round. Expected, not a
+  bug.
 - This is just terminal output scrolling for a long time. Normal.
 
-## What IS a real problem — STOP and tell Nir to switch back to Sonnet
+## The ONLY thing that should actually make you stop early
 
-- The script crashes with a Python traceback / exits with an error before
-  finishing all 32 countries.
-- More than 2-3 countries end up "FAILED, skipping" (one occasional skip
-  is not alarming, several is).
-- Fewer than 32 countries matched in either round (should be exactly 32
-  and 32 — if less, some filename didn't match, list which ones).
-- Anything that looks like a bug in the code itself, not just a single
-  flaky model call.
-- Ollama itself crashes or stops responding (check with `ollama ps` —
-  model should show `huihui_ai/Qwen3.8-abliterated:27b` when running).
+If the script itself crashes with an unhandled Python traceback/error and
+EXITS before reaching the end of a round's country list (i.e. it stops
+running entirely, not just skipping one country and continuing) — THEN
+stop, note the exact error message, and tell Nir to switch back to Sonnet
+to fix the code. This is different from a single country failing
+validation (which the script already handles on its own and keeps going).
+If Ollama itself crashes/stops responding entirely (check `ollama ps` —
+should show `huihui_ai/Qwen3.8-abliterated:27b`), that would also cause
+the whole script to stop/hang — same deal, note it and call Sonnet back.
 
-## After BOTH rounds finish successfully
+## After BOTH rounds finish running all the way through
 
 1. Validate a couple of files — run this and confirm it prints "OK" for
    each (swap in a few different codes/dates, not just these two):
@@ -87,21 +100,30 @@ need to watch it.
 .venv/bin/python3 -c "from pipeline import common; f=common.load_json('data/rounds/2026-10-14/countries/US.json'); common.validate_country_file(f, vocabulary=common.load_json('config/emoji_vocabulary.json')); print('OK')"
 ```
 
-2. Tell Nir: how many countries matched per round (should be 32/32 each),
-   and list any that failed/skipped, with real numbers, not vague words.
-   Also tell him roughly how long each round actually took (real
-   timestamps, not guesses).
+2. Write down a FULL PROBLEM LIST, whether it's empty or long: for each
+   round, exactly how many of the 32 countries succeeded, exactly which
+   ones (if any) ended up "FAILED, skipping" (with the country name and
+   whatever error text the log showed for it), and exactly how long each
+   round actually took (real timestamps, not guesses). This list is what
+   Sonnet needs — do not just say "it went fine" or "some failed", give
+   the real list.
 3. Commit and push:
 
 ```
 git add -A && git commit -m "Import legacy rounds 1 and 2 (full 64-country run)" && git push
 ```
 
-4. Tell Nir it's done, with the real numbers, and that he can switch back
-   to Sonnet (or whoever) if he wants anything else done on Crystal Balls.
+4. Tell Nir it's done, give him the full problem list from step 2 (even
+   if it's "zero failures, both rounds 32/32"), and tell him to bring
+   Sonnet back in to read `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md`
+   and take it from there — whether that means double-checking everything
+   looks good, or fixing any real failures on the list.
 
-## If ANYTHING in "what IS a real problem" happens
+## The only case where you stop early (script crash, not a country failing)
 
-Stop immediately, do not try to fix code yourself, tell Nir exactly what
-you saw (the real error message / real numbers), and tell him to switch
-back to Claude Sonnet 5 to debug it.
+If the script crashes entirely with an unhandled error before reaching
+the end of a round (different from the script's own normal "FAILED,
+skipping" for one country, which you should just let happen and keep
+going) — THEN stop, write down the exact error message, and tell Nir to
+bring Sonnet back in early to fix it, pointing Sonnet to
+`HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` same as above.
