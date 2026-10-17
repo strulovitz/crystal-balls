@@ -24,3 +24,4 @@ date, which is expected.
 | Taiwan | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Italy | 2026-10-11 | Qwen 3.8 27B abliterated |
 | India | 2026-10-11 | Qwen 3.8 27B abliterated |
+| Egypt | 2026-10-14 | Qwen 3.8 27B abliterated |
