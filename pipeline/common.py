@@ -602,9 +602,13 @@ def validate_display(obj, vocabulary=None):
 
 def validate_legacy(obj, vocabulary=None):
     """Validate a model response for prompts/legacy_import.txt: a
-    {"position": {...}, "display": {...}} object. Lighter than
-    validate_position/validate_display since the source material may be
-    incomplete (the model is told to write "reconstructed" when guessing)."""
+    {"position": {...}, "display": {...}, "forecast": {...}} object.
+    Lighter than validate_position/validate_display since the source
+    material may be incomplete (the model is told to write
+    "reconstructed" when guessing). forecast.statements is checked the
+    same way as a real forecast (exactly 5, id_prefix "F") so Nir's real
+    predicted statements survive import and can be scored by a later
+    round's wind step instead of being thrown away."""
     errors = []
     vocab = _vocab_set(vocabulary)
 
@@ -636,6 +640,17 @@ def validate_legacy(obj, vocabulary=None):
         tldr = display.get("tldr", "")
         if not isinstance(tldr, str) or not tldr.strip():
             errors.append("display.tldr: missing or empty")
+
+    forecast = obj.get("forecast")
+    if not isinstance(forecast, dict):
+        errors.append("forecast: missing")
+    else:
+        summary = forecast.get("summary", "")
+        if not isinstance(summary, str) or not summary.strip():
+            errors.append("forecast.summary: missing or empty")
+        else:
+            _check_no_markdown_table("forecast.summary", summary, errors)
+        _check_statements("forecast.statements", forecast.get("statements", []), errors, id_prefix="F")
 
     if errors:
         raise ValueError("Legacy validation failed:\n" + "\n".join(f"  - {e}" for e in errors))

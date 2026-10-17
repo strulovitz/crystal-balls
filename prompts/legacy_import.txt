@@ -1,13 +1,17 @@
 Country: {{COUNTRY}}
 Approximate date of this material: {{ROUND}}
 
-Below is a text that was produced by hand in an earlier version of this project. It contains a model's reading of one week of headlines about {{COUNTRY}} and its prediction for the following week, possibly with the headlines themselves. Extract from it a situation report (what the text says happened) and a display summary (what the text predicted). If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
+Below is a text that was produced by hand in an earlier version of this project. It is a real forecast: a model's reading of one week of headlines about {{COUNTRY}}, with a genuine prediction for the following week, usually including scenario weights or numbered predictions with stated confidence. Extract from it a situation report (what the text says happened), a display summary (what the text predicted), AND the five clearest, most concrete, checkable predictions it actually made, turned into proper statements. If a part is missing from the text, fill the field with your best reading of it and say "reconstructed" inside the summary.
 
 LEGACY TEXT:
 {{LEGACY_TEXT}}
 
 Emoji vocabulary:
 {{VOCABULARY}}
+
+{{STATEMENT_RULES}}
+
+For the forecast statements: read the text's own numbered predictions and scenario weights, and turn its five clearest, most concrete, checkable predictions into statements following the rules above. Convert the text's own stated confidence (e.g. "85-90%") into the matching probability. Do not invent predictions the text does not support; only reconstruct one if the text truly has fewer than five concrete predictions.
 
 Return this JSON object:
 {
@@ -25,5 +29,9 @@ Return this JSON object:
     "emojis": ["one", "two", "three"],
     "emoji_reasons": ["one sentence each"],
     "tldr": "two or three sentences, at most 60 words, what the text predicted"
+  },
+  "forecast": {
+    "summary": "100 to 180 words, what the text predicted for the following week",
+    "statements": [{"id": "F1 to F5", "text": "one checkable sentence", "probability": 0.05 to 0.95, "domain": "domain name"}]
   }
 }

@@ -84,6 +84,14 @@ def main():
 
     log(f"Importing legacy round {round_id} from {source}: {len(matched)} matched, {len(unmatched)} unmatched")
 
+    from datetime import timedelta as _timedelta
+    horizon_days = int(settings.get("HORIZON_DAYS", 7))
+    horizon_start = round_id
+    horizon_end = (datetime.strptime(round_id, "%Y-%m-%d").date() + _timedelta(days=horizon_days)).isoformat()
+    statement_rules = common.fill_prompt("statement_rules.txt", {
+        "HORIZON_START": horizon_start, "HORIZON_END": horizon_end, "ID_PREFIX": "F",
+    })
+
     done = 0
     for path, c in matched:
         code, name = c["code"], c["name"]
@@ -95,6 +103,7 @@ def main():
         variables = {
             "COUNTRY": name, "ROUND": round_id, "LEGACY_TEXT": text,
             "VOCABULARY": common.vocabulary_as_text(vocabulary),
+            "STATEMENT_RULES": statement_rules,
         }
         validator = lambda obj: common.validate_legacy(obj, vocabulary=vocabulary)
         common.fill_prompt("legacy_import.txt", variables)
@@ -112,6 +121,34 @@ def main():
             log(f"  {name}: FAILED, skipping")
             continue
 
+        # Build real naive_forecast and crystal_forecast from the text's own
+        # reconstructed statements, so a later round's wind step has a real
+        # bet to grade instead of nothing (Nir, 2026-10-17: the legacy text
+        # IS a real forecast with real percentages; don't throw it away).
+        # Historically there was only ONE forecast (not a naive vs
+        # model-corrected pair), so naive and crystal share the same
+        # statements, just with different id prefixes.
+        raw_statements = obj["forecast"]["statements"]
+        forecast_summary = obj["forecast"]["summary"]
+        def _mk_statements(prefix):
+            return [
+                {"id": f"{prefix}{i + 1}", "text": s["text"], "probability": s["probability"],
+                 "domain": s["domain"]}
+                for i, s in enumerate(raw_statements)
+            ]
+        naive_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": forecast_summary, "statements": _mk_statements("N"),
+        }
+        crystal_forecast = {
+            "horizon_start": horizon_start, "horizon_end": horizon_end,
+            "summary": forecast_summary,
+            "reasoning": "Reconstructed from Nir's manual legacy round; naive and crystal are "
+                         "identical because the original text made one forecast, not two.",
+            "confidence": 5,
+            "statements": _mk_statements("C"),
+        }
+
         country_file = {
             "schema_version": 1, "round": round_id, "previous_round": prev_round_id,
             "is_legacy": True, "code": code, "name": name,
@@ -119,10 +156,11 @@ def main():
             "generated_at": _now_iso(),
             "status": {
                 "position": "done", "velocity": "skipped", "wind": "skipped",
-                "naive_forecast": "skipped", "crystal_forecast": "skipped", "display": "done",
+                "naive_forecast": "done", "crystal_forecast": "done", "display": "done",
             },
             "position": obj["position"],
-            "velocity": None, "wind": None, "naive_forecast": None, "crystal_forecast": None,
+            "velocity": None, "wind": None,
+            "naive_forecast": naive_forecast, "crystal_forecast": crystal_forecast,
             "display": {**obj["display"], "eli5": None},
         }
         save_json(countries_dir / f"{code}.json", country_file)

@@ -279,7 +279,7 @@ Statements: exactly 5 per forecast. Each text is one sentence, concrete, checkab
 
 Emojis: exactly 3, all from the vocabulary, no duplicates within the triple. intensity, speed, confidence, importance are integers; intensity and speed 1 to 10, confidence 1 to 10, importance 1 to 5. intensity_change is an integer from -9 to 9. mood is one of escalating, tense, stable, improving, mixed. direction is one of escalating, de-escalating, shifting, steady. outcome is 0, 1 or null. winner is crystal, naive, tie (Brier difference below 0.01) or none (nothing to score). brier is rounded to 3 decimals and computed by Python, never trusted from the model.
 
-For a legacy round: is_legacy is true; position is filled from the legacy text (see Part 7); velocity, wind, naive_forecast, crystal_forecast are null; display has emojis, headline and tldr taken from whatever the legacy text predicted, and eli5 null. Status values for the missing sections are "skipped".
+For a legacy round: is_legacy is true; position is filled from the legacy text (see Part 7); velocity and wind are null (status "skipped" — no previous round to compare against, or no previous forecast to grade); naive_forecast and crystal_forecast are reconstructed from the text's own real predictions (status "done", both identical since the original manual process made one forecast, not a naive/corrected pair) so a later round's wind step has real statements to grade; display has emojis, headline and tldr taken from whatever the legacy text predicted, and eli5 null.
 
 For the first non-legacy round after legacy rounds: velocity is computed (positions exist), wind is null with status "skipped" because legacy rounds have no scored statements.
 
