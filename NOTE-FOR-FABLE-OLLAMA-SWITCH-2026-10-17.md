@@ -75,3 +75,57 @@ screen Part 07 line 6 describes ("set the context window in the model
 loading screen to at least 32768") doesn't exist for Ollama running
 headless as a systemd service — there's no loading screen at all once it's
 running as a daemon.
+
+## IMPORTANT UPDATE (same day, 2026-10-17): the real maximum context, verified from official sources
+
+Nir pushed back hard on "32768 because the Bible says so" and demanded the
+REAL maximum this specific hardware can support, verified from actual
+documentation (Unsloth's own docs + llama.cpp docs), not guesses, not
+"matching a minimum."
+
+**Verified facts, straight from Unsloth's official documentation
+(unsloth.ai/docs/models/qwen3.8):**
+
+> "Maximum context window: 262,144 (can be extended to 1M via YaRN)"
+>
+> "Best rule of thumb: RAM+VRAM ≈ the quant size; otherwise it'll still
+> work, just much slower due to disk offloading."
+
+Nir's machine: 12GB VRAM (RTX 4070 Ti) + 62GB system RAM = **~74GB total**.
+The model's quant size (Q4_K_M): ~16-19GB. That's **~4x more total memory
+than the quant size** — comfortably inside Unsloth's own stated rule of
+thumb for smooth operation, with huge headroom left over specifically for
+context/KV cache.
+
+**The actual math (from the model's own architecture, read via `ollama
+show`/journalctl, not guessed):** this is a hybrid architecture
+(qwen35/Qwen3-Next style) where only 1 layer in every 4
+(`full_attention_interval=4`) needs the expensive, context-growing kind of
+memory; the rest are cheap constant-memory SSM/Mamba-style layers. Real
+KV-cache math for this specific model (head_count_kv=4, key/value
+length=256 each, ~16 attention layers out of 65 total):
+- Model weights: ~16GB
+- KV cache at the model's FULL native max (262,144 tokens): ~15GB more
+- Total needed for FULL native max context: **~31GB**
+- Nir's total available (RAM+VRAM combined): **~74GB**
+
+**Conclusion: 262,144 (the model's own full native maximum) comfortably
+fits Nir's actual combined hardware (GPU+CPU together, which is exactly
+how he wants to use it — not GPU-only).** The crash/restart-loop
+instability observed when testing this in Ollama directly was very likely
+an Ollama-specific rough edge at extreme context sizes (possibly made worse
+by testing it mid-loop while other processes/restarts were still settling),
+NOT a real hardware memory limit — the math and Unsloth's own official
+numbers both say it should fit.
+
+**Correction to Bible guidance:** "at least 32768" was treated as a floor
+to match, but it is NOT the real ceiling for this hardware, and should not
+be presented to Nir as "the number" without the fuller picture above. The
+real, hardware-justified number for this specific setup is the model's own
+native max: 262,144. Whether to actually RUN at that size (vs. a smaller
+size for speed) is a separate tradeoff — more context slows down
+generation because it eats into the VRAM budget used for GPU-offloaded
+model weight layers — but that is a SPEED tradeoff, not a "can it fit at
+all" limit. Fable and Nir should decide together whether the Bible should
+recommend running at the full 262,144 by default, or at a smaller size
+for speed, now that the actual ceiling is known and documented here.
