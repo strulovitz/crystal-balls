@@ -38,3 +38,4 @@ date, which is expected.
 | Singapore | 2026-10-08 | Qwen 3.8 27B abliterated |
 | Brazil | 2026-10-08 | Qwen 3.8 27B abliterated |
 | Australia | 2026-10-08 | Qwen 3.8 27B abliterated |
+| United Kingdom | 2026-10-11 | Qwen 3.8 27B abliterated |
