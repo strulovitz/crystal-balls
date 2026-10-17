@@ -1,0 +1,19 @@
+21:47:41 Importing legacy round 2026-10-14 from /tmp/opencode/il-us-r2b: 2 matched, 0 unmatched
+22:39:19   [IL legacy_import] attempt 1: 3097.8s, prompt_tokens=5109, completion_tokens=16803
+22:39:19   Israel: done (3098s)
+22:59:54   [US legacy_import] attempt 1: 1235.1s, prompt_tokens=5494, completion_tokens=7823
+22:59:54   United States: done (1235s)
+22:59:54 Downloading vendor files and world atlas...
+22:59:54   three.module.min.js: already present, skipping
+22:59:54   OrbitControls.js: already present, skipping
+22:59:54   topojson-client.min.js: already present, skipping
+22:59:54   countries-110m.json: already present, skipping
+22:59:54 Downloading emoji PNGs...
+22:59:54 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+22:59:54 data/meta.json written
+22:59:54 data/index.json written (2 complete rounds)
+22:59:54 Building bundles...
+22:59:54   bundle for 2026-10-14: 2 countries
+22:59:54   bundle for 2026-10-01: 2 countries
+22:59:54 build_site_data.py complete.
+22:59:54 Legacy import complete: 2 of 2 countries imported.

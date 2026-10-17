@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "US",
+  "name": "United States",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T22:59:54+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "By mid-October 2026, the United States was locked in an active conflict with Iran centered on the Strait of Hormuz. Tehran had tabled a seven-day plan to reopen key shipping lanes in exchange for sanctions relief, frozen-fund releases, and nuclear monitoring; President Trump rejected the original terms, and mediators in Qatar and elsewhere were shuttling revised proposals. A third aircraft carrier strike group and several thousand troops were deploying toward the region. Domestically, oil and diesel prices surged, the ten-year Treasury yield hovered near or above five percent, and mortgage rates jumped, stoking midterm anxiety. The Trump administration pressed European allies to release strategic diesel reserves while weighing its own export restrictions. A Trump-Xi summit had produced modest tariff cuts and an AI safety communication channel, but the broader rivalry was frozen rather than resolved. The U.S. completed its withdrawal from Iraq after more than two decades of military presence. The Senate blocked a measure demanding a report on West Bank rights violations. A northeast storm caused flooding and strong winds, a Burundi third-country deportation deal was in the works, and the White House was rebranding federal AI efforts around the term superintelligence.",
+    "key_events": [
+      {
+        "event": "Iran offered a seven-day Hormuz reopening plan and Trump rejected the original terms.",
+        "date": "2026-10-14",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "A third U.S. aircraft carrier strike group and thousands of troops began deploying toward the Iran theater.",
+        "date": "2026-10-14",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "U.S. diesel prices surged and the ten-year Treasury yield approached or crossed five percent.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Trump-Xi summit produced tariff cuts on goods and an AI safety communication channel.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "The United States completed its withdrawal from Iraq after more than twenty years of military presence.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "security",
+      "politics"
+    ],
+    "emojis": [
+      "⚔️",
+      "🛢️",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "The U.S. is in an active military confrontation with Iran over the Strait of Hormuz.",
+      "Surging oil and diesel prices and rising bond yields are driving domestic economic pain.",
+      "Midterm election politics are turning every foreign-policy decision into a domestic attack ad."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "This reading takes the text's fifty-percent top scenario at face value. The U.S. announces a narrow Iran trust-building package including partial Hormuz lane reopening and sector-specific sanctions relief, while keeping military pressure high. Trump frames the outcome as a pre-midterm victory. The administration signs a temporary diesel export quota or triggers a Strategic Petroleum Reserve move to ease pump prices. The ten-year Treasury yield closes the week above five percent, pressuring mortgages and housing. The U.S. Trade Representative publishes the first tranche of China tariff-cut product lists agreed at the summit. Trump holds a victory address on the completed Iraq withdrawal. The thirty-five-percent strike scenario and the fifteen-percent escalation tail the text mentions are set aside as minority outcomes; the week plays out as a managed de-escalation with domestic economic pain as the backdrop.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The White House announces a narrow U.S.-Iran trust-building framework that includes reopening one or two Strait of Hormuz shipping lanes and partial sector-specific sanctions relief.",
+        "probability": 0.52,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "Trump signs an executive order establishing a temporary U.S. diesel export quota and calls on European allies to release strategic fuel reserves within ten days.",
+        "probability": 0.62,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "The 10-year U.S. Treasury yield closes the trading week above 5.0 percent.",
+        "probability": 0.7,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "The U.S. Trade Representative publishes the specific product lists for the first tranche of tariff cuts agreed at the Trump-Xi summit.",
+        "probability": 0.45,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N5",
+        "text": "Trump holds a press conference or social-media address declaring the U.S. withdrawal from Iraq complete and framing it as a decisive military victory.",
+        "probability": 0.65,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "This reading weights the text's full fifty-thirty-five-fifteen distribution rather than isolating the top case. The thirty-five-percent strike scenario is substantial enough that a limited U.S. air campaign against Iranian coastal-defense or Houthi-linked targets is a near-co-equal outcome alongside the trust-building path. The fifteen-percent escalation tail, involving a proxy claim on a U.S. naval vessel or airbase, adds a low-probability but high-impact wildcard that the naive reading drops entirely. On bonds, the text stresses volatility and nervousness rather than a single level, so a spike above 5.25 percent is plausible even in the de-escalation branch. The AI rebranding into superintelligence proceeds as a visible branding exercise. The Senate war-powers vote happens but fails, confirming the text's note that Democrats create news cycles rather than legislative change. The overall picture is messier and more binary than the naive reading suggests.",
+    "reasoning": "The naive reading isolates the fifty-percent trust-building outcome and treats the rest as background. The crystal reading instead treats the thirty-five-percent strike scenario as a co-equal path: the text's own language about near-strike events, carrier positioning, and Trump's we-can-hit-them-very-hard rhetoric gives that branch real weight. The fifteen-percent escalation scenario, involving a proxy attack on a U.S. vessel or airbase, is a tail risk the naive reading drops entirely. On bonds, the text stresses volatility and nervousness rather than a single close, so the crystal reading tests a higher threshold of 5.25 percent that a volatile week can breach even if the close is softer. The AI and Senate items are lower-stakes but more certain than the Iran binary, so the crystal reading assigns them moderate-to-high confidence while the naive reading buries them among the top-line Iran story.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "U.S. forces conduct limited airstrikes on Iranian coastal-defense or missile sites or on Houthi-linked targets, and the Pentagon confirms the strikes within forty-eight hours.",
+        "probability": 0.38,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "The 10-year U.S. Treasury yield breaches 5.25 percent at any point during the trading week.",
+        "probability": 0.44,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "Iran or a designated proxy claims responsibility for an attack on a U.S. naval vessel, a commercial ship in the Gulf, or a U.S. airbase.",
+        "probability": 0.18,
+        "domain": "security"
+      },
+      {
+        "id": "C4",
+        "text": "A federal agency or the White House issues a formal document rebranding U.S. artificial-intelligence programs as superintelligence and rejects a proposed AI safety regulation.",
+        "probability": 0.62,
+        "domain": "technology"
+      },
+      {
+        "id": "C5",
+        "text": "The U.S. Senate votes on a war-powers resolution regarding the Iran conflict, and the measure is tabled or fails to pass.",
+        "probability": 0.42,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Trump to sell narrow Iran win amid fuel and bond pain",
+    "emojis": [
+      "🕊️",
+      "⛽",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "The core prediction is a narrow trust-building or de-escalation framework with Iran.",
+      "Fuel prices and diesel policy will dominate the domestic economic narrative.",
+      "The administration will frame the outcome as a pre-midterm political victory."
+    ],
+    "tldr": "The text predicted the U.S. would announce a narrow Iran trust-building framework or conduct limited strikes, while fuel prices, bond yields, and midterm politics dominated domestic news. Trump would frame the result as a pre-midterm victory even as Americans felt the cost through gas pumps and mortgages.",
+    "eli5": null
+  }
+}
