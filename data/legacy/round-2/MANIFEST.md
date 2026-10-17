@@ -19,3 +19,4 @@ date, which is expected.
 | Canada | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Iraq | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Saudi Arabia | 2026-10-07 | Qwen 3.8 27B abliterated |
+| Japan | 2026-10-07 | Qwen 3.8 27B abliterated |
