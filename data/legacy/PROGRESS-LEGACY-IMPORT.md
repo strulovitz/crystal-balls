@@ -2,7 +2,7 @@
 
 Last updated: end of Nir's session (Haiku 5.5). Resume from here.
 
-## Round 1 (dates 2026-09-15 to 2026-10-01): 22 of 32 saved (Japan added 2026-10-17, dated 2026-09-21)
+## Round 1 (dates 2026-09-15 to 2026-10-01): 23 of 32 saved (Japan 2026-09-21, South Korea 2026-09-22 added 2026-10-17)
 
 Saved (all Qwen 3.8 27B abliterated), in data/legacy/round-1/ with MANIFEST.md:
 1. Israel (2026-09-15)
