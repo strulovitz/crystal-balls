@@ -2,7 +2,7 @@
 
 Last updated: end of Nir's session (Haiku 5.5). Resume from here.
 
-## Round 1 (dates 2026-09-15 to 2026-10-01): 24 of 32 saved (Japan 2026-09-21, South Korea 2026-09-22, Taiwan 2026-09-22 added 2026-10-17)
+## Round 1 (dates 2026-09-15 to 2026-10-01): 24 of 32 saved (Japan 2026-09-21, South Korea 2026-09-22, Taiwan 2026-09-22)
 
 Saved (all Qwen 3.8 27B abliterated), in data/legacy/round-1/ with MANIFEST.md:
 1. Israel (2026-09-15)
@@ -26,11 +26,11 @@ Saved (all Qwen 3.8 27B abliterated), in data/legacy/round-1/ with MANIFEST.md:
 19. Egypt (2026-10-01)
 20. Turkey (2026-10-01)
 21. South Africa (2026-10-01)
+22. Japan (2026-09-21)
+23. South Korea (2026-09-22)
+24. Taiwan (2026-09-22)
 
-Still MISSING from round 1 (11 countries, text not yet given by Nir):
-- Japan
-- South Korea
-- Taiwan
+Still MISSING from round 1 (8 countries, text not yet given by Nir):
 - Germany
 - Netherlands
 - Switzerland
@@ -40,7 +40,7 @@ Still MISSING from round 1 (11 countries, text not yet given by Nir):
 - United Kingdom
 - Italy
 
-Dates for these 11 are not known yet. Ask Nir for each country's date and model, then the full text.
+Dates for these 8 are not known yet. Ask Nir for each country's date and model, then the full text.
 
 ## Round 2 (dates 2026-10-02 to 2026-10-14): 0 of 32 saved
 
