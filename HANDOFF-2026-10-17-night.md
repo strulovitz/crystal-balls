@@ -2,6 +2,16 @@
 
 Read this FIRST when the new session starts.
 
+## IMPORTANT: Fable is NOT consulted mid-task, only notified at the end
+
+Nir's rule, said directly tonight: just build the fix below yourself, no
+waiting on anyone, no asking Fable for design input. There is a file
+`FYI-FOR-FABLE-LEGACY-FORECASTS-2026-10-17.md` in the repo root — it is a
+ONE-WAY NOTIFICATION draft, to be finished and sent to Fable only once
+everything below is actually done. Update its bracketed [[Sonnet: ...]]
+notes with the real final approach as you build it. Do not treat it as a
+question to wait on an answer for.
+
 ## What's DONE, verified, committed, pushed (do not redo)
 
 1. Fixed a real bug in legacy import: it used to throw away Nir's real
