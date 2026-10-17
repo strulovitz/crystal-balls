@@ -21,3 +21,4 @@ date, which is expected.
 | Saudi Arabia | 2026-10-07 | Qwen 3.8 27B abliterated |
 | Japan | 2026-10-07 | Qwen 3.8 27B abliterated |
 | South Korea | 2026-10-07 | Qwen 3.8 27B abliterated |
+| Taiwan | 2026-10-07 | Qwen 3.8 27B abliterated |
