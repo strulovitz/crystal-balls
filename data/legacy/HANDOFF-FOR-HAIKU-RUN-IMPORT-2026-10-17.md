@@ -1,5 +1,16 @@
 # Handoff: running the FULL legacy import, all 64 countries (for Claude Haiku 5.5)
 
+DO NOT RUN YET without checking `HANDOFF-2026-10-17-night.md` in the repo
+root first (2026-10-17 night, written by Sonnet). As of that file, there
+is a PLANNED further fix to the legacy import prompt (making it produce
+two genuinely distinct forecasts — naive vs crystal — from each legacy
+text, instead of the current duplicate-copy version). If that fix has NOT
+landed yet (check `git log --oneline -- prompts/legacy_import.txt` for a
+commit after `67c2c54`), ask Nir whether to wait for it before running
+this full 64-country import — running now with the duplicate-copy version
+means all 64 countries would need to be redone (real model time, hours)
+once the fix lands. If the fix HAS already landed, proceed normally below.
+
 Supersedes the earlier `HANDOFF-FOR-HAIKU-RUN-IMPORT.md` — that one was
 written before today's (2026-10-17) big settings overhaul. Use THIS file.
 

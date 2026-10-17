@@ -1,5 +1,17 @@
 # Handoff: for Sonnet, after Haiku finishes the legacy import
 
+NOTE (added 2026-10-17 night): before this file was written, two more
+real fixes landed on the legacy import prompt (commit 67c2c54: real
+forecast statements reconstructed instead of thrown away; and possibly a
+further fix making naive/crystal genuinely distinct instead of duplicate
+copies — check `git log --oneline -- prompts/legacy_import.txt`). If
+Haiku's 64-country run used a version of the prompt from BEFORE one of
+these fixes, the data needs redoing with the current prompt, not just
+checked for country-level failures. Confirm which commit of
+`prompts/legacy_import.txt` was live when Haiku ran (check
+`data/rounds/2026-10-01/round.json`'s timestamp against
+`git log prompts/legacy_import.txt`) before trusting the output.
+
 Read this when Nir brings you back in after Haiku finishes BOTH rounds
 all the way through (Haiku runs all 64 countries end-to-end regardless of
 individual country failures, per
