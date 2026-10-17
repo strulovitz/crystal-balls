@@ -35,3 +35,4 @@ text and the country, not an exact per-file date.
 | South Korea | 2026-09-22 | Qwen 3.8 27B abliterated |
 | Taiwan | 2026-09-22 | Qwen 3.8 27B abliterated |
 | Germany | 2026-09-22 | Qwen 3.8 27B abliterated |
+| Netherlands | 2026-09-22 | Qwen 3.8 27B abliterated |
