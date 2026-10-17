@@ -33,3 +33,4 @@ date, which is expected.
 | Vietnam | 2026-10-09 | Qwen 3.8 27B abliterated |
 | France | 2026-10-11 | Qwen 3.8 27B abliterated |
 | Germany | 2026-10-07 | Qwen 3.8 27B abliterated |
+| Netherlands | 2026-10-07 | Qwen 3.8 27B abliterated |
