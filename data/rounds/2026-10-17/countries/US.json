@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-14",
+  "is_legacy": false,
+  "code": "US",
+  "name": "United States",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-17T18:38:40+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "done",
+    "wind": "done",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "President Trump waived new Russia-related sanctions and energy tariffs that he had himself signed into law just days earlier, citing national interest, as his relationship with Ukrainian President Zelenskyy deteriorated sharply. Russia hailed the move as historic, while Zelenskyy said he felt betrayed and turned to European leaders for support. The White House also endured a dramatic personnel shakeup when new press secretary Katie Zacharia was fired after only five days in the role, amid questions about whether she had passed the bar exam and after she described China as lacking proper toilets. A school shooting in Oregon killed four people, including three children, in what became the latest mass shooting to grip national attention. The federal budget deficit swelled to nearly two trillion dollars, the largest in five years, while record interest costs of one trillion dollars raised concerns about the debt trajectory. Markets fell sharply, with tech stocks in a prolonged sell-off and bank shares posting their worst weekly losing streak since 2008. The midterm campaign intensified in battleground states as Democrats and Republicans squared off, and Trump faulted his own aides as Republican prospects dimmed.",
+    "key_events": [
+      {
+        "event": "Trump waived new Russia sanctions and energy tariffs under the Graham Act, citing national interest, days after signing them into law, as his rift with Zelenskyy deepened.",
+        "date": "2026-10-17",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "White House press secretary Katie Zacharia was fired after only five days in the role amid a controversy over her bar-exam status and a comment about China's toilets.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "A school shooting in Oregon killed four people, including three children, as an armed father and a teacher confronted the gunman.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The US federal budget deficit reached nearly two trillion dollars for fiscal 2026, the largest in five years, and annual interest costs hit a record one trillion dollars.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "US markets fell sharply as a prolonged tech-sector sell-off and credit fears dragged stocks down, with big bank shares posting their worst weekly losing streak since 2008.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Midterm election campaigning intensified in Georgia, Pennsylvania and other battlegrounds, with Trump faulting his own aides as Republican prospects dimmed.",
+        "date": "2026-10-17",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "US-Iran tensions escalated over the Strait of Hormuz, with both sides claiming control amid a US naval blockade and Iran shipping fuel despite the restriction.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Zelenskyy abandoned a truce and ordered an attack on a Russian oil refinery, saying he felt betrayed by Trump's sanctions waiver and Starlink restrictions in Ukraine.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Elon Musk unveiled a new electric flying car in a US product reveal.",
+        "date": "2026-10-16",
+        "domain": "technology",
+        "importance": 2
+      },
+      {
+        "event": "The US and China held bilateral talks in Bangkok, with Washington pressing Beijing on market access for Mastercard and Citigroup.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🚫",
+      "🎭",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "🚫 captures the week's headline event: Trump waiving new Russia sanctions and tariffs under the Graham Act, as reported by Reuters, AP, BBC, FT and others.",
+      "🎭 reflects the political drama of press secretary Katie Zacharia being fired after five days, with her bar-exam controversy and China toilet comments covered by CNN, BBC, DW and Al Jazeera.",
+      "🗳️ represents the intensifying 2026 midterm campaign across Georgia, Pennsylvania and other battlegrounds, with Trump faulting his aides as Republican prospects dim, per Reuters and AP."
+    ]
+  },
+  "velocity": {
+    "summary": "The center of gravity shifted noticeably in three days. The Iran and Strait of Hormuz crisis, which dominated the previous report at maximum importance, dropped to a mid-tier item; the carrier deployment and seven-day deadline are no longer the story's engine. In their place, domestic politics surged to the top: a press secretary was fired after five days, the midterm fight sharpened in battleground states, and Trump publicly blamed his own operatives. The budget picture worsened sharply, with the deficit hitting nearly two trillion dollars and annual interest costs topping one trillion, and markets punished the government with what one report called the worst bank-stock losing streak since 2008. A new diplomatic front opened with Trump waiving his own Russia sanctions and Zelenskyy reacting with visible anger and a retaliatory strike on a Russian refinery. A mass school shooting in Oregon added a raw social shock that was absent before. The Iraq withdrawal, the Northeast storm, and the AI-rebranding fight all faded from the headlines. Overall the mood cooled slightly from escalating to tense, but the agenda broadened and the pace of personnel and market turnover accelerated.",
+    "direction": "shifting",
+    "speed": 7,
+    "intensity_change": -2,
+    "rising": [
+      "White House personnel churn and intra-Republican friction",
+      "Federal deficit and record interest costs",
+      "Tech sell-off and 2008-era bank stress",
+      "Russia sanctions waiver and Zelenskyy rift"
+    ],
+    "fading": [
+      "Strait of Hormuz as the dominant crisis",
+      "Iraq withdrawal and carrier build-up",
+      "AI rebranding and safety-legislation fight",
+      "Northeast storm damage"
+    ],
+    "new": [
+      "Oregon school killing four including three children",
+      "Press secretary fired after five days amid bar-exam and toilet comments",
+      "Zelenskyy ordering a strike on a Russian oil refinery",
+      "Musk unveiling an electric flying car"
+    ]
+  },
+  "wind": {
+    "previous_round": "2026-10-14",
+    "naive": {
+      "statements": [
+        {
+          "id": "N1",
+          "text": "The U.S. government announces a limited trust-building agreement with Iran that includes the partial reopening of at least one Strait of Hormuz shipping lane and targeted sanctions relief for specific sectors.",
+          "probability": 0.51,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "US and Iran both claim control of the Strait of Hormuz amid attacks on vessels, and Iran ships fuel despite the US blockade, indicating continued tension rather than a trust-building agreement."
+        },
+        {
+          "id": "N2",
+          "text": "The U.S. military conducts limited airstrikes against at least one Iranian missile, drone, or coastal-defense target during the week.",
+          "probability": 0.35,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "Trump said the US may need to strike Iran's Pickaxe Mountain, indicating the decision was still under consideration rather than an airstrike already conducted."
+        },
+        {
+          "id": "N3",
+          "text": "The Trump administration signs an executive order establishing a temporary U.S. diesel export quota or a national fuel security framework before the end of the week.",
+          "probability": 0.55,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "No headline reports an executive order establishing a diesel export quota or national fuel security framework, though the US did solicit STR oil exchanges and consider easing shadow-fleet sanctions."
+        },
+        {
+          "id": "N4",
+          "text": "The 10-year U.S. Treasury yield closes a single trading day above 5.0 percent at least once during the week.",
+          "probability": 0.6,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "CNBC reported U.S. Treasury yields wavered as traders wrapped up a volatile week, but no headline confirms the 10-year yield closed above 5.0 percent on any trading day."
+        },
+        {
+          "id": "N5",
+          "text": "A U.S. federal agency publishes a new directive or memorandum that designates the national AI program as superintelligence in its official text.",
+          "probability": 0.55,
+          "domain": "technology",
+          "outcome": 0,
+          "evidence": "No headline reports a federal agency publishing a directive designating a national AI program as superintelligence, despite multiple AI-related stories about chips, agents, and GDP impact."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.27
+    },
+    "crystal": {
+      "statements": [
+        {
+          "id": "C1",
+          "text": "The U.S. government announces a limited trust-building agreement with Iran that includes the partial reopening of at least one Strait of Hormuz shipping lane and targeted sanctions relief for specific sectors.",
+          "probability": 0.51,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "US and Iran both claim control of the Strait of Hormuz amid attacks on vessels, and Iran ships fuel despite the US blockade, indicating continued tension rather than a trust-building agreement."
+        },
+        {
+          "id": "C2",
+          "text": "The U.S. military conducts limited airstrikes against at least one Iranian missile, drone, or coastal-defense target during the week.",
+          "probability": 0.35,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "Trump said the US may need to strike Iran's Pickaxe Mountain, indicating the decision was still under consideration rather than an airstrike already conducted."
+        },
+        {
+          "id": "C3",
+          "text": "The Trump administration signs an executive order establishing a temporary U.S. diesel export quota or a national fuel security framework before the end of the week.",
+          "probability": 0.55,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "No headline reports an executive order establishing a diesel export quota or national fuel security framework, though the US did solicit STR oil exchanges and consider easing shadow-fleet sanctions."
+        },
+        {
+          "id": "C4",
+          "text": "The 10-year U.S. Treasury yield closes a single trading day above 5.0 percent at least once during the week.",
+          "probability": 0.6,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "CNBC reported U.S. Treasury yields wavered as traders wrapped up a volatile week, but no headline confirms the 10-year yield closed above 5.0 percent on any trading day."
+        },
+        {
+          "id": "C5",
+          "text": "A U.S. federal agency publishes a new directive or memorandum that designates the national AI program as superintelligence in its official text.",
+          "probability": 0.55,
+          "domain": "technology",
+          "outcome": 0,
+          "evidence": "No headline reports a federal agency publishing a directive designating a national AI program as superintelligence, despite multiple AI-related stories about chips, agents, and GDP impact."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.27
+    },
+    "winner": "tie",
+    "systematic_error": "Both forecasts overestimated the probability of formal, structured policy outputs—signed executive orders, published federal directives, specific diplomatic agreements, and concrete military strikes—when the actual week was dominated by ad-hoc, reactive, and chaotic governance: a press secretary fired after five days, sanctions signed and then immediately waived, aides blamed for poor polling, and a school shooting. The wind pushed both arrows toward 'deliberate policy action' when the week's character was 'improvised response to crisis.' Neither forecast credited the Trump administration's tendency to prefer informal, verbal, and reversible moves over formal written instruments, and both treated ongoing tensions (Iran, yields, AI) as likely to resolve into a specific milestone within seven days.",
+    "correction_hint": "For the United States under the current administration, lower base rates for any statement that requires a specific formal document (executive order, federal memorandum, signed bilateral agreement) to appear within a single week; instead, weight predictions toward informal moves, verbal escalations, personnel changes, and reactive diplomatic gestures. Also, when a story is already in a 'tensions ongoing' or 'under consideration' phase in the headlines, treat a concrete milestone within seven days as less likely than a continuation of the status quo."
+  },
+  "naive_forecast": {
+    "summary": "The coming week will be shaped by the diplomatic shock of Trump waiving Russia sanctions under the Graham Act, which will prompt Zelensky to demand concrete US countermeasures at or around the G20 summit in Bangkok. The White House will name a replacement press secretary to end the five-day Zacharia experiment, and the administration will file a formal legal or executive action against California over its mail-ballot processing ahead of the midterms. The Federal Reserve will convene its October meeting and hold the federal funds rate steady, as traders digest the tech-sector sell-off and record interest costs. The midterm campaign will intensify, with Trump rallying in Georgia and Pennsylvania Democrats pushing a rematch against Perry. In the Gulf, the US and Iran will each report a new vessel incident in the Strait of Hormuz, and a surprise announcement of a strike on Iran's Pickaxe Mountain facility stays on the table as a low-odds wildcard.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The White House officially announces a new press secretary to replace Katie Zacharia within the October 17-24 window.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "The Federal Reserve holds the federal funds rate unchanged at its October 2026 meeting.",
+        "probability": 0.9,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "Zelensky makes a formal public statement at or immediately following the G20 summit in Bangkok requesting additional US sanctions on Russia.",
+        "probability": 0.45,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "The Trump administration files a formal legal challenge or executive order targeting California's mail-ballot processing system in the week of October 17-24.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "The US announces a military strike on Iran's Pickaxe Mountain nuclear facility in response to renewed Strait of Hormuz tensions.",
+        "probability": 0.2,
+        "domain": "security"
+      }
+    ],
+    "horizon_start": "2026-10-17",
+    "horizon_end": "2026-10-24"
+  },
+  "crystal_forecast": {
+    "summary": "The coming week will be defined by White House personnel churn and the deepening Trump-Zelenskyy rift. A new press secretary will almost certainly be named within days, continuing the pattern of rapid turnover that has now claimed a second spokesperson in under two weeks. The Russia sanctions-waiver controversy will play out through verbal sparring and reactive diplomatic gestures rather than a formal bilateral instrument. The Federal Reserve is expected to hold rates at its October meeting, with the possibility of a public dissent from Governor Warsh adding a wrinkle to an otherwise routine announcement. The midterm campaign will sharpen around the Oregon school shooting, the nearly two-trillion-dollar deficit, and Trump's threat to imprison California ballot officials. The Iran-Hormuz standoff will persist without a formal breakthrough, and the tech-sector sell-off combined with 2008-era bank stress will keep markets on edge. The overall character of the week will be improvised, reactive governance rather than structured policy milestones.",
+    "reasoning": "The wind correction pulled me away from last round's overreliance on formal policy outputs—signed agreements, executive orders, specific military strikes. The actual week delivered a press secretary fired in five days, sanctions signed then immediately waived, and aides publicly blamed. So this forecast leans toward personnel changes (C1), verbal diplomatic escalations (C2), and a scheduled institutional event (C3) rather than a surprise formal document. I kept one court ruling (C4) because the legal-challenge pattern is consistent with the administration's track record, but lowered its probability. I added one genuinely surprising statement (C5) about the flying car to capture the Musk-driven product cycle, but at a low probability because the wind says formal regulatory approvals within a single week are underweighted events. The trend toward domestic political turbulence and market stress shaped the domain selection, with Iran demoted from last forecast's center.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The White House announces a new press secretary to replace Katie Zacharia before October 24.",
+        "probability": 0.82,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "President Trump posts on social media or speaks publicly naming President Zelenskyy in criticism of the Ukrainian strike on the Russian oil refinery or the sanctions waiver before October 24.",
+        "probability": 0.72,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C3",
+        "text": "The Federal Reserve announces it holds the federal funds rate target range unchanged at its October meeting, and Governor Kevin Warsh issues a public written statement dissenting in favor of a rate cut.",
+        "probability": 0.52,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "A federal or state court issues a written ruling that blocks or narrows the Trump administration's threat to prosecute California officials over suspected noncitizen mail ballot processing before October 24.",
+        "probability": 0.38,
+        "domain": "politics"
+      },
+      {
+        "id": "C5",
+        "text": "The FAA or the Department of Transportation issues a written certification or type approval for Elon Musk's newly unveiled electric flying car and sets a target date for commercial passenger operations before October 24.",
+        "probability": 0.18,
+        "domain": "technology"
+      }
+    ],
+    "horizon_start": "2026-10-17",
+    "horizon_end": "2026-10-24"
+  },
+  "display": {
+    "headline": "Press Secretary Flip, Fed Hold, and Trump Slams Zelenskyy Online",
+    "emojis": [
+      "🎭",
+      "🗣️",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Two press secretaries gone in under two weeks and a third is almost certainly being named, making personnel drama the week's central story.",
+      "Trump is expected to publicly trash Zelenskyy over the sanctions waiver in social-media posts or speeches rather than through formal diplomacy.",
+      "The Fed's October rate decision lands this week, and a dissent from Governor Warsh would add spice to what is otherwise a routine hold."
+    ],
+    "tldr": "The White House names a third press secretary in under two weeks while Trump publicly trashes Zelenskyy over the Russia sanctions waiver. The Fed holds rates in a routine meeting, and the Oregon shooting plus a two-trillion-dollar deficit sharpen the midterm fight.",
+    "eli5": "The White House is going through a wild stretch. Two press secretaries have been fired in under two weeks, and a third is almost certainly being named before the end of the month. At the same time, President Trump is publicly clashing with Ukraine's Zelenskyy over a Russia sanctions waiver that Trump signed and then quickly reversed. It is a lot of drama and a lot of shouting, not a lot of finished policy.\n\nThe reason things feel so chaotic is that the administration is improvising rather than executing a plan. The two-trillion-dollar deficit and record interest costs are making everyone nervous, the Oregon school shooting is feeding the midterm fight, and bank stocks just had their worst week since 2008. Instead of big signed agreements or dramatic military moves, expect more firings, more blame-shifting, and more social-media posts aimed at allies.\n\nWhat will probably happen this week: the new press secretary gets named (about an 8-in-10 chance), the Federal Reserve holds interest rates steady in what should be a fairly boring meeting, and Trump posts another message picking on Zelenskyy. A court might also step in to block Trump from threatening to prosecute California election officials over the mail-ballot question — about a one in three chance of that ruling landing before October 24.\n\nA real surprise would be the FAA fast-tracking approval for Elon Musk's newly unveiled electric flying car and setting a target date for actual passengers to take off. The odds of that certification appearing this week are roughly one in five, so most people would not bet on it, but if it happened it would probably steal the headline from everything else on the news."
+  }
+}
