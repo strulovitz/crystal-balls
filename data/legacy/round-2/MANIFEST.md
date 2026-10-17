@@ -15,3 +15,4 @@ date, which is expected.
 | Iran | 2026-10-04 | Qwen 3.8 27B abliterated |
 | Ukraine | 2026-10-04 | Qwen 3.8 27B abliterated |
 | North Korea | 2026-10-04 | Qwen 3.8 27B abliterated |
+| Venezuela | 2026-10-04 | Qwen 3.8 27B abliterated |
