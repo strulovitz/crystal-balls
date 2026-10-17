@@ -37,3 +37,4 @@ date, which is expected.
 | Switzerland | 2026-10-08 | Qwen 3.8 27B abliterated |
 | Singapore | 2026-10-08 | Qwen 3.8 27B abliterated |
 | Brazil | 2026-10-08 | Qwen 3.8 27B abliterated |
+| Australia | 2026-10-08 | Qwen 3.8 27B abliterated |
