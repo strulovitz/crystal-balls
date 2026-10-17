@@ -1,5 +1,21 @@
 # Handoff: resume point after OpenCode restart (2026-10-17 evening)
 
+SUPERSEDED (2026-10-17, later same day): Step 1 below (the 2-country
+fake-2099-date test) ran and only tested the "position" step — Nir
+correctly pointed out this does NOT test the whole system (velocity,
+wind, naive_forecast, crystal_forecast, display were never exercised).
+Fake future dates also break real headline-fetching, so they can't test
+the real system properly anyway. DO NOT repeat that test.
+
+The REAL correct plan (already written and real-dated, no fake years):
+`data/legacy/HANDOFF-FOR-HAIKU-RUN-IMPORT-2026-10-17.md` (Haiku imports
+the full 64-country legacy data at the real dates 2026-10-01 and
+2026-10-14) then `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` (Sonnet
+continues the real in-progress round, which chains onto 2026-10-14 and
+finally exercises velocity + naive_forecast + crystal_forecast + display
+for real, for all 32 countries). Read those two files instead of Step 1/2
+below.
+
 Nir is restarting OpenCode now. Read this FIRST when the new session starts.
 
 ## Current state (everything below is DONE and verified)
