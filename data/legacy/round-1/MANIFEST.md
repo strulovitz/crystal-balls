@@ -38,3 +38,4 @@ text and the country, not an exact per-file date.
 | Netherlands | 2026-09-22 | Qwen 3.8 27B abliterated |
 | Switzerland | 2026-09-22 | Qwen 3.8 27B abliterated |
 | Singapore | 2026-09-22 | Qwen 3.8 27B abliterated |
+| Brazil | 2026-09-24 | Qwen 3.8 27B abliterated |
