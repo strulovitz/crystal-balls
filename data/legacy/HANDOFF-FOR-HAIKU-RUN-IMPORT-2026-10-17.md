@@ -1,18 +1,13 @@
 # Handoff: running the FULL legacy import, all 64 countries (for Claude Haiku 5.5)
 
-DO NOT RUN YET without checking `HANDOFF-2026-10-17-night.md` in the repo
-root first (2026-10-17 night, written by Sonnet). As of that file, there
-is a PLANNED further fix to the legacy import prompt (making it produce
-two genuinely distinct forecasts — naive vs crystal — from each legacy
-text, instead of the current duplicate-copy version). If that fix has NOT
-landed yet (check `git log --oneline -- prompts/legacy_import.txt` for a
-commit after `67c2c54`), ask Nir whether to wait for it before running
-this full 64-country import — running now with the duplicate-copy version
-means all 64 countries would need to be redone (real model time, hours)
-once the fix lands. If the fix HAS already landed, proceed normally below.
+Supersedes `HANDOFF-FOR-HAIKU-RUN-IMPORT.md` and the earlier
+`HANDOFF-FOR-HAIKU-RUN-IMPORT-2026-10-17.md` — use THIS file.
 
-Supersedes the earlier `HANDOFF-FOR-HAIKU-RUN-IMPORT.md` — that one was
-written before today's (2026-10-17) big settings overhaul. Use THIS file.
+**The fix is already built, tested, and proven on real data. You can run
+now, no waiting.** Commit `ad1e966` and `2c54240` (2026-10-17) already
+ran this exact two-distinct-forecast version for real on Israel + USA,
+both rounds, and it worked: validated, 5/5 statements genuinely differ
+between naive and crystal for every country tested so far.
 
 Nir asked you to run this end-to-end, with NO back-and-forth to Sonnet
 unless something genuinely breaks. Both legacy folders already have all
@@ -20,27 +15,38 @@ unless something genuinely breaks. Both legacy folders already have all
 
 ## IMPORTANT: when Nir switches back to Sonnet after this
 
-Whether every country succeeded or some didn't, when you're done (or if
-the script itself crashes entirely — see below), tell Nir to tell Sonnet
-(the next time Sonnet is active) to read
-`HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` (in the repo root) FIRST.
-That file explains exactly how Sonnet should pick up from here. Make sure
-whatever you tell Nir to pass along includes real numbers (how many
-countries matched, how many succeeded/failed per round, how long it took,
-any real error messages verbatim for failed countries) so Sonnet isn't
-guessing.
+When you're done (whether every country succeeded or some didn't), tell
+Nir to tell Sonnet to read `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md`
+(repo root) FIRST. Give Nir real numbers to pass along: how many
+countries matched, how many succeeded/failed per round, how long it
+took, and the exact error text for any failed country. Do not say "it
+went fine" — give the real list.
 
-## What changed today that affects this run (so you understand the timing)
+## Timing: READ THIS, it is a real finding, not a guess
 
-The local model server was switched from Unsloth Studio to Ollama, and
-several settings were fixed/raised: context window is now 262144 (was
-much smaller), reasoning effort runs at the model's own best/default
-quality (not artificially limited), and max tokens per call raised to
-128000 to avoid cutting off the model's full reasoning. This means **each
-call may take longer than earlier estimates** (full-quality reasoning
-takes real time) — do not be alarmed by long per-country times, that is
-expected and wanted (Nir explicitly wants full-quality thinking, not
-speed).
+The model is Qwen3.8-27B abliterated, running partly on GPU partly on
+CPU (intentional — that's how it fits a 27B model on this 12GB GPU, not
+a problem). This prompt asks for TWO full forecasts per country
+(naive + crystal, each with 5 statements and a summary, crystal also
+with its own reasoning paragraph) — this is MORE work per call than
+earlier single-forecast versions.
+
+**`LLM_TIMEOUT_SECONDS` is set to 3600 (1 full hour) per attempt in
+`config/settings.env` — do not change this.** It used to be 900 (15 min)
+and that was too short; it caused real failures earlier today purely
+from the timeout, not from any actual problem with the model or the
+code. Real observed times with the current 3600s setting, per country,
+on real test runs:
+- Israel round-1: 1434s (~24 min)
+- United States round-1: 1724s (~29 min)
+- Israel round-2: 3098s (~52 min)
+- United States round-2: 1235s (~21 min)
+
+So expect roughly **20-55 minutes per country**, sometimes more. For 32
+countries per round, that's realistically **10-25+ hours per round**,
+**20-50+ hours for both rounds**. This is expected and wanted (Nir wants
+full-quality reasoning, not speed) — do NOT reduce quality settings or
+the timeout to make it faster.
 
 ## What to run
 
@@ -54,87 +60,96 @@ cd /home/nir/crystal-balls
 ```
 
 Wait for it to finish completely (it runs through all 32 countries on its
-own, one by one — you do not need to intervene between countries). Then
-run:
+own, one by one — you do not need to intervene between countries). This
+will RE-DO Israel and United States too (they're already done and
+committed, but the script has no skip-if-exists check) — that's fine,
+harmless, zero dollar cost, it'll just overwrite those two with a fresh
+run. Do not try to exclude them or modify the source folder — just run
+the full 32-file folder as-is, simplest and safest.
+
+Then run:
 
 ```
 .venv/bin/python pipeline/import_legacy.py --round 2026-10-14 --source data/legacy/round-2
 ```
 
-Tell Nir before starting that this is long (real local model, 32 calls
-per round, each potentially several minutes with full reasoning quality —
-could be multiple hours per round) and can run unattended, he doesn't
-need to watch it.
+Tell Nir before starting that this is LONG (real local model, 32 calls
+per round, 20-55+ min each, could be 10-25+ hours per round) and can run
+unattended overnight, he doesn't need to watch it. Run it with `setsid`
+so it survives if OpenCode restarts:
+
+```
+(setsid .venv/bin/python pipeline/import_legacy.py --round 2026-10-01 --source data/legacy/round-1 </dev/null > /tmp/opencode/haiku-r1.log 2>&1 &)
+```
+
+Check progress periodically with `tail -20 /tmp/opencode/haiku-r1.log`.
 
 ## KEEP GOING NO MATTER WHAT — DO NOT STOP FOR INDIVIDUAL COUNTRY ISSUES
 
-The script ALREADY handles a single country's failure gracefully on its
-own: if one country's model call fails validation even after retries, the
-script logs "FAILED, skipping" and automatically moves on to the next
-country by itself. **You do not need to do anything when you see this —
-just let it keep running.** Your job is to let BOTH rounds run all the way
-through to the end, then collect and report the FULL list of whatever
-happened (successes AND failures) — not to stop partway through because
-some countries had problems.
+The script already handles a single country's failure gracefully: if a
+model call fails validation even after 3 retries (each up to 1 hour), it
+logs "FAILED, skipping" and moves on by itself. **Just let it keep
+running.** Collect the full list of successes AND failures, don't stop
+partway through.
 
-Things that are completely normal, just let them happen and keep going:
-- The script prints a list of "unmatched" filenames if any (shouldn't
-  happen since both folders already have all 32 matching files, but if it
-  does, just note it in your final report).
-- Any number of "FAILED, skipping" lines for individual countries —
-  note each one, but do NOT stop, do NOT try to fix them yourself, just
-  let the script continue and keep a running list.
-- A country's model call retrying automatically (built into the script).
-- Long run times — potentially multiple hours per round. Expected, not a
-  bug.
-- This is just terminal output scrolling for a long time. Normal.
+Normal, keep going:
+- "FAILED, skipping" for any individual country — note it, don't fix it
+  yourself, keep going.
+- Automatic retries within a country (up to 3, built in).
+- Very long run times (many hours per round). Expected.
+- A validation rejection message followed by a successful retry (this
+  already happened once on Israel's velocity step in the real test
+  today — totally normal, the script handles it).
 
-## The ONLY thing that should actually make you stop early
+## The ONLY thing that should make you stop early
 
-If the script itself crashes with an unhandled Python traceback/error and
-EXITS before reaching the end of a round's country list (i.e. it stops
-running entirely, not just skipping one country and continuing) — THEN
-stop, note the exact error message, and tell Nir to switch back to Sonnet
-to fix the code. This is different from a single country failing
-validation (which the script already handles on its own and keeps going).
-If Ollama itself crashes/stops responding entirely (check `ollama ps` —
-should show `huihui_ai/Qwen3.8-abliterated:27b`), that would also cause
-the whole script to stop/hang — same deal, note it and call Sonnet back.
+- The Python script itself crashes with an unhandled traceback and EXITS
+  before finishing the country list (different from one country being
+  skipped — the script keeps running after a skip).
+- Ollama itself stops responding entirely. Check with `ollama ps` — should
+  show `huihui_ai/Qwen3.8-abliterated:27b` with a RUNNER. If it's gone or
+  errors, the whole script will hang/fail — note it, stop, call Sonnet
+  back.
+
+If either happens, stop, write the exact error, tell Nir to bring Sonnet
+back in to fix it (pointing to `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md`).
 
 ## After BOTH rounds finish running all the way through
 
-1. Validate a couple of files — run this and confirm it prints "OK" for
-   each (swap in a few different codes/dates, not just these two):
+1. Validate a few files — confirm "OK" for each, and check the diff
+   count (should usually be 5, meaning naive and crystal statements are
+   fully distinct — don't worry if occasionally lower, that's a real
+   model answer, not a bug):
 
 ```
-.venv/bin/python3 -c "from pipeline import common; f=common.load_json('data/rounds/2026-10-01/countries/IL.json'); common.validate_country_file(f, vocabulary=common.load_json('config/emoji_vocabulary.json')); print('OK')"
-.venv/bin/python3 -c "from pipeline import common; f=common.load_json('data/rounds/2026-10-14/countries/US.json'); common.validate_country_file(f, vocabulary=common.load_json('config/emoji_vocabulary.json')); print('OK')"
+.venv/bin/python3 -c "
+from pipeline import common
+vocab = common.load_json('config/emoji_vocabulary.json')
+for rid in ['2026-10-01', '2026-10-14']:
+    for cc in ['IL', 'US', 'FR', 'JP', 'BR']:
+        try:
+            f = common.load_json(f'data/rounds/{rid}/countries/{cc}.json')
+        except FileNotFoundError:
+            print(f'{rid} {cc}: NOT FOUND'); continue
+        common.validate_country_file(f, vocabulary=vocab)
+        n = [s['text'] for s in f['naive_forecast']['statements']]
+        c = [s['text'] for s in f['crystal_forecast']['statements']]
+        diff = sum(1 for a, b in zip(n, c) if a != b)
+        print(f'{rid} {cc}: OK, {diff}/5 differ')
+"
 ```
 
-2. Write down a FULL PROBLEM LIST, whether it's empty or long: for each
-   round, exactly how many of the 32 countries succeeded, exactly which
-   ones (if any) ended up "FAILED, skipping" (with the country name and
-   whatever error text the log showed for it), and exactly how long each
-   round actually took (real timestamps, not guesses). This list is what
-   Sonnet needs — do not just say "it went fine" or "some failed", give
-   the real list.
+2. Write down a FULL PROBLEM LIST: for each round, exactly how many of
+   the 32 countries succeeded, exactly which (if any) failed (with the
+   real error text), and exactly how long each round took (real
+   timestamps). This is what Sonnet needs — do not just say "it went
+   fine" or "some failed".
 3. Commit and push:
 
 ```
-git add -A && git commit -m "Import legacy rounds 1 and 2 (full 64-country run)" && git push
+git add -A && git commit -m "Import legacy rounds 1 and 2 (full 64-country run, two-distinct-forecast version)" && git push
 ```
 
-4. Tell Nir it's done, give him the full problem list from step 2 (even
-   if it's "zero failures, both rounds 32/32"), and tell him to bring
-   Sonnet back in to read `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md`
-   and take it from there — whether that means double-checking everything
-   looks good, or fixing any real failures on the list.
-
-## The only case where you stop early (script crash, not a country failing)
-
-If the script crashes entirely with an unhandled error before reaching
-the end of a round (different from the script's own normal "FAILED,
-skipping" for one country, which you should just let happen and keep
-going) — THEN stop, write down the exact error message, and tell Nir to
-bring Sonnet back in early to fix it, pointing Sonnet to
-`HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` same as above.
+4. Tell Nir it's done, give him the full problem list, and tell him to
+   bring Sonnet back in to read
+   `HANDOFF-FOR-SONNET-AFTER-HAIKU-2026-10-17.md` and take it from there.
