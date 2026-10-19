@@ -5,14 +5,15 @@
   "name": "South Africa",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:17:27+03:00",
-  "total_items": 48,
+  "fetched_at": "2026-10-19T13:39:34+03:00",
+  "total_items": 45,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 19,
+      "count": 18,
       "filtered_out": 81,
+      "out_of_window": 1,
       "items": [
         {
           "title": "South Africa still mulling over permutations for second test against Australia",
@@ -103,11 +104,6 @@
           "title": "Deaths prompt South African miners' safety review, minerals council CEO says",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVS1oVEY5VVpTMFNLbXY5SWFlTzFDQUFxQ1Q1V0xxZGlLYWZDdXRGY0c0cmN3cy1EalprdTNXSjRrb3ZwSUc2bV9qTnRGdngtdnJfZVhaa3lnbVFfNHJjVE1iQmcwOER5ZzNkUTU3dUZYbVpacWNJN254MWE2Qm9heTNDVFA0a1BBXzRVbnNtYmVMYUEwR2dKWnJtV3Z4S2VPa2dVd1puTUlIMno1endtakh5alEtdnYwNE1XU2ZPbnE?oc=5"
-        },
-        {
-          "title": "Life in locked down South Africa",
-          "published": "2025-10-29",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN29aaktCRnh6cmkxOWVzQ1V6MXRtck02dlI0YjkyMmduYnFqa0RvWEFKbk5RckV0ZEdjb043eHBMc2xZMW5OcngxbU5UODU4dE84R0tuUUhsSTJ4andsTnE0UkxuNlhTMVBmaVlaUmYtM2Zhd2R5S2RYY1paUG1nTEVsYzlORU00OW8w?oc=5"
         }
       ]
     },
@@ -116,6 +112,7 @@
       "name": "Associated Press",
       "count": 3,
       "filtered_out": 27,
+      "out_of_window": 0,
       "items": [
         {
           "title": "South African police chief to return to work after suspension lifted",
@@ -138,7 +135,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 1,
-      "filtered_out": 17,
+      "filtered_out": 16,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Conrad wields axe after South Africa loss to Australia",
@@ -151,7 +149,8 @@
       "id": "bbc",
       "name": "BBC",
       "count": 7,
-      "filtered_out": 88,
+      "filtered_out": 83,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Hyron Andrews: Lions and Sale Sharks among clubs to pay tribute to late South African lock",
@@ -195,13 +194,15 @@
       "name": "CNN",
       "count": 0,
       "filtered_out": 8,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 3,
-      "filtered_out": 75,
+      "filtered_out": 66,
+      "out_of_window": 0,
       "items": [
         {
           "title": "High El Nino heat puts farmers in South Africa on high alert",
@@ -223,14 +224,10 @@
     {
       "id": "tv5monde",
       "name": "TV5Monde",
-      "count": 2,
-      "filtered_out": 72,
+      "count": 1,
+      "filtered_out": 69,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "VIDÉO. Afrique du Sud: le combat de femmes séropositives stérilisées sans consentement",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdFp2UVc1UzlzN0ItbzhYNkt5Q3p6VkhxOGx1SFBFZ0VYTW0zY3hOcWF2U2hrOUVSUklXRnBicHZOLUF1WHJMUXdkRGlVZmVzZnV4UVI3TXU1WTFMRUxiWHM1VWdlVE9iSTFmWjRpX3NpZEpoNE05bzQzbDVOc2NQcld0SWF6WF9Xd1JrWktoNE5UcENHT1BoQlg2dlJpWEZ1RF9xU2RSWnJ3cWUxdl9JUXlLejU4WVFUNTZSOFBqdTVPLTMtUzM5Yl9EN0g2Zw?oc=5"
-        },
         {
           "title": "Rugby: Hyron Andrews, joueur sud-africain des Lions, retrouvé mort à la veille d'un match à La Rochelle",
           "published": "2026-10-16",
@@ -241,8 +238,9 @@
     {
       "id": "bloomberg",
       "name": "Bloomberg",
-      "count": 10,
-      "filtered_out": 90,
+      "count": 9,
+      "filtered_out": 91,
+      "out_of_window": 0,
       "items": [
         {
           "title": "South Africa Central Bank Plans to Set Up Cash Utility in 2027",
@@ -288,11 +286,6 @@
           "title": "South African Producers Struggling With Influx of Chinese Imports",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXl6T0VIcERZUVRLNVBoRFdwbkc4RHp6MDhia01kNlgxQ2d0TjdvNVhQNW5oV0ZPaUNGbkIwT3pYRGVtbWtuRGtWWG9MOG53a2pDUDh6amVLVmVaLW9ScE5GcnFoUWt4UUFMQ1g0YTBVRGVZV2hTNnJPcFg0SFBGNXZvc2hSdVlGdmlicGFqU3A?oc=5"
-        },
-        {
-          "title": "OPA: Optasia Ltd Stock Price Quote - Johannesburg - Bloomberg",
-          "published": "2025-11-04",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQQ1JZeUF0MEFlWWtwVVZkLTdiT3Z4bVotcTh0XzYteDNGYk52Rk5Lb21NQUIyZXFqaDExVFZLZ2Y0bWpNdWlRUzcwd0ZtTGM?oc=5"
         }
       ]
     },
@@ -301,13 +294,15 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 13,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "ft",
       "name": "Financial Times",
       "count": 0,
-      "filtered_out": 18,
+      "filtered_out": 17,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -315,6 +310,7 @@
       "name": "CNBC",
       "count": 1,
       "filtered_out": 1,
+      "out_of_window": 0,
       "items": [
         {
           "title": "South Africa Reserve Bank Governor on navigating multiple economic shocks",
@@ -327,7 +323,8 @@
       "id": "aljazeera",
       "name": "Al Jazeera",
       "count": 2,
-      "filtered_out": 17,
+      "filtered_out": 16,
+      "out_of_window": 0,
       "items": [
         {
           "title": "From Morocco to South Africa, Israel election watched closely across Africa",

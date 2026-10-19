@@ -1,201 +1,27 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-10-16T19:16:18+03:00",
-  "baseline_brier_always_50_percent": 0.25,
+  "schema_version": 2,
+  "generated_at": "2026-10-19T14:43:23+03:00",
   "rounds_scored": 0,
   "country_rounds_scored": 0,
-  "crystal_wins": 0,
-  "naive_wins": 0,
-  "ties": 0,
-  "crystal_win_rate": null,
-  "mean_brier_crystal": null,
-  "mean_brier_naive": null,
+  "questions_resolved": 0,
+  "questions_unclear": 0,
+  "naive_correct": 0,
+  "crystal_correct": 0,
+  "disagreements": 0,
+  "naive_accuracy": null,
+  "crystal_accuracy": null,
+  "crystal_won_disagreements": 0,
+  "naive_won_disagreements": 0,
+  "edge": null,
+  "verdict": "not enough data yet",
+  "min_disagreements_for_verdict": 30,
   "per_round": [],
   "per_country": {},
-  "calibration": {
-    "crystal": [
-      {
-        "range": [
-          0.0,
-          0.1
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.1,
-          0.2
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.2,
-          0.3
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.3,
-          0.4
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.4,
-          0.5
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.5,
-          0.6
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.6,
-          0.7
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.7,
-          0.8
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.8,
-          0.9
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.9,
-          1.0
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      }
-    ],
-    "naive": [
-      {
-        "range": [
-          0.0,
-          0.1
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.1,
-          0.2
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.2,
-          0.3
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.3,
-          0.4
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.4,
-          0.5
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.5,
-          0.6
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.6,
-          0.7
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.7,
-          0.8
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.8,
-          0.9
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      },
-      {
-        "range": [
-          0.9,
-          1.0
-        ],
-        "count": 0,
-        "mean_probability": null,
-        "observed_frequency": null
-      }
-    ]
+  "manual_forecast": {
+    "country_rounds_scored": 1,
+    "questions_resolved": 4,
+    "questions_unclear": 1,
+    "correct": 3,
+    "accuracy": 0.75
   }
 }

@@ -5,14 +5,15 @@
   "name": "Egypt",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:16:39+03:00",
-  "total_items": 18,
+  "fetched_at": "2026-10-19T13:38:45+03:00",
+  "total_items": 17,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
       "count": 2,
       "filtered_out": 98,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
@@ -31,6 +32,7 @@
       "name": "Associated Press",
       "count": 1,
       "filtered_out": 99,
+      "out_of_window": 0,
       "items": [
         {
           "title": "FIFA fines Spain $20,000 for anti-Muslim chants at Egypt game condemned by Lamine Yamal",
@@ -44,13 +46,15 @@
       "name": "AFP",
       "count": 0,
       "filtered_out": 3,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "bbc",
       "name": "BBC",
       "count": 2,
-      "filtered_out": 84,
+      "filtered_out": 82,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Husband calls for PM to intervene after wife detained in Egypt",
@@ -69,23 +73,20 @@
       "name": "CNN",
       "count": 0,
       "filtered_out": 8,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
-      "count": 4,
-      "filtered_out": 26,
+      "count": 3,
+      "filtered_out": 22,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Egypt – All Content on this topic – Page 1 of 7",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YMWIwbnZLUUZVeHhyb2xxUDI0M1o3TFpGaE9RVDNaNXZNMkZ3QUlJSGlnRDVzeWtGWVNyWTc4WUk5WEVzaEx4TjlFVXRWOHAyRFl2MEwtd1g?oc=5"
-        },
         {
           "title": "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
           "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtY9IBjAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtYw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHhFTFNfMEZnbkRjRnNVeTA5ejBuQUVnVno5dHptLXZJSC1CMGRNTnpVSWdhU3dlVzB1czNrWExUMDBuVUxTZ21FMFFkVWdKeDdJNm5OSU5DSERkeXo0N2Jqa3BZN2ZBQ0QxRjNmdkpaeTktb3JxMk1jN2xlNTZlaEVfUVJzMzlrbWlDStIBjAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtYw?oc=5"
         },
         {
           "title": "Shugaban Masar al-Sisi ya sanar da lokacin karewar wa'adinsa",
@@ -103,7 +104,8 @@
       "id": "tv5monde",
       "name": "TV5Monde",
       "count": 2,
-      "filtered_out": 53,
+      "filtered_out": 49,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Le président égyptien Sissi assure qu'il partira à la fin de son mandat en 2030",
@@ -122,6 +124,7 @@
       "name": "Bloomberg",
       "count": 3,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Egypt Ready to Defend Saudi Arabia if Needed, Sisi Says",
@@ -144,7 +147,8 @@
       "id": "wsj",
       "name": "Wall Street Journal",
       "count": 0,
-      "filtered_out": 8,
+      "filtered_out": 9,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -152,6 +156,7 @@
       "name": "Financial Times",
       "count": 0,
       "filtered_out": 13,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -159,6 +164,7 @@
       "name": "CNBC",
       "count": 0,
       "filtered_out": 0,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -166,16 +172,17 @@
       "name": "Al Jazeera",
       "count": 4,
       "filtered_out": 96,
+      "out_of_window": 0,
       "items": [
-        {
-          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-          "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5"
-        },
         {
           "title": "Egypt’s el-Sisi seeks authorisation for defence assistance to Saudi Arabia",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNUdhUHdad2lzbmVrbkZQbHB1dlQtdWVlVlpCT2FCNXJhUFl4R2NIRjNjN2ZDWHVZcE05NEV1bk1QT3dtUUVISDRjMURlLWJwOFpjTFRveUx1cWlaR3d2VUdoV2twd3dURkFvS1RvTUlfN2R3anptaTdxcGFlNnp2SXBFTDBQOEo1UWNHYTFtejIzTGZlSkZsbjFuX1hObE01LXpIM0RXdXU0ekJ4YTltcl9mT29pQdIBuwFBVV95cUxPdENtS0ZtTzRYSE40MkFVSFpMMDZhTVR3TE5LQ0JzTE9ybzI1NlZRMFJELWVjb05keDRpWmhDbEl4VGs3QWRqMmtZaVFITUotVDBNRWQxRmlDU1RkLU9BMks4R2g4NGFLemlKbW5aNmozbzZCRjdaWGlieUVmaXVjeF9nbmlwRVhKYjF2cmJtT0ROLWpfY0pHUFMtV1dzcG52OXFGWmZTalBPVkpyWUtYLURUVS1xU2dvQmkw?oc=5"
+        },
+        {
+          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5"
         },
         {
           "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",

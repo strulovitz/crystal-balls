@@ -5,14 +5,15 @@
   "name": "Italy",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:15:49+03:00",
-  "total_items": 44,
+  "fetched_at": "2026-10-19T13:37:54+03:00",
+  "total_items": 43,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
       "count": 12,
       "filtered_out": 88,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italian police clash with protesters in Milan and Bologna",
@@ -40,11 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM2ZBSmFBTmI3c3pYWTF2Z1NvTF9zVUZodUdvNTh2MGxlUWxCUGtQN2pBYnlhLTNnNzhWTGc3S1BYQWVnX2paSTZ5Y0Vwd3FzaGVVckZfeU1PR1RqSm9hZUNQU0ZuSUhrYTAwRjZlMndCM3hNeV9Qb0FCRHhUMWNrR1lrRXRkYUJRWUc1YzFaa1NiaENwNHliY3JxSGJ0QzR2clBqSGhhODNGYmZKYUVn?oc=5"
         },
         {
-          "title": "Eni flags shutdown risk at southern Italy refinery due to steelworkers' protest",
-          "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObHlTTzZ6R1AxWE9DWlNKNGEzUTFBc25fM0tCdm1SV2RicmZZNC1pa25pdFpXV0p4X2NVTFl2QXlDdlRkWnFwR0MxaHNoVFRDYm1WZWV6dkoyWU52YVVmYmhMQmpWXzFwaXY2U241UXJLREQyZnVGdXdTSHl2MGJWaXNxOExMdzJia3IwQkxzOXk1MVdocG1lTkE1blQ0MC1qODlLRUtVaU9WVVlKNVA2YThOb196MWpjRGNEQmxjQ2xrdw?oc=5"
-        },
-        {
           "title": "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVFTa1VwRXR2TUlHR2FGRG9UU0xMY04yZU5JeGlqajl2T29mZGJqalB3TThYNi1nWjRpODB6X3dRTENISUhPdWp2Rk1yRFpNRnYxR1VNUTZuQUl5RW5ldmljNFhqY3pJX3M4RVczRm13UzF4TWhTX1Z2UWF6aHRkUUNqLXZDd3FOSjRONVhEQkFjd0NWa09uQXNad0FONWdxdkVvRmdwWlFxczczT1VSanRjeU0zMUU?oc=5"
@@ -58,6 +54,11 @@
           "title": "Italy to raise almost €11 billion from financial sector in next three years",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVEJnc0tiQnU3dWhLUWowM01FOFp5ZjUtd0dMWU1VbjV1QVJBNjZzb1FLbm8zU1E2NjFqTk01eUtpT2ttM2dQR1BvVHZublJweHFhSWNyYnlYT2h0NlMxV0o1ZmJneGFKa1hiajNQWHlGM2pKME52dXZpdnY4Q1pnTjRnY1NHMjFjRnZ6dzBXZl90MlVWbXBPQkZaeWNla25oUXpTbnRTQjVPZw?oc=5"
+        },
+        {
+          "title": "Eni flags shutdown risk at southern Italy refinery due to steelworkers' protest",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObHlTTzZ6R1AxWE9DWlNKNGEzUTFBc25fM0tCdm1SV2RicmZZNC1pa25pdFpXV0p4X2NVTFl2QXlDdlRkWnFwR0MxaHNoVFRDYm1WZWV6dkoyWU52YVVmYmhMQmpWXzFwaXY2U241UXJLREQyZnVGdXdTSHl2MGJWaXNxOExMdzJia3IwQkxzOXk1MVdocG1lTkE1blQ0MC1qODlLRUtVaU9WVVlKNVA2YThOb196MWpjRGNEQmxjQ2xrdw?oc=5"
         },
         {
           "title": "Southern Italy faces risk of fuel shortages as Ilva protests impact Eni refinery",
@@ -79,8 +80,9 @@
     {
       "id": "ap",
       "name": "Associated Press",
-      "count": 4,
-      "filtered_out": 96,
+      "count": 5,
+      "filtered_out": 40,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italy air traffic capacity fully restored after network disruption caused delays",
@@ -91,6 +93,11 @@
           "title": "From March Madness miracles to a season opener in Rome: The story of Catholic college hoops",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVRGOXhCRmo0ZzcwdFluNHRmM0tFZU8tb0JEUGY2M3RyTjQ5Z0Q4SkpJVElKdnhBck9XSXF0ZHE5eGJhLUh4eDRGTTdiQkFCTkoyS0FZLWg1N0RQcTJKR2hnTEFHbDVyR045TE9hY01oalJRcUdxTm5JZUdhcXJKWU44ZGVSemNkOFl0TXhURzhrMzJxeXk5VEM3RVN4dC1qYXVfcUFiMFFabjR2?oc=5"
+        },
+        {
+          "title": "Raimondo scores hat trick for Frosinone in Italy. Frankfurt ends winless drought at home",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHFaZGxhWTRhaG03NHhJM2U5Y3ZLRlVIUkVLcHBrN0hEUzFJb3FETDJzWHY5V0dkTXgwTk5CRno0N3NsNVZFOU4tejNCR3kxQkhINWJ6dnVqa0tuV3ZJVnpzcC1kb3NSQ3V5bnFEeUR2c2xLbFVsR3FxNDNPR2VpOE5LTWNyMXBadDJQeHJOZWZ3ZHdUbGg0UXk3OEw4M1M2cU01VTlTRjRWODdwcWRoT1lOWG5EQm1PMFNTam93?oc=5"
         },
         {
           "title": "Faithful pray and react to news of Pope’s cancer diagnosis at Rome hospital",
@@ -108,7 +115,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 1,
-      "filtered_out": 29,
+      "filtered_out": 26,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italian football suffers new blow with Champions League misery",
@@ -122,6 +130,7 @@
       "name": "BBC",
       "count": 3,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italy",
@@ -144,12 +153,13 @@
       "id": "cnn",
       "name": "CNN",
       "count": 3,
-      "filtered_out": 86,
+      "filtered_out": 91,
+      "out_of_window": 0,
       "items": [
         {
           "title": "‘Times have changed’: The Italian princess renting out her palace in Rome",
           "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBORlNoQTFXUHZHLUwyZ3htRFJoTnJ1WjdMRTdOZFhHbDZldjd4dktRTmhUU2xDZ0NSbjNvUjlvR2lkQWJBbHlkRzhvUlVNT3RSVzFUejlsOTZyNHlhYVJvT2FJYm5OZndqdkdzSTFDeFlEc3IwQ0ZJb1dBZjdKdWM?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdldka2J1YWZjelYyUGtpZENIdTJCVGNHZkZ4a1dPVjc1YlF5ZG9fUkJQMG1GendIbC1JMEZxaXhpTTZVU1FScF84eGs3TTJ6SWJVNm0yczFUeDhvR1lCZjdwNWxYdFRkSGdsRTdka0pqc2ZUS2ZZWTJURk1CZHBOeVJzc3A?oc=5"
         },
         {
           "title": "Protests erupt from Albania and France to India and Italy",
@@ -167,7 +177,8 @@
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 3,
-      "filtered_out": 45,
+      "filtered_out": 39,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italy cuts air traffic in half amid data transmission issue",
@@ -189,14 +200,10 @@
     {
       "id": "tv5monde",
       "name": "TV5Monde",
-      "count": 5,
+      "count": 4,
       "filtered_out": 95,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Albanie, Belgique, Italie... Les mobilisations sociales s'intensifient dans les pays européens inspirés par la colère française",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPY20xald6RklFdk1GdmNwRlN3RzdHeGRjX21ldTFNNkFldkVoTURod2Vua0VZbGh3S3ZHQnNpY1I2OHM0NjhuMmRkOHRZS0VXSjdiSHU4d2NNTEdESGhGcS1ENDhvdkxORjd5S3l0NWVFaVdyOXQ3R0pJTGJ3bzZaQmR5WW1qTUlHSGRCdVNUb1VpbGtXSjd1NFNnTWNLSjZKQkRmSG1UTmoteDRQUWZ4Q2tNMjVXTWs3MXQzdDZYVnNzNGhsRVdBLTh3SFFMWE9RYmVEdl9lM0NVNzMzTE8yV25OWnJEQmtuUlBqLU11ZlBkZ0FmYzNCWDJDeXpZVko1dGJlYnoxaw?oc=5"
-        },
         {
           "title": "Cousu - Italie",
           "published": "2026-10-17",
@@ -224,6 +231,7 @@
       "name": "Bloomberg",
       "count": 8,
       "filtered_out": 92,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Meloni’s Fiscal Restraint in Italy Is Set to Endure, DBRS Says",
@@ -272,6 +280,7 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 100,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -279,6 +288,7 @@
       "name": "Financial Times",
       "count": 3,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Italy secures EU deal to lower its electricity prices",
@@ -301,20 +311,17 @@
       "id": "cnbc",
       "name": "CNBC",
       "count": 0,
-      "filtered_out": 16,
+      "filtered_out": 17,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "count": 2,
+      "count": 1,
       "filtered_out": 98,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Cost of living protests hit Belgium, Italy, Portugal and France",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHVKZElXMUhIblBtS2pLOThuSmszNHRMQXBvOFR6ZjBJWHhJd1BCM094dlg3eDRmNmFaUTFJOFJQZHhBRkdyTjNISkhSaGlBVTE3ZWNPZW04eHh6S1JXSUxJVzBmNlN6QklYT2NmSTVfUVdLeS03TmNUWmNTM2tsTENLazJGODVrOUtsajY0d1pBemIyQnBERG5zNUtNNi1iNktLR3pn0gGrAUFVX3lxTE9wa3NJblczOVI5c2t3akxLWkM4NWFqSGVqREFiMHNpc2RvUGJMbHJURk8yaUhBRXlVRnhrYmFFS1kyamo3MVltQWd0NUc0SnhzX3pVZnRDSDVJNFBPRXBDQ0pPTFFMZm9WXzd6RjVjbl9OMlRKVE0zandhOE5kM2w3Y0plQ3RBczQ1UUZxMzlUUWxTQnBINFVobzBZdXJhNnZtVi1NS1NVUDBVbw?oc=5"
-        },
         {
           "title": "Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists",
           "published": "2026-10-16",

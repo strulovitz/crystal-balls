@@ -131,3 +131,22 @@
 09:53:39 Skipping headline fetch (--skip-fetch).
 09:53:39 Country 1 of 1: United States
 09:53:39 Step 1 of 6 done (position, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+14:34:23 Judging legacy round 2026-10-01 against the evidence of round 2026-10-14: 1 countries.
+14:43:23   [IL wind] attempt 1: 540.2s, prompt_tokens=4526, completion_tokens=3916
+14:43:23 Country 1 of 1: Israel judged (540s). Elapsed 9 min. Estimated remaining 0 min.
+14:43:23 Done: 1 judged.
+14:43:23 Scorecard written: 0 country-rounds (crystal vs plain), verdict: not enough data yet. Manual forecasts: 3 of 4 correct, 1 unclear.
+14:43:23 Downloading vendor files and world atlas...
+14:43:23   three.module.min.js: already present, skipping
+14:43:23   OrbitControls.js: already present, skipping
+14:43:23   topojson-client.min.js: already present, skipping
+14:43:23   countries-110m.json: already present, skipping
+14:43:23 Downloading emoji PNGs...
+14:43:23 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+14:43:23 data/meta.json written
+14:43:23 data/index.json written (2 complete rounds)
+14:43:23 Building bundles...
+14:43:23   bundle for 2026-10-14: 32 countries
+14:43:23   bundle for 2026-10-01: 32 countries
+14:43:23 build_site_data.py complete.
+14:50:28 Extracting 8 questions from the raw texts of legacy round 2026-10-14: 1 countries.

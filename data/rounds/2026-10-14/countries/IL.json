@@ -6,11 +6,11 @@
   "code": "IL",
   "name": "Israel",
   "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T09:45:53+03:00",
+  "generated_at": "2026-10-19T14:43:23+03:00",
   "status": {
     "position": "done",
     "velocity": "done",
-    "wind": "skipped",
+    "wind": "done",
     "naive_forecast": "done",
     "crystal_forecast": "done",
     "display": "done",
@@ -90,7 +90,89 @@
       "ZIM-Hapag-Lloyd shipping deal halted over Gulf stakes"
     ]
   },
-  "wind": null,
+  "wind": {
+    "previous_round": "2026-10-01",
+    "elapsed_days": 13,
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Israel and Iran exchange missile or drone salvos, with Israel striking at least one underground nuclear or missile site at Pickaxe Mountain?",
+        "domain": "security",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "The evidence shows intelligence sharing and rhetorical threats but no actual missile or drone exchange or a strike on Pickaxe Mountain, which would have been a headline event.",
+        "relevant_headlines": [
+          "Netanyahu made a secret visit to Abu Dhabi and shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed",
+          "Trump threatened Iran with very hard strikes if linked to the cockpit incident, but the Omani nationality of the copilot complicated that narrative"
+        ],
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Gulf states and Iran jointly announce a temporary Hormuz Strait shipping arrangement that suspends Red Sea military operations for seven days?",
+        "domain": "diplomacy",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "No headline mentions a joint Gulf-Iran announcement, a Hormuz Strait shipping arrangement, or a suspension of Red Sea military operations; such a specific multilateral deal would certainly have been reported.",
+        "relevant_headlines": [
+          "FlyDubai cockpit attack in which a copilot attempted to crash a commercial aircraft, triggering national security debate and political exploitation",
+          "Netherlands revoked Israeli diplomatic status over settlement sanctions and the UN expanded its settlement-linked companies list"
+        ],
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Israel's cabinet approves a formal countermeasures package targeting British settlement-goods imports and specific trade contracts?",
+        "domain": "economy",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "UNCLEAR",
+        "evidence": "European settlement pressure and trade friction are confirmed, but no headline specifically names an Israeli cabinet vote approving countermeasures targeting British settlement-goods imports or specific trade contracts, leaving the exact institutional step unconfirmed.",
+        "relevant_headlines": [
+          "Netherlands revoked Israeli diplomatic status over settlement sanctions and the UN expanded its settlement-linked companies list",
+          "ZIM-Hapag-Lloyd shipping deal was halted over Saudi and Qatari financial stakes"
+        ],
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Knesset opposition tables a no-confidence motion against the Netanyahu government citing the UAE warning report?",
+        "domain": "politics",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "NO",
+        "evidence": "The warning leak in the evidence is attributed to Egypt, not the UAE, and no headline reports a no-confidence motion being tabled in the Knesset citing a UAE warning report.",
+        "relevant_headlines": [
+          "Leaked intelligence revealed Egypt had warned Netanyahu of the October 7 threat, reopening the central security question of the war",
+          "A Supreme Court indication forced the withdrawal of Sami Abu Shehadeh, a candidate of an Arab party"
+        ],
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A Houthi missile or drone strike hits a commercial vessel within 50 nautical miles of the Saudi coast, pushing Brent crude above 95 dollars per barrel?",
+        "domain": "economy",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "No headline mentions a Houthi missile or drone strike on a commercial vessel near the Saudi coast or Brent crude breaching 95 dollars per barrel, making this specific multi-condition event unconfirmed.",
+        "relevant_headlines": [
+          "FlyDubai cockpit attack in which a copilot attempted to crash a commercial aircraft, triggering national security debate and political exploitation",
+          "Settler marches and village attacks in the West Bank during Sukkot produced clashes and blocked roads"
+        ],
+        "legacy_probability": 0.4
+      }
+    ],
+    "resolved": 4,
+    "unclear": 1,
+    "single_forecaster": true,
+    "correct": 3,
+    "winner": "single",
+    "systematic_error": "The forecasters show a pattern of over-inferencing specific institutional actions from general diplomatic pressure. On Q3, they leapt from confirmed European settlement criticism to a formal Israeli cabinet countermeasures package targeting British imports, a specific executive decision not confirmed in any headline. On Q4, they assumed the warning-leak story, which the evidence attributes to Egypt rather than the UAE, would automatically produce a no-confidence motion in the Knesset, conflating the parliamentary trigger with a different leak and jumping from expected opposition attacks to a formal motion being tabled. In both cases the forecasters treated plausible political follow-through as confirmed fact, mistaking the direction of pressure for a completed institutional step.",
+    "correction_hint": "Mark a YES on a specific Israeli institutional response only when a headline names that exact body and that exact action, and always verify the source of a leak (Egypt versus UAE) before assuming it triggers a particular parliamentary instrument."
+  },
   "naive_forecast": {
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",

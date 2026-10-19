@@ -5,14 +5,15 @@
   "name": "Turkey",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:17:04+03:00",
+  "fetched_at": "2026-10-19T13:39:10+03:00",
   "total_items": 42,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 7,
-      "filtered_out": 93,
+      "count": 8,
+      "filtered_out": 92,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Russia's Rosatom targets year-end nuclear start-up at Turkey's Akkuyu",
@@ -45,6 +46,11 @@
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNR0hyQ3BRUGNiWExOcTc3ZFUzTXVndklHOUVmcGxLTmI0bk9NbVZyVU8wdVRHRnVSZDMwOWs5RVdtNlJvaURJajZzUkRqbnNwbG1aeHNhM2YwY3NfaWdvQU8tZVF5Y25CM01zWVB1eDA3SGd4Sk83NlNfY0VEQjNXWlpzNGFBWllqQUN5YUxiZWZhV0FiY3lHNUFfVm5oeEcwRFNwdVo3S1FxMDZyZUtCYkg3a1FUQkZQek9ONUdKcE95QjZkZnNaZ3ZSV3NmQ01McUFr?oc=5"
         },
         {
+          "title": "A drone view of the damaged cars in a street after heavy rains in Istanbul",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNODVuc1ZMVXo4QnEzRHd3dlI4T0lDdUZiekloNTJtWXU5LUxEei00Rk1CU25lVjk1SXhDWHhpcENEa0d0a0Y5VXFQVGtVSV9wNTRhci00MHYxS0V3RnpYVmI3ZkZfNXdfdnBxM1RJc0l4dDhjdE5iejhMWEY4Sng5Szg1ZklHcFNSQVBHUU4tRHBOdmNZNWJTLTB2Z0RYX09tU29rT1dQd1RxV0J5OGk2dkdR?oc=5"
+        },
+        {
           "title": "Turkey appoints trustee to run pro-opposition Halk TV amid opposition crackdown",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZWpjNzFPZ1BBNDdpNlFhaVNqVnFHMkxFOGsxV09feDFxT1BNMGxXNzJ4UGNmMWJMSkNmRmRNdE13cmMzd1BIaWVncWlVRFNQS3BEdEtVRzZTS0FCSUxzclFIcVZaRUYwVE1QNmRmSVFvMDFhWWhXTnZucWxzUzNHUnlkRzdDWmJweVZfOGtLV1dmUG1jdlh4NUU5czFuV3AxbDBOODVpazlYbjFVem82OXRReU9sdW10MUNJRmloZHM1Zw?oc=5"
@@ -55,7 +61,8 @@
       "id": "ap",
       "name": "Associated Press",
       "count": 6,
-      "filtered_out": 19,
+      "filtered_out": 18,
+      "out_of_window": 0,
       "items": [
         {
           "title": "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus",
@@ -93,7 +100,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 5,
-      "filtered_out": 10,
+      "filtered_out": 9,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Don't exclude Turkey from 'Made in Europe' plan: minister to AFP",
@@ -125,18 +133,14 @@
     {
       "id": "bbc",
       "name": "BBC",
-      "count": 5,
-      "filtered_out": 68,
+      "count": 4,
+      "filtered_out": 71,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Gençlerbirliği vs Galatasaray: Turkish Süper Lig stats & head-to-head",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGLVNZZGhjTFNCR0xiZldwdW1sTVpFYTEwNk1JTFM2NjhGR2VoTXM1UTZ3djhFbkVSWWlBTTdZRXFqQlRTMWVJU1hNa0F2RldOcUNFUHJlS1dCdDZ1QVcwbDdfcw?oc=5"
-        },
-        {
-          "title": "Turkey",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE05YXJnUVlodWtIZjEzS0tmem1QTFRCaHc3ekRLdjdUSi1UX1dvYkZFczdSbXhOQktTRXY4UjhXN0UyMW9vd2ZLcW92ZzlNVW9UZFJwaHQ4RQ?oc=5"
         },
         {
           "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
@@ -159,7 +163,8 @@
       "id": "cnn",
       "name": "CNN",
       "count": 1,
-      "filtered_out": 17,
+      "filtered_out": 15,
+      "out_of_window": 0,
       "items": [
         {
           "title": "World’s oldest shipwreck found off coast of Turkey",
@@ -172,7 +177,8 @@
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 7,
-      "filtered_out": 89,
+      "filtered_out": 84,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Between continents: The ups and downs of life in Istanbul",
@@ -216,6 +222,7 @@
       "name": "TV5Monde",
       "count": 3,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
         {
           "title": "VIDÉO. Turquie : le pouvoir prend le contrôle de la chaîne privée d'opposition Halk TV",
@@ -238,7 +245,8 @@
       "id": "bloomberg",
       "name": "Bloomberg",
       "count": 5,
-      "filtered_out": 84,
+      "filtered_out": 92,
+      "out_of_window": 0,
       "items": [
         {
           "title": "MSCI Freezes Turkey Indexes as Fund Turmoil Fuels Scrutiny",
@@ -272,6 +280,7 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 14,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -279,6 +288,7 @@
       "name": "Financial Times",
       "count": 1,
       "filtered_out": 29,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Turkish authorities take over country’s most-watched news channel",
@@ -291,7 +301,8 @@
       "id": "cnbc",
       "name": "CNBC",
       "count": 1,
-      "filtered_out": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Stock fixing scandal could see Turkish companies frozen out of global indexes",
@@ -304,7 +315,8 @@
       "id": "aljazeera",
       "name": "Al Jazeera",
       "count": 1,
-      "filtered_out": 23,
+      "filtered_out": 21,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Teenager dies as heavy rain floods Istanbul",

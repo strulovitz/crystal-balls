@@ -6,7 +6,7 @@
   "code": "IL",
   "name": "Israel",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T08:48:09+03:00",
+  "generated_at": "2026-10-19T14:50:28+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -115,28 +115,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.825."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "reason": "Legacy forecast text, stated probability 0.775."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "reason": "Legacy forecast text, stated probability 0.2."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.4."
       }
     ]
   },
@@ -181,28 +196,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.825."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "reason": "Legacy forecast text, stated probability 0.775."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "reason": "Legacy forecast text, stated probability 0.2."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.4."
       }
     ]
   },
@@ -225,6 +255,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Israel issue formal diplomatic protests and countermeasures against the United Kingdom over settlement sanctions?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Formal Israeli diplomatic protests and sharper public language from Foreign Minister Gideon Saar and Prime Minister Netanyahu.",
+        "legacy_probability": 0.875
+      },
+      {
+        "id": "Q2",
+        "text": "Will Israeli airstrikes on Hamas targets in Gaza continue?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Continued Israeli airstrikes on Hamas and possibly Islamic Jihad targets.",
+        "legacy_probability": 0.825
+      },
+      {
+        "id": "Q3",
+        "text": "Will Israeli airstrikes continue in southern Lebanon?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Continued Israeli airstrikes in southern Lebanon.",
+        "legacy_probability": 0.775
+      },
+      {
+        "id": "Q4",
+        "text": "Will the UAE warning report intensify Israel's pre-election political fight?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The report that the UAE warned Netanyahu before October 7 is a political grenade.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will Israeli ministers publicly attack the Naza documentary filmmakers?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More attacks from Israeli ministers calling the filmmakers traitors or seeking to strip citizenship.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q6",
+        "text": "Will a direct missile or drone exchange between Israel and Iran occur?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I'd put that around 25–35% for some noticeable exchange in the next seven days, not a full war.",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q7",
+        "text": "Will a hostage deal breakthrough be announced in Gaza?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Hostage deal breakthrough in Gaza — ~20%",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q8",
+        "text": "Will a Houthi attack near Saudi Arabia or a major Red Sea shipping incident occur?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Houthi attack near Saudi Arabia or major Red Sea shipping incident — ~35–45%",
+        "legacy_probability": 0.4
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Israel and Iran exchange missile or drone salvos, with Israel striking at least one underground nuclear or missile site at Pickaxe Mountain?",
