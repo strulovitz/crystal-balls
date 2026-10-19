@@ -1099,3 +1099,18 @@
 14:34:23 Step 7 of 7 done (display, Israel, 5m39s). Estimated remaining: 0s. You can stop any time and continue later.
 14:34:23 Country 1 of 1: Israel. position done, velocity done, wind done (394s), questions done (634s), naive done (360s), crystal done (734s), display done (339s)
 14:34:23 Not finalizing (--no-finalize or --only was used).
+14:57:57 Round 2026-10-17 started. Previous round: 2026-10-14 (3 days ago).
+14:57:57 Skipping headline fetch (--skip-fetch).
+14:57:57 Country 1 of 1: Israel
+14:57:57 Step 1 of 7 done (position, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+14:57:57 Step 2 of 7 done (velocity, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+15:06:55   [IL wind] attempt 1: 538.6s, prompt_tokens=4355, completion_tokens=3884
+15:06:55 Step 3 of 7 done (wind, Israel, 8m59s). Estimated remaining: 35m55s. You can stop any time and continue later.
+15:06:55 Step 4 of 7 done (questions, Israel, 0s). Estimated remaining: 26m56s. You can stop any time and continue later.
+15:06:55 Step 5 of 7 done (naive_forecast, Israel, 0s). Estimated remaining: 17m57s. You can stop any time and continue later.
+15:13:47   [IL crystal_forecast] attempt 1: 411.3s, prompt_tokens=5767, completion_tokens=2583
+15:13:47 Step 6 of 7 done (crystal_forecast, Israel, 6m51s). Estimated remaining: 7m55s. You can stop any time and continue later.
+15:19:35   [IL display] attempt 1: 348.7s, prompt_tokens=2786, completion_tokens=2434
+15:19:35 Step 7 of 7 done (display, Israel, 5m49s). Estimated remaining: 0s. You can stop any time and continue later.
+15:19:35 Country 1 of 1: Israel. position done, velocity done, wind done (539s), questions done, naive done, crystal done (411s), display done (349s)
+15:19:35 Not finalizing (--no-finalize or --only was used).

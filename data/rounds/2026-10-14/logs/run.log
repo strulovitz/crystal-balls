@@ -150,3 +150,24 @@
 14:43:23   bundle for 2026-10-01: 32 countries
 14:43:23 build_site_data.py complete.
 14:50:28 Extracting 8 questions from the raw texts of legacy round 2026-10-14: 1 countries.
+14:57:57   [IL legacy_questions] attempt 1: 448.5s, prompt_tokens=3767, completion_tokens=3567
+14:57:57 Country 1 of 1: Israel done (449s). Elapsed 7 min. Estimated remaining 0 min.
+14:57:57 Done: 1 countries extracted.
+15:19:35 Judging legacy round 2026-10-01 against the evidence of round 2026-10-14: 1 countries.
+15:31:40   [IL wind] attempt 1: 724.3s, prompt_tokens=4527, completion_tokens=5017
+15:31:40 Country 1 of 1: Israel judged (724s). Elapsed 12 min. Estimated remaining 0 min.
+15:31:40 Done: 1 judged.
+15:31:40 Scorecard written: 0 country-rounds (crystal vs plain), verdict: not enough data yet. Manual forecasts: 2 of 4 correct, 4 unclear.
+15:31:40 Downloading vendor files and world atlas...
+15:31:40   three.module.min.js: already present, skipping
+15:31:40   OrbitControls.js: already present, skipping
+15:31:40   topojson-client.min.js: already present, skipping
+15:31:40   countries-110m.json: already present, skipping
+15:31:40 Downloading emoji PNGs...
+15:31:40 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+15:31:40 data/meta.json written
+15:31:40 data/index.json written (2 complete rounds)
+15:31:40 Building bundles...
+15:31:40   bundle for 2026-10-14: 32 countries
+15:31:40   bundle for 2026-10-01: 32 countries
+15:31:40 build_site_data.py complete.

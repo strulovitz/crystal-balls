@@ -1,0 +1,103 @@
+{
+ "naive": {
+  "summary": "The coming week in Israel will be dominated by political fallout from the leaked Egypt warning about October 7, which opposition leaders will exploit heavily ahead of the October 27 election. In the security domain, expect Israel to announce new cockpit-access protocols at its airports after the FlyDubai incident, while strikes in Gaza will continue in the war's third year without a ceasefire in sight. The West Bank will see further settler marches and clashes as post-holiday tensions simmer. European diplomats will keep pressing on settlements, with additional criticism likely following the Netherlands' move. Financial markets will feel the combined weight of the security crisis, the Egypt leak, and pre-election jitters, causing visible volatility in the shekel and Israeli equities. A full Gaza ceasefire or a Saudi normalization deal will both remain just out of reach.",
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "With elections just two weeks away, the leaked Egypt warning about October 7 is the perfect political weapon for opposition leaders to reframe the central security narrative against Netanyahu."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "A copilot-attempted-crash incident will prompt immediate and visible tightening of pilot-identification and cockpit-access protocols at Israeli airports as a public reassurance measure before the election."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "The war is in its third year with over 74,000 killed, no ceasefire in place, and the overall mood is escalating, making continued airstrikes the default trajectory."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Settler groups were already marching and clashing during Sukkot, and the military is struggling to keep order, so further demonstrations and confrontations in the West Bank are the most likely continuation."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "With the war in year three, no active negotiations described, and Netanyahu facing a pre-election incentive to project strength, a full ceasefire signature in a single week is improbable."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "The Netherlands' revocation of diplomatic status and the UN's expanded settlement list set a momentum that other European capitals will likely build upon within the same week."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Netanyahu's recent secret trip was to the UAE, the ZIM-Saudi shipping deal is still stalled, and formal Saudi-Israeli normalization is a multi-year negotiation rather than a one-week announcement."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "The stacked combination of the cockpit crisis, the Egypt leak, ongoing Gaza strikes, European pressure, and pre-election uncertainty creates multiple simultaneous shock vectors for the shekel and Israeli equities."
+   }
+  ]
+ },
+ "crystal": {
+  "summary": "Israel's next week will be dominated by the political aftershock of the Egypt-warning leak and the FlyDubai cockpit attack, both landing just two weeks before the October 27 election. Opposition leaders will hammer Netanyahu over who knew what before October 7, while security agencies roll out new cockpit-access protocols at Ben Gurion and other airports. Gaza strikes will continue without pause as the war marks another month in its third year, and West Bank settler friction will persist beyond the Sukkot holiday. European diplomatic pressure on settlements will keep ratcheting up, but no grand deal or normalization announcement is in sight. The shekel and markets will jittersome around election uncertainty and security headlines.",
+  "reasoning": "The wind correction pushed me to downgrade Q5 and Q7 from the kind of speculative YES a plain reader might give; a ceasefire signature and Saudi normalization are discrete, headline-generating events with no supporting evidence in the current situation. Q1 and Q6 I kept as YES because they extend an active, multi-actor trend rather than predicting a single new trigger. Q2 I kept YES because an administrative security update is the natural bureaucratic follow-up to the cockpit incident, not a dramatic one-off. Q4 I kept YES over NO because settler friction is a rolling pattern, not a holiday-only event. Q8 I kept YES because pre-election volatility plus security headlines make a wobble near-certain rather than speculative.",
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "The Egypt-warning leak is now public, the election is 13 days away, and every opposition leader has a motive to weaponize the 'who warned Netanyahu' question in the final campaign sprint."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "A cockpit crash-attempt is precisely the kind of incident that prompts immediate, visible tightening of pilot credentialing and cockpit-access protocols at major airports as a public reassurance measure."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Strikes have been ongoing without a ceasefire, the war is in its third year, and nothing in the current situation suggests a pause; continued operations are the default."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Settler marches and road-blocking are a recurring weekly pattern, not limited to Sukkot, and the military's visible struggle to maintain order signals the friction will continue into post-holiday days."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "No evidence of active ceasefire negotiations or a deal framework exists in the current situation, and a full agreement is a major discrete event that last round correctly predicted as absent."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "The Netherlands just revoked diplomatic status and the UN expanded its settlement list, showing a clear multi-country escalation trend that will likely see additional European states or bodies issue further measures or statements within a week."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "The ZIM-Hapag-Lloyd deal was actually halted partly over Saudi financial stakes, indicating ongoing friction rather than a path to a formal normalization announcement in such a short window."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "The combination of the cockpit-attack security shock, the Egypt-leak political turmoil, and the approaching October 27 election creates multiple overlapping uncertainty drivers that will rattle the shekel and equity markets."
+   }
+  ]
+ },
+ "truth": {
+  "Q1": "UNCLEAR",
+  "Q2": "NO",
+  "Q3": "YES",
+  "Q4": "YES",
+  "Q5": "NO",
+  "Q6": "YES",
+  "Q7": "NO",
+  "Q8": "UNCLEAR"
+ }
+}

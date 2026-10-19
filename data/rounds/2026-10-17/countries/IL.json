@@ -6,7 +6,7 @@
   "code": "IL",
   "name": "Israel",
   "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T14:34:23+03:00",
+  "generated_at": "2026-10-19T15:19:35+03:00",
   "status": {
     "position": "done",
     "velocity": "done",
@@ -123,87 +123,132 @@
     "questions": [
       {
         "id": "Q1",
-        "text": "Will it happen that The cockpit investigation points toward personal or medical motives, and at least one opposition leader publicly accuses Netanyahu of overstating the threat level?",
+        "text": "Will opposition leaders publicly attack Netanyahu over leaked reports that Egypt warned Israel before the October 7 attacks?",
         "domain": "politics",
-        "naive": "NO",
-        "crystal": "NO",
-        "outcome": "NO",
-        "evidence": "No headline mentions a cockpit investigation pointing to personal or medical motives, and no opposition leader is quoted publicly accusing Netanyahu of overstating the threat level.",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "UNCLEAR",
+        "evidence": "The opposition is clearly active around the election and the former security chief is suing over October 7, but no headline specifically mentions leaked reports of Egypt warning Israel before October 7 or opposition leaders attacking Netanyahu over that particular leak.",
         "relevant_headlines": [
-          "Netanyahu says he is not seeking to attack Iran again before Israel election",
-          "The Israeli politicians seeking to replace Netanyahu",
-          "In Israel, Netanyahu's ultimate legacy is the opposition he has forged"
+          "Israel's former security chief sues Netanyahu for October 7 defamation",
+          "In Israel, Netanyahu's ultimate legacy is the opposition he has forged",
+          "The Israeli politicians seeking to replace Netanyahu"
         ],
-        "legacy_probability": 0.35
+        "legacy_probability": 0.8
       },
       {
         "id": "Q2",
-        "text": "Will it happen that Israel and the UAE issue a joint statement on the FlyDubai probe while Saudi Arabia declines to comment publicly on the investigation?",
-        "domain": "diplomacy",
+        "text": "Will Israel announce tightened security checks for pilots and cockpit access at its airports in response to the FlyDubai cockpit attack?",
+        "domain": "security",
         "naive": "YES",
         "crystal": "YES",
         "outcome": "NO",
-        "evidence": "No headline references a FlyDubai probe, a joint Israel-UAE statement, or Saudi Arabia declining to comment, indicating none of these specific diplomatic actions occurred in the period.",
+        "evidence": "None of the 96 headlines mention FlyDubai, a cockpit attack, or any new airport security measures for pilots, making it highly unlikely such a specific announcement went unreported.",
         "relevant_headlines": [
-          "Lebanon says military delegation will press for halt to Israeli attacks at US talks",
-          "Colombia opens embassy in Jerusalem, restores free trade deal with Israel",
-          "China says Israel should stop its 'forced establishment' of West Bank settlements"
+          "Israeli settlers attack group of European diplomats in the occupied West Bank",
+          "Israeli drone attacks kill six Palestinians across Gaza despite 'ceasefire'",
+          "New York City Comptroller Defends Decision Not to Invest in Israeli Bonds"
         ],
-        "legacy_probability": 0.55
+        "legacy_probability": 0.9
       },
       {
         "id": "Q3",
-        "text": "Will it happen that Israeli security services announce a new counterterrorism arrest or operation in the country?",
+        "text": "Will Israel carry out additional military strikes in Gaza during the week?",
         "domain": "security",
-        "naive": "NO",
-        "crystal": "NO",
-        "outcome": "NO",
-        "evidence": "The only raids and arrests mentioned occurred in southern Syria or involved settler-related village incursions, not a new counterterrorism arrest or operation announced by Israeli security services within the country.",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "YES",
+        "evidence": "Multiple headlines confirm Israeli military strikes in Gaza during the period, including drone attacks on October 17 killing six Palestinians and an air strike on October 14 in Gaza City.",
         "relevant_headlines": [
-          "Israeli raids and arrests in southern Syria push population to the brink",
-          "Settlers set fire to mosque in West Bank as Israeli forces raid villages",
-          "Israeli rights groups report a surge of Palestinian inmates being shot with rubber bullets"
+          "Israeli drone attacks kill six Palestinians across Gaza despite 'ceasefire'",
+          "Israeli air strike kills Palestinian woman in Gaza City",
+          "Israel-Gaza war"
         ],
-        "legacy_probability": 0.4
+        "legacy_probability": 0.8
       },
       {
         "id": "Q4",
-        "text": "Will it happen that The Netherlands or another EU state announces a specific settlement-related diplomatic sanction or visa restriction targeting Israel?",
-        "domain": "diplomacy",
+        "text": "Will there be additional settler marches and clashes with Palestinians in the West Bank during the week?",
+        "domain": "society",
         "naive": "YES",
         "crystal": "YES",
-        "outcome": "NO",
-        "evidence": "The Dutch incident involved Israel stripping Dutch diplomats' status, and the EU diplomats were attacked by settlers, but no EU state is reported announcing a specific settlement-related diplomatic sanction or visa restriction against Israel.",
+        "outcome": "YES",
+        "evidence": "At least six separate headlines across Reuters, AP, BBC, CNN, DW, FT, WSJ, and Al Jazeera report settler attacks and clashes with Palestinians in the West Bank on October 14, 15, 16, and 17.",
         "relevant_headlines": [
-          "Israel strips Dutch diplomats of status in West Bank - DW.com",
-          "Israeli settlers attack group of European diplomats in the occupied West Bank",
-          "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says"
+          "Masked Israeli Settlers Attack European Diplomats in West Bank",
+          "Israeli settlers torch cars and trees in West Bank villages, disrupting Palestinians' olive harvest",
+          "Settlers set fire to mosque in West Bank as Israeli forces raid villages"
         ],
-        "legacy_probability": 0.6
+        "legacy_probability": 0.8
       },
       {
         "id": "Q5",
-        "text": "Will it happen that A Supreme Court ruling affects the candidacy or list eligibility of an Arab party ahead of the October 27 election?",
-        "domain": "politics",
+        "text": "Will a full ceasefire agreement in Gaza be signed during the week?",
+        "domain": "diplomacy",
         "naive": "NO",
         "crystal": "NO",
         "outcome": "NO",
-        "evidence": "Arab parties are discussed as potential swing voters, but no headline reports a Supreme Court ruling affecting their candidacy or list eligibility ahead of the October 27 election.",
+        "evidence": "No headline announces a new full ceasefire agreement being signed; the existing arrangement is referred to in skeptical quotes and is being violated by drone strikes, and Lebanon and Qatar are still pressing for halts to attacks.",
         "relevant_headlines": [
-          "Israel's Arab-led parties could decide the election if anyone would partner with them",
-          "'Like we don't exist': Palestinians in West Bank denied say in Israel vote",
-          "Législatives en Israël: Eizenkot, Netanyahu... Ce que disent les sondages à deux semaines du scrutin"
+          "Israeli drone attacks kill six Palestinians across Gaza despite 'ceasefire'",
+          "Lebanon says military delegation will press for halt to Israeli attacks at US talks",
+          "Qatar FM calls for Israeli withdrawal from Lebanon"
         ],
-        "legacy_probability": 0.35
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q6",
+        "text": "Will European governments issue new diplomatic criticism or measures related to Israeli settlement expansion?",
+        "domain": "diplomacy",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "YES",
+        "evidence": "Israel stripped Dutch diplomats of status on October 15, settlers attacked EU diplomats and a French mayor on October 17, Belgium confirmed the attack, and a WSJ opinion piece frames Europe's growing diplomatic and economic pressure over Israel.",
+        "relevant_headlines": [
+          "Israel strips Dutch diplomats of status in West Bank",
+          "Israeli settlers attack group of European diplomats in the occupied West Bank",
+          "Opinion | Europe Risks an Economic War Over Israel and the ICC"
+        ],
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q7",
+        "text": "Will official normalization of diplomatic relations between Israel and Saudi Arabia be announced?",
+        "domain": "diplomacy",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "No headline mentions Saudi Arabia or any normalization announcement with it; the diplomatic news of the week centers on Colombia, Europe, China, and the US, making a missed Saudi normalization announcement highly unlikely.",
+        "relevant_headlines": [
+          "Colombia opens embassy in Jerusalem, restores free trade deal with Israel",
+          "Why are Latin American countries building closer ties with Israel?",
+          "Delegates walk out as Israeli president addresses summit"
+        ],
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q8",
+        "text": "Will the shekel or Israeli stock markets experience a noticeable wobble in response to security news during the week?",
+        "domain": "economy",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "UNCLEAR",
+        "evidence": "Financial headlines show some investor tension around Israeli bonds and sovereign wealth fund decisions, but no headline specifically reports a noticeable drop in the shekel or a sell-off in Israeli stocks triggered by the week's security news.",
+        "relevant_headlines": [
+          "New York City Comptroller Defends Decision Not to Invest in Israeli Bonds",
+          "Norway wealth fund urged to ease nuclear arms ban after Gaza investment row",
+          "Paulson Shifts Giving to Israel With $250 Million for University"
+        ],
+        "legacy_probability": 0.5
       }
     ],
-    "resolved": 5,
-    "unclear": 0,
+    "resolved": 6,
+    "unclear": 2,
     "single_forecaster": true,
-    "correct": 3,
+    "correct": 5,
     "winner": "single",
-    "systematic_error": "Both forecasters erred on Q2 and Q4 by predicting YES to very specific formal institutional actions—a joint Israel-UAE statement on a probe, and an EU visa sanction—despite the headlines showing only the underlying tensions (settler attacks on diplomats, multi-country diplomatic pressure) without the concrete announcements. They over-extrapolated from general diplomatic friction to expect that a specific sanction or joint statement would be formally issued within three days. In contrast, they correctly said NO on Q1, Q3, and Q5 where the required event was equally specific but absent from the headlines, suggesting their YES bias was triggered by the presence of related actors (UAE-adjacent Gulf diplomacy, Dutch/EU diplomats) rather than the precise action demanded. They confused the setup for a formal response with the formal response itself.",
-    "correction_hint": "For Israel next week, treat multi-actor diplomatic tensions (diplomats present, multiple countries commenting) as background context, not as confirmation that a specific named institution (Supreme Court, EU sanctions body, joint ministerial statement) has issued a formal decision; require an explicit headline naming the institution and the specific action before answering YES on granular institutional events."
+    "systematic_error": "The forecaster over-predicted specific, high-salience events that felt plausible in context but were not actually reported. For Q1, the opposition was clearly active, but the forecaster assumed a particular Egypt-leak story dominated. For Q2, a FlyDubai cockpit attack response felt like an obvious follow-up but no headline confirmed it. For Q8, the forecaster assumed market wobbles would be reported given the intense security news, yet the financial headlines were about bond decisions and giving, not currency or index drops. The common thread is defaulting to YES whenever the broader news environment makes an event feel expected, rather than requiring a headline that actually reports the specific event.",
+    "correction_hint": "For Israel, distinguish between the broad theme of the week (settler violence, Gaza supply crisis, pre-election politics) and the specific discrete events being asked about; only mark YES when a headline explicitly names the event, not when the surrounding context makes it seem probable. Also treat absence of a headline as meaningful evidence against a NO for events that major outlets would certainly cover, such as normalization deals or airport policy announcements."
   },
   "naive_forecast": {
     "summary": "The coming week will be dominated by Israel's impending general election, now roughly two weeks away, with polls showing a tight race between Netanyahu and former security chief Eizenkot. Settler violence in the West Bank will remain a flashpoint: after this week's attacks on European diplomats, journalists, and olive-harvest farmers, Israeli authorities will likely move quickly to formally charge at least one settler to demonstrate responsiveness to US and EU pressure. In Gaza, the halt of commercial goods will persist, deepening malnutrition fears and feeding domestic debate over the war's cost. The zero-click spyware revelations targeting Al Jazeera will fuel parliamentary questions but will not yet trigger a full government inquiry. Diplomatic friction with the Netherlands and Italy will simmer without immediate escalation, and Hezbollah will likely hold its fire while US-mediated talks with Lebanon continue.",
@@ -253,67 +298,67 @@
     "horizon_end": "2026-10-24"
   },
   "crystal_forecast": {
-    "summary": "The coming week will be dominated by Israel's general election campaign, now two weeks away, with polling and coalition speculation driving domestic politics. Settler violence in the West Bank will keep generating international headlines after the attack on European diplomats and a US journalist during the olive harvest, prompting further US and EU demands for accountability, though I expect formal judicial and diplomatic responses to stay at the demand-and-probe stage rather than advancing to charges, warrants, or ambassadorial recalls. Gaza's humanitarian crisis will deepen as commercial goods remain halted and the Health Ministry's 'catastrophic' assessment drives additional UN warnings. The Italian probe naming Defense Minister Katz will generate legal commentary but will not yet escalate to an arrest warrant. The zero-click spyware story will continue to ripple through media and tech circles without triggering a formal government inquiry.",
-    "reasoning": "The wind correction hit hard this round. Last time the forecaster over-extrapolated from diplomatic tensions to specific institutional actions on Q2 (joint statement) and Q4 (EU visa sanction). Applying that lesson, I treated the US demand to 'crack down' (Q5), the Italian probe (Q2), the Dutch status strip (Q4), and the pre-election Arab-party chatter (Q1) as pressure and setup rather than the formal acts themselves. None of the eight questions requires only that the actors are present or the topic is hot; each demands a named institution take a specific next step. The headlines confirm the topics are live but do not name the institution executing the action within the week. This pulled Q1, Q2, Q4, and Q5 from what a plain reading might nudge toward YES down to firm NO.",
+    "summary": "The coming week will be dominated by Israel's pre-election frenzy two weeks before the vote. Settler violence in the West Bank will continue to escalate, with the attack on European diplomats and a US journalist driving EU and US demands for accountability. Gaza's humanitarian crisis will deepen as commercial goods remain halted, with malnutrition described as catastrophic. The Italian probe naming Defense Minister Katz will generate further diplomatic friction, while China's sharper tone on settlements will widen the diplomatic pressure. The zero-click spyware revelation will simmer as a tech and intelligence story. The election will remain the organizing frame, with Arab-led parties positioned as potential swing voters. No major new military escalation in Syria or a formal coalition announcement is expected before the vote.",
+    "reasoning": "The wind correction pushes me to be more conservative on specific discrete events. Q2, Q4, Q5, and Q8 are all logical next steps that feel expected given the headlines but are not explicitly named in any headline. Last round I over-predicted specific events like the FlyDubai airport response and the Egypt-leak attack. This round I apply the same discipline: the formal probe exists, but an arrest warrant does not (Q2). The stripping of diplomats is reported, but the ambassador recall is not (Q4). The US demands a probe, not a formal charge (Q5). Researchers revealed the spyware, but a government public inquiry is a different institutional step (Q8). Q3 and Q7 require a specific military action no headline names.",
     "answers": [
       {
         "id": "Q1",
         "answer": "NO",
-        "reason": "Headlines describe Arab-led parties as potential swing voters in conditional language ('could decide'), but no major party is reported formally announcing a coalition partnership before the vote."
+        "reason": "The headlines frame Arab-led parties as potential swing voters but do not report any major party formally announcing a pre-election coalition partnership, which is a rare and highly specific step."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Italy opened a probe naming Katz, but an international arrest warrant is a further legal step that no headline reports as issued or imminent within the week."
+        "reason": "Italy opened a formal probe naming Katz, but an international arrest warrant is a distinct and more dramatic legal step that no headline reports or explicitly foreshadows."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Reported Israeli activity in southern Syria consists of raids and arrests, while a sustained ground incursion is a distinct, larger operation not indicated in the headlines."
+        "reason": "Headlines describe Israeli raids and arrests in southern Syria, not a new sustained ground incursion, and Netanyahu explicitly said he is not seeking to attack Iran again before the election."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Israel stripped Dutch diplomats of West Bank status, but the Netherlands has not recalled its ambassador, and the wind correction warns against treating the initial provocation as the full diplomatic response."
+        "reason": "Israel stripping Dutch diplomats of West Bank status is reported, but the Netherlands recalling its ambassador is a separate diplomatic step not named in any headline."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "The US and Belgium are demanding Israel crack down and probe the diplomat attack, but a formal criminal charge against a named settler is a further judicial step not yet reported."
+        "reason": "The US envoy says Israel must probe the attack, which is an investigation step; a formal charge is a later legal action not yet reported in any headline."
       },
       {
         "id": "Q6",
         "answer": "NO",
-        "reason": "Commercial goods halted on October 15 and the humanitarian situation is worsening, making a formal resumption announcement within this short window unlikely despite mounting pressure."
+        "reason": "The trend is toward worsening shortages and catastrophic malnutrition, and no headline signals a formal resumption of commercial goods, making a policy reversal unlikely within a week."
       },
       {
         "id": "Q7",
         "answer": "NO",
-        "reason": "Hezbollah confirmed ownership of confiscated explosives, but the diplomatic track through Lebanon's US talks and the fact that the munitions were already captured reduce the likelihood of a new rocket salvo this week."
+        "reason": "The headlines emphasize Hezbollah's confiscated explosives and Lebanon pressing for a halt at US talks, pointing to a diplomatic rather than a new military-rocket phase."
       },
       {
         "id": "Q8",
         "answer": "NO",
-        "reason": "Researchers and media exposed the zero-click spyware operation, but the Israeli government has not been reported as opening a formal public inquiry, and the wind correction cautions against inferring a government response from media exposure alone."
+        "reason": "The zero-click spyware operation was revealed by researchers, but a formal government public inquiry is a distinct institutional step that no headline reports or explicitly announces."
       }
     ],
     "horizon_start": "2026-10-17",
     "horizon_end": "2026-10-24"
   },
   "display": {
-    "headline": "Israel's Election Week: Hype, Clashes, and Starvation Without Breakthroughs",
+    "headline": "Election Frenzy Meets Settler Fury as Gaza Hunger Deepens",
     "emojis": [
       "🗳️",
       "🔥",
-      "⚠️"
+      "🌐"
     ],
     "emoji_reasons": [
-      "The general election two weeks away is the gravitational center of every domestic story this week.",
-      "Settler violence during the olive harvest, including the attack on diplomats and a journalist, is the most vivid flashpoint.",
-      "Gaza's deepening hunger crisis and the Health Ministry's 'catastrophic' warning keep the alarm flashing."
+      "The general election two weeks out is the single organizing frame for every political decision and diplomatic posture this week.",
+      "Settler violence during the olive harvest is escalating, from torching cars to punching diplomats, and the West Bank is the most visible flashpoint.",
+      "The EU, the US, China, and Italy are all pressing Israel simultaneously on the diplomat attack, settlements, and the flotilla probe, making the week intensely multilateral."
     ],
-    "tldr": "Israel's general election campaign intensifies amid a dead-heat poll, while settler violence in the West Bank and a worsening hunger crisis in Gaza draw mounting international pressure. Expect diplomatic demands and legal probes to stay at the talking stage without formal charges, warrants, or ambassadorial recalls this week.",
-    "eli5": "Israel is two weeks from a general election, and the country is juggling campaign fever with a stack of fires breaking out simultaneously. This week, settlers in the West Bank torched cars, burned olive trees, and beat up farmers during the harvest, then took things a step further by attacking a group of European diplomats and a Washington Post journalist who had come to simply watch. At the same time, Israel stopped trucks of commercial goods from rolling into Gaza, and the Health Ministry is now calling the hunger situation 'catastrophic.' The air smells like a pressure cooker with the lid rattling.\n\nThe international community is loud and demanding. Belgium, the US, and other EU states are telling Israel to 'crack down' on the settlers. Italy opened a formal legal probe that names Defense Minister Katz over the treatment of Gaza flotilla activists. But here is the key point the forecaster is making: none of this is expected to cross the line into formal charges, international arrest warrants, or ambassadors being pulled home this week. Think of it like a school principal telling a class 'I want to see this handled' but not yet writing the report card. The election is close, so politicians are balancing rally speeches with diplomatic phone calls, and they prefer to keep the temperature at 'demanding' rather than 'acting.'\n\nTwo of the eight yes-or-no calls are especially telling. First: will a major Israeli party formally announce a coalition partnership with an Arab-led party before the vote? The answer is no. Arab parties are being discussed as potential swing voters in 'could decide' language, but nobody has signed a deal on camera yet. Second: will Italy issue an international arrest warrant for Katz? Also no. Opening a probe is step one; a warrant is step three, and Italy has not signaled it is anywhere near that threshold. The pattern across all eight questions is the same: the topics are hot, the pressure is real, but the formal institutional step is not landing this week.\n\nWhat would actually be a surprise? Israel suddenly announcing the commercial supply line into Gaza is back open, or the Netherlands formally recalling its ambassador from Jerusalem over the stripped-diplomat-status snub. Both are dramatic moves the pressure is building toward, but the actors are expected to stay in 'demand and discuss' mode rather than 'pull the trigger' mode this particular seven-day window. A fresh Hezbollah rocket salvo at Israeli territory would also be a genuine shock, because the explosives that were just discovered had already been confiscated and diplomatic talks through Lebanon are still active. In short: a loud, tense, election-week rattle with no new hammer blows."
+    "tldr": "Israel's election two weeks out will frame everything, with parties scrambling for Arab-led swing votes. Settler violence in the West Bank will keep climbing after the attack on European diplomats, and Gaza's food crisis will deepen as commercial goods stay blocked.",
+    "eli5": "Think of Israel right now as a country holding its breath. General elections are two weeks away, and the polls are so tight that a small cluster of Arab-led parties could tip the result. Every major party is suddenly trying to sound friendlier to those voters, and the whole political atmosphere is a loud, fast-moving campaign scramble where nobody wants to look too hardline and nobody wants to look too soft.\n\nOn top of the campaign noise, things in the West Bank are getting genuinely ugly. During the olive-harvest season, Israeli settlers have been torching farmers' cars, burning olive trees, and beating both Palestinians and journalists who come to watch. This week the violence hit a new nerve: a group of European diplomats and a Washington Post reporter were physically assaulted. Belgium and other EU governments are publicly demanding answers, the US envoy is saying Israel must probe the incident, and China — which rarely comments this specifically on Israel — is telling them to stop building settlements. The diplomatic pressure is coming from many directions at once.\n\nHere is where the forecast gets a little counter-intuitive: a lot of the follow-up steps people would expect actually probably will not happen before the vote. Italy has opened a formal probe that names Defense Minister Katz, but the forecast says we should not expect a dramatic international arrest warrant to go up that would put his name in a global wanted list — that is a separate legal leap nobody has signalled. Similarly, the US is pushing Israel to investigate the diplomat attack, but a formal criminal charge against a specific settler is a bigger institutional step that the timeline probably does not allow before the election. The week is about simmering, mounting pressure rather than one explosive legal or diplomatic headline.\n\nThe one genuinely new thread to keep an eye on is the zero-click spyware story. Researchers showed that an Israeli tech firm used ordinary online ads to plant spy software on a wide set of targets, including Al Jazeera staff, sometimes without the target ever clicking anything. That is a fascinating tech-and-intelligence mystery that will keep getting dissected in think-tank papers and press briefings, but a full government public inquiry is unlikely before the campaign swallows up the political bandwidth."
   },
   "questions": {
     "horizon_start": "2026-10-17",
