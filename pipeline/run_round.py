@@ -188,6 +188,18 @@ def step_velocity(file, prev_file, country_cfg, round_id, prev_round_id, setting
     return "run", obj, elapsed
 
 
+LEGACY_SOURCES = {"2026-10-01": "round-1", "2026-10-14": "round-2"}
+
+
+def legacy_text_for(round_id, country_name):
+    """Nir's hand-collected legacy text for a legacy round (already holds that week's real news)."""
+    sub = LEGACY_SOURCES.get(round_id)
+    if not sub:
+        return None
+    p = ROOT / "data" / "legacy" / sub / f"{country_name}.txt"
+    return p.read_text(encoding="utf-8") if p.exists() else None
+
+
 def step_wind(file, prev_file, country_cfg, round_id, prev_round_id, window_start, window_end,
               headlines_json, settings, mock):
     if not prev_file or prev_file.get("naive_forecast") is None or prev_file.get("crystal_forecast") is None:
@@ -199,7 +211,13 @@ def step_wind(file, prev_file, country_cfg, round_id, prev_round_id, window_star
     crystal_ids = [s["id"] for s in prev_crystal["statements"]]
     other_text = f"Country: {name}\n"
     budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
-    headlines_text = common.fit_headlines_to_budget(headlines_json, other_text, budget)
+    legacy_text = legacy_text_for(round_id, name) if file.get("is_legacy") else None
+    if legacy_text:
+        # Legacy round: Nir's own text is the evidence of what happened (no Google headlines).
+        headlines_text = "(No headline list for this round. Evidence of what happened is Nir's own "\
+                         "written account of that week:)\n\n" + legacy_text[: budget * 3]
+    else:
+        headlines_text = common.fit_headlines_to_budget(headlines_json, other_text, budget)
     variables = {
         "COUNTRY": name,
         "PREVIOUS_ROUND": prev_round_id,
@@ -539,7 +557,7 @@ def main():
 
     if round_json_path.exists():
         round_data = load_json(round_json_path)
-        if round_data.get("status") == "complete":
+        if round_data.get("status") == "complete" and not args.force_step:
             log(f"Round {round_id} is already complete. Rebuilding site data only.")
             from pipeline.build_site_data import main as build_site_data_main
             build_site_data_main()

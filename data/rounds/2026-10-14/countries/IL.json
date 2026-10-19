@@ -5,12 +5,12 @@
   "is_legacy": true,
   "code": "IL",
   "name": "Israel",
-  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T20:09:44+03:00",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-19T09:45:53+03:00",
   "status": {
     "position": "done",
-    "velocity": "skipped",
-    "wind": "skipped",
+    "velocity": "done",
+    "wind": "done",
     "naive_forecast": "done",
     "crystal_forecast": "done",
     "display": "done"
@@ -67,8 +67,128 @@
       "The October 27 election is the organizing political event around which all security and diplomatic developments are being weaponized."
     ]
   },
-  "velocity": null,
-  "wind": null,
+  "velocity": {
+    "summary": "Between the two reports, Israel's situation intensified modestly but the agenda shifted in meaningful ways. The FlyDubai cockpit attack is the most dramatic new development, injecting a domestic security crisis into an already volatile pre-election period and giving Trump a fresh lever against Iran. The 'who warned Netanyahu before October 7' question escalated from a UAE leak to an Egypt revelation, making it even more politically explosive ahead of the October 27 vote. European diplomatic pressure grew from sanctions to the Netherlands revoking Israeli diplomatic status and the UN expanding its settlement-linked companies list. The US-brokered Gaza ceasefire has simply disappeared, replaced by ongoing strikes in the war's third year with a toll over 74,000. West Bank settler violence during Sukkot became a visible flashpoint. Faded or absent are the Houthi-Mokha seizure, the Naza documentary dispute, the Lebanon negotiations in Rome, and the Jordan water-lapse issue. Overall the pace is moderate acceleration with genuinely new events rather than a complete overhaul of the agenda.",
+    "direction": "escalating",
+    "speed": 6,
+    "intensity_change": 1,
+    "rising": [
+      "European diplomatic pressure on settlements",
+      "Domestic political crisis over the pre-October-7 warning",
+      "West Bank settler violence and clashes"
+    ],
+    "fading": [
+      "Houthi maritime and Mokha port threat",
+      "Naza documentary cultural dispute",
+      "Israel-Lebanon negotiations and UNIFIL friction"
+    ],
+    "new": [
+      "FlyDubai cockpit attack and national security debate",
+      "Netanyahu secret Abu Dhabi intelligence-sharing visit",
+      "Gaza ceasefire collapse and third-year death toll",
+      "ZIM-Hapag-Lloyd shipping deal halted over Gulf stakes"
+    ]
+  },
+  "wind": {
+    "previous_round": "2026-10-01",
+    "naive": {
+      "statements": [
+        {
+          "id": "N1",
+          "text": "Israel's Foreign Minister Gideon Saar announces a formal diplomatic protest and an expanded entry ban on British Members of Parliament and senior diplomats.",
+          "probability": 0.88,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "The evidence confirms the UK pledged a tougher stance and the Netherlands revoked Israeli diplomatic status, but no specific formal diplomatic protest or expanded entry ban targeting British MPs is reported."
+        },
+        {
+          "id": "N2",
+          "text": "Israel strikes a senior Hamas or Islamic Jihad commander in a Gaza airstrike that triggers a UN Security Council statement.",
+          "probability": 0.82,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "Strikes persisted in Gaza without a ceasefire, but no specific senior Hamas or Islamic Jihad commander killing or resulting UN Security Council statement is mentioned."
+        },
+        {
+          "id": "N3",
+          "text": "An opposition party files a formal defamation lawsuit against Haaretz over its report that the UAE warned Netanyahu before October 7.",
+          "probability": 0.85,
+          "domain": "politics",
+          "outcome": 0,
+          "evidence": "The leaked warning came from Egypt, not the UAE, and no defamation lawsuit against Haaretz by an opposition party is reported."
+        },
+        {
+          "id": "N4",
+          "text": "Netanyahu visits troops on Mount Hermon or in the Golan buffer zone and delivers a televised address to the soldiers.",
+          "probability": 0.7,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "Netanyahu held campaign speeches and commemorative events around the Oct. 7 anniversary, but no visit to Mount Hermon or the Golan buffer zone with a televised soldier address is mentioned."
+        },
+        {
+          "id": "N5",
+          "text": "Israel announces a 24-hour official visit to United Nations headquarters in New York, complete with staged protest encounters outside the building.",
+          "probability": 0.4,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "The UN expanded its settlement-linked companies list, but no 24-hour official visit to UN headquarters in New York with staged protest encounters is reported."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.564
+    },
+    "crystal": {
+      "statements": [
+        {
+          "id": "C1",
+          "text": "Israel and Iran exchange missile or drone salvos, with Israel striking at least one underground nuclear or missile site at Pickaxe Mountain.",
+          "probability": 0.3,
+          "domain": "security",
+          "outcome": 0,
+          "evidence": "Israel and Iran deepened coordination via the Netanyahu-MBS meeting and Trump threatened Iran, but no missile or drone salvo exchange or strike on Pickaxe Mountain occurred."
+        },
+        {
+          "id": "C2",
+          "text": "Gulf states and Iran jointly announce a temporary Hormuz Strait shipping arrangement that suspends Red Sea military operations for seven days.",
+          "probability": 0.25,
+          "domain": "diplomacy",
+          "outcome": 0,
+          "evidence": "Gulf states stayed cautious and the UAE balanced closeness to Israel after the FlyDubai incident, but no joint Hormuz Strait shipping arrangement or Red Sea operations suspension is reported."
+        },
+        {
+          "id": "C3",
+          "text": "Israel's cabinet approves a formal countermeasures package targeting British settlement-goods imports and specific trade contracts.",
+          "probability": 0.75,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "European diplomatic pressure intensified with the Netherlands revoking status and the UN expanding its list, but no formal cabinet-approved countermeasures package targeting British settlement-goods imports is confirmed."
+        },
+        {
+          "id": "C4",
+          "text": "The Knesset opposition tables a no-confidence motion against the Netanyahu government citing the UAE warning report.",
+          "probability": 0.6,
+          "domain": "politics",
+          "outcome": 0,
+          "evidence": "The opposition hammered the warning leak and a Knesset debate was possible, but the warning came from Egypt not the UAE, and no specific no-confidence motion is reported."
+        },
+        {
+          "id": "C5",
+          "text": "A Houthi missile or drone strike hits a commercial vessel within 50 nautical miles of the Saudi coast, pushing Brent crude above 95 dollars per barrel.",
+          "probability": 0.4,
+          "domain": "economy",
+          "outcome": 0,
+          "evidence": "No Houthi strike on a commercial vessel near the Saudi coast or Brent crude movement above 95 dollars is mentioned in the evidence."
+        }
+      ],
+      "resolved": 5,
+      "unresolved": 0,
+      "brier": 0.247
+    },
+    "winner": "crystal",
+    "systematic_error": "Both forecasts over-specified institutional mechanisms. They predicted precise single-actor actions—a formal diplomatic protest, a defamation lawsuit, a no-confidence motion, a cabinet vote, a UN Security Council statement—when the actual week produced diffuse, multi-actor friction: continued strikes, diplomatic sniping, commemorative events, and political jockeying. Both also conflated the warning's source, with C4 referencing a UAE report when the leak was Egyptian. Neither forecast adequately weighted the probability toward the grinding, multi-thread status quo that dominated: ongoing Gaza strikes, West Bank settler friction, cockpit-security debates, and campaign rhetoric, rather than one clean institutional trigger event.",
+    "correction_hint": "Distinguish clearly between Egypt and the UAE in the warning-leak story, and default to predicting continued multi-thread tension (strikes, settler friction, campaign rhetoric, diplomatic sniping) rather than one specific formal institutional response. Reserve high probabilities for the general direction of pressure rather than the exact mechanism, and cap any single-event prediction at 0.6 unless a deadline or scheduled ritual forces it."
+  },
   "naive_forecast": {
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
