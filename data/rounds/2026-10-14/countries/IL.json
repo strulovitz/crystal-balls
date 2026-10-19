@@ -6,7 +6,7 @@
   "code": "IL",
   "name": "Israel",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-17T22:39:19+03:00",
+  "generated_at": "2026-10-18T20:09:44+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -16,40 +16,40 @@
     "display": "done"
   },
   "position": {
-    "summary": "According to the text, Israel was navigating two simultaneous security shocks ahead of the October 27 election: the FlyDubai cockpit attack involving an Omani copilot and Israeli passengers returning from Dubai, and the revelation that Egypt had warned Netanyahu before the October 7, 2023 attack. Netanyahu's secret Abu Dhabi visit, in which he reportedly shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed, underscored deepening Gulf-Israel coordination even as the UAE and Saudi Arabia adopted cautious public stances. The Netherlands revoked Israeli diplomats' accreditation over settlement sanctions, the ZIM/Hapag-Lloyd shipping deal was halted due to Saudi and Qatari ownership stakes, and the Supreme Court's indication prompted the withdrawal of Sami Abu Shehadeh, tightening the legal battle over Arab party eligibility. In Gaza, the death toll exceeded 74,000 with strikes ongoing in what the text called a long grinding conflict. West Bank settlers marched between settlements during Sukkot, blocking families and seizing water sources. The Irish national football team wore black armbands and skipped handshakes against Israel, while Hapoel Beer-Sheva lost its away fans in two Europa League matches. Trump threatened Iran with a very hard response if evidence linked it to the cockpit incident. The overall mood was one of a nation caught between projecting strength and answering for its failures.",
+    "summary": "Israel faced a compound security crisis in early October 2026. The FlyDubai cockpit attack, in which a copilot reportedly attempted to crash a commercial aircraft, sent shockwaves through the country weeks before the October 27 election. Simultaneously, leaked intelligence revealed that Egypt had warned Prime Minister Netanyahu of the October 7 threat, reopening the most painful question of the war. Netanyahu made a secret visit to Abu Dhabi, where he shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed, deepening Israel-UAE coordination. In the West Bank, settlers conducted marches and attacks on villages during the Sukkot holiday, blocking roads and seizing water sources while the military struggled to maintain order. Gaza's war entered its third year with a death toll exceeding 74,000, and strikes persisted without a ceasefire. Europe intensified diplomatic pressure: the Netherlands revoked Israeli diplomatic status over settlement sanctions, and the UN expanded its list of settlement-linked companies. The ZIM-Hapag-Lloyd shipping deal was halted over Saudi and Qatari financial stakes. A Supreme Court indication forced the withdrawal of Sami Abu Shehadeh, a candidate of an Arab party. Trump threatened Iran with very hard strikes if linked to the cockpit incident, but the Omani nationality of the copilot complicated that narrative.",
     "key_events": [
       {
-        "event": "The FlyDubai cockpit attack involving an Omani copilot and Israeli passengers from Dubai shook national security confidence.",
+        "event": "FlyDubai cockpit attack in which a copilot attempted to crash a commercial aircraft, triggering national security debate and political exploitation",
         "date": null,
         "domain": "security",
         "importance": 5
       },
       {
-        "event": "Leaks revealed that Egypt had warned Netanyahu before the October 7, 2023 attack, igniting a political fight over the security establishment's preparedness.",
+        "event": "Leaked intelligence revealed Egypt had warned Netanyahu of the October 7 threat, reopening the central security question of the war",
         "date": null,
         "domain": "politics",
         "importance": 5
       },
       {
-        "event": "Netanyahu secretly visited Abu Dhabi and reportedly shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed.",
+        "event": "Netanyahu made a secret visit to Abu Dhabi and shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed",
         "date": null,
         "domain": "diplomacy",
         "importance": 4
       },
       {
-        "event": "The Netherlands revoked Israeli diplomats' accreditation over settlement sanctions and the ZIM/Hapag-Lloyd shipping deal was halted over Gulf ownership stakes.",
+        "event": "Settler marches and village attacks in the West Bank during Sukkot produced clashes and blocked roads",
         "date": null,
-        "domain": "diplomacy",
+        "domain": "society",
         "importance": 3
       },
       {
-        "event": "Gaza's war entered its third year with the death toll above 74,000 and strikes still falling across the territory.",
+        "event": "Netherlands revoked Israeli diplomatic status over settlement sanctions and the UN expanded its settlement-linked companies list",
         "date": null,
-        "domain": "security",
-        "importance": 4
+        "domain": "diplomacy",
+        "importance": 3
       }
     ],
-    "mood": "tense",
+    "mood": "escalating",
     "intensity": 8,
     "domains_active": [
       "politics",
@@ -57,14 +57,14 @@
       "diplomacy"
     ],
     "emojis": [
-      "💥",
-      "🗳️",
-      "✈️"
+      "✈️",
+      "⚔️",
+      "🗳️"
     ],
     "emoji_reasons": [
-      "The FlyDubai cockpit attack and the October 7 warning leaks are the two dominant security shocks described in the text.",
-      "The October 27 election frames every political calculation, campaign move, and coalition maneuver in the report.",
-      "Aviation security, cockpit protocols, and the Omani copilot thread run through nearly every section of the text."
+      "The FlyDubai cockpit attack is the single most consequential event driving the entire security and political narrative.",
+      "Israel's war in Gaza and the broader regional security environment define the existential framing of the election.",
+      "The October 27 election is the organizing political event around which all security and diplomatic developments are being weaponized."
     ]
   },
   "velocity": null,
@@ -72,36 +72,36 @@
   "naive_forecast": {
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
-    "summary": "The naive reading takes the text's top predictions at face value. The October 7 anniversary triggers a Knesset session or Security Cabinet meeting and Netanyahu delivers a major campaign address, both at very high probability. The FlyDubai cockpit attack becomes a national obsession, driving new aviation-security protocols and hero narratives for the Indian pilot and Omani copilot. Netanyahu's protector campaign dominates the political landscape, with Likud ads selling survival and the far-right pushing West Bank moves to energize their base. Settler marches produce clashes, Gaza strikes proceed without a ceasefire, and the Gulf stays cautious while Europe applies diplomatic pressure. The economy feels background stress. The text's very-high and high-likelihood items are treated as near-certainties, and the two security shocks collide in Netanyahu's favor, letting him sell fear while the opposition attacks his record.",
+    "summary": "The naive reading takes the text's top predictions at face value as a single deterministic sequence. Netanyahu references the Oct. 7 warning leaks in a major campaign event or Knesset address, framing them as proof of institutional learning and strengthened readiness. Israel's aviation authority announces new cockpit access rules including biometric pilot verification at Ben Gurion. At least one settler march in the northern West Bank produces a reported clash with Palestinian residents. Israeli airstrikes in Gaza yield an updated casualty figure from the Health Ministry without a ceasefire announcement. Smotrich announces a fuel price subsidy to calm his economic base before the vote. The text's highest-confidence predictions—the anniversary politics, cockpit security response, and Netanyahu's protector campaign—all land simultaneously, creating a week defined by a single security narrative and election combat. The far-right pushes West Bank gestures, Europe applies diplomatic pressure, and the Gulf stays useful but cautious. No surprise breaks the pattern; the week is a pressure cooker of fear, polling, and campaign advertising.",
     "statements": [
       {
         "id": "N1",
-        "text": "The Israeli Knesset holds a formal debate or the Security Cabinet convenes a special session on the October 7 anniversary and the Egypt warning leaks between October 14 and October 21, 2026.",
+        "text": "Netanyahu references the Oct. 7 warning leaks in a major campaign speech or Knesset address during the week, framing them as proof of institutional learning.",
         "probability": 0.85,
         "domain": "politics"
       },
       {
         "id": "N2",
-        "text": "Israel's aviation authority or Shin Bet announces a new cockpit-access or pilot-verification protocol at Ben Gurion Airport between October 14 and October 21, 2026.",
+        "text": "Israel's aviation authority announces new cockpit access rules including biometric pilot verification at Ben Gurion airport.",
         "probability": 0.9,
         "domain": "security"
       },
       {
         "id": "N3",
-        "text": "Netanyahu delivers a campaign speech or Likud airs a national television ad explicitly referencing the FlyDubai cockpit incident as evidence of Israel's survival between October 14 and October 21, 2026.",
+        "text": "At least one settler march in the northern West Bank produces a reported physical clash with Palestinian residents.",
         "probability": 0.8,
-        "domain": "politics"
-      },
-      {
-        "id": "N4",
-        "text": "A settler march in the West Bank results in at least one recorded clash with Palestinian residents or Israeli security forces between October 14 and October 21, 2026.",
-        "probability": 0.7,
         "domain": "society"
       },
       {
+        "id": "N4",
+        "text": "The Israeli military conducts airstrikes in Gaza and the Health Ministry publishes an updated cumulative casualty figure without a ceasefire announcement.",
+        "probability": 0.75,
+        "domain": "security"
+      },
+      {
         "id": "N5",
-        "text": "Finance Minister Smotrich announces or extends a fuel price subsidy program for Israeli voters between October 14 and October 21, 2026.",
-        "probability": 0.4,
+        "text": "Smotrich announces a fuel price subsidy or extends an existing subsidy package in an election-economy move.",
+        "probability": 0.45,
         "domain": "economy"
       }
     ]
@@ -109,55 +109,55 @@
   "crystal_forecast": {
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
-    "summary": "The crystal forecast distributes probability across the text's full range of outcomes rather than concentrating on the security-shock narrative. The cockpit attack still dominates public discourse, but the investigation's final attribution to a personal, medical, or criminal motive is treated as a live 0.35 scenario that would reshape Netanyahu's campaign narrative and trigger opposition counterattacks. A Gaza ceasefire or binding humanitarian framework is preserved at 0.25, reflecting the text's own note that a deal is within reach even if the text calls it the less probable path. US military reinforcement of the eastern Mediterranean is set at 0.40 because the Omani copilot connection complicates the Iran narrative the text says Trump would use. A court or committee ruling affecting Arab party eligibility lands at 0.45, matching the text's cautious language. The overall picture is a week of competing narratives, security triumph versus security failure, with several genuine forks rather than one predetermined script.",
-    "reasoning": "The crystal reading deliberately weighs the text's alternative scenarios and hedges rather than treating its top-line predictions as certainties. The text explicitly describes a path in which the FlyDubai investigation points to personal or medical motives, triggering opposition attacks on Netanyahu for exaggeration, a scenario the naive reading overlooks because it defaults to the security-shock framing. The text also states that a Gaza ceasefire is possible but not the most probable outcome, which the crystal reading preserves as a live 0.25 event rather than dismissing it. The US military deployment probability is set lower than the naive 0.60 because the text notes the Omani copilot makes an Iran-linked escalation awkward to sell, introducing real ambiguity. The ceiling ruling on Arab party eligibility is held at 0.45 because the text calls smaller rulings possible without committing to a major disqualification.",
+    "summary": "The crystal reading weighs the full scenario distribution the text outlines rather than its top case alone. The cockpit investigation points toward personal or medical rather than terrorist motives, triggering opposition attacks on Netanyahu for overstating the threat—a branch the text explicitly lists as the alternative. Israeli security services announce a counterterrorism operation, representing the text's acknowledged but uncertain threat level. The Netherlands or another EU capital announces a specific settlement-related diplomatic sanction, extending the friction the text rates medium-high. A Supreme Court ruling affects the eligibility of an Arab party candidate or list ahead of the October 27 vote, which the text flags as a messy but real wildcard. The text's own caveats—the Omani copilot making Iran-escalation awkward, the possibility of a personal-motive resolution, and the explicit statement that a terror attack is possible but not guaranteed—lower confidence in a single dominant security narrative and raise the probability of a contested, multi-threaded week where the cockpit story's resolution shape and court rulings carry as much weight as the headline events themselves.",
+    "reasoning": "The naive reading treats the text's very-high and high predictions as one deterministic sequence: campaign speech, cockpit rules, settler clash, Gaza strike, fuel subsidy. The crystal reading incorporates the text's explicit alternative branch—where the cockpit investigation reveals personal or medical motives, causing opposition to attack Netanyahu for exaggeration—and its stated uncertainty on terror operations and court rulings. The text says a new major terror attack is possible but not guaranteed and that a full ceasefire is possible but not the most likely outcome, acknowledging real minority probability. It also notes the Omani copilot connection makes Trump's Iran-escalation path awkward, meaning the security-unity narrative is less clean than the naive case assumes. The crystal reading therefore lowers confidence on a single narrative dominating the week and raises confidence on a contested, multi-threaded week where resolution shape and court rulings carry as much weight as the headline events themselves.",
     "confidence": 5,
     "statements": [
       {
         "id": "C1",
-        "text": "The FlyDubai cockpit investigation report attributes the copilot's actions to a personal, medical, or criminal motive rather than terrorism, and opposition leaders publicly denounce Netanyahu for overstating the threat between October 14 and October 21, 2026.",
+        "text": "The cockpit investigation points toward personal or medical motives, and at least one opposition leader publicly accuses Netanyahu of overstating the threat level.",
         "probability": 0.35,
-        "domain": "security"
+        "domain": "politics"
       },
       {
         "id": "C2",
-        "text": "Israel's aviation authority publishes a formal rule change to cockpit-door procedures, pilot identification checks, or emergency protocol training at Ben Gurion Airport between October 14 and October 21, 2026.",
+        "text": "Israel and the UAE issue a joint statement on the FlyDubai probe while Saudi Arabia declines to comment publicly on the investigation.",
         "probability": 0.55,
-        "domain": "security"
-      },
-      {
-        "id": "C3",
-        "text": "The United States deploys at least one additional naval vessel or squadron of combat aircraft to the eastern Mediterranean or Red Sea between October 14 and October 21, 2026.",
-        "probability": 0.4,
         "domain": "diplomacy"
       },
       {
+        "id": "C3",
+        "text": "Israeli security services announce a new counterterrorism arrest or operation in the country.",
+        "probability": 0.4,
+        "domain": "security"
+      },
+      {
         "id": "C4",
-        "text": "A formal ceasefire agreement or a binding humanitarian framework for Gaza is signed or announced by the negotiating parties between October 14 and October 21, 2026.",
-        "probability": 0.25,
+        "text": "The Netherlands or another EU state announces a specific settlement-related diplomatic sanction or visa restriction targeting Israel.",
+        "probability": 0.6,
         "domain": "diplomacy"
       },
       {
         "id": "C5",
-        "text": "An Israeli court issues a ruling or the Central Elections Committee accepts a petition that changes the eligibility or party status of at least one Arab-listed candidate or party between October 14 and October 21, 2026.",
-        "probability": 0.45,
+        "text": "A Supreme Court ruling affects the candidacy or list eligibility of an Arab party ahead of the October 27 election.",
+        "probability": 0.35,
         "domain": "politics"
       }
     ]
   },
   "display": {
-    "headline": "Two security shocks collide with election week in Israel",
+    "headline": "Israel navigates cockpit crisis and election before October 27",
     "emojis": [
-      "🗳️",
-      "💥",
-      "✈️"
+      "✈️",
+      "⚔️",
+      "🗳️"
     ],
     "emoji_reasons": [
-      "The October 27 election is the central political frame for every prediction in the text.",
-      "The FlyDubai cockpit attack and the October 7 warning leaks are the two security shocks driving the entire forecast.",
-      "Cockpit-security protocols, the Omani copilot, and pilot verification are recurring threads the text expects will dominate public debate."
+      "The cockpit attack and its security aftermath are the dominant story of the forecast.",
+      "The Gaza war and regional security tensions provide the existential backdrop.",
+      "The October 27 election is the political deadline shaping every move."
     ],
-    "tldr": "Israel faces the October 7 anniversary and the FlyDubai cockpit attack simultaneously as Netanyahu races toward the October 27 election. The text predicted a week of security campaigning, West Bank friction, Gulf caution, and European diplomatic pressure, with no full Gaza ceasefire unless a surprise deal emerges.",
+    "tldr": "The text predicted Israel would spend the week managing the FlyDubai cockpit aftermath and Oct. 7 anniversary politics while Netanyahu converts security fear into campaign advantage. No full ceasefire, no government collapse, but escalating West Bank friction, European diplomatic pressure, and a cockpit-security debate would dominate headlines through the election.",
     "eli5": null
   }
 }

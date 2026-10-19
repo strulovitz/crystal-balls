@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "GB",
+  "name": "United Kingdom",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T14:13:47+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, the UK entered the week of late September to early October 2026 with multiple concurrent pressures under Prime Minister Burnham, roughly two months into the role. The Chagos Islands deal with Mauritius drew sharp criticism from President Trump, prompting the government to signal a rework. The UK committed to providing defensive air-to-air refuelling for Saudi jets countering Houthi strikes, while the G7 condemned Houthi attacks and the UK tightened sanctions on Iranian banks. At RAF Fairford in Gloucestershire, a major incident was declared after arrests of several men on suspicion of explosives offences near the base, which the government had authorized for US strikes on Iranian missile sites. Westminster faced mounting anxiety over high borrowing, OECD pressure to cut spending, and bank-sector warnings about windfall taxes. The government pushed AI diplomacy, with reports of OpenAI and Anthropic seeking UK data-centre deployments. A Pro-Palestine Action rally was planned at Burnham's first Labour conference as PM, and the Orange Order faced a contentious march through Portadown. A second air-traffic-control technical failure in two weeks disrupted flights across Scotland and northern England.",
+    "key_events": [
+      {
+        "event": "Trump publicly criticized the UK's Chagos Islands sovereignty deal with Mauritius, prompting the government to signal a rework.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The UK committed to providing defensive air-to-air refuelling for Saudi jets countering Houthi strikes and tightened sanctions on Iranian banks.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "A major incident was declared at RAF Fairford after several men were arrested on suspicion of explosives offences near the US-used base.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Westminster faced pressure over high borrowing, OECD spending cuts, and bank warnings about a windfall tax.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A second air-traffic-control technical failure in two weeks disrupted flights across Scotland, Northern Ireland, and northern England.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "economy"
+    ],
+    "emojis": [
+      "🏛️",
+      "🚔",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "Burnham's government juggles multiple domestic and foreign policy pressures simultaneously within a few months of taking office.",
+      "The RAF Fairford arrests and major-incident declaration anchor the week's security picture.",
+      "The Chagos rework and Saudi refuelling deal define the diplomatic activity of the period."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's top-listed 'very likely' and 'likely' predictions at face value. The headline case is a week of managed tension where Burnham's government reframes the Chagos arrangement as 'under review,' deploys at least one RAF refuelling aircraft for the Saudi-Houthi operation, sees another arrest or two near Fairford, and the Chancellor signals fiscal restraint in response to market jitters. The AI defence partnership produces a concrete announcement or working group. No major escalation breaks the pattern: no Houthi strike hits UK interests, no explosive is found at the base, no gilt sell-off forces an emergency response, and the Portadown march is tense but contained. The government projects calm while quietly expanding its military and diplomatic footprint.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Burnham's government announces a reworked or reframed Chagos framework responding to Trump's criticism.",
+        "probability": 0.85,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "The RAF deploys at least one Voyager refuelling aircraft to support Saudi air operations against Houthi targets.",
+        "probability": 0.7,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "Police announce at least one additional arrest connected to the RAF Fairford explosives investigation.",
+        "probability": 0.65,
+        "domain": "security"
+      },
+      {
+        "id": "N4",
+        "text": "The Chancellor issues a public statement signalling fiscal restraint or a spending-review timeline.",
+        "probability": 0.8,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "The UK government announces a new AI defence working group or joint statement with the United States.",
+        "probability": 0.45,
+        "domain": "technology"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weights the text's full scenario distribution, including the 'things that could break my forecast' minority scenarios. Rather than assuming a smooth week of reframing and deployments, this reading acknowledges that the text explicitly hedges on several fronts: the government 'will try to claim' pragmatism, the military footprint will 'look larger,' the base incident is 'being treated as significant but not necessarily a major attack,' and the marches are 'tense, noisy, but controlled' with a 'serious incident' still possible. The crystal reading therefore assigns meaningful probability to a Houthi or Iran-linked strike triggering an emergency response, a discovered device at Fairford forcing closure, and a Portadown clash exceeding the base case. On Chagos, the crystal reading distinguishes between a simple reframing and a formal restructuring with changed lease terms, reflecting the text's own uncertainty about how much Trump will push.",
+    "reasoning": "The naive reading takes the text's base-case list at face value and assigns high confidence to smooth management across all fronts. The crystal reading differs in three ways. First, it elevates the text's own 'things that could break my forecast' section, which explicitly names a Houthi strike, a discovered Fairford device, and a Portadown clash as real possibilities, and assigns each a non-trivial probability. Second, it splits the Chagos outcome: the text's base case is 'under review' language, not a formal restructuring, so the crystal reading lowers the probability of a concrete framework announcement relative to the naive framing. Third, it draws on the text's repeated hedges ('I would not bet on,' 'probably not a full-scale riot,' 'not a national crisis by itself') to justify lower probabilities for the clean-base-case outcomes.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A Houthi or Iran-linked strike on a UK-linked vessel or personnel in the Gulf triggers an emergency cabinet meeting and a Burnham statement within 24 hours.",
+        "probability": 0.3,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "Police confirm a discovered explosive device at RAF Fairford and announce a temporary closure of the base.",
+        "probability": 0.25,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "The UK government announces a reworked Chagos framework with explicit changes to the base lease terms, not merely 'under review' language.",
+        "probability": 0.65,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C4",
+        "text": "UK 10-year gilts fall by more than 50 basis points, prompting the Treasury to issue an emergency debt-sustainability statement.",
+        "probability": 0.35,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "The Portadown Orange Order march is interrupted by a significant clash resulting in more than 10 arrests or a major-incident declaration.",
+        "probability": 0.2,
+        "domain": "society"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Burnham juggles Chagos, Gulf ops, and budget nerves",
+    "emojis": [
+      "🤝",
+      "🚔",
+      "💰"
+    ],
+    "emoji_reasons": [
+      "Chagos rework and Saudi refuelling agreements drive the diplomatic storyline.",
+      "Fairford security operations and base alerts dominate the security narrative.",
+      "Borrowing anxiety and bank-tax debates frame the economic backdrop."
+    ],
+    "tldr": "The text predicted Burnham's government would spend the week reworking the Chagos deal under Trump pressure, deploying refuelling aircraft for Saudi Houthi operations, managing base-security nerves at Fairford, defending the fiscal position, and pushing AI diplomacy headlines.",
+    "eli5": null
+  }
+}

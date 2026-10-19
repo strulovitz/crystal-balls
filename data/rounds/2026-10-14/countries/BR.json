@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "BR",
+  "name": "Brazil",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T16:30:42+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "Brazil held its first-round presidential election on October 4, 2026. Flávio Bolsonaro finished first and Lula second, triggering a two-candidate runoff set for October 25. The right captured sweeping gains in Congress. Brazilian financial markets surged: the Ibovespa neared all-time highs, the real strengthened, and foreign inflows into equities hit record levels. A bomb scare occurred outside the Supreme Court (STF), and the United States and Australia suspended consular services ahead of voting, heightening diplomatic friction. Student marches and 'Never again Bolsonaro' protests energized the left in Rio, São Paulo, and Brasília. Lula's team began openly testing the idea of naming Vice President Geraldo Alckmin as finance minister to signal fiscal responsibility to markets and centrists. Flávio Bolsonaro's camp unveiled a 'big scissors' austerity plan focused on spending cuts and tax reform. Donald Trump publicly backed Flávio. Environmental groups warned that a right-heavy Congress would weaken Amazon protections. The electoral court, the Supreme Court, and foreign missions came under visible political stress, but no full institutional crisis broke out.",
+    "key_events": [
+      {
+        "event": "Flávio Bolsonaro wins first place and Lula finishes second in the October 4 first round of the presidential election.",
+        "date": "2026-10-04",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Brazilian markets surge: Ibovespa approaches record levels, the real strengthens, and foreign equity inflows hit record highs.",
+        "date": "2026-10-05",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A bomb scare is reported outside the Supreme Court in Brasília, prompting a heightened security response.",
+        "date": "2026-10-03",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The United States and Australia suspend consular services in Brazil ahead of the first-round vote, citing security concerns.",
+        "date": "2026-10-03",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Student-led 'Never again Bolsonaro' marches take to the streets in Rio, São Paulo, and Brasília.",
+        "date": "2026-10-05",
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "security",
+      "society"
+    ],
+    "emojis": [
+      "🗳️",
+      "✊",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The first-round presidential election and the upcoming runoff are the central political event.",
+      "Street protests, student marches, and 'Never again Bolsonaro' demonstrations define the societal mood.",
+      "Record Ibovespa levels, strong real, and foreign inflows signal a major market reaction."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The headline scenario is a smooth, high-energy sprint toward the runoff. The TSE certifies first-round results without drama, clearing the way for official two-candidate campaigning. Lula's best move is publicly naming Alckmin as finance minister to grab centrists and calm markets. Flávio's camp pushes a concrete austerity package with specific spending-cut numbers. The Ibovespa keeps climbing on strong foreign inflows. Left-side student protests swell in the big cities but stay mostly peaceful. The US-Brazil diplomatic grumble over consular suspensions fades quietly. In this reading the race is close but not tied, institutions hold, and markets price a Bolsonaro win with mild nervousness on the bond side.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The TSE formally certifies Flávio Bolsonaro's first-place finish and Lula's second-place finish, clearing the runway for official runoff campaigning.",
+        "probability": 0.88,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "Lula's campaign issues a public statement naming Vice President Geraldo Alckmin as prospective finance minister if he wins the October 25 runoff.",
+        "probability": 0.72,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "The Ibovespa index closes above its pre-election all-time high on at least two trading sessions in the Oct 14-21 window.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "Student-led demonstrations in São Paulo, Rio de Janeiro, and Brasília each draw more than 10,000 participants on the same day.",
+        "probability": 0.45,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "Flávio Bolsonaro announces a specific spending-cut percentage or tax-reform revenue target at a public campaign rally.",
+        "probability": 0.65,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The full text carries real weight for the lower-probability scenarios it lists. A surprise poll within the margin of error would jolt markets and shift the narrative. A second security incident at the STF or a consulate would feed polarization and trigger diplomatic spats. Flávio's 'big scissors' rhetoric, if too aggressive, could trigger a bond-sell-off and hand Lula a fiscal argument. Lula's age means any visible stumble on camera becomes a national story. The TSE certification, while expected, carries a small risk of a procedural delay that creates anxiety and a brief media scramble. The crystal reading therefore discounts the clean-sweep narrative, prices in one or two of these lower-tail events, and treats the week as more uncertain than the headline case suggests. The base direction is the same, but the confidence bands widen materially.",
+    "reasoning": "The naive reading takes the text's top-listed predictions at face value: smooth certification, centrist pivot, bullish markets, growing protests. The crystal reading instead weights the text's own 'lower-probability events' section and its repeated caveats—'not as safely as markets initially implied,' 'nail-biter,' 'not as settled as it may look.' Specifically, the crystal adjusts the TSE-certification probability downward by 0.16 because the text explicitly lists a minor legal delay as a live risk. It also pulls in four minority-scenario events—a security incident, Lula health visibility, a bond-market fiscal scare, and a margin-of-error poll—that the naive reading ignores entirely. None is the base case, but the text assigns them enough weight to matter in a one-week window.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The TSE issues its formal certification of first-round results, but at least one procedural complaint from a minor candidate or party is filed the same week.",
+        "probability": 0.72,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "A security incident involving fireworks, a small explosion, or a physical confrontation occurs within 500 meters of the STF or a foreign embassy during a protest.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "Lula stumbles, pauses for more than five seconds, or is shown catching his breath on live camera at a campaign event, and the clip is replayed by at least two national news outlets the next day.",
+        "probability": 0.22,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "Brazilian 10-year government bond yields spike by more than 30 basis points in a single session on fiscal concerns tied to Flávio Bolsonaro's austerity proposals.",
+        "probability": 0.3,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "A major polling firm such as Datafolha or Ipec publishes results showing Flávio Bolsonaro and Lula within the margin of error for the runoff.",
+        "probability": 0.28,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Brazil sprints toward runoff as markets rally and streets erupt",
+    "emojis": [
+      "🗳️",
+      "✊",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The forecast centers on the path to the October 25 runoff election.",
+      "Growing left-side protests and counter-rallies are a key predicted development.",
+      "Markets are expected to stay broadly bullish but sensitive to polling shifts."
+    ],
+    "tldr": "The text predicted a polarized post-first-round week in which Flávio Bolsonaro stays the favorite, Lula pivots centrist with an Alckmin signal, markets remain bullish but nervous, and protests grow on both sides. No full crisis was expected.",
+    "eli5": null
+  }
+}

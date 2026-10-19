@@ -17,3 +17,89 @@
 22:59:54   bundle for 2026-10-01: 2 countries
 22:59:54 build_site_data.py complete.
 22:59:54 Legacy import complete: 2 of 2 countries imported.
+15:53:04 Importing legacy round 2026-10-14 from data/legacy/round-2: 32 matched, 0 unmatched
+16:14:52   [AU legacy_import] attempt 1: 1308.1s, prompt_tokens=4983, completion_tokens=8367
+16:14:52   Australia: done (1308s)
+16:30:42   [BR legacy_import] attempt 1: 949.4s, prompt_tokens=5447, completion_tokens=6074
+16:30:42   Brazil: done (949s)
+16:46:55   [CA legacy_import] attempt 1: 973.5s, prompt_tokens=5493, completion_tokens=6257
+16:46:55   Canada: done (974s)
+17:03:41   [CL legacy_import] attempt 1: 1006.0s, prompt_tokens=5064, completion_tokens=6752
+17:03:41   Chile: done (1006s)
+17:21:44   [CN legacy_import] attempt 1: 1083.2s, prompt_tokens=5162, completion_tokens=6638
+17:21:44   China: done (1083s)
+17:38:23   [CD legacy_import] attempt 1: 998.3s, prompt_tokens=5887, completion_tokens=6367
+17:38:23   DR Congo: done (998s)
+17:52:19   [EG legacy_import] attempt 1: 836.6s, prompt_tokens=4933, completion_tokens=5631
+17:52:19   Egypt: done (837s)
+18:16:01   [FR legacy_import] attempt 1: 1422.3s, prompt_tokens=3819, completion_tokens=9454
+18:16:01   France: done (1422s)
+18:28:50   [DE legacy_import] attempt 1: 768.6s, prompt_tokens=3966, completion_tokens=4970
+18:28:50   Germany: done (769s)
+18:49:57   [IN legacy_import] attempt 1: 1266.6s, prompt_tokens=5006, completion_tokens=8006
+18:49:57   India: done (1267s)
+19:07:48   [ID legacy_import] attempt 1: 1071.6s, prompt_tokens=4742, completion_tokens=6943
+19:07:48   Indonesia: done (1072s)
+19:32:45   [IR legacy_import] attempt 1: 1496.5s, prompt_tokens=5270, completion_tokens=9258
+19:32:45   Iran: done (1496s)
+19:45:13   [IQ legacy_import] attempt 1: 748.3s, prompt_tokens=5125, completion_tokens=4718
+19:45:13   Iraq: done (748s)
+20:09:44   [IL legacy_import] attempt 1: 1470.9s, prompt_tokens=5109, completion_tokens=9418
+20:09:44   Israel: done (1471s)
+20:25:40   [IT legacy_import] attempt 1: 956.4s, prompt_tokens=6121, completion_tokens=5949
+20:25:40   [IT legacy_import] attempt 1 rejected: Legacy validation failed:
+  - naive_forecast.statements: no statement with probability below 0.5
+20:32:47   [IT legacy_import] attempt 2: 426.1s, prompt_tokens=8227, completion_tokens=3243
+20:32:47   Italy: done (1383s)
+21:05:53   [JP legacy_import] attempt 1: 1986.1s, prompt_tokens=5790, completion_tokens=12170
+21:05:53   Japan: done (1986s)
+21:25:05   [NL legacy_import] attempt 1: 1151.9s, prompt_tokens=5625, completion_tokens=7338
+21:25:05   Netherlands: done (1152s)
+21:45:44   [KP legacy_import] attempt 1: 1239.8s, prompt_tokens=4508, completion_tokens=8370
+21:45:44   North Korea: done (1240s)
+22:00:27   [PE legacy_import] attempt 1: 882.9s, prompt_tokens=5300, completion_tokens=5482
+22:00:27   Peru: done (883s)
+22:22:27   [RU legacy_import] attempt 1: 1319.5s, prompt_tokens=6054, completion_tokens=8009
+22:22:27   Russia: done (1320s)
+22:41:09   [SA legacy_import] attempt 1: 1121.7s, prompt_tokens=4802, completion_tokens=7452
+22:41:09   Saudi Arabia: done (1122s)
+23:01:24   [SG legacy_import] attempt 1: 1215.9s, prompt_tokens=5622, completion_tokens=7297
+23:01:24   [SG legacy_import] attempt 1 rejected: Legacy validation failed:
+  - naive_forecast.statements.N1: domain 'sports' not in ['diplomacy', 'economy', 'environment', 'health', 'politics', 'security', 'society', 'technology']
+  - crystal_forecast.statements.C1: domain 'sports' not in ['diplomacy', 'economy', 'environment', 'health', 'politics
+23:08:42   [SG legacy_import] attempt 2: 438.0s, prompt_tokens=7907, completion_tokens=3429
+23:08:42   Singapore: done (1654s)
+23:25:21   [ZA legacy_import] attempt 1: 998.1s, prompt_tokens=4620, completion_tokens=6533
+23:25:21   South Africa: done (998s)
+23:39:59   [KR legacy_import] attempt 1: 878.2s, prompt_tokens=5598, completion_tokens=5686
+23:39:59   South Korea: done (878s)
+00:00:16   [CH legacy_import] attempt 1: 1217.0s, prompt_tokens=5340, completion_tokens=7703
+00:00:16   Switzerland: done (1217s)
+00:27:50   [TW legacy_import] attempt 1: 1653.7s, prompt_tokens=4918, completion_tokens=10236
+00:27:50   Taiwan: done (1654s)
+00:54:36   [TR legacy_import] attempt 1: 1606.4s, prompt_tokens=4354, completion_tokens=10484
+00:54:36   Turkey: done (1606s)
+01:25:05   [UA legacy_import] attempt 1: 1828.9s, prompt_tokens=4981, completion_tokens=11046
+01:25:05   Ukraine: done (1829s)
+01:42:45   [GB legacy_import] attempt 1: 1060.3s, prompt_tokens=4880, completion_tokens=6956
+01:42:45   United Kingdom: done (1060s)
+01:57:34   [US legacy_import] attempt 1: 888.8s, prompt_tokens=5494, completion_tokens=5431
+01:57:34   United States: done (889s)
+02:14:31   [VE legacy_import] attempt 1: 1017.3s, prompt_tokens=5381, completion_tokens=6538
+02:14:31   Venezuela: done (1017s)
+02:30:58   [VN legacy_import] attempt 1: 987.0s, prompt_tokens=5202, completion_tokens=6625
+02:30:58   Vietnam: done (987s)
+02:30:58 Downloading vendor files and world atlas...
+02:30:58   three.module.min.js: already present, skipping
+02:30:58   OrbitControls.js: already present, skipping
+02:30:58   topojson-client.min.js: already present, skipping
+02:30:58   countries-110m.json: already present, skipping
+02:30:58 Downloading emoji PNGs...
+02:30:58 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+02:30:58 data/meta.json written
+02:30:58 data/index.json written (2 complete rounds)
+02:30:58 Building bundles...
+02:30:58   bundle for 2026-10-14: 32 countries
+02:30:58   bundle for 2026-10-01: 32 countries
+02:30:58 build_site_data.py complete.
+02:30:58 Legacy import complete: 32 of 32 countries imported.

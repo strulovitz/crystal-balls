@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "FR",
+  "name": "France",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T18:16:01+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "France entered mid-October 2026 in what the text calls a double crisis: a street-level education protest and a bond-market loss of confidence in the government's fiscal plan. Students, parents, unions, and mayors had been demonstrating against school conditions, with the largest national marches already held. A 15-year-old was injured in clashes, the government suspended stun grenades, and police watchdog investigations opened. Simultaneously, investors were punishing French sovereign debt: OAT yields were elevated, the spread over German Bunds was wide, and the euro was weak. Finance Minister Roland Lescure had publicly signaled willingness to bypass Parliament through a 49.3-style procedure to pass the fiscal plan. The government, led by PM Lecornu, had released strategic diesel reserves as fuel prices threatened to widen the protest beyond schools. Macron was described as outgoing, Le Pen was being treated as a presidential frontrunner, and the political class was already maneuvering for a post-Macron phase. Wealthy families were leaving state schools, deepening the social split. The overall picture was a government squeezed from below by street anger and from above by investor doubt, with the budget vote as the week's decisive event.",
+    "key_events": [
+      {
+        "event": "Students, parents, and unions held major national demonstrations over school conditions, with a 15-year-old injured in clashes and stun grenades subsequently suspended.",
+        "date": null,
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Bond markets punished French sovereign debt, pushing OAT yields elevated, widening the spread over German Bunds, and weakening the euro.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Finance Minister Roland Lescure publicly signaled willingness to bypass Parliament via a 49.3-style procedure to pass the government's fiscal plan.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The government released strategic diesel reserves as rising fuel prices threatened to broaden the education protest into a cost-of-living movement.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Macron was described as outgoing and Le Pen was positioned as a presidential frontrunner as the political class began maneuvering for a post-Macron phase.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "✊",
+      "💰",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "Student and parent protests over school conditions are the central street-level story of the week.",
+      "The government's budget fight and bond-market stress form the economic core of the crisis.",
+      "Elevated OAT yields, wide spreads, and a weak euro signal market anxiety about French fiscal credibility."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's top scenario at face value. The Lecornu government invokes Article 49.3 or an equivalent emergency procedure to push its fiscal plan through the National Assembly, pairing the vote with visible emergency education concessions such as additional teacher hires and funding for priority schools. Student protests shift from a single national day into a patchwork of local blockades across Paris, Lyon, Marseille, and university towns, affecting hundreds of schools but not escalating into a general strike. OAT yields stay elevated and the euro stays weak. Policing becomes a national flashpoint after the 15-year-old injury, with bodycam footage and temporary equipment restrictions shaping public debate. The release of strategic diesel reserves eases pump prices slightly. Marine Le Pen capitalizes on both the street anger and the fiscal vacuum, publishing economic messaging that positions her as the credible alternative. The political class, including Édouard Philippe and LR senators, begins maneuvering for a post-Macron phase. France does not collapse, but instability deepens measurably by Friday.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The government invokes Article 49.3 or an equivalent emergency procedure to pass its fiscal plan in the National Assembly.",
+        "probability": 0.72,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "At least 150 schools across France are fully or partially closed by student and parent blockades during the week.",
+        "probability": 0.75,
+        "domain": "society"
+      },
+      {
+        "id": "N3",
+        "text": "The 10-year French OAT yield closes above 3.7% on October 21, with the spread over German 10-year Bunds exceeding 140 basis points.",
+        "probability": 0.6,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "Marine Le Pen publishes or delivers a full economic programme speech positioning her party as the fiscally credible alternative during the Lecornu budget crisis.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "The government formally bans or restricts the use of stun grenades and flash balls in suburban protest zones following the police watchdog investigation.",
+        "probability": 0.48,
+        "domain": "security"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full scenario distribution rather than only the top case. While the budget probably passes, the text explicitly describes a fragile survival scenario in which the vote falls short, a no-confidence motion is triggered, and snap-election talk enters the mainstream. The bond-market stress is not merely elevated yields but the specific risk of an ugly medium-term OAT auction that forces the treasury into short-term borrowing. The ECB is not a background player; the text describes a real possibility of Lagarde or a Council member signaling OMT-readiness, a minority but high-impact scenario. The student movement, while broad, carries the tail risk of a union-led general strike joining it, which would collapse the government's room for maneuver. And the succession question is not merely positioning but a concrete acceleration of the presidential timeline if the budget barely survives. Each of these minority or hedged scenarios shifts the probability mass away from the clean headline case.",
+    "reasoning": "The naive reading anchors on the text's single most-likely outcome: a clean 49.3 pass, uneven protests, elevated yields, and Le Pen speeches. The crystal reading instead treats the text's 'biggest risks' list and 'if the budget barely survives' conditional as first-class scenarios rather than footnotes. The text explicitly names a no-confidence motion, an ugly OAT auction, an ECB backstop signal, a general strike, and accelerated succession talk as distinct possible events within the week. The crystal forecast assigns each of those a non-trivial probability between 0.22 and 0.40 and uses them as standalone checkable statements. Where the naive reading says the budget passes cleanly at 0.72, the crystal reading says it passes with fewer votes and triggers a no-confidence debate at 0.40, a shift of 0.32. Where the naive reading says yields stay high, the crystal reading adds the specific auction-oversubscription threshold as a separate event. The net effect is a wider, more left-skewed distribution reflecting the text's own stated uncertainty about whether Lecornu has enough political control to make the deficit credible.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The Lecornu government's fiscal plan passes the National Assembly with fewer than 290 affirmative votes, triggering a no-confidence motion that is debated within the week.",
+        "probability": 0.4,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "France conducts a medium-term OAT auction that is oversubscribed by less than 1.3x, prompting the treasury to announce additional short-term bill issuance.",
+        "probability": 0.3,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "The ECB's President Lagarde or a Governing Council member publicly signals readiness for OMT-style support of French sovereign debt during the week.",
+        "probability": 0.25,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "At least 100 schools across France are closed or disrupted by student and parent actions during the week, with the movement staying below general-strike scale.",
+        "probability": 0.65,
+        "domain": "society"
+      },
+      {
+        "id": "C5",
+        "text": "President Macron or a close adviser publicly confirms an earlier-than-expected presidential election timeline, accelerating the succession discussion.",
+        "probability": 0.22,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "France Forces Budget Through as Protests and Bond Stress Simmer",
+    "emojis": [
+      "✊",
+      "💰",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The week's dominant story is the student protest movement and its local spillover.",
+      "The budget vote and OAT market stress are the economic center of gravity.",
+      "Parliamentary maneuvering, 49.3 procedures, and Le Pen's positioning define the political drama."
+    ],
+    "tldr": "The text predicted France would force its budget through Parliament while announcing emergency school measures. Protests persisted in a local patchwork, and bond markets stayed nervous. Le Pen gained political ground as the credible fiscal alternative to a weakened government.",
+    "eli5": null
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "IN",
+  "name": "India",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T07:14:52+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "India entered the week under a three-front domestic pressure test. Opposition parties and the youth-led 'Cockroach Janta Party' movement pushed street protests demanding the resignation of Election Commission chief Gyanesh Kumar over alleged voter-roll irregularities, with police deploying tear gas and detaining demonstrators in multiple cities. In Ujjain, tensions escalated around the partial demolition of a historic mosque, where Muslim volunteers staged a self-demolition to prevent a forced teardown and police clashed with crowds using tear gas and batons. In Delhi, hundreds protested after an alleged gang-rape of a 17-year-old in a public park, while Lovely University experienced campus unrest over a separate rape allegation. The economy showed a split character: the IPO market roared with NSE's listing debut and Inox Clean Energy's filing, while the rupee weakened as the RBI consumed forex reserves to counter surging crude oil prices. Virat Kohli returned with his 55th ODI century as India won the West Indies series opener by eight wickets. Additional pressure came from the Tata family's public boardroom feud, an Indian cargo ship struck off Oman with one crew member killed, and post-monsoon flooding in Uttar Pradesh that killed at least 62 people.",
+    "key_events": [
+      {
+        "event": "Opposition and youth-led protests demand resignation of CEC Gyanesh Kumar, police deploy tear gas and detain demonstrators",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Ujjain mosque partial demolition triggers police-crowd clashes and self-demolition by Muslim volunteers",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Delhi park gang-rape allegation and university campus unrest spark mass women-safety protests",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "RBI burns forex reserves to support weakening rupee amid surging crude oil prices",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "India wins West Indies ODI opener by eight wickets as Kohli scores his 55th century",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "society",
+      "economy"
+    ],
+    "emojis": [
+      "✊",
+      "🏦",
+      "🏅"
+    ],
+    "emoji_reasons": [
+      "Three simultaneous protest fronts over elections, religion, and women's safety define the week's political energy.",
+      "RBI forex intervention and rupee weakness anchor the economic stress narrative.",
+      "Cricket provides the week's dominant emotional counterweight to political tension."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text predicts a week dominated by three simultaneous protest fronts and economic strain, softened by cricket. The Election Commission crisis around CEC Gyanesh Kumar is the top political story, with police managing street protests across multiple cities while the government works to contain rather than resolve the issue. In Ujjain, the mosque demolition tension persists with near-daily protests and at least one police-crowd clash. Delhi's women-safety anger over the park gang-rape and university unrest produces arrests and formal charges by midweek. On the economic front, the RBI intervenes to prop up the rupee amid elevated oil prices, while the IPO market roars with new filings and strong retail participation. Cricket provides the emotional high point: India wins the West Indies ODI series and pushes toward the Asian Games final. Local business communities register visible friction over new school-zone food restrictions, and post-monsoon weather produces further casualty reports in northern states.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The Election Commission protest over Gyanesh Kumar's position appears as a top-three national news headline in India during the week of October 1-7.",
+        "probability": 0.88,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "India defeats the West Indies in the final ODI of the series to secure a series victory.",
+        "probability": 0.85,
+        "domain": "society"
+      },
+      {
+        "id": "N3",
+        "text": "The Reserve Bank of India announces or conducts a forex market intervention to support the Indian rupee.",
+        "probability": 0.8,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "Police file formal charges or arrest at least one accused in the Delhi public park gang-rape case.",
+        "probability": 0.65,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "Local shopkeepers in at least one Indian city hold a visible protest or demonstration over the proposed school-zone junk food restrictions.",
+        "probability": 0.35,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weights the text's full probability distribution, including lower-probability escalation paths the naive reading overlooks. While the Election Commission protest stays a major story, the text assigns only a 20-30% chance that Gyanesh Kumar actually resigns or is replaced, which would fundamentally reshape the political week. The Ujjain demolition, expected to simmer, carries a 30-40% risk of becoming a national communal flashpoint, and a court stay order is a live minority scenario that would interrupt the demolition process. In cricket, India's 55-65% chance of winning Asian Games gold is tempered by the genuine possibility of a Pakistan upset, and the West Indies series, while almost certainly Indian, is not the same event. Economically, the rupee stress is near-certain, but a new record low is a more specific escalation that the full distribution supports at moderate probability. The cargo ship attack, while serious, carries only a 15-25% chance of major escalation unless a second Indian vessel is hit, which would be a clear, checkable trigger.",
+    "reasoning": "The naive reading lifts each topic's highest-probability outcome at face value: CEC protests stay a story, India wins the series, RBI intervenes, arrests happen. The crystal reading instead interrogates the text's own hedges and minority branches. Three statements come directly from scenarios the text flags as possible but not most-likely: the CEC resignation at 20-30%, the Ujjain court stay described as possible but not expected within seven days, and a second cargo ship attack at 15-25% as the escalation trigger. The Asian Games gold probability is adjusted from the naive implicit assumption of an Indian win to the text's explicit 55-65% range, acknowledging the Pakistan wildcard. The rupee statement is narrowed from a broad intervention to a specific new record low, reflecting the text's caveat that this is strain rather than crisis. Each adjustment is traceable to the text's own stated uncertainty.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Election Commission chief Gyanesh Kumar resigns or is formally replaced by the government within the week of October 1-7.",
+        "probability": 0.25,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "India wins the Asian Games cricket gold medal in a final that falls within the week of October 1-7.",
+        "probability": 0.58,
+        "domain": "society"
+      },
+      {
+        "id": "C3",
+        "text": "A court issues an interim stay order or injunction halting the Ujjain mosque demolition process.",
+        "probability": 0.3,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "The Indian rupee falls to a new all-time low against the US dollar during the trading week of October 1-7.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "A second Indian-flagged cargo vessel is attacked or struck in the Gulf of Oman or Red Sea region within the week.",
+        "probability": 0.2,
+        "domain": "security"
+      }
+    ]
+  },
+  "display": {
+    "headline": "India faces three-front protest test amid rupee stress and cricket triumph",
+    "emojis": [
+      "✊",
+      "🏦",
+      "🏅"
+    ],
+    "emoji_reasons": [
+      "The core prediction centers on multiple simultaneous protest movements shaping the political week.",
+      "Rupee and energy stress underpin the economic backdrop of the forecast.",
+      "Cricket victory is predicted as the week's biggest positive story and emotional relief valve."
+    ],
+    "tldr": "The text predicts India's coming week will be dominated by simultaneous protests over the Election Commission, Ujjain's mosque demolition, and women's safety, underpinned by rupee and energy stress, while cricket provides the week's biggest emotional high point.",
+    "eli5": null
+  }
+}

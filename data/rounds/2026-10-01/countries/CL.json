@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "CL",
+  "name": "Chile",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T05:22:29+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "President José Antonio Kast completed a UN visit in New York where he met Secretary-General António Guterres, Venezuela's interim president Delcy Rodríguez, and announced Chile's entry into the Shield of the Americas. BHP's Escondida copper mine, the world's largest, halted operations after a worker died, began a gradual restart, and its union rejected BHP's proposal to pause contract negotiations. Foreign investors held Chilean debt at record levels and the government prepared its first Swiss franc bond sale. Gasoline prices spiked sharply, squeezing household budgets, while the Chamber of Deputies rejected the executive's immigration constitutional reform and the Vice President pledged to press the Senate. The Senate reinforced defense in the Strait of Magellan after a sovereignty dispute with Argentina. Michelle Bachelet withdrew from the race to lead the United Nations. The Atacama Desert bloomed after El Niño rains, a weather front damaged the historic Puente Viejo bridge in Lautaro, and new data showed Chile had lost a large share of its surface water over fifteen years.",
+    "key_events": [
+      {
+        "event": "Kast announced Chile's entry into the Shield of the Americas during his UN visit in New York.",
+        "date": "2026-09-28",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "BHP's Escondida mine halted operations after a fatal accident and the union rejected a pause in contract talks.",
+        "date": "2026-09-29",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The Chamber of Deputies rejected the executive's immigration constitutional reform.",
+        "date": "2026-09-30",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The Senate reinforced defense measures in the Strait of Magellan after a sovereignty dispute with Argentina.",
+        "date": "2026-09-27",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Michelle Bachelet withdrew from the race to lead the United Nations.",
+        "date": "2026-09-25",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Gasoline prices spiked sharply, squeezing household budgets across Chile.",
+        "date": "2026-09-30",
+        "domain": "economy",
+        "importance": 4
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "security"
+    ],
+    "emojis": [
+      "🛡️",
+      "⛏️",
+      "💸"
+    ],
+    "emoji_reasons": [
+      "The Shield of the Americas announcement and Strait of Magellan defense build-up frame the security posture.",
+      "The Escondida fatal accident and union dispute put the world's largest copper mine at the center of domestic tension.",
+      "Sharp gasoline price spikes and household cost-of-living pressure dominate the economic story."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text's headline-case prediction is that the Kast government will convert its UN trip into a domestic political offensive on immigration, security, and the Shield of the Americas, with concrete public statements and a Senate push on migration reform. Escondida's union will issue public demands for safety and contract progress after the fatal accident, generating visible labor friction without a full strike. The government will announce the Swiss franc bond timeline and use record foreign debt holdings as proof of fiscal credibility. Sernac or a transport regulator will issue a formal fuel-price monitoring action in response to rising gasoline costs. The Senate defense committee will authorize additional patrols in the Strait of Magellan. The overall mood is a government projecting strength in diplomacy and markets while managing rising domestic pressure from prices, migration, and copper labor.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Kast holds a press conference in Santiago within the week and announces a concrete immigration or security measure tied to his UN meetings.",
+        "probability": 0.82,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "The Escondida union issues a public statement demanding safety guarantees and a firm timeline for contract negotiations.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "The Kast government announces the timeline and terms for its first Swiss franc bond sale.",
+        "probability": 0.78,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "Sernac issues a formal public notice on fuel-price monitoring or transport-sector price practices.",
+        "probability": 0.45,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "The Senate defense committee votes to authorize additional naval patrols in the Strait of Magellan zone.",
+        "probability": 0.55,
+        "domain": "security"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weighs the text's full scenario tree, including its lower-probability branches. The top case still holds: Kast converts the UN trip into a domestic security and migration offensive. But the text explicitly flags that Escondida could jump from statements to a short one-to-three-day work stoppage if the union feels BHP is stalling, a materially riskier outcome than mere public demands. Bachelet's UN withdrawal, listed as a medium-probability domestic repositioning, becomes a concrete interview or public statement that shifts the left's internal calculations. The Senate could move faster on immigration than the baseline if the governing coalition holds discipline, producing a committee vote rather than rhetorical pressure. Argentina's diplomatic response to the Strait of Magellan build-up is treated as a separate checkable event. Sernac fuel-price action is downgraded in confidence because the text calls it one of several possible responses rather than the expected one.",
+    "reasoning": "This reading differs from the naive one in three ways. First, it promotes two minority-scenario events — the Escondida short stoppage and the Bachelet domestic statement — to the top five, because the text explicitly names them as lower-probability surprises with concrete triggers. Second, it lowers the Sernac fuel-price action by substituting Argentina's diplomatic note as the fifth statement, reflecting the text's own phrasing that Sernac action is one of several possible responses, not the expected one. Third, it elevates the Senate immigration vote to a checkable event because the Vice President's pledge to press the Senate gives it a concrete legislative trigger. The Escondida probability drops by 0.45 from the naive N2 because the crystal version requires an actual work stoppage, not just a statement.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Bachelet publishes a media interview or public statement explaining her UN withdrawal and hinting at a domestic political role.",
+        "probability": 0.35,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "The Escondida union declares a one-to-three-day work stoppage at the mine.",
+        "probability": 0.3,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "The Senate schedules and holds a committee vote on a new immigration or administrative-expulsion bill.",
+        "probability": 0.45,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "Kast holds a press conference in Santiago and names the Shield of the Americas as a new axis of Chilean security policy.",
+        "probability": 0.78,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C5",
+        "text": "Argentina's foreign ministry issues a formal diplomatic note responding to Chile's Strait of Magellan defense measures.",
+        "probability": 0.6,
+        "domain": "security"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Kast's UN Wins Collide with Copper Labor and Fuel Pain",
+    "emojis": [
+      "🌐",
+      "⛏️",
+      "💸"
+    ],
+    "emoji_reasons": [
+      "Kast's UN trip and Shield of the Americas drive the diplomacy thread.",
+      "Escondida's fatal accident and union standoff anchor the copper-labor story.",
+      "Fuel price spikes and household squeeze define the cost-of-living pressure."
+    ],
+    "tldr": "The text predicted Kast would convert his UN trip into a domestic security and migration offensive. Escondida labor friction would escalate around contract talks, and fuel prices would keep squeezing households while markets stayed positive on fiscal credibility.",
+    "eli5": null
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "TR",
+  "name": "Turkey",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T13:30:12+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, Turkey in early October 2026 was engulfed by an investment-fund and stock-market scandal centered on Tera Yatirim and related funds. The government began arranging interim payments of up to one million lira to trapped investors. Asset freezes were lifted on 46 companies while a former minister's assets were frozen, revealing a politically negotiated process rather than a clean judicial one. AKP deputy chair Fatma Betul Sayan Kaya resigned amid trading allegations. The social-media platform X blocked nearly 500 accounts of journalists, economists, and academics. T24 was blocked over alleged LGBTQ+ propaganda. Comedian Deniz Göktaş was convicted but released pending appeal. The Turkey-Saudi Arabia-Pakistan military pact faced its first real test as Houthi attacks continued. US naval pressure on Iranian ports drove long truck queues at Turkey's eastern border crossings. The head of the soccer refereeing body and his deputy were arrested. Erdogan met a potential next German leader. BIST small caps weakened while the lira came under sustained pressure.",
+    "key_events": [
+      {
+        "event": "Turkey began arranging interim payments of up to one million lira to trapped investment-fund investors.",
+        "date": "2026-10-01",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Asset freezes were lifted on 46 companies while a former minister's assets were frozen in the fund scandal.",
+        "date": "2026-10-01",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "AKP deputy chair Fatma Betul Sayan Kaya resigned amid trading allegations.",
+        "date": "2026-10-01",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "X blocked nearly 500 accounts of Turkish journalists, economists, and academics; T24 was blocked over alleged LGBTQ+ propaganda.",
+        "date": "2026-10-01",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "The Turkey-Saudi Arabia-Pakistan military pact was tested by ongoing Houthi attacks.",
+        "date": "2026-10-01",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "US naval pressure on Iranian ports drove long truck queues at Turkey's eastern border.",
+        "date": "2026-10-01",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The head of Turkey's soccer refereeing body and his deputy were arrested.",
+        "date": "2026-10-01",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "economy",
+      "politics",
+      "security",
+      "society"
+    ],
+    "emojis": [
+      "📉",
+      "🎭",
+      "📰"
+    ],
+    "emoji_reasons": [
+      "The investment-fund crisis and lira pressure are the dominant economic storyline.",
+      "The fund scandal, AKP resignation, and asset-freeze battles constitute a political-drama week.",
+      "The mass blocking of X accounts and the T24 ban make media friction a central theme."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's five highest-probability predictions at face value, treating them as the near-certain script for the coming week. The dominant storyline is the investment-fund crisis: Turkey's regulator publishes the mechanics of first interim payments, asset-freeze legal battles multiply across the Tera Yatirim circle, and the lira and BIST small caps stay under sustained pressure. Social media becomes a public battleground as X suspends and then partially restores accounts of economists and journalists. Erdogan leverages foreign policy—Saudi-Pakistan coordination on the Houthi file and a meeting with Germany's prospective leader—to project strength while the domestic economy strains. The government frames the scandal as a punishment of rogue manipulators and keeps AKP internal fallout quiet. No shock scenarios materialize; the week is a managed containment exercise.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Turkey's markets regulator publishes the processing schedule, qualifying-fund list, and per-investor cap for the first interim payments to trapped investment-fund investors.",
+        "probability": 0.87,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "At least three additional court rulings on asset freezes or unfreezes linked to the Tera Yatirim fund scandal appear in Turkish legal registers.",
+        "probability": 0.77,
+        "domain": "politics"
+      },
+      {
+        "id": "N3",
+        "text": "The X platform suspends at least 200 additional accounts of Turkish economists, journalists, or academic public figures during the seven-day window.",
+        "probability": 0.8,
+        "domain": "society"
+      },
+      {
+        "id": "N4",
+        "text": "The Turkish lira closes the week more than 2% weaker against the US dollar while the BIST small-cap index drops by more than 5%.",
+        "probability": 0.77,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "At least one organized trucker protest takes place at a Turkey-Iran border crossing over transit fees or queue delays exceeding 72 hours.",
+        "probability": 0.35,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weighs the full scenario distribution the text lays out rather than the single headline case. While the fund crisis still anchors the week, the text's own caveats and three named shock scenarios pull probability mass toward less obvious outcomes. The text explicitly warns that hidden bank or insurer exposure could convert a 'rich investors trapped' story into an 'ordinary savers at risk' crisis, a development the naive headline case omits entirely. The soccer-refereeing arrests, assigned only 50-60% confidence, represent a parallel institutional scandal that the fund crisis either overshadows or amplifies depending on timing. The text also notes the AKP's quiet reshuffling at 60-70%, a lower-probability domestic-politics thread that the naive reading underweights. Together, the shock scenarios and the text's own hedging language imply a wider band of possible outcomes than the single 'managed containment' narrative suggests.",
+    "reasoning": "The naive reading selects the five highest-probability predictions and treats them as near-certain, ignoring the text's own caveats and shock scenarios. The crystal reading distributes attention across the full scenario space the text describes. Three adjustments matter most. First, the text's shock scenario about hidden bank or insurer exposure is a genuine alternative the naive reading omits; I assign it 0.40 because the text calls it a 'big shock scenario' without a percentage, implying it is real but not base-case. Second, the soccer-refereeing arrests sit at 50-60% in the text, below the naive threshold, yet the text flags them as a 'secondary scandal' opposition parties will exploit; I keep them at 0.52. Third, the naive reading takes the lira drop at 0.77, but the text's own hedge—if interim payments are seen as fiscal burden versus credible plan—warrants lowering to 0.60. The Houthi coordination gets nudged from 0.67 to 0.55 because the text stresses 'no full war unless major escalation.'",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A major Turkish bank or insurer publicly discloses a loss exceeding 5 billion lira linked to the failed investment-fund portfolio.",
+        "probability": 0.4,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "The Turkish Football Federation appoints an interim refereeing committee and at least one additional official from the refereeing body is arrested.",
+        "probability": 0.52,
+        "domain": "society"
+      },
+      {
+        "id": "C3",
+        "text": "Turkey's markets regulator publishes the processing schedule, qualifying-fund list, and per-investor cap for the first interim payments to trapped investment-fund investors.",
+        "probability": 0.87,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "The Turkish lira closes the week more than 2% weaker against the US dollar.",
+        "probability": 0.6,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "Turkey, Saudi Arabia, and Pakistan issue a joint statement on Houthi defense coordination that names at least one specific Turkish military capability to be deployed.",
+        "probability": 0.55,
+        "domain": "security"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Turkey's fund scandal dominates as Erdogan manages crisis",
+    "emojis": [
+      "📉",
+      "🎭",
+      "📰"
+    ],
+    "emoji_reasons": [
+      "Markets and the lira stay under pressure throughout the predicted week.",
+      "Political reshuffling, asset-freeze battles, and the comedian case drive drama.",
+      "Social-media blocking and the T24 ban keep the press under scrutiny."
+    ],
+    "tldr": "The text predicted Turkey's investment-fund crisis would define the coming week, with interim payments formalized, asset-freeze battles multiplying, social-media friction escalating, and Erdogan using foreign-policy posturing to offset domestic economic strain.",
+    "eli5": null
+  }
+}

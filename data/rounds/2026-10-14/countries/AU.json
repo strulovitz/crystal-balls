@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "AU",
+  "name": "Australia",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T16:14:52+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, OpenAI admitted its response to an Australian government data breach was not good enough, while Anthropic said it would welcome tougher regulation and parliament pressed both companies for answers. The High Court delivered a landmark ruling backing a grassroots climate group in a challenge to a coal mine extension, which industry called a significant blow. The FlyDubai co-pilot, a former failed university student in Australia, became the subject of a multi-agency investigation spanning Australia and New Zealand. Global bond markets sold off, pushing Australian interest rates to 15-year highs and consumer confidence lower after a rate hike. The opposition pledged what it called the largest immigration cut in the country's history. In business, KPMG's reputation crumbled as ANZ dropped it, the Firmus Grid IPO approached a reported 30 billion dollar valuation, and proxy advisers pressed ASX boards on executive pay. Sports headlines carried the Bledisloe Test, a cricket tour of South Africa under the shadow of Sandpapergate, a car crash into rugby fans in Newcastle, and the Australian Open's 1 Point Slam marketing push. Pacific climate diplomacy and a Brazil consular suspension rounded out the international file.",
+    "key_events": [
+      {
+        "event": "OpenAI admitted its government breach response was inadequate and parliament held a hearing with both OpenAI and Anthropic.",
+        "date": null,
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "The High Court ruled in favour of a grassroots climate group challenging a coal mine extension, a landmark precedent.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Australian and New Zealand authorities launched a multi-agency investigation into the FlyDubai co-pilot's time in Australia.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The opposition party pledged the largest immigration cut in Australian history, promising detailed visa and border changes.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Australian interest rates reached 15-year highs amid a global bond selloff and falling consumer confidence.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "technology",
+      "environment",
+      "politics",
+      "economy"
+    ],
+    "emojis": [
+      "🤖",
+      "⛏️",
+      "🛂"
+    ],
+    "emoji_reasons": [
+      "The OpenAI government data breach and the parliamentary AI hearing dominate the technology and policy story.",
+      "The High Court's landmark coal mine climate ruling is the central environmental and legal event.",
+      "The opposition's pledge of the largest immigration cut in history makes border and migration policy a headline issue."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text's headline case is that five very likely storylines dominate the coming week. The government responds to the OpenAI and Anthropic breach hearing with a public statement about mandatory reporting or an oversight taskforce. The coal mine operator issues a formal response to the High Court's climate ruling. Police release new details on the FlyDubai co-pilot's Australian university and visa history. The opposition publishes a detailed immigration cut plan with specific numbers and visa changes. The ASX shows sustained weakness from bond-yield pressure. Sports, particularly the Bledisloe Test and the South Africa cricket series, frame the public mood. Corporate stories around KPMG fallout and the Firmus Grid IPO provide secondary noise. The text explicitly does not expect a full AI law, a budget release, immigration legislation, or an election in this seven-day window. The dominant tone is defensive and argumentative, with the government trying to sound in control while the opposition pushes immigration and cost of living into the foreground.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The Australian government announces it is considering mandatory AI breach reporting or a formal AI oversight taskforce following the OpenAI and Anthropic parliamentary hearing.",
+        "probability": 0.85,
+        "domain": "technology"
+      },
+      {
+        "id": "N2",
+        "text": "The coal mine operator or its industry body issues a formal public statement responding to the High Court's landmark climate ruling on the mine extension.",
+        "probability": 0.8,
+        "domain": "environment"
+      },
+      {
+        "id": "N3",
+        "text": "Australian police release a public briefing with new details about the FlyDubai co-pilot's university attendance and visa history in Australia.",
+        "probability": 0.78,
+        "domain": "security"
+      },
+      {
+        "id": "N4",
+        "text": "The opposition party publishes a detailed policy paper specifying target numbers and visa-category changes for its proposed immigration cut.",
+        "probability": 0.68,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "The ASX 200 closes at least 1 percent lower on at least two separate trading days between October 14 and October 21, 2026.",
+        "probability": 0.48,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full probability distribution rather than defaulting to the top tier. While the five very likely items still form the backbone, the text itself flags several lower-probability events as less likely but possible if things accelerate and would not be surprised to see. This includes the OpenAI breach widening to cover additional agencies, the Firmus Grid IPO executing near its reported 30 billion dollar valuation, a decisive Bledisloe loss triggering a selection media storm, and the Newcastle crash driver appearing before a local court. The crystal reading also honours the text's own hedges: the government is considering AI measures rather than announcing a final decision, the coal mine probably does not shut down absent an interim order, and the opposition's immigration plan is a policy paper rather than enacted legislation. These caveats pull several probabilities below the naive reading's figures and open space for the surprise events the text lists as secondary but genuinely plausible within seven days.",
+    "reasoning": "The naive reading takes the text's very likely tier at face value and assigns high confidence to all five top predictions. The crystal reading treats the text's own hedging language as probability adjustments. The text says the government is considering AI measures rather than announcing them, the coal mine probably does not shut down, and the immigration cut will not be immediately implemented. It also lists the wider OpenAI breach, the Firmus IPO, a Bledisloe upset, and the Newcastle court appearance as genuine possibilities. The crystal reading elevates at least one minority scenario to a forecast statement and trims the government-AI announcement from 0.85 to 0.55 because the text explicitly uses considering rather than deciding and adds the condition of a named chair and published terms. This produces a shift of 0.30, well above the 0.1 threshold, and brings a Firmus IPO event and a Bledisloe margin result into the forecast as checkable one-week outcomes the naive reading omits entirely.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The OpenAI breach disclosure expands to name at least one additional Australian government agency or dataset beyond the initially reported scope.",
+        "probability": 0.3,
+        "domain": "technology"
+      },
+      {
+        "id": "C2",
+        "text": "Firmus Grid completes its IPO listing on the ASX with a day-one valuation near the reported 30 billion dollar target.",
+        "probability": 0.4,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "Australia loses the first Bledisloe Test to New Zealand by a margin of 10 or more points at the designated home ground.",
+        "probability": 0.35,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "The Australian Treasury announces a formal AI oversight taskforce with a publicly named chair and published terms of reference.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "C5",
+        "text": "The driver in the Newcastle car crash into rugby fans appears before a local court for a bail hearing or committal mention.",
+        "probability": 0.55,
+        "domain": "security"
+      }
+    ]
+  },
+  "display": {
+    "headline": "AI breach, coal ruling, immigration fight frame the week",
+    "emojis": [
+      "🤖",
+      "⛏️",
+      "🏅"
+    ],
+    "emoji_reasons": [
+      "The OpenAI and Anthropic breach hearing and the expected government response are the top predicted story.",
+      "The High Court coal ruling and industry aftershocks are a major predicted legal and political fight.",
+      "The Bledisloe Test, South Africa cricket tour, and Newcastle crash make sports a primary mood-setter."
+    ],
+    "tldr": "The text predicted Australia's next week would centre on the OpenAI breach hearing aftermath, the High Court coal climate ruling, and the opposition's immigration cut proposal. Markets would show bond-driven nervousness and sports would set the national mood. No major legislation or budget surprise was expected in the window.",
+    "eli5": null
+  }
+}

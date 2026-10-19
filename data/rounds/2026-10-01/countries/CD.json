@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "CD",
+  "name": "DR Congo",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T05:51:14+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, DR Congo faced four simultaneous crises. An Ebola outbreak had spread to a seventh province, South-Ubangi, in the northwest, raising fears of cross-border transmission to the Central African Republic, Congo-Brazzaville, and Uganda. A school fire in Bukavu, a city described as under rebel M23 influence, killed between 24 and 29 children, turning the tragedy into a political flashpoint. In Kinshasa, opposition and pro-government supporters clashed with police deploying tear gas over President Tshisekedi's push for a constitutional amendment that could enable a third term. In Geneva, DRC and Rwanda held talks over M23's role and eastern security without resolving core disputes. Economically, a new DRC-US task force on critical minerals was being established, with record copper exports, Lobito corridor expansion, and fast-track mining permits as priorities. The overall picture was one of a state juggling epidemic, constitutional legitimacy, eastern rebellion, and an economic push to convert mineral wealth into political stability.",
+    "key_events": [
+      {
+        "event": "Ebola outbreak spreads to South-Ubangi province in the northwest, raising cross-border transmission fears",
+        "date": null,
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "School fire in rebel-influenced Bukavu kills between 24 and 29 children, triggering political blame between Kinshasa and M23",
+        "date": null,
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Opposition and pro-government supporters clash in Kinshasa with police tear gas over Tshisekedi's third-term constitutional push",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "DRC-US critical minerals task force is created with copper, cobalt, and Lobito corridor expansion as priorities",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "DRC and Rwanda hold Geneva talks on M23's role and eastern security without reaching a ceasefire",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "health",
+      "politics",
+      "security",
+      "economy"
+    ],
+    "emojis": [
+      "🦠",
+      "✊",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "Ebola spreading to a seventh province drove the dominant health and public-fear narrative.",
+      "Constitutional protests and tear gas in Kinshasa defined the political landscape of the week.",
+      "The US minerals task force and copper export push served as the economic counterweight to the crises."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text's headline case is straightforward: four crises pile up simultaneously with no single dominant event. Ebola keeps producing new confirmed cases and deaths even as officials claim the worst may be near, and the South-Ubangi spread signals geographic expansion. In Kinshasa, opposition and pro-government crowds clash over Tshisekedi's third-term push, with police tear gas a near-certainty. In Geneva, DRC and Rwanda sit across the table again, exchanging technical consultations without resolving core security disputes. The Bukavu school fire toll settles in the high twenties, triggering a formal inquiry and compensation promises. Meanwhile, the DRC-US minerals task force moves from creation to its first concrete public output: a roadmap or fast-track plan for copper and cobalt exports. The government projects control while using minerals revenue as its stabilization lever, and the week is defined by simultaneous bad-news cycles across health, politics, diplomacy, and economics.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "More confirmed Ebola cases and deaths are reported across existing affected provinces, with the DRC government and the UN issuing contradictory statements about whether the outbreak is peaking.",
+        "probability": 0.88,
+        "domain": "health"
+      },
+      {
+        "id": "N2",
+        "text": "Opposition and pro-government supporters clash in Kinshasa and police deploy tear gas during demonstrations over the constitutional amendment.",
+        "probability": 0.82,
+        "domain": "politics"
+      },
+      {
+        "id": "N3",
+        "text": "DRC and Rwanda conclude a further round of Geneva sessions and announce additional technical consultations without signing a ceasefire agreement.",
+        "probability": 0.78,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "The official death toll for the Bukavu school fire is finalized at 27 or 29, and DRC authorities announce a national commission of inquiry into the tragedy.",
+        "probability": 0.72,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "The DRC-US critical minerals task force publishes its first public roadmap or fast-track implementation plan for copper and cobalt exports.",
+        "probability": 0.45,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "This reading weights the full probability distribution the text provides rather than defaulting to its top-five list. The text explicitly flags lower-probability but high-impact scenarios: a state of emergency declaration in Ebola-affected provinces, a formal referendum date announcement by Tshisekedi, and M23 acting as an administering authority in Bukavu. The crystal reading also adjusts the Kinshasa violence probability upward, since the text rates the risk of opposition and pro-government crowds clashing more violently as medium-to-high likelihood and lists dozens of injuries and arrests as a realistic outcome. The WHO and UN dual statement calling the outbreak peaking while warning it is not under control is treated as near-certain because the text frames it as the expected weekly narrative tension. The minerals announcement is broadened to accept any public step, reflecting the text's own hedge that it may not be a giant signed treaty.",
+    "reasoning": "The naive reading takes the text's high-confidence list at face value and skips its medium and lower-confidence tiers entirely. The crystal reading promotes a lower-confidence scenario: the DRC declaring a state of emergency over Ebola, which the text lists as possible but which the naive forecast omits. It also adjusts the Kinshasa violence probability to 0.35, higher than a strict top-case reading would assign, because the text rates that risk as medium-to-high likelihood and the Tuesday clashes create momentum. Third, it includes the M23-as-administration scenario in Bukavu, which the text mentions as a lower-confidence but politically significant outcome. The crystal summary therefore reflects the text's own stated uncertainty and hedges rather than its single most-likely path, and at least one statement (C1) comes from a minority-probability scenario the naive reading ignores.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The DRC government declares a state of emergency in one or more provinces in direct response to the Ebola spread into South-Ubangi.",
+        "probability": 0.42,
+        "domain": "health"
+      },
+      {
+        "id": "C2",
+        "text": "President Tshisekedi publicly announces a specific calendar date for a constitutional referendum on the third-term amendment.",
+        "probability": 0.38,
+        "domain": "politics"
+      },
+      {
+        "id": "C3",
+        "text": "M23 or Bukavu local authorities issue a formal written compensation and reconstruction plan for families of the school fire victims.",
+        "probability": 0.48,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "The WHO or UN publishes a joint public statement describing the Ebola outbreak as peaking while simultaneously warning that it is not yet under control.",
+        "probability": 0.62,
+        "domain": "health"
+      },
+      {
+        "id": "C5",
+        "text": "A protest in Kinshasa escalates into serious violence, with at least 30 people injured and multiple opposition members arrested by police.",
+        "probability": 0.35,
+        "domain": "security"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Ebola, third-term protests, Bukavu fire, and minerals define DRC week",
+    "emojis": [
+      "🦠",
+      "✊",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "The spreading Ebola outbreak was the text's top predicted story for the coming week.",
+      "Kinshasa street politics over Tshisekedi's third term was the second dominant prediction.",
+      "The DRC-US minerals task force announcement was the key economic prediction."
+    ],
+    "tldr": "The text predicted a pile-up week in DRC: Ebola spreading further, Kinshasa protests over a third-term push, the Bukavu school fire becoming a political flashpoint, and a DRC-US minerals announcement. No single dramatic event; four simultaneous bad-news cycles defined the week.",
+    "eli5": null
+  }
+}

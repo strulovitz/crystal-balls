@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "UA",
+  "name": "Ukraine",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T13:52:26+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "As of late September 2026, Ukraine was locked in a grinding war with Russia. Russia had launched repeated overnight waves of missiles and jet-powered drones against Kyiv, Odesa, Zaporizhzhia, Kharkiv, and western border regions, damaging apartment buildings, energy grids, railways, ports, and warehouses, with casualties including children. Ukraine had responded with mass drone barrages of 1,000 or more aircraft, hitting Russian refineries near Moscow and in the Volga region, as well as rail logistics and airfields. President Trump was pushing a mutual energy truce to stem rising global diesel prices, while Zelenskyy insisted on verification. Russia had just held its first parliamentary election since the full-scale invasion, with United Russia expected to win comfortably, including votes from occupied Ukrainian regions. The US House had passed a sweeping sanctions bill on Russian oil, which Trump reportedly signed. Ukraine had launched an offensive push in north Donetsk. A Russian strike near the Polish border involving a train and Western visitors had put NATO on high alert. A UN report documented widespread sexual violence tied to Russian forces. The new acting prosecutor general in Ukraine was advancing anti-corruption work.",
+    "key_events": [
+      {
+        "event": "Russia launched repeated overnight missile and drone barrages against Kyiv, Odesa, Zaporizhzhia, and other cities, damaging civilian and energy infrastructure.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Ukraine launched mass drone barrages of over 1,000 aircraft, striking Russian refineries near Moscow and in the Volga region.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Russia held its first parliamentary election since the full-scale invasion, with United Russia expected to win a comfortable majority.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The US House passed a sweeping Russia sanctions bill on oil imports, which President Trump reportedly signed.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A Russian strike near the Polish border involving a train and Western visitors placed NATO on high alert.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Ukraine launched an offensive push in north Donetsk to seize local initiative.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A UN report documented widespread sexual violence primarily tied to Russian forces.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "economy",
+      "politics"
+    ],
+    "emojis": [
+      "💣",
+      "🗳️",
+      "⚡"
+    ],
+    "emoji_reasons": [
+      "Russia's repeated missile and drone barrages on Ukrainian cities define the week's core security threat.",
+      "Russia's first parliamentary election since the invasion gave Moscow a domestic mandate to sustain the war effort.",
+      "Energy infrastructure on both sides became the central battleground as Trump pushed a fragile mutual truce."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's top-priority predictions at face value. Russia launches at least three major overnight missile or drone barrages against Ukrainian cities. Ukraine strikes at least one Russian refinery in the Moscow or Volga region. A mutual energy truce is announced by the US but broken within the week by at least one major strike. Russia's new Duma convenes and passes a war-related or conscription bill. The US Treasury publishes specific secondary tariff rates on Russian oil buyers. These five events represent the headline case drawn from the text's very-likely list, read as near-certainties. The energy truce is treated as announced but fragile, the Duma as quickly productive, and the sanctions bill as swiftly operationalized into concrete tariff numbers. The reading downplays the text's own caveats about verification difficulties, the Duma's potential for symbolic rather than substantive legislation, and the gap between signing a sanctions bill and publishing enforceable rates.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Russia launches at least three major overnight missile or drone barrages against Ukrainian cities during the October 1 to 8 period.",
+        "probability": 0.9,
+        "domain": "security"
+      },
+      {
+        "id": "N2",
+        "text": "Ukraine strikes at least one Russian refinery or fuel facility in the Moscow region or Volga region.",
+        "probability": 0.85,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "A mutual energy truce is announced by the United States but at least one major energy-infrastructure strike by either side occurs within the same week.",
+        "probability": 0.72,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "Russia's newly elected Duma convenes and passes at least one war-related or conscription-related bill.",
+        "probability": 0.7,
+        "domain": "politics"
+      },
+      {
+        "id": "N5",
+        "text": "The US Treasury publishes specific secondary tariff rates targeting countries that import Russian oil.",
+        "probability": 0.48,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weighs the text's full scenario distribution, including the lower-probability outcomes it explicitly lists. Ukraine's drone campaign escalates in intensity, reaching a 500-drone coordinated strike window. Turkey's Black Sea shipping proposal faces a formal adoption or rejection decision from both Kyiv and Moscow. Russia announces a mobilization wave or draft-age expansion as a post-election consolidation move. A major European navy adds a warship to Black Sea patrols. The US and Ukraine announce a verified 72-hour pause on energy strikes as a confidence-building step in trilateral technical talks. These statements pull from the text's possible-but-less-likely scenarios, including mobilization, Black Sea escalation, and a briefly verified truce, while adjusting the probability of a clean truce announcement downward to reflect the text's own warning that verification is the hard part and that Ukraine will reject a one-sided pause.",
+    "reasoning": "The naive reading treats the five very-likely items as near-certainties and ignores the text's explicit alternative-scenario list. The crystal reading pulls from that list: the text names Russian mobilization, Black Sea escalation, a verified energy pause, and a Ukrainian breakthrough as possible-but-less-likely, and I assign them concrete probabilities rather than dismissing them. I also adjust the energy-truce probability downward by more than 0.1 compared to the naive reading, because the text itself hedges with the observation that verification is the hard part and that Ukraine will not accept a one-sided pause. The Duma war-bill probability is downweighted because the text frames the election aftermath as presenting a mandate rather than immediate legislation. The Black Sea and mobilization items, absent from the naive top-five, enter here as the text's own named minority scenarios.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Ukraine launches a coordinated strike of at least 500 drones at Russian fuel and logistics targets within a single 48-hour period.",
+        "probability": 0.8,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "Turkey's proposal to reduce attacks on Black Sea commercial ships is formally adopted or rejected by Ukraine and Russia within the week.",
+        "probability": 0.38,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C3",
+        "text": "Russia announces a new mobilization wave or a draft-age expansion as a follow-up to its parliamentary election victory.",
+        "probability": 0.22,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "At least one major European navy deploys an additional warship to the Black Sea during the week.",
+        "probability": 0.4,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "The United States and Ukraine announce a verified 72-hour pause on strikes to energy infrastructure as part of trilateral technical talks.",
+        "probability": 0.45,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Ukraine Faces Grinding Air War, Fragile Truce, Sanctions Bite",
+    "emojis": [
+      "💣",
+      "🕊️",
+      "🚫"
+    ],
+    "emoji_reasons": [
+      "Sustained Russian air strikes and Ukrainian deep-strike retaliation anchor the security picture for the coming week.",
+      "The fragile energy truce and stalled trilateral diplomacy define the diplomatic track.",
+      "US sanctions shifting from politics into enforcement mark the economic dimension of the conflict."
+    ],
+    "tldr": "The text predicted a week of sustained Russian air attacks, Ukrainian deep-strike retaliation on Russian fuel infrastructure, a fragile energy truce that both sides test, Russia leveraging its election victory for the war effort, and US sanctions shifting from politics into enforcement.",
+    "eli5": null
+  }
+}

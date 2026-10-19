@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "NL",
+  "name": "Netherlands",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T21:25:05+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The text describes a week in which multiple medium-pressure stories overlap in the Netherlands. The Dutch government announced it would cut its ABN Amro stake from roughly 20.7% to 10.5%, setting up a finance-and-politics story. The Dutch Debt Agency scheduled a bond auction of up to EUR 3.5 billion in January 2031 bonds for October 13. The national football team, coached by Xavi, faced criticism after a Greece draw and upcoming matches against Germany or Serbia. Multilateral talks involving the Netherlands, Rwanda, Greece, Germany, Austria, and Denmark about possible deportation return hubs outside Europe generated political tension. A study found the Dutch royal house was wholeheartedly involved in colonial exploitation and benefited from the slave trade. The retailer Hans Anders halted sales of Meta Ray-Ban glasses over privacy concerns. Thousands of European wind and solar administrative systems were found exposed online. A Doctors Without Borders worker was evacuated to the Netherlands for Ebola treatment. The Kosovo war crimes court based in the Netherlands faced pressure from Pristina to curb its powers. The EU faced pressure from Washington to release diesel reserves. NATO issued warnings about Russian hybrid attacks and sabotage. A Willem de Kooning retrospective opened in Amsterdam. Forbion raised approximately EUR 2.3 billion for European biotech. The overall mood was politically restless but operationally stable, with no single dramatic crisis.",
+    "key_events": [
+      {
+        "event": "The Dutch government announced it would reduce its ABN Amro stake from 20.7% to 10.5%.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The Dutch Debt Agency scheduled an auction of up to EUR 3.5 billion in January 2031 bonds for October 13.",
+        "date": "2026-10-13",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Multilateral talks involving the Netherlands and Rwanda about possible deportation return hubs outside Europe advanced.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "A study concluded the Dutch royal house was wholeheartedly involved in colonial exploitation and slave-trade benefits.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Hans Anders halted sales of Meta Ray-Ban smart glasses citing privacy concerns.",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "technology"
+    ],
+    "emojis": [
+      "🏦",
+      "🛂",
+      "⚽"
+    ],
+    "emoji_reasons": [
+      "The ABN Amro stake reduction and the October 13 bond auction make banking and sovereign debt the financial anchor of the week.",
+      "Rwanda return-hub talks and migration politics are among the most politically explosive stories in the text.",
+      "Xavi's national team under pressure after the Greece draw and the expanded calendar make football a dominant cultural thread."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's top-listed predictions at face value. The ABN Amro stake sell-down becomes a recurring finance-and-politics headline with government explanations and share-price volatility. The October 13 bond auction completes as scheduled and registers in financial coverage. The Netherlands loses its next national team match, intensifying criticism of Xavi and the expanded international calendar. A migration minister publicly confirms that Rwanda return-hub talks are progressing, feeding far-right pressure for faster action on rejected asylum seekers. An opposition party formally demands a royal apology over the colonial exploitation study. The overall picture is a busy, politically noisy week in which migration, football, and the monarchy's historical role generate the most public debate, while finance provides the concrete scheduling anchor and the Meta glasses and Ebola stories add secondary texture.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The Dutch government publishes the mechanics and timeline for reducing its ABN Amro stake from 20.7% to 10.5%.",
+        "probability": 0.85,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "The Dutch Debt Agency completes its auction of up to EUR 3.5 billion in January 2031 bonds on October 13.",
+        "probability": 0.9,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "The Netherlands national team loses its next competitive match, triggering calls in Dutch media for Xavi's dismissal.",
+        "probability": 0.3,
+        "domain": "society"
+      },
+      {
+        "id": "N4",
+        "text": "A Dutch migration minister publicly states that Rwanda return-hub negotiations are progressing.",
+        "probability": 0.75,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N5",
+        "text": "At least one Dutch opposition party formally demands a royal apology over the colonial exploitation study.",
+        "probability": 0.8,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full probability distribution rather than just its top cases. The bond auction still completes, but the meaningful yield movement it draws is a coin-flip event rather than a certainty, so the forecast centers on the attention it generates rather than the mechanical completion. The single most probable individual football outcome is actually a draw at 35% rather than the 30% loss the naive reading selects, shifting the public narrative from crisis to sustained grumbling about the calendar. A 25%-probability minority scenario, the royal house issuing a written acknowledgment of colonial exploitation, enters the forecast as a checkable event that the naive reading omits. The Meta glasses story spreads beyond Hans Anders to a second retailer, converting a single-store decision into a sector-wide privacy debate. Migration talks produce a joint Dutch-and-EU statement describing progress without naming a pilot, which matches the text's own 70% expectation over its 30% concrete-pilot expectation. The week is less dramatic than the naive reading suggests but more distributed across technology and diplomacy.",
+    "reasoning": "This reading differs from the naive one in three concrete ways. First, it splits the bond auction into the mechanical event (near-certain) and the meaningful yield movement the text assigns only 55% odds to, setting C1 at 0.55 instead of the naive 0.90, a shift of 0.35. Second, it promotes a 25%-probability minority scenario, the royal house issuing a written colonial-exploitation acknowledgment, into a checkable statement, which the naive reading omits entirely. Third, it shifts the football prediction from the text's 30% loss to the 35% draw, the single most probable individual outcome, producing a different media narrative. It also adds the Meta-glasses second-retailer scenario at 30%, a technology-domain event absent from the naive list, and frames migration output as a joint 'progressing' statement rather than a concrete pilot, matching the text's own 70% expectation over its 30% pilot-announcement figure.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Dutch benchmark bond yields rise by more than 10 basis points on the day of the October 13 auction, generating a full cycle of financial coverage.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "The Dutch royal house issues a written statement acknowledging its historical role in colonial exploitation.",
+        "probability": 0.25,
+        "domain": "politics"
+      },
+      {
+        "id": "C3",
+        "text": "The Netherlands national team draws its next competitive match, and Xavi's post-match press conference generates at least three hours of sports debate on Dutch television.",
+        "probability": 0.35,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "A second major Dutch retailer announces it is pausing sales of Meta Ray-Ban smart glasses pending a privacy review.",
+        "probability": 0.3,
+        "domain": "technology"
+      },
+      {
+        "id": "C5",
+        "text": "Dutch and EU officials issue a joint statement describing Rwanda return-hub talks as progressing without naming a specific pilot location.",
+        "probability": 0.75,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Multiple overlapping pressures, no single national crisis",
+    "emojis": [
+      "🏦",
+      "⚽",
+      "🛂"
+    ],
+    "emoji_reasons": [
+      "The ABN Amro sale and bond auction form the concrete financial backbone of the predicted week.",
+      "Xavi's national team and the post-match narrative are a recurring cultural pressure point.",
+      "Rwanda return-hub migration talks are the most politically contentious diplomatic story."
+    ],
+    "tldr": "The text predicted a politically restless but stable week, with migration return-hub talks, the royal family's colonial past, and Xavi's national team dominating public debate. Finance stayed prominent via the ABN Amro sale and the October 13 bond auction, while Meta glasses privacy and exposed energy systems added infrastructure anxiety.",
+    "eli5": null
+  }
+}

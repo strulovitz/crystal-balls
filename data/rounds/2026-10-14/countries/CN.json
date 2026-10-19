@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "CN",
+  "name": "China",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T17:21:44+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "China emerged from a Xi-Trump summit with a $60 billion tariff-cut agreement, a pandas exchange, and what Beijing framed as restored diplomatic face. A September rate cut and mortgage subsidies had already been implemented to support the property sector. F-16V fighter jets had arrived in Taiwan, raising the military stakes in the Taiwan Strait. AI regulatory scrutiny intensified around companion apps, data-collection practices, and a Kimi bioweapons incident that triggered safety reviews of large models. The EU was preparing trade restrictions targeting Chinese businesses, prompting Beijing to warn of a resolute response. The Golden Week holiday was in progress, with state media already pushing a patriotic consumption narrative. The United States had publicly assessed that a Taiwan invasion before 2028 was increasingly unlikely. Chinese tech firms including Alibaba and ByteDance were in preliminary discussions about purchasing Nvidia GPUs under conditions. The overall mood was cautious optimism layered over persistent structural weakness in housing, youth employment, and household debt.",
+    "key_events": [
+      {
+        "event": "Xi and Trump concluded a summit producing a $60 billion tariff-cut product list and a pandas exchange.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "China implemented a September rate cut and mortgage subsidies aimed at stabilizing the property market.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "F-16V fighter jets delivered to Taiwan raised the military profile of the Taiwan Strait.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The EU announced preparations for trade restrictions targeting Chinese businesses, prompting a resolute-response warning from Beijing.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "AI regulatory scrutiny expanded to cover companion apps, data collection, and model safety after the Kimi bioweapons incident.",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "security",
+      "technology"
+    ],
+    "emojis": [
+      "🤝",
+      "📈",
+      "🪖"
+    ],
+    "emoji_reasons": [
+      "The Xi-Trump summit and tariff-cut agreement represent the central diplomatic achievement of the period.",
+      "Property support measures, rate cuts, and market optimism define the economic narrative.",
+      "F-16V deliveries to Taiwan and National Day military posturing keep the security domain active."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's base case at full face value. Beijing announces multiple city-level property and consumption support measures, tariff-cut implementation becomes publicly visible through customs guidance, China issues a calibrated EU trade response, holiday data show positive year-on-year growth, and a conditional Nvidia chip import approval is published. The text assigns 75 to 85 percent probability to property measures, 70 to 80 percent to tariff implementation, 65 to 75 percent to an EU response, 60 to 70 percent to positive holiday data, and 55 to 65 percent to selective chip access. Under this reading the week is straightforward: policy announcements, data releases, and one regulatory approval, all reinforcing the stabilization narrative without major surprises or stress events. The AI regulation item sits at the lower bound of its stated range, reflecting residual uncertainty about the scope of new rules.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Chinese provincial or municipal governments in at least three tier-1 or tier-2 cities announce first-home mortgage rate cuts, reduced down-payment requirements, or home-purchase vouchers between October 14 and October 21.",
+        "probability": 0.8,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "China's General Administration of Customs publishes implementation guidance specifying product categories eligible under the US-China $60 billion tariff-cut list between October 14 and October 21.",
+        "probability": 0.75,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N3",
+        "text": "China's Ministry of Commerce issues a formal statement or countermeasure list naming specific EU product categories in response to European trade restrictions on Chinese businesses during the week of October 14 to 21.",
+        "probability": 0.7,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "China's National Bureau of Statistics releases Golden Week data showing year-on-year growth in retail sales, domestic travel volume, or box-office receipts between October 14 and October 21.",
+        "probability": 0.65,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "A Chinese regulator or ministry publishes an approval or conditional permit allowing Alibaba, ByteDance, or another listed firm to import specific Nvidia GPU models for domestic AI workloads between October 14 and October 21.",
+        "probability": 0.48,
+        "domain": "technology"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full probability distribution and explicitly incorporates minority scenarios the naive list drops. Property measures and tariff implementation still appear, but the text's own caveats about weak luxury spending, deep discounts, and service-versus-goods divergence drive a shift in the holiday-data statement from a simple positive release to a mixed result where volume grows while per-transaction quality weakens. The crystal reading promotes the 35 to 45 percent rare-earth bargaining scenario and the 20 to 30 percent social or market stress event, both named in the text but absent from the naive top five. The EU item is sharpened from a generic calibrated response to a specific named-product countermeasure, reflecting the text's description of targeting politically sensitive European goods. The net effect is a forecast with more internal tension, a wider range of observable outcomes, and a lower floor of confidence than the naive headline case suggests.",
+    "reasoning": "The naive reading selects the five highest-probability items at their midpoints and produces a clean, uniformly optimistic week of announcements. The crystal reading does three different things. First, it reads the text's explicit caveats about weak luxury spending and deep discounts as evidence that the holiday-data statement should predict a mixed result, dropping the probability from 0.65 to 0.45. Second, it promotes two minority scenarios the text names but the naive list drops: the rare-earth bargaining chip at 35 to 45 percent and the social stress event at 20 to 30 percent. Third, it sharpens the EU item from a generic statement to a specific named-product countermeasure, reflecting the text's language about targeting politically sensitive products. The adjustments reflect the text's own warning that the gap between official confidence and private reality could widen.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "At least one of Shanghai, Beijing, Shenzhen, or Guangzhou announces a local property purchase voucher, subsidy, or unsold-inventory buyback program between October 14 and October 21.",
+        "probability": 0.72,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "China's Ministry of Commerce names a specific EU product category—wine, dairy, or automobiles—for targeted tariff increases or anti-subsidy measures between October 14 and October 21.",
+        "probability": 0.42,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C3",
+        "text": "China's Ministry of Commerce or a state agency announces a new export license requirement, quota, or levy on rare-earth or critical-mineral shipments to the EU or United States between October 14 and October 21.",
+        "probability": 0.4,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "A property delivery dispute, high-profile tax enforcement action, or sudden sectoral policy reversal generates sustained discussion on Chinese social media and at least one major national media report between October 14 and October 21.",
+        "probability": 0.25,
+        "domain": "society"
+      },
+      {
+        "id": "C5",
+        "text": "Golden Week consumption data released between October 14 and 21 show that average transaction values or luxury-goods sales declined year-on-year despite an increase in total visitor volume.",
+        "probability": 0.45,
+        "domain": "economy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Beijing converts summit face into managed stabilization week",
+    "emojis": [
+      "📈",
+      "🤝",
+      "🎉"
+    ],
+    "emoji_reasons": [
+      "Property and consumption support measures anchor the economic stabilization story.",
+      "US-China tariff implementation and EU trade diplomacy define the foreign-policy agenda.",
+      "National Day and Golden Week set the backdrop for a consumption-and-confidence push."
+    ],
+    "tldr": "The text predicted China would use post-summit momentum to push city-level property and consumption support, implement US tariff cuts, and posture around Taiwan while managing EU friction. The week was framed as a managed stabilization exercise converting diplomatic face into visible economic confidence.",
+    "eli5": null
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "SG",
+  "name": "Singapore",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T23:08:42+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, Singapore entered the week of 9-17 October 2026 under multiple simultaneous pressures. The Formula 1 Singapore Grand Prix anchored public attention, with George Russell starting from the back of the grid after a penalty and Kimi Antonelli holding a championship lead. Transboundary haze from Indonesian peat fires, compounded by El Nino and poor Borneo water conditions, drove air-quality anxiety across schools, events, and tourism. Eight civil servants had been referred to police over home purchases linked to unannounced MRT and property information, creating a persistent governance irritant. In financial markets, Temasek warned of an AI-trade unwind, long-bond yields pressured bank earnings, and Wall Street IPO demand cooled. Energy-security concerns rose from Iran-related Strait of Hormuz risk, oil-price volatility, and Singapore's miss on its 2035 green-power import target. AI-driven cyber risk and scams entered governance discourse, and a state-backed dating app for civil servants generated social-media debate amid the birthrate crisis. The overall tone was one of managed stress rather than crisis: damage control around existing pressures, with the government expected to talk more about haze response, AI risk, and financial stability without announcing sweeping new policy.",
+    "key_events": [
+      {
+        "event": "F1 Singapore Grand Prix scheduled with Russell starting from the back and Antonelli leading the championship.",
+        "date": "2026-10-17",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Indonesian peat fires and El Nino conditions produced transboundary haze affecting Singapore air quality.",
+        "date": "2026-10-09",
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Eight civil servants referred to police over property purchases linked to unannounced MRT and land-use information.",
+        "date": "2026-10-08",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Temasek issued a public warning about AI-trade unwind risk and rising long-bond yields pressuring bank earnings.",
+        "date": "2026-10-08",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Singapore announced it had missed its 2035 green-power import target against a backdrop of Hormuz energy risk.",
+        "date": "2026-10-08",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "ASEAN energy ministers met amid an Iran-war backdrop and rising oil prices.",
+        "date": "2026-10-10",
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "environment",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "🏅",
+      "🌡️",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "The F1 Singapore Grand Prix is the dominant public event of the week.",
+      "Transboundary haze and extreme heat drive daily life for schools, commuters, and tourists.",
+      "AI-unwind warnings, bond-yield stress, and bank-earnings anxiety dominate elite financial discussion."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's top-probability scenario at face value. The F1 Singapore Grand Prix dominates public attention and completes as scheduled with FIA heat and haze protocols activated. Air quality crosses the unhealthy threshold on multiple days, forcing school and event adjustments. Parliament formally takes up the eight civil-servant property referrals in a recorded session. MAS or Temasek publicly addresses AI-sector concentration risk and bond-yield pressure on bank earnings. A Singapore minister explicitly references Strait of Hormuz disruption in an official statement or ASEAN meeting. The civil-servant dating app stays in social-media circulation. The overall picture is managed stress: the government talks more about haze, AI, and financial stability but announces no sweeping new policy. F1 sits on top, haze underneath, and financial anxiety in the background, with the property scandal refusing to fade.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The F1 Singapore Grand Prix race completes as scheduled with FIA heat-hazard and haze-protocol measures formally activated for drivers and fan zones.",
+        "probability": 0.9,
+        "domain": "society"
+      },
+      {
+        "id": "N2",
+        "text": "Singapore's Pollutant Standards Index crosses the 50 unhealthy threshold on at least two separate calendar days between 14 and 21 October.",
+        "probability": 0.7,
+        "domain": "environment"
+      },
+      {
+        "id": "N3",
+        "text": "A Member of Parliament tabled a formal question referencing the eight civil-servant property referrals during a recorded parliamentary or committee session between 14 and 21 October.",
+        "probability": 0.65,
+        "domain": "politics"
+      },
+      {
+        "id": "N4",
+        "text": "MAS, Temasek, or a top-five Singapore bank issued a public statement or media commentary explicitly referencing AI-sector concentration risk or long-bond-yield pressure on earnings.",
+        "probability": 0.8,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "MAS or the CSSD issued a formal regulatory consultation paper or enforcement notice naming Hyperliquid perpetual futures by 21 October.",
+        "probability": 0.4,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full probability distribution, including its own wildcards and hedged minority scenarios. Russell's back-of-grid start creates a genuine chance he wins, which the text flags as a wildcard that would rewrite the championship narrative. The haze could break either way: a favourable wind shift or rain could keep PSI below unhealthy, while a new leak in the property case could escalate it beyond the persistent-but-stable base case. The AI and bond anxiety, while the dominant elite theme, could manifest as a visible AI-unwind in market commentary rather than a quiet worry. The text's own caveat that nervousness is not panic means the most dramatic financial outcome is actually the minority case. The dating-app story and the property-scandal expansion represent lower-probability but checkable events that the naive reading underweights. The net picture is more spread: several outcomes hover well below 50 percent, with only the AI-bank anxiety theme sitting clearly above.",
+    "reasoning": "The naive reading treats very-high and high-confidence items as near-certainties and skips the text's own wildcard list. The crystal reading does three things differently. First, it elevates the Russell-wins scenario, which the text calls a wildcard that would rewrite the narrative, into a checkable statement at 0.15 that the naive reading drops entirely. Second, it converts the text's explicit hedge on haze, where it notes favourable winds or rain could deliver brief relief, into a 0.25 probability of the PSI staying below unhealthy all week, rather than assuming it crosses 50 twice. Third, it pulls the new-leak wildcard from the text's own list and makes it a checkable event at 0.30. The only statement where both readings align is the AI and bond-anxiety theme, which the text marks very-high and both keep above 0.5. The crystal forecast has four statements at or below 0.45, whereas the naive forecast has only one below 0.5, reflecting the text's own spread of uncertainty.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "George Russell won the F1 Singapore Grand Prix from his back-of-grid starting position.",
+        "probability": 0.15,
+        "domain": "society"
+      },
+      {
+        "id": "C2",
+        "text": "The Singapore government announced a formal review or amendment of property-disclosure rules applicable to civil servants purchasing homes near planned transit or land-use announcements by 21 October.",
+        "probability": 0.45,
+        "domain": "politics"
+      },
+      {
+        "id": "C3",
+        "text": "A second set of names or additional transaction data surfaced publicly in the civil-servant property case, expanding the investigation beyond the original eight referred individuals.",
+        "probability": 0.3,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "MAS or a Singapore sovereign fund published a statement explicitly using the phrase AI unwind or AI bubble in reference to portfolio risk.",
+        "probability": 0.7,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "The F1 Singapore GP entertainment program, including fireworks and outdoor fan zones, was officially scaled back or the race shortened because the PSI exceeded 100 on race day.",
+        "probability": 0.35,
+        "domain": "environment"
+      }
+    ]
+  },
+  "display": {
+    "headline": "F1, haze, and AI anxiety define Singapore week",
+    "emojis": [
+      "🏅",
+      "🌡️",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "The Grand Prix anchors public attention and tourism spending.",
+      "Indonesian peat-fire haze and heat stress schools, events, and commuters.",
+      "Temasek's AI-unwind warning and bond-yield pressure make finance the elite story."
+    ],
+    "tldr": "Singapore's week centred on a heat-stressed F1 race, worsening Indonesian haze, and mounting AI and bond-market anxiety. The civil-servant property scandal persisted in Parliament without a dramatic break, while energy-security talk rose on Hormuz concerns. The government responded with process and risk-management language rather than sweeping new policy.",
+    "eli5": null
+  }
+}

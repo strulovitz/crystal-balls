@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T11:20:58+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "Saudi Arabia entered the week under sustained Houthi missile and drone pressure. Attacks struck or were intercepted over Riyadh, Jeddah, Yanbu, and Mecca-area airspace, killing one civilian from falling debris. The East-West oil pipeline suffered damage that disrupted a major Red Sea export corridor. Saudi air defenses showed strain, with reports of interceptor shortages prompting emergency requests to the US, Turkey, the UK, and other partners. A Saudi F-15 was reported possibly shot down over Yemen. Brent crude climbed into the $105 to $109 range and Saudi equities fell. Washington approved 48 F-35 jets worth $24.3 billion for Riyadh. MBS pushed a multi-track diplomatic scramble involving Turkey, the UK, Egypt, Pakistan, and Oman. The Houthis advanced on the Red Sea coast near Bab el-Mandeb. A TV5Monde headline asked whether the US had abandoned Saudi Arabia. Saudi Aramco was offering replacement crude via Oman and warning European refiners of possible October supply gaps.",
+    "key_events": [
+      {
+        "event": "Houthi missile and drone waves hit or were intercepted over Riyadh, Jeddah, Yanbu, and Mecca-area airspace, with one civilian fatality from debris.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "The East-West oil pipeline was damaged, cutting a major Red Sea export route and forcing crude rerouting via Hormuz and Oman.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The United States approved the sale of 48 F-35 fighter jets to Saudi Arabia for $24.3 billion.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Saudi Arabia reported a shortage of Patriot and THAAD interceptor missiles and requested additional air-defense assets from allies.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Brent crude prices rose into the $105 to $109 per barrel range amid pipeline disruption and Red Sea shipping risk.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "💣",
+      "🛢️",
+      "🛡️"
+    ],
+    "emoji_reasons": [
+      "Houthi missile and drone attacks on multiple Saudi cities define the week's dominant threat.",
+      "The damaged East-West pipeline and elevated crude prices make oil the central economic story.",
+      "Saudi interceptor shortages and the scramble for allied air-defense systems frame the defense picture."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The text's dominant scenario, weighted at 70 to 80 percent, paints a week of managed pressure. Saudi Arabia absorbs two or three more Houthi missile and drone waves while conducting near-daily airstrikes into Yemen. The East-West oil pipeline is restored to roughly half capacity within five days. MBS secures a visible military commitment from Turkey or the UK for air-defense systems or naval support. Oil prices stay elevated but do not crash. No ground invasion launches. The US delivers interceptor missiles and political backing without declaring full war. The kingdom presents itself as secure but not isolated, with multiple allies lined up across the Gulf and beyond. The week closes with Saudi officials claiming defenses held, the pipeline partially flowing, and the crisis serious but contained under MBS's control.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Saudi Aramco announces that the East-West oil pipeline has been restored to at least 50 percent of its pre-damage throughput capacity.",
+        "probability": 0.72,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "At least two Houthi missile or drone attack waves are confirmed against Saudi targets in Riyadh, Jeddah, Yanbu, or the Mecca region.",
+        "probability": 0.78,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "Turkey or the UK publicly commits a specific air-defense battery or naval vessel to support Saudi Red Sea security operations.",
+        "probability": 0.48,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "Saudi Arabia conducts airstrikes on Houthi drone launch sites, missile storage, or radar installations in Yemen on at least four separate days.",
+        "probability": 0.82,
+        "domain": "security"
+      },
+      {
+        "id": "N5",
+        "text": "Brent crude oil trades above $100 per barrel on at least five of the seven trading days in the period.",
+        "probability": 0.62,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weights the full scenario distribution the text lays out rather than defaulting to the top case. While the 70-80 percent scenario envisions contained pressure, the 30-45 percent scenario of a direct hit on a major target near Mecca, Medina, Jeddah, or Yanbu carries real force, and the 15-25 percent escalation tail—a lost fighter, a tanker strike, a failed pipeline repair—shifts expected severity upward. The text's own caveat that the biggest near-term risk is the combination of interceptor shortages, export disruption, and Red Sea danger pulls probabilities on clean outcomes lower. Aramco's customer management becomes a visible event as October cargoes slip. A confirmed F-15 loss becomes a domestic political flashpoint rather than a footnote. The US interceptor shipment is near-certain in substance, but the text hedges that Washington ties the delivery to broader diplomatic asks, making timing uncertain within the seven-day window.",
+    "reasoning": "The naive reading takes the 70-80 percent contained-pressure scenario at face value and assigns high confidence to pipeline recovery and orderly attacks. The crystal reading applies the text's own 30-45 percent and 15-25 percent weights, which the naive largely ignores. Three specific adjustments: first, pipeline recovery probability drops because in the escalation scenario the text says repair fails badly, pulling the weighted figure well below the naive's 0.72. Second, a direct hit near Mecca or Medina, explicitly listed in the medium scenario, becomes a standalone checkable event at 0.35, buried in the naive's generic two-or-three-waves statement. Third, the F-15 loss, a political flashpoint in the escalation tail, surfaces at 0.20, absent from the naive entirely. The crystal also lowers full-restoration odds by more than 0.1 versus the naive's partial-recovery framing, reflecting the text's own hedge that damage may prove worse than initially reported.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A Houthi missile or drone strike directly hits a Saudi oil terminal, airport, or district within 20 kilometres of Mecca or Medina, killing at least one civilian.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "Saudi Aramco announces the East-West oil pipeline is restored to at least 75 percent of its pre-damage throughput.",
+        "probability": 0.48,
+        "domain": "economy"
+      },
+      {
+        "id": "C3",
+        "text": "The United States publicly approves a specific shipment of Patriot or THAAD interceptor missiles to Saudi Arabia with a named delivery timeline.",
+        "probability": 0.58,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C4",
+        "text": "A Saudi F-15SA fighter jet is confirmed shot down over Yemen, with wreckage located and the fate of at least one crew member publicly announced.",
+        "probability": 0.18,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "Saudi Aramco cancels or delays delivery of at least two crude oil cargoes to European refineries in the October delivery window.",
+        "probability": 0.63,
+        "domain": "economy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Saudi Arabia Faces Houthi Barrage, Pipeline Damage, Ally Scramble",
+    "emojis": [
+      "⚔️",
+      "🛢️",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "Continuous Houthi strikes and Saudi counter-airstrikes make active combat the defining feature.",
+      "The pipeline outage and oil-market volatility anchor the economic stakes.",
+      "MBS's multi-track diplomacy with Turkey, the UK, Egypt, and Pakistan is the week's central political effort."
+    ],
+    "tldr": "The text predicted Saudi Arabia would absorb continued Houthi strikes and respond with near-daily airstrikes into Yemen, partially restore the damaged East-West pipeline within five days, and secure visible military support from at least one Western or regional ally while oil markets stayed volatile and the crisis remained serious but contained.",
+    "eli5": null
+  }
+}

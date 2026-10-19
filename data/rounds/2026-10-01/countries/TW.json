@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "TW",
+  "name": "Taiwan",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T13:10:21+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The text described Taiwan in a state of diplomatic and economic pressure heading into the late-September week. The Trump-Xi summit loomed as the dominant external factor, with Xi expected to press Washington on arms sales, trade, and AI. US arms sales to Taiwan sat in a prolonged delay, with defense firms publicly complaining about the holdup. Chinese Coast Guard vessels had deployed east of the island in what the text read as a quiet footprint expansion. Taiwan responded with live-fire missile and drone drills, signaling readiness without escalation. Beijing appeared to be courting Taiwan's opposition, with a Wall Street Journal report of Xi seeing a rare window to convince the island resistance was futile. On the economic side, TSMC held a 3-nanometer mass production ceremony in Tainan and broke ground on an advanced packaging park in Kaohsiung, while the Taiex hit record highs on AI optimism. The central bank held rates for a tenth consecutive quarter. Micron employees in Taoyuan were protesting over wages and conditions. Taiwan's Coast Guard was planning its first visit to the Philippines in decades, and Asian Games representation politics created additional friction.",
+    "key_events": [
+      {
+        "event": "Trump-Xi summit set to dominate cross-strait diplomacy with Xi expected to press on arms sales and trade",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Chinese Coast Guard vessels deployed east of Taiwan in a quiet footprint expansion",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "TSMC held 3-nanometer mass production ceremony in Tainan and broke ground on Kaohsiung packaging park",
+        "date": null,
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "Micron employees in Taoyuan protested over wages and working conditions",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Taiwan conducted live-fire missile and attack-drone drills to signal readiness",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "technology",
+      "society"
+    ],
+    "emojis": [
+      "🌐",
+      "🚢",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The Trump-Xi summit and quiet diplomacy define the dominant diplomatic context for Taiwan this week.",
+      "Chinese Coast Guard activity east of the island and live-fire drills mark the maritime and military tension.",
+      "TSMC milestones, record Taiex levels, and AI-chip optimism drive the economic and technology story."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's top-listed predictions at face value. The Trump-Xi summit dominates the narrative, with the US issuing a managed statement on arms sales while avoiding explicit concessions to Beijing. Chinese vessels appear east of Taiwan for several days, constituting the expected low-intensity pressure. TSMC announces another production milestone, keeping the chip sector firmly in the global spotlight. The Micron Taoyuan dispute produces a second organized protest, confirming the labor friction the text flagged. A senior cross-strait political figure or delegation makes a publicly announced visit to Taiwan, confirming Beijing's effort to court the island's domestic politics. The overall picture is one of managed tension: no war, no surprise arms package, strong chip news, and quiet diplomatic maneuvering by Taipei to preserve its international space. The central bank holds rates, the economy stays strong, and the week closes with Taiwan neither given away nor fully reassured.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The US State Department issues a formal public statement addressing the status of pending Taiwan arms sales within 72 hours of the Trump-Xi joint statement.",
+        "probability": 0.78,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "Chinese Coast Guard or naval vessels are visually confirmed operating in waters east of Taiwan for at least three consecutive days.",
+        "probability": 0.75,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "TSMC announces a new production milestone or capacity expansion figure related to its 3-nanometer or advanced packaging operations.",
+        "probability": 0.85,
+        "domain": "technology"
+      },
+      {
+        "id": "N4",
+        "text": "Micron's Taoyuan workforce holds a second organized protest rally or joint press conference with its union within the week.",
+        "probability": 0.7,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "A senior cross-strait political figure or business delegation makes a publicly announced visit or symbolic meeting in Taiwan.",
+        "probability": 0.3,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weighs the text's full probability distribution, including its minority scenarios and explicit hedges. While the naive case centers on managed tension and continued chip strength, the crystal reading elevates the probability of a US-China combined trade-chips-arms package, a scenario the text lists as less likely but still possible, and the risk of a global AI slowdown triggering a sharp single-day Taiex drop. The Micron dispute is more likely to escalate into a formal labor filing than to settle quickly, reflecting the text's own caveat that a deal is possible but not guaranteed. Chinese maritime activity is expected, but the crystal reading distinguishes between the likely modest Coast Guard presence and the less likely large-scale exercise. The Philippines Coast Guard visit is probable but the text's own note that Beijing will protest or object tempers the diplomatic optimism. The overall picture carries genuine uncertainty around the summit's precise language and the AI sector's structural vulnerability to sentiment shifts.",
+    "reasoning": "This reading differs from the naive one in three specific ways. First, it promotes the text's own less-likely-but-possible scenario of a combined US-China trade-chips-arms package to a checkable statement, because the text explicitly names it and assigns it non-zero weight, whereas the naive reading treats it as background. Second, it reframes the Micron story around escalation rather than settlement, because the text's caveat that a deal is possible but not guaranteed and its framing of the protest as already large enough to matter suggest momentum toward confrontation over resolution. Third, it introduces the AI-slowdown-driven Taiex drop as a distinct checkable event, because the text flags the chip-stocks-tumble headline as a genuine warning rather than a passing note. The naive reading, by contrast, lumps all chip news under continued strength at 85 percent and ignores the reversal risk the text itself highlights.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The US and China jointly announce a combined trade, semiconductor, and arms package that references Taiwan by name within the week.",
+        "probability": 0.25,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "A major global AI company issues a public statement calling for a development slowdown, and the Taiex drops more than 3 percent in a single trading session.",
+        "probability": 0.6,
+        "domain": "technology"
+      },
+      {
+        "id": "C3",
+        "text": "Micron's Taoyuan workforce files a formal grievance with Taiwan's Ministry of Labor or announces a one-day work stoppage.",
+        "probability": 0.45,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "Chinese Coast Guard or naval vessels are visually confirmed operating in waters east of Taiwan for at least three consecutive days.",
+        "probability": 0.72,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "Taiwan's Coast Guard publishes a specific date for its planned first visit to the Philippines in decades.",
+        "probability": 0.55,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Managed Tension, Chip Strength, and Diplomatic Squeeze for Taiwan",
+    "emojis": [
+      "🌐",
+      "🚢",
+      "💻"
+    ],
+    "emoji_reasons": [
+      "The core prediction centers on diplomatic maneuvering around the Trump-Xi summit and quiet international outreach.",
+      "Chinese maritime pressure east of Taiwan is the primary security vector the text expects to intensify.",
+      "TSMC, AI chips, and the Taiex dominate the economic forecast with strong but volatile momentum."
+    ],
+    "tldr": "Taiwan enters the week under diplomatic squeeze from the Trump-Xi summit cycle, with US arms sales stalled and China pressing from the sea. TSMC chip momentum and record markets dominate business news, while a Micron labor dispute and quiet Philippines diplomacy round out the domestic picture. No war, no surprise package, but visible pressure and signaling on all fronts.",
+    "eli5": null
+  }
+}

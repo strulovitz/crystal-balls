@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "KP",
+  "name": "North Korea",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T21:45:44+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, North Korea was in a period of managed escalation in early October 2026. Kim Jong Un personally oversaw a hypersonic missile drill, which was widely reported by KCNA. A mine blast along the DMZ injured South Korean soldiers, and Seoul demanded an official apology. Pyongyang dismissed the demand as an insult and called Seoul's investigation a farce. Two North Korean soldiers captured in Ukraine were transferred into South Korean custody, creating a sensitive diplomatic row. Zelenskiy claimed North Korea was preparing to send another 10,000 troops to support Russia. Kim Yo Jong served as the DPRK's loudspeaker on the mine-blast dispute. A signal through the Trump-Rodman channel hinted at a possible future summit with Kim. Defections had dropped, and Pyongyang appeared to be tightening internal security and border surveillance. The overall picture was one of loud, threatening, missile-focused posturing combined with deepening military logistics toward Russia, while leaving a thin diplomatic channel slightly open toward Washington and Beijing.",
+    "key_events": [
+      {
+        "event": "Kim Jong Un personally oversaw a hypersonic missile drill reported by KCNA.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "A mine blast along the DMZ injured South Korean soldiers and Seoul demanded an official apology.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Two North Korean soldiers captured in Ukraine were transferred into South Korean custody.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Zelenskiy claimed North Korea was preparing to send another 10,000 troops to Russia.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Kim Yo Jong issued sharp statements dismissing Seoul's apology demand as an insult.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "🚀",
+      "🪖",
+      "🗣️"
+    ],
+    "emoji_reasons": [
+      "Missile and drone drills dominated the week's North Korean military activity.",
+      "Troop and equipment movement toward Russia was a central thread of the situation.",
+      "Sharp propaganda statements from Kim Yo Jong and the Foreign Ministry set the tone of verbal escalation."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicted a week dominated by managed escalation along its top five scenarios. KCNA would announce at least one new missile, drone, or air-defense exercise. State media would show Kim Jong Un inspecting a military unit or reviewing missile systems. Kim Yo Jong or the Foreign Ministry would issue a statement calling Seoul's apology demand an insult to national dignity. South Korean or Russian media would confirm additional North Korean troops or equipment arriving near the Russian border. A minor incident, such as another mine blast or a patrol confrontation, would occur along the DMZ. The week would run from early KCNA reports of drills, through a mid-week sharp verbal strike against Seoul, to continued Russian logistics and a possible quiet backchannel with China or the US by the weekend. The text's single best prediction was that by the week's end North Korea would have announced a new missile activity, insulted Seoul again, and moved troops toward Russia, with only a 10-to-15-percent chance of full-scale war.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "KCNA announces a new missile, drone, or air-defense exercise within the week.",
+        "probability": 0.85,
+        "domain": "security"
+      },
+      {
+        "id": "N2",
+        "text": "State media shows Kim Jong Un inspecting a military unit or reviewing missile systems.",
+        "probability": 0.9,
+        "domain": "politics"
+      },
+      {
+        "id": "N3",
+        "text": "Kim Yo Jong or the Foreign Ministry issues a statement calling Seoul's apology demand an insult.",
+        "probability": 0.85,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "South Korean or Russian media confirm additional North Korean troops or equipment arriving near the Russian border.",
+        "probability": 0.75,
+        "domain": "security"
+      },
+      {
+        "id": "N5",
+        "text": "A mine detonation, shooting, or patrol confrontation occurs along the DMZ.",
+        "probability": 0.45,
+        "domain": "security"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading treats the text's full sixteen-item probability distribution as a genuine scenario space rather than a ranked list. The top scenario of a missile test, a Kim Jong Un media appearance, and a sharp statement against Seoul still anchors the forecast, but three distinct minority events surface as standalone, checkable predictions. A strategically timed hypersonic or long-range test explicitly framed as a response to Seoul's apology demand, which the text assigns 25-to-40 percent probability, becomes its own statement. A formal Pyongyang statement addressing the status of the two soldiers in South Korea, given 20-to-35 percent, is pulled out of the general tighten-the-screws narrative. The Trump-Kim meeting signal, at 10-to-25 percent, is treated as a real diplomatic possibility rather than background noise. The DMZ-incident probability is trimmed below the text's upper bound because the text itself notes Pyongyang may prefer to stay quiet and observe Seoul's reaction.",
+    "reasoning": "The naive reading lifts the text's top-five most-likely predictions and stops. The crystal reading instead reads the full distribution and asks which lower-probability items are distinct, checkable events that the top-five list buries or ignores. Three adjustments distinguish the crystal set. First, the strategically timed test scenario (item 10, 25-to-40 percent) is elevated into a standalone prediction because it is a specific, verifiable event the naive top-five omits. Second, the POW status statement (item 11, 20-to-35 percent) is surfaced as a separate diplomatic act rather than folded into a general internal-tightening description. Third, the Trump-Kim meeting signal (item 16, 10-to-25 percent) gets its own statement instead of being dismissed as low-odds color. The DMZ-incident probability is also reduced from the text's 0.50 upper bound to 0.42, reflecting the text's own caveat that Pyongyang may choose silence over a second provocation to gauge Seoul's reaction.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "State media reports Kim Jong Un at a military site, inspecting equipment or listening to a briefing.",
+        "probability": 0.88,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "North Korea conducts a hypersonic or long-range ballistic missile test explicitly framed as a response to Seoul's apology demand.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "Pyongyang issues an official statement specifically addressing the status of the two North Korean soldiers now in South Korea.",
+        "probability": 0.3,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C4",
+        "text": "A minor armed incident or loudspeaker broadcast exchange occurs along the DMZ.",
+        "probability": 0.42,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "South Korean or US media report that a Trump-Kim summit has been announced for the following month.",
+        "probability": 0.18,
+        "domain": "diplomacy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "North Korea Escalates Missiles, Insults Seoul, Feeds Russia",
+    "emojis": [
+      "🚀",
+      "🗣️",
+      "🪖"
+    ],
+    "emoji_reasons": [
+      "The core prediction centers on at least one new missile or drone test announced by KCNA.",
+      "A sharp statement calling Seoul's apology demand an insult was flagged as highly probable.",
+      "Continued troop and logistics movement toward Russia underpinned the security picture."
+    ],
+    "tldr": "The text predicted managed escalation: a new missile or drone test, a sharp statement insulting Seoul over the DMZ mine blast, continued troop movement toward Russia, and a real but limited chance of another border incident. No full-scale war was expected within the week.",
+    "eli5": null
+  }
+}

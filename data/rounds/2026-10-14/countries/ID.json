@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "ID",
+  "name": "Indonesia",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T19:07:48+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, Indonesia in early-to-mid October 2026 was simultaneously managing fiscal tightening, a weak rupiah and stock market, and worsening El Niño-related wildfires. A new finance minister had just ordered travel budget cuts and spending freezes across ministries. The JCI stock index had fallen roughly 30 percent over the year, foreign outflows were pressing on both equities and bonds, and Bank Indonesia was actively defending the currency. El Niño drought had triggered severe peatland fires in Kalimantan and Sumatra, transboundary haze had closed schools in Malaysia and affected Singapore, and rural Borneo villages had gone months without rain, creating a water crisis. The Constitutional Court had ruled on Vice President Gibran Rakabuming Raka's education credentials, former president Jokowi's diploma was still generating legal controversy, and AI-generated images had intensified public debate. The government had named an advisory council of billionaires, politicians, and Islamic leaders. Parliament had passed higher severance benefits into labor law. Bank Indonesia and the government were pushing green industrial investment in batteries, solar, aluminium, and nickel while attempting to project fiscal discipline and market confidence.",
+    "key_events": [
+      {
+        "event": "A new finance minister ordered travel budget cuts and spending freezes across government ministries.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "El Niño drought triggered severe peatland fires in Kalimantan and Sumatra, producing transboundary haze affecting Singapore and Malaysia.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "The Constitutional Court issued a ruling on Vice President Gibran Rakabuming Raka's education credentials.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Parliament passed higher severance benefits into national labor law.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Rural Borneo villages reported months without rain, creating a localized water crisis.",
+        "date": null,
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "The government named an advisory council comprising billionaires, politicians, and Islamic leaders.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "economy",
+      "environment",
+      "politics",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🔥",
+      "💰",
+      "🌡️"
+    ],
+    "emoji_reasons": [
+      "Wildfires and transboundary haze in Kalimantan and Sumatra dominated the environmental story.",
+      "Fiscal tightening, budget freezes, and rupiah defense defined the economic pressure.",
+      "El Niño-driven drought and heat stressed both agriculture and peatland fire conditions."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's top-probability predictions at face value. Haze and fires worsen in Kalimantan, prompting more emergency operations and formal complaints from Singapore and Malaysia. The finance ministry announces additional spending cuts and budget reallocations across departments. Bank Indonesia shifts its currency defense away from spot-market intervention toward swaps, forwards, and macroprudential tools, signaling the FX stance is unchanged. The JCI stays volatile in the 5900 to 6100 range without a sustained recovery. The government or Danantara-linked figures make new confidence-building statements about the stock market and strategic investment. A new project announcement appears in the battery, nickel, solar, or EV sector at moderate probability. The overall picture is one of controlled stress: the government projects discipline while markets stay nervous and smoke fills the air in Borneo.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The number of active fire hotspots in Kalimantan increases by more than 20 percent compared to the previous week, as reported by Indonesia's BNPB.",
+        "probability": 0.85,
+        "domain": "environment"
+      },
+      {
+        "id": "N2",
+        "text": "The Indonesian finance ministry announces at least one new spending cut or budget reallocation affecting ministry-level operating budgets.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N3",
+        "text": "Bank Indonesia's weekly policy statement explicitly names swap, forward, or macroprudential tools as its primary FX defense instrument rather than spot-market intervention.",
+        "probability": 0.72,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "The Singapore Ministry of Foreign Affairs issues a public statement requesting or acknowledging Indonesian cooperation on transboundary haze management.",
+        "probability": 0.65,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N5",
+        "text": "The Indonesian government or Danantara announces a new investment project in the battery, solar, aluminium, nickel, or EV sector.",
+        "probability": 0.45,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full scenario distribution, including its explicitly stated alternatives and caveats. Haze still worsens, but the probability drops because the text names rain and successful firefighting as upside surprises. The finance ministry's austerity push is captured alongside the simultaneous green investment announcements, reflecting the text's emphasis on contradictory government messaging. The advisory council, described at only 40 to 55 percent probability, becomes visible through a first substantive public meeting. The Jokowi diploma case generates a new court filing, consistent with the text's expectation of continued legal noise. At the low-probability tail, Anak Krakatau produces a seismic bulletin. The crystal reading thus captures the triple squeeze more completely: the advisory council's elite composition, the legal drama's persistence, and the volcanic uncertainty all enter the picture alongside the dominant haze and budget stories.",
+    "reasoning": "This reading differs from the naive one in three specific ways. First, the haze probability drops from 0.85 to 0.72 because the text explicitly lists rain and successful firefighting as upside surprises that the naive reading ignores. Second, two statements, the advisory council meeting and the Anak Krakatau bulletin, come from scenarios the text assigns only 40 to 55 percent and low chance respectively, which the naive headline-case reading would skip entirely. Third, the austerity-plus-investment statement captures the text's own emphasis on the contradiction between cutting waste and protecting strategic growth, rather than treating them as separate stories. The naive reading treats each prediction in isolation; the crystal reading lets the text's caveats, hedges, and alternative scenarios reshape the probability assignments.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "Active fire hotspots in Kalimantan increase for a second consecutive week, but the BNPB simultaneously reports at least one district where fire conditions improved due to rainfall.",
+        "probability": 0.72,
+        "domain": "environment"
+      },
+      {
+        "id": "C2",
+        "text": "The presidential advisory council of billionaires, politicians, and Islamic leaders holds a first substantive meeting and publishes a joint statement on economic priorities.",
+        "probability": 0.48,
+        "domain": "politics"
+      },
+      {
+        "id": "C3",
+        "text": "The Indonesian finance ministry announces both a new spending cut and a new green industrial project approval in the same weekly briefing.",
+        "probability": 0.62,
+        "domain": "economy"
+      },
+      {
+        "id": "C4",
+        "text": "A new court filing, evidentiary submission, or fact-check report related to the Jokowi diploma controversy is published or announced within the week.",
+        "probability": 0.55,
+        "domain": "politics"
+      },
+      {
+        "id": "C5",
+        "text": "Indonesia's BMKG volcanic agency issues a new seismic activity bulletin or minor eruption alert for Anak Krakatau.",
+        "probability": 0.18,
+        "domain": "environment"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Indonesia faces triple squeeze of haze, austerity, and markets",
+    "emojis": [
+      "🔥",
+      "📉",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The text predicted worsening wildfire haze as the dominant visible story.",
+      "Stock market volatility and rupiah defense were expected to stay central.",
+      "Government juggling of budget cuts, investment promises, and political noise defined the political picture."
+    ],
+    "tldr": "The text predicted a week of controlled stress: worsening haze in Borneo, expanded fiscal cuts, nervous markets, and a government projecting discipline while smoke fills the air. No sudden crisis, but visible strain across budget, climate, and confidence.",
+    "eli5": null
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "CD",
+  "name": "DR Congo",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T17:38:23+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "The text reported a multi-crisis situation in DR Congo as of early October 2026. An Ebola outbreak, described as the worst in the country's history, had already produced over 8,000 cases and 4,000 deaths across 63 affected areas, concentrated in North Kivu, Ituri, and surrounding eastern corridors. The UN Security Council had voted for a gradual withdrawal of the MONUSCO peacekeeping force, beginning a security transition in the east. An army plane crash had killed at least 17 people, including two senior military justice officials. A local Ebola-focused politician, Marie-Celestin Karondwa, had been beaten to death in Butembo after speaking on radio about prevention measures. Thousands of displaced people had fled an Ebola-hit camp after soldiers entered the site, and a burned transit camp had sent more families running. A Lake Kivu boat capsize had killed at least 12 with dozens missing. In the economic sphere, the government had announced plans to audit major miners annually from 2027, a US-based company called KoBold was using AI-guided exploration for critical minerals, and conflict-gold trafficking along the DRC-Uganda border was under scrutiny. The national football team had won 2-1 in Zimbabwe, providing a rare morale boost.",
+    "key_events": [
+      {
+        "event": "Ebola outbreak surpasses 8,000 cases and 4,000 deaths across 63 areas in eastern DRC, described as the worst in the country's history.",
+        "date": null,
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "UN Security Council votes for a gradual withdrawal of the MONUSCO peacekeeping force from eastern DRC.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "An army plane crash kills at least 17 people, including two senior military justice officials.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Local politician Marie-Celestin Karondwa is beaten to death in Butembo after defending Ebola prevention measures on radio.",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Thousands of displaced people flee an Ebola-hit camp after soldiers enter the site and a transit camp is burned.",
+        "date": null,
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "DRC announces a plan to audit major mining companies annually starting in 2027 as part of a local-content push.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 9,
+    "domains_active": [
+      "health",
+      "security",
+      "politics",
+      "economy"
+    ],
+    "emojis": [
+      "🦠",
+      "⚔️",
+      "🛡️"
+    ],
+    "emoji_reasons": [
+      "The dominant story is the worst-ever Ebola outbreak in DRC with thousands of confirmed cases and deaths across the east.",
+      "The eastern front is an active battlefield where M23, Wazalendo, and foreign fighters are fighting and exploiting a weakening security posture.",
+      "The UN peacekeeping withdrawal creates a transition window in which security gaps are forming and new threats are emerging."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The naive reading takes the text's top-confidence predictions at face value. The dominant story is a rapidly escalating Ebola epidemic crossing 9,000 cases, with the UN Security Council's phased withdrawal decision producing visible operational changes in the east. The plane crash triggers a formal investigation and military justice reshuffle. The killing of politician Karondwa generates political statements and at least one small commemorative protest in Butembo, Goma, or Kinshasa. The mining regulator issues a consultation document on the 2027 audit regime. At least one security incident involving M23, Wazalendo, or a government or UN convoy occurs in North or South Kivu. Displacement figures from UNHCR and OCHA rise week over week. International partners announce additional emergency funding or logistics packages for the Ebola response. The week ends with the country more medicalized and more security-focused than it began.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "DRC's health ministry officially reports Ebola cases exceeding 9,000 and confirmed deaths exceeding 4,300 in a weekly bulletin published between 14 and 21 October.",
+        "probability": 0.85,
+        "domain": "health"
+      },
+      {
+        "id": "N2",
+        "text": "At least one armed security incident involving M23, Wazalendo fighters, or a FARDC or UN convoy occurs in North Kivu or South Kivu.",
+        "probability": 0.72,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "The DRC Ministry of Defence announces a formal investigation into the army plane crash and publishes names of candidates to replace the two deceased military justice officials.",
+        "probability": 0.68,
+        "domain": "politics"
+      },
+      {
+        "id": "N4",
+        "text": "Opposition parties or civil society groups hold a public commemoration or protest event in Butembo, Goma, or Kinshasa honoring the killed Ebola politician Marie-Celestin Karondwa.",
+        "probability": 0.55,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "The DRC mining regulator publishes a circular or public consultation document outlining the 2027 annual audit regime for major mining companies.",
+        "probability": 0.42,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The crystal reading weighs the text's full probability distribution, including its medium and lower-confidence scenarios and stated caveats. While the Ebola case still dominates, the text explicitly notes MSF believes the true toll is undercounted and that a high-profile death in Kinshasa would change the entire dynamic. The WHO Emergency Committee meeting and possible cross-border cases in Uganda or Rwanda represent medium-confidence scenarios that the naive reading underweights. The KoBold exploration dispute and a mining worker walkout are lower-probability but checkable events the text flags as wildcards. The text also hedges that the outbreak will not be contained, the UN will not fully leave, and no coup is expected within seven days. This reading shifts probability mass toward events the text describes as possible but not headline-guaranteed, and adjusts the central Ebola figure to reflect the text's own uncertainty about official counts versus ground reality in insecure eastern zones.",
+    "reasoning": "The naive reading extracts only the text's high-confidence tier and treats it as the near-certain outcome. The crystal reading incorporates the text's own medium-confidence and lower-confidence tiers as well as its listed wildcards. Specifically, the WHO Emergency Committee session, cross-border cases in Uganda or Rwanda, a high-profile Ebola death in Kinshasa, and a KoBold community dispute all appear in the text but are underrepresented in the naive extraction. The crystal reading also lowers the probability on the exact 9,000-case threshold because the text itself says MSF believes official numbers undercount reality, introducing ambiguity about what the ministry will actually announce. Finally, the text's explicit list of what it does not expect (no full state collapse, no nationwide lockdown, no immediate coup) constrains the upper bounds of each probability and justifies the lower values on the minority-scenario statements.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "DRC's health ministry reports Ebola cases between 9,000 and 10,500 and deaths between 4,300 and 5,000 in an official weekly bulletin, while MSF or a partner NGO publicly states the ground toll is higher.",
+        "probability": 0.72,
+        "domain": "health"
+      },
+      {
+        "id": "C2",
+        "text": "The WHO convenes an Emergency Committee session on the DRC outbreak and publishes updated containment recommendations within the week.",
+        "probability": 0.52,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C3",
+        "text": "At least one confirmed Ebola case is reported in Uganda or Rwanda, and the DRC or the affected neighbor imposes enhanced border screening at a specific crossing point.",
+        "probability": 0.35,
+        "domain": "health"
+      },
+      {
+        "id": "C4",
+        "text": "A senior DRC government minister, military general, or other high-profile official is confirmed dead from Ebola in Kinshasa, and the capital announces emergency movement restrictions within 48 hours.",
+        "probability": 0.22,
+        "domain": "society"
+      },
+      {
+        "id": "C5",
+        "text": "A community protest or mining worker walkout occurs near a KoBold Metals exploration site in the DRC over land access, water rights, or local-content demands, and the company or the provincial government issues a public response within the week.",
+        "probability": 0.28,
+        "domain": "economy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Ebola tops 9,000 as UN transition begins in eastern DRC",
+    "emojis": [
+      "🦠",
+      "🛡️",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The central prediction is that official Ebola case counts will cross the 9,000 threshold with deaths climbing past 4,300.",
+      "The UN peacekeeping withdrawal is predicted to produce visible operational changes and at least one security incident in the east.",
+      "The plane crash investigation, Karondwa aftermath, and mining audit announcements will generate government and parliamentary activity."
+    ],
+    "tldr": "The text predicted Ebola cases would surpass 9,000 with deaths exceeding 4,300, the UN peacekeeping transition would create visible security gaps in eastern DRC, and the plane crash and politician's killing would fuel political tension. Mining audits and a football win would provide secondary headlines.",
+    "eli5": null
+  }
+}

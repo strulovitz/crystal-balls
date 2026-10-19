@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "ZA",
+  "name": "South Africa",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T23:25:21+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "Navi Pillay won the Nobel Peace Prize, generating national pride and sharpening diplomatic debates around the ICC and Gaza. Anti-migrant protests erupted in Soweto and Durban, prompting the government to withdraw an asylum directive as a tactical de-escalation. Moody's publicly stated South Africa was on the right track for a possible credit-rating upgrade, lending markets cautious hope. Manufacturing output fell and mining production weakened, with factories struggling against surging Chinese imports. Deputy police chief Sibiya departed amid sex-offence charges, deepening institutional uncertainty in the security sector. South Africa lost the first Test match to Australia convincingly, creating public frustration and social-media backlash. Morgan Stanley signalled expectations of renewed fuel-tax relief in the coming fiscal window. Globally, US inflation data, oil prices, and Middle East tensions including Houthi activity in the Red Sea created an uncertain external backdrop. The Rwanda Formula 1 announcement added a pan-African confidence narrative. The overall picture was one of a country under multiple simultaneous pressures: fiscal, social, institutional, and external.",
+    "key_events": [
+      {
+        "event": "Navi Pillay was awarded the Nobel Peace Prize, triggering national celebration and diplomatic debate.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Anti-migrant protests in Soweto and Durban led the government to withdraw an asylum directive.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Moody's stated South Africa is on the right track for a potential credit-rating upgrade.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Deputy police chief Sibiya departed the SAPS amid sex-offence charges.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Manufacturing and mining output data fell, with factories struggling against Chinese imports.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "security",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "✊",
+      "🪙",
+      "🏭"
+    ],
+    "emoji_reasons": [
+      "Anti-migrant protests in Soweto and Durban are the central social-security story.",
+      "Currency volatility and market jitters around US inflation and oil dominate the economic backdrop.",
+      "Manufacturing and mining weakness signal structural economic pressure on households and jobs."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text predicts a managed-tension week where the government announces or extends fuel-tax relief, giving consumers short-term breathing room while markets watch bond yields. Anti-migrant protests reappear in Soweto or Durban but stay localized, with police on high alert and occasional arrests. The rand chops around in a narrow band, sensitive to US CPI prints and oil prices, without a strong directional trend. Moody's right-track language continues to underpin market confidence and investor mood. Navi Pillay makes public appearances amplifying South Africa's Nobel moment, while the ICC and Gaza debate sharpens in the media. SAPS announces at least one leadership change after Sibiya's exit. The Proteas face intense pressure in the second Test. Manufacturing warnings persist, and energy costs stay politically sensitive. The overall picture is a noisy but controlled week: the government balances consumer relief, market credibility, and protest management without a full crisis breaking open.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The South African government announces or extends fuel-tax relief by October 21, 2026.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N2",
+        "text": "Anti-migrant protests draw crowds in at least one of Soweto, Durban, or Cape Town during the week of October 14 to 21, 2026.",
+        "probability": 0.65,
+        "domain": "society"
+      },
+      {
+        "id": "N3",
+        "text": "The rand closes the trading week ending October 21, 2026 within 5% of its October 14 opening level against the US dollar.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "Navi Pillay appears in at least one televised or printed interview discussing her Nobel Prize between October 14 and October 21, 2026.",
+        "probability": 0.85,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N5",
+        "text": "The South African Police Service publicly announces at least one new deputy commissioner or acting appointment by October 21, 2026.",
+        "probability": 0.42,
+        "domain": "security"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "This reading weights the text's full scenario distribution rather than taking the base case alone. The text explicitly flags a worse path: hot US inflation, an oil spike, a fiscally loose fuel-tax package, protests spreading beyond Soweto and Durban, and a new SAPS scandal. The crystal reading assigns meaningful probability to the fuel-tax announcement being perceived as politically motivated, pushing bond yields up and the rand down over the following days. It takes seriously the text's caveat that the rand could weaken quickly if external conditions deteriorate. The Pillay Nobel story is read less as pure celebration and more as a vector for ICC and Gaza diplomatic friction that surfaces in public statements. Manufacturing weakness is treated as a structural drag producing concrete corporate warnings rather than just soft mood. The overall probability of a clean, calm week is lower than the naive reading implies, and the downside scenarios carry more weight than the base case suggests.",
+    "reasoning": "The naive reading takes the stated base case at face value: fuel-tax relief lands cleanly, protests stay in two cities, the rand chops in a narrow band, Pillay celebrates, SAPS fills a vacancy. The crystal reading foregrounds the text's own alternative scenarios and hedges. The text explicitly says the fuel-tax package, if it looks loose, sends bond yields up and the rand down, and that protests could intensify quickly if triggers align. It also notes the rand could weaken quickly on hot US data or oil spikes. The crystal reading therefore lowers the probability of a clean fuel-tax win, raises the probability of protest spread to a third city, and introduces a concrete rand-depreciation threshold. Statement C4 draws from a minority scenario the naive reading compresses into chops around. The SAPS appointment probability drops because the text treats it as one of several possible internal moves rather than a guaranteed announcement.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The South African government announces fuel-tax relief, and 10-year bond yields rise by more than 25 basis points within two trading days of the announcement.",
+        "probability": 0.4,
+        "domain": "economy"
+      },
+      {
+        "id": "C2",
+        "text": "Anti-migrant protests spread to a city outside Soweto and Durban, with at least one arrest reported in local media by October 21, 2026.",
+        "probability": 0.35,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "Navi Pillay makes a public statement explicitly referencing the ICC or the Gaza conflict within the October 14 to 21, 2026 window.",
+        "probability": 0.75,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C4",
+        "text": "The rand loses more than 3% against the US dollar between October 14 and October 21, 2026.",
+        "probability": 0.3,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "At least one South African manufacturing or retail company issues a formal earnings warning or announces job cuts between October 14 and October 21, 2026.",
+        "probability": 0.6,
+        "domain": "economy"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Protests, Fuel-Tax Politics, and Nobel Spotlight Define Tense Week",
+    "emojis": [
+      "✊",
+      "💰",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "Localized anti-migrant protests and police readiness are the main social-risk thread.",
+      "Fuel-tax relief and budget politics are the central domestic economic story.",
+      "Pillay's Nobel win places South Africa in the global diplomatic conversation."
+    ],
+    "tldr": "South Africa faces a high-noise week with the rand sensitive to US inflation and oil, the government pushing fuel-tax relief, and localized protests under police watch. Pillay's Nobel and Moody's upgrade chatter frame the international narrative. The base case is managed tension, not crisis.",
+    "eli5": null
+  }
+}

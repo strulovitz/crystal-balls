@@ -6,7 +6,7 @@
   "code": "IL",
   "name": "Israel",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-17T21:10:49+03:00",
+  "generated_at": "2026-10-18T08:48:09+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -16,36 +16,42 @@
     "display": "done"
   },
   "position": {
-    "summary": "The text described a week in which Israel faced simultaneous diplomatic, military, and domestic pressures. The United Kingdom, France, and Canada moved to ban settlement goods and services, triggering a sharp diplomatic row that Israel treated as both an economic and political insult. Gaza airstrikes persisted under a US-brokered ceasefire arrangement, with the word ceasefire described as doing heavy lifting. The Israel-Lebanon talks in Rome were postponed, leaving a gap filled by continued strikes and UNIFIL friction. Netanyahu visited troops at Mount Hermon in southern Syria, provoking diplomatic protests from Damascus. The IAEA observed construction activity at Pickaxe Mountain, while Pezeshkian declared Iran would not surrender. The Houthis seized Mokha, raising Red Sea and Saudi-border risks. A report that the UAE had warned Netanyahu before October 7 detonated into a domestic political grenade. The Naza documentary about Gaza ignited a cultural and political storm. Elections were set for October 27, and a water deal with Jordan lapsed amid a reported Iranian strike that damaged US military aircraft on Jordanian soil.",
+    "summary": "Western European governments, led by the United Kingdom and France, imposed sanctions banning settlement goods and services from trade with Israel, triggering a 30-day deadline to close the British East Jerusalem consulate. Gaza sat under a US-brokered ceasefire arrangement, yet Israeli airstrikes on Hamas and Islamic Jihad targets pressed on. Israel-Lebanon negotiations in Rome were postponed, leaving southern Lebanon exposed to ongoing Israeli operations and UNIFIL friction. Prime Minister Netanyahu visited front-line troops on Mount Hermon in southern Syria, provoking Damascus to file diplomatic protests. The IAEA observed new construction at Iran's Pickaxe Mountain nuclear facility, while the Houthis seized the port of Mokha and issued maritime alerts near Saudi Arabia. President Trump declared the Iran conflict would end immediately after the US midterms. A report surfaced that the UAE had warned Netanyahu of an imminent threat before the October 7 attacks, igniting a domestic political firestorm ahead of the October 27 election. The Gaza documentary Naza sparked a cultural clash, with ministers threatening to strip the filmmakers of citizenship. Jordan's water-sharing agreement lapsed, and a reported Iranian strike damaged US military aircraft on Jordanian soil. Gulf states prepared to meet Iran on a temporary Hormuz shipping arrangement.",
     "key_events": [
       {
-        "event": "The UK, France, and Canada moved to ban settlement goods and services from Israeli-controlled territories.",
+        "event": "UK, France, Canada, and other Western European nations imposed bans on settlement goods and services, with a 30-day deadline to close the British East Jerusalem consulate.",
         "date": null,
         "domain": "diplomacy",
         "importance": 5
       },
       {
-        "event": "A report emerged that the UAE had warned Netanyahu before October 7, triggering a domestic political firestorm.",
+        "event": "Gaza remained under a US-brokered ceasefire while Israeli airstrikes on Hamas and Islamic Jihad targets continued.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "A report emerged that the UAE had warned Netanyahu before the October 7 attacks, triggering a domestic political crisis.",
         "date": null,
         "domain": "politics",
         "importance": 4
       },
       {
-        "event": "Gaza airstrikes continued under a US-brokered ceasefire arrangement, with the word ceasefire doing heavy diplomatic work.",
-        "date": null,
-        "domain": "security",
-        "importance": 4
-      },
-      {
-        "event": "The Houthis seized Mokha, raising Red Sea and Saudi-border shipping risks.",
-        "date": null,
-        "domain": "security",
-        "importance": 4
-      },
-      {
-        "event": "The Israel-Lebanon talks in Rome were postponed, leaving a diplomatic gap filled by continued Israeli strikes.",
+        "event": "Israel-Lebanon negotiations in Rome were postponed, leaving southern Lebanon to ongoing Israeli military operations.",
         "date": null,
         "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Houthis seized the port of Mokha and issued maritime alerts near Saudi Arabia, raising Red Sea shipping risk.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The Gaza documentary Naza ignited a cultural-political storm, with ministers threatening to strip the filmmakers of citizenship.",
+        "date": null,
+        "domain": "society",
         "importance": 3
       }
     ],
@@ -58,13 +64,13 @@
     ],
     "emojis": [
       "🚫",
-      "⚔️",
+      "💣",
       "🗳️"
     ],
     "emoji_reasons": [
-      "The UK, France, and Canada settlement-sanctions ban is the dominant diplomatic story of the week.",
-      "Gaza, Lebanon, and Syria strikes keep the military dimension active across multiple fronts.",
-      "The October 27 election and the UAE-warning political grenade define the domestic mood."
+      "Western European settlement sanctions and the British consulate closure deadline define the dominant diplomatic story.",
+      "Continued Israeli airstrikes in Gaza, Lebanon, and possible Syria/Iraq proxy targets keep military operations front and center.",
+      "The October 27 election, the UAE warning report, and the Naza documentary make domestic politics as consequential as the military situation."
     ]
   },
   "velocity": null,
@@ -72,92 +78,92 @@
   "naive_forecast": {
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
-    "summary": "The naive reading takes the 60 percent controlled-escalation scenario and the highest-confidence predictions at face value. Israel files formal diplomatic protests against the UK and expands entry restrictions on British diplomats and MPs. A significant strike hits a senior Hamas target in Gaza, drawing international attention. Netanyahu's office files a defamation lawsuit against Haaretz over the UAE pre-October-7 warning report. The IDF conducts an airstrike on a Hezbollah tunnel complex in southern Lebanon during the Rome talks gap. A Houthi projectile targets a commercial vessel near the Bab el-Mandab strait. The week is defined by symbolic diplomatic retaliation, sustained selective military pressure across multiple fronts, and a vicious pre-election political firestorm, with no decisive diplomatic breakthrough or full regional war breaking out.",
+    "summary": "The text's base case is controlled escalation across multiple fronts. Israel retaliates symbolically against Britain and Europe over settlement sanctions, files formal diplomatic protests, and tightens the 30-day window for the British East Jerusalem consulate closure. Gaza sees continued selective airstrikes under the nominal ceasefire, with at least one high-profile strike drawing international attention. In Lebanon, Israeli operations in the south proceed without a Rome-agreement framework, accompanied by UNIFIL friction and tunnel-demolition complaints. The UAE warning report becomes a defining pre-election battle, with the opposition filing a defamation suit against Haaretz and Netanyahu reframing the narrative. The Houthis and Iranian proxies keep Red Sea shipping jittery. Domestic politics turn vicious ahead of the October 27 election, with the Naza documentary adding a cultural dimension. No single decisive breakthrough occurs; the week is defined by parallel pressure points rather than one climactic event.",
     "statements": [
       {
         "id": "N1",
-        "text": "Israel announces expanded entry restrictions on British diplomats and MPs in response to the UK settlement-sanctions package.",
+        "text": "Israel's Foreign Minister Gideon Saar announces a formal diplomatic protest and an expanded entry ban on British Members of Parliament and senior diplomats.",
         "probability": 0.88,
         "domain": "diplomacy"
       },
       {
         "id": "N2",
-        "text": "Israel strikes a senior Hamas commander in Gaza, drawing international attention to the target's rank and civilian casualties.",
+        "text": "Israel strikes a senior Hamas or Islamic Jihad commander in a Gaza airstrike that triggers a UN Security Council statement.",
         "probability": 0.82,
         "domain": "security"
       },
       {
         "id": "N3",
-        "text": "Netanyahu's office files a defamation lawsuit against Haaretz over the UAE pre-October-7 warning report.",
+        "text": "An opposition party files a formal defamation lawsuit against Haaretz over its report that the UAE warned Netanyahu before October 7.",
         "probability": 0.85,
         "domain": "politics"
       },
       {
         "id": "N4",
-        "text": "The IDF conducts an airstrike on a Hezbollah tunnel complex in southern Lebanon during the Rome talks gap.",
-        "probability": 0.77,
+        "text": "Netanyahu visits troops on Mount Hermon or in the Golan buffer zone and delivers a televised address to the soldiers.",
+        "probability": 0.7,
         "domain": "security"
       },
       {
         "id": "N5",
-        "text": "A Houthi missile or drone targets a commercial vessel near the Bab el-Mandab strait.",
+        "text": "Israel announces a 24-hour official visit to United Nations headquarters in New York, complete with staged protest encounters outside the building.",
         "probability": 0.4,
-        "domain": "security"
+        "domain": "diplomacy"
       }
     ]
   },
   "crystal_forecast": {
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
-    "summary": "The crystal reading weighs the full 60-25-15 scenario distribution and the text's own caveats. The 25 percent holiday-calm scenario introduces the possibility that Yom Kippur and Gulf-Iran Hormuz diplomacy produce a temporary operational pause, pulling down the probability of a mid-week Gaza strike from the naive 0.82 to 0.70. The 15 percent sharp-escalation scenario and the text's 25-35 percent estimate for a direct Israel-Iran exchange make an Iranian missile or drone salvo a real tail risk, assigned 0.30. The UAE-warning political fight, while dominant, is tempered by the holiday lull, dropping to 0.55. The IAEA Pickaxe Mountain observation becomes a checkable diplomatic trigger at the intersection of multiple scenarios. The Houthi Bab el-Mandab event remains a moderate-risk surprise. Overall, the crystal reading sees a week that is more volatile at the edges and more uncertain in the middle than the headline case suggests.",
-    "reasoning": "The naive reading isolates the 60 percent base case and the five highest-confidence predictions, treating them as near-certainties. The crystal reading folds in the 25 percent holiday-calm scenario, which the text explicitly ties to Yom Kippur and Gulf-Iran Hormuz diplomacy, and the 15 percent sharp-escalation scenario. This forces a downward adjustment on the Gaza-strike probability from 0.82 to 0.70, a 0.12 shift exceeding the 0.10 threshold, and elevates two minority-scenario events into checkable predictions: the Hormuz shipping arrangement from the 25 percent scenario and the direct Israel-Iran exchange from the 15-35 percent range. The UAE-warning political fight is tempered because, in the holiday-lull scenario, domestic politics yield to diplomacy for several days. The IAEA Pickaxe Mountain observation, mentioned as background in the text, becomes a standalone checkable event because it intersects multiple scenarios simultaneously.",
+    "summary": "The crystal reading spreads probability across all three scenarios the text outlines. The 60 percent controlled-escalation case still dominates, but the 25 percent diplomatic-lull scenario and the 15 percent sharp-escalation scenario materially reshape the expected week. The text hedges heavily: the ceasefire is described as doing a lot of work, the sanctions are called symbolic, and the Lebanon talks are postponed rather than dead. A direct Israel-Iran missile exchange, which the text assigns a 25 to 35 percent probability, sits well outside the naive top case yet inside the sharp-escalation scenario the text explicitly flags as more likely than people think. The Houthi-Saudi shipping risk at 35 to 45 percent is another tail event the naive reading underweights. The diplomatic-lull scenario implies a temporary operational pause around Yom Kippur that the text acknowledges but the naive reading ignores. The net effect is a flatter distribution with more weight on headline-grabbing tail events and less on routine friction.",
+    "reasoning": "The naive reading treats the 60 percent controlled-escalation scenario as near-certain and lists the top seven predictions at their stated high confidences. The crystal reading does three things the naive one skips. First, it pulls the 25-35 percent direct Israel-Iran exchange from the text's less-likely-but-real-risk section into a first-class statement, because the text explicitly calls it more likely than people may think. Second, it lowers the settlement-sanctions probability from 0.88 to 0.75, because the text hedges that retaliation will be symbolic and an economic nuisance, and the 30-day consulate deadline likely lands closer to early October, pushing the concrete action just outside the target window. Third, it elevates the 25 percent diplomatic-lull scenario, in which Gulf-Iran Hormuz diplomacy and a Yom Kippur pause produce a one-week operations freeze, into a checkable statement. The result is a flatter probability distribution with more weight on tail events.",
     "confidence": 5,
     "statements": [
       {
         "id": "C1",
-        "text": "Israel and a Gulf state announce a temporary Hormuz shipping arrangement during the Yom Kippur holiday week.",
+        "text": "Israel and Iran exchange missile or drone salvos, with Israel striking at least one underground nuclear or missile site at Pickaxe Mountain.",
         "probability": 0.3,
-        "domain": "diplomacy"
+        "domain": "security"
       },
       {
         "id": "C2",
-        "text": "Israel conducts at least one significant airstrike in Gaza before Yom Kippur, followed by a 48-hour operational pause.",
-        "probability": 0.7,
-        "domain": "security"
+        "text": "Gulf states and Iran jointly announce a temporary Hormuz Strait shipping arrangement that suspends Red Sea military operations for seven days.",
+        "probability": 0.25,
+        "domain": "diplomacy"
       },
       {
         "id": "C3",
-        "text": "Iran launches a missile or drone salvo toward an Israeli or US-linked military target in the region.",
-        "probability": 0.3,
-        "domain": "security"
+        "text": "Israel's cabinet approves a formal countermeasures package targeting British settlement-goods imports and specific trade contracts.",
+        "probability": 0.75,
+        "domain": "economy"
       },
       {
         "id": "C4",
-        "text": "An opposition leader announces a formal no-confidence motion citing the UAE pre-October-7 warning report.",
-        "probability": 0.55,
+        "text": "The Knesset opposition tables a no-confidence motion against the Netanyahu government citing the UAE warning report.",
+        "probability": 0.6,
         "domain": "politics"
       },
       {
         "id": "C5",
-        "text": "The IAEA publishes a preliminary finding on Pickaxe Mountain construction that triggers Israeli and US diplomatic statements within 24 hours.",
-        "probability": 0.45,
-        "domain": "diplomacy"
+        "text": "A Houthi missile or drone strike hits a commercial vessel within 50 nautical miles of the Saudi coast, pushing Brent crude above 95 dollars per barrel.",
+        "probability": 0.4,
+        "domain": "economy"
       }
     ]
   },
   "display": {
-    "headline": "Israel faces multi-front escalation ahead of October election",
+    "headline": "Israel Faces Multi-Front Diplomatic and Military Pressure",
     "emojis": [
       "🚫",
       "💣",
       "🗳️"
     ],
     "emoji_reasons": [
-      "Settlement sanctions from Britain and Europe form the central diplomatic conflict.",
-      "Selective airstrikes in Gaza, Lebanon, and Syria keep the military escalation live.",
-      "The pre-election political fight over the UAE warning and the Naza documentary shapes the domestic narrative."
+      "Settlement sanctions from Britain and Europe drive the week's top diplomatic confrontation.",
+      "Selective airstrikes across Gaza, Lebanon, and proxy frontlines define the security picture.",
+      "The pre-election fight over the UAE warning report and the Naza documentary makes politics the internal storyline."
     ],
-    "tldr": "The text predicted Israel would spend the week trading diplomatic blows with Britain and Europe over settlement sanctions while maintaining selective strikes in Gaza and Lebanon. Domestic politics would intensify around the UAE warning report and pre-election fighting, with Red Sea and Iran risks keeping oil markets jumpy.",
+    "tldr": "Israel faces controlled multi-front escalation: retaliation against Britain over settlement sanctions, selective strikes in Gaza and Lebanon, and a pre-election fight over the UAE warning report. A full regional war is possible but not the base case. A Yom Kippur diplomatic lull or a sharp Iran-Israel exchange would change the outlook.",
     "eli5": null
   }
 }

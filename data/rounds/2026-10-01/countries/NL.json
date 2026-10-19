@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "NL",
+  "name": "Netherlands",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T09:46:49+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to this text, the Netherlands was juggling multiple simultaneous pressures in late September 2026. The US was moving to sanction the International Criminal Court, headquartered in The Hague, creating immediate diplomatic stress for the government and its financial sector. A far-right protest in The Hague had produced violence, police dispersal, and political symbolism that threatened to generate follow-up street activity. Railway sabotage around Prinsjesdag, one of the most symbolically important political days of the year, raised suspicions of farmer involvement and kept transport a persistent public irritant. A newly announced capital gains tax gave opposition parties and business lobbies a concrete target. Xavi had been named the new national football coach, and squad-selection choices, including the omission of Memphis Depay and the retention of Virgil van Dijk, were already generating media debate. Klaas Knot, president of the Dutch central bank, was being lobbied for a senior European Central Bank role. A trilateral UK-US-Netherlands advisory warned of Iran-linked spyware targeting institutions in The Hague. Several tech and finance deals, including an AI chip funding round and a semiconductor partnership, provided a positive economic counter-narrative. Smaller cultural stories, including a Van Gogh exhibition at Kröller-Müller and a darts boycott threat, added secondary color to the week.",
+    "key_events": [
+      {
+        "event": "The US prepared formal sanctions targeting the International Criminal Court in The Hague, triggering emergency Dutch-EU consultations.",
+        "date": "2026-09-22",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "A far-right protest in The Hague produced violence, police dispersal, and antisemitic slogans, prompting political fallout.",
+        "date": "2026-09-20",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Railway sabotage around Prinsjesdag disrupted services on a symbolically important political day, with farmer involvement under investigation.",
+        "date": "2026-09-18",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The Dutch cabinet announced a capital gains tax, triggering immediate criticism from business lobbies and opposition parties.",
+        "date": "2026-09-17",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Xavi was named head coach of the Netherlands national football team, with Memphis Depay omitted from the initial squad.",
+        "date": "2026-09-19",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "A trilateral UK-US-Netherlands advisory warned of Iran-linked spyware targeting institutions in The Hague.",
+        "date": "2026-09-21",
+        "domain": "security",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "society",
+      "economy",
+      "security"
+    ],
+    "emojis": [
+      "🚫",
+      "✊",
+      "⚽"
+    ],
+    "emoji_reasons": [
+      "US sanctions against the ICC in The Hague represent a direct external constraint on Dutch international standing.",
+      "Far-right protests in The Hague with violence and police action signal active street-level political conflict.",
+      "Xavi's appointment as national football coach makes the coming Nations League matches a national mood indicator."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's top-listed predictions at face value. The ICC sanctions story dominates the week, with a formal announcement or strong confirmed leak landing within the seven-day window and the Dutch government issuing defensive public statements plus contingency guidance for financial institutions. A second far-right protest materializes in The Hague drawing several thousand attendees and producing at least one reported clash with counter-protesters. At least one additional railway disruption is reported, keeping farmer-transport tensions visible in daily headlines. The Netherlands wins at least one Nations League match under Xavi. The capital gains tax generates a formal clarification or amendment from the cabinet or a coalition partner in response to business lobby criticism. The overall picture is one of a busy but manageable week in which the government contains each story individually without any single issue spiraling into a full cabinet crisis.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "The Dutch government publishes a formal statement defending the ICC while issuing contingency guidance to Dutch banks and payment processors linked to the court.",
+        "probability": 0.82,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "A second organized far-right demonstration in The Hague draws at least 3,000 participants and produces at least one reported clash with counter-protesters.",
+        "probability": 0.65,
+        "domain": "society"
+      },
+      {
+        "id": "N3",
+        "text": "At least one additional railway disruption or track closure is reported in the Netherlands during the week.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "The Netherlands wins at least one official Nations League match under head coach Xavi.",
+        "probability": 0.78,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "The Dutch coalition cabinet or a partner party publishes a formal amendment or clarification to the capital gains tax plan in response to business lobby criticism.",
+        "probability": 0.42,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weighs the text's full probability distribution and its own stated caveats rather than anchoring on the single most-likely outcome for each story. The US sanctions announcement carries a meaningful chance of slipping beyond the week, leaving only media leaks and Dutch 'monitoring closely' language rather than a formal declaration. The Iran spyware story, while low-probability for a major incident, carries a specific trigger condition, confirmation that a named Dutch institution was targeted, that would rapidly escalate it into mainstream politics. Xavi's squad is more likely to drop points than to win cleanly, as the text itself concedes a real chance of a draw or narrow loss. A second sabotage event targeting energy or digital infrastructure, rather than railways, is the scenario that transforms the transport story from nuisance into a security issue. Coalition fracture over the tax is more probable than a clean policy clarification, given the text's own warning about internal tension among partners.",
+    "reasoning": "The naive reading anchors on the text's single most-likely outcome per story: sanctions announced, protest held, train disrupted, match won, tax clarified. The crystal reading instead treats the text's hedged language, phrases like 'if the US waits,' 'if a second major sabotage hits energy or digital infrastructure,' and 'a real chance of one win and one draw or narrow loss,' as genuine probability mass on alternative outcomes. C1 adjusts the ICC probability down by 0.47 to reflect the text's own admission that a delay shifts the story to leaks only. C2 and C4 pull from minority scenarios the text explicitly flags as escalation triggers. C3 inverts the naive football prediction by weighting the text's own narrow-loss alternative. The result is a forecast where no single story dominates and the week is more fragmented than the headline-case reading suggests.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "The formal US sanctions announcement targeting the ICC is delayed beyond October 8, with only a strong media leak and Dutch 'monitoring closely' statements published by October 8.",
+        "probability": 0.35,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C2",
+        "text": "A specific Dutch international institution or ministry is publicly confirmed as a target of the Iran-linked spyware, prompting an expanded NCSC advisory.",
+        "probability": 0.3,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "The Netherlands drops points in at least one Nations League match (draw or loss), triggering sustained tactical criticism of Xavi's pressing system in Dutch sports media.",
+        "probability": 0.55,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "A second infrastructure disruption specifically targeting energy, digital, or airport systems is reported in the Netherlands, escalating the security narrative beyond railways.",
+        "probability": 0.25,
+        "domain": "security"
+      },
+      {
+        "id": "C5",
+        "text": "A visible coalition fracture appears as one cabinet party publicly questions or conditions its support for the capital gains tax in direct connection to the nitrogen policy debate.",
+        "probability": 0.4,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Hague juggles sanctions, protests, football, and tax fights",
+    "emojis": [
+      "🚫",
+      "✊",
+      "⚽"
+    ],
+    "emoji_reasons": [
+      "ICC sanctions from Washington are the dominant diplomatic pressure point for the week.",
+      "Follow-up far-right protests and farmer demonstrations keep street politics active.",
+      "Xavi's first official matches make football the week's major national distraction."
+    ],
+    "tldr": "The Netherlands will spend the week managing US sanctions on the ICC in The Hague, follow-up street protests, ongoing railway disruptions tied to farmer anger, and a capital gains tax debate. Xavi's first Nations League results will either provide a mood boost or a new target for criticism.",
+    "eli5": null
+  }
+}

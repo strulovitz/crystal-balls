@@ -6,7 +6,7 @@
   "code": "US",
   "name": "United States",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-17T21:39:34+03:00",
+  "generated_at": "2026-10-18T14:38:04+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -16,56 +16,56 @@
     "display": "done"
   },
   "position": {
-    "summary": "The United States entered the period under multiple simultaneous pressures. The Federal Reserve faced mounting pressure from elevated inflation, with 10-year Treasury yields sitting at or above 5 percent and oil prices trading in the 95-to-110 dollar per barrel range. The Iran conflict, centered on the Strait of Hormuz and Gulf shipping lanes, had become a grinding, managed confrontation marked by periodic U.S. airstrikes and Iranian retaliatory drone and missile attacks. A Pentagon watchdog report flagged munitions shortfalls and base damage, forcing congressional attention. The Canada trade war escalated, with import bans on dairy, alcohol, and motorcycles set to take effect. AI had emerged as a political flashpoint, with tech leaders calling for a slowdown and existential-risk warnings gaining mainstream traction. President Trump was framing oil prices, the Iran war, and inflation as midterm campaign issues. The U.S. had confirmed the deployment of weapons in space. Energy diplomacy was active around Gulf states and Venezuela. Russian disinformation campaigns were drawing increasing media attention in Washington.",
+    "summary": "The text describes the United States in a state of multiple simultaneous crises as of mid-September 2026. The Federal Reserve faced pressure from sustained inflation and Treasury yields at or above five percent, forcing a hawkish stance. The Iran conflict had settled into a grinding managed war, with periodic U.S. strikes on Iranian coastal targets, tankers, and missile sites, and Iranian drone or missile retaliation against U.S. bases and Gulf allies. Oil traded in the ninety-five to one-hundred-ten dollar range, pushing gasoline and diesel prices higher at the pump. A Pentagon watchdog report revealed munitions shortfalls and base damage, forcing congressional attention and possible war-powers votes. The AI sector was gripped by existential-risk warnings from researchers and tech leaders, while China dismissed the concern as fear-mongering. Reports suggested Iran had used an American AI model to target U.S. ships. The Canada trade war escalated with import bans on dairy, alcohol, and motorcycles set to take effect around September twenty-ninth. The United States confirmed it had deployed weapons in space. Russian deepfake campaigns targeted U.S. politics ahead of the midterms. A Trump-Xi summit was planned for later in the month. The overall mood was one of stress, managed escalation, and political noise.",
     "key_events": [
       {
-        "event": "The Federal Reserve faced mounting pressure as 10-year Treasury yields held at or above 5 percent amid elevated oil prices.",
+        "event": "The Federal Reserve faced hawkish pressure with 10-year Treasury yields at or above 5 percent, threatening to hit a new peak.",
         "date": null,
         "domain": "economy",
-        "importance": 4
+        "importance": 5
       },
       {
-        "event": "U.S. and Iranian forces engaged in periodic airstrikes and drone attacks around the Strait of Hormuz and Gulf shipping lanes.",
+        "event": "The U.S. and Iran traded limited strikes around the Strait of Hormuz, Gulf shipping lanes, and Iranian coastal targets in a managed grinding conflict.",
         "date": null,
         "domain": "security",
         "importance": 5
       },
       {
-        "event": "U.S. import bans on Canadian dairy, alcohol, and motorcycles were set to take effect, escalating the trade dispute.",
+        "event": "A Pentagon watchdog report revealed advanced-munitions shortfalls, base damage, and rising war costs, triggering congressional scrutiny.",
         "date": null,
-        "domain": "diplomacy",
+        "domain": "security",
         "importance": 4
       },
       {
-        "event": "Tech leaders and researchers issued existential-risk warnings about AI, pushing the issue into the political arena.",
+        "event": "U.S. import bans on Canadian dairy, alcohol, and motorcycles were set to take effect around September 29, escalating the trade dispute.",
         "date": null,
-        "domain": "technology",
-        "importance": 3
+        "domain": "economy",
+        "importance": 4
       },
       {
-        "event": "A Pentagon watchdog report flagged advanced munitions shortfalls and base damage from the Iran conflict.",
+        "event": "The United States confirmed it had deployed weapons in space, prompting expected diplomatic protests from China and Russia.",
         "date": null,
-        "domain": "security",
+        "domain": "technology",
         "importance": 3
       }
     ],
     "mood": "tense",
     "intensity": 7,
     "domains_active": [
-      "economy",
       "security",
+      "economy",
       "diplomacy",
-      "politics"
+      "technology"
     ],
     "emojis": [
       "🛢️",
-      "🏦",
-      "⚔️"
+      "⚔️",
+      "🏦"
     ],
     "emoji_reasons": [
-      "Oil prices and the Hormuz shipping conflict are the dominant economic and security stressors.",
-      "The Federal Reserve hawkish posture and elevated Treasury yields drive persistent market anxiety.",
-      "The U.S.-Iran military confrontation in the Gulf is the primary security story of the period."
+      "Sustained high oil prices and the Iran-Hormuz conflict are the dominant economic and security stressors.",
+      "The managed Iran war with periodic strikes and retaliations is the central security theme of the week.",
+      "Hawkish Fed pressure and yields above five percent drive the macroeconomic narrative and market anxiety."
     ]
   },
   "velocity": null,
@@ -73,36 +73,36 @@
   "naive_forecast": {
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
-    "summary": "The naive reading takes the text's top-listed predictions at face value and ignores the alternative paths the text also describes. The Federal Reserve delivers a hawkish outcome, either a rate hike or a higher-for-longer hold, keeping the 10-year Treasury yield at or above 5.0 percent. Brent crude oil breaks above 100 dollars per barrel at least once during the week. The U.S. military conducts a new strike on an Iranian missile or drone target near the Strait of Hormuz. Congress holds a public hearing specifically on Iran war costs and munitions shortages or on AI existential risk. The U.S. announces an additional trade restriction or tariff targeting Canadian dairy, alcohol, or motorcycle imports. All five events are treated as the single most probable outcomes, with the text's stated confidences carried directly into the forecast probabilities, and the Hormuz-strike scenario is narrowed to a lower probability to reflect its specificity as a subset of the broader military-incident prediction.",
+    "summary": "The naive reading takes the text's top-listed predictions at face value as the single headline case. The Fed delivers a hawkish outcome, either a rate hike or a hold with a higher-for-longer message, and the 10-year yield holds at or above five percent. Brent crude stays above ninety-five dollars and possibly breaks back above one hundred. At least one new U.S.-Iran military incident occurs involving ships, drones, missiles, or coastal targets. Congress holds a major public hearing on Iran war munitions costs or AI existential risk. The Canada trade war grows louder with additional threats, protests, and retaliatory moves from both sides, but talks do not collapse entirely. A formal U.S.-Iran ceasefire is not signed. The text treats each of these as the dominant path and gives the alternative scenarios, such as a last-minute Canada deal or a temporary Hormuz convoy arrangement, only minor weight. The overall picture is one of simultaneous managed escalation across security, economy, and trade, with Trump framing every issue as a midterm fight he intends to end after the election.",
     "statements": [
       {
         "id": "N1",
-        "text": "The Federal Reserve announces a rate decision or statement that the 10-year Treasury yield holds at or above 5.0 percent for the full week.",
+        "text": "The Federal Reserve announces its rate decision with a hawkish higher-for-longer statement, and the 10-year U.S. Treasury yield closes above 5.00 percent on the announcement day.",
         "probability": 0.85,
         "domain": "economy"
       },
       {
         "id": "N2",
-        "text": "The Brent crude oil price closes above 100 dollars per barrel on at least one trading day during the week.",
+        "text": "Brent crude oil trades above $95 per barrel on at least four of the five trading days of the week.",
         "probability": 0.75,
         "domain": "economy"
       },
       {
         "id": "N3",
-        "text": "The U.S. Navy or Air Force executes a new strike on an Iranian missile, drone, or coastal target within 200 nautical miles of the Strait of Hormuz.",
-        "probability": 0.45,
+        "text": "The U.S. military conducts a strike on an Iranian tanker, missile site, drone installation, or coastal target, or a U.S. base or warship in the Gulf suffers a drone or missile attack attributed to Iran.",
+        "probability": 0.6,
         "domain": "security"
       },
       {
         "id": "N4",
-        "text": "The U.S. House or Senate holds a public hearing specifically on Iran war costs and munitions shortages or on AI existential risk.",
+        "text": "The U.S. Congress holds a public hearing in which the Pentagon munitions-shortfall report or an AI existential-risk assessment is the primary topic of testimony.",
         "probability": 0.75,
         "domain": "politics"
       },
       {
         "id": "N5",
-        "text": "The U.S. Treasury or Commerce Department announces a new tariff or import restriction targeting Canadian dairy, alcohol, or motorcycle products.",
-        "probability": 0.7,
+        "text": "A written U.S.-Iran ceasefire agreement is announced, signed, or published by at least one government or official delegation.",
+        "probability": 0.2,
         "domain": "diplomacy"
       }
     ]
@@ -110,55 +110,55 @@
   "crystal_forecast": {
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
-    "summary": "The crystal reading weighs the text's full scenario distribution and its own explicit hedges. The Canada trade war, while more likely to escalate, carries a genuine 30 percent probability of a last-minute face-saving deal that the naive reading overlooks. The Fed's outcome is hedged between a rate hike and a hawkish hold, two distinct outcomes, so the probability of a single hawkish event is adjusted down from the text's 85 percent. Iran's foreign minister is expected to complete a diplomatic visit to China and return with a formal statement providing backing but no ceasefire framework, a specific event the text mentions within the Iran section. Energy diplomacy around Gulf states and OPEC+ is active but described as not a game-changer, warranting a moderate probability. The space weapons story, while strategically significant, is expected to produce a congressional briefing or public testimony rather than a dramatic announcement, placing it below the midpoint.",
-    "reasoning": "The naive reading selects the text's highest-probability outcome for each of the five numbered predictions and treats the text's hedges as mere caveats. The crystal reading promotes the 30 percent Canada-deal scenario from a footnote to a full forecast statement, adjusts the Fed probability downward because the text explicitly hedges between a hike and a hawkish hold as two distinct outcomes, and elevates three secondary scenarios, the Iran foreign minister's China visit, Gulf energy diplomacy, and the space weapons congressional briefing, that the text mentions with specific probability bands but does not headline. Where the text offers an either-or framing, the crystal reading distributes probability across both branches rather than assigning full weight to the more dramatic option, and where the text says probably or not a game-changer, it treats that language as a meaningful probability discount.",
+    "summary": "The crystal reading weighs the text's full scenario distribution, including minority paths and stated hedges, rather than defaulting to the top case. The Fed hawkish outcome remains the base case, but the probability adjusts downward because the text explicitly presents two sub-scenarios, a hike or a hawkish hold, and the yield crossing five percent is only one component of the aftermath. The most notable shift comes from the Canada trade war: the text assigns thirty percent probability to a last-minute face-saving deal, a path the naive reading treats as a footnote. The text's mention of a temporary Hormuz convoy schedule with protected sailing windows becomes a standalone checkable event rather than background color within the broader Iran-incident prediction. The space-weapons story, given only fifty percent confidence as a top story, produces a specific diplomatic-protest event at a lower probability. Energy diplomacy around Venezuelan crude appears as a distinct checkable outcome from the sixty-five percent engagement scenario rather than general increased activity.",
+    "reasoning": "The naive reading takes the text's top-5 predictions literally and assigns the stated confidence directly. The crystal reading makes three specific adjustments. First, the Fed event drops from 0.85 to 0.65 because the text presents two sub-scenarios and the intraday yield spike above 5.25 percent followed by a close under 5.00 percent is a narrower, less certain outcome than the broader hawkish aftermath. Second, the Canada trade war shifts from the seventy-percent escalation path to the thirty-percent last-minute deal path, which the naive reading barely registers. Third, the temporary Hormuz convoy schedule the text lists as a likely development is elevated to a standalone checkable announcement at 0.35, whereas the naive reading folds it into the general Iran-strike prediction. The space-weapons protest replaces the vaguer stays-on-the-radar framing with a specific written diplomatic action at 0.45.",
     "confidence": 5,
     "statements": [
       {
         "id": "C1",
-        "text": "The U.S. and Canadian governments announce a face-saving trade agreement or tariff extension before new import bans on dairy, alcohol, or motorcycles take effect.",
-        "probability": 0.3,
-        "domain": "diplomacy"
+        "text": "The 10-year U.S. Treasury yield spikes above 5.25 percent intraday on the Fed-decision day before closing below 5.00 percent by Friday.",
+        "probability": 0.65,
+        "domain": "economy"
       },
       {
         "id": "C2",
-        "text": "The Federal Reserve holds the federal funds rate and issues a hawkish higher-for-longer statement, with the 10-year Treasury yield spiking above 5.2 percent in the following trading session.",
-        "probability": 0.7,
-        "domain": "economy"
-      },
-      {
-        "id": "C3",
-        "text": "Iran's foreign minister completes a diplomatic visit to China and issues a joint statement providing Tehran with diplomatic backing but no formal ceasefire framework.",
-        "probability": 0.55,
+        "text": "U.S. and Iranian officials jointly announce a temporary Strait of Hormuz convoy schedule or protected sailing-window arrangement in a public statement or press briefing.",
+        "probability": 0.35,
         "domain": "diplomacy"
       },
       {
-        "id": "C4",
-        "text": "The U.S. State or Energy Department announces a new oil-supply coordination deal with at least two Gulf states or OPEC+ members.",
-        "probability": 0.55,
+        "id": "C3",
+        "text": "The U.S. and Canada announce a trade agreement, extension, or tariff waiver that modifies or delays the dairy, alcohol, or motorcycle import bans before they take effect.",
+        "probability": 0.3,
         "domain": "economy"
       },
       {
-        "id": "C5",
-        "text": "The U.S. Space Force or Department of Defense releases a public briefing or congressional testimony describing deployed space-based weapons and their operational scope.",
+        "id": "C4",
+        "text": "China and Russia file a formal written diplomatic protest or joint statement specifically addressing the U.S. deployment of weapons in space.",
         "probability": 0.45,
-        "domain": "security"
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C5",
+        "text": "The U.S. Treasury Department announces a sanctions adjustment, licensing change, or trade arrangement involving Venezuelan crude oil.",
+        "probability": 0.6,
+        "domain": "economy"
       }
     ]
   },
   "display": {
-    "headline": "U.S. Faces Oil, Fed, Iran, and Trade Pressures Simultaneously",
+    "headline": "U.S. manages Iran war, hawkish Fed, AI fight, Canada trade war",
     "emojis": [
       "🛢️",
-      "🏦",
-      "⚔️"
+      "⚔️",
+      "🤖"
     ],
     "emoji_reasons": [
-      "Sustained high oil prices and Hormuz tension anchor the economic outlook.",
-      "A hawkish Federal Reserve keeping yields above 5 percent dominates market headlines.",
-      "Recurring U.S.-Iran military incidents in the Gulf define the security backdrop."
+      "Oil prices above ninety-five dollars and the Hormuz conflict anchor the economic picture.",
+      "Military friction around Hormuz with strikes and drone attacks is the central security event.",
+      "AI existential-risk warnings and congressional hearings elevate technology to a top-three domestic political issue."
     ],
-    "tldr": "The text predicted the U.S. would manage elevated oil prices, a hawkish Fed keeping yields above 5 percent, continued low-level Iran military incidents near Hormuz, a growing AI political fight, and an escalating Canada trade dispute, all framed by Trump as a midterm issue.",
+    "tldr": "The U.S. enters a week of managed Iran escalation, hawkish Fed pressure, a growing AI political fight, and an escalating Canada trade dispute, all framed by Trump as midterm theater. No ceasefire, no Trump-Xi summit, and no major AI law — just managed stress and political noise.",
     "eli5": null
   }
 }

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "ZA",
+  "name": "South Africa",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T12:04:26+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "According to the text, South Africa entered the week of 1 October 2026 under multiple concurrent pressures. A series of femicide killings in Ekurhuleni and Gauteng had already become a national crisis, prompting President Ramaphosa to announce new measures. Mass shootings in Wedela near Johannesburg and in Lwandle in the Cape Town area had killed 27 or 28 people, with funerals and vigils keeping townships in the news. The US-South Africa relationship was strained over visa rules, Black employment requirements, and investor ownership policies; the US ambassador had been summoned for a third time. The 30 September migrant deadline had just passed, and three Nigerians killed in recent weeks had added tension to immigration politics. Municipal elections scheduled for 4 November had brought campaigning forward. On the economic side, the SARB had hiked rates, the rand was volatile, Q2 FDI inflows reached R49.8 billion, and the Gold Fields-Northern Star 27-billion-dollar takeover saga was unfolding. The Springboks had suffered a narrow loss to an 11-man Australia side.",
+    "key_events": [
+      {
+        "event": "Femicide killings in Ekurhuleni and Gauteng became a dominant national crisis",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Mass shootings in Wedela and Lwandle killed 27 to 28 people",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "US ambassador was summoned for a third time over visa and investor rules",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The 30 September migrant deadline passed and three Nigerians were killed in recent weeks",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "SARB hiked interest rates while Q2 FDI inflows reached R49.8 billion",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Northern Star rejected Gold Fields' 27-billion-dollar takeover offer",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "economy",
+      "politics"
+    ],
+    "emojis": [
+      "🔫",
+      "🛂",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The week is defined by femicide killings and mass shootings across multiple cities.",
+      "The September migrant deadline and xenophobic tensions make immigration a central political issue.",
+      "US-South Africa diplomatic friction over visas and investor rules is a recurring headline."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading selects the text's highest-confidence predictions at face value. The week is anchored by the Ekurhuleni femicide series: police make a new arrest, the government moves from announcements to operational GBV structures, and women's groups march in Pretoria, Johannesburg, and Cape Town. The mass shooting story produces at least one major police briefing and the death toll is revised past 30. The US-South Africa visa dispute generates confirmed technical talks on investor rules. The post-deadline migrant moment produces a government task force announcement. Municipal election campaigning becomes visible with manifestos and debates in at least two major metros. The economy stays volatile but stable: the rand trades in a range and no crisis hits. Gold Fields and Northern Star produce at least a shareholder statement or approach letter. The overall mood is one of managed crisis: the state is responding visibly, headlines are dominated by action rather than stagnation, and the diplomatic relationship, while tense, holds at technical level.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "South African police announce at least one new arrest or charge sheet in the Ekurhuleni femicide series before 8 October.",
+        "probability": 0.85,
+        "domain": "security"
+      },
+      {
+        "id": "N2",
+        "text": "The official death toll from the Wedela and Lwandle mass shootings is revised to 30 or higher.",
+        "probability": 0.65,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "South Africa and the United States announce or confirm technical-level talks on visas or investor rules.",
+        "probability": 0.55,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N4",
+        "text": "The South African government publishes operational details for a dedicated GBV task force or street audit.",
+        "probability": 0.9,
+        "domain": "society"
+      },
+      {
+        "id": "N5",
+        "text": "Gold Fields issues a revised bid, formal approach letter, or shareholder statement to Northern Star.",
+        "probability": 0.45,
+        "domain": "economy"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading weights the full probability distribution the text lays out, treating its 40-to-50-per-cent and 25-to-35-per-cent scenarios as first-class possibilities rather than footnotes. The femicide and shooting stories still dominate, but the text assigns only 40 to 50 per cent odds to a fifth body being found and 25 to 35 per cent to a new mass shooting—events that would reshape the week if they occur. Xenophobic clashes, also at 40 to 50 per cent, represent a genuine risk the headline-case reading understates. The US-South Africa diplomacy, while the text calls it tense but functional, carries barely above coin-flip odds of producing a visible talks announcement, meaning a week of continued friction without a concrete event is equally probable. The GBV task force announcement remains the highest-confidence event, but the text's repeated blunt caveat that the state will not solve GBV next week caps expectations. The economy is a constant undercurrent rather than a headline driver, and the rand's path depends on oil and gold more than on any single domestic political event.",
+    "reasoning": "The naive reading selects the text's highest-confidence items: an arrest, a briefing, a task force, confirmed talks, and campaigning. The crystal reading instead treats the text's 40-to-50-per-cent and 25-to-35-per-cent scenarios as first-class outcomes. The text explicitly names another woman's body being found and another significant shooting as live risks, and the 40-to-50-per-cent xenophobic clash probability is a scenario the naive reading compresses into a background note. On US-South Africa diplomacy, the text hedges between a decent chance and no major rupture, so the crystal reading lowers the probability of a concrete talks announcement by 0.15 below the naive reading. The very-high-confidence GBV operational announcement survives in both readings, but the crystal reading pairs it with the text's blunt caveat that the state will not solve GBV, shifting the overall narrative from responsive government to government announcing structures while the underlying crisis persists.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A second woman's body is discovered in Ekurhuleni or nearby Gauteng between 1 and 7 October 2026.",
+        "probability": 0.45,
+        "domain": "security"
+      },
+      {
+        "id": "C2",
+        "text": "A new mass shooting with five or more casualties occurs in Johannesburg, Cape Town, or Durban.",
+        "probability": 0.3,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "At least one visible xenophobic clash or targeted attack on foreign nationals occurs in Durban, Johannesburg, or Cape Town.",
+        "probability": 0.45,
+        "domain": "society"
+      },
+      {
+        "id": "C4",
+        "text": "South Africa and the United States announce or confirm technical-level talks on visas or investor rules.",
+        "probability": 0.4,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C5",
+        "text": "The South African government announces a dedicated GBV task force or operational street audit plan with named officials.",
+        "probability": 0.85,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Femicide, shootings, and US friction define South African week",
+    "emojis": [
+      "🔫",
+      "✊",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The forecast centers on femicide and mass shootings as the dominant domestic news.",
+      "Protests against GBV and migration are expected in multiple cities during the week.",
+      "US-South Africa diplomatic friction over visas and investor rules is a key prediction."
+    ],
+    "tldr": "South Africa will be politically consumed by femicide and mass shootings, with the government announcing new GBV structures while protests grow. US-South Africa visa tensions persist, migrant politics heat up after a September deadline, and municipal election campaigning becomes visible. The economy stays volatile but avoids crisis.",
+    "eli5": null
+  }
+}

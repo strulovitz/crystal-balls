@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-14",
+  "previous_round": "2026-10-01",
+  "is_legacy": true,
+  "code": "PE",
+  "name": "Peru",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T22:00:27+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "Peru was in a period of intense political transition following local elections. Rafael López Aliaga appeared to have won Lima's mayoral race with roughly 31 percent of the vote, though a ban on immediate reelection raised legal questions. A new cabinet was sworn in, although news sources disagreed on whether Dina Boluarte or Keiko Fujimori held the presidency. Pope Leo's visit to Peru was in final logistical and security preparation. BTS's Arirang world tour was holding three concerts at San Marcos Stadium in Lima, with the first show on October 7. The government announced a unified command against crime. A clemency request for former President Alejandro Toledo, supported by Eliane Karp, was pending review. The central bank held interest rates for a thirteenth consecutive month. A fire on the access road to Machu Picchu killed one person. Youth and student protests were occurring in Lima. A mercury contamination alert linked to illegal gold mining was reported in the Amazon. A Peru-Canada football friendly had just taken place. Avocado exports were attracting attention as U.S. buyers diversified away from Mexican supply.",
+    "key_events": [
+      {
+        "event": "Local elections concluded with López Aliaga leading in Lima and results pending JNE certification.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "New cabinet sworn in amid ambiguity over whether Boluarte or Fujimori occupied the presidency.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Pope Leo's Peru visit entered final security and logistical preparation phase.",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "BTS Arirang tour opened in Lima with three concerts scheduled at San Marcos Stadium.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Fire on the Machu Picchu access road killed one person, prompting safety concerns.",
+        "date": null,
+        "domain": "environment",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "society",
+      "security",
+      "economy"
+    ],
+    "emojis": [
+      "🗳️",
+      "🙏",
+      "🚔"
+    ],
+    "emoji_reasons": [
+      "Local election results and legal challenges over Lima's mayoral race are the dominant domestic story.",
+      "Pope Leo's visit to Peru is being treated as a major national event with heavy security.",
+      "The government's unified command against crime signals visible police and military operations."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "The text's top scenario is a busy, image-conscious but orderly week. The JNE certifies local election results while López Aliaga's Lima win faces a legal challenge over the reelection ban. Pope Leo's visit drives security deployments across Lima. BTS completes its remaining concerts at San Marcos to large crowds. The government announces its first joint police-military anti-crime operation with arrests. Opposition lawyers use the polling-station fire to demand a recount. The week stays noisy but avoids impeachment, currency panic, or constitutional rupture. The clemency debate over Toledo is acknowledged but does not resolve into a pardon. Economic indicators stay stable with the rate hold absorbing market anxiety.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "Peru's JNE certifies local election results and a legal challenge is filed over López Aliaga's eligibility in Lima.",
+        "probability": 0.85,
+        "domain": "politics"
+      },
+      {
+        "id": "N2",
+        "text": "Security forces deploy along Lima's main corridors for Pope Leo's arrival and religious ceremonies.",
+        "probability": 0.8,
+        "domain": "society"
+      },
+      {
+        "id": "N3",
+        "text": "BTS performs its second or third concert at San Marcos Stadium in Lima before a crowd exceeding 60,000.",
+        "probability": 0.85,
+        "domain": "economy"
+      },
+      {
+        "id": "N4",
+        "text": "The government announces a joint police-military operation and reports at least ten arrests in Lima or Callao.",
+        "probability": 0.65,
+        "domain": "security"
+      },
+      {
+        "id": "N5",
+        "text": "Opposition lawyers file a formal request with the JNE to recount votes from the polling station affected by the fire.",
+        "probability": 0.42,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "summary": "Weighing the text's full scenario distribution, the week is more fragile than the headline case suggests. The text explicitly flags a court ruling against López Aliaga as a trigger to revise the entire forecast upward on crisis risk, and it notes the cabinet is brand-new with reshuffling talk possible. Student protests sit at moderate likelihood and the Machu Picchu fire creates a tourism-safety story that interacts with BTS and papal logistics. The papal visit, while very likely to proceed, carries a stated risk of delay or security-protocol change. The text also hedges that the Boluarte-versus-Fujimori inconsistency means the governing setup is less stable than headlines imply. These minority and hedged scenarios pull the overall risk profile higher than the naive reading.",
+    "reasoning": "The naive reading treats the top five predictions as a near-certain script and ignores the text's own caveats. The crystal reading incorporates the text's stated triggers for revision (a court ruling against López Aliaga, a papal-visit incident, a cabinet scandal), its moderate-likelihood student protests, and its explicit uncertainty about the presidential setup. It lowers the probability of the smooth-election-certification path because the text itself says a court ruling against López Aliaga would force a runoff, and it adds the Machu Picchu restriction and the papal-delay scenario as checkable events the naive reading compresses into background. At least two statements draw from scenarios the text lists as triggers or moderate-likelihood items rather than top-case predictions.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "A Peruvian court rules against López Aliaga's eligibility as Lima mayor, forcing a runoff or alternate installation.",
+        "probability": 0.22,
+        "domain": "politics"
+      },
+      {
+        "id": "C2",
+        "text": "Student demonstrators close a major avenue in central Lima, prompting police deployment and at least one arrest.",
+        "probability": 0.55,
+        "domain": "society"
+      },
+      {
+        "id": "C3",
+        "text": "Peruvian authorities announce a temporary vehicle-access restriction on the Machu Picchu road following the fatal fire.",
+        "probability": 0.68,
+        "domain": "environment"
+      },
+      {
+        "id": "C4",
+        "text": "Pope Leo's Peru visit is delayed by at least one day or a security protocol is visibly altered after an incident.",
+        "probability": 0.2,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C5",
+        "text": "A member of the newly sworn cabinet resigns or faces a formal congressional hearing within the first week in office.",
+        "probability": 0.3,
+        "domain": "politics"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Peru juggles elections, Pope, BTS, and security at once",
+    "emojis": [
+      "🗳️",
+      "🎬",
+      "🚔"
+    ],
+    "emoji_reasons": [
+      "Contested local election results and legal fights over Lima define the political week.",
+      "BTS concerts and the papal visit create a unique cultural and tourism moment.",
+      "New anti-crime operations and cabinet politics keep security forces in the spotlight."
+    ],
+    "tldr": "Peru's next week will be defined by contested Lima election results, Pope Leo's visit security, BTS concert logistics, and a new government pushing visible anti-crime operations. The base case is busy but not crisis-mode, with the clemency debate and Machu Picchu safety as secondary threads.",
+    "eli5": null
+  }
+}

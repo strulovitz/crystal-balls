@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-01",
+  "previous_round": null,
+  "is_legacy": true,
+  "code": "KR",
+  "name": "South Korea",
+  "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-18T12:19:47+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "skipped",
+    "wind": "skipped",
+    "naive_forecast": "done",
+    "crystal_forecast": "done",
+    "display": "done"
+  },
+  "position": {
+    "summary": "In late September 2026, South Korea faced a pile-up of simultaneous pressures. President Lee Jae Myung's approval rating nosedived, and a cabinet nominee withdrew after being questioned. North Korea launched two short-range ballistic missiles toward the East Sea and touted a new hypersonic weapon system. Three South Korean military officers were injured by a landmine or explosion inside the DMZ. The $350 billion Korea-US investment pledge created political stress, with Lee describing it as causing him sleepless nights. Markets swung on record chip exports, AI investment optimism, rising oil prices from Middle East tensions, and US Treasury yields above 5 percent. The Bank of Korea tested a 24-hour won settlement system. The Asian Games in Japan produced logistics complaints from the Korean delegation, including a wrong anthem and container housing issues. Domestically, abortion pill approval advanced, a former first lady's sentence was reduced on appeal, a Jeju missing-persons scandal involved fabricated social media graphics, and over 300 Korean workers filed claims after a Georgia immigration raid. The Seoul mayor and president clashed publicly over green space. KKR pursued $3 billion in Korea deals, and Intel-SK Hynix US manufacturing talks moved forward.",
+    "key_events": [
+      {
+        "event": "President Lee Jae Myung's approval rating nosedived and a cabinet nominee withdrew under public pressure.",
+        "date": "2026-09-20",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "North Korea launched two short-range ballistic missiles and touted a new hypersonic weapons system.",
+        "date": "2026-09-19",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Three South Korean military officers were injured by a landmine or explosion inside the DMZ.",
+        "date": "2026-09-18",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "The $350 billion Korea-US investment pledge entered an active negotiation phase with bond and corporate-deal frameworks under discussion.",
+        "date": "2026-09-21",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "South Korea's Asian Games delegation in Japan complained about wrong anthem playback, container housing, and transport logistics.",
+        "date": "2026-09-22",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🏛️",
+      "🚀",
+      "📰"
+    ],
+    "emoji_reasons": [
+      "Government under pressure from a nosedive in approval ratings, a cabinet nominee withdrawal, and a noisy domestic political environment.",
+      "North Korea launched ballistic missiles and showcased a new hypersonic weapon, keeping the security file active.",
+      "Multiple simultaneous domestic stories, from abortion pills to the Jeju scandal to the Georgia worker claims, created a crowded media landscape."
+    ]
+  },
+  "velocity": null,
+  "wind": null,
+  "naive_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The naive reading takes the text's top-listed predictions at face value. President Lee dominates the news cycle with a UN General Assembly speech asserting Middle East restraint and announcing deepened US-Korea cooperation on minerals, AI, and semiconductors. North Korea fires at least one more short-range ballistic missile or demos a hypersonic weapon while Lee is abroad. The defense ministry releases a formal DMZ investigation statement identifying the explosive type. The KOSPI swings more than 3 percent in a single session on chip or oil headlines. The Blue House names a replacement justice minister. These are the five highest-likelihood, most concrete events the text listed first, with no weighting toward the lower-probability scenarios it also discussed in its longer analysis.",
+    "statements": [
+      {
+        "id": "N1",
+        "text": "President Lee Jae Myung delivers a UN General Assembly speech stating South Korea will not deploy military forces to the Middle East while announcing deepened US-Korea cooperation on minerals, AI, and semiconductors.",
+        "probability": 0.85,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "N2",
+        "text": "North Korea launches at least one short-range ballistic missile or unveils a new hypersonic weapon system while President Lee is abroad.",
+        "probability": 0.7,
+        "domain": "security"
+      },
+      {
+        "id": "N3",
+        "text": "South Korea's defense ministry publishes a formal investigation statement identifying whether the DMZ incident involved a live landmine or an old explosive device.",
+        "probability": 0.8,
+        "domain": "security"
+      },
+      {
+        "id": "N4",
+        "text": "The KOSPI index moves more than 3 percent in a single trading session driven by semiconductor, AI, or oil-related headlines.",
+        "probability": 0.75,
+        "domain": "economy"
+      },
+      {
+        "id": "N5",
+        "text": "The Blue House names a replacement justice minister within the week.",
+        "probability": 0.45,
+        "domain": "politics"
+      }
+    ]
+  },
+  "crystal_forecast": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "summary": "The crystal reading spreads probability across the text's full scenario distribution. Rather than concentrating on Lee's UN speech as the single dominant story, it weights the Korea-Mexico joint statement as a concrete, checkable deliverable that the text lists as one of several possible UN outcomes. It notes the text explicitly rules out a full ICBM salvo and an NLL flare-up, so the North Korean test is treated as a contained event with a JCS response but no exchange of fire. The Seoul mayor-president green space clash, rated only medium, becomes a checkable domestic story. The $350 billion pledge is expected to produce a bond framework, not a final signed deal, per the text's own hedge. The Asian Games delegation complaint, rated medium-high, is included as a society-domain event the naive reading omits entirely.",
+    "reasoning": "The naive reading picks the five items the text labels high or safest bet and assigns them the highest probabilities. The crystal reading instead reads the text's own caveats: it explicitly says the $350 billion deal will not be signed in one week, that the DMZ incident will not dominate the whole week, that the green space fight is medium not high, and that the Asian Games complaints are medium-high. Statement C1 (Korea-Mexico statement) comes from a minority scenario the text lists as one of several possible UN outcomes rather than the top pick, giving it 0.52 versus the naive 0.85 for Lee's speech. C3 (green space) is a medium-likelihood event the naive reading skips, assigned 0.48. C5 (Asian Games) is another lower-ranked item elevated to a checkable event. Probability adjustments reflect the text's stated hedges: the bond framework sits at 0.55 because the text explicitly hedges against a full deal, and the DMZ statement is slightly tempered because the text calls it persistent but not dominant.",
+    "confidence": 5,
+    "statements": [
+      {
+        "id": "C1",
+        "text": "President Lee Jae Myung signs a Korea-Mexico joint statement covering trade, energy, or critical minerals during the UN General Assembly session.",
+        "probability": 0.52,
+        "domain": "diplomacy"
+      },
+      {
+        "id": "C2",
+        "text": "North Korea conducts a missile test that prompts a Joint Chiefs of Staff meeting, while no exchange of fire occurs along the Northern Limit Line.",
+        "probability": 0.72,
+        "domain": "security"
+      },
+      {
+        "id": "C3",
+        "text": "Seoul Mayor Oh Se-hoon and the presidential office issue opposing public statements on urban green space or park development plans within the same seven-day period.",
+        "probability": 0.48,
+        "domain": "politics"
+      },
+      {
+        "id": "C4",
+        "text": "The Korea-US investment arm publishes a bond framework or debut-bond timeline as a concrete step toward the $350 billion pledge.",
+        "probability": 0.55,
+        "domain": "economy"
+      },
+      {
+        "id": "C5",
+        "text": "South Korea's Asian Games delegation files a formal written complaint or issues a public statement about accommodation or transport conditions in Japan.",
+        "probability": 0.6,
+        "domain": "society"
+      }
+    ]
+  },
+  "display": {
+    "headline": "Lee chases UN reset as North Korea keeps firing",
+    "emojis": [
+      "🌐",
+      "🚀",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The UN General Assembly and Lee's Mexico summit form the diplomatic spine of the week.",
+      "North Korea is expected to fire another missile or demonstrate a new weapon while Lee is abroad.",
+      "Markets will swing on chips, AI, oil, and the $350 billion investment pledge."
+    ],
+    "tldr": "The text predicted a pressure-management week: Lee would use the UN to reset his image, North Korea would test another missile, markets would swing on chips and oil, and domestic politics would stay noisy around housing, the DMZ, and cabinet.",
+    "eli5": null
+  }
+}
