@@ -1223,6 +1223,38 @@ def validate_questions(obj, legacy=False):
     return True
 
 
+def validate_legacy_questions(obj):
+    """Bible 10.6 (harvest, rebuilt): exactly 8 questions taken from a legacy text, each with the text's own answer."""
+    errors = []
+    items = obj.get("questions")
+    if not isinstance(items, list) or len(items) != 8:
+        raise ValueError("Legacy questions validation failed:\n  - questions: expected a list of exactly 8")
+    if [q.get("id") for q in items] != [f"Q{i}" for i in range(1, 9)]:
+        errors.append("ids must be Q1 to Q8 in order")
+    domains = set()
+    for q in items:
+        qid, text = q.get("id", "?"), q.get("text", "")
+        if not isinstance(text, str) or not text.startswith("Will") or not text.strip().endswith("?"):
+            errors.append(f"{qid}: text must start with 'Will' and end with '?'")
+        elif text.count(" and ") > 1:
+            errors.append(f"{qid}: more than one ' and ' - one event per question")
+        if q.get("domain") not in DOMAINS:
+            errors.append(f"{qid}: domain {q.get('domain')!r} not allowed")
+        domains.add(q.get("domain"))
+        if q.get("answer") not in ("YES", "NO"):
+            errors.append(f"{qid}: answer must be YES or NO")
+        sp = q.get("stated_probability")
+        if sp is not None and not (isinstance(sp, (int, float)) and 0 <= sp <= 1):
+            errors.append(f"{qid}: stated_probability must be null or between 0 and 1")
+        if not (isinstance(q.get("source_sentence"), str) and q["source_sentence"].strip()):
+            errors.append(f"{qid}: source_sentence missing")
+    if len(domains) < 3:
+        errors.append(f"questions cover only {len(domains)} domains, need at least 3")
+    if errors:
+        raise ValueError("Legacy questions validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
 def validate_answers(obj, expected_ids, crystal=False):
     errors = []
     _check_word_count("summary", obj.get("summary", ""), 80, 150, errors)

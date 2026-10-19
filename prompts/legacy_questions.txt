@@ -1,0 +1,24 @@
+Country: {{COUNTRY}}
+Date of this text: {{ROUND}}. The forecast covers the following week, until about {{HORIZON_END}}.
+
+Below is a hand-collected forecast text about {{COUNTRY}}. It is a real forecast written by a model, and it contains many predictions about the following week. Your job is to extract exactly EIGHT of its predictions as yes-or-no questions, taking the most important and most checkable ones first. For each question, record the answer that the text itself gives, YES or NO (YES if the text says it will probably happen, NO if the text says it will probably not happen), and the probability the text states for it if it states one (otherwise null).
+
+Rules for the eight questions:
+1. Each question is one sentence, starts with "Will" and ends with a question mark, and can be answered by reading news headlines from the following week.
+2. One event per question. Do not join two different events with "and". Use "or" only for the same event in different words.
+3. Use the text's own words and facts. Do not invent predictions that are not in the text.
+4. Prefer events that Reuters, AP, BBC or Al Jazeera would plainly report in a headline. Avoid numeric thresholds, durations and internal documents unless the number is the headline itself.
+5. Cover at least three different domains from: politics, security, economy, diplomacy, society, technology, health, environment.
+6. Include the text's NO predictions as well as its YES predictions, when the text makes them.
+
+TEXT:
+{{LEGACY_TEXT}}
+
+Return this JSON object:
+{
+  "questions": [
+    {"id": "Q1", "text": "Will ...?", "domain": "one of the domain names", "answer": "YES or NO", "stated_probability": 0.0 to 1.0 or null, "source_sentence": "the sentence in the text this comes from"}
+  ]
+}
+
+Exactly eight questions, ids Q1 to Q8.

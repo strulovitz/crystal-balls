@@ -1,3 +1,5 @@
+# SUPERSEDED. Read HANDOFF-SELF-SONNET-2026-10-19-AFTERNOON.md instead (it is newer and correct).
+
 # UPDATE 2026-10-19 13:40: THE PLAN CHANGED. READ THIS BLOCK FIRST, the rest below is the OLD plan.
 
 Fable replaced the old design with BIBLE/part-09-exam.md (shared yes/no questions, no percentages, a judge with YES/NO/UNCLEAR) and BIBLE/part-10-legacy.md (Nir's legacy forecasts converted to yes/no questions and judged). All of it is implemented and tested with the fake model (never against the real model except the live run). What exists now:

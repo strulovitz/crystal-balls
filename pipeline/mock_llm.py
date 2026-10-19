@@ -41,6 +41,13 @@ def mock_response(step_name, variables, country_code, vocabulary=None, naive_ids
         return demo.make_position(name, vocabulary)
     if step_name == "velocity":
         return demo.make_velocity(name)
+    if step_name == "legacy_questions":
+        words = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"]
+        doms = ["politics", "security", "economy", "diplomacy"]
+        return {"questions": [
+            {"id": f"Q{i+1}", "text": f"Will mock legacy event {words[i]} happen in {name}?", "domain": doms[i % 4],
+             "answer": "YES" if i % 2 == 0 else "NO", "stated_probability": 0.7 if i % 2 == 0 else None,
+             "source_sentence": "Mock source sentence."} for i in range(8)]}
     if step_name == "questions":
         words = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"]
         doms = ["politics", "security", "economy", "diplomacy"]
