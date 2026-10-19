@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, North Korea was in a period of managed escalation in early October 2026. Kim Jong Un personally oversaw a hypersonic missile drill, which was widely reported by KCNA. A mine blast along the DMZ injured South Korean soldiers, and Seoul demanded an official apology. Pyongyang dismissed the demand as an insult and called Seoul's investigation a farce. Two North Korean soldiers captured in Ukraine were transferred into South Korean custody, creating a sensitive diplomatic row. Zelenskiy claimed North Korea was preparing to send another 10,000 troops to support Russia. Kim Yo Jong served as the DPRK's loudspeaker on the mine-blast dispute. A signal through the Trump-Rodman channel hinted at a possible future summit with Kim. Defections had dropped, and Pyongyang appeared to be tightening internal security and border surveillance. The overall picture was one of loud, threatening, missile-focused posturing combined with deepening military logistics toward Russia, while leaving a thin diplomatic channel slightly open toward Washington and Beijing.",
@@ -104,6 +105,33 @@
         "probability": 0.45,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.88."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.18,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.88."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "The text predicted managed escalation: a new missile or drone test, a sharp statement insulting Seoul over the DMZ mine blast, continued troop movement toward Russia, and a real but limited chance of another border incident. No full-scale war was expected within the week.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that State media reports Kim Jong Un at a military site, inspecting equipment or listening to a briefing?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.88",
+        "legacy_probability": 0.88
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that North Korea conducts a hypersonic or long-range ballistic missile test explicitly framed as a response to Seoul's apology demand?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Pyongyang issues an official statement specifically addressing the status of the two North Korean soldiers now in South Korea?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A minor armed incident or loudspeaker broadcast exchange occurs along the DMZ?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that South Korean or US media report that a Trump-Kim summit has been announced for the following month?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.18",
+        "legacy_probability": 0.18
+      }
+    ]
+  },
+  "single_forecaster": true
 }

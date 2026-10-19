@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Chile faced a weather emergency as torrential rains triggered a major mudslide in Las Condes, flooded homes and hospitals, and swept away vehicles. A new right-wing government under José Antonio Kast entered its first real stress test, proposing 2027 budget cuts to social programs including Yo Elijo mi PC and Streets Without Violence. A security reform bill moved through Congress. The Centinela copper mine entered a strike after failed negotiations, and Codelco opened a probe into possibly overstated copper output from 2024 and 2025. Inflation exceeded comfort levels, with the finance minister calling the 3.8 percent annual target challenging. Growth was cut to 0.7 percent and mining production had dropped sharply in August. A diplomatic irritant surrounded diplomat Gabriel Zaliasnik's posting in Israel while listed as an accused party. Mapuche tensions simmered in Araucanía. Labor-market data showed Venezuelans leaving Chile. Chile was named Guest of Honor at the 2027 Frankfurt Book Fair, and the national football team had beaten Mexico two to zero in a recent match.",
@@ -105,6 +106,33 @@
         "probability": 0.48,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.52,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Chile's new Kast government faces a week defined by Santiago floods, a credibility test over austerity cuts, and a copper mine strike. The text predicts congressional maneuvering rather than street explosion, with the Codelco output probe adding a layer of economic doubt.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Between October 14 and 21, the Mapocho River level in Santiago exceeds its declared flood threshold for at least two consecutive days, prompting the national government to expand the declared disaster zone to additional communes?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.7",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Between October 14 and 21, at least three career diplomats publicly call for a formal review of Gabriel Zaliasnik's posting in Israel during a parliamentary session or televised media appearance?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Between October 14 and 21, the Chilean Chamber of Deputies schedules a floor debate on the 2027 budget in which opposition members move to amend or block the proposed cut to the Yo Elijo mi PC education program?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.62",
+        "legacy_probability": 0.62
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Between October 14 and 21, Mapuche community members block a major highway in Araucanía for at least six hours in a protest against the new security reform framework?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Between October 14 and 21, Codelco or its oversight committee publishes an interim finding confirming that 2024 or 2025 copper production figures were overstated by more than five percent?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.52",
+        "legacy_probability": 0.52
+      }
+    ]
+  },
+  "single_forecaster": true
 }

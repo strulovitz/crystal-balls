@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Peru was in a period of intense political transition following local elections. Rafael López Aliaga appeared to have won Lima's mayoral race with roughly 31 percent of the vote, though a ban on immediate reelection raised legal questions. A new cabinet was sworn in, although news sources disagreed on whether Dina Boluarte or Keiko Fujimori held the presidency. Pope Leo's visit to Peru was in final logistical and security preparation. BTS's Arirang world tour was holding three concerts at San Marcos Stadium in Lima, with the first show on October 7. The government announced a unified command against crime. A clemency request for former President Alejandro Toledo, supported by Eliane Karp, was pending review. The central bank held interest rates for a thirteenth consecutive month. A fire on the access road to Machu Picchu killed one person. Youth and student protests were occurring in Lima. A mercury contamination alert linked to illegal gold mining was reported in the Amazon. A Peru-Canada football friendly had just taken place. Avocado exports were attracting attention as U.S. buyers diversified away from Mexican supply.",
@@ -105,6 +106,33 @@
         "probability": 0.42,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.68."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.3,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.68."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Peru's next week will be defined by contested Lima election results, Pope Leo's visit security, BTS concert logistics, and a new government pushing visible anti-crime operations. The base case is busy but not crisis-mode, with the clemency debate and Machu Picchu safety as secondary threads.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that A Peruvian court rules against López Aliaga's eligibility as Lima mayor, forcing a runoff or alternate installation?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Student demonstrators close a major avenue in central Lima, prompting police deployment and at least one arrest?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Peruvian authorities announce a temporary vehicle-access restriction on the Machu Picchu road following the fatal fire?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.68",
+        "legacy_probability": 0.68
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Pope Leo's Peru visit is delayed by at least one day or a security protocol is visibly altered after an incident?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A member of the newly sworn cabinet resigns or faces a formal congressional hearing within the first week in office?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      }
+    ]
+  },
+  "single_forecaster": true
 }

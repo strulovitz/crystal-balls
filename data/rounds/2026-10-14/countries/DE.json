@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The headlines depict Germany in the grip of three simultaneous shocks. Former BND chief August Hanning was arrested on charges of espionage and attempted treason, triggering a constitutional-level scandal around Germany's foreign intelligence service. In Saxony-Anhalt, the AfD secured the parliamentary speaker role for the first time since 1945, handing the far-right a permanent institutional foothold in a state legislature. Chancellor Merz's CDU-SPD-Green coalition faces internal strain as CDU approval ratings slip and the party is squeezed between its own base and its coalition partners. The economic picture is contradictory: services output and industrial production are rebounding, yet capital-goods orders for aircraft, ships, rail, and military vehicles have dropped sharply. Berlin is pushing a harder line on Ukraine defense, has blocked a Cosco-related logistics deal, and is pressing for a new EU trade screening tool against China. Energy costs and diesel prices are keeping Eurozone inflation above target, and migration politics is resurfacing visibly in eastern German states.",
@@ -105,6 +106,33 @@
         "probability": 0.7,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.3,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The forecast predicts a week dominated by the Hanning espionage trial, the AfD's new Saxony-Anhalt role, and a narrow coalition compromise, while Berlin pushes harder on Ukraine defense and China trade. No collapse, but sustained political tension, far-right momentum, and economic unease.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that German prosecutors issue a second arrest warrant or a new search order tied to the Hanning espionage case between October 15 and 21?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Merz's coalition formally postpones the pension-and-budget compromise to November 2026 and announces a follow-up meeting date before October 21?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that German authorities confirm a Russian-linked cyberattack on a national energy grid, transport network, or government information system between October 15 and 21?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Opposition parties in Saxony-Anhalt table a no-confidence motion against the state government or demand a special parliamentary inquiry into the AfD speaker appointment by October 21?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Germany and France issue a joint ministerial statement launching a new EU trade-screening instrument targeting Chinese strategic-supply dependencies between October 15 and 21?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      }
+    ]
+  },
+  "single_forecaster": true
 }

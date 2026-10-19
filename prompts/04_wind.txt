@@ -1,36 +1,31 @@
 Country: {{COUNTRY}}
 
-In the previous round ({{PREVIOUS_ROUND}}) two forecasts were made about {{COUNTRY}} for the period {{PREVIOUS_HORIZON_START}} to {{PREVIOUS_HORIZON_END}}. The first, called NAIVE, used headlines only. The second, called CRYSTAL, also used the trend and earlier errors. Your job now is to be the judge: decide for every statement whether it came true, using only the evidence below. Then describe the systematic error, like an archer noting which way the wind pushed the first arrow.
+{{ELAPSED_DAYS}} days ago, in round {{PREVIOUS_ROUND}}, eight yes-or-no questions were asked about {{COUNTRY}}. You are the judge. Decide for each question whether the event happened between {{WINDOW_START}} and {{WINDOW_END}}, using only the evidence below.
 
-EVIDENCE, part 1, headlines published {{WINDOW_START}} to {{WINDOW_END}}:
-{{HEADLINES}}
+Procedure for each question: first list up to three headlines from the evidence that are relevant to it, quoted exactly. Then decide:
+- YES: the headlines show the event happened in the period.
+- NO: the headlines show it did not happen, or the event is the kind that these sources would certainly have reported and no headline reports it.
+- UNCLEAR: the headlines neither confirm nor deny it, and it is plausible that it happened without a headline, or the headlines are contradictory.
+Judge strictly from the headlines, not from what you expect or remember. A related but different event is not a YES.
 
-EVIDENCE, part 2, the situation report for the same window:
-{{CURRENT_POSITION}}
+EVIDENCE for the period {{WINDOW_START}} to {{WINDOW_END}}:
+{{EVIDENCE}}
 
-NAIVE statements to judge:
-{{NAIVE_STATEMENTS}}
+QUESTIONS:
+{{QUESTIONS}}
 
-CRYSTAL statements to judge:
-{{CRYSTAL_STATEMENTS}}
+After deciding every verdict, and only then, read how the two forecasters answered, and describe the pattern of their mistakes. Do not let their answers change any verdict.
 
-Judging rules:
-- outcome 1 means the statement clearly happened within the period according to the evidence.
-- outcome 0 means it clearly did not happen, or the period ended with no sign of it. Absence of any headline about a specific predicted event counts as 0, because these sources would have reported it.
-- outcome null is allowed only when the statement is too ambiguous to judge; use it rarely.
-- evidence is one sentence quoting or paraphrasing the headline that decided it, or "no headline reported this".
-- Judge both forecasts by the same standard. Do not favor either.
+FORECASTERS' ANSWERS:
+{{ANSWERS}}
 
 Return this JSON object:
 {
-  "naive": [
-    {"id": "N1", "outcome": 1 or 0 or null, "evidence": "one sentence"}
+  "verdicts": [
+    {"id": "Q1", "relevant_headlines": ["exact title", "exact title"], "outcome": "YES or NO or UNCLEAR", "evidence": "one sentence"}
   ],
-  "crystal": [
-    {"id": "C1", "outcome": 1 or 0 or null, "evidence": "one sentence"}
-  ],
-  "systematic_error": "60 to 140 words: what kind of things both forecasts got wrong in the same direction, for example too pessimistic on diplomacy, too fast on economic effects, too focused on one story",
-  "correction_hint": "one or two sentences of concrete advice for the next forecaster about {{COUNTRY}}, phrased as an instruction"
+  "systematic_error": "60 to 140 words: the pattern in the wrong answers of both forecasters, for example too eager to predict escalation, too slow on economic news, too trusting of announced talks",
+  "correction_hint": "one or two sentences of concrete advice for next week's forecaster about {{COUNTRY}}, phrased as an instruction"
 }
 
-Include every statement id exactly once in each list.
+Include every question id exactly once.

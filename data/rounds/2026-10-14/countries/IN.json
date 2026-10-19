@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "India entered the week of October 14, 2026, under three simultaneous pressures. The CJP movement, dubbed the Cockroach protest wave, challenged the Election Commission over mass voter-roll deletions. CJP leaders were detained in Delhi and released within days, while satellite protests spread to Bengaluru, Mumbai, Hyderabad, Chennai, Kolkata, and Pune. Police deployed barricades and metro services were disrupted. The RBI hiked interest rates for the first time in years, yet the rupee stayed weak and capital outflows persisted. The government pushed oil companies away from spot dollar purchases and tightened forex flows. US-India trade talks stalled after JD Vance remarks irritated New Delhi, and India accused Washington of using language with colonial connotations. Google's Visakhapatnam data-center project drew local objections over water and power. Honda restructured its India strategy with Tata Technologies. India tabled a draft steel policy targeting 604 million metric tons of capacity by 2047. Private equity moved hospital chains into tier-2 cities. NPCI International opened Zimbabwe payment-corridor talks. Nana Patekar died, drawing film-industry tributes. Smriti Mandhana was appointed women's cricket captain. India joined the 2036 Olympics bidding pool. A weak monsoon strained Bengaluru's water supply and farm irrigation.",
@@ -105,6 +106,33 @@
         "probability": 0.4,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.55,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "India faces a week of simultaneous street protests over voter rolls, rupee weakness, and stalled US-India trade talks. The Election Commission must respond, courts intervene, and the government manages three fronts without a single dramatic break.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Within October 14–21, the Chief Election Commissioner of India resigns, is formally suspended by the government, or is publicly called by the Prime Minister's Office to step aside from the office?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Within October 14–21, the Supreme Court of India issues a written order directing the Election Commission to explain its voter-deletion methodology to the court or to constitute a review committee within a specified deadline?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Within October 14–21, the RBI announces a new forward-exchange intervention facility or FX swap operation specifically aimed at reducing dollar demand from oil importers, published as a formal circular on its website?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Within October 14–21, residents of Visakhapatnam or another Indian city hold a documented public protest or file a formal written objection against Google's data-center project, and the Andhra Pradesh or local municipal government issues a public response within 48 hours?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Within October 14–21, India's Commerce Minister or External Affairs Minister publishes a written statement specifically referencing JD Vance's remarks and the give-and-take language in US-India trade negotiations?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

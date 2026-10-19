@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text reported a multi-crisis situation in DR Congo as of early October 2026. An Ebola outbreak, described as the worst in the country's history, had already produced over 8,000 cases and 4,000 deaths across 63 affected areas, concentrated in North Kivu, Ituri, and surrounding eastern corridors. The UN Security Council had voted for a gradual withdrawal of the MONUSCO peacekeeping force, beginning a security transition in the east. An army plane crash had killed at least 17 people, including two senior military justice officials. A local Ebola-focused politician, Marie-Celestin Karondwa, had been beaten to death in Butembo after speaking on radio about prevention measures. Thousands of displaced people had fled an Ebola-hit camp after soldiers entered the site, and a burned transit camp had sent more families running. A Lake Kivu boat capsize had killed at least 12 with dozens missing. In the economic sphere, the government had announced plans to audit major miners annually from 2027, a US-based company called KoBold was using AI-guided exploration for critical minerals, and conflict-gold trafficking along the DRC-Uganda border was under scrutiny. The national football team had won 2-1 in Zimbabwe, providing a rare morale boost.",
@@ -111,6 +112,33 @@
         "probability": 0.42,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.28,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted Ebola cases would surpass 9,000 with deaths exceeding 4,300, the UN peacekeeping transition would create visible security gaps in eastern DRC, and the plane crash and politician's killing would fuel political tension. Mining audits and a football win would provide secondary headlines.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that DRC's health ministry reports Ebola cases between 9,000 and 10,500 and deaths between 4,300 and 5,000 in an official weekly bulletin, while MSF or a partner NGO publicly states the ground toll is higher?",
+        "domain": "health",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The WHO convenes an Emergency Committee session on the DRC outbreak and publishes updated containment recommendations within the week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.52",
+        "legacy_probability": 0.52
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that At least one confirmed Ebola case is reported in Uganda or Rwanda, and the DRC or the affected neighbor imposes enhanced border screening at a specific crossing point?",
+        "domain": "health",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A senior DRC government minister, military general, or other high-profile official is confirmed dead from Ebola in Kinshasa, and the capital announces emergency movement restrictions within 48 hours?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A community protest or mining worker walkout occurs near a KoBold Metals exploration site in the DRC over land access, water rights, or local-content demands, and the company or the provincial government issues a public response within the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.28",
+        "legacy_probability": 0.28
+      }
+    ]
+  },
+  "single_forecaster": true
 }

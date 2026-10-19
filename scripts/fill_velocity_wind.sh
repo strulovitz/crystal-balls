@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Fills velocity then wind for legacy round 2026-10-14, all countries not already done.
+# Fills velocity (10-01 to 10-14, positions only) for legacy round 2026-10-14. Wind of the legacy rounds is now done by pipeline/judge_legacy.py (Bible 10.5), all countries not already done.
 # No AI supervises this. Live progress prints to the screen. Safe to stop (Ctrl+C) and rerun: it continues.
 cd "$(dirname "$0")/.." || exit 1
 PY=.venv/bin/python
@@ -11,7 +11,7 @@ P
 )
 START=$(date +%s)
 echo "$(date +%T) Starting velocity + wind for round $ROUND (about 12.5 min per country, ~6.5 h for all)."
-for STEP in velocity wind; do
+for STEP in velocity; do
   for CODE in ${CODES//,/ }; do
     DONE=$($PY -c "import json;print(json.load(open('data/rounds/$ROUND/countries/$CODE.json'))['status']['$STEP'])")
     if [ "$DONE" = "done" ]; then continue; fi

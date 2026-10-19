@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Brazil held its first-round presidential election on October 4, 2026. Flávio Bolsonaro finished first and Lula second, triggering a two-candidate runoff set for October 25. The right captured sweeping gains in Congress. Brazilian financial markets surged: the Ibovespa neared all-time highs, the real strengthened, and foreign inflows into equities hit record levels. A bomb scare occurred outside the Supreme Court (STF), and the United States and Australia suspended consular services ahead of voting, heightening diplomatic friction. Student marches and 'Never again Bolsonaro' protests energized the left in Rio, São Paulo, and Brasília. Lula's team began openly testing the idea of naming Vice President Geraldo Alckmin as finance minister to signal fiscal responsibility to markets and centrists. Flávio Bolsonaro's camp unveiled a 'big scissors' austerity plan focused on spending cuts and tax reform. Donald Trump publicly backed Flávio. Environmental groups warned that a right-heavy Congress would weaken Amazon protections. The electoral court, the Supreme Court, and foreign missions came under visible political stress, but no full institutional crisis broke out.",
@@ -105,6 +106,33 @@
         "probability": 0.65,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.28,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted a polarized post-first-round week in which Flávio Bolsonaro stays the favorite, Lula pivots centrist with an Alckmin signal, markets remain bullish but nervous, and protests grow on both sides. No full crisis was expected.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The TSE issues its formal certification of first-round results, but at least one procedural complaint from a minor candidate or party is filed the same week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A security incident involving fireworks, a small explosion, or a physical confrontation occurs within 500 meters of the STF or a foreign embassy during a protest?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Lula stumbles, pauses for more than five seconds, or is shown catching his breath on live camera at a campaign event, and the clip is replayed by at least two national news outlets the next day?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Brazilian 10-year government bond yields spike by more than 30 basis points in a single session on fiscal concerns tied to Flávio Bolsonaro's austerity proposals?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A major polling firm such as Datafolha or Ipec publishes results showing Flávio Bolsonaro and Lula within the margin of error for the runoff?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.28",
+        "legacy_probability": 0.28
+      }
+    ]
+  },
+  "single_forecaster": true
 }

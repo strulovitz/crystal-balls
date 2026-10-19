@@ -14,8 +14,8 @@ from pipeline.common import load_settings, load_json, save_json, find_previous_r
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 SLEEP_BETWEEN = 1.5
-MAX_PER_SOURCE = 25
-COUNTRY_TOTAL_CAP = 150
+MAX_PER_SOURCE = 40
+COUNTRY_TOTAL_CAP = 300
 MIN_KEEP_PER_SOURCE = 10
 
 
@@ -59,35 +59,34 @@ def fetch_one(url):
 
 
 def apply_country_cap(out_sources, total_cap=COUNTRY_TOTAL_CAP, min_keep=MIN_KEEP_PER_SOURCE):
-    """If the total across all sources exceeds total_cap, keep the newest
-    items overall while preserving at least `min_keep` per source that has
-    them. Mutates each source's "items" and "count" in place."""
+    """Bible 9.3: if the total exceeds total_cap, keep a day-balanced subset
+    (round-robin by date, newest day first) so every day of the window is
+    represented before any day gets a second item. Mutates sources in place."""
     total = sum(len(s["items"]) for s in out_sources)
     if total <= total_cap:
         return
+    flat = [(i, item) for i, src in enumerate(out_sources) for item in src["items"]]
+    keep = set(id(item) for _, item in balanced_select(flat, total_cap, key=lambda x: x[1].get("published") or ""))
+    for src in out_sources:
+        src["items"] = [it for it in src["items"] if id(it) in keep]
+        src["count"] = len(src["items"])
 
-    guaranteed = {}
-    pool = []  # (published_or_empty, src_index, item) for items beyond the guaranteed slice
-    for i, src in enumerate(out_sources):
-        items = src["items"]  # already sorted newest first
-        keep_n = min(min_keep, len(items))
-        guaranteed[i] = items[:keep_n]
-        for item in items[keep_n:]:
-            pool.append((item.get("published") or "", i, item))
 
-    guaranteed_count = sum(len(v) for v in guaranteed.values())
-    remaining_budget = max(0, total_cap - guaranteed_count)
-
-    pool.sort(key=lambda x: x[0], reverse=True)
-    extra_by_source = {}
-    for published, i, item in pool[:remaining_budget]:
-        extra_by_source.setdefault(i, []).append(item)
-
-    for i, src in enumerate(out_sources):
-        final_items = guaranteed[i] + extra_by_source.get(i, [])
-        final_items.sort(key=lambda x: x.get("published") or "", reverse=True)
-        src["items"] = final_items
-        src["count"] = len(final_items)
+def balanced_select(entries, cap, key):
+    """Round-robin by day: group by key(entry) (a date string), walk dates
+    newest to oldest taking one entry per date per pass until cap is reached."""
+    by_day = {}
+    for e in entries:
+        by_day.setdefault(key(e), []).append(e)
+    days = sorted(by_day, reverse=True)
+    out = []
+    idx = 0
+    while len(out) < cap and any(by_day[d] for d in days):
+        for d in days:
+            if by_day[d] and len(out) < cap:
+                out.append(by_day[d].pop(0))
+        idx += 1
+    return out
 
 
 def compute_window(round_id, settings=None):
@@ -118,6 +117,7 @@ def fetch_country(country, sources, start, end, round_id):
         feed, err = fetch_one(url)
         items = []
         filtered_out = 0
+        out_of_window = 0
         if feed is not None:
             for e in feed.entries:
                 t = clean_title(getattr(e, "title", ""))
@@ -126,16 +126,19 @@ def fetch_country(country, sources, start, end, round_id):
                 if keywords and not is_relevant(t, keywords):
                     filtered_out += 1
                     continue
-                seen.add(norm(t))
                 pub = None
                 if getattr(e, "published_parsed", None):
                     pub = time.strftime("%Y-%m-%d", e.published_parsed)
+                if pub is None or not (start.isoformat() <= pub <= end.isoformat()):
+                    out_of_window += 1   # Bible 9.3: items outside the window are dropped
+                    continue
+                seen.add(norm(t))
                 items.append({"title": t, "published": pub, "link": getattr(e, "link", None)})
         items.sort(key=lambda x: x["published"] or "", reverse=True)
         items = items[:MAX_PER_SOURCE]
         entry = {
             "id": src["id"], "name": src["name"], "count": len(items),
-            "filtered_out": filtered_out, "items": items,
+            "filtered_out": filtered_out, "out_of_window": out_of_window, "items": items,
         }
         if err:
             entry["error"] = err

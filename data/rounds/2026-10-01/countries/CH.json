@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described a politically active week in Switzerland anchored by a federal popular vote on constitutional neutrality rules, which Swiss polling suggested would be rejected, preserving the government's flexibility on NATO cooperation and sanctions. Parliament was engaged in heated debate over UBS capital adequacy requirements, with business groups lobbying for a lighter AT1 compromise after the UBS chairman warned the bank might reconsider its Swiss base. Russia placed Nestlé's Russian operations under temporary state administration, prompting Swiss diplomatic criticism and coordination efforts with the company. Swiss football captain Granit Xhaka admitted using a forged vaccination document, withdrew from the national squad, and faced a criminal investigation in Lucerne. Thousands protested over climate inaction following a European Court of Human Rights ruling against Switzerland. The government rejected a right-wing initiative for systematic border checks and a 5,000-person asylum cap. Corporate news ran positive: On Holding announced a billion-dollar buyback, Revolut applied for a Swiss banking licence, and the growth outlook was upgraded. A light aircraft crash near Leukerbad killed three people including two British nationals.",
@@ -111,6 +112,33 @@
         "probability": 0.45,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.12."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.6,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.12."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted Switzerland would reject stricter neutrality rules, reach a parliamentary compromise on UBS capital requirements, and press diplomatic action over Russia's Nestlé seizure. The overall picture was stable but busy, with lobbying, diplomacy, and controlled institutional responses rather than crisis.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The Swiss Federal Council announces a 90-day constitutional review process triggered by the popular vote passing stricter neutrality rules, setting a deadline for government recommendations to parliament?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.12",
+        "legacy_probability": 0.12
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that UBS's chairman issues a public statement within 48 hours of the parliamentary vote explicitly referencing the competitiveness of Switzerland's regulatory environment for systemically important banks?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Nestlé's legal team files a formal arbitration notification with the ICC or ICSID regarding Russia's temporary administration of its Russian subsidiary operations?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Swiss Football Association suspends Granit Xhaka from all national team duties for a minimum of four matches pending the outcome of the Lucerne criminal forgery investigation?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that PwC Switzerland announces to its staff that 2026 performance bonuses will be reduced by at least 40 percent, citing AI-driven productivity restructuring as the primary driver?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

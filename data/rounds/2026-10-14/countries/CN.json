@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "China emerged from a Xi-Trump summit with a $60 billion tariff-cut agreement, a pandas exchange, and what Beijing framed as restored diplomatic face. A September rate cut and mortgage subsidies had already been implemented to support the property sector. F-16V fighter jets had arrived in Taiwan, raising the military stakes in the Taiwan Strait. AI regulatory scrutiny intensified around companion apps, data-collection practices, and a Kimi bioweapons incident that triggered safety reviews of large models. The EU was preparing trade restrictions targeting Chinese businesses, prompting Beijing to warn of a resolute response. The Golden Week holiday was in progress, with state media already pushing a patriotic consumption narrative. The United States had publicly assessed that a Taiwan invasion before 2028 was increasingly unlikely. Chinese tech firms including Alibaba and ByteDance were in preliminary discussions about purchasing Nvidia GPUs under conditions. The overall mood was cautious optimism layered over persistent structural weakness in housing, youth employment, and household debt.",
@@ -105,6 +106,33 @@
         "probability": 0.48,
         "domain": "technology"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.45,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted China would use post-summit momentum to push city-level property and consumption support, implement US tariff cuts, and posture around Taiwan while managing EU friction. The week was framed as a managed stabilization exercise converting diplomatic face into visible economic confidence.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that At least one of Shanghai, Beijing, Shenzhen, or Guangzhou announces a local property purchase voucher, subsidy, or unsold-inventory buyback program between October 14 and October 21?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that China's Ministry of Commerce names a specific EU product category—wine, dairy, or automobiles—for targeted tariff increases or anti-subsidy measures between October 14 and October 21?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that China's Ministry of Commerce or a state agency announces a new export license requirement, quota, or levy on rare-earth or critical-mineral shipments to the EU or United States between October 14 and October 21?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A property delivery dispute, high-profile tax enforcement action, or sudden sectoral policy reversal generates sustained discussion on Chinese social media and at least one major national media report between October 14 and October 21?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Golden Week consumption data released between October 14 and 21 show that average transaction values or luxury-goods sales declined year-on-year despite an increase in total visitor volume?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      }
+    ]
+  },
+  "single_forecaster": true
 }

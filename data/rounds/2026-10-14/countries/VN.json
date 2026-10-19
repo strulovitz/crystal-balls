@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Vietnam entered the week of October 14, 2026, with Q3 GDP growth of 9.95 percent, putting the full-year 10-percent target within reach. Central coastal provinces around Hue and Da Nang faced heavy rains, flash floods, and landslide risks, prompting the mobilization of military units for rescue and evacuation. Inflation ran above the State Bank's target, though officials described it as under control. Vietnamese banks announced plans to raise approximately seven billion dollars in capital through share sales. Vietnam told Reuters that negotiations with the United States on a reciprocal trade agreement were largely completed. The European Union removed Vietnam from its list of tax havens alongside Panama. French President Macron visited Vietnam, and an Alstom-Vingroup transport agreement was discussed. Myanmar's military leader Min Aung Hlaing traveled to Vietnam amid ASEAN normalization efforts. Vietnam lost to Malaysia in the FIFA ASEAN Cup, sparking public criticism. Twelve men were arrested in Ho Chi Minh City for stealing and reselling roughly 2,700 cats. Power shortages and stalled renewable-energy projects raised concerns about manufacturing competitiveness, while four Southeast Asian nations expressed interest in hosting a Formula 1 race.",
@@ -105,6 +106,33 @@
         "probability": 0.45,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.45,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The forecast predicts Vietnam will emphasize its near-10-percent growth target, manage central-Vietnam flooding with military support, push bank capital raises, and advance the US trade deal toward formal confirmation. Power shortages and the ASEAN Cup football loss round out a busy, mixed week.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Vietnamese energy officials or the State Electric Utility announce a load-management directive or new power project approval for at least one industrial zone between October 14 and October 21?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Vietnam and the US formally sign or jointly announce the reciprocal trade agreement in a ceremony or official communiqué between October 14 and October 21?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Vietnamese officials or a state media outlet publish a formal statement confirming Vietnam is preparing or studying a bid to host a Formula 1 race between October 14 and October 21?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that At least one major Vietnamese industrial zone in the south issues a public warning or notice about electricity rationing or demand management to factories between October 14 and October 21?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A European institutional investor fund or major European bank publicly references Vietnam's removal from the EU tax haven list in a published announcement or investment update between October 14 and October 21?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      }
+    ]
+  },
+  "single_forecaster": true
 }

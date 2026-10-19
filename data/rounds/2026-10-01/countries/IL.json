@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Western European governments, led by the United Kingdom and France, imposed sanctions banning settlement goods and services from trade with Israel, triggering a 30-day deadline to close the British East Jerusalem consulate. Gaza sat under a US-brokered ceasefire arrangement, yet Israeli airstrikes on Hamas and Islamic Jihad targets pressed on. Israel-Lebanon negotiations in Rome were postponed, leaving southern Lebanon exposed to ongoing Israeli operations and UNIFIL friction. Prime Minister Netanyahu visited front-line troops on Mount Hermon in southern Syria, provoking Damascus to file diplomatic protests. The IAEA observed new construction at Iran's Pickaxe Mountain nuclear facility, while the Houthis seized the port of Mokha and issued maritime alerts near Saudi Arabia. President Trump declared the Iran conflict would end immediately after the US midterms. A report surfaced that the UAE had warned Netanyahu of an imminent threat before the October 7 attacks, igniting a domestic political firestorm ahead of the October 27 election. The Gaza documentary Naza sparked a cultural clash, with ministers threatening to strip the filmmakers of citizenship. Jordan's water-sharing agreement lapsed, and a reported Iranian strike damaged US military aircraft on Jordanian soil. Gulf states prepared to meet Iran on a temporary Hormuz shipping arrangement.",
@@ -110,6 +111,33 @@
         "probability": 0.4,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      }
     ]
   },
   "crystal_forecast": {
@@ -149,6 +177,33 @@
         "probability": 0.4,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      }
     ]
   },
   "display": {
@@ -165,5 +220,52 @@
     ],
     "tldr": "Israel faces controlled multi-front escalation: retaliation against Britain over settlement sanctions, selective strikes in Gaza and Lebanon, and a pre-election fight over the UAE warning report. A full regional war is possible but not the base case. A Yom Kippur diplomatic lull or a sharp Iran-Israel exchange would change the outlook.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Israel and Iran exchange missile or drone salvos, with Israel striking at least one underground nuclear or missile site at Pickaxe Mountain?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Gulf states and Iran jointly announce a temporary Hormuz Strait shipping arrangement that suspends Red Sea military operations for seven days?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Israel's cabinet approves a formal countermeasures package targeting British settlement-goods imports and specific trade contracts?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.75",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Knesset opposition tables a no-confidence motion against the Netanyahu government citing the UAE warning report?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A Houthi missile or drone strike hits a commercial vessel within 50 nautical miles of the Saudi coast, pushing Brent crude above 95 dollars per barrel?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      }
+    ]
+  },
+  "single_forecaster": true
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described Canada in the midst of a dramatic diplomatic pivot. Prime Minister Carney was pursuing EU associate membership following a public overture from Commission President von der Leyen. Trump had already called the move hostile and laughable and hinted it could be an act against the United States. Canada had applied to join a UK-led military coalition, signaling defense diversification away from Washington. In Toronto, Carney was courting global investors, expanding tax write-offs, selling airport concession rights, and attracting data-center interest from major AI firms. Yoshua Bengio had warned that humanity was losing control of AI, and Carney had called for a global technology stability body. The US-Iran conflict had resumed, pushing producer prices and energy costs higher. EU capitals had given a cool reception to the associate membership idea, with Berlin opposing a fast-track approach. Canada was already retaliating with tariffs against US goods. Inflation hovered near three percent, housing remained weak, and mortgage rates were under pressure. Senator Collins had warned Ottawa to be careful.",
@@ -99,6 +100,33 @@
         "probability": 0.42,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      }
     ]
   },
   "crystal_forecast": {
@@ -138,6 +166,33 @@
         "probability": 0.25,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      }
     ]
   },
   "display": {
@@ -154,5 +209,52 @@
     ],
     "tldr": "The text predicted Canada would formalize a strategic EU partnership framework without a formal treaty, while Trump escalated verbal attacks. Ottawa would announce investor incentives and defense diversification. Markets stayed volatile amid the trade war.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The official Canada-EU document uses the phrase strategic partnership or deepened association and omits the phrase associate member?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that President Trump announces specific tariff rates or a tariff schedule targeting Canadian exports in a public statement?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Germany's foreign ministry or the EU Council publishes a written position opposing or delaying the associate membership fast-track?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A major AI company makes a public announcement naming a specific province for Canadian data-center construction?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The Canadian government publishes a new retaliatory tariff list naming at least three US product categories?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      }
+    ]
+  },
+  "single_forecaster": true
 }

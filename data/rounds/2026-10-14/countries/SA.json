@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Saudi Arabia was engaged in an active military confrontation with the Houthis on multiple fronts during the week of October 14, 2026. The Saudi-led coalition was conducting air strikes on Houthi positions around Bab el-Mandeb, Mokha, Taiz, and Hodeidah, with Saudi fighter jets supporting the Yemeni government offensive. The Houthis were claiming missile and drone strikes deep inside the kingdom, hitting airports in Riyadh, Jazan, and Najran as well as Aramco-linked sites. Turkey and Pakistan were in the process of deploying forces under the Mecca pact, though Turkey had not yet fully ratified the agreement. Saudi Arabia was routing oil exports through the East-West pipeline to bypass Red Sea disruption and was discounting Asian crude prices to defend market share. A FlyDubai cockpit incident had landed in the kingdom, prompting security reviews at major airports. Domestically, Riyadh was trimming non-security spending: the Joy Awards were canceled and the NEOM Stadium project was shelved as budget pressure mounted. The Anojan Sivarasa execution case over a Facebook post was proceeding through the legal system. The overall picture was a kingdom under active war footing, managing a regional conflict while trying to keep oil flowing and public confidence steady.",
@@ -105,6 +106,33 @@
         "probability": 0.42,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.78."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.35,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.78."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted Saudi Arabia would face continued Houthi attacks on airports and oil sites, respond with intensified Yemen airstrikes, and see Turkey and Pakistan begin limited deployments under the Mecca pact. Oil exports would flow through the East-West pipeline while domestic mega-project spending got trimmed further.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The Saudi-led coalition conducts air strikes on Houthi positions around Mokha and Taiz, while the Houthis retain control of the Bab el-Mandeb corridor through October 21?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.78",
+        "legacy_probability": 0.78
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A royal decree or official statement either carries out or formally postpones the execution of Anojan Sivarasa, generating at least three international news reports on the case by October 21?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.38",
+        "legacy_probability": 0.38
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Turkey announces full ratification of its Mecca pact deployment, and Pakistani troop units are visibly positioned in southern Saudi Arabia by October 21?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.48",
+        "legacy_probability": 0.48
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Saudi Arabia lowers its official selling price for Arab Light crude to Asian buyers by at least 30 cents per barrel compared to the prior week's official price?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A confirmed Houthi strike on an Aramco facility triggers Riyadh to announce additional Patriot or THAAD battery deployment within the week of October 14 to 21?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      }
+    ]
+  },
+  "single_forecaster": true
 }

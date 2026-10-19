@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "France entered mid-October 2026 in what the text calls a double crisis: a street-level education protest and a bond-market loss of confidence in the government's fiscal plan. Students, parents, unions, and mayors had been demonstrating against school conditions, with the largest national marches already held. A 15-year-old was injured in clashes, the government suspended stun grenades, and police watchdog investigations opened. Simultaneously, investors were punishing French sovereign debt: OAT yields were elevated, the spread over German Bunds was wide, and the euro was weak. Finance Minister Roland Lescure had publicly signaled willingness to bypass Parliament through a 49.3-style procedure to pass the fiscal plan. The government, led by PM Lecornu, had released strategic diesel reserves as fuel prices threatened to widen the protest beyond schools. Macron was described as outgoing, Le Pen was being treated as a presidential frontrunner, and the political class was already maneuvering for a post-Macron phase. Wealthy families were leaving state schools, deepening the social split. The overall picture was a government squeezed from below by street anger and from above by investor doubt, with the budget vote as the week's decisive event.",
@@ -104,6 +105,33 @@
         "probability": 0.48,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.22,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "The text predicted France would force its budget through Parliament while announcing emergency school measures. Protests persisted in a local patchwork, and bond markets stayed nervous. Le Pen gained political ground as the credible fiscal alternative to a weakened government.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The Lecornu government's fiscal plan passes the National Assembly with fewer than 290 affirmative votes, triggering a no-confidence motion that is debated within the week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that France conducts a medium-term OAT auction that is oversubscribed by less than 1.3x, prompting the treasury to announce additional short-term bill issuance?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The ECB's President Lagarde or a Governing Council member publicly signals readiness for OMT-style support of French sovereign debt during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that At least 100 schools across France are closed or disrupted by student and parent actions during the week, with the movement staying below general-strike scale?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that President Macron or a close adviser publicly confirms an earlier-than-expected presidential election timeline, accelerating the succession discussion?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      }
+    ]
+  },
+  "single_forecaster": true
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, OpenAI admitted its response to an Australian government data breach was not good enough, while Anthropic said it would welcome tougher regulation and parliament pressed both companies for answers. The High Court delivered a landmark ruling backing a grassroots climate group in a challenge to a coal mine extension, which industry called a significant blow. The FlyDubai co-pilot, a former failed university student in Australia, became the subject of a multi-agency investigation spanning Australia and New Zealand. Global bond markets sold off, pushing Australian interest rates to 15-year highs and consumer confidence lower after a rate hike. The opposition pledged what it called the largest immigration cut in the country's history. In business, KPMG's reputation crumbled as ANZ dropped it, the Firmus Grid IPO approached a reported 30 billion dollar valuation, and proxy advisers pressed ASX boards on executive pay. Sports headlines carried the Bledisloe Test, a cricket tour of South Africa under the shadow of Sandpapergate, a car crash into rugby fans in Newcastle, and the Australian Open's 1 Point Slam marketing push. Pacific climate diplomacy and a Brazil consular suspension rounded out the international file.",
@@ -105,6 +106,33 @@
         "probability": 0.48,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.55,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted Australia's next week would centre on the OpenAI breach hearing aftermath, the High Court coal climate ruling, and the opposition's immigration cut proposal. Markets would show bond-driven nervousness and sports would set the national mood. No major legislation or budget surprise was expected in the window.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The OpenAI breach disclosure expands to name at least one additional Australian government agency or dataset beyond the initially reported scope?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Firmus Grid completes its IPO listing on the ASX with a day-one valuation near the reported 30 billion dollar target?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Australia loses the first Bledisloe Test to New Zealand by a margin of 10 or more points at the designated home ground?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Australian Treasury announces a formal AI oversight taskforce with a publicly named chair and published terms of reference?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The driver in the Newcastle car crash into rugby fans appears before a local court for a bail hearing or committal mention?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

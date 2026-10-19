@@ -41,6 +41,36 @@ def mock_response(step_name, variables, country_code, vocabulary=None, naive_ids
         return demo.make_position(name, vocabulary)
     if step_name == "velocity":
         return demo.make_velocity(name)
+    if step_name == "questions":
+        words = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"]
+        doms = ["politics", "security", "economy", "diplomacy"]
+        return {"questions": [
+            {"id": f"Q{i+1}", "text": f"Will mock event {words[i]} happen in {name}?", "domain": doms[i % 4],
+             "setter_lean": "YES" if i % 2 == 0 else "NO", "why_uncertain": "Mock reason for testing."}
+            for i in range(8)]}
+    if step_name in ("naive_forecast", "crystal_forecast") and naive_ids and "HEADLINES" in variables and "QUESTIONS" in variables:
+        crystal = step_name == "crystal_forecast"
+        # naive says YES on even ids, crystal flips two of them so the two disagree
+        ans = []
+        for i, qid in enumerate(naive_ids):
+            a = "YES" if i % 2 == 0 else "NO"
+            if crystal and i in (1, 2):
+                a = "NO" if a == "YES" else "YES"
+            ans.append({"id": qid, "answer": a, "reason": "Mock reason for testing."})
+        out = {"summary": demo._words(100, demo._crystal_pool(name) if crystal else demo._naive_pool(name)),
+               "answers": ans}
+        if crystal:
+            out["reasoning"] = demo._words(90, demo._reasoning_pool(name))
+        return out
+    if step_name == "wind" and "QUESTIONS" in variables and "EVIDENCE" in variables:
+        ids = naive_ids or []
+        return {
+            "verdicts": [{"id": qid, "relevant_headlines": ["Mock headline for testing"],
+                          "outcome": ("UNCLEAR" if i == 5 else "YES" if i % 3 else "NO"),
+                          "evidence": "Mock evidence for testing."} for i, qid in enumerate(ids)],
+            "systematic_error": demo._words(90, demo._systematic_error_pool(name)),
+            "correction_hint": f"Mock correction hint for {name}, for testing only.",
+        }
     if step_name == "wind":
         rng = _rng_for(country_code, step_name)
         return {

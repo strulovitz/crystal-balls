@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described Taiwan in a state of diplomatic and economic pressure heading into the late-September week. The Trump-Xi summit loomed as the dominant external factor, with Xi expected to press Washington on arms sales, trade, and AI. US arms sales to Taiwan sat in a prolonged delay, with defense firms publicly complaining about the holdup. Chinese Coast Guard vessels had deployed east of the island in what the text read as a quiet footprint expansion. Taiwan responded with live-fire missile and drone drills, signaling readiness without escalation. Beijing appeared to be courting Taiwan's opposition, with a Wall Street Journal report of Xi seeing a rare window to convince the island resistance was futile. On the economic side, TSMC held a 3-nanometer mass production ceremony in Tainan and broke ground on an advanced packaging park in Kaohsiung, while the Taiex hit record highs on AI optimism. The central bank held rates for a tenth consecutive quarter. Micron employees in Taoyuan were protesting over wages and conditions. Taiwan's Coast Guard was planning its first visit to the Philippines in decades, and Asian Games representation politics created additional friction.",
@@ -105,6 +106,33 @@
         "probability": 0.3,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.55,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Taiwan enters the week under diplomatic squeeze from the Trump-Xi summit cycle, with US arms sales stalled and China pressing from the sea. TSMC chip momentum and record markets dominate business news, while a Micron labor dispute and quiet Philippines diplomacy round out the domestic picture. No war, no surprise package, but visible pressure and signaling on all fronts.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The US and China jointly announce a combined trade, semiconductor, and arms package that references Taiwan by name within the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A major global AI company issues a public statement calling for a development slowdown, and the Taiex drops more than 3 percent in a single trading session?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Micron's Taoyuan workforce files a formal grievance with Taiwan's Ministry of Labor or announces a one-day work stoppage?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Chinese Coast Guard or naval vessels are visually confirmed operating in waters east of Taiwan for at least three consecutive days?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Taiwan's Coast Guard publishes a specific date for its planned first visit to the Philippines in decades?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

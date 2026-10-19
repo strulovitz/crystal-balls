@@ -205,20 +205,14 @@ def ensure_scorecard_exists():
     # Minimal empty scorecard, matching Part 2.9's null/zero shape, so the
     # page has something to load before score.py has ever run.
     save_json(path, {
-        "schema_version": 1,
-        "generated_at": _now_iso(),
-        "baseline_brier_always_50_percent": 0.25,
-        "rounds_scored": 0,
-        "country_rounds_scored": 0,
-        "crystal_wins": 0,
-        "naive_wins": 0,
-        "ties": 0,
-        "crystal_win_rate": None,
-        "mean_brier_crystal": None,
-        "mean_brier_naive": None,
-        "per_round": [],
-        "per_country": {},
-        "calibration": {"crystal": [], "naive": []},
+        "schema_version": 2, "generated_at": _now_iso(), "rounds_scored": 0, "country_rounds_scored": 0,
+        "questions_resolved": 0, "questions_unclear": 0, "naive_correct": 0, "crystal_correct": 0,
+        "disagreements": 0, "naive_accuracy": None, "crystal_accuracy": None,
+        "crystal_won_disagreements": 0, "naive_won_disagreements": 0, "edge": None,
+        "verdict": "not enough data yet", "min_disagreements_for_verdict": 30,
+        "per_round": [], "per_country": {},
+        "manual_forecast": {"country_rounds_scored": 0, "questions_resolved": 0, "questions_unclear": 0,
+                            "correct": 0, "accuracy": None},
     })
     log("data/scorecard.json did not exist, wrote an empty one")
 

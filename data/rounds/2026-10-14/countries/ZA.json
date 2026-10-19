@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Navi Pillay won the Nobel Peace Prize, generating national pride and sharpening diplomatic debates around the ICC and Gaza. Anti-migrant protests erupted in Soweto and Durban, prompting the government to withdraw an asylum directive as a tactical de-escalation. Moody's publicly stated South Africa was on the right track for a possible credit-rating upgrade, lending markets cautious hope. Manufacturing output fell and mining production weakened, with factories struggling against surging Chinese imports. Deputy police chief Sibiya departed amid sex-offence charges, deepening institutional uncertainty in the security sector. South Africa lost the first Test match to Australia convincingly, creating public frustration and social-media backlash. Morgan Stanley signalled expectations of renewed fuel-tax relief in the coming fiscal window. Globally, US inflation data, oil prices, and Middle East tensions including Houthi activity in the Red Sea created an uncertain external backdrop. The Rwanda Formula 1 announcement added a pan-African confidence narrative. The overall picture was one of a country under multiple simultaneous pressures: fiscal, social, institutional, and external.",
@@ -105,6 +106,33 @@
         "probability": 0.42,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.6,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "South Africa faces a high-noise week with the rand sensitive to US inflation and oil, the government pushing fuel-tax relief, and localized protests under police watch. Pillay's Nobel and Moody's upgrade chatter frame the international narrative. The base case is managed tension, not crisis.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The South African government announces fuel-tax relief, and 10-year bond yields rise by more than 25 basis points within two trading days of the announcement?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Anti-migrant protests spread to a city outside Soweto and Durban, with at least one arrest reported in local media by October 21, 2026?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Navi Pillay makes a public statement explicitly referencing the ICC or the Gaza conflict within the October 14 to 21, 2026 window?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.75",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The rand loses more than 3% against the US dollar between October 14 and October 21, 2026?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that At least one South African manufacturing or retail company issues a formal earnings warning or announces job cuts between October 14 and October 21, 2026?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

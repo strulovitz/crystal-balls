@@ -5,14 +5,15 @@
   "name": "Iraq",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:08:45+03:00",
-  "total_items": 13,
+  "fetched_at": "2026-10-19T13:30:54+03:00",
+  "total_items": 9,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 8,
-      "filtered_out": 49,
+      "count": 4,
+      "filtered_out": 56,
+      "out_of_window": 6,
       "items": [
         {
           "title": "Explosion at Iraqi paramilitary alliance base kills one member, sources say",
@@ -33,26 +34,6 @@
           "title": "Roadside bomb kills Iraqi army brigadier, soldier near Kirkuk",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2FyNmUtamVIX2EwRTFyY01iTzZjQzBTRFhrdUV6UXN4RHBCMThPWEhpakY5ZVMzS01QMDJjc2lZcE4tMENKeHNyZGRTX1AwRHJhVkdlcFBoc1dEd2t3bm5seEhVUzk2cWI2MUZyMXZJZjY1bmFaZGxTSy1iWG9mcHF4eVZ6OUxKejhwSnh3S3NBVUROLUh1bG91VUVPd0ZfZ2ozVFZRMDFhWG50ZVRzbUJLQzI?oc=5"
-        },
-        {
-          "title": "Iraq's insurgent onslaught",
-          "published": "2025-10-31",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMU9CMS1SbUJ5R0prWlpXTFdFYVplYVRfUHd1ZWE0OXh5TnRSMTBRMzlWOWNYQlNwRWxmZF9pbnVmTnQ2RTQ4eXhLb2tpdFJyUEMtZkdIMF91MFZKTHJRLUdYMWNKb1B2LXdYY0U3M1A5eXJVWlNxRDNJalBHSS1qWk9n?oc=5"
-        },
-        {
-          "title": "Iraq's ancient wonders",
-          "published": "2025-10-24",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BTHFlUzBORDc1Vm91Rml3ZGRydGREeVdpUEI2cWZyai10MWlVbFYyNTZyNm1kYUg5RmxvLV9UaHd6a2ZuU3lLTUtRYTY4Qk15U1hTbDVmNDJLMHVrOGZQZjg2OW1MaUROLTFDUjVwd2RwcFNKX3hORy1IX1A?oc=5"
-        },
-        {
-          "title": "Iraq's new army",
-          "published": "2024-03-04",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DZGVkRG1QM2ZqMWw3QmRIeWZwSHJsS21HNkNYQzA5eGFCckFEN3JxWmtpTW14akVCOWdpNjVFR216bDdTb0ZCWE1hazJpR3dCTGNxdWpZV1FlWDF2YkhRY3dsY2puQk9SS3U3cEJzV3FFdVE?oc=5"
-        },
-        {
-          "title": "Leaving Iraq",
-          "published": "2023-12-07",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zc2NjOWd2VEJVUXhJVFZuQ29Mem5lNWRaRURzc2J3dDZQeWFJVEdaNkF5THFRcDJXcmJ2OGZzZ3R4a1RpdTk0WUYybGVsdEpwaGx4Q0RTOVpsUlVoUGRTbWhuaUJVUkFpVHFqaTNha20?oc=5"
         }
       ]
     },
@@ -60,7 +41,8 @@
       "id": "ap",
       "name": "Associated Press",
       "count": 1,
-      "filtered_out": 69,
+      "filtered_out": 67,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iraq parliament fills Cabinet posts, naming a US-sanctioned deputy prime minister",
@@ -74,6 +56,7 @@
       "name": "AFP",
       "count": 0,
       "filtered_out": 4,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -81,6 +64,7 @@
       "name": "BBC",
       "count": 0,
       "filtered_out": 12,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -88,20 +72,23 @@
       "name": "CNN",
       "count": 0,
       "filtered_out": 28,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 0,
-      "filtered_out": 22,
+      "filtered_out": 19,
+      "out_of_window": 1,
       "items": []
     },
     {
       "id": "tv5monde",
       "name": "TV5Monde",
       "count": 0,
-      "filtered_out": 35,
+      "filtered_out": 33,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -109,6 +96,7 @@
       "name": "Bloomberg",
       "count": 1,
       "filtered_out": 69,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iraq Seeks IMF Program, Fund Chief Pledges ‘Firm’ Support",
@@ -122,6 +110,7 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 9,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -129,6 +118,7 @@
       "name": "Financial Times",
       "count": 0,
       "filtered_out": 9,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -136,18 +126,20 @@
       "name": "CNBC",
       "count": 0,
       "filtered_out": 0,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
       "count": 3,
-      "filtered_out": 31,
+      "filtered_out": 26,
+      "out_of_window": 0,
       "items": [
         {
-          "title": "Iraq parliament approves al-Zaidi’s cabinet amid growing economic concerns | Government News",
+          "title": "Iraq parliament approves al-Zaidi’s cabinet amid growing economic concerns",
           "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSTlWX3RicWNsZ09LNWpFay11ZktpNjh6c2Z5REtzLUlIN3BXYjBreDA1R29sdW5fLTd0S1A1RFBreWtGaVpmWnJ1T2lqcE1GV3FOeHRIcEhybGswU1g0bkwtZDgtQVFtamVyREVVQm81dDI1Y3hVMzNnLUtNeGpjSHY2VWNSYldHQk9aYXg5ZWpjMW51SE4tTTBUSlVZNGtnc1ZCSHlXUldBSEtfTklVdXItVzR6UQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSTlWX3RicWNsZ09LNWpFay11ZktpNjh6c2Z5REtzLUlIN3BXYjBreDA1R29sdW5fLTd0S1A1RFBreWtGaVpmWnJ1T2lqcE1GV3FOeHRIcEhybGswU1g0bkwtZDgtQVFtamVyREVVQm81dDI1Y3hVMzNnLUtNeGpjSHY2VWNSYldHQk9aYXg5ZWpjMW51SE4tTTBUSlVZNGtnc1ZCSHlXUldBSEtfTklVdXItVzR6UdIBuwFBVV95cUxQOXMzVUxiWnJtaXlFdm5WSnpYbVRkS3VINVVlbXROenV5SlBoUkkweXVVblF0TGR6d1dnRXFCejVod3kyV2FiRWJpTlA2bjFjbVNOMEsxR0JhMGJib25JSmZVdDlFTW5ORDFlOHBfcWtqVzRPQTZDSDMzMFhZTVhYX0JzbGVCNV9QSGZua2dLRVNkY0U0bzVhLTAycmhLUUc0THJHWVhBbHFQYWQ4b1ZOZmtGSlNjZy1UV3dZ?oc=5"
         },
         {
           "title": "Iraq devalues dinar to ease cash crunch, leaving traders in limbo",

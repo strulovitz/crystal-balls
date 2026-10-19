@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described a Russia under multi-front pressure heading into its State Duma election week. United Russia was positioned to win a comfortable supermajority, which the Kremlin intended to frame as a wartime mandate for Putin. A US-brokered energy truce between Russia and Ukraine was in the works, with Trump claiming both sides agreed not to hit energy targets, though Kyiv described it as a proposal for mutual restraint. Russian drones had struck a passenger train near the Polish border, and a Russian ship had fired flares at a Danish helicopter in the Baltic. Ukrainian drones reached as far as Arctic gas facilities and oil tankers, hitting refineries and fuel depots across central and western Russia. The US House was preparing a vote on a new Russia sanctions package. Mobilization rumors were driving more young men and families to consider emigration to Georgia, Armenia, Kazakhstan, and Turkey. Internet controls and state media pressure were tightening around the election. Putin had received a warm reception at the BRICS summit in New Delhi, and a resupply convoy was en route to Syria's Tartous naval base. Spy and sabotage cases involving Russian agents were surfacing across Europe and the US.",
@@ -117,6 +118,33 @@
         "probability": 0.45,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      }
     ]
   },
   "crystal_forecast": {
@@ -156,6 +184,33 @@
         "probability": 0.7,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      }
     ]
   },
   "display": {
@@ -172,5 +227,52 @@
     ],
     "tldr": "The text predicted Russia would win its Duma elections, attempt a fragile energy truce with Ukraine that would quickly fray, face renewed drone strikes near NATO borders, and contend with a US sanctions vote and rising domestic fuel stress.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The announced energy truce between Russia and Ukraine collapses within 72 hours as at least one side publicly cites a specific fuel-target strike as a violation?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Poland restricts truck or passenger crossings at one or more checkpoints on its border with western Ukraine during the week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that A Russian drone enters or skims Lithuanian or Polish airspace, triggering at least three NATO jet scrambles within the same 24-hour window?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.58",
+        "legacy_probability": 0.58
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Russian government announces a temporary diesel export restriction or a regional fuel price cap in at least one oblast during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A phone call or trilateral backchannel meeting involving Russian, Ukrainian, and US officials takes place during the week of 1 to 8 October 2026?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.7",
+        "legacy_probability": 0.7
+      }
+    ]
+  },
+  "single_forecaster": true
 }

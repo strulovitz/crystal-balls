@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Vietnam entered a week of visible economic and diplomatic momentum. The FTSE Russell emerging-market upgrade had just been completed, and Vietnamese stocks fell 2.2% in the first post-upgrade week, triggering discussion of a wider daily trading band. To Lam publicly stated that US-Vietnam trade negotiations were 'very close,' framing the relationship as nearing a breakthrough. SMBC was in advanced talks to increase its VPBank stake. Tesla registered a local entity in Vietnam. Canada was upgraded to strategic partner status, and the EU advanced free-trade discussions with Southeast Asia. An ExxonMobil crude oil agreement underscored energy cooperation. A $1 billion government bond auction set a volume record for the year. A typhoon struck central coastal provinces, causing damage to housing, roads, power lines, and agriculture. North Korea's vice defence minister undertook a formal visit to Vietnam. A UK police operation targeted Vietnamese diaspora crime gangs linked to human trafficking and cannabis farms. Overall, Hanoi was in a 'confidence showcase' posture, trying to convert external validation into visible domestic wins.",
@@ -111,6 +112,33 @@
         "probability": 0.45,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.82."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.82,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.82."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted a 'confidence management' week in which Hanoi converts the FTSE upgrade and US trade progress into visible diplomatic and market wins, while typhoon recovery and post-upgrade volatility keep the domestic agenda busy. No single crisis was expected; the main risks were 'sell-the-news' pressure and weather disruption.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Vietnam's State Securities Commission announces a wider daily trading band or publishes a public consultation on new market rules between October 1 and October 8?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The United States and Vietnam announce a formal trade framework agreement or publish near-final negotiation text during the week of October 1 through October 8?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that A second tropical storm or heavy rain system makes landfall or causes measurable flooding in central Vietnam between October 1 and October 8?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that SMBC publicly confirms its stake increase in VPBank or publishes a term sheet for the transaction during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that To Lam or a senior Vietnamese official makes a public statement acknowledging positive progress in US-Vietnam trade negotiations between October 1 and October 8?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.82",
+        "legacy_probability": 0.82
+      }
+    ]
+  },
+  "single_forecaster": true
 }

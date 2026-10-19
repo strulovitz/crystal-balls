@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, Russia was conducting a sustained winter air campaign against Ukraine, with heavy missile and drone strikes on power plants, substations, bridges, data centers, and residential districts, particularly in and around Kyiv. Several reports indicated Russia was now attacking in broad daylight. Major bridges in Kyiv, including the Northern Bridge, were damaged or closed, disrupting daily transport. Russia was spending at record levels on its military and expanding recruitment, while Putin was ruling out a ceasefire. Ukraine was responding with deep strikes on Russian refineries and pipeline hubs and had launched a 'Vivaldi' operation using robots and explosive-laden armored vehicles to recapture territory in northern Donetsk. German Chancellor Merz made an unannounced visit to Kyiv, and new aid packages of roughly one billion euros in military support plus 350 million for energy repairs were under discussion. The EU was conditioning faster loan payouts on anti-corruption and judicial reforms. A Liberian-flagged ship was attacked in Odesa port. A dispute with South Korea over a secret North Korean POW transfer was creating diplomatic friction. Estonia accused Russia of sabotage, and a Ukrainian cargo plane was hit by a drone in Germany. Ukraine's air defenses were strained by fast jet-powered drones and interceptor missile shortages.",
@@ -104,6 +105,33 @@
         "probability": 0.35,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.74."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.55,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.74."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "Russia will launch heavy winter air strikes on Kyiv's energy grid and bridges while Ukraine retaliates with deep strikes on Russian refineries and pipeline hubs. Western leaders announce new aid, but delivery gaps persist. Local battlefield gains in Donetsk round out the week.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Russia launched at least one combined ballistic-missile and jet-powered-drone strike on a power plant or substation in the Kyiv region?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.74",
+        "legacy_probability": 0.74
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Ukrainian military publicly claimed the recapture of a named settlement in the Donetsk region using the 'Vivaldi' robotic operation?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that South Korea's foreign ministry issued a formal written statement demanding an explanation or apology from Kyiv over the North Korean POW transfer?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Putin or a senior Russian official invoked 'all available weapons' or equivalent nuclear-umbrella language in a public speech or interview?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The European Commission published a specific reform benchmark that Ukraine must meet before the next loan tranche is disbursed?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

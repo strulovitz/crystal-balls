@@ -389,3 +389,8 @@ ul.bullets li { font-size: 14px; margin-bottom: 4px; color: var(--text); }
   #legend .row span.text.full { display: none; }
   #legend .row span.text.short { display: inline; }
 }
+
+.qrow { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.qrow.disagree { border-left: 3px solid #fbbf24; padding-left: 8px; }
+.ans-crystal { background: rgba(110,231,249,0.18); }
+.ans-plain { background: rgba(255,255,255,0.10); }

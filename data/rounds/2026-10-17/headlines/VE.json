@@ -5,14 +5,15 @@
   "name": "Venezuela",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:07:55+03:00",
-  "total_items": 28,
+  "fetched_at": "2026-10-19T13:30:04+03:00",
+  "total_items": 26,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 7,
-      "filtered_out": 93,
+      "count": 5,
+      "filtered_out": 94,
+      "out_of_window": 1,
       "items": [
         {
           "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
@@ -38,16 +39,6 @@
           "title": "Top economic adviser says Venezuela aims to publish debt sustainability analysis 'very soon'",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ1lFMnZBTXJ2UC1VZG96Mk1UMHZmS2JjWXBwZDFBME9HRC1tX0U2RC1wR2h2RGgzdlhYU3hwaXhnTVctclY5dDVPYU9NeWhCalgxWHNscEtmTW83a0IxSmZEdkdnOEk3UkstUVBzcWJGc1JmaGp3NGEtczRzYXJJWG1fY0NOQ25tSjFtM0tzY2xBY200Qlg2UFFvRk13NTdBSDZWTDZEeEhjbHlDdHA2VXVUUkNnNVFZbVFsenNMVldLRGJoMkYyaA?oc=5"
-        },
-        {
-          "title": "Venezuela's top economic adviser says aims to publish debt sustainability analysis 'very soon'",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUUNFS2ZsSGFBd2pBOHlBcmdpeUZoVWU1ZkhpemRDVEY1bEUzdV9MZXJadU1HZmhCTUxTQjFDNDZnc01YbEkwY2gzUEpxaWxQY3pUc2pmMXkzT1d0QnNRMDB3VlFsTW5zRXlmMTZRXzVnNlZUeEt5Zi1TZlVnWGFkb0tDTmlzSWc0NHV1MXNYNndZZTRmSXNjVlJibWdVMzlYbDQ0bC1DZEtVbXVMWXhfbzgtd1ZCZUd2bXl1V3YtSGZUVEJXcjBCMkpkRXRoVFdEYkZaZDdZNnVQdw?oc=5"
-        },
-        {
-          "title": "Armored vehicle hits Venezuelan protesters",
-          "published": "2024-01-25",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcmJNNENHMlNZZG85elZYa3h5ZjdYRTRucUpEVGZFNnlLeUhjd1ZtZVo5c3NXVVFuMEZPT3JwSV9iOWV4dml0dVZRWXBjWkdubFhsQ2JWSnZkMndRQzR0T19lTmJ5NzFFUHJXLVBZbTFNamdQYkxmZUxKN0xxR2VQVEd5QnRQU0RaR0JwbElRZFpHSm5NbXc?oc=5"
         }
       ]
     },
@@ -56,6 +47,7 @@
       "name": "Associated Press",
       "count": 2,
       "filtered_out": 10,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Ex-Venezuelan President Nicolás Maduro says new torture allegations are ‘false’",
@@ -73,7 +65,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 1,
-      "filtered_out": 5,
+      "filtered_out": 4,
+      "out_of_window": 0,
       "items": [
         {
           "title": "US lifts sanctions on Venezuela's National Assembly leader",
@@ -87,6 +80,7 @@
       "name": "BBC",
       "count": 2,
       "filtered_out": 10,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Nicolás Maduro",
@@ -104,7 +98,8 @@
       "id": "cnn",
       "name": "CNN",
       "count": 1,
-      "filtered_out": 28,
+      "filtered_out": 26,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Judge cuts off Maduro as he tries to give statement in court",
@@ -117,7 +112,8 @@
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 1,
-      "filtered_out": 65,
+      "filtered_out": 62,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Venezuela's Nicolas Maduro pleads not guilty to torture indictment",
@@ -130,7 +126,8 @@
       "id": "tv5monde",
       "name": "TV5Monde",
       "count": 1,
-      "filtered_out": 39,
+      "filtered_out": 31,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Maduro rejette les accusations de torture, de \"fausses allégations\"",
@@ -142,14 +139,10 @@
     {
       "id": "bloomberg",
       "name": "Bloomberg",
-      "count": 10,
+      "count": 9,
       "filtered_out": 90,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVFXSEJ5V0lrTERaLTI0SGFGdDNkXy1ydHp0MjNKMHVWSGYzaE14b3VSWmhfUzc3MmhudW16VUp4LUtJUE9feVdtcHUyT1NhbHVQNlZEWW1HTUZtSWNxM1dmMk1WZnFPc1pLeExobWtyVVJsTlBLSkNLSTBTLXFBRFRDN2FXMXMtYVQ5dllhX1I5aEQ0ZEZqUk44dzd5ZUhkZzFZVWNicGJGNGlEXzNyLUdfRnI?oc=5"
-        },
         {
           "title": "World Bank Sees Up to $5 Billion in Possible Loans to Venezuela",
           "published": "2026-10-16",
@@ -200,13 +193,19 @@
     {
       "id": "wsj",
       "name": "Wall Street Journal",
-      "count": 1,
+      "count": 2,
       "filtered_out": 68,
+      "out_of_window": 0,
       "items": [
         {
           "title": "The Space Force Showed Us Its Weapons Used in Iran and Venezuela",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlRmQVpQVHVNMDZxcHRENjNUVDllTWxDOVU2bjRoYzh4T0ZONnZiQXhyeWRsMTIwYTdUcVN5TzNrUy1ac1dudmVZVnQxUnhPbURQSnp6eDRiUjNPbTF1aEFnbXNrTW9mTm1IaS1tQS13UldpSkZjRDNKMm15SkRtdjVXbEM1UEVfWF90czZpNS1RZGo3MUV2b2FPUDNYOEpXNlRj?oc=5"
+        },
+        {
+          "title": "The Space Force Showed Us Its Weapons Used in Iran and Venezuela - Video API",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbm5GTk1Jdkp0dkp3V2preVVKeU9KSXMtWmV4Q3hicTBiTnhYSWFqRW4yNjVWYXdWbk5WOV9FQzB3RTVxaHJRVXdOQ0luME1HemlWSzhvWGlvOTRndVVVNzVOdWUzM0hSVGEzalRJLXJRLThrQVY3dnRSaTlwN084aXhrel9RTm5wc0QtZEk4b1RRcnFBQWNqSmlsTnFuQlJI?oc=5"
         }
       ]
     },
@@ -215,6 +214,7 @@
       "name": "Financial Times",
       "count": 0,
       "filtered_out": 8,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -222,13 +222,15 @@
       "name": "CNBC",
       "count": 0,
       "filtered_out": 3,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
       "count": 2,
-      "filtered_out": 34,
+      "filtered_out": 30,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "As of late September 2026, Ukraine was locked in a grinding war with Russia. Russia had launched repeated overnight waves of missiles and jet-powered drones against Kyiv, Odesa, Zaporizhzhia, Kharkiv, and western border regions, damaging apartment buildings, energy grids, railways, ports, and warehouses, with casualties including children. Ukraine had responded with mass drone barrages of 1,000 or more aircraft, hitting Russian refineries near Moscow and in the Volga region, as well as rail logistics and airfields. President Trump was pushing a mutual energy truce to stem rising global diesel prices, while Zelenskyy insisted on verification. Russia had just held its first parliamentary election since the full-scale invasion, with United Russia expected to win comfortably, including votes from occupied Ukrainian regions. The US House had passed a sweeping sanctions bill on Russian oil, which Trump reportedly signed. Ukraine had launched an offensive push in north Donetsk. A Russian strike near the Polish border involving a train and Western visitors had put NATO on high alert. A UN report documented widespread sexual violence tied to Russian forces. The new acting prosecutor general in Ukraine was advancing anti-corruption work.",
@@ -117,6 +118,33 @@
         "probability": 0.48,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.8."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "crystal_forecast": {
@@ -156,6 +184,33 @@
         "probability": 0.45,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.8."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      }
     ]
   },
   "display": {
@@ -172,5 +227,52 @@
     ],
     "tldr": "The text predicted a week of sustained Russian air attacks, Ukrainian deep-strike retaliation on Russian fuel infrastructure, a fragile energy truce that both sides test, Russia leveraging its election victory for the war effort, and US sanctions shifting from politics into enforcement.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Ukraine launches a coordinated strike of at least 500 drones at Russian fuel and logistics targets within a single 48-hour period?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.8",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Turkey's proposal to reduce attacks on Black Sea commercial ships is formally adopted or rejected by Ukraine and Russia within the week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.38",
+        "legacy_probability": 0.38
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Russia announces a new mobilization wave or a draft-age expansion as a follow-up to its parliamentary election victory?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that At least one major European navy deploys an additional warship to the Black Sea during the week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The United States and Ukraine announce a verified 72-hour pause on strikes to energy infrastructure as part of trilateral technical talks?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      }
+    ]
+  },
+  "single_forecaster": true
 }

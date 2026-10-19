@@ -5,14 +5,15 @@
   "name": "Iran",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:06:42+03:00",
-  "total_items": 109,
+  "fetched_at": "2026-10-19T13:28:23+03:00",
+  "total_items": 104,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
       "count": 15,
       "filtered_out": 85,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iran's Guards say two tankers hit mines in Strait of Hormuz",
@@ -65,11 +66,6 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjBJVjY0bVpoWDlsbGtrMnpFS0ZvcURsLUZMazd5S0o2Zmw2R2s0ZXc1NzBYb1YxUnNhdENBYzBfajVLVHZiWGJtdk5PbTRLb1BzaWdsNEJDY3lxUFV4TW1wTUpTRmZGTXVOb3JDdVFNeUFTcFZEbVNPcmJBMS1lazUtZVdJbENMMVAxQWRXallDRjZlQ3lINVBfaVppOXBPSHpmUkxqRVdNalVZWVZBcS01cEhWZnlTTDFnRFBoSTVxdkt5?oc=5"
         },
         {
-          "title": "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWd0VGluQkdsUm1GUWdkQlFINnM3NzFGUEpBSGZYMEtuOEVUdWpPOWY2d3Fxc0Q3OFI4TE95YUVWWFFXaklaTHQtZFRlMlgxWWtTc2hTaHJRejhueS1SOXMxVjRUZXZyYUNWbTNldlNMQTFtUzdzV2g3c2lhNG9ucjd6MWVVdjQ4OFctWnZGcXRmdzZsNVhKU2xNYTVJTzk4NkM3R2ctRm9aZFE3ZFNCa1VsYl9qRXdGOHFpSGRB?oc=5"
-        },
-        {
           "title": "Netanyahu says he is not seeking to attack Iran again before Israel election",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?oc=5"
@@ -78,6 +74,11 @@
           "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5"
+        },
+        {
+          "title": "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWd0VGluQkdsUm1GUWdkQlFINnM3NzFGUEpBSGZYMEtuOEVUdWpPOWY2d3Fxc0Q3OFI4TE95YUVWWFFXaklaTHQtZFRlMlgxWWtTc2hTaHJRejhueS1SOXMxVjRUZXZyYUNWbTNldlNMQTFtUzdzV2g3c2lhNG9ucjd6MWVVdjQ4OFctWnZGcXRmdzZsNVhKU2xNYTVJTzk4NkM3R2ctRm9aZFE3ZFNCa1VsYl9qRXdGOHFpSGRB?oc=5"
         },
         {
           "title": "Iran's central bank governor dismisses claims of economic collapse amid US blockade",
@@ -94,14 +95,10 @@
     {
       "id": "ap",
       "name": "Associated Press",
-      "count": 9,
+      "count": 8,
       "filtered_out": 91,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Vance faces tough questions on Iran war, immigration and more in CBS town hall",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNmNuX0Jsc285RXhjY2Fud29veUhrRzdDQUhQT1lnaEpncUVmanpPbUZSRkJOSDBDSXVxUkVrMjNJclhWQ1BuVFh3R2VYWUlxU3pYdW9HcHJkMTQ3X213Nk5McHl0ZWJQN0pyQWhETG9lX01mQTBNVnBQZURDMXlLeVZtRmtQbGJONnk2OXpsRGx5YUNLVFpB?oc=5"
-        },
         {
           "title": "Iran war votes in Congress become a focal point for campaign ad attacks",
           "published": "2026-10-17",
@@ -128,14 +125,14 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXVGUWJ5OFpmSHYwLXR1eGd4MGZNVTlHNGZYXzJSRWNzQ19EcGNPaWR3d3JUcG5KdzhtZnp2Zk1BTVp1TmthNUtQN082LUo5VUlNS2FiU1IzcTlWcG4zSHdXRGpxRkxidDEyYUZOSkYyc0pBc3k4UFd5NzNpQkhvOVYwMHB2dVdHVjdic0d3V1pIcVJyTU9xNTlFd1FwQlZLS1ZFNXF3?oc=5"
         },
         {
-          "title": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom",
-          "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNGpETlVZV2FSN1RFcWNqam9vZUhLV0hsMGRwT05DUDl1OXA0aUtIdUFnX0ZjdXE0OEpHLTF1ZV9VSHdmdW8wRlk3UmhIVERHbkpUQjRtVF8tWTl0Nm13SlE4YnlNOWtDbndsZkh0VThIVWpxcmNzeC1HRHRMS1RQaHdLbURxaXBkRmkzaXA3UnEzR0JoaWJJREJCSnFiSWplX0FpbHhR?oc=5"
-        },
-        {
           "title": "With anger spreading over Iran war, Democrats hope to flip Republican seats with veterans' help",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOakxhTkhvNnpjY3RyMk02MHhWWlllc2xDOFQ5U25GekpZOWZPcG9PMVp0RjFXM3k3YUZRcmM2Z2dzMkI5Skhxa1J2S19ndVFzRmJua2VHZUJIclJCM2pOeG1VYmV5QkdzR21uQTJLMkppdVprNEZsYkFHejhNak9fN3p1NmphUjVBMGtVXzQzNEdrNDZzU3RDRWxOOHMzMkN4Z2tjT3FzOFdVWld5SWpiak1uQQ?oc=5"
+        },
+        {
+          "title": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNGpETlVZV2FSN1RFcWNqam9vZUhLV0hsMGRwT05DUDl1OXA0aUtIdUFnX0ZjdXE0OEpHLTF1ZV9VSHdmdW8wRlk3UmhIVERHbkpUQjRtVF8tWTl0Nm13SlE4YnlNOWtDbndsZkh0VThIVWpxcmNzeC1HRHRMS1RQaHdLbURxaXBkRmkzaXA3UnEzR0JoaWJJREJCSnFiSWplX0FpbHhR?oc=5"
         },
         {
           "title": "US destroys Iran-affiliated boat it says conducted surveillance and targeted navy in Gulf of Oman",
@@ -149,6 +146,7 @@
       "name": "AFP",
       "count": 1,
       "filtered_out": 44,
+      "out_of_window": 0,
       "items": [
         {
           "title": "'No time to recover': UNDP chief sounds alarm on growing poverty after Iran war shock",
@@ -160,14 +158,10 @@
     {
       "id": "bbc",
       "name": "BBC",
-      "count": 6,
+      "count": 5,
       "filtered_out": 94,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Me ya sa Amurka ke tunanin amfani da \"Uwar Bama-bamai\" a kan Iran?",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MeXBnT2licEtrZmozZXh5eGZtNlZCZ1pGaWEzMldfZjRHeXU0ZGUwaURwMXZncDRKTTNRWUpHV3IxNlhjWVQ1VFRETEhDVkpjRndnS1lwbmxGOWxD0gFiQVVfeXFMUEZQU01Ja3hxNE9MdjV3R2Z5VXpMdmJJYlFXdFNQZmVJb21fcUNwdmwtZVpITzJSaUhOWmY5ZzFxeHVXUXZmdmZfeTZhNmh3LUNuUV9YVlVqcklUdjdSSDA5cmc?oc=5"
-        },
         {
           "title": "Iran",
           "published": "2026-10-17",
@@ -200,6 +194,7 @@
       "name": "CNN",
       "count": 10,
       "filtered_out": 89,
+      "out_of_window": 0,
       "items": [
         {
           "title": "How the US-Iran war upended two critical global trade routes",
@@ -222,9 +217,9 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?oc=5"
         },
         {
-          "title": "Exclusive: US considering using ‘mother of all bombs’ against Iran, sources say",
+          "title": "US considering using ‘Mother of All Bombs’ against Iran, sources say | CNN Politics",
           "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSktNLUM1VEdiandOcDJVNzE4b2NuajZkcXAtem40MlJ4TWc3VEptSjJqQ1g0QjF5VTVXemNQUDBSdy1wYWM4eG44b05FT3ZLVi1sTUhGM3U1MEk0X3JvTzBFUlVNczJZZlZfUlcxN1NwVnQzc0ZuTEVxSkhLOE5wenBMZ2xqZw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUXo0UGtXa1ZlVDJ4SDZUYXl6RWNMTk84eDVRbEdrQjlaaWdaV1RnUllsSzFoZ1NyUFplOThtUXhwVTNJTUNyQ2tqM3dDc1dPOU1CTWM1dWF4MmVWalo1MnVOZWpYeEtoZnNNeVNhVFRhV3JRZkx6aDZDSWU2MkN3a3UzTjVJN2txZzhn?oc=5"
         },
         {
           "title": "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
@@ -256,18 +251,24 @@
     {
       "id": "dw",
       "name": "Deutsche Welle",
-      "count": 10,
-      "filtered_out": 87,
+      "count": 9,
+      "filtered_out": 86,
+      "out_of_window": 2,
       "items": [
         {
           "title": "In Iran, a young woman's murder by her male relatives has reignited the debate over 'honor' killings",
           "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDdUYUFuTmNqMEg4QWhFUVZLQ2I4LXFWbmxrck43WUJ4Mk5BNm9Yc0tZMUNqNUgtNUhSQUVDSVpzTXBRcGRFdXBZTERCbF9pbXhIc1hOYmk4aWREdlNSajhMazZoM2Yxd1pFUGVncDVTYlNKc3FLaVNlTHFVQktLTXl0Nk5uUEQyNzZv0gHIAUFVX3lxTE5zOGU5M1h5V1NwbG5vLXpnWEJPU21zRGdraURuZk5jeDEtdHZIUThHNGZBM0VZVFZLcGQ1MXJ2SUE0cjluUzU0ckl1N1V0QTFfZkN0eUUzcEM1cHlQVllYOU91Z0plZ083RjZoNjh5ZGRBZHJ3cko5eVlLMTRrVWQxMXZ2VGctLXhGVWp0SHR6UEdWaTRNRFJaeTRrY2tKalhBS2FoNWZwbHlFSm5qUjRnSENobjVMNHE1ZEJxWWhFWTVUUWVEWnBQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNamFDYjN5VU9lV3NMcGp2NV84WUpVYVRtOVhNLV8wT0VTMElTT3kyS21rN0VPR0xpUW9NSnZFM0RwWGpkVEdZcUJQaUJxc3F4cElUZzB2aVBvVTZ3Q3BDY0tHZEJHV0pObTY3NXNheklGemNpRVZwS0tjLU15M2xUSmhnZFZjNWY4ZFA5TU9n0gGOAUFVX3lxTFA2WmM1VkJ4cDdUZUZtVVl1WGg4VV8zbjVmejB6VTFyNGlJRFVZeVA4ODByZlQ5TXZ2UWlLNGlfRmxxUlVLU254MzcyY2EtdXVvX0szZDcyRExVM3BKYWRMZXlRRFhiRkVpWExob2wtRDZfWFl0UEpHNlNOV0pJMVZMXy0xMEpLWkVmaXlsR1E?oc=5"
         },
         {
           "title": "Femicide in Iran - DW.com",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM2hPNHVrVTNWbHR5TzNfUEpFSHlpSGtITHFtQmlsUndTdUxDR2dfWjdJa2ZzTmcwV0U0cTdoYzNMSy16ZjZFcDZyQ0NPMEQzRTJqOWU3VjFIQ0I5TlBZTE5qNXZ0MEUtSVpCeXhXQm05TlpMc2xERWdFS1Y4eVlGc0dxWHlmeER0U1pxckk0R3NnVThQSV9mX1dZbG5tV0tkZWk2eVZoWnJiRFhkWFlRTFJ2c2pSZw?oc=5"
+        },
+        {
+          "title": "A young Iranian woman's brutal murder by her male relatives sparks debate over 'honor' killings",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeUpWQ1FuNGRNQmdxR1hWbExiYVpNdTM1THYtV1RESFIyVm5Wakh0d2xGY0tFcW1sVHI2T2Ywc3I3VnYzUERNaEdxc3JvZUFUVGl1SGZ1NHdmcWFta2h4M08ydVBDWmV5SEdnMUZ3d0EzQUZoaUJLbUhEUktJLXI4SXNGUnZ0OWlCVkpF0gGLAUFVX3lxTFB5SlZDUW40ZE1CZ3FHWFZsTGJhWk11MzVMdi1XVERIUjJWblZqSHR3bEZjS0VxbWxUcjZPZjBzcjdWdjNQRE1oR3Fzcm9lQVRUaXVIZnU0d2ZxYW1raHgzTzJ1UENaZXlIR2cxRnd3QTNBRmhpQkttSERSS0ktcjhJc0ZSdnQ5aUJWSkU?oc=5"
         },
         {
           "title": "15. Iran: When 'honor' becomes a death sentence for women - DW.com",
@@ -298,16 +299,6 @@
           "title": "Iran - DW.com",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbkp1ejZQbklzSXpsWkEyQmVGZlMzazhoUEZSdVdZVk8zamRHLWhTRzdwNk94dVI2YjRNMmVmWHdHOWtlalVhemlNSjduSUhlbUR4M3Y1LW1SaGR6U1NXZHZOcjNLcUdBYk1OUUYtOE9Ub24wc1pUWHFuTjlPeGdYbUpkYldKejNGTWpmejNfNHNqQUVOZk5rNXpaZ2l2MEtrODNBNE5QaENYMGdqdFF2elNVa0Fkdi1VYzgxdldsbjBnZURqOXMw?oc=5"
-        },
-        {
-          "title": "Iran war",
-          "published": "2026-04-22",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QVFBSQnFkcWFIWlRLMHZHSzVXUjlVUjIwdWFPQWozNVllcWY1eV9jem45NUdzQUtxazV3X05panF1X0hDWDltVHV5QmgyWW9yVDZ3?oc=5"
-        },
-        {
-          "title": "New Iran protests break out amid US military buildup",
-          "published": "2026-02-22",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWIyZGFkalFzeVNudXNZYUpvbHpjRjR1cnNPSWx0RDNZamNEVnQ5b0Foa2NFTXRpTnBRb1F0enplQXJKMDc5ME1lZm44RW9vN1FFU0hmalZHdS1WZTZDOFcwUk1GQW9mdDF1UjIwZkx6enVwUHpiUjNaMlp6S3JYcFVDLU42TmwwN2piN0xoVG02Q1dzQWUyUUxzLTNmcmlXQ0tTYXRwRmMtWGU0RGQzVW53?oc=5"
         }
       ]
     },
@@ -316,6 +307,7 @@
       "name": "TV5Monde",
       "count": 5,
       "filtered_out": 95,
+      "out_of_window": 0,
       "items": [
         {
           "title": "L'Iran réfute les accusations saoudiennes d'implication dans les attaques houthies",
@@ -349,6 +341,7 @@
       "name": "Bloomberg",
       "count": 16,
       "filtered_out": 83,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Trump's 'Mother Of All Bombs' Threat Would Miss Iran's Buried Nuclear Sites",
@@ -437,6 +430,7 @@
       "name": "Wall Street Journal",
       "count": 4,
       "filtered_out": 95,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
@@ -464,7 +458,8 @@
       "id": "ft",
       "name": "Financial Times",
       "count": 4,
-      "filtered_out": 85,
+      "filtered_out": 82,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Oil majors face $32bn dilemma over Iran war windfall",
@@ -492,7 +487,8 @@
       "id": "cnbc",
       "name": "CNBC",
       "count": 10,
-      "filtered_out": 90,
+      "filtered_out": 83,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
@@ -549,19 +545,10 @@
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "count": 19,
+      "count": 17,
       "filtered_out": 79,
+      "out_of_window": 2,
       "items": [
-        {
-          "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?oc=5"
-        },
-        {
-          "title": "Al Jazeera｜Iran war live",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTWdjVlBuRV9ZMEswSV9OODYxUG1ZUW03WTBRYWpYZFU3bFl3Zk10YmRGbmplTkx2T2ZDQ1VkWl9uVC1YZzBjMGJpNVZlUmNVWUlkUWItcTVGWmJvQkRQYUJsS3NmakllQ2Y0dUdnSlBWdThUTnpzWHlsNzVPNXRZeUF1a2N1TjNiSlBSMGJ2aFJ0YWpsNXltTVVLV2VlalJvRW5CclJmZUFMTXBGZzhWQkVXQldrdUpXU1Q4RGNEdHo2Z21aU2hIYThjUDNHNlQ2LW9pTw?oc=5"
-        },
         {
           "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
           "published": "2026-10-17",
@@ -618,11 +605,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlhIMzBRSWZZRE5wbkZrQmt4R21QSlpBbS1MdUotNUxNVTRiblN4WnI4clRWbFROU3pGUWdfMExqZXhpVGNWY0ZwTFc4M2FWMHNFQ2lwQUhvRjZmNEVqbkhTMFc1M2lmbkJVU2ZBODNYRWRVUExFd3JSN1l1OUFBYWFUUWNNOWpjMjFJeEx4aTVOcEdaQVp6eDhBM0s4NVFGU3U3QTJva0p3QlUzRWJpeE5UZ0xFT3hGNVpYXzFMOFdxcDJiTzZFd1dSSVlsSVRtNG53NVk0SQ?oc=5"
         },
         {
-          "title": "At least two security officials killed near Iran’s critical Chabahar port",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeXRZcjJGM2JSeWxZdnhJb243eEJTemRkQWlRVm9SVFJlMlhRZXRBdUZZaVQ1aVlIaDBadGZ1dmI4WFBqUVNkVnVIekdCR2pTTXV5N21kVURvYmp6WHBraDNoeGhnVTl1TUQ1T3c5Yl9Id0lJS3p2TVRXTURPWnB3R3NTR2E3YjlKa0RHdGMtZkdsQ3oyOGZQcE9xNThBSjBxTFdoT0d1VXA1VTllR192WVFtcmTSAboBQVVfeXFMUDlBS3VmU2ZYcGVkUF9VZU1jRkRibmJXZzlyZEU5aFZ5ZWJ4bmRlRzBqNUFGSFV5dkY3OTlPSTUtamx5dDBlTnRVYzdXcTgzbm9qMFozUVNSTnN4X01hX0hxNUZFR055X0o2eEh3MjcwQWdUSFRlLVVmYUduTktGeDBaOHFHNEx2STJ2VXlHbTRXMGRIM0wzWVNZVk8tSmg1NXdlZHh0VGkwdXdoZnJ3VlR3ZFlLdnN5akxB?oc=5"
-        },
-        {
           "title": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPajRGaFpNRktCMGhUd3BtM2VBLXR0RFF5TzIyVDlldlRJU0xBM0Z1d0dFWHdIVW5RNWwzSkVXRU1DRXlqc1Q4VmVsUTZ2eHpYYi1NbzZZS2xybEJYQUhRNG9hSXE5VzBWdEp5UVZnX25WaURFWmdBMl9weHB5aWJqZjc1RTQ0UnNFTlJXNWJzc1VGOXNyUkE5alpMa1paUjhEYXZCcnUyMVhGak1sMXfSAbMBQVVfeXFMTWFpMGVIVkoxUl84bjJSUWJIRUp0Z1ZoT0JXRWZHWG91UWtzYUo3VG5FLUJ1bjhQZGF6RWE4QkNxdm8tR0Rxd0U0TzQwN1VBUVVVSU8yT2ctcjF6SllwRUozTXRoOGRqVjQxU1VRLUs3V3RjZkc5TkxxSlhwTzdfWlFUTTduVUNRakl0eTJZVF9zS21LLVhpYVZTSWQyMHlROG1EYkRERE9wNnhsYm1icFpZR2M?oc=5"
@@ -641,6 +623,11 @@
           "title": "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEoydG9jdlpqSFV4N3RwNzZULXNUMEgwVW54MjZad0U5TWI0MVlSemdzNG90X3YtaVp2cEhHRm1FMDRqUjZtaUs1MjZtdlY0d0l2amZLTS1MMUkzakNHMzV4b0hoYktXWHo1ckwwSkVCUG1vRzF1X1p6VUJZYXUtYndkRHRoZnIwbUczS2dmc2pHYzdQSlhYNWJoZXd1T050bzBYNEx3UGlvX0JKWWxF0gG0AUFVX3lxTFBuRVdqTEhtSEJaRjhiSjU3eTBYRHVBbjllR1lhMndWOFFHMENQLXhtNXF4SHl5WjlVWWdhdWJnSU0zR1QtNmQ2MldNdzgtTWg0ZzdsNkpkS2kyMzlyZmg4NkZiOFQtVURiUEhSMGw2WFJEOGp0Z05ZbmQzVi11andqNjRJT3l4V1hQSERpNTduWTNkc2NQTUI2MGt4R29xMTlBQkNYMTFheUI0ZkdsdnRVOVluaA?oc=5"
+        },
+        {
+          "title": "At least two security officials killed near Iran’s critical Chabahar port",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeXRZcjJGM2JSeWxZdnhJb243eEJTemRkQWlRVm9SVFJlMlhRZXRBdUZZaVQ1aVlIaDBadGZ1dmI4WFBqUVNkVnVIekdCR2pTTXV5N21kVURvYmp6WHBraDNoeGhnVTl1TUQ1T3c5Yl9Id0lJS3p2TVRXTURPWnB3R3NTR2E3YjlKa0RHdGMtZkdsQ3oyOGZQcE9xNThBSjBxTFdoT0d1VXA1VTllR192WVFtcmTSAboBQVVfeXFMUDlBS3VmU2ZYcGVkUF9VZU1jRkRibmJXZzlyZEU5aFZ5ZWJ4bmRlRzBqNUFGSFV5dkY3OTlPSTUtamx5dDBlTnRVYzdXcTgzbm9qMFozUVNSTnN4X01hX0hxNUZFR055X0o2eEh3MjcwQWdUSFRlLVVmYUduTktGeDBaOHFHNEx2STJ2VXlHbTRXMGRIM0wzWVNZVk8tSmg1NXdlZHh0VGkwdXdoZnJ3VlR3ZFlLdnN5akxB?oc=5"
         },
         {
           "title": "How do Iranians move money abroad to avoid US sanctions?",

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-17",
+  "code": "NL",
+  "name": "Netherlands",
+  "window_start": "2026-10-14",
+  "window_end": "2026-10-17",
+  "fetched_at": "2026-10-19T13:33:20+03:00",
+  "total_items": 11,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 0,
+      "filtered_out": 74,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 2,
+      "filtered_out": 51,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Croatian soccer fans arrested over antisemitic slurs during match with Amsterdam team",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXVON0xTa2Y0RDE0LXJhOXVqeUx3RTloWEZOTEFPdWt2aWFCWl9RV19XYlZBVVZxRVlCYzJubnQ3bTEzXzk2bnI5aHRtVEV0Wmx2blJqcXZ0SEpMMXRlZ0dBVGRnQUNkWHBfdE1kQlZvaWw3X3phV1QzWTFzLVh3cFNlaXNqWUJjYmdZOThfa3kya0xmTVJqUzJR?oc=5"
+        },
+        {
+          "title": "Former Dutch international Clarence Seedorf presented as coach at Brazil’s Corinthians",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEdLbWRaWlVHMWtQck1ELWE1Z3kzTjRvZDZMeHNRVzBhNDlCZm9HajlfdXZYcC1PZWVvVVc2U2FCdFhnSVB1R3hqaGVXSHpaSl9xNThxUDJDR1lDal9mMjVINjRGbTdYLXlLMUJsUmh6eEl3V0hrTkYwSDR0SG1rOHJSRkx4ZndYRXh4TlZJWkFOb2MzUTk0?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 3,
+      "filtered_out": 19,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "AI boom drives record sales at Dutch tech giant ASML",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9oN1lCVV91cWFPdnhpNy1WbGVlOEVNQXhPczNwS21fS1R5cjE3V2h1bS1nMVlKckVnS2dsb1J2RjVOcXNzQV9VTl9tbw?oc=5"
+        },
+        {
+          "title": "Video shows Dutch PM defending ICC, not saying the international tribunal is 'finished'",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDOGpVQU1rcVZ6bFZSdFAzaHRVOHk1Zm5sOU00c1RQTy0yTEFpSVpUUzNFRDFRNk5jR2FuTkp0SGtaSWduWGt6aERfSXh5QnVRZEpKaEJiaW8?oc=5"
+        },
+        {
+          "title": "ProcureTEX Returns for Its Second Year, Bringing AI and Best-of-Breed Procurement Technology to Amsterdam",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TVjdvU0gxNk5KTzlXQkpZNWlHMzNNd0NsT3N0dWlrZmI1SUcxcWoySXVXdGV3YUlnbVZvYktoai1ZdGdiV2ItNm9hSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 3,
+      "filtered_out": 63,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Telstar vs Feyenoord: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxSno3RHRkdjB5QUtDQUtGY2lRRnlrWVVRRlc5ZmJTMHRxYXMwMVNmLU5LNUlmREZLWUdaZGd4enNMeDJOa0pPMHpNZXFYUlE2ZWRQaEs2UFpwOXp0VlhDbWN5OA?oc=5"
+        },
+        {
+          "title": "Sparta Rotterdam vs Willem II: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ydlhVeVJBQVNTVG9FVGJwUW54aXFnUW9aX000dW5BRmVHT2RRekNqOEphRzhmM3hjMHVVS1BqSWJWT3JIdWFNU1Vvck9aVXExSWZXN3Bsc1V3WUlTRTdTaVdTUQ?oc=5"
+        },
+        {
+          "title": "Heerenveen vs Excelsior: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mNTBXRUtzREZhSkRqQzdNNmZHM2RnNURSNmV0TENXbDJtS1RDd0ItT05abjQ2S0wtOVVfajA3QjA3RUVEVUZsWkdxNlhhaExhM1BCSFNWTXpRcmZQeVlVWGtIbw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 1,
+      "filtered_out": 13,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "The Netherlands vs the sea: The race to hold back rising waters",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNT0EyeG1JYzNYQXZvek9COHBfeXA5VTdOM3h1ektYYlA5SmJZMDZvSVN0YWZtYUZULU1NMTdRR3hoUVdmRnlsVHlLeFhsbUZ0Q240OHcxUEhhYkJ2M2xlOGYtZ2cwWnhWS3oxSGZDbXdieFZmMTQ1a21UaFYyRWkwX0FFU1lEVll1R1FUb3U2NGJMc0ctN3dLd2xkZkhSTFM4enpZemxyY0d5RTcyUWhwam9WZ19aSEt5R3hzbjJVQVN5a2JmcUEwcWhBbzlINnMteEZkUEFIUVFEVmlEX0VGbkxuS0VhZUc5TF81enlCUXFMM3R0N3k2YzF0aGJDM1drc2gwdA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 1,
+      "filtered_out": 19,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Israel strips Dutch diplomats of status in West Bank - DW.com",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEVhU3I4aV9fejRab3JROGhoVTRDdjFIWEQyRkVrNVJmWUxJUXM5UHQ3SlA3Z19OUXdWSmJOZWI3clNzLXdoeUZfSG52YVRDRG0yTGVXN05adm0wejItSGJSSjBldTV2WGhZRDNyYy1jUnVvdzlETUl5TngyR2NNSTVvZzBwamw3RTNrLTRiWlpOUlczbHA1LXdSdTlWSng1eU1VOGVkVWo3VTN3NUZHWmRqZw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "filtered_out": 100,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 0,
+      "filtered_out": 97,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 1,
+      "filtered_out": 38,
+      "out_of_window": 2,
+      "items": [
+        {
+          "title": "Opinion | The Netherlands’ Priorities Are All Mixed Up",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWNUaXNkU0Q2NjJCekVPSW1YMlY2Q1ZEWnVRYWFsRFJGR1d4bU4tREdNX2FzMElkY1RZQWhRWDB6NGl2bThNTUROelRwNXJOdjlBVVpaVElpbFJpNG5rdGpjNmY0Q05Nd3pVeG9senJWS2dpemZLbUdhRXVfNXpTdUYteFgzTnhfb0EwY2RfU2doY3UzSkdtWUN4Rng?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "filtered_out": 46,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "filtered_out": 7,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "filtered_out": 24,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}

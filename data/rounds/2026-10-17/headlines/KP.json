@@ -5,14 +5,15 @@
   "name": "North Korea",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:07:32+03:00",
-  "total_items": 50,
+  "fetched_at": "2026-10-19T13:29:39+03:00",
+  "total_items": 36,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 20,
-      "filtered_out": 80,
+      "count": 7,
+      "filtered_out": 79,
+      "out_of_window": 14,
       "items": [
         {
           "title": "North Korea tests new AI-equipped torpedo, KCNA says",
@@ -48,71 +49,6 @@
           "title": "North Korea says tests two types of submarine-launched cruise missiles",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUdEU2JTOXFfYzZsQm9Janl2RkJBUTkyeTlDMjBFTTI5ZWxuUTduMmMwdHZHWDR1QVJaOGh1T2h0Qi1WNWNOcnlCNmdkcXZSTHc4MGQyUUhHTnFBV0tRZWVLRWVTYTdrLWNBM0RMT3FXZ0tFUkxkUjN6YWR0YWNURjlRSE5fNTNPX3ZIQmxvRm5VUGZDNjYzUW90SUhJNzZRajZXcVlHLU1BWnpzaHgzTEZKTXZHa2pFZlU1Y2JqNUVwTjlH?oc=5"
-        },
-        {
-          "title": "North Korea's nuclear ambitions",
-          "published": "2026-09-17",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tX0pIX1lyYUs1YzhoY0hCb1hzU09wSVpsc1JqVkZFOXA3VUVISi10eDZvRHFtQlU3TUxwUUZtalBaUDZxSV9iMEt0c2ZRZzZocFhxcjNUQ2tzb3FoX25N?oc=5"
-        },
-        {
-          "title": "North Korea mobilizes posters, military in fight against COVID",
-          "published": "2025-10-25",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWXVjVDNkZXJDMy0yRExpMEhDMmg5X3F5RUl6c0ZwcXdMV0N2Z0FZRWlyVVJKZWJnUmNqOEluWVZTZ3Z6U0loQ3dac0VCdzNINjZkVUFwUno5cGFOU0NYekROXzVXckIxQmdnNVBoYzllRDNpVU9UR3lKTFhwY0UwS2JaVTd1TmVvTmU0a1BIS0VxNjB1RXc?oc=5"
-        },
-        {
-          "title": "Workers of North Korea",
-          "published": "2025-10-25",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uRXNDdTFBVG4wOTV4QnlrazNpQW4xYnlXakl2Yzk3U3BjWUJmcHJ0Z2lwb29fX0NySzhGcmY2SVBtVTBBNkNaUTFkVnVoQUd1WVlzbWNvbU8waFZXX1RsRDJ3LWJhOWp2Q0lLU3NNc1RRekxrN3ZMeUp6R2VMUQ?oc=5"
-        },
-        {
-          "title": "North Korea's supreme factory leader",
-          "published": "2024-07-20",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUzJmaHhtY2t1eTRpS1BxMVYwZUtUbkRlZnFrODUzazBYVWtSazdVbVJSRFNCQ3Y2NmdJVHFXUHdaX3JPZDRSTWU1Ti1fc2NNa0ZLM2ZGQnh2V3ZzUjN1ZnZsU1hDanNqOFZ6ZEVJbGZqQUpPQkNQbC1qeWVOX0RYZnlseFZYT0lKUjJZMC1vQQ?oc=5"
-        },
-        {
-          "title": "The Pyongyang skyline",
-          "published": "2024-06-21",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaUVFGZ29SXzdrNHVOeDI0cEZNUmVzN1FFandZdVl4UTFLbGw2VWUyUnJMcUFWNU1wcUNfcFBBLVNxaVVoQ1k3M0UyUXg4VDJzMm9sbFJGa2lNWjNhMUQ3dGFWMmlBVHZQMTNBVlVXenl6S1c1bW1vWl9NZmw?oc=5"
-        },
-        {
-          "title": "Cycling North Korea",
-          "published": "2024-03-07",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jWXJrSlZJSVppdnFaMENoUzl6UGlvYTdzU0ZNc2drcDdnOE11cnBQRVA0S015dVFZLUVEeWdrZEFJSF9Jak5aZGdPeHhEYUFxNml6QlFDVm8yYkVDak1oWlNZaVVPLW4xSjNPS2NlUm1BUWJleEE0eEpR?oc=5"
-        },
-        {
-          "title": "Surreal symmetry of North Korea",
-          "published": "2024-02-23",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNUtySmNxUm1JZ0piTnhJQVJ4Wllzd0Zfc3RMb1R0ZXgtZWxLM1pIeGQ0X2tiQXdubklHX0VYSFNvbmU5cTJfeEtVZHdvNThMUnIzdUZ2d05CN0sxN21mR3lGSFUwdXZHOXhFcmNybTNyUkRiYmthMmxGNVpQbHAtVWI2YXJUY3AwMmc?oc=5"
-        },
-        {
-          "title": "North Korea's architecture",
-          "published": "2024-01-14",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGFuTFhrRmZtZzVzdVhLRjZSM0p3UkNzMHBYdXNoRTJVUnlYMllEcTlvVV80azNXZk5pN19PUDI3RkVIV3V5Ny1FTndGSXhaay1xYzBUVGVWZ0pyaHdoWXNNRzNVeGR5cGM5cTNhbGxqUXBMSXZGTmh1ZlB5S0RxOA?oc=5"
-        },
-        {
-          "title": "Kim Jong-il",
-          "published": "2023-12-18",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xdFYzYzA3bUFpbmh4YW40M3ZIU0dra09DUGRMMGVwaDBuLU5kUkxKLWNGVjZqLWx2RldkNEVGeWhVTm9TYlo3dzBQSHZ5c1RDNjY3M3Jucm40Y1V0R2xvd0lXMUhneWlTbEozM0VzVQ?oc=5"
-        },
-        {
-          "title": "North Korea water park",
-          "published": "2023-12-16",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1OTmtqWkFJUmxsMnp6bWdqNUVSVUhVeElkV29zU1JuTlJrS0JhX1ZVbktpTHBhbmdDRWs4d0o2VzVQUG5vUjRfM0pqU09MRmJualREVmo5bUxkOGppRzR4TGZNYVNkdThqTGVJY3dlRVRSUE0ybmpMakZVY25Xdw?oc=5"
-        },
-        {
-          "title": "Inside North Korea",
-          "published": "2023-12-13",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1id1hvVFBOTGdnVzM4c1g1ZGNmSXNkZ3EwTEo0LWVkaHR2QXU4bjJBcjBjQmo1QnZ6VDN0T3lDV0lGQTJFSFVycmVRZEE5SS00ZXRqcEc2NDZSWmRDRVNN?oc=5"
-        },
-        {
-          "title": "Clinton meets Kim Jong-il",
-          "published": "2023-12-09",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kZlQ2R1JnZmNIN2ZLVUtDSWlvNzBCaFFfRkY3NFc0NGMzM2FZRjhPVFZFN2tjZm1UT3NEb2NnU2JDWHEzdE9qcFpwS3plQjVMVm41Mk5XdlVFMlc3dzc4?oc=5"
-        },
-        {
-          "title": "Kim Jong Un style",
-          "published": "2023-11-30",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDdU9fYmhlUVdFSUV5X2h3ckttRGNhUnRSMnlJbktfQm80TzNEc21Vek5kRllBTUdsbUcycUFraHlSQXlxWXFleDYyNXFSSkZKUC1TYlJxbmhIUzVwQlE?oc=5"
         }
       ]
     },
@@ -121,6 +57,7 @@
       "name": "Associated Press",
       "count": 5,
       "filtered_out": 10,
+      "out_of_window": 0,
       "items": [
         {
           "title": "North Korea says it tested new torpedo system with AI capabilities",
@@ -154,13 +91,15 @@
       "name": "AFP",
       "count": 0,
       "filtered_out": 1,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "bbc",
       "name": "BBC",
       "count": 2,
-      "filtered_out": 9,
+      "filtered_out": 8,
+      "out_of_window": 0,
       "items": [
         {
           "title": "North Korea: What satellite images reveal about Kim Jong Un's summer retreat",
@@ -178,7 +117,8 @@
       "id": "cnn",
       "name": "CNN",
       "count": 3,
-      "filtered_out": 19,
+      "filtered_out": 18,
+      "out_of_window": 0,
       "items": [
         {
           "title": "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions?",
@@ -201,7 +141,8 @@
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 4,
-      "filtered_out": 40,
+      "filtered_out": 35,
+      "out_of_window": 0,
       "items": [
         {
           "title": "North Korea, China open border bridge to boost trade after 12-year delay",
@@ -229,7 +170,8 @@
       "id": "tv5monde",
       "name": "TV5Monde",
       "count": 5,
-      "filtered_out": 69,
+      "filtered_out": 60,
+      "out_of_window": 0,
       "items": [
         {
           "title": "VIDÉO. La Chine et la Corée du Nord reliées par un nouveau pont",
@@ -263,6 +205,7 @@
       "name": "Bloomberg",
       "count": 1,
       "filtered_out": 4,
+      "out_of_window": 0,
       "items": [
         {
           "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade",
@@ -276,13 +219,15 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 9,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "ft",
       "name": "Financial Times",
       "count": 1,
-      "filtered_out": 6,
+      "filtered_out": 5,
+      "out_of_window": 0,
       "items": [
         {
           "title": "North Korea gets closer to China and Russia with new bridges",
@@ -296,13 +241,15 @@
       "name": "CNBC",
       "count": 0,
       "filtered_out": 0,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "count": 9,
-      "filtered_out": 29,
+      "count": 8,
+      "filtered_out": 23,
+      "out_of_window": 1,
       "items": [
         {
           "title": "China-North Korea border bridge may do little to spur trade, experts say",
@@ -330,24 +277,19 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdG5QWDh0YjlmeTJWbkdNTHVhc1MtWFFyZk5ZaXE1aUpLYk9VYmZBak5rZDBCZENGc0hEWFI5d3ktVG43aWN5d0Q3YVlpaEdhNEUwQlg2TXBQbFF3RUlvc1oyMjk2cjFQdVpCZ3ZjcU91b1RHZ1RjYjdLQnJPczVZRmxDOHQyMnpvaS1uSGNfT3dkTjduY1BHa2pRQTQ0SEhXeldwOHlRYzI1R2tsR0RXRHJ0Z9IBuAFBVV95cUxPdzNPQWh4Uno3ckhBTmNhVENhcGhxNXdsaTZTcFdrcWRMTVlaT1UwVG8xSVN5TFd0WUtOTXQ4V3JXdVhJb0J5Rzd3SXlQRnRZZGtYMHVnT0lNTkJSeVpBUTRXeW9fN09hcHpaWm9KNzNodmtEMUJQWWNqTXRYbUo0UGVrRGRnVlRPM3pYTE16MG1fcHBITFNoWTVtbF9tTmVMaUthYXlSdVFtV3Y1Q0tTQ1VSNTZjTHln?oc=5"
         },
         {
-          "title": "Long-delayed China-North Korea bridge officially opens",
-          "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOGRlNnA0ZkhDR29JdmUxOHJmdC1rTXllbGV2ekZubWRwUUFmdnRIdFBqckY1OFV1a3RXanNseS12WFZTdjJZY0hKWHBoQmlIc2dxT0RaajJPQ3hRM3M0QUJBV2t2Ny1iOTlIVnFPYk55Zm5Rc0dYdWZZeEd0b1JFcHdiQU9sa1VkRmg0aVdKRUxrcDBKQlpuZFFwdThjTWpROFB6dkhObmlPMTdGeDRJ0gGvAUFVX3lxTE84ZGU2cDRmSENHb0l2ZTE4cmZ0LWtNeWVsZXZ6Rm5tZHBRQWZ2dEh0UGpyRjU4VXVrdFdqc2x5LXZYVlN2MlljSEpYcGhCaUhzZ3FPRFpqMk9DeFEzczRBQkFXa3Y3LWI5OUhWcU9iTnlmblFzR1h1Zll4R3RvUkVwd2JBT2xrVWRGaDRpV0pFTGtwMEpCWm5kUXB1OGNNalE4UHp2SE5uaU8xN0Z4NEk?oc=5"
-        },
-        {
           "title": "Photos: China and North Korea open new border bridge amid deepening ties - Al Jazeera",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUw4V3ZaZWQ0Zi1HMm52emNPakl5Q3h5WVphYnRwTmgxNWtSaEJ2OEZ1bVBBY2JvTWJvbGJqZldLMVVSLVBWU1ZxbWVvQUN2WnNTR3ZjOXRaSmFPZHJRc3ZmT0Q1ZjhadmhHRGdPRFd5OTJUVVNxTWMzeWRXZFBqckVBeU0wVFVubV84U01sWUZoQVlMdDVBOWdreWtwcFdxSVZVeXlDYjEyUzI3eVc4cXRoZThUU2lUSTd0X1ZEb2JfYVVUREU0X1RrU0NSSnNz?oc=5"
         },
         {
+          "title": "Long-delayed China-North Korea bridge officially opens",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT2V1akx0eElUYVBDZkswcnEzeC1POUU2aUdXbUlpMHBRMkFldlNFWlBYZFA3OExFOXRhbmhENUNKcFZ0czJuaE5iVUJiVGJFTFM1a0hXel91R05EZGMwVW1ZZ1AtVUNWT2VhbXdYNEtfVmZFQU84RDU4cW5Ka3RUQ0FjNW5JRHI1MzhSMUxzWUNhYTFnOVpYTHhRSlNJMGVXbW12UWZIOVhpd9IBrwFBVV95cUxPOGRlNnA0ZkhDR29JdmUxOHJmdC1rTXllbGV2ekZubWRwUUFmdnRIdFBqckY1OFV1a3RXanNseS12WFZTdjJZY0hKWHBoQmlIc2dxT0RaajJPQ3hRM3M0QUJBV2t2Ny1iOTlIVnFPYk55Zm5Rc0dYdWZZeEd0b1JFcHdiQU9sa1VkRmg0aVdKRUxrcDBKQlpuZFFwdThjTWpROFB6dkhObmlPMTdGeDRJ?oc=5"
+        },
+        {
           "title": "Long-delayed China-North Korea bridge officially opens - Al Jazeera",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM3FTTEdCRkpvczBTMUM1UVJXd1k3eEpMd19RZWg5S1RRSUlES1NCSlY3NksxOFpfb1Zfd1I0WGJEQlZLNmh4YWxDcEk5enRuX21aRUNxMTNmNWZRUy12N25UeFd4MUdMWnVNZnpQZksyYXFVZ25iU0x3UzRxeThnajZRZjZCU09KVEpCVWNOZnROXzVaRXRiUDdhdG11bUtvVEtmRDlvX1phbVhFRnNlMDRoT01yUzg2YW1RWGpMS0llWXM?oc=5"
-        },
-        {
-          "title": "North Korea",
-          "published": "2020-09-24",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ETWZtb0s3Nml1M09vTmVncTBHcXc4alpmZ1JjbUR0WmxuOExXV09ZX0VzcUN3c0hGNXZBN29NVG1VS1lvT3BzMk0ycVVlU0hjU0ZwLVNxZw?oc=5"
         }
       ]
     }

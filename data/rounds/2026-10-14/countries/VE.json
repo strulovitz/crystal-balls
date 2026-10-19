@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Venezuela entered the week under interim leader Delcy Rodriguez following Maduro's removal, with Maria Corina Machado still in exile and the opposition holding rallies and motorcades demanding her safe return. A Caracas energy summit drew executives from Eni, Repsol, Qatar's UCC, GeoPark, Glencore, and Peabody, signalling foreign capital's renewed interest. The IMF explored establishing a local office. The government publicly acknowledged misuse of the anti-hate law. Venezuela handed an FBI-wanted suspect to Washington. Power outages triggered tire-burning protests in several states, and the 100-day anniversary of twin earthquakes kept housing and compensation demands alive in La Guaira. In Washington, former congressman David Rivera's sentencing and Senate Democrats' challenge to the Pentagon's proposed equity stake in Venezuelan oil turned the energy file into a domestic political fight. Claudia Macero returned from exile. The overall picture was a government projecting openness and deal momentum while retaining firm political control over the pace of transition.",
@@ -99,6 +100,33 @@
         "probability": 0.45,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "crystal_forecast": {
@@ -138,6 +166,33 @@
         "probability": 0.35,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "display": {
@@ -154,5 +209,52 @@
     ],
     "tldr": "The text predicted a week defined by pressure for Machado's safe return, at least two new energy investment announcements, and intensifying U.S. congressional friction over the Pentagon oil stake—without a final election date or full political settlement.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Between October 8 and 14, Maria Corina Machado physically lands in Venezuela under a heavy security operation, and the opposition immediately issues a formal demand for a presidential election timetable?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Between October 8 and 14, the U.S. congressional fight over the Pentagon oil stake delays or alters at least one previously announced Venezuelan energy investment framework?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Between October 8 and 14, the Venezuelan government releases at least two political detainees as a confidence-building gesture linked to the anti-hate law review?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that By October 14, the IMF issues a formal public announcement confirming the establishment of a permanent office in Caracas, Venezuela?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Between October 8 and 14, a combined power-outage and Machado-return protest in Caracas or Carabobo draws an estimated crowd exceeding 50,000 participants?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      }
+    ]
+  },
+  "single_forecaster": true
 }

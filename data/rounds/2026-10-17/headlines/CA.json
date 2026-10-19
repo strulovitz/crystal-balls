@@ -5,20 +5,16 @@
   "name": "Canada",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:08:21+03:00",
-  "total_items": 71,
+  "fetched_at": "2026-10-19T13:30:30+03:00",
+  "total_items": 66,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 13,
+      "count": 12,
       "filtered_out": 87,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5"
-        },
         {
           "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
           "published": "2026-10-17",
@@ -28,6 +24,11 @@
           "title": "Canada women snap world champion England's 41-match unbeaten run",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaG9KcWdNcUJoQU5udWxQS1p1S3U0ZVo1NlZhazhSdlpxbGRCeVR5aXVMTU55ZnNtdmpDOUE2VEUwV0ZCU3V5b1BqQnZ1R0luT0ZkRGVMX1dKdnRHNmw1d2M4U2x2N2p1SDZlMDJ1UGY5SjQ2OEY5c2tnZ1Y1Mm0yTTJIV0o3ZlUxY0JLWFBmWG9UVVg5TnZOY09QYzZFejZpWnhiTGhuczFUUQ?oc=5"
+        },
+        {
+          "title": "Anthropic signs lease for first Canadian data center",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmcyRDdMUmlLNHlsNWhYbVRfTFE1WkJIODRiQmxfOHpzM09lYS1Na0JGNG5YdXlIV09fUVZDWkpRRDFIcUlXb2VYaHhZTjM5Q1AwMnRZZjFkSjRKTTM3RHdUaDhEaEdUWnZTZmVrTUtNaHdTWnM3NVJ3WnFma1VTb09hcURCME10UmFMWXdabmxwNXk1ZUZ6emFoYmRCanEzM3FR?oc=5"
         },
         {
           "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
@@ -43,11 +44,6 @@
           "title": "Alphabet's Waymo plans first Canada robotaxi service in Toronto in 2028",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRUVFbmxpclVROHZTbFhvQTBNNnIyZVJjVzc4MXBvNWFSQ1ZydU1Da1B1czVLbUJOZGg4MmJWVzNudDgzQ01BMm83NjBwbUludm9yc2RBMkM0SEppZ1lxaDUxVkcyY1FoZ1NyOF9vd1ZkU18xcXBxb1c3VGJpbzhDSW5MdjVkeW84OGN4Vmd2Q1JBQkVlU1F5TF9RSlRjNzRUTUIxeDR3WHZXQnc?oc=5"
-        },
-        {
-          "title": "Anthropic signs lease for first Canadian data center",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmcyRDdMUmlLNHlsNWhYbVRfTFE1WkJIODRiQmxfOHpzM09lYS1Na0JGNG5YdXlIV09fUVZDWkpRRDFIcUlXb2VYaHhZTjM5Q1AwMnRZZjFkSjRKTTM3RHdUaDhEaEdUWnZTZmVrTUtNaHdTWnM3NVJ3WnFma1VTb09hcURCME10UmFMWXdabmxwNXk1ZUZ6emFoYmRCanEzM3FR?oc=5"
         },
         {
           "title": "Canada exploring Stelco nationalization, industry minister says",
@@ -86,6 +82,7 @@
       "name": "Associated Press",
       "count": 4,
       "filtered_out": 96,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Canada’s Carney makes final appeal against Alberta separation ahead of referendum",
@@ -113,7 +110,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 2,
-      "filtered_out": 23,
+      "filtered_out": 22,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Canada stun England to end four-year unbeaten streak",
@@ -130,8 +128,9 @@
     {
       "id": "bbc",
       "name": "BBC",
-      "count": 7,
-      "filtered_out": 93,
+      "count": 6,
+      "filtered_out": 94,
+      "out_of_window": 0,
       "items": [
         {
           "title": "The uncertain future of Canada's 30 rescued belugas",
@@ -154,11 +153,6 @@
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiVXFQU055YWRhVy0tUmd1X3lsVEpua2J6RFhuMDJLU1U3UHV3dE5vYlpEYWxtRVFxNFA1Y2NscER0YWJLVXBKY3NEa3Izc3ZUXzlGS0FybEpHTTA?oc=5"
         },
         {
-          "title": "Why is Alberta voting to separate from Canada, and how likely is it to happen?",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vUlRPcUFrWWRqeENUeUg1YXVTTS1NdTlTcml6dWtUaTVvbWNWeXdXS0h4NlNmMkRUT0cxTHBtbUpwbzNpdkozRUpZQTlHQ0owd3J4U09OelBIQQ?oc=5"
-        },
-        {
           "title": "Canada vs England: Hosts expect landmark win over Red Roses says Apps",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aTFlNQTlXZVBvaDFvc3lmV3A2Qlo2X05qZVRDajczbzRCalpZV2ZYbzE3cDZkMXc1UDdjaDRrS1llTFNOeU9vRHVtWFNUM0NfNkprc2l1XzVJTUdxZjNGVGM3ZWVwbGE4bENGdg?oc=5"
@@ -173,19 +167,10 @@
     {
       "id": "cnn",
       "name": "CNN",
-      "count": 4,
+      "count": 2,
       "filtered_out": 96,
+      "out_of_window": 2,
       "items": [
-        {
-          "title": "4 dead and dozens injured after major fire breaks out at one of Canada’s largest military bases",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5"
-        },
-        {
-          "title": "Deadly fire breaks out after ‘serious incident’ at Canada military base",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPcmhvQTloQzRjWjFOeGktQ0RRZTM1RjNoeTFrQjBfa3NTMHN6enVheVpONFdNaDRIeDZwT3oxVGNLS0syVjdRMl93MEh3ZnNLMUFBcThzNkJRMU44Nmp0ZHRZMndWVklHYlZsRklHclVmcEk1VXhXSEp3dmRBYi1ZRWV0RERkdnhLYjYzbUxVNUZpX1pQWDIzbDNJQlZlcjYwZ2dPV1Fzck8zWVY4MG01Ql9fRWpuOHFULXN0V3ZINnMzUlU3V3NKZkttSzdfM2c3SFRiQVFuNkhvQnBJazdldmVRbmozT0pKX09GWHFoSTUtTll4RTNNWXpLaGY2azg4UGxoSjBORzdBQQ?oc=5"
-        },
         {
           "title": "Canadian crowd erupts as Carney talks of reducing US dependence",
           "published": "2026-10-16",
@@ -202,7 +187,8 @@
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 3,
-      "filtered_out": 43,
+      "filtered_out": 39,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Mark Carney implies US trying to 'break' Canada amid vote for Alberta independence referendum",
@@ -226,6 +212,7 @@
       "name": "TV5Monde",
       "count": 7,
       "filtered_out": 91,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Le téléjournal de Radio-Canada - EDITION DU 18/10/2026",
@@ -267,14 +254,10 @@
     {
       "id": "bloomberg",
       "name": "Bloomberg",
-      "count": 19,
+      "count": 17,
       "filtered_out": 81,
+      "out_of_window": 2,
       "items": [
-        {
-          "title": "Fire Rips Through Canada Military Base, Causing Casualties",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUkFFVzgwTXZJZFhycnVZZmZsQTZOS2tHNXNhWGZFQUZSbVNqTFlxa1hIb0xvMjFqZklGLVZ5d2xYbmZYOEJkREtkalNDdmE3emtEYnQ0b0xHZzNyUVZZc0c1ZERVaEFpZTlHeGFKbEotREM2cWUxOHdWTWRPU2FPcnZXS21BcEJ0Z3c2Ni1DNEF5TTFvTmgxVTVXa0pvQzE2SndDVGd1UHZoMFBxWnFzSTlyMlJXVFZRajBDSW1uU0p2MkI4UnZPcTlKbw?oc=5"
-        },
         {
           "title": "Alberta Support for Canada Rises Ahead of Separation Referendum",
           "published": "2026-10-17",
@@ -311,14 +294,14 @@
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHlzS1ZQTUNLQWVnRjRvaFFabDFKSmJOTlhRZDFsVXNXNVN1cjhvTy1IQ1NXQWJGUWVzekdvVkJLdHJSYnZWblN0b0VDbXpOV0dFcjk5QnR2ZXo1clFYakpaTmVucmdVa0pPM21JWlVsa19EQnB1LVdTSXZSaUItcDUySFNhUWFFVkNzb19IXzhHajZqWjVwcDF3cjRrRnZkbnk0Umw4ZDN4YjB2YXFRMk5jTFVIbHc?oc=5"
         },
         {
-          "title": "Canada’s Pile of US Bonds Grew by Nearly $600 Billion. Some See China at Work",
-          "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVHptQ0RCbHNyejJGdUlaRWVwdGkxdG9tOWZuVWZBNno4SFEwS3ZNbE5WeVBPaVNkSUU3SWkyTHNsRlczeno3TVFNWjd6U0tyWU9qM3EyY3FPaFBpWWpfb0x2anlEVjZoNU04NWVTa3diQmowTWVsTHVIcEtKLXMxTGRpT0FfM1pTcGtzelZLUDFLbDRZQW9RZmpBeUJYeloxOXdkdlRYdVRzUkF5aV9ZNm5JRFRKYk0?oc=5"
-        },
-        {
           "title": "Toyota Commits to Making Cars in Canada as US Rivals Downsize",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV2ZwUHZBeThjRFhmdTE0X2Z3ZFV6enVGUFpZRFlKSHJlUzR5SVZpaVhsWXdsTWFBX2dXUXRWOHZLMm1rWmR1UUpzNGwwSkN5NDA0d1ZOeWliVHBHcGJaZTFNN2padXRsT0VJd1g3SFdlMFFRQWNDaDF6Nm1GNXF1Z0gtRTZPYTdsa0I0NnVIUkcwaVdQekJ1MVMxc1BHRXlLUG1aZVRTVnkyd3lDaXg0OE5B?oc=5"
+        },
+        {
+          "title": "Canada’s Pile of US Bonds Grew by Nearly $600 Billion. Some See China at Work",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVHptQ0RCbHNyejJGdUlaRWVwdGkxdG9tOWZuVWZBNno4SFEwS3ZNbE5WeVBPaVNkSUU3SWkyTHNsRlczeno3TVFNWjd6U0tyWU9qM3EyY3FPaFBpWWpfb0x2anlEVjZoNU04NWVTa3diQmowTWVsTHVIcEtKLXMxTGRpT0FfM1pTcGtzelZLUDFLbDRZQW9RZmpBeUJYeloxOXdkdlRYdVRzUkF5aV9ZNm5JRFRKYk0?oc=5"
         },
         {
           "title": "Shopify’s Lutke Courts Canadian Controversy as His Wealth Soars",
@@ -328,7 +311,7 @@
         {
           "title": "Cleveland-Cliffs CEO Calls Canada’s Stelco Threats ‘Bullying’",
           "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMk5uTHJleEtCWlZBTElrb25zSlhBcHdkZ0EweWp1U3BCeG9kLXdkU18yMFV5NWF0eVJ5WVNFd2U3WWUtbG8yNjhVVWcwZm1mOFlRbXZWa2xJVWJhblYwa1FCZ3ZJR3o0YU03N0ZyS0FZVGZDZ3NTWEJGMzc2Qk5fcEczZEE5YkFVSElDLWtIUl96LW5MMGRtYjZQYy1PY3BjSUl2N0l0OWlHRGpjckRVWlFrX1R0U0p0OG9lM2htS2cySUljT0V3Uw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUVNwVjVnTWx3YmsyaU1HUTRlcm1OeDdhcnlGZVZ3TUcwYXdvQ3VpQTFJSHdDeFhLdEVNTlJJcFJ5dUFkU3NaZ0RMTUlhR2dxa0NsbGRxWUZQa0lTTkxJOUVRajUyUjBLZWk4ci1FUUowNXIwdG9hd2xRQXFaVFV0N296T2o2WnUwelplMFUtdm13R2NIcDRwTUVEYy1nYXhXSjdhNm9Uc1hkR0h4LXc0Vmxtdm85Q1Mwd1U2VGgxQ1NJV1QyM3VsRVNxb0xLZw?oc=5"
         },
         {
           "title": "Watch Canada Minister Anand Says Ties with India Have Improved",
@@ -359,19 +342,15 @@
           "title": "Ontario’s Ford Says Canada Must Plan as If US Tariffs Are Permanent",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1N1OUoxX0FUcDVkaWtzanBTNDJTREctSVc4b1I5YnVjM3hZaUxGY0xzQzN2VUY0eGlMNlJvbmJKUTFoUjhNUkJzbDBpTWU1anZHUUhSSHExUjJvYXpLR1ZVeTRLTV8yVlhnZldwd05lQVY5T21pN2pnOGdkRUtQdGUtell1M29kd1VMYzVnc2hUbnJKVndzbkNYeXV2M1c3RnhpVG9YWTJWQnZlNkNxaG9GTi1VcTRyeDBWcDhlZ2lWQQ?oc=5"
-        },
-        {
-          "title": "Canada Daily",
-          "published": "2025-10-27",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jc2YtU3JST25JbkVrUGZKUU5DNllIWllxZUdiYnVOeXRIUDVObXZNZkJzMENNaTlsdjlVSDhrbDI4QS1rSjRrcmJBcnZRVEdUZ083anYzc1BnaEhTR0w0LU5oVjBqVGF6cFE?oc=5"
         }
       ]
     },
     {
       "id": "wsj",
       "name": "Wall Street Journal",
-      "count": 11,
-      "filtered_out": 89,
+      "count": 12,
+      "filtered_out": 88,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Cleveland-Cliffs Braces for Fight as Canada Looks to Block Layoffs at Stelco",
@@ -402,6 +381,11 @@
           "title": "Omni-Lite Industries Canada Inc. (OLNCF) Stock Price Today - The Wall Street Journal",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TZHIteW9OX2luZjh3MFR0U25VUk95T0JVdDJLNkIyd0ItNExPc3hKdnZNeU9ZVFBUSFFSVDl1RDY1U2x1Qmc2WHItZlBHa3dYQVhkZU13?oc=5"
+        },
+        {
+          "title": "Royal Bank of Canada (RY) Options",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OajRrcGxCekpWVk9IUFFHV3JYOGlBZXJ2U0szMVYwX0Z0bVdHZVNCbjVNVnJYS3p6SHRUQWJlaU1rQjlSeTVsc3c4Zm1LcktaU1BDYlZKSXdTZG02YXNYNGxjT0NmODVRVHJ2dWxOTlM?oc=5"
         },
         {
           "title": "FOTB | First Ottawa Bankshares Financial Statements",
@@ -435,6 +419,7 @@
       "name": "Financial Times",
       "count": 0,
       "filtered_out": 100,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -442,6 +427,7 @@
       "name": "CNBC",
       "count": 1,
       "filtered_out": 30,
+      "out_of_window": 0,
       "items": [
         {
           "title": "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
@@ -455,6 +441,7 @@
       "name": "Al Jazeera",
       "count": 0,
       "filtered_out": 100,
+      "out_of_window": 0,
       "items": []
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, Iran entered the week under managed military and diplomatic pressure. The United States approved visas for senior Iranian leaders to attend the UN General Assembly, signaling a willingness to keep channels open. A UN report documented possible US war crimes, including a strike on a school in Minab and a sports complex in Lamerd, which the regime seized upon to rally domestic support. Iran was blocked from attending an IAEA meeting at US urging, deepening nuclear tensions. Naval incidents proliferated off Qeshm Island: explosions, a struck cargo ship, US forces engaging small Iranian boats, and Iran claiming a drone kill over Hormuz. A Swedish diplomat was expelled and Sweden sanctioned an Iranian embassy employee, widening the diplomatic rift. Baha'i properties faced seizure orders. Oil traded above one hundred dollars, the rial weakened steadily, and hardliners pushed for calibrated pressure on Washington ahead of US midterm elections. A Financial Times profile of Mojtaba Khamenei underscored succession questions inside the leadership.",
@@ -104,6 +105,33 @@
         "probability": 0.42,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.82."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.82,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.38."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.82."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "The text predicted Iran would use the UN session to negotiate a narrow Strait of Hormuz shipping arrangement, stage large domestic rallies, and maintain small naval pressure while the rial weakens. A Mojtaba Khamenei succession signal and hardliner proxy escalation were flagged as secondary but significant risks.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Mojtaba Khamenei appears publicly beside his father at a state rally or IRGC event during the week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Iranian officials announce a reduction in IAEA inspection transparency or reveal a new centrifuge installation in response to being blocked from the IAEA meeting?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that A Hormuz shipping framework is reached but limited to an Iran-Oman-Qatar-US track without Saudi participation, reflecting Saudi absence from the talks?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A counter-protest or silent vigil by opposition groups occurs at a university campus in Tehran or Isfahan, drawing arrests within 48 hours?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.38",
+        "legacy_probability": 0.38
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The Iranian rial loses more than five percent against the US dollar in the open market and the government responds with a new import-license directive for food and fuel?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.82",
+        "legacy_probability": 0.82
+      }
+    ]
+  },
+  "single_forecaster": true
 }

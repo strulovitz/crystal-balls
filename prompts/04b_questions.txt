@@ -1,0 +1,21 @@
+Country: {{COUNTRY}}
+Today: {{ROUND}}. The next check happens in about seven days, around {{HORIZON_END}}.
+
+You are the examiner. Two forecasters will each answer the same eight yes-or-no questions about what happens in and around {{COUNTRY}} during the coming week. A judge will later resolve each question from the next week's headlines. Your questions decide whether this exam is fair and informative: they must be visible in headlines if they happen, and genuinely uncertain today.
+
+CURRENT SITUATION:
+{{CURRENT_POSITION}}
+
+HEADLINES OF THE PAST WEEK:
+{{HEADLINES}}
+
+{{QUESTION_RULES}}
+
+Return this JSON object:
+{
+  "questions": [
+    {"id": "Q1", "text": "Will ...?", "domain": "one of the domain names", "setter_lean": "YES or NO", "why_uncertain": "one sentence on why a careful reader cannot be sure today"}
+  ]
+}
+
+Exactly eight questions.

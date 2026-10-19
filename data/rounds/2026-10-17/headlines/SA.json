@@ -5,14 +5,15 @@
   "name": "Saudi Arabia",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:09:11+03:00",
-  "total_items": 108,
+  "fetched_at": "2026-10-19T13:31:19+03:00",
+  "total_items": 107,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
       "count": 22,
-      "filtered_out": 78,
+      "filtered_out": 77,
+      "out_of_window": 1,
       "items": [
         {
           "title": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
@@ -131,6 +132,7 @@
       "name": "Associated Press",
       "count": 10,
       "filtered_out": 90,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
@@ -189,6 +191,7 @@
       "name": "AFP",
       "count": 5,
       "filtered_out": 27,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Asian Cup in Saudi Arabia could be postponed but 'no hurry' to decide: AFC",
@@ -220,19 +223,10 @@
     {
       "id": "bbc",
       "name": "BBC",
-      "count": 12,
-      "filtered_out": 39,
+      "count": 10,
+      "filtered_out": 42,
+      "out_of_window": 2,
       "items": [
-        {
-          "title": "Al Fayha vs Al Ahli: Saudi Pro League stats & head-to-head",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLWDNYWlVUMnNwbzBFUnNfdU82bmVMUHhORkZFTXdjaV9WWURPUkd6MkpWNkVFVVR4Umxnbk9PN180bUZObHlWbzh4blRCbjg3ZkNMWUV5bEk1Zng5ajd1NEo1Yw?oc=5"
-        },
-        {
-          "title": "Al Shabab vs Al Faisaly: Saudi Pro League stats & head-to-head",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUOTI0ZzZGakJfcDZJOGl5bHkyREE5Q1NLc0FCUW9hQlhyTGo0MW56RWx3VWhnQTR0akVycGFLWWdEQS1vVXFGVnUzRGtEa0FCV1pDM2QwOHRnQVNfcGxpbXhHMA?oc=5"
-        },
         {
           "title": "From Our Own Correspondent | Saudi Arabia hit by the Houthis",
           "published": "2026-10-17",
@@ -289,7 +283,8 @@
       "id": "cnn",
       "name": "CNN",
       "count": 1,
-      "filtered_out": 41,
+      "filtered_out": 40,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
@@ -301,13 +296,14 @@
     {
       "id": "dw",
       "name": "Deutsche Welle",
-      "count": 4,
-      "filtered_out": 96,
+      "count": 5,
+      "filtered_out": 95,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
           "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtY9IBjAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtYw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHhFTFNfMEZnbkRjRnNVeTA5ejBuQUVnVno5dHptLXZJSC1CMGRNTnpVSWdhU3dlVzB1czNrWExUMDBuVUxTZ21FMFFkVWdKeDdJNm5OSU5DSERkeXo0N2Jqa3BZN2ZBQ0QxRjNmdkpaeTktb3JxMk1jN2xlNTZlaEVfUVJzMzlrbWlDStIBjAFBVV95cUxNVm1DMmVQWFpkaVBFQTk4T1lzNks4YVFBZUR3TmtWNEk0X3NKWWMxNHA5QUU4N1cyakdJMHkwLVdlR3l1V2Q1NmNhckNLNUY4VGMzU1RYeHhDUUhrRDJEUWV4aUpRMVplQUFJUnFtSFpIRkhXb1l4ZC1EVlN2aTBKbGs0TmZCRHpLczRtYw?oc=5"
         },
         {
           "title": "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
@@ -323,6 +319,11 @@
           "title": "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWWhNQVg2QVFJbU50a3RKZm8yanc4YzBOS1ZJUFh0Uk5ZRzhEVzRXblBfWEpXQTJYOEJ0N0RjLWozYTlld2k1TUxtcWtQMEVodUlnYjNjWEFoYmQwZ2UySHhNOFJWQTZNZGthSUNEMHBMLS1rSVlYV1lNTFE1YWVvd3hjbHNMUjVxa041aXVYV2RhOUg2VW91TzVCZ28zZUxGbEk3S0dkNVBHcTVHanB2S25TYTNRMExJTzhTRWl3?oc=5"
+        },
+        {
+          "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5"
         }
       ]
     },
@@ -331,6 +332,7 @@
       "name": "TV5Monde",
       "count": 7,
       "filtered_out": 93,
+      "out_of_window": 0,
       "items": [
         {
           "title": "'La nuit, j'entendais les fenêtres vibrer': en Arabie saoudite sous les frappes houthies, des habitants affichent leur sérénité",
@@ -345,7 +347,7 @@
         {
           "title": "L'Iran réfute les accusations saoudiennes d'implication dans les attaques houthies",
           "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSUZMeEhJN182cC1kWS1qM2g0QnJnWkFnSDM4VnA5aUQxVWk5bGNaY3o1UG1saGRFZGhVQjJqSUMxLVpBM1hrUTYycFp2elFGSjMzUTEyVHU0WV9pVV9QR1dRQ0pqbDRLSms1bkt6Wmg1ckowWEVHVThrVVotRjh6T3IxV0ZRNjZRdE1FZ2xMTVI1OUpUVGc0SXRhRlI4cV9DMzMyRGZmU2p3NUlDbGsyb3Y2eFdVUUJYa2FBNGh3T3hfT2tHY1pTby1IUjZlNkJ1TnhDX2l3?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc0JWaVo0VUNfazZYUDN3NzM1Wld5bmN1cUF2M0hDVzBwdjExQlliM1VnWTV5WUpGaXZneXoyWWhadWh1NjNJNDZWd0tlZ1YzNkxId2lJbC1PYnFzY1J4ZURZbnZsc0h1QnU3T21KVlJSWUM5aUFMeERZWGNJclpHYXI4Ulpzc21CVUg0TVZZR0Z4ZkVfYXB2d0FxcWRMeGhTNFo0UmprckZEQi1Gczc3Nmc3WlpmMm1LSkZBSzd1aW1kS0c5YmROZjNYdGVpX2hv?oc=5"
         },
         {
           "title": "VIDÉO. Sénégal: Mbayang Diop condamnée à mort en Arabie Saoudite",
@@ -374,6 +376,7 @@
       "name": "Bloomberg",
       "count": 17,
       "filtered_out": 83,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Houthis Hit Yemen Airport as Saudi Arabia Intercepts Attacks",
@@ -426,11 +429,6 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOXd2WXgyZHpLVzJLOV90Sm9vakItckFjczNqQzNPNVYzeXBJenNEamdKRzlodEJWeUJnV2FkdFB3NUk2T2dNRlJyQ3FjeHB4enF5MDNYZm1NN3hxUGh1a3Y1LWVIeUlwNUt2aWtqSFJ5enZIZFUwMER4ZGgyamZnYk1yYTV5VzlkS3NoN1pTR1ZaVU5MTnFVYVVyd2pqT19INkpRVVNhV0ZucE84cnEySDZSeWp3UQ?oc=5"
         },
         {
-          "title": "Watch Aramco Headquarters Hit as Houthis Widen Saudi Arabia Attacks",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN2NBRXRScDZsYnFjYmwwYVQzanZWVnpGVGlRUDhGMVNBcmtuMFMyWk5tS0phbGZteDFjdXZpaC12YUd0dVdoT0REN0NCekRsYjV6aEc5QzhwNmltUnk0bXJ1VEJ4WloxamxUS0E0QnRfdGpoWmstdHI2c3d5UVBsRTJMcjBsZGdLMHRPX2kzTHQ3d2JWUUg0ZzZjdEp3LTBzUlBr?oc=5"
-        },
-        {
           "title": "Aramco HQ Hit as Houthis Widen Attacks on Saudi Arabia",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLTM3MUJoRVBma0lBNlpQa0hKSkxCalhRMkUtQThqdy1sTVNjcnN4a0dIV0UwczhyUklLUkZCLTZ2MF9FSmhIMDRUQXlWcFFkRHo4R0MyMFJIRzlYejg1TksxS1NkSFJEUy1OT2FKWnVBT1FXVThyNDI4WXRXN1UwM1NIbWUtQTVxTmRqelNIN0FjT05aM0U2dkhXMHBpdF84ZG9IUHFmak1qbnBJQ3FYbmZSYWJtQQ?oc=5"
@@ -444,6 +442,11 @@
           "title": "Riyadh Airport Attacks Amplify Wall Street’s Unease Over Saudi",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazdOTGtDOVctX1ljcENNLVVlTUxaSkNXZFZmSDJIa0MtZkVyMGktSmp2dFFYSm96X0o3R0hOczdXQ0g1cDRwaURua0RsOHo3YldJQlJyT2RRMko2Q0pwOTc2eWlMNHY5ckFfWDhWMk1mQTRlaTdLUklPRTlZdWJWYVFQczFaMTVld01jUTkwbzBTTFpNbk0tbG9aZzVMRF9ZYkdWb1dMODN1VHBfekZyUmhXcGY5TnlkNlU5ampHWGI?oc=5"
+        },
+        {
+          "title": "Watch Aramco Headquarters Hit as Houthis Widen Saudi Arabia Attacks",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN2NBRXRScDZsYnFjYmwwYVQzanZWVnpGVGlRUDhGMVNBcmtuMFMyWk5tS0phbGZteDFjdXZpaC12YUd0dVdoT0REN0NCekRsYjV6aEc5QzhwNmltUnk0bXJ1VEJ4WloxamxUS0E0QnRfdGpoWmstdHI2c3d5UVBsRTJMcjBsZGdLMHRPX2kzTHQ3d2JWUUg0ZzZjdEp3LTBzUlBr?oc=5"
         },
         {
           "title": "Houthi Attacks Escalate, Leaving MBS Facing a Major Crisis",
@@ -467,6 +470,7 @@
       "name": "Wall Street Journal",
       "count": 4,
       "filtered_out": 82,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
@@ -494,7 +498,8 @@
       "id": "ft",
       "name": "Financial Times",
       "count": 8,
-      "filtered_out": 72,
+      "filtered_out": 65,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Houthis encircle new target in conflict with Saudi-backed forces",
@@ -542,7 +547,8 @@
       "id": "cnbc",
       "name": "CNBC",
       "count": 6,
-      "filtered_out": 15,
+      "filtered_out": 14,
+      "out_of_window": 0,
       "items": [
         {
           "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
@@ -581,16 +587,17 @@
       "name": "Al Jazeera",
       "count": 12,
       "filtered_out": 88,
+      "out_of_window": 0,
       "items": [
-        {
-          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-          "published": "2026-10-17",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5"
-        },
         {
           "title": "Egypt’s el-Sisi seeks authorisation for defence assistance to Saudi Arabia",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNUdhUHdad2lzbmVrbkZQbHB1dlQtdWVlVlpCT2FCNXJhUFl4R2NIRjNjN2ZDWHVZcE05NEV1bk1QT3dtUUVISDRjMURlLWJwOFpjTFRveUx1cWlaR3d2VUdoV2twd3dURkFvS1RvTUlfN2R3anptaTdxcGFlNnp2SXBFTDBQOEo1UWNHYTFtejIzTGZlSkZsbjFuX1hObE01LXpIM0RXdXU0ekJ4YTltcl9mT29pQdIBuwFBVV95cUxPdENtS0ZtTzRYSE40MkFVSFpMMDZhTVR3TE5LQ0JzTE9ybzI1NlZRMFJELWVjb05keDRpWmhDbEl4VGs3QWRqMmtZaVFITUotVDBNRWQxRmlDU1RkLU9BMks4R2g4NGFLemlKbW5aNmozbzZCRjdaWGlieUVmaXVjeF9nbmlwRVhKYjF2cmJtT0ROLWpfY0pHUFMtV1dzcG52OXFGWmZTalBPVkpyWUtYLURUVS1xU2dvQmkw?oc=5"
+        },
+        {
+          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5"
         },
         {
           "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
@@ -618,24 +625,24 @@
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNE5ZcUNpenJxRFkzN0NTdlhVbU92b0NpNWQ4ekh5Uld3dFZkdUlWTTlWMUh3R01XcE02N2g5b3FqSng4MXBtNGpsVWVzQzFZWlFyTE56UG9hVlpDZmZLbzc5SVhmQ24yQV8zbWZmcG1hMXdzNm9rdU81OHFSdUVQQ05CR1VzV0JpSWl6OFZGVzRmOTNoRzBEQmZKZWNHUHRQdmNhUzd6S1lTazE2eTh5OFdXMEJsc0lmVmfSAb8BQVVfeXFMTVVWdkJFbTRGUDdZdV9QeV9nLXloLUJDeG9LNk4tc1l4TU1lVGJieEVFdHBhS0U4NlBZYkY2em5BR1FNMEJISEdwMnpRT0R0VWpDb0h2T0ZwdXZyRFkzbDdua0NrNmhCOVJHdW4zTnp3QmJvWHExaWxiUTJVRl9uOWNDcGw0dUxrTDNzNGg5UURxYmp4RC1uWFlnV1FEZXRaN2ZPTUdTLVlGdzRMLUFSUWtYbkQxbjROT3ZsWEZienc?oc=5"
         },
         {
-          "title": "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1ZNUmRkT2VrbHFocU9PMFdSeGNZbThYdnNFUTdWRG9FQS1XWGxSbk11MW11bmFTTjRlelVvVU13MXhXOGpuQ2JlVTRLcjVTeXZiUVlGeTB2eW5ENnpQYWdQd3FVS3g0WmtpUFhlSzZvSDY1dDVKNU50Zi16SGttMDhsX290RVdKZWRpSVVleWRMeEJGLVhyVW9YdmJNVlp0RERaRUd5bV85Zlo3dXJaZDJPSFB0Z9IBuwFBVV95cUxPVTlRWXJDYUUyUS1nZXRvNHdNUXBtMnFZSG5qNWRuZXFDbkxBOG5YMV9uOE03dldfVGdoUXUwdTh3RlNtZVltODVMSWpOWXd4MGViU19VaGpyUGdtZ0hqZEROM1hIVW5sSDZWUngySi1ybHRNWEZJT0FsVGRLVWZURVJOYUZVU3BwUC10N0JqcGFGV2haTURWNXJwSnNOcDJXLVVpeGVLcjNGOElsN1VMMjRQWVFZOFhDX2w0?oc=5"
-        },
-        {
           "title": "Saudi national charged with planting a listening device at OpenAI offices",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd0s5V0pVQ1BheWRRQ21RdDZKdnoxUUNJdVpOTjdud0FrU3lpSWN1bmROUENXSmlIRXVKVHF1bXZLdlRQU3hJcmprYl9FdjdLcDNtN2hDLS1Zdkc4dE8yNllwLTFVeDBDdnE1ejdZbk9SUmE0MDh2X3Nnd3ZKYzdUVGtFVW9QeGQzc3VPQWJQemRSa3pKY25tNV9HS1VnTjVaVFc5LWxLcV81dXYyMHpkWEhBUHY3Z9IBuwFBVV95cUxOT0o0WHowT2tLWERaalpnaW92c0N6NXBTTExYSUpRMi1iQkhMOVhHWkY3aWx1bjlfZGZkY3VPM0hNX2JyY1p4MGFGbDFzU1p5UTJBMXZ0SUc1UDF3aFJXcDJyV0pBQ1NjVWdOa1F3UGpSOTFVTmtLalEtbVZNMGpJMlVYem8tWnMzaVB6cGVZX0ZuWDF5VmctTjktUEN2a1NiZmkyd3VXQ1JLampBTFpULU1ESFljUEx5Tndj?oc=5"
         },
         {
-          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkdFQnE4VXFUbGJlcS1VaTFHbjQ0RGFIM1Z4SlhUbHlWQXpUTUtHWTB1Z1hZWGg3Y2I5R2lIYzJKUkYwT0VrRVB5Wi1uUkhnTGQxbm9iamMwaktyVnluQlRVdm10bnpMZC1jNUNqQzVfVUNjUnUydm9XR0N4R3NpdUEtNkFKZzdCendFTkRJRWhiMl9CVU5manRteVpYbk9nUEZZamVpTTZLU0xtN1JzNNIBtgFBVV95cUxNUFJyamdZU1BmR2pxcWd1VGQ0aUVEZzhOM292OWMxQ3FfcjNEX19BWEJuMEtnVFNpa3R1RThmQnZCWjNIZnpCNTNTV1NYN1VFVVhIRmQtdjFHNjM1Y0Exc1V5a1hiWkF6bHAzNEh0NGNYZl9ocXhMemxad2tmN0pRN2MyZ1IzZmZXcERxTElEX1FnYnNSMTROZnNUd3hpbFRmdDlvR3NDUUMzdzRMN0gyZDhyQlZfZw?oc=5"
-        },
-        {
           "title": "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0hXM084SldHSTFMX1VYLXppOTJkSVB0akp1ZGE0a2VsWG05NElYRV9oVnQ1OTNKTV9hOUlHRE5xbmQ2RTc5Y0htODAyalFCMHZvbFNnQkNoVnVIc2RKdklXLUtidTFObmtoLWo1RmVPQV9CVGxnVktWYUdrSW5EWjk1THpTbUhTNmN6d25QZ3dETjlubmxmZDFHd3hjb3c1cFM5RG9PT211Tm9CZlpmd3VQd9IBuAFBVV95cUxNX0hNbGxNWFdKRHEtYUZseDAwSTNTdW9nd0NTU3d0LWg4TVIybHpldXkxZ19RbU94eW9FcnZLaUtHMlFRQ2E5YWthRVBzWnBlbk5iRWY1MnpNWW1sZ1h1bW1YejAxeG01MnhoVHhxTDJPaGZzTVVCNHlHNXhsdEYwQlNMLWx0VVlQUkVfYVZzUmVFYU9paXNHT2xJM1MzRUJ1b0dERml1NU9fTHpfcEVpNHAzZXdyTmN4?oc=5"
+        },
+        {
+          "title": "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1ZNUmRkT2VrbHFocU9PMFdSeGNZbThYdnNFUTdWRG9FQS1XWGxSbk11MW11bmFTTjRlelVvVU13MXhXOGpuQ2JlVTRLcjVTeXZiUVlGeTB2eW5ENnpQYWdQd3FVS3g0WmtpUFhlSzZvSDY1dDVKNU50Zi16SGttMDhsX290RVdKZWRpSVVleWRMeEJGLVhyVW9YdmJNVlp0RERaRUd5bV85Zlo3dXJaZDJPSFB0Z9IBuwFBVV95cUxPVTlRWXJDYUUyUS1nZXRvNHdNUXBtMnFZSG5qNWRuZXFDbkxBOG5YMV9uOE03dldfVGdoUXUwdTh3RlNtZVltODVMSWpOWXd4MGViU19VaGpyUGdtZ0hqZEROM1hIVW5sSDZWUngySi1ybHRNWEZJT0FsVGRLVWZURVJOYUZVU3BwUC10N0JqcGFGV2haTURWNXJwSnNOcDJXLVVpeGVLcjNGOElsN1VMMjRQWVFZOFhDX2w0?oc=5"
+        },
+        {
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkdFQnE4VXFUbGJlcS1VaTFHbjQ0RGFIM1Z4SlhUbHlWQXpUTUtHWTB1Z1hZWGg3Y2I5R2lIYzJKUkYwT0VrRVB5Wi1uUkhnTGQxbm9iamMwaktyVnluQlRVdm10bnpMZC1jNUNqQzVfVUNjUnUydm9XR0N4R3NpdUEtNkFKZzdCendFTkRJRWhiMl9CVU5manRteVpYbk9nUEZZamVpTTZLU0xtN1JzNNIBtgFBVV95cUxNUFJyamdZU1BmR2pxcWd1VGQ0aUVEZzhOM292OWMxQ3FfcjNEX19BWEJuMEtnVFNpa3R1RThmQnZCWjNIZnpCNTNTV1NYN1VFVVhIRmQtdjFHNjM1Y0Exc1V5a1hiWkF6bHAzNEh0NGNYZl9ocXhMemxad2tmN0pRN2MyZ1IzZmZXcERxTElEX1FnYnNSMTROZnNUd3hpbFRmdDlvR3NDUUMzdzRMN0gyZDhyQlZfZw?oc=5"
         },
         {
           "title": "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",

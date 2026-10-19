@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, Singapore entered the week of 9-17 October 2026 under multiple simultaneous pressures. The Formula 1 Singapore Grand Prix anchored public attention, with George Russell starting from the back of the grid after a penalty and Kimi Antonelli holding a championship lead. Transboundary haze from Indonesian peat fires, compounded by El Nino and poor Borneo water conditions, drove air-quality anxiety across schools, events, and tourism. Eight civil servants had been referred to police over home purchases linked to unannounced MRT and property information, creating a persistent governance irritant. In financial markets, Temasek warned of an AI-trade unwind, long-bond yields pressured bank earnings, and Wall Street IPO demand cooled. Energy-security concerns rose from Iran-related Strait of Hormuz risk, oil-price volatility, and Singapore's miss on its 2035 green-power import target. AI-driven cyber risk and scams entered governance discourse, and a state-backed dating app for civil servants generated social-media debate amid the birthrate crisis. The overall tone was one of managed stress rather than crisis: damage control around existing pressures, with the government expected to talk more about haze response, AI risk, and financial stability without announcing sweeping new policy.",
@@ -111,6 +112,33 @@
         "probability": 0.4,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.35,
         "domain": "environment"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "Singapore's week centred on a heat-stressed F1 race, worsening Indonesian haze, and mounting AI and bond-market anxiety. The civil-servant property scandal persisted in Parliament without a dramatic break, while energy-security talk rose on Hormuz concerns. The government responded with process and risk-management language rather than sweeping new policy.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that George Russell won the F1 Singapore Grand Prix from his back-of-grid starting position?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.15",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The Singapore government announced a formal review or amendment of property-disclosure rules applicable to civil servants purchasing homes near planned transit or land-use announcements by 21 October?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that A second set of names or additional transaction data surfaced publicly in the civil-servant property case, expanding the investigation beyond the original eight referred individuals?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that MAS or a Singapore sovereign fund published a statement explicitly using the phrase AI unwind or AI bubble in reference to portfolio risk?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.7",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The F1 Singapore GP entertainment program, including fireworks and outdoor fan zones, was officially scaled back or the race shortened because the PSI exceeded 100 on race day?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      }
+    ]
+  },
+  "single_forecaster": true
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described a week in which Egypt faced multiple simultaneous diplomatic and economic pressures. Italy's courts convicted three Egyptian security officials in the Giulio Regeni case, handing down ten-year sentences that Cairo treated as an in-absentia judgment. Ethiopia's army chief publicly accused Egypt, Sudan, and Eritrea of backing Tigrayan rebels, putting Cairo into a defensive regional posture. Mohamed Salah was rested for Egypt's AFCON qualifier in South Sudan, igniting a national debate around coach Hossam Hassan's authority. The central bank held rates steady while the government pushed gold and mining investment as a new economic pillar. Red Sea and Suez Canal messaging gained strategic weight amid Hormuz tensions and Houthi alerts. Egypt summoned the Turkish envoy over Erdogan's regional comments, and leaks about Egypt's pre-October-7 warning to Netanyahu gave Cairo quiet leverage in Israel-Gulf coordination. Domestically, life stayed calm under persistent inflation pressure, with food and fuel costs dominating social media complaints.",
@@ -105,6 +106,33 @@
         "probability": 0.4,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.25,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.7."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Egypt spent the week containing the Italian Regeni verdict, denying Ethiopian Tigray accusations, promoting mining investment, and using football as a mood reset. No crisis broke, but diplomatic noise and inflation kept Cairo occupied.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Ethiopia announces a drone strike or town capture in Tigray while naming Egypt in a military or political statement?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A Houthi-linked or al-Shabaab-linked security incident occurs near Bab el-Mandeb or the Gulf of Aden, triggering a Suez Canal Authority alert?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Egypt drops points in its AFCON qualifier against South Sudan, and coach Hossam Hassan's press conference draws sharp criticism of Salah's absence?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A gold or mining company announces a new MOU, exploration study, or output target in Egypt's Eastern Desert?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.7",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Italy's opposition parties force a parliamentary question or public demand that escalates the Regeni dispute beyond a routine diplomatic note?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      }
+    ]
+  },
+  "single_forecaster": true
 }

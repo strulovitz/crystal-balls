@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, the US withdrew B-1 strategic bombers from RAF Fairford after an alleged Iranian drone threat targeting the airbase, triggering counter-terrorism arrests of several men suspected of preparing terrorist acts. The UK government, led by Andy Burnham's Labour administration with Chancellor John Healey, faced intense fiscal anxiety ahead of the Autumn Budget, with record diesel prices, a reported wealth exodus from London, property fund restrictions, and an Iran-related hole in public finances straining gilt markets. Israel downgraded the UK consulate in East Jerusalem to a 'UK Mission,' prompting UK diplomatic protest and a Green Party vote declaring Zionism a form of racism. Manchester City entered settlement talks with the Premier League over Abu Dhabi-backed ownership, creating political pressure on the government. The UK blocked a contentious Northern Ireland march after a two-week sectarian standoff. Russian hybrid warfare was reported at costing the UK up to 2.5 billion pounds annually. Prince Harry was booed at a rugby match, and novelist Jeffrey Archer died. Preliminary operational talks between the BBC, Channel 4, and the government were reported, and the UK was expected to follow the EU with tariffs on Chinese electric vehicles.",
@@ -105,6 +106,33 @@
         "probability": 0.45,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.58,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicts the RAF Fairford/Iran plot will dominate headlines, the Autumn Budget will be the biggest political pressure, and the UK-Israel Jerusalem dispute will be the loudest diplomatic fight. The UK stays stable but overexposed, with the government managing security, fiscal, and diplomatic credibility simultaneously.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that A drone sighting, perimeter breach, or suspicious package incident at a UK military base generates at least one front-page headline on a national newspaper between 14 and 21 October?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Manchester City and the Premier League publicly confirm a negotiated settlement on financial rules without a formal fine or point deduction, between 14 and 21 October?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Israel formally closes the East Jerusalem building housing the UK Mission, and the UK Foreign Secretary addresses the decision in a press conference within 48 hours, between 14 and 21 October?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The BBC and Channel 4 jointly issue a public statement announcing a preliminary operational agreement with the UK government between 14 and 21 October?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.15",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The Autumn Budget is announced on or after 22 October, and at least three distinct pre-Budget leaks from government sources appear in UK tabloid headlines between 14 and 21 October?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.58",
+        "legacy_probability": 0.58
+      }
+    ]
+  },
+  "single_forecaster": true
 }

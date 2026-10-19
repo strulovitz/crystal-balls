@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-17",
+  "code": "PE",
+  "name": "Peru",
+  "window_start": "2026-10-14",
+  "window_end": "2026-10-17",
+  "fetched_at": "2026-10-19T13:36:13+03:00",
+  "total_items": 6,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 0,
+      "filtered_out": 30,
+      "out_of_window": 1,
+      "items": []
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 0,
+      "filtered_out": 100,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 1,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Chiclayo prays for recovery and return of the 'Peruvian pope'",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IeGFaNTNicDNjcXFFQUU2STlYX1RLWENHOXUtaWRPTzQ4WkxfYl9VaENfWlFLREpweWI2ZnhDNDRxQnAyQVhEWHBxcDlVOXVUbDhKUDJKaE5wUk9MWXdmUHdYR3Jjc0FkT3BacV9TUHdjbDkwRzdfZDhnWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "filtered_out": 18,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "filtered_out": 24,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 0,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "filtered_out": 13,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 3,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Peru Indigenous Group Bids for Part of China-Owned Mine",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObHRRckQ5czhXVXVJbEZZeXZNQjN3YWVQZ2pDbzhWdXFDbDVyYUdhaHVOc2k3eDhoU3g3czJ4Q1A1SHJTYmVLcUFFekFGM0l0MHprX3N4d19oMDNGSWhETkg1SkMxNnJPTGtOMFFaNW5HS2xYMEh4VGRSSnVmUkVwd29CV0Y3U2tibnNTLVRwMnk4NlpiMUI2dElUbVgweHlvb0NhclJnZmY1dFNBa1VkSXdHOA?oc=5"
+        },
+        {
+          "title": "Peru’s Economy Expanded Faster Than 3% for Second Month",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNazJCSWpibmlmZjV2ZENaT1pqMUw4LWduQ0xmYWxIc2hRMHU0SVBIY1VwRlc3M0xGNXM5MDBuWDZEcWZnWGJ3Njh2ZDFCYnd5RF9lTTlKTmlKQ0FVQmRLZHNTcmw4LWo0akxORjBqRzdtVWhKY0NFeFpUcEQtYVNjQmQtaW1UbEdJdU03ekg0ZVRzNUU4Q0VFRlMtNVQxYm5oNG16T1VncWc?oc=5"
+        },
+        {
+          "title": "Fujimori Approval Sinks as Peruvians Fret Over Economy, Crime",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbHg1a19QSHpPRk5rZjc4T29tTGsyWW9LMVJSYmE0eDhlN3c1WUJDRVhYSnMzUjh0eGlBMnR0UmotbzFQRzJyek5aX2Via1M5ejhZSlVNelJFNVlWWl9IeFpzTE90b2gwdjFxWjZCOHB1WEhidnVfUUhqMjBTbWlXUk16TVVWdjV0M3FtZEpJWTNMUkpuMFBzSFh3VFU1Ni1Tbzc0UVpyUjJSTk9FcEJVMA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "filtered_out": 5,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "filtered_out": 9,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 2,
+      "filtered_out": 12,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Residents douse workers with flaming gasoline during eviction in Peru - Al Jazeera",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXRVSnBadGk0azA3TmU2UW9fdGFNaFpYMUV3STUtOUpyZnhVRjRRZEIxSlZ5NDVGS3pGNlg5STl0NnItT2hyVnlyaDhqcUhzd0RNM1FkZUNoemREb0NUeUJ1YWt1c09hcVcwOXVxRU9iWHA4cm56dWd5bHhkaHVCRXNHaEZxMVZWSVJXT2hTY29ZdEdJUnBTQ3NlSUdpV2ZBd3pKUFhiZWhOVjVCYlQtaVhtNlpNakJobTIyTk1jWmdtLU8ySEwycUlhZUlPN1A1b1JaZm96TQ?oc=5"
+        },
+        {
+          "title": "Residents douse workers with flaming gasoline during eviction in Peru",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTlVQeXhWZzliM2x0MlpJQ3kwa3lWVmtpZk5icVVBRl9UblpOdzMtbUoxRWx0QzNYeEppVTNCZzZGVEVkMFZMTUljSTlmU24zanYxRURsS3pEVUdLUDNYSWVqVmlRclk0dmVFZzBKOEppLTRIcUxCUUk0eUxvMnVDVnBQek1QOXEtWXg1bkwxc2tkRmVFNmhINmdHWUtBWEZjUGVCUW9Cc2JzR0VibEdhak1wd2xqRDNKZDhBUmNB0gHDAUFVX3lxTE8tQmtmMV9xQ1dKa01TSnp4QUViVVZxYmNBbGFDNnVrNnQ3VTh1dFhsZ3l2YWotNFl6VHNHLWhBdHVoQ3A0bWZWQnlJcU9yaGdsX2RRZ0U2UkNqVmFlM3BRU2VzeFF3aThVUEVUVmxxWWk2TW4zeUhJdTFZaE1sdFhOT3g0by10YXBjR1o5MXN1VWt6VGxUZXRaUlEwY1owSWFNSVA1am0wMkJ0M2s1TEYtMC00WWI5Mm8zQl81TkhHZDNCUQ?oc=5"
+        }
+      ]
+    }
+  ]
+}

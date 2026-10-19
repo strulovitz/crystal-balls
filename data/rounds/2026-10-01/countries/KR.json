@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "In late September 2026, South Korea faced a pile-up of simultaneous pressures. President Lee Jae Myung's approval rating nosedived, and a cabinet nominee withdrew after being questioned. North Korea launched two short-range ballistic missiles toward the East Sea and touted a new hypersonic weapon system. Three South Korean military officers were injured by a landmine or explosion inside the DMZ. The $350 billion Korea-US investment pledge created political stress, with Lee describing it as causing him sleepless nights. Markets swung on record chip exports, AI investment optimism, rising oil prices from Middle East tensions, and US Treasury yields above 5 percent. The Bank of Korea tested a 24-hour won settlement system. The Asian Games in Japan produced logistics complaints from the Korean delegation, including a wrong anthem and container housing issues. Domestically, abortion pill approval advanced, a former first lady's sentence was reduced on appeal, a Jeju missing-persons scandal involved fabricated social media graphics, and over 300 Korean workers filed claims after a Georgia immigration raid. The Seoul mayor and president clashed publicly over green space. KKR pursued $3 billion in Korea deals, and Intel-SK Hynix US manufacturing talks moved forward.",
@@ -105,6 +106,33 @@
         "probability": 0.45,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.6,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted a pressure-management week: Lee would use the UN to reset his image, North Korea would test another missile, markets would swing on chips and oil, and domestic politics would stay noisy around housing, the DMZ, and cabinet.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that President Lee Jae Myung signs a Korea-Mexico joint statement covering trade, energy, or critical minerals during the UN General Assembly session?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.52",
+        "legacy_probability": 0.52
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that North Korea conducts a missile test that prompts a Joint Chiefs of Staff meeting, while no exchange of fire occurs along the Northern Limit Line?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Seoul Mayor Oh Se-hoon and the presidential office issue opposing public statements on urban green space or park development plans within the same seven-day period?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.48",
+        "legacy_probability": 0.48
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Korea-US investment arm publishes a bond framework or debut-bond timeline as a concrete step toward the $350 billion pledge?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that South Korea's Asian Games delegation files a formal written complaint or issues a public statement about accommodation or transport conditions in Japan?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

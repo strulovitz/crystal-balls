@@ -21,10 +21,10 @@ from pipeline.common import load_json, save_json, find_previous_round, log, set_
 from pipeline.fetch_headlines import fetch_round, compute_window
 from pipeline import mock_llm
 
-STEPS = ["position", "velocity", "wind", "naive_forecast", "crystal_forecast", "display"]
+STEPS = ["position", "velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"]
 SHORT_LABEL = {
     "position": "position", "velocity": "velocity", "wind": "wind",
-    "naive_forecast": "naive", "crystal_forecast": "crystal", "display": "display",
+    "questions": "questions", "naive_forecast": "naive", "crystal_forecast": "crystal", "display": "display",
 }
 
 
@@ -150,11 +150,11 @@ def llm_call(prompt_file, variables, validator, step_name, code, round_id, setti
 
 def init_country_file(country_cfg, round_id, prev_round_id):
     return {
-        "schema_version": 1, "round": round_id, "previous_round": prev_round_id,
+        "schema_version": 2, "round": round_id, "previous_round": prev_round_id,
         "is_legacy": False, "code": country_cfg["code"], "name": country_cfg["name"],
         "model": None, "generated_at": None,
         "status": {s: "pending" for s in STEPS},
-        "position": None, "velocity": None, "wind": None,
+        "position": None, "velocity": None, "wind": None, "questions": None,
         "naive_forecast": None, "crystal_forecast": None, "display": None,
     }
 
@@ -200,128 +200,121 @@ def legacy_text_for(round_id, country_name):
     return p.read_text(encoding="utf-8") if p.exists() else None
 
 
-def step_wind(file, prev_file, country_cfg, round_id, prev_round_id, window_start, window_end,
-              headlines_json, settings, mock):
-    if not prev_file or prev_file.get("naive_forecast") is None or prev_file.get("crystal_forecast") is None:
-        return "skip", None, None
-    name = country_cfg["name"]
-    prev_naive = prev_file["naive_forecast"]
-    prev_crystal = prev_file["crystal_forecast"]
-    naive_ids = [s["id"] for s in prev_naive["statements"]]
-    crystal_ids = [s["id"] for s in prev_crystal["statements"]]
-    other_text = f"Country: {name}\n"
-    budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
-    legacy_text = legacy_text_for(round_id, name) if file.get("is_legacy") else None
-    if legacy_text:
-        # Legacy round: Nir's own text is the evidence of what happened (no Google headlines).
-        headlines_text = "(No headline list for this round. Evidence of what happened is Nir's own "\
-                         "written account of that week:)\n\n" + legacy_text[: budget * 3]
-    else:
-        headlines_text = common.fit_headlines_to_budget(headlines_json, other_text, budget)
+def judge_settings(settings):
+    """Bible 9.6: optional separate judge model (JUDGE_* settings); defaults to the main model."""
+    st = dict(settings)
+    for k_judge, k_main in (("JUDGE_BASE_URL", "LLM_BASE_URL"), ("JUDGE_MODEL", "LLM_MODEL"),
+                            ("JUDGE_API_KEY", "LLM_API_KEY"), ("JUDGE_MAX_TOKENS", "LLM_MAX_TOKENS")):
+        if settings.get(k_judge):
+            st[k_main] = settings[k_judge]
+    return st
+
+
+def judge_questions(prev_file, position_text, country_cfg, round_id, prev_round_id, window_start, window_end,
+                    evidence_text, settings, mock):
+    """The judge (Bible 9.6): resolves the previous round's questions. Returns (kind, wind_section, elapsed)."""
+    q_items = prev_file["questions"]["items"]
+    ids = [q["id"] for q in q_items]
+    single = bool(prev_file.get("single_forecaster"))
+    elapsed_days = (date.fromisoformat(round_id) - date.fromisoformat(prev_round_id)).days
     variables = {
-        "COUNTRY": name,
-        "PREVIOUS_ROUND": prev_round_id,
-        "PREVIOUS_HORIZON_START": prev_crystal["horizon_start"],
-        "PREVIOUS_HORIZON_END": prev_crystal["horizon_end"],
-        "WINDOW_START": str(window_start), "WINDOW_END": str(window_end),
-        "HEADLINES": headlines_text,
-        "CURRENT_POSITION": common.position_as_text(file["position"], round_id),
-        "NAIVE_STATEMENTS": common.statements_as_text(prev_naive["statements"]),
-        "CRYSTAL_STATEMENTS": common.statements_as_text(prev_crystal["statements"]),
+        "COUNTRY": country_cfg["name"], "ELAPSED_DAYS": elapsed_days, "PREVIOUS_ROUND": prev_round_id,
+        "WINDOW_START": str(window_start), "WINDOW_END": str(window_end), "EVIDENCE": evidence_text,
+        "QUESTIONS": common.questions_as_text(q_items),
+        "ANSWERS": common.answers_for_judge(prev_file["naive_forecast"]["answers"],
+                                            prev_file["crystal_forecast"]["answers"], single),
     }
-    validator = lambda obj: common.validate_wind(obj, naive_ids, crystal_ids)
-    obj, elapsed = llm_call("04_wind.txt", variables, validator, "wind", country_cfg["code"],
-                             round_id, settings, mock, naive_ids=naive_ids, crystal_ids=crystal_ids)
+    validator = lambda obj: common.validate_judge(obj, ids)
+    obj, elapsed = llm_call("04_wind.txt", variables, validator, "wind", country_cfg["code"], round_id,
+                             judge_settings(settings), mock, naive_ids=ids, crystal_ids=ids)
     if obj is None:
         return "run", None, elapsed
-
-    def build_side(prev_forecast, judged):
-        judged_by_id = {j["id"]: j for j in judged}
-        statements = []
-        for s in prev_forecast["statements"]:
-            s2 = dict(s)
-            j = judged_by_id.get(s["id"], {})
-            s2["outcome"] = j.get("outcome")
-            s2["evidence"] = j.get("evidence", "")
-            statements.append(s2)
-        resolved = sum(1 for s in statements if s["outcome"] in (0, 1))
-        unresolved = len(statements) - resolved
-        return {"statements": statements, "resolved": resolved, "unresolved": unresolved,
-                "brier": common.brier(statements)}, resolved
-
-    naive_side, naive_resolved = build_side(prev_naive, obj["naive"])
-    crystal_side, crystal_resolved = build_side(prev_crystal, obj["crystal"])
-    if naive_resolved < 3 or crystal_resolved < 3:
-        winner = "none"
-    else:
-        b_n, b_c = naive_side["brier"], crystal_side["brier"]
-        if abs(b_c - b_n) < 0.01:
-            winner = "tie"
-        elif b_c < b_n:
-            winner = "crystal"
-        else:
-            winner = "naive"
-    wind_section = {
-        "previous_round": prev_round_id,
-        "naive": naive_side, "crystal": crystal_side,
-        "winner": winner,
-        "systematic_error": obj["systematic_error"],
-        "correction_hint": obj["correction_hint"],
-    }
-    return "run", wind_section, elapsed
+    return "run", common.compute_wind_v2(prev_file, obj, prev_round_id, elapsed_days), elapsed
 
 
-def step_naive_forecast(country_cfg, round_id, horizon_start, horizon_end, headlines_json, settings, mock):
-    name = country_cfg["name"]
-    other_text = f"Country: {name}\nHorizon: {horizon_start} to {horizon_end}\n"
+def step_wind(file, prev_file, country_cfg, round_id, prev_round_id, window_start, window_end,
+              headlines_json, settings, mock):
+    if (not prev_file or not prev_file.get("questions") or not prev_file.get("naive_forecast")
+            or not prev_file["naive_forecast"].get("answers") or not prev_file.get("crystal_forecast")
+            or not prev_file["crystal_forecast"].get("answers")):
+        return "skip", None, None
+    position_text = common.position_as_text(file["position"], round_id)
     budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
-    headlines_text = common.fit_headlines_to_budget(headlines_json, other_text, budget)
-    statement_rules = common.fill_prompt("statement_rules.txt", {
-        "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end), "ID_PREFIX": "N",
-    })
-    variables = {
-        "COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
-        "HEADLINES": headlines_text, "STATEMENT_RULES": statement_rules, "ROUND": round_id,
-    }
-    validator = lambda obj: common.validate_forecast(obj, "N")
-    obj, elapsed = llm_call("05_naive_forecast.txt", variables, validator, "naive_forecast",
+    cap = int(settings.get("JUDGE_HEADLINE_CAP", 250))
+    other = f"Country: {country_cfg['name']}\n{position_text}"
+    evidence = (common.fit_headlines_to_budget(headlines_json, other, budget, cap=cap)
+                + "\nSituation report for the same period:\n" + position_text)
+    return judge_questions(prev_file, position_text, country_cfg, round_id, prev_round_id, window_start,
+                           window_end, evidence, settings, mock)
+
+
+def step_questions(file, country_cfg, round_id, horizon_start, horizon_end, headlines_json, settings, mock):
+    name = country_cfg["name"]
+    position_text = common.position_as_text(file["position"], round_id)
+    budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
+    headlines_text = common.fit_headlines_to_budget(headlines_json, f"Country: {name}\n{position_text}", budget)
+    rules = common.fill_prompt("question_rules.txt", {"HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end)})
+    variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
+                 "HORIZON_END": str(horizon_end), "CURRENT_POSITION": position_text,
+                 "HEADLINES": headlines_text, "QUESTION_RULES": rules}
+    obj, elapsed = llm_call("04b_questions.txt", variables, common.validate_questions, "questions",
                              country_cfg["code"], round_id, settings, mock)
+    if obj is None:
+        return "run", None, elapsed
+    return "run", {"horizon_start": str(horizon_start), "horizon_end": str(horizon_end),
+                   "items": obj["questions"]}, elapsed
+
+
+def step_naive_answers(file, country_cfg, round_id, horizon_start, horizon_end, headlines_json, settings, mock):
+    name = country_cfg["name"]
+    q_items = file["questions"]["items"]
+    ids = [q["id"] for q in q_items]
+    budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
+    headlines_text = common.fit_headlines_to_budget(headlines_json, f"Country: {name}\n", budget)
+    variables = {"COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
+                 "HEADLINES": headlines_text, "QUESTIONS": common.questions_as_text(q_items)}
+    validator = lambda obj: common.validate_answers(obj, ids, crystal=False)
+    obj, elapsed = llm_call("05_naive_answers.txt", variables, validator, "naive_forecast",
+                             country_cfg["code"], round_id, settings, mock, naive_ids=ids, crystal_ids=ids)
     if obj is not None:
         obj = dict(obj)
         obj["horizon_start"], obj["horizon_end"] = str(horizon_start), str(horizon_end)
-    return obj, elapsed
+    return "run", obj, elapsed
 
 
-def step_crystal_forecast(file, prev_file, country_cfg, round_id, prev_round_id, horizon_start,
-                           horizon_end, headlines_json, settings, mock):
+def step_crystal_answers(file, prev_file, country_cfg, round_id, prev_round_id, horizon_start,
+                         horizon_end, headlines_json, settings, mock):
     name = country_cfg["name"]
+    q_items = file["questions"]["items"]
+    ids = [q["id"] for q in q_items]
     velocity_text = common.velocity_as_text(file["velocity"]) if file.get("velocity") else common.VELOCITY_UNAVAILABLE
-    wind_text = common.wind_as_text(file["wind"]) if file.get("wind") else common.WIND_UNAVAILABLE
-    if prev_file and prev_file.get("crystal_forecast"):
-        prev_crystal_summary = prev_file["crystal_forecast"].get("summary") or common.PREVIOUS_CRYSTAL_SUMMARY_UNAVAILABLE
-    else:
-        prev_crystal_summary = common.PREVIOUS_CRYSTAL_SUMMARY_UNAVAILABLE
-    prev_round_text = prev_round_id if prev_round_id else common.PREVIOUS_ROUND_UNAVAILABLE
-    other_text = f"Country: {name}\nHorizon: {horizon_start} to {horizon_end}\n"
+    wind_text = common.wind_v2_as_text(file["wind"]) if file.get("wind") else common.WIND_UNAVAILABLE_V2
+    prev_summary = common.PREVIOUS_CRYSTAL_SUMMARY_UNAVAILABLE
+    if prev_file:
+        raw = legacy_text_for(prev_round_id, name) if prev_file.get("is_legacy") else None
+        if raw:
+            # Bible 10.4: the forecaster sees Nir's real forecast, the first 300 words of his raw text
+            prev_summary = " ".join(raw.split()[:300])
+        elif prev_file.get("crystal_forecast"):
+            prev_summary = prev_file["crystal_forecast"].get("summary") or prev_summary
+    position_text = common.position_as_text(file["position"], round_id)
     budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
-    headlines_text = common.fit_headlines_to_budget(headlines_json, other_text, budget)
-    statement_rules = common.fill_prompt("statement_rules.txt", {
-        "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end), "ID_PREFIX": "C",
-    })
+    other = f"Country: {name}\n{position_text}{velocity_text}{wind_text}{prev_summary}"
+    headlines_text = common.fit_headlines_to_budget(headlines_json, other, budget)
     variables = {
         "COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
-        "ROUND": round_id, "CURRENT_POSITION": common.position_as_text(file["position"], round_id),
-        "PREVIOUS_ROUND": prev_round_text, "VELOCITY": velocity_text, "WIND": wind_text,
-        "PREVIOUS_CRYSTAL_SUMMARY": prev_crystal_summary, "HEADLINES": headlines_text,
-        "STATEMENT_RULES": statement_rules,
+        "ROUND": round_id, "CURRENT_POSITION": position_text,
+        "PREVIOUS_ROUND": prev_round_id if prev_round_id else common.PREVIOUS_ROUND_UNAVAILABLE,
+        "VELOCITY": velocity_text, "WIND": wind_text, "PREVIOUS_CRYSTAL_SUMMARY": prev_summary,
+        "HEADLINES": headlines_text, "QUESTIONS": common.questions_as_text(q_items),
     }
-    validator = lambda obj: common.validate_forecast(obj, "C")
-    obj, elapsed = llm_call("06_crystal_forecast.txt", variables, validator, "crystal_forecast",
-                             country_cfg["code"], round_id, settings, mock)
+    validator = lambda obj: common.validate_answers(obj, ids, crystal=True)
+    obj, elapsed = llm_call("06_crystal_answers.txt", variables, validator, "crystal_forecast",
+                             country_cfg["code"], round_id, settings, mock, naive_ids=ids, crystal_ids=ids)
     if obj is not None:
         obj = dict(obj)
         obj["horizon_start"], obj["horizon_end"] = str(horizon_start), str(horizon_end)
-    return obj, elapsed
+    return "run", obj, elapsed
 
 
 def step_display(file, country_cfg, round_id, horizon_start, horizon_end, vocabulary, settings, mock):
@@ -330,7 +323,7 @@ def step_display(file, country_cfg, round_id, horizon_start, horizon_end, vocabu
     variables = {
         "COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
         "CRYSTAL_SUMMARY": cf["summary"], "CRYSTAL_REASONING": cf.get("reasoning", ""),
-        "CRYSTAL_STATEMENTS": common.statements_as_text(cf["statements"]),
+        "CRYSTAL_STATEMENTS": common.crystal_answers_as_text(file["questions"]["items"], cf["answers"]),
         "CURRENT_POSITION": common.position_as_text(file["position"], round_id),
         "VOCABULARY": common.vocabulary_as_text(vocabulary), "ROUND": round_id,
     }
@@ -350,6 +343,11 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
     countries_dir = ROOT / "data" / "rounds" / round_id / "countries"
     path = countries_dir / f"{code}.json"
     file = load_json(path) if path.exists() else init_country_file(country_cfg, round_id, prev_round_id)
+    if not file.get("is_legacy"):
+        file["schema_version"] = 2
+        file.setdefault("questions", None)
+        for _s in STEPS:
+            file["status"].setdefault(_s, "pending")
 
     prev_path = (ROOT / "data" / "rounds" / prev_round_id / "countries" / f"{code}.json") if prev_round_id else None
     prev_file = load_json(prev_path) if prev_path and prev_path.exists() else None
@@ -382,7 +380,7 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
                                       vocabulary, settings, mock)
         if obj is None:
             file["status"]["position"] = "failed"
-            blocked.update({"velocity", "wind", "crystal_forecast", "display"})
+            blocked.update({"velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"})
         else:
             file["position"] = obj
             file["status"]["position"] = "done"
@@ -393,7 +391,7 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
         summary.append(f"position {file['status']['position']}")
         progress.step_done("position", name, None)
         if file["status"]["position"] != "done":
-            blocked.update({"velocity", "wind", "crystal_forecast", "display"})
+            blocked.update({"velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"})
 
     # --- velocity ---
     if "velocity" in blocked:
@@ -422,97 +420,56 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
         summary.append(f"velocity {file['status']['velocity']}")
         progress.step_done("velocity", name, None)
 
-    # --- wind ---
-    if "wind" in blocked:
-        if file["status"]["wind"] not in ("done", "skipped"):
-            file["status"]["wind"] = "blocked"
-            save()
-        summary.append(f"wind {file['status']['wind']}")
-        progress.step_done("wind", name, None)
-    elif want_run("wind"):
-        kind, obj, elapsed = step_wind(file, prev_file, country_cfg, round_id, prev_round_id,
-                                        window_start, window_end, headlines_json, settings, mock)
-        if kind == "skip":
-            file["status"]["wind"] = "skipped"
-            save()
-            summary.append("wind skipped")
-            progress.step_done("wind", name, None)
-        else:
+    def do_step(step, label, runner, store, blocks_on_fail=()):
+        st = file["status"].get(step, "pending")
+        if step in blocked:
+            if st not in ("done", "skipped"):
+                file["status"][step] = "blocked"
+                save()
+            blocked.update(blocks_on_fail)
+            summary.append(f"{label} {file['status'][step]}")
+            progress.step_done(step, name, None)
+            return
+        if want_run(step):
+            kind, obj, elapsed = runner()
+            if kind == "skip":
+                file["status"][step] = "skipped"
+                save()
+                summary.append(f"{label} skipped")
+                progress.step_done(step, name, None)
+                return
             if obj is None:
-                file["status"]["wind"] = "failed"
+                file["status"][step] = "failed"
+                blocked.update(blocks_on_fail)
             else:
-                file["wind"] = obj
-                file["status"]["wind"] = "done"
+                store(obj)
+                file["status"][step] = "done"
             save()
-            summary.append(f"wind {file['status']['wind']} ({elapsed:.0f}s)")
-            progress.step_done("wind", name, elapsed)
-    else:
-        summary.append(f"wind {file['status']['wind']}")
-        progress.step_done("wind", name, None)
-
-    # --- naive_forecast (never blocked by position) ---
-    if want_run("naive_forecast"):
-        obj, elapsed = step_naive_forecast(country_cfg, round_id, horizon_start, horizon_end,
-                                            headlines_json, settings, mock)
-        if obj is None:
-            file["status"]["naive_forecast"] = "failed"
+            summary.append(f"{label} {file['status'][step]} ({elapsed:.0f}s)")
+            progress.step_done(step, name, elapsed)
         else:
-            file["naive_forecast"] = obj
-            file["status"]["naive_forecast"] = "done"
-        save()
-        summary.append(f"naive {file['status']['naive_forecast']} ({elapsed:.0f}s)")
-        progress.step_done("naive_forecast", name, elapsed)
-    else:
-        summary.append(f"naive {file['status']['naive_forecast']}")
-        progress.step_done("naive_forecast", name, None)
+            summary.append(f"{label} {file['status'].get(step)}")
+            progress.step_done(step, name, None)
+            if file["status"].get(step) not in ("done", "skipped"):
+                blocked.update(blocks_on_fail)
 
-    # --- crystal_forecast ---
-    if "crystal_forecast" in blocked:
-        if file["status"]["crystal_forecast"] not in ("done", "skipped"):
-            file["status"]["crystal_forecast"] = "blocked"
-            save()
-            blocked.add("display")
-        summary.append(f"crystal {file['status']['crystal_forecast']}")
-        progress.step_done("crystal_forecast", name, None)
-    elif want_run("crystal_forecast"):
-        obj, elapsed = step_crystal_forecast(file, prev_file, country_cfg, round_id, prev_round_id,
-                                              horizon_start, horizon_end, headlines_json, settings, mock)
-        if obj is None:
-            file["status"]["crystal_forecast"] = "failed"
-            blocked.add("display")
-        else:
-            file["crystal_forecast"] = obj
-            file["status"]["crystal_forecast"] = "done"
-        save()
-        summary.append(f"crystal {file['status']['crystal_forecast']} ({elapsed:.0f}s)")
-        progress.step_done("crystal_forecast", name, elapsed)
-    else:
-        summary.append(f"crystal {file['status']['crystal_forecast']}")
-        progress.step_done("crystal_forecast", name, None)
-        if file["status"]["crystal_forecast"] != "done":
-            blocked.add("display")
+    def put(key):
+        def _store(obj):
+            file[key] = obj
+        return _store
 
-    # --- display ---
-    if "display" in blocked:
-        if file["status"]["display"] not in ("done", "skipped"):
-            file["status"]["display"] = "blocked"
-            save()
-        summary.append(f"display {file['status']['display']}")
-        progress.step_done("display", name, None)
-    elif want_run("display"):
-        obj, elapsed = step_display(file, country_cfg, round_id, horizon_start, horizon_end,
-                                     vocabulary, settings, mock)
-        if obj is None:
-            file["status"]["display"] = "failed"
-        else:
-            file["display"] = obj
-            file["status"]["display"] = "done"
-        save()
-        summary.append(f"display {file['status']['display']} ({elapsed:.0f}s)")
-        progress.step_done("display", name, elapsed)
-    else:
-        summary.append(f"display {file['status']['display']}")
-        progress.step_done("display", name, None)
+    do_step("wind", "wind", lambda: step_wind(file, prev_file, country_cfg, round_id, prev_round_id,
+            window_start, window_end, headlines_json, settings, mock), put("wind"))
+    do_step("questions", "questions", lambda: step_questions(file, country_cfg, round_id, horizon_start,
+            horizon_end, headlines_json, settings, mock), put("questions"),
+            blocks_on_fail=("naive_forecast", "crystal_forecast", "display"))
+    do_step("naive_forecast", "naive", lambda: step_naive_answers(file, country_cfg, round_id, horizon_start,
+            horizon_end, headlines_json, settings, mock), put("naive_forecast"))
+    do_step("crystal_forecast", "crystal", lambda: step_crystal_answers(file, prev_file, country_cfg, round_id,
+            prev_round_id, horizon_start, horizon_end, headlines_json, settings, mock), put("crystal_forecast"),
+            blocks_on_fail=("display",))
+    do_step("display", "display", lambda: ("run",) + tuple(step_display(file, country_cfg, round_id, horizon_start, horizon_end,
+            vocabulary, settings, mock)), put("display"))
 
     return file, summary
 

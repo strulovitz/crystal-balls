@@ -9,7 +9,7 @@ THE FORECAST:
 Reasoning behind it:
 {{CRYSTAL_REASONING}}
 
-Statements with probabilities:
+The questions and the Crystal forecaster's yes-or-no answers:
 {{CRYSTAL_STATEMENTS}}
 
 Current situation for context:
@@ -24,5 +24,5 @@ Return this JSON object:
   "emojis": ["one", "two", "three"],
   "emoji_reasons": ["one sentence each"],
   "tldr": "two or three sentences, at most 60 words, what to expect next week in {{COUNTRY}}",
-  "eli5": "three to five short paragraphs separated by blank lines: what is going on, why, what will probably happen next, what would be a surprise. Explain as if to a smart 12-year-old. Mention at least two of the probabilities in words such as 'about a one in three chance'."
+  "eli5": "three to five short paragraphs separated by blank lines: what is going on, why, what will probably happen next, what would be a surprise. Explain as if to a smart 12-year-old. Mention at least two of the yes-or-no calls and the reason behind them."
 }

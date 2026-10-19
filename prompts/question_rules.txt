@@ -1,0 +1,12 @@
+Rules for the eight questions:
+1. Each question is one sentence, starts with "Will" and ends with a question mark, and can be answered YES or NO by reading the news headlines of the coming week, from {{HORIZON_START}} to about {{HORIZON_END}}.
+2. One event per question. No "and" joining two events. Use "or" only to name the same event in different words, never to bundle different events.
+3. The headline test: if the event happens, Reuters, AP, BBC or Al Jazeera would publish a headline that says so plainly. If the event could happen without appearing in a headline, the question is not allowed.
+4. Not allowed: numeric thresholds (unless the number is the headline itself, such as a central bank rate decision or an election result), durations ("more than 48 hours"), named internal documents or guidance papers, mentions in press briefings, "sustained discussion", "confirmed by a ministry statement", and any wording about the mood or the trend.
+5. Genuinely uncertain: a question is not allowed if a careful reader of this week's headlines would already be ninety percent sure of the answer either way. Routine weekly events in this country (for example "Will Russia strike Ukraine?") are not allowed. Events already reported this week are not allowed unless the question is about a clearly new step.
+6. Balance: write at least three questions you yourself lean YES on and at least three you lean NO on. Cover at least three different domains from: politics, security, economy, diplomacy, society, technology, health, environment.
+7. Ids are Q1 to Q8. Put the most important question first.
+
+Good examples: "Will Iran and the United States hold direct talks?" "Will the Bank of England cut its interest rate?" "Will the Israeli cabinet approve a ceasefire deal?" "Will a nationwide strike take place in France?" "Will North Korea test a ballistic missile?" "Will the German coalition lose a vote in the Bundestag?"
+
+Bad examples: "Will the ten-year yield trade above five percent and mortgage rates exceed seven percent?" (two events, numbers). "Will a region report a blackout longer than 48 hours confirmed by the ministry?" (duration, confirmation clause). "Will customs publish implementation guidance?" (document nobody headlines). "Will Russia strike Ukraine?" (routine, certain).

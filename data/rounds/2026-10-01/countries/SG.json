@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Singapore's air quality plunged to unhealthy levels as transboundary haze from Indonesian fires in Sumatra and Borneo carried smoke across the region, with over 170,000 Indonesians reporting respiratory problems since August. The WTA 500 Singapore tournament was confirmed for the coming week, but top-seed Jessica Pegula withdrew citing workload. A large cargo ship collided with a Chinese fishing vessel in Singapore's busy shipping lanes, triggering questions about lookout, speed, and AIS tracking. A two-billion-dollar money-laundering case produced a fortified storage facility full of seized luxury handbags and watches heading to public auction. Bus-seat fines of S$400 to S$500 for propping feet on seats ignited the perennial Fine City debate. Q2 retrenchment hit its highest level since the pandemic peak while August exports surged 46.2 percent year-on-year on AI demand. The Glencore–Radiant World lawsuit, approximately S$2.5 billion, was actively being litigated in Singapore courts. Waymo announced a 2028 Singapore entry, Grab completed its US$1.49 billion Atome acquisition, and Asia diesel refining margins hit a record high. Nuclear power re-entered Southeast Asia's energy debate, and Singapore Airlines was named world's best airline.",
@@ -105,6 +106,33 @@
         "probability": 0.35,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.65,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The text predicted a stable, businesslike week where transboundary haze dominated daily life, the WTA tournament proceeded with withdrawals, a maritime collision triggered formal investigation, seized luxury goods went to auction, and AI export growth kept officials optimistic despite record retrenchment.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Singapore's Ministry of Education or NEA issues a public advisory adjusting outdoor school activities in response to a prolonged high-PSI reading between 1 and 8 October?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Maritime authorities announce a temporary traffic-lane closure or speed restriction in the Singapore Strait as part of the post-collision investigation?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.15",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that LTA or a transport minister issues a public-education notice or updated signage directive on bus-seat fine enforcement after viral commuter complaint videos accumulate?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A Singapore government ministry announces a targeted short-term workforce support or reskilling measure directly citing the Q2 retrenchment data in a press release?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Singapore's High Court issues a procedural ruling, scheduling order, or interlocutory decision in the Glencore–Radiant World litigation during the 1-to-8 October period?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      }
+    ]
+  },
+  "single_forecaster": true
 }

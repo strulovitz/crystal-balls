@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, Turkey in early October 2026 was engulfed by an investment-fund and stock-market scandal centered on Tera Yatirim and related funds. The government began arranging interim payments of up to one million lira to trapped investors. Asset freezes were lifted on 46 companies while a former minister's assets were frozen, revealing a politically negotiated process rather than a clean judicial one. AKP deputy chair Fatma Betul Sayan Kaya resigned amid trading allegations. The social-media platform X blocked nearly 500 accounts of journalists, economists, and academics. T24 was blocked over alleged LGBTQ+ propaganda. Comedian Deniz Göktaş was convicted but released pending appeal. The Turkey-Saudi Arabia-Pakistan military pact faced its first real test as Houthi attacks continued. US naval pressure on Iranian ports drove long truck queues at Turkey's eastern border crossings. The head of the soccer refereeing body and his deputy were arrested. Erdogan met a potential next German leader. BIST small caps weakened while the lira came under sustained pressure.",
@@ -117,6 +118,33 @@
         "probability": 0.35,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.87."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -156,6 +184,33 @@
         "probability": 0.55,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.52."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.87."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -172,5 +227,52 @@
     ],
     "tldr": "The text predicted Turkey's investment-fund crisis would define the coming week, with interim payments formalized, asset-freeze battles multiplying, social-media friction escalating, and Erdogan using foreign-policy posturing to offset domestic economic strain.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that A major Turkish bank or insurer publicly discloses a loss exceeding 5 billion lira linked to the failed investment-fund portfolio?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The Turkish Football Federation appoints an interim refereeing committee and at least one additional official from the refereeing body is arrested?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.52",
+        "legacy_probability": 0.52
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Turkey's markets regulator publishes the processing schedule, qualifying-fund list, and per-investor cap for the first interim payments to trapped investment-fund investors?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.87",
+        "legacy_probability": 0.87
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Turkish lira closes the week more than 2% weaker against the US dollar?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Turkey, Saudi Arabia, and Pakistan issue a joint statement on Houthi defense coordination that names at least one specific Turkish military capability to be deployed?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

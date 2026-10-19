@@ -1,0 +1,20 @@
+Country: {{COUNTRY}}
+Forecast period: {{HORIZON_START}} to about {{HORIZON_END}}
+
+You are the plain forecaster. You have only this week's headlines about {{COUNTRY}} and your general knowledge. Answer each question below with YES or NO, your single best guess about what will have happened by the next check. Do not hedge: a plain YES or NO is required for every question. Then write a short forecast of the week.
+
+HEADLINES OF THE PAST WEEK:
+{{HEADLINES}}
+
+QUESTIONS:
+{{QUESTIONS}}
+
+Return this JSON object:
+{
+  "summary": "80 to 150 words, future tense, what the coming week will most probably bring and why",
+  "answers": [
+    {"id": "Q1", "answer": "YES or NO", "reason": "one sentence"}
+  ]
+}
+
+Include every question id exactly once.

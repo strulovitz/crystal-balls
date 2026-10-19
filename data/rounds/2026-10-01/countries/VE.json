@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text describes Venezuela in a state of US-managed transition under interim leader Delcy Rodríguez, who was preparing to travel to New York for UN General Assembly week to meet President Trump. A roughly four-billion-dollar gold reserve deal was nearing completion, involving the transfer of gold from Bank of England custody to US-linked custody with the participation of an opposition faction. Multiple oil companies—ExxonMobil, Continental Resources, and TotalEnergies—were advancing preliminary agreements or memoranda of understanding for Venezuelan operations, within a broader US framework that included a potential direct government stake and a two-million-barrels-per-day production target. María Corina Machado was planning her return from exile, creating tension with the US-backed interim government. A second round of government-opposition dialogue had produced some gains on media access and rights, with several censored news sites unblocked. Human Rights Watch noted a pause in overt repression while the security apparatus stayed largely intact. A thirteen-billion-dollar question over collected Venezuelan oil revenue was drawing attention from Senate Democrats, and dollarization had entered mainstream political debate. Short-term elections were on hold pending economic stabilization.",
@@ -104,6 +105,33 @@
         "probability": 0.38,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.85."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.3,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.85."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "The text predicts a week of US-backed normalization: Rodríguez meets Trump in New York, oil and gold deals advance publicly, Machado presses her return, and the government makes small democratic gestures while keeping the security state intact. No full crisis, but political stakes become concrete.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The joint Rodríguez-Trump statement describes Venezuela's transition as a phased political process without naming a specific election date?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.85",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that At least two named opposition factions issue publicly conflicting statements on the gold custody deal within forty-eight hours of its announcement, with one faction calling it premature and another calling it necessary?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.62",
+        "legacy_probability": 0.62
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that US Senate Democrats submit a formal written request for a congressional hearing on the thirteen billion dollars in collected Venezuelan oil revenue?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that María Corina Machado lands at Maiquetía airport and delivers a public address to assembled supporters within twenty-four hours of arrival?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The Venezuelan interim government announces a specific election calendar date before the end of the forecast week in direct response to Machado's return?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      }
+    ]
+  },
+  "single_forecaster": true
 }

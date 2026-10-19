@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Peru entered a high-stakes pre-election week ahead of the October 4 regional elections. The murder of Susy Aponte Polo, a journalist and Áncash governor candidate, became the central domestic story; her funeral transformed into a political moment with rivals vying to claim the justice narrative. The government was pushing three positive pillars: Pope Leo's planned November visit, foreign investment in copper and port projects, and anti-cartel security cooperation with the United States. The opposition and civil society were pressing four negative stories: the Áncash murder, a proposed ninth AFP pension-fund withdrawal, Amazon and Indigenous rights pressure from a human-rights court case, and sexual-violence scandals involving Awajún communities and a naval school. Keiko Fujimori's public thanks to Trump at the UN generated a foreign-policy debate around the Shield of the Americas. Illegal-mining gangs were defying a military offensive in the southern highlands. El Niño, the strongest on record, was weeks from peak. The overall situation was one of overlapping pressures rather than a single crisis.",
@@ -105,6 +106,33 @@
         "probability": 0.45,
         "domain": "politics"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.35,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Peru's October 4 elections would be overshadowed by the Áncash candidate murder investigation and a push for candidate security. The government would counter with Pope-visit announcements, copper-investment headlines, and anti-cartel diplomacy. Street protests over the AFP withdrawal bill and sexual-violence scandals would add pressure.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The Peruvian prosecutor's office releases an investigative update on the Aponte Polo case that includes forensic findings or a new investigative lead but does not yet name a specific suspect?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A second candidate in Áncash or a northern department suffers a security incident—attack, office raid, or transport disruption—between October 1 and October 3?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that SENAMHI issues an orange or red weather alert for a populated coastal region of Peru between October 1 and October 8?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Union organizations hold a demonstration in Lima's Plaza de Armas or near Congress over the AFP withdrawal bill, drawing at least 1,000 participants?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that A second victim or family member from either the Awajún Condorcanqui case or the Liceo Naval case speaks publicly to Peruvian media, prompting the Ministry of Education to announce a special inquiry commission?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      }
+    ]
+  },
+  "single_forecaster": true
 }

@@ -5,20 +5,16 @@
   "name": "China",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:05:53+03:00",
-  "total_items": 134,
+  "fetched_at": "2026-10-19T13:27:33+03:00",
+  "total_items": 160,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
-      "count": 25,
+      "count": 40,
       "filtered_out": 55,
+      "out_of_window": 1,
       "items": [
-        {
-          "title": "China proposes export controls on solar-manufacturing technologies",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGtBN1ctcU1NbGFxLXVKb01UVVdDUklxa3Z6Tk1ac05vT2lkd0d2THJqR1Q4VDBDTjJFSUlJYXNCdF83Tko2S0hrbDZSX3NrWWRrWFljNFNHOWhVUnpib3JpdjY3TWZJUEpEQzJKdnFpckZhZTM4X3RXTnhuMzVJWXRxemxoUTdlcDcwckxSUlROQ1pqbHZWdFplOEZUTHh1dDVxb3pfTlN3X2dURk1ETnJzTXJmUFluU0dfck1OSFl4YVlqZHE1NA?oc=5"
-        },
         {
           "title": "China AI supply-chain IPOs hold firm despite valuation pullback, Citi says",
           "published": "2026-10-17",
@@ -28,11 +24,6 @@
           "title": "China central bank chief supports closer IMF surveillance of fiscal, spillover risks",
           "published": "2026-10-17",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcDlkTV9ZX1VzWXpSMnpIYkZiNkNJdVNxVVU4WldvNHIwMzJVZGRXWlljY1RqVnliUzZNQk0wRzhCYnhrbXF4ci1uLVJUcTJDQWFNdWFvWkdMaXhpdFNaYUZZcmY1cXpXeWJhVHU4MHlBYWFiSTk3OEdNTjFiSTNRQUNwbGxZNDdwRTJFbDJSdW8wMHZHV0QtaUNTVVNFUUI4U2JXQ3VNSFNJaDVGcklDZldnV1dIYldtX1doZHhoa0c5VFVtYlE0U0o0OUxSdw?oc=5"
-        },
-        {
-          "title": "China's Tencent says AI agents showed unintended browsing behaviour",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXIxZ25uQTZ2ejY2eWZDQzdsbkEwcklpa2d1MGZsN292M0FmYVRuQmxmNXh3QTF0TEttcGlQUmRETTRIWDhKS0FoWU9XNmFVOEo4VnRWcUdTWUxLYk1KZHowWWFESGN4SVp0aWdRbmkzdC1kSTJYUVAyMHBxYWR2VTNGQUt3OWFvZm8yQ2FjZnVpM2VrMkxZVVNORWU5Sl9qaFBCZUdmOU9mUk5EVVhSTU9PUm1ubE9EUENnaDFjU19lendyNXc?oc=5"
         },
         {
           "title": "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero",
@@ -48,6 +39,11 @@
           "title": "Beijing seeks tighter grip on AI exports amid US rivalry",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMWNnS1haU3c5T3lybTBzQUNxZF9lMmhWaFp0Yk5UbzhDdklobHpkRHk2dExFU1dWZmVMVENFNEVLOW9JWDdscm15VDhObXhhc1JwYjlIelZjeFJuMG9jVERmTHRNRTZtSlBRYndNc2IxZTRkdWtPUGdlWDhoSEZQTHVZNzIwMFUzWVhjT3gxUWl1X2VpM1VOM29BZElFRjlaek1uRDFQb2N5aF9FTlF4U1N4WFZRVmtyUTBLdmVJc0Rzb3E2NkZ5ZQ?oc=5"
+        },
+        {
+          "title": "China's Tencent says AI agents showed unintended browsing behaviour",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXIxZ25uQTZ2ejY2eWZDQzdsbkEwcklpa2d1MGZsN292M0FmYVRuQmxmNXh3QTF0TEttcGlQUmRETTRIWDhKS0FoWU9XNmFVOEo4VnRWcUdTWUxLYk1KZHowWWFESGN4SVp0aWdRbmkzdC1kSTJYUVAyMHBxYWR2VTNGQUt3OWFvZm8yQ2FjZnVpM2VrMkxZVVNORWU5Sl9qaFBCZUdmOU9mUk5EVVhSTU9PUm1ubE9EUENnaDFjU19lendyNXc?oc=5"
         },
         {
           "title": "Vehicles from Geely brands to come with Google built-in services outside China",
@@ -85,14 +81,14 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdTI0SWJwQ0RXZkZjS1VGLXpYZWIxQnZLdmFWZlVyWlJQRXhpTlR6djVseEZEb2dzOTJVZXd2ZVh3dkRYNFZIUmx2cEZNR1NOQXZyUzBLTTB2TmFUN2ZQbThHeE90eHk4RW1rcFlHdHVxUHpnVTZxbDB0d29BVS1vSUgtdWVDdHJJbktQbFVMSE9MT1dLZFVtLW9wWHlNQlNmYTRaOVJ5TQ?oc=5"
         },
         {
-          "title": "Chinese automakers make tech-led pitch for Europe's premium car market",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWThYSzgwSG5kZ3ZmUEJMamwyN3NJOVJJaVRTMXV5UVM4YkwzTkFSdkxFcENtTU52cGVSY2JmRFpJSUxjQ1hGQTk5akZVdHJ6Z2l2dl9pc0dJV092dGxxa3NFX3BZQmxSQUF6SnUzOG9XM2czTE5OUGEwYUlYblpWdW50MkNWZG5qZ191ZXZXVjlBelExMWRHMDY3cXhmWTNxbnlmS2p4X1duX1NZaVF4aHRYQ1hRcXNVWDVwYlZVbmFVTk1TdWlqbkNqUQ?oc=5"
-        },
-        {
           "title": "Trump says he is talking to Russia and China about denuclearization",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUW1idXlSVm1fUVQtdFk1T0pYTU8tcEx2YTBiQnQ4M0ZmeDFDeGpXUUpqMEZRbC0zT0g4dkoySTlXM05fbkNRZE5RbzFZcEktTHpBYlJxcklTaHpkRHgzRnAyakp4cGVIQjRITGtWZG1XZTlNdF9LcmlVRjJIaDQweHRxR0NUQS1jeUYtc0NsWWlEMTNTcEd3dUhFZjZMYnhWbU9CZVNKWS1TTjBz?oc=5"
+        },
+        {
+          "title": "China targets practical action from global governance forum next week",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZLeEdhUlZfMThrbElyVndJLWt2Y3E1cTFaR1N6d2l2NUozSXNjMmdSamc0bmg4NnBJaGRuVzRfS1dTWFk3MDBoaGFTbzJveVFjUXhzY3hoNy1LZzFDTkp3Y3EwX0EyWHlSaG02RU1Pa2JzdXFPell1UU82UWtSVEk4aVFITXQwNVFoMmJ3S3ZsWE5iOFlOUlg4NEJYTlFYczJOSVVZcDltUC1fYnlLQm1n?oc=5"
         },
         {
           "title": "China says Israel should stop its 'forced establishment' of West Bank settlements",
@@ -100,9 +96,9 @@
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcjJwejF3dFROT1V2Mnd1MWktUnVuc2xLUzNFOFk1YkpQNjhYR2k0LS1PVUppR1F6ekgzbHd2X0hCYW1zVC0zXzIzMXp1ZXl3eHJ6ZzIwaVZnbFB0ZWlFNW1UU2I4VW5UOG4zWS1vclpyS1ZySGVxZzFLN01YdGhBcnQ4d2UwRmdSdU1vcUlTOHpRMmUxdGY2dWVkUlFuVWdRR2JkMEZKRTBDbTVxWmVxblljZEMwU0R4MzdRemt1YXlrQQ?oc=5"
         },
         {
-          "title": "China targets practical action from global governance forum next week",
+          "title": "Chinese automakers make tech-led pitch for Europe's premium car market",
           "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVZLeEdhUlZfMThrbElyVndJLWt2Y3E1cTFaR1N6d2l2NUozSXNjMmdSamc0bmg4NnBJaGRuVzRfS1dTWFk3MDBoaGFTbzJveVFjUXhzY3hoNy1LZzFDTkp3Y3EwX0EyWHlSaG02RU1Pa2JzdXFPell1UU82UWtSVEk4aVFITXQwNVFoMmJ3S3ZsWE5iOFlOUlg4NEJYTlFYczJOSVVZcDltUC1fYnlLQm1n?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWThYSzgwSG5kZ3ZmUEJMamwyN3NJOVJJaVRTMXV5UVM4YkwzTkFSdkxFcENtTU52cGVSY2JmRFpJSUxjQ1hGQTk5akZVdHJ6Z2l2dl9pc0dJV092dGxxa3NFX3BZQmxSQUF6SnUzOG9XM2czTE5OUGEwYUlYblpWdW50MkNWZG5qZ191ZXZXVjlBelExMWRHMDY3cXhmWTNxbnlmS2p4X1duX1NZaVF4aHRYQ1hRcXNVWDVwYlZVbmFVTk1TdWlqbkNqUQ?oc=5"
         },
         {
           "title": "China's yuan poised to strengthen for a third week in a row on strong exports",
@@ -138,6 +134,86 @@
           "title": "North Korea says opening ceremony was held for new bridge to China",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzZUN2U1NDNqLUFHQjFOTXVnemNXZDNiTktEejA1c0JqNlYwZGtKUFNzMEZzQlJ3d19XZ21KeW5va292aHcyV0JHVG1sM1BmTWxCdnYzYm5CRzRaQ3F5dloyWU13dVBMQ1FIYnE3VU9EdnlQV1RRcGRXM3dXcDh4VGJWNEh5cHhoRTVmR3hycll5MFNyZC0zWHA2X05yc1NzZ3h4U2kxTWZVODQ?oc=5"
+        },
+        {
+          "title": "China's ByteDance sets up AI safety team, launches global hiring drive",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUh6d0NyZGxfYjd4bDhwRWdkT0wxOG4xUUlrQkZFZ0JMTlNJMzVUVWRHNDhyYWR2Vzh0RGRsUk9YdDhHeE92NlBPTWlnU1htMHotSVhfRGoydXVjM21UcEV6Z3dsSGtSSGhOcExMaFBud3ZVcGJDU1NNUXFUcFBCdDNwZUFfWVY4QnJjNEhaWHQ2Z01PUUt4enJJVWRxWjA5aTNVUncwSW1XcFB5c2VzYXBmR3RNZVZxNHpzd1c1bHhUSzZIa1E?oc=5"
+        },
+        {
+          "title": "Tim Cook says Apple Intelligence approved in China, The Paper reports",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUi1WX1drTTBKbnJ4b3dlMlJyRWQyem1jNGRKNk5CaXJYVDRDU0dFYWV0cnFsUlRaNkFHTDFsbHpsNUxjOHMwWlFNRDFXNmxPZUhtYTlVQW9RS2NxZWFQV0lobXlFel9DQ0NDaFYwVlQtNDJ1aHlrLVdYNzg2cTdrWW9wWjEwRnY5bVdTc3JudjRzQXc2Q3dGb3V2b3h3NmVlbFBNRUtTYTNFaTdOeWthekRhOVV1Vy1GTTZFSzJpSQ?oc=5"
+        },
+        {
+          "title": "For Chinese automakers, the road to survival runs through Europe",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdVlfNHVJQVdKWVBFUWpOSXlCLUpWQmQybmxlNmtkV2Vya19DTGg2THI5ZnJjckxKdkJWdm01M01MdkpBWWFVWkk0Q3pnLVpWb2RHUVVmaGNaZndkTi0tanJSYlJtUjFiYjlheFpoNG54V0FEMHR2Z1BGVUhDUnZZTms4N3dXY0t4UV9mXy1aTmFnbllMRWl3WUtsTzJqNFVPLUFqbkFiLXF0WFVrdWJfcTRYMzJJa2I0Rmc?oc=5"
+        },
+        {
+          "title": "EXCLUSIVE: SK Hynix conditions new US factory on more US chip equipment exports to China, sources say",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZExZLWRBZUo2NlJPaFhzSWxERFdkcGl1bklYWTFfQ1NrRG01WWtmQjhlT3g5OEtvT3c2SjNlbHVlcEhVelBtVk5RVHR2ckU4VFZTV1J1S3ZpOENaT1dibXQ3cXdsbFd3Rk43N1lFWEZBVC00NFJiSlU5TlpEbEVsWi1RakhQYmpwN2xlMGRlakZqdFRnaEJpQkZaRllTMFVhbUJmaWt3d2NRclJvRFZ1VG5jNWpSZ2dWZ3l1bEhHUnBWajR4YVB6S3hEamlMMzA?oc=5"
+        },
+        {
+          "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnFSUnFOaFNjbUE4U09LUG9xb1lsbjU5TXdIajM1YW9SQzJnUzRoREFOanJUU3JaMUxCS1lVWU5LS2FzbGNXVTBGWnk4bTdUbWdIZjdOa2Q0ekdtQlVTWUNBcEJqZ1pMVUdzTE9nZHV3SXhac0tkaG1EY1U5bnhtdUpzd1ljUUNNQWJJMURlUWtzcXFjblp4RmZkcGhmYTljUTdLWFp0V0J5UmZzTHBoeTlhemttUQ?oc=5"
+        },
+        {
+          "title": "Chinese startup DexForce trains humanoid robots using virtual data to slash costs",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY3RWbl9HdXVzVGdQMGl2SFFKU05DYW5TbXBHOGF3WDFnQWJOa2NHalNlc3JjeXB6b1FMbmgzY1RPOTI3b3hNUU8xb0lDb0pEeVdpQjBRaEl6aWZfSERLbUNHLUc5U0NkTkJTMjJtY3Bab2NnNWo1MDh4WXpOMWNnc3lZdHlmUjNyZmlSaVNjeHJqMHd1aXNFaVZkdGVTOXdyc3UybE5RVDg2ZWVYdnNFSC15WFVRNldielZzRFJ5Yk01OFU?oc=5"
+        },
+        {
+          "title": "IMF urges China to deploy bigger fiscal stimulus",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUVk3Tk5qRC1rS0NxcVU2N280MWE1bk4wZFJMdS11aXJ2SmxlcWhRbzluOHV2djk3aHNxam9oRzFOSjBqbzd1THEwVjBiWkIzcHpFUXpqQkR0X29ycWpmZkFyWVg1MG9QdnZTSnVuMDQ0QVZOcXk1WmxEWkZvbWE1VndUZTdLTkJTSnhhVU5xWUlORFhucmc4THMxUHJhRHlKbVE?oc=5"
+        },
+        {
+          "title": "Kimberly-Clark posts preliminary results above estimates, China clears formamide claims",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeGxYM1I5cFRLRnFSS3dQVGJPRjh2RGlGWkFpUFJkUlZELTNDWFJUV0pDcjhZREN2NHdMSHVCZXlwWGRSdmtQNWs4ZG9Za2NyT2ZTYjY4eXRjSGR4WnBrRlZpc0VFeTluc3c3cWVNYWFHUUxIUlhYVDNfQ2otaVVjSVVhVFVocnB3REVRSXhwX3JuajV5aGJUTWdROHN3SVAxNEhEcHBia3FSWlRsUmd6M21iZDhoMER6QTI5Nk1hcw?oc=5"
+        },
+        {
+          "title": "Pernod Ricard first quarter sales fall less-than-expected, cautious optimism on China",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYUNqN2k4YjRtUHBIZEtxZWxGcGxHOG45eWkzZ2VUOFV3QkhJU0s5c1VxYW5jc201c1QyQ2NLQW54OU9jaVFKMmt4Q3lCVmRteUFRNG9rTGR2UTdlRVpDcUFLdGNEZ29SQTgyb3VCUExwQmlCZTV6TFR4cHNvYzNaU1lVSkdZS0NBclZmanFXbEllYkJlaHY5eDZSd0dPbDQzd0JoaXI1QVVCdENJMFRuZHo1akRCRzNJQ0lkYnVHZjk?oc=5"
+        },
+        {
+          "title": "China's top prosecutor arrests former Chengdu mayor suspected of bribery",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVZoREFlcnctR053bmRhcDF1aUMteUQ4TzJsS0g1eWRESERXcUlKYlFtQ09fSUpVTWVlUnUtSWQ4UjVqYzBrcmt6Q1hwYVJBbkJYZ0xDem03YkJHQU4tUDZZMW9lMFdUTE1vOEQ1cXhQZ19IQ1ZXRnA1VnZ0SjRGYnBfdHB6bTdFQnhHYnFtTERXcV81eENnVGg0OU5GTllxUFJwTFdwSkVPb3pZajRqeWM5dWZCLWc?oc=5"
+        },
+        {
+          "title": "PetroChina to carry out its first LNG bunker fuelling in Singapore",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUE1ZkRiX1pNZlJhMW52TzBHSHE0SXlWNi1VR1JYaG9rNWpzdXJUQ01XNHNNYlgweHh3a0VTcnpheVJvam9PNElIdnpaQ1BOem1iYjNGMXM4UGNXMWNpWXFQa18yQ3hfeDhSYzFYVWRtRmZOX2xHTTdJMnl0MFZBRVlFb0FTTENMZmMxZi1EMHg3d2xsaUMwYnZ2c1kzLWg5RldWVXlKZFBsRE5aWTRRQk1R?oc=5"
+        },
+        {
+          "title": "After hybrid car deal, EU needs to rebalance China trade in other sectors, Dombrovskis says",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQekFpQUI2WTF3YUNEZXZEbjgyMlNWTEIycDZTeVZ6WkZxOFJzUXFMeEF6SUJkZVJqLWpWa3JyV3VnbTZZQ1VPS2UxNUROR192ZGtJaTk4Z1pfVksyY1I0aVdlbWxSdDEybkx6X3hpX0NCSVMzbzlLM0RIUVRya1VHZktSR0VsSlg4VWlUUF9qZ2w5WlBhdS1YbWF2R3V3dVJmdHk5NzFSdHVsVjdJY1dnYnFUUGVBUmdxTWJwemN6TlM2dnROWTBqVTNmcTNNc1M2THdyYjJSaTRUMU9G?oc=5"
+        },
+        {
+          "title": "China's Hesai launches spatial camera to boost AI-powered robotics adoption",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOEo0MHozeUJ0MXphaWZoLU8zaXJKYzdLOWdyTHczYUlTV0xaSlhKbDJWeUFwelVaRmIwVF9rV3hTQmVOemJ5dHd0ZkdKYzRGaGNQdG5wNjdlRVR0a3VGQk1hczh5UnJSeEItbUVCSzhWM09LaVpqa19OT2VtX1VfSDYxQjZUZkd0Z0phWjRsMkpkUlRuQ3ZIeEhIeU9zRU9wQzI4aHhybWJGd0d2dW95Q1pseDRBWjdNRnc?oc=5"
+        },
+        {
+          "title": "Chinese fossil of bird with undersized wings scrambles avian evolution",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcFFpcy1qWlNxOC1BNHJzcDM1WXlGWnZVZEs2NEY2Y2I5NFhfTS1ObXJhVU11dXAzRFlnQVp1SGZPX05NMVFJRExfb3ByZDBueDlTWXVoMENPZnBveXNsclJtS3FEWEJKTmwxaVljUU1KNzZWM0JFU1ZPM2RuSXQ4VzhITGg1cTlyWHZlSFpPaHVwOUd5WWpDR1lSRzZxWDJHNEFRQW9SbEJaSVJodk1DZQ?oc=5"
+        },
+        {
+          "title": "ASML CFO says US Match Act limiting DUV sales to China would be counterproductive",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3FUUDFSN0ZoX0xlZ09TamlVeURBQkZtUHV6NlBkNG1Gc1hLODN5SENaclg1UjByalVNemQ2QzVrSTc2WjJUenZMT0IwRTY2dXRZeERhV2owSXVkNjdIZUhiU0VlZkpDZEtRcXp4akJjVlNfUzZzVmFiTmI5ZVcyNkNSY3F2SWxqbm5oWkJ4ZUJpaUt6N3NVMnNVN2Vra0JNS2F4bC1Cd2JNYUp4WjZUOHB0NmRwQ1lQTnU5YkctN3E3T0E?oc=5"
+        },
+        {
+          "title": "Russia's Lavrov, China's Wang discuss cooperation, Ukraine, Iran at Asia security meeting",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWd0VGluQkdsUm1GUWdkQlFINnM3NzFGUEpBSGZYMEtuOEVUdWpPOWY2d3Fxc0Q3OFI4TE95YUVWWFFXaklaTHQtZFRlMlgxWWtTc2hTaHJRejhueS1SOXMxVjRUZXZyYUNWbTNldlNMQTFtUzdzV2g3c2lhNG9ucjd6MWVVdjQ4OFctWnZGcXRmdzZsNVhKU2xNYTVJTzk4NkM3R2ctRm9aZFE3ZFNCa1VsYl9qRXdGOHFpSGRB?oc=5"
         }
       ]
     },
@@ -146,6 +222,7 @@
       "name": "Associated Press",
       "count": 9,
       "filtered_out": 91,
+      "out_of_window": 0,
       "items": [
         {
           "title": "China moves to curb tech exports, including AI, citing national security risks",
@@ -178,14 +255,14 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUtlWHBELVJzd1Y5WEhSNmVzZXJvR1FPdV9RNzN3cXMtdnNXVGJUVDY4eUZWdFRNejJqeTlSNjFmQzRQOV8xYzRpSEhiOFRvaVhtR2U3elFndUVBUVJZMFVLOGJTZmF6d19ESWxoYVlGY3hHYzJJclFfMUdFZ1J0NXQ4XzByOFNOM1YwR3Bhd3V0Ykg3?oc=5"
         },
         {
-          "title": "China’s trade surplus nears record as pressure mounts from trading partners",
-          "published": "2026-10-14",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVdkTHZ3MkRKMEQybkpwQml2QmtLYmZOWjFGVVhfeWo4RVVNNk1wc0FScjBQZERDOTgxYUJpNVhfeW5nZjZqbGtCb1FTbTJQQklnOGZnRnBDZk9vV0J5WXlxU0xvZlBDQWlkNFhKY3h2LUdSWTZTeW9pYkgwM2tQNl9iNVpHUQ?oc=5"
-        },
-        {
           "title": "A new bridge linking China and North Korea will open more than a decade late",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUlaZzV2M2tMalVHS3pIWmtjMUV6UDdRQk91cVhjNnNGQjFWcjNFakhYejdMelpQaVYySkxKcWs2WklCTm4tRWJPTjRfUXJrSktuY25SOVhUV3U1UkpPd3FlQ1BpeGlzdkFycWNWMTBfSlMtT0Z0dmZLQm1OczFlZ3BocnYyY2JqYUhtX19VbkFsYmxIOUkyTmh3MEI?oc=5"
+        },
+        {
+          "title": "China’s trade surplus nears record as pressure mounts from trading partners",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQVdkTHZ3MkRKMEQybkpwQml2QmtLYmZOWjFGVVhfeWo4RVVNNk1wc0FScjBQZERDOTgxYUJpNVhfeW5nZjZqbGtCb1FTbTJQQklnOGZnRnBDZk9vV0J5WXlxU0xvZlBDQWlkNFhKY3h2LUdSWTZTeW9pYkgwM2tQNl9iNVpHUQ?oc=5"
         },
         {
           "title": "Yemen’s Houthis look to build ballistic missiles with more Chinese supplies, report says",
@@ -198,7 +275,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 7,
-      "filtered_out": 48,
+      "filtered_out": 53,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Did Chinese cars squeal on Norway's military?",
@@ -242,6 +320,7 @@
       "name": "BBC",
       "count": 6,
       "filtered_out": 94,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
@@ -278,14 +357,10 @@
     {
       "id": "cnn",
       "name": "CNN",
-      "count": 3,
+      "count": 2,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
-        {
-          "title": "The US is fighting over data centers. China is building them. Fast",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUzFJRHhaRFdCUVgtVGlkaXB1MFZDamtnTDc2OUJMeHRpSHZ5bGxiSGJCbVVycnMzektCeFVVSmZwVGtyejlmcWY5Tzl4V2R0VlZ0U1l3V3NIRHhqRkRHbmsyMWl4bDR1ZGVsd1c2akNLeEJqbTdNUHJEcTBTREhsQzlhdjZkMEFwSHktS21ONWdxZElIU1RsRTIwNU16UDdqU3VObXpjdU52UVVBOUt0T09aeWdFeTNHY05ucA?oc=5"
-        },
         {
           "title": "China invites Katie Zacharia to visit again after she claims nation lacks ‘proper toilets’",
           "published": "2026-10-17",
@@ -301,8 +376,9 @@
     {
       "id": "dw",
       "name": "Deutsche Welle",
-      "count": 10,
+      "count": 9,
       "filtered_out": 89,
+      "out_of_window": 1,
       "items": [
         {
           "title": "How China became a gaming leader and what that means for gamers",
@@ -348,11 +424,6 @@
           "title": "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXpoSGxnbGVuMHJnTzZMekxDbVh6S003bDlWLTYtS29OclQtM3duN3lKYjFfd0lrWXFzOUIxUmI4R0JjUktvMXVkTXVSZDBhQ3JWaHQ2MmI3VUJWTTdRRnRXWDMwMGdaMTJ5ZHBCSDlmdzdFU3NoWEdETEw2LUkzRzdJNUlyaW5DNVJ4V1lCaWNYZFFaX0NiS3pVVU1BT2ZxUnlJZXNBcnB5XzBBaW9N0gGvAUFVX3lxTFBoMDJhdkhiQnB0YXdxZTZmajRTT1FhUUYtcXNOWTdxamN0MjBqVkp2MU15U0NwN1c0aHdmVTlLYzhsTXNHSUZhX3g3NEdMMHNOS09GWDNHQXNMb2t5TzgxOV9iV1R6ZHNyXzlHbTFvUlZqbERTc090ZzdCenBkX2lpbmx0Q2V6S0dRNTZmNzhvS2dDUnpiYmJabTJlRVdnUThNOEZVR2V5RzZteWVSVGM?oc=5"
-        },
-        {
-          "title": "China's population shrinks for first time in decades",
-          "published": "2023-10-20",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLXprSWZNcU01OFhHVXVhb1dZM1BOb3BSQ1c4emxLUUF2aXI5R2xmNk5CZ3RIeEMyRFlUVm9nSzY2RVJUb1NybTBMd1Q1OXZoTEo2bzZCWFhmSWZ1RnRBWDI2SlF0SUtKaEdNOTJBNVJxRlhTMl9FUURhUEVuZGt3cFZkZzZwYUs3NW03SzBoOHMxUQ?oc=5"
         }
       ]
     },
@@ -361,6 +432,7 @@
       "name": "TV5Monde",
       "count": 10,
       "filtered_out": 90,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Pékin invite la porte-parole de Trump à venir 'plus souvent' après ses propos sur les WC en Chine",
@@ -417,24 +489,10 @@
     {
       "id": "bloomberg",
       "name": "Bloomberg",
-      "count": 25,
+      "count": 40,
       "filtered_out": 45,
+      "out_of_window": 3,
       "items": [
-        {
-          "title": "China’s Anti-Graft Body Investigates Ex-Guangxi Official Huang",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd1lVbmtLenVNT19tT1E2cTN5ZnhPdEFkanhvTXBIOWZhck9aZ2twTzdPcmVUWWFRTWozY1pTWXBScVNzSjB0d2s1ZjNjbGtJMkcxZENBSC0wSXNXSUdBNU5VRFZ2Vk5oZm9MUU5UTjJwVV9GbnZHMll5N0xDSWdWQkNGODY5WXlyWERpc0p6bHVFaUNxUXlUOVhpbTBXYS10LWMwYWdKSGN4bnFheDZveEJ2Zw?oc=5"
-        },
-        {
-          "title": "China Condemns Japan’s ‘Negative Moves’ Over Yasukuni Shrine",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZG5IejE5MmVmRGx5UnA4bGx5VWdMY2taNE1Uekl6YVV3MjFMbS15TllTT0otWF9Fam83eHBqYmtLY3YzSkYtTUhsVlBuM3F4NmdfZzcxbDJxNFBTUzdJVkpSTVZ2VzdzbnZMSE5obXRNbnh0d1FaTENyaC1iNVd1VXpUZXpfci10N3IteVBxd1JmNF8wOGZGTTFKcm5mdjBJYW1qczdWblZjV0ZmalE?oc=5"
-        },
-        {
-          "title": "China Rail Logs Record 3.71 Billion Trips in First Nine Months",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpleXU4d1hzVDBpTzdSRk8yako5RGs3Z0huWk9DTC1fMGx5dm1aOVNfX0NPRHh0alBsOFVtbXNudlJaR295Xzg2eXdUZGNDakotUC1ja3g2N2xieDhKMlZPb2NfTndheEdhZnppU0E2b0hVUlh1aXNTZnA2MEdPZmh3bC1VWDZyTEk4WFgyTXl0cXFOMFFVcXVfQlh6V01WaURFN3lsNzU1WlNZNXFsM1Ywbw?oc=5"
-        },
         {
           "title": "China Warns Corrupt Officials Can’t Expect a Safe Landing",
           "published": "2026-10-17",
@@ -526,14 +584,14 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPblltVkR2OGg1a1ZyeFlLUmtud28yX0VKVTM3TW04dllZVGVKbktZRlhKSWpucDZ5V09YdXZVNVJINE5iTmdoS1ozczlzQkM2NW8xUVhaMlJkSmxFcFJTS2prR2hRSFVla0tLVnRRdGhUSWtBNWZKc1FETXRzSzdaeDR6bGo0R1NXclZZMkFQQjJLdlZubFB4MzJRaXBlSXlMMjI5QnJ3bkxWWTVnNTBvV3h2VVdPQQ?oc=5"
         },
         {
-          "title": "China Builds Gas Buffer for Winter as Iran War Heightens Risk",
-          "published": "2026-10-16",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmdEdmN0Z3BsTG1ZVkxUNHVEdmc5NVN2STluQ2U3cl9nTWVTUG12Rl9CTkRnWFpobkF4Qk5SQldlc0ZVMDJYY1NkRmVFT2t3NDVDZEVmdmg0dElZRnE0bldFcHVLRllNTXdpSWo1VlprdV8yUHdFdm9aWjdfcVZQRVRjbW1wa1BQX1FSSFZyWEVYNGpIXzBGVWw2RkxXRG9VclE5NnhEb0c2R21tV05ITzZn?oc=5"
-        },
-        {
           "title": "China’s Tencent Detected Unintended Behaviors From AI Agents",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQmx4R0lCUnRzaVh4d1ZMWGkwYnp0cm94TER5TVBtMXAtOVJ6UXVRc2pwYVI4MFBZNXRHMnNKVG5FTXJFdFp3aHdSTGZ3aGRBelUxbklHalNRVVplbUk0WHlCaUt6VUw1U2QxYzVhVlN1QjJjbTAzQTJIUm9rNDJnaDMyWXBLa3Z1N25uVW5NZEM5cnIzaGxXbWRtSl9Xd3NoUWs1WnljMWdCX294V3k0aA?oc=5"
+        },
+        {
+          "title": "China Builds Gas Buffer for Winter as Iran War Heightens Risk",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmdEdmN0Z3BsTG1ZVkxUNHVEdmc5NVN2STluQ2U3cl9nTWVTUG12Rl9CTkRnWFpobkF4Qk5SQldlc0ZVMDJYY1NkRmVFT2t3NDVDZEVmdmg0dElZRnE0bldFcHVLRllNTXdpSWo1VlprdV8yUHdFdm9aWjdfcVZQRVRjbW1wa1BQX1FSSFZyWEVYNGpIXzBGVWw2RkxXRG9VclE5NnhEb0c2R21tV05ITzZn?oc=5"
         },
         {
           "title": "Tardy China Stimulus Sets Up Second Quarter of Sub-Target Growth",
@@ -544,6 +602,96 @@
           "title": "China’s National Team Signals Return With Heavy ETF Inflows",
           "published": "2026-10-16",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQndhYXFYLTZvREFPck01bXcyQm1ZVTlnUGtjeEZYRDhqZ3JsR2tGY3lPSk5PQWFyeE5IeUJUSEdUYXRhcmZJQTNFXzVFaDlEWkMyTEVHYVVreW5ENWdTSUE2NlctUjkzR0pval9Bd1EzYlRuZkVWUnpLQnB0ZE9XYkRodVNEc0NubENQbDdrdG1IR0N3RVVudndPTVdKN0dLckE4aHc5U0l1ZkdaOVJv?oc=5"
+        },
+        {
+          "title": "Watch Michael Palin on the Philippines and China’s Power",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOanNfRC1CWkZ6V3psMmV0ZzJMYnd3SkZUSWVwc2w2QlVJaGp6T01LR2JGelBueWhuWGcyZmFLRVNsOTk0LXZraVZKZU9tWlVud1JscGFlblo3WUNXWUY2cEstQnJjaTRLcE1ZbHFvX1hoV3pkU0VHbExSUHgxWllrUjlacjlrQm1PcnFiR2NnZmstY21zc0xsVXhzOU9DcVZs?oc=5"
+        },
+        {
+          "title": "Philippine President May Summon China Envoy for Veiled ‘Threat’",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEoxMXFudjNEeFQ0QWdHT2pfQjIyZUFHaTN3WXg4Y1B1aFBnOE1XNE9rWkZZMDhFS1g5Z0dwb3h5MVFYSkRlWjFNdmZ0blZUeW9wZjhmOGluTEJ2eldwXzgwZmFkVVF5M1JOLUJNdk9HeW5wSnZWaUZWRC1UTWRIYm1nbkkxV3dlQkNBNExYZktCbm9wZVl5TDFkVDIzYmNLa3U1SC1wY0tqU0VkOFlVSDZB?oc=5"
+        },
+        {
+          "title": "Sitharaman Says Trade Barriers A Hurdle to China-India Ties",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUxzNEM2ZTlJRjg1UWxueHZJNHhISnZQd0pxd0NQOXlhbjVUSXd2bkNJNkZwMkx1bW5hSXVtZmYySGdxYzQ5RWdfcDlHQlBhTDBJV1JGNWtlbW5LRTE1LUJGamtxVzJkbXA0OEJ6MnZ3bEVJVFdGeGUwTlUwTTNJWHp1Y1ZZYUdBXzBFVjF6bS1XWW8xZE9fSldnWWNWOTBpZExKaFlJSlNibHFLd010YVh3?oc=5"
+        },
+        {
+          "title": "Black Mold, Bugs Found at Chinese Plants Making GLP-1 Compounding Agents",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMWEybTVXU3hNRjNhbDhkeEVFb05TcFJINlBLbndaY3FKQUFCSFk3bFhLbW5hREt6M0pHcmxZTmFJa0w5LVE0bW1lTkVpclZQYzFpRGJjdEsyd3JVYzhuLUU4dkpwcmlOMHppNkhBRDF6bkdrdUo4dE5xUS1WRXl6d29BakpWZHRGYUpiQlh1YmdqRnJUM05EcTEtTU1uYjBaZkd2dzF1RkpmcTN1RVpiSDFiZk1RamtNeWg4NUtBNWdwTHFMYldz?oc=5"
+        },
+        {
+          "title": "Canada’s Pile of US Bonds Grew by Nearly $600 Billion. Some See China at Work",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVHptQ0RCbHNyejJGdUlaRWVwdGkxdG9tOWZuVWZBNno4SFEwS3ZNbE5WeVBPaVNkSUU3SWkyTHNsRlczeno3TVFNWjd6U0tyWU9qM3EyY3FPaFBpWWpfb0x2anlEVjZoNU04NWVTa3diQmowTWVsTHVIcEtKLXMxTGRpT0FfM1pTcGtzelZLUDFLbDRZQW9RZmpBeUJYeloxOXdkdlRYdVRzUkF5aV9ZNm5JRFRKYk0?oc=5"
+        },
+        {
+          "title": "EU to Bolster Its Power to Block Chinese Imports in Trade Fight",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWs0UnZZYkdMOHhaNlJwQTVIeWQ2clVXakZZZVRPMW9lSXd2bVE2eU5GM1kwQ1dlZkVEWjNrSGI4cUZYaVFaLU5hSGZqSWVsR0RlZUJLUDFkTzk2eWJuOEdZS1JMaUZhVE5HUml0d2liU3YzMGtuYk9GUmdRNGVzX0pZODY3djByX2tPM01tQ3NGSFRmazFiWC01cjV6OFNSMEJ6MEVrYk5aRFRUQzdRV19hdHh1UQ?oc=5"
+        },
+        {
+          "title": "Trump’s New Press Secretary Says China Lacked ‘Proper Toilets’",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbE52d05paFhwNXFvV0FWb1pDSWRTX1NFcGMtaER6Zm1zdVF1YU1QSl9zbldRN2lyUmhTU19GdE5NbmJhckJqeENzTnVHTEpnZVRrS0RDWERxR0xleVFETzFaMVF6WnZZVGU5cUhXeXctY1dqTG9SYjZxWGxRdDVHaTQwUDRLZUV5RTUzT3lUc0VaUlNGRnNDSHlQNVUyMFVrc3RlTGVrTzBCLU9uN2syWg?oc=5"
+        },
+        {
+          "title": "China Is Too Defensive Over the Yuan",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWRsTE1YejMxZ0RuUWdqbUxvc2JhR1FQTld4cWtrOTA4QjRrRkhRM19FOWVMSVRzVHVDaWhuSnhfWXhhdFdIRmFVTFNIV3BXVVNmQUV2amhzakl5WTl4T1MzYzYyNHVGSWlFUi0wczFVQ2J0NkZOSzdpdV9LR1J5R25VNDg1a0ltMFcydlljckxOanpa?oc=5"
+        },
+        {
+          "title": "China’s Plan to Make Yuan a Global Currency Enters Faster Phase",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOExUdVVpaHNnM3NXeFFjaHRxMnNwelAzVkRsNE9idFVTRTFGdGFNeVhsZmlUTUdBd0VWb01rTTc1NE9pYkw2ZUI3U3o0NHdZZi1fYzJZV042NGtXQzhBRHZweUJKbEVyVWU1cFd6WVNsM1NyVmtISXI4MjNjYVI3WFNlSzZIOW1RQXdZdkpyN2VVaHZud0VFZXdFSWNKTERiTHVQM0tpWndxbFpSZkNVNk13YTk?oc=5"
+        },
+        {
+          "title": "EU Begins Assessing Additional Sectors for China Trade Quotas",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWFrQkYtcEsyU01hUUUzQWJIbEYzNUIyVno5eXdxbHd4MmltQjczRTVwXzJ5eE13Q0lLRTJ1UXdPOXBweDhVclhxLVR6VlJBb2hQa1hPSlBPdl9KeU1vdkQ1RmNQYlZ1SGNZa3FQSFMxZFFRNE9VMHNiZklQeTUtd3I4OVhDTVA1LXFTNkhXeVhPWGs5bjBfaFd1cG4tdzlPam5IYVEwTThWUThWdHJwR3Bn?oc=5"
+        },
+        {
+          "title": "China Removes Western Wind Power Equipment to Boost Security",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmZPOTEweFdmdHY3UEJEajJIYk5LVUVla1lac2ZCWlRNRzdNeFFiajhZOXNEYVV4bGRJNFVLOExMUkdaZ1RwSVl0YVNCOXIwZzIyQWZTYzNsV1prTTRiZy1vYV9xa3NuNWhQMGlERW1LYU9xQW9YcFd4bFJRdTZpdEJpV1U0VExVaDlLUUFVbHoxMFF2b19WTVJ2bWJoYy1OMnhMVm5qQ21mQmpDN0dZWg?oc=5"
+        },
+        {
+          "title": "IMF Warns China Stimulus Lacks Ambition, Leaves Yuan Undervalued",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTEdBR0h6X3YxTzAtMWtnYzdrT1Q0eGllTUI3WVlSdE9XX1pYU1lXMFAtZUlyRTNOazBndS1uZkRsakpCU1dyMXBDUk5OWUdOdjFTMGxUOXVpWGZHWVRFVF9uWFFfUzVsa0UwaHBtaHItMmxCYjhKVDdseUVKa1RaUU5FOVJzeDN6ZktsSktoU1doQkNmc3l1RlVPSXJRbFVGTnhhNE9PaXY3eGpsaVlBdE40em4?oc=5"
+        },
+        {
+          "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1VWd1RiZnhRdmJxMmgzVkdjdmlxTjJGMklmSjlDTlRxQW92UERUV0djUzJOS0lOT1ZJODRRWkhTUUFDWmt0QXhLSjY3V1FiUDZBTGMwSTd6YjJXNHRYbmhtbTE4ck1qTnBSNWFPenpJRWNLU3U3UExySHpFcGhfN0t1REstVFNyU2F3dk1MU2UyRGdnRG81aE5MbEFqbjhoQ1ZVeGNqTzlBTlZk?oc=5"
+        },
+        {
+          "title": "ReNew CEO Warns China Reliance Puts Energy Transition at Risk",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVEtoVUJjekgwa3hLTlZCbDJYWUFCZjVyMmpRdWo3LThaRmhyWW1mUWlJRFBHYjhETXlsRzIySnZ1RWlFeVBUaFB3Xy1LcTRWc1BPaUtYZ3Bkd1BJcGNrWWlBdFJqYk5sdUJ4Wi1aeDUya1JsM0lIbjBsZnlVRmhWdWsyRmt1b0padTV2aGdHbXpObUM2WDk4M2l5MWRESzJjUWNvU2VKSGx1d2phbTk2Vmp3?oc=5"
+        },
+        {
+          "title": "Bessent Pushes IMF on ‘Distortionary’ Policies, Hints at China",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONm1xZ1dGQjF6RElKNTVENktvczF4UTZTa05xXzBIQlp3ekM0bTZjRVdUb0ZNRFE2OWtENm9mMDE2YlBZdE41cndPeWphSmN0ejkxVW03WklIOWFETVZmVEV0VWpCWHJkZEFHQ0xCa2pLLUtVNVBYLU1HSzFfTUtpN2MwOGtYcUR6ZWxiY2VUWm9objVRMnEwdXV3MVRKV2UxOEZRU2JlZFpFTkZ0RjlLcw?oc=5"
+        },
+        {
+          "title": "Chinese Carmakers Don’t Need to Be the BMWs of Europe",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNajlQS19qVklmM1pqeHFBbkRrWWNrRWRtVDNBcEh4LTM5Wmt2NGhaN2lSTVo3VDhlX0xfUEZRMmlIQlUtSy02em5LVl9YVFBubmdtQW10ZUNOMkE4eUxISXVEUnBHQUkzTGRLRzZVSFlGSUM4Qm5qSXNoNURMU0FGeERaNEJyc3JLd2h1bXJXYkMwdXhoUVcyUVhwNnA0dm1OUXdZa3lCU1ZINzQ?oc=5"
+        },
+        {
+          "title": "Zambia Says Some Copper Sales to China to Be Settled in Renminbi",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRm1ZZTZ3emlBa3lSOFNJSE5mYWxvSFFXUlpXZW9pYkItbTEyNXZiRzlkSXo1aU1TY1NBVTRGVnA0b2tJVjVNaDZxelNmdzBlUjFhMy1vbmRlX3UtQXdBOTY4VHVkVlJuandxNTRYRFZfTzFBelQwb2dxV05nT1BkRzB0bFFiTmZ0MUhBaXoxbGJheDA2RnZqa3oxaFJ0bjNJQ29ZQUdEUDloQVhOU19lNUVWVThCQQ?oc=5"
+        },
+        {
+          "title": "China’s Backdoor Bond-Buying Talk Swirls on $600 Billion Buildup",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0YyV1hpZldlbnVlWU9YR2RFLU9pSW9xcUpsR2JlUExTby04SzRnM3gxVlg5QWV1aFBWdHgzeWlVYXRIQWhCZjYwZElpdkExNVJpb3Y4eTF6TnFOQVQ2MHlYN2M3em5palpXcmVLQjZ1RWgxa2ZTMmtHazJfT2VSMFZILU90VVcyckV4M3YzTHpPVTFMRHQ0NHNuaWJDUlJVeEpNR3pWclFpeXR2SENsZmltWjM?oc=5"
         }
       ]
     },
@@ -552,6 +700,7 @@
       "name": "Wall Street Journal",
       "count": 7,
       "filtered_out": 93,
+      "out_of_window": 0,
       "items": [
         {
           "title": "How Chinese Farmers Stole Driscoll’s Secret to Growing Blueberries",
@@ -595,6 +744,7 @@
       "name": "Financial Times",
       "count": 7,
       "filtered_out": 93,
+      "out_of_window": 0,
       "items": [
         {
           "title": "North Korea gets closer to China and Russia with new bridges",
@@ -636,8 +786,9 @@
     {
       "id": "cnbc",
       "name": "CNBC",
-      "count": 10,
-      "filtered_out": 44,
+      "count": 9,
+      "filtered_out": 42,
+      "out_of_window": 1,
       "items": [
         {
           "title": "Check out Beijing 51WORLD Digital Twin Technology Ltd's stock price (GQ0-FF) in real time",
@@ -683,19 +834,15 @@
           "title": "China at least 5 years behind in lithography: strategist",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQU9TNWtXd0Nnb051RDl5b0NqNlRWRXpPLWk0dWJuQTlTUFJJYVNrZXJIZGg5NFlCUUxDMDh6aTZhTGFwQ2xEUFl3Unhuc0t6UVhXajhfTzRXVm5CU0xqejNocGRwdXdJcl9DV1V0YXV1a0dual9KRWZtUXlzcnN4NnpWQWpBN0NjeG55bG5vcTZoamlqWmI2VlFHeEk4QkU?oc=5"
-        },
-        {
-          "title": "Check out China Sandi Holdings Ltd's stock price (2934-HK) in real time",
-          "published": "2021-06-12",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pd01ZUnVqRXE2N2RqRzVtLTlGa0lXeW9jZHJYdzBWbmRLd1gyRHhhQTEyekFpX3pGeHFtQmRpTXhsRHpYN1hNc3Z4SQ?oc=5"
         }
       ]
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "count": 15,
+      "count": 14,
       "filtered_out": 85,
+      "out_of_window": 1,
       "items": [
         {
           "title": "Why is China buying up gold?",
@@ -748,14 +895,14 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdG5QWDh0YjlmeTJWbkdNTHVhc1MtWFFyZk5ZaXE1aUpLYk9VYmZBak5rZDBCZENGc0hEWFI5d3ktVG43aWN5d0Q3YVlpaEdhNEUwQlg2TXBQbFF3RUlvc1oyMjk2cjFQdVpCZ3ZjcU91b1RHZ1RjYjdLQnJPczVZRmxDOHQyMnpvaS1uSGNfT3dkTjduY1BHa2pRQTQ0SEhXeldwOHlRYzI1R2tsR0RXRHJ0Z9IBuAFBVV95cUxPdzNPQWh4Uno3ckhBTmNhVENhcGhxNXdsaTZTcFdrcWRMTVlaT1UwVG8xSVN5TFd0WUtOTXQ4V3JXdVhJb0J5Rzd3SXlQRnRZZGtYMHVnT0lNTkJSeVpBUTRXeW9fN09hcHpaWm9KNzNodmtEMUJQWWNqTXRYbUo0UGVrRGRnVlRPM3pYTE16MG1fcHBITFNoWTVtbF9tTmVMaUthYXlSdVFtV3Y1Q0tTQ1VSNTZjTHln?oc=5"
         },
         {
-          "title": "Long-delayed China-North Korea bridge officially opens",
-          "published": "2026-10-15",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOGRlNnA0ZkhDR29JdmUxOHJmdC1rTXllbGV2ekZubWRwUUFmdnRIdFBqckY1OFV1a3RXanNseS12WFZTdjJZY0hKWHBoQmlIc2dxT0RaajJPQ3hRM3M0QUJBV2t2Ny1iOTlIVnFPYk55Zm5Rc0dYdWZZeEd0b1JFcHdiQU9sa1VkRmg0aVdKRUxrcDBKQlpuZFFwdThjTWpROFB6dkhObmlPMTdGeDRJ0gGvAUFVX3lxTE84ZGU2cDRmSENHb0l2ZTE4cmZ0LWtNeWVsZXZ6Rm5tZHBRQWZ2dEh0UGpyRjU4VXVrdFdqc2x5LXZYVlN2MlljSEpYcGhCaUhzZ3FPRFpqMk9DeFEzczRBQkFXa3Y3LWI5OUhWcU9iTnlmblFzR1h1Zll4R3RvUkVwd2JBT2xrVWRGaDRpV0pFTGtwMEpCWm5kUXB1OGNNalE4UHp2SE5uaU8xN0Z4NEk?oc=5"
-        },
-        {
           "title": "Photos: China and North Korea open new border bridge amid deepening ties - Al Jazeera",
           "published": "2026-10-15",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUw4V3ZaZWQ0Zi1HMm52emNPakl5Q3h5WVphYnRwTmgxNWtSaEJ2OEZ1bVBBY2JvTWJvbGJqZldLMVVSLVBWU1ZxbWVvQUN2WnNTR3ZjOXRaSmFPZHJRc3ZmT0Q1ZjhadmhHRGdPRFd5OTJUVVNxTWMzeWRXZFBqckVBeU0wVFVubV84U01sWUZoQVlMdDVBOWdreWtwcFdxSVZVeXlDYjEyUzI3eVc4cXRoZThUU2lUSTd0X1ZEb2JfYVVUREU0X1RrU0NSSnNz?oc=5"
+        },
+        {
+          "title": "Long-delayed China-North Korea bridge officially opens",
+          "published": "2026-10-15",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT2V1akx0eElUYVBDZkswcnEzeC1POUU2aUdXbUlpMHBRMkFldlNFWlBYZFA3OExFOXRhbmhENUNKcFZ0czJuaE5iVUJiVGJFTFM1a0hXel91R05EZGMwVW1ZZ1AtVUNWT2VhbXdYNEtfVmZFQU84RDU4cW5Ka3RUQ0FjNW5JRHI1MzhSMUxzWUNhYTFnOVpYTHhRSlNJMGVXbW12UWZIOVhpd9IBrwFBVV95cUxPOGRlNnA0ZkhDR29JdmUxOHJmdC1rTXllbGV2ekZubWRwUUFmdnRIdFBqckY1OFV1a3RXanNseS12WFZTdjJZY0hKWHBoQmlIc2dxT0RaajJPQ3hRM3M0QUJBV2t2Ny1iOTlIVnFPYk55Zm5Rc0dYdWZZeEd0b1JFcHdiQU9sa1VkRmg0aVdKRUxrcDBKQlpuZFFwdThjTWpROFB6dkhObmlPMTdGeDRJ?oc=5"
         },
         {
           "title": "Long-delayed China-North Korea bridge officially opens - Al Jazeera",
@@ -766,11 +913,6 @@
           "title": "China’s exports surge amid AI-driven demand",
           "published": "2026-10-14",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zMWNrREl6T29hdzJEWVI1eGM1Q1BRUE01V09fYWhsRm10b0pyY1VYd0x6aG8yM2FwVjNjQ3NENTFwUUZHZWRWQnRQdkQ2d1Nua05kNWE4SzI3bWhMZjhzb0FwcnplSjFnQ0VOX0l0XzAyZXBE0gF6QVVfeXFMTjN5dXJmR2oxODVtNE5wR0FFbTRvNnBTZmNrVU1PVUVHZVZqRGFvTzhlRDZJdnRuYXFmd01nd1phV1NMb0JySnNfMmNtN2hIaFNGeDlLY19XN19lWW1WRlpPS1BpdlFibzVmMW1WNk95N1pfbVYzVEVsTHc?oc=5"
-        },
-        {
-          "title": "Xi Jinping",
-          "published": "2020-10-01",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoRV9VeUZ4ZXBMeThyWEtwREJOQkwxWTdGbFFJVDk5dTRnOW9neG1waTdmaEg0THNPaXJRcGplZVg2MGc1RXJsVllJaVhUX1p6cjNz?oc=5"
         }
       ]
     }

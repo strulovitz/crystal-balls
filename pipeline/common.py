@@ -168,6 +168,21 @@ def headlines_as_text(headlines_json, max_headlines=None):
 
     rendered_count = 0
     omitted_count = 0
+    # Bible 9.3: when over the cap, choose a day-balanced subset (every day of the window
+    # represented before any day gets a second item), then render per source as before.
+    all_items = [it for src in sources for it in src.get("items", [])]
+    keep_ids = None
+    if len(all_items) > max_headlines:
+        by_day = {}
+        for it in all_items:
+            by_day.setdefault(it.get("published") or "", []).append(it)
+        days = sorted(by_day, reverse=True)
+        chosen = []
+        while len(chosen) < max_headlines and any(by_day[d] for d in days):
+            for d in days:
+                if by_day[d] and len(chosen) < max_headlines:
+                    chosen.append(by_day[d].pop(0))
+        keep_ids = set(id(it) for it in chosen)
     for src in sources:
         src_name = src.get("name", "?")
         items = src.get("items", [])
@@ -175,6 +190,9 @@ def headlines_as_text(headlines_json, max_headlines=None):
         lang_note = ", in French" if src.get("id") == "tv5monde" else ""
         lines.append(f"{src_name} ({count}{lang_note}):")
         for item in items:
+            if keep_ids is not None and id(item) not in keep_ids:
+                omitted_count += 1
+                continue
             if rendered_count >= max_headlines:
                 omitted_count += 1
                 continue
@@ -701,17 +719,24 @@ def estimate_tokens(text):
     return len(text) / 3.5
 
 
-def fit_headlines_to_budget(headlines_json, other_text, budget):
-    """Render headlines_as_text with the largest cap (240, 200, 160, 120)
-    whose resulting prompt (other_text + headlines text) fits within
-    `budget` estimated tokens. Falls back to the smallest cap (120) if
-    none fit, and logs that the budget could not be met."""
-    for cap in (240, 200, 160, 120):
-        rendered = headlines_as_text(headlines_json, max_headlines=cap)
+def fit_headlines_to_budget(headlines_json, other_text, budget, cap=None, settings=None):
+    """Render headlines_as_text with the largest cap that fits `budget`
+    estimated tokens. Start at `cap` (default FORECAST_HEADLINE_CAP=150),
+    shrink in steps of 40 down to 40 (Bible 9.3). Use cap=JUDGE_HEADLINE_CAP
+    (250) for the judge."""
+    if cap is None:
+        try:
+            cap = int((settings or load_settings()).get("FORECAST_HEADLINE_CAP", 150))
+        except Exception:
+            cap = 150
+    c = cap
+    while c >= 40:
+        rendered = headlines_as_text(headlines_json, max_headlines=c)
         if estimate_tokens(other_text + rendered) <= budget:
             return rendered
-    rendered = headlines_as_text(headlines_json, max_headlines=120)
-    log(f"  warning: prompt still exceeds LLM_CONTEXT_BUDGET={budget} even at 120 headlines")
+        c -= 40
+    rendered = headlines_as_text(headlines_json, max_headlines=40)
+    log(f"  warning: prompt still exceeds LLM_CONTEXT_BUDGET={budget} even at 40 headlines")
     return rendered
 
 
@@ -1098,6 +1123,204 @@ _EXAMPLE_COUNTRY_FILE = {
         "eli5": "Iran's money is worth less each week, so prices at home keep rising.\n\nAt the same time other countries are adding more restrictions on what Iran can sell abroad, especially oil.\n\nTalks meant to calm things down have not led anywhere yet, so neither side has agreed on a next meeting.\n\nIf nothing changes, expect more economic pain inside Iran and continued caution from its trading partners.",
     },
 }
+
+
+# ---------------------------------------------------------------------------
+# Part 9: the exam (shared yes/no questions, answers, three-verdict judge)
+# ---------------------------------------------------------------------------
+
+DOMAINS = ["politics", "security", "economy", "diplomacy", "society", "technology", "health", "environment"]
+_NUM_TOKEN_RE = re.compile(r"(?<![A-Za-z])\d[\d,.%]*(?![A-Za-z])")
+
+WIND_UNAVAILABLE_V2 = (
+    "Not available: the previous round had no questions to judge. Apply ordinary caution: "
+    "forecasters usually say YES too often to dramatic events and too rarely to slow economic ones."
+)
+
+
+def questions_as_text(items):
+    return "\n".join(f"- [{q['id']}] {q['text']}" for q in items) + "\n"
+
+
+def answers_for_judge(naive_answers, crystal_answers, single=False):
+    n = {a["id"]: a["answer"] for a in naive_answers}
+    c = {a["id"]: a["answer"] for a in crystal_answers}
+    lines = []
+    for qid in n:
+        if single:
+            lines.append(f"- [{qid}] forecast: {c.get(qid, n[qid])}")
+        else:
+            lines.append(f"- [{qid}] naive: {n[qid]}, crystal: {c.get(qid, '?')}")
+    return "\n".join(lines) + "\n"
+
+
+def crystal_answers_as_text(items, answers):
+    a = {x["id"]: x for x in answers}
+    lines = []
+    for q in items:
+        x = a.get(q["id"], {})
+        lines.append(f"- [{q['id']}] {q['text']} Crystal answer: {x.get('answer', '?')}. Reason: {x.get('reason', '')}")
+    return "\n".join(lines) + "\n"
+
+
+def wind_v2_as_text(w):
+    lines = []
+    for q in w.get("questions", []):
+        if w.get("single_forecaster"):
+            lines.append(f"- [{q['id']}] {q['text']} Forecast {q.get('crystal')}, outcome {q.get('outcome')} ({q.get('evidence', '')})")
+        else:
+            lines.append(f"- [{q['id']}] {q['text']} naive {q.get('naive')}, crystal {q.get('crystal')}, outcome {q.get('outcome')} ({q.get('evidence', '')})")
+    if w.get("single_forecaster"):
+        lines.append(f"Resolved {w.get('resolved')}, unclear {w.get('unclear')}, correct {w.get('correct')}.")
+    else:
+        lines.append(f"Resolved {w.get('resolved')}, unclear {w.get('unclear')}, naive correct {w.get('naive_correct')}, "
+                     f"crystal correct {w.get('crystal_correct')}, disagreements {w.get('disagreements')}. Winner: {w.get('winner')}.")
+    lines.append(f"Systematic error: {w.get('systematic_error', '')}")
+    lines.append(f"Correction: {w.get('correction_hint', '')}")
+    return "\n".join(lines) + "\n"
+
+
+def validate_questions(obj, legacy=False):
+    errors = []
+    items = obj.get("questions")
+    if not isinstance(items, list):
+        raise ValueError("Questions validation failed:\n  - questions: expected a list")
+    want = 5 if legacy else 8
+    if len(items) != 8 and not legacy:
+        errors.append(f"questions: expected exactly 8, got {len(items)}")
+    ids = [q.get("id") for q in items]
+    if not legacy and ids != [f"Q{i}" for i in range(1, 9)]:
+        errors.append(f"question ids {ids} must be Q1 to Q8 in order")
+    domains, yes, no = set(), 0, 0
+    for q in items:
+        qid, text = q.get("id", "?"), q.get("text", "")
+        if not isinstance(text, str) or not text.startswith("Will") or not text.strip().endswith("?"):
+            errors.append(f"{qid}: text must start with 'Will' and end with '?'")
+            continue
+        if not legacy:
+            if text.count(" and ") > 1:
+                errors.append(f"{qid}: more than one ' and ' - one event per question")
+            if any(not re.fullmatch(r"20\d\d", t) for t in _NUM_TOKEN_RE.findall(text)):
+                errors.append(f"{qid}: numeric thresholds are not allowed")
+        dom = q.get("domain")
+        if dom not in DOMAINS:
+            errors.append(f"{qid}: domain {dom!r} not in {DOMAINS}")
+        domains.add(dom)
+        lean = q.get("setter_lean")
+        if lean not in ("YES", "NO"):
+            errors.append(f"{qid}: setter_lean must be YES or NO")
+        yes += lean == "YES"
+        no += lean == "NO"
+        if not legacy and not (isinstance(q.get("why_uncertain"), str) and q["why_uncertain"].strip()):
+            errors.append(f"{qid}: why_uncertain missing")
+    if not legacy:
+        if len(domains) < 3:
+            errors.append(f"questions cover only {len(domains)} domains, need at least 3")
+        if yes < 3 or no < 3:
+            errors.append(f"setter_lean needs at least 3 YES and 3 NO, got {yes} YES and {no} NO")
+    if errors:
+        raise ValueError("Questions validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
+def validate_answers(obj, expected_ids, crystal=False):
+    errors = []
+    _check_word_count("summary", obj.get("summary", ""), 80, 150, errors)
+    _check_no_markdown_table("summary", obj.get("summary", ""), errors)
+    if crystal:
+        _check_word_count("reasoning", obj.get("reasoning", ""), 60, 140, errors)
+        _check_no_markdown_table("reasoning", obj.get("reasoning", ""), errors)
+    answers = obj.get("answers")
+    if not isinstance(answers, list):
+        errors.append("answers: expected a list")
+    else:
+        got = [a.get("id") for a in answers]
+        if sorted(got) != sorted(expected_ids):
+            errors.append(f"answer ids {got} do not match expected {list(expected_ids)}")
+        for a in answers:
+            if a.get("answer") not in ("YES", "NO"):
+                errors.append(f"{a.get('id', '?')}: answer must be exactly YES or NO, got {a.get('answer')!r}")
+            if not (isinstance(a.get("reason"), str) and a["reason"].strip()):
+                errors.append(f"{a.get('id', '?')}: reason missing")
+    if errors:
+        raise ValueError("Answers validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
+def validate_judge(obj, expected_ids):
+    errors = []
+    v = obj.get("verdicts")
+    if not isinstance(v, list):
+        errors.append("verdicts: expected a list")
+    else:
+        got = [x.get("id") for x in v]
+        if sorted(got) != sorted(expected_ids):
+            errors.append(f"verdict ids {got} do not match expected {list(expected_ids)}")
+        for x in v:
+            if x.get("outcome") not in ("YES", "NO", "UNCLEAR"):
+                errors.append(f"{x.get('id', '?')}: outcome must be YES, NO or UNCLEAR, got {x.get('outcome')!r}")
+            rh = x.get("relevant_headlines", [])
+            if not isinstance(rh, list) or len(rh) > 3 or not all(isinstance(h, str) for h in rh):
+                errors.append(f"{x.get('id', '?')}: relevant_headlines must be a list of at most 3 strings")
+            if not (isinstance(x.get("evidence"), str) and x["evidence"].strip()):
+                errors.append(f"{x.get('id', '?')}: evidence missing")
+    _check_word_count("systematic_error", obj.get("systematic_error", ""), 60, 140, errors)
+    _check_no_markdown_table("systematic_error", obj.get("systematic_error", ""), errors)
+    ch = obj.get("correction_hint")
+    if not (isinstance(ch, str) and ch.strip()):
+        errors.append("correction_hint: missing or empty")
+    if errors:
+        raise ValueError("Judge validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
+def compute_wind_v2(prev_file, judge_obj, prev_round_id, elapsed_days):
+    """Python (never the model) builds the stored wind section and every count (Bible 9.7, 9.8)."""
+    single = bool(prev_file.get("single_forecaster"))
+    verdict = {x["id"]: x for x in judge_obj["verdicts"]}
+    n_ans = {a["id"]: a["answer"] for a in prev_file["naive_forecast"]["answers"]}
+    c_ans = {a["id"]: a["answer"] for a in prev_file["crystal_forecast"]["answers"]}
+    qs, resolved, unclear = [], 0, 0
+    n_ok = c_ok = dis = c_won = n_won = 0
+    for q in prev_file["questions"]["items"]:
+        v = verdict[q["id"]]
+        out = v["outcome"]
+        entry = {"id": q["id"], "text": q["text"], "domain": q.get("domain"),
+                 "naive": n_ans.get(q["id"]), "crystal": c_ans.get(q["id"]),
+                 "outcome": out, "evidence": v["evidence"],
+                 "relevant_headlines": v.get("relevant_headlines", [])}
+        if q.get("legacy_probability") is not None:
+            entry["legacy_probability"] = q["legacy_probability"]
+        qs.append(entry)
+        if out == "UNCLEAR":
+            unclear += 1
+            continue
+        resolved += 1
+        nc, cc = entry["naive"] == out, entry["crystal"] == out
+        n_ok += nc
+        c_ok += cc
+        if entry["naive"] != entry["crystal"]:
+            dis += 1
+            c_won += cc
+            n_won += nc
+    w = {"previous_round": prev_round_id, "elapsed_days": elapsed_days, "questions": qs,
+         "resolved": resolved, "unclear": unclear}
+    if single:
+        w.update({"single_forecaster": True, "correct": c_ok, "winner": "single"})
+    else:
+        if resolved < 4:
+            winner = "none"
+        elif c_ok > n_ok:
+            winner = "crystal"
+        elif n_ok > c_ok:
+            winner = "naive"
+        else:
+            winner = "tie"
+        w.update({"naive_correct": n_ok, "crystal_correct": c_ok, "disagreements": dis,
+                  "crystal_won_disagreements": c_won, "naive_won_disagreements": n_won, "winner": winner})
+    w["systematic_error"] = judge_obj["systematic_error"]
+    w["correction_hint"] = judge_obj["correction_hint"]
+    return w
 
 
 def _selftest():

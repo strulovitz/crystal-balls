@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "President José Antonio Kast completed a UN visit in New York where he met Secretary-General António Guterres, Venezuela's interim president Delcy Rodríguez, and announced Chile's entry into the Shield of the Americas. BHP's Escondida copper mine, the world's largest, halted operations after a worker died, began a gradual restart, and its union rejected BHP's proposal to pause contract negotiations. Foreign investors held Chilean debt at record levels and the government prepared its first Swiss franc bond sale. Gasoline prices spiked sharply, squeezing household budgets, while the Chamber of Deputies rejected the executive's immigration constitutional reform and the Vice President pledged to press the Senate. The Senate reinforced defense in the Strait of Magellan after a sovereignty dispute with Argentina. Michelle Bachelet withdrew from the race to lead the United Nations. The Atacama Desert bloomed after El Niño rains, a weather front damaged the historic Puente Viejo bridge in Lautaro, and new data showed Chile had lost a large share of its surface water over fifteen years.",
@@ -111,6 +112,33 @@
         "probability": 0.55,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.78."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.6,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.78."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted Kast would convert his UN trip into a domestic security and migration offensive. Escondida labor friction would escalate around contract talks, and fuel prices would keep squeezing households while markets stayed positive on fiscal credibility.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Bachelet publishes a media interview or public statement explaining her UN withdrawal and hinting at a domestic political role?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The Escondida union declares a one-to-three-day work stoppage at the mine?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The Senate schedules and holds a committee vote on a new immigration or administrative-expulsion bill?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Kast holds a press conference in Santiago and names the Shield of the Americas as a new axis of Chilean security policy?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.78",
+        "legacy_probability": 0.78
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Argentina's foreign ministry issues a formal diplomatic note responding to Chile's Strait of Magellan defense measures?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

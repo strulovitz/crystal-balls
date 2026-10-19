@@ -1,19 +1,20 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-17",
   "previous_round": "2026-10-14",
   "is_legacy": false,
   "code": "US",
   "name": "United States",
   "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T00:11:35+03:00",
+  "generated_at": "2026-10-19T10:44:25+03:00",
   "status": {
     "position": "done",
     "velocity": "done",
     "wind": "pending",
-    "naive_forecast": "done",
+    "naive_forecast": "pending",
     "crystal_forecast": "pending",
-    "display": "pending"
+    "display": "pending",
+    "questions": "pending"
   },
   "position": {
     "summary": "This week was dominated by a sharp deterioration in US-Ukraine relations after President Trump waived new Russia sanctions under the Graham Act, citing national interest, just days after signing them into law. Zelenskyy called the move wrong and accused the US of helping Russia, while Moscow hailed it as historic. Congress expressed outrage but had no quick legislative counter. The timing ahead of midterms intensified partisan fights, with Democrats using the Iran war and the sanctions waiver as campaign themes. Inside the White House, press secretary Katie Zacharia was fired after just five days amid criticism over her legal credentials, adding to a pattern of turmoil. Trump also threatened California officials with imprisonment over mail-ballot rules and rallied in Georgia and Pennsylvania as Republican midterm prospects dimmed. No Kings rallies drew voters nationwide to cast early ballots. The US budget deficit ballooned to nearly two trillion dollars, the largest in five years, while interest costs hit a record one trillion. Markets were battered by a tech-sector sell-off and credit fears, with bank stocks posting their worst weekly losing streak since 2008. A school shooting in Oregon left four dead, and US-Iran tensions over the Strait of Hormuz escalated with both sides claiming control of the waterway.",
@@ -116,195 +117,9 @@
       "Nuclear plant revival to power AI data centers"
     ]
   },
-  "wind": {
-    "previous_round": "2026-10-14",
-    "naive": {
-      "statements": [
-        {
-          "id": "N1",
-          "text": "The White House announces a narrow U.S.-Iran trust-building framework that includes reopening one or two Strait of Hormuz shipping lanes and partial sector-specific sanctions relief.",
-          "probability": 0.52,
-          "domain": "diplomacy",
-          "outcome": 0,
-          "evidence": "Headlines show US and Iran both claiming control of the Strait of Hormuz amid attacks and Trump threatening to strike Pickaxe Mountain, indicating escalation rather than a trust-building framework."
-        },
-        {
-          "id": "N2",
-          "text": "Trump signs an executive order establishing a temporary U.S. diesel export quota and calls on European allies to release strategic fuel reserves within ten days.",
-          "probability": 0.62,
-          "domain": "economy",
-          "outcome": 0,
-          "evidence": "No headline reports an executive order on diesel export quotas or a call for European allies to release fuel reserves; the US instead solicited imports from its strategic reserve."
-        },
-        {
-          "id": "N3",
-          "text": "The 10-year U.S. Treasury yield closes the trading week above 5.0 percent.",
-          "probability": 0.7,
-          "domain": "economy",
-          "outcome": 0,
-          "evidence": "No headline in the evidence set specifies the 10-year Treasury yield closing above 5.0 percent, despite record interest costs and a nearly two-trillion-dollar deficit."
-        },
-        {
-          "id": "N4",
-          "text": "The U.S. Trade Representative publishes the specific product lists for the first tranche of tariff cuts agreed at the Trump-Xi summit.",
-          "probability": 0.45,
-          "domain": "diplomacy",
-          "outcome": 0,
-          "evidence": "No headline mentions the USTR publishing product lists for tariff cuts from a Trump-Xi summit; trade coverage focuses on US-Mexico talks and US-China bilateral meetings in Bangkok."
-        },
-        {
-          "id": "N5",
-          "text": "Trump holds a press conference or social-media address declaring the U.S. withdrawal from Iraq complete and framing it as a decisive military victory.",
-          "probability": 0.65,
-          "domain": "politics",
-          "outcome": 0,
-          "evidence": "No headline in the evidence set mentions Iraq, a withdrawal declaration, or a related press conference or social-media address by Trump."
-        }
-      ],
-      "resolved": 5,
-      "unresolved": 0,
-      "brier": 0.354
-    },
-    "crystal": {
-      "statements": [
-        {
-          "id": "C1",
-          "text": "U.S. forces conduct limited airstrikes on Iranian coastal-defense or missile sites or on Houthi-linked targets, and the Pentagon confirms the strikes within forty-eight hours.",
-          "probability": 0.38,
-          "domain": "security",
-          "outcome": 0,
-          "evidence": "Trump said the US 'may need to strike' Iran's Pickaxe Mountain and both sides claimed Hormuz control amid vessel attacks, but no headline confirms the Pentagon verified actual airstrikes within forty-eight hours."
-        },
-        {
-          "id": "C2",
-          "text": "The 10-year U.S. Treasury yield breaches 5.25 percent at any point during the trading week.",
-          "probability": 0.44,
-          "domain": "economy",
-          "outcome": 0,
-          "evidence": "No headline in the evidence set reports the 10-year Treasury yield breaching 5.25 percent at any point during the trading week."
-        },
-        {
-          "id": "C3",
-          "text": "Iran or a designated proxy claims responsibility for an attack on a U.S. naval vessel, a commercial ship in the Gulf, or a U.S. airbase.",
-          "probability": 0.18,
-          "domain": "security",
-          "outcome": 0,
-          "evidence": "Al Jazeera reports US and Iran both claim control of the Strait of Hormuz amid attacks on vessels, but no headline specifically states Iran or a proxy claimed responsibility for an attack on a US naval vessel, commercial ship, or airbase."
-        },
-        {
-          "id": "C4",
-          "text": "A federal agency or the White House issues a formal document rebranding U.S. artificial-intelligence programs as superintelligence and rejects a proposed AI safety regulation.",
-          "probability": 0.62,
-          "domain": "technology",
-          "outcome": 0,
-          "evidence": "AI headlines reference GDP boost potential, nuclear plant revival for data centers, and Citi restricting AI agents, but none mention a formal rebranding to superintelligence or a rejected safety regulation."
-        },
-        {
-          "id": "C5",
-          "text": "The U.S. Senate votes on a war-powers resolution regarding the Iran conflict, and the measure is tabled or fails to pass.",
-          "probability": 0.42,
-          "domain": "politics",
-          "outcome": 0,
-          "evidence": "Reuters notes Iran war votes in Congress became a focal point for campaign ad attacks, but no headline reports the Senate voting on a war-powers resolution that was tabled or failed."
-        }
-      ],
-      "resolved": 5,
-      "unresolved": 0,
-      "brier": 0.186
-    },
-    "winner": "crystal",
-    "systematic_error": "Both forecasts over-weighted the US-Iran corridor and specific, clean policy deliverables (frameworks, executive orders, Senate votes, rebranding documents) while under-weighting the week's dominant story: the Trump-Zelenskyy rupture over the Graham Act sanctions waiver and the resulting congressional fury. Both also assumed a tidy White House producing formal outputs, when the evidence shows chaos (Zacharia fired in five days, threats against California officials, rallies) and a budget-deficit shock. Neither forecast mentioned Ukraine, the White House personnel shakeup, or the record deficit, all of which were the most-covered items.",
-    "correction_hint": "Anchor the next US forecast to the two stories with the most cross-source coverage in the evidence (the Russia sanctions waiver and the White House press-secretary turmoil) before adding Iran or markets as secondary threads. Also lower the base rate for 'clean single-policy announcements' and raise the base rate for reactive, multi-actor political drama (outrage, counter-threats, personnel changes) during midterm weeks."
-  },
-  "naive_forecast": {
-    "summary": "The coming week in the United States will be defined by an intensifying midterm push and a White House in visible disarray. 'No Kings' rallies on Saturday will feed directly into early-voting turnout drives, while campaign ads hammer the administration over the Iran war and the Russia sanctions waiver. The White House will name a replacement for Katie Zacharia, whose five-day tenure ended in a public embarrassment. In Bangkok, the G20 summit will force Trump and Putin into the same room, with the just-waived Graham Act sanctions dominating bilateral talks. On the economic front, the Treasury will finalize its 17-million-barrel Strategic Petroleum Reserve oil exchange, and record interest costs will keep pressure on the budget. The Strait of Hormuz standoff with Iran will create a genuine flashpoint risk, and the California mail-ballot prosecution threat will move closer to a court test. Overall, the week will read as an administration trying to hold together a foreign-policy narrative while domestic politics tightens around its midterms.",
-    "statements": [
-      {
-        "id": "N1",
-        "text": "The White House names a new press secretary who holds a first public briefing before the end of the week.",
-        "probability": 0.85,
-        "domain": "politics"
-      },
-      {
-        "id": "N2",
-        "text": "Trump and Putin sit down for a bilateral meeting at the G20 summit in Bangkok.",
-        "probability": 0.55,
-        "domain": "diplomacy"
-      },
-      {
-        "id": "N3",
-        "text": "The US Treasury announces the final allocation of the 17 million barrel Strategic Petroleum Reserve oil exchange with partner countries.",
-        "probability": 0.7,
-        "domain": "economy"
-      },
-      {
-        "id": "N4",
-        "text": "The US military conducts a limited airstrike on Iran's Pickaxe Mountain enrichment facility.",
-        "probability": 0.4,
-        "domain": "security"
-      },
-      {
-        "id": "N5",
-        "text": "The US Senate votes to pass a nonbinding resolution demanding the White House justify its waiver of Russia sanctions under the Graham Act.",
-        "probability": 0.6,
-        "domain": "politics"
-      }
-    ],
-    "horizon_start": "2026-10-17",
-    "horizon_end": "2026-10-24"
-  },
-  "crystal_forecast": {
-    "summary": "The coming week will be dominated by the fallout from Trump's Graham Act sanctions waiver. Zelenskyy will seek a face-to-face meeting with US officials at the G20 in Bangkok, and Congressional leaders will push for hearings or formal resolutions condemning the waiver. The White House will name a replacement press secretary for Katie Zacharia, and that person's first briefing will test the room under cameras. The midterm campaign will sharpen around the Russia-Ukraine split, the Iran war, and the California mail-ballot showdown, with No Kings rallies drawing crowds and Trump threatening state officials with prosecution. The Federal Reserve will hold rates steady while the $2 trillion deficit and record interest costs keep markets on edge. In the security lane, the Hormuz standoff carries a real risk of a US strike on an Iranian target. The bank-sector selloff and credit fears will pressure equities again, and the Oregon school shooting will fuel a new wave of gun-safety rhetoric in both parties' campaigns.",
-    "reasoning": "The previous forecast over-weighted clean, single-policy deliverables (trust frameworks, Senate votes, Treasury yield thresholds, AI rebranding documents) and under-weighted the reactive, multi-actor political drama that actually dominated: the Zelenskyy-Trump rupture, the press-secretary firing, and the budget-deficit shock. The trend confirms the situation is broadening from a single foreign crisis into a multi-front domestic and diplomatic squeeze. I therefore anchor C1 and C2 to the two most-covered stories (the sanctions waiver and White House personnel churn) before adding Iran and the Fed as secondary threads. The Iran strike (C4) and the FBI court ruling (C5) are lower-probability but checkable events that a naive reading would over-weight or miss entirely. I lower the base rate for tidy single-policy announcements and raise it for outrage, counter-threats, and personnel changes, which is the hallmark of midterm weeks.",
-    "confidence": 6,
-    "statements": [
-      {
-        "id": "C1",
-        "text": "Zelenskyy holds a face-to-face meeting or joint press appearance with a senior US government official during the G20 summit in Bangkok, publicly addressing the Graham Act sanctions waiver and demanding its reversal or a negotiated alternative.",
-        "probability": 0.65,
-        "domain": "diplomacy"
-      },
-      {
-        "id": "C2",
-        "text": "Trump formally designates a new White House press secretary, and that successor delivers a first full press briefing in the East Room within the week.",
-        "probability": 0.72,
-        "domain": "politics"
-      },
-      {
-        "id": "C3",
-        "text": "The Federal Reserve holds the federal funds rate unchanged at its October FOMC meeting, and the statement or press conference explicitly cites the fiscal deficit or rising interest costs as a consideration in the decision.",
-        "probability": 0.55,
-        "domain": "economy"
-      },
-      {
-        "id": "C4",
-        "text": "The US Department of Defense or a senior military official confirms a US strike on an Iranian target such as the Pickaxe Mountain facility or a coastal-defense site, and Iran publicly declares a retaliatory action or formal diplomatic protest within 48 hours.",
-        "probability": 0.35,
-        "domain": "security"
-      },
-      {
-        "id": "C5",
-        "text": "A federal court issues a preliminary ruling in the lawsuit filed by FBI agents fired over the Trump classified-files probe, ordering at least some of the fired agents reinstated to their positions or granting a preliminary injunction.",
-        "probability": 0.22,
-        "domain": "politics"
-      }
-    ],
-    "horizon_start": "2026-10-17",
-    "horizon_end": "2026-10-24"
-  },
-  "display": {
-    "headline": "Sanctions War, Press Room Shake-Up, and Iran Strike Loom",
-    "emojis": [
-      "🎭",
-      "🌐",
-      "🚢"
-    ],
-    "emoji_reasons": [
-      "The White House is in open political drama with a fresh press-secretary turnover and midterm-battle chaos playing out weekly.",
-      "The G20 summit in Bangkok is where Zelenskyy will likely force a public confrontation with US officials over the sanctions waiver.",
-      "The Strait of Hormuz standoff between the US and Iran is the live military flashpoint that could turn into a strike this week."
-    ],
-    "tldr": "Zelenskyy will likely confront US officials at the G20 in Bangkok over the sanctions waiver, a new White House press secretary will debut under cameras, and Hormuz tensions could spark a US strike on Iran.",
-    "eli5": "Imagine the White House as a stage where the lead actor just fired the stagehand after five days, and now everyone is scrambling to find a new one. That is literally what is happening: press secretary Katie Zacharia was let go this week, and Trump will name her replacement before the weekend is out. There is more than a three-in-four chance the new person walks into the East Room and faces a roomful of cameras and tough questions within seven days.\n\nMeanwhile, in Bangkok, the world leaders get together for the G20 summit. Ukraine's president Zelenskyy is expected to use that stage to tell the US, in front of every camera, that waiving the Russia sanctions was a bad call. There is about a two-in-three chance he gets a face-to-face meeting or joint appearance with a senior American official and publicly demands the waiver be reversed. Back home, Congress is already drafting resolutions and scheduling hearings, and the midterm campaign is picking up speed with No Kings rallies and Trump threatening California officials with lawsuits.\n\nOn the money side, the Federal Reserve meets this week and will almost certainly hold interest rates steady, but the $2 trillion deficit and record-high interest costs are making everyone nervous. Bank stocks already had their worst weekly losing streak since 2008, and if credit worries keep building, the stock market could take another hit. The Oregon school shooting where four people died, including three children, is also feeding the gun-safety fight that both parties will try to use in their ads.\n\nThe biggest wildcard is Iran. Both the US and Iran are claiming control of the Strait of Hormuz, ships have been attacked, and Trump has hinted at striking Iran's Pickaxe Mountain facility. There is about a one-in-three chance the Pentagon confirms a US strike on an Iranian target this week, with Tehran declaring a retaliatory action within two days. If that does not happen, the other big surprise would be a federal court ordering the fired FBI agents back to their jobs, which has only a rough one-in-five chance of materializing. A quiet week in Washington would be genuinely unusual right now."
-  }
+  "wind": null,
+  "naive_forecast": null,
+  "crystal_forecast": null,
+  "display": null,
+  "questions": null
 }

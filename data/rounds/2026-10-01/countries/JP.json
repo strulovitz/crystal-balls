@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text depicted Japan under simultaneous multi-front pressure as of late September 2026. Typhoon Dujuan was bearing down on the Kanto and Chubu regions, with evacuation orders expected around Tokyo and major disruptions to Shinkansen lines, flights, and coastal infrastructure anticipated. The Aichi-Nagoya Asian Games had already opened under a visible cloud of accommodation complaints, the so-called functional rooms controversy, a wrong-anthem incident before a match, transport failures, and cost-cutting backlash from both domestic and foreign delegations. PM Takaichi had just completed a cabinet reshuffle aimed at stabilizing sagging approval ratings, while the BOJ had hiked to 1.25 percent, a 31-year high, yet the yen weakened instead of strengthening. North Korea had launched two ballistic missiles into the Sea of Japan within hours of each other. Russia had formally protested the US Typhoon missile deployment on Japanese soil. Starbucks was reportedly weighing a roughly three-billion-dollar majority-stake sale of its Japan business. The trade deficit had extended to a fourth consecutive month as oil import costs soared. The government had announced a consumption tax cut outline without specifying funding, and defense spending was being discussed toward a 3.5 percent of GDP target under US pressure. Japan had also crossed the 100,000-centenarian milestone, adding structural demographic weight to policy debates.",
@@ -111,6 +112,33 @@
         "probability": 0.45,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.32."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.22,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.32."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.22."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "Japan faces a layered week: Typhoon Dujuan disrupts transport and stress-tests disaster response, the Aichi-Nagoya Asian Games generates persistent PR friction, and the yen stays volatile after the BOJ's 31-year-high hike. Takaichi's cabinet holds steady while fiscal funding gaps and North Korean missile alerts keep pressure on every front.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that North Korea conducts a third ballistic missile launch into the Sea of Japan during the forecast week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A BOJ Governor or Deputy Governor publicly states in a prepared speech that imported inflation risks warrant a rate decision sooner than the current calendar implies?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.28",
+        "legacy_probability": 0.28
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Japan's MOF executes a limited FX operation or verbally confirms intervention as the USD/JPY rate crosses a stated threshold?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Typhoon Dujuan produces at least one confirmed fatality in the Kanto or Chubu region, triggering a Cabinet Office emergency briefing?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.32",
+        "legacy_probability": 0.32
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Japan's Defense Ministry announces a firm target date for reaching 3.5 percent of GDP in annual defense spending?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.22",
+        "legacy_probability": 0.22
+      }
+    ]
+  },
+  "single_forecaster": true
 }

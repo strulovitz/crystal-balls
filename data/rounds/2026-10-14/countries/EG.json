@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Houthi missiles struck the Riyadh airport, killing an Egyptian flight attendant, and Egypt pledged to offer any kind of support to Saudi Arabia. Approximately 72 artisanal gold miners died in an airstrike near the disputed Egypt-Sudan border, and both foreign ministries were expected to consult on whose aircraft fired. Baha'i families in Egypt faced a critical shortage of burial space, and the press union chief publicly rejected pressure over detained journalists while torture allegations surfaced in the Matsadaash case. The government prepared a 30 percent state-stake sale of Banque du Caire through the Egyptian stock exchange as a privatization signal, while inflation had slowed despite global price pressures. Restored Fayoum mummy portraits were unveiled and set to travel abroad for the first time. A US judge ordered the Trump administration to facilitate the return of an Egyptian man deported to Equatorial Guinea. The US-brokered Gaza ceasefire had stalled a year after signing, and Egypt upgraded its strategic partnership with South Korea. The Zamalek-Al Ahly derby fed social-media debate, and FAA warnings over Saudi airspace opened a small transit opportunity for Cairo.",
@@ -105,6 +106,33 @@
         "probability": 0.4,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.85."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.75,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.85."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.75."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "Egypt will publicly back Saudi Arabia, navigate a painful border gold mine death toll with Sudan, launch the Banque du Caire IPO, manage Baha'i burial and detained-journalist protests, and keep Gaza mediation alive without a breakthrough.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Egypt's foreign ministry issues a formal statement backing Saudi Arabia and pledging Red Sea shipping support within the week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.85",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Egyptian and Sudanese delegations convene a joint border investigation committee on the gold mine airstrike rather than limiting contact to a phone call?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The Egyptian pound devalues by more than three percent against the US dollar on import-payment pressure?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A group of mining families protests near Aswan or Red Sea State over unidentified gold mine deaths and slow compensation?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The Egyptian stock exchange opens the Banque du Caire IPO subscription period to retail investors?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.75",
+        "legacy_probability": 0.75
+      }
+    ]
+  },
+  "single_forecaster": true
 }

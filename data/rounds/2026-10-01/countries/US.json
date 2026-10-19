@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text describes the United States in a state of multiple simultaneous crises as of mid-September 2026. The Federal Reserve faced pressure from sustained inflation and Treasury yields at or above five percent, forcing a hawkish stance. The Iran conflict had settled into a grinding managed war, with periodic U.S. strikes on Iranian coastal targets, tankers, and missile sites, and Iranian drone or missile retaliation against U.S. bases and Gulf allies. Oil traded in the ninety-five to one-hundred-ten dollar range, pushing gasoline and diesel prices higher at the pump. A Pentagon watchdog report revealed munitions shortfalls and base damage, forcing congressional attention and possible war-powers votes. The AI sector was gripped by existential-risk warnings from researchers and tech leaders, while China dismissed the concern as fear-mongering. Reports suggested Iran had used an American AI model to target U.S. ships. The Canada trade war escalated with import bans on dairy, alcohol, and motorcycles set to take effect around September twenty-ninth. The United States confirmed it had deployed weapons in space. Russian deepfake campaigns targeted U.S. politics ahead of the midterms. A Trump-Xi summit was planned for later in the month. The overall mood was one of stress, managed escalation, and political noise.",
@@ -105,6 +106,33 @@
         "probability": 0.2,
         "domain": "diplomacy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.6,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.65."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.45."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "The U.S. enters a week of managed Iran escalation, hawkish Fed pressure, a growing AI political fight, and an escalating Canada trade dispute, all framed by Trump as midterm theater. No ceasefire, no Trump-Xi summit, and no major AI law — just managed stress and political noise.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The 10-year U.S. Treasury yield spikes above 5.25 percent intraday on the Fed-decision day before closing below 5.00 percent by Friday?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.65",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that U.S. and Iranian officials jointly announce a temporary Strait of Hormuz convoy schedule or protected sailing-window arrangement in a public statement or press briefing?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The U.S. and Canada announce a trade agreement, extension, or tariff waiver that modifies or delays the dairy, alcohol, or motorcycle import bans before they take effect?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that China and Russia file a formal written diplomatic protest or joint statement specifically addressing the U.S. deployment of weapons in space?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.45",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The U.S. Treasury Department announces a sanctions adjustment, licensing change, or trade arrangement involving Venezuelan crude oil?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

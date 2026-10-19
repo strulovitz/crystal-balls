@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Meloni's government became the longest-serving postwar Italian government, but stability came under simultaneous pressure. ISTAT confirmed a 3.1% budget deficit for 2025, complicating Meloni's public claim that Italy would return below the 3% EU threshold in 2026. A new school decree capping classrooms at 30% students with insufficient Italian-language skills and banning full face coverings became the dominant domestic culture-war flashpoint. Salvini called an extraordinary League congress amid internal factional pressure, while Roberto Vannacci's breakaway far-right party faced its first serious parliamentary test. Bank consolidation rumors involving UniCredit, Credit Agricole, Intesa Sanpaolo, and Banco BPM circulated widely. Intesa's Fideuram unit confirmed a roughly 95-million-euro loss to an AI impersonation fraud. Eni announced pump-price cuts and the government convened refiners ahead of winter. The Senate gave final approval to nuclear power after decades without new reactors. Italy lost 0-2 to Belgium in Mancini's second match as national coach, with boos at a half-empty Stadio Olimpico. The Colosseum closed after a worker fell to his death during maintenance. Naples police seized 3.2 million euros hidden inside residential walls and furniture. A critical-minerals memorandum was signed between Rubio and Tajani.",
@@ -116,6 +117,33 @@
         "probability": 0.75,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -155,6 +183,33 @@
         "probability": 0.55,
         "domain": "technology"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.15."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -171,5 +226,52 @@
     ],
     "tldr": "Meloni's government survives the week under triple pressure from a culture-war school decree, a 3.1% deficit testing her 2026 fiscal credibility, and right-wing rivals Salvini and Vannacci. Bank consolidation rumors, a nuclear implementation debate, and Mancini's fragile football position complete a busy but non-crisis week.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Vannacci's party achieves a vote share above 3 percent in its first parliamentary test, and at least one League MP publicly calls for a floor vote on the school decree within 72 hours?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The EU Commission publicly demands Italy submit revised 2026 deficit-cutting commitments before the autumn stability-program deadline, and Italy's 10-year BTP yield spikes by more than 10 basis points within two trading sessions?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that A formal joint bid or merger approach involving Banco BPM and at least one of UniCredit, Intesa Sanpaolo, or Credit Agricole is announced by a company press release during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The Colosseum reopening is delayed beyond the week by a structural safety finding, and Rome's mayor announces a partial closure of the upper tier to visitors?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.15",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Intesa Sanpaolo names a specific senior executive as accountable for the Fideuram AI fraud in an official disclosure, and the confirmed loss exceeds 95 million euros?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }

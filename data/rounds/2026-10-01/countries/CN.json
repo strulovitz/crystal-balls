@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "The text described China in a state of controlled urgency ahead of the Trump-Xi summit. Beijing was managing three simultaneous pressures: demonstrating strength in the AI and technology race against the United States, preventing tech talent and capital from leaving through newly implemented exit rules, and forcing economic stimulus forward before admitting the property and consumption problems were still deep. The Qingdao cargo fire, which killed twenty-five workers, had triggered safety concerns and growing online discussion. Iran's foreign minister Araghchi was visiting or had just visited Beijing for ceasefire negotiations, oil purchases, and BRICS coordination. US-China trade talks between Treasury Secretary Bessent and He Lifeng were progressing on agriculture, energy, and tariff truce extension. A detained US scholar, Min Zin, served as a quiet bargaining chip in bilateral channels. The Tiananmen vigil convictions and a WSJ publisher case were generating discussion in Hong Kong and diaspora communities. The annual defence forum was producing signaling language on anti-coercion and space-cyber governance. India follow-through after Xi's visit was in its implementation phase. The overall picture was one of managed perception and targeted border controls rather than structural resolution of domestic demand weakness.",
@@ -111,6 +112,33 @@
         "probability": 0.8,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.44."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.58,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.28."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.44."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted a week of managed perception: a small rate or property stimulus signal, the first wave of exit-ban enforcement hitting named tech workers, and escalating AI rhetoric against the United States. Beijing would show official confidence while quietly tightening capital controls and building diplomatic position before the summit.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that The State Council executive meeting announces a fiscal stimulus package exceeding 500 billion yuan explicitly targeted at household consumption and property market stabilization?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that At least one visible commemoration or small protest linked to the Tiananmen vigil convictions is observed in Hong Kong or a mainland Chinese city during the week?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.28",
+        "legacy_probability": 0.28
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Chinese authorities release the detained US scholar Min Zin or formally signal flexibility on her case during US-China bilateral channel consultations?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.44",
+        "legacy_probability": 0.44
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that Chinese banks implement new documentation requirements for overseas education and investment accounts, producing measurable selling pressure in offshore Chinese-yuan trading volumes?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.62",
+        "legacy_probability": 0.62
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that The annual defence forum produces a joint statement referencing anti-coercion and space-cyber governance that is picked up by at least three regional media outlets within 48 hours?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.58",
+        "legacy_probability": 0.58
+      }
+    ]
+  },
+  "single_forecaster": true
 }

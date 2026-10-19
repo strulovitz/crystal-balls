@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Russia was in a state of controlled escalation across multiple fronts. Missile and drone strikes on Ukraine's power grids, data centers, Dnipro River bridges, and communications facilities intensified as freezing weather approached. Putin issued nuclear warnings tied to Kaliningrad, prompting NATO condemnation and a Danish ambassadorial protest over a helicopter incident near the Baltic. Latvia's October 3 national election loomed as the nearest concrete political event, with the Kremlin expected to frame the result as either Baltic hardening or European instability. Russia extended its diesel export ban through October while crude exports stayed strong, giving Moscow leverage over tight global diesel markets. The 2027 federal budget placed defense spending near $202 billion while cutting welfare, education, and healthcare; Putin ordered 15,000 additional military personnel. Lavrov declared the war would run \"through to the end,\" yet Germany and Russia held their first top-level talks since the invasion began. Turkey and the UN pushed Black Sea grain-corridor discussions. Ukraine prepared a new sanctions list under the Graham law. Russia expelled Hungarian diplomats in a tit-for-tat move. Zelenskyy warned of roughly 10,000 North Korean troops heading to Russia and reported Trump's \"final decision\" on Patriot missile production for Ukraine. Hybrid incidents—drone violations, arson, sabotage—multiplied across the Baltics. Russia told domestic businesses to build anti-drone defenses as Ukrainian long-range strikes grew more frequent inside Russian territory.",
@@ -98,6 +99,33 @@
         "probability": 0.65,
         "domain": "society"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "crystal_forecast": {
@@ -137,6 +165,33 @@
         "probability": 0.6,
         "domain": "security"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.3."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.25."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      }
     ]
   },
   "display": {
@@ -153,5 +208,52 @@
     ],
     "tldr": "Russia will keep bombing Ukraine's winter energy and digital infrastructure, use Kaliningrad to pressure NATO without firing first, react to Latvia's election as Baltic hardening, push its diesel-export leverage and $202 billion war budget domestically, and keep diplomatic backchannels alive while refusing any real ceasefire.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Turkey and the UN issue a joint technical statement on restarting at least one Black Sea or Azov grain terminal or a monitored maritime corridor by October 21?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that A drone overflight, helicopter encounter, or ship maneuvering dispute near Kaliningrad or the Suwalki Gap triggers at least two NATO consultations or a formal NATO statement within 72 hours of the event?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.3",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that Russia, North Korea, or NATO intelligence publicly confirms or reveals the deployment or transit of at least 5,000 North Korean military personnel into or through Russian territory between October 14 and 21?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.25",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The ruble loses more than 5 percent of its value against the US dollar during the October 14–21 period, and the Central Bank of Russia announces an intervention or new capital-control measure in response?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that At least one Ukrainian region outside Kyiv reports a power blackout lasting more than 48 consecutive hours, confirmed by a Ukrainian energy-ministry statement or a regional governor's public briefing?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      }
+    ]
+  },
+  "single_forecaster": true
 }

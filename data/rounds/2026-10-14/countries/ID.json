@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "According to the text, Indonesia in early-to-mid October 2026 was simultaneously managing fiscal tightening, a weak rupiah and stock market, and worsening El Niño-related wildfires. A new finance minister had just ordered travel budget cuts and spending freezes across ministries. The JCI stock index had fallen roughly 30 percent over the year, foreign outflows were pressing on both equities and bonds, and Bank Indonesia was actively defending the currency. El Niño drought had triggered severe peatland fires in Kalimantan and Sumatra, transboundary haze had closed schools in Malaysia and affected Singapore, and rural Borneo villages had gone months without rain, creating a water crisis. The Constitutional Court had ruled on Vice President Gibran Rakabuming Raka's education credentials, former president Jokowi's diploma was still generating legal controversy, and AI-generated images had intensified public debate. The government had named an advisory council of billionaires, politicians, and Islamic leaders. Parliament had passed higher severance benefits into labor law. Bank Indonesia and the government were pushing green industrial investment in batteries, solar, aluminium, and nickel while attempting to project fiscal discipline and market confidence.",
@@ -111,6 +112,33 @@
         "probability": 0.45,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      }
     ]
   },
   "crystal_forecast": {
@@ -150,6 +178,33 @@
         "probability": 0.18,
         "domain": "environment"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.72."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.62."
+      },
+      {
+        "id": "Q4",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      },
+      {
+        "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      }
     ]
   },
   "display": {
@@ -166,5 +221,52 @@
     ],
     "tldr": "The text predicted a week of controlled stress: worsening haze in Borneo, expanded fiscal cuts, nervous markets, and a government projecting discipline while smoke fills the air. No sudden crisis, but visible strain across budget, climate, and confidence.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that Active fire hotspots in Kalimantan increase for a second consecutive week, but the BNPB simultaneously reports at least one district where fire conditions improved due to rainfall?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.72",
+        "legacy_probability": 0.72
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that The presidential advisory council of billionaires, politicians, and Islamic leaders holds a first substantive meeting and publishes a joint statement on economic priorities?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.48",
+        "legacy_probability": 0.48
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The Indonesian finance ministry announces both a new spending cut and a new green industrial project approval in the same weekly briefing?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.62",
+        "legacy_probability": 0.62
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A new court filing, evidentiary submission, or fact-check report related to the Jokowi diploma controversy is published or announced within the week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Indonesia's BMKG volcanic agency issues a new seismic activity bulletin or minor eruption alert for Anak Krakatau?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.18",
+        "legacy_probability": 0.18
+      }
+    ]
+  },
+  "single_forecaster": true
 }

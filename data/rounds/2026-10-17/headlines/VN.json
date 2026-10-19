@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-17",
+  "code": "VN",
+  "name": "Vietnam",
+  "window_start": "2026-10-14",
+  "window_end": "2026-10-17",
+  "fetched_at": "2026-10-19T13:36:36+03:00",
+  "total_items": 10,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 1,
+      "filtered_out": 73,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "European countries, Vietnam to sign free trade deal on Sunday, officials say",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMzhxSTM1WUV4Z3RwYVE1cGRkNjBrQWx2bklDWTFOdlQwZ1lsWmxLSFYyWFQ3WDBkVU1DYkdpRnJicjJhYVl4eFRueDZncXFpMldZNGV0RzZLLVFkMXBNdE1lajVVTjV5U3EtTGJ4YlBqdFVYZ1Vab3BFR2dZRm9qVVJIbUNLWlpBMUFCUEFSNEhHRXdQWmxCdWZYWVZQZWhQdUV5MzVfTTJyNnJLU2Y2Z090RVJ6S3BFTk02MzV0akg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 2,
+      "filtered_out": 7,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Vietnam buries remains of 731 war dead nearly 6 decades after the Tet Offensive",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWZGY3BENl9hRC1URVpOQ1lMQ0Y5WVdZUFVSMzNWMVRyLUlRUzB2RnZSOE1sT21QYm9raDdJXzVRRTg5YmFmcWFNQ3BPSG1xLVhDcEIxUWVMYnFJcDNrVGh4U3dTazQyd2RJRU1BRTZaZWwxNnhBVU50TTRmNFQ2RDFVTlBwR1JZUWg3c3lkTUs1SjJhMXc1VXZjQWJpbDNVampF?oc=5"
+        },
+        {
+          "title": "Vietnam buries remains of 731 people killed in the 1968 Tet Offensive, in photos",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTk9EemIxQlN3d2ZfMVNPZVlPRUV2dWozVU1FZmZpcG0ySml1MWxvczVsWU1JWlJjUTE3Sk5XNUo4UXBBaXVQZjJROGwxUGVRSEFGU2FQdHBpZE10U2xpSldFUDZVM0I5RDlEU0ZOMXVfa3JnSFplbFNQMUMwTlZOTEdVT01LU2ZiS3E1SE5RYm02X3RlX2xIdjNUMkdNMkRrT3FpY3lxZ2lsZFhhTmU1NlVCbUJoUklUeEZzQ3BrUFpoWkc4UThTb3dUQ2Q?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 2,
+      "filtered_out": 30,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "'Under attack' from fragrance, Hanoi prunes its famous blossoms",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFBNUDVkOUFYRy1OR3FsTW44b2NHQ3NYZVo1M2NxS3RGQXJieEM1cjVsVVRwM2dKTmpNaEE?oc=5"
+        },
+        {
+          "title": "Vietnam mourns 700 war dead in major push to identify missing",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFdDMUtxZ3hVaG1IWmRzbEhiX1ZJQ2tVUHdfVFJUdE1BZmxfdzh4aTkzUG1Qb1E0VHo2bFN4U1NuSXVWbTBlcGZfSXdtX21adTdxQzlSRXRXRkdNb3ZqSDE0aFZSeTlnOXl3bDZRVzBCRmJmZlZRRWFVZm9iVUlMUTB6cUM?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "filtered_out": 10,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 2,
+      "filtered_out": 11,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "The Vietnam War: A Trauma That Lives On",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fMFBnbmJsS2otVm9wSXA1cTRtNlA0NUxlcmhOR0ViZFIyTGVBY1NGNTFvM29uRWh1djNHWFVUSjVWNXlrZHJJNGhBTzNQZjlRdE5GdzNlcFlFbG15YlFOdGJ1RWM4dzZYV0RrMnVidGI5NkR5cWszWnBLZ9IBe0FVX3lxTE1uakl1eF9ydktUdFBCUndUOW9DZVdDWjZHUGoyenJ1NWpMSDJCOVlIekI0TWFuWDNrTzBpcDI4dzU0ZHZ6eVNtS3g3M3ZjUjJEdDAwVmdWQV9KWTN0VUNrazRVRUlsRnlPNHlndGl4Y2Q2UFY5ZVRlcURwbw?oc=5"
+        },
+        {
+          "title": "Why Hanoi's Train Street became a global travel obsession",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNEZFZV9EY0hmWGE4a1N6Z2N5Y3dnWGlIdGhaVFhHLTdMa0x1LWpyQ2d5aXROcXR3bUlsTHBqbkp5Zm9sYTJjNDVJMTJjbTF0dGNPX1hxNUYzRFFJTXpIaVc4b2tGRlU5eDd0bDNlSk05VVlDVW1iN2FfTmY3OEpKbWJHNEVZVEw0cmExRXdFaXo?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 1,
+      "filtered_out": 50,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Le Vietnam exhume les corps de plus de 700 soldats pour identifier ses disparus de guerre",
+          "published": "2026-10-14",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUm5sbkNHZmJLNjdYaFptWFE4SGN6VDZVVVlhaWp1TFl4cUowU1FIWnVYaHVzNTZGVk9VMTV5SFgxVXo2VlR4bzV5a0xRNlgwZmdWN3M4TW9zNGpiQVBEZ2w4clF5WElYbDQ3eHVXMlhZc0ZxbmpIbFh6LTZ4MFBaUmZmeXZMTGJUX21CUGRxNndsUTczcVF4SlB5WEJFOFBXMGhsWVNUbHFJTy15aFlrcUI3dzBSa0JsYS12NHFTV21heUxZZWVXUFVqbkpDOWt6TUZVV3Z2clVLcThn?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 2,
+      "filtered_out": 95,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Vietnam Prime Minister Targets 2027 GDP Growth of at Least 10%",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWI3b2V1QTZ3X0Fqc3FJVkExMTZJQVRibGdJVHRNNmhJNDRNTFZJTzVvTU1wMTJYMkRIOFJhQmZaTkpQUGpnU1QyeVVYU1JVSGYyOUZXdEoxR0d5U1hEeU10ZEJldVY0MjhCV0JnYnRhTXFFbU1QMG5xQjR3YTJtQzZGaXJPTmE5U0FMWmQ1dUtkTVlhS2Z0U2V6S2hLc3dTSHBRXzdZZTZnQ3RuYUZ4WEJB?oc=5"
+        },
+        {
+          "title": "Vietnam Airlines Seeks 25 Airbus Jets to Revive Low Cost Carrier",
+          "published": "2026-10-16",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ25ISDRWTFZoUHh4aEI4REoxbWdmNFFaTmdzZURBVnB0bWlYTzByY0h2RloyYUVNYXBRWWJtbWZxb1RicmJRNEVaYzdJejZDM0lYd201WlZiVHc4Q0JJRXZhN0d3ZF9RNFFIdHJMb2IzMWhOamloUE9WbGo4d3NPbVJpZVJJSllPcW05d1NnTklrQ0tLQmpaQVR6dlJNTTlLb3RhYWpxQTQwZm1xMFZRd2NHRklKUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "filtered_out": 15,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "filtered_out": 0,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}

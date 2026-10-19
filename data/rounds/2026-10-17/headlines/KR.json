@@ -5,7 +5,7 @@
   "name": "South Korea",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:09:59+03:00",
+  "fetched_at": "2026-10-19T13:32:07+03:00",
   "total_items": 14,
   "sources": [
     {
@@ -13,6 +13,7 @@
       "name": "Reuters",
       "count": 5,
       "filtered_out": 94,
+      "out_of_window": 0,
       "items": [
         {
           "title": "South Korea reviews expanding military mission in Middle East, report says",
@@ -46,6 +47,7 @@
       "name": "Associated Press",
       "count": 2,
       "filtered_out": 32,
+      "out_of_window": 0,
       "items": [
         {
           "title": "US halts prosecution of former CIA analyst accused of aiding South Korean intelligence",
@@ -64,27 +66,31 @@
       "name": "AFP",
       "count": 0,
       "filtered_out": 12,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "bbc",
       "name": "BBC",
       "count": 0,
-      "filtered_out": 10,
+      "filtered_out": 11,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "cnn",
       "name": "CNN",
       "count": 0,
-      "filtered_out": 12,
+      "filtered_out": 13,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 2,
-      "filtered_out": 55,
+      "filtered_out": 49,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Ukraine, South Korea relations sour over North Korean POWs - DW.com",
@@ -103,6 +109,7 @@
       "name": "TV5Monde",
       "count": 0,
       "filtered_out": 10,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -110,6 +117,7 @@
       "name": "Bloomberg",
       "count": 3,
       "filtered_out": 97,
+      "out_of_window": 0,
       "items": [
         {
           "title": "South Korea Turns to Dirty Coal as Winter Gas Squeeze Looms",
@@ -132,21 +140,24 @@
       "id": "wsj",
       "name": "Wall Street Journal",
       "count": 0,
-      "filtered_out": 32,
+      "filtered_out": 31,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "ft",
       "name": "Financial Times",
       "count": 0,
-      "filtered_out": 54,
+      "filtered_out": 53,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "cnbc",
       "name": "CNBC",
       "count": 2,
-      "filtered_out": 14,
+      "filtered_out": 12,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
@@ -164,7 +175,8 @@
       "id": "aljazeera",
       "name": "Al Jazeera",
       "count": 0,
-      "filtered_out": 15,
+      "filtered_out": 13,
+      "out_of_window": 0,
       "items": []
     }
   ]

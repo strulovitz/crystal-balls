@@ -5,14 +5,15 @@
   "name": "DR Congo",
   "window_start": "2026-10-14",
   "window_end": "2026-10-17",
-  "fetched_at": "2026-10-19T10:06:16+03:00",
-  "total_items": 35,
+  "fetched_at": "2026-10-19T13:27:56+03:00",
+  "total_items": 34,
   "sources": [
     {
       "id": "reuters",
       "name": "Reuters",
       "count": 7,
       "filtered_out": 93,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Africa CDC says over $700 million in Ebola response funds unaccounted for in Congo",
@@ -56,6 +57,7 @@
       "name": "Associated Press",
       "count": 2,
       "filtered_out": 15,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Health authorities launch improved vaccination program in Beni amid Congo Ebola outbreak",
@@ -73,7 +75,8 @@
       "id": "afp",
       "name": "AFP",
       "count": 1,
-      "filtered_out": 4,
+      "filtered_out": 3,
+      "out_of_window": 0,
       "items": [
         {
           "title": "War and minerals: Erik Prince and paramilitaries in DR Congo",
@@ -87,6 +90,7 @@
       "name": "BBC",
       "count": 4,
       "filtered_out": 30,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Kinshasa yabujije abakozi bo mu biro vy'umukuru w'igihugu kuvugana na Ambassade y'Ububirigi",
@@ -115,13 +119,15 @@
       "name": "CNN",
       "count": 0,
       "filtered_out": 8,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "dw",
       "name": "Deutsche Welle",
       "count": 2,
-      "filtered_out": 20,
+      "filtered_out": 17,
+      "out_of_window": 0,
       "items": [
         {
           "title": "DRC Ebola outbreak 'growing exponentially,' UN says",
@@ -140,6 +146,7 @@
       "name": "TV5Monde",
       "count": 9,
       "filtered_out": 91,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Perquisition chez les Tshisekedi en Belgique: la présidence congolaise verrouille ses liens avec l'ambassade belge à Kinshasa",
@@ -192,7 +199,8 @@
       "id": "bloomberg",
       "name": "Bloomberg",
       "count": 6,
-      "filtered_out": 87,
+      "filtered_out": 94,
+      "out_of_window": 0,
       "items": [
         {
           "title": "Congo Arrests Hundreds of Chinese Miners in Copper Heartland",
@@ -231,6 +239,7 @@
       "name": "Wall Street Journal",
       "count": 0,
       "filtered_out": 4,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -238,6 +247,7 @@
       "name": "Financial Times",
       "count": 0,
       "filtered_out": 6,
+      "out_of_window": 0,
       "items": []
     },
     {
@@ -245,19 +255,16 @@
       "name": "CNBC",
       "count": 0,
       "filtered_out": 0,
+      "out_of_window": 0,
       "items": []
     },
     {
       "id": "aljazeera",
       "name": "Al Jazeera",
-      "count": 4,
-      "filtered_out": 44,
+      "count": 3,
+      "filtered_out": 41,
+      "out_of_window": 2,
       "items": [
-        {
-          "title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
-          "published": "2026-10-18",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY0UzTjAtMG1CbklqNFQ0ZXJYV1h4TGV4ZWFDM3lTZkNMbzVZdGEtM0ZfNnF2UTZObGhQdlJwbENWd3VRZEdxQnd4NEE3U0hyTGJuNEkyZUhnRlhyMlItQW5MSVkxZUxQM180UjlueXFTekQxcFR2bkpiajhISS1xdG9NMi0xZF9UT0tIeV9xT19BRm1PLVdjdWlwSklRWkc4cG52bGlVM0dsZjVyMnfSAbMBQVVfeXFMT2RrbG5vcHg4elUxeWRQd3dxaTNYVWtWUC1sam9Qa3RVb2t4Vk1xQTFnTUJvOTV6SFZnc1FTOUVwZWtWd1BIakRibTlKYVBHOEVBc09FNWN2bVhlVzRTUHJzM2o4em5vNWVkQ1Y3NzBXcTJiS0pwbV9hWXVrLU93akU1SURLX2ZRZC1vZ1YwaFlnQ3lLNXNZS1FTWm5fWjI4RGV4NjdrMGtpWHJHMXMtejNzSkU?oc=5"
-        },
         {
           "title": "DR Congo protests Formula 1’s ‘indefensible’ decision to race in Rwanda",
           "published": "2026-10-15",

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-01",
   "previous_round": null,
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "Saudi Arabia entered the week under sustained Houthi missile and drone pressure. Attacks struck or were intercepted over Riyadh, Jeddah, Yanbu, and Mecca-area airspace, killing one civilian from falling debris. The East-West oil pipeline suffered damage that disrupted a major Red Sea export corridor. Saudi air defenses showed strain, with reports of interceptor shortages prompting emergency requests to the US, Turkey, the UK, and other partners. A Saudi F-15 was reported possibly shot down over Yemen. Brent crude climbed into the $105 to $109 range and Saudi equities fell. Washington approved 48 F-35 jets worth $24.3 billion for Riyadh. MBS pushed a multi-track diplomatic scramble involving Turkey, the UK, Egypt, Pakistan, and Oman. The Houthis advanced on the Red Sea coast near Bab el-Mandeb. A TV5Monde headline asked whether the US had abandoned Saudi Arabia. Saudi Aramco was offering replacement crude via Oman and warning European refiners of possible October supply gaps.",
@@ -104,6 +105,33 @@
         "probability": 0.62,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.63."
+      }
     ]
   },
   "crystal_forecast": {
@@ -143,6 +171,33 @@
         "probability": 0.63,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.35."
+      },
+      {
+        "id": "Q2",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.48."
+      },
+      {
+        "id": "Q3",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.58."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.18."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.63."
+      }
     ]
   },
   "display": {
@@ -159,5 +214,52 @@
     ],
     "tldr": "The text predicted Saudi Arabia would absorb continued Houthi strikes and respond with near-daily airstrikes into Yemen, partially restore the damaged East-West pipeline within five days, and secure visible military support from at least one Western or regional ally while oil markets stayed volatile and the crisis remained serious but contained.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-01",
+    "horizon_end": "2026-10-08",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that A Houthi missile or drone strike directly hits a Saudi oil terminal, airport, or district within 20 kilometres of Mecca or Medina, killing at least one civilian?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.35",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Saudi Aramco announces the East-West oil pipeline is restored to at least 75 percent of its pre-damage throughput?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.48",
+        "legacy_probability": 0.48
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that The United States publicly approves a specific shipment of Patriot or THAAD interceptor missiles to Saudi Arabia with a named delivery timeline?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.58",
+        "legacy_probability": 0.58
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that A Saudi F-15SA fighter jet is confirmed shot down over Yemen, with wreckage located and the fate of at least one crew member publicly announced?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.18",
+        "legacy_probability": 0.18
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that Saudi Aramco cancels or delays delivery of at least two crude oil cargoes to European refineries in the October delivery window?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.63",
+        "legacy_probability": 0.63
+      }
+    ]
+  },
+  "single_forecaster": true
 }

@@ -1,3 +1,15 @@
+# UPDATE 2026-10-19 13:40: THE PLAN CHANGED. READ THIS BLOCK FIRST, the rest below is the OLD plan.
+
+Fable replaced the old design with BIBLE/part-09-exam.md (shared yes/no questions, no percentages, a judge with YES/NO/UNCLEAR) and BIBLE/part-10-legacy.md (Nir's legacy forecasts converted to yes/no questions and judged). All of it is implemented and tested with the fake model (never against the real model except the live run). What exists now:
+- pipeline/convert_legacy_statements.py (done for both legacy rounds), pipeline/reset_round_v2.py (done for 2026-10-17), pipeline/judge_legacy.py (judges 10-01 forecasts against Nir's round-2 text; writes wind into the 10-14 files), run_round.py with 7 steps (position, velocity, wind, questions, naive_forecast, crystal_forecast, display).
+- Headlines for 10-17 are re-fetched with the new date filter and day-balanced cap.
+- The ONE resume command is still: (setsid nohup scripts/resume_everything.sh > /tmp/opencode/resume.log 2>&1 &)  It now runs: the real round 10-17, then judge_legacy for 10-01, then legacy velocity for 10-14, then commit and push. All stages skip finished work.
+- Still to build, optional and last (Bible 10.6): harvest_legacy.py (extra questions from the raw texts).
+- The old fill_velocity_wind wind part is gone; the old v1 wind steps are gone.
+- Estimate: real round about 28 h, judge_legacy about 4 h, legacy velocity about 4 h.
+
+---
+
 # Instructions to myself (Sonnet): the 31-hour run is in progress (written 2026-10-19 10:10)
 
 If you are reading this after a power outage, a crash or a restart: follow the steps below. Nir wants EVERYTHING done, his words outrank the Bible. He hates long messages: 2 lines per report, emojis on every line, answer his question first, never start anything he did not ask for.

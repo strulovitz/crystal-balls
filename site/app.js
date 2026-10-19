@@ -807,13 +807,26 @@ function setupScorecardBadge() {
 
 function updateScorecardBadge() {
   const badge = document.getElementById('scorecard-badge');
-  if (!scorecardData || scorecardData.country_rounds_scored === 0) {
-    badge.textContent = 'Scorecard starts after the second automated round';
+  const sc = scorecardData;
+  if (!sc) { badge.textContent = 'Scorecard starts after the first judged round'; return; }
+  if (sc.schema_version === 2) {
+    const m = sc.manual_forecast || {};
+    let t = '';
+    if (sc.country_rounds_scored > 0) {
+      t = `Same questions, two forecasters: Crystal Balls ${sc.crystal_correct} correct, plain forecast ${sc.naive_correct} correct, out of ${sc.questions_resolved} checked. Disagreements so far: ${sc.disagreements}. Verdict: ${sc.verdict}.`;
+    } else {
+      t = 'Crystal vs plain scorecard starts after the first judged round.';
+    }
+    if (m.questions_resolved > 0) {
+      t += ` Nir's manual forecasts (Oct 1 and Oct 14): ${m.correct} of ${m.questions_resolved} correct, ${m.questions_unclear} unclear.`;
+    }
+    badge.textContent = t;
     return;
   }
-  const total = scorecardData.crystal_wins + scorecardData.naive_wins;
-  const pct = scorecardData.crystal_win_rate != null ? Math.round(scorecardData.crystal_win_rate * 100) : 0;
-  badge.textContent = `Crystal Balls beat the plain forecast in ${scorecardData.crystal_wins} of ${total} country-weeks (${pct}%)`;
+  if (sc.country_rounds_scored === 0) { badge.textContent = 'Scorecard starts after the first judged round'; return; }
+  const total = sc.crystal_wins + sc.naive_wins;
+  const pct = sc.crystal_win_rate != null ? Math.round(sc.crystal_win_rate * 100) : 0;
+  badge.textContent = `Crystal Balls beat the plain forecast in ${sc.crystal_wins} of ${total} country-weeks (${pct}%)`;
 }
 
 function openScorecardModal() {
@@ -821,13 +834,27 @@ function openScorecardModal() {
   const modal = document.getElementById('scorecard-modal');
   if (!scorecardData) { modal.innerHTML = '<p>No scorecard data yet.</p>'; backdrop.classList.add('open'); return; }
   const sc = scorecardData;
-  let html = `<p class="baseline">A forecaster who always says 50 percent scores 0.25. Lower is better.</p>`;
-  html += `<div class="stat-row"><span>Mean Brier, Crystal</span><span>${fmtNum(sc.mean_brier_crystal)}</span></div>`;
-  html += `<div class="stat-row"><span>Mean Brier, plain forecast</span><span>${fmtNum(sc.mean_brier_naive)}</span></div>`;
-  html += `<div class="stat-row"><span>Rounds scored</span><span>${sc.rounds_scored}</span></div>`;
-  (sc.per_round || []).forEach(pr => {
-    html += `<div class="stat-row"><span>${pr.round}</span><span>crystal ${pr.crystal_wins} / naive ${pr.naive_wins} / tie ${pr.ties}</span></div>`;
-  });
+  let html = '';
+  if (sc.schema_version === 2) {
+    html += `<p class="baseline">We declare a winner only after at least ${sc.min_disagreements_for_verdict} disagreements, with one side right in at least two thirds of them.</p>`;
+    html += `<div class="stat-row"><span>Verdict</span><span>${sc.verdict}</span></div>`;
+    html += `<div class="stat-row"><span>Questions checked</span><span>${sc.questions_resolved} (unclear: ${sc.questions_unclear})</span></div>`;
+    html += `<div class="stat-row"><span>Crystal correct</span><span>${sc.crystal_correct}</span></div>`;
+    html += `<div class="stat-row"><span>Plain forecast correct</span><span>${sc.naive_correct}</span></div>`;
+    html += `<div class="stat-row"><span>Disagreements (Crystal won / plain won)</span><span>${sc.disagreements} (${sc.crystal_won_disagreements} / ${sc.naive_won_disagreements})</span></div>`;
+    (sc.per_round || []).forEach(pr => {
+      html += `<div class="stat-row"><span>${pr.round}</span><span>crystal ${pr.crystal_correct} / plain ${pr.naive_correct} of ${pr.questions_resolved}</span></div>`;
+    });
+    const m = sc.manual_forecast || {};
+    html += `<div class="stat-row"><span>Nir's manual forecasts</span><span>${m.correct || 0} of ${m.questions_resolved || 0} correct, ${m.questions_unclear || 0} unclear</span></div>`;
+  } else {
+    html += `<p class="baseline">A forecaster who always says 50 percent scores 0.25. Lower is better.</p>`;
+    html += `<div class="stat-row"><span>Mean Brier, Crystal</span><span>${fmtNum(sc.mean_brier_crystal)}</span></div>`;
+    html += `<div class="stat-row"><span>Mean Brier, plain forecast</span><span>${fmtNum(sc.mean_brier_naive)}</span></div>`;
+    (sc.per_round || []).forEach(pr => {
+      html += `<div class="stat-row"><span>${pr.round}</span><span>crystal ${pr.crystal_wins} / naive ${pr.naive_wins} / tie ${pr.ties}</span></div>`;
+    });
+  }
   html += `<p style="margin-top:14px;"><a href="./data/scorecard.json" target="_blank" rel="noopener">View data/scorecard.json</a></p>`;
   html += `<button class="btn" id="scorecard-modal-close" style="margin-top:10px;">Close</button>`;
   modal.innerHTML = html;
@@ -908,7 +935,13 @@ function openPanel(code) {
   html += trendRow(velocity);
   html += `</div>`;
 
-  if (wind && wind.winner && wind.winner !== 'none') {
+  if (wind && wind.questions && wind.winner && wind.winner !== 'none') {
+    if (wind.single_forecaster) {
+      html += `<div class="score-line tie">Last check of the manual forecast: ${wind.correct} of ${wind.resolved} correct, ${wind.unclear} unclear</div>`;
+    } else {
+      html += `<div class="score-line ${winnerClass(wind.winner)}">Last week's check: Crystal Balls ${wind.crystal_correct} of ${wind.resolved} correct, plain forecast ${wind.naive_correct} of ${wind.resolved}, ${wind.unclear} unclear</div>`;
+    }
+  } else if (wind && wind.winner && wind.winner !== 'none' && wind.crystal) {
     const bC = wind.crystal ? wind.crystal.brier : null;
     const bN = wind.naive ? wind.naive.brier : null;
     html += `<div class="score-line ${winnerClass(wind.winner)}">Last week's forecast check: Crystal Balls ${fmtNum(bC)} vs plain forecast ${fmtNum(bN)}, lower is better, winner: ${wind.winner}</div>`;
@@ -972,10 +1005,11 @@ async function openModal(code) {
   const naive = countryR.naive_forecast || {};
 
   // Lazily fetch outcomes for this round's statements, if the next round exists.
-  let outcomesByCrystalId = {}, outcomesByNaiveId = {};
+  let outcomesByCrystalId = {}, outcomesByNaiveId = {}, outcomesByQ = {};
   const nextBundle = await fetchNextBundleLazy();
   if (nextBundle && nextBundle.countries[code] && nextBundle.countries[code].wind) {
     const nextWind = nextBundle.countries[code].wind;
+    (nextWind.questions || []).forEach(q => { outcomesByQ[q.id] = q; });
     (nextWind.crystal && nextWind.crystal.statements || []).forEach(s => { outcomesByCrystalId[s.id] = s; });
     (nextWind.naive && nextWind.naive.statements || []).forEach(s => { outcomesByNaiveId[s.id] = s; });
   }
@@ -990,13 +1024,38 @@ async function openModal(code) {
   html += `<h3>In plain words</h3>`;
   (display.eli5 || '').split('\n\n').filter(p => p.trim()).forEach(p => { html += `<p>${p}</p>`; });
 
-  html += `<h3>Five things we are watching</h3>`;
-  (crystal.statements || []).forEach(s => { html += statementRow(s, outcomesByCrystalId[s.id]); });
+  if (countryR.questions && countryR.questions.items) {
+    const single = !!countryR.single_forecaster;
+    html += `<h3>${single ? 'Questions about next week' : 'Eight questions about next week'}</h3>`;
+    const nAns = {}, cAns = {};
+    ((naive.answers) || []).forEach(a => { nAns[a.id] = a; });
+    ((crystal.answers) || []).forEach(a => { cAns[a.id] = a; });
+    countryR.questions.items.forEach(q => {
+      const n = nAns[q.id] || {}, c = cAns[q.id] || {};
+      const differ = !single && n.answer !== c.answer;
+      const o = outcomesByQ[q.id];
+      let mark = '';
+      if (o) mark = o.outcome === 'UNCLEAR' ? ' <span class="pill">unclear</span>' : (o.outcome === c.answer ? ' &#10003;' : ' &#10007;');
+      let pills = single
+        ? `<span class="pill ans-crystal" title="${(c.reason || '').replace(/"/g, '')}">Forecast: ${c.answer}${q.legacy_probability != null ? ' (' + Math.round(q.legacy_probability * 100) + '%)' : ''}</span>`
+        : `<span class="pill ans-crystal" title="${(c.reason || '').replace(/"/g, '')}">Crystal: ${c.answer}</span> <span class="pill ans-plain" title="${(n.reason || '').replace(/"/g, '')}">Plain: ${n.answer}</span>`;
+      html += `<div class="statement-row qrow${differ ? ' disagree' : ''}">
+        <div class="statement-text">${q.text}</div>
+        <div>${pills}${mark}${differ ? ' <span class="pill">they disagree</span>' : ''}</div>`;
+      if (o && o.evidence) html += `<div class="emoji-reason">${o.evidence}</div>`;
+      html += `</div>`;
+    });
+  } else {
+    html += `<h3>Five things we are watching</h3>`;
+    (crystal.statements || []).forEach(s => { html += statementRow(s, outcomesByCrystalId[s.id]); });
+  }
 
   html += `<h3>Why the Crystal forecast differs from a plain reading</h3><p>${crystal.reasoning || ''}</p>`;
 
-  html += `<h3>The plain forecast, for comparison</h3><p>${naive.summary || ''}</p>`;
-  (naive.statements || []).forEach(s => { html += statementRow(s, outcomesByNaiveId[s.id]); });
+  if (!countryR.single_forecaster) {
+    html += `<h3>The plain forecast, for comparison</h3><p>${naive.summary || ''}</p>`;
+    if (!countryR.questions) (naive.statements || []).forEach(s => { html += statementRow(s, outcomesByNaiveId[s.id]); });
+  }
 
   html += `<h3>What happened this week</h3><p>${position.summary || ''}</p>`;
   if (position.key_events && position.key_events.length) {

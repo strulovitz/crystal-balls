@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "round": "2026-10-14",
   "previous_round": "2026-10-01",
   "is_legacy": true,
@@ -13,7 +13,8 @@
     "wind": "skipped",
     "naive_forecast": "done",
     "crystal_forecast": "done",
-    "display": "done"
+    "display": "done",
+    "questions": "done"
   },
   "position": {
     "summary": "South Korea entered the week under multiple simultaneous pressures. A DMZ mine blast attributed to North Korea triggered a sharp diplomatic confrontation, with Pyongyang rejecting Seoul's accusation and issuing a warning about boundary lines down to the millimeter, followed by a North Korean missile test. Ukraine's transfer of two North Korean soldiers without full prior notification to Seoul created a diplomatic row that President Lee Jae Myung was managing carefully. President Trump publicly touted a massive South Korean investment package in US energy projects including Alaska LNG, while Seoul insisted final decisions were still pending and that technical discussions were ongoing. President Lee confirmed that AI tools appeared to have been used in bank hacks, elevating the issue to a national technology-and-trust story. The Asian Games football gold medal was overshadowed by the team captain's comment on military service exemptions and the Song Min-ho suspended sentence. Record chip exports supported the economy, while a government website data leak was initially dismissed by some officials as fake news, backfiring in public trust. A disability care home scandal and prosecution reform debates added further domestic noise.",
@@ -105,6 +106,33 @@
         "probability": 0.75,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "crystal_forecast": {
@@ -144,6 +172,33 @@
         "probability": 0.55,
         "domain": "economy"
       }
+    ],
+    "answers": [
+      {
+        "id": "Q1",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.2."
+      },
+      {
+        "id": "Q2",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.6."
+      },
+      {
+        "id": "Q3",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.42."
+      },
+      {
+        "id": "Q4",
+        "answer": "NO",
+        "reason": "Legacy forecast, stated probability 0.4."
+      },
+      {
+        "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast, stated probability 0.55."
+      }
     ]
   },
   "display": {
@@ -160,5 +215,52 @@
     ],
     "tldr": "South Korea faces a noisy week of managed tensions: a North Korean border standoff, a Ukraine diplomatic row over POW transfers, US pressure on Alaska LNG investment, an AI-related bank hack emergency, and a domestic fight over military service exemptions. The economy stays strong on chip exports while diplomacy and politics get messy.",
     "eli5": null
-  }
+  },
+  "questions": {
+    "horizon_start": "2026-10-14",
+    "horizon_end": "2026-10-21",
+    "items": [
+      {
+        "id": "Q1",
+        "text": "Will it happen that During South Korean mine removal operations near the DMZ, a second explosion or border incident injures at least one South Korean soldier between October 14 and October 21, 2026?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.2",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q2",
+        "text": "Will it happen that Ukraine issues a public statement expressing regret or acknowledging a technical misunderstanding over the North Korean POW transfer by October 21, 2026, but does not issue a full formal apology?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.6",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q3",
+        "text": "Will it happen that At least one additional South Korean commercial bank publicly discloses a new AI-related cyber breach or expands its list of affected customers beyond initial reports by October 21, 2026?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.42",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q4",
+        "text": "Will it happen that The South Korean government introduces a legislative bill to the National Assembly that specifically removes or caps the automatic military service exemption for professional athletes by October 21, 2026?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "converted from a legacy statement with probability 0.4",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q5",
+        "text": "Will it happen that President Trump makes a public statement between October 14 and October 21, 2026, referencing South Korean energy investment, Alaska LNG, or tariff pressure in connection with Korea?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "converted from a legacy statement with probability 0.55",
+        "legacy_probability": 0.55
+      }
+    ]
+  },
+  "single_forecaster": true
 }
