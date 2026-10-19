@@ -19,5 +19,6 @@ for STEP in velocity wind; do
     $PY -u pipeline/run_round.py --round $ROUND --only $CODE --force-step $STEP --skip-fetch --no-finalize 2>&1 | grep -E "Country 1|rror|Traceback|failed"
   done
 done
+$PY -c "from pipeline.score import main as s; s()"
 $PY -c "from pipeline.build_site_data import main; main()"
 echo "$(date +%T) ALL DONE. Total $(( ($(date +%s)-START)/60 )) min."

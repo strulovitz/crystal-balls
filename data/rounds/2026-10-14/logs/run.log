@@ -103,3 +103,31 @@
 02:30:58   bundle for 2026-10-01: 32 countries
 02:30:58 build_site_data.py complete.
 02:30:58 Legacy import complete: 32 of 32 countries imported.
+09:32:37 Round 2026-10-14 started. Previous round: 2026-10-01 (13 days ago).
+09:32:37 Skipping headline fetch (--skip-fetch).
+09:32:37 Country 1 of 1: Israel
+09:32:37 Step 1 of 6 done (position, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+09:36:02   [IL velocity] attempt 1: 205.3s, prompt_tokens=1517, completion_tokens=1339
+09:36:02 Step 2 of 6 done (velocity, Israel, 3m25s). Estimated remaining: 13m41s. You can stop any time and continue later.
+09:36:02 Step 3 of 6 done (wind, Israel, 0s). Estimated remaining: 10m16s. You can stop any time and continue later.
+09:36:02 Step 4 of 6 done (naive_forecast, Israel, 0s). Estimated remaining: 6m51s. You can stop any time and continue later.
+09:36:02 Step 5 of 6 done (crystal_forecast, Israel, 0s). Estimated remaining: 3m25s. You can stop any time and continue later.
+09:36:02 Step 6 of 6 done (display, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+09:36:02 Country 1 of 1: Israel. position done, velocity done (205s), wind skipped, naive done, crystal done, display done
+09:36:02 Not finalizing (--no-finalize or --only was used).
+09:36:46 Round 2026-10-14 started. Previous round: 2026-10-01 (13 days ago).
+09:36:46 Skipping headline fetch (--skip-fetch).
+09:36:46 Country 1 of 1: Israel
+09:36:46 Step 1 of 6 done (position, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+09:36:46 Step 2 of 6 done (velocity, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+09:45:53   [IL wind] attempt 1: 547.1s, prompt_tokens=4707, completion_tokens=3526
+09:45:53 Step 3 of 6 done (wind, Israel, 9m07s). Estimated remaining: 27m21s. You can stop any time and continue later.
+09:45:53 Step 4 of 6 done (naive_forecast, Israel, 0s). Estimated remaining: 18m14s. You can stop any time and continue later.
+09:45:53 Step 5 of 6 done (crystal_forecast, Israel, 0s). Estimated remaining: 9m07s. You can stop any time and continue later.
+09:45:53 Step 6 of 6 done (display, Israel, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+09:45:53 Country 1 of 1: Israel. position done, velocity done, wind done (547s), naive done, crystal done, display done
+09:45:53 Not finalizing (--no-finalize or --only was used).
+09:53:39 Round 2026-10-14 started. Previous round: 2026-10-01 (13 days ago).
+09:53:39 Skipping headline fetch (--skip-fetch).
+09:53:39 Country 1 of 1: United States
+09:53:39 Step 1 of 6 done (position, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
