@@ -6,7 +6,7 @@
   "code": "IN",
   "name": "India",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T07:14:52+03:00",
+  "generated_at": "2026-10-21T14:46:21+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -109,28 +109,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.35."
       }
     ]
   },
@@ -175,28 +190,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.35."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Election Commission crisis involving CEC Gyanesh Kumar remain one of the top three national stories in India?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 85–90% that this remains a major headline next week",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will CEC Gyanesh Kumar resign or be replaced within the next seven days?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: 20–30% that Gyanesh Kumar resigns or is replaced within the next 7 days",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q3",
+        "text": "Will women-safety protests related to the Delhi gang-rape allegation and university campus unrest remain visible in the news?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 75% that women-safety protests remain visible next week",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will India win the West Indies ODI cricket series?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 85% that India wins the West Indies ODI series",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Indian rupee remain under pressure with the Reserve Bank of India continuing to intervene in the forex market?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 80% that rupee stress continues next week",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q6",
+        "text": "Will India take a diplomatic or compensation-related step regarding the Indian cargo ship struck off Oman?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 70% that India takes some diplomatic or compensation-related step next week",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q7",
+        "text": "Will India's IPO and primary market continue its boom with additional large IPO filings or listings announced?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 85% that the IPO/primary-market boom continues next week",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Ujjain mosque demolition issue become a larger national communal flashpoint within the week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: 30–40% that it becomes a larger national communal flashpoint within the week",
+        "legacy_probability": 0.35
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Election Commission chief Gyanesh Kumar resigns or is formally replaced by the government within the week of October 1-7?",

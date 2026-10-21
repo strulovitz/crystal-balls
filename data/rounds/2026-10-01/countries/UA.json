@@ -6,7 +6,7 @@
   "code": "UA",
   "name": "Ukraine",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T13:52:26+03:00",
+  "generated_at": "2026-10-21T12:32:42+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -123,27 +123,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.8."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -189,27 +204,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.8."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -232,6 +262,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Russia continue launching large overnight missile and drone strikes against Ukrainian cities?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Russia will likely keep launching large overnight missile and drone waves against Kyiv and other cities.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Ukraine carry out at least one major strike on a Russian refinery or fuel facility in or near the Moscow region or Volga region?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect at least one major Ukrainian strike on a refinery or fuel facility in the next week, possibly in or near the Moscow region, Volga region, or other central Russian areas.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the US-brokered energy truce between Ukraine and Russia remain unstable or only partially honored rather than becoming a verified ceasefire?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: My prediction: there will be pressure toward some version of an energy pause, but it will not become a clean, verified ceasefire in the next week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will Russian officials use the parliamentary election result to claim a domestic mandate for Putin and the war?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Russian officials presenting the result as a mandate for Putin and the war.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will US enforcement of Russia sanctions begin moving from political debate into active implementation targeting major buyers of Russian oil such as China and India?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If that is true, the next week will be about implementation.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will trilateral talks between Ukraine, Russia, and the US begin or be seriously prepared with envoys meeting separately?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Actual technical talks starting late in the week, or Serious preparation for talks, with envoys meeting separately in Kyiv, Moscow, Washington, or a neutral location.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Russia announce a new mass mobilization within the next week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Possible talk about a new mobilization wave, but probably not an immediate mass mobilization announcement in the next 7 days.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will a major NATO border incident cause an alliance crisis and emergency meetings?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Possible but less likely: A major NATO border incident causing an alliance crisis.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Ukraine launches a coordinated strike of at least 500 drones at Russian fuel and logistics targets within a single 48-hour period?",

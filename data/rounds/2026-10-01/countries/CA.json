@@ -6,7 +6,7 @@
   "code": "CA",
   "name": "Canada",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T04:55:26+03:00",
+  "generated_at": "2026-10-21T12:49:08+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -105,27 +105,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
       }
     ]
   },
@@ -171,27 +186,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.3."
       }
     ]
   },
@@ -214,6 +244,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Canada announce a formal Canada-EU working partnership or strategic cooperation framework in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Carney will formalize or announce a Canada-EU working partnership package. Confidence: high, around 85%.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will Trump make at least one major public statement criticizing Canada's EU partnership or Carney in the coming week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Trump will keep attacking the Canada-EU move. Confidence: very high, around 90%. I predict at least one more major Trump statement in the next week.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q3",
+        "text": "Will Ottawa announce new investment, tax incentive, or economic measures tied to its global investor outreach in the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Ottawa will announce investment and economic measures tied to the Toronto investor push. Confidence: high, around 75%.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will Canada confirm or advance its pursuit of a UK-led Joint Expeditionary Force or similar defense coalition partnership in the coming week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Canada will push harder on defense diversification away from the US. Confidence: high, around 70%. Confirmation that Canada is pursuing the UK-led Joint Expeditionary Force or similar partnership.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q5",
+        "text": "Will Canada formally become an EU associate member or complete a formal EU membership treaty vote in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Carney will not become an EU associate member next week, and there probably will not be a formal treaty or membership vote. 3 to 1 that no formal EU membership vote or treaty happens next week.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q6",
+        "text": "Will Trump announce new tariffs on Canada or the EU in the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Trump announces immediate new tariffs on the EU and/or Canada. Probability: around 30%. This would be the biggest escalation.",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q7",
+        "text": "Will a major AI or technology company such as OpenAI make a concrete data-center investment announcement for Canada in the coming week?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: OpenAI or another major tech firm makes a concrete Canada data-center announcement. Probability: around 25%. This would be a big win for Carney's investor pitch.",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q8",
+        "text": "Will a federal-provincial political dispute erupt over airports, pipelines, critical minerals, or EU market access in the coming week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A federal-provincial fight breaks out over airports, pipelines, critical minerals, or EU market access. Probability: around 30%. If one province feels left out, this could become a domestic political issue quickly.",
+        "legacy_probability": 0.3
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The official Canada-EU document uses the phrase strategic partnership or deepened association and omits the phrase associate member?",

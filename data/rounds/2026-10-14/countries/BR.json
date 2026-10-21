@@ -6,7 +6,7 @@
   "code": "BR",
   "name": "Brazil",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T16:30:42+03:00",
+  "generated_at": "2026-10-21T17:13:31+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Brazilian electoral court (TSE) formally certify the first-round results confirming Flávio Bolsonaro in first place and Lula in second?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The most important institutional event of the week will be the electoral court's process for officially confirming the first-round outcome.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Lula's campaign publicly test the idea of appointing Vice President Geraldo Alckmin as finance minister?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Test the Alckmin-as-finance-minister idea more openly.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will Flávio Bolsonaro push his campaign harder on spending cuts and fiscal austerity?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Flávio Bolsonaro will push harder on austerity and fiscal 'scissors'.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will Brazilian stock markets remain broadly bullish during the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Markets will probably stay bullish but volatile.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will student-led and left-wing street protests intensify in major Brazilian cities?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Street protests will intensify, especially on the left.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will security around the Supreme Court, electoral court, and foreign embassies remain elevated?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Security around key institutions will stay elevated.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will right-wing leaders in Congress begin openly discussing amnesty for former President Jair Bolsonaro?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More pressure to discuss amnesty or legal relief for Jair Bolsonaro.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will a new security incident such as a bomb threat or protest clash occur near the Supreme Court, electoral court, or foreign embassies?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: a new security episode could happen. It does not need to be huge to matter.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The TSE issues its formal certification of first-round results, but at least one procedural complaint from a minor candidate or party is filed the same week?",

@@ -6,7 +6,7 @@
   "code": "ZA",
   "name": "South Africa",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T23:25:21+03:00",
+  "generated_at": "2026-10-21T18:28:02+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the South African government announce or extend a form of fuel-tax relief for consumers during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government announces or reinforces some form of fuel-tax relief, giving consumers short-term breathing room.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will anti-migrant protests reappear in South African cities such as Soweto, Durban, or Cape Town during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Sporadic protests could reappear in Soweto, Durban, Cape Town, or other high-density areas.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will anti-migrant protests in South Africa escalate into a single large-scale nationwide outbreak of violence during the following week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: The risk is not necessarily one massive nationwide outbreak of violence, but rather localized flare-ups that keep the country on edge.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the South African rand experience noticeable volatility against the US dollar without a sharp collapse during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The rand stays volatile but does not collapse.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will new leadership appointments or acting roles be announced at South Africa's police service during the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More internal appointments, acting roles, or leadership reshuffling at SAPS.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will Moody's or another credit rating agency issue public commentary reaffirming South Africa's progress toward a possible credit rating upgrade during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Moody's upgrade talk continues to support market confidence.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Navi Pillay's Nobel Peace Prize win generate a public debate in South Africa about the country's foreign policy stance on international justice and its relationship with the ICC during the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A broader public debate about South Africa's foreign policy identity.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will South Africa's second Test cricket match against Australia begin or be the subject of significant public discussion during the following week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The second Test will begin or be heavily discussed.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The South African government announces fuel-tax relief, and 10-year bond yields rise by more than 25 basis points within two trading days of the announcement?",

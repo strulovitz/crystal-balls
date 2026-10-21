@@ -6,7 +6,7 @@
   "code": "ZA",
   "name": "South Africa",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T12:04:26+03:00",
+  "generated_at": "2026-10-21T15:11:16+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.45."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.45."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will South African police make at least one additional arrest or announce a charge sheet in the Ekurhuleni femicide case by 7 October?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Police will likely make at least one more arrest or announce a charge sheet linked to the series of women's killings by 7 October. Confidence: high.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will women's groups hold protests or marches in at least one of Pretoria, Johannesburg, Cape Town, or Durban during the week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Women's groups will hold protests or marches in Pretoria, Johannesburg, Cape Town, and possibly Durban. Confidence: high.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q3",
+        "text": "Will the official death toll from the mass shootings be revised upward beyond 28 as hospital deaths are confirmed?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The official death toll may creep upward from 27/28 toward 30–35 as hospital deaths are confirmed. Confidence: medium-high.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q4",
+        "text": "Will South Africa and the United States announce or confirm technical-level talks on visas, investor rules, or labour/ownership requirements?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: There is a decent chance — maybe 50–60% — that South Africa and the US announce or confirm technical-level talks on visas, investor rules, or labour/ownership requirements before or during the next week.",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q5",
+        "text": "Will the United States announce a new sanctions package against South Africa or the two countries experience a dramatic diplomatic break?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No major new sanctions package or dramatic break is likely next week unless a specific visa/investor case becomes public. Confidence: high that it stays tense but functional.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q6",
+        "text": "Will the South African government announce a new immigration task force, deportation plan, detention review, or border enforcement update?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government will likely announce some kind of immigration task force, deportation plan, detention review, or border enforcement update. Confidence: high.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q7",
+        "text": "Will a final signed deal be announced for the $2.7 billion manganese corridor partner?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: The $2.7 billion manganese corridor partner search will likely produce more meetings, investor interest, or official statements, but not a final signed deal next week. Confidence: medium.",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q8",
+        "text": "Will sporadic xenophobic clashes or targeted attacks on foreign nationals occur in South Africa during the week?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: There is a real risk — maybe 40–50% — of sporadic xenophobic clashes or targeted attacks on foreign nationals in the next week, especially if a new killing, video clip, or protest goes viral.",
+        "legacy_probability": 0.45
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A second woman's body is discovered in Ekurhuleni or nearby Gauteng between 1 and 7 October 2026?",

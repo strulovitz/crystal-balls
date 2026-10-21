@@ -6,7 +6,7 @@
   "code": "CL",
   "name": "Chile",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T05:22:29+03:00",
+  "generated_at": "2026-10-21T13:59:44+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.78."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.78."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will President Kast push a harder immigration and security agenda in domestic politics after returning from his UN trip in New York?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect the next week to include: More statements from the Kast administration saying Chile is taking a stronger line on organized crime, migration, and regional security.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will BHP's Escondida copper mine experience a short work stoppage or protest by workers during the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A full prolonged strike is not the most likely outcome in just one week, but a noisy labor confrontation is very possible.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Chilean government make an official announcement or provide market details about its planned Swiss franc bond sale?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect next week to include: Official announcements or market details about the Swiss franc bond.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will fuel prices and cost-of-living complaints remain a prominent domestic political issue in Chile?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: This is very likely to remain a background story all week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will Chile and Argentina see continued diplomatic friction over the Strait of Magellan sovereignty dispute?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A full-blown Chile-Argentina crisis in one week is less likely, but continued diplomatic friction and symbolic military reinforcement are likely.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will a full prolonged strike at the Escondida copper mine occur within the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A full prolonged strike is not the most likely outcome in just one week, but a noisy labor confrontation is very possible.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Michelle Bachelet make a major formal domestic political announcement in the next seven days?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A big formal announcement from Bachelet in the next 7 days is not the base case, but media speculation is very likely.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Atacama Desert bloom after El Niño rains generate significant tourism and media coverage in Chile?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More tourism and media attention around the Atacama bloom, especially because it is visually striking and unusual.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Bachelet publishes a media interview or public statement explaining her UN withdrawal and hinting at a domestic political role?",

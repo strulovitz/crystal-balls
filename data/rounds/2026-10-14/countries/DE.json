@@ -6,7 +6,7 @@
   "code": "DE",
   "name": "Germany",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T18:28:50+03:00",
+  "generated_at": "2026-10-21T16:46:23+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will court proceedings or a detention review for former BND chief August Hanning be reported in the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: more court proceedings or detention reviews around August Hanning",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will the AfD's newly elected speaker make public statements in the Saxony-Anhalt state parliament in the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: the new AfD speaker to make statements that sound calm, institutional, and 'normal'",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will Germany announce additional military aid or procurement measures for Ukraine in the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: follow-up announcements on German military support for Ukraine",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will a major German automaker such as Volkswagen, Porsche, or BMW make a strategic announcement reflecting cost pressure or restructuring in the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: companies like VW, Porsche, and BMW making strategic announcements that reflect cost pressure, restructuring, and a shift toward higher-margin products",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will China respond diplomatically or commercially to new EU or German trade measures in the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Chinese diplomatic or commercial pushback",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will protests against the AfD take place in Saxony-Anhalt or eastern Germany in the following week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: protests against the AfD, especially from left-wing groups, unions, churches, and local civic organizations",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will a full-blown political crisis or government collapse be reported in Germany in the following week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Germany will not have a full-blown crisis in the next seven days",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will the German government announce emergency diesel reserves, fuel price support, or further transport cost relief measures in the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: possible government announcements about emergency diesel reserves, price support, or further relief measures",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that German prosecutors issue a second arrest warrant or a new search order tied to the Hanning espionage case between October 15 and 21?",

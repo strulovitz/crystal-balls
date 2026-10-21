@@ -6,7 +6,7 @@
   "code": "VE",
   "name": "Venezuela",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T14:55:43+03:00",
+  "generated_at": "2026-10-21T12:42:41+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,27 +110,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,27 +191,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Delcy Rodríguez meet President Trump or senior US officials in person during her New York visit in early October 2026?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The headlines already say Trump will meet her during UN General Assembly week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Venezuela formally announce or near-announce the transfer of approximately four billion dollars in gold reserves from London or Bank of England custody to US-linked custody?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Likelihood of some public advance on the gold deal: high.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will one or more Western oil companies such as Exxon, Continental Resources, or TotalEnergies make new public announcements about entering or preparing to enter Venezuela?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Likelihood of more oil-related announcements: high.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will María Corina Machado announce her imminent return to Venezuela or physically land in the country?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: My best guess: Machado will use the next week to announce a very near return or actually land.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Venezuelan government unblock additional censored news sites or make further small liberalization gestures toward the opposition?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Likelihood of continued dialogue and small gestures: high.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Venezuelan government formally announce the adoption of dollarization for the national economy?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Likelihood of major dollarization announcement next week: low to medium-low.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Venezuelan security forces carry out a major visible crackdown on opposition figures or protesters?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Likelihood of a major crackdown in the next 7 days: medium-low, unless Machado returns and something goes wrong.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Venezuelan government announce a specific date for national elections?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A sudden election date is announced. Possible, but I would rate it medium-low.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The joint Rodríguez-Trump statement describes Venezuela's transition as a phased political process without naming a specific election date?",

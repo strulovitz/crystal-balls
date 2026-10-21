@@ -6,7 +6,7 @@
   "code": "CD",
   "name": "DR Congo",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T05:51:14+03:00",
+  "generated_at": "2026-10-21T12:20:42+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will additional Ebola cases and deaths be reported in the Democratic Republic of Congo during the coming week?",
+        "domain": "health",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect more confirmed Ebola cases and deaths over the next week, even if some officials start saying the outbreak may be peaking.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will opposition and pro-government supporters clash in street protests over the constitutional amendment in Kinshasa?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The biggest risk is that opposition and pro-government crowds clash more violently. That could turn a political dispute into a street crisis. I would rate that as medium-to-high likelihood in the next week, especially if the government trie",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the DRC and Rwanda reach a final peace agreement during their Geneva talks in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not expect a major peace deal in one week. These talks involve deep disputes over security guarantees, M23's role, territorial control, borders, sovereignty, and regional influence.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the death toll from the Bukavu school fire be officially revised or finalized with calls for an inquiry and compensation?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Bukavu school fire death toll is revised or finalized, with calls for inquiry and compensation.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will the DRC-US minerals task force issue a public announcement, implementation plan, or roadmap for critical minerals exports?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: DRC-US minerals task force produces some public announcement, meeting summary, or implementation step.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will neighboring countries such as Uganda, Rwanda, the Central African Republic, or Congo-Brazzaville announce or tighten border controls in response to the Ebola outbreak?",
+        "domain": "health",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More discussion of border controls involving Uganda, Rwanda, CAR, or Congo-Brazzaville.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the DRC constitutional amendment allowing a third presidential term be fully passed by parliament within the coming week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I do not think the constitution will be fully changed next week, but I would expect the government to push the process forward visibly.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will M23 or rebel-aligned authorities in Bukavu announce compensation or reconstruction plans in response to the deadly school fire?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: M23 or local rebel-aligned authorities trying to show they can govern by announcing compensation, reconstruction, security measures, or an inquiry.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The DRC government declares a state of emergency in one or more provinces in direct response to the Ebola spread into South-Ubangi?",

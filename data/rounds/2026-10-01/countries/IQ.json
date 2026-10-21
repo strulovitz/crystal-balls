@@ -6,7 +6,7 @@
   "code": "IQ",
   "name": "Iraq",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T08:13:46+03:00",
+  "generated_at": "2026-10-21T12:54:16+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Iraqi government publicly blame an armed militia splinter group for the drone attack on Saudi Arabia's East-West pipeline?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: It will almost certainly blame a \"resistance splinter,\" a PMF faction, or an armed group operating outside the official chain of command.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will the United States begin its final military withdrawal from northern Iraq?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Final drawdown activity in northern Iraq, especially around Kurdish areas where U.S. forces have been concentrated.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Iraqi prime minister meet U.S. President Trump during a visit to the United States or the UN General Assembly?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The headline that the Iraqi prime minister will visit the United States next week, attend UN General Assembly events, and meet President Trump is very important.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will France and Iraq announce a new energy or security cooperation framework?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would expect some kind of French-Iraqi or German-Iraqi energy/security statement to come out during or immediately after the trip.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will Iraq expand the road transport of southern crude oil to Kirkuk for export through Turkey?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: expansion of the trucking pilot, new logistics announcements with Turkish or regional operators, more focus on TCPL/Kirkuk-Turkey flows",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will one or more Iraqi-Iranian border crossings reopen in a phased or limited manner?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: one or more crossings to reopen in a limited or phased way, new security protocols announced",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Iraq formally lobby OPEC+ for a higher oil production quota amid regional disruption?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Iraqi government presses OPEC+ for higher production quota amid Hormuz disruption",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Iraqi government experience a full collapse or the prime minister face a resignation crisis?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would be surprised if we saw: a full Iraqi government collapse, a PM resignation crisis",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A PMF faction launches a drone or missile attack on a Saudi or Gulf energy target from Iraqi territory?",

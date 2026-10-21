@@ -6,7 +6,7 @@
   "code": "SG",
   "name": "Singapore",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T23:08:42+03:00",
+  "generated_at": "2026-10-21T17:06:39+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text, stated probability 0.35."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.35."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text, stated probability 0.35."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.35."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the F1 Singapore Grand Prix dominate public attention in Singapore next week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: F1 Singapore GP dominates public attention.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q2",
+        "text": "Will air quality remain a major issue in Singapore with periods of elevated or unhealthy PSI next week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Air quality stays elevated at times.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q3",
+        "text": "Will the civil-servant property scandal receive parliamentary or committee scrutiny in Singapore next week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Parliamentary or committee scrutiny of the property scandal.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q4",
+        "text": "Will AI bubble risk and bond-yield anxiety dominate elite financial discussion in Singapore next week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: AI, bond yields, and bank earnings dominate elite financial discussion.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q5",
+        "text": "Will Singapore declare a full-blown haze emergency requiring major public-health measures next week?",
+        "domain": "health",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A full-blown haze emergency requiring major public-health measures.",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q6",
+        "text": "Will sudden mass resignations occur in the civil-servant property scandal without a new trigger next week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Sudden mass resignations in the property scandal without a new trigger.",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q7",
+        "text": "Will Singapore announce a major new domestic energy policy in response to Hormuz or Iran energy concerns next week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Major new domestic energy policy next week: medium-low",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q8",
+        "text": "Will Singapore officials issue more formal commentary on energy security following Hormuz and Iran-related oil concerns next week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More official talk on energy security after Hormuz/Iran worries.",
+        "legacy_probability": 0.8
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that George Russell won the F1 Singapore Grand Prix from his back-of-grid starting position?",

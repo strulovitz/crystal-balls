@@ -6,7 +6,7 @@
   "code": "CN",
   "name": "China",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T05:36:47+03:00",
+  "generated_at": "2026-10-21T12:15:19+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.44."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.4."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.55."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.44."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.4."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.55."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Chinese state media and government officials publicly characterize the US AI competition as fearmongering or a new Cold War tool in the coming week?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect more Ministry of Foreign Affairs press briefings, state media essays, and think-tank language calling the US 'fearmongering,' 'selective safety,' or a new Cold War tool.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will the first publicly named cases under China's new exit rules involve tech workers, chip researchers, or academics in the coming week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The first named cases will probably be engineers, chip researchers, professors, startup founders, or employees of state-linked labs.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will the People's Bank of China cut the LPR rate or issue unusually strong language about consumption and credit support around the LPR announcement in the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Most likely: either a small rate cut or a hold with unusually strong language about consumption, property, and credit support.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will additional Chinese cities announce removal of home purchase restrictions, lower mortgage requirements, or subsidies for home buyers in the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect more cities to remove remaining purchase restrictions, lower down payments or mortgage rates, subsidize home buyers, allow office-to-residential conversion, and use state-backed entities to buy unsold units for affordable housing.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q5",
+        "text": "Will the US and China announce a significant pre-summit trade or tariff agreement in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A grand deal is less likely because the satellite imagery/Iran strike issue and AI distillation issue are still ugly.",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q6",
+        "text": "Will China and Iran hold talks on ceasefire language, oil purchases, or BRICS coordination in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If Araghchi is in Beijing or just after the visit, expect talks on ceasefire language, oil purchases, sanctions workarounds, and BRICS coordination.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q7",
+        "text": "Will Chinese authorities announce an official investigation and begin compensation negotiations related to the Qingdao cargo fire in the coming week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect an official investigation, cause statement, temporary inspections of shipyards/ports, and compensation negotiations.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q8",
+        "text": "Will China and India announce a major strategic trade or technology breakthrough in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Next week will probably be about implementing small confidence measures, not a major strategic breakthrough.",
+        "legacy_probability": 0.55
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The State Council executive meeting announces a fiscal stimulus package exceeding 500 billion yuan explicitly targeted at household consumption and property market stabilization?",

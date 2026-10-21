@@ -6,7 +6,7 @@
   "code": "PE",
   "name": "Peru",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T10:38:10+03:00",
+  "generated_at": "2026-10-21T14:09:00+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Peru's prosecutor's office release a significant update on the Susy Aponte Polo murder investigation, such as suspect names, arrest details, or forensic findings?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: the prosecutor's office will release at least one important update within the next few days: suspect names, arrest details, forensic findings, or a new investigative lead",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will Peru's electoral authorities issue safety protocols for candidates and regional offices ahead of the October 4 election?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Electoral authorities issuing safety protocols for candidates and regional offices.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Peruvian government and church officials announce parts of Pope Leo's November visit agenda or present security planning details?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Government and church officials announcing parts of the November agenda.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q4",
+        "text": "Will Peru's Ministry of Energy and Mines announce new project pipeline updates or hold meetings with foreign mining investment firms?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Energy and Mines ministry announcing project pipeline updates or new meetings with Chinese and U.S. firms.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q5",
+        "text": "Will Peru's prosecutors or defense officials announce a new illegal-mining operation, wave of arrests, or equipment seizure in the southern highlands?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A new operation announcement, arrest wave, equipment seizure, or press conference by prosecutors and defense officials.",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Peruvian Congress place the ninth AFP pension-fund withdrawal bill on its agenda or begin public debate of it?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Congress putting the bill on the agenda or at least debating it publicly.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q7",
+        "text": "Will Peruvian opposition parties publicly attack Keiko Fujimori over her UN speech thanking Trump and the Shield of the Americas framing?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Opposition attacks over the UN speech, the old audio, and the 'Shield of the Americas' language.",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q8",
+        "text": "Will Peru and India announce a breakthrough or major public deal in their trade negotiations during the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: The Peru-India trade deal story is unlikely to produce a breakthrough next week. It may remain in diplomatic or commercial channels, with no major public announcement.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The Peruvian prosecutor's office releases an investigative update on the Aponte Polo case that includes forensic findings or a new investigative lead but does not yet name a specific suspect?",

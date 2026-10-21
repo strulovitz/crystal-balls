@@ -6,7 +6,7 @@
   "code": "IR",
   "name": "Iran",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T19:32:45+03:00",
+  "generated_at": "2026-10-21T15:42:37+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.4."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.35."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.4."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.55."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.35."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will there be a major new US/Israeli bombing campaign inside Iran during the week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No major new US/Israeli bombing campaign inside Iran: 50–60%",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q2",
+        "text": "Will a short trust-building arrangement around the Strait of Hormuz be announced or quietly tested?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Some form of short trust-building arrangement announced or quietly tested: 35–45%",
+        "legacy_probability": 0.4
+      },
+      {
+        "id": "Q3",
+        "text": "Will technical talks between the US and Iran continue without a signed deal by the end of the week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Talks continue but no deal by the end of the week: 50–60%",
+        "legacy_probability": 0.55
+      },
+      {
+        "id": "Q4",
+        "text": "Will the Iranian rial remain weak and the central bank intervene again to support the currency?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Rial remains weak and central bank intervenes again: 70–80%",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q5",
+        "text": "Will at least one proxy attack or cyber incident affect Gulf targets during the week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: At least one proxy attack or cyber incident affecting Gulf targets: 60–70%",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q6",
+        "text": "Will Iran experience more domestic digital crackdowns and localized protests during the week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More domestic digital crackdowns and localized protests: 60–70%",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q7",
+        "text": "Will Iran make a formal NPT exit decision during the week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Nuclear talks continue, but no formal NPT exit decision: 75–85%",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q8",
+        "text": "Will a limited US/Israeli strike or exchange of fire occur involving Iran during the week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Limited strike or exchange of fire: 30–40%",
+        "legacy_probability": 0.35
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The US Department of Defense confirms a limited retaliatory airstrike on Iranian IRGC drone production sites or Quds Force cells after confirming evidence linking Iran to the FlyDubai copilot attack, with Washington citing the incident as casus belli alongside the RAF Fairford plot?",

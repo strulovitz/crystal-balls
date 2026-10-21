@@ -6,7 +6,7 @@
   "code": "JP",
   "name": "Japan",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T09:30:01+03:00",
+  "generated_at": "2026-10-21T13:04:29+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.28."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.22."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Typhoon Dujuan produce major disruption and damage reporting in Japan this week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Typhoon Dujuan will produce major disruption and damage reporting – Confidence: very high",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will the Aichi-Nagoya Asian Games remain a reputational problem for Japan this week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Asian Games will remain a reputational problem for Japan – Confidence: very high",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Japanese yen remain volatile with speculation about possible Ministry of Finance intervention this week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The yen will stay volatile, with intervention talk likely – Confidence: high",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will opposition parties press PM Takaichi for clarity on funding the consumption tax cut this week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect next week to bring: opposition demands for clarity",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will North Korea conduct an additional ballistic missile launch over or near Japanese waters this week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Another North Korean missile launch midweek – Not surprising at all in this environment, but it would immediately change the news cycle.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Starbucks Japan majority-stake sale story see further development this week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Starbucks Japan stake story will keep developing – Confidence: medium",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will a sudden cabinet shake-up or ministerial scandal hit PM Takaichi's government this week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A sudden cabinet shake-up or ministerial scandal – Unlikely in the first week after a reshuffle unless something big breaks.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Japan announce a firm timeline for reaching 3.5 percent of GDP defense spending this week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Japan announcing a firm timeline for 3.5% defense spending – Possible, but I would expect more leaks and discussion than a final decision this week.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that North Korea conducts a third ballistic missile launch into the Sea of Japan during the forecast week?",

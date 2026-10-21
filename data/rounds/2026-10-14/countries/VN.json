@@ -6,7 +6,7 @@
   "code": "VN",
   "name": "Vietnam",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T02:30:58+03:00",
+  "generated_at": "2026-10-21T17:48:29+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.4."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.4."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will central Vietnam report further heavy flooding, rescue operations, and flood damage in the coming week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More flood reports from central coastal provinces and central highlands.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q2",
+        "text": "Will Vietnamese officials issue statements expressing optimism about achieving the 10 percent full-year GDP growth target?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More official statements saying Vietnam is 'optimistic' about hitting 10%.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q3",
+        "text": "Will the State Bank of Vietnam maintain its current policy rates without a major monetary policy change?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The State Bank will probably keep policy rates steady for now.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will major Vietnamese banks announce new capital increases or share offerings?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More announcements from major Vietnamese banks about capital increases, private placements, or share offerings.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q5",
+        "text": "Will Vietnam and the United States formally sign the reciprocal trade agreement?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: The next week may not bring a full signing ceremony, but it will likely bring more official confirmation that the deal is close.",
+        "legacy_probability": 0.5
+      },
+      {
+        "id": "Q6",
+        "text": "Will Vietnamese officials issue additional confirmation that US trade negotiations are nearing completion?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: it will likely bring more official confirmation that the deal is close.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q7",
+        "text": "Will Vietnam announce concrete progress on transport, rail, or metro cooperation with France following President Macron's visit?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Possible announcements or progress on transport, rail, metro, defense, or infrastructure cooperation with France.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q8",
+        "text": "Will Vietnam make a formal announcement of a bid to host a Formula 1 race?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A full formal F1 bid may not happen in just one week, but expect more talk.",
+        "legacy_probability": 0.4
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Vietnamese energy officials or the State Electric Utility announce a load-management directive or new power project approval for at least one industrial zone between October 14 and October 21?",

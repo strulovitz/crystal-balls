@@ -6,7 +6,7 @@
   "code": "IR",
   "name": "Iran",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T07:56:39+03:00",
+  "generated_at": "2026-10-21T12:26:21+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -109,28 +109,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.42."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.82."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.55."
       }
     ]
   },
@@ -175,28 +190,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.42."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.82."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.55."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Iran announce a temporary Strait of Hormuz shipping arrangement or credible framework during the UN General Assembly high-level session?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: by late in the week, there is a real chance of some kind of technical agreement or 'framework' for escorted shipping through Hormuz.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q2",
+        "text": "Will the Iranian government organize a massive state rally in Tehran with government-organized bus convoys from the suburbs?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: another massive rally in Tehran, probably again around major squares and government-organized bus convoys from the suburbs.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will Mojtaba Khamenei appear in a visible public role as a succession signal, such as beside his father at a rally or visiting IRGC units?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Next week, there is a decent chance Tehran gives a carefully staged succession signal.",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q4",
+        "text": "Will another naval skirmish occur off Qeshm or in the Strait of Hormuz, involving fast boats, drones, or a damaged merchant vessel?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Next week, I would expect at least one more incident.",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Iranian rial weaken further in the open market during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: further weakening of the rial in the open market.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q6",
+        "text": "Will Iran announce a full withdrawal from the NPT or formally abandon IAEA cooperation during the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not expect Iran to fully abandon IAEA cooperation yet.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will a full national street protest movement erupt across multiple major Iranian cities during the following week?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I do not expect a full national street explosion next week unless one of these happens.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Iranian-backed proxies carry out strikes or drone attacks on US-linked targets in the Gulf or Red Sea ahead of the US midterm elections?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: next week could see another round of proxy attacks: Houthi strikes toward Saudi Arabia or Red Sea shipping, Iraqi militia drone attacks on US-linked bases.",
+        "legacy_probability": 0.55
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Mojtaba Khamenei appears publicly beside his father at a state rally or IRGC event during the week?",

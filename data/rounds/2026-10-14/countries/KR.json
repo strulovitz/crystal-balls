@@ -6,7 +6,7 @@
   "code": "KR",
   "name": "South Korea",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T23:39:59+03:00",
+  "generated_at": "2026-10-21T16:36:08+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.475."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.575."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.475."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.575."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will North Korea conduct another ballistic missile test toward the East Sea during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: There is a real chance of another North Korean missile test toward the east coast in the next week, especially if Seoul makes a strong public statement or continues mine removal operations. Probability of another North Korean missile test o",
+        "legacy_probability": 0.475
+      },
+      {
+        "id": "Q2",
+        "text": "Will South Korea set a deadline for Ukraine to apologize over the North Korean POW transfer?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: President Lee Jae Myung will likely set or imply a deadline for Ukraine to apologize or explain the transfer of the two North Korean soldiers. Probability: high that this remains a major diplomatic headline for several more days. Maybe 70–8",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q3",
+        "text": "Will a final signed Alaska LNG or major energy investment deal between the United States and South Korea be announced?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I do not expect a final signed $54 billion Alaska LNG deal within one week. Probability of no final signature in 7 days: high, maybe 70–80%.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will the South Korean government announce an emergency task force or special committee on AI-related cyber threats to banks?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government will likely announce an emergency task force or special committee on AI-related cyber threats. Probability: very high that this becomes a major domestic policy story. Maybe 80–90%.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will the South Korean government introduce a concrete proposal to reduce or restructure military service exemptions for athletes?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government will move from 'we are reviewing' to something more concrete: a proposal to reduce, limit, or phase out automatic military service exemptions for athletes. Probability of a concrete policy proposal or consultation within the ",
+        "legacy_probability": 0.575
+      },
+      {
+        "id": "Q6",
+        "text": "Will South Korea's economic headlines remain predominantly positive due to strong semiconductor and AI chip exports?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The chip export boom will keep the won and business sentiment relatively supported. Probability: high that economic headlines remain positive overall. Maybe 70–80%.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q7",
+        "text": "Will a full military escalation or accidental shooting incident occur at the DMZ during the following week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Probability of a full military escalation or accidental shooting incident: low but not zero, maybe 10–20%.",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q8",
+        "text": "Will the disability care home sexual abuse scandal prompt official inspections and ministerial responses in South Korea?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The disability care home scandal will likely lead to inspections, ministerial responses, and possibly new oversight rules for care facilities. Probability: high that at least one of these domestic stories remains visible. Maybe 70–80%.",
+        "legacy_probability": 0.75
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that During South Korean mine removal operations near the DMZ, a second explosion or border incident injures at least one South Korean soldier between October 14 and October 21, 2026?",

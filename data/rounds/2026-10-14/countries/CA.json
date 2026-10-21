@@ -6,7 +6,7 @@
   "code": "CA",
   "name": "Canada",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T16:46:55+03:00",
+  "generated_at": "2026-10-21T16:06:02+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Paul St-Pierre Plamondon become Quebec's premier and form a minority government with support from at least one other party or caucus within the week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Paul St-Pierre Plamondon will almost certainly become premier, and the province's new government will immediately start positioning itself around an independence referendum promise.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Plamondon's refusal to swear allegiance to King Charles III become a major national story creating a symbolic constitutional flashpoint?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If the new Quebec leader says he will not swear allegiance to the king, that will create a symbolic constitutional flashpoint, even if it does not immediately block him from governing.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will Alberta's separation referendum result in a 'No' victory rather than a 'Yes' outcome?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: No is more likely than Yes because separation is expensive and uncertain, and the pipeline fast-track gives the federal government a tangible 'stay in Canada' argument.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the fast-tracking of the Pacific oil pipeline become one of the main policy stories of the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Confidence: high that this becomes one of the main policy stories of the week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will US-Canada trade friction remain a dominant news story characterized by more posturing and small escalations rather than a full trade deal?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would not expect a full trade deal in one week. I would expect more posturing, pressure, and small escalations.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Canadian dollar remain weak near its 18-month low against the US dollar throughout the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The loonie probably stays in a weak band around US$0.70–0.72 unless there is a major oil move or macro surprise.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the US arrest and extradition process for the Tumbler Ridge school shooting co-conspirator continue to generate prominent national news coverage?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Confidence: high that extradition/process news continues; medium for a formal public-safety response being announced.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will the AI hacking attempt on a Canadian government website escalate into a major government cyber crisis within the week?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Confidence: medium-high that it becomes a modest follow-up story; low that it turns into a major government cyber crisis in one week.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Plamondon's swearing-in as Quebec premier is delayed beyond October 17, 2026, because of the oath-to-the-Crown dispute?",

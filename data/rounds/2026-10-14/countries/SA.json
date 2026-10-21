@@ -6,7 +6,7 @@
   "code": "SA",
   "name": "Saudi Arabia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T22:41:09+03:00",
+  "generated_at": "2026-10-21T16:19:45+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.78."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.5."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.78."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.5."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Saudi-led coalition continue conducting air strikes on Houthi targets in Yemen during the week of October 14 to 21, 2026?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect Saudi Arabia and its allies to continue air operations against Houthi positions in Yemen.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q2",
+        "text": "Will the Houthis launch missile or drone attacks on Saudi airports or oil-linked sites during the week of October 14 to 21, 2026?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect at least several more Houthi missile or drone attacks in the next week on: Riyadh airport, Jazan, Najran, Abha or other southern airports, Aramco facilities, refineries, or oil infrastructure near Riyadh / western Saudi Arabia.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q3",
+        "text": "Will Turkey and Pakistan begin deploying military personnel or assets into Saudi Arabia under the Mecca pact during the week of October 14 to 21, 2026?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect Turkey and Pakistan to begin deploying forces, or at least rapid reaction units, command staff, air defense assets, and liaison teams into Saudi Arabia under the Mecca pact.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q4",
+        "text": "Will Saudi Arabia continue routing its oil exports primarily through the East-West pipeline during the week of October 14 to 21, 2026?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect in the next week: Continued high flows through the East-West pipeline.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q5",
+        "text": "Will Saudi Arabia announce or implement additional cancellations or delays of entertainment or sports mega-projects during the week of October 14 to 21, 2026?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect in the next week: More quiet cancellations or postponements of entertainment and sports projects.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q6",
+        "text": "Will Saudi Arabia tighten airport security procedures at major hubs following the FlyDubai cockpit incident during the week of October 14 to 21, 2026?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Tighter airport security procedures, especially at major hubs like Riyadh, Jeddah, and Tabuk.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q7",
+        "text": "Will oil prices experience a sustained spike caused by a confirmed major hit on Aramco infrastructure during the week of October 14 to 21, 2026?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No sustained oil price spike unless there is a confirmed major hit to Aramco infrastructure or a sudden Hormuz escalation.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q8",
+        "text": "Will Saudi Arabia carry out the execution of Anojan Sivarasa during the week of October 14 to 21, 2026?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No immediate execution in the next 7 days unless Riyadh wants to send a hard line signal.",
+        "legacy_probability": 0.5
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The Saudi-led coalition conducts air strikes on Houthi positions around Mokha and Taiz, while the Houthis retain control of the Bab el-Mandeb corridor through October 21?",

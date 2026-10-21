@@ -6,7 +6,7 @@
   "code": "VN",
   "name": "Vietnam",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T15:10:48+03:00",
+  "generated_at": "2026-10-21T14:15:39+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.82."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.82."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Vietnamese officials issue additional public statements indicating the US-Vietnam trade deal is close or progressing well?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: To Lam has already said negotiations are positive and 'very close.' Expect more of that in the next few days, probably in one of these forms: A new statement from To Lam or a senior official.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will the VN-Index remain volatile in the week following the FTSE Russell emerging-market upgrade?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The VN-Index probably stays volatile, maybe moving within a rough -3% to +2% range over several sessions.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will Vietnamese central authorities announce relief packages or emergency funds for typhoon-damaged coastal provinces?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Relief packages, emergency funds, or material support announced by central authorities.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will North Korea's vice defence minister visit to Vietnam produce an official diplomatic statement emphasizing cooperation and regional peace?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Official statements will probably emphasize 'cooperation,' 'regional peace,' and 'security exchange.'",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will a formal US-Vietnam trade framework or near-final deal be announced within the week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not put the final signature at 90% probability within 7 days. The language is still 'close,' not 'done.'",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will another public update on the SMBC-VPBank investment talks be announced?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: My guess: a full final deal may not be signed in just 7 days, but there is a decent chance of another visible update.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will Tesla make a full product launch in Vietnam during this week?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not expect a full Tesla launch next week. But I would expect the rivalry to become a bigger talking point: 'Tesla comes, but VinFast still dominates.'",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will a senior Vietnamese leader or prime minister inspect typhoon-affected areas in central coastal provinces?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A senior leader or prime minister inspecting affected areas.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Vietnam's State Securities Commission announces a wider daily trading band or publishes a public consultation on new market rules between October 1 and October 8?",

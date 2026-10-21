@@ -6,7 +6,7 @@
   "code": "GB",
   "name": "United Kingdom",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T14:13:47+03:00",
+  "generated_at": "2026-10-21T14:29:06+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -109,28 +109,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       }
     ]
   },
@@ -175,28 +190,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the UK publicly reframe the Chagos Islands deal as being under review or strengthened in response to US pressure?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: My guess: the UK will not scrap the Chagos deal outright, but it will publicly reframe it as 'under review' or 'being strengthened.'",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q2",
+        "text": "Will the UK deploy or publicly discuss deploying a RAF refuelling aircraft in support of Saudi operations against the Houthis?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A Voyager refuelling aircraft or other RAF assets being deployed or discussed publicly.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q3",
+        "text": "Will a new visible security operation or additional arrests occur near US-linked air bases in the UK?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would not bet on a full terrorist attack next week, but I would expect another visible security operation or at least continued police activity around bases.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q4",
+        "text": "Will government borrowing, spending restraint, and bank windfall tax pressure become a dominant Westminster headline topic?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The next week may not bring a full budget announcement, but I expect fiscal jitters to be one of the main domestic political themes.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will the UK announce or detail a new AI defence partnership, working group, or taskforce with US partners?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More detail on the UK-US AI defence partnership, possibly working groups, joint statements, or pilot projects.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q6",
+        "text": "Will a Pro-Palestine Action rally be held targeting Burnham's first Labour conference as Prime Minister?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: There is also a planned Pro-Palestine Action rally at the first Labour conference he attends as PM, plus arrests of prominent cultural figures over Gaza protests and UK support for Palestinian statehood at the UN.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q7",
+        "text": "Will the Orange Order march through Portadown result in a full-scale riot?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: My base case: tense, noisy, but controlled. A serious incident is possible, but not the most likely outcome.",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q8",
+        "text": "Will a further air traffic control technical fault cause flight disruption at Scottish, northern English, or Northern Irish airports?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More disruption at Scottish, northern English, and possibly Northern Irish airports.",
+        "legacy_probability": 0.7
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A Houthi or Iran-linked strike on a UK-linked vessel or personnel in the Gulf triggers an emergency cabinet meeting and a Burnham statement within 24 hours?",

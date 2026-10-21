@@ -6,7 +6,7 @@
   "code": "SA",
   "name": "Saudi Arabia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T11:20:58+03:00",
+  "generated_at": "2026-10-21T12:59:32+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -109,28 +109,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.63."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -175,28 +190,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.63."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Saudi Arabia experience at least two more Houthi missile or drone attack waves during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would expect at least two or three more Houthi attack waves against Saudi territory in the next week.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q2",
+        "text": "Will Saudi Arabia launch a full-scale ground invasion of Yemen during the following week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I do not think Saudi Arabia will immediately launch a large-scale ground invasion into Houthi-held Yemen in the next week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will Saudi Arabia partially restore the East-West oil pipeline to some operating capacity during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Within the next 3 to 5 days, Saudi Arabia will likely restore some capacity, probably around half or somewhat less than half.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will the East-West oil pipeline be fully restored by the end of the following week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Full restoration by the end of the week is less likely unless the damage was less severe than reported.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will Saudi Arabia secure visible military or air-defense support from at least one major ally during the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If MBS can get even one visible commitment from a major ally in the next few days, it will help calm domestic nerves.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q6",
+        "text": "Will the United States announce a full-scale military operation against the Houthis during the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I do not think the US will launch a full-scale operation in the next week unless Saudi Arabia is hit hard again or the Red Sea oil route becomes badly disrupted.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the Saudi stock market remain weak or highly volatile during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I expect the market to remain weak or highly volatile in the next week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will at least one Houthi attack on Saudi Arabia cause visible damage or minor casualties from falling debris during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would not be surprised if at least one attack causes visible damage or minor casualties from falling debris.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A Houthi missile or drone strike directly hits a Saudi oil terminal, airport, or district within 20 kilometres of Mecca or Medina, killing at least one civilian?",

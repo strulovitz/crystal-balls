@@ -6,7 +6,7 @@
   "code": "US",
   "name": "United States",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T14:38:04+03:00",
+  "generated_at": "2026-10-21T12:01:02+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Federal Reserve deliver a hawkish outcome that keeps 10-year Treasury yields near or above 5%?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Fed delivers a hawkish outcome or aftermath that keeps yields near/above 5%.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will oil prices remain above $95 for most of the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Oil stays above $95 most of the week and possibly breaks back above $100.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q3",
+        "text": "Will there be at least one new U.S.-Iran military incident involving ships, drones, missiles, or coastal targets?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: There is at least one new U.S.-Iran military incident involving ships, drones, missiles, or coastal targets.",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q4",
+        "text": "Will Congress hold at least one major hearing on the Iran war's costs and munitions or on AI risk?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Congress holds at least one major hearing on either the Iran war's costs/munitions or AI risk.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Canada trade war escalate with additional threats, protests, or retaliatory moves?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Canada trade war gets louder before Sept 29, with more threats, protests, or retaliatory moves — but no full collapse of talks.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q6",
+        "text": "Will a formal U.S.-Iran ceasefire be signed?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No formal U.S.-Iran ceasefire signed",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q7",
+        "text": "Will a Trump-Xi summit take place?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No Trump-Xi summit next week",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q8",
+        "text": "Will a major new U.S. AI law be passed by Congress?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No major new U.S. AI law passed",
+        "legacy_probability": 0.8
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The 10-year U.S. Treasury yield spikes above 5.25 percent intraday on the Fed-decision day before closing below 5.00 percent by Friday?",

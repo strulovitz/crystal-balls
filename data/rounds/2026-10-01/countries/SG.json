@@ -6,7 +6,7 @@
   "code": "SG",
   "name": "Singapore",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T11:44:10+03:00",
+  "generated_at": "2026-10-21T13:34:40+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.95."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.95."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Singapore experience at least several hours of unhealthy air quality due to transboundary haze from Indonesian fires?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Very high chance — around 90% — that Singapore gets at least several unhealthy air-quality hours.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q2",
+        "text": "Will the WTA 500 tennis tournament in Singapore proceed as scheduled next week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Very high chance — around 95% — that the tournament proceeds.",
+        "legacy_probability": 0.95
+      },
+      {
+        "id": "Q3",
+        "text": "Will Singapore's maritime authorities issue formal public statements regarding the cargo ship and Chinese fishing vessel collision?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: High chance — around 85% — of formal statements from maritime authorities, P&I clubs, insurers, or shipping companies.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q4",
+        "text": "Will the public auction of seized luxury goods from the money-laundering case generate debate over pricing and how proceeds are distributed?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: High chance — around 85% — that the auction continues and produces more media features.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will the bus-seat fine for propping feet on seats generate viral social media clips and commuter complaints in Singapore?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: High chance — around 75% — of viral clips, PCN complaints, memes, and commuter debate.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q6",
+        "text": "Will business media publish additional headlines about AI firms expanding their operations into Singapore?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: High chance — around 80% — of more business headlines about AI firms expanding into Singapore.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q7",
+        "text": "Will Singapore's government announce a major new labor support package within the next seven days?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not expect a major new labor package within seven days unless the political pressure becomes intense.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Singapore experience a full port shutdown as a result of the ship collision in its shipping lanes?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Unless there is a spill or major blockage, I would not expect a full port shutdown.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Singapore's Ministry of Education or NEA issues a public advisory adjusting outdoor school activities in response to a prolonged high-PSI reading between 1 and 8 October?",

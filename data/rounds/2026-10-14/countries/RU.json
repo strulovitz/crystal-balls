@@ -6,7 +6,7 @@
   "code": "RU",
   "name": "Russia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T22:22:27+03:00",
+  "generated_at": "2026-10-21T15:23:23+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -103,28 +103,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.12."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.15."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -169,28 +184,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.12."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text, stated probability 0.15."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -213,6 +243,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Russia launch a major drone or missile strike wave causing damage to Ukraine's energy or transport infrastructure?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would put a high probability that there will be at least one major Russian strike wave in the next 7 days, probably involving dozens or hundreds of drones/missiles, with damage to energy or transport infrastructure.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will a full NATO–Russia conventional war break out over Kaliningrad?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Probability: low, maybe under 10–15%.",
+        "legacy_probability": 0.12
+      },
+      {
+        "id": "Q3",
+        "text": "Will Russia maintain its diesel export ban throughout the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Continued Russian diesel export restrictions.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will Russia and Ukraine sign a formal ceasefire agreement?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A formal ceasefire agreement is even less likely. Probability: low, maybe under 15%.",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Kremlin issue an official diplomatic statement reacting to Latvia's October 3 election result?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Moscow may issue a diplomatic reaction within hours of the result: either cautious congratulations, cold acknowledgment, or a warning about 'Westernizing' Baltic politics.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will at least one hybrid-war incident or sabotage accusation be reported in a Baltic state, Poland, or Romania?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: At least one minor hybrid incident or accusation involving the Baltics, Poland, Romania, Moldova, or possibly another European country.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the U.S. or EU announce a new sanctions package targeting Russian shipping, banks, or energy companies?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Next week, there is a decent chance of: A new U.S. or EU sanctions package, or at least preparation for one. Targeting of Russian shipping, shadow-fleet vessels, payment intermediaries, banks, or energy traders.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Russia experience a major domestic social crisis or mass protest?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Probability: low to moderate-low, maybe 10–25% for noticeable social tension; much lower for a real crisis.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Turkey and the UN issue a joint technical statement on restarting at least one Black Sea or Azov grain terminal or a monitored maritime corridor by October 21?",

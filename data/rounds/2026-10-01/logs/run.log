@@ -119,3 +119,94 @@
 14:50:28   [IL legacy_questions] attempt 1: 380.2s, prompt_tokens=3213, completion_tokens=3247
 14:50:28 Country 1 of 1: Israel done (380s). Elapsed 6 min. Estimated remaining 0 min.
 14:50:28 Done: 1 countries extracted.
+11:50:21 Extracting 8 questions from the raw texts of legacy round 2026-10-01: 32 countries.
+11:55:25   [US legacy_questions] HTTP 500 on attempt 1: {"error":{"message":"timed out waiting for llama-server to start - ","type":"api_error","param":null,"code":null}}
+
+12:01:02   [US legacy_questions] attempt 2: 336.2s, prompt_tokens=3379, completion_tokens=1960
+12:01:02 Country 1 of 32: United States done (640s). Elapsed 11 min. Estimated remaining 331 min.
+12:06:22   [RU legacy_questions] attempt 1: 320.1s, prompt_tokens=4433, completion_tokens=2539
+12:06:22   [RU legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q5: more than one ' and ' - one event per question
+12:08:43   [RU legacy_questions] attempt 2: 141.3s, prompt_tokens=5150, completion_tokens=1279
+12:08:43 Country 2 of 32: Russia done (461s). Elapsed 18 min. Estimated remaining 275 min.
+12:15:19   [CN legacy_questions] attempt 1: 396.4s, prompt_tokens=2814, completion_tokens=3469
+12:15:19 Country 3 of 32: China done (396s). Elapsed 25 min. Estimated remaining 241 min.
+12:20:42   [CD legacy_questions] attempt 1: 322.4s, prompt_tokens=3323, completion_tokens=2779
+12:20:42 Country 4 of 32: DR Congo done (322s). Elapsed 30 min. Estimated remaining 212 min.
+12:26:21   [IR legacy_questions] attempt 1: 339.1s, prompt_tokens=4244, completion_tokens=2818
+12:26:21 Country 5 of 32: Iran done (339s). Elapsed 36 min. Estimated remaining 194 min.
+12:26:21 Country 6 of 32: Israel already extracted, skipping
+12:30:39   [UA legacy_questions] attempt 1: 257.6s, prompt_tokens=3428, completion_tokens=2193
+12:30:39   [UA legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q1: more than one ' and ' - one event per question
+12:32:42   [UA legacy_questions] attempt 2: 122.9s, prompt_tokens=4158, completion_tokens=1165
+12:32:42 Country 7 of 32: Ukraine done (380s). Elapsed 42 min. Estimated remaining 176 min.
+12:37:40   [KP legacy_questions] attempt 1: 298.0s, prompt_tokens=3379, completion_tokens=2535
+12:37:40 Country 8 of 32: North Korea done (298s). Elapsed 47 min. Estimated remaining 162 min.
+12:42:41   [VE legacy_questions] attempt 1: 301.2s, prompt_tokens=3995, completion_tokens=2469
+12:42:41 Country 9 of 32: Venezuela done (301s). Elapsed 52 min. Estimated remaining 150 min.
+12:49:08   [CA legacy_questions] attempt 1: 386.9s, prompt_tokens=3486, completion_tokens=3303
+12:49:08 Country 10 of 32: Canada done (387s). Elapsed 59 min. Estimated remaining 144 min.
+12:54:16   [IQ legacy_questions] attempt 1: 307.8s, prompt_tokens=3511, completion_tokens=2590
+12:54:16 Country 11 of 32: Iraq done (308s). Elapsed 64 min. Estimated remaining 134 min.
+12:59:32   [SA legacy_questions] attempt 1: 316.9s, prompt_tokens=4240, completion_tokens=2601
+12:59:32 Country 12 of 32: Saudi Arabia done (317s). Elapsed 69 min. Estimated remaining 126 min.
+13:04:29   [JP legacy_questions] attempt 1: 296.4s, prompt_tokens=4460, completion_tokens=2477
+13:04:29 Country 13 of 32: Japan done (296s). Elapsed 74 min. Estimated remaining 117 min.
+13:09:40   [KR legacy_questions] attempt 1: 310.6s, prompt_tokens=4182, completion_tokens=2750
+13:09:40 Country 14 of 32: South Korea done (311s). Elapsed 79 min. Estimated remaining 110 min.
+13:15:39   [TW legacy_questions] attempt 1: 359.4s, prompt_tokens=3258, completion_tokens=3148
+13:15:39 Country 15 of 32: Taiwan done (359s). Elapsed 85 min. Estimated remaining 104 min.
+13:22:09   [DE legacy_questions] attempt 1: 389.8s, prompt_tokens=4913, completion_tokens=3241
+13:22:09 Country 16 of 32: Germany done (390s). Elapsed 92 min. Estimated remaining 98 min.
+13:26:24   [NL legacy_questions] attempt 1: 255.4s, prompt_tokens=3515, completion_tokens=2198
+13:26:24 Country 17 of 32: Netherlands done (255s). Elapsed 96 min. Estimated remaining 90 min.
+13:30:40   [CH legacy_questions] attempt 1: 255.9s, prompt_tokens=4416, completion_tokens=2262
+13:30:40 Country 18 of 32: Switzerland done (256s). Elapsed 100 min. Estimated remaining 83 min.
+13:34:40   [SG legacy_questions] attempt 1: 240.0s, prompt_tokens=4464, completion_tokens=1983
+13:34:40 Country 19 of 32: Singapore done (240s). Elapsed 104 min. Estimated remaining 75 min.
+13:39:23   [BR legacy_questions] attempt 1: 282.5s, prompt_tokens=4721, completion_tokens=2381
+13:39:23 Country 20 of 32: Brazil done (283s). Elapsed 109 min. Estimated remaining 69 min.
+13:44:40   [AU legacy_questions] attempt 1: 317.5s, prompt_tokens=4020, completion_tokens=2710
+13:44:40   [AU legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q2: more than one ' and ' - one event per question
+13:47:19   [AU legacy_questions] attempt 2: 158.7s, prompt_tokens=4984, completion_tokens=1428
+13:47:19 Country 21 of 32: Australia done (476s). Elapsed 117 min. Estimated remaining 64 min.
+13:54:48   [ID legacy_questions] attempt 1: 449.2s, prompt_tokens=4041, completion_tokens=3704
+13:54:48 Country 22 of 32: Indonesia done (449s). Elapsed 124 min. Estimated remaining 59 min.
+13:59:44   [CL legacy_questions] attempt 1: 295.5s, prompt_tokens=3760, completion_tokens=2493
+13:59:44 Country 23 of 32: Chile done (295s). Elapsed 129 min. Estimated remaining 53 min.
+14:06:01   [PE legacy_questions] attempt 1: 377.0s, prompt_tokens=4055, completion_tokens=3220
+14:06:01   [PE legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q4: more than one ' and ' - one event per question
+14:09:00   [PE legacy_questions] attempt 2: 179.4s, prompt_tokens=4949, completion_tokens=1548
+14:09:00 Country 24 of 32: Peru done (556s). Elapsed 139 min. Estimated remaining 48 min.
+14:15:39   [VN legacy_questions] attempt 1: 399.1s, prompt_tokens=3633, completion_tokens=3289
+14:15:39 Country 25 of 32: Vietnam done (399s). Elapsed 145 min. Estimated remaining 42 min.
+14:21:51   [FR legacy_questions] attempt 1: 372.2s, prompt_tokens=3392, completion_tokens=3132
+14:21:51 Country 26 of 32: France done (372s). Elapsed 152 min. Estimated remaining 36 min.
+14:29:06   [GB legacy_questions] attempt 1: 434.8s, prompt_tokens=4244, completion_tokens=3407
+14:29:06 Country 27 of 32: United Kingdom done (435s). Elapsed 159 min. Estimated remaining 31 min.
+14:37:07   [IT legacy_questions] attempt 1: 481.0s, prompt_tokens=5312, completion_tokens=3708
+14:37:07   [IT legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q1: more than one ' and ' - one event per question
+14:40:31   [IT legacy_questions] attempt 2: 203.8s, prompt_tokens=6198, completion_tokens=1757
+14:40:31 Country 28 of 32: Italy done (685s). Elapsed 170 min. Estimated remaining 25 min.
+14:46:21   [IN legacy_questions] attempt 1: 350.2s, prompt_tokens=4980, completion_tokens=2877
+14:46:21 Country 29 of 32: India done (350s). Elapsed 176 min. Estimated remaining 19 min.
+14:51:57   [EG legacy_questions] attempt 1: 335.4s, prompt_tokens=3422, completion_tokens=2816
+14:51:57   [EG legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q1: more than one ' and ' - one event per question
+14:54:22   [EG legacy_questions] attempt 2: 145.5s, prompt_tokens=4318, completion_tokens=1324
+14:54:22 Country 30 of 32: Egypt done (481s). Elapsed 184 min. Estimated remaining 13 min.
+14:59:53   [TR legacy_questions] attempt 1: 330.9s, prompt_tokens=3145, completion_tokens=2929
+14:59:53   [TR legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q2: more than one ' and ' - one event per question
+15:02:36   [TR legacy_questions] attempt 2: 162.9s, prompt_tokens=4074, completion_tokens=1519
+15:02:36 Country 31 of 32: Turkey done (494s). Elapsed 192 min. Estimated remaining 6 min.
+15:08:25   [ZA legacy_questions] attempt 1: 349.4s, prompt_tokens=3076, completion_tokens=3171
+15:08:25   [ZA legacy_questions] attempt 1 rejected: Legacy questions validation failed:
+  - Q4: more than one ' and ' - one event per question
+15:11:16   [ZA legacy_questions] attempt 2: 170.7s, prompt_tokens=4072, completion_tokens=1612
+15:11:16 Country 32 of 32: South Africa done (520s). Elapsed 201 min. Estimated remaining 0 min.
+15:11:16 Done: 31 countries extracted.

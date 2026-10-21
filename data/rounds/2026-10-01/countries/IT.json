@@ -6,7 +6,7 @@
   "code": "IT",
   "name": "Italy",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T09:05:47+03:00",
+  "generated_at": "2026-10-21T14:40:31+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -121,28 +121,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -187,28 +202,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -231,6 +261,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Italy's school decree on veils and foreign students be formally published through the official state process?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The decree will be published or formally pushed through the official state process, triggering immediate legal and political scrutiny.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Italy's 10-year BTP bond yield rise during the week in response to the confirmed 3.1% deficit for 2025?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Italy's 10-year BTP yield may wobble upward during the week if the market senses that Meloni is under pressure to spend rather than consolidate.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will a completed bank merger or formal acquisition involving Banco BPM, Intesa Sanpaolo, UniCredit, Credit Agricole, or Monte dei Paschi di Siena be announced within the next seven days?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: no completed mega-merger in the next seven days, but the story will heat up.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the Colosseum in Rome reopen to the public with new safety rules or capacity restrictions following the fatal worker incident?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: the Colosseum reopens, probably within the week, but not without new safety rules or public discussion.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will Vannacci's breakaway far-right party win a parliamentary seat or produce a shock electoral result that creates an immediate crisis for Meloni's government?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: My prediction: Vannacci does not immediately unseat Meloni, but he becomes a constant irritant.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will Italy lose its next Nations League football match badly enough to trigger serious calls for Mancini's dismissal?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Italy loses its next Nations League match badly. That would turn Mancini's position from uncomfortable to genuinely dangerous.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will additional Italian fuel refiners or distributors announce price cuts or adjustments to pump prices following Eni's reduction?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More refiners or distributors following Eni with price adjustments.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will environmental groups organize protests or public statements against Italy's nuclear power implementation plans?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Environmental groups organizing protests or statements, especially in regions associated with old nuclear sites or energy infrastructure.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Vannacci's party achieves a vote share above 3 percent in its first parliamentary test, and at least one League MP publicly calls for a floor vote on the school decree within 72 hours?",

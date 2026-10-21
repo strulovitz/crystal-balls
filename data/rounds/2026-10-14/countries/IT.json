@@ -6,7 +6,7 @@
   "code": "IT",
   "name": "Italy",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T20:32:47+03:00",
+  "generated_at": "2026-10-21T18:04:17+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -117,27 +117,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -183,27 +198,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "reason": "Legacy forecast text, stated probability 0.3."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Pope Leo XIV undergo lung surgery during the following week?",
+        "domain": "health",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The surgery to happen within days.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q2",
+        "text": "Will the Italian opposition file a formal legal challenge to the new electoral law before the Constitutional Court?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A formal legal challenge or at least a serious threat of one before the Constitutional Court.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Italian government announce an agreement with the EU allowing natural gas price flexibility?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government to announce that it has secured EU flexibility on gas pricing.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q4",
+        "text": "Will the Intesa Sanpaolo bid for Monte dei Paschi generate major drama in Italian banking headlines?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: banking headlines will dominate Italian financial news.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Italian government announce emergency aid for Sicily's tornado damage and will local protests follow the Pfizer job cuts?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Emergency aid announcements for tornado damage. Local protests over housing, schools, roads, and insurance claims.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q6",
+        "text": "Will large-scale Gaza-related protests take place in Rome during the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More demonstrations in Rome, Milan, Naples, Turin, or Bologna.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q7",
+        "text": "Will the Meloni government face a full coalition crisis or surprise confidence vote in the following week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: an outright collapse in the next 7 days is not the base case, but a visible internal fight is possible if budget details disappoint.",
+        "legacy_probability": 0.3
+      },
+      {
+        "id": "Q8",
+        "text": "Will Russia issue diplomatic protests or nuclear warnings in response to NATO's Steadfast Noon exercise hosted by Italy?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Russian commentary or diplomatic protests.",
+        "legacy_probability": 0.8
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Italy's 10-year BTP yield rises by more than 10 basis points above the October 13 close as bond markets test the 2027 budget plan?",

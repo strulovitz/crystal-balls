@@ -6,7 +6,7 @@
   "code": "EG",
   "name": "Egypt",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T17:52:19+03:00",
+  "generated_at": "2026-10-21T18:16:48+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.85."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.2."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.75."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Egypt issue a formal public statement backing Saudi Arabia in response to the Houthi strikes on the Riyadh airport?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: This is almost certain. Egypt already said it is ready to offer \"any kind\" of support to Saudi Arabia. In the next few days, expect at least one more formal Egyptian statement, probably from the foreign ministry or presidential spokesman, s",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will Egyptian and Sudanese foreign ministries hold consultations or phone talks about the gold mine airstrike near the shared border?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Egyptian and Sudanese foreign ministries to hold consultations or phone talks.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Banque du Caire IPO subscription process open or be heavily discussed on Egypt's stock exchange within the next week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The IPO subscription process to open or be heavily discussed within days.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will a court hearing or pretrial detention review take place for at least some of the detained Egyptian journalists?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A court hearing or pretrial detention review for at least some of the journalists.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will Baha'i families or community members stage a sit-in or gathering near the cemetery in protest over running out of burial space?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Baha'i families or community members staging a small sit-in or gathering near the cemetery.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will Egypt announce a full Gaza ceasefire breakthrough in the next week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not predict a full Gaza breakthrough next week unless something dramatic happens on the ground.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will a major Egyptian-Sudanese border clash occur in the next week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A major Egyptian-Sudanese border clash. Possible, but I would not bet on it in just one week unless the gold mine incident produces a very strong public reaction or a military accident.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Egypt experience a sudden currency devaluation in the next week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A sudden currency devaluation. Possible if import pressures worsen, but the government probably wants to avoid that while pushing IPOs and inflation-control messages.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Egypt's foreign ministry issues a formal statement backing Saudi Arabia and pledging Red Sea shipping support within the week?",

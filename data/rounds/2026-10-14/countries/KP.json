@@ -6,7 +6,7 @@
   "code": "KP",
   "name": "North Korea",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T21:45:44+03:00",
+  "generated_at": "2026-10-21T15:55:18+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,27 +110,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.88."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text, stated probability 0.42."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.18."
       }
     ]
   },
@@ -176,27 +191,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.88."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q5",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text, stated probability 0.42."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.18."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will North Korea announce at least one more missile or air-defense related military activity?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: within the next week, North Korea will announce at least one more missile-related or air-defense-related military activity.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will Kim Jong Un appear in North Korean state media reports?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect more footage or reports of him inspecting units, reviewing missile systems, listening to military briefings, or visiting defense-related sites.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q3",
+        "text": "Will Kim Yo Jong or the North Korean Foreign Ministry issue another sharp statement against South Korea over the DMZ apology demand?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect another official statement in the next few days saying something like: Seoul is being provocative, the mine blast was a premeditated incident, demanding an apology is an insult to national dignity.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q4",
+        "text": "Will reports indicate additional North Korean troops or equipment moving toward Russia?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: the physical movement will probably continue.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q5",
+        "text": "Will another minor incident occur along the DMZ between North and South Korea?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Confidence: medium — around 35–50%",
+        "legacy_probability": 0.42
+      },
+      {
+        "id": "Q6",
+        "text": "Will North Korea use the Ukraine prisoner transfer as propaganda against South Korea?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Ukraine–South Korea dispute is useful for Pyongyang. Seoul is angry at Kyiv, and that makes South Korea look diplomatically embarrassed.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q7",
+        "text": "Will North Korea conduct a nuclear test?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A nuclear test is possible, but I would not put it as the most likely event in just the next seven days.",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q8",
+        "text": "Will a meeting between Trump and Kim Jong Un be announced?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A meeting could be announced soon, but not necessarily within the next seven days.",
+        "legacy_probability": 0.18
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that State media reports Kim Jong Un at a military site, inspecting equipment or listening to a briefing?",

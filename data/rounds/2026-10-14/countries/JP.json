@@ -6,7 +6,7 @@
   "code": "JP",
   "name": "Japan",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T21:05:53+03:00",
+  "generated_at": "2026-10-21T16:29:21+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -122,28 +122,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.88."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.33."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.68."
+        "reason": "Legacy forecast text, stated probability 0.78."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.73."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.33."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -188,28 +203,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.88."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.33."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.68."
+        "reason": "Legacy forecast text, stated probability 0.78."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.73."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.33."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -232,6 +262,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Japanese government demand stricter US military discipline or temporary operational restrictions around bases in response to the Okinawa US Marine murder case?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Japanese government likely calling for stricter US military discipline, better information sharing, and possibly temporary operational restrictions around sensitive areas.",
+        "legacy_probability": 0.88
+      },
+      {
+        "id": "Q2",
+        "text": "Will the Japanese government release detailed communication about the first five years of Takaichi's large investment plan to reassure bond markets?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More detailed communication from the government about the first five years of the large investment plan.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will Japanese beer makers Asahi, Kirin, Suntory, and Sapporo issue public statements saying they will cooperate with the Fair Trade Commission's cartel investigation?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Statements from Asahi, Kirin, Suntory, and Sapporo saying they will cooperate.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q4",
+        "text": "Will Japanese companies announce governance improvements or share buybacks to avoid removal from the Topix index?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Companies announcing governance improvements, share buybacks, consolidations, or other measures to avoid removal.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Asian Games organizing committee hold an official post-event review or press conference addressing operational problems and organizational criticism?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: An official post-event review or press conference from the organizing committee.",
+        "legacy_probability": 0.78
+      },
+      {
+        "id": "Q6",
+        "text": "Will Toyama city officials hold a press conference or face resignation pressure over the census number inflation scandal?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: City officials holding press conferences or issuing explanations. Possible resignation pressure on the mayor or other senior officials.",
+        "legacy_probability": 0.73
+      },
+      {
+        "id": "Q7",
+        "text": "Will North Korea conduct another ballistic missile launch within the next seven days?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Another North Korean missile test.",
+        "legacy_probability": 0.33
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Bank of Japan hold an emergency meeting in the next seven days?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No emergency BOJ meeting unless yields or the yen move violently.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The US military formally requests custody transfer of the arrested Marine in Okinawa, triggering a protest of several hundred people near Naha or Kadena base?",

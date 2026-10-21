@@ -6,7 +6,7 @@
   "code": "VE",
   "name": "Venezuela",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T02:14:31+03:00",
+  "generated_at": "2026-10-21T16:00:05+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -104,28 +104,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -170,28 +185,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -214,6 +244,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the issue of Maria Corina Machado's safe return become the dominant headline in Venezuela during the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 70% chance that Machado's safe-return issue becomes the dominant headline in Venezuela next week.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q2",
+        "text": "Will at least two new oil, gas, or mining investment-related announcements or deal frameworks appear in Venezuela during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 65% chance at least two new deal-related announcements appear.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Venezuelan government make a public move or announcement to address power shortages during the following week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 75% chance the government makes some public move on power shortages.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q4",
+        "text": "Will Senate Democrats continue to press strongly on the Pentagon-linked Venezuela oil stake during the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 70% chance Senate Democrats keep pressing the Pentagon oil issue strongly next week.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q5",
+        "text": "Will power-related protests continue in Venezuela during the following week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 65% chance power-related protests continue next week.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q6",
+        "text": "Will a full IMF rescue program for Venezuela be announced during the following week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not bet on these happening by October 11: ... a full IMF rescue program being announced",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will another extradition or arrest-related story involving Venezuela and the United States appear during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 50% chance another extradition/arrest-related story appears in the next seven days.",
+        "legacy_probability": 0.5
+      },
+      {
+        "id": "Q8",
+        "text": "Will the Venezuelan government fully repeal the anti-hate law during the following week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not bet on these happening by October 11: ... the government fully repealing the anti-hate law without negotiation",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Between October 8 and 14, Maria Corina Machado physically lands in Venezuela under a heavy security operation, and the opposition immediately issues a formal demand for a presidential election timetable?",

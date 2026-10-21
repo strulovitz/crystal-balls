@@ -6,7 +6,7 @@
   "code": "ID",
   "name": "Indonesia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T07:42:23+03:00",
+  "generated_at": "2026-10-21T13:54:48+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.88."
+        "reason": "Legacy forecast text, stated probability 0.775."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.9."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.525."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.275."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.88."
+        "reason": "Legacy forecast text, stated probability 0.775."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text, stated probability 0.9."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.525."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.275."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will wildfires in Sumatra and Borneo remain Indonesia's main visible crisis during the week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The fires in Sumatra and Borneo are still not fully contained.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will the death toll from the capsized Java Sea ferry rise above 28 during the week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The chance of recovering more bodies increases sharply. I would not be surprised if the death toll climbs into the 40s or 50s over the next few days.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q3",
+        "text": "Will Bank Indonesia keep its policy rates unchanged and focus on rupiah stability during the week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Next week it will likely continue verbal guidance, FX support measures, and emphasis on rupiah resilience.",
+        "legacy_probability": 0.875
+      },
+      {
+        "id": "Q4",
+        "text": "Will the Indonesian parliament advance or finalize the 2027 national budget package during the week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The full DPR may vote on or finalize the budget package in the coming days.",
+        "legacy_probability": 0.775
+      },
+      {
+        "id": "Q5",
+        "text": "Will Indonesia begin collecting income taxes from e-commerce sellers starting 1 October 2026?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Indonesia is set to begin making e-commerce platforms collect income taxes from sellers starting 1 October, a month earlier than previously announced.",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q6",
+        "text": "Will the free nutritious meals programme face a new food safety incident or strong public demands for vendor audits during the week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If another poisoning incident happens next week, it could become a major scandal. Even if no new large incident occurs, opposition parties, consumer groups, and local governments may demand stricter vendor rules, transparent audits, and cle",
+        "legacy_probability": 0.525
+      },
+      {
+        "id": "Q7",
+        "text": "Will Indonesia announce further diplomatic details on its Gaza stabilization role or its UN Congo peacekeeping commitment during the week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Next week may bring more details about Indonesia's role, deployment planning, or training arrangements.",
+        "legacy_probability": 0.65
+      },
+      {
+        "id": "Q8",
+        "text": "Will the rupiah weaken sharply enough to force Bank Indonesia into stronger currency intervention during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: If the currency weakens sharply next week, Bank Indonesia may use stronger language, expand hedging incentives, or increase FX intervention. A full crisis is less likely, but a visible wobble would give markets and media another reason to q",
+        "legacy_probability": 0.275
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Malaysia or Singapore issues a formal diplomatic note or public complaint to Indonesia over transboundary haze during the 1-8 October window, citing AQI readings above 200 in affected cities?",

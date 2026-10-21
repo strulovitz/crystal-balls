@@ -6,7 +6,7 @@
   "code": "AU",
   "name": "Australia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T16:14:52+03:00",
+  "generated_at": "2026-10-21T17:20:38+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,28 +110,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
       }
     ]
   },
@@ -176,28 +191,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.15."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the Australian government announce it is considering mandatory AI breach reporting or a formal AI oversight taskforce following the OpenAI and Anthropic parliamentary hearing?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government saying it is considering mandatory breach reporting, stricter model testing rules, or a joint taskforce with cybersecurity agencies.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will the coal mine operator or a coal industry group make a formal public response to the High Court's landmark climate ruling?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The mining company or its backers making a formal public response, possibly seeking clarification, testing legal options, or preparing an appeal-related statement.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q3",
+        "text": "Will Australian police release additional details about the FlyDubai co-pilot's university history and visa status without announcing a major new arrest?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: My prediction: more disclosures than arrests. The base case is that the probe continues and produces more background details.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q4",
+        "text": "Will the opposition release a more detailed immigration cut plan including specific numbers and policy measures?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The opposition turning its promise into a more detailed plan, with numbers, visa changes, border measures, and possibly offshore processing or third-country arrangement ideas.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will cost-of-living stress from high interest rates remain a prominent theme in Australian news headlines?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More cost-of-living headlines around mortgages, fuel prices, and household budgets.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q6",
+        "text": "Will a full AI law be passed by the Australian parliament during this week?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: My prediction: no full AI law gets passed in one week, but the political momentum will clearly favour tighter oversight.",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q7",
+        "text": "Will the coal mine physically shut down immediately following the High Court ruling?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: My prediction: the mine probably does not shut down immediately unless there is an interim order, but approval uncertainty rises.",
+        "legacy_probability": 0.15
+      },
+      {
+        "id": "Q8",
+        "text": "Will Brazil's consular services in Australia be restored or partially reopened following its election?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Brazil consular services likely being restored or partially reopened after the election, with a security review statement.",
+        "legacy_probability": 0.5
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The OpenAI breach disclosure expands to name at least one additional Australian government agency or dataset beyond the initially reported scope?",

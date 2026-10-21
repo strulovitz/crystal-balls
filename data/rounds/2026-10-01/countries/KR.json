@@ -6,7 +6,7 @@
   "code": "KR",
   "name": "South Korea",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T12:19:47+03:00",
+  "generated_at": "2026-10-21T13:09:40+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -111,27 +111,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.52."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.675."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -177,27 +192,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.52."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.675."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -220,6 +250,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will President Lee Jae Myung state at the UN General Assembly that South Korea will not be dragged into the Middle East conflict while deepening US-Korea ties on investment, minerals, and AI?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Lee at UN says Korea will not be dragged into Middle East war, but will deepen US-Korea investment, minerals, and AI ties.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will North Korea launch another short-range ballistic missile or demonstrate a new hypersonic weapon system during the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would expect Pyongyang to keep testing during Lee's UN week.",
+        "legacy_probability": 0.675
+      },
+      {
+        "id": "Q3",
+        "text": "Will North Korea fire a full ICBM salvo or have a major NLL flare-up in the following week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No full North Korean ICBM salvo or major NLL flare-up.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the South Korean government announce a new justice minister nominee following the latest withdrawal in the following week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A new justice minister nominee after the latest withdrawal.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will the KOSPI swing sharply during the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: KOSPI will swing sharply, but I would not bet on a crash unless there is a sudden Iran/oil shock or US-China trade reversal.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will the $350 billion Korea-US investment deal be finalized and signed in the following week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No final $350 billion Korea-US investment deal signed in one week.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the dispute between Seoul's mayor and the president over green space produce additional public statements or press conferences in the following week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: I would not expect it to cause a constitutional crisis, but it will probably produce more public statements, press conferences, or policy clashes.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will President Lee Jae Myung resign or will there be a cabinet collapse in South Korea in the following week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No resignation of President Lee or cabinet collapse.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that President Lee Jae Myung signs a Korea-Mexico joint statement covering trade, energy, or critical minerals during the UN General Assembly session?",

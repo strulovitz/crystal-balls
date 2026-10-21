@@ -6,7 +6,7 @@
   "code": "CH",
   "name": "Switzerland",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T00:00:16+03:00",
+  "generated_at": "2026-10-21T17:01:40+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.9."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.875."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q4",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.65."
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.65."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Guy Parmelin's resignation dominate Swiss political news coverage this week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Guy Parmelin's resignation will keep dominating Swiss political coverage Confidence: very high, maybe 85–95%",
+        "legacy_probability": 0.9
+      },
+      {
+        "id": "Q2",
+        "text": "Will UBS announce a formal decision to relocate its headquarters outside Switzerland?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: My prediction: UBS will not actually leave Switzerland next week. That would be too big, too fast, and too politically explosive.",
+        "legacy_probability": 0.875
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Court of Arbitration for Sport in Lausanne issue a ruling or procedural decision in the Senegal-Morocco Africa Cup of Nations title appeal?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The next week will produce either a ruling or a very clear procedural outcome from Lausanne.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q4",
+        "text": "Will the Swiss National Bank intervene in foreign exchange markets or issue an unexpected monetary policy statement during the week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: SNB FX intervention or a stronger-than-expected monetary statement Probability: maybe 20–30%",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Swiss franc remain stronger than the euro for most of the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The franc to stay bid against the euro if France's debt/budget problems worsen.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Crans-Montana organizing committee issue a public statement or appoint an interim chair regarding the suspended Alpine skiing world championships president?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: A statement or clarification from the organizing committee. Possible appointment of an interim chair or confirmation that the suspended president remains formally in place but limited in powers.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q7",
+        "text": "Will Swiss glacier loss and drought coverage generate a public climate-and-tourism policy debate?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Glacier loss and drought imagery will turn into a climate/tourism debate Confidence: high, maybe 75–85%",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q8",
+        "text": "Will Swiss government officials issue public statements related to the Sudan ceasefire resolution during the week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Swiss foreign ministry statements or quiet diplomacy.",
+        "legacy_probability": 0.65
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The CAS panel in Lausanne issues a decision that orders a replay, grants partial relief to Senegal, or issues a technical ruling rather than simply upholding Morocco's default victory?",

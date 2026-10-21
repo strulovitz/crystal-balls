@@ -6,7 +6,7 @@
   "code": "US",
   "name": "United States",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T01:57:34+03:00",
+  "generated_at": "2026-10-21T15:16:11+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -128,28 +128,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.35."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -194,28 +209,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.5."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.35."
       },
       {
         "id": "Q3",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -238,6 +268,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will the U.S. announce a narrow Iran trust-building framework that includes some Strait of Hormuz movement and limited sanctions relief?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 50%: No full deal, but a narrow trust-building framework is announced or floated, with some Hormuz movement and limited sanctions relief.",
+        "legacy_probability": 0.5
+      },
+      {
+        "id": "Q2",
+        "text": "Will the U.S. conduct limited strikes against Iranian or Houthi-linked targets?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 35%: Limited U.S. strikes or a near-strike event, framed as \"we are winning very soon.\"",
+        "legacy_probability": 0.35
+      },
+      {
+        "id": "Q3",
+        "text": "Will the U.S. and Iran reach a full peace deal?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No full U.S.-Iran peace deal.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will the U.S. 10-year Treasury yield remain elevated and volatile?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The 10-year Treasury yield to stay elevated and volatile.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will the U.S. press Europe to release strategic diesel reserves to help lower global fuel prices?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More pressure on Europe to release strategic diesel reserves.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will a major new federal AI safety law be enacted in the U.S.?",
+        "domain": "technology",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: No major new federal AI safety law.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will the U.S. Congress hold symbolic votes on Iran war oversight or war powers?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More symbolic votes on Iran war oversight or war powers.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Trump publicly declare that the U.S. is close to total victory in the Iran war?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The week will probably end with Trump saying something like: \"We are close to total victory,\" or \"Iran just got a message.\"",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The U.S. Navy or Air Force conducts a limited strike package against at least one Iranian missile site, drone facility, coastal-defense battery, or Houthi-linked target in the region?",

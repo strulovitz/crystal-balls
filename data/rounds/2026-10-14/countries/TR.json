@@ -6,7 +6,7 @@
   "code": "TR",
   "name": "Turkey",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T00:54:36+03:00",
+  "generated_at": "2026-10-21T18:22:28+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -115,28 +115,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -181,28 +196,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.35."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.25."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.7."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.6."
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.4."
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -225,6 +255,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Halk TV remain under government-appointed management or contested legal control during the week?",
+        "domain": "society",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Halk TV will stay under government-appointed management, in legal limbo, or under contested control for at least several more days.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will AKP move to consolidate practical control over Izmir Metropolitan Municipality?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: AKP will try quickly to consolidate practical control over Izmir Metropolitan Municipality.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Turkish government formally submit or prepare to submit the Mecca Joint Defence Agreement to the Grand National Assembly?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The government will formally submit or prepare to submit the agreement to the Grand National Assembly.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q4",
+        "text": "Will Turkey clarify or expand its defensive support package to Saudi Arabia against the Houthis?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Ankara will likely clarify or expand its support package to Saudi Arabia.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Turkish lira weaken further against the US dollar over the coming days?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The lira may weaken further over the next few days, especially if oil prices, inflation expectations, or capital outflows worsen.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Wealth Fund takeover of Ziraat and Halkbank Islamic units move forward or receive regulatory approval?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The transfer will likely move forward or receive regulatory approval in the coming days.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q7",
+        "text": "Will new PKK withdrawal steps or verification actions be announced during the week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More withdrawals or verification steps may be announced.",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Halk TV fully return to its original independent management within the week?",
+        "domain": "society",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Lower confidence: whether the channel fully returns to independent control within 7 days. I would say less likely unless there is a strong court ruling or political pressure point.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A commercial vessel with Turkish crew or ownership is struck by a drone or missile in Black Sea waters between October 14 and 21?",

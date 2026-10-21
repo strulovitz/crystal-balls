@@ -6,7 +6,7 @@
   "code": "ID",
   "name": "Indonesia",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T19:07:48+03:00",
+  "generated_at": "2026-10-21T17:25:59+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -117,27 +117,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text, stated probability 0.62."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.67."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.2."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -183,27 +198,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
       },
       {
         "id": "Q3",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.62."
+        "reason": "Legacy forecast text, stated probability 0.62."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.67."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.18."
+        "reason": "Legacy forecast text, stated probability 0.25."
+      },
+      {
+        "id": "Q7",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.2."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will haze worsen in at least one major Indonesian region before improving during this week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Haze worsens in at least one major Indonesian region before improving. Very likely.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q2",
+        "text": "Will Indonesia's finance ministry announce additional spending cuts or budget reallocations during this week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The finance ministry announces additional spending cuts or budget reallocations. Likely.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q3",
+        "text": "Will Singapore and Malaysia become more vocal in their public criticism of Indonesian transboundary haze this week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Singapore and Malaysia become more vocal about Indonesian haze. Likely.",
+        "legacy_probability": 0.62
+      },
+      {
+        "id": "Q4",
+        "text": "Will local governments in Borneo declare water emergencies or expand emergency water distribution during this week?",
+        "domain": "environment",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Local governments in Borneo declare water emergencies or expand emergency water distribution. Medium-high chance.",
+        "legacy_probability": 0.67
+      },
+      {
+        "id": "Q5",
+        "text": "Will the Jakarta Composite Index remain volatile without making a strong sustained recovery during this week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: JCI remains volatile and does not make a strong sustained recovery this week. Likely.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Jokowi or Gibran credential controversy explode into a constitutional crisis during this week?",
+        "domain": "politics",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: The Jokowi/Gibran credential controversy remains active but does not explode into a constitutional crisis. Likely.",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q7",
+        "text": "Will a major Anak Krakatau eruption or tsunami warning occur during this week?",
+        "domain": "environment",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A major Anak Krakatau eruption or tsunami warning occurs. Low chance, unless seismic activity suddenly escalates.",
+        "legacy_probability": 0.2
+      },
+      {
+        "id": "Q8",
+        "text": "Will Bank Indonesia implement an emergency rate hike during this week?",
+        "domain": "economy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: I would not expect an emergency rate hike unless there is a sudden external shock, such as a sharp oil price spike, stronger hawkish Fed signal, or big foreign outflow.",
+        "legacy_probability": null
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that Active fire hotspots in Kalimantan increase for a second consecutive week, but the BNPB simultaneously reports at least one district where fire conditions improved due to rainfall?",

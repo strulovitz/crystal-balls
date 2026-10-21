@@ -6,7 +6,7 @@
   "code": "TW",
   "name": "Taiwan",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T00:27:50+03:00",
+  "generated_at": "2026-10-21T16:40:55+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -122,28 +122,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.33."
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.725."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.625."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.575."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.075."
       }
     ]
   },
@@ -188,28 +203,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.8."
       },
       {
         "id": "Q2",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.33."
+        "reason": "Legacy forecast text, stated probability 0.25."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.48."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.725."
       },
       {
         "id": "Q4",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.58."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.75."
+      },
+      {
+        "id": "Q6",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.625."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.575."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.075."
       }
     ]
   },
@@ -232,6 +262,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will China have at least one new coast guard or maritime incident near Taiwan in the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Expect at least one new coast guard or maritime incident in the next week. Probably not a full collision, but enough to make global news.",
+        "legacy_probability": 0.8
+      },
+      {
+        "id": "Q2",
+        "text": "Will the US announce a full major arms-sale package for Taiwan in the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Probability of a full major arms-sale announcement in the next week: maybe 20–30%.",
+        "legacy_probability": 0.25
+      },
+      {
+        "id": "Q3",
+        "text": "Will the Micron factory strike in Taiwan become a major domestic and market story in the following week?",
+        "domain": "technology",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The Micron issue will likely dominate Taiwan business news next week.",
+        "legacy_probability": 0.725
+      },
+      {
+        "id": "Q4",
+        "text": "Will Taiwan's air force make official announcements or public presentations about the newly delivered F-16V jets in the following week?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: In the next week, this will become a symbolic story rather than an operational one. Expect: Air Force statements about training. Photos and official announcements.",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q5",
+        "text": "Will former President Tsai Ing-wen's US visit generate diplomatic commentary and Chinese complaints in the following week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: Tsai's trip will add to the diplomatic noise. It may not change policy immediately, but it will keep Taiwan on the US political agenda.",
+        "legacy_probability": 0.75
+      },
+      {
+        "id": "Q6",
+        "text": "Will Taiwan's government release more details about its $13 billion extra energy spending plan in the following week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: More detail on how the spending will be used. Opposition criticism that the money is too big, too late, or politically motivated.",
+        "legacy_probability": 0.625
+      },
+      {
+        "id": "Q7",
+        "text": "Will Taiwan's high flu numbers generate public-health headlines about hospital crowding or school closures in the following week?",
+        "domain": "health",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: If flu numbers stay high, expect more public-health headlines, especially if there are school closures or hospital strain.",
+        "legacy_probability": 0.575
+      },
+      {
+        "id": "Q8",
+        "text": "Will China launch a full-scale invasion of Taiwan in the following week?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Full Chinese invasion Likelihood: Low — maybe 5–10% The headlines suggest Washington still sees a full-scale invasion as unlikely before 2028.",
+        "legacy_probability": 0.075
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that A Chinese coast guard vessel and a Taiwanese vessel collide, or a water-cannon incident injures at least one crew member, triggering formal written complaints from both governments within 48 hours?",

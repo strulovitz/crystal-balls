@@ -6,7 +6,7 @@
   "code": "KP",
   "name": "North Korea",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T10:09:56+03:00",
+  "generated_at": "2026-10-21T12:37:40+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -110,27 +110,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.8."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.45."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.12."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.3."
       }
     ]
   },
@@ -176,27 +191,42 @@
       {
         "id": "Q1",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.55."
+        "reason": "Legacy forecast text, stated probability 0.7."
       },
       {
         "id": "Q2",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.8."
+        "reason": "Legacy forecast text, stated probability 0.85."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.15."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.45."
       },
       {
         "id": "Q5",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.7."
+      },
+      {
+        "id": "Q6",
         "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.3."
+        "reason": "Legacy forecast text, stated probability 0.12."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.3."
       }
     ]
   },
@@ -219,6 +249,73 @@
     "horizon_start": "2026-10-01",
     "horizon_end": "2026-10-08",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will North Korea conduct at least one more missile or artillery launch or live-fire drill in the week of October 1 through 8, 2026?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: at least one more missile or artillery launch / live-fire drill",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q2",
+        "text": "Will North Korean state media or a senior official issue sharp rhetoric criticizing the IAEA and US-led drills in the coming week?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: sharp official rhetoric against the IAEA, US drills and 'double standards'",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q3",
+        "text": "Will there be reports of additional North Korean workers or troops moving to Russia or further public emphasis on the North-Russia relationship in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: more emphasis on Russia cooperation",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q4",
+        "text": "Will public diplomatic signaling indicate that dialogue between Washington, Seoul and Pyongyang is possible in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: diplomatic signaling between Washington, Seoul and Pyongyang",
+        "legacy_probability": 0.45
+      },
+      {
+        "id": "Q5",
+        "text": "Will North Korea respond sharply in state media to the South Korean court ruling ordering damages over the 2020 liaison office demolition?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: The $32.5 million damages order over the 2020 liaison office demolition will probably get a sharp North Korean response.",
+        "legacy_probability": 0.7
+      },
+      {
+        "id": "Q6",
+        "text": "Will North Korea conduct a full nuclear test in the week of October 1 through 8, 2026?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: A full nuclear test in exactly the next 7 days is possible but not the base case.",
+        "legacy_probability": 0.12
+      },
+      {
+        "id": "Q7",
+        "text": "Will more news reports emerge about North Korean workers in Russian drone production facilities in the coming week?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: more reports on North Korean workers in Russia",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q8",
+        "text": "Will the incident of Japan rescuing North Korean sailors produce a minor diplomatic friction or official statement between Tokyo and Pyongyang in the coming week?",
+        "domain": "diplomacy",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: Japan-North Korea minor diplomatic friction over rescued sailors",
+        "legacy_probability": 0.3
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that North Korea launches one or more short-range ballistic missiles toward the Sea of Japan?",

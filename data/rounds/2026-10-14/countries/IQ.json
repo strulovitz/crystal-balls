@@ -6,7 +6,7 @@
   "code": "IQ",
   "name": "Iraq",
   "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-18T19:45:13+03:00",
+  "generated_at": "2026-10-21T16:14:37+03:00",
   "status": {
     "position": "done",
     "velocity": "skipped",
@@ -116,28 +116,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.675."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.575."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.1."
       }
     ]
   },
@@ -182,28 +197,43 @@
     "answers": [
       {
         "id": "Q1",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.32."
+        "answer": "YES",
+        "reason": "Legacy forecast text."
       },
       {
         "id": "Q2",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.38."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.6."
       },
       {
         "id": "Q3",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.45."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.675."
       },
       {
         "id": "Q4",
-        "answer": "NO",
-        "reason": "Legacy forecast, stated probability 0.42."
+        "answer": "YES",
+        "reason": "Legacy forecast text, stated probability 0.575."
       },
       {
         "id": "Q5",
         "answer": "YES",
-        "reason": "Legacy forecast, stated probability 0.72."
+        "reason": "Legacy forecast text, stated probability 0.5."
+      },
+      {
+        "id": "Q6",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.85."
+      },
+      {
+        "id": "Q7",
+        "answer": "YES",
+        "reason": "Legacy forecast text."
+      },
+      {
+        "id": "Q8",
+        "answer": "NO",
+        "reason": "Legacy forecast text, stated probability 0.1."
       }
     ]
   },
@@ -226,6 +256,73 @@
     "horizon_start": "2026-10-14",
     "horizon_end": "2026-10-21",
     "items": [
+      {
+        "id": "Q1",
+        "text": "Will Iraq announce at least one successful oil tanker transit or export arrangement?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: the next week will likely include at least one high-profile Iraqi oil-logistics announcement, probably tied to a tanker moving 2 million barrels or similar",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q2",
+        "text": "Will public complaints or small protests over the dinar, salaries, or prices occur in Iraq?",
+        "domain": "economy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 50–70% chance: public complaints or small protests over the dinar, salaries, or prices",
+        "legacy_probability": 0.6
+      },
+      {
+        "id": "Q3",
+        "text": "Will at least one visible security incident occur in Iraq?",
+        "domain": "security",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 60–75% chance: at least one visible security incident in Iraq, likely small but newsworthy",
+        "legacy_probability": 0.675
+      },
+      {
+        "id": "Q4",
+        "text": "Will Iran gain an additional practical advantage in Iraq through Najaf flights, waivers, or transit cooperation?",
+        "domain": "diplomacy",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 50–65% chance: Iran gains some additional practical advantage through Najaf flights, waivers, or transit cooperation",
+        "legacy_probability": 0.575
+      },
+      {
+        "id": "Q5",
+        "text": "Will the 2027 budget debate create noticeable political friction in the Iraqi parliament?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: 40–60% chance: the budget debate creates noticeable political friction in parliament",
+        "legacy_probability": 0.5
+      },
+      {
+        "id": "Q6",
+        "text": "Will Iraq experience a major all-out internal war or state collapse?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: 80–90% chance: no major all-out internal war or state collapse",
+        "legacy_probability": 0.85
+      },
+      {
+        "id": "Q7",
+        "text": "Will Iraqi Shia militias increase their political visibility in Baghdad and the south?",
+        "domain": "politics",
+        "setter_lean": "YES",
+        "why_uncertain": "extracted from the legacy text: expect louder militia voices next week, especially around Najaf, Karbala, and southern Iraq, but still enough restraint to avoid an immediate nationwide security crisis",
+        "legacy_probability": null
+      },
+      {
+        "id": "Q8",
+        "text": "Will Iraq slide into a full-scale armed crisis between the center and a region?",
+        "domain": "security",
+        "setter_lean": "NO",
+        "why_uncertain": "extracted from the legacy text: under 10% chance: Iraq slides into a full-scale armed crisis between center and region next week",
+        "legacy_probability": 0.1
+      }
+    ],
+    "extracted_from_raw": true,
+    "replaced_items": [
       {
         "id": "Q1",
         "text": "Will it happen that The reported Israeli base triggers a formal parliamentary demand for an inquiry or a written government statement addressing the reports within the week?",
