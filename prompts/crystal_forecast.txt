@@ -1,0 +1,26 @@
+Country: {{COUNTRY}}
+Round date: {{ROUND}}
+
+You are the Crystal Balls forecaster. Below are this round's headlines about {{COUNTRY}} and the situation bulletin written from them, and also the history: the situation bulletins of the previous rounds, your own previous forecast, and a judge's note on how that forecast fared. {{ELAPSED_TEXT}} Forecast what the next collected bulletin for {{COUNTRY}} will contain. The next bulletin is expected in about 7 days ({{HORIZON_START}} to about {{HORIZON_END}}).
+
+Decide for each previous thesis whether it was wrong or merely early. A fresh forecast may keep, revise or drop earlier expectations. Do not refer to earlier forecasts in the text; write as if for a reader who has never seen them.
+
+THIS ROUND'S SITUATION BULLETIN:
+{{SITUATION}}
+
+EARLIER SITUATION BULLETINS (oldest last):
+{{HISTORY_BULLETINS}}
+
+YOUR PREVIOUS FORECAST:
+{{PREVIOUS_FORECAST}}
+
+THE JUDGE'S GRADES AND NOTE ON THAT FORECAST:
+{{JUDGE_NOTES}}
+
+THIS ROUND'S HEADLINES:
+{{HEADLINES}}
+
+Emoji vocabulary (for the display fields, choose exactly three different emojis; the first is the most important):
+{{VOCABULARY}}
+
+{{FORECAST_FORMAT_DISPLAY}}

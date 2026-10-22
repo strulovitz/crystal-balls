@@ -20,12 +20,10 @@ from pipeline import common
 from pipeline.common import load_json, save_json, find_previous_round, log, set_log_round
 from pipeline.fetch_headlines import fetch_round, compute_window
 from pipeline import mock_llm
+from pipeline import v4
 
-STEPS = ["position", "velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"]
-SHORT_LABEL = {
-    "position": "position", "velocity": "velocity", "wind": "wind",
-    "questions": "questions", "naive_forecast": "naive", "crystal_forecast": "crystal", "display": "display",
-}
+STEPS = list(v4.STEPS)   # Part 13: reader, judge, plain, crystal (persistence is Python only)
+SHORT_LABEL = {"reader": "reader", "judge": "judge", "plain": "plain", "crystal": "crystal"}
 
 
 def _now_iso():
@@ -128,7 +126,12 @@ def llm_call(prompt_file, variables, validator, step_name, code, round_id, setti
     caught even in mock mode), then either calls the real model
     (common.llm_json) or returns canned mock data (mock_llm.mock_response),
     with a 0.1s sleep, per Bible 7.10.6."""
-    common.fill_prompt(prompt_file, variables)
+    filled = common.fill_prompt(prompt_file, variables)
+    window = int(settings.get("LLM_CONTEXT_WINDOW", 262144))
+    est = common.estimate_tokens(filled)
+    if est > 0.9 * window:
+        raise RuntimeError(f"Prompt for {step_name} is about {est} tokens, above 90 percent of the server's "
+                           f"context window ({window}). Stopping instead of letting the server cut it silently.")
     t0 = time.time()
     if mock:
         obj = mock_llm.mock_response(step_name, variables, code, vocabulary=vocabulary,
@@ -149,14 +152,36 @@ def llm_call(prompt_file, variables, validator, step_name, code, round_id, setti
 # ---------------------------------------------------------------------------
 
 def init_country_file(country_cfg, round_id, prev_round_id):
+    """Schema version 4 (Bible 13.10)."""
     return {
-        "schema_version": 2, "round": round_id, "previous_round": prev_round_id,
+        "schema_version": 4, "round": round_id, "previous_round": prev_round_id,
         "is_legacy": False, "code": country_cfg["code"], "name": country_cfg["name"],
         "model": None, "generated_at": None,
-        "status": {s: "pending" for s in STEPS},
-        "position": None, "velocity": None, "wind": None, "questions": None,
-        "naive_forecast": None, "crystal_forecast": None, "display": None,
+        "status": {st: "pending" for st in STEPS},
+        "reader": None, "forecasts": {}, "display": None, "judgment": None, "history_used": None,
+        "earlier_experiments": None,
     }
+
+
+def migrate_to_v4(file, country_cfg, round_id, prev_round_id, headlines_json):
+    """Older country files stay on disk under earlier_experiments (13.10). An existing position section
+    becomes a converted reader bulletin (13.11 point 1)."""
+    if file.get("schema_version") == 4:
+        return file
+    new = init_country_file(country_cfg, round_id, file.get("previous_round", prev_round_id))
+    new["is_legacy"] = file.get("is_legacy", False)
+    new["model"], new["generated_at"] = file.get("model"), file.get("generated_at")
+    new["earlier_experiments"] = {k: file.get(k) for k in
+                                  ("position", "velocity", "wind", "questions", "naive_forecast",
+                                   "crystal_forecast", "display", "status", "schema_version", "single_forecaster")
+                                  if file.get(k) is not None}
+    pos = file.get("position")
+    if pos and (file.get("status") or {}).get("position") == "done" and not new["is_legacy"]:
+        r = v4.convert_position_to_reader(pos)
+        v4.mark_scorability(r, len(v4.flat_headlines(headlines_json)))
+        new["reader"] = r
+        new["status"]["reader"] = "done"
+    return new
 
 
 def step_position(country_cfg, round_id, window_start, window_end, headlines_json, vocabulary, settings, mock):
@@ -321,46 +346,188 @@ def step_crystal_answers(file, prev_file, country_cfg, round_id, prev_round_id, 
     return "run", obj, elapsed
 
 
-def step_display(file, country_cfg, round_id, horizon_start, horizon_end, vocabulary, settings, mock):
+def numbered_for(file, headlines_json, other_text, settings, cap_key, default_cap):
+    """The numbered headline list of this round. Built once by the reader step and stored in the reader
+    bulletin, so the judge and both forecasters see exactly the same numbering."""
+    r = file.get("reader") or {}
+    titles = r.get("headlines_used")
+    cap = int(settings.get(cap_key, default_cap))
+    if titles:
+        titles = titles[:cap]
+        return "\n".join(f"[{k}] {t}" for k, t in enumerate(titles, 1)), titles
+    text, titles = v4.numbered_headlines(headlines_json, other_text, int(settings.get("LLM_CONTEXT_BUDGET", 24000)), cap)
+    return text, titles
+
+
+def step_reader(file, prev_file, country_cfg, round_id, window_start, window_end, headlines_json, vocabulary,
+                settings, mock):
     name = country_cfg["name"]
-    cf = file["crystal_forecast"]
-    variables = {
-        "COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
-        "CRYSTAL_SUMMARY": cf["summary"], "CRYSTAL_REASONING": cf.get("reasoning", ""),
-        "CRYSTAL_STATEMENTS": common.crystal_answers_as_text(file["questions"]["items"], cf["answers"]),
-        "CURRENT_POSITION": common.position_as_text(file["position"], round_id),
-        "VOCABULARY": common.vocabulary_as_text(vocabulary), "ROUND": round_id,
-    }
-    validator = lambda obj: common.validate_display(obj, vocabulary=vocabulary)
-    return llm_call("07_display.txt", variables, validator, "display", country_cfg["code"],
-                     round_id, settings, mock, vocabulary=vocabulary)
+    prev_reader = v4.reader_of(prev_file)
+    prev_subjects = ("\n".join("- " + d["subject"] for d in prev_reader.get("developments", []))
+                     if prev_reader and prev_reader.get("developments") else "None.")
+    other = f"Country: {name}\n{prev_subjects}"
+    budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
+    text, titles = v4.numbered_headlines(headlines_json, other, budget, int(settings.get("READER_HEADLINE_CAP", 250)))
+    n_total = len(v4.flat_headlines(headlines_json))
+    variables = {"COUNTRY": name, "WINDOW_START": str(window_start), "WINDOW_END": str(window_end),
+                 "HEADLINES": text, "PREVIOUS_SUBJECTS": prev_subjects,
+                 "VOCABULARY": common.vocabulary_as_text(vocabulary), "ROUND": round_id}
+    validator = lambda obj: v4.validate_reader(obj, vocabulary=vocabulary, n_headlines=len(titles))
+    obj, elapsed = llm_call("reader.txt", variables, validator, "reader", country_cfg["code"], round_id,
+                             settings, mock, vocabulary=vocabulary)
+    if obj is None:
+        return "run", None, elapsed
+    obj = dict(obj)
+    obj["headlines_used"] = titles
+    obj["converted"] = False
+    v4.mark_scorability(obj, n_total)
+    return "run", obj, elapsed
+
+
+def elapsed_days_between(round_id, prev_round_id):
+    return (date.fromisoformat(round_id) - date.fromisoformat(prev_round_id)).days if prev_round_id else None
+
+
+def step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_json, settings, mock, dry_run=False):
+    """Bible 13.3: blind judge of the previous round's forecast bulletins against this round's reality."""
+    prev_fc = (prev_file or {}).get("forecasts") or {}
+    meta = (prev_file or {}).get("forecast_meta") or {}
+    if len(prev_fc) < 2 or meta.get("unscorable"):
+        return "skip", None, None
+    reader = file.get("reader") or {}
+    if reader.get("unscorable"):
+        return "run", {"unscorable": True, "reason": reader.get("unscorable_reason"),
+                       "graded_round": prev_round_id}, 0.0
+    name = country_cfg["name"]
+    arms = [a for a in v4.ARMS if a in prev_fc]
+    remote = bool(settings.get("JUDGE_BASE_URL")) and settings.get("JUDGE_BASE_URL") != settings.get("LLM_BASE_URL")
+    orders = v4.judge_orders(arms, f"{country_cfg['code']}-{round_id}", both_orders=remote)
+    text, _ = numbered_for(file, headlines_json, "", settings, "JUDGE_HEADLINE_CAP", 250)
+    elapsed_days = elapsed_days_between(round_id, prev_round_id)
+    results, total = [], 0.0
+    for order in orders:
+        labels = v4.LABELS_ALL[:len(order)]
+        bulletins = "\n".join(f"BULLETIN {lab}:\n{v4.bulletin_as_text(prev_fc[arm])}" for lab, arm in zip(labels, order))
+        variables = {"COUNTRY": name, "ELAPSED_DAYS": elapsed_days, "PREVIOUS_ROUND": prev_round_id,
+                     "ROUND": round_id, "BULLETIN_COUNT": len(order), "LABELS": ", ".join(labels),
+                     "FIRST_LABEL": labels[0], "SITUATION": v4.reader_as_text(reader), "HEADLINES": text,
+                     "BULLETINS": bulletins}
+        validator = lambda obj, labels=labels: v4.validate_judge(obj, labels)
+        obj, el = llm_call("judge.txt", variables, validator, "judge", country_cfg["code"], round_id,
+                            judge_settings(settings), mock)
+        total += el
+        if obj is None:
+            return "run", None, total
+        results.append(obj)
+    j = v4.build_judgment(results, orders, prev_round_id, elapsed_days, dry_run=dry_run)
+    j["hand_made"] = bool(prev_file.get("is_legacy"))
+    return "run", j, total
+
+
+def history_for_crystal(file, prev_file, auto_file, rounds_dir, round_id, prev_round_id):
+    """The exact history text arm B receives (13.3), stored in the file as history_used."""
+    parts = []
+    if prev_file:
+        parts.append(f"Round {prev_file.get('round', prev_round_id)}:\n" + v4.reader_short(v4.reader_of(prev_file)))
+        pp = prev_file.get("previous_round")
+        if pp:
+            pp_path = rounds_dir / pp / "countries" / f"{file['code']}.json"
+            if pp_path.exists():
+                parts.append(f"Round {pp}:\n" + v4.reader_short(v4.reader_of(load_json(pp_path))))
+    bulletins = "\n".join(parts) if parts else "Not available."
+    # the forecast the judge's notes are about: the last automated round's, else the immediate previous one
+    src = auto_file or prev_file
+    previous_forecast = v4.bulletin_as_text(v4.forecast_bulletin_of(src, "crystal")) if src else "Not available."
+    notes = v4.judgment_notes_as_text(file.get("judgment"), "crystal")
+    ed = elapsed_days_between(round_id, prev_round_id)
+    elapsed_text = (f"{ed} days passed since the previous round, not 7." if ed and ed != 7 else "")
+    return {"HISTORY_BULLETINS": bulletins, "PREVIOUS_FORECAST": previous_forecast, "JUDGE_NOTES": notes,
+            "ELAPSED_TEXT": elapsed_text}
+
+
+def step_plain(file, country_cfg, round_id, horizon_start, horizon_end, headlines_json, settings, mock):
+    name = country_cfg["name"]
+    situation = v4.reader_as_text(file["reader"])
+    text, _ = numbered_for(file, headlines_json, situation, settings, "FORECAST_HEADLINE_CAP", 150)
+    variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
+                 "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
+                 "FORECAST_FORMAT": v4.forecast_format()}
+    obj, elapsed = llm_call("plain_forecast.txt", variables, v4.validate_bulletin, "plain_forecast",
+                             country_cfg["code"], round_id, settings, mock)
+    return "run", obj, elapsed
+
+
+def step_crystal(file, prev_file, auto_file, rounds_dir, country_cfg, round_id, prev_round_id, horizon_start, horizon_end,
+                 headlines_json, vocabulary, settings, mock):
+    name = country_cfg["name"]
+    situation = v4.reader_as_text(file["reader"])
+    hist = history_for_crystal(file, prev_file, auto_file, rounds_dir, round_id, prev_round_id)
+    other = situation + "".join(hist.values())
+    text, _ = numbered_for(file, headlines_json, other, settings, "FORECAST_HEADLINE_CAP", 150)
+    variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
+                 "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
+                 "VOCABULARY": common.vocabulary_as_text(vocabulary),
+                 "FORECAST_FORMAT_DISPLAY": v4.forecast_format_display(), **hist}
+    validator = lambda obj: v4.validate_crystal_output(obj, vocabulary=vocabulary)
+    obj, elapsed = llm_call("crystal_forecast.txt", variables, validator, "crystal_forecast",
+                             country_cfg["code"], round_id, settings, mock, vocabulary=vocabulary)
+    if obj is None:
+        return "run", None, elapsed
+    bulletin = {k: obj[k] for k in ("lead", "second", "third", "fade_call", "surprise", "summary")}
+    display = {k: obj[k] for k in ("headline", "emojis", "emoji_reasons", "tldr", "eli5")}
+    return "run", {"bulletin": bulletin, "display": display, "history_used": hist}, elapsed
 
 
 # ---------------------------------------------------------------------------
 # Per-country orchestration
 # ---------------------------------------------------------------------------
 
+def previous_file_for(rounds_dir, round_id, code, default_prev):
+    """(round id, loaded file) of the latest earlier complete round holding this country's file."""
+    names = sorted((d.name for d in rounds_dir.iterdir() if d.is_dir() and d.name < round_id), reverse=True)
+    for n in names:
+        rj, cf = rounds_dir / n / "round.json", rounds_dir / n / "countries" / f"{code}.json"
+        if rj.exists() and cf.exists() and load_json(rj).get("status") == "complete":
+            return n, load_json(cf)
+    return default_prev, None
+
+
+def auto_previous_for(rounds_dir, round_id, code):
+    """Latest earlier complete round with this country's forecasts that was NOT a hand-made import (13.15):
+    this is the round whose forecasts the main judgment grades, so that an Israel-only hand-made round
+    between two automated rounds never hides the automated forecasts from the judge."""
+    names = sorted((d.name for d in rounds_dir.iterdir() if d.is_dir() and d.name < round_id), reverse=True)
+    for n in names:
+        rj, cf = rounds_dir / n / "round.json", rounds_dir / n / "countries" / f"{code}.json"
+        if rj.exists() and cf.exists() and load_json(rj).get("status") == "complete":
+            f = load_json(cf)
+            if f.get("schema_version") == 4 and not (f.get("forecast_meta") or {}).get("hand_made") \
+                    and len(f.get("forecasts") or {}) >= 2:
+                return n, f
+    return None, None
+
+
 def process_country(country_cfg, round_id, prev_round_id, window_start, window_end, horizon_start,
                      horizon_end, vocabulary, settings, mock, only_codes, force_step, retry_failed,
                      progress, model_name):
     code, name = country_cfg["code"], country_cfg["name"]
-    countries_dir = ROOT / "data" / "rounds" / round_id / "countries"
+    rounds_dir = ROOT / "data" / "rounds"
+    countries_dir = rounds_dir / round_id / "countries"
     path = countries_dir / f"{code}.json"
-    file = load_json(path) if path.exists() else init_country_file(country_cfg, round_id, prev_round_id)
-    if not file.get("is_legacy"):
-        file["schema_version"] = 2
-        file.setdefault("questions", None)
-        for _s in STEPS:
-            file["status"].setdefault(_s, "pending")
 
-    prev_path = (ROOT / "data" / "rounds" / prev_round_id / "countries" / f"{code}.json") if prev_round_id else None
-    prev_file = load_json(prev_path) if prev_path and prev_path.exists() else None
-
-    headlines_path = ROOT / "data" / "rounds" / round_id / "headlines" / f"{code}.json"
+    headlines_path = rounds_dir / round_id / "headlines" / f"{code}.json"
     headlines_json = load_json(headlines_path) if headlines_path.exists() else {
         "name": name, "window_start": str(window_start), "window_end": str(window_end),
         "total_items": 0, "sources": [],
     }
+    # The previous round FOR THIS COUNTRY: the latest earlier complete round that has this country's file
+    # (the hand-made Israel-only round 2026-10-22 must not hide every other country's last forecast).
+    prev_round_id, prev_file = previous_file_for(rounds_dir, round_id, code, prev_round_id)
+    file = load_json(path) if path.exists() else init_country_file(country_cfg, round_id, prev_round_id)
+    file = migrate_to_v4(file, country_cfg, round_id, prev_round_id, headlines_json)
+    file["previous_round"] = prev_round_id
+    for _s in STEPS:
+        file["status"].setdefault(_s, "pending")
 
     def want_run(step):
         status = file["status"].get(step)
@@ -378,53 +545,8 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
     summary = []
     blocked = set()
 
-    # --- position ---
-    if want_run("position"):
-        obj, elapsed = step_position(country_cfg, round_id, window_start, window_end, headlines_json,
-                                      vocabulary, settings, mock)
-        if obj is None:
-            file["status"]["position"] = "failed"
-            blocked.update({"velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"})
-        else:
-            file["position"] = obj
-            file["status"]["position"] = "done"
-        save()
-        summary.append(f"position {file['status']['position']} ({elapsed:.0f}s)")
-        progress.step_done("position", name, elapsed)
-    else:
-        summary.append(f"position {file['status']['position']}")
-        progress.step_done("position", name, None)
-        if file["status"]["position"] != "done":
-            blocked.update({"velocity", "wind", "questions", "naive_forecast", "crystal_forecast", "display"})
-
-    # --- velocity ---
-    if "velocity" in blocked:
-        if file["status"]["velocity"] not in ("done", "skipped"):
-            file["status"]["velocity"] = "blocked"
-            save()
-        summary.append(f"velocity {file['status']['velocity']}")
-        progress.step_done("velocity", name, None)
-    elif want_run("velocity"):
-        kind, obj, elapsed = step_velocity(file, prev_file, country_cfg, round_id, prev_round_id, settings, mock)
-        if kind == "skip":
-            file["status"]["velocity"] = "skipped"
-            save()
-            summary.append("velocity skipped")
-            progress.step_done("velocity", name, None)
-        else:
-            if obj is None:
-                file["status"]["velocity"] = "failed"
-            else:
-                file["velocity"] = obj
-                file["status"]["velocity"] = "done"
-            save()
-            summary.append(f"velocity {file['status']['velocity']} ({elapsed:.0f}s)")
-            progress.step_done("velocity", name, elapsed)
-    else:
-        summary.append(f"velocity {file['status']['velocity']}")
-        progress.step_done("velocity", name, None)
-
-    def do_step(step, label, runner, store, blocks_on_fail=()):
+    def do_step(step, runner, store, blocks_on_fail=()):
+        label = SHORT_LABEL[step]
         st = file["status"].get(step, "pending")
         if step in blocked:
             if st not in ("done", "skipped"):
@@ -457,24 +579,54 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
             if file["status"].get(step) not in ("done", "skipped"):
                 blocked.update(blocks_on_fail)
 
-    def put(key):
-        def _store(obj):
-            file[key] = obj
-        return _store
+    def put_reader(obj):
+        file["reader"] = obj
+        file["forecasts"]["persistence"] = v4.persistence_from_reader(obj)
 
-    do_step("wind", "wind", lambda: step_wind(file, prev_file, country_cfg, round_id, prev_round_id,
-            window_start, window_end, headlines_json, settings, mock), put("wind"))
-    do_step("questions", "questions", lambda: step_questions(file, country_cfg, round_id, horizon_start,
-            horizon_end, headlines_json, settings, mock), put("questions"),
-            blocks_on_fail=("naive_forecast", "crystal_forecast", "display"))
-    do_step("naive_forecast", "naive", lambda: step_naive_answers(file, country_cfg, round_id, horizon_start,
-            horizon_end, headlines_json, settings, mock), put("naive_forecast"))
-    do_step("crystal_forecast", "crystal", lambda: step_crystal_answers(file, prev_file, country_cfg, round_id,
-            prev_round_id, horizon_start, horizon_end, headlines_json, settings, mock), put("crystal_forecast"),
-            blocks_on_fail=("display",))
-    do_step("display", "display", lambda: ("run",) + tuple(step_display(file, country_cfg, round_id, horizon_start, horizon_end,
-            vocabulary, settings, mock)), put("display"))
+    def put_judge(obj):
+        file["judgment"] = obj["main"]
+        file["judgment_hand_made"] = obj["hand"]
 
+    def put_plain(obj):
+        file["forecasts"]["plain"] = obj
+
+    def put_crystal(res):
+        file["forecasts"]["crystal"] = res["bulletin"]
+        file["display"] = res["display"]
+        file["history_used"] = res["history_used"]
+
+    do_step("reader", lambda: step_reader(file, prev_file, country_cfg, round_id, window_start, window_end,
+            headlines_json, vocabulary, settings, mock), put_reader,
+            blocks_on_fail=("judge", "plain", "crystal"))
+    if file.get("reader") and "persistence" not in file["forecasts"]:
+        file["forecasts"]["persistence"] = v4.persistence_from_reader(file["reader"])
+        save()
+    auto_id, auto_file = auto_previous_for(rounds_dir, round_id, code)
+
+    def judge_runner():
+        total, got = 0.0, False
+        kind, j, el = step_judge(file, auto_file, country_cfg, round_id, auto_id, headlines_json, settings, mock)
+        if kind == "run":
+            if j is None:
+                return "run", None, el
+            got = True
+            total += el or 0
+        main_j = j if kind == "run" else None
+        hand = None
+        if prev_file and (prev_file.get("forecast_meta") or {}).get("hand_made") and prev_round_id != auto_id:
+            k2, h, el2 = step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_json,
+                                    settings, mock)
+            if k2 == "run" and h is not None:
+                hand, got, total = h, True, total + (el2 or 0)
+        if not got:
+            return "skip", None, None
+        return "run", {"main": main_j, "hand": hand}, total
+
+    do_step("judge", judge_runner, put_judge)
+    do_step("plain", lambda: step_plain(file, country_cfg, round_id, horizon_start, horizon_end, headlines_json,
+            settings, mock), put_plain)
+    do_step("crystal", lambda: step_crystal(file, prev_file, auto_file, rounds_dir, country_cfg, round_id, prev_round_id,
+            horizon_start, horizon_end, headlines_json, vocabulary, settings, mock), put_crystal)
     return file, summary
 
 
@@ -538,6 +690,13 @@ def main():
         }
         save_json(round_json_path, round_data)
 
+    # 13.9: temperature and seed recorded (same for both arms), and the gap since the previous round (13.8)
+    round_data["temperature"] = float(settings.get("LLM_TEMPERATURE", 1.0))
+    round_data["seed"] = settings.get("LLM_SEED") or None
+    round_data["previous_round"] = prev_round_id
+    round_data["elapsed_days"] = elapsed_days_between(round_id, prev_round_id)
+    save_json(round_json_path, round_data)
+
     window_start = date.fromisoformat(round_data["window_start"])
     window_end = date.fromisoformat(round_data["window_end"])
     horizon_days = round_data["horizon_days"]
@@ -579,13 +738,13 @@ def main():
     failed_codes = []
     for c in all_countries:
         p = rounds_dir / round_id / "countries" / f"{c['code']}.json"
-        status = load_json(p)["status"]["display"] if p.exists() else "pending"
+        status = load_json(p)["status"].get("crystal") if p.exists() else "pending"
         if status != "done":
             all_done = False
             failed_codes.append(c["code"])
 
     if not all_done and not args.allow_partial:
-        log(f"Round not finalized: {len(failed_codes)} countries have no display: "
+        log(f"Round not finalized: {len(failed_codes)} countries have no crystal forecast: "
             f"{', '.join(failed_codes)}")
         log(f"Retry with: pipeline/run_round.py --round {round_id} --retry-failed")
         return
@@ -610,11 +769,11 @@ def main():
 
     round_data = load_json(round_json_path)
     rs = round_data.get("round_scorecard")
-    if rs:
-        log(f"Round complete. Crystal Balls beat the naive forecast in "
-            f"{rs['crystal_wins']} of {rs['scored']} scored countries this round.")
+    if rs and rs.get("scored"):
+        log(f"Round complete. Judged country-weeks this round: {rs['scored']}. "
+            f"Crystal better in {rs['crystal_better']}, tie {rs['ties']}, plain better {rs['plain_better']}.")
     else:
-        log("Round complete. No scoring yet: the previous round had no forecasts.")
+        log("Round complete. No judgments yet: the previous round had no scorable forecasts.")
 
 
 if __name__ == "__main__":

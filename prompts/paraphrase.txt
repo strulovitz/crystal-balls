@@ -1,0 +1,5 @@
+Below is a forecast bulletin about {{COUNTRY}}. Rewrite every sentence in different words so that the meaning stays exactly the same: same subjects, same directions, same chances, same claims. Do not add, remove or soften any claim.
+
+{{BULLETIN_JSON}}
+
+Return the rewritten bulletin as a JSON object with exactly the same keys and structure as the one above.

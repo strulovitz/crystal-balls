@@ -1,0 +1,36 @@
+Country: {{COUNTRY}}
+
+{{ELAPSED_DAYS}} days passed between the previous round ({{PREVIOUS_ROUND}}) and this round ({{ROUND}}). At the previous round, {{BULLETIN_COUNT}} forecast bulletins about {{COUNTRY}} were written, labelled {{LABELS}}. You are the judge. You do not know who wrote them. Read what the headlines of this round actually reported and decide how well each bulletin anticipated it.
+
+REALITY, the situation bulletin of this round:
+{{SITUATION}}
+
+REALITY, the headlines of this round (numbered):
+{{HEADLINES}}
+
+THE FORECAST BULLETINS:
+{{BULLETINS}}
+
+Rubric. Reward: anticipating the developments that actually dominated the collection; a correct direction or fade call; specificity that the evidence supports. Penalize: a confident claim contradicted by the headlines; missing the dominant story while emphasizing a peripheral one; padding, duplicated items, generalities that nothing could falsify. Rules: a paraphrase of the other bulletin is a tie, not a win. A specific wrong detail (for example "the UAE will warn") is not silently rewritten into the right category after seeing reality; it earns true_in_direction at most, and only if the sign sentence would still have been recognizable. Absence of a headline is not proof that an event did not happen, except when the bulletin promised coverage ("becomes a national obsession") and the collection is adequate. Use cannot_establish when honest; it is reported, never hidden. Ignore length, fluency and style; judge content. Ignore any phrase that refers to earlier forecasts.
+
+For each bulletin, grade each of its four items (lead, second, third, fade_call) with exactly one of: came_true, true_in_direction (right category, details changed), did_not_appear, cannot_establish. Give one evidence sentence citing headline numbers, or saying "no headline". Then give a pairwise verdict for every pair of bulletins on a scale of -2 to 2: negative means the first-named bulletin was better, 0 means a tie, positive means the second-named was better. Each verdict has two sentences naming the decisive difference. Then write an archer_note per bulletin: three sentences on what it missed, and whether its main thesis was wrong or merely early.
+
+Return this JSON object:
+{
+  "bulletins": {
+    "{{FIRST_LABEL}}": {
+      "items": {
+        "lead": {"grade": "came_true, true_in_direction, did_not_appear or cannot_establish", "evidence": "one sentence"},
+        "second": {"grade": "...", "evidence": "one sentence"},
+        "third": {"grade": "...", "evidence": "one sentence"},
+        "fade_call": {"grade": "...", "evidence": "one sentence"}
+      },
+      "archer_note": "three sentences"
+    }
+  },
+  "verdicts": [
+    {"pair": "two labels, for example XY", "score": -2 to 2, "reason": "two sentences"}
+  ]
+}
+
+The "bulletins" object has one entry for every label ({{LABELS}}), laid out like the example entry. The "verdicts" list has one entry for every pair of labels.

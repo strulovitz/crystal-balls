@@ -1,0 +1,39 @@
+Country: {{COUNTRY}}
+Approximate date of this material: {{ROUND}}
+
+Below is a text that was produced by hand in an earlier version of this project. It is a real forecast: a model's reading of one week of headlines about {{COUNTRY}}, with a genuine prediction for the following week. The original headlines were not kept. Work from the text alone.
+
+Extract from it (a) a situation bulletin: what the text says happened or was going on, and (b) a forecast bulletin: what the text itself predicted for the following week, expressed in the format below. Do not add predictions the text does not make. If a part is missing, say "reconstructed" in the summary.
+
+LEGACY TEXT:
+{{LEGACY_TEXT}}
+
+Emoji vocabulary:
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "reader": {
+    "summary": "120 to 220 words, past tense, what was going on according to the text",
+    "key_events": [{"event": "one sentence", "date": null, "domain": "one of politics, security, economy, diplomacy, society, technology, health, environment", "importance": 1 to 5}],
+    "mood": "one of escalating, tense, stable, improving, mixed",
+    "intensity": 1 to 10,
+    "domains_active": ["two to four domain names"],
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"],
+    "developments": [{"subject": "a short name for the story", "what_happened": "one sentence", "coverage": "dominant, regular or occasional", "direction": "new, escalating, continuing, de-escalating or resolved", "headline_ids": []}],
+    "gone": [],
+    "collection_quality": {"rating": "adequate", "note": "one sentence: this bulletin was reconstructed from a text"}
+  },
+  "forecast": {the forecast bulletin, in exactly the format below},
+  "display": {
+    "headline": "at most 12 words about what the text predicted",
+    "emojis": ["one", "two", "three"],
+    "emoji_reasons": ["one sentence each"],
+    "tldr": "two or three sentences, at most 60 words, what the text predicted"
+  }
+}
+
+key_events has between 4 and 10 entries. developments has between 6 and 12 entries.
+
+{{FORECAST_FORMAT_BODY}}

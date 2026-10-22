@@ -836,6 +836,8 @@ def _chat_completion(messages, settings, temperature, use_response_format):
         payload["top_k"] = int(settings["LLM_TOP_K"])
     if settings.get("LLM_MIN_P", "").strip():
         payload["min_p"] = float(settings["LLM_MIN_P"])
+    if str(settings.get("LLM_SEED", "")).strip():
+        payload["seed"] = int(settings["LLM_SEED"])
 
     headers = {"Content-Type": "application/json"}
     if api_key and api_key != "not-needed-for-local":

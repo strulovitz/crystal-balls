@@ -205,15 +205,16 @@ def ensure_scorecard_exists():
     # Minimal empty scorecard, matching Part 2.9's null/zero shape, so the
     # page has something to load before score.py has ever run.
     save_json(path, {
-        "schema_version": 2, "generated_at": _now_iso(), "rounds_scored": 0, "country_rounds_scored": 0,
-        "questions_resolved": 0, "questions_unclear": 0, "naive_correct": 0, "crystal_correct": 0,
-        "disagreements": 0, "naive_accuracy": None, "crystal_accuracy": None,
-        "crystal_won_disagreements": 0, "naive_won_disagreements": 0, "edge": None,
-        "flips": 0, "flips_right": 0, "flips_wrong": 0, "flips_unclear": 0, "flip_accuracy": None,
-        "verdict": "not enough data yet", "min_disagreements_for_verdict": 30,
-        "per_round": [], "per_country": {},
-        "manual_forecast": {"country_rounds_scored": 0, "questions_resolved": 0, "questions_unclear": 0,
-                            "correct": 0, "accuracy": None},
+        "schema_version": 4, "generated_at": _now_iso(), "judge_validated": False,
+        "judge_note": "The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the repository, timestamped before reality arrived.",
+        "rounds_scored": 0, "judged_country_weeks": 0, "crystal_better": 0, "ties": 0, "plain_better": 0,
+        "crystal_better_pct": None, "ties_pct": None, "plain_better_pct": None,
+        "mean_v": None, "interval_v": None, "verdict": "Judge not yet validated",
+        "mean_u": None, "interval_u": None, "verdict_u": "Judge not yet validated",
+        "min_rounds_for_verdict": 6, "item_grades": {}, "unscorable": 0, "country_rounds": 0,
+        "unscorable_fraction": None, "first_listed_wins": 0, "first_listed_nonties": 0,
+        "first_listed_wins_share": None, "gap_buckets": {}, "per_round": [], "per_country": {},
+        "hand_made_forecasts": [],
     })
     log("data/scorecard.json did not exist, wrote an empty one")
 

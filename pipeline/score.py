@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""Step 8 (Bible Part 9.8, version 2): aggregate correct answers, disagreements and the verdict.
-Never calls the model. Reads every complete round's country files that carry a version-2 wind
-(questions judged YES/NO/UNCLEAR). Single-forecaster rounds (Nir's manual forecasts) are counted
-separately under "manual_forecast" and excluded from the Crystal-vs-plain numbers."""
+"""Step 8 (Bible Part 13.6): the scorecard, schema version 4. Python only, never calls the model.
+
+For every judged country-round: v = verdict of crystal against plain (-2..2, positive = crystal better),
+u = verdict of crystal against persistence ("more of the same"). Per round the mean over countries, overall the
+mean of round means with a 90 percent interval from resampling rounds 1000 times. The verdict rule is
+pre-registered and never changed:
+
+\\bar{v} = \\frac{1}{R}\\sum_{r=1}^{R}\\left(\\frac{1}{n_r}\\sum_{c=1}^{n_r} v_{rc}\\right)
+"""
+import random
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -11,54 +17,82 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from pipeline.common import load_json, save_json, log
 
-MIN_DISAGREEMENTS = 30
+MIN_ROUNDS = 6
+MIN_ABS_MEAN = 0.25
+WIN_THRESHOLD = 0.5
+BOOTSTRAPS = 1000
+GAP_BUCKETS = [("3 to 6 days", 3, 6), ("7 to 10 days", 7, 10), ("11 to 17 days", 11, 17)]
+VALIDATION_PATH = ROOT / "data" / "judge_validation.json"
+JUDGE_NOTE = ("The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the "
+              "repository, timestamped before reality arrived.")
 
 
 def _now_iso():
     return datetime.now().astimezone().isoformat(timespec="seconds")
 
 
-def _blank():
-    return {"scored": 0, "questions_resolved": 0, "questions_unclear": 0, "naive_correct": 0, "crystal_correct": 0,
-            "disagreements": 0, "crystal_won_disagreements": 0, "naive_won_disagreements": 0,
-            "crystal_wins": 0, "naive_wins": 0, "ties": 0,
-            "flips": 0, "flips_right": 0, "flips_wrong": 0, "flips_unclear": 0}
+def mean(xs):
+    return sum(xs) / len(xs) if xs else None
 
 
-def _add(t, w):
-    t["scored"] += 1
-    t["questions_resolved"] += w["resolved"]
-    t["questions_unclear"] += w["unclear"]
-    t["naive_correct"] += w["naive_correct"]
-    t["crystal_correct"] += w["crystal_correct"]
-    t["disagreements"] += w["disagreements"]
-    t["crystal_won_disagreements"] += w["crystal_won_disagreements"]
-    t["naive_won_disagreements"] += w["naive_won_disagreements"]
-    for k in ("flips", "flips_right", "flips_wrong", "flips_unclear"):
-        t[k] += w.get(k, 0)
-    if w["winner"] == "crystal":
-        t["crystal_wins"] += 1
-    elif w["winner"] == "naive":
-        t["naive_wins"] += 1
-    elif w["winner"] == "tie":
-        t["ties"] += 1
+def bootstrap_interval(round_means, n=BOOTSTRAPS, seed=0):
+    if not round_means:
+        return None
+    rng = random.Random(seed)
+    k = len(round_means)
+    ms = sorted(mean([round_means[rng.randrange(k)] for _ in range(k)]) for _ in range(n))
+    return [round(ms[int(0.05 * n)], 3), round(ms[int(0.95 * n) - 1], 3)]
 
 
-def _verdict(a, b):
-    if a + b < MIN_DISAGREEMENTS:
-        return "not enough data yet"
-    if a * 3 >= (a + b) * 2:
-        return "Crystal Balls ahead"
-    if b * 3 >= (a + b) * 2:
-        return "plain forecast ahead"
-    return "no clear difference yet"
+def verdict_for(round_means):
+    """Pre-registered rule (13.6)."""
+    if len(round_means) < MIN_ROUNDS:
+        return "not enough data yet", mean(round_means), None
+    m = mean(round_means)
+    lo, hi = bootstrap_interval(round_means)
+    if (lo > 0 or hi < 0) and abs(m) >= MIN_ABS_MEAN:
+        return ("Crystal Balls ahead" if m > 0 else "plain forecast ahead"), m, [lo, hi]
+    return "no clear difference", m, [lo, hi]
+
+
+def verdict_u(round_means):
+    v, m, iv = verdict_for(round_means)
+    return v.replace("Crystal Balls ahead", "Crystal Balls ahead of more-of-the-same").replace(
+        "plain forecast ahead", "more-of-the-same ahead"), m, iv
+
+
+def judge_validated():
+    if not VALIDATION_PATH.exists():
+        return False
+    try:
+        return bool(load_json(VALIDATION_PATH).get("passed"))
+    except Exception:
+        return False
+
+
+def _gap_bucket(days):
+    for label, lo, hi in GAP_BUCKETS:
+        if days is not None and lo <= days <= hi:
+            return label
+    return "other"
+
+
+def _blank_round():
+    return {"scored": 0, "crystal_better": 0, "ties": 0, "plain_better": 0, "mean_v": None, "mean_u": None}
 
 
 def compute_scorecard(rounds_dir=None):
     rounds_dir = Path(rounds_dir) if rounds_dir else ROOT / "data" / "rounds"
-    total, per_round, per_country = _blank(), [], {}
-    manual = {"country_rounds_scored": 0, "questions_resolved": 0, "questions_unclear": 0, "correct": 0}
-    round_scorecards = {}
+    per_round, round_scorecards = [], {}
+    v_means, u_means = [], []
+    grades = {a: {g: 0 for g in ("came_true", "true_in_direction", "did_not_appear", "cannot_establish")}
+              for a in ("plain", "crystal", "persistence")}
+    first_wins = first_n = 0
+    country_rounds = unscorable = judged = 0
+    buckets = {label: [] for label, _, _ in GAP_BUCKETS}
+    buckets["other"] = []
+    hand_made = []
+    per_country = {}
     for round_dir in sorted(d for d in rounds_dir.iterdir() if d.is_dir()) if rounds_dir.exists() else []:
         rj = round_dir / "round.json"
         if not rj.exists():
@@ -67,40 +101,83 @@ def compute_scorecard(rounds_dir=None):
         if round_data.get("status") != "complete":
             continue
         round_id = round_data.get("round", round_dir.name)
-        rt = _blank()
+        vs, us = [], []
+        rt = _blank_round()
         for cf in sorted((round_dir / "countries").glob("*.json")) if (round_dir / "countries").exists() else []:
             d = load_json(cf)
-            w = d.get("wind")
-            if not w or "questions" not in w or w.get("winner") is None:
+            if d.get("schema_version") != 4:
                 continue
-            if w.get("single_forecaster"):
-                manual["country_rounds_scored"] += 1
-                manual["questions_resolved"] += w["resolved"]
-                manual["questions_unclear"] += w["unclear"]
-                manual["correct"] += w["correct"]
+            code = d.get("code", cf.stem)
+            country_rounds += 1
+            j = d.get("judgment")
+            if (d.get("reader") or {}).get("unscorable") or (j and j.get("unscorable")):
+                unscorable += 1
                 continue
-            _add(total, w)
-            _add(rt, w)
-            _add(per_country.setdefault(d.get("code", cf.stem), _blank()), w)
-        if rt["scored"]:
+            hm = d.get("judgment_hand_made")
+            if hm and "per_arm" in hm and not hm.get("dry_run"):
+                hand_made.append({"round": round_id, "code": code, "graded_round": hm.get("graded_round"),
+                                  "u": hm.get("u"), "scores": hm.get("scores")})
+            if not j or j.get("dry_run") or "per_arm" not in j:
+                continue
+            judged += 1
+            if j.get("hand_made"):
+                hand_made.append({"round": round_id, "code": code, "graded_round": j.get("graded_round"),
+                                  "u": j.get("u"), "scores": j.get("scores")})
+                continue
+            for arm, e in j["per_arm"].items():
+                for g in e["items"].values():
+                    grades[arm][g["grade"]] += 1
+            first_wins += j.get("first_listed_wins", 0)
+            first_n += j.get("first_listed_nonties", 0)
+            v, u = j.get("v"), j.get("u")
+            if v is not None:
+                vs.append(v)
+                rt["scored"] += 1
+                if v >= WIN_THRESHOLD:
+                    rt["crystal_better"] += 1
+                elif v <= -WIN_THRESHOLD:
+                    rt["plain_better"] += 1
+                else:
+                    rt["ties"] += 1
+                buckets[_gap_bucket(j.get("elapsed_days"))].append(v)
+                pc = per_country.setdefault(code, {"vs": []})
+                pc["vs"].append(v)
+            if u is not None:
+                us.append(u)
+        if vs:
+            rt["mean_v"] = round(mean(vs), 3)
+            rt["mean_u"] = round(mean(us), 3) if us else None
+            v_means.append(mean(vs))
+            if us:
+                u_means.append(mean(us))
             per_round.append({"round": round_id, **rt})
             round_scorecards[round_dir.name] = (rj, round_data, rt)
-    a, b = total["crystal_won_disagreements"], total["naive_won_disagreements"]
-    res = total["questions_resolved"]
-    manual["accuracy"] = round(manual["correct"] / manual["questions_resolved"], 3) if manual["questions_resolved"] else None
+    validated = judge_validated()
+    verdict, vm, viv = verdict_for(v_means)
+    uverdict, um, uiv = verdict_u(u_means)
+    if not validated:
+        verdict = uverdict = "Judge not yet validated"
+    tot = {"crystal_better": sum(r["crystal_better"] for r in per_round), "ties": sum(r["ties"] for r in per_round),
+           "plain_better": sum(r["plain_better"] for r in per_round)}
+    n_judged = tot["crystal_better"] + tot["ties"] + tot["plain_better"]
+    pct = lambda x: round(100 * x / n_judged) if n_judged else None
     scorecard = {
-        "schema_version": 2, "generated_at": _now_iso(),
-        "rounds_scored": len(per_round), "country_rounds_scored": total["scored"],
-        **{k: total[k] for k in ("questions_resolved", "questions_unclear", "naive_correct", "crystal_correct", "disagreements")},
-        "naive_accuracy": round(total["naive_correct"] / res, 3) if res else None,
-        "crystal_accuracy": round(total["crystal_correct"] / res, 3) if res else None,
-        "crystal_won_disagreements": a, "naive_won_disagreements": b,
-        **{k: total[k] for k in ("flips", "flips_right", "flips_wrong", "flips_unclear")},
-        "flip_accuracy": (round(total["flips_right"] / (total["flips_right"] + total["flips_wrong"]), 3)
-                          if total["flips_right"] + total["flips_wrong"] else None),
-        "edge": round((a - b) / (a + b), 3) if a + b else None,
-        "verdict": _verdict(a, b), "min_disagreements_for_verdict": MIN_DISAGREEMENTS,
-        "per_round": per_round, "per_country": per_country, "manual_forecast": manual,
+        "schema_version": 4, "generated_at": _now_iso(), "judge_validated": validated, "judge_note": JUDGE_NOTE,
+        "rounds_scored": len(per_round), "judged_country_weeks": n_judged,
+        **tot, "crystal_better_pct": pct(tot["crystal_better"]), "ties_pct": pct(tot["ties"]),
+        "plain_better_pct": pct(tot["plain_better"]),
+        "mean_v": round(vm, 3) if vm is not None else None, "interval_v": viv, "verdict": verdict,
+        "mean_u": round(um, 3) if um is not None else None, "interval_u": uiv, "verdict_u": uverdict,
+        "min_rounds_for_verdict": MIN_ROUNDS,
+        "item_grades": grades,
+        "unscorable": unscorable, "country_rounds": country_rounds,
+        "unscorable_fraction": round(unscorable / country_rounds, 3) if country_rounds else None,
+        "first_listed_wins": first_wins, "first_listed_nonties": first_n,
+        "first_listed_wins_share": round(first_wins / first_n, 3) if first_n else None,
+        "gap_buckets": {k: {"n": len(v), "mean_v": round(mean(v), 3) if v else None} for k, v in buckets.items()},
+        "per_round": per_round,
+        "per_country": {c: {"n": len(x["vs"]), "mean_v": round(mean(x["vs"]), 3)} for c, x in per_country.items()},
+        "hand_made_forecasts": hand_made,
     }
     return scorecard, round_scorecards
 
@@ -112,9 +189,7 @@ def main():
             round_data["round_scorecard"] = rt
             save_json(rj, round_data)
     save_json(ROOT / "data" / "scorecard.json", scorecard)
-    m = scorecard["manual_forecast"]
-    log(f"Scorecard written: {scorecard['country_rounds_scored']} country-rounds (crystal vs plain), verdict: {scorecard['verdict']}. "
-        f"Manual forecasts: {m['correct']} of {m['questions_resolved']} correct, {m['questions_unclear']} unclear.")
+    log(f"Scorecard written: {scorecard['judged_country_weeks']} judged country-weeks, verdict: {scorecard['verdict']}.")
 
 
 if __name__ == "__main__":

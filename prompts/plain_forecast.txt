@@ -1,0 +1,12 @@
+Country: {{COUNTRY}}
+Round date: {{ROUND}}
+
+You are a forecaster. Below are this round's headlines about {{COUNTRY}} and the situation bulletin written from them. Forecast what the next collected bulletin for {{COUNTRY}} will contain. The next bulletin is expected in about 7 days ({{HORIZON_START}} to about {{HORIZON_END}}). You have only this information and your general knowledge.
+
+THIS ROUND'S SITUATION BULLETIN:
+{{SITUATION}}
+
+THIS ROUND'S HEADLINES:
+{{HEADLINES}}
+
+{{FORECAST_FORMAT}}
