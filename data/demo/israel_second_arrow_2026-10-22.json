@@ -1,0 +1,90 @@
+{
+  "summary": "Next week will be dominated by the political fallout from the Egypt warning leak, with opposition leaders using it aggressively in the run-up to the October 27 election. Israeli security authorities will move to tighten cockpit and pilot-access protocols at major airports following the FlyDubai incident. Airstrikes in Gaza will continue as the war enters its third year with no ceasefire in sight, while settler activity in the West Bank generates further friction with Palestinian villages. European capitals will keep ratcheting up diplomatic pressure on settlement expansion, building on the Netherlands' revocation of Israeli diplomatic status and the expanded UN list. Markets and the shekel, having already absorbed the week's shocks, should find a degree of stability rather than a fresh crash.",
+  "reasoning": "I flipped only Q8. The cockpit attack and the Egypt intelligence leak are both events that occurred during the current week, meaning their market impact has likely already been priced in by October 21. The wind data shows the plain forecaster's recurring error is reading active tension as a trigger for a new dramatic one-off event; a 'noticeable wobble' next week requires a fresh shock that no current evidence supports. The other seven answers are kept because each reflects either a confirmed ongoing pattern (Gaza strikes, West Bank clashes), a near-automatic policy response (airport security), a rising trend with concrete recent steps (European settlement pressure, opposition politics over the Egypt leak), or a clearly absent development (ceasefire, Saudi normalization).",
+  "rows": [
+    {
+      "id": "Q1",
+      "text": "Will opposition leaders publicly attack Netanyahu over leaked reports that Egypt warned Israel before the October 7 attacks?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "The Egypt leak is a brand-new escalation of the pre-October-7 warning story that last week was about the UAE, and with the October 27 election two weeks away the trend flags this domestic political crisis as rising, making an opposition attack near-certain.",
+      "verdict": ""
+    },
+    {
+      "id": "Q2",
+      "text": "Will Israel announce tightened security checks for pilots and cockpit access at its airports in response to the FlyDubai cockpit attack?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The FlyDubai cockpit attack is a confirmed, high-importance (5/5) event that directly implicates pilot and cockpit security, making tightened checks at Israeli airports a near-automatic policy follow-up rather than a speculative dramatic flashpoint.",
+      "verdict": ""
+    },
+    {
+      "id": "Q3",
+      "text": "Will Israel carry out additional military strikes in Gaza during the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "Gaza strikes persisted without a ceasefire last week and the same answer scored correctly, so the status quo of ongoing military operations into the war's third year is the best-supported expectation.",
+      "verdict": ""
+    },
+    {
+      "id": "Q4",
+      "text": "Will there be additional settler marches and clashes with Palestinians in the West Bank during the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "Settler marches and village attacks during Sukkot are confirmed this week and the trend lists West Bank settler violence as rising, indicating an ongoing pattern rather than a one-off event, so further clashes are the most likely continuation.",
+      "verdict": ""
+    },
+    {
+      "id": "Q5",
+      "text": "Will a full ceasefire agreement in Gaza be signed during the week?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The US-brokered ceasefire has collapsed, strikes persist, and the war is in its third year with no new negotiations in evidence, so a full ceasefire signing in the next week remains unlikely.",
+      "verdict": ""
+    },
+    {
+      "id": "Q6",
+      "text": "Will European governments issue new diplomatic criticism or measures related to Israeli settlement expansion?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "The Netherlands already revoked Israeli diplomatic status and the UN expanded its settlement-linked companies list this week, and the trend flags European diplomatic pressure on settlements as rising, making further criticism or measures from other European capitals a natural next step.",
+      "verdict": ""
+    },
+    {
+      "id": "Q7",
+      "text": "Will official normalization of diplomatic relations between Israel and Saudi Arabia be announced?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The ZIM-Hapag-Lloyd shipping halt over Gulf stakes is a business disagreement, not a diplomatic normalization, and no headline signals a breakthrough in Israel-Saudi talks, so an official announcement remains unsupported.",
+      "verdict": ""
+    },
+    {
+      "id": "Q8",
+      "text": "Will the shekel or Israeli stock markets experience a noticeable wobble in response to security news during the week?",
+      "plain": "YES",
+      "crystal": "NO",
+      "flipped": true,
+      "outcome": "UNCLEAR",
+      "reason": "The cockpit attack and Egypt leak already hit the shekel and markets this week; the wind correction warns that treating ongoing tension as sufficient cause for a new discrete shock is the forecaster's systematic error, so next week is more likely to show stabilization than a fresh wobble.",
+      "verdict": "flip unclear"
+    }
+  ],
+  "flips": 1,
+  "flips_right": 0,
+  "flips_wrong": 0,
+  "flips_unclear": 1
+}
