@@ -1,0 +1,251 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-22",
+  "previous_round": "2026-10-02",
+  "is_legacy": true,
+  "code": "IL",
+  "name": "Israel",
+  "model": "hand-made text, imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-22T19:44:25+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "skipped",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Israel stood on the brink of a tightly contested general election scheduled for October 27, pitting Prime Minister Netanyahu against former Defense Minister Gadi Eisenkot in a race where no side appeared close to a clean 61-seat mandate. In Gaza, commercial goods had been briefly suspended over a merchant-Hamas tax dispute before Israel announced their return, while the World Food Programme cut its beneficiary count from 1.6 million to 1.1 million, raising winter-shock fears. The West Bank saw a sharp spike in settler violence during the olive harvest, including attacks on European diplomats, a U.S. journalist, and a U.S. congressional candidate; Israel arrested ten suspects. On the diplomatic front, the United States and Israel advanced joint strike planning against Iran, with Secretary Hegseth making an unannounced visit to Jerusalem, while Trump openly endorsed Netanyahu and Vice President Vance withheld his. Large numbers of diaspora Israelis were flying home to vote. The Central Bank held rates steady and raised growth forecasts, but bond markets stayed nervous ahead of the vote. The far right, split between Ben-Gvir, Winter, and other challengers, complicated Netanyahu's coalition arithmetic.",
+    "key_events": [
+      {
+        "event": "General election between Netanyahu and Eisenkot scheduled for October 27 with neither side holding a clear path to 61 seats",
+        "date": "2026-10-27",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "World Food Programme cut Gaza aid beneficiaries from 1.6 million to 1.1 million ahead of winter",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "West Bank settler violence spiked during olive harvest, including attacks on European diplomats and a U.S. journalist",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "U.S. and Israel advanced joint strike planning against Iran with Hegseth visiting Jerusalem unannounced",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Trump issued a full endorsement for Netanyahu while Vance withheld his, deepening the U.S. split",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Diaspora Israelis flew home in unusually large numbers to vote, many specifically to challenge Netanyahu",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Commercial goods to Gaza suspended over a merchant-Hamas tax dispute before Israel announced a resumption",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Central Bank held interest rates steady and raised growth forecasts while bond markets stayed anxious",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "politics",
+      "security",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🗳️",
+      "⚔️",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "A general election is five days out and the entire week orbits coalition math.",
+      "Settler violence in the West Bank and Iran strike planning keep security at the top of the agenda.",
+      "U.S.-Israel coordination on Iran and Trump's open endorsement make diplomacy inseparable from domestic politics."
+    ],
+    "developments": [
+      {
+        "subject": "October 27 election",
+        "what_happened": "Netanyahu and Eisenkot face each other in a razor-thin race where neither side appears close to 61 seats.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "Gaza commercial goods",
+        "what_happened": "Commercial shipments were suspended over a tax dispute and Israel announced their partial resumption.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "WFP aid cut",
+        "what_happened": "The World Food Programme reduced the number of Gazans it serves by a third ahead of winter.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "West Bank settler violence",
+        "what_happened": "Settlers attacked harvesters, diplomats, and a U.S. journalist during the olive season; Israel arrested ten.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "Iran-U.S. strike planning",
+        "what_happened": "Washington and Jerusalem advanced joint military planning for Iran with the actual operation targeted after U.S. midterms.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "Trump endorsement",
+        "what_happened": "Trump gave Netanyahu a full public endorsement while Vance stayed silent, splitting the U.S. Jewish vote.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": []
+      },
+      {
+        "subject": "Diaspora voting surge",
+        "what_happened": "Large numbers of Israelis abroad flew home to vote, many motivated to challenge Netanyahu.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": []
+      },
+      {
+        "subject": "Far-right fragmentation",
+        "what_happened": "Ben-Gvir, Ofer Winter, and other challengers split the anti-Netanyahu right and complicate coalition building.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": []
+      },
+      {
+        "subject": "Economic markets",
+        "what_happened": "The Central Bank held rates steady and raised growth forecasts, but bonds and the shekel stayed nervous.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": []
+      }
+    ],
+    "gone": [],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "This bulletin was reconstructed from a narrative forecast text rather than a set of individual headlines."
+    },
+    "headlines_used": [],
+    "converted": false,
+    "from_text": true,
+    "relevant_headlines": null,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "crystal": {
+      "lead": {
+        "subject": "October 27 election and coalition scramble",
+        "expected": "Israel votes on October 27 and neither Netanyahu nor Eisenkot secures a decisive 61-seat majority, leaving the country in a coalition scramble through the weekend with both camps claiming a path to government.",
+        "direction": "persist",
+        "sign": "Headlines will pair no-clear-winner language with who-can-form-61-seats language rather than announcing a sworn-in government."
+      },
+      "second": {
+        "subject": "Gaza humanitarian flow and aid cut",
+        "expected": "Commercial goods partially resume in Gaza after the tax-dispute suspension, but the WFP one-third aid reduction fuels visible protests in Tel Aviv and Jerusalem over winter readiness and food shortages.",
+        "direction": "persist",
+        "sign": "Headlines will carry both goods-returning and WFP-cut-leaves-millions-unprotected stories in the same news cycle."
+      },
+      "third": {
+        "subject": "West Bank settler violence",
+        "expected": "Another wave of settler attacks on harvesters and activists lands before the week ends, generating new arrests, European diplomatic protests, and a fresh round of campaign rhetoric from both sides.",
+        "direction": "escalate",
+        "sign": "Headlines will quote Israeli officials calling attackers a small minority while opposition leaders brand the pattern formalized settler rule."
+      },
+      "fade_call": {
+        "subject": "U.S.-Israel Iran strike planning",
+        "expected": "persist",
+        "sign": "Headlines will carry post-midterm-window language and reports of high-level meetings rather than a launch decision."
+      },
+      "surprise": {
+        "subject": "Diaspora vote as deciding variable",
+        "expected": "Overseas turnout shifts the final seat count by enough to alter the coalition arithmetic, making the diaspora ballot the swing factor no domestic poll captured.",
+        "chance": "medium"
+      },
+      "summary": "Israel will hold its October 27 election and end the week without a clean winner. Neither Netanyahu nor Eisenkot will command a decisive 61-seat bloc, and both camps will claim a path to government while coalition talks stall. In Gaza, commercial goods will partially resume after the tax-dispute suspension, but the WFP one-third aid cut will fuel visible protests in Tel Aviv and Jerusalem over winter preparedness. West Bank settler violence will intensify, with another round of harvest-season attacks generating arrests and European diplomatic complaints. The U.S.-Israel Iran planning track will stay active but not trigger a full-scale operation, as Washington waits for its November midterms to clear. Markets will track polling shifts more than fundamentals, and the shekel will feel pressure. The week will close with Israel tense, politically unresolved, and much less certain about its direction than it began."
+    },
+    "persistence": {
+      "lead": {
+        "subject": "October 27 election",
+        "expected": "October 27 election stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about October 27 election appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Gaza commercial goods",
+        "expected": "Gaza commercial goods stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Gaza commercial goods appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "WFP aid cut",
+        "expected": "WFP aid cut stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about WFP aid cut appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Trump endorsement",
+        "expected": "persist",
+        "sign": "Trump endorsement is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. October 27 election stays in the news at the same level. Gaza commercial goods stays in the news at the same level. WFP aid cut stays in the news at the same level. Trump endorsement is still being reported at the next collection.",
+      "generated_by": "python template"
+    }
+  },
+  "display": {
+    "headline": "Israel votes, scrambles coalitions, and stays unresolved",
+    "emojis": [
+      "🗳️",
+      "🔥",
+      "❓"
+    ],
+    "emoji_reasons": [
+      "The entire week pivots on the October 27 vote and the coalition math that follows.",
+      "Gaza aid cuts and West Bank settler violence keep the country in a state of active friction.",
+      "No clean winner, no clean government: the week's defining feature is genuine uncertainty."
+    ],
+    "tldr": "Israel will vote on October 27 and fail to produce a clean government, leaving both Netanyahu and Eisenkot fighting over coalition seats. Gaza aid will partly recover but stay politically toxic, and West Bank settler violence will worsen through the week. The U.S.-Israel Iran track will heat up but not ignite before the U.S. midterms."
+  },
+  "judgment": null,
+  "history_used": null,
+  "earlier_experiments": null,
+  "forecast_meta": {
+    "hand_made": true,
+    "horizon_start": "2026-10-22",
+    "horizon_end": "2026-10-29",
+    "unscorable": false,
+    "reason": null
+  }
+}

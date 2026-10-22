@@ -1,0 +1,19 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-22",
+  "previous_round": "2026-10-02",
+  "is_legacy": true,
+  "window_start": "2026-10-15",
+  "window_end": "2026-10-22",
+  "horizon_days": 7,
+  "model": "hand-made forecast text imported by huihui_ai/Qwen3.8-abliterated:27b",
+  "llm_host": "http://localhost:11434/v1",
+  "started_at": "2026-10-22T19:44:25+03:00",
+  "finished_at": "2026-10-22T19:44:25+03:00",
+  "status": "complete",
+  "countries_total": 1,
+  "countries_done": 1,
+  "headlines_total": 0,
+  "round_scorecard": null,
+  "elapsed_days": 20
+}

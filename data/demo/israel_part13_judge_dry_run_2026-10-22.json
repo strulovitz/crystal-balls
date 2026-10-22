@@ -1,0 +1,77 @@
+{
+  "graded_round": "2026-10-02",
+  "elapsed_days": 15,
+  "dry_run": true,
+  "orders": [
+    [
+      "crystal",
+      "persistence"
+    ]
+  ],
+  "label_order": {
+    "X": "crystal",
+    "Y": "persistence"
+  },
+  "per_arm": {
+    "crystal": {
+      "items": {
+        "lead": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'Oct. 7 warning leaks' under 'No longer in the headlines,' and while the Oct. 7 anniversary (Oct 7) predates this round, no headline describes state commemorations or opposition rallies over Egyptian warning leaks."
+        },
+        "second": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'FlyDubai cockpit attack' under 'No longer in the headlines,' and no headline in the collection references cockpit-security rules, a hero-pilot award, or a Gulf diplomatic tug-of-war over the Omani copilot."
+        },
+        "third": {
+          "grade": "true_in_direction",
+          "evidence": "Headlines [27], [42], [77], and [70] confirm a tight Netanyahu-versus-Eizenkot election campaign dominates, but the specific predicted signs—hero-pilot campaign ads, a Ben-Gvir Al-Aqsa visit, and a Smotrich fuel-subsidy announcement—appear in none of the 91 headlines."
+        },
+        "fade_call": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'Sports friction' under 'No longer in the headlines,' contradicting the prediction that Europa League boycott debates would persist."
+        }
+      },
+      "archer_note": "The bulletin completely missed the West Bank olive-harvest settler violence that dominated nearly a quarter of all headlines and the Gaza commercial-goods halt that triggered a food-crisis narrative. It also missed the international diplomatic pressure cluster (US, China, Belgium, Italy) and the Colombia embassy opening, which were prominent new stories. Its main thesis—that the Oct. 7 anniversary and FlyDubai aftermath would drive the week—was wrong on both anchor events; the election was correctly identified as central but was mis-framed as a reaction to the anniversary rather than a standalone contest."
+    },
+    "persistence": {
+      "items": {
+        "lead": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'FlyDubai cockpit attack' under 'No longer in the headlines,' directly contradicting the prediction that it would persist at the same volume."
+        },
+        "second": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'Oct. 7 warning leaks' under 'No longer in the headlines,' directly contradicting the prediction that it would persist at the same volume."
+        },
+        "third": {
+          "grade": "came_true",
+          "evidence": "Headlines [14], [52], [59], [66], and [84] all confirm the Gaza war and ceasefire remain a dominant, continuing story with strikes, supply halts, and malnutrition warnings."
+        },
+        "fade_call": {
+          "grade": "did_not_appear",
+          "evidence": "The reality section explicitly lists 'FlyDubai cockpit attack' under 'No longer in the headlines,' contradicting the fade call that it would still be reported at the next collection."
+        }
+      },
+      "archer_note": "The bulletin missed the West Bank settler violence and olive-harvest attacks, the Gaza commercial-goods halt and food crisis, and the parliamentary election as the dominant political story. It also missed the international diplomatic cluster and the spyware/ad-tech espionage revelation, both of which were significant new developments. Its main thesis of 'more of the same' was structurally wrong because both of its two anchor stories (FlyDubai and Oct. 7 warnings) faded out entirely while three new dominant stories emerged."
+    }
+  },
+  "verdicts": [
+    [
+      {
+        "first": "crystal",
+        "second": "persistence",
+        "score": -1.0,
+        "reason": "Bulletin X at least identified the election as the central political story in its third item, pointing toward the actual dominant narrative even though its specific mechanisms were wrong, whereas Bulletin Y only correctly predicted that Gaza would persist, which is the least informative default call. The decisive difference is that X's framework, despite its errors, gestured toward the forward-looking political contest that actually dominated, while Y's 'more of the same' thesis was falsified by the fading of both its anchor stories."
+      }
+    ]
+  ],
+  "scores": {
+    "crystal_vs_persistence": 1.0
+  },
+  "u": 1.0,
+  "first_listed_wins": 1,
+  "first_listed_nonties": 1,
+  "hand_made": true,
+  "label": "DRY RUN: not part of any scorecard"
+}
