@@ -122,3 +122,13 @@ P.S. about today's text: Nir does not need to paste it into the OpenCode chat. J
 Order for OpenCode: Part 13, then the 13.15 amendment, then the one line about the file. Then wait for the three Israel outputs and bring them to Fable.
 
 The line Fable gave for OpenCode: "Save the text below as BIBLE/part-13-reader.md verbatim. It supersedes Parts 9, 10, 11 and 12 wherever they conflict. Implement with --mock-llm only. Make at most three real model calls, all on Israel, paste their outputs to Nir, then print the command to continue the round."
+
+### 13.16 Amendment: specificity rules for bulletins (Fable, 2026-10-22, after the first real Israel outputs)
+
+The first real crystal bulletin filled its sign sentences with invented details: a named diplomat, a 48-hour deadline, a UNRWA figure, a 72-hour pledge. No headline can confirm an invented detail, so such a sign can never earn came_true. This is the failure of Attempt 1 returning. Rules, added to prompts/plain.txt and prompts/crystal.txt verbatim and enforced by the validator where code can:
+a. "expected" describes one development in one sentence. No lists of two or more developments joined by commas or "and".
+b. "sign" describes the kind of headline a reader would see, in category words. It never contains a number, a duration or deadline (hours, days), a percentage, or the name of a person, place or organisation that does not appear in this week's headlines. Validator: reject a sign that contains a digit or any of the words hour, hours, day, days, percent.
+c. Everything forecast is for the window ending {{HORIZON_END}}, stated in the prompt as a date. Nothing after that date is scored.
+d. Judge rule added to prompts/judge.txt: when an item bundles several developments, grade only its first clause; when a sign contains an invented detail, grade the category only and note "over-specific" in the evidence sentence.
+
+(Implementation note by Sonnet: the prompt files are named prompts/plain_forecast.txt and prompts/crystal_forecast.txt. Rule a is enforced by the validator as "expected" may contain at most one comma and no " and " joining two developments is checked only by the prompt. The hand-made legacy imports are not held to rules a and b.)

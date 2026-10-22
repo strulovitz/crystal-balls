@@ -1,8 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T18:43:39+03:00",
-  "latest": "2026-10-02",
+  "generated_at": "2026-10-22T21:01:49+03:00",
+  "latest": "2026-10-22",
   "rounds": [
+    {
+      "round": "2026-10-22",
+      "previous_round": "2026-10-02",
+      "is_legacy": true,
+      "status": "complete",
+      "label": "Oct 22, 2026 (manual)"
+    },
     {
       "round": "2026-10-02",
       "previous_round": "2026-09-15",

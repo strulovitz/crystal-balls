@@ -836,6 +836,9 @@ def _chat_completion(messages, settings, temperature, use_response_format):
         payload["top_k"] = int(settings["LLM_TOP_K"])
     if settings.get("LLM_MIN_P", "").strip():
         payload["min_p"] = float(settings["LLM_MIN_P"])
+    # Thinking mode off for Ollama's OpenAI endpoint (verified 2026-10-22: "none" removes the reasoning)
+    if str(settings.get("LLM_REASONING_EFFORT", "")).strip():
+        payload["reasoning_effort"] = settings["LLM_REASONING_EFFORT"].strip()
     if str(settings.get("LLM_SEED", "")).strip():
         payload["seed"] = int(settings["LLM_SEED"])
 

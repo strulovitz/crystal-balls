@@ -20,6 +20,7 @@ CHANCE = {"low", "medium", "high"}
 GRADES = ("came_true", "true_in_direction", "did_not_appear", "cannot_establish")
 ITEM_KEYS = ("lead", "second", "third", "fade_call")
 FORBIDDEN_RE = re.compile(r"\b(may|might|could|possibly|likely|continue|remain|ongoing)\b", re.IGNORECASE)
+SIGN_INVENTED_RE = re.compile(r"\d|\b(hour|hours|day|days|percent)\b", re.IGNORECASE)
 MIN_RELEVANT_HEADLINES = 40
 STEPS = ["reader", "judge", "plain", "crystal"]
 ARMS = ("plain", "crystal", "persistence")
@@ -281,7 +282,7 @@ def validate_reader(obj, vocabulary=None, n_headlines=None, legacy=False):
     return True
 
 
-def _check_item(label, it, errors, kind):
+def _check_item(label, it, errors, kind, strict=True):
     if not isinstance(it, dict):
         errors.append(f"{label}: expected an object")
         return
@@ -297,6 +298,8 @@ def _check_item(label, it, errors, kind):
             errors.append(f"{label}.expected: expected a sentence of 4 to 40 words")
         elif FORBIDDEN_RE.search(exp):
             errors.append(f"{label}.expected: forbidden word ({FORBIDDEN_RE.search(exp).group(0)}), say what will happen")
+        elif strict and exp.count(",") > 1:
+            errors.append(f"{label}.expected: describe ONE development in one sentence, not a list (more than one comma)")
     if kind == "item":
         if it.get("direction") not in ITEM_DIRECTION:
             errors.append(f"{label}.direction: {it.get('direction')!r} not in {sorted(ITEM_DIRECTION)}")
@@ -309,14 +312,17 @@ def _check_item(label, it, errors, kind):
             errors.append(f"{label}.sign: expected a sentence of 4 to 40 words")
         elif FORBIDDEN_RE.search(sign):
             errors.append(f"{label}.sign: forbidden word ({FORBIDDEN_RE.search(sign).group(0)})")
+        elif strict and SIGN_INVENTED_RE.search(sign):
+            errors.append(f"{label}.sign: describe the kind of headline in category words, with no number, "
+                          f"duration, deadline or percentage ({SIGN_INVENTED_RE.search(sign).group(0)!r} found)")
 
 
-def validate_bulletin(obj):
+def validate_bulletin(obj, strict=True):
     errors = []
     for k in ("lead", "second", "third"):
-        _check_item(k, obj.get(k), errors, "item")
-    _check_item("fade_call", obj.get("fade_call"), errors, "fade")
-    _check_item("surprise", obj.get("surprise"), errors, "surprise")
+        _check_item(k, obj.get(k), errors, "item", strict)
+    _check_item("fade_call", obj.get("fade_call"), errors, "fade", strict)
+    _check_item("surprise", obj.get("surprise"), errors, "surprise", strict)
     subs = [str((obj.get(k) or {}).get("subject", "")).strip().lower() for k in ("lead", "second", "third")]
     if len(set(subs)) != 3:
         errors.append("lead, second and third must have different subjects")
@@ -339,7 +345,7 @@ def validate_crystal_output(obj, vocabulary=None):
 
 def validate_legacy_reader(obj, vocabulary=None):
     validate_reader(obj.get("reader", {}), vocabulary=vocabulary, legacy=True)
-    validate_bulletin(obj.get("forecast", {}))
+    validate_bulletin(obj.get("forecast", {}), strict=False)
     d = obj.get("display", {})
     common.validate_display(dict(d), vocabulary=vocabulary)
     return True
