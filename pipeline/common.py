@@ -1163,6 +1163,98 @@ def crystal_answers_as_text(items, answers):
     return "\n".join(lines) + "\n"
 
 
+PREVIOUS_POSITION_UNAVAILABLE = "Not available."
+MEMORY_UNAVAILABLE = "No lessons recorded yet for this country."
+
+
+def naive_answers_as_text(items, answers):
+    """Bible 11.2: the plain forecaster's answers, shown to the Crystal step as 'the first arrow'."""
+    a = {x["id"]: x for x in answers}
+    lines = []
+    for q in items:
+        x = a.get(q["id"], {})
+        lines.append(f"- [{q['id']}] {q['text']} Plain answer: {x.get('answer', '?')}. Reason: {x.get('reason', '')}")
+    return "\n".join(lines) + "\n"
+
+
+def memory_path(code):
+    return ROOT / "data" / "memory" / f"{code}.json"
+
+
+def memory_as_text(code, limit=6):
+    """Bible 11.3: the last entries of the country's lessons, newest first."""
+    p = memory_path(code)
+    if not p.exists():
+        return MEMORY_UNAVAILABLE
+    entries = load_json(p).get("entries", [])
+    if not entries:
+        return MEMORY_UNAVAILABLE
+    entries = sorted(entries, key=lambda e: e["round"], reverse=True)[:limit]
+    return "\n".join(f"- [{e['round']}] {e['record']} Lesson: {e['lesson']}" for e in entries) + "\n"
+
+
+def append_memory_entry(code, wind):
+    """Bible 11.3: written by the wind step, after the counts are computed. One entry per judged
+    round: running the same step again replaces the entry instead of duplicating it."""
+    if wind.get("single_forecaster"):
+        record = (f"Single manual forecast {wind.get('correct')} of {wind.get('resolved')} right "
+                  f"({wind.get('unclear')} unclear).")
+    else:
+        record = (f"Plain forecast {wind.get('naive_correct')} of {wind.get('resolved')} right, "
+                  f"Crystal {wind.get('crystal_correct')} of {wind.get('resolved')}, "
+                  f"flips: {wind.get('flips_right', 0)} right, {wind.get('flips_wrong', 0)} wrong.")
+    entry = {"round": wind["previous_round"], "record": record, "lesson": wind.get("correction_hint", "")}
+    p = memory_path(code)
+    data = load_json(p) if p.exists() else {"code": code, "entries": []}
+    data["entries"] = [e for e in data["entries"] if e["round"] != entry["round"]] + [entry]
+    data["entries"].sort(key=lambda e: e["round"])
+    p.parent.mkdir(parents=True, exist_ok=True)
+    save_json(p, data)
+
+
+def validate_crystal(obj, expected_ids, naive_answers):
+    """Bible 11.4: KEEP or FLIP for every question; final_answer must agree with the decision."""
+    errors = []
+    _check_word_count("summary", obj.get("summary", ""), 80, 150, errors, tolerance=0.25)
+    _check_no_markdown_table("summary", obj.get("summary", ""), errors)
+    _check_word_count("reasoning", obj.get("reasoning", ""), 60, 140, errors, tolerance=0.25)
+    _check_no_markdown_table("reasoning", obj.get("reasoning", ""), errors)
+    plain = {a["id"]: a["answer"] for a in naive_answers}
+    decisions = obj.get("decisions")
+    if not isinstance(decisions, list):
+        errors.append("decisions: expected a list")
+    else:
+        got = [d.get("id") for d in decisions]
+        if sorted(got) != sorted(expected_ids):
+            errors.append(f"decision ids {got} do not match expected {list(expected_ids)}")
+        for d in decisions:
+            qid = d.get("id", "?")
+            dec, fin = d.get("decision"), d.get("final_answer")
+            if dec not in ("KEEP", "FLIP"):
+                errors.append(f"{qid}: decision must be exactly KEEP or FLIP, got {dec!r}")
+            if fin not in ("YES", "NO"):
+                errors.append(f"{qid}: final_answer must be exactly YES or NO, got {fin!r}")
+            elif qid in plain and dec in ("KEEP", "FLIP"):
+                want = plain[qid] if dec == "KEEP" else ("NO" if plain[qid] == "YES" else "YES")
+                if fin != want:
+                    errors.append(f"{qid}: decision {dec} on plain answer {plain[qid]} requires final_answer {want}, got {fin}")
+            if not (isinstance(d.get("evidence"), str) and d["evidence"].strip()):
+                errors.append(f"{qid}: evidence missing")
+    if errors:
+        raise ValueError("Crystal validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
+def crystal_stored_from_decisions(obj, naive_answers):
+    """Turns the model's decisions into the stored crystal_forecast answers (Bible 11.4)."""
+    plain = {a["id"]: a["answer"] for a in naive_answers}
+    answers = [{"id": d["id"], "answer": d["final_answer"], "flipped": d["decision"] == "FLIP",
+                "reason": d["evidence"]} for d in obj["decisions"]]
+    answers.sort(key=lambda a: [x["id"] for x in naive_answers].index(a["id"]))
+    return {"summary": obj["summary"], "reasoning": obj["reasoning"], "answers": answers,
+            "flips": sum(1 for a in answers if a["flipped"])}
+
+
 def wind_v2_as_text(w):
     lines = []
     for q in w.get("questions", []):
@@ -1175,6 +1267,8 @@ def wind_v2_as_text(w):
     else:
         lines.append(f"Resolved {w.get('resolved')}, unclear {w.get('unclear')}, naive correct {w.get('naive_correct')}, "
                      f"crystal correct {w.get('crystal_correct')}, disagreements {w.get('disagreements')}. Winner: {w.get('winner')}.")
+    if not w.get("single_forecaster") and "flips" in w:
+        lines.append(f"Crystal flips: {w['flips']} (right {w.get('flips_right', 0)}, wrong {w.get('flips_wrong', 0)}, unclear {w.get('flips_unclear', 0)}).")
     lines.append(f"Systematic error: {w.get('systematic_error', '')}")
     lines.append(f"Correction: {w.get('correction_hint', '')}")
     return "\n".join(lines) + "\n"
@@ -1314,6 +1408,7 @@ def compute_wind_v2(prev_file, judge_obj, prev_round_id, elapsed_days):
     c_ans = {a["id"]: a["answer"] for a in prev_file["crystal_forecast"]["answers"]}
     qs, resolved, unclear = [], 0, 0
     n_ok = c_ok = dis = c_won = n_won = 0
+    fl = fl_right = fl_wrong = fl_unclear = 0
     for q in prev_file["questions"]["items"]:
         v = verdict[q["id"]]
         out = v["outcome"]
@@ -1323,7 +1418,17 @@ def compute_wind_v2(prev_file, judge_obj, prev_round_id, elapsed_days):
                  "relevant_headlines": v.get("relevant_headlines", [])}
         if q.get("legacy_probability") is not None:
             entry["legacy_probability"] = q["legacy_probability"]
+        flipped = (not single) and entry["naive"] != entry["crystal"]
+        entry["flipped"] = flipped
         qs.append(entry)
+        if flipped:
+            fl += 1
+            if out == "UNCLEAR":
+                fl_unclear += 1
+            elif entry["crystal"] == out:
+                fl_right += 1
+            else:
+                fl_wrong += 1
         if out == "UNCLEAR":
             unclear += 1
             continue
@@ -1349,7 +1454,8 @@ def compute_wind_v2(prev_file, judge_obj, prev_round_id, elapsed_days):
         else:
             winner = "tie"
         w.update({"naive_correct": n_ok, "crystal_correct": c_ok, "disagreements": dis,
-                  "crystal_won_disagreements": c_won, "naive_won_disagreements": n_won, "winner": winner})
+                  "crystal_won_disagreements": c_won, "naive_won_disagreements": n_won, "winner": winner,
+                  "flips": fl, "flips_right": fl_right, "flips_wrong": fl_wrong, "flips_unclear": fl_unclear})
     w["systematic_error"] = judge_obj["systematic_error"]
     w["correction_hint"] = judge_obj["correction_hint"]
     return w

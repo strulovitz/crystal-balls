@@ -55,6 +55,17 @@ def mock_response(step_name, variables, country_code, vocabulary=None, naive_ids
             {"id": f"Q{i+1}", "text": f"Will mock event {words[i]} happen in {name}?", "domain": doms[i % 4],
              "setter_lean": "YES" if i % 2 == 0 else "NO", "why_uncertain": "Mock reason for testing."}
             for i in range(8)]}
+    if step_name == "crystal_forecast" and "NAIVE_ANSWERS" in variables:
+        import re
+        plain = dict(re.findall(r"- \[(Q\d+)\] .*? Plain answer: (YES|NO)\.", variables["NAIVE_ANSWERS"]))
+        decisions = []
+        for i, qid in enumerate(naive_ids):
+            flip = i in (1, 2)   # two flips per mock country, so counts, memory and markers are exercised
+            fin = plain[qid] if not flip else ("NO" if plain[qid] == "YES" else "YES")
+            decisions.append({"id": qid, "decision": "FLIP" if flip else "KEEP", "final_answer": fin,
+                              "evidence": "Mock flip for testing." if flip else "No reason to change."})
+        return {"decisions": decisions, "summary": demo._words(100, demo._crystal_pool(name)),
+                "reasoning": demo._words(90, demo._reasoning_pool(name))}
     if step_name in ("naive_forecast", "crystal_forecast") and naive_ids and "HEADLINES" in variables and "QUESTIONS" in variables:
         crystal = step_name == "crystal_forecast"
         # naive says YES on even ids, crystal flips two of them so the two disagree

@@ -1114,3 +1114,52 @@
 15:19:35 Step 7 of 7 done (display, Israel, 5m49s). Estimated remaining: 0s. You can stop any time and continue later.
 15:19:35 Country 1 of 1: Israel. position done, velocity done, wind done (539s), questions done, naive done, crystal done (411s), display done (349s)
 15:19:35 Not finalizing (--no-finalize or --only was used).
+12:01:23 Round 2026-10-17 started. Previous round: 2026-10-14 (3 days ago).
+12:01:23 Fetching headlines for round 2026-10-17, window 2026-10-14 to 2026-10-17, previous round: 2026-10-14
+12:01:23 Country 1 of 32: United States already fetched, skipping
+12:01:23 Country 2 of 32: Russia already fetched, skipping
+12:01:23 Country 3 of 32: China already fetched, skipping
+12:01:23 Country 4 of 32: DR Congo already fetched, skipping
+12:01:23 Country 5 of 32: Iran already fetched, skipping
+12:01:23 Country 6 of 32: Israel already fetched, skipping
+12:01:23 Country 7 of 32: Ukraine already fetched, skipping
+12:01:23 Country 8 of 32: North Korea already fetched, skipping
+12:01:23 Country 9 of 32: Venezuela already fetched, skipping
+12:01:23 Country 10 of 32: Canada already fetched, skipping
+12:01:23 Country 11 of 32: Iraq already fetched, skipping
+12:01:23 Country 12 of 32: Saudi Arabia already fetched, skipping
+12:01:23 Country 13 of 32: Japan already fetched, skipping
+12:01:23 Country 14 of 32: South Korea already fetched, skipping
+12:01:23 Country 15 of 32: Taiwan already fetched, skipping
+12:01:23 Country 16 of 32: Germany already fetched, skipping
+12:01:23 Country 17 of 32: Netherlands already fetched, skipping
+12:01:23 Country 18 of 32: Switzerland already fetched, skipping
+12:01:23 Country 19 of 32: Singapore already fetched, skipping
+12:01:23 Country 20 of 32: Brazil already fetched, skipping
+12:01:23 Country 21 of 32: Australia already fetched, skipping
+12:01:23 Country 22 of 32: Indonesia already fetched, skipping
+12:01:23 Country 23 of 32: Chile already fetched, skipping
+12:01:23 Country 24 of 32: Peru already fetched, skipping
+12:01:23 Country 25 of 32: Vietnam already fetched, skipping
+12:01:23 Country 26 of 32: France already fetched, skipping
+12:01:23 Country 27 of 32: United Kingdom already fetched, skipping
+12:01:23 Country 28 of 32: Italy already fetched, skipping
+12:01:23 Country 29 of 32: India already fetched, skipping
+12:01:23 Country 30 of 32: Egypt already fetched, skipping
+12:01:23 Country 31 of 32: Turkey already fetched, skipping
+12:01:23 Country 32 of 32: South Africa already fetched, skipping
+12:01:23 Headline fetch complete.
+12:01:23 Country 1 of 32: United States
+12:01:23 Step 1 of 224 done (position, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+12:01:23 Step 2 of 224 done (velocity, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+12:06:27   [US wind] HTTP 500 on attempt 1: {"error":{"message":"timed out waiting for llama-server to start - ","type":"api_error","param":null,"code":null}}
+
+12:18:07   [US wind] attempt 2: 699.5s, prompt_tokens=9194, completion_tokens=3620
+12:18:07 Step 3 of 224 done (wind, United States, 16m44s). Estimated remaining: 61h36m. You can stop any time and continue later.
+12:30:19   [US questions] attempt 1: 732.7s, prompt_tokens=6292, completion_tokens=4422
+12:30:19 Step 4 of 224 done (questions, United States, 12m13s). Estimated remaining: 53h03m. You can stop any time and continue later.
+12:37:21   [US naive_forecast] attempt 1: 421.6s, prompt_tokens=5176, completion_tokens=2458
+12:37:21 Step 5 of 224 done (naive_forecast, United States, 7m02s). Estimated remaining: 43h45m. You can stop any time and continue later.
+12:45:43   [US crystal_forecast] attempt 1: 502.5s, prompt_tokens=7529, completion_tokens=2916
+12:45:43 Step 6 of 224 done (crystal_forecast, United States, 8m22s). Estimated remaining: 40h16m. You can stop any time and continue later.
+12:48:40 Interrupted. Double-click the icon again to continue from where you stopped.

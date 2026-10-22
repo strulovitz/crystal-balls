@@ -21,7 +21,8 @@ def _now_iso():
 def _blank():
     return {"scored": 0, "questions_resolved": 0, "questions_unclear": 0, "naive_correct": 0, "crystal_correct": 0,
             "disagreements": 0, "crystal_won_disagreements": 0, "naive_won_disagreements": 0,
-            "crystal_wins": 0, "naive_wins": 0, "ties": 0}
+            "crystal_wins": 0, "naive_wins": 0, "ties": 0,
+            "flips": 0, "flips_right": 0, "flips_wrong": 0, "flips_unclear": 0}
 
 
 def _add(t, w):
@@ -33,6 +34,8 @@ def _add(t, w):
     t["disagreements"] += w["disagreements"]
     t["crystal_won_disagreements"] += w["crystal_won_disagreements"]
     t["naive_won_disagreements"] += w["naive_won_disagreements"]
+    for k in ("flips", "flips_right", "flips_wrong", "flips_unclear"):
+        t[k] += w.get(k, 0)
     if w["winner"] == "crystal":
         t["crystal_wins"] += 1
     elif w["winner"] == "naive":
@@ -92,6 +95,9 @@ def compute_scorecard(rounds_dir=None):
         "naive_accuracy": round(total["naive_correct"] / res, 3) if res else None,
         "crystal_accuracy": round(total["crystal_correct"] / res, 3) if res else None,
         "crystal_won_disagreements": a, "naive_won_disagreements": b,
+        **{k: total[k] for k in ("flips", "flips_right", "flips_wrong", "flips_unclear")},
+        "flip_accuracy": (round(total["flips_right"] / (total["flips_right"] + total["flips_wrong"]), 3)
+                          if total["flips_right"] + total["flips_wrong"] else None),
         "edge": round((a - b) / (a + b), 3) if a + b else None,
         "verdict": _verdict(a, b), "min_disagreements_for_verdict": MIN_DISAGREEMENTS,
         "per_round": per_round, "per_country": per_country, "manual_forecast": manual,

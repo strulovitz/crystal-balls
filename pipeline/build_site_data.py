@@ -209,6 +209,7 @@ def ensure_scorecard_exists():
         "questions_resolved": 0, "questions_unclear": 0, "naive_correct": 0, "crystal_correct": 0,
         "disagreements": 0, "naive_accuracy": None, "crystal_accuracy": None,
         "crystal_won_disagreements": 0, "naive_won_disagreements": 0, "edge": None,
+        "flips": 0, "flips_right": 0, "flips_wrong": 0, "flips_unclear": 0, "flip_accuracy": None,
         "verdict": "not enough data yet", "min_disagreements_for_verdict": 30,
         "per_round": [], "per_country": {},
         "manual_forecast": {"country_rounds_scored": 0, "questions_resolved": 0, "questions_unclear": 0,

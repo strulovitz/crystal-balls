@@ -1,125 +1,405 @@
 {
-  "schema_version": 2,
-  "round": "2026-10-17",
+ "schema_version": 2,
+ "round": "2026-10-17",
+ "previous_round": "2026-10-14",
+ "is_legacy": false,
+ "code": "US",
+ "name": "United States",
+ "model": "huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-22T12:45:43+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "done",
+  "wind": "done",
+  "naive_forecast": "done",
+  "crystal_forecast": "pending",
+  "display": "pending",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "This week was dominated by a sharp deterioration in US-Ukraine relations after President Trump waived new Russia sanctions under the Graham Act, citing national interest, just days after signing them into law. Zelenskyy called the move wrong and accused the US of helping Russia, while Moscow hailed it as historic. Congress expressed outrage but had no quick legislative counter. The timing ahead of midterms intensified partisan fights, with Democrats using the Iran war and the sanctions waiver as campaign themes. Inside the White House, press secretary Katie Zacharia was fired after just five days amid criticism over her legal credentials, adding to a pattern of turmoil. Trump also threatened California officials with imprisonment over mail-ballot rules and rallied in Georgia and Pennsylvania as Republican midterm prospects dimmed. No Kings rallies drew voters nationwide to cast early ballots. The US budget deficit ballooned to nearly two trillion dollars, the largest in five years, while interest costs hit a record one trillion. Markets were battered by a tech-sector sell-off and credit fears, with bank stocks posting their worst weekly losing streak since 2008. A school shooting in Oregon left four dead, and US-Iran tensions over the Strait of Hormuz escalated with both sides claiming control of the waterway.",
+  "key_events": [
+   {
+    "event": "Trump waived new Russia sanctions and energy tariffs under the Graham Act, citing national interest, triggering a rift with Zelenskyy and outrage in Congress.",
+    "date": "2026-10-17",
+    "domain": "diplomacy",
+    "importance": 5
+   },
+   {
+    "event": "White House press secretary Katie Zacharia was fired after only five days in the role amid criticism over her legal background and a botched first briefing.",
+    "date": "2026-10-16",
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "The US annual budget deficit swelled to nearly two trillion dollars, the largest in five years, while federal interest costs hit a record one trillion.",
+    "date": "2026-10-16",
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "US midterm campaign intensified with No Kings rallies, Trump threatening California over mail ballots, and party ads attacking each other over the Iran war and Russia sanctions.",
+    "date": "2026-10-17",
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "US and Iran both claimed control of the Strait of Hormuz amid attacks on vessels, and Trump said the US may need to strike Iran's Pickaxe Mountain site.",
+    "date": "2026-10-17",
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "A school shooting in Oregon left four people dead, including three children, with an armed father confronting the gunman.",
+    "date": "2026-10-16",
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "US bank stocks posted their worst weekly losing streak since 2008 as a tech-sector sell-off and credit fears weighed on markets.",
+    "date": "2026-10-16",
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "FBI agents and analysts fired for their roles in the Trump classified-files probe filed a lawsuit to get their jobs back.",
+    "date": "2026-10-16",
+    "domain": "politics",
+    "importance": 2
+   },
+   {
+    "event": "The US began reviving shuttered nuclear plants to meet growing electricity demand and power AI data centers, while Anthropic's Clark told policymakers AI could vastly boost US GDP.",
+    "date": "2026-10-16",
+    "domain": "technology",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "economy",
+   "diplomacy",
+   "security"
+  ],
+  "emojis": [
+   "🎭",
+   "🗳️",
+   "📉"
+  ],
+  "emoji_reasons": [
+   "The firing of White House press secretary Katie Zacharia after just five days, coupled with the Russia sanctions waiver drama, made political theater the defining story of the week.",
+   "No Kings rallies, Trump's threats against California ballot rules, and heated midterm Senate debates show elections were the central domestic focus.",
+   "The nearly two-trillion-dollar budget deficit, record interest costs, and the worst weekly bank-stock losing streak since 2008 underscore a week of financial stress."
+  ]
+ },
+ "velocity": {
+  "summary": "Between the two reports the U.S. situation broadened and sharpened rather than calmed. The Iran-Hormuz crisis, previously in a diplomatic stalemate over a seven-day reopening plan, escalated to both sides claiming control of the waterway, attacks on shipping, and a presidential threat to strike the Pickaxe Mountain site. A major new rupture appeared: Trump waived freshly signed Russia sanctions under the Graham Act, splitting Washington from Kyiv and provoking congressional outrage just ahead of the midterms. Domestic economic stress deepened, with the annual deficit hitting nearly two trillion dollars, record interest costs, and bank stocks posting their worst weekly losing streak since 2008. White House turmoil accelerated with the press secretary fired after five days, while the midterm fight intensified around No Kings rallies, a California mail-ballot showdown, and party ads weaponizing both Iran and Russia. Themes from the prior report such as the Trump-Xi summit, the Iraq withdrawal, the northeast storm, and the Burundi deportation faded from view. The pace of change is brisk: several high-importance items appeared for the first time within seventy-two hours, and the agenda shifted from a single foreign crisis to a multi-front domestic and diplomatic squeeze.",
+  "direction": "shifting",
+  "speed": 7,
+  "intensity_change": 0,
+  "rising": [
+   "Russia sanctions waiver and US-Ukraine rift",
+   "Midterm campaign intensity and partisan gridlock",
+   "Budget deficit, record interest costs, bank-stock selloff",
+   "White House internal turmoil and staffing churn"
+  ],
+  "fading": [
+   "Trump-Xi tariff cuts and AI channel",
+   "Iraq withdrawal completion",
+   "Northeast storm and flooding",
+   "Burundi third-country deportation deal"
+  ],
+  "new": [
+   "Graham Act sanctions waiver and Zelenskyy backlash",
+   "Bank stocks worst weekly losing streak since 2008",
+   "Oregon school shooting with four dead",
+   "Nuclear plant revival to power AI data centers"
+  ]
+ },
+ "wind": {
   "previous_round": "2026-10-14",
-  "is_legacy": false,
-  "code": "US",
-  "name": "United States",
-  "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T10:44:25+03:00",
-  "status": {
-    "position": "done",
-    "velocity": "done",
-    "wind": "pending",
-    "naive_forecast": "pending",
-    "crystal_forecast": "pending",
-    "display": "pending",
-    "questions": "pending"
-  },
-  "position": {
-    "summary": "This week was dominated by a sharp deterioration in US-Ukraine relations after President Trump waived new Russia sanctions under the Graham Act, citing national interest, just days after signing them into law. Zelenskyy called the move wrong and accused the US of helping Russia, while Moscow hailed it as historic. Congress expressed outrage but had no quick legislative counter. The timing ahead of midterms intensified partisan fights, with Democrats using the Iran war and the sanctions waiver as campaign themes. Inside the White House, press secretary Katie Zacharia was fired after just five days amid criticism over her legal credentials, adding to a pattern of turmoil. Trump also threatened California officials with imprisonment over mail-ballot rules and rallied in Georgia and Pennsylvania as Republican midterm prospects dimmed. No Kings rallies drew voters nationwide to cast early ballots. The US budget deficit ballooned to nearly two trillion dollars, the largest in five years, while interest costs hit a record one trillion. Markets were battered by a tech-sector sell-off and credit fears, with bank stocks posting their worst weekly losing streak since 2008. A school shooting in Oregon left four dead, and US-Iran tensions over the Strait of Hormuz escalated with both sides claiming control of the waterway.",
-    "key_events": [
-      {
-        "event": "Trump waived new Russia sanctions and energy tariffs under the Graham Act, citing national interest, triggering a rift with Zelenskyy and outrage in Congress.",
-        "date": "2026-10-17",
-        "domain": "diplomacy",
-        "importance": 5
-      },
-      {
-        "event": "White House press secretary Katie Zacharia was fired after only five days in the role amid criticism over her legal background and a botched first briefing.",
-        "date": "2026-10-16",
-        "domain": "politics",
-        "importance": 4
-      },
-      {
-        "event": "The US annual budget deficit swelled to nearly two trillion dollars, the largest in five years, while federal interest costs hit a record one trillion.",
-        "date": "2026-10-16",
-        "domain": "economy",
-        "importance": 4
-      },
-      {
-        "event": "US midterm campaign intensified with No Kings rallies, Trump threatening California over mail ballots, and party ads attacking each other over the Iran war and Russia sanctions.",
-        "date": "2026-10-17",
-        "domain": "politics",
-        "importance": 4
-      },
-      {
-        "event": "US and Iran both claimed control of the Strait of Hormuz amid attacks on vessels, and Trump said the US may need to strike Iran's Pickaxe Mountain site.",
-        "date": "2026-10-17",
-        "domain": "security",
-        "importance": 4
-      },
-      {
-        "event": "A school shooting in Oregon left four people dead, including three children, with an armed father confronting the gunman.",
-        "date": "2026-10-16",
-        "domain": "society",
-        "importance": 3
-      },
-      {
-        "event": "US bank stocks posted their worst weekly losing streak since 2008 as a tech-sector sell-off and credit fears weighed on markets.",
-        "date": "2026-10-16",
-        "domain": "economy",
-        "importance": 3
-      },
-      {
-        "event": "FBI agents and analysts fired for their roles in the Trump classified-files probe filed a lawsuit to get their jobs back.",
-        "date": "2026-10-16",
-        "domain": "politics",
-        "importance": 2
-      },
-      {
-        "event": "The US began reviving shuttered nuclear plants to meet growing electricity demand and power AI data centers, while Anthropic's Clark told policymakers AI could vastly boost US GDP.",
-        "date": "2026-10-16",
-        "domain": "technology",
-        "importance": 3
-      }
+  "elapsed_days": 3,
+  "questions": [
+   {
+    "id": "Q1",
+    "text": "Will the U.S. announce a narrow Iran trust-building framework that includes some Strait of Hormuz movement and limited sanctions relief?",
+    "domain": "diplomacy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "The headlines show escalating tensions and US consideration of major strikes, with no mention of a trust-building framework or limited sanctions relief for Iran.",
+    "relevant_headlines": [
+     "Trump says US may need to strike Iran's Pickaxe Mountain",
+     "Sources: U.S. considering using \"Mother of All Bombs\" against Iran",
+     "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked"
     ],
-    "mood": "tense",
-    "intensity": 7,
-    "domains_active": [
-      "politics",
-      "economy",
-      "diplomacy",
-      "security"
+    "legacy_probability": 0.5
+   },
+   {
+    "id": "Q2",
+    "text": "Will the U.S. conduct limited strikes against Iranian or Houthi-linked targets?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "The headlines describe the US as considering or threatening strikes, but no headline reports that limited strikes were actually conducted against Iranian or Houthi-linked targets.",
+    "relevant_headlines": [
+     "Trump says US may need to strike Iran's Pickaxe Mountain",
+     "Sources: U.S. considering using \"Mother of All Bombs\" against Iran",
+     "Trump says Iran war will end “soon as I want it to end"
     ],
-    "emojis": [
-      "🎭",
-      "🗳️",
-      "📉"
-    ],
-    "emoji_reasons": [
-      "The firing of White House press secretary Katie Zacharia after just five days, coupled with the Russia sanctions waiver drama, made political theater the defining story of the week.",
-      "No Kings rallies, Trump's threats against California ballot rules, and heated midterm Senate debates show elections were the central domestic focus.",
-      "The nearly two-trillion-dollar budget deficit, record interest costs, and the worst weekly bank-stock losing streak since 2008 underscore a week of financial stress."
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q3",
+    "text": "Will the U.S. and Iran reach a full peace deal?",
+    "domain": "diplomacy",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "The evidence shows an ongoing and escalating conflict with both sides threatening further action, making a full peace deal implausible and unreported.",
+    "relevant_headlines": [
+     "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked",
+     "Trump says US may need to strike Iran's Pickaxe Mountain",
+     "U.S. enters a dangerous new chapter in Ukraine war"
     ]
-  },
-  "velocity": {
-    "summary": "Between the two reports the U.S. situation broadened and sharpened rather than calmed. The Iran-Hormuz crisis, previously in a diplomatic stalemate over a seven-day reopening plan, escalated to both sides claiming control of the waterway, attacks on shipping, and a presidential threat to strike the Pickaxe Mountain site. A major new rupture appeared: Trump waived freshly signed Russia sanctions under the Graham Act, splitting Washington from Kyiv and provoking congressional outrage just ahead of the midterms. Domestic economic stress deepened, with the annual deficit hitting nearly two trillion dollars, record interest costs, and bank stocks posting their worst weekly losing streak since 2008. White House turmoil accelerated with the press secretary fired after five days, while the midterm fight intensified around No Kings rallies, a California mail-ballot showdown, and party ads weaponizing both Iran and Russia. Themes from the prior report such as the Trump-Xi summit, the Iraq withdrawal, the northeast storm, and the Burundi deportation faded from view. The pace of change is brisk: several high-importance items appeared for the first time within seventy-two hours, and the agenda shifted from a single foreign crisis to a multi-front domestic and diplomatic squeeze.",
-    "direction": "shifting",
-    "speed": 7,
-    "intensity_change": 0,
-    "rising": [
-      "Russia sanctions waiver and US-Ukraine rift",
-      "Midterm campaign intensity and partisan gridlock",
-      "Budget deficit, record interest costs, bank-stock selloff",
-      "White House internal turmoil and staffing churn"
-    ],
-    "fading": [
-      "Trump-Xi tariff cuts and AI channel",
-      "Iraq withdrawal completion",
-      "Northeast storm and flooding",
-      "Burundi third-country deportation deal"
-    ],
-    "new": [
-      "Graham Act sanctions waiver and Zelenskyy backlash",
-      "Bank stocks worst weekly losing streak since 2008",
-      "Oregon school shooting with four dead",
-      "Nuclear plant revival to power AI data centers"
+   },
+   {
+    "id": "Q4",
+    "text": "Will the U.S. 10-year Treasury yield remain elevated and volatile?",
+    "domain": "economy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "YES",
+    "evidence": "Record interest costs, 3.7% inflation, rising producer prices, rate-hike bets, and a tech-sector rout all confirm the 10-year yield is elevated and volatile.",
+    "relevant_headlines": [
+     "US Interest Costs Hit Record $1 Trillion, Risking Debt Snowball",
+     "Tech stocks lead rout after US inflation fuels rate hike bets",
+     "US inflation jumps to 3.7% as Iran war drives up prices"
     ]
-  },
-  "wind": null,
-  "naive_forecast": null,
-  "crystal_forecast": null,
-  "display": null,
-  "questions": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will the U.S. press Europe to release strategic diesel reserves to help lower global fuel prices?",
+    "domain": "economy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "The US is acting through a bilateral diesel deal with Russia and its own strategic reserve, with no headline indicating pressure on Europe to release diesel reserves.",
+    "relevant_headlines": [
+     "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
+     "US solicits exchange of up to 17 million barrels of oil from strategic reserve",
+     "Why Trump's Russia diesel deal is unlikely to lower global fuel prices"
+    ]
+   },
+   {
+    "id": "Q6",
+    "text": "Will a major new federal AI safety law be enacted in the U.S.?",
+    "domain": "technology",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "Headlines discuss AI's economic impact, election security, and export controls, but none mention a major new federal AI safety law being enacted.",
+    "relevant_headlines": [
+     "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
+     "US tells election officials to be on guard against AI-powered tricks ahead of midterms",
+     "Beijing seeks tighter grip on AI exports amid US rivalry"
+    ]
+   },
+   {
+    "id": "Q7",
+    "text": "Will the U.S. Congress hold symbolic votes on Iran war oversight or war powers?",
+    "domain": "politics",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "YES",
+    "evidence": "The AP headline explicitly references Iran war votes that have already occurred in Congress and are now being weaponized in midterm campaign ads.",
+    "relevant_headlines": [
+     "Iran war votes in Congress become a focal point for campaign ad attacks",
+     "Iran war votes in Congress become a focal point for campaign ad attacks",
+     "U.S. enters a dangerous new chapter in Ukraine war"
+    ]
+   },
+   {
+    "id": "Q8",
+    "text": "Will Trump publicly declare that the U.S. is close to total victory in the Iran war?",
+    "domain": "politics",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "Trump speaks about controlling the war's end and considering further strikes, but no headline reports a public declaration that the US is close to total victory.",
+    "relevant_headlines": [
+     "Trump says Iran war will end “soon as I want it to end",
+     "Trump says US may need to strike Iran's Pickaxe Mountain",
+     "Sources: U.S. considering using \"Mother of All Bombs\" against Iran"
+    ]
+   }
+  ],
+  "resolved": 8,
+  "unclear": 0,
+  "single_forecaster": true,
+  "correct": 4,
+  "winner": "single",
+  "systematic_error": "Both forecasters were too eager to predict concrete US military or diplomatic actions from the Iran situation. They saw escalating rhetoric and assumed strikes would materialize (Q2), a trust-building framework would be announced (Q1), Europe would be pressed for diesel (Q5), and Trump would declare near-victory (Q8). In reality, the headlines show the US still in a consideration-and-threat phase, acting unilaterally through a Russia deal and its own strategic reserve, and using broad language about control rather than specific victory declarations. The forecasters confused planning language with execution and assumed multilateral coordination where the evidence shows bilateral or unilateral moves.",
+  "correction_hint": "When US headlines say a strike is 'being considered' or 'may need to happen,' treat it as not yet done and mark the question NO unless a headline explicitly reports the strike occurring. Distinguish between the US acting through its own tools (SPR, Russia deals) versus pressuring allies, and between Trump saying the war will end when he wants versus declaring he is close to total victory."
+ },
+ "naive_forecast": {
+  "summary": "The coming week will be dominated by the fallout from Trump's sudden waiver of Russia sanctions and the deepening rift with Zelenskyy, which will consume political attention and fuel midterm campaigning on both sides. The US-Iran standoff will continue to simmer, with Trump threatening strikes on Iranian nuclear sites while Congress and the public debate the war's costs ahead of the midterms. The White House will move quickly to replace the five-day press secretary, and anti-Trump mobilization events will push voter turnout. Inflation data and rising costs will remain a persistent undercurrent, while the Oregon school shooting will feed a national conversation about gun violence. Markets will stay volatile as tech sell-offs and rate-hike bets weigh on sentiment.",
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "NO",
+    "reason": "Trump is threatening to strike Pickaxe Mountain and the Pentagon is considering the MOAB, but the language of 'may need' and 'considering' suggests the decision is not yet made and a strike is more likely a bargaining chip than an imminent action within this one-week window."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "The US blockade on Iranian shipping is already in place and Iran is running through it, but a new discrete exchange of fire specifically in or around the Strait of Hormuz is not strongly indicated by this week's headlines."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Overriding a presidential sanctions waiver requires coordinated action in both houses, and with Congress out for the weekend and members focused on midterm campaigning, passing a formal override resolution by next Saturday is unlikely."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "The rift between Trump and Zelenskyy is fresh and emotional, with Zelenskyy publicly calling the waiver 'wrong' and hoping for a trilateral meeting at the G20, suggesting a direct bilateral phone call has not yet occurred and will not happen before the summit is scheduled."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "With Katie Zacharia gone after only five days and the White House needing a stable communications front ahead of the midterms, the administration will name a successor, likely framing the hire as permanent, within the coming week."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "US and Russian envoys are discussing data-centre deals and a diesel arrangement, but a formal joint trade or energy agreement announcement is a further step that has not yet materialized and is unlikely to be announced so quickly."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "This week's headlines highlight inflation, mortgage rates, and a bankruptcy-court cyber incident, but no major US bank has flagged a restructuring or capital raise, making a significant announcement within one week a low-probability event."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "The Oregon school shooting and the foiled Hindu-temple plot both occurred this week, and while the statistical baseline makes another incident possible, the specific timing of a new mass shooting in the exact seven-day window is a coin-flip that I lean NO on."
+   }
+  ],
+  "horizon_start": "2026-10-17",
+  "horizon_end": "2026-10-24"
+ },
+ "crystal_forecast": {
+  "summary": "The coming week will be dominated by the US-Ukraine rupture over the Graham Act sanctions waiver, with Congress fighting over the waiver while the White House scrambles to fill the press secretary vacancy. The Iran-Hormuz standoff will continue with likely naval engagements in the waterway, but a full strike on Iranian territory remains in the consideration phase rather than execution. Midterm politics will intensify with No Kings rallies, the California mail-ballot lawsuit, and partisan ads weaponizing both Iran and Russia. Markets will remain under pressure from the tech sell-off and credit concerns, though no single bank will announce a major restructuring. US-Russia diesel and data-center discussions will continue but will not crystallize into a new formal agreement. A mass shooting will likely occur given the country's steady frequency of such events.",
+  "reasoning": "The wind correction pushed me to be more conservative on military actions. For Q1 I moved to NO because 'may need to strike' and 'considering the Mother of All Bombs' are consideration language, not execution, and last round I confused planning with action. For Q6 I went NO because 'discussing joint deals' is not the same as 'announcing a new formal agreement,' and the US is acting unilaterally rather than through bilateral deals. For Q3 I kept NO because congressional outrage and 'no quick legislative counter' do not equal a two-thirds override passing in seven days. For Q7 I went NO because a stock selloff is a market reaction, not a bank announcing a restructuring. Q2, Q5, and Q8 I answered on operational necessity, staffing logic, and statistical frequency.",
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "NO",
+    "reason": "Trump says the US 'may need to strike' Pickaxe Mountain and CNN reports the US is 'considering' the MOAB, but both are consideration language, not execution, and the wind correction says to treat that as not yet done."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Both sides are already claiming control of the Strait of Hormuz, Iran is shipping fuel through the US blockade, and vessels are being attacked, making further naval engagements in the waterway the most likely near-term development."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Congress expressed outrage and has no quick legislative counter, and overriding a presidential waiver requires a two-thirds vote that is unlikely to clear in seven days amid partisan gridlock ahead of the midterms."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "The rift is only days old, Zelenskyy is framing his next contact through the G20 summit rather than a bilateral call, and both sides are managing optics for their respective audiences before making direct contact."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "The White House needs someone to run daily press briefings, and a replacement will be named within days as a basic operational necessity regardless of the personnel turmoil."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "A Putin envoy says the two sides are 'discussing' data-center deals, but discussing is not announcing, and the US has been acting unilaterally through its own strategic reserve rather than formal bilateral agreements."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Bank stocks posted their worst weekly losing streak since 2008, but a market selloff driven by credit fears and a tech rout is a price reaction, not a bank announcing a specific restructuring or capital raise."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "The US averages multiple mass shootings per week, and the Oregon school shooting on October 16 illustrates the ongoing risk, making another incident in the next seven days statistically likely."
+   }
+  ],
+  "horizon_start": "2026-10-17",
+  "horizon_end": "2026-10-24"
+ },
+ "display": null,
+ "questions": {
+  "horizon_start": "2026-10-17",
+  "horizon_end": "2026-10-24",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will the US military conduct a strike on Iranian territory?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "Trump has explicitly threatened to hit Pickaxe Mountain and sources say the Mother of All Bombs is under consideration, but a midterms backdrop and the risk of escalation could still hold him back."
+   },
+   {
+    "id": "Q2",
+    "text": "Will the US and Iran exchange military engagements in or around the Strait of Hormuz?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "Both sides are already claiming control of the waterway and vessels have been attacked, yet a full military clash would be a new step that could be avoided by last-minute diplomacy."
+   },
+   {
+    "id": "Q3",
+    "text": "Will the US Congress pass a resolution to override President Trump's waiver of the Graham Act Russia sanctions?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "Congress is outraged and Democrats are using the waiver as a campaign theme, but a successful override or blocking resolution in a single week requires rare bipartisan speed and floor time."
+   },
+   {
+    "id": "Q4",
+    "text": "Will President Trump and President Zelenskyy hold a direct phone call?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "Zelenskyy publicly called the sanctions waiver wrong and accused the US of helping Russia, yet he is also seeking a meeting at the G20, so a quiet de-escalating call remains possible."
+   },
+   {
+    "id": "Q5",
+    "text": "Will the White House name a new permanent press secretary to succeed Katie Zacharia?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "Zacharia was fired after five days leaving the role vacant, but the administration could run on an acting spokesman for another week amid the midterm chaos before settling on a name."
+   },
+   {
+    "id": "Q6",
+    "text": "Will the United States and Russia announce a new joint trade or energy agreement?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "Putin's envoy says the two sides are discussing joint deals including data centres, but moving from talks to a formal announcement within a week is still a significant step that could slip."
+   },
+   {
+    "id": "Q7",
+    "text": "Will a major US bank announce a significant restructuring or capital raise in response to credit concerns?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "Bank stocks posted their worst weekly losing streak since 2008 and credit fears are mounting, but a formal restructuring or capital raise is a discrete decision that may not be triggered for weeks."
+   },
+   {
+    "id": "Q8",
+    "text": "Will a mass shooting occur in the United States?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "The Oregon school shooting this week and the recurring pattern of armed confrontations make another incident plausible, but a second mass shooting in the same seven-day window is not guaranteed."
+   }
+  ]
+ }
 }

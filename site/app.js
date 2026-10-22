@@ -813,7 +813,7 @@ function updateScorecardBadge() {
     const m = sc.manual_forecast || {};
     let t = '';
     if (sc.country_rounds_scored > 0) {
-      t = `Same questions, two forecasters: Crystal Balls ${sc.crystal_correct} correct, plain forecast ${sc.naive_correct} correct, out of ${sc.questions_resolved} checked. Disagreements so far: ${sc.disagreements}. Verdict: ${sc.verdict}.`;
+      t = `Crystal Balls corrected the plain forecast ${sc.flips || 0} times; ${sc.flips_right || 0} corrections proved right, ${sc.flips_wrong || 0} wrong. Verdict: ${sc.verdict}.`;
     } else {
       t = 'Crystal vs plain scorecard starts after the first judged round.';
     }
@@ -1041,7 +1041,7 @@ async function openModal(code) {
         : `<span class="pill ans-crystal" title="${(c.reason || '').replace(/"/g, '')}">Crystal: ${c.answer}</span> <span class="pill ans-plain" title="${(n.reason || '').replace(/"/g, '')}">Plain: ${n.answer}</span>`;
       html += `<div class="statement-row qrow${differ ? ' disagree' : ''}">
         <div class="statement-text">${q.text}</div>
-        <div>${pills}${mark}${differ ? ' <span class="pill">they disagree</span>' : ''}</div>`;
+        <div>${pills}${mark}${differ ? ' <span class="pill">Crystal corrected this</span>' : ''}</div>`;
       if (o && o.evidence) html += `<div class="emoji-reason">${o.evidence}</div>`;
       html += `</div>`;
     });

@@ -229,7 +229,9 @@ def judge_questions(prev_file, position_text, country_cfg, round_id, prev_round_
                              judge_settings(settings), mock, naive_ids=ids, crystal_ids=ids)
     if obj is None:
         return "run", None, elapsed
-    return "run", common.compute_wind_v2(prev_file, obj, prev_round_id, elapsed_days), elapsed
+    wind = common.compute_wind_v2(prev_file, obj, prev_round_id, elapsed_days)
+    common.append_memory_entry(country_cfg["code"], wind)
+    return "run", wind, elapsed
 
 
 def step_wind(file, prev_file, country_cfg, round_id, prev_round_id, window_start, window_end,
@@ -284,35 +286,37 @@ def step_naive_answers(file, country_cfg, round_id, horizon_start, horizon_end, 
 
 def step_crystal_answers(file, prev_file, country_cfg, round_id, prev_round_id, horizon_start,
                          horizon_end, headlines_json, settings, mock):
+    """Bible 11.4: Crystal is the second arrow. It sees the plain forecaster's answers and decides
+    KEEP or FLIP for every question."""
     name = country_cfg["name"]
     q_items = file["questions"]["items"]
     ids = [q["id"] for q in q_items]
+    naive_answers = file["naive_forecast"]["answers"]
     velocity_text = common.velocity_as_text(file["velocity"]) if file.get("velocity") else common.VELOCITY_UNAVAILABLE
     wind_text = common.wind_v2_as_text(file["wind"]) if file.get("wind") else common.WIND_UNAVAILABLE_V2
-    prev_summary = common.PREVIOUS_CRYSTAL_SUMMARY_UNAVAILABLE
-    if prev_file:
-        raw = legacy_text_for(prev_round_id, name) if prev_file.get("is_legacy") else None
-        if raw:
-            # Bible 10.4: the forecaster sees Nir's real forecast, the first 300 words of his raw text
-            prev_summary = " ".join(raw.split()[:300])
-        elif prev_file.get("crystal_forecast"):
-            prev_summary = prev_file["crystal_forecast"].get("summary") or prev_summary
+    prev_position_text = common.PREVIOUS_POSITION_UNAVAILABLE
+    if prev_file and prev_file.get("position"):
+        prev_position_text = common.position_as_text(prev_file["position"], prev_round_id)
+    memory_text = common.memory_as_text(country_cfg["code"])
     position_text = common.position_as_text(file["position"], round_id)
+    naive_text = common.naive_answers_as_text(q_items, naive_answers)
     budget = int(settings.get("LLM_CONTEXT_BUDGET", 24000))
-    other = f"Country: {name}\n{position_text}{velocity_text}{wind_text}{prev_summary}"
+    other = (f"Country: {name}\n{position_text}{prev_position_text}{velocity_text}{wind_text}"
+             f"{memory_text}{naive_text}")
     headlines_text = common.fit_headlines_to_budget(headlines_json, other, budget)
     variables = {
         "COUNTRY": name, "HORIZON_START": str(horizon_start), "HORIZON_END": str(horizon_end),
         "ROUND": round_id, "CURRENT_POSITION": position_text,
         "PREVIOUS_ROUND": prev_round_id if prev_round_id else common.PREVIOUS_ROUND_UNAVAILABLE,
-        "VELOCITY": velocity_text, "WIND": wind_text, "PREVIOUS_CRYSTAL_SUMMARY": prev_summary,
-        "HEADLINES": headlines_text, "QUESTIONS": common.questions_as_text(q_items),
+        "PREVIOUS_POSITION": prev_position_text,
+        "VELOCITY": velocity_text, "WIND": wind_text, "MEMORY": memory_text,
+        "HEADLINES": headlines_text, "NAIVE_ANSWERS": naive_text,
     }
-    validator = lambda obj: common.validate_answers(obj, ids, crystal=True)
+    validator = lambda obj: common.validate_crystal(obj, ids, naive_answers)
     obj, elapsed = llm_call("06_crystal_answers.txt", variables, validator, "crystal_forecast",
                              country_cfg["code"], round_id, settings, mock, naive_ids=ids, crystal_ids=ids)
     if obj is not None:
-        obj = dict(obj)
+        obj = common.crystal_stored_from_decisions(obj, naive_answers)
         obj["horizon_start"], obj["horizon_end"] = str(horizon_start), str(horizon_end)
     return "run", obj, elapsed
 

@@ -1,118 +1,118 @@
 {
-  "schema_version": 2,
-  "round": "2026-10-17",
-  "previous_round": "2026-10-14",
-  "is_legacy": false,
-  "code": "CN",
-  "name": "China",
-  "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-19T12:25:03+03:00",
-  "status": {
-    "position": "done",
-    "velocity": "done",
-    "wind": "pending",
-    "naive_forecast": "pending",
-    "crystal_forecast": "pending",
-    "display": "pending",
-    "questions": "pending"
-  },
-  "position": {
-    "summary": "During the week of October 14–17, China was in the spotlight on several fronts. Beijing proposed export controls on AI technologies, solar-manufacturing technologies, and certain biotech, citing national security and the US-China tech rivalry. At the same time, Chinese exports surged 36 percent, driven by AI-related shipments, pushing the trade surplus toward a record. Trade friction with Europe sharpened as the EU signaled plans to extend import curbs to more Chinese sectors, and China warned Brussels not to underestimate its willingness to fight back. Diplomatically, China and North Korea opened the long-delayed New Yalu River Bridge after more than a decade of postponement, a symbolic deepening of ties, though analysts questioned its practical trade impact. Trump said he was in denuclearization talks with both China and Russia. Domestically, six people were sentenced over a lead-tainted kindergarten food scandal that sickened more than 200 children; the nursery owner received life in prison. The central bank pledged further opening of financial markets to foreigners while moving to prop up equity markets amid AI-trade jitters. In a lighter moment, Beijing invited Trump's new press secretary to visit again after she described China as lacking proper toilets. The Philippines lodged a formal protest over remarks by the Chinese envoy it called a thinly veiled threat of force.",
-    "key_events": [
-      {
-        "event": "China proposed export controls on AI technologies, solar-manufacturing equipment, and some biotech, citing national security risks in the US-China tech rivalry.",
-        "date": "2026-10-16",
-        "domain": "technology",
-        "importance": 5
-      },
-      {
-        "event": "China and North Korea officially opened the New Yalu River Bridge after more than twelve years of delay, deepening bilateral ties amid sanctions questions.",
-        "date": "2026-10-15",
-        "domain": "diplomacy",
-        "importance": 4
-      },
-      {
-        "event": "Chinese exports surged 36 percent on AI-driven demand as the trade surplus neared a record, even as the AFP poll suggested the economy would miss its growth target.",
-        "date": "2026-10-14",
-        "domain": "economy",
-        "importance": 4
-      },
-      {
-        "event": "The EU moved to extend import curbs to additional Chinese sectors and China warned Brussels not to underestimate its ability to fight back on trade.",
-        "date": "2026-10-16",
-        "domain": "economy",
-        "importance": 4
-      },
-      {
-        "event": "The Philippines lodged a formal protest against the Chinese envoy, calling his remarks a thinly veiled threat of force.",
-        "date": "2026-10-16",
-        "domain": "security",
-        "importance": 3
-      },
-      {
-        "event": "Six people, including a nursery owner jailed for life, were sentenced over lead-tainted food that sickened more than 200 kindergarten children.",
-        "date": "2026-10-16",
-        "domain": "society",
-        "importance": 3
-      },
-      {
-        "event": "Trump said he was in denuclearization talks with both Russia and China, and Nvidia's CEO urged continued US-China dialogue on AI.",
-        "date": "2026-10-16",
-        "domain": "diplomacy",
-        "importance": 3
-      },
-      {
-        "event": "China's central bank pledged to further open financial markets to foreigners and moved to prop up equity markets with selling curbs and buybacks as AI-trade jitters hit stocks.",
-        "date": "2026-10-16",
-        "domain": "economy",
-        "importance": 3
-      }
-    ],
-    "mood": "mixed",
-    "intensity": 6,
-    "domains_active": [
-      "economy",
-      "technology",
-      "diplomacy",
-      "security"
-    ],
-    "emojis": [
-      "🤖",
-      "📦",
-      "🤝"
-    ],
-    "emoji_reasons": [
-      "Beijing's proposal for AI and solar export controls, Tencent's report of unintended AI-agent behaviour, and Nvidia's call for US-China AI dialogue made artificial intelligence the week's dominant theme.",
-      "Chinese exports surged 36 percent, the EU extended import curbs to more Chinese sectors, and China warned Brussels on trade, making trade and manufacturing the economic centre of gravity.",
-      "The long-delayed China-North Korea bridge opening, denuclearization talks with Trump, and the lighthearted press-secretary exchange all pointed to a busy week of diplomatic engagement."
-    ]
-  },
-  "velocity": {
-    "summary": "Three days in, the celebratory afterglow of the Xi-Trump summit has cooled into something more transactional. The $60 billion tariff cut and pandas exchange have given way to China actively proposing its own export controls on AI, solar, and biotech, signaling a shift from reactive diplomacy to offensive leverage. The EU trade friction sharpened from preparation to execution, with Brussels extending curbs and Beijing threatening harder. A 36 percent export surge on AI demand pushed the trade surplus toward a record, but the central bank is already bracing for equity-market jitters. Two entirely new fronts opened: the China-North Korea bridge and a formal Philippines protest over rhetorical threats, widening the diplomatic and security periphery. A domestic food-safety scandal added a society dimension absent before. Meanwhile, the Golden Week narrative, the Kimi bioweapons scare, and the specific F-16V delivery have faded from the top of the agenda. The pace is moderate: the core domains are unchanged, but within each the specifics have rotated noticeably, and at least two new actors (North Korea, the Philippines) are now on the board.",
-    "direction": "shifting",
-    "speed": 5,
-    "intensity_change": 1,
-    "rising": [
-      "China proposing its own tech and solar export controls",
-      "EU trade curbs expanding and Beijing threatening harder",
-      "Record trade surplus on AI-driven export surge"
-    ],
-    "fading": [
-      "Xi-Trump summit warmth and pandas symbolism",
-      "Golden Week patriotic consumption narrative",
-      "Kimi bioweapons AI-safety scare",
-      "Specific F-16V delivery in Taiwan"
-    ],
-    "new": [
-      "China-North Korea New Yalu River Bridge opening",
-      "Philippines formal protest over envoy remarks",
-      "Lead-tainted kindergarten food scandal and sentencing",
-      "Trump denuclearization talks with China and Russia"
-    ]
-  },
-  "wind": null,
-  "naive_forecast": null,
-  "crystal_forecast": null,
-  "display": null,
-  "questions": null
+ "schema_version": 2,
+ "round": "2026-10-17",
+ "previous_round": "2026-10-14",
+ "is_legacy": false,
+ "code": "CN",
+ "name": "China",
+ "model": "huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-19T12:25:03+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "done",
+  "wind": "pending",
+  "naive_forecast": "pending",
+  "crystal_forecast": "pending",
+  "display": "pending",
+  "questions": "pending"
+ },
+ "position": {
+  "summary": "During the week of October 14–17, China was in the spotlight on several fronts. Beijing proposed export controls on AI technologies, solar-manufacturing technologies, and certain biotech, citing national security and the US-China tech rivalry. At the same time, Chinese exports surged 36 percent, driven by AI-related shipments, pushing the trade surplus toward a record. Trade friction with Europe sharpened as the EU signaled plans to extend import curbs to more Chinese sectors, and China warned Brussels not to underestimate its willingness to fight back. Diplomatically, China and North Korea opened the long-delayed New Yalu River Bridge after more than a decade of postponement, a symbolic deepening of ties, though analysts questioned its practical trade impact. Trump said he was in denuclearization talks with both China and Russia. Domestically, six people were sentenced over a lead-tainted kindergarten food scandal that sickened more than 200 children; the nursery owner received life in prison. The central bank pledged further opening of financial markets to foreigners while moving to prop up equity markets amid AI-trade jitters. In a lighter moment, Beijing invited Trump's new press secretary to visit again after she described China as lacking proper toilets. The Philippines lodged a formal protest over remarks by the Chinese envoy it called a thinly veiled threat of force.",
+  "key_events": [
+   {
+    "event": "China proposed export controls on AI technologies, solar-manufacturing equipment, and some biotech, citing national security risks in the US-China tech rivalry.",
+    "date": "2026-10-16",
+    "domain": "technology",
+    "importance": 5
+   },
+   {
+    "event": "China and North Korea officially opened the New Yalu River Bridge after more than twelve years of delay, deepening bilateral ties amid sanctions questions.",
+    "date": "2026-10-15",
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Chinese exports surged 36 percent on AI-driven demand as the trade surplus neared a record, even as the AFP poll suggested the economy would miss its growth target.",
+    "date": "2026-10-14",
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The EU moved to extend import curbs to additional Chinese sectors and China warned Brussels not to underestimate its ability to fight back on trade.",
+    "date": "2026-10-16",
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The Philippines lodged a formal protest against the Chinese envoy, calling his remarks a thinly veiled threat of force.",
+    "date": "2026-10-16",
+    "domain": "security",
+    "importance": 3
+   },
+   {
+    "event": "Six people, including a nursery owner jailed for life, were sentenced over lead-tainted food that sickened more than 200 kindergarten children.",
+    "date": "2026-10-16",
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Trump said he was in denuclearization talks with both Russia and China, and Nvidia's CEO urged continued US-China dialogue on AI.",
+    "date": "2026-10-16",
+    "domain": "diplomacy",
+    "importance": 3
+   },
+   {
+    "event": "China's central bank pledged to further open financial markets to foreigners and moved to prop up equity markets with selling curbs and buybacks as AI-trade jitters hit stocks.",
+    "date": "2026-10-16",
+    "domain": "economy",
+    "importance": 3
+   }
+  ],
+  "mood": "mixed",
+  "intensity": 6,
+  "domains_active": [
+   "economy",
+   "technology",
+   "diplomacy",
+   "security"
+  ],
+  "emojis": [
+   "🤖",
+   "📦",
+   "🤝"
+  ],
+  "emoji_reasons": [
+   "Beijing's proposal for AI and solar export controls, Tencent's report of unintended AI-agent behaviour, and Nvidia's call for US-China AI dialogue made artificial intelligence the week's dominant theme.",
+   "Chinese exports surged 36 percent, the EU extended import curbs to more Chinese sectors, and China warned Brussels on trade, making trade and manufacturing the economic centre of gravity.",
+   "The long-delayed China-North Korea bridge opening, denuclearization talks with Trump, and the lighthearted press-secretary exchange all pointed to a busy week of diplomatic engagement."
+  ]
+ },
+ "velocity": {
+  "summary": "Three days in, the celebratory afterglow of the Xi-Trump summit has cooled into something more transactional. The $60 billion tariff cut and pandas exchange have given way to China actively proposing its own export controls on AI, solar, and biotech, signaling a shift from reactive diplomacy to offensive leverage. The EU trade friction sharpened from preparation to execution, with Brussels extending curbs and Beijing threatening harder. A 36 percent export surge on AI demand pushed the trade surplus toward a record, but the central bank is already bracing for equity-market jitters. Two entirely new fronts opened: the China-North Korea bridge and a formal Philippines protest over rhetorical threats, widening the diplomatic and security periphery. A domestic food-safety scandal added a society dimension absent before. Meanwhile, the Golden Week narrative, the Kimi bioweapons scare, and the specific F-16V delivery have faded from the top of the agenda. The pace is moderate: the core domains are unchanged, but within each the specifics have rotated noticeably, and at least two new actors (North Korea, the Philippines) are now on the board.",
+  "direction": "shifting",
+  "speed": 5,
+  "intensity_change": 1,
+  "rising": [
+   "China proposing its own tech and solar export controls",
+   "EU trade curbs expanding and Beijing threatening harder",
+   "Record trade surplus on AI-driven export surge"
+  ],
+  "fading": [
+   "Xi-Trump summit warmth and pandas symbolism",
+   "Golden Week patriotic consumption narrative",
+   "Kimi bioweapons AI-safety scare",
+   "Specific F-16V delivery in Taiwan"
+  ],
+  "new": [
+   "China-North Korea New Yalu River Bridge opening",
+   "Philippines formal protest over envoy remarks",
+   "Lead-tainted kindergarten food scandal and sentencing",
+   "Trump denuclearization talks with China and Russia"
+  ]
+ },
+ "wind": null,
+ "naive_forecast": null,
+ "crystal_forecast": null,
+ "display": null,
+ "questions": null
 }
