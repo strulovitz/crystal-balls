@@ -1,0 +1,90 @@
+{
+  "summary": "Next week the U.S. will likely announce a narrow Iran trust-building framework with partial Strait of Hormuz reopening and limited sanctions relief, brokered through Qatar, while still trading periodic limited strikes. Treasury yields will stay near or above five percent with volatile intraday swings as war-driven inflation keeps the Fed hawkish. The White House will continue pressuring European allies to release strategic diesel reserves. Congress will hold at least one symbolic war-powers or oversight vote on the Iran conflict. Trump will frame the situation as an American win but stop short of declaring total victory. No major AI safety legislation will pass. The Trump-Xi tariff concessions will begin filtering into trade data, and the Canadian alcohol-and-whey ban will keep generating political friction in both legislatures.",
+  "reasoning": "I flipped only Q8. The plain forecaster called for Trump to declare the U.S. close to total victory, but the situation report shows he is still in the pressure-and-haggle phase: he rejected Iran's seven-day plan, is positioning a third carrier group, and has not yet secured the concessions that would justify a victory claim. The wind note warns that forecasters overcall dramatic events, and a 'total victory' declaration is exactly that kind of headline. Every other answer aligns with the established trajectory: the diplomatic middle path (Q1), the ongoing strike pattern (Q2), the sticky macro environment (Q4, Q5), the legislative gridlock on AI (Q6), and the congressional theater around war powers (Q7) all hold. Q3 remains clearly NO given the gap between the two sides.",
+  "rows": [
+    {
+      "id": "Q1",
+      "text": "Will the U.S. announce a narrow Iran trust-building framework that includes some Strait of Hormuz movement and limited sanctions relief?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Iran's seven-day plan is still on the table and Qatar mediators are actively pushing; the military buildup creates the leverage Trump needs to accept a modified narrow framework before midterms, making a trust-building announcement this week plausible.",
+      "verdict": ""
+    },
+    {
+      "id": "Q2",
+      "text": "Will the U.S. conduct limited strikes against Iranian or Houthi-linked targets?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The established pattern of periodic U.S. strikes on Iranian coastal targets and Houthi-linked shipping continues, and the third carrier group's arrival adds new strike options within the week.",
+      "verdict": ""
+    },
+    {
+      "id": "Q3",
+      "text": "Will the U.S. and Iran reach a full peace deal?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Trump rejected the original terms and both sides still have core grievances (sanctions, nuclear monitoring, frozen funds); a full peace deal in one week contradicts the grinding-managed-war trajectory.",
+      "verdict": ""
+    },
+    {
+      "id": "Q4",
+      "text": "Will the U.S. 10-year Treasury yield remain elevated and volatile?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "Sticky war-driven inflation, a hawkish Fed, and Treasury yields already at or above five percent make sustained elevated volatility the base case for the coming week.",
+      "verdict": ""
+    },
+    {
+      "id": "Q5",
+      "text": "Will the U.S. press Europe to release strategic diesel reserves to help lower global fuel prices?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The White House is already pressuring Europe and threatening a diesel export ban; this pressure campaign will continue as long as pump prices stay high before the midterms.",
+      "verdict": ""
+    },
+    {
+      "id": "Q6",
+      "text": "Will a major new federal AI safety law be enacted in the U.S.?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Trump explicitly rejected new AI safety legislation and rebranded AI as superintelligence; enacting a major law in seven weeks would require Senate and House agreement that the current posture makes unlikely.",
+      "verdict": ""
+    },
+    {
+      "id": "Q7",
+      "text": "Will the U.S. Congress hold symbolic votes on Iran war oversight or war powers?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "The Pentagon munitions-shortfall report already triggered congressional scrutiny, the Senate is actively voting on related oversight, and pre-midterm Democrats need visible war-powers action.",
+      "verdict": ""
+    },
+    {
+      "id": "Q8",
+      "text": "Will Trump publicly declare that the U.S. is close to total victory in the Iran war?",
+      "plain": "YES",
+      "crystal": "NO",
+      "flipped": true,
+      "outcome": "NO",
+      "reason": "Trump is still in the leverage-building phase—rejecting Iran's terms and positioning carriers—rather than the victory-lap phase; the wind note that forecasters overcall dramatic events supports holding back from a 'total victory' declaration until a deal or major strike lands.",
+      "verdict": "FLIP RIGHT"
+    }
+  ],
+  "flips": 1,
+  "flips_right": 1,
+  "flips_wrong": 0,
+  "flips_unclear": 0
+}

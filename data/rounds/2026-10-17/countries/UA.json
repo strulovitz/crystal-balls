@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-14",
+  "is_legacy": false,
+  "code": "UA",
+  "name": "Ukraine",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-22T14:18:17+03:00",
+  "status": {
+    "position": "done",
+    "velocity": "pending",
+    "wind": "done",
+    "questions": "pending",
+    "naive_forecast": "pending",
+    "crystal_forecast": "pending",
+    "display": "pending"
+  },
+  "position": {
+    "summary": "This week was dominated by a sharp deterioration in US-Ukraine relations, driven by two intertwined events: the Starlink and Starshield speed restrictions that hampered Ukraine's drone and military operations, and Ukraine's resumption of strikes on Russian oil refineries after Zelensky declared the US-brokered energy truce over. Trump's decision to waive new Russia sanctions on October 17 deepened the rift, with Kyiv calling it an encouragement for Putin while the Kremlin called it historic. On the battlefield, Russia conducted massive strikes on Ukrainian energy infrastructure, killing at least eight people and cutting power to over a million consumers across nine regions. Ukraine, however, reported territorial gains in a counteroffensive dubbed Operation Vivaldi in Donetsk, damaged six Russian military jets, and hit Russia's top data center. Europe stepped in to fill the diplomatic gap: Germany pledged fifty million euros and sought a debt-brake exemption, the UK sent additional Storm Shadow missiles, and Hungary and Ukraine agreed to reset bilateral ties. The Nord Stream pipeline trial opened in Germany, and Kyiv passed key legislative reforms to unlock EU and IMF aid. The overall picture was one of a war in a volatile, uncertain phase as Ukraine's most important Western ally wobbled and the satellite network it depended on was throttled.",
+    "key_events": [
+      {
+        "event": "SpaceX limited Starlink and Starshield speed for Ukraine, reportedly at the White House's request, disrupting drone operations and military communications on the front line.",
+        "date": "2026-10-14",
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "Zelensky declared the US-brokered energy truce over and Ukraine resumed strikes on Russian oil refineries, which Trump called a disgrace.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Trump waived new Russia sanctions before they took effect, prompting Ukraine to condemn the move as an encouragement for Putin and US lawmakers to call for an investigation.",
+        "date": "2026-10-17",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Russian strikes hit nine Ukrainian regions, killing at least eight civilians and cutting power to over one million consumers, with the foreign minister describing a Russian-held town as a death trap for starving residents.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Ukraine reported territorial gains in a counteroffensive called Operation Vivaldi in the Donetsk region and damaged six Russian military jets in a missile strike on an airfield.",
+        "date": "2026-10-14",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Ukraine's drones hit Russia's top data center in an attack on the country's AI infrastructure, marking a new front in the technology dimension of the war.",
+        "date": "2026-10-14",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Hungary and Ukraine agreed to reset bilateral ties, easing a long-running friction point over Ukraine's EU accession bid.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Germany opened the trial of a Ukrainian ex-military officer accused of involvement in the Nord Stream pipeline explosions, with defense lawyers arguing the pipelines were a lawful wartime target.",
+        "date": "2026-10-14",
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "technology",
+      "economy"
+    ],
+    "emojis": [
+      "🛰️",
+      "⚔️",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "The Starlink and Starshield speed restrictions imposed by SpaceX, reportedly at the White House's behest, were the single most consequential technology event of the week, as seen in headlines like 'Order to limit Starshield for Ukraine came from inside White House' and 'Zelenskyy says Starlink speed limits are a planned operation.'",
+      "Ukraine resumed strikes on Russian refineries, hit Russia's top data center, damaged six jets, and reported gains in Operation Vivaldi, while Russia killed civilians and cut power to over a million, as captured by 'Ukraine says Russia's claimed territorial advances are an illusion' and 'Russia strikes 9 Ukrainian regions.'",
+      "The deepening Trump-Zelensky rift, Trump's sanctions waiver, Hungary-Ukraine agreement to reset ties, and Germany's fifty-million-euro pledge all pointed to a realignment of alliances, reflected in 'Hungary, Ukraine agree to reset ties' and 'Zelenskyy condemns it as wrong' over the sanctions waiver."
+    ]
+  },
+  "velocity": null,
+  "wind": {
+    "previous_round": "2026-10-14",
+    "elapsed_days": 3,
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Will Russia conduct major missile and drone strikes on Ukrainian energy infrastructure during the week?",
+        "domain": "security",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "YES",
+        "evidence": "Multiple sources confirm Russia conducted major strikes on Ukrainian energy infrastructure, cutting power to over a million consumers across nine regions.",
+        "relevant_headlines": [
+          "2026-10-16: Russian attacks kill eight in Ukraine, cut power to over a million",
+          "2026-10-16: Russia strikes 9 Ukrainian regions as a new report shows a spike in civilian casualties",
+          "2026-10-14: Russia Hits Ukraine Energy Plants in a Blow to Trump"
+        ],
+        "legacy_probability": 0.85,
+        "flipped": false
+      },
+      {
+        "id": "Q2",
+        "text": "Will Ukraine carry out strikes on Russian oil refineries or pipeline infrastructure?",
+        "domain": "security",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "YES",
+        "evidence": "Ukraine explicitly resumed strikes on Russian oil refineries after Zelensky declared the US-brokered energy truce over, confirmed by numerous sources.",
+        "relevant_headlines": [
+          "2026-10-15: Ukraine hits Russian refinery as Zelenskiy says 'we're done' with Trump's energy truce",
+          "2026-10-15: Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries",
+          "2026-10-16: Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump"
+        ],
+        "legacy_probability": 0.85,
+        "flipped": false
+      },
+      {
+        "id": "Q3",
+        "text": "Will Germany announce a new package of military or financial aid to Ukraine?",
+        "domain": "diplomacy",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "YES",
+        "evidence": "Germany's finance minister announced a new €50 million contribution and separately sought a debt-brake exemption to sustain further aid.",
+        "relevant_headlines": [
+          "2026-10-16: Germany will contribute €50 million to Ukraine, finance minister says",
+          "2026-10-17: German minister seeks debt-brake exemption to sustain Ukraine aid",
+          "2026-10-16: Germany, Portugal reaffirm 'unwavering' support for Ukraine"
+        ],
+        "legacy_probability": 0.8,
+        "flipped": false
+      },
+      {
+        "id": "Q4",
+        "text": "Will Ukraine achieve a decisive strategic breakthrough on the Eastern Front?",
+        "domain": "security",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "UNCLEAR",
+        "evidence": "Ukraine reported territorial gains and a counteroffensive in Donetsk, but the headlines describe incremental progress rather than a single decisive strategic breakthrough that would reshape the front.",
+        "relevant_headlines": [
+          "2026-10-14: Ukraine says it frees more territory in Donetsk region counteroffensive",
+          "2026-10-16: Inside Ukraine's Operation Vivaldi pushing Russia back on frontline",
+          "2026-10-17: Ukraine says Russia's claimed territorial advances are 'an illusion'"
+        ],
+        "flipped": false
+      },
+      {
+        "id": "Q5",
+        "text": "Will rolling blackouts or emergency power-cut measures be implemented in Kyiv?",
+        "domain": "economy",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "UNCLEAR",
+        "evidence": "Widespread power cuts affecting over a million consumers across Ukraine are confirmed, but no headline specifically identifies rolling blackouts or emergency power-cut measures in Kyiv itself.",
+        "relevant_headlines": [
+          "2026-10-16: Over 1 million consumers were facing power cuts in Ukraine at some point, energy ministry says",
+          "2026-10-16: Russian attacks kill eight in Ukraine, cut power to over a million",
+          "2026-10-14: Russia Hits Ukraine Energy Plants in a Blow to Trump"
+        ],
+        "legacy_probability": 0.775,
+        "flipped": false
+      },
+      {
+        "id": "Q6",
+        "text": "Will the Ukraine-South Korea diplomatic dispute escalate into a military or trade crisis?",
+        "domain": "diplomacy",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "None of the 220 headlines mention South Korea, and a military or trade crisis escalation would have been prominently covered by all major outlets; its absence strongly suggests it did not occur.",
+        "relevant_headlines": [
+          "2026-10-16: Hungary, Ukraine agree to reset ties, Magyar says",
+          "2026-10-16: EU rallies in support of Ukraine amid Trump standoff",
+          "2026-10-17: Ukraine and Europe have little choice but to work with Trump"
+        ],
+        "legacy_probability": 0.65,
+        "flipped": false
+      },
+      {
+        "id": "Q7",
+        "text": "Will Russia carry out hybrid attacks such as cyberattacks or infrastructure sabotage against European countries?",
+        "domain": "security",
+        "naive": "YES",
+        "crystal": "YES",
+        "outcome": "UNCLEAR",
+        "evidence": "Russia seized EU company assets and a drone incident occurred in Romanian waters, but no headline explicitly describes a cyberattack or infrastructure sabotage campaign targeting European nations.",
+        "relevant_headlines": [
+          "2026-10-16: Russia takes over more EU companies' assets over Ukraine support",
+          "2026-10-16: Drone strike and fire on ship in Romanian waters raise fears that war in Ukraine is spreading",
+          "2026-10-16: Poland scrambles fighter jets as Russia strikes western Ukraine"
+        ],
+        "legacy_probability": 0.7,
+        "flipped": false
+      },
+      {
+        "id": "Q8",
+        "text": "Will a ceasefire or peace agreement between Ukraine and Russia be announced?",
+        "domain": "diplomacy",
+        "naive": "NO",
+        "crystal": "NO",
+        "outcome": "NO",
+        "evidence": "The week was dominated by escalation, resumed strikes, and diplomatic friction; no source reports a ceasefire or peace agreement being announced.",
+        "relevant_headlines": [
+          "2026-10-16: Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries",
+          "2026-10-17: Trump waives new Russia sanctions as Ukraine ties slump",
+          "2026-10-17: Zelensky says Trump could lift more Russia sanctions"
+        ],
+        "flipped": false
+      }
+    ],
+    "resolved": 5,
+    "unclear": 3,
+    "single_forecaster": true,
+    "correct": 5,
+    "winner": "single",
+    "systematic_error": "Both forecasters showed a binary-thinking pattern, treating ambiguous evidence as either full confirmation or full denial. They overcommitted to YES on Q5 and Q7, reading suggestive but imprecise evidence (Ukraine-wide power cuts, one Romanian drone incident) as definitive proof of the specific question asked (Kyiv blackouts, coordinated hybrid attacks on Europe). Conversely, they overcommitted to NO on Q4, dismissing genuine territorial gains as insufficient for a breakthrough rather than acknowledging the middle ground. The common thread is a reluctance to register UNCLEAR when the evidence points toward partial or ambiguous fulfillment of the question.",
+    "correction_hint": "For Ukraine next week, treat territorial progress and widespread infrastructure damage as potentially meeting the bar for 'breakthrough' or 'blackout' questions unless a headline explicitly contradicts the specific scope asked. Before answering YES on a question that names a specific country, city, or attack type, require at least one headline that uses that exact framing rather than a broader or adjacent event."
+  },
+  "questions": null,
+  "naive_forecast": null,
+  "crystal_forecast": null,
+  "display": null
+}

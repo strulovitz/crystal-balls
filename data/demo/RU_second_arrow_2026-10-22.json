@@ -1,0 +1,90 @@
+{
+  "summary": "Russia will keep hammering Ukraine's winter infrastructure, with fresh missile and drone waves targeting power plants and river bridges as temperatures drop. The Kaliningrad nuclear rhetoric will draw more NATO protests but no shots will actually be fired. Moscow will hold its diesel export ban, keeping global fuel markets tight. A new US or EU sanctions package will likely be announced, building on the House vote already in motion. Hybrid incidents—drone intrusions, small arsons—will keep popping up in the Baltics and Poland. Latvia's already-decided election will not generate a fresh Kremlin headline. The domestic mood will stay tense under budget cuts and mobilization talk, but no mass protests will break out. Germany-Russia talks will continue quietly in the background.",
+  "reasoning": "I flipped only Q5. The recorded lesson for Russia specifically warns against assuming a minor diplomatic statement about a neighbor's election will surface as a headline without a dedicated source, and Latvia's vote was on October 3, a week before the forecast window opens, so the Kremlin has already had its chance to react. All other seven answers align with the Oct 14 situation report: strikes are intensifying (Q1), the diesel ban runs through October (Q3), Lavrov's posture and the energy truce fall short of a ceasefire (Q4), hybrid incidents are already multiplying (Q6), the US sanctions vote has momentum (Q7), and no protest trigger has appeared (Q8). Q2 stays NO because rhetorical nuclear threats do not become a full conventional war in one week.",
+  "rows": [
+    {
+      "id": "Q1",
+      "text": "Will Russia launch a major drone or missile strike wave causing damage to Ukraine's energy or transport infrastructure?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "The Oct 14 situation report confirms Russia is already intensifying strikes on energy grids and Dnipro bridges ahead of winter, and no reason to change.",
+      "verdict": ""
+    },
+    {
+      "id": "Q2",
+      "text": "Will a full NATO–Russia conventional war break out over Kaliningrad?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Nuclear warnings and NATO condemnation are rhetorical escalation, not a full conventional war; the wind note warns against over-predicting dramatic events.",
+      "verdict": ""
+    },
+    {
+      "id": "Q3",
+      "text": "Will Russia maintain its diesel export ban throughout the following week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The ban was explicitly extended through October, and the forecast window (Oct 14-21) falls entirely within that period; no reason to change.",
+      "verdict": ""
+    },
+    {
+      "id": "Q4",
+      "text": "Will Russia and Ukraine sign a formal ceasefire agreement?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Lavrov's 'through to the end' stance and the energy truce (not a full ceasefire) make a formal signed ceasefire within one week unlikely.",
+      "verdict": ""
+    },
+    {
+      "id": "Q5",
+      "text": "Will the Kremlin issue an official diplomatic statement reacting to Latvia's October 3 election result?",
+      "plain": "YES",
+      "crystal": "NO",
+      "flipped": true,
+      "outcome": "UNCLEAR",
+      "reason": "The lesson for Russia explicitly cautions against assuming a minor diplomatic statement on a neighbor's election will headline without a dedicated source, and Latvia's vote was Oct 3, a full week before the forecast window, so a fresh Kremlin statement is less probable.",
+      "verdict": "flip unclear"
+    },
+    {
+      "id": "Q6",
+      "text": "Will at least one hybrid-war incident or sabotage accusation be reported in a Baltic state, Poland, or Romania?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "Hybrid incidents are already reported as multiplying across the Baltics per the Oct 14 report, making at least one more incident in the coming week highly probable.",
+      "verdict": ""
+    },
+    {
+      "id": "Q7",
+      "text": "Will the U.S. or EU announce a new sanctions package targeting Russian shipping, banks, or energy companies?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The US House was already preparing a sanctions vote last week and Ukraine is finalising a Graham-law list; the momentum makes a US or EU announcement within the window likely, and the lesson's condition (US actively waiving sanctions) is not clearly met here.",
+      "verdict": ""
+    },
+    {
+      "id": "Q8",
+      "text": "Will Russia experience a major domestic social crisis or mass protest?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Budget cuts and mobilization rumors create pressure, but the Kremlin's tightened information controls and the absence of any protest trigger in this week's headlines keep a major social crisis unlikely; no reason to change.",
+      "verdict": ""
+    }
+  ],
+  "flips": 1,
+  "flips_right": 0,
+  "flips_wrong": 0,
+  "flips_unclear": 1
+}

@@ -1,0 +1,90 @@
+{
+  "summary": "Next week, Russia will continue its sustained winter air campaign against Kyiv, with major strikes on energy infrastructure, bridges, and residential areas, likely including daytime attacks. Ukraine will press the Vivaldi robot-and-armor operation in northern Donetsk while sending further deep drone and missile strikes into Russian refineries and pipeline hubs. Germany is expected to formally announce the roughly one-billion-euro military aid package and energy-repair funding following Merz's Kyiv visit. Rolling blackouts or emergency load-shedding will be implemented in Kyiv as substations come under repeated fire. Russia will likely carry out at least one further hybrid or sabotage incident against a European country. The South Korea POW dispute will generate diplomatic noise but will not escalate into a trade or military crisis, and no ceasefire or peace deal will be announced as both sides maintain offensive momentum.",
+  "reasoning": "I kept all eight answers. The wind and trend data are thin (first structured round), so I relied on the concrete headline evidence. Each YES is anchored to a specific ongoing event: the sustained air campaign (Q1, Q5), active refinery strikes (Q2), the Merz visit with stated figures (Q3), and the Estonia/Germany hybrid incidents (Q7). Each NO is anchored to a high bar not yet met: sectoral recapture is not a strategic breakthrough (Q4), diplomatic friction is not a trade crisis (Q6), and Putin ruling out ceasefire plus mutual offensives rule out a peace deal (Q8). No flip is justified without a concrete trend or wind signal to point to.",
+  "rows": [
+    {
+      "id": "Q1",
+      "text": "Will Russia conduct major missile and drone strikes on Ukrainian energy infrastructure during the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "No reason to change; Russia's sustained winter air campaign targeting power plants and substations in Kyiv is ongoing and escalating from last week's repeated overnight waves into daytime strikes.",
+      "verdict": ""
+    },
+    {
+      "id": "Q2",
+      "text": "Will Ukraine carry out strikes on Russian oil refineries or pipeline infrastructure?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "No reason to change; Ukraine was actively carrying out deep strikes on Russian refineries and pipeline hubs this week, continuing last week's pattern of hitting refineries near Moscow and in the Volga region.",
+      "verdict": ""
+    },
+    {
+      "id": "Q3",
+      "text": "Will Germany announce a new package of military or financial aid to Ukraine?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "No reason to change; Chancellor Merz's unannounced Kyiv visit with specific figures (one billion euros military, 350 million energy) already under discussion makes a formal announcement within the week highly likely.",
+      "verdict": ""
+    },
+    {
+      "id": "Q4",
+      "text": "Will Ukraine achieve a decisive strategic breakthrough on the Eastern Front?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "The lesson requires exact framing; the headline says 'recapture territory in northern Donetsk' via the Vivaldi robot operation, which is a sectoral push, not a decisive strategic breakthrough across the Eastern Front.",
+      "verdict": ""
+    },
+    {
+      "id": "Q5",
+      "text": "Will rolling blackouts or emergency power-cut measures be implemented in Kyiv?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "The lesson says to treat widespread infrastructure damage as meeting the blackout bar; Russia is specifically targeting Kyiv's power plants, substations, and bridges with air defenses strained by interceptor shortages.",
+      "verdict": ""
+    },
+    {
+      "id": "Q6",
+      "text": "Will the Ukraine-South Korea diplomatic dispute escalate into a military or trade crisis?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "No reason to change; the current state is diplomatic friction over a POW transfer, and the bar for a full military or trade crisis is high; wind caution against over-saying YES to dramatic escalations applies here.",
+      "verdict": ""
+    },
+    {
+      "id": "Q7",
+      "text": "Will Russia carry out hybrid attacks such as cyberattacks or infrastructure sabotage against European countries?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "Estonia already accused Russia of sabotage and a Ukrainian cargo plane was hit by a drone in Germany this week, establishing an active pattern of hybrid attacks on European soil that the coming week would continue.",
+      "verdict": ""
+    },
+    {
+      "id": "Q8",
+      "text": "Will a ceasefire or peace agreement between Ukraine and Russia be announced?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "No reason to change; Putin explicitly ruled out a ceasefire and both sides are in offensive postures (winter air campaign, Vivaldi operation), making a peace announcement in one week very unlikely.",
+      "verdict": ""
+    }
+  ],
+  "flips": 0,
+  "flips_right": 0,
+  "flips_wrong": 0,
+  "flips_unclear": 0
+}

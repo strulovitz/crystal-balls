@@ -1,0 +1,90 @@
+{
+  "summary": "Over the coming week, Iran will remain in a high-tension standoff without crossing into open large-scale conflict. Diplomatic signals through Doha will keep the US-Iran channel narrow but alive, while a possible quiet confidence measure around Hormuz could be quietly tested. The rial will stay under heavy pressure, forcing the central bank to keep selling dollars. Proxy friction in the Gulf, particularly around the UAE and Iraqi shipping lanes, will produce at least one fresh incident. Domestically, the regime will press ahead with SIM restrictions, account freezes, and surveillance to blunt the economic pain. A formal NPT exit is still only a talking point, and the third carrier strike group will be in the region but largely held in reserve until after the US midterms.",
+  "reasoning": "I flipped only Q8. The wind record cautions that forecasters over-predict dramatic events like a limited strike or exchange of fire, and the lesson for Iran says to reserve YES for a headline that names the specific act. This week's headlines show military buildup, low munitions, and Trump explicitly tying larger strikes to the post-midterm window, but no named direct US or Israeli strike on Iran or a fire exchange involving Iran. Every other answer is supported by an explicitly named headline event or a high-probability slow-burn trend, so I kept them.",
+  "rows": [
+    {
+      "id": "Q1",
+      "text": "Will there be a major new US/Israeli bombing campaign inside Iran during the week?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "Trump explicitly floated larger strikes only after the November midterms and admitted low munitions stocks, so a major campaign inside Iran this week is not yet on the table.",
+      "verdict": ""
+    },
+    {
+      "id": "Q2",
+      "text": "Will a short trust-building arrangement around the Strait of Hormuz be announced or quietly tested?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The diplomatic channel through Qatar is alive and the US is withdrawing forces from Iraq, both of which create room for a quiet Hormuz confidence measure; no explicit counter-headline negates it.",
+      "verdict": ""
+    },
+    {
+      "id": "Q3",
+      "text": "Will technical talks between the US and Iran continue without a signed deal by the end of the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "The headline explicitly names Iran receiving a US diplomatic response via Qatari mediators, which is the specific act of continuing talks without a signed deal that the lesson requires.",
+      "verdict": ""
+    },
+    {
+      "id": "Q4",
+      "text": "Will the Iranian rial remain weak and the central bank intervene again to support the currency?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "The rial is at record lows with the central bank actively selling dollars, and new Operation Economic Outcast sanctions add further pressure, making continued intervention almost certain.",
+      "verdict": ""
+    },
+    {
+      "id": "Q5",
+      "text": "Will at least one proxy attack or cyber incident affect Gulf targets during the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "YES",
+      "reason": "The FlyDubai copilot attack is a named specific proxy incident affecting a Gulf target, satisfying the lesson requirement to cite an explicit act rather than general tension.",
+      "verdict": ""
+    },
+    {
+      "id": "Q6",
+      "text": "Will Iran experience more domestic digital crackdowns and localized protests during the week?",
+      "plain": "YES",
+      "crystal": "YES",
+      "flipped": false,
+      "outcome": "UNCLEAR",
+      "reason": "SIM-card blocks, bank-account freezes, and tightened digital surveillance are explicitly named as ongoing regime actions, and the 'or' in the question means the digital-crackdown clause alone is met.",
+      "verdict": ""
+    },
+    {
+      "id": "Q7",
+      "text": "Will Iran make a formal NPT exit decision during the week?",
+      "plain": "NO",
+      "crystal": "NO",
+      "flipped": false,
+      "outcome": "NO",
+      "reason": "The leadership is only internally debating an NPT exit threat; the lesson says reserve YES for events a headline reports as having actually occurred, and no formal decision is named.",
+      "verdict": ""
+    },
+    {
+      "id": "Q8",
+      "text": "Will a limited US/Israeli strike or exchange of fire occur involving Iran during the week?",
+      "plain": "YES",
+      "crystal": "NO",
+      "flipped": true,
+      "outcome": "YES",
+      "reason": "The wind warns that forecasters over-say YES to dramatic events, and the lesson demands an explicit act; this week's headlines show buildup (third carrier, low munitions) and Trump waiting for post-midterm, not a named strike or direct exchange of fire involving Iran.",
+      "verdict": "FLIP WRONG"
+    }
+  ],
+  "flips": 1,
+  "flips_right": 0,
+  "flips_wrong": 1,
+  "flips_unclear": 0
+}
