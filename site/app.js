@@ -809,6 +809,7 @@ function updateScorecardBadge() {
   const badge = document.getElementById('scorecard-badge');
   const sc = scorecardData;
   if (!sc) { badge.textContent = 'Scorecard starts after the first judged round'; return; }
+  if (sc.schema_version === 4) { badge.textContent = scorecardBadgeV4(sc); return; }
   if (sc.schema_version === 2) {
     const m = sc.manual_forecast || {};
     let t = '';
@@ -835,7 +836,9 @@ function openScorecardModal() {
   if (!scorecardData) { modal.innerHTML = '<p>No scorecard data yet.</p>'; backdrop.classList.add('open'); return; }
   const sc = scorecardData;
   let html = '';
-  if (sc.schema_version === 2) {
+  if (sc.schema_version === 4) {
+    html += scorecardModalV4(sc);
+  } else if (sc.schema_version === 2) {
     html += `<p class="baseline">We declare a winner only after at least ${sc.min_disagreements_for_verdict} disagreements, with one side right in at least two thirds of them.</p>`;
     html += `<div class="stat-row"><span>Verdict</span><span>${sc.verdict}</span></div>`;
     html += `<div class="stat-row"><span>Questions checked</span><span>${sc.questions_resolved} (unclear: ${sc.questions_unclear})</span></div>`;
@@ -864,6 +867,149 @@ function openScorecardModal() {
 }
 
 function fmtNum(n) { return n == null ? '—' : n.toFixed(3); }
+
+// ---------------------------------------------------------------------
+// Part 13 (schema version 4): four things we expect, the judge's marks, the badge
+// ---------------------------------------------------------------------
+
+function esc(t) {
+  return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+const GRADE_MARK = {
+  came_true: ['\u2714', 'came true', 'yes'],
+  true_in_direction: ['\u25D0', 'right direction, details changed', 'half'],
+  did_not_appear: ['\u2717', 'did not appear', 'no'],
+  cannot_establish: ['?', 'cannot establish', 'unknown'],
+};
+const ITEM_LABEL = { lead: 'Lead', second: 'Second', third: 'Third', fade_call: 'Fade call' };
+
+function v4ItemsHtml(bulletin, armGrades) {
+  if (!bulletin) return '<p>No forecast.</p>';
+  let html = '';
+  ['lead', 'second', 'third'].forEach(k => {
+    const it = bulletin[k]; if (!it) return;
+    html += v4ItemRow(ITEM_LABEL[k], it.subject, it.expected, it.sign, armGrades && armGrades.items[k]);
+  });
+  const f = bulletin.fade_call;
+  if (f) html += v4ItemRow(ITEM_LABEL.fade_call, f.subject, f.expected, f.sign, armGrades && armGrades.items.fade_call);
+  const sp = bulletin.surprise;
+  if (sp) html += `<div class="statement-row"><div class="statement-text"><strong>Possible surprise (${esc(sp.chance)} chance):</strong> ${esc(sp.subject)}. ${esc(sp.expected)}</div></div>`;
+  return html;
+}
+
+function v4ItemRow(label, subject, expected, sign, grade) {
+  let mark = '';
+  if (grade) {
+    const m = GRADE_MARK[grade.grade] || ['?', grade.grade, 'unknown'];
+    mark = ` <span class="outcome-mark ${m[2]}" title="${esc(m[1])}">${m[0]} ${esc(m[1])}</span>`;
+  }
+  let html = `<div class="statement-row"><div class="statement-text"><strong>${label}: ${esc(subject)}.</strong> ${esc(expected)}${mark}</div>`;
+  if (sign) html += `<div class="emoji-reason">What you would see: ${esc(sign)}</div>`;
+  if (grade && grade.evidence) html += `<div class="evidence-text">${esc(grade.evidence)}</div>`;
+  return html + `</div>`;
+}
+
+function v4ChangeRow(countryR) {
+  const r = countryR.reader || {};
+  const devs = r.developments || [];
+  const fresh = devs.filter(d => d.direction === 'new').map(d => d.subject);
+  const kept = devs.filter(d => d.direction === 'continuing' || d.direction === 'escalating').map(d => d.subject);
+  let html = '';
+  if (kept.length) html += `<div class="history-row"><span class="dot outer"></span><span class="label">Persisted:</span> ${esc(kept.slice(0, 4).join('; '))}</div>`;
+  if ((r.gone || []).length) html += `<div class="history-row"><span class="dot outer"></span><span class="label">Faded:</span> ${esc(r.gone.slice(0, 4).join('; '))}</div>`;
+  if (fresh.length) html += `<div class="history-row"><span class="dot outer"></span><span class="label">New:</span> ${esc(fresh.slice(0, 4).join('; '))}</div>`;
+  return html || `<div class="history-row"><span class="dot outer"></span><span class="label">Change:</span> no data</div>`;
+}
+
+function v4Forecast(countryR) {
+  return (countryR.forecasts || {});
+}
+
+function v4JudgeFor(nextBundle, code, roundId) {
+  if (!nextBundle || !nextBundle.countries[code]) return { main: null, hand: null };
+  const n = nextBundle.countries[code];
+  const ok = j => j && j.per_arm && !j.unscorable && !j.dry_run && j.graded_round === roundId;
+  return { main: ok(n.judgment) ? n.judgment : null, hand: ok(n.judgment_hand_made) ? n.judgment_hand_made : null };
+}
+
+function v4VerdictLine(j) {
+  if (!j) return '';
+  const e = (j.verdicts && j.verdicts[0] || []).find(x => (x.first === 'crystal' && x.second === 'plain') || (x.first === 'plain' && x.second === 'crystal'));
+  let who = 'tie';
+  if (j.v != null) who = j.v >= 0.5 ? 'Crystal' : (j.v <= -0.5 ? 'plain forecast' : 'tie');
+  return `<div class="score-line ${who === 'Crystal' ? 'crystal' : who === 'tie' ? 'tie' : 'naive'}">The judge preferred: ${who}.${e ? ' ' + esc(e.reason) : ''}</div>`;
+}
+
+async function openModalV4(code, country, countryR) {
+  const display = countryR.display || {};
+  const reader = countryR.reader || {};
+  const fc = v4Forecast(countryR);
+  const nextBundle = await fetchNextBundleLazy();
+  const judged = v4JudgeFor(nextBundle, code, currentRoundId);
+  const j = judged.main || judged.hand;
+  let html = `<div class="panel-header-row">
+    <img class="flag" src="${emojiSrc(country.twemoji)}" alt="">
+    <h2>${country.name}</h2>
+    <button class="close-btn" id="modal-close-x" aria-label="Close">&times;</button>
+  </div>`;
+  html += `<div class="headline">${esc(display.headline || '')}</div>`;
+  if (countryR.forecast_meta && countryR.forecast_meta.hand_made) html += `<p class="baseline">Hand-made forecast (not part of the plain-versus-Crystal scorecard).</p>`;
+  html += `<h3>In plain words</h3>`;
+  (display.eli5 || display.tldr || '').split('\n\n').filter(p => p.trim()).forEach(p => { html += `<p>${esc(p)}</p>`; });
+  html += `<h3>Four things we expect</h3>`;
+  html += v4ItemsHtml(fc.crystal, j && j.per_arm && j.per_arm.crystal);
+  if (j) html += v4VerdictLine(j);
+  if (j && j.per_arm && j.per_arm.crystal) html += `<p class="baseline">Judge's note: ${esc(j.per_arm.crystal.archer_note)}</p>`;
+  if (fc.plain) {
+    html += `<details><summary>The plain forecast, for comparison</summary>`;
+    html += `<p>${esc(fc.plain.summary)}</p>` + v4ItemsHtml(fc.plain, j && j.per_arm && j.per_arm.plain);
+    html += `</details>`;
+  }
+  html += `<h3>What persisted, what faded, what surprised us</h3>` + v4ChangeRow(countryR);
+  html += `<h3>What happened this week</h3><p>${esc(reader.summary || '')}</p>`;
+  if (reader.key_events && reader.key_events.length) {
+    html += `<ul class="bullets">`;
+    reader.key_events.forEach(ke => { html += `<li>${ke.date ? esc(ke.date) + ': ' : ''}${esc(ke.event)}</li>`; });
+    html += `</ul>`;
+  }
+  if (reader.unscorable) html += `<p class="baseline">Not scored this round: ${esc(reader.unscorable_reason || '')}</p>`;
+  html += `<div class="modal-footer">Model: ${esc(countryR.model || '\u2014')} \u00B7 Generated: ${esc(countryR.generated_at || '\u2014')}</div>`;
+  html += `<button class="btn modal-close" id="modal-close-btn">Close</button>`;
+  const modal = document.getElementById('modal');
+  modal.innerHTML = html;
+  document.getElementById('modal-backdrop').classList.add('open');
+  document.getElementById('modal-close-x').addEventListener('click', closeModal);
+  document.getElementById('modal-close-btn').addEventListener('click', closeModal);
+}
+
+function scorecardBadgeV4(sc) {
+  if (!sc.judge_validated) return 'Judge not yet validated. Judged country-weeks so far: ' + (sc.judged_country_weeks || 0) + '.';
+  const p = x => (x == null ? '' : ` (${x}%)`);
+  return `Judged country-weeks: ${sc.judged_country_weeks}. Crystal better: ${sc.crystal_better}${p(sc.crystal_better_pct)}, tie: ${sc.ties}${p(sc.ties_pct)}, plain better: ${sc.plain_better}${p(sc.plain_better_pct)}. Verdict: ${sc.verdict}. Against more-of-the-same: ${sc.verdict_u}.`;
+}
+
+function scorecardModalV4(sc) {
+  let html = `<p class="baseline">${esc(sc.judge_note || '')}</p>`;
+  html += `<div class="stat-row"><span>Verdict (Crystal against plain)</span><span>${esc(sc.verdict)}</span></div>`;
+  html += `<div class="stat-row"><span>Verdict against more-of-the-same</span><span>${esc(sc.verdict_u)}</span></div>`;
+  html += `<div class="stat-row"><span>Rounds scored (verdict needs ${sc.min_rounds_for_verdict})</span><span>${sc.rounds_scored}</span></div>`;
+  html += `<div class="stat-row"><span>Mean verdict, Crystal minus plain (-2 to 2)</span><span>${sc.mean_v == null ? '\u2014' : sc.mean_v}${sc.interval_v ? ' (90% interval ' + sc.interval_v[0] + ' to ' + sc.interval_v[1] + ')' : ''}</span></div>`;
+  html += `<div class="stat-row"><span>Judged country-weeks</span><span>${sc.judged_country_weeks}</span></div>`;
+  html += `<div class="stat-row"><span>Unscorable country-weeks</span><span>${sc.unscorable} of ${sc.country_rounds}</span></div>`;
+  html += `<div class="stat-row"><span>First-listed bulletin won (order bias)</span><span>${sc.first_listed_wins_share == null ? '\u2014' : Math.round(sc.first_listed_wins_share * 100) + '%'} of ${sc.first_listed_nonties}</span></div>`;
+  Object.entries(sc.item_grades || {}).forEach(([arm, g]) => {
+    html += `<div class="stat-row"><span>Item grades, ${arm}</span><span>${g.came_true || 0} true / ${g.true_in_direction || 0} right direction / ${g.did_not_appear || 0} did not appear / ${g.cannot_establish || 0} cannot establish</span></div>`;
+  });
+  Object.entries(sc.gap_buckets || {}).forEach(([k, g]) => {
+    if (g.n) html += `<div class="stat-row"><span>Gap ${k}</span><span>${g.n} country-weeks, mean ${g.mean_v}</span></div>`;
+  });
+  html += `<div class="stat-row"><span>Judge validation</span><span>${sc.judge_validated ? 'passed' : 'not yet validated'}</span></div>`;
+  (sc.hand_made_forecasts || []).forEach(h => {
+    html += `<div class="stat-row"><span>Hand-made forecast, ${esc(h.code)}, graded ${esc(h.round)}</span><span>against more-of-the-same: ${h.u == null ? '\u2014' : h.u}</span></div>`;
+  });
+  return html;
+}
 
 // ---------------------------------------------------------------------
 // Panel (Bible 6.8)
@@ -911,11 +1057,11 @@ function openPanel(code) {
   </div>`;
 
   const roundLabel = roundEntry ? roundEntry.label : currentRoundId;
-  const horizonEnd = (countryR.crystal_forecast && countryR.crystal_forecast.horizon_end) || '';
+  const horizonEnd = (countryR.crystal_forecast && countryR.crystal_forecast.horizon_end) || (countryR.forecast_meta && countryR.forecast_meta.horizon_end) || '';
   if (roundEntry && roundEntry.is_legacy) {
     html += `<div class="round-line">Manual round, ${roundLabel}</div>`;
   } else {
-    html += `<div class="round-line">Forecast made ${roundLabel} for the week to ${horizonEnd}</div>`;
+    html += `<div class="round-line">Forecast made ${roundLabel} for ${horizonEnd ? 'the week to ' + horizonEnd : 'the next collection, about 7 days later'}</div>`;
   }
 
   html += `<div class="headline">${display.headline || ''}</div>`;
@@ -927,12 +1073,17 @@ function openPanel(code) {
   });
   html += `</div><div class="emoji-reason" id="panel-emoji-reason"></div>`;
 
-  html += `<p class="tldr">${display.tldr || ''}</p>`;
+  html += `<p class="tldr">${esc(display.tldr || '')}</p>`;
+
+  if (countryR.schema_version === 4) {
+    const fc4 = (countryR.forecasts || {}).crystal;
+    html += `<h3>Four things we expect</h3>` + v4ItemsHtml(fc4, null);
+  }
 
   html += `<div class="how-we-got-here">`;
   html += historyRow('inner', 'Last week', countryP ? countryP.position : null);
   html += historyRow('middle', 'This week', position);
-  html += trendRow(velocity);
+  html += (countryR.schema_version === 4 ? v4ChangeRow(countryR) : trendRow(velocity));
   html += `</div>`;
 
   if (wind && wind.questions && wind.winner && wind.winner !== 'none') {
@@ -996,6 +1147,7 @@ async function openModal(code) {
   const country = countriesByCode[code];
   const countryR = bundleR.countries[code];
   if (!country || !countryR) return;
+  if (countryR.schema_version === 4) { return openModalV4(code, country, countryR); }
 
   const display = countryR.display || {};
   const position = countryR.position || {};

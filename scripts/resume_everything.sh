@@ -1,20 +1,11 @@
 #!/usr/bin/env bash
-# Resume the whole job after a power outage or crash. Safe to run any time; it continues where it stopped.
-# 0) extract 8 questions per country from Nir's raw legacy texts (Bible Part 11; about 8 h)
-# 1) the real round 2026-10-17 (auto-continues the running round, Bible Part 9 + 10),
-# 2) judge the legacy round 2026-09-15 against Nir's round-2 text (Bible 10.5),
-# 3) velocity for the legacy round 2026-10-02 (Bible 10.7), 4) commit and push.
+# Continue the real round after a stop, power outage or crash. Safe to run any time; it continues where it stopped.
+# Part 13: the round itself (auto-continues the running round: reader, judge, plain, crystal per country),
+# then commit and push. Nothing else is needed any more.
 cd "$(dirname "$0")/.." || exit 1
 PY=.venv/bin/python
-echo "$(date +%T) resume: extract 8 questions from the raw legacy texts (Bible Part 11), skips countries already done"
-$PY -u pipeline/extract_legacy_questions.py --round 2026-09-15
-$PY -u pipeline/extract_legacy_questions.py --round 2026-10-02
-echo "$(date +%T) resume: real round"
+echo "$(date +%T) resume: real round (continues the running round, skips every finished step)"
 systemd-inhibit --what=sleep:idle --why="Crystal Balls round" $PY -u pipeline/run_round.py
-echo "$(date +%T) resume: judge legacy round 2026-09-15"
-systemd-inhibit --what=sleep:idle --why="Crystal Balls judge" $PY -u pipeline/judge_legacy.py --round 2026-09-15 --evidence-round 2026-10-02
-echo "$(date +%T) resume: legacy velocity"
-scripts/fill_velocity_wind.sh
 git add -A data scripts pipeline prompts site
-git commit -qm "Real round 2026-10-17 + legacy judging + legacy velocity (resume script)" && git push -q
+git commit -qm "Real round (Part 13) progress" && git push -q
 echo "$(date +%T) RESUME DONE"

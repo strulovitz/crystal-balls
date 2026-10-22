@@ -389,10 +389,11 @@ def elapsed_days_between(round_id, prev_round_id):
 
 
 def step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_json, settings, mock, dry_run=False):
+    """dry_run=True ignores the unscorable mark of the forecasts being graded (used only for demonstrations)."""
     """Bible 13.3: blind judge of the previous round's forecast bulletins against this round's reality."""
     prev_fc = (prev_file or {}).get("forecasts") or {}
     meta = (prev_file or {}).get("forecast_meta") or {}
-    if len(prev_fc) < 2 or meta.get("unscorable"):
+    if len(prev_fc) < 2 or (meta.get("unscorable") and not dry_run):
         return "skip", None, None
     reader = file.get("reader") or {}
     if reader.get("unscorable"):

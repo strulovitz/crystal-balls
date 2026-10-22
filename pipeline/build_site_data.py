@@ -190,7 +190,10 @@ def build_bundles(rounds_dir, rounds):
         if countries_dir.exists():
             for f in sorted(countries_dir.glob("*.json")):
                 try:
-                    countries_data[f.stem] = load_json(f)
+                    cd = load_json(f)
+                    if cd.get("schema_version") == 4 and cd.get("reader") and "position" not in cd:
+                        cd["position"] = cd["reader"]   # the globe reads position.emojis for its inner rings
+                    countries_data[f.stem] = cd
                 except Exception as e:
                     log(f"  warning: could not read {f}: {e}")
         bundle = {"round": round_data, "countries": countries_data}
