@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Second Arrow demonstration (Bible 11.7) for several countries, exactly like demo_israel.py.
 Usage: demo_countries.py US IR RU UA
-For each country: if the real round 2026-10-17 has not yet judged the 2026-10-14 questions, it does that
+For each country: if the real round 2026-10-17 has not yet judged the 2026-10-02 questions, it does that
 step first (the same position/wind steps the round itself runs, saved in the real 10-17 file so the
 round never repeats them), then makes the one Crystal call. Real model, live progress printed."""
 import sys, time
@@ -46,12 +46,12 @@ for code in codes:
     cfg = countries[code]; name = cfg["name"]
     print(f"\n===== {name} ({code}) =====", flush=True)
     path = R / "2026-10-17/countries" / f"{code}.json"
-    f17 = common.load_json(path) if path.exists() else rr.init_country_file(cfg, "2026-10-17", "2026-10-14")
+    f17 = common.load_json(path) if path.exists() else rr.init_country_file(cfg, "2026-10-17", "2026-10-02")
     f17.setdefault("questions", None)
     hp = R / "2026-10-17/headlines" / f"{code}.json"
     headlines = common.load_json(hp)
-    f14 = common.load_json(R / "2026-10-14/countries" / f"{code}.json")
-    f01 = common.load_json(R / "2026-10-01/countries" / f"{code}.json")
+    f14 = common.load_json(R / "2026-10-02/countries" / f"{code}.json")
+    f01 = common.load_json(R / "2026-09-15/countries" / f"{code}.json")
     def save():
         f17["generated_at"] = rr._now_iso(); f17["model"] = model
         common.save_json(path, f17)
@@ -62,15 +62,15 @@ for code in codes:
         f17["position"] = obj; f17["status"]["position"] = "done"; save(); progress(f"{name} position, {int(el)}s")
     if f17["status"].get("wind") != "done":
         print(time.strftime("%H:%M:%S"), f"{name}: judging the 10-14 questions with the real 10-17 headlines...", flush=True)
-        kind, w, el = rr.step_wind(f17, f14, cfg, "2026-10-17", "2026-10-14", ws, we, headlines, S, False)
+        kind, w, el = rr.step_wind(f17, f14, cfg, "2026-10-17", "2026-10-02", ws, we, headlines, S, False)
         if w is None: print("wind FAILED"); continue
         f17["wind"] = w; f17["status"]["wind"] = "done"; save(); progress(f"{name} wind judged, {int(el)}s")
     items = f14["questions"]["items"]; ids = [q["id"] for q in items]
     plain = f14["naive_forecast"]["answers"]
     truth = {q["id"]: q["outcome"] for q in f17["wind"]["questions"]}
-    pos = common.position_as_text(f14["position"], "2026-10-14")
-    v = {"COUNTRY": name, "HORIZON_START": "2026-10-14", "HORIZON_END": "2026-10-21", "ROUND": "2026-10-14",
-         "PREVIOUS_ROUND": "2026-10-01", "PREVIOUS_POSITION": common.position_as_text(f01["position"], "2026-10-01"),
+    pos = common.position_as_text(f14["position"], "2026-10-02")
+    v = {"COUNTRY": name, "HORIZON_START": "2026-10-02", "HORIZON_END": "2026-10-21", "ROUND": "2026-10-02",
+         "PREVIOUS_ROUND": "2026-09-15", "PREVIOUS_POSITION": common.position_as_text(f01["position"], "2026-09-15"),
          "CURRENT_POSITION": pos, "VELOCITY": common.velocity_as_text(f14["velocity"]) if f14.get("velocity") else common.VELOCITY_UNAVAILABLE,
          "WIND": common.wind_v2_as_text(f14["wind"]) if f14.get("wind") else common.WIND_UNAVAILABLE_V2,
          "MEMORY": common.memory_as_text(code), "HEADLINES": pos,
@@ -78,7 +78,7 @@ for code in codes:
     print(time.strftime("%H:%M:%S"), f"{name}: Crystal (second arrow) call...", flush=True)
     t = time.time()
     obj = common.llm_json("06_crystal_answers.txt", v, lambda o: common.validate_crystal(o, ids, plain),
-                          "demo_crystal", code, round_id="2026-10-14", settings=S)
+                          "demo_crystal", code, round_id="2026-10-02", settings=S)
     if obj is None: print("crystal FAILED"); continue
     progress(f"{name} Crystal, {int(time.time()-t)}s")
     stored = common.crystal_stored_from_decisions(obj, plain)

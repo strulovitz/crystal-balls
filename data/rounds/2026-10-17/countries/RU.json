@@ -1,260 +1,260 @@
 {
-  "schema_version": 2,
-  "round": "2026-10-17",
-  "previous_round": "2026-10-14",
-  "is_legacy": false,
-  "code": "RU",
-  "name": "Russia",
-  "model": "huihui_ai/Qwen3.8-abliterated:27b",
-  "generated_at": "2026-10-22T13:54:12+03:00",
-  "status": {
-    "position": "done",
-    "velocity": "done",
-    "wind": "done",
-    "naive_forecast": "pending",
-    "crystal_forecast": "pending",
-    "display": "pending",
-    "questions": "pending"
-  },
-  "position": {
-    "summary": "This week in and around Russia was dominated by a sharp diplomatic rupture over US President Trump's decision to waive newly enacted sanctions on Russian energy, a move he justified by citing national interest and a diesel purchase deal with Moscow. Kyiv condemned the waiver as wrong and an encouragement for Putin, while Russian officials called it historic. Zelensky simultaneously defied Trump by ordering the resumption of strikes on Russian oil refineries, shattering a fragile energy truce. On the battlefield, Russia intensified strikes on Ukrainian steel plants, power grids, and ships, killing at least eight civilians and cutting electricity to one million people ahead of winter. Satellite imagery revealed Russia had constructed a major new drone launch base in just six weeks. Diplomatically, Putin spoke with Pope Leo about aiding civilians in Oleshky, a Russian envoy discussed joint US-Russia data-center deals, and Russia returned to the G20 table in Bangkok. Oil prices touched $110 a barrel amid supply fears, five Russian drones crashed into Moldova, and a magnitude-seven earthquake struck Kamchatka. The week also saw Russia detain a Japanese journalist on espionage charges and deploy a bot army to push fake US election content.",
-    "key_events": [
-      {
-        "event": "Trump waived newly enacted Russia energy sanctions citing national interest, prompting bipartisan backlash in Congress and condemnation from Ukraine while Russia called it historic.",
-        "date": "2026-10-17",
-        "domain": "diplomacy",
-        "importance": 5
-      },
-      {
-        "event": "Zelensky defied Trump by ordering the resumption of Ukrainian strikes on Russian oil refineries, shattering the energy ceasefire and drawing a sharp rebuke from the White House.",
-        "date": "2026-10-15",
-        "domain": "security",
-        "importance": 5
-      },
-      {
-        "event": "Russia struck nine Ukrainian regions with missiles and drones, killing at least eight civilians and cutting power to one million people as it targeted steel plants and energy infrastructure ahead of winter.",
-        "date": "2026-10-16",
-        "domain": "security",
-        "importance": 4
-      },
-      {
-        "event": "Satellite images revealed Russia had built a major new drone attack base in just six weeks, signaling a significant escalation in its aerial campaign.",
-        "date": "2026-10-16",
-        "domain": "security",
-        "importance": 4
-      },
-      {
-        "event": "Putin spoke with Pope Leo from the Vatican, agreeing to cooperate on aid for civilians in the besieged town of Oleshky.",
-        "date": "2026-10-16",
-        "domain": "diplomacy",
-        "importance": 3
-      },
-      {
-        "event": "Oil prices touched $110 a barrel for the first time since May as markets worried about Russian supply disruptions and Middle East tensions.",
-        "date": "2026-10-16",
-        "domain": "economy",
-        "importance": 3
-      },
-      {
-        "event": "Five Russian drones crashed on Moldovan territory, prompting condemnation from Chisinau and raising fears of spillover from the Ukraine war.",
-        "date": "2026-10-16",
-        "domain": "security",
-        "importance": 3
-      },
-      {
-        "event": "Russia returned to the G20 table in Bangkok on a US invitation, angering European leaders who saw it as a signal of Washington's pivot toward Moscow.",
-        "date": "2026-10-16",
-        "domain": "diplomacy",
-        "importance": 3
-      },
-      {
-        "event": "A magnitude-7 earthquake struck Russia's Kamchatka Peninsula, a significant seismic event in one of the world's most active tectonic zones.",
-        "date": "2026-10-16",
-        "domain": "environment",
-        "importance": 2
-      },
-      {
-        "event": "Russia used a large army of social-media bots to push fake US election videos, part of an ongoing information-war effort ahead of midterms.",
-        "date": "2026-10-16",
-        "domain": "technology",
-        "importance": 2
-      }
+ "schema_version": 2,
+ "round": "2026-10-17",
+ "previous_round": "2026-10-02",
+ "is_legacy": false,
+ "code": "RU",
+ "name": "Russia",
+ "model": "huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-22T13:54:12+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "done",
+  "wind": "done",
+  "naive_forecast": "pending",
+  "crystal_forecast": "pending",
+  "display": "pending",
+  "questions": "pending"
+ },
+ "position": {
+  "summary": "This week in and around Russia was dominated by a sharp diplomatic rupture over US President Trump's decision to waive newly enacted sanctions on Russian energy, a move he justified by citing national interest and a diesel purchase deal with Moscow. Kyiv condemned the waiver as wrong and an encouragement for Putin, while Russian officials called it historic. Zelensky simultaneously defied Trump by ordering the resumption of strikes on Russian oil refineries, shattering a fragile energy truce. On the battlefield, Russia intensified strikes on Ukrainian steel plants, power grids, and ships, killing at least eight civilians and cutting electricity to one million people ahead of winter. Satellite imagery revealed Russia had constructed a major new drone launch base in just six weeks. Diplomatically, Putin spoke with Pope Leo about aiding civilians in Oleshky, a Russian envoy discussed joint US-Russia data-center deals, and Russia returned to the G20 table in Bangkok. Oil prices touched $110 a barrel amid supply fears, five Russian drones crashed into Moldova, and a magnitude-seven earthquake struck Kamchatka. The week also saw Russia detain a Japanese journalist on espionage charges and deploy a bot army to push fake US election content.",
+  "key_events": [
+   {
+    "event": "Trump waived newly enacted Russia energy sanctions citing national interest, prompting bipartisan backlash in Congress and condemnation from Ukraine while Russia called it historic.",
+    "date": "2026-10-17",
+    "domain": "diplomacy",
+    "importance": 5
+   },
+   {
+    "event": "Zelensky defied Trump by ordering the resumption of Ukrainian strikes on Russian oil refineries, shattering the energy ceasefire and drawing a sharp rebuke from the White House.",
+    "date": "2026-10-15",
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Russia struck nine Ukrainian regions with missiles and drones, killing at least eight civilians and cutting power to one million people as it targeted steel plants and energy infrastructure ahead of winter.",
+    "date": "2026-10-16",
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Satellite images revealed Russia had built a major new drone attack base in just six weeks, signaling a significant escalation in its aerial campaign.",
+    "date": "2026-10-16",
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Putin spoke with Pope Leo from the Vatican, agreeing to cooperate on aid for civilians in the besieged town of Oleshky.",
+    "date": "2026-10-16",
+    "domain": "diplomacy",
+    "importance": 3
+   },
+   {
+    "event": "Oil prices touched $110 a barrel for the first time since May as markets worried about Russian supply disruptions and Middle East tensions.",
+    "date": "2026-10-16",
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "Five Russian drones crashed on Moldovan territory, prompting condemnation from Chisinau and raising fears of spillover from the Ukraine war.",
+    "date": "2026-10-16",
+    "domain": "security",
+    "importance": 3
+   },
+   {
+    "event": "Russia returned to the G20 table in Bangkok on a US invitation, angering European leaders who saw it as a signal of Washington's pivot toward Moscow.",
+    "date": "2026-10-16",
+    "domain": "diplomacy",
+    "importance": 3
+   },
+   {
+    "event": "A magnitude-7 earthquake struck Russia's Kamchatka Peninsula, a significant seismic event in one of the world's most active tectonic zones.",
+    "date": "2026-10-16",
+    "domain": "environment",
+    "importance": 2
+   },
+   {
+    "event": "Russia used a large army of social-media bots to push fake US election videos, part of an ongoing information-war effort ahead of midterms.",
+    "date": "2026-10-16",
+    "domain": "technology",
+    "importance": 2
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "diplomacy",
+   "security",
+   "economy",
+   "politics"
+  ],
+  "emojis": [
+   "🚫",
+   "⚔️",
+   "🤝"
+  ],
+  "emoji_reasons": [
+   "Trump's waiver of newly signed Russia energy sanctions, condemned by Kyiv as 'wrong' and hailed by Moscow as 'historic,' was the single most-reported story of the week (Reuters, BBC, CNN, DW, FT, CNBC).",
+   "Russia struck nine Ukrainian regions killing civilians, Ukraine resumed refinery strikes, and satellite images showed a new drone megabase, making active combat the backdrop for every headline (Reuters, AP, Bloomberg, WSJ).",
+   "The US-Russia diesel deal, the G20 invitation, the Pope-Putin call, and Putin envoy talks on joint data-center projects all pointed to active back-channel dealmaking even as the public rift deepened (Reuters, CNBC, CNN)."
+  ]
+ },
+ "velocity": {
+  "summary": "Between the two reports Russia's situation shifted from broad military escalation to a sharper diplomatic confrontation. The dominant new thread is the US sanctions waiver on Russian energy, which split Washington from Moscow's partners and prompted Zelensky to resume refinery strikes in defiance of Trump. This energy axis—sanctions, waivers, refinery targeting, and $110 oil—has largely replaced last week's nuclear posture and Kaliningrad rhetoric as the story's center of gravity. Military intensity edged down slightly: strikes continue against Ukrainian grids and steel plants, but the tone moved from 'all weapons including nuclear' to more conventional escalation, including the revelation of a new drone base built in six weeks. What faded: the Baltic hybrid-incident cluster, the Germany-Russia talks, the Hungary diplomatic spat, and the North Korean troop story all dropped out of the frame. What is new and fast-moving: the US-Russia data-center negotiation, Putin's Vatican phone call, the G20 Bangkok return, Moldova drone crashes, and the bot-army campaign aimed at US midterms. The pace of change is brisk but not a complete reset.",
+  "direction": "shifting",
+  "speed": 6,
+  "intensity_change": -1,
+  "rising": [
+   "US sanctions waiver and energy confrontation",
+   "Ukrainian strikes on Russian refineries",
+   "New drone base construction revealed"
+  ],
+  "fading": [
+   "Kaliningrad nuclear-warning rhetoric",
+   "Baltic hybrid-incident cluster",
+   "Germany-Russia top-level talks",
+   "North Korean troop movement"
+  ],
+  "new": [
+   "Putin-Vatican diplomacy on Oleshky",
+   "Russia's G20 Bangkok return",
+   "Moldova drone spillover",
+   "Russian bot army targeting US midterms"
+  ]
+ },
+ "wind": {
+  "previous_round": "2026-10-02",
+  "elapsed_days": 15,
+  "questions": [
+   {
+    "id": "Q1",
+    "text": "Will Russia launch a major drone or missile strike wave causing damage to Ukraine's energy or transport infrastructure?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "YES",
+    "evidence": "Multiple headlines confirm Russia struck Ukrainian energy and transport infrastructure across several days, killing at least eight and cutting power to over a million people.",
+    "relevant_headlines": [
+     "Russia says it hit Ukrainian steel plants, power infrastructure and ships",
+     "Russian attacks kill eight in Ukraine, cut power to over a million",
+     "Russia strikes 9 Ukrainian regions as a new report shows a spike in civilian casualties"
     ],
-    "mood": "tense",
-    "intensity": 7,
-    "domains_active": [
-      "diplomacy",
-      "security",
-      "economy",
-      "politics"
+    "flipped": false
+   },
+   {
+    "id": "Q2",
+    "text": "Will a full NATO–Russia conventional war break out over Kaliningrad?",
+    "domain": "security",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "No headline reports a full conventional war breaking out over Kaliningrad, and the events described (drone strikes, jets scrambling) are well short of a full war declaration.",
+    "relevant_headlines": [
+     "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response",
+     "Poland scrambles fighter jets as Russia strikes western Ukraine"
     ],
-    "emojis": [
-      "🚫",
-      "⚔️",
-      "🤝"
+    "legacy_probability": 0.12,
+    "flipped": false
+   },
+   {
+    "id": "Q3",
+    "text": "Will Russia maintain its diesel export ban throughout the following week?",
+    "domain": "economy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "The Kremlin explicitly restarted diesel exports after a deal with Trump, meaning the ban was lifted rather than maintained throughout the week.",
+    "relevant_headlines": [
+     "Kremlin says Russia restarts diesel exports after deal with Trump",
+     "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+     "Trump Waives Russia Energy Tariffs, Sanctions in Graham Law"
     ],
-    "emoji_reasons": [
-      "Trump's waiver of newly signed Russia energy sanctions, condemned by Kyiv as 'wrong' and hailed by Moscow as 'historic,' was the single most-reported story of the week (Reuters, BBC, CNN, DW, FT, CNBC).",
-      "Russia struck nine Ukrainian regions killing civilians, Ukraine resumed refinery strikes, and satellite images showed a new drone megabase, making active combat the backdrop for every headline (Reuters, AP, Bloomberg, WSJ).",
-      "The US-Russia diesel deal, the G20 invitation, the Pope-Putin call, and Putin envoy talks on joint data-center projects all pointed to active back-channel dealmaking even as the public rift deepened (Reuters, CNBC, CNN)."
-    ]
-  },
-  "velocity": {
-    "summary": "Between the two reports Russia's situation shifted from broad military escalation to a sharper diplomatic confrontation. The dominant new thread is the US sanctions waiver on Russian energy, which split Washington from Moscow's partners and prompted Zelensky to resume refinery strikes in defiance of Trump. This energy axis—sanctions, waivers, refinery targeting, and $110 oil—has largely replaced last week's nuclear posture and Kaliningrad rhetoric as the story's center of gravity. Military intensity edged down slightly: strikes continue against Ukrainian grids and steel plants, but the tone moved from 'all weapons including nuclear' to more conventional escalation, including the revelation of a new drone base built in six weeks. What faded: the Baltic hybrid-incident cluster, the Germany-Russia talks, the Hungary diplomatic spat, and the North Korean troop story all dropped out of the frame. What is new and fast-moving: the US-Russia data-center negotiation, Putin's Vatican phone call, the G20 Bangkok return, Moldova drone crashes, and the bot-army campaign aimed at US midterms. The pace of change is brisk but not a complete reset.",
-    "direction": "shifting",
-    "speed": 6,
-    "intensity_change": -1,
-    "rising": [
-      "US sanctions waiver and energy confrontation",
-      "Ukrainian strikes on Russian refineries",
-      "New drone base construction revealed"
+    "flipped": false
+   },
+   {
+    "id": "Q4",
+    "text": "Will Russia and Ukraine sign a formal ceasefire agreement?",
+    "domain": "diplomacy",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "The energy truce was actively shattered and no headline reports a formal ceasefire agreement being signed between Russia and Ukraine.",
+    "relevant_headlines": [
+     "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
+     "Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries",
+     "Trump's 'energy ceasefire' sparks confusion as Russia strikes Ukraine"
     ],
-    "fading": [
-      "Kaliningrad nuclear-warning rhetoric",
-      "Baltic hybrid-incident cluster",
-      "Germany-Russia top-level talks",
-      "North Korean troop movement"
+    "legacy_probability": 0.15,
+    "flipped": false
+   },
+   {
+    "id": "Q5",
+    "text": "Will the Kremlin issue an official diplomatic statement reacting to Latvia's October 3 election result?",
+    "domain": "politics",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "UNCLEAR",
+    "evidence": "No headline specifically reports the Kremlin issuing a diplomatic statement about Latvia's October 3 election result, though a low-profile reaction could plausibly go unreported in this headline set.",
+    "relevant_headlines": [
+     "Baltic Block of Russian Grain May Open Black Sea, Latvia Says"
     ],
-    "new": [
-      "Putin-Vatican diplomacy on Oleshky",
-      "Russia's G20 Bangkok return",
-      "Moldova drone spillover",
-      "Russian bot army targeting US midterms"
-    ]
-  },
-  "wind": {
-    "previous_round": "2026-10-14",
-    "elapsed_days": 3,
-    "questions": [
-      {
-        "id": "Q1",
-        "text": "Will Russia launch a major drone or missile strike wave causing damage to Ukraine's energy or transport infrastructure?",
-        "domain": "security",
-        "naive": "YES",
-        "crystal": "YES",
-        "outcome": "YES",
-        "evidence": "Multiple headlines confirm Russia struck Ukrainian energy and transport infrastructure across several days, killing at least eight and cutting power to over a million people.",
-        "relevant_headlines": [
-          "Russia says it hit Ukrainian steel plants, power infrastructure and ships",
-          "Russian attacks kill eight in Ukraine, cut power to over a million",
-          "Russia strikes 9 Ukrainian regions as a new report shows a spike in civilian casualties"
-        ],
-        "flipped": false
-      },
-      {
-        "id": "Q2",
-        "text": "Will a full NATO–Russia conventional war break out over Kaliningrad?",
-        "domain": "security",
-        "naive": "NO",
-        "crystal": "NO",
-        "outcome": "NO",
-        "evidence": "No headline reports a full conventional war breaking out over Kaliningrad, and the events described (drone strikes, jets scrambling) are well short of a full war declaration.",
-        "relevant_headlines": [
-          "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response",
-          "Poland scrambles fighter jets as Russia strikes western Ukraine"
-        ],
-        "legacy_probability": 0.12,
-        "flipped": false
-      },
-      {
-        "id": "Q3",
-        "text": "Will Russia maintain its diesel export ban throughout the following week?",
-        "domain": "economy",
-        "naive": "YES",
-        "crystal": "YES",
-        "outcome": "NO",
-        "evidence": "The Kremlin explicitly restarted diesel exports after a deal with Trump, meaning the ban was lifted rather than maintained throughout the week.",
-        "relevant_headlines": [
-          "Kremlin says Russia restarts diesel exports after deal with Trump",
-          "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
-          "Trump Waives Russia Energy Tariffs, Sanctions in Graham Law"
-        ],
-        "flipped": false
-      },
-      {
-        "id": "Q4",
-        "text": "Will Russia and Ukraine sign a formal ceasefire agreement?",
-        "domain": "diplomacy",
-        "naive": "NO",
-        "crystal": "NO",
-        "outcome": "NO",
-        "evidence": "The energy truce was actively shattered and no headline reports a formal ceasefire agreement being signed between Russia and Ukraine.",
-        "relevant_headlines": [
-          "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-          "Zelenskyy defies Trump as Ukraine resumes strikes on Russian refineries",
-          "Trump's 'energy ceasefire' sparks confusion as Russia strikes Ukraine"
-        ],
-        "legacy_probability": 0.15,
-        "flipped": false
-      },
-      {
-        "id": "Q5",
-        "text": "Will the Kremlin issue an official diplomatic statement reacting to Latvia's October 3 election result?",
-        "domain": "politics",
-        "naive": "YES",
-        "crystal": "YES",
-        "outcome": "UNCLEAR",
-        "evidence": "No headline specifically reports the Kremlin issuing a diplomatic statement about Latvia's October 3 election result, though a low-profile reaction could plausibly go unreported in this headline set.",
-        "relevant_headlines": [
-          "Baltic Block of Russian Grain May Open Black Sea, Latvia Says"
-        ],
-        "flipped": false
-      },
-      {
-        "id": "Q6",
-        "text": "Will at least one hybrid-war incident or sabotage accusation be reported in a Baltic state, Poland, or Romania?",
-        "domain": "security",
-        "naive": "YES",
-        "crystal": "YES",
-        "outcome": "YES",
-        "evidence": "Romania accused Russia of striking tankers in NATO waters and Poland scrambled jets, both qualifying as hybrid-war or sabotage incidents in the specified countries.",
-        "relevant_headlines": [
-          "Newshour | Romania accuses Russia of attacking Black Sea tankers",
-          "Russia suspected of striking two tankers in Nato waters",
-          "Poland scrambles fighter jets as Russia strikes western Ukraine"
-        ],
-        "flipped": false
-      },
-      {
-        "id": "Q7",
-        "text": "Will the U.S. or EU announce a new sanctions package targeting Russian shipping, banks, or energy companies?",
-        "domain": "economy",
-        "naive": "YES",
-        "crystal": "YES",
-        "outcome": "NO",
-        "evidence": "The dominant news was the U.S. waiving or easing sanctions on Russia, not announcing a new sanctions package targeting shipping, banks, or energy.",
-        "relevant_headlines": [
-          "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect",
-          "Trump Waives Russia Energy Tariffs, Sanctions in Graham Law",
-          "US floats unfreezing some Russian assets to restart Ukraine peace talks"
-        ],
-        "flipped": false
-      },
-      {
-        "id": "Q8",
-        "text": "Will Russia experience a major domestic social crisis or mass protest?",
-        "domain": "society",
-        "naive": "NO",
-        "crystal": "NO",
-        "outcome": "NO",
-        "evidence": "No headline reports a major domestic social crisis or mass protest in Russia during the period, and an event of that scale would almost certainly have been covered.",
-        "relevant_headlines": [
-          "They fled Russia, but the West sent them back",
-          "Russian investigators question Novaya Gazeta editor over colleague's case"
-        ],
-        "flipped": false
-      }
+    "flipped": false
+   },
+   {
+    "id": "Q6",
+    "text": "Will at least one hybrid-war incident or sabotage accusation be reported in a Baltic state, Poland, or Romania?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "YES",
+    "evidence": "Romania accused Russia of striking tankers in NATO waters and Poland scrambled jets, both qualifying as hybrid-war or sabotage incidents in the specified countries.",
+    "relevant_headlines": [
+     "Newshour | Romania accuses Russia of attacking Black Sea tankers",
+     "Russia suspected of striking two tankers in Nato waters",
+     "Poland scrambles fighter jets as Russia strikes western Ukraine"
     ],
-    "resolved": 7,
-    "unclear": 1,
-    "single_forecaster": true,
-    "correct": 5,
-    "winner": "single",
-    "systematic_error": "Both forecasters defaulted to a confrontation-and-escalation narrative for Russia. They predicted the diesel ban would hold (Q3) when the Kremlin had actually restarted exports under a US deal, they assumed the Kremlin would publicly react to a Baltic election (Q5) despite no headline evidence, and they expected a new sanctions package (Q7) when the week's dominant story was the U.S. waiving sanctions. In all three misses they ignored the directional shift in US-Russia policy toward easing and instead projected the previous week's hardline posture forward.",
-    "correction_hint": "When the U.S. is actively waiving sanctions or opening trade deals with Russia, do not simultaneously predict new sanctions or continued Russian restrictions in the opposite direction. Before assuming a minor diplomatic reaction (like a statement on a neighbor's election) will appear as a headline, require at least one source to mention it; absent that, default to UNCLEAR rather than YES."
-  },
-  "naive_forecast": null,
-  "crystal_forecast": null,
-  "display": null,
-  "questions": null
+    "flipped": false
+   },
+   {
+    "id": "Q7",
+    "text": "Will the U.S. or EU announce a new sanctions package targeting Russian shipping, banks, or energy companies?",
+    "domain": "economy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "The dominant news was the U.S. waiving or easing sanctions on Russia, not announcing a new sanctions package targeting shipping, banks, or energy.",
+    "relevant_headlines": [
+     "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect",
+     "Trump Waives Russia Energy Tariffs, Sanctions in Graham Law",
+     "US floats unfreezing some Russian assets to restart Ukraine peace talks"
+    ],
+    "flipped": false
+   },
+   {
+    "id": "Q8",
+    "text": "Will Russia experience a major domestic social crisis or mass protest?",
+    "domain": "society",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "No headline reports a major domestic social crisis or mass protest in Russia during the period, and an event of that scale would almost certainly have been covered.",
+    "relevant_headlines": [
+     "They fled Russia, but the West sent them back",
+     "Russian investigators question Novaya Gazeta editor over colleague's case"
+    ],
+    "flipped": false
+   }
+  ],
+  "resolved": 7,
+  "unclear": 1,
+  "single_forecaster": true,
+  "correct": 5,
+  "winner": "single",
+  "systematic_error": "Both forecasters defaulted to a confrontation-and-escalation narrative for Russia. They predicted the diesel ban would hold (Q3) when the Kremlin had actually restarted exports under a US deal, they assumed the Kremlin would publicly react to a Baltic election (Q5) despite no headline evidence, and they expected a new sanctions package (Q7) when the week's dominant story was the U.S. waiving sanctions. In all three misses they ignored the directional shift in US-Russia policy toward easing and instead projected the previous week's hardline posture forward.",
+  "correction_hint": "When the U.S. is actively waiving sanctions or opening trade deals with Russia, do not simultaneously predict new sanctions or continued Russian restrictions in the opposite direction. Before assuming a minor diplomatic reaction (like a statement on a neighbor's election) will appear as a headline, require at least one source to mention it; absent that, default to UNCLEAR rather than YES."
+ },
+ "naive_forecast": null,
+ "crystal_forecast": null,
+ "display": null,
+ "questions": null
 }

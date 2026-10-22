@@ -1,0 +1,363 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "EG",
+ "name": "Egypt",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T18:16:48+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "Houthi missiles struck the Riyadh airport, killing an Egyptian flight attendant, and Egypt pledged to offer any kind of support to Saudi Arabia. Approximately 72 artisanal gold miners died in an airstrike near the disputed Egypt-Sudan border, and both foreign ministries were expected to consult on whose aircraft fired. Baha'i families in Egypt faced a critical shortage of burial space, and the press union chief publicly rejected pressure over detained journalists while torture allegations surfaced in the Matsadaash case. The government prepared a 30 percent state-stake sale of Banque du Caire through the Egyptian stock exchange as a privatization signal, while inflation had slowed despite global price pressures. Restored Fayoum mummy portraits were unveiled and set to travel abroad for the first time. A US judge ordered the Trump administration to facilitate the return of an Egyptian man deported to Equatorial Guinea. The US-brokered Gaza ceasefire had stalled a year after signing, and Egypt upgraded its strategic partnership with South Korea. The Zamalek-Al Ahly derby fed social-media debate, and FAA warnings over Saudi airspace opened a small transit opportunity for Cairo.",
+  "key_events": [
+   {
+    "event": "Houthi strikes hit Riyadh airport, killing an Egyptian flight attendant and prompting Egypt to pledge full support to Saudi Arabia.",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Approximately 72 artisanal gold miners killed in an airstrike near the Egypt-Sudan border, triggering blame disputes.",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Egypt prepares a 30 percent state-stake IPO of Banque du Caire on the stock exchange as a privatization milestone.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "Baha'i families face a shortage of burial plots, and the press union rejects pressure over detained journalists amid torture allegations.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "US-brokered Gaza ceasefire stalls a year after signing, with Egypt pushing to stay central to mediation.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   }
+  ],
+  "mood": "mixed",
+  "intensity": 6,
+  "domains_active": [
+   "security",
+   "diplomacy",
+   "economy",
+   "society"
+  ],
+  "emojis": [
+   "🛡️",
+   "⚔️",
+   "💰"
+  ],
+  "emoji_reasons": [
+   "Egypt pledged defense and logistics support to Saudi Arabia after the Houthi strikes on Riyadh airport.",
+   "The 72-miner gold mine airstrike and disputed border territory create active security friction with Sudan.",
+   "The Banque du Caire IPO and inflation slowdown dominate the domestic economic narrative."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The naive reading takes the text's top-listed expectations at face value and ignores its own hedges and alternative scenarios. Egypt issues a formal foreign-ministry statement backing Saudi Arabia and pledging Red Sea shipping support within days of the Riyadh strikes. Egyptian and Sudanese foreign ministers hold a phone consultation over the gold mine airstrike. The Egyptian stock exchange opens the Banque du Caire IPO subscription period to retail investors as a privatization milestone. Baha'i families stage a small sit-in near the cemetery demanding additional burial plots. The foreign ministry announces the return of the Egyptian man deported to Equatorial Guinea. The overall picture is managed instability: Cairo projects diplomatic strength, delivers a positive economic signal, and handles small domestic irritations without letting any one escalate into a full crisis.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Egypt's foreign ministry issues a formal statement backing Saudi Arabia and pledging Red Sea shipping support within the week.",
+    "probability": 0.85,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N2",
+    "text": "Egyptian and Sudanese foreign ministers hold a phone consultation over the gold mine airstrike and the identity of the aircraft responsible.",
+    "probability": 0.75,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "The Egyptian stock exchange opens the Banque du Caire IPO subscription period to retail investors.",
+    "probability": 0.8,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "Baha'i families stage a sit-in near the cemetery demanding additional burial plots from local government officials.",
+    "probability": 0.55,
+    "domain": "society"
+   },
+   {
+    "id": "N5",
+    "text": "Egypt's foreign ministry announces the confirmed return of the Egyptian man deported to Equatorial Guinea.",
+    "probability": 0.4,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading weighs the text's full probability distribution, including the scenarios it labels less likely and the hedges it attaches to its own top picks. The Saudi statement and IPO remain anchor events, but the Sudan gold mine incident carries a tail risk the naive reading underweights: the text says Cairo will quietly push for a joint investigation committee rather than settle for a phone call, and it explicitly notes I would not be surprised if mining families protest if bodies remain unidentified. The text's own less-likely list names a sudden pound devaluation as a real possibility if import pressures worsen, which the crystal reading treats as a low-but-checkable event. The Equatorial Guinea return is dropped from the top five in favor of a more distinctive checkable outcome drawn from the text's conditional language about small domestic protests.",
+  "reasoning": "The naive reading picks the five most-expectation-tagged items and assigns them high confidence. The crystal reading makes three deliberate shifts. First, it elevates the text's quietly pushing for a joint investigation or border committee meeting over the simpler phone consultation, lowering the probability by 0.15. Second, it pulls in the text's explicit less likely but possible scenario of a sudden currency devaluation, assigning 0.20 based on the text's own hedging about import pressures and the government's desire to avoid it during the IPO window. Third, it surfaces the mining-family protest as a distinct checkable event from the text's I would not be surprised if language, which the naive reading folds into general Sudan friction and does not make separately checkable.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Egypt's foreign ministry issues a formal statement backing Saudi Arabia and pledging Red Sea shipping support within the week.",
+    "probability": 0.85,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C2",
+    "text": "Egyptian and Sudanese delegations convene a joint border investigation committee on the gold mine airstrike rather than limiting contact to a phone call.",
+    "probability": 0.6,
+    "domain": "security"
+   },
+   {
+    "id": "C3",
+    "text": "The Egyptian pound devalues by more than three percent against the US dollar on import-payment pressure.",
+    "probability": 0.2,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "A group of mining families protests near Aswan or Red Sea State over unidentified gold mine deaths and slow compensation.",
+    "probability": 0.45,
+    "domain": "society"
+   },
+   {
+    "id": "C5",
+    "text": "The Egyptian stock exchange opens the Banque du Caire IPO subscription period to retail investors.",
+    "probability": 0.75,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Egypt Balances Border Blood, Bank IPO, and Minority Pressures",
+  "emojis": [
+   "🛡️",
+   "⚔️",
+   "💰"
+  ],
+  "emoji_reasons": [
+   "Egypt positions itself as a regional stabilizer backing Saudi Arabia against Houthi attacks.",
+   "The Sudan gold mine death toll and disputed territory drive the week's biggest security story.",
+   "The Banque du Caire IPO and inflation data anchor the domestic economic storyline."
+  ],
+  "tldr": "Egypt will publicly back Saudi Arabia, navigate a painful border gold mine death toll with Sudan, launch the Banque du Caire IPO, manage Baha'i burial and detained-journalist protests, and keep Gaza mediation alive without a breakthrough.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Egypt issue a formal public statement backing Saudi Arabia in response to the Houthi strikes on the Riyadh airport?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: This is almost certain. Egypt already said it is ready to offer \"any kind\" of support to Saudi Arabia. In the next few days, expect at least one more formal Egyptian statement, probably from the foreign ministry or presidential spokesman, s",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q2",
+    "text": "Will Egyptian and Sudanese foreign ministries hold consultations or phone talks about the gold mine airstrike near the shared border?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Egyptian and Sudanese foreign ministries to hold consultations or phone talks.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q3",
+    "text": "Will the Banque du Caire IPO subscription process open or be heavily discussed on Egypt's stock exchange within the next week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The IPO subscription process to open or be heavily discussed within days.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q4",
+    "text": "Will a court hearing or pretrial detention review take place for at least some of the detained Egyptian journalists?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: A court hearing or pretrial detention review for at least some of the journalists.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will Baha'i families or community members stage a sit-in or gathering near the cemetery in protest over running out of burial space?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Baha'i families or community members staging a small sit-in or gathering near the cemetery.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q6",
+    "text": "Will Egypt announce a full Gaza ceasefire breakthrough in the next week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: I would not predict a full Gaza breakthrough next week unless something dramatic happens on the ground.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q7",
+    "text": "Will a major Egyptian-Sudanese border clash occur in the next week?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A major Egyptian-Sudanese border clash. Possible, but I would not bet on it in just one week unless the gold mine incident produces a very strong public reaction or a military accident.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q8",
+    "text": "Will Egypt experience a sudden currency devaluation in the next week?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A sudden currency devaluation. Possible if import pressures worsen, but the government probably wants to avoid that while pushing IPOs and inflation-control messages.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Egypt's foreign ministry issues a formal statement backing Saudi Arabia and pledging Red Sea shipping support within the week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.85",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Egyptian and Sudanese delegations convene a joint border investigation committee on the gold mine airstrike rather than limiting contact to a phone call?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.6",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that The Egyptian pound devalues by more than three percent against the US dollar on import-payment pressure?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.2",
+    "legacy_probability": 0.2
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that A group of mining families protests near Aswan or Red Sea State over unidentified gold mine deaths and slow compensation?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.45",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that The Egyptian stock exchange opens the Banque du Caire IPO subscription period to retail investors?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.75",
+    "legacy_probability": 0.75
+   }
+  ]
+ },
+ "single_forecaster": true
+}

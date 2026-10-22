@@ -1,0 +1,369 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "BR",
+ "name": "Brazil",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T13:39:23+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "Brazil entered the final sprint before its October 4 presidential first-round vote with the race statistically tied. Lula raised Bolsa Família welfare payments by fifteen percent, but Bloomberg reported he saw no clear poll gain from that move. Atlas polling showed Lula and Flavio Bolsonaro tied in a runoff scenario, while TV5Monde and AFP reported Flavio Bolsonaro actually gaining ground despite being caught up in the sprawling Banco Master financial probe that Bloomberg described as roiling the election. Reuters reported Brazil was preparing an executive order to ban online casinos, and both candidates were ramping up attacks on online betting. Rio de Janeiro was experiencing its rainiest September on record amid what the BBC described as the strongest El Niño developing on record. AP reported rising violence in Bahia challenging Lula in his own political stronghold. Lula used the UN stage to warn against foreign interference and criticize the approach of the strongest. Reuters noted Brazil was withholding reciprocity against the United States while trade talks continued over tariffs, diesel, nickel, and the Anglo American China deal. Markets stayed nervous but not panicked, supported by commodity strength including a beef quota to China and a phosphate deal with Morocco. Electoral authorities were pressing candidates with alleged criminal ties.",
+  "key_events": [
+   {
+    "event": "Lula raised Bolsa Família welfare payments by fifteen percent in a defensive move to protect his base.",
+    "date": null,
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "The Banco Master financial probe expanded, with Bloomberg describing it as roiling the presidential election and Flavio Bolsonaro gaining despite the scandal.",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "Rio de Janeiro recorded its rainiest September on record amid the strongest developing El Niño on record.",
+    "date": null,
+    "domain": "environment",
+    "importance": 4
+   },
+   {
+    "event": "Rising violence in Bahia challenged Lula in his own political stronghold, giving the opposition a concrete domestic attack.",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Brazil withheld reciprocal trade measures against the US while negotiations continued over tariffs, diesel exports, and the Anglo American nickel deal with China.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "The government prepared an executive order to ban online casinos and betting, with both candidates using the issue as a campaign weapon.",
+    "date": null,
+    "domain": "politics",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "security",
+   "economy",
+   "diplomacy"
+  ],
+  "emojis": [
+   "🗳️",
+   "🎭",
+   "🌀"
+  ],
+  "emoji_reasons": [
+   "The presidential election first round on October 4 is the central event driving every headline.",
+   "The Banco Master scandal and criminal-candidate controversies create ongoing political drama.",
+   "The strongest El Niño on record combined with Rio's rainiest September makes weather a visible domestic irritant."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text predicted that Brazil's final pre-election week would be defined by a statistically tied race between Lula and Flavio Bolsonaro with no clear winner emerging before the October 4 vote. The government would announce or strongly signal a ban on online casinos and betting operations. The Banco Master scandal would produce at least one major new development naming additional figures, though not enough to break the race decisively. Rio de Janeiro or Bahia would generate a significant security or weather incident that becomes a top national story. US-Brazil trade friction would escalate rhetorically around tariffs, diesel, and nickel but would not reach a formal confrontation. The overall mood was one of loud, contested, politically exhausting buildup in which both camps pointed to the same headlines and interpreted them in opposite directions, with the race itself too close for comfort right up to the vote.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Between October 1 and October 8, 2026, all major pre-election polls published before the October 4 vote show Lula and Flavio Bolsonaro within three percentage points of each other.",
+    "probability": 0.75,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "Between October 1 and October 8, 2026, the Brazilian government publishes a signed executive order banning online casino and betting operations effective within thirty days.",
+    "probability": 0.65,
+    "domain": "politics"
+   },
+   {
+    "id": "N3",
+    "text": "Between October 1 and October 8, 2026, national news outlets report at least one new named politician or official formally indicted or publicly linked to the Banco Master financial probe.",
+    "probability": 0.6,
+    "domain": "politics"
+   },
+   {
+    "id": "N4",
+    "text": "Between October 1 and October 8, 2026, Rio de Janeiro or Bahia reports a single violent or weather-related incident causing at least three confirmed deaths that becomes a top-three story on national television.",
+    "probability": 0.55,
+    "domain": "security"
+   },
+   {
+    "id": "N5",
+    "text": "Between October 1 and October 8, 2026, a senior US or Brazilian government official issues a public statement explicitly connecting Brazil's October 4 presidential election to US tariff policy or the diesel export ban.",
+    "probability": 0.45,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.55."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.35."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.2."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.1."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading weights the text's full scenario distribution and its stated caveats rather than taking the headline case alone. The tie remains the modal outcome, but the text's own observation that Flavio Bolsonaro is gaining ground and converting the scandal into an anti-establishment advantage pulls the pure-tie probability below the naive 0.75. The text's thirty-five percent electoral-court scenario and ten percent severe Rio flooding scenario are genuine minority paths that the naive reading overlooks entirely. The online betting story is more likely to arrive as the text's own Scenario B, a phased ninety-day restriction, than as the immediate outright ban the naive reading assumes. US-Brazil friction is more likely to produce a concrete drafting step in the trade ministry than a rhetorical outburst, given the text's explicit no-formal-retaliation framing. The overall picture is the same tied race but with more asymmetric risk to Lula from Bahia violence, court rulings, and the El Niño weather setup than the headline case suggests.",
+  "reasoning": "The naive reading takes the text's top-listed predictions at face value: tied race at 0.75, immediate ban at 0.65, scandal development at 0.60. The crystal reading applies three specific adjustments. First, the text explicitly flags Flavio Bolsonaro as gaining and converting scandal into advantage, which pulls the tie probability down by roughly 0.10 to 0.70. Second, the online betting story is reframed from an immediate ban to the text's own Scenario B phased restriction, dropping the probability from 0.65 to 0.42 because the text calls this scenario also very possible rather than the primary case. Third, the ten percent Rio flooding and thirty-five percent court ruling are minority scenarios the naive reading ignores; the crystal elevates them into checkable statements because the text's strongest El Niño on record and criminal candidates language makes them non-trivial paths that a literal reading of only the top five bullets would miss.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Between October 1 and October 8, 2026, the final pre-election polls show the two main candidates within a five-point gap, with at least one major poll placing Flavio Bolsonaro ahead of Lula.",
+    "probability": 0.7,
+    "domain": "politics"
+   },
+   {
+    "id": "C2",
+    "text": "Between October 1 and October 8, 2026, Brazil's electoral justice body publishes a ruling that disqualifies, suspends, or conditions the candidacy of at least one candidate with alleged organized-crime connections.",
+    "probability": 0.35,
+    "domain": "politics"
+   },
+   {
+    "id": "C3",
+    "text": "Between October 1 and October 8, 2026, Rio de Janeiro records a flooding event with at least one confirmed fatality attributed to El Niño rainfall, prompting a federal emergency declaration for the city.",
+    "probability": 0.12,
+    "domain": "environment"
+   },
+   {
+    "id": "C4",
+    "text": "Between October 1 and October 8, 2026, the Brazilian government announces a phased online betting restriction with a ninety-day implementation window rather than an immediate outright ban.",
+    "probability": 0.42,
+    "domain": "economy"
+   },
+   {
+    "id": "C5",
+    "text": "Between October 1 and October 8, 2026, Brazil's trade ministry publicly confirms that reciprocal tariff proposals against the United States are being drafted in response to the diesel export restriction.",
+    "probability": 0.28,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.55."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.35."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.2."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.1."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Tied race, scandal, and storm hit Brazil election sprint",
+  "emojis": [
+   "🗳️",
+   "🎭",
+   "⚖️"
+  ],
+  "emoji_reasons": [
+   "The October 4 first-round vote anchors the entire week of headlines.",
+   "The Banco Master probe and criminal-candidate rulings generate sustained political drama.",
+   "Electoral courts and legal moves against candidates add a judicial layer to the campaign."
+  ],
+  "tldr": "Brazil's final pre-election week will be a loud, contested, politically exhausting sprint with a tied Lula-Bolsonaro race, ongoing scandal, Rio weather stress, and simmering US trade friction compressed into seven days.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will final pre-election polls published before the vote show Lula and Flavio Bolsonaro within each other's margin of error?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 75% chance the final pre-election polls still show Lula and Flavio Bolsonaro statistically tied or extremely close.",
+    "legacy_probability": 0.75
+   },
+   {
+    "id": "Q2",
+    "text": "Will the Brazilian government announce or strongly signal a ban on online casinos or betting before the election?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 65% chance the government announces or strongly signals an online casino / betting ban before the vote.",
+    "legacy_probability": 0.65
+   },
+   {
+    "id": "Q3",
+    "text": "Will another major Banco Master scandal development make national headlines in Brazil?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 60% chance there is another major Banco Master-related development in the news.",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q4",
+    "text": "Will Rio de Janeiro or Bahia produce a significant security, weather, or political incident that becomes national news?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 55% chance Rio or Bahia produces a significant security, weather, or political incident that becomes national news.",
+    "legacy_probability": 0.55
+   },
+   {
+    "id": "Q5",
+    "text": "Will Brazil-US trade friction escalate rhetorically around tariffs, diesel, nickel, or foreign interference?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 45% chance Brazil-US trade friction escalates rhetorically around tariffs, diesel, nickel, or 'foreign interference.'",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q6",
+    "text": "Will Brazil's electoral courts issue at least one high-profile ruling affecting a candidate with alleged criminal ties?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 35% chance the electoral courts issue at least one high-profile ruling affecting candidates with alleged criminal ties.",
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q7",
+    "text": "Will a surprise poll show a clear lead of three or more points for one of the two main candidates before election day?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: 20% chance a surprise poll shows a clear lead of 3 points or more for one of the two main candidates before election day.",
+    "legacy_probability": 0.2
+   },
+   {
+    "id": "Q8",
+    "text": "Will severe Rio de Janeiro flooding or related disruptions become a major national story in their own right?",
+    "domain": "environment",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: 10% chance severe Rio flooding or related disruptions become a major national story in their own right.",
+    "legacy_probability": 0.1
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Between October 1 and October 8, 2026, the final pre-election polls show the two main candidates within a five-point gap, with at least one major poll placing Flavio Bolsonaro ahead of Lula?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.7",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Between October 1 and October 8, 2026, Brazil's electoral justice body publishes a ruling that disqualifies, suspends, or conditions the candidacy of at least one candidate with alleged organized-crime connections?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that Between October 1 and October 8, 2026, Rio de Janeiro records a flooding event with at least one confirmed fatality attributed to El Niño rainfall, prompting a federal emergency declaration for the city?",
+    "domain": "environment",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.12",
+    "legacy_probability": 0.12
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that Between October 1 and October 8, 2026, the Brazilian government announces a phased online betting restriction with a ninety-day implementation window rather than an immediate outright ban?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.42",
+    "legacy_probability": 0.42
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that Between October 1 and October 8, 2026, Brazil's trade ministry publicly confirms that reciprocal tariff proposals against the United States are being drafted in response to the diesel export restriction?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.28",
+    "legacy_probability": 0.28
+   }
+  ]
+ },
+ "single_forecaster": true
+}

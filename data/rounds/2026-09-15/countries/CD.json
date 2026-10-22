@@ -1,0 +1,363 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "CD",
+ "name": "DR Congo",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T12:20:42+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "According to the text, DR Congo faced four simultaneous crises. An Ebola outbreak had spread to a seventh province, South-Ubangi, in the northwest, raising fears of cross-border transmission to the Central African Republic, Congo-Brazzaville, and Uganda. A school fire in Bukavu, a city described as under rebel M23 influence, killed between 24 and 29 children, turning the tragedy into a political flashpoint. In Kinshasa, opposition and pro-government supporters clashed with police deploying tear gas over President Tshisekedi's push for a constitutional amendment that could enable a third term. In Geneva, DRC and Rwanda held talks over M23's role and eastern security without resolving core disputes. Economically, a new DRC-US task force on critical minerals was being established, with record copper exports, Lobito corridor expansion, and fast-track mining permits as priorities. The overall picture was one of a state juggling epidemic, constitutional legitimacy, eastern rebellion, and an economic push to convert mineral wealth into political stability.",
+  "key_events": [
+   {
+    "event": "Ebola outbreak spreads to South-Ubangi province in the northwest, raising cross-border transmission fears",
+    "date": null,
+    "domain": "health",
+    "importance": 5
+   },
+   {
+    "event": "School fire in rebel-influenced Bukavu kills between 24 and 29 children, triggering political blame between Kinshasa and M23",
+    "date": null,
+    "domain": "society",
+    "importance": 5
+   },
+   {
+    "event": "Opposition and pro-government supporters clash in Kinshasa with police tear gas over Tshisekedi's third-term constitutional push",
+    "date": null,
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "DRC-US critical minerals task force is created with copper, cobalt, and Lobito corridor expansion as priorities",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "DRC and Rwanda hold Geneva talks on M23's role and eastern security without reaching a ceasefire",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   }
+  ],
+  "mood": "escalating",
+  "intensity": 8,
+  "domains_active": [
+   "health",
+   "politics",
+   "security",
+   "economy"
+  ],
+  "emojis": [
+   "🦠",
+   "✊",
+   "⛏️"
+  ],
+  "emoji_reasons": [
+   "Ebola spreading to a seventh province drove the dominant health and public-fear narrative.",
+   "Constitutional protests and tear gas in Kinshasa defined the political landscape of the week.",
+   "The US minerals task force and copper export push served as the economic counterweight to the crises."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text's headline case is straightforward: four crises pile up simultaneously with no single dominant event. Ebola keeps producing new confirmed cases and deaths even as officials claim the worst may be near, and the South-Ubangi spread signals geographic expansion. In Kinshasa, opposition and pro-government crowds clash over Tshisekedi's third-term push, with police tear gas a near-certainty. In Geneva, DRC and Rwanda sit across the table again, exchanging technical consultations without resolving core security disputes. The Bukavu school fire toll settles in the high twenties, triggering a formal inquiry and compensation promises. Meanwhile, the DRC-US minerals task force moves from creation to its first concrete public output: a roadmap or fast-track plan for copper and cobalt exports. The government projects control while using minerals revenue as its stabilization lever, and the week is defined by simultaneous bad-news cycles across health, politics, diplomacy, and economics.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "More confirmed Ebola cases and deaths are reported across existing affected provinces, with the DRC government and the UN issuing contradictory statements about whether the outbreak is peaking.",
+    "probability": 0.88,
+    "domain": "health"
+   },
+   {
+    "id": "N2",
+    "text": "Opposition and pro-government supporters clash in Kinshasa and police deploy tear gas during demonstrations over the constitutional amendment.",
+    "probability": 0.82,
+    "domain": "politics"
+   },
+   {
+    "id": "N3",
+    "text": "DRC and Rwanda conclude a further round of Geneva sessions and announce additional technical consultations without signing a ceasefire agreement.",
+    "probability": 0.78,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N4",
+    "text": "The official death toll for the Bukavu school fire is finalized at 27 or 29, and DRC authorities announce a national commission of inquiry into the tragedy.",
+    "probability": 0.72,
+    "domain": "society"
+   },
+   {
+    "id": "N5",
+    "text": "The DRC-US critical minerals task force publishes its first public roadmap or fast-track implementation plan for copper and cobalt exports.",
+    "probability": 0.45,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "This reading weights the full probability distribution the text provides rather than defaulting to its top-five list. The text explicitly flags lower-probability but high-impact scenarios: a state of emergency declaration in Ebola-affected provinces, a formal referendum date announcement by Tshisekedi, and M23 acting as an administering authority in Bukavu. The crystal reading also adjusts the Kinshasa violence probability upward, since the text rates the risk of opposition and pro-government crowds clashing more violently as medium-to-high likelihood and lists dozens of injuries and arrests as a realistic outcome. The WHO and UN dual statement calling the outbreak peaking while warning it is not under control is treated as near-certain because the text frames it as the expected weekly narrative tension. The minerals announcement is broadened to accept any public step, reflecting the text's own hedge that it may not be a giant signed treaty.",
+  "reasoning": "The naive reading takes the text's high-confidence list at face value and skips its medium and lower-confidence tiers entirely. The crystal reading promotes a lower-confidence scenario: the DRC declaring a state of emergency over Ebola, which the text lists as possible but which the naive forecast omits. It also adjusts the Kinshasa violence probability to 0.35, higher than a strict top-case reading would assign, because the text rates that risk as medium-to-high likelihood and the Tuesday clashes create momentum. Third, it includes the M23-as-administration scenario in Bukavu, which the text mentions as a lower-confidence but politically significant outcome. The crystal summary therefore reflects the text's own stated uncertainty and hedges rather than its single most-likely path, and at least one statement (C1) comes from a minority-probability scenario the naive reading ignores.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The DRC government declares a state of emergency in one or more provinces in direct response to the Ebola spread into South-Ubangi.",
+    "probability": 0.42,
+    "domain": "health"
+   },
+   {
+    "id": "C2",
+    "text": "President Tshisekedi publicly announces a specific calendar date for a constitutional referendum on the third-term amendment.",
+    "probability": 0.38,
+    "domain": "politics"
+   },
+   {
+    "id": "C3",
+    "text": "M23 or Bukavu local authorities issue a formal written compensation and reconstruction plan for families of the school fire victims.",
+    "probability": 0.48,
+    "domain": "society"
+   },
+   {
+    "id": "C4",
+    "text": "The WHO or UN publishes a joint public statement describing the Ebola outbreak as peaking while simultaneously warning that it is not yet under control.",
+    "probability": 0.62,
+    "domain": "health"
+   },
+   {
+    "id": "C5",
+    "text": "A protest in Kinshasa escalates into serious violence, with at least 30 people injured and multiple opposition members arrested by police.",
+    "probability": 0.35,
+    "domain": "security"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Ebola, third-term protests, Bukavu fire, and minerals define DRC week",
+  "emojis": [
+   "🦠",
+   "✊",
+   "⛏️"
+  ],
+  "emoji_reasons": [
+   "The spreading Ebola outbreak was the text's top predicted story for the coming week.",
+   "Kinshasa street politics over Tshisekedi's third term was the second dominant prediction.",
+   "The DRC-US minerals task force announcement was the key economic prediction."
+  ],
+  "tldr": "The text predicted a pile-up week in DRC: Ebola spreading further, Kinshasa protests over a third-term push, the Bukavu school fire becoming a political flashpoint, and a DRC-US minerals announcement. No single dramatic event; four simultaneous bad-news cycles defined the week.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will additional Ebola cases and deaths be reported in the Democratic Republic of Congo during the coming week?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: I expect more confirmed Ebola cases and deaths over the next week, even if some officials start saying the outbreak may be peaking.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q2",
+    "text": "Will opposition and pro-government supporters clash in street protests over the constitutional amendment in Kinshasa?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The biggest risk is that opposition and pro-government crowds clash more violently. That could turn a political dispute into a street crisis. I would rate that as medium-to-high likelihood in the next week, especially if the government trie",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q3",
+    "text": "Will the DRC and Rwanda reach a final peace agreement during their Geneva talks in the coming week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: I would not expect a major peace deal in one week. These talks involve deep disputes over security guarantees, M23's role, territorial control, borders, sovereignty, and regional influence.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q4",
+    "text": "Will the death toll from the Bukavu school fire be officially revised or finalized with calls for an inquiry and compensation?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Bukavu school fire death toll is revised or finalized, with calls for inquiry and compensation.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will the DRC-US minerals task force issue a public announcement, implementation plan, or roadmap for critical minerals exports?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: DRC-US minerals task force produces some public announcement, meeting summary, or implementation step.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q6",
+    "text": "Will neighboring countries such as Uganda, Rwanda, the Central African Republic, or Congo-Brazzaville announce or tighten border controls in response to the Ebola outbreak?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More discussion of border controls involving Uganda, Rwanda, CAR, or Congo-Brazzaville.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q7",
+    "text": "Will the DRC constitutional amendment allowing a third presidential term be fully passed by parliament within the coming week?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: I do not think the constitution will be fully changed next week, but I would expect the government to push the process forward visibly.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q8",
+    "text": "Will M23 or rebel-aligned authorities in Bukavu announce compensation or reconstruction plans in response to the deadly school fire?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: M23 or local rebel-aligned authorities trying to show they can govern by announcing compensation, reconstruction, security measures, or an inquiry.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The DRC government declares a state of emergency in one or more provinces in direct response to the Ebola spread into South-Ubangi?",
+    "domain": "health",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.42",
+    "legacy_probability": 0.42
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that President Tshisekedi publicly announces a specific calendar date for a constitutional referendum on the third-term amendment?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.38",
+    "legacy_probability": 0.38
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that M23 or Bukavu local authorities issue a formal written compensation and reconstruction plan for families of the school fire victims?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.48",
+    "legacy_probability": 0.48
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The WHO or UN publishes a joint public statement describing the Ebola outbreak as peaking while simultaneously warning that it is not yet under control?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.62",
+    "legacy_probability": 0.62
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that A protest in Kinshasa escalates into serious violence, with at least 30 people injured and multiple opposition members arrested by police?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   }
+  ]
+ },
+ "single_forecaster": true
+}

@@ -15,7 +15,7 @@ from pipeline.run_round import llm_call, legacy_text_for
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--round", required=True, help="legacy round, e.g. 2026-10-01 or 2026-10-14")
+    ap.add_argument("--round", required=True, help="legacy round, e.g. 2026-09-15 or 2026-10-02")
     ap.add_argument("--only")
     ap.add_argument("--mock-llm", action="store_true")
     args = ap.parse_args()
@@ -63,7 +63,7 @@ def main():
         f["crystal_forecast"]["answers"] = [dict(a) for a in answers]
         f["single_forecaster"], f["schema_version"] = True, 2
         f["status"]["questions"] = "done"
-        f["wind"] = None if args.round != "2026-10-14" else f.get("wind")  # wind of 10-14 is re-judged separately
+        f["wind"] = None if args.round != "2026-10-02" else f.get("wind")  # wind of 10-14 is re-judged separately
         f["generated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
         save_json(path, f)
         done += 1

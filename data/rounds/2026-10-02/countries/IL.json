@@ -1,0 +1,512 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "IL",
+ "name": "Israel",
+ "model": "huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-19T15:31:40+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "done",
+  "wind": "done",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "Israel faced a compound security crisis in early October 2026. The FlyDubai cockpit attack, in which a copilot reportedly attempted to crash a commercial aircraft, sent shockwaves through the country weeks before the October 27 election. Simultaneously, leaked intelligence revealed that Egypt had warned Prime Minister Netanyahu of the October 7 threat, reopening the most painful question of the war. Netanyahu made a secret visit to Abu Dhabi, where he shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed, deepening Israel-UAE coordination. In the West Bank, settlers conducted marches and attacks on villages during the Sukkot holiday, blocking roads and seizing water sources while the military struggled to maintain order. Gaza's war entered its third year with a death toll exceeding 74,000, and strikes persisted without a ceasefire. Europe intensified diplomatic pressure: the Netherlands revoked Israeli diplomatic status over settlement sanctions, and the UN expanded its list of settlement-linked companies. The ZIM-Hapag-Lloyd shipping deal was halted over Saudi and Qatari financial stakes. A Supreme Court indication forced the withdrawal of Sami Abu Shehadeh, a candidate of an Arab party. Trump threatened Iran with very hard strikes if linked to the cockpit incident, but the Omani nationality of the copilot complicated that narrative.",
+  "key_events": [
+   {
+    "event": "FlyDubai cockpit attack in which a copilot attempted to crash a commercial aircraft, triggering national security debate and political exploitation",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Leaked intelligence revealed Egypt had warned Netanyahu of the October 7 threat, reopening the central security question of the war",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "Netanyahu made a secret visit to Abu Dhabi and shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Settler marches and village attacks in the West Bank during Sukkot produced clashes and blocked roads",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Netherlands revoked Israeli diplomatic status over settlement sanctions and the UN expanded its settlement-linked companies list",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   }
+  ],
+  "mood": "escalating",
+  "intensity": 8,
+  "domains_active": [
+   "politics",
+   "security",
+   "diplomacy"
+  ],
+  "emojis": [
+   "✈️",
+   "⚔️",
+   "🗳️"
+  ],
+  "emoji_reasons": [
+   "The FlyDubai cockpit attack is the single most consequential event driving the entire security and political narrative.",
+   "Israel's war in Gaza and the broader regional security environment define the existential framing of the election.",
+   "The October 27 election is the organizing political event around which all security and diplomatic developments are being weaponized."
+  ]
+ },
+ "velocity": {
+  "summary": "Between the two reports, Israel's situation intensified modestly but the agenda shifted in meaningful ways. The FlyDubai cockpit attack is the most dramatic new development, injecting a domestic security crisis into an already volatile pre-election period and giving Trump a fresh lever against Iran. The 'who warned Netanyahu before October 7' question escalated from a UAE leak to an Egypt revelation, making it even more politically explosive ahead of the October 27 vote. European diplomatic pressure grew from sanctions to the Netherlands revoking Israeli diplomatic status and the UN expanding its settlement-linked companies list. The US-brokered Gaza ceasefire has simply disappeared, replaced by ongoing strikes in the war's third year with a toll over 74,000. West Bank settler violence during Sukkot became a visible flashpoint. Faded or absent are the Houthi-Mokha seizure, the Naza documentary dispute, the Lebanon negotiations in Rome, and the Jordan water-lapse issue. Overall the pace is moderate acceleration with genuinely new events rather than a complete overhaul of the agenda.",
+  "direction": "escalating",
+  "speed": 6,
+  "intensity_change": 1,
+  "rising": [
+   "European diplomatic pressure on settlements",
+   "Domestic political crisis over the pre-October-7 warning",
+   "West Bank settler violence and clashes"
+  ],
+  "fading": [
+   "Houthi maritime and Mokha port threat",
+   "Naza documentary cultural dispute",
+   "Israel-Lebanon negotiations and UNIFIL friction"
+  ],
+  "new": [
+   "FlyDubai cockpit attack and national security debate",
+   "Netanyahu secret Abu Dhabi intelligence-sharing visit",
+   "Gaza ceasefire collapse and third-year death toll",
+   "ZIM-Hapag-Lloyd shipping deal halted over Gulf stakes"
+  ]
+ },
+ "wind": {
+  "previous_round": "2026-09-15",
+  "elapsed_days": 17,
+  "questions": [
+   {
+    "id": "Q1",
+    "text": "Will Israel issue formal diplomatic protests and countermeasures against the United Kingdom over settlement sanctions?",
+    "domain": "diplomacy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "UNCLEAR",
+    "evidence": "The UK pledged a tougher stance and the Netherlands revoked diplomatic status, but no headline specifically reports Israel issuing formal protests or countermeasures directed at the UK over settlement sanctions.",
+    "relevant_headlines": [
+     "The Netherlands revoked or had revoked Israeli diplomats' status over settlement sanctions",
+     "The UK pledged a tougher stance",
+     "Netherlands revoked Israeli diplomatic status over settlement sanctions and the UN expanded its settlement-linked companies list"
+    ],
+    "legacy_probability": 0.875
+   },
+   {
+    "id": "Q2",
+    "text": "Will Israeli airstrikes on Hamas targets in Gaza continue?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "YES",
+    "evidence": "The situation report explicitly states strikes persisted without a ceasefire, and the forecast confirms continued Israeli strikes in Gaza as the expected and likely outcome.",
+    "relevant_headlines": [
+     "Gaza's war entered its third year with a death toll exceeding 74,000, and strikes persisted without a ceasefire",
+     "More Israeli strikes in Gaza, especially around areas Israel says Hamas or other groups operate from",
+     "A full ceasefire next week is possible but not the most likely outcome. More likely: continued strikes, partial humanitarian talks"
+    ],
+    "legacy_probability": 0.825
+   },
+   {
+    "id": "Q3",
+    "text": "Will Israeli airstrikes continue in southern Lebanon?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "UNCLEAR",
+    "evidence": "No headline in the evidence specifically mentions Israeli airstrikes in southern Lebanon, so the event is neither confirmed nor clearly denied; it is plausible that strikes continued without generating a separate headline in this collection.",
+    "relevant_headlines": [
+     "Israel is going to be caught between two security shocks and an election: the FlyDubai cockpit attack and the Oct. 7 warning leaks",
+     "Gaza and the West Bank will keep producing friction, Europe will get more irritated, the Gulf states will stay cautious"
+    ],
+    "legacy_probability": 0.775
+   },
+   {
+    "id": "Q4",
+    "text": "Will the UAE warning report intensify Israel's pre-election political fight?",
+    "domain": "politics",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "UNCLEAR",
+    "evidence": "The UAE visit and the political fight around Oct 7 leaks and the cockpit attack are clearly in the headlines, but no headline specifically identifies a 'UAE warning report' as the catalyst intensifying the pre-election fight, making the causal link uncertain.",
+    "relevant_headlines": [
+     "Netanyahu made a secret visit to Abu Dhabi and shared new intelligence on Iran's nuclear program with Sheikh Mohammed bin Zayed",
+     "Leaked intelligence revealed Egypt had warned Netanyahu of the October 7 threat, reopening the central security question of the war",
+     "The FlyDubai cockpit attack, in which a copilot reportedly attempted to crash a commercial aircraft, sent shockwaves through the country weeks before the October 27 election"
+    ],
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q5",
+    "text": "Will Israeli ministers publicly attack the Naza documentary filmmakers?",
+    "domain": "society",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "UNCLEAR",
+    "evidence": "No headline in the evidence mentions the Naza documentary or Israeli ministers attacking its filmmakers, so the event is neither confirmed nor definitively ruled out; a public verbal spat is plausible without always generating a top headline.",
+    "relevant_headlines": [
+     "Netanyahu will run a 'protector of Israel' campaign",
+     "The opposition will attack him on: Oct. 7 warnings, the cost of the war, settlement expansion"
+    ],
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q6",
+    "text": "Will a direct missile or drone exchange between Israel and Iran occur?",
+    "domain": "security",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "A direct missile or drone exchange between Israel and Iran would be a major, headline-generating event, yet no headline reports it occurring; the evidence shows threats and back-channel talks but no actual exchange.",
+    "relevant_headlines": [
+     "Trump threatened Iran with very hard strikes if linked to the cockpit incident, but the Omani nationality of the copilot complicated that narrative",
+     "US-Iran back-channel talks may continue through mediators",
+     "I would not bet heavily on... A formal war with Iran unless the cockpit attack is clearly linked to Iran or a major new strike happens"
+    ],
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q7",
+    "text": "Will a hostage deal breakthrough be announced in Gaza?",
+    "domain": "diplomacy",
+    "naive": "NO",
+    "crystal": "NO",
+    "outcome": "NO",
+    "evidence": "A hostage deal breakthrough would be a major news event certain to appear in a weekly headline collection, yet no headline reports one; the evidence instead points to continued strikes and no ceasefire.",
+    "relevant_headlines": [
+     "A full ceasefire next week is possible but not the most likely outcome. More likely: continued strikes, partial humanitarian talks, and public fighting over who is responsible for the lack of a deal",
+     "I would not bet heavily on... A full Gaza ceasefire being signed next week",
+     "Gaza's war entered its third year with a death toll exceeding 74,000, and strikes persisted without a ceasefire"
+    ],
+    "legacy_probability": 0.2
+   },
+   {
+    "id": "Q8",
+    "text": "Will a Houthi attack near Saudi Arabia or a major Red Sea shipping incident occur?",
+    "domain": "economy",
+    "naive": "YES",
+    "crystal": "YES",
+    "outcome": "NO",
+    "evidence": "A Houthi attack near Saudi Arabia or a major Red Sea shipping incident would be a prominent security headline, but no such event appears in the evidence; the only shipping-related item is a business deal being halted over ownership stakes.",
+    "relevant_headlines": [
+     "The ZIM/Hapag-Lloyd shipping deal was halted over Saudi and Qatari financial stakes",
+     "Tourism and aviation will feel the FlyDubai incident, especially if more airlines suspend or reduce Israel flights"
+    ],
+    "legacy_probability": 0.4
+   }
+  ],
+  "resolved": 4,
+  "unclear": 4,
+  "single_forecaster": true,
+  "correct": 2,
+  "winner": "single",
+  "systematic_error": "The forecaster defaults aggressively to YES, predicting that specific dramatic events will materialize: formal diplomatic countermeasures against the UK, sustained Lebanon strikes, a UAE report triggering political infighting, ministerial attacks on documentary filmmakers, a direct Israel-Iran missile exchange, and a Houthi or Red Sea incident. This reveals a consistent escalation bias: the forecaster treats a tense pre-election backdrop as sufficient cause for a new flashpoint rather than the more probable continuation of existing friction. They confuse 'the topic is active in the news' with 'a new specific event will fire,' over-weighting the emotional and political energy of the week as a predictor of discrete dramatic occurrences. Only Q2 and Q7, where the status quo or absence was clearly supported by the evidence, were handled correctly.",
+  "correction_hint": "For Israel next week, treat the absence of a specific headline as meaningful evidence of non-occurrence for discrete events (missile exchanges, hostage deals, Houthi strikes, named-documentary spats), and reserve YES for events explicitly described as having happened rather than merely expected or plausible. When the evidence shows tension, threats, and ongoing friction without a new triggering incident, prefer NO or UNCLEAR over YES for specific one-off events."
+ },
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The naive reading takes the text's top predictions at face value as a single deterministic sequence. Netanyahu references the Oct. 7 warning leaks in a major campaign event or Knesset address, framing them as proof of institutional learning and strengthened readiness. Israel's aviation authority announces new cockpit access rules including biometric pilot verification at Ben Gurion. At least one settler march in the northern West Bank produces a reported clash with Palestinian residents. Israeli airstrikes in Gaza yield an updated casualty figure from the Health Ministry without a ceasefire announcement. Smotrich announces a fuel price subsidy to calm his economic base before the vote. The text's highest-confidence predictions—the anniversary politics, cockpit security response, and Netanyahu's protector campaign—all land simultaneously, creating a week defined by a single security narrative and election combat. The far-right pushes West Bank gestures, Europe applies diplomatic pressure, and the Gulf stays useful but cautious. No surprise breaks the pattern; the week is a pressure cooker of fear, polling, and campaign advertising.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Netanyahu references the Oct. 7 warning leaks in a major campaign speech or Knesset address during the week, framing them as proof of institutional learning.",
+    "probability": 0.85,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "Israel's aviation authority announces new cockpit access rules including biometric pilot verification at Ben Gurion airport.",
+    "probability": 0.9,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "At least one settler march in the northern West Bank produces a reported physical clash with Palestinian residents.",
+    "probability": 0.8,
+    "domain": "society"
+   },
+   {
+    "id": "N4",
+    "text": "The Israeli military conducts airstrikes in Gaza and the Health Ministry publishes an updated cumulative casualty figure without a ceasefire announcement.",
+    "probability": 0.75,
+    "domain": "security"
+   },
+   {
+    "id": "N5",
+    "text": "Smotrich announces a fuel price subsidy or extends an existing subsidy package in an election-economy move.",
+    "probability": 0.45,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.5."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading weighs the full scenario distribution the text outlines rather than its top case alone. The cockpit investigation points toward personal or medical rather than terrorist motives, triggering opposition attacks on Netanyahu for overstating the threat—a branch the text explicitly lists as the alternative. Israeli security services announce a counterterrorism operation, representing the text's acknowledged but uncertain threat level. The Netherlands or another EU capital announces a specific settlement-related diplomatic sanction, extending the friction the text rates medium-high. A Supreme Court ruling affects the eligibility of an Arab party candidate or list ahead of the October 27 vote, which the text flags as a messy but real wildcard. The text's own caveats—the Omani copilot making Iran-escalation awkward, the possibility of a personal-motive resolution, and the explicit statement that a terror attack is possible but not guaranteed—lower confidence in a single dominant security narrative and raise the probability of a contested, multi-threaded week where the cockpit story's resolution shape and court rulings carry as much weight as the headline events themselves.",
+  "reasoning": "The naive reading treats the text's very-high and high predictions as one deterministic sequence: campaign speech, cockpit rules, settler clash, Gaza strike, fuel subsidy. The crystal reading incorporates the text's explicit alternative branch—where the cockpit investigation reveals personal or medical motives, causing opposition to attack Netanyahu for exaggeration—and its stated uncertainty on terror operations and court rulings. The text says a new major terror attack is possible but not guaranteed and that a full ceasefire is possible but not the most likely outcome, acknowledging real minority probability. It also notes the Omani copilot connection makes Trump's Iran-escalation path awkward, meaning the security-unity narrative is less clean than the naive case assumes. The crystal reading therefore lowers confidence on a single narrative dominating the week and raises confidence on a contested, multi-threaded week where resolution shape and court rulings carry as much weight as the headline events themselves.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The cockpit investigation points toward personal or medical motives, and at least one opposition leader publicly accuses Netanyahu of overstating the threat level.",
+    "probability": 0.35,
+    "domain": "politics"
+   },
+   {
+    "id": "C2",
+    "text": "Israel and the UAE issue a joint statement on the FlyDubai probe while Saudi Arabia declines to comment publicly on the investigation.",
+    "probability": 0.55,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C3",
+    "text": "Israeli security services announce a new counterterrorism arrest or operation in the country.",
+    "probability": 0.4,
+    "domain": "security"
+   },
+   {
+    "id": "C4",
+    "text": "The Netherlands or another EU state announces a specific settlement-related diplomatic sanction or visa restriction targeting Israel.",
+    "probability": 0.6,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C5",
+    "text": "A Supreme Court ruling affects the candidacy or list eligibility of an Arab party ahead of the October 27 election.",
+    "probability": 0.35,
+    "domain": "politics"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.5."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Israel navigates cockpit crisis and election before October 27",
+  "emojis": [
+   "✈️",
+   "⚔️",
+   "🗳️"
+  ],
+  "emoji_reasons": [
+   "The cockpit attack and its security aftermath are the dominant story of the forecast.",
+   "The Gaza war and regional security tensions provide the existential backdrop.",
+   "The October 27 election is the political deadline shaping every move."
+  ],
+  "tldr": "The text predicted Israel would spend the week managing the FlyDubai cockpit aftermath and Oct. 7 anniversary politics while Netanyahu converts security fear into campaign advantage. No full ceasefire, no government collapse, but escalating West Bank friction, European diplomatic pressure, and a cockpit-security debate would dominate headlines through the election.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will opposition leaders publicly attack Netanyahu over leaked reports that Egypt warned Israel before the October 7 attacks?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Opposition leaders, especially Gadi Eisenkot and others, will hammer the leak that Egypt warned Netanyahu before Oct. 7.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q2",
+    "text": "Will Israel announce tightened security checks for pilots and cockpit access at its airports in response to the FlyDubai cockpit attack?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Israel will announce tightened security checks on pilots flying into Ben Gurion and other airports.",
+    "legacy_probability": 0.9
+   },
+   {
+    "id": "Q3",
+    "text": "Will Israel carry out additional military strikes in Gaza during the week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More Israeli strikes in Gaza, especially around areas Israel says Hamas or other groups operate from.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q4",
+    "text": "Will there be additional settler marches and clashes with Palestinians in the West Bank during the week?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More settler marches in the northern West Bank, around Jerusalem, Hebron, Nablus, Tulkarm, or other sensitive areas.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q5",
+    "text": "Will a full ceasefire agreement in Gaza be signed during the week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A full ceasefire next week is possible but not the most likely outcome.",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q6",
+    "text": "Will European governments issue new diplomatic criticism or measures related to Israeli settlement expansion?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More diplomatic sniping between Israel and European capitals.",
+    "legacy_probability": 0.65
+   },
+   {
+    "id": "Q7",
+    "text": "Will official normalization of diplomatic relations between Israel and Saudi Arabia be announced?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Full normalization with Saudi Arabia is not likely next week.",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q8",
+    "text": "Will the shekel or Israeli stock markets experience a noticeable wobble in response to security news during the week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The shekel and market may wobble around security news, but probably not crash unless there is a major regional escalation.",
+    "legacy_probability": 0.5
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The cockpit investigation points toward personal or medical motives, and at least one opposition leader publicly accuses Netanyahu of overstating the threat level?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Israel and the UAE issue a joint statement on the FlyDubai probe while Saudi Arabia declines to comment publicly on the investigation?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that Israeli security services announce a new counterterrorism arrest or operation in the country?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.4",
+    "legacy_probability": 0.4
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The Netherlands or another EU state announces a specific settlement-related diplomatic sanction or visa restriction targeting Israel?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.6",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that A Supreme Court ruling affects the candidacy or list eligibility of an Arab party ahead of the October 27 election?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   }
+  ]
+ },
+ "single_forecaster": true
+}

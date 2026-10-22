@@ -15,8 +15,8 @@ from pipeline.run_round import judge_questions, legacy_text_for
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--round", required=True, help="the round whose forecasts are judged, e.g. 2026-10-01")
-    ap.add_argument("--evidence-round", required=True, help="the later round, e.g. 2026-10-14")
+    ap.add_argument("--round", required=True, help="the round whose forecasts are judged, e.g. 2026-09-15")
+    ap.add_argument("--evidence-round", required=True, help="the later round, e.g. 2026-10-02")
     ap.add_argument("--only")
     ap.add_argument("--mock-llm", action="store_true")
     args = ap.parse_args()

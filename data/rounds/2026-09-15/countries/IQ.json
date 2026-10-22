@@ -1,0 +1,363 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "IQ",
+ "name": "Iraq",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T12:54:16+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text describes Iraq navigating three overlapping pressures simultaneously in late September 2026. A drone attack on Saudi Arabia's East-West pipeline, launched from Iraqi territory on September 11, gave Riyadh a strong argument that Baghdad did not fully control its armed factions. The U.S. military withdrawal from Iraq entered its final visible phase, with end-of-September deadlines approaching for the last troops in northern Kurdish areas. Iraq's Prime Minister Zaidi prepared to visit the United States, attend UN General Assembly events, and meet President Trump. Baghdad formally requested a six million barrel-per-day OPEC quota amid Hormuz disruption and elevated global oil prices. A pilot road-transport operation was moving southern crude to Kirkuk for export via Turkey. ADNOC had purchased discounted Iraqi crude and talks with TotalEnergies had opened. Iraq had lifted decade-old restrictions on western civilian airspace and set a phased reopening schedule for Iran border crossings. The KRG and Baghdad were coordinating on northern export logistics as U.S. bases emptied.",
+  "key_events": [
+   {
+    "event": "A drone attack on Saudi Arabia's East-West pipeline originated from Iraqi territory on September 11.",
+    "date": "2026-09-11",
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "U.S. military withdrawal from Iraq entered its final phase with end-of-September deadlines.",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Iraqi PM Zaidi prepared to visit the U.S., attend UN General Assembly events, and meet President Trump.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Iraq formally requested a six million barrel-per-day OPEC production quota.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "A pilot road-transport operation moved southern crude to Kirkuk for export via Turkey.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 6,
+  "domains_active": [
+   "security",
+   "diplomacy",
+   "economy",
+   "politics"
+  ],
+  "emojis": [
+   "🛢️",
+   "🛂",
+   "🎭"
+  ],
+  "emoji_reasons": [
+   "Oil exports, OPEC quotas, and pipeline disruptions dominate the economic and diplomatic narrative.",
+   "Border crossings with Iran are set to reopen in phases, a key sovereignty and trade signal for Baghdad.",
+   "Baghdad's balancing act of blaming militias while keeping them close drives much of the week's political drama."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The naive reading takes Scenario A at face value, treating the 55-to-60 percent base case as the week's script. Baghdad publicly blames a named militia splinter for the Saudi pipeline attack, completing its domestic narrative of controlled discipline. The Iraqi PM meets Trump at the UN, signaling stability and asking for post-exit security reassurance. U.S. forces finish their northern withdrawal with a coordinated KRG handover statement. Iraq expands its road-transport of southern crude to Kirkuk for Turkey-bound exports. OPEC+ formally approves Iraq's six million barrel-per-day quota request. The week plays out as a sequence of visible, checkable wins: the exit completes, the blame lands on a named group, the oil flows north, and Europe signs on. Each problem gets a clean resolution that lets Baghdad claim sovereign competence over the entire period.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Baghdad publicly blames a specific named militia faction for the September 11 drone strike on Saudi Arabia's East-West pipeline.",
+    "probability": 0.75,
+    "domain": "security"
+   },
+   {
+    "id": "N2",
+    "text": "Iraqi Prime Minister Zaidi meets President Trump during the UN General Assembly week in New York.",
+    "probability": 0.85,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N3",
+    "text": "U.S. military announces completion of its drawdown from northern Iraq in a joint handover statement with KRG officials.",
+    "probability": 0.7,
+    "domain": "security"
+   },
+   {
+    "id": "N4",
+    "text": "Iraq announces an expanded road-transport operation moving southern crude to Kirkuk for export through Turkey.",
+    "probability": 0.65,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "OPEC+ issues a formal decision granting Iraq its requested six million barrel-per-day production quota.",
+    "probability": 0.35,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading prices the full 55-to-60 percent base case against the 20-to-25 percent diplomatic de-escalation scenario and the 15-to-20 percent militia escalation tail risk. The PM's Trump meeting and the phased Iran border reopening still anchor the week, but the crystal forecast explicitly assigns real probability to a PMF faction striking a Saudi or Gulf energy target before October 8, forcing Baghdad into a public-discipline-versus-private-tolerance squeeze. It also acknowledges that a regional Hormuz or pipeline arrangement from Oman, Riyadh, or Tehran would shift Iraq's OPEC leverage and European energy negotiations in Baghdad's favor. The text's own hedges, that formal OPEC approval in seven days is unlikely, that the PMF weapons-stay statement is ritual, and that the militia-blame narrative stops short of naming top leaders, pull probabilities down on the cleanest outcomes and up on the partial, messier ones.",
+  "reasoning": "The naive reading treats the 55-to-60 percent Scenario A as the script and ignores the text's explicit allocation of 20-to-25 percent to diplomatic de-escalation and 15-to-20 percent to militia escalation. The crystal reading substitutes the OPEC formal-quota event with a Scenario-B regional Hormuz arrangement, because the text says a full OPEC+ decision in seven days is unlikely. It raises the militia-attack probability to 0.18, drawing on the text's description of the PMF weapons-stay statement as almost a ritual and its labeling of Scenario C as the dangerous one. It keeps the border reopening and PM-visit events near their text-stated confidence because the text hedges them less. The core difference: the crystal reading treats the combined 40 percent non-base-case probability as a set of real, checkable outcomes rather than background noise.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "A PMF faction launches a drone or missile attack on a Saudi or Gulf energy target from Iraqi territory.",
+    "probability": 0.18,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "Iraqi Prime Minister Zaidi meets President Trump during the UN General Assembly week in New York.",
+    "probability": 0.85,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C3",
+    "text": "Iraq announces the phased reopening of at least one border crossing with Iran with new security protocols.",
+    "probability": 0.6,
+    "domain": "politics"
+   },
+   {
+    "id": "C4",
+    "text": "Baghdad names a militia splinter group as responsible for the Saudi pipeline attack while detaining only lower-level fighters in Anbar or Basra.",
+    "probability": 0.7,
+    "domain": "politics"
+   },
+   {
+    "id": "C5",
+    "text": "Oman, Saudi Arabia, and Iran announce a temporary arrangement for Hormuz transit or pipeline repairs.",
+    "probability": 0.22,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Iraq blends U.S. exit, oil diplomacy, and militia blame",
+  "emojis": [
+   "🛢️",
+   "🛡️",
+   "🎭"
+  ],
+  "emoji_reasons": [
+   "Oil and energy exports are Iraq's central economic lever during the week.",
+   "The U.S. military withdrawal and militia posturing frame the security environment.",
+   "Baghdad's need to look sovereign while managing armed factions drives the political narrative."
+  ],
+  "tldr": "The text predicted Iraq would manage its U.S. military exit, blame a militia splinter for the Saudi pipeline strike, and use its PM's UN trip to lock in European energy deals and expand northern oil exports through Turkey.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will the Iraqi government publicly blame an armed militia splinter group for the drone attack on Saudi Arabia's East-West pipeline?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: It will almost certainly blame a \"resistance splinter,\" a PMF faction, or an armed group operating outside the official chain of command.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q2",
+    "text": "Will the United States begin its final military withdrawal from northern Iraq?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Final drawdown activity in northern Iraq, especially around Kurdish areas where U.S. forces have been concentrated.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q3",
+    "text": "Will the Iraqi prime minister meet U.S. President Trump during a visit to the United States or the UN General Assembly?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The headline that the Iraqi prime minister will visit the United States next week, attend UN General Assembly events, and meet President Trump is very important.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q4",
+    "text": "Will France and Iraq announce a new energy or security cooperation framework?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: I would expect some kind of French-Iraqi or German-Iraqi energy/security statement to come out during or immediately after the trip.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will Iraq expand the road transport of southern crude oil to Kirkuk for export through Turkey?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: expansion of the trucking pilot, new logistics announcements with Turkish or regional operators, more focus on TCPL/Kirkuk-Turkey flows",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q6",
+    "text": "Will one or more Iraqi-Iranian border crossings reopen in a phased or limited manner?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: one or more crossings to reopen in a limited or phased way, new security protocols announced",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q7",
+    "text": "Will Iraq formally lobby OPEC+ for a higher oil production quota amid regional disruption?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Iraqi government presses OPEC+ for higher production quota amid Hormuz disruption",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q8",
+    "text": "Will the Iraqi government experience a full collapse or the prime minister face a resignation crisis?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: I would be surprised if we saw: a full Iraqi government collapse, a PM resignation crisis",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that A PMF faction launches a drone or missile attack on a Saudi or Gulf energy target from Iraqi territory?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.18",
+    "legacy_probability": 0.18
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Iraqi Prime Minister Zaidi meets President Trump during the UN General Assembly week in New York?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.85",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that Iraq announces the phased reopening of at least one border crossing with Iran with new security protocols?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.6",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that Baghdad names a militia splinter group as responsible for the Saudi pipeline attack while detaining only lower-level fighters in Anbar or Basra?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.7",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that Oman, Saudi Arabia, and Iran announce a temporary arrangement for Hormuz transit or pipeline repairs?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.22",
+    "legacy_probability": 0.22
+   }
+  ]
+ },
+ "single_forecaster": true
+}

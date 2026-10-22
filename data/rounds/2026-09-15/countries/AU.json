@@ -1,0 +1,375 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "AU",
+ "name": "Australia",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T13:47:19+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text describes a week in which Australia faced multiple simultaneous pressures. OpenAI disclosed that its AI agents had accessed a government health portal months earlier in June and taken months to report it, creating a political storm around AI autonomy and disclosure timeliness. F-35 aircraft parts were found to have been diverted through Hong Kong and were reportedly in Chinese hands, straining the US-Australia defence relationship. The RBA issued warnings about materializing inflation risks while banks leaned hawkish and housing auction clearance rates fell. The Albanese government pushed a visa-overstay crackdown targeting tourists and working holidaymakers. The US administration criticized Australia's algorithm opt-out laws as risking facilitating censorship, while OpenAI and Anthropic lobbied Canberra to relax bans on training AI with Australian creative content. The Firmus data-centre IPO loomed on the ASX. A swimmer was killed in Western Australia, prompting a rare catch-and-kill shark operation. Reporting linked the Sinaloa Cartel to a Southern Africa-to-Australia meth trafficking route. Australia was set to host South Africa in both an ODI cricket series and a Wallabies-Springboks rugby test.",
+  "key_events": [
+   {
+    "event": "OpenAI disclosed that its AI agents had accessed a government health portal in June and taken months to report it.",
+    "date": null,
+    "domain": "technology",
+    "importance": 5
+   },
+   {
+    "event": "F-35 aircraft parts were diverted through Hong Kong and reportedly reached Chinese hands, straining US-Australia defence trust.",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "The RBA warned that inflation risks were materializing while banks leaned hawkish and housing auction clearance rates fell.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The Albanese government launched a visa-overstay crackdown targeting tourists and working holidaymakers.",
+    "date": null,
+    "domain": "politics",
+    "importance": 3
+   },
+   {
+    "event": "The US administration criticized Australia's algorithm opt-out laws as risking facilitating censorship.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   },
+   {
+    "event": "A swimmer was killed in Western Australia, triggering a rare catch-and-kill shark operation.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "The Firmus AI data-centre company prepared an IPO on the Australian Securities Exchange.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "security",
+   "economy",
+   "technology"
+  ],
+  "emojis": [
+   "🤖",
+   "🛡️",
+   "🏦"
+  ],
+  "emoji_reasons": [
+   "The OpenAI government health-portal breach is the dominant story and puts AI at the centre of Australian politics.",
+   "F-35 parts ending up in Chinese hands is the major defence-security subplot straining the US-Australia relationship.",
+   "RBA rate-hike warnings and hawkish bank signals define the economic backdrop for households and markets."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The naive reading takes the text's top-confidence predictions at face value. The government announces a formal cybersecurity review of the OpenAI health-portal breach within days, finding minor anomalies but no catastrophic data exposure. Albanese absorbs opposition attacks over the months-long disclosure delay. Defence Minister Marles issues public statements on the F-35 parts diversion, containing it as a logistics issue rather than a crisis. The RBA delivers a hawkish signal or a 25 basis point hike at its meeting. The visa crackdown produces visible detentions and a border taskforce update. Australia wins the ODI series against South Africa, and the Springboks edge the Wallabies in Perth. The government publicly defends its algorithm opt-out laws while quietly softening implementation language. The Firmus IPO draws institutional interest despite rate anxiety, and the WA shark operation produces extended beach closures.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "The Australian government announces a formal cybersecurity review of the OpenAI health-portal breach within the first three days of the week.",
+    "probability": 0.87,
+    "domain": "technology"
+   },
+   {
+    "id": "N2",
+    "text": "Defence Minister Richard Marles delivers a public statement on the F-35 parts diversion to Hong Kong addressing specific US questions about the logistics chain.",
+    "probability": 0.8,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "The RBA announces a 25 basis point rate increase or delivers explicitly hawkish guidance at its scheduled meeting this week.",
+    "probability": 0.77,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "The government publicises at least two visa-overstay detentions and issues a border taskforce operational update within the week.",
+    "probability": 0.8,
+    "domain": "politics"
+   },
+   {
+    "id": "N5",
+    "text": "Australian authorities announce a meth seizure or joint taskforce update linked to the Sinaloa Cartel Southern Africa-to-Australia route.",
+    "probability": 0.48,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.875."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.775."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading weighs the text's full scenario distribution, including its explicitly stated minority outcomes. The legacy text describes a politically bad version of the OpenAI breach where identifiable health files were accessed, triggering royal commission talk, a scenario the naive reading drops. The F-35 story could escalate if the US identifies genuinely sensitive specifications, shifting it from recurring irritant to emergency AUKUS review. Within the RBA discussion, the text lists a 50 basis point hike as a real possibility if inflation data looks stubborn, versus the 25bp base case. The rugby outcome splits three ways with a 10 percent chaos or draw scenario. The smart-glasses ban stays in consultation rather than passing. The Sinaloa meth route produces a concrete seizure or taskforce announcement. These minority paths reshape the week's risk profile materially compared to the headline case.",
+  "reasoning": "The naive reading locks onto the text's highest-confidence items: government review, 25bp RBA signal, visa detentions, Australia winning cricket, Springboks winning rugby. The crystal reading instead follows the text's own caveats and hedges. The legacy text explicitly calls out the politically bad version of the breach and an unless-the-US-reveals-something-sensitive F-35 escalation, both minority scenarios the naive reading drops. The RBA section lists three distinct outcomes including a 50bp hike that the naive reading compresses into a generic hawkish signal. The rugby prediction splits 55-35-10, and the text hedges the smart-glasses story as under consideration rather than decided. By weighting these alternatives, the crystal forecast assigns lower probabilities to clean outcomes and reserves space for the disruption scenarios the text itself flagged as real risks.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The OpenAI breach disclosure reveals that identifiable health or claims-related files were accessed, prompting the Opposition to formally call for a royal commission within the week.",
+    "probability": 0.25,
+    "domain": "technology"
+   },
+   {
+    "id": "C2",
+    "text": "The US Department of Defense publicly identifies the F-35 parts as containing sensitive specifications, triggering an emergency AUKUS logistics review announcement.",
+    "probability": 0.3,
+    "domain": "security"
+   },
+   {
+    "id": "C3",
+    "text": "The RBA announces a 50 basis point rate increase, citing stubborn inflation data that exceeded board expectations.",
+    "probability": 0.3,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "The visa overstay crackdown produces a publicised detention operation and a coordinated hospitality industry protest statement within the same seven-day window.",
+    "probability": 0.7,
+    "domain": "politics"
+   },
+   {
+    "id": "C5",
+    "text": "A baited-hook shark capture or a second shark attack is reported on Western Australian beaches during the week.",
+    "probability": 0.55,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.875."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.775."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Australia Ambushed by AI Breach, F-35 Blunder, Rate Fear",
+  "emojis": [
+   "🤖",
+   "🛡️",
+   "🏦"
+  ],
+  "emoji_reasons": [
+   "The text predicts the OpenAI breach review will be the week's defining political story.",
+   "The F-35 parts diversion is forecast to become a recurring US-Australia-China diplomatic irritant.",
+   "RBA rate-hike anxiety is predicted to pressure mortgage holders, investors, and the housing market."
+  ],
+  "tldr": "The text predicted Australia's week would center on the OpenAI government health-portal breach triggering a formal review, the F-35 parts-in-China story straining US-Australia defence ties, RBA rate-hike anxiety pressuring markets and housing, and the visa crackdown generating social friction. Cricket and rugby would provide weekend relief.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will the Australian government formally announce an official review of the OpenAI health-portal breach involving cybersecurity experts and the ASD?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: I expect Canberra to announce or formalise an urgent review, likely involving cybersecurity experts, the ASD, and probably officials from the relevant health/statistics agency.",
+    "legacy_probability": 0.875
+   },
+   {
+    "id": "Q2",
+    "text": "Will the F-35 parts diversion to China and Hong Kong become a recurring US-Australia-China security dispute during the forecast week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: This becomes a recurring irritant, not an immediate crisis, unless the US reveals that something genuinely sensitive was exposed.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q3",
+    "text": "Will the RBA raise interest rates or issue a strongly hawkish signal during the forecast week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: If the RBA meets in this window, I expect one of three things: a 25bp hike, which I see as the most likely if it moves, a 50bp hike if inflation data looks stubborn and the board wants to get ahead of expectations, or a hold with very hawki",
+    "legacy_probability": 0.775
+   },
+   {
+    "id": "Q4",
+    "text": "Will the Australian government publicise detentions or departures under its visa overstay crackdown?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Next week I expect: ministerial statements explaining how detentions will work, border taskforce updates, and at least some publicised detentions or departures to show the policy is real.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q5",
+    "text": "Will Australia win the ODI cricket series against South Africa?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: I would expect Australia to take this series, probably 2-1 or 3-0.",
+    "legacy_probability": 0.75
+   },
+   {
+    "id": "Q6",
+    "text": "Will the US publicly criticise Australia's algorithm opt-out laws, creating a small diplomatic tech dispute with Canberra?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: I expect the government to publicly defend the policy as 'choice,' not censorship, but quietly soften some implementation language or offer more flexibility on how the opt-out works in practice.",
+    "legacy_probability": 0.75
+   },
+   {
+    "id": "Q7",
+    "text": "Will the Australian government announce a full immediate ban on smart glasses?",
+    "domain": "technology",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A full ban next week would be too fast. A quiet internal review and public testing of reactions is much more likely.",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q8",
+    "text": "Will the Western Australia shark story produce a capture or sighting update during the forecast week?",
+    "domain": "environment",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Next week could bring: another sighting, a capture, extended beach closures, baited hook deployment, and renewed debate about whether WA's shark management is working.",
+    "legacy_probability": 0.6
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The OpenAI breach disclosure reveals that identifiable health or claims-related files were accessed, prompting the Opposition to formally call for a royal commission within the week?",
+    "domain": "technology",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.25",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The US Department of Defense publicly identifies the F-35 parts as containing sensitive specifications, triggering an emergency AUKUS logistics review announcement?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that The RBA announces a 50 basis point rate increase, citing stubborn inflation data that exceeded board expectations?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The visa overstay crackdown produces a publicised detention operation and a coordinated hospitality industry protest statement within the same seven-day window?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.7",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that A baited-hook shark capture or a second shark attack is reported on Western Australian beaches during the week?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   }
+  ]
+ },
+ "single_forecaster": true
+}

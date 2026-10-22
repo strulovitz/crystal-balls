@@ -1,0 +1,362 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "UA",
+ "name": "Ukraine",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T15:48:59+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "According to the text, Russia was conducting a sustained winter air campaign against Ukraine, with heavy missile and drone strikes on power plants, substations, bridges, data centers, and residential districts, particularly in and around Kyiv. Several reports indicated Russia was now attacking in broad daylight. Major bridges in Kyiv, including the Northern Bridge, were damaged or closed, disrupting daily transport. Russia was spending at record levels on its military and expanding recruitment, while Putin was ruling out a ceasefire. Ukraine was responding with deep strikes on Russian refineries and pipeline hubs and had launched a 'Vivaldi' operation using robots and explosive-laden armored vehicles to recapture territory in northern Donetsk. German Chancellor Merz made an unannounced visit to Kyiv, and new aid packages of roughly one billion euros in military support plus 350 million for energy repairs were under discussion. The EU was conditioning faster loan payouts on anti-corruption and judicial reforms. A Liberian-flagged ship was attacked in Odesa port. A dispute with South Korea over a secret North Korean POW transfer was creating diplomatic friction. Estonia accused Russia of sabotage, and a Ukrainian cargo plane was hit by a drone in Germany. Ukraine's air defenses were strained by fast jet-powered drones and interceptor missile shortages.",
+  "key_events": [
+   {
+    "event": "Russia launched a sustained air campaign against Kyiv's energy infrastructure, bridges, and civilian districts using missiles and drones, including daytime strikes.",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "Ukraine launched the 'Vivaldi' operation using robots and explosive-laden armored vehicles to recapture territory in northern Donetsk.",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "German Chancellor Merz made an unannounced visit to Kyiv to discuss new military aid of roughly one billion euros and 350 million for energy repairs.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "A Liberian-flagged ship was attacked in Odesa port, squeezing Ukraine's grain export revenue.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "A dispute with South Korea over a secret North Korean POW transfer created diplomatic friction between Seoul and Kyiv.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   }
+  ],
+  "mood": "escalating",
+  "intensity": 8,
+  "domains_active": [
+   "security",
+   "economy",
+   "diplomacy"
+  ],
+  "emojis": [
+   "💣",
+   "⚡",
+   "🛡️"
+  ],
+  "emoji_reasons": [
+   "Russia's sustained missile and drone air campaign against Kyiv is the dominant event described in the text.",
+   "Strikes on power plants, substations, and the grid are central to the situation, with rolling blackouts expected.",
+   "Ukraine's strained air defenses, interceptor shortages, and F-16 maintenance problems make defense a recurring theme."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The text's headline prediction is that Russia will hit Ukraine's energy infrastructure and bridges hard from the air, especially in Kyiv, as winter approaches. Ukraine will answer by striking Russian oil refineries and pipeline hubs with drones and possibly missiles. Power outages will spread across Kyiv and other regions, forcing rolling blackouts and emergency imports. Germany will officially announce a new aid package of roughly one billion euros in military support. On the battlefield, Ukrainian forces will claim the recapture of at least one settlement in the Donetsk region, though no full breakthrough was expected. The text also flagged, as a secondary possibility, a strike on Odesa port or grain infrastructure that would further squeeze Ukraine's export revenue. Western funding will be announced but delivery will lag. The South Korea dispute will generate diplomatic noise but will not alter the military picture.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Russia launched at least one combined ballistic-missile and jet-powered-drone strike on a power plant or substation in the Kyiv region.",
+    "probability": 0.85,
+    "domain": "security"
+   },
+   {
+    "id": "N2",
+    "text": "Ukraine publicly confirmed a drone or missile strike on at least one Russian oil refinery or pipeline hub.",
+    "probability": 0.85,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "Kyiv or another major Ukrainian city recorded rolling power outages lasting more than four hours.",
+    "probability": 0.75,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "The German government officially announced a new military or financial aid package for Ukraine valued at at least 500 million euros.",
+    "probability": 0.8,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N5",
+    "text": "A strike hit Odesa port facilities, grain silos, or a vessel in the Black Sea port area.",
+    "probability": 0.35,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.775."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading weighs the text's full probability distribution rather than just its top scenarios. Russia's air campaign against Kyiv's grid is still the central event, but the text's own caveats about attrition versus escalation nudge the probability of a single major combined strike slightly lower. The 'Vivaldi' robotic operation in Donetsk is treated as a real but bounded tactical event, not a strategic shift. The South Korea-Ukraine diplomatic row, which the text calls a 'nuisance,' is elevated here as a checkable flashpoint because the text describes a specific demand for an apology. Russia's nuclear-umbrella rhetoric around Kaliningrad, listed at only 15-30 percent in the text, is the clearest minority scenario and is included as a lower-probability but checkable event. EU reform conditions on loan tranches are treated as a near-certain administrative step rather than a political breakthrough.",
+  "reasoning": "The naive reading takes the five highest-probability events at face value and treats them as near-certainties. The crystal reading adjusts in three ways. First, the probability of a single major Russian air strike is lowered from 0.85 to 0.74 because the text itself distinguishes between escalation using ballistic missiles plus jet drones and attrition using cheaper drones, and the latter is equally plausible. Second, the South Korea apology demand and the Kaliningrad nuclear-rhetoric event are drawn from the text's own less-likely section, where it assigns 60-70 percent and 15-30 percent respectively, and both are materially checkable. Third, the EU reform condition is reframed as a near-routine administrative milestone rather than a political event, shifting its domain from diplomacy to economy.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Russia launched at least one combined ballistic-missile and jet-powered-drone strike on a power plant or substation in the Kyiv region.",
+    "probability": 0.74,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "Ukrainian military publicly claimed the recapture of a named settlement in the Donetsk region using the 'Vivaldi' robotic operation.",
+    "probability": 0.55,
+    "domain": "security"
+   },
+   {
+    "id": "C3",
+    "text": "South Korea's foreign ministry issued a formal written statement demanding an explanation or apology from Kyiv over the North Korean POW transfer.",
+    "probability": 0.4,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C4",
+    "text": "Putin or a senior Russian official invoked 'all available weapons' or equivalent nuclear-umbrella language in a public speech or interview.",
+    "probability": 0.25,
+    "domain": "security"
+   },
+   {
+    "id": "C5",
+    "text": "The European Commission published a specific reform benchmark that Ukraine must meet before the next loan tranche is disbursed.",
+    "probability": 0.55,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.775."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Ukraine faces Russian winter air blitz, answers with refinery strikes",
+  "emojis": [
+   "💣",
+   "🛢️",
+   "🤝"
+  ],
+  "emoji_reasons": [
+   "The text's main prediction is a heavy Russian winter air campaign against Kyiv's energy grid and bridges.",
+   "Ukrainian retaliatory strikes on Russian oil refineries and pipeline hubs are a key predicted counter-event.",
+   "Western aid announcements and EU funding conditions form the diplomatic backdrop of the forecast."
+  ],
+  "tldr": "Russia will launch heavy winter air strikes on Kyiv's energy grid and bridges while Ukraine retaliates with deep strikes on Russian refineries and pipeline hubs. Western leaders announce new aid, but delivery gaps persist. Local battlefield gains in Donetsk round out the week.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Russia conduct major missile and drone strikes on Ukrainian energy infrastructure during the week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: At least one or two major Russian air raids using missiles and drones. More attacks on energy infrastructure as freezing weather approaches.",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q2",
+    "text": "Will Ukraine carry out strikes on Russian oil refineries or pipeline infrastructure?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Drone strikes on Russian refineries near the border or deeper inside Russia.",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q3",
+    "text": "Will Germany announce a new package of military or financial aid to Ukraine?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Official announcements from Berlin and Kyiv about new military or financial support.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q4",
+    "text": "Will Ukraine achieve a decisive strategic breakthrough on the Eastern Front?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: I would not expect a full-scale strategic breakthrough in only 7 days.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will rolling blackouts or emergency power-cut measures be implemented in Kyiv?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Rolling blackouts in Kyiv and other regions.",
+    "legacy_probability": 0.775
+   },
+   {
+    "id": "Q6",
+    "text": "Will the Ukraine-South Korea diplomatic dispute escalate into a military or trade crisis?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: South Korea keeping pressure but avoiding a full diplomatic rupture.",
+    "legacy_probability": 0.65
+   },
+   {
+    "id": "Q7",
+    "text": "Will Russia carry out hybrid attacks such as cyberattacks or infrastructure sabotage against European countries?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More cyberattacks or suspicious incidents in Europe.",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q8",
+    "text": "Will a ceasefire or peace agreement between Ukraine and Russia be announced?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Ukraine will not get a ceasefire or a decisive battlefield breakthrough in the next week.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Russia launched at least one combined ballistic-missile and jet-powered-drone strike on a power plant or substation in the Kyiv region?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.74",
+    "legacy_probability": 0.74
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Ukrainian military publicly claimed the recapture of a named settlement in the Donetsk region using the 'Vivaldi' robotic operation?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that South Korea's foreign ministry issued a formal written statement demanding an explanation or apology from Kyiv over the North Korean POW transfer?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.4",
+    "legacy_probability": 0.4
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that Putin or a senior Russian official invoked 'all available weapons' or equivalent nuclear-umbrella language in a public speech or interview?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.25",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that The European Commission published a specific reform benchmark that Ukraine must meet before the next loan tranche is disbursed?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   }
+  ]
+ },
+ "single_forecaster": true
+}

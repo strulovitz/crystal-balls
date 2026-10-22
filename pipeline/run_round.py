@@ -188,7 +188,7 @@ def step_velocity(file, prev_file, country_cfg, round_id, prev_round_id, setting
     return "run", obj, elapsed
 
 
-LEGACY_SOURCES = {"2026-10-01": "round-1", "2026-10-14": "round-2"}
+LEGACY_SOURCES = {"2026-09-15": "round-1", "2026-10-02": "round-2"}
 
 
 def legacy_text_for(round_id, country_name):

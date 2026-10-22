@@ -1,0 +1,369 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "CH",
+ "name": "Switzerland",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T17:01:40+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "According to the text, in the week of approximately October 8 through 14, 2026, several major storylines converged on Switzerland. Guy Parmelin announced his resignation from the Federal Council effective year-end, just after a high-profile visit to India where he signed memoranda of understanding with Prime Minister Modi on mobility, transport, science, and innovation. UBS faced sustained investor pressure over Swiss capital rules, with CEO Sergio Ermotti arguing the bank needs a US presence to compete globally. The Swiss franc rallied amid French budget worries, European bond stress, and weak US jobs data. The Court of Arbitration for Sport in Lausanne prepared to rule on the Senegal-Morocco Africa Cup of Nations title appeal. UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino, while Norway filed ethics complaints against him. The organizing president of the Crans-Montana Alpine World Championships was suspended pending a fraud trial. Swiss glaciers had lost nearly 20 percent of their mass in five years, and Lake Constance ferries were suspended due to low water. The UN Human Rights Council in Geneva adopted a resolution demanding an immediate ceasefire in Sudan. Julius Baer executed a share buyback, Partners Group restructured its flagship fund, and billionaires relocated from the UK toward Switzerland, Monaco, and the UAE. The Swiss national team beat Slovenia 2-1 in the Nations League.",
+  "key_events": [
+   {
+    "event": "Guy Parmelin announced his resignation from the Federal Council effective end of 2026.",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "UBS faced sustained investor pressure over Swiss capital rules and its global structure.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The Court of Arbitration for Sport in Lausanne prepared a ruling in the Senegal-Morocco AFCON title appeal.",
+    "date": null,
+    "domain": "society",
+    "importance": 4
+   },
+   {
+    "event": "UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Swiss glaciers lost nearly 20 percent of their mass in five years per a new report.",
+    "date": null,
+    "domain": "environment",
+    "importance": 3
+   },
+   {
+    "event": "The UN Human Rights Council in Geneva adopted a resolution demanding an immediate ceasefire in Sudan.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "economy",
+   "society",
+   "environment"
+  ],
+  "emojis": [
+   "🎭",
+   "⚖️",
+   "💰"
+  ],
+  "emoji_reasons": [
+   "Parmelin's resignation from the Federal Council creates a major political-drama story for Swiss media.",
+   "The CAS football ruling and FIFA ethics complaints make court and justice the central institutional battleground.",
+   "UBS capital-rule disputes, franc strength, and wealth-relocation flows dominate the economic narrative."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The naive reading takes the text's highest-probability scenarios at face value. The dominant domestic story is Parmelin's resignation generating interview coverage and SVP succession speculation, with no formal replacement candidate named yet. UBS issues further commentary on capital rules and investor pressure but does not announce a relocation or a formal restructuring plan; the stay-and-negotiate posture holds throughout. The CAS panel in Lausanne delivers a ruling or clear procedural decision in the Senegal-Morocco case, generating global football-media fallout. New quantitative data on glacier mass loss or Lake Constance water levels is published, extending the climate-visibility debate. A minor story from the Swiss watch or luxury retail sector generates standalone national coverage. The franc trades strong against the euro for most of the period, prompting industry-group commentary on export and tourism pressures.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Guy Parmelin gives at least one media interview or public statement explaining his reasons for leaving the Federal Council between October 14 and October 21, 2026.",
+    "probability": 0.9,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "UBS issues a formal written statement or board-level communication addressing Swiss capital rules without announcing a corporate relocation.",
+    "probability": 0.87,
+    "domain": "economy"
+   },
+   {
+    "id": "N3",
+    "text": "The Court of Arbitration for Sport in Lausanne publishes a ruling or procedural decision in the Senegal-Morocco Africa Cup of Nations title appeal.",
+    "probability": 0.8,
+    "domain": "society"
+   },
+   {
+    "id": "N4",
+    "text": "Swiss media or a federal agency publishes new quantitative data on glacier mass loss or Lake Constance water levels following the 20-percent mass-loss report.",
+    "probability": 0.75,
+    "domain": "environment"
+   },
+   {
+    "id": "N5",
+    "text": "A Swiss watchmaker or luxury retail company generates a standalone national news story unrelated to UBS or broader banking coverage.",
+    "probability": 0.4,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.875."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading weighs the text's full probability distribution and its explicit alternative scenarios. Rather than a clean Morocco-upheld CAS ruling, the text's own minority scenarios at 30 to 40 percent point toward a replay, partial relief for Senegal, or a technical ruling that satisfies neither side. The SVP's early candidate leak at 25 to 35 percent is more probable than the text's slow-burn framing suggests, given the urgency of the December Federal Council election timeline. UBS's formal capital-plan announcement at 25 to 35 percent is a realistic near-term catalyst, not merely a stay-and-negotiate posture. The SNB's intervention risk at 20 to 30 percent rises if French debt stress spikes mid-week. Geneva diplomacy on Sudan at 60 to 70 percent produces a concrete Swiss government statement. The week reads as a simultaneous multi-front pressure test rather than a single dominant story with commentary underneath.",
+  "reasoning": "The naive reading accepts the text's top-listed, highest-probability outcomes as the base case: Parmelin interviews, UBS commentary without restructuring, a CAS ruling, glacier data follow-up, and a minor retail story. The crystal reading instead foregrounds the text's own stated alternatives and hedges. The text explicitly assigns 30 to 40 percent to a CAS outcome that is not a simple Morocco win, 25 to 35 percent to an SVP candidate leak, 25 to 35 percent to a formal UBS capital plan, and 20 to 30 percent to SNB intervention. These minority scenarios collectively represent a more volatile, event-driven week than the naive business-as-usual picture. The crystal reading adjusts probabilities downward for the orderly scenarios and incorporates surprise events, reflecting the text's own warning that the week will be intense, with money, law, sport, climate, and foreign policy all arguing over the same Swiss reputation.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The CAS panel in Lausanne issues a decision that orders a replay, grants partial relief to Senegal, or issues a technical ruling rather than simply upholding Morocco's default victory.",
+    "probability": 0.35,
+    "domain": "society"
+   },
+   {
+    "id": "C2",
+    "text": "The Swiss People's Party publicly names or leaks a specific individual as its candidate to replace Guy Parmelin on the Federal Council.",
+    "probability": 0.3,
+    "domain": "politics"
+   },
+   {
+    "id": "C3",
+    "text": "UBS announces a formal capital restructuring plan, an extraordinary shareholder meeting, or a board-level restructuring decision within the October 14 through 21 window.",
+    "probability": 0.3,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "The Swiss National Bank publishes a monetary policy statement or executes a foreign-exchange intervention in response to franc strength.",
+    "probability": 0.25,
+    "domain": "economy"
+   },
+   {
+    "id": "C5",
+    "text": "The Swiss Federal Department of Foreign Affairs issues a formal public statement on Sudan ceasefire implementation following the UN Human Rights Council resolution.",
+    "probability": 0.65,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.875."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q4",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.65."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Switzerland's Financial, Sports-Law, and Political Reputations Collide Simultaneously",
+  "emojis": [
+   "🎭",
+   "⚖️",
+   "🌡️"
+  ],
+  "emoji_reasons": [
+   "Parmelin's resignation and SVP succession speculation drive the political-drama storyline.",
+   "The CAS Lausanne ruling and FIFA Infantino challenge make Swiss legal institutions the global stage.",
+   "Glacier mass-loss data and Lake Constance low water add a climate-urgency dimension to the week."
+  ],
+  "tldr": "Switzerland faces a loud but not chaotic week as Parmelin's resignation, UBS capital-rule fights, a CAS football ruling, and glacier-loss alarm all hit the news at once. The franc stays strong as Europe's safe haven while Geneva hosts Sudan ceasefire diplomacy.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Guy Parmelin's resignation dominate Swiss political news coverage this week?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Guy Parmelin's resignation will keep dominating Swiss political coverage Confidence: very high, maybe 85–95%",
+    "legacy_probability": 0.9
+   },
+   {
+    "id": "Q2",
+    "text": "Will UBS announce a formal decision to relocate its headquarters outside Switzerland?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: My prediction: UBS will not actually leave Switzerland next week. That would be too big, too fast, and too politically explosive.",
+    "legacy_probability": 0.875
+   },
+   {
+    "id": "Q3",
+    "text": "Will the Court of Arbitration for Sport in Lausanne issue a ruling or procedural decision in the Senegal-Morocco Africa Cup of Nations title appeal?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The next week will produce either a ruling or a very clear procedural outcome from Lausanne.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q4",
+    "text": "Will the Swiss National Bank intervene in foreign exchange markets or issue an unexpected monetary policy statement during the week?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: SNB FX intervention or a stronger-than-expected monetary statement Probability: maybe 20–30%",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q5",
+    "text": "Will the Swiss franc remain stronger than the euro for most of the coming week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The franc to stay bid against the euro if France's debt/budget problems worsen.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q6",
+    "text": "Will the Crans-Montana organizing committee issue a public statement or appoint an interim chair regarding the suspended Alpine skiing world championships president?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: A statement or clarification from the organizing committee. Possible appointment of an interim chair or confirmation that the suspended president remains formally in place but limited in powers.",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q7",
+    "text": "Will Swiss glacier loss and drought coverage generate a public climate-and-tourism policy debate?",
+    "domain": "environment",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Glacier loss and drought imagery will turn into a climate/tourism debate Confidence: high, maybe 75–85%",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q8",
+    "text": "Will Swiss government officials issue public statements related to the Sudan ceasefire resolution during the week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Swiss foreign ministry statements or quiet diplomacy.",
+    "legacy_probability": 0.65
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The CAS panel in Lausanne issues a decision that orders a replay, grants partial relief to Senegal, or issues a technical ruling rather than simply upholding Morocco's default victory?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The Swiss People's Party publicly names or leaks a specific individual as its candidate to replace Guy Parmelin on the Federal Council?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that UBS announces a formal capital restructuring plan, an extraordinary shareholder meeting, or a board-level restructuring decision within the October 14 through 21 window?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The Swiss National Bank publishes a monetary policy statement or executes a foreign-exchange intervention in response to franc strength?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.25",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that The Swiss Federal Department of Foreign Affairs issues a formal public statement on Sudan ceasefire implementation following the UN Human Rights Council resolution?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.65",
+    "legacy_probability": 0.65
+   }
+  ]
+ },
+ "single_forecaster": true
+}
