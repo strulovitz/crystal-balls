@@ -298,8 +298,6 @@ def _check_item(label, it, errors, kind, strict=True):
             errors.append(f"{label}.expected: expected a sentence of 4 to 40 words")
         elif FORBIDDEN_RE.search(exp):
             errors.append(f"{label}.expected: forbidden word ({FORBIDDEN_RE.search(exp).group(0)}), say what will happen")
-        elif strict and exp.count(",") > 1:
-            errors.append(f"{label}.expected: describe ONE development in one sentence, not a list (more than one comma)")
     if kind == "item":
         if it.get("direction") not in ITEM_DIRECTION:
             errors.append(f"{label}.direction: {it.get('direction')!r} not in {sorted(ITEM_DIRECTION)}")

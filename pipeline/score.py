@@ -93,6 +93,13 @@ def compute_scorecard(rounds_dir=None):
     buckets["other"] = []
     hand_made = []
     per_country = {}
+    run_in_rounds = set()
+    run_in_judged = 0
+    if rounds_dir.exists():
+        for d0 in rounds_dir.iterdir():
+            rj0 = d0 / "round.json"
+            if rj0.exists() and load_json(rj0).get("run_in"):
+                run_in_rounds.add(d0.name)
     for round_dir in sorted(d for d in rounds_dir.iterdir() if d.is_dir()) if rounds_dir.exists() else []:
         rj = round_dir / "round.json"
         if not rj.exists():
@@ -130,6 +137,13 @@ def compute_scorecard(rounds_dir=None):
             first_wins += j.get("first_listed_wins", 0)
             first_n += j.get("first_listed_nonties", 0)
             v, u = j.get("v"), j.get("u")
+            if j.get("graded_round") in run_in_rounds:
+                # 13.17: a run-in round's judged results stay in the item grades and the gap buckets,
+                # but never enter the verdict count.
+                run_in_judged += 1
+                if v is not None:
+                    buckets[_gap_bucket(j.get("elapsed_days"))].append(v)
+                continue
             if v is not None:
                 vs.append(v)
                 rt["scored"] += 1
@@ -178,6 +192,8 @@ def compute_scorecard(rounds_dir=None):
         "per_round": per_round,
         "per_country": {c: {"n": len(x["vs"]), "mean_v": round(mean(x["vs"]), 3)} for c, x in per_country.items()},
         "hand_made_forecasts": hand_made,
+        "run_in_rounds": sorted(run_in_rounds), "run_in_judged_country_weeks": run_in_judged,
+        "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count.",
     }
     return scorecard, round_scorecards
 

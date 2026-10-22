@@ -974,6 +974,7 @@ async function openModalV4(code, country, countryR) {
     html += `</ul>`;
   }
   if (reader.unscorable) html += `<p class="baseline">Not scored this round: ${esc(reader.unscorable_reason || '')}</p>`;
+  if (bundleR.round && bundleR.round.run_in) html += `<p class="baseline">Run-in round, forecasts generated late: made with headlines up to ${esc(bundleR.round.window_end)}, generated ${esc((countryR.generated_at || '').slice(0, 16).replace('T', ' '))}. Its judged results are not counted in the verdict.</p>`;
   html += `<div class="modal-footer">Model: ${esc(countryR.model || '\u2014')} \u00B7 Generated: ${esc(countryR.generated_at || '\u2014')}</div>`;
   html += `<button class="btn modal-close" id="modal-close-btn">Close</button>`;
   const modal = document.getElementById('modal');
@@ -1058,7 +1059,10 @@ function openPanel(code) {
 
   const roundLabel = roundEntry ? roundEntry.label : currentRoundId;
   const horizonEnd = (countryR.crystal_forecast && countryR.crystal_forecast.horizon_end) || (countryR.forecast_meta && countryR.forecast_meta.horizon_end) || '';
-  if (roundEntry && roundEntry.is_legacy) {
+  if (countryR.schema_version === 4 && bundleR.round && !(roundEntry && roundEntry.is_legacy)) {
+    const gen = (countryR.generated_at || '').slice(0, 16).replace('T', ' ');
+    html += `<div class="round-line">Made with headlines up to ${esc(bundleR.round.window_end)}, generated ${esc(gen)}${bundleR.round.run_in ? ' (run-in round, forecasts generated late)' : ''}</div>`;
+  } else if (roundEntry && roundEntry.is_legacy) {
     html += `<div class="round-line">Manual round, ${roundLabel}</div>`;
   } else {
     html += `<div class="round-line">Forecast made ${roundLabel} for ${horizonEnd ? 'the week to ' + horizonEnd : 'the next collection, about 7 days later'}</div>`;

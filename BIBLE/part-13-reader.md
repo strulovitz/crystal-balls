@@ -132,3 +132,9 @@ c. Everything forecast is for the window ending {{HORIZON_END}}, stated in the p
 d. Judge rule added to prompts/judge.txt: when an item bundles several developments, grade only its first clause; when a sign contains an invented detail, grade the category only and note "over-specific" in the evidence sentence.
 
 (Implementation note by Sonnet: the prompt files are named prompts/plain_forecast.txt and prompts/crystal_forecast.txt. Rule a is enforced by the validator as "expected" may contain at most one comma and no " and " joining two developments is checked only by the prompt. The hand-made legacy imports are not held to rules a and b.)
+
+### 13.17 Amendment: round 2026-10-17 is a run-in round (Fable, 2026-10-22)
+
+Round 2026-10-17 is finished several days late with headlines that end on October 17 and a horizon that ends on October 24. Both arms face the same staleness, so the paired comparison holds, but the round is marked "run_in": true in round.json and its judged results are shown on the page with the note "run-in round, forecasts generated late" and are excluded from the pre-registered verdict count of 13.6 (they still appear in the item-grade counts and the gap buckets). Every forecast bulletin records generated_at, and the page shows "made with headlines up to [window_end], generated [generated_at]" for every round, so the lead time is never hidden. From the next round on, a round is started and finished within the same week whenever the machine allows.
+
+(Decisions recorded by Nir on 2026-10-22, relayed by Fable: thinking stays ON for every step, no exceptions, and round.json records "thinking": "on". The validator no longer rejects an "expected" sentence for having several commas; rule a stays in the prompt only. The sign rule (no digit, no hour, hours, day, days, percent) stays in the validator.)

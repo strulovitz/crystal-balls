@@ -589,9 +589,11 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
         file["judgment_hand_made"] = obj["hand"]
 
     def put_plain(obj):
+        obj["generated_at"] = _now_iso()
         file["forecasts"]["plain"] = obj
 
     def put_crystal(res):
+        res["bulletin"]["generated_at"] = _now_iso()
         file["forecasts"]["crystal"] = res["bulletin"]
         file["display"] = res["display"]
         file["history_used"] = res["history_used"]
@@ -694,6 +696,7 @@ def main():
     # 13.9: temperature and seed recorded (same for both arms), and the gap since the previous round (13.8)
     round_data["temperature"] = float(settings.get("LLM_TEMPERATURE", 1.0))
     round_data["seed"] = settings.get("LLM_SEED") or None
+    round_data["thinking"] = "off" if str(settings.get("LLM_REASONING_EFFORT", "")).strip().lower() == "none" else "on"
     round_data["previous_round"] = prev_round_id
     round_data["elapsed_days"] = elapsed_days_between(round_id, prev_round_id)
     save_json(round_json_path, round_data)
