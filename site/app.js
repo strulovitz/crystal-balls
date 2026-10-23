@@ -30,6 +30,9 @@ const EMOJI_DIR = './assets/emoji/';
 
 const LAYER = { INNER: 0, MIDDLE: 1, OUTER: 2 };
 const RADIUS = { 2: 1.00, 1: 0.74, 0: 0.50 };
+// One clipping plane per globe layer: only the half of each globe that faces the viewer is drawn,
+// so the far side (the "dark side of the moon") never shows through. Updated every frame.
+const layerClipPlanes = { 2: new THREE.Plane(), 1: new THREE.Plane(), 0: new THREE.Plane() };
 const SPRITE_SIZE = { 2: [0.26, 0.235], 1: [0.21, 0.19], 0: [0.17, 0.154] };
 const SPRITE_COLOR = { 2: 0xffffff, 1: 0xaaaaaa, 0: 0x585858 };
 const HOVER_COLOR = 0xffffff;
@@ -245,6 +248,7 @@ function initScene() {
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(width, height);
+  renderer.localClippingEnabled = true;
   container.appendChild(renderer.domElement);
 
   controls = new OrbitControls(camera, renderer.domElement);
@@ -326,6 +330,7 @@ async function buildGlobeLayers() {
     globeGroup.add(fillMesh);
 
     const graticule = buildGraticule(r, c.grat, c.gratOp);
+    graticule.material.clippingPlanes = [layerClipPlanes[layer]];
     globeGroup.add(graticule);
   }
 
@@ -335,7 +340,7 @@ async function buildGlobeLayers() {
       const r = RADIUS[layer];
       const c = layerColors[layer];
       const outline = buildCountryOutline(worldTopology, r, c.outline, c.outlineOp);
-      if (outline) { globeGroup.add(outline); outlineLineSegments.push(outline); }
+      if (outline) { outline.material.clippingPlanes = [layerClipPlanes[layer]]; globeGroup.add(outline); outlineLineSegments.push(outline); }
     }
   } catch (e) {
     console.warn('Could not load countries-110m.json, globes will show graticule only:', e);
@@ -530,8 +535,21 @@ function emojiToTwemoji(emoji) {
 const GAP_MIDDLE = SPRITE_SIZE[2][1] * 0.5 + SPRITE_SIZE[1][1] * 0.5 + 0.012;
 const GAP_INNER = SPRITE_SIZE[1][1] * 0.5 + SPRITE_SIZE[0][1] * 0.5 + 0.012;
 
+function updateClipPlanes() {
+  const toCamera = camera.position.clone().sub(controls.target);
+  const dist = toCamera.length();
+  toCamera.normalize();
+  for (const layer of [2, 1, 0]) {
+    const r = RADIUS[layer];
+    // keep the points of the globe that are on the camera's side of the horizon circle
+    layerClipPlanes[layer].normal.copy(toCamera);
+    layerClipPlanes[layer].constant = -(r * r) / dist;
+  }
+}
+
 function animate() {
   requestAnimationFrame(animate);
+  updateClipPlanes();
   controls.update();
   updateCardColumns();
   renderer.render(scene, camera);
