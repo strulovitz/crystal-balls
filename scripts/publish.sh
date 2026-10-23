@@ -34,6 +34,12 @@ say "Building site data..."
 say "Updating the public folder..."
 mkdir -p public
 rsync -a --delete --exclude data site/ public/
+# Stamp app.js and style.css with a short fingerprint of their content, so browsers and Cloudflare
+# fetch the new file as soon as it changes instead of keeping an old copy for hours.
+for F in app.js style.css; do
+  H="$(md5sum "public/$F" | cut -c1-8)"
+  sed -i "s#\./$F\"#./$F?v=$H\"#" public/index.html
+done
 mkdir -p public/data/rounds
 cp data/index.json data/meta.json data/scorecard.json public/data/
 for R in data/rounds/*/; do
