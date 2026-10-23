@@ -151,10 +151,11 @@ LLM_TOP_P=0.95
 LLM_TOP_K=20
 LLM_MIN_P=0
 LLM_REPEAT_PENALTY=1.0
-LLM_MAX_TOKENS=12000 (thinking tokens count against this; the first round showed up to 7,500)
+LLM_MAX_TOKENS=30000 (thinking tokens count against this; the first round showed up to 7,500; raised from 12000 by Fable on 2026-10-23, thinking is never cut)
 LLM_CONTEXT_WINDOW=32768 (num_ctx; fail loudly if a prompt exceeds 90 percent of it)
 LLM_MAX_RETRIES=3
-LLM_TIMEOUT_SECONDS=1800
+LLM_TIMEOUT_SECONDS=5400 (raised from 1800 by Fable on 2026-10-23)
+The Ollama server stays at a context window of 262144 (OLLAMA_CONTEXT_LENGTH); LLM_CONTEXT_WINDOW=32768 is only the prompt-size check that fails loudly above 90 percent. Both numbers are recorded in round.json.
 These are the values Qwen's own documentation recommends for thinking mode. Round 2026-10-17 ran at temperature 1.0 by accident of defaults; it remains the run-in round of 13.17, and this is part of why.
 
 c. Seed: every call carries a seed computed from round date, country code and step name, identical for arm A and arm B of the same country-round. The seed scheme is recorded in round.json. Retries add 1 to the seed.
