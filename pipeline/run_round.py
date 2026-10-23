@@ -694,9 +694,10 @@ def main():
         save_json(round_json_path, round_data)
 
     # 13.9: temperature and seed recorded (same for both arms), and the gap since the previous round (13.8)
-    round_data["temperature"] = float(settings.get("LLM_TEMPERATURE", 1.0))
-    round_data["seed"] = settings.get("LLM_SEED") or None
-    round_data["thinking"] = "off" if str(settings.get("LLM_REASONING_EFFORT", "")).strip().lower() == "none" else "on"
+    round_data["temperature"] = float(settings.get("LLM_TEMPERATURE", 0.6))
+    round_data["seed"] = settings.get("LLM_SEED") or "sha256(round|country|step) per call, same for both arms, retries add 1 (Bible 13.18 c)"
+    round_data["thinking"] = "off" if str(settings.get("LLM_THINKING", "on")).strip().lower() == "off" or str(settings.get("LLM_REASONING_EFFORT", "")).strip().lower() == "none" else "on"
+    round_data["parameters"] = {k: settings.get(k) for k in ("LLM_MODEL", "LLM_THINKING", "LLM_TEMPERATURE", "LLM_TOP_P", "LLM_TOP_K", "LLM_MIN_P", "LLM_REPEAT_PENALTY", "LLM_MAX_TOKENS", "LLM_CONTEXT_WINDOW", "LLM_MAX_RETRIES", "LLM_TIMEOUT_SECONDS")}
     round_data["previous_round"] = prev_round_id
     round_data["elapsed_days"] = elapsed_days_between(round_id, prev_round_id)
     save_json(round_json_path, round_data)

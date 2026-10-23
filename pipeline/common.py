@@ -817,7 +817,20 @@ def _extract_json(text):
     return json.loads(candidate)
 
 
-def _chat_completion(messages, settings, temperature, use_response_format):
+LAST_REQUEST_OPTIONS = {}
+
+
+def seed_for(round_id, country_code, step_name, attempt=1):
+    """Bible 13.18 c: one seed per round date, country code and step. Both arms
+    (plain_forecast and crystal_forecast) share the step key "forecast", so arm A
+    and arm B of the same country-round get the same seed. Retries add 1."""
+    import hashlib
+    key = "forecast" if step_name in ("plain_forecast", "crystal_forecast") else step_name
+    digest = hashlib.sha256(f"{round_id}|{country_code}|{key}".encode()).hexdigest()
+    return int(digest[:8], 16) % (2 ** 31 - 1000) + (attempt - 1)
+
+
+def _chat_completion(messages, settings, temperature, use_response_format, seed=None):
     base_url = settings.get("LLM_BASE_URL", "http://localhost:11434/v1").rstrip("/")
     model = settings.get("LLM_MODEL", "qwen-local")
     api_key = settings.get("LLM_API_KEY", "not-needed-for-local")
@@ -837,10 +850,18 @@ def _chat_completion(messages, settings, temperature, use_response_format):
     if settings.get("LLM_MIN_P", "").strip():
         payload["min_p"] = float(settings["LLM_MIN_P"])
     # Thinking mode off for Ollama's OpenAI endpoint (verified 2026-10-22: "none" removes the reasoning)
-    if str(settings.get("LLM_REASONING_EFFORT", "")).strip():
+    if str(settings.get("LLM_THINKING", "on")).strip().lower() == "off":
+        payload["reasoning_effort"] = "none"
+    elif str(settings.get("LLM_REASONING_EFFORT", "")).strip():
         payload["reasoning_effort"] = settings["LLM_REASONING_EFFORT"].strip()
+    if settings.get("LLM_REPEAT_PENALTY", "").strip():
+        payload["repeat_penalty"] = float(settings["LLM_REPEAT_PENALTY"])
     if str(settings.get("LLM_SEED", "")).strip():
         payload["seed"] = int(settings["LLM_SEED"])
+    elif seed is not None:
+        payload["seed"] = int(seed)
+    LAST_REQUEST_OPTIONS.clear()
+    LAST_REQUEST_OPTIONS.update({k: v for k, v in payload.items() if k != "messages"})
 
     headers = {"Content-Type": "application/json"}
     if api_key and api_key != "not-needed-for-local":
@@ -888,7 +909,8 @@ def llm_json(prompt_file, variables, validator, step_name, country_code, round_i
         temperature = base_temperature
         t0 = time.time()
         try:
-            resp = _chat_completion(messages, settings, temperature, use_response_format)
+            resp = _chat_completion(messages, settings, temperature, use_response_format,
+                                    seed=seed_for(round_id, country_code, step_name, attempt))
         except requests.RequestException as e:
             log(f"  [{country_code} {step_name}] request error on attempt {attempt}: {e}")
             last_reply_text = f"(request error: {e})"
