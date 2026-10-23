@@ -160,12 +160,19 @@ def build_index_json(rounds_dir):
                 "is_legacy": is_legacy,
                 "status": "complete",
                 "label": _round_label(round_id, is_legacy),
+                "countries_done": data.get("countries_done"),
             })
     rounds.sort(key=lambda r: r["round"], reverse=True)
+    # "latest" is the newest round that covers every country, so a small special round
+    # (for example a hand-made single-country text) never hides the globe's other countries.
+    # If no round covers everyone, fall back to the newest round.
+    all_count = len(load_json(ROOT / "config" / "countries.json"))
+    full = [r for r in rounds if r.get("countries_done") == all_count]
+    latest = (full or rounds or [None])[0]
     index = {
         "schema_version": 1,
         "generated_at": _now_iso(),
-        "latest": rounds[0]["round"] if rounds else None,
+        "latest": latest["round"] if latest else None,
         "rounds": rounds,
     }
     save_json(ROOT / "data" / "index.json", index)
