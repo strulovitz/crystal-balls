@@ -1,0 +1,291 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "VN",
+  "name": "Vietnam",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T12:04:43+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, Vietnam's headline story was the imminent signing of a free trade agreement with European countries, confirmed by officials on Friday ahead of a Sunday ceremony. The deal represents a significant step in diversifying Vietnam's export markets beyond the United States and China. Economically, the Prime Minister set an ambitious target of at least 10 percent GDP growth for 2027, underscoring government confidence in the expansion trajectory. Vietnam Airlines also announced it is seeking to acquire 25 Airbus jets to revive its low-cost carrier subsidiary, signaling investment in domestic aviation capacity. On the social front, Vietnam held a solemn ceremony to bury the remains of 731 soldiers killed during the 1968 Tet Offensive, nearly six decades later, as part of a broader government push to exhume and identify over 700 missing war dead. Lighter cultural stories included Hanoi pruning its famous cherry blossom trees after residents complained the strong fragrance was overwhelming, and continued global tourism fascination with Hanoi's iconic Train Street. A reflective Deutsche Welle piece explored the lingering psychological trauma of the Vietnam War across generations.",
+    "key_events": [
+      {
+        "event": "European countries and Vietnam confirmed they will sign a comprehensive free trade agreement on Sunday, marking a major new trade partnership.",
+        "date": "2026-10-17",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Vietnam's Prime Minister set a target of at least 10 percent GDP growth for 2027, signaling aggressive economic expansion plans.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Vietnam buried the remains of 731 soldiers killed in the 1968 Tet Offensive as part of a larger effort to identify over 700 missing war dead.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Vietnam Airlines announced it is seeking to purchase 25 Airbus jets to revive its low-cost carrier subsidiary.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Hanoi authorities pruned the city's famous cherry blossom trees after residents complained the intense fragrance was disruptive.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "Hanoi's Train Street continued to attract global tourism attention as a unique urban experience.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "improving",
+    "intensity": 4,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🤝",
+      "🕯️",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The EU-Vietnam free trade agreement signing (headline 1) is the week's dominant and most consequential event.",
+      "The burial of 731 Tet Offensive war dead and the broader push to identify 700 missing soldiers (headlines 2, 5, 7, 8) defined the somber social tone of the week.",
+      "The Prime Minister's 10 percent 2027 GDP growth target (headline 6) and the Vietnam Airlines Airbus order (headline 10) signal economic confidence."
+    ],
+    "developments": [
+      {
+        "subject": "EU-Vietnam free trade agreement",
+        "what_happened": "Officials confirmed that European countries and Vietnam will sign a comprehensive free trade deal on Sunday, marking a new pillar in Vietnam's trade diversification strategy.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "War dead identification and burial",
+        "what_happened": "Vietnam buried the remains of 731 soldiers from the 1968 Tet Offensive and exhumed over 700 bodies as part of a major government push to identify long-missing war dead.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          2,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "subject": "2027 GDP growth target",
+        "what_happened": "The Prime Minister publicly set a target of at least 10 percent GDP growth for 2027, an ambitious figure that frames the next economic policy cycle.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "Vietnam Airlines Airbus order",
+        "what_happened": "Vietnam Airlines is seeking to acquire 25 Airbus jets to revive its low-cost carrier subsidiary, indicating a strategic re-investment in domestic aviation.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Hanoi cherry blossom pruning",
+        "what_happened": "Hanoi authorities cut back the city's iconic cherry blossom trees after residents reported that the strong fragrance was becoming a nuisance.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Train Street tourism",
+        "what_happened": "Hanoi's Train Street continued to draw international visitors and media attention as a unique and somewhat precarious urban tourism attraction.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          9
+        ]
+      },
+      {
+        "subject": "Vietnam War psychological legacy",
+        "what_happened": "A reflective Deutsche Welle feature examined how the trauma of the Vietnam War continues to affect Vietnamese society and identity nearly six decades later.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          4
+        ]
+      }
+    ],
+    "gone": [
+      "Q3 GDP growth hit 9.95 percent",
+      "Heavy rains and flash floods in",
+      "Vietnam declared US reciprocal trade agreement",
+      "Vietnamese banks announced plans to raise",
+      "The EU removed Vietnam from its",
+      "The EU removed Vietnam from its (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover trade diplomacy, economic ambition, and society well, but there is no coverage of internal politics, security, technology, or the environment, leaving a moderately one-sided picture."
+    },
+    "headlines_used": [
+      "European countries, Vietnam to sign free trade deal on Sunday, officials say",
+      "Vietnam buries remains of 731 war dead nearly 6 decades after the Tet Offensive",
+      "'Under attack' from fragrance, Hanoi prunes its famous blossoms",
+      "The Vietnam War: A Trauma That Lives On",
+      "Le Vietnam exhume les corps de plus de 700 soldats pour identifier ses disparus de guerre",
+      "Vietnam Prime Minister Targets 2027 GDP Growth of at Least 10%",
+      "Vietnam buries remains of 731 people killed in the 1968 Tet Offensive, in photos",
+      "Vietnam mourns 700 war dead in major push to identify missing",
+      "Why Hanoi's Train Street became a global travel obsession",
+      "Vietnam Airlines Seeks 25 Airbus Jets to Revive Low Cost Carrier"
+    ],
+    "converted": false,
+    "relevant_headlines": 10,
+    "unscorable": true,
+    "unscorable_reason": "only 10 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "EU-Vietnam free trade agreement",
+        "expected": "EU-Vietnam free trade agreement stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about EU-Vietnam free trade agreement appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "War dead identification and burial",
+        "expected": "War dead identification and burial stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about War dead identification and burial appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "2027 GDP growth target",
+        "expected": "2027 GDP growth target stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about 2027 GDP growth target appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "EU-Vietnam free trade agreement",
+        "expected": "persist",
+        "sign": "EU-Vietnam free trade agreement is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. EU-Vietnam free trade agreement stays in the news at the same level. War dead identification and burial stays in the news at the same level. 2027 GDP growth target stays in the news at the same level. EU-Vietnam free trade agreement is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "EU-Vietnam free trade agreement",
+        "expected": "The formal signing ceremony will conclude the negotiation process, with Vietnamese and European officials issuing a joint statement outlining the agreement's scope and tariff schedule.",
+        "direction": "escalate",
+        "sign": "Headlines will report the completed signing with official quotes and details on tariff reductions."
+      },
+      "second": {
+        "subject": "War dead identification",
+        "expected": "New exhumation sites will be announced as the government expands its search for missing soldiers from earlier conflicts.",
+        "direction": "persist",
+        "sign": "Reports will describe newly opened dig sites and the use of forensic tools to identify remains."
+      },
+      "third": {
+        "subject": "2027 GDP growth target",
+        "expected": "Government officials will outline specific sector plans and investment measures designed to support the ambitious 2027 growth target.",
+        "direction": "persist",
+        "sign": "Headlines will describe concrete policy steps in manufacturing and technology to meet the growth goal."
+      },
+      "fade_call": {
+        "subject": "Hanoi cherry blossom pruning",
+        "expected": "fade",
+        "sign": "The story will drop from headlines as the one-time pruning is completed and residents adjust."
+      },
+      "surprise": {
+        "subject": "Hanoi Train Street",
+        "expected": "A minor safety incident or a new municipal regulation will disrupt access to Train Street, generating fresh media coverage.",
+        "chance": "medium"
+      },
+      "summary": "The EU-Vietnam free trade agreement will be formally signed during this window, shifting headlines from anticipation to celebration and opening a new chapter in Vietnam's trade strategy. The war dead identification effort will generate follow-up reports as additional exhumation sites open and forensic teams work to match remains with families. Economic policy discussion will pick up speed as officials translate the ambitious 2027 growth target into concrete sector plans and investment commitments. The cherry blossom pruning story will fade from view after the one-time trimming is complete, while Train Street may draw fresh attention if a new safety measure or minor incident disrupts the tourist flow. The Airbus order for Vietnam Airlines will persist in the background as procurement details emerge. Overall, the mood will hold at a positive level, with the FTA signing anchoring the week's narrative and the broader economic and historical themes providing steady supporting coverage.",
+      "generated_at": "2026-10-23T11:50:28+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "EU-Vietnam free trade agreement signing",
+        "expected": "The formal signing of the comprehensive free trade agreement with European countries will trigger a surge of diplomatic statements, trade projections, and political commentary from both Vietnamese and European officials.",
+        "direction": "escalate",
+        "sign": "Headlines featuring the signed agreement, joint congratulatory statements, and trade volume projections from both Vietnamese and European officials"
+      },
+      "second": {
+        "subject": "War dead identification campaign",
+        "expected": "The government will publish new identification results for exhumed soldiers and announce the next phase of the campaign to account for the missing war dead from the 1968 Tet Offensive.",
+        "direction": "persist",
+        "sign": "Headlines naming newly identified soldiers, families receiving remains, and government announcements about further exhumation sites"
+      },
+      "third": {
+        "subject": "2027 GDP growth target policy rollout",
+        "expected": "Government ministries will issue sector-specific policy plans and investment frameworks that operationalize the ambitious growth target set by the Prime Minister.",
+        "direction": "persist",
+        "sign": "Headlines about specific industrial targets, infrastructure investment plans, and budget allocations tied to the national growth goal"
+      },
+      "fade_call": {
+        "subject": "Hanoi cherry blossom pruning",
+        "expected": "fade",
+        "sign": "The cherry blossom pruning will no longer appear in headlines as Hanoi turns its attention to other municipal matters"
+      },
+      "surprise": {
+        "subject": "US-Vietnam reciprocal trade deal signing",
+        "expected": "A formal announcement or signing of the US reciprocal trade agreement will surface, closing a long negotiation that was described as nearly complete in recent weeks.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Vietnam will be dominated by the formal signing of the free trade agreement with European countries, a ceremony that will produce a flood of diplomatic statements and economic projections from both sides of the negotiation. The war dead identification campaign will advance as the government publishes results from the latest exhumation wave and families receive the remains of soldiers lost decades ago in the Tet Offensive. The Prime Minister's ambitious growth target for 2027 will drive ministerial planning, with sector-specific policy documents and infrastructure investment announcements filling the economic pages. The Hanoi cherry blossom pruning story will fade from the news cycle entirely. A watch-item is the US reciprocal trade deal, which was described as nearly complete and could surface with a signing announcement. The overall tone will blend outward-looking economic confidence with solemn national remembrance, and the mood will hold firm at its current level of cautious optimism.",
+      "generated_at": "2026-10-23T12:04:43+03:00"
+    }
+  },
+  "display": {
+    "headline": "Vietnam Inks EU Trade Deal as War Dead Push Gains Momentum",
+    "emojis": [
+      "🤝",
+      "🕯️",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The EU-Vietnam free trade agreement signing is the dominant story of the week, a major deal and alliance moment.",
+      "The burial and identification of over 700 war dead is a solemn national memorial effort that will keep generating coverage.",
+      "The Prime Minister's ambitious GDP growth target and the policy rollout around it will drive the economic narrative."
+    ],
+    "tldr": "Vietnam will sign its comprehensive free trade deal with European countries in a major diplomatic ceremony. The national push to identify missing war dead will produce new results. Economic policy will sharpen around the Prime Minister's growth target.",
+    "eli5": "Vietnam is about to sign a big trade deal with European countries. Think of it like a mutual 'you can buy our stuff cheap and we can buy yours cheap' agreement. The official signing ceremony will happen in the next couple of days, and after that everyone from politicians to business owners will be talking about what it means for jobs, exports, and prices.\n\nAt the same time, the country is doing something very emotional and important. Soldiers died in the war many decades ago and their bodies were never found. The government has now dug up over 700 of them and is working to figure out who each one is, so families can finally say goodbye. You will see more of those identification results in the coming days.\n\nThe government also set a big goal for the economy to grow really fast next year. Next week you will start seeing the actual plans: which factories get money, which roads get built, which industries get tax breaks. That is the trade agreement and the war dead identification push that will be the two biggest stories.\n\nThe cherry blossom tree story in Hanoi will probably disappear from the news because the trees are already cut and there is nothing left to do. A real surprise would be if the trade deal with the United States also gets officially signed, since that one was supposed to be almost finished too."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nVietnam entered the week of October 14, 2026, with Q3 GDP growth of 9.95 percent, putting the full-year 10-percent target within reach. Central coastal provinces around Hue and Da Nang faced heavy rains, flash floods, and landslide risks, prompting the mobilization of military units for rescue and evacuation. Inflation ran above the State Bank's target, though officials described it as under control. Vietnamese banks announced plans to raise approximately seven billion dollars in capital through share sales. Vietnam told Reuters that negotiations with the United States on a reciprocal trade agreement were largely completed. The European Union removed Vietnam from its list of tax havens alongside Panama. French President Macron visited Vietnam, and an Alstom-Vingroup transport agreement was discussed. Myanmar's military leader Min Aung Hlaing traveled to Vietnam amid ASEAN normalization efforts. Vietnam lost to Malaysia in the FIFA ASEAN Cup, sparking public criticism. Twelve men were arrested in Ho\n- Q3 GDP growth hit 9.95 percent (regular, continuing): Q3 GDP growth hit 9.95 percent, placing Vietnam within reach of a 10-percent full-year target.\n- Heavy rains and flash floods in (regular, continuing): Heavy rains and flash floods in central Vietnam triggered military mobilization for rescue and evacuation.\n- Vietnam declared US reciprocal trade agreement (regular, continuing): Vietnam declared US reciprocal trade agreement negotiations largely completed.\n- Vietnamese banks announced plans to raise (regular, continuing): Vietnamese banks announced plans to raise nearly seven billion dollars in share-sale capital.\n- The EU removed Vietnam from its (regular, continuing): The EU removed Vietnam from its tax-haven list alongside Panama.\n- The EU removed Vietnam from its (again) (regular, continuing): The EU removed Vietnam from its tax-haven list alongside Panama.\n\nRound 2026-09-15:\nVietnam entered a week of visible economic and diplomatic momentum. The FTSE Russell emerging-market upgrade had just been completed, and Vietnamese stocks fell 2.2% in the first post-upgrade week, triggering discussion of a wider daily trading band. To Lam publicly stated that US-Vietnam trade negotiations were 'very close,' framing the relationship as nearing a breakthrough. SMBC was in advanced talks to increase its VPBank stake. Tesla registered a local entity in Vietnam. Canada was upgraded to strategic partner status, and the EU advanced free-trade discussions with Southeast Asia. An ExxonMobil crude oil agreement underscored energy cooperation. A $1 billion government bond auction set a volume record for the year. A typhoon struck central coastal provinces, causing damage to housing, roads, power lines, and agriculture. North Korea's vice defence minister undertook a formal visit to Vietnam. A UK police operation targeted Vietnamese diaspora crime gangs linked to human trafficking and cannabis\n- FTSE Russell completed Vietnam's emerging-market upgrade (regular, continuing): FTSE Russell completed Vietnam's emerging-market upgrade, triggering post-upgrade market adjustment.\n- To Lam publicly stated US-Vietnam trade (regular, continuing): To Lam publicly stated US-Vietnam trade negotiations were very close to completion.\n- A typhoon struck central coastal provinces (regular, continuing): A typhoon struck central coastal provinces, damaging housing, roads, power infrastructure, and agriculture.\n- North Korea's vice defence minister undertook (regular, continuing): North Korea's vice defence minister undertook a formal visit to Vietnam.\n- Vietnam conducted a $1 billion government (regular, continuing): Vietnam conducted a $1 billion government bond auction, the highest volume that year.\n- Tesla registered a local operating entity (regular, continuing): Tesla registered a local operating entity in Vietnam.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "PE",
+  "name": "Peru",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T11:36:42+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Peru's week was defined by a tension between encouraging macroeconomic data and growing public frustration. The country's economy expanded faster than three percent for a second consecutive month, yet President Fujimori's approval rating sank as Peruvians expressed concern over the economy and rising crime. On the ground, a heated eviction saw residents douse workers with flaming gasoline, underscoring ongoing property and labor disputes. In a high-profile resource story, an indigenous group formally bid for a share of a China-owned mine, continuing Peru's pattern of local communities asserting claims over foreign-operated mining assets. In Chiclayo, vigils and prayers were held for the recovery and return of a local religious figure known as the 'Peruvian pope,' a story clearly linked to the recent papal visit that had entered its final days. No major contradictions appeared among the headlines, but the coexistence of strong growth figures and plummeting presidential approval highlights a growing disconnect between macro data and lived experience.",
+    "key_events": [
+      {
+        "event": "President Fujimori's approval rating sank amid public anxiety over the economy and crime.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Peru's GDP expanded faster than three percent for a second consecutive month.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Residents doused eviction workers with flaming gasoline during a dispute in Peru.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "An indigenous group formally bid for a share of a China-owned mine in Peru.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Chiclayo held prayers for the recovery and return of a figure nicknamed the 'Peruvian pope.'",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "diplomacy"
+    ],
+    "emojis": [
+      "📈",
+      "✊",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "Peru's economy expanded faster than three percent for a second month, per Bloomberg headline 4.",
+      "Residents doused workers with flaming gasoline during an eviction, per Al Jazeera headline 3.",
+      "An indigenous group bid for a share of a China-owned mine, per Bloomberg headline 2."
+    ],
+    "developments": [
+      {
+        "subject": "Fujimori approval decline",
+        "what_happened": "President Fujimori's approval rating sank as Peruvians expressed frustration over the economy and crime.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "GDP growth above 3 percent",
+        "what_happened": "Peru's economy expanded faster than three percent for a second consecutive month.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          4
+        ]
+      },
+      {
+        "subject": "Flaming gasoline eviction",
+        "what_happened": "Residents doused workers with flaming gasoline during an eviction, highlighting volatile property and labor disputes.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Indigenous bid on China mine",
+        "what_happened": "An indigenous group formally bid for a share of a China-operated mine, continuing local claims over foreign mining assets.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2
+        ]
+      },
+      {
+        "subject": "'Peruvian pope' recovery prayers",
+        "what_happened": "Chiclayo residents held prayers for the recovery and return of a local religious figure nicknamed the 'Peruvian pope,' linked to the recent papal visit.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Public anxiety over crime",
+        "what_happened": "Frustration over rising crime became a visible driver of declining confidence in the Fujimori administration.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          5
+        ]
+      }
+    ],
+    "gone": [
+      "Local elections concluded with López Aliaga",
+      "New cabinet sworn in amid ambiguity",
+      "BTS Arirang tour opened in Lima",
+      "Fire on the Machu Picchu access",
+      "Fire on the Machu Picchu access (again)"
+    ],
+    "collection_quality": {
+      "rating": "thin",
+      "note": "Five headlines from three sources provide a partial picture; no coverage of foreign policy, defense, or the legislative calendar was found this window."
+    },
+    "headlines_used": [
+      "Chiclayo prays for recovery and return of the 'Peruvian pope'",
+      "Peru Indigenous Group Bids for Part of China-Owned Mine",
+      "Residents douse workers with flaming gasoline during eviction in Peru - Al Jazeera",
+      "Peru’s Economy Expanded Faster Than 3% for Second Month",
+      "Fujimori Approval Sinks as Peruvians Fret Over Economy, Crime"
+    ],
+    "converted": false,
+    "relevant_headlines": 5,
+    "unscorable": true,
+    "unscorable_reason": "only 5 relevant headlines (fewer than 40); the reader judged the collection thin"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Fujimori approval decline",
+        "expected": "Fujimori approval decline stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Fujimori approval decline appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "GDP growth above 3 percent",
+        "expected": "GDP growth above 3 percent stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about GDP growth above 3 percent appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Flaming gasoline eviction",
+        "expected": "Flaming gasoline eviction stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Flaming gasoline eviction appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "GDP growth above 3 percent",
+        "expected": "persist",
+        "sign": "GDP growth above 3 percent is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Fujimori approval decline stays in the news at the same level. GDP growth above 3 percent stays in the news at the same level. Flaming gasoline eviction stays in the news at the same level. GDP growth above 3 percent is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Fujimori approval decline",
+        "expected": "A new opinion poll released within the next week will show Fujimori's approval slipping further below the level reported this week, with crime and the cost of living cited as the top grievances.",
+        "direction": "persist",
+        "sign": "A headline reports a new poll figure showing Fujimori's approval dropping to a lower number, with a direct quote from a surveyed Peruvian linking the decline to daily crime and economic pressure."
+      },
+      "second": {
+        "subject": "Indigenous bid on China-owned mine",
+        "expected": "The China-operated mining company will issue a public statement responding to the indigenous group's formal bid, and the national mining regulator will announce the opening of a review process.",
+        "direction": "escalate",
+        "sign": "A headline names the mining company and the regulatory body, describing the official response and the procedural step the regulator will take on the bid."
+      },
+      "third": {
+        "subject": "Peruvian pope recovery",
+        "expected": "The local religious figure in Chiclayo will be discharged from treatment or make a public appearance before the end of the window, closing the recovery arc that followed the papal visit.",
+        "direction": "de-escalate",
+        "sign": "A headline announces the figure's discharge or public appearance in Chiclayo, with residents described as celebrating the return."
+      },
+      "fade_call": {
+        "subject": "Flaming gasoline eviction",
+        "expected": "fade",
+        "sign": "No new eviction-related headlines appear in the next bulletin, and the incident drops from the top news cycle without a follow-up legal or labor story."
+      },
+      "surprise": {
+        "subject": "High-profile crime incident in Lima",
+        "expected": "A widely reported armed robbery or killing in Lima will push crime from a background polling concern to the top national story, prompting Fujimori to call a public security address within the week.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Peru will be shaped by the widening gap between strong GDP figures and public dissatisfaction. Fujimori's approval rating will slip further in fresh polling, with crime and daily economic strain topping the list of grievances. The indigenous group's formal bid for a share of the China-operated mine will trigger a corporate response and a regulatory review, keeping foreign-mining tensions in the headlines. In Chiclayo, the 'Peruvian pope' story will close as the religious figure is discharged or returns publicly, bringing a brief period of celebration. The violent eviction dispute will fade from the news cycle unless a new incident reignites it. The main wildcard is crime: a single high-profile incident in Lima could turn a polling trend into a crisis, forcing Fujimori to address the nation directly on security. The overall mood stays tense, with the macro-growth narrative losing its ability to reassure an increasingly frustrated public.",
+      "generated_at": "2026-10-23T11:26:45+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Fujimori crime response",
+        "expected": "President Fujimori delivers a major public address directly confronting the approval decline over the state of public safety.",
+        "direction": "escalate",
+        "sign": "A headline about the president giving a national speech or unveiling a new police mandate in response to falling support."
+      },
+      "second": {
+        "subject": "Indigenous bid on China mine",
+        "expected": "The indigenous group's formal bid triggers a public negotiation round with the mining operator over ownership shares.",
+        "direction": "persist",
+        "sign": "A headline about the local community entering talks with the foreign mining company or publishing the terms of its ownership claim."
+      },
+      "third": {
+        "subject": "Eviction and property disputes",
+        "expected": "The flaming gasoline eviction sparks a formal investigation into the conditions of the displaced workers.",
+        "direction": "persist",
+        "sign": "A headline about authorities opening a case or residents staging a second demonstration over a forced eviction."
+      },
+      "fade_call": {
+        "subject": "'Peruvian pope' prayers",
+        "expected": "fade",
+        "sign": "The prayer vigils drop out of the headline cycle as the papal visit concludes."
+      },
+      "surprise": {
+        "subject": "El Niño coastal weather event",
+        "expected": "A significant weather event linked to El Niño produces visible flooding or infrastructure damage in a Peruvian coastal area.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Peru, President Fujimori will face mounting pressure to respond publicly to the approval decline driven by crime anxiety. Expect a national address or a visible security announcement that attempts to close the gap between strong growth figures and lived frustration. The indigenous group's bid for a share of the China-operated mine will move into an active negotiation phase, adding a foreign-policy dimension to domestic resource politics. The violent eviction that saw residents douse workers with flaming gasoline will generate a follow-up investigation or a second property dispute. The Chiclayo prayers for the 'Peruvian pope' will fade as the papal visit wraps up. A medium-chance surprise involves El Niño bringing a notable weather event to the coast. The overall tone will be one of a government trying to project control while public confidence erodes.",
+      "generated_at": "2026-10-23T11:36:42+03:00"
+    }
+  },
+  "display": {
+    "headline": "Fujimori Faces Crime Backlash as Peru Growth Hides Frustration",
+    "emojis": [
+      "👑",
+      "🔫",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "Fujimori's declining approval and public response are the dominant political story of the week.",
+      "Crime anxiety is the primary driver of public frustration and the approval drop.",
+      "The indigenous bid on the China-operated mine brings mining and resource politics to the forefront."
+    ],
+    "tldr": "Peru will see Fujimori respond publicly to crime-driven approval losses, the China mine bid enter active talks, and the eviction dispute trigger an investigation. The 'Peruvian pope' story fades with the papal visit. El Niño flooding is a medium-chance wildcard.",
+    "eli5": "Peru's president, Fujimori, is losing support even though the country's economy is growing. People are angry about crime, and next week we expect him to give a big speech or make a new announcement about safety to try to win them back.\n\nThere's also a story about an indigenous group that put in a formal bid to own part of a mine run by a Chinese company. This will probably lead to negotiations and more public debate about who gets to benefit from Peru's natural resources.\n\nThe violent eviction where people threw flaming gasoline at workers will likely lead to an investigation or another dispute like it. Meanwhile, the prayers in Chiclayo for a local religious figure nicknamed the 'Peruvian pope' will probably fade from the news as the pope's visit ends.\n\nA surprise to watch for: the strongest El Niño on record could bring flooding to Peru's coast, which would be a new and dramatic development no one on the list is predicting."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nPeru was in a period of intense political transition following local elections. Rafael López Aliaga appeared to have won Lima's mayoral race with roughly 31 percent of the vote, though a ban on immediate reelection raised legal questions. A new cabinet was sworn in, although news sources disagreed on whether Dina Boluarte or Keiko Fujimori held the presidency. Pope Leo's visit to Peru was in final logistical and security preparation. BTS's Arirang world tour was holding three concerts at San Marcos Stadium in Lima, with the first show on October 7. The government announced a unified command against crime. A clemency request for former President Alejandro Toledo, supported by Eliane Karp, was pending review. The central bank held interest rates for a thirteenth consecutive month. A fire on the access road to Machu Picchu killed one person. Youth and student protests were occurring in Lima. A mercury contamination alert linked\n- Local elections concluded with López Aliaga (regular, continuing): Local elections concluded with López Aliaga leading in Lima and results pending JNE certification.\n- New cabinet sworn in amid ambiguity (regular, continuing): New cabinet sworn in amid ambiguity over whether Boluarte or Fujimori occupied the presidency.\n- Pope Leo's Peru visit entered final (regular, continuing): Pope Leo's Peru visit entered final security and logistical preparation phase.\n- BTS Arirang tour opened in Lima (regular, continuing): BTS Arirang tour opened in Lima with three concerts scheduled at San Marcos Stadium.\n- Fire on the Machu Picchu access (regular, continuing): Fire on the Machu Picchu access road killed one person, prompting safety concerns.\n- Fire on the Machu Picchu access (again) (regular, continuing): Fire on the Machu Picchu access road killed one person, prompting safety concerns.\n\nRound 2026-09-15:\nPeru entered a high-stakes pre-election week ahead of the October 4 regional elections. The murder of Susy Aponte Polo, a journalist and Áncash governor candidate, became the central domestic story; her funeral transformed into a political moment with rivals vying to claim the justice narrative. The government was pushing three positive pillars: Pope Leo's planned November visit, foreign investment in copper and port projects, and anti-cartel security cooperation with the United States. The opposition and civil society were pressing four negative stories: the Áncash murder, a proposed ninth AFP pension-fund withdrawal, Amazon and Indigenous rights pressure from a human-rights court case, and sexual-violence scandals involving Awajún communities and a naval school. Keiko Fujimori's public thanks to Trump at the UN generated a foreign-policy debate around the Shield of the Americas. Illegal-mining gangs were defying a military offensive in the southern highlands. El Niño, the strongest on record, was weeks from\n- Susy Aponte Polo, an Áncash governor (regular, continuing): Susy Aponte Polo, an Áncash governor candidate and journalist, was murdered during the campaign period and her funeral became a political event.\n- The October 4 regional election approached (regular, continuing): The October 4 regional election approached with candidate-security concerns dominating the political agenda.\n- Pope Leo's planned November visit to (regular, continuing): Pope Leo's planned November visit to Peru accelerated planning, including a giant statue and Vatican-government coordination.\n- A ninth AFP pension-fund withdrawal bill (regular, continuing): A ninth AFP pension-fund withdrawal bill entered the congressional debate, drawing opposition from unions and worker groups.\n- The strongest El Niño on record (regular, continuing): The strongest El Niño on record was weeks from peak, raising coastal-flood and agricultural-risk concerns.\n- The strongest El Niño on record (again) (regular, continuing): The strongest El Niño on record was weeks from peak, raising coastal-flood and agricultural-risk concerns.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

@@ -1,0 +1,325 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "EG",
+  "name": "Egypt",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T15:13:18+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The defining story of the week in Egypt was President Abdel Fattah el-Sisi's dual announcement: he sought parliamentary authorization to send military support to defend Saudi Arabia against Houthi drone attacks, and he confirmed his presidency will end at the close of his current mandate in 2030 while outlining a plan to groom successor leaders. The Saudi pledge, reported across Reuters, Bloomberg, Al Jazeera, and DW, framed Egypt's role as a willing guarantor of Gulf security should Riyadh request assistance. The succession remark, covered by Reuters, TV5Monde, and DW, was notable for its explicitness in a country where succession has long been opaque. Separately, TV5Monde reported that Egypt was accused of bombing a clandestine gold mine inside Sudan, adding a cross-border security dimension. On the sports-diplomacy front, FIFA fined Spain 20,000 dollars and imposed a partial stadium closure after anti-Muslim chants directed at Egyptian players during a friendly, an incident Lamine Yamal publicly condemned. On the economic side, Bloomberg reported the IMF aims to complete Egypt's final program review by year-end, while Dangote Industries visited Cairo to pitch African market access ahead of a planned IPO. A BBC report also highlighted a detained woman whose husband appealed to the prime minister for intervention. The week combined military positioning, succession clarity, and modest economic progress.",
+    "key_events": [
+      {
+        "event": "Sisi asked Parliament to authorize Egypt to defend Saudi Arabia if requested against Houthi attacks.",
+        "date": "2026-10-14",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Sisi publicly stated his presidency will end in 2030 and outlined plans to prepare future leaders.",
+        "date": "2026-10-15",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Egypt was accused of bombing a clandestine mine inside Sudan.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "FIFA fined Spain 20,000 dollars and ordered a partial stadium closure after anti-Muslim chants during a match against Egypt.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "The IMF signalled it would wrap up Egypt's final program review by the end of the year.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Aimee Dangote visited Egypt to promote African investor access for a planned IPO.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "A husband publicly called on Egypt's prime minister to intervene after his wife was detained.",
+        "date": "2026-10-17",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "DW reported on Egypt's rent-control reform and its impact on millions of residents.",
+        "date": "2026-10-17",
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🛡️",
+      "👑",
+      "🗣️"
+    ],
+    "emoji_reasons": [
+      "Sisi sought parliamentary authorization to send military aid to defend Saudi Arabia from Houthi drones (headlines 1, 4, 6, 7, 13, 16).",
+      "Sisi confirmed his presidency ends in 2030 and outlined a succession plan (headlines 5, 8, 10).",
+      "The week was dominated by Sisi's public speeches and vows on both defense and succession (headlines 4, 6, 8, 16)."
+    ],
+    "developments": [
+      {
+        "subject": "Sisi seeks Saudi defense mandate",
+        "what_happened": "Sisi asked Parliament to authorize Egypt to send military assistance to defend Saudi Arabia against ongoing Houthi drone attacks.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          4,
+          6,
+          7,
+          13,
+          16
+        ]
+      },
+      {
+        "subject": "Sisi 2030 succession announcement",
+        "what_happened": "Sisi stated his presidency will end in 2030 and outlined a plan to groom future leaders, a notably explicit remark on Egyptian succession.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          8,
+          10
+        ]
+      },
+      {
+        "subject": "Egypt accused of Sudan mine strike",
+        "what_happened": "Egypt was accused of bombing a clandestine gold mine inside Sudan, raising cross-border tensions.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "FIFA Spain-Egypt chants fine",
+        "what_happened": "FIFA fined Spain 20,000 dollars and imposed a partial stadium closure after anti-Muslim chants during a friendly against Egypt, an incident Lamine Yamal condemned.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          9,
+          17
+        ]
+      },
+      {
+        "subject": "IMF final program review",
+        "what_happened": "The IMF indicated it aims to complete Egypt's final program review by the end of 2026.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          12
+        ]
+      },
+      {
+        "subject": "Dangote IPO Egypt visit",
+        "what_happened": "Aimee Dangote visited Cairo to push for broader African market access ahead of a planned initial public offering.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15
+        ]
+      },
+      {
+        "subject": "Detained woman PM appeal",
+        "what_happened": "A husband called on the prime minister to intervene after his wife was detained in Egypt.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Rent reform impact",
+        "what_happened": "DW reported that Egypt's rent-control revolution is reshaping the housing and cost-of-living landscape for millions.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          14
+        ]
+      }
+    ],
+    "gone": [
+      "Approximately 72 artisanal gold miners killed",
+      "Egypt prepares a 30 percent state-stake",
+      "Baha'i families face a shortage of",
+      "US-brokered Gaza ceasefire stalls a year",
+      "US-brokered Gaza ceasefire stalls a year (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major political-security and economic stories well but offer thin detail on the Sudan bombing and the detained-woman case, both of which appear to be developing further."
+    },
+    "headlines_used": [
+      "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
+      "FIFA fines Spain $20,000 for anti-Muslim chants at Egypt game condemned by Lamine Yamal",
+      "Husband calls for PM to intervene after wife detained in Egypt",
+      "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
+      "Le président égyptien Sissi assure qu'il partira à la fin de son mandat en 2030",
+      "Egypt Ready to Defend Saudi Arabia if Needed, Sisi Says",
+      "Egypt’s el-Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "Egypt's Sisi says his presidency will end in 2030, outlines plan to prepare future leaders",
+      "Spain handed partial stadium closure after discriminatory chants v Egypt",
+      "Shugaban Masar al-Sisi ya sanar da lokacin karewar wa'adinsa",
+      "VIDÉO. L'Égypte accusée d'avoir bombardé une mine clandestine au Soudan",
+      "IMF Aims to Wrap Up Egypt’s Final Program Review by End of Year",
+      "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+      "Why Egypt's rent revolution is changing millions of lives",
+      "Dangote Pushes African Market Access for IPO With Egypt Visit",
+      "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+      "Spain punished by FIFA for Islamophobic chants during Egypt friendly"
+    ],
+    "converted": false,
+    "relevant_headlines": 17,
+    "unscorable": true,
+    "unscorable_reason": "only 17 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Sisi seeks Saudi defense mandate",
+        "expected": "Sisi seeks Saudi defense mandate stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sisi seeks Saudi defense mandate appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Sisi 2030 succession announcement",
+        "expected": "Sisi 2030 succession announcement stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sisi 2030 succession announcement appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Egypt accused of Sudan mine strike",
+        "expected": "Egypt accused of Sudan mine strike stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Egypt accused of Sudan mine strike appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Sisi seeks Saudi defense mandate",
+        "expected": "persist",
+        "sign": "Sisi seeks Saudi defense mandate is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Sisi seeks Saudi defense mandate stays in the news at the same level. Sisi 2030 succession announcement stays in the news at the same level. Egypt accused of Sudan mine strike stays in the news at the same level. Sisi seeks Saudi defense mandate is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Sisi Saudi defense mandate",
+        "expected": "Egypt's parliament will vote to approve the deployment of military forces to defend Saudi Arabia against Houthi drone attacks.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the result of the parliamentary vote on Egyptian military deployment to support Saudi Arabia against Houthi strikes."
+      },
+      "second": {
+        "subject": "Sisi succession plan",
+        "expected": "Egyptian political figures and opposition voices will publicly react to the departure timeline, and specific candidate names will surface in the press.",
+        "direction": "persist",
+        "sign": "Headlines will name potential successor candidates and capture the political reaction to Sisi's succession statement."
+      },
+      "third": {
+        "subject": "Egypt Sudan mine dispute",
+        "expected": "Sudan will issue a formal diplomatic response to the Egyptian bombing of the gold mine, tightening cross-border tensions.",
+        "direction": "escalate",
+        "sign": "Headlines will report Sudan's official reaction to the Egyptian strike and any resulting military or diplomatic posturing between the two countries."
+      },
+      "fade_call": {
+        "subject": "FIFA Spain Egypt chants fine",
+        "expected": "fade",
+        "sign": "The FIFA fine and stadium closure will drop out of the headline cycle with no further coverage of the Spain-Egypt friendly."
+      },
+      "surprise": {
+        "subject": "Houthi strike on Egyptian vessel",
+        "expected": "A Houthi drone or missile will target an Egyptian ship or port facility, forcing the deployment question into the foreground before parliament finishes deliberations.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Egypt will be defined by the parliamentary vote on Sisi's request to send military forces to defend Saudi Arabia against Houthi drone attacks, moving the announcement into concrete action. The succession remark will dominate political commentary as government figures react, and specific candidate names will surface in the press. The Sudan gold-mine bombing will prompt a formal diplomatic response, tightening cross-border relations. The FIFA Spain chants story will fade from the headlines. On the economic front, the IMF final program review will advance toward its year-end target, and the Dangote IPO push will generate further market coverage. A medium-chance surprise involves a Houthi strike on an Egyptian vessel, forcing the deployment question into the foreground before parliament finishes deliberations. Overall, the week will consolidate Egypt's role as a Gulf security guarantor while the succession conversation gains shape.",
+      "generated_at": "2026-10-23T15:02:03+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Saudi defense mandate parliamentary vote",
+        "expected": "Egypt's parliament will hold the formal vote to authorize military assistance to Saudi Arabia against Houthi drone attacks.",
+        "direction": "escalate",
+        "sign": "Parliament votes on the authorization and the result is announced, with Saudi Arabia's name prominent in the headline."
+      },
+      "second": {
+        "subject": "2030 succession grooming plan",
+        "expected": "Egyptian political figures and media will name specific candidates as part of Sisi's stated process for grooming future leaders.",
+        "direction": "persist",
+        "sign": "A named political figure is identified in headlines as a potential successor or as part of the succession apparatus."
+      },
+      "third": {
+        "subject": "Sudan gold mine dispute",
+        "expected": "Sudan's military government will issue a formal public response to the accusation that Egypt bombed a clandestine gold mine.",
+        "direction": "escalate",
+        "sign": "A Sudanese official or military source is quoted in headlines reacting to the Egypt-Sudan mine strike dispute."
+      },
+      "fade_call": {
+        "subject": "FIFA Spain-Egypt chants fine",
+        "expected": "fade",
+        "sign": "The FIFA fine and stadium closure are noted in passing in sports coverage with no further disciplinary action announced."
+      },
+      "surprise": {
+        "subject": "Houthi strike triggers concrete deployment",
+        "expected": "A new Houthi drone strike on a Gulf target will prompt Egypt to announce a specific military asset or unit moving toward the region.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Egypt will be defined by the parliamentary vote on military support for Saudi Arabia against Houthi attacks, which will escalate the country's Gulf involvement from pledge to formal authorization. The succession question will generate a new layer of political speculation as analysts and the ruling alliance attempt to identify who fits Sisi's stated plan for grooming future leaders. The Sudan gold mine accusation will move from media report to formal diplomatic friction, with Khartoum's military government issuing a public response. The FIFA fine on Spain will fade into routine sports coverage. A medium-chance surprise lies in a fresh Houthi strike that forces Egypt to announce a specific military asset moving toward the region, shifting the story from intention to action.",
+      "generated_at": "2026-10-23T15:13:18+03:00"
+    }
+  },
+  "display": {
+    "headline": "Egypt Votes on Gulf Defense Mandate as Succession Speculation Heats",
+    "emojis": [
+      "🏛️",
+      "👑",
+      "⚔️"
+    ],
+    "emoji_reasons": [
+      "The parliamentary vote on the Saudi defense mandate is the central political event of the week.",
+      "Sisi's 2030 succession plan and the naming of potential successors will drive political commentary.",
+      "The Sudan gold mine dispute and potential military deployment toward the Gulf carry a conflict dimension."
+    ],
+    "tldr": "Egypt's parliament will vote on the Saudi defense mandate, generating the week's dominant headline. Sisi's 2030 succession plan will spark naming-game speculation, and Sudan will formally respond to the gold mine bombing accusation. A fresh Houthi strike is a medium-chance wildcard.",
+    "eli5": "In Egypt right now, President Sisi just made two big announcements: he wants his parliament to approve sending soldiers to help Saudi Arabia defend itself from Houthi drones, and he said he will leave office in 2030 with a plan to pick his replacement. Both of those are huge for a country where the leader has held power for over a decade.\n\nNext week, the parliament will actually vote on that military help. That is the Saudi defense mandate vote and it will be the biggest story. At the same time, politicians and reporters will start guessing who the successor will be, because Sisi said there is a grooming plan but did not name anyone yet.\n\nThere is also a smaller fight with Sudan over a gold mine that Egypt allegedly bombed. Sudan's generals will probably get angry and issue a formal statement, turning it into a border dispute rather than just a news report.\n\nThe big surprise would be if the Houthis hit something important again and Egypt has to actually send troops or jets instead of just talking about it. That would turn a political vote into a real military operation."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nHouthi missiles struck the Riyadh airport, killing an Egyptian flight attendant, and Egypt pledged to offer any kind of support to Saudi Arabia. Approximately 72 artisanal gold miners died in an airstrike near the disputed Egypt-Sudan border, and both foreign ministries were expected to consult on whose aircraft fired. Baha'i families in Egypt faced a critical shortage of burial space, and the press union chief publicly rejected pressure over detained journalists while torture allegations surfaced in the Matsadaash case. The government prepared a 30 percent state-stake sale of Banque du Caire through the Egyptian stock exchange as a privatization signal, while inflation had slowed despite global price pressures. Restored Fayoum mummy portraits were unveiled and set to travel abroad for the first time. A US judge ordered the Trump administration to facilitate the return of an Egyptian man deported to Equatorial Guinea. The US-brokered Gaza ceasefire had stalled a year\n- Houthi strikes hit Riyadh airport, killing (regular, continuing): Houthi strikes hit Riyadh airport, killing an Egyptian flight attendant and prompting Egypt to pledge full support to Saudi Arabia.\n- Approximately 72 artisanal gold miners killed (regular, continuing): Approximately 72 artisanal gold miners killed in an airstrike near the Egypt-Sudan border, triggering blame disputes.\n- Egypt prepares a 30 percent state-stake (regular, continuing): Egypt prepares a 30 percent state-stake IPO of Banque du Caire on the stock exchange as a privatization milestone.\n- Baha'i families face a shortage of (regular, continuing): Baha'i families face a shortage of burial plots, and the press union rejects pressure over detained journalists amid torture allegations.\n- US-brokered Gaza ceasefire stalls a year (regular, continuing): US-brokered Gaza ceasefire stalls a year after signing, with Egypt pushing to stay central to mediation.\n- US-brokered Gaza ceasefire stalls a year (again) (regular, continuing): US-brokered Gaza ceasefire stalls a year after signing, with Egypt pushing to stay central to mediation.\n\nRound 2026-09-15:\nThe text described a week in which Egypt faced multiple simultaneous diplomatic and economic pressures. Italy's courts convicted three Egyptian security officials in the Giulio Regeni case, handing down ten-year sentences that Cairo treated as an in-absentia judgment. Ethiopia's army chief publicly accused Egypt, Sudan, and Eritrea of backing Tigrayan rebels, putting Cairo into a defensive regional posture. Mohamed Salah was rested for Egypt's AFCON qualifier in South Sudan, igniting a national debate around coach Hossam Hassan's authority. The central bank held rates steady while the government pushed gold and mining investment as a new economic pillar. Red Sea and Suez Canal messaging gained strategic weight amid Hormuz tensions and Houthi alerts. Egypt summoned the Turkish envoy over Erdogan's regional comments, and leaks about Egypt's pre-October-7 warning to Netanyahu gave Cairo quiet leverage in Israel-Gulf coordination. Domestically, life stayed calm under persistent inflation pressure, with food and fuel costs dominating\n- Italian court convicts three Egyptian security (regular, continuing): Italian court convicts three Egyptian security officials in the Regeni case with ten-year sentences\n- Ethiopian army chief accuses Egypt, Sudan (regular, continuing): Ethiopian army chief accuses Egypt, Sudan, and Eritrea of supporting Tigrayan rebels\n- Mohamed Salah rested for AFCON qualifier (regular, continuing): Mohamed Salah rested for AFCON qualifier against South Sudan over artificial turf concerns\n- Central Bank of Egypt keeps policy (regular, continuing): Central Bank of Egypt keeps policy rate unchanged while government promotes mining investment\n- Egypt summons Turkish envoy over Erdogan's (regular, continuing): Egypt summons Turkish envoy over Erdogan's regional remarks\n- Egypt summons Turkish envoy over Erdogan's (again) (regular, continuing): Egypt summons Turkish envoy over Erdogan's regional remarks\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

@@ -1163,3 +1163,390 @@
 12:45:43   [US crystal_forecast] attempt 1: 502.5s, prompt_tokens=7529, completion_tokens=2916
 12:45:43 Step 6 of 224 done (crystal_forecast, United States, 8m22s). Estimated remaining: 40h16m. You can stop any time and continue later.
 12:48:40 Interrupted. Double-click the icon again to continue from where you stopped.
+21:27:24 Round 2026-10-17 started. Previous round: 2026-10-02 (15 days ago).
+21:27:24 Fetching headlines for round 2026-10-17, window 2026-10-03 to 2026-10-17, previous round: 2026-10-02
+21:27:24 Country 1 of 32: United States already fetched, skipping
+21:27:24 Country 2 of 32: Russia already fetched, skipping
+21:27:24 Country 3 of 32: China already fetched, skipping
+21:27:24 Country 4 of 32: DR Congo already fetched, skipping
+21:27:24 Country 5 of 32: Iran already fetched, skipping
+21:27:24 Country 6 of 32: Israel already fetched, skipping
+21:27:24 Country 7 of 32: Ukraine already fetched, skipping
+21:27:24 Country 8 of 32: North Korea already fetched, skipping
+21:27:24 Country 9 of 32: Venezuela already fetched, skipping
+21:27:24 Country 10 of 32: Canada already fetched, skipping
+21:27:24 Country 11 of 32: Iraq already fetched, skipping
+21:27:24 Country 12 of 32: Saudi Arabia already fetched, skipping
+21:27:24 Country 13 of 32: Japan already fetched, skipping
+21:27:24 Country 14 of 32: South Korea already fetched, skipping
+21:27:24 Country 15 of 32: Taiwan already fetched, skipping
+21:27:24 Country 16 of 32: Germany already fetched, skipping
+21:27:24 Country 17 of 32: Netherlands already fetched, skipping
+21:27:24 Country 18 of 32: Switzerland already fetched, skipping
+21:27:24 Country 19 of 32: Singapore already fetched, skipping
+21:27:24 Country 20 of 32: Brazil already fetched, skipping
+21:27:24 Country 21 of 32: Australia already fetched, skipping
+21:27:24 Country 22 of 32: Indonesia already fetched, skipping
+21:27:24 Country 23 of 32: Chile already fetched, skipping
+21:27:24 Country 24 of 32: Peru already fetched, skipping
+21:27:24 Country 25 of 32: Vietnam already fetched, skipping
+21:27:24 Country 26 of 32: France already fetched, skipping
+21:27:24 Country 27 of 32: United Kingdom already fetched, skipping
+21:27:24 Country 28 of 32: Italy already fetched, skipping
+21:27:24 Country 29 of 32: India already fetched, skipping
+21:27:24 Country 30 of 32: Egypt already fetched, skipping
+21:27:24 Country 31 of 32: Turkey already fetched, skipping
+21:27:24 Country 32 of 32: South Africa already fetched, skipping
+21:27:24 Headline fetch complete.
+21:27:24 Country 1 of 32: United States
+21:27:27 Step 1 of 128 done (reader, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+21:27:27 Step 2 of 128 done (judge, United States, 0s). Estimated remaining: 0s. You can stop any time and continue later.
+21:41:14   [US plain_forecast] attempt 1: 823.6s, prompt_tokens=4888, completion_tokens=5022
+21:41:14 Step 3 of 128 done (plain, United States, 13m44s). Estimated remaining: 28h35m. You can stop any time and continue later.
+21:56:29   [US crystal_forecast] attempt 1: 911.1s, prompt_tokens=6865, completion_tokens=5545
+21:56:29   [US crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('day' found)
+21:59:00   [US crystal_forecast] attempt 2: 151.4s, prompt_tokens=7982, completion_tokens=1273
+21:59:00 Step 4 of 128 done (crystal, United States, 17m43s). Estimated remaining: 32h29m. You can stop any time and continue later.
+21:59:00 Country 1 of 32: United States. reader done, judge skipped, plain done (824s), crystal done (1063s)
+21:59:00 Country 2 of 32: Russia
+21:59:01 Step 5 of 128 done (reader, Russia, 0s). Estimated remaining: 32h13m. You can stop any time and continue later.
+21:59:01 Step 6 of 128 done (judge, Russia, 0s). Estimated remaining: 31h57m. You can stop any time and continue later.
+22:16:04   [RU plain_forecast] attempt 1: 1021.6s, prompt_tokens=4753, completion_tokens=6464
+22:16:04   [RU plain_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.expected: must be one of ['escalate', 'fade', 'persist'], got 'The magnitude-seven seismic event will drop from front-page coverage as aftershock updates slow and the energy-war narrative absorbs reader attention.'
+22:22:02   [RU plain_forecast] attempt 2: 357.7s, prompt_tokens=5503, completion_tokens=3081
+22:22:02 Step 7 of 128 done (plain, Russia, 22m59s). Estimated remaining: 36h35m. You can stop any time and continue later.
+22:41:44   [RU crystal_forecast] attempt 1: 1181.4s, prompt_tokens=6647, completion_tokens=6553
+22:41:44 Step 8 of 128 done (crystal, Russia, 19m41s). Estimated remaining: 37h03m. You can stop any time and continue later.
+22:41:44 Country 2 of 32: Russia. reader done, judge skipped, plain done (1379s), crystal done (1181s)
+22:41:44 Country 3 of 32: China
+22:41:45 Step 9 of 128 done (reader, China, 0s). Estimated remaining: 36h44m. You can stop any time and continue later.
+22:41:45 Step 10 of 128 done (judge, China, 0s). Estimated remaining: 36h26m. You can stop any time and continue later.
+23:01:28   [CN plain_forecast] attempt 1: 1181.5s, prompt_tokens=4750, completion_tokens=8031
+23:01:28 Step 11 of 128 done (plain, China, 19m42s). Estimated remaining: 36h35m. You can stop any time and continue later.
+23:20:29   [CN crystal_forecast] attempt 1: 1140.8s, prompt_tokens=6647, completion_tokens=6733
+23:20:29 Step 12 of 128 done (crystal, China, 19m01s). Estimated remaining: 36h21m. You can stop any time and continue later.
+23:20:29 Country 3 of 32: China. reader done, judge skipped, plain done (1182s), crystal done (1141s)
+23:20:29 Country 4 of 32: DR Congo
+23:20:29 Step 13 of 128 done (reader, DR Congo, 0s). Estimated remaining: 36h02m. You can stop any time and continue later.
+23:20:29 Step 14 of 128 done (judge, DR Congo, 0s). Estimated remaining: 35h43m. You can stop any time and continue later.
+23:28:44   [CD plain_forecast] attempt 1: 494.7s, prompt_tokens=2212, completion_tokens=3680
+23:28:44 Step 15 of 128 done (plain, DR Congo, 8m15s). Estimated remaining: 32h34m. You can stop any time and continue later.
+23:46:33   [CD crystal_forecast] attempt 1: 1068.3s, prompt_tokens=4173, completion_tokens=6956
+23:46:33   [CD crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('1' found)
+23:51:53   [CD crystal_forecast] attempt 2: 320.1s, prompt_tokens=5363, completion_tokens=2511
+23:51:53 Step 16 of 128 done (crystal, DR Congo, 23m08s). Estimated remaining: 33h38m. You can stop any time and continue later.
+23:51:53 Country 4 of 32: DR Congo. reader done, judge skipped, plain done (495s), crystal done (1388s)
+23:51:53 Country 5 of 32: Iran
+23:51:53 Step 17 of 128 done (reader, Iran, 0s). Estimated remaining: 33h20m. You can stop any time and continue later.
+23:51:53 Step 18 of 128 done (judge, Iran, 0s). Estimated remaining: 33h02m. You can stop any time and continue later.
+00:06:49   [IR plain_forecast] attempt 1: 895.2s, prompt_tokens=3752, completion_tokens=6072
+00:06:49 Step 19 of 128 done (plain, Iran, 14m55s). Estimated remaining: 32h07m. You can stop any time and continue later.
+00:25:43   [IR crystal_forecast] attempt 1: 1134.0s, prompt_tokens=5608, completion_tokens=6640
+00:25:43 Step 20 of 128 done (crystal, Iran, 18m54s). Estimated remaining: 32h02m. You can stop any time and continue later.
+00:25:43 Country 5 of 32: Iran. reader done, judge skipped, plain done (895s), crystal done (1134s)
+00:25:43 Country 6 of 32: Israel
+00:25:43 Step 21 of 128 done (reader, Israel, 0s). Estimated remaining: 31h44m. You can stop any time and continue later.
+00:25:43 Step 22 of 128 done (judge, Israel, 0s). Estimated remaining: 31h27m. You can stop any time and continue later.
+00:32:05   [IL plain_forecast] attempt 1: 381.4s, prompt_tokens=3265, completion_tokens=2163
+00:32:05   [IL plain_forecast] attempt 1 rejected: Bulletin validation failed:
+  - lead.expected: expected a sentence of 4 to 40 words
+  - second.expected: expected a sentence of 4 to 40 words
+00:42:42   [IL plain_forecast] attempt 2: 637.3s, prompt_tokens=4029, completion_tokens=5515
+00:42:42 Step 23 of 128 done (plain, Israel, 16m59s). Estimated remaining: 31h01m. You can stop any time and continue later.
+01:02:30   [IL crystal_forecast] attempt 1: 1188.2s, prompt_tokens=6022, completion_tokens=7049
+01:02:30 Step 24 of 128 done (crystal, Israel, 19m48s). Estimated remaining: 31h01m. You can stop any time and continue later.
+01:02:30 Country 6 of 32: Israel. reader done, judge skipped, plain done (1019s), crystal done (1188s)
+01:02:30 Country 7 of 32: Ukraine
+01:02:32 Step 25 of 128 done (reader, Ukraine, 0s). Estimated remaining: 30h43m. You can stop any time and continue later.
+01:02:32 Step 26 of 128 done (judge, Ukraine, 0s). Estimated remaining: 30h25m. You can stop any time and continue later.
+01:14:55   [UA plain_forecast] attempt 1: 741.8s, prompt_tokens=4801, completion_tokens=4288
+01:14:55 Step 27 of 128 done (plain, Ukraine, 12m22s). Estimated remaining: 29h24m. You can stop any time and continue later.
+01:36:07   [UA crystal_forecast] attempt 1: 1270.5s, prompt_tokens=6745, completion_tokens=6824
+01:36:07 Step 28 of 128 done (crystal, Ukraine, 21m11s). Estimated remaining: 29h33m. You can stop any time and continue later.
+01:36:07 Country 7 of 32: Ukraine. reader done, judge skipped, plain done (742s), crystal done (1271s)
+01:36:07 Country 8 of 32: North Korea
+01:42:12   [KP reader] attempt 1: 364.0s, prompt_tokens=2230, completion_tokens=2811
+01:42:12 Step 29 of 128 done (reader, North Korea, 6m04s). Estimated remaining: 27h59m. You can stop any time and continue later.
+01:42:12 Step 30 of 128 done (judge, North Korea, 0s). Estimated remaining: 27h42m. You can stop any time and continue later.
+01:51:04   [KP plain_forecast] attempt 1: 532.0s, prompt_tokens=1815, completion_tokens=3705
+01:51:04 Step 31 of 128 done (plain, North Korea, 8m52s). Estimated remaining: 26h36m. You can stop any time and continue later.
+02:02:05   [KP crystal_forecast] attempt 1: 661.3s, prompt_tokens=3706, completion_tokens=4565
+02:02:05 Step 32 of 128 done (crystal, North Korea, 11m01s). Estimated remaining: 25h48m. You can stop any time and continue later.
+02:02:05 Country 8 of 32: North Korea. reader done (364s), judge skipped, plain done (532s), crystal done (661s)
+02:02:05 Country 9 of 32: Venezuela
+02:08:43   [VE reader] attempt 1: 398.1s, prompt_tokens=2067, completion_tokens=3264
+02:08:43 Step 33 of 128 done (reader, Venezuela, 6m38s). Estimated remaining: 24h42m. You can stop any time and continue later.
+02:08:43 Step 34 of 128 done (judge, Venezuela, 0s). Estimated remaining: 24h27m. You can stop any time and continue later.
+02:16:34   [VE plain_forecast] attempt 1: 471.1s, prompt_tokens=1775, completion_tokens=3118
+02:16:34 Step 35 of 128 done (plain, Venezuela, 7m51s). Estimated remaining: 23h33m. You can stop any time and continue later.
+02:28:51   [VE crystal_forecast] attempt 1: 736.9s, prompt_tokens=3700, completion_tokens=4671
+02:28:51 Step 36 of 128 done (crystal, Venezuela, 12m17s). Estimated remaining: 23h04m. You can stop any time and continue later.
+02:28:51 Country 9 of 32: Venezuela. reader done (398s), judge skipped, plain done (471s), crystal done (737s)
+02:28:51 Country 10 of 32: Canada
+02:36:35   [CA reader] attempt 1: 463.9s, prompt_tokens=2880, completion_tokens=3629
+02:36:35 Step 37 of 128 done (reader, Canada, 7m44s). Estimated remaining: 22h18m. You can stop any time and continue later.
+02:36:35 Step 38 of 128 done (judge, Canada, 0s). Estimated remaining: 22h03m. You can stop any time and continue later.
+02:44:54   [CA plain_forecast] attempt 1: 499.1s, prompt_tokens=2658, completion_tokens=3619
+02:44:54 Step 39 of 128 done (plain, Canada, 8m19s). Estimated remaining: 21h22m. You can stop any time and continue later.
+02:55:29   [CA crystal_forecast] attempt 1: 634.5s, prompt_tokens=4585, completion_tokens=3944
+02:55:29   [CA crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.expected: must be one of ['escalate', 'fade', 'persist'], got "The celebration of Canada's win over England will fade from front pages as the referendum and Stelco stories consume the news cycle."
+02:57:36   [CA crystal_forecast] attempt 2: 127.4s, prompt_tokens=5763, completion_tokens=1130
+02:57:36 Step 40 of 128 done (crystal, Canada, 12m42s). Estimated remaining: 21h01m. You can stop any time and continue later.
+02:57:36 Country 10 of 32: Canada. reader done (464s), judge skipped, plain done (499s), crystal done (762s)
+02:57:36 Country 11 of 32: Iraq
+03:02:54   [IQ reader] attempt 1: 317.4s, prompt_tokens=1725, completion_tokens=2624
+03:02:54 Step 41 of 128 done (reader, Iraq, 5m17s). Estimated remaining: 20h14m. You can stop any time and continue later.
+03:02:54 Step 42 of 128 done (judge, Iraq, 0s). Estimated remaining: 20h00m. You can stop any time and continue later.
+03:10:40   [IQ plain_forecast] attempt 1: 466.5s, prompt_tokens=1453, completion_tokens=3263
+03:10:40 Step 43 of 128 done (plain, Iraq, 7m46s). Estimated remaining: 19h25m. You can stop any time and continue later.
+03:24:10   [IQ crystal_forecast] attempt 1: 809.8s, prompt_tokens=3331, completion_tokens=5386
+03:24:10 Step 44 of 128 done (crystal, Iraq, 13m30s). Estimated remaining: 19h11m. You can stop any time and continue later.
+03:24:10 Country 11 of 32: Iraq. reader done (317s), judge skipped, plain done (466s), crystal done (810s)
+03:24:10 Country 12 of 32: Saudi Arabia
+03:30:24   [SA reader] attempt 1: 373.3s, prompt_tokens=3877, completion_tokens=2628
+03:30:24   [SA reader] attempt 1 rejected: Reader validation failed:
+  - Position validation failed:
+  - emoji_reasons: expected exactly 3 entries, got 4
+  - developments: expected 6 to 12 entries, got NoneType
+03:36:19   [SA reader] attempt 2: 355.2s, prompt_tokens=5105, completion_tokens=2915
+03:36:19 Step 45 of 128 done (reader, Saudi Arabia, 12m08s). Estimated remaining: 18h52m. You can stop any time and continue later.
+03:36:19 Step 46 of 128 done (judge, Saudi Arabia, 0s). Estimated remaining: 18h39m. You can stop any time and continue later.
+03:48:26   [SA plain_forecast] attempt 1: 726.1s, prompt_tokens=3519, completion_tokens=4883
+03:48:26 Step 47 of 128 done (plain, Saudi Arabia, 12m06s). Estimated remaining: 18h21m. You can stop any time and continue later.
+04:01:41   [SA crystal_forecast] attempt 1: 795.9s, prompt_tokens=5472, completion_tokens=5122
+04:01:41 Step 48 of 128 done (crystal, Saudi Arabia, 13m16s). Estimated remaining: 18h06m. You can stop any time and continue later.
+04:01:41 Country 12 of 32: Saudi Arabia. reader done (728s), judge skipped, plain done (726s), crystal done (796s)
+04:01:41 Country 13 of 32: Japan
+04:10:46   [JP reader] attempt 1: 544.5s, prompt_tokens=2914, completion_tokens=4113
+04:10:46 Step 49 of 128 done (reader, Japan, 9m04s). Estimated remaining: 17h41m. You can stop any time and continue later.
+04:10:46 Step 50 of 128 done (judge, Japan, 0s). Estimated remaining: 17h27m. You can stop any time and continue later.
+04:20:49   [JP plain_forecast] attempt 1: 603.1s, prompt_tokens=2679, completion_tokens=4201
+04:20:49 Step 51 of 128 done (plain, Japan, 10m03s). Estimated remaining: 17h05m. You can stop any time and continue later.
+04:38:13   [JP crystal_forecast] attempt 1: 1043.5s, prompt_tokens=4622, completion_tokens=6771
+04:38:13 Step 52 of 128 done (crystal, Japan, 17m24s). Estimated remaining: 17h02m. You can stop any time and continue later.
+04:38:13 Country 13 of 32: Japan. reader done (544s), judge skipped, plain done (603s), crystal done (1044s)
+04:38:13 Country 14 of 32: South Korea
+04:45:13   [KR reader] attempt 1: 420.5s, prompt_tokens=1848, completion_tokens=3364
+04:45:13 Step 53 of 128 done (reader, South Korea, 7m01s). Estimated remaining: 16h34m. You can stop any time and continue later.
+04:45:13 Step 54 of 128 done (judge, South Korea, 0s). Estimated remaining: 16h20m. You can stop any time and continue later.
+04:53:08   [KR plain_forecast] attempt 1: 474.8s, prompt_tokens=1677, completion_tokens=3560
+04:53:08 Step 55 of 128 done (plain, South Korea, 7m55s). Estimated remaining: 15h56m. You can stop any time and continue later.
+05:07:55   [KR crystal_forecast] attempt 1: 887.0s, prompt_tokens=3563, completion_tokens=6176
+05:07:55 Step 56 of 128 done (crystal, South Korea, 14m47s). Estimated remaining: 15h46m. You can stop any time and continue later.
+05:07:55 Country 14 of 32: South Korea. reader done (421s), judge skipped, plain done (475s), crystal done (887s)
+05:07:55 Country 15 of 32: Taiwan
+05:17:49   [TW reader] attempt 1: 593.5s, prompt_tokens=2100, completion_tokens=4860
+05:17:49   [TW reader] attempt 1 rejected: Reader validation failed:
+  - Position validation failed:
+  - emoji_reasons: expected exactly 3 entries, got 24
+  - developments: expected 6 to 12 entries, got NoneType
+05:21:14   [TW reader] attempt 2: 204.9s, prompt_tokens=3943, completion_tokens=1911
+05:21:14 Step 57 of 128 done (reader, Taiwan, 13m18s). Estimated remaining: 15h33m. You can stop any time and continue later.
+05:21:14 Step 58 of 128 done (judge, Taiwan, 0s). Estimated remaining: 15h20m. You can stop any time and continue later.
+05:33:54   [TW plain_forecast] attempt 1: 759.9s, prompt_tokens=1912, completion_tokens=5688
+05:33:54 Step 59 of 128 done (plain, Taiwan, 12m40s). Estimated remaining: 15h06m. You can stop any time and continue later.
+05:42:33   [TW crystal_forecast] attempt 1: 519.2s, prompt_tokens=3841, completion_tokens=3253
+05:42:33 Step 60 of 128 done (crystal, Taiwan, 8m39s). Estimated remaining: 14h45m. You can stop any time and continue later.
+05:42:33 Country 15 of 32: Taiwan. reader done (798s), judge skipped, plain done (760s), crystal done (519s)
+05:42:33 Country 16 of 32: Germany
+05:51:14   [DE reader] attempt 1: 521.1s, prompt_tokens=3144, completion_tokens=3875
+05:51:14 Step 61 of 128 done (reader, Germany, 8m41s). Estimated remaining: 14h24m. You can stop any time and continue later.
+05:51:14 Step 62 of 128 done (judge, Germany, 0s). Estimated remaining: 14h11m. You can stop any time and continue later.
+05:58:54   [DE plain_forecast] attempt 1: 459.4s, prompt_tokens=2880, completion_tokens=3394
+05:58:54 Step 63 of 128 done (plain, Germany, 7m39s). Estimated remaining: 13h50m. You can stop any time and continue later.
+06:13:29   [DE crystal_forecast] attempt 1: 874.9s, prompt_tokens=4734, completion_tokens=5555
+06:13:29   [DE crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('2' found)
+06:16:14   [DE crystal_forecast] attempt 2: 165.7s, prompt_tokens=5867, completion_tokens=1362
+06:16:14 Step 64 of 128 done (crystal, Germany, 17m21s). Estimated remaining: 13h44m. You can stop any time and continue later.
+06:16:14 Country 16 of 32: Germany. reader done (521s), judge skipped, plain done (459s), crystal done (1041s)
+06:16:14 Country 17 of 32: Netherlands
+06:23:42   [NL reader] attempt 1: 448.0s, prompt_tokens=1776, completion_tokens=3580
+06:23:42 Step 65 of 128 done (reader, Netherlands, 7m28s). Estimated remaining: 13h23m. You can stop any time and continue later.
+06:23:42 Step 66 of 128 done (judge, Netherlands, 0s). Estimated remaining: 13h11m. You can stop any time and continue later.
+06:29:19   [NL plain_forecast] attempt 1: 337.1s, prompt_tokens=1566, completion_tokens=2097
+06:29:19 Step 67 of 128 done (plain, Netherlands, 5m37s). Estimated remaining: 12h48m. You can stop any time and continue later.
+06:45:22   [NL crystal_forecast] attempt 1: 962.4s, prompt_tokens=3450, completion_tokens=6294
+06:45:22   [NL crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.expected: must be one of ['escalate', 'fade', 'persist'], got 'The story will drop from the news cycle as routine Eredivisie coverage resumes.'
+06:50:36   [NL crystal_forecast] attempt 2: 313.7s, prompt_tokens=4525, completion_tokens=2409
+06:50:36 Step 68 of 128 done (crystal, Netherlands, 21m16s). Estimated remaining: 12h47m. You can stop any time and continue later.
+06:50:36 Country 17 of 32: Netherlands. reader done (448s), judge skipped, plain done (337s), crystal done (1276s)
+06:50:36 Country 18 of 32: Switzerland
+07:01:09   [CH reader] attempt 1: 633.1s, prompt_tokens=1933, completion_tokens=4799
+07:01:09 Step 69 of 128 done (reader, Switzerland, 10m33s). Estimated remaining: 12h31m. You can stop any time and continue later.
+07:01:09 Step 70 of 128 done (judge, Switzerland, 0s). Estimated remaining: 12h18m. You can stop any time and continue later.
+07:12:15   [CH plain_forecast] attempt 1: 666.0s, prompt_tokens=1844, completion_tokens=5144
+07:12:15 Step 71 of 128 done (plain, Switzerland, 11m06s). Estimated remaining: 12h04m. You can stop any time and continue later.
+07:27:02   [CH crystal_forecast] attempt 1: 887.4s, prompt_tokens=3707, completion_tokens=5715
+07:27:02 Step 72 of 128 done (crystal, Switzerland, 14m47s). Estimated remaining: 11h53m. You can stop any time and continue later.
+07:27:02 Country 18 of 32: Switzerland. reader done (633s), judge skipped, plain done (666s), crystal done (887s)
+07:27:02 Country 19 of 32: Singapore
+07:34:13   [SG reader] attempt 1: 430.3s, prompt_tokens=2286, completion_tokens=3475
+07:34:13   [SG reader] attempt 1 rejected: Reader validation failed:
+  - developments[5].direction: 'improving' not in ['continuing', 'de-escalating', 'escalating', 'new', 'resolved']
+07:37:24   [SG reader] attempt 2: 191.5s, prompt_tokens=4128, completion_tokens=1836
+07:37:24 Step 73 of 128 done (reader, Singapore, 10m22s). Estimated remaining: 11h38m. You can stop any time and continue later.
+07:37:24 Step 74 of 128 done (judge, Singapore, 0s). Estimated remaining: 11h25m. You can stop any time and continue later.
+07:49:34   [SG plain_forecast] attempt 1: 730.4s, prompt_tokens=2171, completion_tokens=5396
+07:49:34 Step 75 of 128 done (plain, Singapore, 12m10s). Estimated remaining: 11h12m. You can stop any time and continue later.
+08:05:41   [SG crystal_forecast] attempt 1: 966.8s, prompt_tokens=4132, completion_tokens=6539
+08:05:41 Step 76 of 128 done (crystal, Singapore, 16m07s). Estimated remaining: 11h03m. You can stop any time and continue later.
+08:05:41 Country 19 of 32: Singapore. reader done (622s), judge skipped, plain done (730s), crystal done (967s)
+08:05:41 Country 20 of 32: Brazil
+08:14:30   [BR reader] attempt 1: 528.7s, prompt_tokens=2985, completion_tokens=3637
+08:14:30 Step 77 of 128 done (reader, Brazil, 8m49s). Estimated remaining: 10h46m. You can stop any time and continue later.
+08:14:30 Step 78 of 128 done (judge, Brazil, 0s). Estimated remaining: 10h34m. You can stop any time and continue later.
+08:26:53   [BR plain_forecast] attempt 1: 742.3s, prompt_tokens=2658, completion_tokens=4882
+08:26:53   [BR plain_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('day' found)
+08:29:29   [BR plain_forecast] attempt 2: 156.7s, prompt_tokens=3279, completion_tokens=1359
+08:29:29 Step 79 of 128 done (plain, Brazil, 14m59s). Estimated remaining: 10h23m. You can stop any time and continue later.
+08:43:34   [BR crystal_forecast] attempt 1: 844.6s, prompt_tokens=4541, completion_tokens=5483
+08:43:34   [BR crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - lead.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('day' found)
+08:49:14   [BR crystal_forecast] attempt 2: 340.2s, prompt_tokens=5728, completion_tokens=2776
+08:49:14 Step 80 of 128 done (crystal, Brazil, 19m45s). Estimated remaining: 10h17m. You can stop any time and continue later.
+08:49:14 Country 20 of 32: Brazil. reader done (529s), judge skipped, plain done (899s), crystal done (1185s)
+08:49:14 Country 21 of 32: Australia
+08:59:05   [AU reader] attempt 1: 590.4s, prompt_tokens=2556, completion_tokens=4468
+08:59:05 Step 81 of 128 done (reader, Australia, 9m50s). Estimated remaining: 10h01m. You can stop any time and continue later.
+08:59:05 Step 82 of 128 done (judge, Australia, 0s). Estimated remaining: 9h48m. You can stop any time and continue later.
+09:07:40   [AU plain_forecast] attempt 1: 515.0s, prompt_tokens=2493, completion_tokens=3690
+09:07:40 Step 83 of 128 done (plain, Australia, 8m35s). Estimated remaining: 9h32m. You can stop any time and continue later.
+09:20:13   [AU crystal_forecast] attempt 1: 753.0s, prompt_tokens=4406, completion_tokens=4812
+09:20:13 Step 84 of 128 done (crystal, Australia, 12m33s). Estimated remaining: 9h19m. You can stop any time and continue later.
+09:20:13 Country 21 of 32: Australia. reader done (590s), judge skipped, plain done (515s), crystal done (753s)
+09:20:13 Country 22 of 32: Indonesia
+09:28:15   [ID reader] attempt 1: 482.0s, prompt_tokens=3020, completion_tokens=3587
+09:28:15 Step 85 of 128 done (reader, Indonesia, 8m02s). Estimated remaining: 9h03m. You can stop any time and continue later.
+09:28:15 Step 86 of 128 done (judge, Indonesia, 0s). Estimated remaining: 8h50m. You can stop any time and continue later.
+09:38:10   [ID plain_forecast] attempt 1: 594.7s, prompt_tokens=2703, completion_tokens=4113
+09:38:10 Step 87 of 128 done (plain, Indonesia, 9m55s). Estimated remaining: 8h36m. You can stop any time and continue later.
+09:52:26   [ID crystal_forecast] attempt 1: 856.5s, prompt_tokens=4621, completion_tokens=5165
+09:52:26 Step 88 of 128 done (crystal, Indonesia, 14m16s). Estimated remaining: 8h24m. You can stop any time and continue later.
+09:52:26 Country 22 of 32: Indonesia. reader done (482s), judge skipped, plain done (595s), crystal done (856s)
+09:52:26 Country 23 of 32: Chile
+10:52:26   [CL reader] request error on attempt 1: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=3600)
+11:00:58   [CL reader] attempt 2: 511.4s, prompt_tokens=2000, completion_tokens=3845
+11:00:58 Step 89 of 128 done (reader, Chile, 1h08m). Estimated remaining: 8h48m. You can stop any time and continue later.
+11:00:58 Step 90 of 128 done (judge, Chile, 0s). Estimated remaining: 8h34m. You can stop any time and continue later.
+11:06:39   [CL plain_forecast] attempt 1: 340.8s, prompt_tokens=1767, completion_tokens=2138
+11:06:39 Step 91 of 128 done (plain, Chile, 5m41s). Estimated remaining: 8h16m. You can stop any time and continue later.
+11:16:32   [CL crystal_forecast] attempt 1: 593.2s, prompt_tokens=3648, completion_tokens=3837
+11:16:32 Step 92 of 128 done (crystal, Chile, 9m53s). Estimated remaining: 8h01m. You can stop any time and continue later.
+11:16:32 Country 23 of 32: Chile. reader done (4112s), judge skipped, plain done (341s), crystal done (593s)
+11:16:32 Country 24 of 32: Peru
+11:22:14   [PE reader] attempt 1: 342.4s, prompt_tokens=1646, completion_tokens=2588
+11:22:14 Step 93 of 128 done (reader, Peru, 5m42s). Estimated remaining: 7h43m. You can stop any time and continue later.
+11:22:14 Step 94 of 128 done (judge, Peru, 0s). Estimated remaining: 7h30m. You can stop any time and continue later.
+11:26:45   [PE plain_forecast] attempt 1: 271.1s, prompt_tokens=1307, completion_tokens=1597
+11:26:45 Step 95 of 128 done (plain, Peru, 4m31s). Estimated remaining: 7h12m. You can stop any time and continue later.
+11:36:42   [PE crystal_forecast] attempt 1: 596.2s, prompt_tokens=3178, completion_tokens=4107
+11:36:42 Step 96 of 128 done (crystal, Peru, 9m56s). Estimated remaining: 6h57m. You can stop any time and continue later.
+11:36:42 Country 24 of 32: Peru. reader done (342s), judge skipped, plain done (271s), crystal done (596s)
+11:36:42 Country 25 of 32: Vietnam
+11:42:53   [VN reader] attempt 1: 371.4s, prompt_tokens=1774, completion_tokens=2920
+11:42:53 Step 97 of 128 done (reader, Vietnam, 6m11s). Estimated remaining: 6h41m. You can stop any time and continue later.
+11:42:53 Step 98 of 128 done (judge, Vietnam, 0s). Estimated remaining: 6h28m. You can stop any time and continue later.
+11:50:28   [VN plain_forecast] attempt 1: 455.3s, prompt_tokens=1568, completion_tokens=3400
+11:50:28 Step 99 of 128 done (plain, Vietnam, 7m35s). Estimated remaining: 6h13m. You can stop any time and continue later.
+12:02:32   [VN crystal_forecast] attempt 1: 723.8s, prompt_tokens=3389, completion_tokens=4510
+12:02:32   [VN crystal_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.expected: must be one of ['escalate', 'fade', 'persist'], got 'The story will fall out of the news cycle as the one-time cutting is complete and public attention shifts to other urban and cultural topics.'
+12:04:43   [VN crystal_forecast] attempt 2: 130.6s, prompt_tokens=4562, completion_tokens=1187
+12:04:43 Step 100 of 128 done (crystal, Vietnam, 14m14s). Estimated remaining: 6h01m. You can stop any time and continue later.
+12:04:43 Country 25 of 32: Vietnam. reader done (371s), judge skipped, plain done (455s), crystal done (854s)
+12:04:43 Country 26 of 32: France
+12:15:17   [FR reader] attempt 1: 632.9s, prompt_tokens=4677, completion_tokens=4150
+12:15:17 Step 101 of 128 done (reader, France, 10m33s). Estimated remaining: 5h47m. You can stop any time and continue later.
+12:15:17 Step 102 of 128 done (judge, France, 0s). Estimated remaining: 5h34m. You can stop any time and continue later.
+12:30:21   [FR plain_forecast] attempt 1: 903.9s, prompt_tokens=4527, completion_tokens=6023
+12:30:21 Step 103 of 128 done (plain, France, 15m04s). Estimated remaining: 5h22m. You can stop any time and continue later.
+12:46:55   [FR crystal_forecast] attempt 1: 994.2s, prompt_tokens=6502, completion_tokens=5846
+12:46:55 Step 104 of 128 done (crystal, France, 16m34s). Estimated remaining: 5h10m. You can stop any time and continue later.
+12:46:55 Country 26 of 32: France. reader done (633s), judge skipped, plain done (904s), crystal done (994s)
+12:46:55 Country 27 of 32: United Kingdom
+12:56:53   [GB reader] attempt 1: 596.1s, prompt_tokens=4261, completion_tokens=4155
+12:56:53 Step 105 of 128 done (reader, United Kingdom, 9m56s). Estimated remaining: 4h56m. You can stop any time and continue later.
+12:56:53 Step 106 of 128 done (judge, United Kingdom, 0s). Estimated remaining: 4h43m. You can stop any time and continue later.
+13:06:50   [GB plain_forecast] attempt 1: 597.8s, prompt_tokens=3976, completion_tokens=3899
+13:06:50 Step 107 of 128 done (plain, United Kingdom, 9m58s). Estimated remaining: 4h30m. You can stop any time and continue later.
+13:20:32   [GB crystal_forecast] attempt 1: 821.8s, prompt_tokens=5846, completion_tokens=5148
+13:20:32 Step 108 of 128 done (crystal, United Kingdom, 13m42s). Estimated remaining: 4h17m. You can stop any time and continue later.
+13:20:32 Country 27 of 32: United Kingdom. reader done (596s), judge skipped, plain done (598s), crystal done (822s)
+13:20:32 Country 28 of 32: Italy
+13:29:30   [IT reader] attempt 1: 537.4s, prompt_tokens=2445, completion_tokens=3955
+13:29:30 Step 109 of 128 done (reader, Italy, 8m57s). Estimated remaining: 4h03m. You can stop any time and continue later.
+13:29:30 Step 110 of 128 done (judge, Italy, 0s). Estimated remaining: 3h50m. You can stop any time and continue later.
+13:37:56   [IT plain_forecast] attempt 1: 506.1s, prompt_tokens=2289, completion_tokens=3216
+13:37:56 Step 111 of 128 done (plain, Italy, 8m26s). Estimated remaining: 3h36m. You can stop any time and continue later.
+13:48:49   [IT crystal_forecast] attempt 1: 652.9s, prompt_tokens=4312, completion_tokens=4203
+13:48:49 Step 112 of 128 done (crystal, Italy, 10m53s). Estimated remaining: 3h23m. You can stop any time and continue later.
+13:48:49 Country 28 of 32: Italy. reader done (537s), judge skipped, plain done (506s), crystal done (653s)
+13:48:49 Country 29 of 32: India
+14:01:19   [IN reader] attempt 1: 748.9s, prompt_tokens=5127, completion_tokens=5015
+14:01:19   [IN reader] attempt 1 rejected: Reader validation failed:
+  - developments[4].direction: 'improving' not in ['continuing', 'de-escalating', 'escalating', 'new', 'resolved']
+14:06:08   [IN reader] attempt 2: 288.3s, prompt_tokens=7571, completion_tokens=2455
+14:06:08 Step 113 of 128 done (reader, India, 17m17s). Estimated remaining: 3h11m. You can stop any time and continue later.
+14:06:08 Step 114 of 128 done (judge, India, 0s). Estimated remaining: 2h59m. You can stop any time and continue later.
+14:21:12   [IN plain_forecast] attempt 1: 903.9s, prompt_tokens=4823, completion_tokens=5888
+14:21:12 Step 115 of 128 done (plain, India, 15m04s). Estimated remaining: 2h46m. You can stop any time and continue later.
+14:41:09   [IN crystal_forecast] attempt 1: 1197.2s, prompt_tokens=6732, completion_tokens=7159
+14:41:09 Step 116 of 128 done (crystal, India, 19m57s). Estimated remaining: 2h34m. You can stop any time and continue later.
+14:41:09 Country 29 of 32: India. reader done (1037s), judge skipped, plain done (904s), crystal done (1197s)
+14:41:09 Country 30 of 32: Egypt
+14:48:25   [EG reader] attempt 1: 435.9s, prompt_tokens=1947, completion_tokens=3311
+14:48:25 Step 117 of 128 done (reader, Egypt, 7m16s). Estimated remaining: 2h21m. You can stop any time and continue later.
+14:48:25 Step 118 of 128 done (judge, Egypt, 0s). Estimated remaining: 2h08m. You can stop any time and continue later.
+14:57:34   [EG plain_forecast] attempt 1: 549.7s, prompt_tokens=1743, completion_tokens=4309
+14:57:34   [EG plain_forecast] attempt 1 rejected: Bulletin validation failed:
+  - second.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('2' found)
+15:02:03   [EG plain_forecast] attempt 2: 268.7s, prompt_tokens=2396, completion_tokens=2466
+15:02:03 Step 119 of 128 done (plain, Egypt, 13m38s). Estimated remaining: 1h55m. You can stop any time and continue later.
+15:13:18   [EG crystal_forecast] attempt 1: 674.9s, prompt_tokens=3606, completion_tokens=4532
+15:13:18 Step 120 of 128 done (crystal, Egypt, 11m15s). Estimated remaining: 1h42m. You can stop any time and continue later.
+15:13:18 Country 30 of 32: Egypt. reader done (436s), judge skipped, plain done (818s), crystal done (675s)
+15:13:18 Country 31 of 32: Turkey
+15:20:26   [TR reader] attempt 1: 427.6s, prompt_tokens=2422, completion_tokens=3257
+15:20:26 Step 121 of 128 done (reader, Turkey, 7m08s). Estimated remaining: 1h29m. You can stop any time and continue later.
+15:20:26 Step 122 of 128 done (judge, Turkey, 0s). Estimated remaining: 1h16m. You can stop any time and continue later.
+15:29:36   [TR plain_forecast] attempt 1: 550.3s, prompt_tokens=2276, completion_tokens=4129
+15:29:36 Step 123 of 128 done (plain, Turkey, 9m10s). Estimated remaining: 1h03m. You can stop any time and continue later.
+15:41:59   [TR crystal_forecast] attempt 1: 742.8s, prompt_tokens=4185, completion_tokens=5057
+15:41:59 Step 124 of 128 done (crystal, Turkey, 12m23s). Estimated remaining: 50m53s. You can stop any time and continue later.
+15:41:59 Country 31 of 32: Turkey. reader done (428s), judge skipped, plain done (550s), crystal done (743s)
+15:41:59 Country 32 of 32: South Africa
+15:49:56   [ZA reader] attempt 1: 476.8s, prompt_tokens=2497, completion_tokens=3649
+15:49:56 Step 125 of 128 done (reader, South Africa, 7m57s). Estimated remaining: 38m00s. You can stop any time and continue later.
+15:49:56 Step 126 of 128 done (judge, South Africa, 0s). Estimated remaining: 25m20s. You can stop any time and continue later.
+16:03:57   [ZA plain_forecast] attempt 1: 841.6s, prompt_tokens=2363, completion_tokens=6374
+16:03:57   [ZA plain_forecast] attempt 1 rejected: Bulletin validation failed:
+  - fade_call.sign: describe the kind of headline in category words, with no number, duration, deadline or percentage ('day' found)
+16:08:04   [ZA plain_forecast] attempt 2: 246.7s, prompt_tokens=3024, completion_tokens=2198
+16:08:04 Step 127 of 128 done (plain, South Africa, 18m08s). Estimated remaining: 12m44s. You can stop any time and continue later.
+16:22:11   [ZA crystal_forecast] attempt 1: 846.5s, prompt_tokens=4230, completion_tokens=5762
+16:22:11 Step 128 of 128 done (crystal, South Africa, 14m06s). Estimated remaining: 0s. You can stop any time and continue later.
+16:22:11 Country 32 of 32: South Africa. reader done (477s), judge skipped, plain done (1088s), crystal done (846s)
+16:22:11 Scorecard written: 0 judged country-weeks, verdict: Judge not yet validated.
+16:22:11 Downloading vendor files and world atlas...
+16:22:11   three.module.min.js: already present, skipping
+16:22:11   OrbitControls.js: already present, skipping
+16:22:11   topojson-client.min.js: already present, skipping
+16:22:11   countries-110m.json: already present, skipping
+16:22:11 Downloading emoji PNGs...
+16:22:11 Emoji PNGs: 0 downloaded, 106 already present, 0 failed
+16:22:11 data/meta.json written
+16:22:11 data/index.json written (4 complete rounds)
+16:22:11 Building bundles...
+16:22:11   bundle for 2026-10-22: 1 countries
+16:22:11   bundle for 2026-10-17: 32 countries
+16:22:11   bundle for 2026-10-02: 32 countries
+16:22:11   bundle for 2026-09-15: 32 countries
+16:22:11 build_site_data.py complete.
+16:22:11 Round complete. No judgments yet: the previous round had no scorable forecasts.

@@ -1,118 +1,381 @@
 {
- "schema_version": 2,
- "round": "2026-10-17",
- "previous_round": "2026-10-02",
- "is_legacy": false,
- "code": "CD",
- "name": "DR Congo",
- "model": "huihui_ai/Qwen3.8-abliterated:27b",
- "generated_at": "2026-10-19T13:04:17+03:00",
- "status": {
-  "position": "done",
-  "velocity": "done",
-  "wind": "pending",
-  "naive_forecast": "pending",
-  "crystal_forecast": "pending",
-  "display": "pending",
-  "questions": "pending"
- },
- "position": {
-  "summary": "This week in the DR Congo was defined by three converging crises. Former President Joseph Kabila formally joined the AFC/M23 rebel coalition in eastern Congo; Kinshasa denounced the move as a prelude to a 'generalized attack' and warned that Kabila's own political family was fracturing over it. The development raised fresh fears that ongoing peace efforts in the east could unravel. The Ebola outbreak also accelerated sharply. The virus spread to an eighth province bordering Central Africa, the UN warned the epidemic was growing 'exponentially,' and the Africa CDC revealed over $700 million in pledged response funds remained unaccounted for. Fearing contagion, mothers in affected areas skipped vital maternal and pediatric care, prompting authorities to launch an improved vaccination drive in Beni. Diplomatically, tensions flared with Brussels after Belgian police searched the homes of President Tshisekedi's relatives; the DRC presidency then restricted its staff's contact with the Belgian embassy. The government also protested Formula 1's decision to race in neighboring Rwanda. Economically, Congo arrested hundreds of Chinese miners in its copper belt, and a $250 million Mercuria copper deal with a Chinese miner was announced, underscoring how deeply the conflict is intertwined with mineral wealth.",
-  "key_events": [
-   {
-    "event": "Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.",
-    "date": "2026-10-15",
-    "domain": "security",
-    "importance": 5
-   },
-   {
-    "event": "The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'",
-    "date": "2026-10-16",
-    "domain": "health",
-    "importance": 5
-   },
-   {
-    "event": "The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.",
-    "date": "2026-10-16",
-    "domain": "health",
-    "importance": 4
-   },
-   {
-    "event": "Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.",
-    "date": "2026-10-15",
-    "domain": "diplomacy",
-    "importance": 4
-   },
-   {
-    "event": "Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.",
-    "date": "2026-10-17",
-    "domain": "health",
-    "importance": 3
-   },
-   {
-    "event": "Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.",
-    "date": "2026-10-16",
-    "domain": "economy",
-    "importance": 3
-   },
-   {
-    "event": "Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.",
-    "date": "2026-10-16",
-    "domain": "security",
-    "importance": 3
-   },
-   {
-    "event": "The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.",
-    "date": "2026-10-15",
-    "domain": "diplomacy",
-    "importance": 2
-   }
-  ],
-  "mood": "escalating",
-  "intensity": 8,
-  "domains_active": [
-   "health",
-   "security",
-   "diplomacy",
-   "economy"
-  ],
-  "emojis": [
-   "🦠",
-   "⚔️",
-   "🌐"
-  ],
-  "emoji_reasons": [
-   "The Ebola outbreak spread to a eighth province, the UN called it 'growing exponentially,' and the Africa CDC flagged $700 million in missing funds, making the epidemic the week's dominant health story.",
-   "Former President Kabila's formal entry into the AFC/M23 rebel coalition and Kinshasa's accusation of a 'generalized attack' sharpened the military dimension of the eastern conflict.",
-   "Belgian police searches of Tshisekedi relatives' homes and the DRC's subsequent restriction on embassy contact, alongside the Formula 1 Rwanda protest, turned the week into a multi-front diplomatic standoff."
-  ]
- },
- "velocity": {
-  "summary": "Between the two reports the DR Congo agenda deepened and broadened rather than shifting direction. The Ebola crisis moved from a contained eastern-corridor emergency to a wider national and regional threat: the virus crossed into a province bordering the Central African Republic, the UN flagged exponential growth, and the Africa CDC exposed a $700 million funding black hole. On the security front, the MONUSCO withdrawal vote gave way to something far more consequential: former President Kabila formally joining the AFC/M23 rebel coalition, which Kinshasa framed as the prelude to a generalized attack. A diplomacy domain appeared for the first time, with Belgian police searching the homes of Tshisekedi relatives and Kinshasa pulling staff back from the Belgian embassy. The economic thread intensified from announced audit plans to mass arrests of Chinese miners and a $250 million Mercuria copper deal, while private paramilitary involvement in mineral logistics entered the picture. The vivid one-off incidents of the earlier report—the plane crash, Karondwa's murder, the boat capsize—have faded from the headlines. Overall the pace is brisk: multiple high-stakes moves landed within 72 hours, and the crises are now visibly interlocking rather than running in parallel.",
-  "direction": "escalating",
-  "speed": 7,
-  "intensity_change": -1,
-  "rising": [
-   "Kabila joining the AFC/M23 rebel coalition",
-   "Ebola spread beyond the eastern corridor toward CAR",
-   "Belgium-DRC diplomatic standoff over Tshisekedi relatives",
-   "Conflict-mineral entanglement: mass arrests, $250M deals, private armies"
-  ],
-  "fading": [
-   "One-off dramatic incidents (plane crash, Karondwa murder, boat capsize)",
-   "MONUSCO withdrawal as a standalone headline event",
-   "Displaced-camp chaos as a separate crisis story"
-  ],
-  "new": [
-   "Kabila's formal entry into the rebel coalition",
-   "Africa CDC $700 million unaccounted-for funding gap",
-   "Erik Prince and private paramilitaries in mineral supply chains",
-   "Maternal and pediatric care disruption from Ebola fear"
-  ]
- },
- "wind": null,
- "naive_forecast": null,
- "crystal_forecast": null,
- "display": null,
- "questions": null
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "CD",
+  "name": "DR Congo",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-22T23:51:53+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "This week in the DR Congo was defined by three converging crises. Former President Joseph Kabila formally joined the AFC/M23 rebel coalition in eastern Congo; Kinshasa denounced the move as a prelude to a 'generalized attack' and warned that Kabila's own political family was fracturing over it. The development raised fresh fears that ongoing peace efforts in the east could unravel. The Ebola outbreak also accelerated sharply. The virus spread to an eighth province bordering Central Africa, the UN warned the epidemic was growing 'exponentially,' and the Africa CDC revealed over $700 million in pledged response funds remained unaccounted for. Fearing contagion, mothers in affected areas skipped vital maternal and pediatric care, prompting authorities to launch an improved vaccination drive in Beni. Diplomatically, tensions flared with Brussels after Belgian police searched the homes of President Tshisekedi's relatives; the DRC presidency then restricted its staff's contact with the Belgian embassy. The government also protested Formula 1's decision to race in neighboring Rwanda. Economically, Congo arrested hundreds of Chinese miners in its copper belt, and a $250 million Mercuria copper deal with a Chinese miner was announced, underscoring how deeply the conflict is intertwined with mineral wealth.",
+    "key_events": [
+      {
+        "event": "Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'",
+        "date": "2026-10-16",
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.",
+        "date": "2026-10-16",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.",
+        "date": "2026-10-17",
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "health",
+      "security",
+      "diplomacy",
+      "economy"
+    ],
+    "emojis": [
+      "🦠",
+      "⚔️",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The Ebola outbreak spread to a eighth province, the UN called it 'growing exponentially,' and the Africa CDC flagged $700 million in missing funds, making the epidemic the week's dominant health story.",
+      "Former President Kabila's formal entry into the AFC/M23 rebel coalition and Kinshasa's accusation of a 'generalized attack' sharpened the military dimension of the eastern conflict.",
+      "Belgian police searches of Tshisekedi relatives' homes and the DRC's subsequent restriction on embassy contact, alongside the Formula 1 Rwanda protest, turned the week into a multi-front diplomatic standoff."
+    ],
+    "developments": [
+      {
+        "subject": "Former President Joseph Kabila joined the",
+        "what_happened": "Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "The Ebola outbreak spread to an",
+        "what_happened": "The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "The Africa CDC reported that over",
+        "what_happened": "The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Belgian police searched the homes of",
+        "what_happened": "Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Health authorities in Beni launched an",
+        "what_happened": "Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Congo arrested hundreds of Chinese miners",
+        "what_happened": "Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Reporters highlighted the growing role of",
+        "what_happened": "Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "The DR Congo government publicly protested",
+        "what_happened": "The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      }
+    ],
+    "gone": [],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "converted from the earlier situation report"
+    },
+    "converted": true,
+    "headlines_used": [],
+    "relevant_headlines": 33,
+    "unscorable": true,
+    "unscorable_reason": "only 33 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Former President Joseph Kabila joined the",
+        "expected": "Former President Joseph Kabila joined the stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Former President Joseph Kabila joined the appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "The Ebola outbreak spread to an",
+        "expected": "The Ebola outbreak spread to an stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about The Ebola outbreak spread to an appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "The Africa CDC reported that over",
+        "expected": "The Africa CDC reported that over stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about The Africa CDC reported that over appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "The DR Congo government publicly protested",
+        "expected": "persist",
+        "sign": "The DR Congo government publicly protested is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Former President Joseph Kabila joined the stays in the news at the same level. The Ebola outbreak spread to an stays in the news at the same level. The Africa CDC reported that over stays in the news at the same level. The DR Congo government publicly protested is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Kabila and the AFC/M23 coalition",
+        "expected": "Kinshasa will announce a formal military mobilization in the eastern provinces in direct response to Kabila's alliance with the rebel coalition.",
+        "direction": "escalate",
+        "sign": "Headlines will report a declared military operation or troop deployment in the eastern provinces, with the rebel coalition named as the stated target."
+      },
+      "second": {
+        "subject": "Ebola outbreak in eastern Congo",
+        "expected": "The epidemic will cross into another province as the death toll among young children in Beni rises to new levels.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new provincial boundary crossed by the epidemic and a climbing toll among children in the affected district."
+      },
+      "third": {
+        "subject": "DRC-Belgium diplomatic standoff",
+        "expected": "Kinshasa will recall its ambassador from Brussels in response to the police searches at Tshisekedi relatives' homes.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a formal diplomatic step such as the recall of an ambassador or a written note of protest between the two governments."
+      },
+      "fade_call": {
+        "subject": "DR Congo protest over Formula 1 race in Rwanda",
+        "expected": "fade",
+        "sign": "The grievance will drop from front pages, appearing only in brief roundups of DRC foreign-policy complaints."
+      },
+      "surprise": {
+        "subject": "Split within Kabila's political family",
+        "expected": "Vital Kamerhe or another senior figure will publicly break with Kabila over the rebel alliance, triggering a visible factional split.",
+        "chance": "medium"
+      },
+      "summary": "The coming week in the DR Congo will be dominated by the consequences of Joseph Kabila's formal entry into the AFC/M23 coalition. Kinshasa will translate its 'generalized attack' rhetoric into concrete military and diplomatic steps, deploying forces east and issuing formal protests. The Ebola epidemic will press harder, crossing into another province while the toll on young children in Beni grows and the gap in response funding draws fresh scrutiny. The Belgian-DRC standoff will sharpen, with Kinshasa taking a measurable step back from Brussels. Meanwhile, the fracturing inside Kabila's own political family, already visible in Vital Kamerhe's opposition, will harden into an open split. The F1-Rwanda grievance will recede from headlines. Private paramilitary operators around the mineral sector will stay in the background unless a specific contract or deployment surfaces.",
+      "generated_at": "2026-10-22T23:28:44+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Kabila-M23 military response",
+        "expected": "A new military operation in eastern Congo will be announced in direct response to Joseph Kabila's formal entry into the AFC/M23 coalition.",
+        "direction": "escalate",
+        "sign": "A new operation name, a general's statement echoing the 'generalized attack' accusation, or a fresh front in eastern Congo will headline the week."
+      },
+      "second": {
+        "subject": "Ebola funding dispute",
+        "expected": "A named official will publicly identify where the over $700 million in pledged Ebola response funds sit, assigning blame to a specific institution.",
+        "direction": "escalate",
+        "sign": "A minister or the Africa CDC will publicly name where the pledged funds sit, or a new province will join the outbreak list."
+      },
+      "third": {
+        "subject": "DRC-Belgium diplomatic standoff",
+        "expected": "Belgium will respond to Kinshasa's embassy contact restrictions by summoning the Congolese ambassador or initiating a new search involving a Tshisekedi relative.",
+        "direction": "escalate",
+        "sign": "The Belgian ambassador will be summoned or a new Tshisekedi relative's name will appear in a search report."
+      },
+      "fade_call": {
+        "subject": "Grand Prix Rwanda protest",
+        "expected": "fade",
+        "sign": "The Grand Prix in Rwanda topic will drop from front pages unless the racing body or the Rwandan government issues a fresh public statement."
+      },
+      "surprise": {
+        "subject": "Kabila family faction split",
+        "expected": "Vital Kamerhe or another senior relative will declare a rival political faction against Joseph Kabila, splitting the opposition in two.",
+        "chance": "medium"
+      },
+      "summary": "The coming week in DR Congo will be dominated by the fallout from Joseph Kabila's entry into the AFC/M23 rebel coalition. Kinshasa will translate its 'generalized attack' accusation into concrete military action in the east, and the split within Kabila's own political family will sharpen into a public factional break. The Ebola outbreak will keep its exponential trajectory, with the over $700 million in pledged response funds becoming the flashpoint of a public dispute between the government and the Africa CDC. The standoff with Brussels will deepen as Belgium answers Kinshasa's embassy restrictions with a formal diplomatic response. The Grand Prix Rwanda protest, by contrast, will fade from the front pages. Overall, the week will show a state under triple pressure from the east, the epidemic, and a Western diplomatic partner, with no single crisis resolving on its own.",
+      "generated_at": "2026-10-22T23:51:53+03:00"
+    }
+  },
+  "display": {
+    "headline": "Congo Faces Military, Epidemic, and Diplomatic Squeeze",
+    "emojis": [
+      "⚔️",
+      "🦠",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "Kabila's entry into the M23 coalition and Kinshasa's military response make armed conflict the dominant story.",
+      "The Ebola outbreak spreading to a new province and the funding dispute keep the epidemic front and center.",
+      "The escalating standoff between Kinshasa and Brussels over the Tshisekedi searches puts international diplomacy in the picture."
+    ],
+    "tldr": "Kinshasa will respond to Kabila's M23 entry with military action in the east. The Ebola funding gap will trigger a public dispute, and Brussels will answer Kinshasa's embassy restrictions. The Grand Prix Rwanda row will fade.",
+    "eli5": "So DR Congo is juggling three big problems at once. Former president Joseph Kabila just joined the rebel group M23 in the east, and the government in Kinshasa is furious, calling it the start of a 'generalized attack.' Meanwhile, the Ebola virus keeps spreading to new areas, and the government cannot find where hundreds of millions of dollars in promised help went. On top of that, Belgium and Congo are in a diplomatic fight because Belgian police searched the homes of people related to the current president.\n\nHere is why it is messy: Kabila used to be president himself, so his joining the rebels feels like the opposition getting a celebrity face. The Ebola thing is bad because families are too scared to take their kids to the hospital, and the money that was supposed to stop the outbreak has not shown up. The Belgium thing is about a corruption case that got very personal for the president's family.\n\nNext week, expect Kinshasa to launch a new military operation in the east as a direct response to Kabila's move. Also, someone in the government or the Africa CDC will go public about where the missing Ebola money is, turning it into a naming-and-shaming moment. The Belgium standoff will probably get louder, with one side summoning the other's ambassador.\n\nThe surprise to watch for: Kabila's own political family is already splitting, and Vital Kamerhe, a relative, is publicly disagreeing with him. If that turns into a formal rival faction declaration, it would split the opposition in two and change who is who in Congo's politics entirely."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe text reported a multi-crisis situation in DR Congo as of early October 2026. An Ebola outbreak, described as the worst in the country's history, had already produced over 8,000 cases and 4,000 deaths across 63 affected areas, concentrated in North Kivu, Ituri, and surrounding eastern corridors. The UN Security Council had voted for a gradual withdrawal of the MONUSCO peacekeeping force, beginning a security transition in the east. An army plane crash had killed at least 17 people, including two senior military justice officials. A local Ebola-focused politician, Marie-Celestin Karondwa, had been beaten to death in Butembo after speaking on radio about prevention measures. Thousands of displaced people had fled an Ebola-hit camp after soldiers entered the site, and a burned transit camp had sent more families running. A Lake Kivu boat capsize had killed at least 12 with dozens missing. In the economic sphere, the government had announced\n- Ebola outbreak surpasses 8,000 cases and (regular, continuing): Ebola outbreak surpasses 8,000 cases and 4,000 deaths across 63 areas in eastern DRC, described as the worst in the country's history.\n- UN Security Council votes for a (regular, continuing): UN Security Council votes for a gradual withdrawal of the MONUSCO peacekeeping force from eastern DRC.\n- An army plane crash kills at (regular, continuing): An army plane crash kills at least 17 people, including two senior military justice officials.\n- Local politician Marie-Celestin Karondwa is beaten (regular, continuing): Local politician Marie-Celestin Karondwa is beaten to death in Butembo after defending Ebola prevention measures on radio.\n- Thousands of displaced people flee an (regular, continuing): Thousands of displaced people flee an Ebola-hit camp after soldiers enter the site and a transit camp is burned.\n- DRC announces a plan to audit (regular, continuing): DRC announces a plan to audit major mining companies annually starting in 2027 as part of a local-content push.\n\nRound 2026-09-15:\nAccording to the text, DR Congo faced four simultaneous crises. An Ebola outbreak had spread to a seventh province, South-Ubangi, in the northwest, raising fears of cross-border transmission to the Central African Republic, Congo-Brazzaville, and Uganda. A school fire in Bukavu, a city described as under rebel M23 influence, killed between 24 and 29 children, turning the tragedy into a political flashpoint. In Kinshasa, opposition and pro-government supporters clashed with police deploying tear gas over President Tshisekedi's push for a constitutional amendment that could enable a third term. In Geneva, DRC and Rwanda held talks over M23's role and eastern security without resolving core disputes. Economically, a new DRC-US task force on critical minerals was being established, with record copper exports, Lobito corridor expansion, and fast-track mining permits as priorities. The overall picture was one of a state juggling epidemic, constitutional legitimacy, eastern rebellion, and an economic push to convert\n- Ebola outbreak spreads to South-Ubangi province (regular, continuing): Ebola outbreak spreads to South-Ubangi province in the northwest, raising cross-border transmission fears\n- School fire in rebel-influenced Bukavu kills (regular, continuing): School fire in rebel-influenced Bukavu kills between 24 and 29 children, triggering political blame between Kinshasa and M23\n- Opposition and pro-government supporters clash in (regular, continuing): Opposition and pro-government supporters clash in Kinshasa with police tear gas over Tshisekedi's third-term constitutional push\n- DRC-US critical minerals task force is (regular, continuing): DRC-US critical minerals task force is created with copper, cobalt, and Lobito corridor expansion as priorities\n- DRC and Rwanda hold Geneva talks (regular, continuing): DRC and Rwanda hold Geneva talks on M23's role and eastern security without reaching a ceasefire\n- DRC and Rwanda hold Geneva talks (again) (regular, continuing): DRC and Rwanda hold Geneva talks on M23's role and eastern security without reaching a ceasefire\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": {
+    "position": {
+      "summary": "This week in the DR Congo was defined by three converging crises. Former President Joseph Kabila formally joined the AFC/M23 rebel coalition in eastern Congo; Kinshasa denounced the move as a prelude to a 'generalized attack' and warned that Kabila's own political family was fracturing over it. The development raised fresh fears that ongoing peace efforts in the east could unravel. The Ebola outbreak also accelerated sharply. The virus spread to an eighth province bordering Central Africa, the UN warned the epidemic was growing 'exponentially,' and the Africa CDC revealed over $700 million in pledged response funds remained unaccounted for. Fearing contagion, mothers in affected areas skipped vital maternal and pediatric care, prompting authorities to launch an improved vaccination drive in Beni. Diplomatically, tensions flared with Brussels after Belgian police searched the homes of President Tshisekedi's relatives; the DRC presidency then restricted its staff's contact with the Belgian embassy. The government also protested Formula 1's decision to race in neighboring Rwanda. Economically, Congo arrested hundreds of Chinese miners in its copper belt, and a $250 million Mercuria copper deal with a Chinese miner was announced, underscoring how deeply the conflict is intertwined with mineral wealth.",
+      "key_events": [
+        {
+          "event": "Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.",
+          "date": "2026-10-15",
+          "domain": "security",
+          "importance": 5
+        },
+        {
+          "event": "The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'",
+          "date": "2026-10-16",
+          "domain": "health",
+          "importance": 5
+        },
+        {
+          "event": "The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.",
+          "date": "2026-10-16",
+          "domain": "health",
+          "importance": 4
+        },
+        {
+          "event": "Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.",
+          "date": "2026-10-15",
+          "domain": "diplomacy",
+          "importance": 4
+        },
+        {
+          "event": "Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.",
+          "date": "2026-10-17",
+          "domain": "health",
+          "importance": 3
+        },
+        {
+          "event": "Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.",
+          "date": "2026-10-16",
+          "domain": "economy",
+          "importance": 3
+        },
+        {
+          "event": "Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.",
+          "date": "2026-10-16",
+          "domain": "security",
+          "importance": 3
+        },
+        {
+          "event": "The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.",
+          "date": "2026-10-15",
+          "domain": "diplomacy",
+          "importance": 2
+        }
+      ],
+      "mood": "escalating",
+      "intensity": 8,
+      "domains_active": [
+        "health",
+        "security",
+        "diplomacy",
+        "economy"
+      ],
+      "emojis": [
+        "🦠",
+        "⚔️",
+        "🌐"
+      ],
+      "emoji_reasons": [
+        "The Ebola outbreak spread to a eighth province, the UN called it 'growing exponentially,' and the Africa CDC flagged $700 million in missing funds, making the epidemic the week's dominant health story.",
+        "Former President Kabila's formal entry into the AFC/M23 rebel coalition and Kinshasa's accusation of a 'generalized attack' sharpened the military dimension of the eastern conflict.",
+        "Belgian police searches of Tshisekedi relatives' homes and the DRC's subsequent restriction on embassy contact, alongside the Formula 1 Rwanda protest, turned the week into a multi-front diplomatic standoff."
+      ]
+    },
+    "velocity": {
+      "summary": "Between the two reports the DR Congo agenda deepened and broadened rather than shifting direction. The Ebola crisis moved from a contained eastern-corridor emergency to a wider national and regional threat: the virus crossed into a province bordering the Central African Republic, the UN flagged exponential growth, and the Africa CDC exposed a $700 million funding black hole. On the security front, the MONUSCO withdrawal vote gave way to something far more consequential: former President Kabila formally joining the AFC/M23 rebel coalition, which Kinshasa framed as the prelude to a generalized attack. A diplomacy domain appeared for the first time, with Belgian police searching the homes of Tshisekedi relatives and Kinshasa pulling staff back from the Belgian embassy. The economic thread intensified from announced audit plans to mass arrests of Chinese miners and a $250 million Mercuria copper deal, while private paramilitary involvement in mineral logistics entered the picture. The vivid one-off incidents of the earlier report—the plane crash, Karondwa's murder, the boat capsize—have faded from the headlines. Overall the pace is brisk: multiple high-stakes moves landed within 72 hours, and the crises are now visibly interlocking rather than running in parallel.",
+      "direction": "escalating",
+      "speed": 7,
+      "intensity_change": -1,
+      "rising": [
+        "Kabila joining the AFC/M23 rebel coalition",
+        "Ebola spread beyond the eastern corridor toward CAR",
+        "Belgium-DRC diplomatic standoff over Tshisekedi relatives",
+        "Conflict-mineral entanglement: mass arrests, $250M deals, private armies"
+      ],
+      "fading": [
+        "One-off dramatic incidents (plane crash, Karondwa murder, boat capsize)",
+        "MONUSCO withdrawal as a standalone headline event",
+        "Displaced-camp chaos as a separate crisis story"
+      ],
+      "new": [
+        "Kabila's formal entry into the rebel coalition",
+        "Africa CDC $700 million unaccounted-for funding gap",
+        "Erik Prince and private paramilitaries in mineral supply chains",
+        "Maternal and pediatric care disruption from Ebola fear"
+      ]
+    },
+    "status": {
+      "position": "done",
+      "velocity": "done",
+      "wind": "pending",
+      "naive_forecast": "pending",
+      "crystal_forecast": "pending",
+      "display": "pending",
+      "questions": "pending"
+    },
+    "schema_version": 2
+  }
 }

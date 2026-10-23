@@ -1,258 +1,522 @@
 {
- "schema_version": 2,
- "round": "2026-10-17",
- "previous_round": "2026-10-02",
- "is_legacy": false,
- "code": "IR",
- "name": "Iran",
- "model": "huihui_ai/Qwen3.8-abliterated:27b",
- "generated_at": "2026-10-22T13:38:38+03:00",
- "status": {
-  "position": "done",
-  "velocity": "done",
-  "wind": "done",
-  "naive_forecast": "pending",
-  "crystal_forecast": "pending",
-  "display": "pending",
-  "questions": "pending"
- },
- "position": {
-  "summary": "The week was dominated by a sharp escalation in the Strait of Hormuz, where Iran struck shipping with mines and drones, sinking at least two cargo ships and setting two more tankers ablaze. The United States considered deploying its 'Mother of All Bombs' and President Trump floated a strike on a buried nuclear site, while Iran bolstered its air defenses in preparation. Saudi Arabia accused Tehran of encouraging Houthi escalation after Aramco facilities were hit; Iran denied the claim. Oil prices surged past $110 a barrel for Brent, pushing US inflation to 3.7 percent and making the war a flashpoint in every Senate debate ahead of the November midterms. The US Treasury issued fresh sanctions, and Iran's central bank governor dismissed talk of economic collapse. Domestically, political infighting deepened, a high-profile honor killing reignited the femicide debate, and suspected Israeli cyber operations alarmed Tehran. In Europe, courts in Germany and the UK convicted suspects in Iran-linked assassination plots. The overall picture is a grinding war in which both sides are posturing harder as the American election approaches.",
-  "key_events": [
-   {
-    "event": "Two tankers hit mines and caught fire in the Strait of Hormuz, with Iran and the US each claiming control of the waterway.",
-    "date": "2026-10-17",
-    "domain": "security",
-    "importance": 5
-   },
-   {
-    "event": "US military officials confirmed they are weighing use of the 'Mother of All Bombs' against Iran, while Trump threatened a strike on a buried nuclear site and ruled out nuclear weapons.",
-    "date": "2026-10-15",
-    "domain": "security",
-    "importance": 5
-   },
-   {
-    "event": "Saudi Aramco headquarters was hit in a Houthi attack, and Riyadh accused Tehran of encouraging the escalation; Iran denied involvement.",
-    "date": "2026-10-14",
-    "domain": "diplomacy",
-    "importance": 4
-   },
-   {
-    "event": "Brent crude touched $110 and US inflation jumped to 3.7 percent as the Iran war drove fuel and goods prices higher, reshaping the midterm election narrative.",
-    "date": "2026-10-14",
-    "domain": "economy",
-    "importance": 4
-   },
-   {
-    "event": "The US Treasury issued a new round of Iran-related sanctions while Iran's central bank governor publicly dismissed claims of economic collapse under the blockade.",
-    "date": "2026-10-15",
-    "domain": "economy",
-    "importance": 3
-   },
-   {
-    "event": "A German court sentenced two men to prison for plotting to kill the leader of Germany's Jewish community on behalf of Iran, and a Norwegian teen received 20 years for a UK murder plot tied to an Iran-linked gang.",
-    "date": "2026-10-15",
-    "domain": "security",
-    "importance": 3
-   },
-   {
-    "event": "Iran's internal political infighting deepened as economic woes mounted, a high-profile honor killing of a young woman reignited the femicide debate, and Tehran hinted at further internet restrictions targeting Starlink.",
-    "date": "2026-10-17",
-    "domain": "society",
-    "importance": 3
-   },
-   {
-    "event": "Lebanon revoked the license of Iran's Saderat Bank amid US pressure, and the US destroyed an Iran-affiliated dhow it said was conducting surveillance in the Gulf of Oman.",
-    "date": "2026-10-15",
-    "domain": "diplomacy",
-    "importance": 3
-   }
-  ],
-  "mood": "escalating",
-  "intensity": 8,
-  "domains_active": [
-   "security",
-   "economy",
-   "politics",
-   "diplomacy"
-  ],
-  "emojis": [
-   "🚢",
-   "💣",
-   "🗳️"
-  ],
-  "emoji_reasons": [
-   "🚢 captures the week's central story: two tankers hit mines, two cargo ships sunk, and Iran ramping up Hormuz ship attacks as oil flows crash.",
-   "💣 reflects the US military weighing the 'Mother of All Bombs' and Trump threatening a strike on Iran's buried nuclear site at Pickaxe Mountain.",
-   "🗳️ reflects how the Iran war became the dominant issue in US Senate debates, campaign ads, and midterm strategy across multiple states."
-  ]
- },
- "velocity": {
-  "summary": "In the three days between reports, Iran's situation shifted from tense posturing to active, kinetic confrontation. The diplomatic channel through Qatar that was still alive in the earlier report has largely faded from view, replaced by a concrete pattern of strikes: mines and drones in the Strait of Hormuz sank two cargo ships and set two tankers ablaze, a step the previous report had not yet reached. The US military conversation moved from deploying a third carrier group to weighing the Mother of All Bombs and a strike on a buried nuclear site, signalling a faster climb up the escalation ladder. Oil jumped past one hundred ten dollars and US inflation crossed three and a half percent, making the war a live issue in every Senate debate. Proxy activity sharpened as Houthis hit Aramco and the US destroyed an Iranian dhow in the Gulf of Oman. Domestically, the digital crackdown continued but new threads appeared: a high-profile honor killing, suspected Israeli cyber operations, and Iran hinting at Starlink restrictions. The overall speed is brisk, with each day adding a new concrete flashpoint rather than a shift in posture.",
-  "direction": "escalating",
-  "speed": 7,
-  "intensity_change": 1,
-  "rising": [
-   "Strait of Hormuz mine and drone strikes on shipping",
-   "US MOAB and buried-nuclear-site strike deliberations",
-   "Oil above $110 and US inflation spike reshaping midterms",
-   "Proxy escalation: Houthi Aramco hit and Gulf dhow destruction"
-  ],
-  "fading": [
-   "Qatari-mediated diplomatic channel between Tehran and Washington",
-   "FlyDubai copilot attack and RAF Fairford plot as casus belli",
-   "US physical troop deployment as the main security talking point"
-  ],
-  "new": [
-   "Suspected Israeli cyber operations alarming Tehran",
-   "High-profile honor killing reigniting the femicide debate",
-   "Lebanon revoking the Saderat Bank license under US pressure",
-   "Iran hinting at further internet restrictions targeting Starlink"
-  ]
- },
- "wind": {
+  "schema_version": 4,
+  "round": "2026-10-17",
   "previous_round": "2026-10-02",
-  "elapsed_days": 15,
-  "questions": [
-   {
-    "id": "Q1",
-    "text": "Will there be a major new US/Israeli bombing campaign inside Iran during the week?",
-    "domain": "security",
-    "naive": "NO",
-    "crystal": "NO",
-    "outcome": "NO",
-    "evidence": "The US is weighing and threatening options such as the MoAB and a strike on Pickaxe Mountain, but no headline reports that a major bombing campaign inside Iran actually began during the period.",
-    "relevant_headlines": [
-     "US military weighs use of 'mother of all bombs' in potential future strikes on Iran, CNN says",
-     "Major U.S. strikes against Iran before midterms 'extremely unlikely': Analyst",
-     "Netanyahu says he is not seeking to attack Iran again before Israel election"
+  "is_legacy": false,
+  "code": "IR",
+  "name": "Iran",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T00:25:43+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The week was dominated by a sharp escalation in the Strait of Hormuz, where Iran struck shipping with mines and drones, sinking at least two cargo ships and setting two more tankers ablaze. The United States considered deploying its 'Mother of All Bombs' and President Trump floated a strike on a buried nuclear site, while Iran bolstered its air defenses in preparation. Saudi Arabia accused Tehran of encouraging Houthi escalation after Aramco facilities were hit; Iran denied the claim. Oil prices surged past $110 a barrel for Brent, pushing US inflation to 3.7 percent and making the war a flashpoint in every Senate debate ahead of the November midterms. The US Treasury issued fresh sanctions, and Iran's central bank governor dismissed talk of economic collapse. Domestically, political infighting deepened, a high-profile honor killing reignited the femicide debate, and suspected Israeli cyber operations alarmed Tehran. In Europe, courts in Germany and the UK convicted suspects in Iran-linked assassination plots. The overall picture is a grinding war in which both sides are posturing harder as the American election approaches.",
+    "key_events": [
+      {
+        "event": "Two tankers hit mines and caught fire in the Strait of Hormuz, with Iran and the US each claiming control of the waterway.",
+        "date": "2026-10-17",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "US military officials confirmed they are weighing use of the 'Mother of All Bombs' against Iran, while Trump threatened a strike on a buried nuclear site and ruled out nuclear weapons.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Saudi Aramco headquarters was hit in a Houthi attack, and Riyadh accused Tehran of encouraging the escalation; Iran denied involvement.",
+        "date": "2026-10-14",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Brent crude touched $110 and US inflation jumped to 3.7 percent as the Iran war drove fuel and goods prices higher, reshaping the midterm election narrative.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The US Treasury issued a new round of Iran-related sanctions while Iran's central bank governor publicly dismissed claims of economic collapse under the blockade.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A German court sentenced two men to prison for plotting to kill the leader of Germany's Jewish community on behalf of Iran, and a Norwegian teen received 20 years for a UK murder plot tied to an Iran-linked gang.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Iran's internal political infighting deepened as economic woes mounted, a high-profile honor killing of a young woman reignited the femicide debate, and Tehran hinted at further internet restrictions targeting Starlink.",
+        "date": "2026-10-17",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Lebanon revoked the license of Iran's Saderat Bank amid US pressure, and the US destroyed an Iran-affiliated dhow it said was conducting surveillance in the Gulf of Oman.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 3
+      }
     ],
-    "legacy_probability": 0.55,
-    "flipped": false
-   },
-   {
-    "id": "Q2",
-    "text": "Will a short trust-building arrangement around the Strait of Hormuz be announced or quietly tested?",
-    "domain": "diplomacy",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "NO",
-    "evidence": "The headlines describe competing claims of control, escalating mine and ship attacks, and Iran bolting defenses, all of which point to escalation rather than a trust-building arrangement being announced or tested.",
-    "relevant_headlines": [
-     "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
-     "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
-     "Iran Boosts Air Defenses as It Braces For Fresh US Attacks"
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "economy",
+      "politics",
+      "diplomacy"
     ],
-    "legacy_probability": 0.4,
-    "flipped": false
-   },
-   {
-    "id": "Q3",
-    "text": "Will technical talks between the US and Iran continue without a signed deal by the end of the week?",
-    "domain": "diplomacy",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "UNCLEAR",
-    "evidence": "The word 'stalemate' implies a frozen or ongoing diplomatic track, but no headline explicitly confirms that technical talks were held or continued during these four days.",
-    "relevant_headlines": [
-     "US-Iran stalemate: What are Trump's next military options?",
-     "Amos Hochstein on Iran war latest: I've stopped understanding what the U.S. strategy is",
-     "Trump says Iran war will end 'soon as I want it to end'"
+    "emojis": [
+      "🚢",
+      "💣",
+      "🗳️"
     ],
-    "legacy_probability": 0.55,
-    "flipped": false
-   },
-   {
-    "id": "Q4",
-    "text": "Will the Iranian rial remain weak and the central bank intervene again to support the currency?",
-    "domain": "economy",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "UNCLEAR",
-    "evidence": "The central bank governor's public pushback against collapse claims and the ongoing sanctions pressure are consistent with a weak rial and possible intervention, but no headline explicitly states the rial's level or a specific new intervention.",
-    "relevant_headlines": [
-     "Iran's central bank governor dismisses claims of economic collapse amid US blockade",
-     "US sanctions leave Iranians facing flight cancellations and soaring costs",
-     "US inflation jumps to 3.7% as Iran war drives up prices"
+    "emoji_reasons": [
+      "🚢 captures the week's central story: two tankers hit mines, two cargo ships sunk, and Iran ramping up Hormuz ship attacks as oil flows crash.",
+      "💣 reflects the US military weighing the 'Mother of All Bombs' and Trump threatening a strike on Iran's buried nuclear site at Pickaxe Mountain.",
+      "🗳️ reflects how the Iran war became the dominant issue in US Senate debates, campaign ads, and midterm strategy across multiple states."
     ],
-    "legacy_probability": 0.75,
-    "flipped": false
-   },
-   {
-    "id": "Q5",
-    "text": "Will at least one proxy attack or cyber incident affect Gulf targets during the week?",
-    "domain": "security",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "YES",
-    "evidence": "The Houthi strike on Saudi Aramco headquarters on 14 October is a proxy attack on a Gulf target, and the WSJ and AP headlines confirm Iran was directing the campaign.",
-    "relevant_headlines": [
-     "Watch Saudi Aramco Headquarters Hit in Houthi Attack as Iran Escalates Hormuz Ship Strikes",
-     "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
-     "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia"
+    "developments": [
+      {
+        "subject": "Two tankers hit mines and caught",
+        "what_happened": "Two tankers hit mines and caught fire in the Strait of Hormuz, with Iran and the US each claiming control of the waterway.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "US military officials confirmed they are",
+        "what_happened": "US military officials confirmed they are weighing use of the 'Mother of All Bombs' against Iran, while Trump threatened a strike on a buried nuclear site and ruled out nuclear weapons.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Saudi Aramco headquarters was hit in",
+        "what_happened": "Saudi Aramco headquarters was hit in a Houthi attack, and Riyadh accused Tehran of encouraging the escalation; Iran denied involvement.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Brent crude touched $110 and US",
+        "what_happened": "Brent crude touched $110 and US inflation jumped to 3.7 percent as the Iran war drove fuel and goods prices higher, reshaping the midterm election narrative.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "The US Treasury issued a new",
+        "what_happened": "The US Treasury issued a new round of Iran-related sanctions while Iran's central bank governor publicly dismissed claims of economic collapse under the blockade.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "A German court sentenced two men",
+        "what_happened": "A German court sentenced two men to prison for plotting to kill the leader of Germany's Jewish community on behalf of Iran, and a Norwegian teen received 20 years for a UK murder plot tied to an Iran-linked gang.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Iran's internal political infighting deepened as",
+        "what_happened": "Iran's internal political infighting deepened as economic woes mounted, a high-profile honor killing of a young woman reignited the femicide debate, and Tehran hinted at further internet restrictions targeting Starlink.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      },
+      {
+        "subject": "Lebanon revoked the license of Iran's",
+        "what_happened": "Lebanon revoked the license of Iran's Saderat Bank amid US pressure, and the US destroyed an Iran-affiliated dhow it said was conducting surveillance in the Gulf of Oman.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": []
+      }
     ],
-    "legacy_probability": 0.65,
-    "flipped": false
-   },
-   {
-    "id": "Q6",
-    "text": "Will Iran experience more domestic digital crackdowns and localized protests during the week?",
-    "domain": "society",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "UNCLEAR",
-    "evidence": "The Starlink targeting and hints of further internet curbs support the digital-crackdown half, and the femicide case and political infighting show social tension, but no headline explicitly reports organized localized protests during the period.",
-    "relevant_headlines": [
-     "Iran targets Starlink as 'tool of war' with hints of more internet curbs",
-     "In Iran, a young woman's murder by her male relatives has reignited the debate over 'honor' killings",
-     "Iran: Political infighting deepens as economic woes mount during war"
+    "gone": [],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "converted from the earlier situation report"
+    },
+    "converted": true,
+    "headlines_used": [],
+    "relevant_headlines": 103,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Two tankers hit mines and caught",
+        "expected": "Two tankers hit mines and caught stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Two tankers hit mines and caught appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US military officials confirmed they are",
+        "expected": "US military officials confirmed they are stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US military officials confirmed they are appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Saudi Aramco headquarters was hit in",
+        "expected": "Saudi Aramco headquarters was hit in stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Saudi Aramco headquarters was hit in appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Lebanon revoked the license of Iran's",
+        "expected": "persist",
+        "sign": "Lebanon revoked the license of Iran's is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Two tankers hit mines and caught stays in the news at the same level. US military officials confirmed they are stays in the news at the same level. Saudi Aramco headquarters was hit in stays in the news at the same level. Lebanon revoked the license of Iran's is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Hormuz naval engagement",
+        "expected": "A US naval vessel is struck and damaged in the Strait of Hormuz, triggering a US retaliatory heavy-air strike on an Iranian coastal target.",
+        "direction": "escalate",
+        "sign": "Headlines report a US warship hit in the strait and a US heavy-bomb strike on a named Iranian site."
+      },
+      "second": {
+        "subject": "US shadow-fleet policy shift",
+        "expected": "President Trump signs a measure easing restrictions on the Iranian shadow fleet to cap domestic fuel prices ahead of the midterm vote.",
+        "direction": "persist",
+        "sign": "Headlines describe a presidential action loosening tanker rules and a visible drop in US fuel costs."
+      },
+      "third": {
+        "subject": "Iran Starlink blackout and protests",
+        "expected": "Iran cuts off Starlink access nationwide, triggering a visible public protest in Tehran that dominates domestic news coverage.",
+        "direction": "escalate",
+        "sign": "Headlines report a Starlink blackout and large street protests in Tehran."
+      },
+      "fade_call": {
+        "subject": "European court convictions",
+        "expected": "fade",
+        "sign": "The German and UK sentencing stories drop below the front page and no new trial or appeal headlines appear."
+      },
+      "surprise": {
+        "subject": "Iranian economic leadership shakeup",
+        "expected": "Iran's central bank governor or a senior economy minister publicly resigns under factional pressure, signaling a government-level crisis over the war's fiscal strain.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, the Strait of Hormuz will produce a major naval incident as Iran strikes a US vessel and Washington answers with a heavy air strike, pushing both capitals closer to full-scale engagement. President Trump will act on the domestic economic front by loosening restrictions on the Iranian shadow fleet, attempting to cap fuel prices before November voters head to the polls. Inside Iran, a sharp cut to Starlink access will spark visible street protests in Tehran, exposing the widening gap between the government's war posture and its citizens' daily hardship. European court verdicts will fade from headlines, and oil prices will hold near elevated levels as shipping risk premiums persist. A low-probability surprise will come in the form of a sudden political reshuffle in Tehran, where a senior economic figure steps down under factional pressure, signaling that the war's internal cost is breaking the government coalition.",
+      "generated_at": "2026-10-23T00:06:49+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US precision strike on hardened Iranian target",
+        "expected": "The United States deploys a large-diameter munition against a buried or hardened Iranian military or nuclear site, marking the biggest air operation of the conflict to date.",
+        "direction": "escalate",
+        "sign": "Headlines announcing a US bombing run on a hardened Iranian target, with Iranian officials reporting air-defense flares and a partial intercept over the strike zone."
+      },
+      "second": {
+        "subject": "Houthi strike on Saudi infrastructure",
+        "expected": "Houthi forces launch a new missile or drone attack on a Saudi energy or military facility, and Riyadh announces a retaliatory air campaign over northern Yemen.",
+        "direction": "escalate",
+        "sign": "Headlines about a Houthi drone or missile hitting a Saudi port or pipeline, followed by Saudi defense statements confirming counter-strikes on positions in Yemen."
+      },
+      "third": {
+        "subject": "Senate war-funding vote",
+        "expected": "The Senate holds a floor vote on war funding or a resolution on the Iran conflict, with senators from both parties clashing over oil prices and the cost to American families.",
+        "direction": "persist",
+        "sign": "Headlines about a Senate Iran vote, campaign ad spots referencing gas-station prices, and a presidential press briefing on the economic cost of the war."
+      },
+      "fade_call": {
+        "subject": "Iran-linked European court verdicts",
+        "expected": "fade",
+        "sign": "The Hamburg and Norwegian sentencing stories drop from the front page and appear only in legal-section updates or appellate filings."
+      },
+      "surprise": {
+        "subject": "Iran Starlink blackout",
+        "expected": "Iran's government disables or severely throttles Starlink service for millions of domestic users, triggering a visible internet blackout and a new round of protests and official statements about digital sovereignty.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the Strait of Hormuz will see another round of ship attacks by Iranian forces, with mines and drones striking commercial tankers. The United States will likely respond with a precision strike on a hardened target, possibly deploying the large-diameter munition it has been weighing. Houthi forces will hit another Saudi infrastructure site, prompting Riyadh to launch a retaliatory air campaign and again blame Tehran for the escalation. In Washington, the Senate will take up war-funding votes as both parties weaponize soaring gas prices ahead of November. European court verdicts tied to Iran will lose momentum. A medium-probability surprise involves Tehran cutting off Starlink access, creating a domestic internet blackout that draws international attention. Oil will trade above one hundred dollars, and the economic pain will become the central argument in every US campaign ad.",
+      "generated_at": "2026-10-23T00:25:43+03:00"
+    }
+  },
+  "display": {
+    "headline": "Hormuz Tankers Sink as US Prepares Mega-Bomb Strike",
+    "emojis": [
+      "🚢",
+      "💣",
+      "🗳️"
     ],
-    "legacy_probability": 0.65,
-    "flipped": false
-   },
-   {
-    "id": "Q7",
-    "text": "Will Iran make a formal NPT exit decision during the week?",
-    "domain": "diplomacy",
-    "naive": "NO",
-    "crystal": "NO",
-    "outcome": "NO",
-    "evidence": "Nuclear-related headlines focus on potential strikes against buried sites and on ruling out nuclear weapons, but no headline mentions the NPT or a formal Iranian decision to leave the treaty, which would be a major story.",
-    "relevant_headlines": [
-     "Trump says US may need to strike Iran's Pickaxe Mountain",
-     "Bloomberg: Trump's 'Mother Of All Bombs' Threat Would Miss Iran's Buried Nuclear Sites",
-     "Trump says he won't use nuclear weapons or send ground troops to Iran"
+    "emoji_reasons": [
+      "The core story this week and next is maritime conflict in the Strait of Hormuz, where tankers are being hit by mines and drones.",
+      "The US mega-bomb and precision-strike threat defines the military escalation and is the biggest single development to watch.",
+      "The November midterms are the political backdrop driving every military and economic decision in Washington this week."
     ],
-    "legacy_probability": 0.8,
-    "flipped": false
-   },
-   {
-    "id": "Q8",
-    "text": "Will a limited US/Israeli strike or exchange of fire occur involving Iran during the week?",
-    "domain": "security",
-    "naive": "YES",
-    "crystal": "YES",
-    "outcome": "YES",
-    "evidence": "The US destroyed an Iran-affiliated boat on 14 October and Iran hit tankers with mines and sank cargo ships in the Strait of Hormuz on multiple days, constituting a limited exchange of fire between the two sides.",
-    "relevant_headlines": [
-     "US destroys Iran-affiliated boat it says conducted surveillance and targeted navy in Gulf of Oman",
-     "Iran's Guards say two tankers hit mines in Strait of Hormuz",
-     "Iran says it's 'counting the moments' until it can strike U.S. warships"
-    ],
-    "legacy_probability": 0.35,
-    "flipped": false
-   }
-  ],
-  "resolved": 5,
-  "unclear": 3,
-  "single_forecaster": true,
-  "correct": 4,
-  "winner": "single",
-  "systematic_error": "Both forecasters show a clear bias toward confirming soft, diplomatic, and economic developments. They answered YES to a trust-building arrangement (Q2) even though every headline describes escalation and competing claims of control, not de-escalation. They also answered YES to ongoing technical talks (Q3), rial intervention (Q4), and domestic protests (Q6), where the evidence provides context—stalemate, economic pressure, social tension—without explicitly confirming the specific event. Their four correct answers (Q1, Q5, Q7, Q8) all concern hard military or security events that the headlines report directly. In short, they over-read diplomatic and economic signals from a news cycle dominated by mines, strikes, and sanctions, and they treat implied background conditions as confirmed facts.",
-  "correction_hint": "For Iran, reserve a YES verdict for events that a headline explicitly reports as having occurred (a strike, a mine hit, a court sentencing) rather than for the surrounding context of stalemate, pressure, or debate; when the question asks about talks, interventions, or protests, look for a headline that names the specific act, not just the general tension that might eventually produce it."
- },
- "naive_forecast": null,
- "crystal_forecast": null,
- "display": null,
- "questions": null
+    "tldr": "Iran will strike more tankers in the Strait of Hormuz while the US prepares a large munition strike on a hardened target. Houthi attacks on Saudi Arabia will intensify, and the Senate will fight over war costs ahead of midterms. Watch for a sudden Starlink blackout in Tehran.",
+    "eli5": "Iran and the United States have been in a fight for months, and this week it got a lot worse. Iran is hitting shipping boats with mines and drones in a narrow waterway called the Strait of Hormuz, where a huge amount of the world's oil gets shipped. Two cargo ships have already sunk, and oil prices have shot up past one hundred dollars a barrel, making everything more expensive for regular families.\n\nThe reason it matters so much right now is that the US is heading into elections in November. Higher gas prices make people angry, and politicians on both sides are blaming each other for the war. The President has been talking about using a really big bomb to hit a secret underground site in Iran, and Iran is boosting its air defenses in preparation.\n\nNext week, the Hormuz attacks will probably get worse with more ships hit, and the US will likely drop one of its largest bombs on a hardened Iranian target. At the same time, the Houthi fighters in Yemen will keep attacking Saudi Arabia, and Riyadh will hit back. These two stories will dominate the news cycle.\n\nThe surprise to watch for: Iran might try to shut down Starlink, the satellite internet service many Iranians use to bypass government censorship. If they do, millions of people lose their main way to get news and call family abroad, and it could spark a new round of protests in the streets."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nIran entered the week under a layered set of pressures. A US diplomatic response had reached Tehran through Qatari mediators, even though President Trump had publicly rejected the earlier Iranian proposal, keeping the channel alive. In the military dimension, Washington was deploying a third carrier strike group and thousands of additional troops toward the region, while Trump acknowledged that some munitions stocks were low and floated the idea of larger strikes after the November midterms. Domestically, the rial sat at record lows, the central bank was selling dollars to prop up the currency, and September oil loading had been minimal under blockade and sanctions pressure. New 'Operation Economic Outcast' sanctions targeted auto, rail, and aviation sectors. The regime was blocking SIM cards, freezing bank accounts, and tightening digital surveillance. Two incidents—the FlyDubai copilot attack and the RAF Fairford plot—gave Washington and London potential casus belli arguments. Iran had captured a\n- Iran received a US diplomatic response (regular, continuing): Iran received a US diplomatic response through Qatari mediators despite Trump's public rejection of the earlier proposal.\n- The US deployed a third carrier (regular, continuing): The US deployed a third carrier strike group and thousands of troops toward the region while Trump admitted low munitions stocks.\n- The rial fell to record lows (regular, continuing): The rial fell to record lows and the central bank began selling dollars to support the currency.\n- The FlyDubai copilot attack and RAF (regular, continuing): The FlyDubai copilot attack and RAF Fairford plot gave the US and UK potential casus belli arguments against Iran.\n- The regime intensified SIM-card blocks, bank-account (regular, continuing): The regime intensified SIM-card blocks, bank-account freezes, and digital surveillance of activists and merchants.\n- The regime intensified SIM-card blocks, bank-account (again) (regular, continuing): The regime intensified SIM-card blocks, bank-account freezes, and digital surveillance of activists and merchants.\n\nRound 2026-09-15:\nAccording to the text, Iran entered the week under managed military and diplomatic pressure. The United States approved visas for senior Iranian leaders to attend the UN General Assembly, signaling a willingness to keep channels open. A UN report documented possible US war crimes, including a strike on a school in Minab and a sports complex in Lamerd, which the regime seized upon to rally domestic support. Iran was blocked from attending an IAEA meeting at US urging, deepening nuclear tensions. Naval incidents proliferated off Qeshm Island: explosions, a struck cargo ship, US forces engaging small Iranian boats, and Iran claiming a drone kill over Hormuz. A Swedish diplomat was expelled and Sweden sanctioned an Iranian embassy employee, widening the diplomatic rift. Baha'i properties faced seizure orders. Oil traded above one hundred dollars, the rial weakened steadily, and hardliners pushed for calibrated pressure on Washington ahead of US midterm elections.\n- The United States approved visas for (regular, continuing): The United States approved visas for senior Iranian leaders to attend the UN General Assembly in New York.\n- A UN report documented possible US (regular, continuing): A UN report documented possible US war crimes including strikes on a school in Minab and a sports complex in Lamerd.\n- Naval and drone incidents occurred off (regular, continuing): Naval and drone incidents occurred off Qeshm Island, including a struck cargo ship and US engagement of small Iranian boats.\n- Iran was blocked from attending an (regular, continuing): Iran was blocked from attending an IAEA meeting at the urging of the United States.\n- Oil prices exceeded one hundred dollars (regular, continuing): Oil prices exceeded one hundred dollars and the Iranian rial weakened in the open market.\n- Oil prices exceeded one hundred dollars (again) (regular, continuing): Oil prices exceeded one hundred dollars and the Iranian rial weakened in the open market.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": {
+    "position": {
+      "summary": "The week was dominated by a sharp escalation in the Strait of Hormuz, where Iran struck shipping with mines and drones, sinking at least two cargo ships and setting two more tankers ablaze. The United States considered deploying its 'Mother of All Bombs' and President Trump floated a strike on a buried nuclear site, while Iran bolstered its air defenses in preparation. Saudi Arabia accused Tehran of encouraging Houthi escalation after Aramco facilities were hit; Iran denied the claim. Oil prices surged past $110 a barrel for Brent, pushing US inflation to 3.7 percent and making the war a flashpoint in every Senate debate ahead of the November midterms. The US Treasury issued fresh sanctions, and Iran's central bank governor dismissed talk of economic collapse. Domestically, political infighting deepened, a high-profile honor killing reignited the femicide debate, and suspected Israeli cyber operations alarmed Tehran. In Europe, courts in Germany and the UK convicted suspects in Iran-linked assassination plots. The overall picture is a grinding war in which both sides are posturing harder as the American election approaches.",
+      "key_events": [
+        {
+          "event": "Two tankers hit mines and caught fire in the Strait of Hormuz, with Iran and the US each claiming control of the waterway.",
+          "date": "2026-10-17",
+          "domain": "security",
+          "importance": 5
+        },
+        {
+          "event": "US military officials confirmed they are weighing use of the 'Mother of All Bombs' against Iran, while Trump threatened a strike on a buried nuclear site and ruled out nuclear weapons.",
+          "date": "2026-10-15",
+          "domain": "security",
+          "importance": 5
+        },
+        {
+          "event": "Saudi Aramco headquarters was hit in a Houthi attack, and Riyadh accused Tehran of encouraging the escalation; Iran denied involvement.",
+          "date": "2026-10-14",
+          "domain": "diplomacy",
+          "importance": 4
+        },
+        {
+          "event": "Brent crude touched $110 and US inflation jumped to 3.7 percent as the Iran war drove fuel and goods prices higher, reshaping the midterm election narrative.",
+          "date": "2026-10-14",
+          "domain": "economy",
+          "importance": 4
+        },
+        {
+          "event": "The US Treasury issued a new round of Iran-related sanctions while Iran's central bank governor publicly dismissed claims of economic collapse under the blockade.",
+          "date": "2026-10-15",
+          "domain": "economy",
+          "importance": 3
+        },
+        {
+          "event": "A German court sentenced two men to prison for plotting to kill the leader of Germany's Jewish community on behalf of Iran, and a Norwegian teen received 20 years for a UK murder plot tied to an Iran-linked gang.",
+          "date": "2026-10-15",
+          "domain": "security",
+          "importance": 3
+        },
+        {
+          "event": "Iran's internal political infighting deepened as economic woes mounted, a high-profile honor killing of a young woman reignited the femicide debate, and Tehran hinted at further internet restrictions targeting Starlink.",
+          "date": "2026-10-17",
+          "domain": "society",
+          "importance": 3
+        },
+        {
+          "event": "Lebanon revoked the license of Iran's Saderat Bank amid US pressure, and the US destroyed an Iran-affiliated dhow it said was conducting surveillance in the Gulf of Oman.",
+          "date": "2026-10-15",
+          "domain": "diplomacy",
+          "importance": 3
+        }
+      ],
+      "mood": "escalating",
+      "intensity": 8,
+      "domains_active": [
+        "security",
+        "economy",
+        "politics",
+        "diplomacy"
+      ],
+      "emojis": [
+        "🚢",
+        "💣",
+        "🗳️"
+      ],
+      "emoji_reasons": [
+        "🚢 captures the week's central story: two tankers hit mines, two cargo ships sunk, and Iran ramping up Hormuz ship attacks as oil flows crash.",
+        "💣 reflects the US military weighing the 'Mother of All Bombs' and Trump threatening a strike on Iran's buried nuclear site at Pickaxe Mountain.",
+        "🗳️ reflects how the Iran war became the dominant issue in US Senate debates, campaign ads, and midterm strategy across multiple states."
+      ]
+    },
+    "velocity": {
+      "summary": "In the three days between reports, Iran's situation shifted from tense posturing to active, kinetic confrontation. The diplomatic channel through Qatar that was still alive in the earlier report has largely faded from view, replaced by a concrete pattern of strikes: mines and drones in the Strait of Hormuz sank two cargo ships and set two tankers ablaze, a step the previous report had not yet reached. The US military conversation moved from deploying a third carrier group to weighing the Mother of All Bombs and a strike on a buried nuclear site, signalling a faster climb up the escalation ladder. Oil jumped past one hundred ten dollars and US inflation crossed three and a half percent, making the war a live issue in every Senate debate. Proxy activity sharpened as Houthis hit Aramco and the US destroyed an Iranian dhow in the Gulf of Oman. Domestically, the digital crackdown continued but new threads appeared: a high-profile honor killing, suspected Israeli cyber operations, and Iran hinting at Starlink restrictions. The overall speed is brisk, with each day adding a new concrete flashpoint rather than a shift in posture.",
+      "direction": "escalating",
+      "speed": 7,
+      "intensity_change": 1,
+      "rising": [
+        "Strait of Hormuz mine and drone strikes on shipping",
+        "US MOAB and buried-nuclear-site strike deliberations",
+        "Oil above $110 and US inflation spike reshaping midterms",
+        "Proxy escalation: Houthi Aramco hit and Gulf dhow destruction"
+      ],
+      "fading": [
+        "Qatari-mediated diplomatic channel between Tehran and Washington",
+        "FlyDubai copilot attack and RAF Fairford plot as casus belli",
+        "US physical troop deployment as the main security talking point"
+      ],
+      "new": [
+        "Suspected Israeli cyber operations alarming Tehran",
+        "High-profile honor killing reigniting the femicide debate",
+        "Lebanon revoking the Saderat Bank license under US pressure",
+        "Iran hinting at further internet restrictions targeting Starlink"
+      ]
+    },
+    "wind": {
+      "previous_round": "2026-10-02",
+      "elapsed_days": 15,
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "Will there be a major new US/Israeli bombing campaign inside Iran during the week?",
+          "domain": "security",
+          "naive": "NO",
+          "crystal": "NO",
+          "outcome": "NO",
+          "evidence": "The US is weighing and threatening options such as the MoAB and a strike on Pickaxe Mountain, but no headline reports that a major bombing campaign inside Iran actually began during the period.",
+          "relevant_headlines": [
+            "US military weighs use of 'mother of all bombs' in potential future strikes on Iran, CNN says",
+            "Major U.S. strikes against Iran before midterms 'extremely unlikely': Analyst",
+            "Netanyahu says he is not seeking to attack Iran again before Israel election"
+          ],
+          "legacy_probability": 0.55,
+          "flipped": false
+        },
+        {
+          "id": "Q2",
+          "text": "Will a short trust-building arrangement around the Strait of Hormuz be announced or quietly tested?",
+          "domain": "diplomacy",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "NO",
+          "evidence": "The headlines describe competing claims of control, escalating mine and ship attacks, and Iran bolting defenses, all of which point to escalation rather than a trust-building arrangement being announced or tested.",
+          "relevant_headlines": [
+            "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+            "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
+            "Iran Boosts Air Defenses as It Braces For Fresh US Attacks"
+          ],
+          "legacy_probability": 0.4,
+          "flipped": false
+        },
+        {
+          "id": "Q3",
+          "text": "Will technical talks between the US and Iran continue without a signed deal by the end of the week?",
+          "domain": "diplomacy",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "UNCLEAR",
+          "evidence": "The word 'stalemate' implies a frozen or ongoing diplomatic track, but no headline explicitly confirms that technical talks were held or continued during these four days.",
+          "relevant_headlines": [
+            "US-Iran stalemate: What are Trump's next military options?",
+            "Amos Hochstein on Iran war latest: I've stopped understanding what the U.S. strategy is",
+            "Trump says Iran war will end 'soon as I want it to end'"
+          ],
+          "legacy_probability": 0.55,
+          "flipped": false
+        },
+        {
+          "id": "Q4",
+          "text": "Will the Iranian rial remain weak and the central bank intervene again to support the currency?",
+          "domain": "economy",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "UNCLEAR",
+          "evidence": "The central bank governor's public pushback against collapse claims and the ongoing sanctions pressure are consistent with a weak rial and possible intervention, but no headline explicitly states the rial's level or a specific new intervention.",
+          "relevant_headlines": [
+            "Iran's central bank governor dismisses claims of economic collapse amid US blockade",
+            "US sanctions leave Iranians facing flight cancellations and soaring costs",
+            "US inflation jumps to 3.7% as Iran war drives up prices"
+          ],
+          "legacy_probability": 0.75,
+          "flipped": false
+        },
+        {
+          "id": "Q5",
+          "text": "Will at least one proxy attack or cyber incident affect Gulf targets during the week?",
+          "domain": "security",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "YES",
+          "evidence": "The Houthi strike on Saudi Aramco headquarters on 14 October is a proxy attack on a Gulf target, and the WSJ and AP headlines confirm Iran was directing the campaign.",
+          "relevant_headlines": [
+            "Watch Saudi Aramco Headquarters Hit in Houthi Attack as Iran Escalates Hormuz Ship Strikes",
+            "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
+            "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia"
+          ],
+          "legacy_probability": 0.65,
+          "flipped": false
+        },
+        {
+          "id": "Q6",
+          "text": "Will Iran experience more domestic digital crackdowns and localized protests during the week?",
+          "domain": "society",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "UNCLEAR",
+          "evidence": "The Starlink targeting and hints of further internet curbs support the digital-crackdown half, and the femicide case and political infighting show social tension, but no headline explicitly reports organized localized protests during the period.",
+          "relevant_headlines": [
+            "Iran targets Starlink as 'tool of war' with hints of more internet curbs",
+            "In Iran, a young woman's murder by her male relatives has reignited the debate over 'honor' killings",
+            "Iran: Political infighting deepens as economic woes mount during war"
+          ],
+          "legacy_probability": 0.65,
+          "flipped": false
+        },
+        {
+          "id": "Q7",
+          "text": "Will Iran make a formal NPT exit decision during the week?",
+          "domain": "diplomacy",
+          "naive": "NO",
+          "crystal": "NO",
+          "outcome": "NO",
+          "evidence": "Nuclear-related headlines focus on potential strikes against buried sites and on ruling out nuclear weapons, but no headline mentions the NPT or a formal Iranian decision to leave the treaty, which would be a major story.",
+          "relevant_headlines": [
+            "Trump says US may need to strike Iran's Pickaxe Mountain",
+            "Bloomberg: Trump's 'Mother Of All Bombs' Threat Would Miss Iran's Buried Nuclear Sites",
+            "Trump says he won't use nuclear weapons or send ground troops to Iran"
+          ],
+          "legacy_probability": 0.8,
+          "flipped": false
+        },
+        {
+          "id": "Q8",
+          "text": "Will a limited US/Israeli strike or exchange of fire occur involving Iran during the week?",
+          "domain": "security",
+          "naive": "YES",
+          "crystal": "YES",
+          "outcome": "YES",
+          "evidence": "The US destroyed an Iran-affiliated boat on 14 October and Iran hit tankers with mines and sank cargo ships in the Strait of Hormuz on multiple days, constituting a limited exchange of fire between the two sides.",
+          "relevant_headlines": [
+            "US destroys Iran-affiliated boat it says conducted surveillance and targeted navy in Gulf of Oman",
+            "Iran's Guards say two tankers hit mines in Strait of Hormuz",
+            "Iran says it's 'counting the moments' until it can strike U.S. warships"
+          ],
+          "legacy_probability": 0.35,
+          "flipped": false
+        }
+      ],
+      "resolved": 5,
+      "unclear": 3,
+      "single_forecaster": true,
+      "correct": 4,
+      "winner": "single",
+      "systematic_error": "Both forecasters show a clear bias toward confirming soft, diplomatic, and economic developments. They answered YES to a trust-building arrangement (Q2) even though every headline describes escalation and competing claims of control, not de-escalation. They also answered YES to ongoing technical talks (Q3), rial intervention (Q4), and domestic protests (Q6), where the evidence provides context—stalemate, economic pressure, social tension—without explicitly confirming the specific event. Their four correct answers (Q1, Q5, Q7, Q8) all concern hard military or security events that the headlines report directly. In short, they over-read diplomatic and economic signals from a news cycle dominated by mines, strikes, and sanctions, and they treat implied background conditions as confirmed facts.",
+      "correction_hint": "For Iran, reserve a YES verdict for events that a headline explicitly reports as having occurred (a strike, a mine hit, a court sentencing) rather than for the surrounding context of stalemate, pressure, or debate; when the question asks about talks, interventions, or protests, look for a headline that names the specific act, not just the general tension that might eventually produce it."
+    },
+    "status": {
+      "position": "done",
+      "velocity": "done",
+      "wind": "done",
+      "naive_forecast": "pending",
+      "crystal_forecast": "pending",
+      "display": "pending",
+      "questions": "pending"
+    },
+    "schema_version": 2
+  }
 }

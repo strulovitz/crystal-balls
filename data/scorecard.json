@@ -1,27 +1,73 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-10-19T15:31:40+03:00",
+  "schema_version": 4,
+  "generated_at": "2026-10-23T16:22:11+03:00",
+  "judge_validated": false,
+  "judge_note": "The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the repository, timestamped before reality arrived.",
   "rounds_scored": 0,
-  "country_rounds_scored": 0,
-  "questions_resolved": 0,
-  "questions_unclear": 0,
-  "naive_correct": 0,
-  "crystal_correct": 0,
-  "disagreements": 0,
-  "naive_accuracy": null,
-  "crystal_accuracy": null,
-  "crystal_won_disagreements": 0,
-  "naive_won_disagreements": 0,
-  "edge": null,
-  "verdict": "not enough data yet",
-  "min_disagreements_for_verdict": 30,
+  "judged_country_weeks": 0,
+  "crystal_better": 0,
+  "ties": 0,
+  "plain_better": 0,
+  "crystal_better_pct": null,
+  "ties_pct": null,
+  "plain_better_pct": null,
+  "mean_v": null,
+  "interval_v": null,
+  "verdict": "Judge not yet validated",
+  "mean_u": null,
+  "interval_u": null,
+  "verdict_u": "Judge not yet validated",
+  "min_rounds_for_verdict": 6,
+  "item_grades": {
+    "plain": {
+      "came_true": 0,
+      "true_in_direction": 0,
+      "did_not_appear": 0,
+      "cannot_establish": 0
+    },
+    "crystal": {
+      "came_true": 0,
+      "true_in_direction": 0,
+      "did_not_appear": 0,
+      "cannot_establish": 0
+    },
+    "persistence": {
+      "came_true": 0,
+      "true_in_direction": 0,
+      "did_not_appear": 0,
+      "cannot_establish": 0
+    }
+  },
+  "unscorable": 13,
+  "country_rounds": 35,
+  "unscorable_fraction": 0.371,
+  "first_listed_wins": 0,
+  "first_listed_nonties": 0,
+  "first_listed_wins_share": null,
+  "gap_buckets": {
+    "3 to 6 days": {
+      "n": 0,
+      "mean_v": null
+    },
+    "7 to 10 days": {
+      "n": 0,
+      "mean_v": null
+    },
+    "11 to 17 days": {
+      "n": 0,
+      "mean_v": null
+    },
+    "other": {
+      "n": 0,
+      "mean_v": null
+    }
+  },
   "per_round": [],
   "per_country": {},
-  "manual_forecast": {
-    "country_rounds_scored": 1,
-    "questions_resolved": 4,
-    "questions_unclear": 4,
-    "correct": 2,
-    "accuracy": 0.5
-  }
+  "hand_made_forecasts": [],
+  "run_in_rounds": [
+    "2026-10-17"
+  ],
+  "run_in_judged_country_weeks": 0,
+  "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count."
 }

@@ -1,0 +1,495 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T04:01:41+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, Saudi Arabia faced its most intense Houthi attack campaign to date. Iran-backed Yemeni rebels struck Riyadh's King Khalid International Airport, the headquarters of oil giant Aramco, and multiple other locations with missiles and drones. Debris from intercepted weapons fell on residential neighborhoods in the capital. Egypt's President Sisi sought parliamentary authorization to send military aid to defend Saudi Arabia. Wall Street Journal reporting indicated Iran was providing the Houthis with targeting data and intelligence. The attacks rippled through Saudi economic and social life: the Six Kings Slam tennis tournament featuring Alcaraz and Djokovic was postponed, three Saudi Pro League matches were canceled, the Asian Cup remained tentatively on schedule while golf and cycling events were affected, and Riyadh's airport stayed shut. Oil prices rose on Aramco risk, and the EU-Gulf Summit in Saudi Arabia was postponed. Separately, a Saudi national was arrested in a bugging case linked to OpenAI, and the kingdom overturned a death sentence originally handed for a Facebook comment.",
+    "key_events": [
+      {
+        "event": "Houthi missile struck the Aramco headquarters building in Riyadh, causing extensive damage and prompting the company to offer extra spot crude cargoes to Europe.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Multiple Houthi missiles and drones hit Riyadh, its airport, and other Saudi cities, with debris from intercepted weapons falling on residential areas.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Egypt's President Sisi sought parliamentary authorization to send military aid to defend Saudi Arabia if requested.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Iran was reported to be providing the Houthis with targeting and intelligence for their attacks on Saudi Arabia.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The Six Kings Slam tennis tournament in Saudi Arabia featuring Alcaraz and Djokovic was postponed after deadly attacks.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "A Saudi national was arrested and charged with planting a listening device at OpenAI offices, with a one-way ticket to Saudi Arabia found in her bag.",
+        "date": "2026-10-15",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "The EU and Gulf States postponed their summit in Saudi Arabia due to the ongoing Houthi attacks.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A tanker was struck by an unknown projectile off Saudi Arabia's coast, according to the UKMTO.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Saudi Airlines rushed to relocate scores of aircraft out of what became an active war zone.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Saudi Arabia overturned a death sentence that had been handed down over a Facebook comment.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🚀",
+      "🛢️",
+      "💥"
+    ],
+    "emoji_reasons": [
+      "Houthi missiles and drones rained on Riyadh, airports, and Aramco HQ throughout the week (headlines 2, 30, 38, 80).",
+      "The Aramco headquarters was hit and oil prices rose on Saudi energy risk, reshaping market expectations (headlines 30, 36, 84, 100).",
+      "Deadly explosions were heard across the capital and residents described windows vibrating during overnight strikes (headlines 7, 55, 63, 68)."
+    ],
+    "developments": [
+      {
+        "subject": "Houthi missile and drone strikes on Saudi cities",
+        "what_happened": "Houthis launched waves of missiles and drones at Riyadh, Jeddah, and other Saudi cities, with the Saudi-led coalition intercepting some while debris fell on residential areas.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          4,
+          5,
+          8,
+          17,
+          28,
+          38,
+          54,
+          55,
+          61,
+          63,
+          68,
+          74,
+          79,
+          83,
+          93,
+          99
+        ]
+      },
+      {
+        "subject": "Aramco headquarters hit",
+        "what_happened": "A Houthi missile struck the Aramco headquarters building in Riyadh, causing extensive damage and prompting the company to offer extra spot crude cargoes to Europe while oil prices rose.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          30,
+          32,
+          36,
+          52,
+          71,
+          84,
+          89,
+          91,
+          92,
+          96,
+          98
+        ]
+      },
+      {
+        "subject": "Egypt offers military aid to Saudi Arabia",
+        "what_happened": "President Sisi sought parliamentary authorization to send Egyptian forces to defend Saudi Arabia if requested, signaling a broader regional military response.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          6,
+          12,
+          19,
+          23,
+          33
+        ]
+      },
+      {
+        "subject": "Iran feeding intelligence to Houthis",
+        "what_happened": "Wall Street Journal reported Iran was providing the Houthis with targeting data and intelligence, and Saudi diplomats said Iran was encouraging escalation.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9,
+          22,
+          35,
+          52,
+          67
+        ]
+      },
+      {
+        "subject": "Sports events postponed and canceled",
+        "what_happened": "The Six Kings Slam featuring Alcaraz and Djokovic, three Saudi Pro League matches, the Asian Tour Saudi International, and the FIFAe Finals were all postponed or canceled amid the attacks.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          14,
+          21,
+          24,
+          25,
+          34,
+          44,
+          47,
+          66,
+          69,
+          77,
+          86,
+          88,
+          95
+        ]
+      },
+      {
+        "subject": "EU-Gulf Summit postponed",
+        "what_happened": "The EU and Gulf States postponed their summit scheduled in Saudi Arabia due to the ongoing Houthi attacks.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          40,
+          64,
+          78
+        ]
+      },
+      {
+        "subject": "OpenAI bugging case involving Saudi national",
+        "what_happened": "A Saudi national was arrested for planting a listening device at OpenAI offices and had booked a one-way ticket to Saudi Arabia with her family before arrest.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          43,
+          58,
+          60,
+          65,
+          72,
+          81
+        ]
+      },
+      {
+        "subject": "Riyadh airport shut and airlines repositioning",
+        "what_happened": "Riyadh's airport remained shut for the week as Saudi Airlines rushed to relocate scores of aircraft out of the conflict zone.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          20,
+          75,
+          90,
+          102
+        ]
+      },
+      {
+        "subject": "Oil prices and Gulf markets react",
+        "what_happened": "Oil prices gained on the Aramco attack and Hormuz shipping risks, while Saudi stocks were the hardest hit among Gulf markets.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          41,
+          57,
+          59,
+          83,
+          100,
+          103
+        ]
+      },
+      {
+        "subject": "Tanker struck off Saudi coast",
+        "what_happened": "A tanker was hit by an unknown projectile off Saudi Arabia's coast, adding to maritime tension in the region.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          13
+        ]
+      }
+    ],
+    "gone": [
+      "Turkey and Pakistan entered the deployment",
+      "A FlyDubai cockpit incident involving a",
+      "Saudi Arabia canceled the Joy Awards",
+      "Saudi Arabia canceled the Joy Awards (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad coverage of the Houthi attack campaign, its economic and diplomatic spillover, and several secondary stories, though there is limited detail on internal Saudi politics beyond MBS commentary."
+    },
+    "headlines_used": [
+      "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
+      "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+      "Asian Cup in Saudi Arabia could be postponed but 'no hurry' to decide: AFC",
+      "From Our Own Correspondent | Saudi Arabia hit by the Houthis",
+      "Iran-aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
+      "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
+      "'La nuit, j'entendais les fenêtres vibrer': en Arabie saoudite sous les frappes houthies, des habitants affichent leur sérénité",
+      "Houthis Hit Yemen Airport as Saudi Arabia Intercepts Attacks",
+      "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia",
+      "Houthis encircle new target in conflict with Saudi-backed forces",
+      "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+      "Egypt’s el-Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says",
+      "Asian Cup in Saudi Arabia stays on track as safety fears grow amid Middle East conflict",
+      "AI-generated video falsely linked to Houthi attacks on Saudi airports",
+      "NEOM vs Al Ettifaq: Saudi Pro League stats & head-to-head",
+      "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
+      "L'Iran réfute les accusation saoudiennes d'implication dans les attaques houthies",
+      "Egypt Ready to Defend Saudi Arabia if Needed, Sisi Says",
+      "Saudi Airlines Rush to Save Scores of Planes From a War Zone",
+      "Saudi events delayed after Houthi attacks",
+      "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
+      "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+      "Asian Cup remains on track but golf and cycling events affected after Riyadh attack",
+      "Saudi-hosted 2028 Olympics qualifier in BMX cycling canceled after Riyadh airport bombing",
+      "Video of Saudi passenger plane exploding after Houthi attack is AI-generated",
+      "Al Qadsiah vs Abha: Saudi Pro League stats & head-to-head",
+      "Saudi Arebiya ta kakkabo makaman Houthi a birnin Riyadh",
+      "Saudi Arabia’s MBS Is Facing His Greatest Challenge",
+      "Houthi Strike Hits Building at Saudi Aramco Headquarters",
+      "What’s at stake in the Saudi-Houthi conflict?",
+      "Saudi Arabia's energy infrastructure has shown resilience, but cannot afford more disruption: SVB Energy",
+      "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+      "Asian Tour postpone Saudi International after Riyadh attacks",
+      "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom",
+      "Houthis say targeted Saudi oil giant Aramco, vow more attacks",
+      "Saudi Arabia overturns death sentence over Facebook comment",
+      "Houthis launch fresh wave of missiles across Saudi Arabia - DW.com",
+      "VIDÉO. Sénégal: Mbayang Diop condamnée à mort en Arabie Saoudite",
+      "Watch Yemen Says Houthis Hit Presidential Palace, EU-Gulf Summit in Saudi Arabia Postponed",
+      "Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks",
+      "Letter: Saudi Arabia has to show it can keep working even under fire",
+      "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+      "Asian Cup in Saudi Arabia still on, organisers say, but golf tour postponed",
+      "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
+      "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+      "Saudi league postpones three matches after Houthi attacks",
+      "Al Khaleej vs Al Fayha: Saudi Pro League stats & head-to-head",
+      "Les Houthis du Yémen revendiquent une nouvelle attaque contre Aramco en Arabie saoudite",
+      "Houthi Attacks on Saudi Arabia Defy Difference in Military Power",
+      "Transcript: What’s at stake in the Saudi-Houthi conflict?",
+      "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked",
+      "What is the ‘Mother of All Bombs’ US could use in Iran?",
+      "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
+      "Scenes of Riyadh’s skyline after strikes in Saudi Arabia by Iran-backed Houthis",
+      "Al Faisaly vs Al Kholood: Saudi Pro League stats & head-to-head",
+      "IMF Says Saudi Buffers, Energy Backup Blunt Economic Blow",
+      "He linked Saudi Arabia to Silicon Valley. Then OpenAI found a bug wrapped in toilet paper",
+      "Economist on Saudi resilience, inflation and U.S. bond yields",
+      "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+      "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure",
+      "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+      "De nouvelles explosions entendues dans la capitale saoudienne",
+      "EU and Gulf States Expected to Postpone Saudi Summit Over Attacks",
+      "OpenAI employee accused of bugging office booked one-way ticket to Saudi Arabia",
+      "Asian Cup in Saudi Arabia could be postponed by a year amid Houthi attacks",
+      "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
+      "Debris from two intercepted Houthi missiles falls on residential areas in Riyadh",
+      "Six Kings Slam featuring Carlos Alcaraz and Novak Djokovic postponed after deadly Saudi Arabia attacks",
+      "Live Q&A: How Will MBS Respond with Saudi Arabia Under Fire?",
+      "Houthis attack Saudi Aramco headquarters",
+      "Saudi national charged with planting a listening device at OpenAI offices",
+      "Attacks in Saudi Arabia prompt finance firms to let staff work from home, sources say",
+      "Why is Saudi Arabia struggling to defend itself against Houthi attacks?",
+      "Learning English from the News | Deadly Saudi airport attacks",
+      "Watch Molavi: Saudis & Houthis Can Hit Hard; Not End War",
+      "Saudi tennis ‘slam’ with Alcaraz, Djokovic postponed amid Houthi attacks",
+      "EU and Gulf states postpone summit due in Saudi Arabia",
+      "Houthis claim attacks on airport and oil facilities in Saudi Arabia",
+      "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+      "Arrested OpenAI Engineer Booked a One-Way Ticket to Saudi Arabia",
+      "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
+      "Threats by Yemen's Houthis to hit Saudi Arabia again rattle Gulf bourses",
+      "Aramco HQ Hit as Houthis Widen Attacks on Saudi Arabia",
+      "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+      "Sports-FIFA postpones FIFAe Finals in Saudi Arabia following attacks",
+      "MBS Faces Houthi Menace in One of Saudi Prince’s Biggest Crises",
+      "Ronaldo’s among three Saudi Arabia games postponed due to Houthi attacks",
+      "Saudi Aramco offers extra spot crude cargoes to Europe, sources say",
+      "Riyadh Airport Attacks Amplify Wall Street’s Unease Over Saudi",
+      "Saudi Aramco headquarters suffered extensive damage in Houthi attack, sources say",
+      "Watch Aramco Headquarters Hit as Houthis Widen Saudi Arabia Attacks",
+      "NEWSLETTER: Houthis bring the war to Riyadh",
+      "Houthi Attacks Escalate, Leaving MBS Facing a Major Crisis",
+      "Six Kings Slam in Saudi Arabia postponed, AFC open to Asian Cup switch to 2028",
+      "Watch Saudi Aramco Headquarters Hit in Houthi Attack as Iran Escalates Hormuz Ship Strikes",
+      "Pilgrims caught up in Houthi strikes on Saudi Arabia",
+      "Bloomberg Businessweek Daily: Oil Gains on Saudi Risk",
+      "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+      "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
+      "EXCLUSIVE: Saudi Arabia to let executives attend FII conference remotely after attacks, sources say",
+      "Saudi capital's airport to remain shut this week as airlines cancel services",
+      "Gulf markets mixed; Saudi stocks hardest hit on Aramco attack"
+    ],
+    "converted": false,
+    "relevant_headlines": 103,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Houthi missile and drone strikes on Saudi cities",
+        "expected": "Houthi missile and drone strikes on Saudi cities stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Houthi missile and drone strikes on Saudi cities appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Aramco headquarters hit",
+        "expected": "Aramco headquarters hit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Aramco headquarters hit appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Egypt offers military aid to Saudi Arabia",
+        "expected": "Egypt offers military aid to Saudi Arabia stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Egypt offers military aid to Saudi Arabia appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Egypt offers military aid to Saudi Arabia",
+        "expected": "persist",
+        "sign": "Egypt offers military aid to Saudi Arabia is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Houthi missile and drone strikes on Saudi cities stays in the news at the same level. Aramco headquarters hit stays in the news at the same level. Egypt offers military aid to Saudi Arabia stays in the news at the same level. Egypt offers military aid to Saudi Arabia is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Houthi strikes on Saudi infrastructure",
+        "expected": "The Houthis will claim a new successful missile or drone strike on a specific Saudi oil facility or coastal port, with debris landing in a named residential district.",
+        "direction": "escalate",
+        "sign": "Headlines will name a new Saudi city or facility struck, with the Houthis issuing a claim statement and the Saudi-led coalition confirming the intercept over that location."
+      },
+      "second": {
+        "subject": "Egyptian military support for Saudi Arabia",
+        "expected": "Egypt will announce the physical arrival of air-defense units or naval assets on Saudi territory, with both governments releasing a joint defense coordination statement.",
+        "direction": "persist",
+        "sign": "Headlines will reference Egyptian military equipment deployed to a named Saudi base, with Sisi or Saudi defense officials confirming the arrangement in a public address."
+      },
+      "third": {
+        "subject": "OpenAI bugging case",
+        "expected": "The United States will file formal espionage or wiretapping charges against the arrested Saudi national, citing the listening device and the one-way ticket to Saudi Arabia as key evidence.",
+        "direction": "persist",
+        "sign": "Headlines will reference a US court filing or prosecutor statement naming the suspect and the specific charge, with OpenAI or DNI Clayton issuing a public comment on the case."
+      },
+      "fade_call": {
+        "subject": "Sports tournament postponements",
+        "expected": "fade",
+        "sign": "Headlines will list rescheduled Pro League fixtures or the next Six Kings Slam date rather than the disruption itself, shifting focus to the new schedule."
+      },
+      "surprise": {
+        "subject": "US publicly names Iran's intelligence role",
+        "expected": "The United States will issue a formal intelligence briefing or State Department statement explicitly attributing targeting data and drone coordinates to Iran, moving the conflict into a direct US-Iran confrontation.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Houthi rocket and drone barrages will intensify, with the rebels targeting additional Saudi oil terminals or airport infrastructure and claiming each new strike in official statements. Egypt will move troops or air-defense units into Saudi Arabia, giving the kingdom a tangible regional ally in its sky-defense efforts. The OpenAI bugging case will advance as formal US charges are filed, turning a tech-office incident into a test of Saudi-American digital ties. The Six Kings Slam and Pro League disruptions will recede from front pages as fixtures are rescheduled. Oil prices will stay elevated as Aramco manages recovery and the Red Sea tanker threat persists, and Riyadh's leadership will face mounting domestic pressure to show the kingdom can absorb the attacks while keeping its economic vision on track.",
+      "generated_at": "2026-10-23T03:48:26+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Houthi strikes on Saudi infrastructure",
+        "expected": "The Houthis will launch another wave of missiles and drones targeting Saudi airports and oil facilities, with at least one strike landing on or near a commercial or energy site in Riyadh or Jeddah.",
+        "direction": "escalate",
+        "sign": "Headlines naming a specific Saudi city or facility as the target of a new Houthi missile or drone wave, with debris or damage reported in a residential or commercial zone."
+      },
+      "second": {
+        "subject": "Egyptian military support for Saudi Arabia",
+        "expected": "The Egyptian parliament will vote to authorize military forces to defend Saudi Arabia, and Cairo will announce a specific deployment plan or contingent size within days of the vote.",
+        "direction": "escalate",
+        "sign": "Headlines reporting the parliamentary vote result and the first concrete Egyptian military assets identified as part of the Saudi defense package."
+      },
+      "third": {
+        "subject": "Saudi oil and market impact",
+        "expected": "Aramco will adjust its production or shipping plans in response to the headquarters damage, and Saudi equity indices will reflect renewed selling pressure tied to energy-sector earnings risk.",
+        "direction": "persist",
+        "sign": "Headlines citing Aramco production changes or shipping disruptions and Saudi stock index moves in the context of the Aramco strike aftermath."
+      },
+      "fade_call": {
+        "subject": "OpenAI bugging case involving a Saudi national",
+        "expected": "fade",
+        "sign": "The arrest and the one-way ticket detail will drop from Saudi news cycles as the story shifts to U.S. court proceedings, leaving at most one follow-up headline in the week."
+      },
+      "surprise": {
+        "subject": "Saudi retaliatory strike on an Iranian target",
+        "expected": "Saudi Arabia will announce or confirm a strike on a target within or near Iranian territory, marking the first direct Saudi military action against Iran rather than its Yemeni proxies.",
+        "chance": "medium"
+      },
+      "summary": "Over the next week, Houthi missile and drone waves will keep striking Saudi cities, with the Houthis targeting airports and oil infrastructure in Riyadh and Jeddah. Aramco headquarters damage will drive fresh oil-price volatility and pressure on Saudi stocks as the company reshuffles its shipping schedule to Europe. In Cairo, parliament will vote on Sisi's request to send Egyptian forces to defend the kingdom, turning a diplomatic offer into an operational commitment. The EU-Gulf Summit stays postponed, leaving a diplomatic gap. Sports disruptions in the Six Kings Slam and Saudi Pro League will dominate coverage, while the OpenAI bugging arrest fades as the case moves to a U.S. courtroom. If the Houthis hit a second major oil facility, expect a spike in crude prices and new emergency air-defense requests from Riyadh to Washington and Ankara.",
+      "generated_at": "2026-10-23T04:01:41+03:00"
+    }
+  },
+  "display": {
+    "headline": "Houthi Strikes Deepen as Egypt Votes to Defend Saudi Arabia",
+    "emojis": [
+      "🚀",
+      "🛡️",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "Houthi missile and drone strikes are the central story driving all other developments this week.",
+      "Egypt's parliamentary vote to send forces to defend Saudi Arabia is a concrete new military commitment.",
+      "The Aramco headquarters damage and resulting oil-market volatility shape the economic dimension of the crisis."
+    ],
+    "tldr": "Houthi missiles will keep hitting Saudi cities and oil sites, and Cairo's parliament will vote to send troops to help. Aramco's damaged headquarters will keep oil prices jittery and Saudi stocks under pressure. The OpenAI bugging arrest will quietly slide out of the news.",
+    "eli5": "Right now, a group of rebels called the Houthis, backed by Iran, are firing missiles and drones at Saudi Arabia. They already hit the building where the giant oil company Aramco runs its business, and they are threatening to hit airports and other oil sites next week too. Think of it like a neighborhood where one family keeps throwing rocks at another family's house, and the second family keeps building taller fences.\n\nIn Egypt, the leader is asking his lawmakers to give the green light to send soldiers to help Saudi Arabia defend itself. If they vote yes, that means a new army will be on the ground or in the air helping shoot down those missiles. It is a big step because Egypt is usually careful about getting pulled into someone else's fight.\n\nThe oil markets are nervous because Aramco's headquarters is damaged and they have to figure out how to keep shipping crude to Europe and Asia. Saudi stock prices are falling, and companies are telling their workers to stay home for safety.\n\nThe surprise watch: if Saudi Arabia decides to strike a target inside Iran itself, not just Yemen, that would be a major escalation everyone was not expecting. That would be the 'oh no, this is getting bigger' moment."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nSaudi Arabia was engaged in an active military confrontation with the Houthis on multiple fronts during the week of October 14, 2026. The Saudi-led coalition was conducting air strikes on Houthi positions around Bab el-Mandeb, Mokha, Taiz, and Hodeidah, with Saudi fighter jets supporting the Yemeni government offensive. The Houthis were claiming missile and drone strikes deep inside the kingdom, hitting airports in Riyadh, Jazan, and Najran as well as Aramco-linked sites. Turkey and Pakistan were in the process of deploying forces under the Mecca pact, though Turkey had not yet fully ratified the agreement. Saudi Arabia was routing oil exports through the East-West pipeline to bypass Red Sea disruption and was discounting Asian crude prices to defend market share. A FlyDubai cockpit incident had landed in the kingdom, prompting security reviews at major airports. Domestically, Riyadh was trimming non-security spending: the Joy Awards were canceled and the NEOM Stadium\n- Saudi-led coalition conducted repeated air strikes (regular, continuing): Saudi-led coalition conducted repeated air strikes on Houthi military positions around Bab el-Mandeb, Taiz, and Hodeidah.\n- Houthis claimed missile and drone strikes (regular, continuing): Houthis claimed missile and drone strikes on Saudi airports and Aramco-linked oil facilities deep inside the kingdom.\n- Turkey and Pakistan entered the deployment (regular, continuing): Turkey and Pakistan entered the deployment phase under the Mecca pact, though Turkish ratification was incomplete.\n- A FlyDubai cockpit incident involving a (regular, continuing): A FlyDubai cockpit incident involving a co-pilot landed in Saudi Arabia, triggering airport security reviews.\n- Saudi Arabia canceled the Joy Awards (regular, continuing): Saudi Arabia canceled the Joy Awards and shelved the NEOM Stadium project as part of a broader spending trim.\n- Saudi Arabia canceled the Joy Awards (again) (regular, continuing): Saudi Arabia canceled the Joy Awards and shelved the NEOM Stadium project as part of a broader spending trim.\n\nRound 2026-09-15:\nSaudi Arabia entered the week under sustained Houthi missile and drone pressure. Attacks struck or were intercepted over Riyadh, Jeddah, Yanbu, and Mecca-area airspace, killing one civilian from falling debris. The East-West oil pipeline suffered damage that disrupted a major Red Sea export corridor. Saudi air defenses showed strain, with reports of interceptor shortages prompting emergency requests to the US, Turkey, the UK, and other partners. A Saudi F-15 was reported possibly shot down over Yemen. Brent crude climbed into the $105 to $109 range and Saudi equities fell. Washington approved 48 F-35 jets worth $24.3 billion for Riyadh. MBS pushed a multi-track diplomatic scramble involving Turkey, the UK, Egypt, Pakistan, and Oman. The Houthis advanced on the Red Sea coast near Bab el-Mandeb. A TV5Monde headline asked whether the US had abandoned Saudi Arabia. Saudi Aramco was offering replacement crude via Oman and warning European refiners of possible October\n- Houthi missile and drone waves hit (regular, continuing): Houthi missile and drone waves hit or were intercepted over Riyadh, Jeddah, Yanbu, and Mecca-area airspace, with one civilian fatality from debris.\n- The East-West oil pipeline was damaged (regular, continuing): The East-West oil pipeline was damaged, cutting a major Red Sea export route and forcing crude rerouting via Hormuz and Oman.\n- The United States approved the sale (regular, continuing): The United States approved the sale of 48 F-35 fighter jets to Saudi Arabia for $24.3 billion.\n- Saudi Arabia reported a shortage of (regular, continuing): Saudi Arabia reported a shortage of Patriot and THAAD interceptor missiles and requested additional air-defense assets from allies.\n- Brent crude prices rose into the (regular, continuing): Brent crude prices rose into the $105 to $109 per barrel range amid pipeline disruption and Red Sea shipping risk.\n- Brent crude prices rose into the (again) (regular, continuing): Brent crude prices rose into the $105 to $109 per barrel range amid pipeline disruption and Red Sea shipping risk.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

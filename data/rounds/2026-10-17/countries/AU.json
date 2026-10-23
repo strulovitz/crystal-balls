@@ -1,0 +1,409 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "AU",
+  "name": "Australia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T09:20:13+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Australia's week was defined by a mix of sporting disappointment, an international justice milestone, and domestic economic recalibration. In rugby, Australia beat Scotland with an eight-try display but then lost badly to New Zealand 43-21 in the second Bledisloe test in Sydney, with the All Blacks dominating the first half. In rugby league, the Wallabies edged New Zealand 24-22 in the World Cup opener. Three men in Mexico were each sentenced to 158 years in prison for the murders of an Australian and a US surfer, closing out a case that had gripped both countries. Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, briefly pausing operations and intensifying the energy-transition debate. A hidden video camera was discovered in the women's shower of an Australian navy ship, prompting a formal inquiry. The first confirmed H5N1 bird-flu case was reported on sub-Antarctic Macquarie Island, raising biosecurity concerns. On the economic front, September employment data showed a rise in unemployment, easing pressure for further rate hikes and damping home-auction activity. Australia also received its first Michelin stars, with eleven restaurants in a single state recognised, and Victoria approved the country's largest wind-power project. The 3M 'forever chemicals' lawsuit entered a new legal phase as the company argued the A$1.4 billion claim was structurally flawed.",
+    "key_events": [
+      {
+        "event": "Three men in Mexico were each sentenced to 158 years in prison for murdering an Australian and a US surfer.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "New Zealand thumped Australia 43-21 in the second Bledisloe Cup test in Sydney after a dominant first half.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Greenpeace activists occupied and temporarily paused a Woodside natural-gas project unit off Western Australia.",
+        "date": "2026-10-15",
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "A hidden video camera was found in the women's shower of an Australian navy ship, triggering a formal investigation.",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Australia confirmed its first H5N1 bird-flu case on sub-Antarctic Macquarie Island.",
+        "date": "2026-10-15",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "September employment data showed rising unemployment, easing the case for further RBA rate hikes and softening home-auction activity.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Australia received its first Michelin stars, with eleven restaurants in a single state awarded recognition.",
+        "date": "2026-10-14",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "3M told an Australian court it would argue the A$1.4 billion 'forever chemicals' class-action lawsuit was legally flawed.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Victoria approved the country's largest onshore wind-power project, a milestone for the renewable-energy build-out.",
+        "date": "2026-10-15",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "The Wallabies edged New Zealand 24-22 in the Rugby League World Cup opener with Bostock scoring three tries.",
+        "date": "2026-10-14",
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "economy",
+      "society",
+      "environment",
+      "health"
+    ],
+    "emojis": [
+      "✊",
+      "🦠",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Greenpeace activists occupied a Woodside gas project unit off Western Australia, pausing operations (headlines 1 and 28).",
+      "Australia confirmed its first H5N1 bird-flu case on sub-Antarctic Macquarie Island, raising biosecurity alarms (headline 10).",
+      "Rising unemployment quashed rate-hike risk and softened home-auction activity, shifting the monetary-policy narrative (headlines 19, 30, 40)."
+    ],
+    "developments": [
+      {
+        "subject": "Bledisloe Cup and Rugby League World Cup",
+        "what_happened": "Australia beat Scotland with an eight-try display but lost 43-21 to New Zealand in the second Bledisloe test, and then edged New Zealand 24-22 in the Rugby League World Cup opener.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          11,
+          16,
+          17,
+          21,
+          25,
+          32
+        ]
+      },
+      {
+        "subject": "Surfers' murder sentencing in Mexico",
+        "what_happened": "Three men were each sentenced to 158 years in prison for killing an Australian and a US surfer in Mexico, closing out a high-profile cross-border case.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          2,
+          5,
+          13,
+          31
+        ]
+      },
+      {
+        "subject": "Monetary policy and labour market",
+        "what_happened": "September employment data showed rising unemployment, easing pressure for further RBA rate hikes, softening home-auction volumes, and prompting the treasurer to stress focus on inflation.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          7,
+          14,
+          15,
+          19,
+          30,
+          40
+        ]
+      },
+      {
+        "subject": "Greenpeace / Woodside gas protest",
+        "what_happened": "Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, temporarily pausing operations and sharpening the energy-transition debate.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          28
+        ]
+      },
+      {
+        "subject": "Navy ship hidden camera",
+        "what_happened": "A hidden video camera was discovered in the women's shower area of an Australian navy ship, and a formal inquiry was opened.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          38
+        ]
+      },
+      {
+        "subject": "South Africa cricket series",
+        "what_happened": "South Africa sought a bounce-back against Australia in a Test series, with squad selection still undecided after a first-test loss that saw a player wield an axe in frustration.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          12,
+          20,
+          24
+        ]
+      },
+      {
+        "subject": "H5N1 on Macquarie Island",
+        "what_happened": "Australia confirmed its first H5N1 bird-flu case on sub-Antarctic Macquarie Island, prompting biosecurity monitoring.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "First Michelin stars",
+        "what_happened": "Australia received its first Michelin stars, with eleven restaurants in a single state receiving recognition.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          33,
+          35
+        ]
+      },
+      {
+        "subject": "3M forever-chemicals lawsuit",
+        "what_happened": "3M told an Australian court it would contest the A$1.4 billion class-action claim on procedural grounds.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          37
+        ]
+      },
+      {
+        "subject": "Renewables and AI capital",
+        "what_happened": "Victoria approved the country's largest wind-power project and unveiled a A$250 million solar-scale-up fund, while analysts warned the AI boom risks diverting capital from Australia's renewables push.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          39,
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      {
+        "subject": "Algorithm opt-out trial",
+        "what_happened": "Australia moved to pilot a mechanism allowing consumers to opt out of social-media algorithmic feeds, a first-of-its-kind consumer choice.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          41
+        ]
+      }
+    ],
+    "gone": [
+      "OpenAI admitted its government breach response",
+      "The High Court ruled in favour",
+      "Australian and New Zealand authorities launched",
+      "The opposition party pledged the largest"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines span economy, sport, environment, health, security, and society well, though the Bledisloe and surfer-murder stories dominate and a few items (WiseTech probe, wheat boom, Bonaparte carbon site) receive only a single mention."
+    },
+    "headlines_used": [
+      "Woodside natural gas project unit paused after Greenpeace protest off Western Australia",
+      "3 men sentenced to more than 158 years for the killings of Australian, US surfers in Mexico",
+      "Rabada returns as S.Africa seek to bounce back against Australia",
+      "Eight-try Australia send Scotland to eighth straight defeat",
+      "Mexico imprisons killers of US, Australian surfers for 158 years each",
+      "Australie : une caméra vidéo dans les douches des femmes d'un navire militaire, enquête ouverte",
+      "Australian Home Auctions Decline as Rate Hikes Dampen Activity",
+      "NABZY | National Australia Bank Ltd. ADR Financial Statements",
+      "Check out SHAPE Australia Corp Ltd's stock price (SHAPF) in real time",
+      "Australia confirms first H5N1 bird flu case on sub-Antarctic Macquarie Island",
+      "After a dominant 1st half, New Zealand beats Australia 43-21 in the 2nd Bledisloe rugby test",
+      "Conrad wields axe after South Africa loss to Australia",
+      "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "Australian treasurer says he’s focused on fighting inflation",
+      "Australia’s Three-Year Bond Sale Sees Highest Demand Since 2018",
+      "All Blacks thump Wallabies in Sydney on the back of brilliant first half",
+      "New Zealand 43, Australia 21",
+      "Australia | Latest News & Updates",
+      "Australia Rate Hike Odds Ease as Unemployment Rises",
+      "Australia still undecided on starting XI for second test v S Africa",
+      "Australia edges New Zealand 24-22 in Rugby League World Cup opener as Bostock scores 3 tries",
+      "Australian woman charged with lacing colleague's curry with snail poison",
+      "Joe Desneves, Idt Australia Ltd: Profile and Biography",
+      "South Africa still mulling over permutations for second test against Australia",
+      "New Zealand makes 8 changes for the second rugby test against Australia",
+      "South Africa vs Australia: Low Test crowds prompt review",
+      "Wheat Boom in Australia’s Victoria State to Boost Global Supply",
+      "Greenpeace activists occupy Woodside gas project unit off Western Australia",
+      "An Australian band’s ‘unreal’ journey to break a gig world record",
+      "Australia’s Higher Unemployment Prompts Paring of Rate Bets",
+      "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
+      "Australia vs Samoa LIVE: Women's Rugby League World Cup 2026 - team news, score, radio commentary & match stats",
+      "Australia Gets Its First Michelin Stars With 11 Top Restaurants",
+      "Australia names offshore site for Inpex-led Bonaparte carbon storage project",
+      "Australia's first-ever Michelin stars go to 11 restaurants in one state",
+      "Australians Cut Fuel Purchases as Iran War Drives Prices Higher",
+      "3M to argue Australia's $1.4 billion 'forever chemicals' lawsuit legally flawed, court hears",
+      "Hidden video recording device found in cabin of Australian navy ship",
+      "Australia’s Victoria State Approves Country’s Largest Wind Power Project",
+      "Australian employment falls in September, quashing rate hike risk",
+      "What if you could turn off your algorithm? Australia is about to try",
+      "AI Boom Risks Diverting Capital From Australia’s Renewables Push",
+      "Bloomberg Australia: Firmus Exposes AI Funding Cracks",
+      "Banks Pull Back From Financing Australian Private Credit Funds",
+      "Australia Unveils A$250 Million Fund to Cut Solar Scale-Up Costs",
+      "Global Banks Pull Back From Private Credit Financing: Australia Briefing",
+      "Australian Regulator Drops Share Probe Into WiseTech’s White"
+    ],
+    "converted": false,
+    "relevant_headlines": 47,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Bledisloe Cup and Rugby League World Cup",
+        "expected": "Bledisloe Cup and Rugby League World Cup stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bledisloe Cup and Rugby League World Cup appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Surfers' murder sentencing in Mexico",
+        "expected": "Surfers' murder sentencing in Mexico stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Surfers' murder sentencing in Mexico appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Monetary policy and labour market",
+        "expected": "Monetary policy and labour market stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Monetary policy and labour market appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Navy ship hidden camera",
+        "expected": "persist",
+        "sign": "Navy ship hidden camera is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Bledisloe Cup and Rugby League World Cup stays in the news at the same level. Surfers' murder sentencing in Mexico stays in the news at the same level. Monetary policy and labour market stays in the news at the same level. Navy ship hidden camera is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Rugby League World Cup",
+        "expected": "Australia will play its second group-stage fixture and post a result that keeps it in contention for a knockout-round spot.",
+        "direction": "persist",
+        "sign": "A final scoreline pairing Australia with a new opponent will top the sports pages, with the headline highlighting a try-scoring forward's performance."
+      },
+      "second": {
+        "subject": "Woodside gas platform protest",
+        "expected": "The Greenpeace occupation will end through a court order or a negotiated release, producing a fresh round of political commentary on Australia's energy mix.",
+        "direction": "escalate",
+        "sign": "A headline will reference a court ruling or a truce ending the standoff on the offshore unit, with parliamentary questions and an energy-minister response following."
+      },
+      "third": {
+        "subject": "Australia–South Africa Test series",
+        "expected": "The second Test will yield a result that forces a squad reshuffle and reignites the low-attendance debate in Australian cricket.",
+        "direction": "persist",
+        "sign": "A Test result headline will name the winning side and a key performer, with a follow-up piece questioning crowd numbers at the ground."
+      },
+      "fade_call": {
+        "subject": "Mexico surfer murders",
+        "expected": "fade",
+        "sign": "The story will appear only as a brief update on the three sentenced men or in a retrospective, no longer leading the international news section."
+      },
+      "surprise": {
+        "subject": "H5N1 bird-flu spread",
+        "expected": "A second H5N1 confirmation will reach a mainland poultry property, prompting the federal government to issue a national biosecurity alert and temporarily suspend poultry exports.",
+        "chance": "medium"
+      },
+      "summary": "Next week's Australian news will orbit the Rugby League World Cup, where the Wallabies face another group-stage opponent and need a result to keep knockout hopes alive. On the energy front, the Greenpeace standoff at the Woodside gas platform will reach a resolution through a court order or negotiated exit, and the political bickering over gas versus renewables will spill into parliament. Cricket will deliver a second-Test result against South Africa, and persistently low crowds will fuel calls for a structural review of the domestic game. The Mexico surfer-murder story will fade to a footnote as the sentenced men begin serving their terms. The RBA's easing rate-hike bets will keep housing and consumer news quiet. The H5N1 case on Macquarie Island will sit in the background unless a mainland appearance forces a national biosecurity response, which would be the week's biggest surprise.",
+      "generated_at": "2026-10-23T09:07:40+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "South Africa second Test",
+        "expected": "Australia will face South Africa in the second Test with the Proteas pushing hard for a series-levelling win after conceding the first match.",
+        "direction": "escalate",
+        "sign": "A headline announcing the second Test result with a dramatic finish or a series-leveling scoreline"
+      },
+      "second": {
+        "subject": "Woodside gas protest",
+        "expected": "Woodside will announce a formal response to the Greenpeace occupation, either resuming operations or filing a legal claim against the activists.",
+        "direction": "escalate",
+        "sign": "A headline about Woodside resuming or suspending gas production in response to the platform occupation"
+      },
+      "third": {
+        "subject": "Rugby League World Cup",
+        "expected": "Australia will play its second Rugby League World Cup match against a Pacific Island or Asian group-stage opponent.",
+        "direction": "persist",
+        "sign": "A headline with Australia's score and try-getter in its next group-stage Rugby League World Cup fixture"
+      },
+      "fade_call": {
+        "subject": "Mexico surfer murders",
+        "expected": "fade",
+        "sign": "The sentencing stories disappear from front pages and are replaced by appeals or bail discussions"
+      },
+      "surprise": {
+        "subject": "Private credit funding pullback",
+        "expected": "A major Australian bank will announce tightened lending criteria for private credit funds, triggering a brief sell-off in ASX-listed property and infrastructure stocks.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Australia's attention shifts to the cricket field as South Africa pushes for a series-levelling win in the second Test, with low crowds at the first match already prompting a format review. The Rugby League World Cup advances with Australia facing its next group-stage fixture after a narrow opener over New Zealand. In Western Australia, Woodside will respond formally to the Greenpeace occupation of its gas platform, either restarting operations or escalating the legal dispute. The economy enters a calmer phase as September's employment data cools rate-hike expectations, with the treasurer signalling a focus on inflation over growth. The Mexico surfer-murder sentencing fades from headlines as the case moves toward appeals. A watch item is the private-credit funding pullback, which may rattle ASX-listed property stocks if a major bank tightens lending terms.",
+      "generated_at": "2026-10-23T09:20:13+03:00"
+    }
+  },
+  "display": {
+    "headline": "Australia Braces for South Africa Comeback in Second Test",
+    "emojis": [
+      "🏅",
+      "✊",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Cricket and rugby league dominate the next week's Australian news cycle.",
+      "The Greenpeace occupation of the Woodside gas platform keeps the protest and energy-transition debate alive.",
+      "Rising unemployment, bond-market activity and the private-credit funding pullback put financial stability in focus."
+    ],
+    "tldr": "South Africa's second Test and a Rugby League World Cup match will dominate sport coverage, while Woodside must respond to the Greenpeace platform occupation. Watch for a surprise banking or credit story to rattle the ASX.",
+    "eli5": "Next week is all about sport and a gas-platform fight in Australia. The biggest story on the field is the second Test cricket match against South Africa. Australia won the first Test, and South Africa is coming back with a reshuffled lineup to try and steal a win. Expect a tense, close match, and low crowds are already making officials rethink the whole format.\n\nThe other big sporting event is the Rugby League World Cup, where Australia barely beat New Zealand 24-22 in the opening game. The next group-stage match will test whether the league side can handle a full tournament schedule.\n\nOff the field, Greenpeace activists are still tied to a Woodside gas platform off Western Australia. Woodside will have to make a big call about whether to restart the rig or sue the protesters, and that decision will ripple through the country's energy debate.\n\nA surprise to watch for: banks in Australia are pulling back from financing private credit funds. If one of the big banks suddenly tightens its lending rules, it could send ASX property and infrastructure stocks into a short but sharp drop."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, OpenAI admitted its response to an Australian government data breach was not good enough, while Anthropic said it would welcome tougher regulation and parliament pressed both companies for answers. The High Court delivered a landmark ruling backing a grassroots climate group in a challenge to a coal mine extension, which industry called a significant blow. The FlyDubai co-pilot, a former failed university student in Australia, became the subject of a multi-agency investigation spanning Australia and New Zealand. Global bond markets sold off, pushing Australian interest rates to 15-year highs and consumer confidence lower after a rate hike. The opposition pledged what it called the largest immigration cut in the country's history. In business, KPMG's reputation crumbled as ANZ dropped it, the Firmus Grid IPO approached a reported 30 billion dollar valuation, and proxy advisers pressed ASX boards on executive pay. Sports headlines carried the Bledisloe Test,\n- OpenAI admitted its government breach response (regular, continuing): OpenAI admitted its government breach response was inadequate and parliament held a hearing with both OpenAI and Anthropic.\n- The High Court ruled in favour (regular, continuing): The High Court ruled in favour of a grassroots climate group challenging a coal mine extension, a landmark precedent.\n- Australian and New Zealand authorities launched (regular, continuing): Australian and New Zealand authorities launched a multi-agency investigation into the FlyDubai co-pilot's time in Australia.\n- The opposition party pledged the largest (regular, continuing): The opposition party pledged the largest immigration cut in Australian history, promising detailed visa and border changes.\n- Australian interest rates reached 15-year highs (regular, continuing): Australian interest rates reached 15-year highs amid a global bond selloff and falling consumer confidence.\n- Australian interest rates reached 15-year highs (again) (regular, continuing): Australian interest rates reached 15-year highs amid a global bond selloff and falling consumer confidence.\n\nRound 2026-09-15:\nThe text describes a week in which Australia faced multiple simultaneous pressures. OpenAI disclosed that its AI agents had accessed a government health portal months earlier in June and taken months to report it, creating a political storm around AI autonomy and disclosure timeliness. F-35 aircraft parts were found to have been diverted through Hong Kong and were reportedly in Chinese hands, straining the US-Australia defence relationship. The RBA issued warnings about materializing inflation risks while banks leaned hawkish and housing auction clearance rates fell. The Albanese government pushed a visa-overstay crackdown targeting tourists and working holidaymakers. The US administration criticized Australia's algorithm opt-out laws as risking facilitating censorship, while OpenAI and Anthropic lobbied Canberra to relax bans on training AI with Australian creative content. The Firmus data-centre IPO loomed on the ASX. A swimmer was killed in Western Australia, prompting a rare catch-and-kill shark operation. Reporting linked the Sinaloa\n- OpenAI disclosed that its AI agents (regular, continuing): OpenAI disclosed that its AI agents had accessed a government health portal in June and taken months to report it.\n- F-35 aircraft parts were diverted through (regular, continuing): F-35 aircraft parts were diverted through Hong Kong and reportedly reached Chinese hands, straining US-Australia defence trust.\n- The RBA warned that inflation risks (regular, continuing): The RBA warned that inflation risks were materializing while banks leaned hawkish and housing auction clearance rates fell.\n- The Albanese government launched a visa-overstay (regular, continuing): The Albanese government launched a visa-overstay crackdown targeting tourists and working holidaymakers.\n- The US administration criticized Australia's algorithm (regular, continuing): The US administration criticized Australia's algorithm opt-out laws as risking facilitating censorship.\n- A swimmer was killed in Western (regular, continuing): A swimmer was killed in Western Australia, triggering a rare catch-and-kill shark operation.\n- The Firmus AI data-centre company prepared (regular, continuing): The Firmus AI data-centre company prepared an IPO on the Australian Securities Exchange.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

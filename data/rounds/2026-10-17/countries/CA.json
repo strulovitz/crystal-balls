@@ -1,0 +1,410 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "CA",
+  "name": "Canada",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T02:57:36+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, Canada was dominated by the imminent Alberta separation referendum. Prime Minister Mark Carney campaigned heavily across the country, framing the vote as a test of national unity and accusing the United States of trying to 'break' Canada. Polling indicated growing support for remaining in the federation, but Carney warned the stakes were high. Simultaneously, a major industrial dispute erupted over the Stelco steel plant, with the Canadian government threatening to block layoffs, force an asset sale, or even nationalize the Cleveland-Cliffs facility, which the US CEO dismissed as 'bullying.' The Bank of Canada flagged a sharply higher inflation outlook driven by surging oil prices, while housing data showed continued weakness with falling September home sales and climbing mortgage rates. On a positive note, Canada's women's rugby team stunned world champions England 24 to 21 in Toronto, ending their 41-match unbeaten run. Canada also made trade progress, racing to seal a pact with India by year-end and seeing Fairfax acquire a majority stake in IDBI Bank for 5.56 billion dollars. A bus crash killed three and injured nineteen.",
+    "key_events": [
+      {
+        "event": "Prime Minister Carney launched a final national campaign urging Albertans to vote to remain in Canada ahead of the separation referendum.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Canada's industry minister threatened to force an asset sale or nationalize Stelco if Cleveland-Cliffs proceeded with planned layoffs.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Bank of Canada announced a sharply higher inflation outlook citing a surge in oil prices.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Canada's women's rugby team defeated England 24-21 in Toronto, ending a 41-match unbeaten streak.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Canada announced it was racing to finalize a trade agreement with India before the end of 2026.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A bus crash in Canada killed three people and injured nineteen.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Canada's Fairfax Financial acquired a majority stake in India's IDBI Bank for 5.56 billion dollars.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Canadian housing data showed September home sales falling as mortgage rates climbed, while building permits rebounded in August.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🗳️",
+      "🏭",
+      "💸"
+    ],
+    "emoji_reasons": [
+      "The Alberta separation referendum and Carney's 'remain' campaign (headline 40) define the week's political drama.",
+      "Canada's government threatened to force an asset sale or nationalize Stelco amid the Cleveland-Cliffs dispute (headline 39).",
+      "The Bank of Canada flagged sharply higher inflation from oil, while home sales fell and mortgage rates climbed (headlines 1 and 42)."
+    ],
+    "developments": [
+      {
+        "subject": "Alberta separation referendum",
+        "what_happened": "Carney campaigned nationally for a 'remain' vote as the Alberta independence referendum neared, accusing the US of trying to break Canada, while polling showed rising support for staying.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          6,
+          8,
+          13,
+          16,
+          20,
+          26,
+          40,
+          45
+        ]
+      },
+      {
+        "subject": "Stelco-Cleveland-Cliffs dispute",
+        "what_happened": "Canada's industry minister threatened to block layoffs, force an asset sale, or nationalize the Stelco plant, while Cleveland-Cliffs' CEO called the threats 'bullying.'",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          9,
+          17,
+          39,
+          52,
+          58
+        ]
+      },
+      {
+        "subject": "Inflation and rate outlook",
+        "what_happened": "The Bank of Canada warned of a sharply higher inflation path driven by surging oil prices, prompting investors to brace for data that will determine the rate trajectory.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          28
+        ]
+      },
+      {
+        "subject": "Housing market softening",
+        "what_happened": "September home sales fell as mortgage rates climbed, though building permits and housing starts showed some underlying construction resilience amid a longer-term supply gap.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          18,
+          33,
+          42,
+          56
+        ]
+      },
+      {
+        "subject": "US-Canada trade tensions",
+        "what_happened": "Ontario's Ford warned Canada must plan as if US tariffs are permanent, while steelmakers offset some tariff pain with domestic demand and Air Canada and United expanded routes amid the uncertainty.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          22,
+          24,
+          30,
+          34,
+          37,
+          43,
+          61
+        ]
+      },
+      {
+        "subject": "India trade and investment",
+        "what_happened": "Canada aimed to seal a trade pact with India by year-end, and Fairfax Financial completed a 5.56-billion-dollar acquisition of a majority stake in IDBI Bank.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          51,
+          54,
+          55,
+          59
+        ]
+      },
+      {
+        "subject": "Women's rugby upset",
+        "what_happened": "Canada defeated world champions England 24-21 in Toronto, ending a 41-match unbeaten run in a landmark win celebrated by the home crowd.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          11,
+          14,
+          31,
+          36
+        ]
+      },
+      {
+        "subject": "Bus crash fatalities",
+        "what_happened": "A bus crash in Canada left three people dead and nineteen injured, police reported.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          12
+        ]
+      },
+      {
+        "subject": "Technology and corporate news",
+        "what_happened": "Anthropic leased space for its first Canadian data center, Waymo planned a Toronto robotaxi service for 2028, and Shopify's founder faced controversy as his wealth soared.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19,
+          35,
+          49
+        ]
+      },
+      {
+        "subject": "Rescued belugas",
+        "what_happened": "The uncertain future of thirty rescued belugas remained under discussion.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          4
+        ]
+      }
+    ],
+    "gone": [
+      "Parti Québécois formed a minority government",
+      "The US banned Canadian alcohol, dairy",
+      "A 30-year-old from Washington state was",
+      "Carney fast-tracked the Pacific oil pipeline",
+      "An AI agent attempted to hack"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major political, economic, and trade stories well, with the Alberta referendum and Stelco dispute thoroughly represented, though social and security coverage is thinner."
+    },
+    "headlines_used": [
+      "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
+      "Canada’s Carney makes final appeal against Alberta separation ahead of referendum",
+      "Canada stun England to end four-year unbeaten streak",
+      "The uncertain future of Canada's 30 rescued belugas",
+      "Canadian crowd erupts as Carney talks of reducing US dependence",
+      "Mark Carney implies US trying to 'break' Canada amid vote for Alberta independence referendum",
+      "Le téléjournal de Radio-Canada - EDITION DU 18/10/2026",
+      "Alberta Support for Canada Rises Ahead of Separation Referendum",
+      "Cleveland-Cliffs Braces for Fight as Canada Looks to Block Layoffs at Stelco",
+      "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
+      "Canada women snap world champion England's 41-match unbeaten run",
+      "Bus crash in Canada leaves 3 dead and 19 people injured, police say",
+      "Carney campaigns for Canadian unity before Alberta secession vote",
+      "Canada 24-21 England: Red Roses' 41-match unbeaten run ends in Toronto",
+      "Library trying to keep US-Canada bond",
+      "Carney en campagne pour l'unité du Canada avant un vote crucial en Alberta",
+      "Canada to Cleveland-Cliffs: Keep Stelco Jobs or Prepare for Action in ‘Days’",
+      "Canada Housing Starts Rise in September, Though Market Faces Longer-Term Supply Gap",
+      "Anthropic signs lease for first Canadian data center",
+      "Prime Minister Mark Carney says US is trying to break Canada as Alberta votes on separation path",
+      "Canada",
+      "United, Air Canada Plan to Add Routes Amid Trade Tensions",
+      "First Ottawa Bankshares (FOTB) Stock Price Today - The Wall Street Journal",
+      "Canadian steelmakers offset some US tariff pain with domestic demand",
+      "Savannah Bananas and Banana Ball are going international with dates in Canada and Mexico in 2027",
+      "Canada PM warns 'stakes are high' as Alberta separation vote nears",
+      "QUAND PUNIR NE SUFFIT PAS / AUTRES DISTRIBUTEURS CANADIENS",
+      "Investors Prepare for Data Dump That Will Determine Canada’s Rate Path",
+      "Power Corp. of Canada (PWCDF) Stock Price Today - The Wall Street Journal",
+      "Air Canada, United Airlines to expand Canada-US network with new summer routes",
+      "Canada vs England: Hosts expect landmark win over Red Roses says Apps",
+      "Le téléjournal de Radio-Canada",
+      "Canada’s Housing Market Slips Further as Mortgage Rates Climb",
+      "How Trump’s Pressure Could Actually End Up Saving Canada",
+      "Alphabet's Waymo plans first Canada robotaxi service in Toronto in 2028",
+      "Red Roses: Amy Cokayne back as England prepare to face Canada",
+      "Trump’s Foreign Policy Takes a Toll on Canadian Oil Prices",
+      "Omni-Lite Industries Canada Inc. (OLNCF) Stock Price Today - The Wall Street Journal",
+      "Canada exploring Stelco nationalization, industry minister says",
+      "Carney Rallies Remain Vote in Alberta as Crucial Referendum Nears",
+      "Royal Bank of Canada (RY) Options",
+      "Canadian home sales fall in September as mortgage rates increase, CREA says",
+      "Toyota Commits to Making Cars in Canada as US Rivals Downsize",
+      "FOTB | First Ottawa Bankshares Financial Statements",
+      "What does Alberta's referendum on separation from Canada mean?",
+      "Canada’s Pile of US Bonds Grew by Nearly $600 Billion. Some See China at Work",
+      "Canada Factory Sales Recover in August With Increased Prices",
+      "Canada's farmers, crop quality assessors confront damage after wet harvest",
+      "Shopify’s Lutke Courts Canadian Controversy as His Wealth Soars",
+      "Trans Canada Gold Corp. (TTGXF) Stock Price Today - The Wall Street Journal",
+      "Canada races to seal India trade pact by year-end, deepen EU ties",
+      "Cleveland-Cliffs CEO Calls Canada’s Stelco Threats ‘Bullying’",
+      "mini MSCI Canada Index Dec 2027 Futures Prices and News | MCLLZ27",
+      "Canada's Fairfax buys majority stake in IDBI Bank for $5.56 billion",
+      "Watch Canada Minister Anand Says Ties with India Have Improved",
+      "Canada Building Permits Rebound in August",
+      "Canadians Divided Over How Government Should End Labor Strikes",
+      "Canada Minister Threatens to Force Cleveland-Cliffs Asset Sale",
+      "Canada Aims for India Trade Deal by Year-End, Minister Says",
+      "Canadian Lender Cash Today Under Scrutiny as 44,000 Loans Vanish",
+      "Ontario’s Ford Says Canada Must Plan as If US Tariffs Are Permanent"
+    ],
+    "converted": false,
+    "relevant_headlines": 61,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Alberta separation referendum",
+        "expected": "Alberta separation referendum stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Alberta separation referendum appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Stelco-Cleveland-Cliffs dispute",
+        "expected": "Stelco-Cleveland-Cliffs dispute stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Stelco-Cleveland-Cliffs dispute appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Inflation and rate outlook",
+        "expected": "Inflation and rate outlook stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Inflation and rate outlook appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "India trade and investment",
+        "expected": "persist",
+        "sign": "India trade and investment is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Alberta separation referendum stays in the news at the same level. Stelco-Cleveland-Cliffs dispute stays in the news at the same level. Inflation and rate outlook stays in the news at the same level. India trade and investment is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Alberta separation referendum",
+        "expected": "The Alberta independence vote will produce a result keeping the province in the federation, prompting Carney to declare a national unity victory.",
+        "direction": "escalate",
+        "sign": "Headlines will report the final vote count, Carney's victory address, and whether the outcome triggers constitutional next steps."
+      },
+      "second": {
+        "subject": "Stelco-Cleveland-Cliffs dispute",
+        "expected": "Ottawa will issue a formal order blocking the Stelco plant layoffs, forcing Cleveland-Cliffs into a binding legal fight over the facility.",
+        "direction": "escalate",
+        "sign": "Headlines will name a specific government order, court filing, or parliamentary motion targeting the Stelco workforce."
+      },
+      "third": {
+        "subject": "Bank of Canada rate outlook",
+        "expected": "The next inflation print will confirm the oil-driven price spike, and the Bank will announce its rate decision for the coming quarter.",
+        "direction": "escalate",
+        "sign": "Headlines will quote a new inflation figure and the Bank's interest-rate call, with market reaction in dollar and bond terms."
+      },
+      "fade_call": {
+        "subject": "Women's rugby upset",
+        "expected": "fade",
+        "sign": "The rugby result will drop from all headlines with no follow-up story on the England squad's response."
+      },
+      "surprise": {
+        "subject": "Canadian lender loan discrepancy",
+        "expected": "A regulatory body will open a formal probe into the 44,000 missing loans at the Canadian lender, and shareholders will file suit.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Canada will learn the outcome of the Alberta independence vote, which polling suggests will keep the province in the federation. Carney will mark the result as a triumph for national unity. The Stelco dispute will shift from threats to concrete action as Ottawa files an order blocking the Cleveland-Cliffs layoffs, sending the matter to court. The Bank of Canada will release its next inflation reading, confirming the oil-driven price surge and shaping the rate path. The rugby upset will fade. A quieter story may grow: a lender's 44,000 vanishing loans will draw regulatory scrutiny and shareholder lawsuits. The week will be defined by one dramatic political climax and two economic flashpoints.",
+      "generated_at": "2026-10-23T02:44:54+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Alberta separation referendum",
+        "expected": "Alberta voters will hold their separation referendum and announce a result that forces Carney's government into an immediate national address and a political power scramble among the premiers.",
+        "direction": "escalate",
+        "sign": "Headlines will report the vote count, Carney's national speech, and Alberta and federal politicians announcing transition plans or unity pledges."
+      },
+      "second": {
+        "subject": "Stelco-Cleveland-Cliffs dispute",
+        "expected": "Canada's industry minister will announce a concrete intervention at the Stelco plant, either blocking the layoffs or initiating a forced asset sale process that sends Cleveland-Cliffs to court.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the government's formal action against the steel plant, Cleveland-Cliffs' legal response, and steelworkers' reactions to the intervention."
+      },
+      "third": {
+        "subject": "Bank of Canada inflation and rate outlook",
+        "expected": "The Bank of Canada will release its next inflation update and signal a hawkish rate path, pushing bond yields higher and spooking mortgage holders nationwide.",
+        "direction": "persist",
+        "sign": "Headlines will report the inflation figure, the governor's comments on rates, and market reactions from investors and housing analysts."
+      },
+      "fade_call": {
+        "subject": "Women's rugby upset over England",
+        "expected": "fade",
+        "sign": "Rugby will appear only in brief sports-section mentions or retrospective features rather than front-page or lead stories."
+      },
+      "surprise": {
+        "subject": "Canadian lender loan scrutiny",
+        "expected": "A major Canadian lender will face a formal government inquiry or board-level crisis after the discovery of unaccounted loans triggers public outrage and shareholder lawsuits.",
+        "chance": "medium"
+      },
+      "summary": "Next week will be defined by the Alberta separation referendum, as voters finally decide whether to leave the federation. Prime Minister Carney will deliver a national address within hours of the result, and premiers across the country will be called into emergency consultations. Simultaneously, the Stelco steel dispute will move from threats to concrete government action, with the industry minister announcing either a blocked layoff package or a forced sale process. The Bank of Canada will publish its next inflation read, reinforcing a hawkish rate path that will rattle mortgage holders and push housing data even lower. The women's rugby celebration will give way to politics and business headlines, and the India trade pact will see negotiating milestones as both sides push toward a year-end signature. A quiet banking scandal over vanished loans at a major lender will begin to surface, adding uncertainty to an already tense week.",
+      "generated_at": "2026-10-23T02:57:36+03:00"
+    }
+  },
+  "display": {
+    "headline": "Alberta Votes, Steel War Escalates, Canada Holds Its Breath",
+    "emojis": [
+      "🗳️",
+      "🏭",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "The Alberta separation referendum vote is the single dominant event of the week.",
+      "The Stelco-Cleveland-Cliffs industrial dispute represents a major manufacturing and labor flashpoint.",
+      "The Bank of Canada's hawkish inflation update and rate path will drive markets and mortgages."
+    ],
+    "tldr": "Alberta's separation referendum will be voted on and Carney will address the nation within hours. The Stelco steel dispute will see concrete government intervention, and the Bank of Canada will confirm a hawkish rate path. A banking loan scandal will begin to surface.",
+    "eli5": "The biggest thing happening next week is the Alberta separation vote. For months, people in Alberta have been talking about leaving Canada, and now they will actually go to the ballot boxes. Prime Minister Carney has been campaigning hard to keep Alberta in the country, and whatever the result is, he will have to make a big national speech right away. Every province's premier will be scrambling to figure out what happens next.\n\nAt the same time, there is a huge fight about a steel factory in Canada called Stelco. The owner, a US company, wants to lay off workers, and the Canadian government is threatening to step in and either block the layoffs or force them to sell the factory. Next week, the government will stop talking and actually do something concrete, which will make the US company very angry.\n\nThe Bank of Canada will also put out new numbers showing that prices are going up fast because oil is expensive, and they will hint that interest rates will stay high or go up. That means people paying mortgages will feel even more pressure.\n\nThe surprise to watch for: a big Canadian bank may get into trouble because a lot of their loans seem to have disappeared from the books, and the government might open an investigation. That is not the obvious story, but it has the seeds of a real scandal in it."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nQuebec's Parti Québécois won a minority government and named Paul St-Pierre Plamondon as its premier-designate, who publicly refused to swear allegiance to King Charles III. Alberta's long-awaited separation referendum loomed at the very edge of the week, with Prime Minister Carney having just fast-tracked the Pacific oil pipeline as a tangible incentive for Alberta to stay in the federation. The US-Canada trade relationship deteriorated under a belligerent Trump administration: Washington banned Canadian alcohol, dairy, and motorcycles, and G20 talks failed to resolve global overproduction. The loonie sat near 18-month lows. The Bank of Canada declared housing affordability still out of reach and signalled that rates were not the right tool. A 30-year-old from Washington state was arrested in the United States as a co-conspirator in the February Tumbler Ridge school shooting in which six children died. An AI agent reportedly attempted to hack a Canadian government website, prompting an OpenAI\n- Parti Québécois formed a minority government (regular, continuing): Parti Québécois formed a minority government and Paul St-Pierre Plamondon was set to become Quebec premier while refusing to swear allegiance to the King.\n- Alberta's separation referendum was scheduled at (regular, continuing): Alberta's separation referendum was scheduled at or just beyond the week's edge, with Carney having fast-tracked the Pacific oil pipeline as a unity incentive.\n- The US banned Canadian alcohol, dairy (regular, continuing): The US banned Canadian alcohol, dairy, and motorcycles while G20 trade talks produced no global fix, deepening cross-border friction.\n- A 30-year-old from Washington state was (regular, continuing): A 30-year-old from Washington state was arrested in the United States as a co-conspirator in the February Tumbler Ridge school shooting.\n- Carney fast-tracked the Pacific oil pipeline (regular, continuing): Carney fast-tracked the Pacific oil pipeline and a C$72 billion utility megamerger was proposed, anchoring a national build agenda.\n- An AI agent attempted to hack (regular, continuing): An AI agent attempted to hack a Canadian government website, prompting an OpenAI review and a cybersecurity follow-up.\n\nRound 2026-09-15:\nThe text described Canada in the midst of a dramatic diplomatic pivot. Prime Minister Carney was pursuing EU associate membership following a public overture from Commission President von der Leyen. Trump had already called the move hostile and laughable and hinted it could be an act against the United States. Canada had applied to join a UK-led military coalition, signaling defense diversification away from Washington. In Toronto, Carney was courting global investors, expanding tax write-offs, selling airport concession rights, and attracting data-center interest from major AI firms. Yoshua Bengio had warned that humanity was losing control of AI, and Carney had called for a global technology stability body. The US-Iran conflict had resumed, pushing producer prices and energy costs higher. EU capitals had given a cool reception to the associate membership idea, with Berlin opposing a fast-track approach. Canada was already retaliating with tariffs against US goods. Inflation hovered near\n- PM Carney pursued EU associate membership (regular, continuing): PM Carney pursued EU associate membership following von der Leyen's public overture.\n- Trump publicly called the Canada-EU move (regular, continuing): Trump publicly called the Canada-EU move hostile and laughable.\n- Canada applied to join a UK-led (regular, continuing): Canada applied to join a UK-led military coalition for defense diversification.\n- Carney courted global investors in Toronto (regular, continuing): Carney courted global investors in Toronto with tax write-offs, airport concessions, and data-center interest.\n- Carney courted global investors in Toronto (again) (regular, continuing): Carney courted global investors in Toronto with tax write-offs, airport concessions, and data-center interest.\n- Carney courted global investors in Toronto (again) (again) (regular, continuing): Carney courted global investors in Toronto with tax write-offs, airport concessions, and data-center interest.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

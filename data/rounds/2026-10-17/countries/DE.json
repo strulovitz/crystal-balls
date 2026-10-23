@@ -1,0 +1,430 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "DE",
+  "name": "Germany",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T06:16:14+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The dominant story of the week was France and Germany sealing a landmark deal to slow Europe's shift to all-electric cars, effectively scrapping the 2035 climate-neutrality target for vehicles. The two countries agreed to allow the UK to join the EU car policy if it aligns on China tariffs, and the pact drew immediate reactions from motorists and industry. In parallel, the long-awaited Nord Stream sabotage trial opened in a German court, with a Ukrainian ex-officer facing a war-crime charge and the defense moving to dismiss the case. Germany also pushed the EU toward imposing caps on more Chinese imports, a hardening trade line that risks Beijing's ire. On the budget side, the finance minister announced a €50 million contribution to Ukraine and sought a debt-brake exemption to sustain that aid. UniCredit received ECB green light to take control of Commerzbank, a major banking reshuffle. Berlin planned to unveil an AI cooperation deal with Nvidia the following week and entered talks to buy a 50 percent stake in defense firm KNDS. Domestically, Chancellor Merz attacked political extremes while the AfD and BSW forged a pro-Russia, anti-Ukraine alliance, and Berlin's leftist parties moved a step closer to forming a government. Germany also slammed the US for pushing Russia's return to the G20.",
+    "key_events": [
+      {
+        "event": "France and Germany sealed a deal to scrap the 2035 all-electric mandate and slow the car industry's transition, with a conditional path for UK entry.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The Nord Stream pipeline sabotage trial opened in a German court, with a Ukrainian ex-officer charged with a war crime and the defense seeking dismissal.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Germany pushed the EU to impose caps on additional Chinese imports, a harder trade line that risks Beijing's reaction.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "UniCredit received ECB approval to take control of Germany's Commerzbank, a major European banking consolidation.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Germany planned to unveil an AI cooperation agreement with Nvidia, as government sources confirmed the deal for the following week.",
+        "date": "2026-10-16",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "The German finance minister announced a €50 million contribution to Ukraine and sought a debt-brake exemption to sustain the aid.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Chancellor Merz vowed the government would fight on as the AfD and BSW forged a pro-Russia alliance calling for an end to Ukraine aid.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Germany entered talks to purchase a 50 percent stake in the defense firm KNDS.",
+        "date": "2026-10-17",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Germany publicly warned against the US move to bring Russia back into the G20.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "diplomacy",
+      "politics",
+      "security"
+    ],
+    "emojis": [
+      "🤝",
+      "⚖️",
+      "📦"
+    ],
+    "emoji_reasons": [
+      "The France-Germany car deal (headline 9, 10, 35) was the week's dominant story, a major bilateral agreement reshaping EU automotive policy.",
+      "The Nord Stream sabotage trial opened in a German court with a war-crime charge (headline 11, 64, 66), making the judiciary a central event.",
+      "Germany pushed the EU to impose caps on more Chinese imports (headline 58, 61, 75), signaling a hardening trade posture toward Beijing."
+    ],
+    "developments": [
+      {
+        "subject": "France-Germany car deal",
+        "what_happened": "The two countries formally agreed to slow the shift to all-electric vehicles, scrap the 2035 climate target for cars, and conditionally allow UK entry if it aligns on China tariffs.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          8,
+          9,
+          10,
+          14,
+          21,
+          25,
+          35,
+          39,
+          51
+        ]
+      },
+      {
+        "subject": "Nord Stream trial",
+        "what_happened": "The trial of a Ukrainian ex-officer accused of blowing up the Nord Stream pipelines opened in Germany, with the defense seeking dismissal and prosecutors pressing a war-crime charge.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          26,
+          30,
+          48,
+          50,
+          64,
+          66
+        ]
+      },
+      {
+        "subject": "Germany-China trade push",
+        "what_happened": "Germany lobbied EU leaders to impose caps on more Chinese imports and pushed for tougher trade defenses amid growing pressure from Chinese competition.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          55,
+          58,
+          61,
+          67,
+          75
+        ]
+      },
+      {
+        "subject": "Ukraine aid and debt brake",
+        "what_happened": "The finance minister pledged €50 million to Ukraine and sought a debt-brake exemption, while the AfD and BSW called for an end to all aid.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          28,
+          40,
+          72
+        ]
+      },
+      {
+        "subject": "UniCredit-Commerzbank",
+        "what_happened": "UniCredit received ECB approval to take control of Commerzbank, a significant consolidation of European banking.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          22,
+          47,
+          52,
+          59
+        ]
+      },
+      {
+        "subject": "Nvidia AI deal",
+        "what_happened": "Government sources confirmed Germany planned to unveil an AI cooperation agreement with Nvidia the following week.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          12,
+          56
+        ]
+      },
+      {
+        "subject": "Merz and coalition pressure",
+        "what_happened": "Chancellor Merz attacked political extremes for fueling division and vowed the government would fight on, as the AfD and BSW forged a pro-Russia alliance and Berlin's leftist parties moved closer to forming a government.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          16,
+          34,
+          60,
+          69,
+          70,
+          73
+        ]
+      },
+      {
+        "subject": "KNDS stake",
+        "what_happened": "Germany entered talks to buy a 50 percent stake in the European defense firm KNDS.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          74
+        ]
+      },
+      {
+        "subject": "Russia in G20",
+        "what_happened": "Germany slammed the US push to bring Russia back into the G20, signaling disagreement with the broader Western reset.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          38,
+          62
+        ]
+      },
+      {
+        "subject": "Energy supply concerns",
+        "what_happened": "German power-supplier exits raised specter of the 2022 energy crisis, while the regulator reported gas storage was low but without an immediate supply risk.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          17,
+          65
+        ]
+      }
+    ],
+    "gone": [
+      "The AfD won the speaker role",
+      "Capital-goods factory orders fell sharply while",
+      "Germany blocked a Cosco-related logistics deal",
+      "Germany blocked a Cosco-related logistics deal (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major economic, diplomatic, political, and judicial stories well, with the France-Germany car deal and Nord Stream trial receiving heavy cross-source coverage, though the social and cultural sides of German life are only lightly touched."
+    },
+    "headlines_used": [
+      "German minister seeks debt-brake exemption to sustain Ukraine aid",
+      "Berlin Philharmonic planning to vacate Philharmonie for renovation from 2032-40",
+      "Dortmund go top despite Union Berlin stalemate",
+      "Union Berlin vs Borussia Dortmund: German Bundesliga stats & head-to-head",
+      "German police launch investigation after robot allegedly gropes teenage girl",
+      "Germany news: Police probe security incident at Leipzig/Halle airport",
+      "Automobile: Paris et Berlin officialisent un accord qui ralentit le passage au tout-électrique",
+      "Germany, France Push to Scrap Climate Neutrality Goal for Cars",
+      "France and Germany Reach Deal to Protect Europe’s Car Industry",
+      "France and Germany seal EU car deal",
+      "Ukrainian ex-officer goes on trial in Germany over Nord Stream blasts",
+      "Germany to unveil Nvidia AI agreement next week, government sources say",
+      "Fraud probe over NATO contracts leads to 5 arrests in Norway and searches in Germany and Romania",
+      "France, Germany reach deal on future of car industry",
+      "Germany",
+      "Germany news: Berlin's leftist parties move step closer to forming government",
+      "German Power Supplier Exits Raise Specter of 2022 Energy Crisis",
+      "Quantum Computing Inc. 6UR (Germany: Munich)",
+      "Letter: Germany’s problem with influence-peddling former politicians",
+      "How a radio glitch triggered a false hijack alert in Germany",
+      "France, Germany strike deal on car emissions and UK special status",
+      "UniCredit says receives ECB green light for Commerzbank takeover",
+      "Hamburger SV vs Stuttgart: German Bundesliga stats & head-to-head",
+      "Germany: Inclusive housing for migrants and non-migrants",
+      "German-French Car Pact on Hold Over Berlin’s Job Worries",
+      "Nord Stream Trial Tests Germany’s Alliance With Ukraine",
+      "EQS-PVR: HelloFresh SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution – Company Announcement - FT.com",
+      "Germany, Portugal reaffirm 'unwavering' support for Ukraine",
+      "Merz Therapeutics Announces Completion of Recruitment in Two Phase III Trials Investigating XEOMIN® (incobotulinumtoxinA) for Migraine Prevention",
+      "Trial of German steakhouse heiress that sparked a huge spy scandal",
+      "How great is the Russian threat against Germany?",
+      "German Politics: Trending News, Latest Updates, Analysis",
+      "Germany’s Lufthansa Beats Air France-KLM to Take $1.3 Billion Stake in Portugal’s Flag Carrier",
+      "Germany’s Friedrich Merz vows to fight on: ‘We are the firewall’",
+      "'A good day for motorists and for jobs': Reactions to Germany-France car deal",
+      "Moore's Germany move inspired by Sancho and Bellingham",
+      "German lawmakers press Tanzania over rights concerns",
+      "Germany Slams US Move to Bring Russia Back to the Global Stage",
+      "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
+      "Germany will contribute €50 million to Ukraine, finance minister says",
+      "Man with venomous snakes and lizards stopped at German airport",
+      "A century after Namibia genocide, Germany is still struggling to come to terms with its colonialist past",
+      "Germany’s Economy Is Looking Up. For Merz, It May Be Too Late",
+      "Great Powers: A History of Britain and Germany — a corrective to the clichés of enmity",
+      "Tottenham news: Why did Mikey Moore choose a move to Germany?",
+      "German lawmakers back monthly state pension contributions for children, with families able to add more.",
+      "UniCredit Weighs Risk Transfer on $1 Billion of German Mortgages",
+      "German prosecutors accuse Ukraine of Nord Stream sabotage",
+      "Germany hikes taxes on guilty pleasures to boost revenue",
+      "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "Germany, France agree on deal to support Europe's struggling car industry",
+      "UniCredit Wins ECB Approval to Take Control of Commerzbank",
+      "Infantino apology fails to sway England, Germany over FIFA future",
+      "Who was Eva Mamlok? Berlin square renamed after Jewish anti-fascist resistance fighter",
+      "German Push for More EU Action on China Risks Beijing’s Ire",
+      "Germany plans AI cooperation deal with Nvidia, Handelsblatt says",
+      "Germany news: Train station alcohol ban comes into force",
+      "Watch Germany Pushes Harder Line on China as EU Leaders Meet",
+      "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
+      "Labor Minister Bärbel Bas resigned during an angry era of German politics",
+      "Germany to Push EU to Impose Caps on More Chinese Imports",
+      "Germany warns against bringing Russia back into G20 fold",
+      "Thousands of German gamblers could sue for their money back",
+      "Nord Stream Sabotage Suspect Faces German War Crime Charge",
+      "Germany gas storage low but no supply risk, regulator says",
+      "Nord Stream trial opens in Germany, defense seeks dismissal",
+      "Russia Hits Ukraine's Energy, Germany to Push China Caps, More",
+      "German court sentences two for plotting to kill leader of German Jewish community for Iran",
+      "Germany's far-right AfD forges a pro-Russia alliance with the BSW",
+      "German savings banks chief says growth could curb political polarisation",
+      "Data analysis: Do non-German nationals commit more crimes than Germans?",
+      "Germany's AfD and leftist BSW call for end to help for Ukraine",
+      "Germany news: Merz attacks extremes for fueling division",
+      "German government in talks to buy 50% of KNDS, source says",
+      "Germany shifts toward tougher EU trade defenses as pressure from Chinese competition grows"
+    ],
+    "converted": false,
+    "relevant_headlines": 75,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "France-Germany car deal",
+        "expected": "France-Germany car deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about France-Germany car deal appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Nord Stream trial",
+        "expected": "Nord Stream trial stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Nord Stream trial appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Germany-China trade push",
+        "expected": "Germany-China trade push stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Germany-China trade push appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "France-Germany car deal",
+        "expected": "persist",
+        "sign": "France-Germany car deal is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. France-Germany car deal stays in the news at the same level. Nord Stream trial stays in the news at the same level. Germany-China trade push stays in the news at the same level. France-Germany car deal is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "France-Germany car deal",
+        "expected": "The France-Germany car deal will face procedural friction as other EU member states demand further concessions on emissions timelines before ratification, prompting new rounds of negotiation.",
+        "direction": "escalate",
+        "sign": "headlines about EU legislators debating implementation terms and environmental groups protesting the weakened climate target for vehicles"
+      },
+      "second": {
+        "subject": "Nord Stream sabotage trial",
+        "expected": "The Nord Stream sabotage trial will advance to a stage where the judge rules on the defense's motion to dismiss the war-crime charge against the Ukrainian ex-officer.",
+        "direction": "persist",
+        "sign": "headlines about courtroom rulings, witness testimony, and legal arguments in the pipeline sabotage case"
+      },
+      "third": {
+        "subject": "Nvidia AI agreement",
+        "expected": "Germany will formally unveil the AI cooperation agreement with Nvidia, signaling a new national commitment to building domestic AI infrastructure capacity.",
+        "direction": "escalate",
+        "sign": "headlines about the announcement event, government officials describing the partnership terms, and industry analysts reacting to the new AI framework"
+      },
+      "fade_call": {
+        "subject": "UniCredit-Commerzbank approval",
+        "expected": "fade",
+        "sign": "headlines about the banking takeover drop in frequency as integration planning absorbs the news cycle"
+      },
+      "surprise": {
+        "subject": "NATO contract fraud probe",
+        "expected": "The fraud probe over NATO defense contracts will expand as prosecutors in Germany name additional suspects or reveal new financial links between European military suppliers.",
+        "chance": "medium"
+      },
+      "summary": "Next week's German news will center on the fallout from the France-Germany car deal, as other EU member states press for further concessions and environmental groups push back against the weakened emissions timeline. The Nord Stream sabotage trial will progress in a German courtroom, with the judge expected to rule on the defense's dismissal motion and new witness testimony emerging. Germany will formally announce its AI cooperation agreement with Nvidia, a step that signals the government's commitment to domestic digital infrastructure. The UniCredit-Commerzbank approval story will lose momentum as integration planning takes over. A midweek surprise may come from the NATO contract fraud probe expanding with new arrests or financial disclosures. Chancellor Merz will face pressure from both the AfD-BSW alliance and the advancing leftist coalition talks, keeping domestic politics tense. Gas storage figures will resurface as the autumn heating season approaches.",
+      "generated_at": "2026-10-23T05:58:54+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Nord Stream sabotage trial",
+        "expected": "The defense in the Nord Stream trial will press its motion to dismiss the war-crime charge against the Ukrainian ex-officer while prosecutors put their first eyewitnesses to the pipeline explosions on the stand.",
+        "direction": "escalate",
+        "sign": "Courtroom-drama headlines about witness testimony, jurisdictional disputes, and the defense legal challenge dominate the German news cycle"
+      },
+      "second": {
+        "subject": "France-Germany car deal fallout",
+        "expected": "German automakers and trade unions will announce production plans and workforce measures in direct response to the new emissions framework that scraps the 2035 all-electric target.",
+        "direction": "persist",
+        "sign": "Industry statements, union reaction pieces, and UK-EU trade-alignment correspondence appear across business and politics sections"
+      },
+      "third": {
+        "subject": "Germany-Nvidia AI agreement",
+        "expected": "Berlin will formally unveil the AI cooperation deal with Nvidia in a government press event, naming the data-center site, the sovereign-cloud component, and the investment commitment.",
+        "direction": "persist",
+        "sign": "A single announcement headline cites a named data-center location, a concrete investment figure, and the sovereign-cloud element in one sentence"
+      },
+      "fade_call": {
+        "subject": "Germany-Russia G20 diplomatic spat",
+        "expected": "fade",
+        "sign": "Headlines about the Russia re-admission diplomatic row disappear from German news as trial and car-deal coverage take the front page"
+      },
+      "surprise": {
+        "subject": "Berlin leftist coalition breakthrough",
+        "expected": "Berlin's SPD, Die Linke, and Green factions break their post-election silence and name a prospective mayor or table a formal coalition agreement.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the Nord Stream sabotage trial will drive the German news agenda. The defense will argue for dismissal of the war-crime charge against the Ukrainian ex-officer, while prosecutors put their first eyewitnesses on the stand, setting the tone for proceedings that may stretch into winter. The France-Germany car deal will spawn a second wave of coverage as automakers, unions, and UK trade officials respond to the new emissions rules and China-tariff conditions. Berlin will formally sign and unveil its AI cooperation agreement with Nvidia, a deal already scheduled for the following week. The one-off diplomatic spat over Russia's re-admission to the global leaders' club will recede. A medium-probability wildcard: Berlin's SPD, Die Linke, and Green factions may break their post-election silence and name a prospective mayor or table a coalition agreement.",
+      "generated_at": "2026-10-23T06:16:14+03:00"
+    }
+  },
+  "display": {
+    "headline": "Nord Stream Trial Heats Up as Nvidia Deal Lands in Berlin",
+    "emojis": [
+      "⚖️",
+      "🤝",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "The Nord Stream trial is the dominant and most consequential story of the coming week.",
+      "The France-Germany car pact and its UK-alignment rider are the second major thread.",
+      "The Nvidia AI agreement is a concrete, time-bound unveiling scheduled for this window."
+    ],
+    "tldr": "The Nord Stream trial will consume German headlines with early testimony and a defense bid to dismiss the war-crime case. The France-Germany car deal will trigger industry and UK responses, and Berlin will sign its Nvidia AI pact. The G20-Russia spat fades.",
+    "eli5": "Germany is juggling several big stories right now. The biggest is a court trial about who blew up the Nord Stream gas pipelines under the Baltic Sea in 2022. A former Ukrainian military officer sits in the dock, and his lawyers are arguing the whole case should be thrown out. Meanwhile, prosecutors want to show it was a deliberate act of war.\n\nAlso, France and Germany just made a huge deal to let gas-powered cars stick around longer instead of forcing everyone to go all-electric by 2035. Car companies, unions, and the UK are all scrambling to figure out what that means for jobs and factories. Expect a wave of reaction headlines from VW, BMW, and the works councils.\n\nThis week, Berlin is set to officially sign a big AI partnership with Nvidia, the chip company. That means new data centers and a government-backed cloud service. It was literally scheduled for next week, so it should show up as a single, concrete announcement.\n\nHere's a surprise that could pop up: in Berlin, the left-wing parties (SPD, Die Linke, the Greens) have been fumbling around trying to form a city government for months. If they suddenly announce a name for their next mayor or a formal deal, that would be a real plot twist no one was expecting."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe headlines depict Germany in the grip of three simultaneous shocks. Former BND chief August Hanning was arrested on charges of espionage and attempted treason, triggering a constitutional-level scandal around Germany's foreign intelligence service. In Saxony-Anhalt, the AfD secured the parliamentary speaker role for the first time since 1945, handing the far-right a permanent institutional foothold in a state legislature. Chancellor Merz's CDU-SPD-Green coalition faces internal strain as CDU approval ratings slip and the party is squeezed between its own base and its coalition partners. The economic picture is contradictory: services output and industrial production are rebounding, yet capital-goods orders for aircraft, ships, rail, and military vehicles have dropped sharply. Berlin is pushing a harder line on Ukraine defense, has blocked a Cosco-related logistics deal, and is pressing for a new EU trade screening tool against China. Energy costs and diesel prices are keeping Eurozone inflation above target, and migration\n- Former BND chief August Hanning was (regular, continuing): Former BND chief August Hanning was arrested on espionage and attempted treason charges.\n- The AfD won the speaker role (regular, continuing): The AfD won the speaker role in the Saxony-Anhalt state parliament, its first such position since 1945.\n- Chancellor Merz's coalition faces internal pressure (regular, continuing): Chancellor Merz's coalition faces internal pressure as CDU approval falls and partners demand concessions.\n- Capital-goods factory orders fell sharply while (regular, continuing): Capital-goods factory orders fell sharply while services and industrial output rebounded.\n- Germany blocked a Cosco-related logistics deal (regular, continuing): Germany blocked a Cosco-related logistics deal and pushed for a new EU trade weapon against China.\n- Germany blocked a Cosco-related logistics deal (again) (regular, continuing): Germany blocked a Cosco-related logistics deal and pushed for a new EU trade weapon against China.\n\nRound 2026-09-15:\nThe text describes Germany in the grip of a political and economic crisis following state elections in which the CDU suffered heavy losses in Berlin and Mecklenburg-Vorpommern while the AfD and Die Linke gained ground. Chancellor Merz survived the immediate shock but his authority was visibly dented. The Left party, under Elif Eralp, emerged as the strongest force in Berlin. Volkswagen issued a profit warning, Porsche took write-downs, and cost-cutting accelerated across the auto sector, triggering worker protests. German Bund yields hit a 15-year high as markets priced in political risk. A DWS property fund faced liquidity pressure. The AfD leadership was reportedly in preliminary talks with a Kremlin economic envoy about restoring Russian gas flows to Germany. The Iran-Hormuz situation pushed fuel prices higher. Security concerns intensified with hospitals preparing for casualties, a drone startup founder living in hiding, and Russia potentially striking Ukraine's allies. A German general was\n- CDU lost ground in Berlin and (regular, continuing): CDU lost ground in Berlin and Mecklenburg-Vorpommern state elections while AfD and Die Linke gained seats\n- Volkswagen issued a profit warning and (regular, continuing): Volkswagen issued a profit warning and accelerated cost-cutting, triggering auto-sector protests\n- German Bund yields reached a 15-year (regular, continuing): German Bund yields reached a 15-year high as markets priced in political and fiscal risk\n- AfD leadership and a Kremlin economic (regular, continuing): AfD leadership and a Kremlin economic envoy reportedly prepared talks on restoring Russian gas to Germany\n- A DWS or Deutsche Bank-linked property (regular, continuing): A DWS or Deutsche Bank-linked property fund faced a liquidity and redemption pressure issue\n- A DWS or Deutsche Bank-linked property (again) (regular, continuing): A DWS or Deutsche Bank-linked property fund faced a liquidity and redemption pressure issue\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "KR",
+  "name": "South Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T05:07:55+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, South Korea faced a cluster of diplomatic, security, and economic pressures. The dominant story was the worsening US-South Korea relationship over an intelligence dispute: Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had hit a low point. On the Korean Peninsula, both North and South Korea conducted hypersonic missile tests, with Pyongyang's missile chief publicly questioning Seoul's glide-vehicle trial, underscoring an accelerating arms race. In the economy, the KOSPI index closed at a six-month low as chipmakers slumped amid AI-related worries, and at least one major fund manager shifted allocations away from Korean equities; however, the finance minister insisted the semiconductor outlook remained solid. Separately, South Korea reviewed expanding its military mission in the Middle East, and its relations with Ukraine soured over the handling of North Korean prisoners of war. Domestically, the government turned to coal ahead of a winter gas supply squeeze, and a South Korean official warned that shifting requirements could block the long-planned transfer of wartime command from the US. A minor sports incident involving a South Korean winger at Swansea also drew brief attention.",
+    "key_events": [
+      {
+        "event": "US dropped the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and bilateral ties were described as being at a low point over the intelligence row.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Both North and South Korea conducted hypersonic missile tests, with Pyongyang's missile chief questioning Seoul's glide-vehicle trial, highlighting a Peninsula arms race.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "The KOSPI index closed at a six-month low as semiconductor stocks slumped on AI-related worries, and a $29 billion manager recommended Nigerian equities over Korean ones.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "South Korea reviewed expanding its military mission in the Middle East, according to a Reuters report.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Ukraine and South Korea relations soured over the handling of North Korean prisoners of war.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "South Korea turned to coal-fired generation as a winter natural-gas supply squeeze loomed.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A South Korean official warned that shifting goalposts in requirements could block the transfer of wartime operational command from the US to Seoul.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "South Korea's finance minister told investors the semiconductor market would remain solid at least through next year despite the current slump.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Swansea reported an alleged racial abuse incident toward South Korean winger Ji-sung Eom during a match at Millwall.",
+        "date": null,
+        "domain": "society",
+        "importance": 1
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "economy",
+      "technology"
+    ],
+    "emojis": [
+      "🕵️",
+      "🚀",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The US halting the CIA-analyst case and the Bloomberg headline that US-SK ties hit a low point over an intelligence row make espionage the week's dominant theme.",
+      "Both Koreas' hypersonic missile tests and Pyongyang's public questioning of Seoul's glide-vehicle trial (headlines 6 and 8) centre the arms-race story.",
+      "The KOSPI closing at a six-month low and a major manager tipping away from Korean equities (headlines 11 and 12) anchor the market-slump narrative."
+    ],
+    "developments": [
+      {
+        "subject": "US-SK intelligence row",
+        "what_happened": "Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had reached a low point over the dispute.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          9,
+          14
+        ]
+      },
+      {
+        "subject": "Peninsula hypersonic arms race",
+        "what_happened": "Both North and South Korea conducted hypersonic missile tests, and Pyongyang's missile chief publicly questioned the validity of Seoul's glide-vehicle trial, underscoring a rapid arms build-up on the Peninsula.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          6,
+          8
+        ]
+      },
+      {
+        "subject": "KOSPI and chip-market slump",
+        "what_happened": "The KOSPI closed at a six-month low as semiconductor names fell on AI worries, and a $29 billion manager recommended Nigerian stocks over Korean equities, though the finance minister reassured investors the chip cycle was still intact.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "subject": "Middle East military mission",
+        "what_happened": "South Korea is reviewing an expansion of its existing military mission in the Middle East, per a Reuters report.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Ukraine-SK North Korean POW dispute",
+        "what_happened": "Relations between Ukraine and South Korea soured over the handling of North Korean prisoners of war previously transferred to Kyiv.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Winter energy and coal pivot",
+        "what_happened": "South Korea turned to coal-fired power generation as a winter natural-gas supply squeeze loomed, raising environmental and cost concerns.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          4
+        ]
+      },
+      {
+        "subject": "Wartime command transfer friction",
+        "what_happened": "A South Korean official warned that shifting requirements could block the long-planned transfer of wartime operational command from the US to Seoul.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          13
+        ]
+      },
+      {
+        "subject": "Racial abuse at Swansea-Millwall",
+        "what_happened": "Swansea reported an alleged racial abuse incident directed at South Korean winger Ji-sung Eom during a match at Millwall.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          7
+        ]
+      }
+    ],
+    "gone": [
+      "President Trump publicly touted a South",
+      "President Lee Jae Myung confirmed that",
+      "The Asian Games football captain's comment",
+      "The Asian Games football captain's comment (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover diplomacy, security, and the economy well but offer little on domestic politics, social issues, or specific dates, making precise sequencing difficult."
+    },
+    "headlines_used": [
+      "South Korea reviews expanding military mission in Middle East, report says",
+      "US halts prosecution of former CIA analyst accused of aiding South Korean intelligence",
+      "Ukraine, South Korea relations sour over North Korean POWs - DW.com",
+      "South Korea Turns to Dirty Coal as Winter Gas Squeeze Looms",
+      "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
+      "North Korea missile chief questions South Korea hypersonic glide vehicle test",
+      "Swansea reports alleged racial abuse toward South Korea winger Ji-sung Eom during game at Millwall",
+      "Hypersonic missile tests by both North and South Korea highlight arms race on Korean Peninsula",
+      "US Ties With South Korea Hit Low Point Over Intelligence Row",
+      "Don't overlook opportunity in South Korea, says Verdad Advisers' Rasmussen",
+      "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries",
+      "A $29 Billion Manager Tips Nigerian Stocks Over South Korea’s Kospi",
+      "South Korea official says shifting goalposts could block wartime command transfer from US",
+      "US to drop South Korea intelligence case against ex-CIA analyst"
+    ],
+    "converted": false,
+    "relevant_headlines": 14,
+    "unscorable": true,
+    "unscorable_reason": "only 14 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "US-SK intelligence row",
+        "expected": "US-SK intelligence row stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-SK intelligence row appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Peninsula hypersonic arms race",
+        "expected": "Peninsula hypersonic arms race stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Peninsula hypersonic arms race appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "KOSPI and chip-market slump",
+        "expected": "KOSPI and chip-market slump stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about KOSPI and chip-market slump appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Middle East military mission",
+        "expected": "persist",
+        "sign": "Middle East military mission is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. US-SK intelligence row stays in the news at the same level. Peninsula hypersonic arms race stays in the news at the same level. KOSPI and chip-market slump stays in the news at the same level. Middle East military mission is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "US-South Korea intelligence dispute",
+        "expected": "Seoul will issue a formal written demand for an explanation from Washington over the halted prosecution, turning the intelligence row into a broader bilateral crisis.",
+        "direction": "escalate",
+        "sign": "A headline announcing Seoul's official protest or a diplomatic summons in response to the analyst case"
+      },
+      "second": {
+        "subject": "Peninsula hypersonic arms race",
+        "expected": "North Korea will conduct a follow-up missile test or issue a formal technical rebuttal to South Korea's glide-vehicle trial, further narrowing the gap between the two sides' programs.",
+        "direction": "escalate",
+        "sign": "A headline reporting a new test or a public statement from Pyongyang's missile leadership questioning Seoul's capabilities"
+      },
+      "third": {
+        "subject": "Korean stock market and chip sector",
+        "expected": "The KOSPI will test the six-month low again as AI-related earnings disappointments hit semiconductor names, prompting further fund reallocation announcements from major managers.",
+        "direction": "persist",
+        "sign": "A headline about the index falling or a prominent fund manager issuing a fresh recommendation on Korean equities"
+      },
+      "fade_call": {
+        "subject": "Swansea winger racial abuse incident",
+        "expected": "fade",
+        "sign": "The story drops out of the South Korea wire entirely, with no follow-up disciplinary or diplomatic headlines"
+      },
+      "surprise": {
+        "subject": "Ukraine-South Korea prisoner dispute",
+        "expected": "South Korea will recall its ambassador to Kyiv over the handling of North Korean prisoners, turning a background grievance into a visible diplomatic rupture.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, South Korea's diplomatic and economic pressures will deepen. The intelligence dispute with Washington will move from a behind-the-scenes argument to a visible crisis, with Seoul pressing for formal accountability over the halted analyst prosecution. On the Peninsula, the hypersonic arms race will accelerate as both sides respond to each other's tests with new demonstrations. The KOSPI will struggle near its six-month low, with chipmakers bearing the brunt of AI-related market jitters and foreign fund managers trimming Korean exposure. The Middle East mission review will progress toward a decision, and the Ukraine prisoner dispute will risk an abrupt diplomatic escalation. Domestically, coal-fired generation will stay on the agenda as the winter gas squeeze tightens, and the wartime command transfer issue will gather more friction. Overall, the mood will stay tense with intensity creeping upward.",
+      "generated_at": "2026-10-23T04:53:08+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US-South Korea intelligence dispute",
+        "expected": "Seoul will issue a formal diplomatic response to Washington's decision to drop the prosecution of the former CIA analyst, deepening the rift between the two allies.",
+        "direction": "persist",
+        "sign": "Headlines will carry statements from South Korean officials expressing frustration over the intelligence case and calls for a bilateral meeting to address the fallout."
+      },
+      "second": {
+        "subject": "Korean Peninsula hypersonic missile race",
+        "expected": "A hypersonic missile test by one of the two Koreas will generate fresh coverage of the accelerating arms race.",
+        "direction": "persist",
+        "sign": "Headlines will report a missile launch or a defense official's remarks about hypersonic weapon development on the Korean Peninsula."
+      },
+      "third": {
+        "subject": "Korean stock market and semiconductor sector",
+        "expected": "The KOSPI index will trade near its six-month low as chipmakers absorb fresh AI-sector anxiety that pushes foreign managers to trim Korean positions.",
+        "direction": "persist",
+        "sign": "Headlines will report the KOSPI closing lower or a fund manager's note recommending investors move capital away from Korean stocks."
+      },
+      "fade_call": {
+        "subject": "Swansea racial abuse incident",
+        "expected": "fade",
+        "sign": "The Swansea-Millwall racial abuse story will disappear from South Korean news coverage with no formal complaint or follow-up match report."
+      },
+      "surprise": {
+        "subject": "South Korea Middle East military deployment",
+        "expected": "Seoul will announce a concrete expansion of its Middle East military mission, moving beyond the review phase to a specific troop or capability commitment.",
+        "chance": "low"
+      },
+      "summary": "Next week, the US-South Korea intelligence dispute will stay at the center of Seoul's diplomatic agenda as officials press Washington for an explanation after dropping the case against the former CIA analyst. The hypersonic missile race between the two Koreas will produce at least one new test or a pointed public statement from a military chief, reinforcing the arms-race narrative. The KOSPI will hover near its six-month low as semiconductor names struggle under AI-sector anxiety and foreign investors trim Korean exposure. The Middle East military mission review may yield a concrete deployment decision, which would mark a step beyond discussion. Domestically, the winter energy pivot toward coal will draw environmental criticism, and the wartime command transfer debate will surface again as requirements shift. Overall, the tone will stay tense, with the intelligence row and the missile competition setting the pace.",
+      "generated_at": "2026-10-23T05:07:55+03:00"
+    }
+  },
+  "display": {
+    "headline": "Seoul Presses Washington as Missile Race Heats Up",
+    "emojis": [
+      "🕵️",
+      "🚀",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The dominant story is the US-South Korea intelligence dispute over a dropped CIA analyst prosecution.",
+      "Both Koreas conducted hypersonic missile tests and the arms race narrative will persist.",
+      "The KOSPI closed at a six-month low and chip stocks are under AI-sector pressure."
+    ],
+    "tldr": "Seoul will press Washington over the dropped CIA analyst case, and the two Koreas will keep testing hypersonic weapons. The KOSPI will struggle near its low as chip stocks absorb AI worries. The Middle East mission review may produce a concrete deployment call.",
+    "eli5": "South Korea is dealing with a lot of stress at once right now. The biggest headache is a fight with the United States over an intelligence case where Washington dropped charges against a former spy. At the same time, both Koreas are testing powerful new hypersonic missiles and publicly questioning each other's work, which makes everyone nervous.\n\nThe US-South Korea intelligence dispute hurts because sharing secrets is the glue holding the alliance together, and dropping the case feels like Washington is protecting its own people. The missile race is escalating because each side wants to prove its hypersonic weapons are the best, and both are moving fast.\n\nNext week, expect Seoul to demand explanations from Washington and another round of missile-related headlines from the Peninsula. Stock markets will probably stay weak as investors worry about chipmakers and AI investment timelines.\n\nA real surprise would be South Korea suddenly announcing a concrete troop expansion in the Middle East, jumping straight from \"we are thinking about it\" to \"here is the plan.\" That would shift the story from quiet discussion to visible action."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nSouth Korea entered the week under multiple simultaneous pressures. A DMZ mine blast attributed to North Korea triggered a sharp diplomatic confrontation, with Pyongyang rejecting Seoul's accusation and issuing a warning about boundary lines down to the millimeter, followed by a North Korean missile test. Ukraine's transfer of two North Korean soldiers without full prior notification to Seoul created a diplomatic row that President Lee Jae Myung was managing carefully. President Trump publicly touted a massive South Korean investment package in US energy projects including Alaska LNG, while Seoul insisted final decisions were still pending and that technical discussions were ongoing. President Lee confirmed that AI tools appeared to have been used in bank hacks, elevating the issue to a national technology-and-trust story. The Asian Games football gold medal was overshadowed by the team captain's comment on military service exemptions and the Song Min-ho suspended sentence. Record chip exports supported\n- North Korea conducted a missile test (regular, continuing): North Korea conducted a missile test and issued a sharp boundary warning after Seoul attributed a DMZ mine blast to Pyongyang.\n- Ukraine transferred two North Korean soldiers (regular, continuing): Ukraine transferred two North Korean soldiers without full prior diplomatic notification to Seoul, creating a face-and-alliance row.\n- President Trump publicly touted a South (regular, continuing): President Trump publicly touted a South Korean investment package in US energy projects including Alaska LNG while Seoul said final decisions were pending.\n- President Lee Jae Myung confirmed that (regular, continuing): President Lee Jae Myung confirmed that AI tools appeared to have been used in bank hacks, making it a national-level technology and trust issue.\n- The Asian Games football captain's comment (regular, continuing): The Asian Games football captain's comment on military service exemptions and the Song Min-ho suspended sentence ignited a domestic fairness debate.\n- The Asian Games football captain's comment (again) (regular, continuing): The Asian Games football captain's comment on military service exemptions and the Song Min-ho suspended sentence ignited a domestic fairness debate.\n\nRound 2026-09-15:\nIn late September 2026, South Korea faced a pile-up of simultaneous pressures. President Lee Jae Myung's approval rating nosedived, and a cabinet nominee withdrew after being questioned. North Korea launched two short-range ballistic missiles toward the East Sea and touted a new hypersonic weapon system. Three South Korean military officers were injured by a landmine or explosion inside the DMZ. The $350 billion Korea-US investment pledge created political stress, with Lee describing it as causing him sleepless nights. Markets swung on record chip exports, AI investment optimism, rising oil prices from Middle East tensions, and US Treasury yields above 5 percent. The Bank of Korea tested a 24-hour won settlement system. The Asian Games in Japan produced logistics complaints from the Korean delegation, including a wrong anthem and container housing issues. Domestically, abortion pill approval advanced, a former first lady's sentence was reduced on appeal, a Jeju missing-persons scandal involved\n- President Lee Jae Myung's approval rating (regular, continuing): President Lee Jae Myung's approval rating nosedived and a cabinet nominee withdrew under public pressure.\n- North Korea launched two short-range ballistic (regular, continuing): North Korea launched two short-range ballistic missiles and touted a new hypersonic weapons system.\n- Three South Korean military officers were (regular, continuing): Three South Korean military officers were injured by a landmine or explosion inside the DMZ.\n- The $350 billion Korea-US investment pledge (regular, continuing): The $350 billion Korea-US investment pledge entered an active negotiation phase with bond and corporate-deal frameworks under discussion.\n- South Korea's Asian Games delegation in (regular, continuing): South Korea's Asian Games delegation in Japan complained about wrong anthem playback, container housing, and transport logistics.\n- South Korea's Asian Games delegation in (again) (regular, continuing): South Korea's Asian Games delegation in Japan complained about wrong anthem playback, container housing, and transport logistics.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}
