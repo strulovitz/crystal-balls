@@ -138,3 +138,29 @@ d. Judge rule added to prompts/judge.txt: when an item bundles several developme
 Round 2026-10-17 is finished several days late with headlines that end on October 17 and a horizon that ends on October 24. Both arms face the same staleness, so the paired comparison holds, but the round is marked "run_in": true in round.json and its judged results are shown on the page with the note "run-in round, forecasts generated late" and are excluded from the pre-registered verdict count of 13.6 (they still appear in the item-grade counts and the gap buckets). Every forecast bulletin records generated_at, and the page shows "made with headlines up to [window_end], generated [generated_at]" for every round, so the lead time is never hidden. From the next round on, a round is started and finished within the same week whenever the machine allows.
 
 (Decisions recorded by Nir on 2026-10-22, relayed by Fable: thinking stays ON for every step, no exceptions, and round.json records "thinking": "on". The validator no longer rejects an "expected" sentence for having several commas; rule a stays in the prompt only. The sign rule (no digit, no hour, hours, day, days, percent) stays in the validator.)
+
+### 13.18 Amendment: fixed model parameters, noise control, grading windows (Fable, 2026-10-23, after round 2026-10-17)
+
+a. Rule 13, binding for the whole project: no paid model is used anywhere in the pipeline, not for the reader, not for the forecasters, not for the judge, not for validation. Everything runs on the local Qwen at home. The recommendation in 13.9 item 5 to run the judge on OpenRouter is withdrawn; JUDGE_BASE_URL, JUDGE_MODEL and JUDGE_API_KEY are removed from settings. The judge runs on the local Qwen with thinking on, one call per country, with the three bulletins in a randomized order that is recorded, as in 13.3. Remove the OpenRouter judge item from the todo list.
+
+b. The model parameters are fixed here and in config/settings.env.example, and recorded in every round.json. They are never changed without Nir saying so in writing:
+LLM_MODEL=huihui_ai/Qwen3.8-abliterated:27b
+LLM_THINKING=on
+LLM_TEMPERATURE=0.6
+LLM_TOP_P=0.95
+LLM_TOP_K=20
+LLM_MIN_P=0
+LLM_REPEAT_PENALTY=1.0
+LLM_MAX_TOKENS=12000 (thinking tokens count against this; the first round showed up to 7,500)
+LLM_CONTEXT_WINDOW=32768 (num_ctx; fail loudly if a prompt exceeds 90 percent of it)
+LLM_MAX_RETRIES=3
+LLM_TIMEOUT_SECONDS=1800
+These are the values Qwen's own documentation recommends for thinking mode. Round 2026-10-17 ran at temperature 1.0 by accident of defaults; it remains the run-in round of 13.17, and this is part of why.
+
+c. Seed: every call carries a seed computed from round date, country code and step name, identical for arm A and arm B of the same country-round. The seed scheme is recorded in round.json. Retries add 1 to the seed.
+
+d. Noise control: in every round, for four fixed countries (US, IL, DE, BR), the plain forecast is run a second time with a different seed and stored as forecasts.plain_repeat. It is never shown to the judge and never shown to arm B. score.py reports, for these countries, whether plain_repeat has the same lead subject and lead direction as plain, next to whether crystal has the same as plain. The scorecard modal shows this as "noise floor". If the arms differ no more than plain differs from itself, the verdict text says so.
+
+e. The unscorable threshold of 40 relevant headlines stays. If more than 8 countries are unscorable in a round whose window is 7 days or more, report the per-country counts to Fable before changing anything.
+
+f. A hand-made forecast (the 2026-10-22 Israel text, horizon Oct 22 to 29) is graded in the first round whose headline window ends on or after the forecast's horizon end, never before.
