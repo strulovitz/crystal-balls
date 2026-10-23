@@ -709,23 +709,43 @@ function selectCountry(code) {
   openPanel(code);
 }
 
+let centerAnimationId = 0;
+
+// Centers a country WITHOUT ever tilting the globe: north stays up, always (the user can look
+// left, right, up and down, but never sees the globe lying on its side). The globe only spins
+// about its own north-south axis, and the camera moves up or down to the country's latitude.
 function animateCameraToCountry(code) {
   const sp = sprites.find(s => s.code === code && s.layer === LAYER.OUTER);
   if (!sp) return;
-  const startQuat = globeGroup.quaternion.clone();
-  // The anchor is stored in the globe's own frame. The globe may already be turned, so first find where
-  // the country really is now (anchor turned by the current rotation), then turn that spot to face the camera.
-  const anchorDir = sp.anchor.clone().normalize().applyQuaternion(startQuat);
-  const camDir = camera.position.clone().sub(controls.target).normalize();
-  const targetQuat = new THREE.Quaternion().setFromUnitVectors(anchorDir, camDir);
-  const finalQuat = targetQuat.clone().multiply(startQuat);
+  const a = sp.anchor.clone().normalize();                 // the country, in the globe's own frame
+  const azA = Math.atan2(a.x, a.z);                        // its compass direction on the globe
+  const polarTarget = Math.acos(clamp(a.y, -1, 1));        // 0 = north pole, PI = south pole
 
+  const offset = camera.position.clone().sub(controls.target);
+  const radius = offset.length();
+  const azCam = Math.atan2(offset.x, offset.z);
+  const polarStart = Math.acos(clamp(offset.y / radius, -1, 1));
+
+  const yawStart = 2 * Math.atan2(globeGroup.quaternion.y, globeGroup.quaternion.w); // pure spin about Y
+  let yawEnd = azCam - azA;                                // spin that puts the country in front of the camera
+  while (yawEnd - yawStart > Math.PI) yawEnd -= 2 * Math.PI;   // take the short way round
+  while (yawEnd - yawStart < -Math.PI) yawEnd += 2 * Math.PI;
+
+  const myId = ++centerAnimationId;
   const duration = 900;
   const startTime = performance.now();
+  const yAxis = new THREE.Vector3(0, 1, 0);
   function step(now) {
+    if (myId !== centerAnimationId) return;                // a newer click took over
     const t = clamp((now - startTime) / duration, 0, 1);
     const eased = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
-    globeGroup.quaternion.slerpQuaternions(startQuat, finalQuat, eased);
+    globeGroup.quaternion.setFromAxisAngle(yAxis, yawStart + (yawEnd - yawStart) * eased);
+    const polar = clamp(polarStart + (polarTarget - polarStart) * eased, 0.05, Math.PI - 0.05);
+    camera.position.set(
+      controls.target.x + radius * Math.sin(polar) * Math.sin(azCam),
+      controls.target.y + radius * Math.cos(polar),
+      controls.target.z + radius * Math.sin(polar) * Math.cos(azCam));
+    controls.update();
     if (t < 1) requestAnimationFrame(step);
   }
   requestAnimationFrame(step);
