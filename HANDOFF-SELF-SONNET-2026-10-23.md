@@ -56,3 +56,19 @@ All of this was tested with --mock-llm (full 32-country mock rounds, a second mo
 1. Read /home/nir/AGENTS.md pointer, then this file.
 2. git -C /home/nir/crystal-balls pull (it should be up to date); check ps for run_round.py and tail the log.
 3. Greet Nir in 3 short lines with emojis, give the real progress numbers and time, and wait for his word.
+
+## My OpenCode to-do list of 2026-10-22, copied here with the real status (the 10 sections Nir asked about)
+1. Rename legacy rounds 10-01 to 09-15 and 10-14 to 10-02 (git mv) and fix all references: DONE (commit 47323e1).
+2. Read the existing code (prompts 02 and 07, validators, run_round main, build_site_data, app.js panel): DONE.
+3. New prompts: reader, plain, crystal (v4), judge, legacy_reader: DONE (prompts/reader.txt, plain_forecast.txt, crystal_forecast.txt, judge.txt, legacy_reader.txt, paraphrase.txt).
+4. Validators, persistence, judgment rendering, mock_llm additions: DONE (pipeline/v4.py, pipeline/mock_llm.py).
+5. run_round.py steps reader, judge, plain, crystal, persistence, schema v4, converted 10-17 readers: DONE.
+6. score.py v4 (round means, bootstrap, verdict rule, gap buckets, order bias) and the sanity test of 13.7: DONE as code and mock-tested; the REAL sanity test (pipeline/judge_validation.py) still waits for the first judged round.
+7. Import round-3 as 2026-10-22 and the legacy rounds from text with legacy_reader.txt: DONE (real model).
+8. build_site_data and the site panel, modal, badge: DONE but NOT browser-tested (headless Chrome hangs here); ask Nir to look.
+9. Full mock rounds (two): DONE.
+10. At most three real Israel calls, paste outputs, print the continue command: DONE (six real calls in all: 3 imports plus 3 demonstration calls; outputs in data/demo/PART13-ISRAEL-THREE-OUTPUTS-2026-10-22.md).
+New items since then:
+11. The real round 2026-10-17 for all 32 countries: IN PROGRESS (see the top of this file), finishes about 18:30 on 2026-10-23.
+12. Report for Fable when the round is complete (contents listed above): PENDING.
+13. After that, only with Nir's go: judge on OpenRouter decision, next round, judge validation, publish, menu link, laptop.
