@@ -1,35 +1,39 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T17:53:13+03:00",
-  "latest": "2026-10-22",
+  "generated_at": "2026-10-23T18:04:53+03:00",
+  "latest": "2026-10-17",
   "rounds": [
     {
       "round": "2026-10-22",
       "previous_round": "2026-10-02",
       "is_legacy": true,
       "status": "complete",
-      "label": "Oct 22, 2026 (manual)"
+      "label": "Oct 22, 2026 (manual)",
+      "countries_done": 1
     },
     {
       "round": "2026-10-17",
       "previous_round": "2026-10-02",
       "is_legacy": false,
       "status": "complete",
-      "label": "Oct 17, 2026"
+      "label": "Oct 17, 2026",
+      "countries_done": 32
     },
     {
       "round": "2026-10-02",
       "previous_round": "2026-09-15",
       "is_legacy": true,
       "status": "complete",
-      "label": "Oct 2, 2026 (manual)"
+      "label": "Oct 2, 2026 (manual)",
+      "countries_done": 32
     },
     {
       "round": "2026-09-15",
       "previous_round": null,
       "is_legacy": true,
       "status": "complete",
-      "label": "Sep 15, 2026 (manual)"
+      "label": "Sep 15, 2026 (manual)",
+      "countries_done": 32
     }
   ]
 }
