@@ -712,10 +712,12 @@ function selectCountry(code) {
 function animateCameraToCountry(code) {
   const sp = sprites.find(s => s.code === code && s.layer === LAYER.OUTER);
   if (!sp) return;
-  const anchorDir = sp.anchor.clone().normalize();
-  const camDir = camera.position.clone().normalize();
-  const targetQuat = new THREE.Quaternion().setFromUnitVectors(anchorDir, camDir);
   const startQuat = globeGroup.quaternion.clone();
+  // The anchor is stored in the globe's own frame. The globe may already be turned, so first find where
+  // the country really is now (anchor turned by the current rotation), then turn that spot to face the camera.
+  const anchorDir = sp.anchor.clone().normalize().applyQuaternion(startQuat);
+  const camDir = camera.position.clone().sub(controls.target).normalize();
+  const targetQuat = new THREE.Quaternion().setFromUnitVectors(anchorDir, camDir);
   const finalQuat = targetQuat.clone().multiply(startQuat);
 
   const duration = 900;
