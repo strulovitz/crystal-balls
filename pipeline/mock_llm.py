@@ -105,8 +105,11 @@ def part13_response(step_name, variables, country_code, vocabulary):
     name = variables.get("COUNTRY", country_code)
     if step_name == "reader" and "PREVIOUS_SUBJECTS" in variables:
         return _mock_reader(name, country_code, variables, vocabulary)
-    if step_name == "plain_forecast" and "FORECAST_FORMAT" in variables:
-        return mock_bulletin(name, country_code, "plain", variables.get("ROUND", ""))
+    if step_name in ("plain_forecast", "plain_repeat") and "FORECAST_FORMAT" in variables:
+        b = mock_bulletin(name, country_code, "plain", variables.get("ROUND", ""))
+        if step_name == "plain_repeat":
+            b["lead"]["direction"] = "persist" if b["lead"]["direction"] != "persist" else "escalate"
+        return b
     if step_name == "crystal_forecast" and "FORECAST_FORMAT_DISPLAY" in variables:
         b = mock_bulletin(name, country_code, "crystal", variables.get("ROUND", ""))
         b.update(demo.make_display(name, vocabulary))

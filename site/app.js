@@ -996,6 +996,11 @@ function scorecardModalV4(sc) {
   html += `<div class="stat-row"><span>Verdict against more-of-the-same</span><span>${esc(sc.verdict_u)}</span></div>`;
   html += `<div class="stat-row"><span>Rounds scored (verdict needs ${sc.min_rounds_for_verdict})</span><span>${sc.rounds_scored}</span></div>`;
   html += `<div class="stat-row"><span>Mean verdict, Crystal minus plain (-2 to 2)</span><span>${sc.mean_v == null ? '\u2014' : sc.mean_v}${sc.interval_v ? ' (90% interval ' + sc.interval_v[0] + ' to ' + sc.interval_v[1] + ')' : ''}</span></div>`;
+  const nf = sc.noise_floor;
+  if (nf && nf.countries_compared) {
+    html += `<div class="stat-row"><span>Noise floor (${nf.countries_compared} country-weeks, same lead story / same direction as plain)</span><span>plain run twice: ${nf.plain_repeat_same_subject} / ${nf.plain_repeat_same_direction}; Crystal: ${nf.crystal_same_subject} / ${nf.crystal_same_direction}</span></div>`;
+    html += `<p class="baseline">${esc(nf.note || '')}</p>`;
+  }
   html += `<div class="stat-row"><span>Judged country-weeks</span><span>${sc.judged_country_weeks}</span></div>`;
   html += `<div class="stat-row"><span>Unscorable country-weeks</span><span>${sc.unscorable} of ${sc.country_rounds}</span></div>`;
   html += `<div class="stat-row"><span>First-listed bulletin won (order bias)</span><span>${sc.first_listed_wins_share == null ? '\u2014' : Math.round(sc.first_listed_wins_share * 100) + '%'} of ${sc.first_listed_nonties}</span></div>`;

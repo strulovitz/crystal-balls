@@ -81,6 +81,55 @@ def _blank_round():
     return {"scored": 0, "crystal_better": 0, "ties": 0, "plain_better": 0, "mean_v": None, "mean_u": None}
 
 
+def _words(text):
+    import re
+    return set(re.findall(r"[a-z]{4,}", (text or "").lower()))
+
+
+def _same_lead(a, b):
+    """Same lead subject: the 4-letter-or-longer words of the two subjects overlap by at least half
+    (shared words divided by all words). Same direction: the direction field is equal."""
+    wa, wb = _words(a["lead"]["subject"]), _words(b["lead"]["subject"])
+    subject = len(wa & wb) / max(1, len(wa | wb)) >= 0.5
+    return subject, a["lead"]["direction"] == b["lead"]["direction"]
+
+
+def noise_floor(rounds_dir):
+    """Bible 13.18 d. For the countries that carry forecasts.plain_repeat: how often plain_repeat matches
+    plain (lead subject, lead direction), next to how often crystal matches plain."""
+    out = {"countries_compared": 0, "plain_repeat_same_subject": 0, "plain_repeat_same_direction": 0,
+           "crystal_same_subject": 0, "crystal_same_direction": 0, "per_country": []}
+    if not rounds_dir.exists():
+        return out
+    for round_dir in sorted(d for d in rounds_dir.iterdir() if d.is_dir()):
+        rj = round_dir / "round.json"
+        if not rj.exists() or load_json(rj).get("status") != "complete":
+            continue
+        for cf in sorted((round_dir / "countries").glob("*.json")):
+            d = load_json(cf)
+            fc = d.get("forecasts") or {}
+            if d.get("schema_version") != 4 or not all(isinstance(fc.get(k), dict) for k in ("plain", "plain_repeat", "crystal")):
+                continue
+            rs, rd = _same_lead(fc["plain_repeat"], fc["plain"])
+            cs, cd = _same_lead(fc["crystal"], fc["plain"])
+            out["countries_compared"] += 1
+            out["plain_repeat_same_subject"] += rs
+            out["plain_repeat_same_direction"] += rd
+            out["crystal_same_subject"] += cs
+            out["crystal_same_direction"] += cd
+            out["per_country"].append({"round": round_dir.name, "code": d.get("code", cf.stem),
+                                       "plain_repeat_same_subject": rs, "plain_repeat_same_direction": rd,
+                                       "crystal_same_subject": cs, "crystal_same_direction": cd})
+    n = out["countries_compared"]
+    if n:
+        pr = out["plain_repeat_same_subject"] + out["plain_repeat_same_direction"]
+        cr = out["crystal_same_subject"] + out["crystal_same_direction"]
+        out["note"] = ("The two arms differ no more than plain differs from itself: the differences may be noise."
+                       if cr >= pr else
+                       "Crystal differs from plain more than plain differs from itself.")
+    return out
+
+
 def compute_scorecard(rounds_dir=None):
     rounds_dir = Path(rounds_dir) if rounds_dir else ROOT / "data" / "rounds"
     per_round, round_scorecards = [], {}
@@ -192,6 +241,7 @@ def compute_scorecard(rounds_dir=None):
         "per_round": per_round,
         "per_country": {c: {"n": len(x["vs"]), "mean_v": round(mean(x["vs"]), 3)} for c, x in per_country.items()},
         "hand_made_forecasts": hand_made,
+        "noise_floor": noise_floor(rounds_dir),
         "run_in_rounds": sorted(run_in_rounds), "run_in_judged_country_weeks": run_in_judged,
         "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count.",
     }

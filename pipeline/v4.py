@@ -22,7 +22,8 @@ ITEM_KEYS = ("lead", "second", "third", "fade_call")
 FORBIDDEN_RE = re.compile(r"\b(may|might|could|possibly|likely|continue|remain|ongoing)\b", re.IGNORECASE)
 SIGN_INVENTED_RE = re.compile(r"\d|\b(hour|hours|day|days|percent)\b", re.IGNORECASE)
 MIN_RELEVANT_HEADLINES = 40
-STEPS = ["reader", "judge", "plain", "crystal"]
+STEPS = ["reader", "judge", "plain", "crystal", "plain_repeat"]
+NOISE_CODES = ("US", "IL", "DE", "BR")   # Bible 13.18 d: plain is run twice for these four, as a noise control
 ARMS = ("plain", "crystal", "persistence")
 
 BULLETIN_BODY = '''{

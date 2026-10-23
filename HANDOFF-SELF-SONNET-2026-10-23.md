@@ -72,3 +72,12 @@ New items since then:
 11. The real round 2026-10-17 for all 32 countries: IN PROGRESS (see the top of this file), finishes about 18:30 on 2026-10-23.
 12. Report for Fable when the round is complete (contents listed above): PENDING.
 13. After that, only with Nir's go: judge on OpenRouter decision, next round, judge validation, publish, menu link, laptop.
+
+
+## UPDATE 2026-10-23 evening (read this part first, it supersedes the "running now" text above)
+- The round 2026-10-17 FINISHED at 16:22:11 (32 of 32, 96 real calls, 16 retries, 0 failed). Report for Fable: data/demo/PART13-ROUND-1017-REPORT-FOR-FABLE-2026-10-23.md.
+- Fable's Bible 13.18 is saved (BIBLE/part-13-reader.md): NO PAID MODEL EVER (judge runs on local Qwen), fixed parameters (temperature 0.6, top_p 0.95, top_k 20, min_p 0, repeat_penalty 1.0, max_tokens 12000, context window 32768 as a 90 percent prompt check, retries 3, timeout 1800, thinking on), seeds per call (same for both arms, retry adds 1), noise control plain_repeat for US, IL, DE, BR, hand-made forecast graded only when its horizon has ended.
+- Built: seed_for() and all parameters in pipeline/common.py, parameters recorded in round.json, step plain_repeat in run_round.py (STEPS in v4.py, NOISE_CODES), noise_floor() in score.py, modal line in site/app.js. Tested with mock only.
+- The websites are ON (Nir started them), page live: https://www.strulovitz.org/crystal-balls/
+- NEXT: Nir starts the next real round on 2026-10-24 by double-clicking the icon (about 20 hours). It runs: window 10-17 to 10-24, reader for 32, judge grades the 10-17 bulletins on local Qwen, plain and crystal, plain_repeat for US/IL/DE/BR. Then judge_validation.py (13.7), score, build, publish.
+- OPEN QUESTION sent to Fable: Ollama's /v1 cannot set num_ctx per request; the server is at 262144 (OLLAMA_CONTEXT_LENGTH). 32768 is only our 90 percent prompt check. Also LLM_MAX_TOKENS=12000 versus earlier measured 25k thinking tokens in other benchmarks (our round showed max 7,500).

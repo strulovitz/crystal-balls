@@ -23,7 +23,7 @@ from pipeline import mock_llm
 from pipeline import v4
 
 STEPS = list(v4.STEPS)   # Part 13: reader, judge, plain, crystal (persistence is Python only)
-SHORT_LABEL = {"reader": "reader", "judge": "judge", "plain": "plain", "crystal": "crystal"}
+SHORT_LABEL = {"reader": "reader", "judge": "judge", "plain": "plain", "crystal": "crystal", "plain_repeat": "plain-repeat"}
 
 
 def _now_iso():
@@ -458,6 +458,22 @@ def step_plain(file, country_cfg, round_id, horizon_start, horizon_end, headline
     return "run", obj, elapsed
 
 
+def step_plain_repeat(file, country_cfg, round_id, horizon_start, horizon_end, headlines_json, settings, mock):
+    """Bible 13.18 d: noise control. The same plain forecast again with a different seed, for four fixed
+    countries only. Never shown to the judge, never shown to arm B."""
+    if country_cfg["code"] not in v4.NOISE_CODES:
+        return "skip", None, None
+    name = country_cfg["name"]
+    situation = v4.reader_as_text(file["reader"])
+    text, _ = numbered_for(file, headlines_json, situation, settings, "FORECAST_HEADLINE_CAP", 150)
+    variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
+                 "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
+                 "FORECAST_FORMAT": v4.forecast_format()}
+    obj, elapsed = llm_call("plain_forecast.txt", variables, v4.validate_bulletin, "plain_repeat",
+                             country_cfg["code"], round_id, settings, mock)
+    return "run", obj, elapsed
+
+
 def step_crystal(file, prev_file, auto_file, rounds_dir, country_cfg, round_id, prev_round_id, horizon_start, horizon_end,
                  headlines_json, vocabulary, settings, mock):
     name = country_cfg["name"]
@@ -630,6 +646,12 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
             settings, mock), put_plain)
     do_step("crystal", lambda: step_crystal(file, prev_file, auto_file, rounds_dir, country_cfg, round_id, prev_round_id,
             horizon_start, horizon_end, headlines_json, vocabulary, settings, mock), put_crystal)
+    def put_plain_repeat(obj):
+        obj["generated_at"] = _now_iso()
+        file["forecasts"]["plain_repeat"] = obj
+
+    do_step("plain_repeat", lambda: step_plain_repeat(file, country_cfg, round_id, horizon_start, horizon_end,
+            headlines_json, settings, mock), put_plain_repeat)
     return file, summary
 
 
