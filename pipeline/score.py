@@ -141,6 +141,7 @@ def compute_scorecard(rounds_dir=None):
     buckets = {label: [] for label, _, _ in GAP_BUCKETS}
     buckets["other"] = []
     hand_made = []
+    hand_counted = 0
     per_country = {}
     run_in_rounds = set()
     run_in_judged = 0
@@ -177,7 +178,7 @@ def compute_scorecard(rounds_dir=None):
                 # Nir, 2026-10-24: a hand-made forecast counts among the other countries, in full, not less.
                 # It has no plain twin, so it enters everything except the plain-versus-Crystal verdict:
                 # judged country-weeks, item grades, order bias and the "more-of-the-same" verdict.
-                judged += 1
+                hand_counted += 1
                 for arm, e in hm["per_arm"].items():
                     for g in e["items"].values():
                         grades[arm][g["grade"]] += 1
@@ -238,7 +239,7 @@ def compute_scorecard(rounds_dir=None):
     pct = lambda x: round(100 * x / n_judged) if n_judged else None
     scorecard = {
         "schema_version": 4, "generated_at": _now_iso(), "judge_validated": validated, "judge_note": JUDGE_NOTE,
-        "rounds_scored": len(per_round), "judged_country_weeks": n_judged,
+        "rounds_scored": len(per_round), "judged_country_weeks": n_judged + hand_counted, "hand_made_counted": hand_counted,
         **tot, "crystal_better_pct": pct(tot["crystal_better"]), "ties_pct": pct(tot["ties"]),
         "plain_better_pct": pct(tot["plain_better"]),
         "mean_v": round(vm, 3) if vm is not None else None, "interval_v": viv, "verdict": verdict,
