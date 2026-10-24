@@ -41,10 +41,20 @@ if ! git pull --rebase; then
 fi
 
 say "Checking the model server..."
-if ! "$PY" -m pipeline.common --ping; then
-  say "The model server is not running. Start Unsloth Studio (or Ollama) and double-click again."
+# After a long idle time the 17 GB model must be read from the disk again, which can take 5 to 10 minutes,
+# and Ollama gives up on a single try after 5 minutes. Each try leaves more of the model in memory, so we
+# simply try again, patiently, and say what is happening.
+OK=0
+for TRY in 1 2 3 4 5 6 7 8; do
+  if "$PY" -m pipeline.common --ping; then OK=1; break; fi
+  say "The model is still loading from the disk (try $TRY of 8). This is normal after a long idle time. Trying again..."
+  sleep 5
+done
+if [ "$OK" != "1" ]; then
+  say "The model server did not answer after 8 tries. Is Ollama running? Start it (or Unsloth Studio) and double-click again."
   exit 1
 fi
+say "The model is ready."
 
 # Bible 7.10.2: run_round.py itself decides which round to continue (any
 # running round, using its own date) or starts a new one if none is
