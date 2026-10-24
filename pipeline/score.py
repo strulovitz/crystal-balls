@@ -174,6 +174,17 @@ def compute_scorecard(rounds_dir=None):
                 hand_made.append({"round": round_id, "code": code, "graded_round": hm.get("graded_round"),
                                   "u": hm.get("u"), "scores": hm.get("scores"), "partial": bool(hm.get("partial")),
                                   "days_covered": hm.get("days_covered"), "days_total": hm.get("days_total")})
+                # Nir, 2026-10-24: a hand-made forecast counts among the other countries, in full, not less.
+                # It has no plain twin, so it enters everything except the plain-versus-Crystal verdict:
+                # judged country-weeks, item grades, order bias and the "more-of-the-same" verdict.
+                judged += 1
+                for arm, e in hm["per_arm"].items():
+                    for g in e["items"].values():
+                        grades[arm][g["grade"]] += 1
+                first_wins += hm.get("first_listed_wins", 0)
+                first_n += hm.get("first_listed_nonties", 0)
+                if hm.get("u") is not None:
+                    us.append(hm["u"])
             if not j or j.get("dry_run") or "per_arm" not in j:
                 continue
             judged += 1

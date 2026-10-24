@@ -976,6 +976,11 @@ function v4JudgeFor(nextBundle, code, roundId) {
 function v4VerdictLine(j) {
   if (!j) return '';
   const e = (j.verdicts && j.verdicts[0] || []).find(x => (x.first === 'crystal' && x.second === 'plain') || (x.first === 'plain' && x.second === 'crystal'));
+  if (j.v == null && j.u != null) {
+    const w = j.u >= 0.5 ? 'the hand-made forecast' : (j.u <= -0.5 ? 'plain more-of-the-same' : 'tie');
+    const pv = j.partial ? ` (preview: ${j.days_covered} of ${j.days_total} days so far)` : '';
+    return `<div class="score-line ${w === 'tie' ? 'tie' : 'crystal'}">The judge preferred: ${w}${pv}.</div>`;
+  }
   let who = 'tie';
   if (j.v != null) who = j.v >= 0.5 ? 'Crystal' : (j.v <= -0.5 ? 'plain forecast' : 'tie');
   return `<div class="score-line ${who === 'Crystal' ? 'crystal' : who === 'tie' ? 'tie' : 'naive'}">The judge preferred: ${who}.${e ? ' ' + esc(e.reason) : ''}</div>`;
@@ -994,7 +999,7 @@ async function openModalV4(code, country, countryR) {
     <button class="close-btn" id="modal-close-x" aria-label="Close">&times;</button>
   </div>`;
   html += `<div class="headline">${esc(display.headline || '')}</div>`;
-  if (countryR.forecast_meta && countryR.forecast_meta.hand_made) html += `<p class="baseline">Hand-made forecast (not part of the plain-versus-Crystal scorecard).</p>`;
+  if (countryR.forecast_meta && countryR.forecast_meta.hand_made) html += `<p class="baseline">Hand-made forecast. It has no plain twin, so it is judged against more-of-the-same, and counts in the judged country-weeks, item grades and the more-of-the-same verdict like every other country.</p>`;
   html += `<h3>In plain words</h3>`;
   (display.eli5 || display.tldr || '').split('\n\n').filter(p => p.trim()).forEach(p => { html += `<p>${esc(p)}</p>`; });
   html += `<h3>Four things we expect</h3>`;
