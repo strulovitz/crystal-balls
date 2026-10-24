@@ -172,7 +172,8 @@ def compute_scorecard(rounds_dir=None):
             hm = d.get("judgment_hand_made")
             if hm and "per_arm" in hm and not hm.get("dry_run"):
                 hand_made.append({"round": round_id, "code": code, "graded_round": hm.get("graded_round"),
-                                  "u": hm.get("u"), "scores": hm.get("scores")})
+                                  "u": hm.get("u"), "scores": hm.get("scores"), "partial": bool(hm.get("partial")),
+                                  "days_covered": hm.get("days_covered"), "days_total": hm.get("days_total")})
             if not j or j.get("dry_run") or "per_arm" not in j:
                 continue
             judged += 1

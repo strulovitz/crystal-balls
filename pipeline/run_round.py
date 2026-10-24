@@ -525,9 +525,11 @@ def auto_previous_for(rounds_dir, round_id, code):
 
 
 def hand_made_due(rounds_dir, round_id, code, window_end):
-    """The hand-made forecast of this country (if any) that is due for grading in this round: graded once, in
-    the first round whose headline window ends on or after the end of its horizon (Bible 13.15), never before
-    (a half-finished week must not be graded) and never twice."""
+    """The hand-made forecast of this country (if any) that is due for grading in this round, as
+    (round id, file, partial). Two grades exist (Nir, 2026-10-24): a PREVIEW in the first round that runs
+    before the end of its horizon (graded only on the news from its horizon start on, marked partial), and
+    the FINAL grade in the first round whose headline window ends on or after the end of its horizon
+    (Bible 13.15). Each is done once."""
     for d in sorted((x for x in rounds_dir.iterdir() if x.is_dir() and x.name < round_id), reverse=True):
         rj, cf = d / "round.json", d / "countries" / f"{code}.json"
         if not (rj.exists() and cf.exists()) or load_json(rj).get("status") != "complete":
@@ -536,18 +538,24 @@ def hand_made_due(rounds_dir, round_id, code, window_end):
         meta = f.get("forecast_meta") or {}
         if not meta.get("hand_made") or len(f.get("forecasts") or {}) < 2:
             continue
-        if meta.get("unscorable") or str(window_end) < str(meta.get("horizon_end", "9999")):
+        if meta.get("unscorable"):
             continue
-        graded = False
+        final_due = str(window_end) >= str(meta.get("horizon_end", "9999"))
+        have_preview = have_final = False
         for e in rounds_dir.iterdir():
             ef = e / "countries" / f"{code}.json"
             if e.is_dir() and e.name > d.name and e.name < round_id and ef.exists():
                 jh = load_json(ef).get("judgment_hand_made") or {}
                 if jh.get("graded_round") == d.name:
-                    graded = True
-        if not graded:
-            return d.name, f
-    return None, None
+                    if jh.get("partial"):
+                        have_preview = True
+                    else:
+                        have_final = True
+        if final_due and not have_final:
+            return d.name, f, False
+        if not final_due and not have_preview and not have_final:
+            return d.name, f, True
+    return None, None, False
 
 
 def process_country(country_cfg, round_id, prev_round_id, window_start, window_end, horizon_start,
@@ -658,12 +666,32 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
             total += el or 0
         main_j = j if kind == "run" else None
         hand = None
-        hid, hfile = hand_made_due(rounds_dir, round_id, code, window_end)
+        hid, hfile, partial = hand_made_due(rounds_dir, round_id, code, window_end)
         if hfile is not None:
-            k2, h, el2 = step_judge(file, hfile, country_cfg, round_id, hid, headlines_json,
-                                    settings, mock)
-            if k2 == "run" and h is not None:
-                hand, got, total = h, True, total + (el2 or 0)
+            meta_h = hfile.get("forecast_meta") or {}
+            if partial:
+                # PREVIEW: reality = only the news published from the hand-made forecast's horizon start on.
+                hs = str(meta_h.get("horizon_start", hid))
+                trimmed = dict(headlines_json)
+                trimmed["sources"] = [dict(src, items=[it for it in src.get("items", []) if str(it.get("published", "")) >= hs])
+                                       for src in headlines_json.get("sources", [])]
+                trimmed["total_items"] = sum(len(src["items"]) for src in trimmed["sources"])
+                kr, rd, el_r = step_reader({}, None, country_cfg, round_id, hs, window_end, trimmed, vocabulary,
+                                           settings, mock)
+                if rd is None:
+                    return "run", None, total + (el_r or 0)
+                scratch = {"reader": rd}
+                k2, h, el2 = step_judge(scratch, hfile, country_cfg, round_id, hid, trimmed, settings, mock)
+                el2 = (el2 or 0) + (el_r or 0)
+                if k2 == "run" and h is not None:
+                    h["partial"] = True
+                    h["days_covered"] = (window_end - date.fromisoformat(hs)).days
+                    h["days_total"] = (date.fromisoformat(str(meta_h.get("horizon_end", hs))) - date.fromisoformat(hs)).days
+                    hand, got, total = h, True, total + el2
+            else:
+                k2, h, el2 = step_judge(file, hfile, country_cfg, round_id, hid, headlines_json, settings, mock)
+                if k2 == "run" and h is not None:
+                    hand, got, total = h, True, total + (el2 or 0)
         if not got:
             return "skip", None, None
         return "run", {"main": main_j, "hand": hand}, total

@@ -1052,7 +1052,7 @@ function scorecardModalV4(sc) {
   });
   html += `<div class="stat-row"><span>Judge validation</span><span>${sc.judge_validated ? 'passed' : 'not yet validated'}</span></div>`;
   (sc.hand_made_forecasts || []).forEach(h => {
-    html += `<div class="stat-row"><span>Hand-made forecast, ${esc(h.code)}, graded ${esc(h.round)}</span><span>against more-of-the-same: ${h.u == null ? '\u2014' : h.u}</span></div>`;
+    html += `<div class="stat-row"><span>Hand-made forecast, ${esc(h.code)}, graded ${esc(h.round)}${h.partial ? ` (preview, ${h.days_covered} of ${h.days_total} days)` : ''}</span><span>against more-of-the-same: ${h.u == null ? '\u2014' : h.u}</span></div>`;
   });
   return html;
 }
