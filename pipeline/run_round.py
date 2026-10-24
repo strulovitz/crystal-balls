@@ -524,6 +524,32 @@ def auto_previous_for(rounds_dir, round_id, code):
     return None, None
 
 
+def hand_made_due(rounds_dir, round_id, code, window_end):
+    """The hand-made forecast of this country (if any) that is due for grading in this round: graded once, in
+    the first round whose headline window ends on or after the end of its horizon (Bible 13.15), never before
+    (a half-finished week must not be graded) and never twice."""
+    for d in sorted((x for x in rounds_dir.iterdir() if x.is_dir() and x.name < round_id), reverse=True):
+        rj, cf = d / "round.json", d / "countries" / f"{code}.json"
+        if not (rj.exists() and cf.exists()) or load_json(rj).get("status") != "complete":
+            continue
+        f = load_json(cf)
+        meta = f.get("forecast_meta") or {}
+        if not meta.get("hand_made") or len(f.get("forecasts") or {}) < 2:
+            continue
+        if meta.get("unscorable") or str(window_end) < str(meta.get("horizon_end", "9999")):
+            continue
+        graded = False
+        for e in rounds_dir.iterdir():
+            ef = e / "countries" / f"{code}.json"
+            if e.is_dir() and e.name > d.name and e.name < round_id and ef.exists():
+                jh = load_json(ef).get("judgment_hand_made") or {}
+                if jh.get("graded_round") == d.name:
+                    graded = True
+        if not graded:
+            return d.name, f
+    return None, None
+
+
 def process_country(country_cfg, round_id, prev_round_id, window_start, window_end, horizon_start,
                      horizon_end, vocabulary, settings, mock, only_codes, force_step, retry_failed,
                      progress, model_name):
@@ -632,8 +658,9 @@ def process_country(country_cfg, round_id, prev_round_id, window_start, window_e
             total += el or 0
         main_j = j if kind == "run" else None
         hand = None
-        if prev_file and (prev_file.get("forecast_meta") or {}).get("hand_made") and prev_round_id != auto_id:
-            k2, h, el2 = step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_json,
+        hid, hfile = hand_made_due(rounds_dir, round_id, code, window_end)
+        if hfile is not None:
+            k2, h, el2 = step_judge(file, hfile, country_cfg, round_id, hid, headlines_json,
                                     settings, mock)
             if k2 == "run" and h is not None:
                 hand, got, total = h, True, total + (el2 or 0)

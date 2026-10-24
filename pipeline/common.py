@@ -78,9 +78,20 @@ def save_json(path, obj):
 # Round discovery
 # ---------------------------------------------------------------------------
 
+def _covers_all_countries(round_data):
+    """A partial round (for example the Israel-only hand-made round) is never "the previous round" for the
+    headline window or the gap in days: it would shrink the window to a few days. Complete rounds of every
+    country count; per-country lookups of partial rounds are done elsewhere (run_round.previous_file_for)."""
+    try:
+        total = len(load_json(ROOT / "config" / "countries.json"))
+    except (OSError, ValueError):
+        return True
+    return int(round_data.get("countries_done", total)) >= total
+
+
 def find_previous_round(round_id, rounds_dir=None):
     """Latest round folder lexicographically smaller than round_id whose
-    round.json has status 'complete'. None if no such round exists."""
+    round.json has status 'complete' and covers every country. None if no such round exists."""
     if rounds_dir is None:
         rounds_dir = ROOT / "data" / "rounds"
     rounds_dir = Path(rounds_dir)
@@ -99,7 +110,7 @@ def find_previous_round(round_id, rounds_dir=None):
             data = load_json(round_json)
         except (json.JSONDecodeError, OSError):
             continue
-        if data.get("status") == "complete":
+        if data.get("status") == "complete" and _covers_all_countries(data):
             candidates.append(d.name)
     if not candidates:
         return None

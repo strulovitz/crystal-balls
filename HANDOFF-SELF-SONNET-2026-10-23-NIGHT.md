@@ -49,3 +49,9 @@ Whether the sanity tests of 13.7 and the score/build run automatically at the en
 - plain_repeat and the noise floor are untested on the real model.
 - The scorecard modal and the "Read more" window were never tested by me in a real browser (Nir looked at the main page and the globe, he was happy).
 - Nir asked for no flooding with details: keep reports short; deep detail goes into files.
+
+## CORRECTIONS made 2026-10-24 afternoon (read these, they override the text above)
+- BUG FOUND AND FIXED: the window was Oct 22 to Oct 24 (2 days) because the Israel-only hand-made round counted as "previous round". common.find_previous_round now only counts rounds that cover every country. Verified: window 10-17 to 10-24, previous 10-17, gap 7 days, mock-tested in a throwaway copy.
+- BUG FOUND AND FIXED: Israel's hand-made 10-22 forecast would have been graded on 10-24 (half a week). run_round.hand_made_due now grades it once, in the first round whose window ends on or after Oct 29, never twice.
+- run_round.sh now runs the judge sanity tests (13.7) by itself, once, after the first judged round (about 40 local judge calls, some hours), then rescoring and rebuilding. Round steps themselves do not run them.
+- public/ added to .gitignore. publish.sh does not depend on the window and was not changed.

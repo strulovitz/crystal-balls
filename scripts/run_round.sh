@@ -55,6 +55,24 @@ say "if interrupted, double-click this icon again and it continues."
 systemd-inhibit --what=sleep:idle --why="Crystal Balls round" \
   "$PY" "$REPO_DIR/pipeline/run_round.py" "$@"
 
+# Bible 13.7: the judge sanity tests run ONCE, after the first real judged round (about 40 local judge calls,
+# some hours). Skipped if a real result already exists, or if the round did not complete.
+LATEST="$("$PY" -c "
+import json,glob,os
+best=None
+for f in sorted(glob.glob('data/rounds/*/round.json')):
+    d=json.load(open(f))
+    if d.get('status')=='complete' and d.get('countries_done',0)>=32 and (d.get('round_scorecard') or {}).get('scored'):
+        best=os.path.basename(os.path.dirname(f))
+print(best or '')" 2>/dev/null || true)"
+if [ -n "$LATEST" ] && ! "$PY" -c "
+import json,sys
+sys.exit(0 if not json.load(open('data/judge_validation.json')).get('mock', True) else 1)" 2>/dev/null; then
+  say "Running the judge sanity tests (13.7) on round $LATEST. This takes some hours, once only."
+  "$PY" "$REPO_DIR/pipeline/judge_validation.py" --round "$LATEST" || say "Sanity tests did not finish; the next run will try again."
+  "$PY" "$REPO_DIR/pipeline/score.py" && "$PY" "$REPO_DIR/pipeline/build_site_data.py"
+fi
+
 say "Saving to GitHub..."
 git add -A
 if git diff --cached --quiet; then
