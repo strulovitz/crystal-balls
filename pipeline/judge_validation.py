@@ -24,6 +24,24 @@ REVERSE = {"escalate": "de-escalate", "de-escalate": "escalate", "persist": "fad
 FADE_REVERSE = {"fade": "escalate", "escalate": "fade", "persist": "fade"}
 
 
+def _load_progress(path, round_id, mock):
+    """Checkpoint: every finished call is saved at once, so a power cut loses at most the call in progress."""
+    if path.exists():
+        try:
+            d = json.loads(path.read_text())
+            if d.get("round") == round_id and d.get("mock") == bool(mock):
+                return d
+        except Exception:
+            pass
+    return {"round": round_id, "mock": bool(mock), "paraphrases": {}, "results": {}}
+
+
+def _save_progress(path, prog):
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(prog, ensure_ascii=False))
+    tmp.replace(path)   # atomic: a half-written checkpoint can never exist
+
+
 def damage(kind, original, other, name, settings, mock, code, round_id):
     b = copy.deepcopy(original)
     if kind == "wrong_country":
@@ -73,11 +91,26 @@ def main():
     results = {k: [] for k in KINDS}
     total = len(picks) * len(KINDS)
     n = 0
+    prog_path = Path(args.out).with_name("judge_validation_progress.json")
+    prog = _load_progress(prog_path, args.round, args.mock_llm)
+    if prog["results"]:
+        log(f"Resuming: {len(prog['results'])} of {total} calls already done in an earlier run, they are kept.")
     for i, (d, original) in enumerate(picks):
         other_d, other = picks[(i + 1) % len(picks)]
         for kind in KINDS:
             n += 1
-            dmg = damage(kind, original, other, d["name"], settings, args.mock_llm, d["code"], args.round)
+            key = f"{d['code']}|{kind}"
+            if key in prog["results"]:
+                results[kind].append({"code": d["code"], "original_minus_damaged": prog["results"][key]})
+                log(f"Validation {n} of {total} already done ({kind}, {d['name']}), kept.")
+                continue
+            if kind == "paraphrase" and d["code"] in prog["paraphrases"]:
+                dmg = prog["paraphrases"][d["code"]]
+            else:
+                dmg = damage(kind, original, other, d["name"], settings, args.mock_llm, d["code"], args.round)
+                if kind == "paraphrase" and dmg is not None:
+                    prog["paraphrases"][d["code"]] = dmg   # saved at once, the paraphrase call is expensive
+                    _save_progress(prog_path, prog)
             order = v4.judge_orders(["original", "damaged"], f"validation-{d['code']}-{kind}", False)[0]
             bul = {"original": original, "damaged": dmg}
             labels = v4.LABELS_ALL[:2]
@@ -94,6 +127,8 @@ def main():
                 continue
             score = v4.better_score([v4.unshuffle(obj, order)[1]], "original", "damaged")
             results[kind].append({"code": d["code"], "original_minus_damaged": score})
+            prog["results"][key] = score
+            _save_progress(prog_path, prog)   # checkpoint after every single judge call
             log(f"Validation {n} of {total} done ({kind}, {d['name']}, original minus damaged = {score}).")
     summary = {}
     for kind, rows in results.items():
@@ -109,6 +144,7 @@ def main():
                        "paraphrase within 0.5 of a tie in at least 6 of 8",
            "mock": bool(args.mock_llm), "per_kind": summary}
     save_json(Path(args.out), out)
+    prog_path.unlink(missing_ok=True)   # finished: the next validation starts fresh
     log(f"Judge validation {'PASSED' if ok else 'NOT passed'}: " + ", ".join(f"{k} mean {v['mean']}" for k, v in summary.items())
         + f", paraphrase ties {ties} of {summary['paraphrase']['n']}.")
 
