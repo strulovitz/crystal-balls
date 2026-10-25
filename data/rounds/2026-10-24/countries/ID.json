@@ -1,0 +1,656 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "ID",
+  "name": "Indonesia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T09:30:32+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Indonesia faced a dual crisis this week. The worst forest and peatland fires in eleven years continued to rage, with monitors reporting nearly two million hectares burned and toxic haze blanketing Indonesia and neighbouring Singapore and Malaysia. President Prabowo accused foreign media of \"insulting\" the country while domestically anti-government protests erupted over land-clearing practices. Dozens of orangutans were rescued, and Singapore issued further haze notices to Indonesian firms. Simultaneously, Indonesian financial markets suffered a severe rout after MSCI issued a double downgrade warning that could strip the country of its emerging-market index status, threatening roughly $65 billion in passive fund inflows. The central bank held its key rate, Prabowo accused MSCI of \"intimidation,\" and Indonesia moved to exclude tightly held stocks from its benchmark index ahead of a Monday meeting with MSCI. Other notable events included a four-nation \"Badr\" defence pact with Qatar, Turkey and Pakistan, a record drug seizure of over two tonnes of ketamine and methamphetamine, a ferry fire with all passengers rescued, and a nine-per-cent cut in pipeline gas exports to Singapore.",
+    "key_events": [
+      {
+        "event": "MSCI issued a double downgrade warning threatening to exclude Indonesian stocks from global indexes, triggering a multi-day market rout that pushed equities to a six-year low.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Worst forest and peatland fires in eleven years burned nearly two million hectares, producing toxic haze across Southeast Asia and prompting anti-government protests.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Indonesia announced it would remove tightly held, high-concentration stocks from its benchmark index starting November 2 to avert MSCI exclusion.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Indonesia, Qatar, Turkey and Pakistan signed the 'Badr' defence cooperation pact, deepening multi-lateral military ties.",
+        "date": "2026-10-20",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Bank Indonesia held its key policy rate but hiked the deposit facility rate, describing the move as part of a broader 'policy mix' to support the rupiah and growth.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Indonesian police seized over two tonnes of narcotics, including 1.16 tonnes of ketamine and 1.2 tonnes of methamphetamine, in one of the country's largest drug busts.",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A ferry caught fire near an Indonesian port; all passengers and crew were evacuated and rescued.",
+        "date": "2026-10-23",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Indonesia cut pipeline gas exports to Singapore by roughly nine per cent.",
+        "date": "2026-10-19",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Singapore expanded its haze crackdown, issuing notices to three additional Indonesian companies linked to fire emissions.",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Dozens of orangutans were rescued from the fires and released into a protected forest.",
+        "date": "2026-10-21",
+        "domain": "environment",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "environment",
+      "economy",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "🔥",
+      "📉",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "The wildfire and toxic-haze crisis is the single most covered story, with headlines [13], [15], [16], [17], [26], [27], [28], [45], [55], [59], [62], [64], [82] all describing the worst fires in 11 years.",
+      "The MSCI double downgrade warning and the resulting market rout, with stocks hitting a six-year low, is the second dominant story, covered in headlines [32], [46], [68], [74], [90], [99], [100], [102].",
+      "The four-nation 'Badr' defence pact signed with Qatar, Turkey and Pakistan (headlines [23], [33], [41], [72]) marks a notable diplomatic and security milestone."
+    ],
+    "developments": [
+      {
+        "subject": "Wildfire and toxic-haze crisis",
+        "what_happened": "Peatland fires burned nearly two million hectares, produced region-wide toxic haze, triggered anti-government protests, and prompted the rescue of dozens of orangutans, while President Prabowo accused foreign observers of 'insulting' Indonesia.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          4,
+          13,
+          15,
+          16,
+          17,
+          26,
+          27,
+          28,
+          36,
+          45,
+          48,
+          49,
+          55,
+          59,
+          62,
+          64,
+          67,
+          70,
+          77,
+          82,
+          84,
+          104
+        ]
+      },
+      {
+        "subject": "MSCI downgrade threat and market rout",
+        "what_happened": "MSCI's double downgrade warning sent Indonesian equities to a six-year low, corporate bond premia to a six-year high, and forced the exchange to remove tightly held stocks from the index ahead of a Monday meeting with MSCI.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          9,
+          10,
+          11,
+          20,
+          22,
+          25,
+          29,
+          32,
+          38,
+          46,
+          51,
+          56,
+          57,
+          58,
+          60,
+          61,
+          63,
+          65,
+          68,
+          71,
+          74,
+          79,
+          81,
+          83,
+          86,
+          87,
+          88,
+          90,
+          93,
+          94,
+          95,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          106,
+          108,
+          109
+        ]
+      },
+      {
+        "subject": "Bank Indonesia policy response",
+        "what_happened": "The central bank held its key rate while hiking the deposit facility rate, framing the decision as part of a 'policy mix' to defend the rupiah and support growth amid the MSCI-driven selloff.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          20,
+          34,
+          73,
+          76,
+          83,
+          92
+        ]
+      },
+      {
+        "subject": "Badr defence pact",
+        "what_happened": "Indonesia joined Qatar, Turkey and Pakistan in signing a multilateral defence cooperation accord, deepening security ties beyond its traditional ASEAN orbit.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          23,
+          33,
+          41,
+          72
+        ]
+      },
+      {
+        "subject": "Record drug seizure",
+        "what_happened": "Police seized over two tonnes of narcotics, including ketamine and methamphetamine, in what officials called one of the country's largest busts.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          12,
+          24
+        ]
+      },
+      {
+        "subject": "Ferry fire and rescue",
+        "what_happened": "A ferry caught fire near an Indonesian port; all passengers and crew were evacuated and rescued, adding to a pattern of deadly ferry accidents.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          35,
+          53
+        ]
+      },
+      {
+        "subject": "Regional haze diplomacy",
+        "what_happened": "Singapore issued haze notices to three more Indonesian firms and Malaysia expected tourism fallout, while thick haze lingered over Singapore as fires continued in Indonesia.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          43,
+          91,
+          104,
+          107
+        ]
+      },
+      {
+        "subject": "Gas and fuel supply adjustments",
+        "what_happened": "Indonesia cut pipeline gas exports to Singapore by about nine per cent and its energy ministry considered an additional quota for subsidised fuel as domestic demand rose.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          7,
+          8,
+          42
+        ]
+      },
+      {
+        "subject": "Nickel production and market signals",
+        "what_happened": "Chinese nickel firms signalled they would discuss cutting Indonesian output, and nickel prices extended a rebound on the prospect of lower supply.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          75,
+          89
+        ]
+      },
+      {
+        "subject": "Prabwo free-meals programme friction",
+        "what_happened": "Allies of President Prabowo began publicly distancing themselves from his flagship free meals programme, hinting at internal political tension.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          66
+        ]
+      },
+      {
+        "subject": "Radioactive shrimp scare resolved",
+        "what_happened": "Indonesia ended a radioactive emergency that had been triggered by a US shrimp-related scare.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          105
+        ]
+      },
+      {
+        "subject": "Palm oil and El Niño stress",
+        "what_happened": "El Niño-driven drought left palm farmers high and dry as rivers receded, and haze threatened the tiny insects that pollinate palm oil crops, deepening the Malaysia-Indonesia production contrast.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          77,
+          78,
+          96
+        ]
+      }
+    ],
+    "gone": [
+      "Bali fuel crisis",
+      "Bocelli concert opposition",
+      "Women's football league restart",
+      "Batam blackout and electricity chief swap",
+      "Disaster agency graft probe",
+      "Jakarta fish die-off"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Coverage is strong and multi-sourced, with the wildfire and MSCI stories each receiving dozens of headlines from Reuters, Bloomberg, AFP, AP, BBC, DW, Al Jazeera, FT, WSJ, CNBC and TV5Monde, giving a well-rounded picture of both crises and their spillover effects."
+    },
+    "headlines_used": [
+      "Indonesia cuts pipeline gas exports to Singapore by about 9%",
+      "Indonesia seizes over 2 tons of narcotics in one of the country’s largest drug busts",
+      "US video falsely linked to Indonesia wildfires",
+      "Why is a peat fire so bad? BBC is in Indonesia to find out",
+      "From France to Indonesia: Gen Z is fed up",
+      "Indonesia's deadly ferry accidents explained",
+      "L'Indonésie réduit ses exportations de gaz vers Singapour",
+      "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
+      "Indonesia’s Sovereign Fund Sticks to Investment Strategy Amid Market Turmoil",
+      "Indonesia should heed MSCI’s warning",
+      "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
+      "Indonesia seizes more than a tonne of ketamine from tanker",
+      "The world's oldest cave paintings in Indonesia under threat of wildfires",
+      "Indonesia",
+      "Damaged and drained, Indonesia's peatlands go up in smoke",
+      "BBC visits Indonesia's wildfire ground blanketed by toxic haze",
+      "Indonesia wildfires spark anti-government protests",
+      "Après des mois d'incendies en Indonésie, les entreprises dans le viseur",
+      "Zankore Hypercloud Indonesia PT",
+      "Bank Indonesia Holds Key Rate as MSCI Downgrade Threat Weighs on Markets",
+      "In charts: Indonesia’s Prabowo Subianto misses beat on economy",
+      "Indonesia needs stricter enforcement to mitigate MSCI downgrade risk: Macquarie Capital",
+      "Qatar, Turkiye, Pakistan and Indonesia sign ‘Badr’ defence pact",
+      "Indonesia seizes 1.16 tons of ketamine, 1.2 tons of methamphetamine, police chief says",
+      "Indonesian leader rejects market downgrade warning after stock market sell-off",
+      "'Solution from the heavens': Indonesians pray for rain as fires burn",
+      "Indonesia chokes under wildfire haze",
+      "VIDÉO. Incendies en Indonésie: catastrophe écologique et sanitaire",
+      "Tech Rout Leaves South Korean Stocks Twice as Cheap as Indonesia",
+      "Semen Indonesia (Persero) ADR (PSGTY) Stock Price Today - The Wall Street Journal",
+      "Safeguarding Indonesia’s Financial Stability 2026 - What's On Page",
+      "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
+      "How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties",
+      "Hold, hike and cut? Bank Indonesia says there's logic to the policy mix",
+      "Rescuers evacuate passengers and crew amid Indonesia ferry fire",
+      "Indonesia releases eight orangutans rescued from fires to protected forest",
+      "Incendies en Indonésie : le président dénonce les 'insultes' de l'étranger et un 'terrorisme environnemental' interne",
+      "Indonesian Corporate Bond Premia Hit Six-Year High on MSCI Angst",
+      "Unilever Indonesia (UNLRF) Stock Price Today - The Wall Street Journal",
+      "Minesto selected for government-backed Sweden-Indonesia Sustainability Partnership to accelerate tidal energy development in Indonesia – Company Announcement - FT.com",
+      "Qatar, Turkiye, Pakistan and Indonesia sign 'Badr' defence pact - Al Jazeera",
+      "Indonesia energy ministry to consider additional quota for subsidised fuel as demand rises",
+      "Singapore expands crackdown on Indonesian companies linked to haze",
+      "Infobip and Yamaha Power Conversational Customer Engagement in Indonesia’s Automotive Sector",
+      "Indonésie: un brouillard toxique pollue l'air dans toute l'Asie du Sud-Est après des feux de forêt dévastateurs",
+      "Live Q&A: MSCI’s Double Downgrade Warning Whipsaws Indonesian Markets. What’s Next?",
+      "Letter: Indonesia’s forest fire is a rare scientific opportunity",
+      "Indonesians protest over land-clearing fires",
+      "Indonesia's fire hotspots ease but rain still not enough, official says",
+      "AI-generated video of soldiers marching against Indonesia’s VP misleads online",
+      "Watch Q&A: Indonesia’s Stock Market Selloff",
+      "Agenda | Safeguarding Indonesia’s Financial Stability",
+      "Ferry catches fire near Indonesian port, all passengers rescued",
+      "UN expert urges Indonesia to reconsider involvement in Trump's Gaza board",
+      "Indonesian anger builds over wildfires, toxic haze",
+      "MSCI Pressed by Investors to Justify Drastic Indonesia Warning",
+      "Indonesia expels tightly held companies from Jakarta index in bid to avoid MSCI downgrade",
+      "Indonesia issues record fines to companies over stock market violations",
+      "Monitor says Indonesia fires have burned nearly two million hectares",
+      "Indonesia Eyes Panda Bond as It Confronts MSCI Risk",
+      "Indonesia’s market is dysfunctional, not uninvestable",
+      "Indonesia battles worst forest fires and toxic haze in 11 years",
+      "Indonesian stocks with high shareholding concentrations to be excluded from index starting Nov 2",
+      "Indonesia fires burned over 1.9 mn hectares through September: monitor",
+      "Indonesia’s Rate Miss Makes a Bad Week Worse",
+      "Indonesian president's allies distance themselves from flagship free meals programme",
+      "Dozens of orangutans saved from Indonesia blazes as region grapples with haze",
+      "Prabowo Says Indonesia Will Not Be Intimidated by MSCI",
+      "Indonesian sovereign fund Danantara says it has bought stocks after market rout",
+      "Dozens of orangutans saved from Indonesia blazes",
+      "Indonesian Stocks Fall as Concerns Over MSCI’s Downgrade Return",
+      "Turkey, Qatar, Pakistan, Indonesia sign defence cooperation accord, Ankara says",
+      "Indonesia Holds Rates in ‘Policy Mix’ to Support FX and Growth",
+      "Prabowo accuses MSCI of trying to intimidate Indonesia after market rout",
+      "Nickel Extends Rebound on Prospect of Indonesian Production Cuts",
+      "Indonesia's central bank keeps main rate unchanged, hikes deposit facility rate",
+      "Indonesia Haze Threatens Tiny Bugs That Power Palm Oil Output",
+      "Malaysia and Indonesia: A tale of two palm oil producers",
+      "Singapore’s Temasek and GIC Deny Instigating Indonesian Stock Rout",
+      "Feared extinct, Bangka slow loris primate rediscovered in Indonesia",
+      "Indonesia’s Top Stocks Face Outsized Selling, Says Allspring",
+      "Indonesia's burned land doubles in September as fires rage, data shows",
+      "Indonesia Rate Hike Bets Jump as MSCI Threat Hits Rupiah",
+      "Indonesia to deploy more than 9,000 security officers at protests marking Prabowo's two years in power",
+      "Indonesia’s Danantara Seeks $1 Billion Loan in Investment Push",
+      "Indonesia battles to stabilise market after MSCI expulsion threat",
+      "Indonesia’s Influencer Strategy Jars Investors Facing MSCI Risk",
+      "Stocks in the MSCI Indonesia index",
+      "Chinese Nickel Firms Plan to Discuss Cutting Indonesian Output",
+      "Explainer: MSCI's case against Indonesian stocks and the $65 billion fallout",
+      "Malaysia Expects Tourism Fallout From Indonesia Haze",
+      "POLL Bank Indonesia narrowly expected to hold interest rates despite market turmoil",
+      "Indonesia to Remove Tightly Held Stocks From Benchmark Index",
+      "Indonesian exchange seeks to calm market after record two-day rout",
+      "Indonesia’s Tightly Held Stock Cut a Positive Move, Analysts Say",
+      "El Niño-powered drought leaves Indonesian palm farmers high and dry as river recedes",
+      "Indonesia Stocks Rebound as Authorities Step Up Response to MSCI",
+      "Indonesia stock exchange to meet MSCI on Monday, seeking clarification on downgrade warning",
+      "Indonesia’s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
+      "Indonesia faces rare MSCI exclusion that could cut it off from global capital",
+      "Indonesia Was Finding Its Feet. Then Came MSCI",
+      "Indonesia gets 'wake-up call' as MSCI prepares to expel it from global indexes",
+      "Watch Indonesia's Selloff Deepens With Officials set for MSCI Meeting",
+      "Thick haze lingers over Singapore as Indonesia fires rage on",
+      "Indonesia Ends Radioactive Emergency After US Shrimp Scare",
+      "Indonesia to Meet Monday With MSCI Over Shock Index Threat",
+      "Singapore Issues Haze Notices to Three More Indonesian Firms",
+      "Watch Indonesia Selloff Deepens as Emerging-Market Status Comes Under Threat",
+      "Watch Indonesia Stocks Sell Off Again. Here's What May Cushion the Market."
+    ],
+    "converted": false,
+    "relevant_headlines": 109,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Wildfire and toxic-haze crisis",
+        "expected": "Wildfire and toxic-haze crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Wildfire and toxic-haze crisis appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "MSCI downgrade threat and market rout",
+        "expected": "MSCI downgrade threat and market rout stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about MSCI downgrade threat and market rout appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Bank Indonesia policy response",
+        "expected": "Bank Indonesia policy response stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bank Indonesia policy response appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Badr defence pact",
+        "expected": "persist",
+        "sign": "Badr defence pact is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Wildfire and toxic-haze crisis stays in the news at the same level. MSCI downgrade threat and market rout stays in the news at the same level. Bank Indonesia policy response stays in the news at the same level. Badr defence pact is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "MSCI downgrade meeting",
+        "expected": "Indonesia's Monday meeting with MSCI will end with the double downgrade warning standing but a formal review window granted, prompting a partial relief rally in Jakarta equities and a brief strengthening of the rupiah.",
+        "direction": "persist",
+        "sign": "Headlines will carry the MSCI decision, the rupiah's reaction, and whether the tightly held stock exclusions take effect as scheduled."
+      },
+      "second": {
+        "subject": "Peatland fires and haze crisis",
+        "expected": "Peatland fires will slow as seasonal rains arrive, yet the toxic haze over Singapore and Jakarta will linger, and anti-government protests over land-clearing will grow in size and frequency.",
+        "direction": "persist",
+        "sign": "Headlines will report falling hotspot counts alongside fresh haze advisories in Singapore and new protest marches in Indonesian cities demanding accountability for peatland clearing."
+      },
+      "third": {
+        "subject": "Prabowo two-year anniversary protests",
+        "expected": "Protests marking President Prabowo's two years in power will draw large crowds to Jakarta, and allies of the president will publicly split over the free meals programme, forcing a cabinet-level reckoning.",
+        "direction": "escalate",
+        "sign": "Headlines will describe large protest gatherings in Jakarta, the deployment of security forces, and named cabinet figures breaking ranks over the free meals budget."
+      },
+      "fade_call": {
+        "subject": "Ferry fire and rescue",
+        "expected": "fade",
+        "sign": "The ferry fire will drop out of headlines entirely, replaced by the next transport incident or the haze crisis."
+      },
+      "surprise": {
+        "subject": "Badr pact first joint exercise",
+        "expected": "The newly signed Badr defence pact will produce its first joint military drill, with Turkish and Indonesian warships conducting a combined naval exercise, prompting a formal diplomatic response from China.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Indonesia's dominant story will be the outcome of the Monday meeting between the stock exchange and MSCI. The double downgrade warning will stand, but a formal review window will be granted, producing a partial relief rally in Jakarta equities and a brief strengthening of the rupiah. The tightly held stock exclusions will take effect as scheduled. Meanwhile, peatland fires will slow as seasonal rains arrive, yet the toxic haze over Singapore and Jakarta will linger, and anti-government protests over land-clearing will grow in size. The two-year anniversary of President Prabowo's presidency will draw large protests to Jakarta, and cabinet allies will publicly split over the free meals programme. The Badr defence pact will produce its first joint naval exercise, drawing a Chinese diplomatic response. The ferry fire and radioactive shrimp scare will fade from headlines entirely.",
+      "generated_at": "2026-10-25T09:03:26+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "MSCI meeting and market response",
+        "expected": "The Monday meeting between Indonesia's exchange and MSCI will produce a partial easing of the double downgrade warning, softening the threat of full reclassification.",
+        "direction": "de-escalate",
+        "sign": "Headlines reporting the meeting outcome, analyst notes on the residual downgrade risk, and stock index levels climbing from their recent trough"
+      },
+      "second": {
+        "subject": "Wildfire haze and regional diplomatic pressure",
+        "expected": "Scattered rain will ease the worst wildfire hotspots in Kalimantan and Sumatra, but the toxic haze will still blanket neighboring Singapore and Malaysia.",
+        "direction": "persist",
+        "sign": "Headlines about lingering haze over neighboring cities, new regulatory actions against Indonesian firms, and protest imagery from Indonesian cities"
+      },
+      "third": {
+        "subject": "Prabowo two-year anniversary and internal political friction",
+        "expected": "Senior allies of President Prabowo will publicly distance themselves from the free meals programme around his two-year anniversary, forcing him to address the growing internal rift.",
+        "direction": "escalate",
+        "sign": "Headlines about the anniversary event, the free meals programme dispute, and the president's response to his own camp's criticism"
+      },
+      "fade_call": {
+        "subject": "Ferry fire near Indonesian port",
+        "expected": "fade",
+        "sign": "The story drops from headlines as no further ferry incidents occur and attention shifts to the wildfire and market stories"
+      },
+      "surprise": {
+        "subject": "Danantara sovereign fund market intervention",
+        "expected": "Indonesia's sovereign wealth fund Danantara will execute a large stock purchase to buy undervalued Indonesian equities, creating a temporary floor under the market but intensifying debate about state involvement in private companies.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Indonesia's twin crises will keep dominating the news cycle. The MSCI meeting on Monday will be the pivotal event: Indonesia's concessions on index composition will likely soften the double downgrade warning, but the full reclassification decision will hang over markets for weeks more. Indonesian stocks will rebound from their recent trough, though corporate bond spreads will stay elevated. The wildfire haze will ease somewhat as scattered rain reaches the burning peatlands, but Singapore and Malaysia will keep pressing Indonesian firms with new notices, and anti-government protests over land-clearing will persist. Prabowo's two-year anniversary will test his political standing as senior allies publicly distance themselves from the free meals programme. The Badr defence pact will settle into the background as a diplomatic footnote. A surprise large-scale intervention by the Danantara sovereign fund to buy undervalued stocks would be the week's biggest shock.",
+      "generated_at": "2026-10-25T09:30:32+02:00"
+    }
+  },
+  "display": {
+    "headline": "Indonesia Faces MSCI Verdict as Haze and Protests Persist",
+    "emojis": [
+      "📉",
+      "🔥",
+      "✊"
+    ],
+    "emoji_reasons": [
+      "The MSCI downgrade threat and the resulting market rout are the week's defining financial story",
+      "The worst forest and peatland fires in eleven years drive the environmental and regional crisis",
+      "Anti-government protests and internal political friction over the free meals programme shape the political narrative"
+    ],
+    "tldr": "Indonesia's MSCI meeting on Monday will partially ease the downgrade threat and trigger a stock rebound, while the wildfire haze persists across the region. Protests over land-clearing and friction around Prabowo's free meals programme will test his political standing ahead of his two-year anniversary.",
+    "eli5": "Indonesia is dealing with two big problems at the same time. First, massive forest fires are burning through the peatlands in the east, and the smoke is so thick that it drifts over Singapore and Malaysia, making the air toxic there. Second, a big international stock-rating company called MSCI is threatening to kick Indonesia out of its emerging-market list, which would mean billions of dollars of automated investment money flowing out of the country.\n\nNext week, the most important event is the MSCI meeting. Indonesia has already made some changes to its index to try to win them back, so the meeting will probably soften the warning but not fully cancel it. The fires will ease a bit as some rain comes, but the haze and the angry protests about land-clearing will stick around. Prabowo, the president, is also dealing with his own team turning on him over the free meals programme, right around his two-year anniversary in office.\n\nIf the sovereign wealth fund Danantara suddenly dumps a huge amount of money into buying Indonesian stocks, that would be a genuine surprise and would temporarily prop up the market. That is the kind of thing nobody is expecting but that would change the whole tone of the week."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "crystal",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "crystal",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The wildfire haze crisis persisted and dominated headlines [3,15,16,27,45,59,62,64,82], but it escalated beyond 'same level' with anti-government protests [17,48] and Prabowo's 'insult' comments [37], which the 'persist' framing missed."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The MSCI warning was dominant and escalated dramatically [10,20,32,38,46,57,68,74,90,98,100,102], with stocks hitting a six-year low and bond premia at a six-year high, going well beyond the 'same level' the bulletin predicted."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Singapore issued haze notices to three more Indonesian firms [107], Malaysia expected tourism fallout [91], and thick haze lingered over Singapore [104], confirming regional haze diplomacy persisted at a steady level."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists 'Bali fuel crisis' under 'No longer in the headlines,' contradicting the bulletin's prediction that it would still appear at the next collection."
+          }
+        },
+        "archer_note": "The bulletin correctly identified all three dominant stories but undersold their intensity by calling each one 'same level' when both the fire crisis and the MSCI rout escalated sharply. The Bali fuel fade call was the clearest miss, predicting persistence for a story that had already dropped out of the headlines. The main thesis of 'more of the same' was right in category but wrong in magnitude, missing the dramatic escalation that defined the week."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Fires escalated with nearly two million hectares burned [59,64,82], anti-government protests erupted [17,48], and Singapore lodged formal haze notices [107], but the specific predictions of a 'national emergency' and 'formally deploy foreign firefighting teams from Singapore and Malaysia' are not clearly confirmed in any headline."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Bank Indonesia held its main rate while hiking the deposit facility rate [20,73,76] and markets suffered a severe rout [32,94,99], confirming the central bank responded and volatility persisted, but the main rate was held rather than hiked as the 'hawkish rate decision' framing implied."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "The Bali fuel crisis is listed under 'No longer in the headlines,' confirming the predicted de-escalation and fade from the news cycle."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The reality bulletin explicitly lists 'Batam blackout and electricity chief swap' under 'No longer in the headlines,' confirming the predicted fade."
+          }
+        },
+        "archer_note": "The over-specific details in the lead (national emergency, foreign firefighting teams) were not clearly confirmed, but the escalation direction and the sign of neighboring nations lodging formal complaints were well-supported. The hawkish-rate prediction was directionally correct but mechanically slightly off, as BI held the main rate rather than hiking it. The dual-crisis framing, correct Bali fuel de-escalation, correct Batam fade, and the partial hit on the protest surprise made this the most accurate bulletin overall."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "The haze persisted across Indonesia and neighboring countries [27,45,104], Singapore maintained diplomatic pressure with haze notices to three more firms [107], and the crisis remained dominant [62,64,82], matching the core prediction even though 'foreign aid teams arriving' was not clearly confirmed in any headline."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "The MSCI consultation window stayed open with a Monday meeting [98,106], Indonesian officials defended the market [25,68,74], and foreign investor commentary appeared as Temasek and GIC denied instigating the rout [79], matching all three sign elements."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The Bali fuel crisis is listed under 'No longer in the headlines,' directly contradicting the prediction that the shortage would expand beyond Bali to other regions."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The reality bulletin explicitly lists 'Bocelli concert opposition' under 'No longer in the headlines,' confirming the predicted fade."
+          }
+        },
+        "archer_note": "The Bali fuel escalation was the most significant miss, predicting expansion for a story that had already faded from the headlines. The cabinet-reshuffle surprise did not clearly materialize in any headline, and the 'foreign aid teams arriving' detail in the lead was not confirmed. The main thesis of a persistent dual crisis was correct in category, but the 'persist' framing missed the escalation, and the over-specific foreign-aid detail was not supported by the evidence."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Y correctly called the escalation direction on the wildfire lead and predicted the Bali fuel de-escalation, while X called both dominant stories 'same level' and wrongly predicted the Bali fuel story would persist. Y's fade call on the Batam blackout was correct, whereas X's fade call on Bali fuel was contradicted by the headlines."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "X's third item (regional haze diplomacy persist) was correct while Z's third item (Bali fuel escalate) was wrong, but Z's fade call (Bocelli) was correct while X's fade call (Bali fuel persist) was wrong. Both leads and seconds are near-paraphrases of 'persist' and both are roughly accurate, making the net quality a tie."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Y's escalation call on the wildfire lead better matches the reality of protests and record hectares than Z's 'persist' framing, and Y correctly predicted the Bali fuel de-escalation while Z wrongly predicted it would escalate. Y's partial surprise hit on protests also edges out Z's unconfirmed cabinet-reshuffle surprise."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_crystal": -1.0,
+      "persistence_vs_plain": 0.0,
+      "crystal_vs_plain": -1.0
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the reporting window, Indonesia was struck by two simultaneous crises. First, devastating wildfires—described as the worst in over a decade—killed four firefighters at Mount Bromo national park and produced a thick orange-toxic haze that blanketed the country and spread across Southeast Asia. The haze closed schools in East Timor, drove Singapore's pollution to record levels, and prompted Singapore to name seven Indonesian firms as responsible. Indonesia's president offered to accept foreign assistance, and the country doused its skies with dry ice in a desperate bid to clear the air. Second, MSCI launched a consultation on reclassifying Indonesia from emerging-market to standalone-market status, triggering the worst single-day stock decline since 1998. The government unveiled 117 million dollars in trading fines, analysts warned of capital outflows, and the rupiah came under pressure. Meanwhile, a fuel crisis forced days-long lines at Bali gas stations, the electricity chief was replaced after a major\n- Wildfire haze crisis (dominant, escalating): Devastating wildfires killed four people at Mount Bromo, produced toxic orange haze across Indonesia and neighboring countries, closed schools in East Timor, and prompted Indonesia to douse skies with dry ice and seek foreign aid.\n- MSCI reclassification warning (dominant, escalating): MSCI opened a consultation to move Indonesia from emerging-market to standalone status, triggering the worst stock drop since 1998, 117 million dollars in fines, growing outflow fears, and pressure on the rupiah.\n- Regional haze diplomacy (regular, escalating): Singapore named seven Indonesian firms as responsible for haze-causing fires while Malaysia expressed impatience, and a legal battle over air quality continued in Indonesian courts.\n- Bali fuel crisis (regular, new): A fuel shortage hit Bali, forcing drivers into days-long lines at gas stations.\n- Bocelli concert opposition (occasional, new): Indonesia's top Islamic council met government officials to register opposition to upcoming Andrea Bocelli concerts, citing his ties to Israel.\n- Women's football league restart (occasional, new): Indonesia's professional women's football league resumed competition after a seven-year pause, generating local excitement.\n- Batam blackout and electricity chief swap (occasional, new): Indonesia replaced its electricity sector chief following a major blackout in Batam.\n- Disaster agency graft probe (occasional, new): Indonesia detained the brother of the disaster agency chief in a corruption investigation.\n- Jakarta fish die-off (occasional, new): Thousands of fish were found dead in Jakarta, raising environmental and public-health questions.\n- Palm oil comparison with Malaysia (occasional, continuing): Analysts drew a comparison between Indonesia and Malaysia as two major palm-oil producers facing different market dynamics.\n\nRound 2026-10-02:\nAccording to the text, Indonesia in early-to-mid October 2026 was simultaneously managing fiscal tightening, a weak rupiah and stock market, and worsening El Niño-related wildfires. A new finance minister had just ordered travel budget cuts and spending freezes across ministries. The JCI stock index had fallen roughly 30 percent over the year, foreign outflows were pressing on both equities and bonds, and Bank Indonesia was actively defending the currency. El Niño drought had triggered severe peatland fires in Kalimantan and Sumatra, transboundary haze had closed schools in Malaysia and affected Singapore, and rural Borneo villages had gone months without rain, creating a water crisis. The Constitutional Court had ruled on Vice President Gibran Rakabuming Raka's education credentials, former president Jokowi's diploma was still generating legal controversy, and AI-generated images had intensified public debate. The government had named an advisory council of billionaires, politicians, and Islamic leaders. Parliament had passed higher\n- A new finance minister ordered travel (regular, continuing): A new finance minister ordered travel budget cuts and spending freezes across government ministries.\n- El Niño drought triggered severe peatland (regular, continuing): El Niño drought triggered severe peatland fires in Kalimantan and Sumatra, producing transboundary haze affecting Singapore and Malaysia.\n- The Constitutional Court issued a ruling (regular, continuing): The Constitutional Court issued a ruling on Vice President Gibran Rakabuming Raka's education credentials.\n- Parliament passed higher severance benefits into (regular, continuing): Parliament passed higher severance benefits into national labor law.\n- Rural Borneo villages reported months without (regular, continuing): Rural Borneo villages reported months without rain, creating a localized water crisis.\n- The government named an advisory council (regular, continuing): The government named an advisory council comprising billionaires, politicians, and Islamic leaders.\n",
+    "PREVIOUS_FORECAST": "Lead: Indonesia wildfire haze. Expected: The toxic orange haze will spread to new regions as fires stay uncontained, forcing the government to declare a national emergency and formally deploy foreign firefighting teams from Singapore and Malaysia. Direction: escalate. Sign: Headlines about new fatalities at fire sites, orange skies over multiple cities, and neighboring nations sending aid teams or lodging formal complaints\nSecond: MSCI market reclassification and rupiah. Expected: Bank Indonesia will deliver a hawkish rate decision to defend the rupiah as investor outflows accelerate during the consultation period. Direction: persist. Sign: Headlines about the central bank's rate move, rupiah trading levels, and analyst commentary on foreign capital exits from Indonesian equities and bonds\nThird: Bali fuel shortage. Expected: The fuel shortage at Bali gas stations will ease as replacement tankers arrive, but the disruption will prompt the energy ministry to announce new distribution rules for the dry season. Direction: de-escalate. Sign: Headlines about restored supply at stations, government announcements on fuel logistics, and motorists reporting shorter lines\nFade call: Batam blackout and electricity chief swap. Expected: fade. Sign: The story drops from headlines as the new electricity chief begins work and no further major outages occur in Batam\nSurprise (chance medium): Jakarta street protest over twin crises. A large public demonstration in Jakarta will combine demands over the haze, the fuel shortage, and the stock market crash, marking the first major street action of the current administration.\nSummary: Over the coming week, Indonesia's twin crises will dominate the news cycle. The wildfire haze will intensify as fires stay uncontained, forcing the government to declare a national emergency and accept foreign firefighting teams while Singapore and Malaysia lodge formal complaints. The MSCI consultation will keep markets in a state of volatility, with Bank Indonesia expected to hike rates to defend the rupiah and the government issuing statements to calm investor fears. The Bali fuel shortage will gradually ease as new supply arrives, though the energy ministry will announce distribution reforms for the dry season. The Batam blackout story will fade from the headlines. A surprise large protest in Jakarta combining the fire, fuel, and market grievances would mark a turning point in public patience with the current government.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Fires escalated with nearly two million hectares burned [59,64,82], anti-government protests erupted [17,48], and Singapore lodged formal haze notices [107], but the specific predictions of a 'national emergency' and 'formally deploy foreign firefighting teams from Singapore and Malaysia' are not clearly confirmed in any headline.\n- second: true_in_direction. Bank Indonesia held its main rate while hiking the deposit facility rate [20,73,76] and markets suffered a severe rout [32,94,99], confirming the central bank responded and volatility persisted, but the main rate was held rather than hiked as the 'hawkish rate decision' framing implied.\n- third: came_true. The Bali fuel crisis is listed under 'No longer in the headlines,' confirming the predicted de-escalation and fade from the news cycle.\n- fade_call: came_true. The reality bulletin explicitly lists 'Batam blackout and electricity chief swap' under 'No longer in the headlines,' confirming the predicted fade.\nArcher note: The over-specific details in the lead (national emergency, foreign firefighting teams) were not clearly confirmed, but the escalation direction and the sign of neighboring nations lodging formal complaints were well-supported. The hawkish-rate prediction was directionally correct but mechanically slightly off, as BI held the main rate rather than hiking it. The dual-crisis framing, correct Bali fuel de-escalation, correct Batam fade, and the partial hit on the protest surprise made this the most accurate bulletin overall.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

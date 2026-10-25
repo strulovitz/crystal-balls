@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-24",
+  "code": "PE",
+  "name": "Peru",
+  "window_start": "2026-10-17",
+  "window_end": "2026-10-24",
+  "fetched_at": "2026-10-24T15:54:38+03:00",
+  "total_items": 12,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 4,
+      "filtered_out": 56,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "Peru taps fiscal strength to face El Niño impact, eases fiscal rules",
+          "published": "2026-10-22",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYk5Yc19PLXhaRWhTUU9sSnZacEFXWGJzb0hEN2NqZ3J3UnhWWTNtcnVfOHU3YTdvTUc4dmh6OHJiVmItVjBUSUxRNElQQnRXNW1ZUl90ajNMM2tNVndvU0NEQmwyY0hmVHdxVzlTTERPUUkwOG1EaUpFVDBMMm1xUENRMkQ0VHp3QWFLZ3hoNTB1N3gxYTd1N0loWW5qVWJFR2gzVnplVEJqZFBMZVAwTg?oc=5"
+        },
+        {
+          "title": "Peru News | Today's Latest Stories",
+          "published": "2026-10-22",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBiWVAzM0RBVS13YjlfazRnYWpXeTdhLXJpVHpGSFJtRmdiN1RJbUN1aVpEdDdvRUhjVmxHQU9Edmo2eHRHNDNLRUN4Zw?oc=5"
+        },
+        {
+          "title": "U.S. climate champion Gina McCarthy honoured in Reuters Global Sustainability awards",
+          "published": "2026-10-21",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZm1KWFhNQzNzaHpqekEzdmFIMERzcHdrNXNVWEwwclpRUUwyQjdUQzBJbEVMaHAzTFZBNWR0R3UwQWpxNlZEd29YSjhIakVQZVM1MHlva1ZxRUNfcjdoWmlKXzBsa1BNMk5QMDdmakR4dW5pQ0N6bDVVUE52UDZORy1sdkRjcFZndUhoclg4UkxqNDVOZndIX1dCXzZ3Uk9FMG5EWXlWVHJIbEJWbWw5b2h4MWlTLVQ3ZnoyMzA5SGlSVkFjZ2JSVjNPcWh4cklVTFBfMkUyT09kZWFWQm9HbmpmWTFERFE?oc=5"
+        },
+        {
+          "title": "Thousands join Lord of Miracles procession in Peru's capital Lima",
+          "published": "2026-10-19",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pcWFndnd3UzNoTmQ1YTFFOUcxQ2hWS3NIMEs4RFRDckdXNG5hVkxaTG95YjlOV01OSWV2UENYaG93VjV3UkRuQ09uRVRMbzFCdE00MXV0VXdDZmp1eS1xUEEyQk5hMzQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 1,
+      "filtered_out": 99,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Record summer heat, mostly from climate change, kills 50,000 in Europe",
+          "published": "2026-10-23",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNci1XVVpBN253N1NjbDhGcXdFRE9ZSmsyMktFVFgxb3p2NzRuZzEySVN0UUFtdEVHNlY0OVBuVVBkc2FSTmxkeEZFNmtmZ0VRbDVial9STVZrWWRDUUlfTFV4Nk94T1JJbmJ4dmNodE9SanQydEhkWThRSVQzSmpzWUtWOFMxcmNVcEUzNlg3WE1Vb3ltS2xfcm13dDYtb3V1My1pYUVQTTd0Z1BzUGl4ODREU3dPVTBxMmpqMzJKVFJmd0E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 1,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Ageing Japanese village turns to Peru in search of new residents",
+          "published": "2026-10-22",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYUkwcko5Unlld3BFdVBNRjBmN1JLZ0Zrc3FkUjlFRTNVRHJkYnBiYjBBZlRyMFROVG5fNE9NcTNJTE41allCMVU3ZU1KZnlOUm1HVkcwc0lLN0Z3a2RlNmN2Q3hLVm02b054OHBLbmpwMXo2NlQxSURGN3N0cFFpTGZubkw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "filtered_out": 25,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "filtered_out": 17,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 2,
+      "filtered_out": 13,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Peru's buses targeted by rising gang violence",
+          "published": "2026-10-24",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQWpERnI4ZWY1dklNOUpwaVZoUXdDMmN6SEpLUWNPaWl1MlRKUHNHb2xBaVBvRnZNaVNzdUMwR1BkdHFCWm9pNExyZzBuVWhXc21CTXBxdXRuOVppQlEzd1dlYkdiTldsWkJpUUliaS01Wk4tdUNmRVg2bUk4X3J0ZTE1bw?oc=5"
+        },
+        {
+          "title": "Peru: Fire burning on road to Machu Picchu kills 1 - DW.com",
+          "published": "2026-10-21",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUzRvVUdkTTZIUnpadGs1R2NRa3VoeHRoRV9XVnBFRUFmRGU5MWl0T3lxaEJ0cDFNUHc4TXc4NS1TQk9NcE1pWWtWeWF3YjdSeUJsQkRCQWJEVWJYY0RlNjBDaEZMV3oza2pQdVcwNDNXZUZQOVczZk9VN0dOdTROZk82TWw2TFlwWnhNYTM4WkYzRVZZM1k5RnB4UHpQbTZQb3BONzR3UjFLaVZVVFBZ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 1,
+      "filtered_out": 27,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Au Japon, un village veut croire que l'avenir, c'est le Pérou",
+          "published": "2026-10-22",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQajgzemVZT3cxZGdQV3ZTNk9PTkUxMDIxbmhla3FiZ01FcGg3MlA1NEE1Y3pFYTF5djVUbTliZ2pWMnFVQnFkS0U2SDc4Qkdaano2RU9ZaU4zWm1sTlBoM3ktUlpyNjVIVDg5ZjM0S0hqUUxVR0Vvc3ZhMjlwT2ltRGhOYU01bVFTRjF1V1lQaHZKaHFpczRrMWFCTXRqTnhLTktUdzFSVmlvcWN1SUFR?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 1,
+      "filtered_out": 97,
+      "out_of_window": 2,
+      "items": [
+        {
+          "title": "Peru Government to Seek Higher Fiscal Deficits to Shield Economy",
+          "published": "2026-10-22",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPamtFYWJySk9SNGF4REEwUGxWUXptY3NIUHkwejFQckFVdmluNkxCdXBucWJyV0tjckVRaXVBVW4xNkxva2h2eXh1RlNCV3ZKX2E3cHR1WV84cUEzcFJhamNtRW5ULUk2dmpZSWF4Y2hkMWktN1NpOGZmWG5CVzFiREFyclZFVDQ3YW1EdjFLendGZmJ0VU8zTUxhcDFjT0ZpZVF3aEN5RmNNWm9SNXdFNS1EaGo3dw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "filtered_out": 7,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 1,
+      "filtered_out": 19,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Auna Announces Fulfillment of All Conditions Precedent for Construction of Centro Ambulatorio Trecca in Lima",
+          "published": "2026-10-21",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYllXbXNZdDFBU20yTU51amJONWNaXzA3VVZBSGk3WDZjaXVjUU8xLWxMZTVmZ0NFbkFXdjFHc0ZLamFtMTJxVk9tQUVkSUV6UXBVYTJ4Vng1U3pFMnhsdUF3WmJub3RDXzdaN3k0OE1rTHZORWVxS3hxMGNmanotcThQVHZMUWkxcmx4RUM3aHBic3FXRlBrZTRLOFV6SVl6eVJ5NTZR?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 1,
+      "filtered_out": 20,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Oxfam analysis finds Peru’s richest captured 42 percent of all new wealth",
+          "published": "2026-10-20",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2ZoVWpMYkhjN1pkR01hekdxTC0zTVJPSER3bzRwOFFFaWRBYTdZMUhqeGRpRzZabnpHVUdyX3hhM2NyU3JlLVAxWFlZTnNMd0Job2JaeDRYby04Tm5UWDlxNzVBM3dVNjk0dmtkRjM4ZkZLY2lINi1qNDJhRENJdmZmczRqLU9RSVF3TTVOQUprTjdzWUJrMzgzZXBEaHJIVUtDaHEyRERaZDFVZFdBVVdseFdwOU9lUFHSAboBQVVfeXFMUGNmaFVqTGJIYzdaZEdNYXpHcUwtM01ST0hEd280cDhRRWlkQWE3WTFIanhkaUc2Wm56R1VHcl94YTNjclNyZS1QMVhZWU5zTHdCaG9iWng0WG8tOE5uVFg5cTc1QTN3VTY5NHZrZEYzOGZGS2NpSDYtajQyYURDSXZmZnM0ai1PUUlRd001TkFKa043c1lCazM4M2VwRGhySFVLQ2hxMkREWmQxVWRXQVVXbHhXcDlPZVBR?oc=5"
+        }
+      ]
+    }
+  ]
+}

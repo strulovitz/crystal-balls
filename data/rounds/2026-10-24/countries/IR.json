@@ -1,0 +1,658 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "IR",
+  "name": "Iran",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T20:55:49+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of October 17 to 24, the US-Iran conflict intensified around the Strait of Hormuz, where Iran's IRGC Navy reported seven vessels struck by mines and targeted engine-room strikes, while Tehran warned of a wider response if the US resumes attacks. Washington pulled diplomats and families from several Middle Eastern countries, readied the USS George Washington for possible strikes, and signaled that a much bigger operation was likely after the US midterm elections. Iran revealed a new offensive doctrine and a detailed operational plan for renewed fighting, while its shadow fleet of tankers ran out of oil after a monthslong US blockade. Diplomatic efforts mounted: Pakistan's army chief visited Tehran, eight European and Middle Eastern ministers met in Istanbul urging diplomacy, and Iran prolonged talks in a stalemate to influence the US midterm vote. The US tightened sanctions on Iran's shipping, rail sector, and a law firm aiding its shadow fleet. Brent crude hit $117, the highest since April. In the UK, two men were re-arrested over the RAF Fairford incident on suspicion of assisting Iranian intelligence. Israel pushed to restart strikes against Iran, and Iran's hardliners argued the time for nuclear weapons had come.",
+    "key_events": [
+      {
+        "event": "Iran's IRGC Navy reported seven vessels hit by mines and targeted strikes in the Strait of Hormuz, warning the US of a wider response.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "The US pulled diplomats from multiple Middle Eastern countries and readied naval assets for possible post-midterm strikes on Iran.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Iran revealed a new offensive doctrine and a detailed operational plan for if the US resumes attacks.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Pakistan's army chief Asim Munir visited Tehran for mediation talks, and Iran's president discussed mediation with him.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Eight European and Middle Eastern ministers met in Istanbul urging US-Iran diplomacy over new military attacks.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The US intensified sanctions on Iran's shadow fleet, rail sector, and a Greece- and Panama-based law firm aiding Iranian shipping.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Brent crude hit $117, the first time since April, on fears of a renewed flare-up in Iran hostilities.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Israel pushed to restart strikes against Iran, with Netanyahu making plans earlier in the month.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "UK police re-arrested two men on suspicion of assisting Iranian intelligence over the RAF Fairford incident.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Iran's shadow fleet of tankers ran out of oil after a monthslong US blockade, and its main oil terminals remained empty.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🚢",
+      "⚔️",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "Seven vessels were struck in the Strait of Hormuz and Iran's shadow fleet ran out of oil, making maritime tension the week's defining crisis (headlines 37, 43, 81, 137).",
+      "The US readied naval assets for post-midterm strikes, Iran revealed a new offensive doctrine, and Israel pushed to restart attacks, keeping the threat of open war prominent (headlines 9, 62, 90).",
+      "Brent crude hit $117 and the IMF warned Saudi Arabia and the UAE were heading for recession as the Iran war reshaped global energy markets (headlines 52, 34, 11)."
+    ],
+    "developments": [
+      {
+        "subject": "Strait of Hormuz attacks",
+        "what_happened": "Iran's IRGC Navy reported seven vessels hit by mines and targeted engine-room strikes, with two tankers catching fire, and Tehran warned of a wider response.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          37,
+          48,
+          55,
+          77,
+          81,
+          137,
+          132,
+          136
+        ]
+      },
+      {
+        "subject": "US military preparation for post-midterm strikes",
+        "what_happened": "The US pulled diplomats from multiple Middle Eastern countries, readied the USS George Washington, and senior officials signaled a much bigger operation was likely after the midterms.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          7,
+          8,
+          9,
+          14,
+          17,
+          18,
+          23,
+          28,
+          31,
+          36,
+          61,
+          69,
+          76
+        ]
+      },
+      {
+        "subject": "Diplomatic mediation push",
+        "what_happened": "Pakistan's army chief visited Tehran, eight European and Middle Eastern ministers met in Istanbul, and Iran prolonged talks in a stalemate to influence the US midterm vote.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          12,
+          19,
+          47,
+          116,
+          117,
+          118,
+          120,
+          130
+        ]
+      },
+      {
+        "subject": "US sanctions on Iran's shipping and rail",
+        "what_happened": "The US targeted Iran's shadow fleet, rail sector, and a law firm aiding its shipping with new sanctions, while Iran's overland trade routes lost ground under US pressure.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          40,
+          43,
+          50,
+          63,
+          71,
+          78,
+          93
+        ]
+      },
+      {
+        "subject": "Oil price spike and energy market shock",
+        "what_happened": "Brent crude hit $117, the IMF warned Gulf states of recession, and the Qatar-US natural gas deal showed how the Iran war redrew global energy markets.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          11,
+          34,
+          51,
+          52,
+          69,
+          89,
+          94,
+          109,
+          135
+        ]
+      },
+      {
+        "subject": "UK RAF Fairford re-arrests",
+        "what_happened": "UK police re-arrested two men on suspicion of assisting Iranian intelligence over the plot at the US-run air base.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          15,
+          38,
+          79,
+          107,
+          115,
+          128
+        ]
+      },
+      {
+        "subject": "Israel pushing to restart strikes",
+        "what_happened": "Netanyahu made plans to restart Iran strikes earlier in the month, and US envoy Barrack defended the decision to join Israel in the war.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          68,
+          90,
+          97,
+          123,
+          129
+        ]
+      },
+      {
+        "subject": "Iran's new offensive doctrine",
+        "what_happened": "Iran revealed a new offensive doctrine and a detailed operational plan for if the US resumes attacks, while its commanders prepared for further war.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          62,
+          80,
+          98
+        ]
+      },
+      {
+        "subject": "Iran's shadow fleet crisis",
+        "what_happened": "Iran's shadow fleet of tankers ran out of oil after a monthslong US blockade, and its main oil terminals remained empty.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          43,
+          50,
+          74,
+          106
+        ]
+      },
+      {
+        "subject": "Iran's nuclear and uranium question",
+        "what_happened": "Iran's hardliners argued the time for nuclear weapons had come, and enriched uranium re-emerged as a point of contention in US talks.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          104,
+          108,
+          111
+        ]
+      },
+      {
+        "subject": "Pakistan-Iran border trade suspended",
+        "what_happened": "Pakistan suspended Iran border trade amid violence on both sides, and Iraq closed the Sheeb border crossing to review security.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          100,
+          127
+        ]
+      },
+      {
+        "subject": "Iran's domestic economic pressure",
+        "what_happened": "Iran's IRGC was reported to be running out of money, new electronics arrived but prices soared under government fees and sanctions, and Tehran's cafés offered a brief escape from the crisis.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          33,
+          46,
+          112
+        ]
+      }
+    ],
+    "gone": [
+      "Saudi Aramco headquarters was hit in",
+      "A German court sentenced two men",
+      "Lebanon revoked the license of Iran's"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 138 headlines provide broad coverage of Iran's military, economic, diplomatic, and domestic dimensions during this window, with multiple sources confirming each major story."
+    },
+    "headlines_used": [
+      "Trump says US may do another military operation against Iran",
+      "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
+      "How five Boeing 777s linked Madagascar's power elite to Iran",
+      "Iran trying harder to target US personnel in Middle East, intelligence chief warns",
+      "The Iran war’s toxic impact on one of the planet’s most unique seas",
+      "Germany news: Foreign Minister Wadephul says wars in Iran, Ukraine are bringing the 'threat of famine'",
+      "Des signes laissent présager une reprise des frappes américaines contre l'Iran",
+      "Iran Plots, Houthi Attacks Spur US Departure Orders in Mideast",
+      "Aboard USS George Washington as It Rearms for Possible Iran Strikes",
+      "Intelligence memo warns Iran plotting to kill Americans in Middle East",
+      "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
+      "In Florida, Trump vows to deal with Cuba after Iran gets settled",
+      "US is reducing staffing at 4 Middle East embassies over increased threats from Iran",
+      "Two men re-arrested for suspected spying for Iran in airbase scare: UK police",
+      "Iran",
+      "US discreetly moves diplomats and families from multiple Middle Eastern countries as intel warns of Iranian plots",
+      "Trump has threatened to escalate his Iran war after the US midterm election. Is Tehran prepared for that?",
+      "Iran : huit pays d'Europe et du Moyen-Orient plaident pour la paix à Istanbul",
+      "Iran War’s Architects Get Ready to Face Frustrated Voters",
+      "Iran Is Now Losing Overland Trade Routes to U.S. Pressure",
+      "US is prepared for long stand-off with Iran, says Trump envoy",
+      "'Much bigger' scale U.S. strikes on Iran likely after the midterms: Myers",
+      "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
+      "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say",
+      "Voters prioritize costs and Iran over investigating Trump for next Congress, AP-NORC poll finds",
+      "Petition for couple in Iran jail sent to government",
+      "Trump keeps hinting he’ll resume the Iran war after the midterms. These Iowa GOP voters sound wary",
+      "Why is Iran's Balochistan border region seeing growing unrest?",
+      "Transfert de Boeing 777 en Iran : le magnat Mamy Ravatomanga face à la justice malgache",
+      "US Pulls Diplomats From Saudi as Houthi and Iran Tensions Worsen",
+      "Iran Threatens Wider Strikes on Economic and Civilian Targets if U.S. Attacks",
+      "Tehran’s cafés offer a brief escape from war and economic crisis",
+      "Saudi Arabia and the UAE head for recession amid Iran war impact: IMF",
+      "US-Iran war, then and now: How the landscape has changed since February",
+      "Trump weighs quick end to Iran war against letting conflict ‘wither’",
+      "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
+      "Two men re-arrested on suspicion of assisting Iran intelligence after RAF Fairford incident",
+      "Iran puts Trump behind bars in new art installation",
+      "US sanctions target Iran's rail sector as Tehran shifts cargo from sea routes to overland corridors",
+      "Iran: qui est Mehrdad Akhlaghi Ketabchi le nouveau ministre iranien de la Défense visé par des sanctions internationales?",
+      "Turkey Cuts Interest Rate for First Time Since Start of Iran War",
+      "Iran’s Fleet of Shadow Tankers Has Run Out of Oil After Monthslong U.S. Blockade",
+      "US prepared for protracted stalemate with Iran",
+      "Iran tensions, global conflicts and the impact on markets",
+      "New electronics reach Iran, but prices soar as gov’t fees, US sanctions hit",
+      "Turkey says renewed attack on Iran would expand conflict, diplomacy only way",
+      "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
+      "The Jews Of Iran",
+      "US Aims Iran ‘Shadow Fleet’ Sanctions at Law Firm, Shippers",
+      "Oil Futures Rise as Attacks on Saudi Arabia, U.S.-Iran Risks Persist",
+      "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+      "U.S. Ambassador to the EU on the widespread protests, Trump-Putin relationship and Iran war latest",
+      "Are global oil reserves sufficient to withstand renewed US-Iran war?",
+      "Iran's IRGC Navy says seven vessels hit, warns US of wider response",
+      "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices",
+      "Sri Lankan PM: Conflicts like the Iran war serve no one",
+      "Iran Urges US to Lift Blockade to Break Deadlock as Threats Grow",
+      "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War",
+      "Airfares will not return to pre-Iran war levels, American Airlines warns",
+      "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
+      "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
+      "US regulator is probing suspicious Iran oil trading, official says",
+      "Voter turnout soars in some key states, AP-NORC poll finds voters want Congress to focus on costs and Iran",
+      "Persian Gulf oil pollution doubles during Iran war, research shows",
+      "Gold Steadies as Conflicting Iran Signals Cloud Path for Rates",
+      "Diplomats Race to Head Off Escalation With Iran",
+      "Netanyahu made plans to restart Iran strikes earlier this month",
+      "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
+      "Netanyahu promises Iran regime change: Can Israel topple Tehran government?",
+      "German regulator revokes license of Bank Saderat Iran in Hamburg",
+      "UK inflation rises to highest in almost a year as Iran war drives fuel prices higher",
+      "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks",
+      "Opinion | A Buyout for Iran’s ‘Shadow Fleet’",
+      "Iran’s foreign minister: The false assumptions about us are dangerous",
+      "President Trump considers next steps in Iran war as tensions escalate",
+      "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+      "Greece says it is implementing sanctions linked to Iran",
+      "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
+      "‘The world will be amazed:’ Iran’s commanders prepare for further war",
+      "Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks",
+      "General Motors Stock Slides as Iran Conflict Drives Up Costs",
+      "Iran war sparks heating crisis in US north-east as winter approaches",
+      "Bill Ackman: Iran war has been 'extremely well-executed'",
+      "Epstein, Iran and ‘drain the swamp’: Have Republicans shifted before vote?",
+      "Israel's election may change its leader, but not Iran war policy",
+      "Vance faces tough questions on Iran war, immigration and more in CBS town hall",
+      "Vance pressed by widower of fallen service member on ‘fundamental failures’ related to Iran conflict",
+      "Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows",
+      "Israel pushes to restart strikes against Iran",
+      "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "Can Russia broker a new US-Iran deal?",
+      "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping",
+      "Retail price impacts from the Iran war are uneven but add up for US households before midterms",
+      "Jackson: ‘Prices will probably go down’ if US ends war with Iran",
+      "Stocks Rise as US-Iran Hopes Trigger Oil Decline: Markets Wrap",
+      "Transcript: Israel pushes to restart strikes against Iran",
+      "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
+      "Tehran displays mock installation of Trump behind bars",
+      "Iraq closes Sheeb border crossing with Iran to review security, sources say",
+      "GOP Rep. French Hill talks about rising diesel prices and the impacts of the Iran war in Arkansas",
+      "Watch Iran, China & Russia Look to Seize on Election Opportunity, Says Mara Rudman",
+      "The unlikely winners from Trump’s Iran war",
+      "Iran determined to keep uranium amid increased war odds, flurry of meetings",
+      "Most Gulf bourses slip as Iran-US diplomacy hits a standstill",
+      "Iran’s Main Oil Terminals Remain Empty as US Blockade Bites",
+      "Two rearrested over RAF Fairford incident on suspicion of helping Iranian intelligence",
+      "Iran’s enriched uranium re-emerges as point of contention in US talks",
+      "Indian Oil to trim Middle East oil imports under annual deals amid Iran war",
+      "The US-Iran War Is Making World Hunger Much Worse",
+      "Iranian hardliners say the time for nuclear weapons has come",
+      "Iran denies collapse is close as US claims IRGC running out of money",
+      "Iran says Saudi Arabia, Houthis have not answered mediation offer",
+      "Kenyan Remittances Dented by New US Tax, Fallout from Iran War",
+      "UK police rearrest two men on suspicion of assisting Iran’s intelligence",
+      "Iran prolongs talks in stalemate to influence US midterms, officials say",
+      "Pakistan army chief in Tehran: Can diplomacy prevent new US-Iran fighting?",
+      "Iran tells Pakistan army chief no talks with Washington until demands are met",
+      "Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?",
+      "Brent falls as Iran's president discusses mediation with Pakistani army chief",
+      "Why the war on Iran could backfire on US regime-change goals",
+      "Oil majors face spending test from Iran war windfall cash",
+      "US envoy Barrack defends decision to join Israel in war on Iran",
+      "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+      "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
+      "Dollar dips as traders weigh Iran, AI risks",
+      "Pakistan suspends Iran border trade, amid violence on both sides",
+      "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident",
+      "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
+      "Pakistan army chief Asim Munir to visit Tehran on Tuesday",
+      "Russia’s Lavrov discusses US war and regional security during Tehran visit",
+      "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy",
+      "On Iran, Israel’s opposition is even more hawkish than Netanyahu",
+      "Germany summons Iranian envoy over plot to kill Jewish community leader",
+      "Qatar warns global energy shockwaves from Iran war have yet to peak",
+      "Iran urges US to accept proposal to reopen Strait of Hormuz",
+      "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+      "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis"
+    ],
+    "converted": false,
+    "relevant_headlines": 138,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Strait of Hormuz attacks",
+        "expected": "Strait of Hormuz attacks stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Strait of Hormuz attacks appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US military preparation for post-midterm strikes",
+        "expected": "US military preparation for post-midterm strikes stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US military preparation for post-midterm strikes appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Diplomatic mediation push",
+        "expected": "Diplomatic mediation push stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Diplomatic mediation push appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Iran's new offensive doctrine",
+        "expected": "persist",
+        "sign": "Iran's new offensive doctrine is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Strait of Hormuz attacks stays in the news at the same level. US military preparation for post-midterm strikes stays in the news at the same level. Diplomatic mediation push stays in the news at the same level. Iran's new offensive doctrine is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Strait of Hormuz escalation",
+        "expected": "Iran will carry out a second wave of attacks in the Strait of Hormuz targeting Gulf undersea cables or additional merchant vessels as its wider response to US pressure.",
+        "direction": "escalate",
+        "sign": "A headline will name a specific new target such as undersea cables or a port facility in the Gulf, rather than repeating the tanker strikes already reported this week."
+      },
+      "second": {
+        "subject": "Iran's negotiation conditions",
+        "expected": "Iran will publicly state its specific demands for resuming talks with Washington, tying the negotiation timeline to the US midterm election.",
+        "direction": "persist",
+        "sign": "A headline will quote Iran's foreign minister or president naming a concrete condition for talks, rather than a generic story about diplomacy stalling."
+      },
+      "third": {
+        "subject": "Shadow fleet and overland sanctions",
+        "expected": "The US will impose a new round of sanctions on Iran's overland trade routes or a specific shipping entity, extending the blockade pressure on Tehran's economy.",
+        "direction": "escalate",
+        "sign": "A headline will name a newly sanctioned entity or corridor such as a rail operator or a specific port, rather than repeating the shadow fleet oil shortage story."
+      },
+      "fade_call": {
+        "subject": "UK RAF Fairford re-arrests",
+        "expected": "fade",
+        "sign": "The re-arrest story will drop from the top of the news cycle as Hormuz and diplomatic headlines dominate, with no new charges announced in the UK."
+      },
+      "surprise": {
+        "subject": "Iran nuclear threshold vote",
+        "expected": "Iran's hardliner faction will push a formal institutional vote on beginning nuclear assembly, turning the rhetoric about the time having come into a concrete decision.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, the US-Iran confrontation will intensify around the Strait of Hormuz, where Iran will carry out its threatened wider response by striking Gulf undersea cables or additional merchant vessels. The diplomatic track will persist in a stalemate as Iran publicly lays out its conditions for resuming talks, deliberately timing its demands to shape the US midterm vote. Economic pressure on Tehran will deepen through a new round of US sanctions on its overland trade routes or a specific shipping entity, compounding the shadow fleet's oil shortage. The UK RAF Fairford re-arrest story will fade from the headlines as the military and diplomatic stories dominate. A low-probability surprise would be Iran's hardliners pushing a formal institutional vote on nuclear assembly. Oil prices will hold near their elevated levels while Gulf states brace for further economic strain ahead of the midterms.",
+      "generated_at": "2026-10-24T20:37:19+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US military readiness and Iran's offensive doctrine",
+        "expected": "The United States completes its Gulf carrier rearmament and declares full military readiness for the post-midterm operation against Iran.",
+        "direction": "escalate",
+        "sign": "Headlines about the carrier completing its rearmament, formal military readiness statements for the region, and Iranian commanders describing their operational plans for the waterway."
+      },
+      "second": {
+        "subject": "Diplomatic stalemate and mediation push",
+        "expected": "Iran extends its negotiating stalemate through the American midterm window while Pakistani and Istanbul-based mediators push for a formal shipping-access proposal to reopen the Strait of Hormuz.",
+        "direction": "persist",
+        "sign": "Headlines about diplomatic shuttle visits, Iranian counter-proposals on shipping access, and mediating countries urging restraint before the American election."
+      },
+      "third": {
+        "subject": "Israel's push to restart strikes",
+        "expected": "Israel finalizes a new strike plan against Iranian targets and coordinates timing with the United States, while Netanyahu's regime-change rhetoric intensifies ahead of the Israeli election.",
+        "direction": "escalate",
+        "sign": "Headlines about Israeli military planning sessions, US-Israel defense coordination calls, and Netanyahu statements about toppling the Iranian government."
+      },
+      "fade_call": {
+        "subject": "UK RAF Fairford re-arrests",
+        "expected": "persist",
+        "sign": "The re-arrested suspects appear in bail and charging updates in legal-section reporting rather than dominating front-page war coverage."
+      },
+      "surprise": {
+        "subject": "Iran economic shock and IRGC funding crisis",
+        "expected": "The Iranian rial hits a new record low and the IRGC announces funding shortfalls, triggering visible domestic unrest and emergency economic measures in Tehran.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the United States will complete its Gulf carrier rearmament and declare full military readiness for the post-midterm operation, while Iran's new offensive doctrine gets detailed in media and diplomatic circles. The negotiating stalemate will stretch through the American midterm window, with Pakistani and Istanbul-based mediators pushing for a formal shipping-access proposal. Israel will finalize a new strike plan and coordinate timing with Washington, as Netanyahu's regime-change rhetoric intensifies ahead of the Israeli election. Oil will trade near its recent highs, and the economic squeeze on Iran will deepen as its shadow fleet stays empty and the IRGC's funding tightens. The UK RAF Fairford re-arrests will shift to legal-section updates. A medium-probability surprise involves the rial hitting a new record low and the IRGC announcing funding shortfalls, triggering visible domestic unrest in Tehran.",
+      "generated_at": "2026-10-24T20:55:49+03:00"
+    }
+  },
+  "display": {
+    "headline": "US Finalizes Iran Strike Readiness as Stalemate Holds",
+    "emojis": [
+      "⚔️",
+      "🚢",
+      "📞"
+    ],
+    "emoji_reasons": [
+      "The US-Iran military standoff and Israel's push to restart strikes dominate the week.",
+      "Strait of Hormuz shipping attacks and Iran's shadow fleet crisis are central to the conflict.",
+      "Diplomatic mediation through Pakistan and Istanbul ministers shapes the fragile stalemate."
+    ],
+    "tldr": "The US will complete its military buildup for a post-midterm Iran strike while Tehran extends its negotiating stalemate to influence American voters. Israel will finalize a new attack plan, and Iran's economic squeeze will deepen. The diplomatic push through Pakistan and Istanbul will keep the peace fragile but holding.",
+    "eli5": "The US and Iran are in a tense standoff around the Strait of Hormuz, a narrow waterway where a lot of the world's oil ships pass through. Iran has been hitting ships with mines, and the US is getting its warships ready for a big attack, but they are waiting until after their elections in November.\n\nMeanwhile, countries like Pakistan and some European and Middle Eastern nations are trying to get both sides to talk and make a deal about shipping. Iran is dragging out the talks on purpose to make the US look bad before their voters go to the polls. That diplomatic stalemate is the second big story next week.\n\nIsrael wants to jump back into the fight and hit Iran again, and their leader Netanyahu is saying he wants to replace the Iranian government. That is a separate but related push that will get louder next week.\n\nIran's economy is getting squeezed hard. Their secret fleet of oil tankers has run out of oil, and their military is running low on money. If things get much worse, you might see protests or a currency crash, which would be a surprise nobody is fully expecting."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 9, 22, 23, and 61 confirm the US was readying the USS George Washington and signaling a much bigger strike after midterms, but no actual precision strike on a hardened target was reported this week."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 91, 125, and 138 confirm Houthi escalation and Saudi cities being hit, but no specific retaliatory air campaign over northern Yemen is described in the collection."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 24, 26, and 64 show the Iran war and economic costs dominating the US midterm narrative, but no specific Senate war-funding floor vote is reported."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The situation bulletin explicitly lists 'A German court sentenced two men' as no longer in the headlines, confirming the European court verdicts faded."
+          }
+        },
+        "archer_note": "Bulletin X correctly identified the dominant US military preparation and the Houthi-Saudi escalation, but it over-committed to a specific strike event that had not yet occurred, framing preparation as execution. Its Senate vote item was a reasonable read of the midterm-economic angle but lacked a concrete headline anchor. The fade call on European courts was accurate, and the overall thesis of escalation with economic pain was directionally sound, merely early by a few days."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 37, 55, 77, and 81 confirm a major Hormuz naval engagement with seven Iranian vessels hit, but the specific detail of a US warship being struck is contradicted; it was Iranian ships that were damaged."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "Headlines 43, 50, and 93 show the US tightening sanctions on the shadow fleet rather than easing restrictions, which is the opposite of the predicted policy shift."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in the collection mentions a Starlink blackout or resulting street protests in Tehran; domestic stories focus on cafés (33) and electronics prices (46) instead."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The situation bulletin lists the German court sentencing as no longer in the headlines, and the UK RAF Fairford stories are about re-arrests rather than new sentencing, matching the fade prediction."
+          }
+        },
+        "archer_note": "Bulletin Y correctly sensed the Hormuz naval escalation as the lead story but misidentified which side's vessel was hit, placing a US warship in the water when it was Iranian tankers under attack. Its shadow-fleet easing prediction was directly contradicted by the US tightening sanctions, and the Starlink blackout never materialized in the headlines. The fade call on European courts was accurate, but two of three substantive items missed, making the overall thesis of a US-ship-hit-and-retaliate cycle too specific for what actually unfolded."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headline 137 explicitly reports two tankers catching fire after hitting mines in the Strait of Hormuz, confirming the story persisted at the same level."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 9, 22, 23, and 44 confirm US military officials and officials discussing preparation for a long stand-off, though the bulletin's phrasing is a fragment rather than a complete prediction."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The situation bulletin explicitly lists 'Saudi Aramco headquarters was hit in' as no longer in the headlines, contradicting the persist call."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The situation bulletin explicitly lists 'Lebanon revoked the license of Iran's' as no longer in the headlines, contradicting the persist call."
+          }
+        },
+        "archer_note": "Bulletin Z correctly identified the tanker-mine story as persisting and the US military preparation as ongoing, but it failed to notice that two stories it called 'persist' (Aramco hit and Lebanon license) had actually dropped out of the headlines. Its overall thesis of 'more of the same' was too static for a week where the conflict escalated and new diplomatic and economic stories emerged. The bulletin's vagueness and fragmentary phrasing made several items hard to falsify, which is a structural weakness."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Bulletin X got its second and third items closer to reality (Houthi-Saudi escalation and midterm-economic focus) while Y's shadow-fleet easing and Starlink blackout were both contradicted by the headlines. X's lead was preparation rather than execution, but Y's lead had the wrong vessel nationality, making X's framing marginally more aligned with the dominant US-strike-preparation narrative."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Bulletin X correctly anticipated the Houthi-Saudi escalation and the midterm-economic angle, both of which dominated the headlines, while Z misread the Aramco and Lebanon stories as persisting when they had faded. Z's tanker-mine lead was more precisely accurate than X's strike-preparation lead, but X's overall coverage of the week's dominant themes was broader and more correct."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Bulletin Z correctly called the tanker-mine story as persisting and the US military preparation as ongoing, while Y's shadow-fleet easing and Starlink blackout were both absent from the headlines. Y's fade call on European courts was accurate, but Z's two correct persist calls on the lead and second items outweighed Y's single correct fade."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": 1.0,
+      "crystal_vs_persistence": 1.0,
+      "plain_vs_persistence": -1.0
+    },
+    "v": 1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe week was dominated by a sharp escalation in the Strait of Hormuz, where Iran struck shipping with mines and drones, sinking at least two cargo ships and setting two more tankers ablaze. The United States considered deploying its 'Mother of All Bombs' and President Trump floated a strike on a buried nuclear site, while Iran bolstered its air defenses in preparation. Saudi Arabia accused Tehran of encouraging Houthi escalation after Aramco facilities were hit; Iran denied the claim. Oil prices surged past $110 a barrel for Brent, pushing US inflation to 3.7 percent and making the war a flashpoint in every Senate debate ahead of the November midterms. The US Treasury issued fresh sanctions, and Iran's central bank governor dismissed talk of economic collapse. Domestically, political infighting deepened, a high-profile honor killing reignited the femicide debate, and suspected Israeli cyber operations alarmed Tehran. In Europe, courts in Germany and\n- Two tankers hit mines and caught (regular, continuing): Two tankers hit mines and caught fire in the Strait of Hormuz, with Iran and the US each claiming control of the waterway.\n- US military officials confirmed they are (regular, continuing): US military officials confirmed they are weighing use of the 'Mother of All Bombs' against Iran, while Trump threatened a strike on a buried nuclear site and ruled out nuclear weapons.\n- Saudi Aramco headquarters was hit in (regular, continuing): Saudi Aramco headquarters was hit in a Houthi attack, and Riyadh accused Tehran of encouraging the escalation; Iran denied involvement.\n- Brent crude touched $110 and US (regular, continuing): Brent crude touched $110 and US inflation jumped to 3.7 percent as the Iran war drove fuel and goods prices higher, reshaping the midterm election narrative.\n- The US Treasury issued a new (regular, continuing): The US Treasury issued a new round of Iran-related sanctions while Iran's central bank governor publicly dismissed claims of economic collapse under the blockade.\n- A German court sentenced two men (regular, continuing): A German court sentenced two men to prison for plotting to kill the leader of Germany's Jewish community on behalf of Iran, and a Norwegian teen received 20 years for a UK murder plot tied to an Iran-linked gang.\n- Iran's internal political infighting deepened as (regular, continuing): Iran's internal political infighting deepened as economic woes mounted, a high-profile honor killing of a young woman reignited the femicide debate, and Tehran hinted at further internet restrictions targeting Starlink.\n- Lebanon revoked the license of Iran's (regular, continuing): Lebanon revoked the license of Iran's Saderat Bank amid US pressure, and the US destroyed an Iran-affiliated dhow it said was conducting surveillance in the Gulf of Oman.\n\nRound 2026-10-02:\nIran entered the week under a layered set of pressures. A US diplomatic response had reached Tehran through Qatari mediators, even though President Trump had publicly rejected the earlier Iranian proposal, keeping the channel alive. In the military dimension, Washington was deploying a third carrier strike group and thousands of additional troops toward the region, while Trump acknowledged that some munitions stocks were low and floated the idea of larger strikes after the November midterms. Domestically, the rial sat at record lows, the central bank was selling dollars to prop up the currency, and September oil loading had been minimal under blockade and sanctions pressure. New 'Operation Economic Outcast' sanctions targeted auto, rail, and aviation sectors. The regime was blocking SIM cards, freezing bank accounts, and tightening digital surveillance. Two incidents—the FlyDubai copilot attack and the RAF Fairford plot—gave Washington and London potential casus belli arguments. Iran had captured a\n- Iran received a US diplomatic response (regular, continuing): Iran received a US diplomatic response through Qatari mediators despite Trump's public rejection of the earlier proposal.\n- The US deployed a third carrier (regular, continuing): The US deployed a third carrier strike group and thousands of troops toward the region while Trump admitted low munitions stocks.\n- The rial fell to record lows (regular, continuing): The rial fell to record lows and the central bank began selling dollars to support the currency.\n- The FlyDubai copilot attack and RAF (regular, continuing): The FlyDubai copilot attack and RAF Fairford plot gave the US and UK potential casus belli arguments against Iran.\n- The regime intensified SIM-card blocks, bank-account (regular, continuing): The regime intensified SIM-card blocks, bank-account freezes, and digital surveillance of activists and merchants.\n- The regime intensified SIM-card blocks, bank-account (again) (regular, continuing): The regime intensified SIM-card blocks, bank-account freezes, and digital surveillance of activists and merchants.\n",
+    "PREVIOUS_FORECAST": "Lead: US precision strike on hardened Iranian target. Expected: The United States deploys a large-diameter munition against a buried or hardened Iranian military or nuclear site, marking the biggest air operation of the conflict to date. Direction: escalate. Sign: Headlines announcing a US bombing run on a hardened Iranian target, with Iranian officials reporting air-defense flares and a partial intercept over the strike zone.\nSecond: Houthi strike on Saudi infrastructure. Expected: Houthi forces launch a new missile or drone attack on a Saudi energy or military facility, and Riyadh announces a retaliatory air campaign over northern Yemen. Direction: escalate. Sign: Headlines about a Houthi drone or missile hitting a Saudi port or pipeline, followed by Saudi defense statements confirming counter-strikes on positions in Yemen.\nThird: Senate war-funding vote. Expected: The Senate holds a floor vote on war funding or a resolution on the Iran conflict, with senators from both parties clashing over oil prices and the cost to American families. Direction: persist. Sign: Headlines about a Senate Iran vote, campaign ad spots referencing gas-station prices, and a presidential press briefing on the economic cost of the war.\nFade call: Iran-linked European court verdicts. Expected: fade. Sign: The Hamburg and Norwegian sentencing stories drop from the front page and appear only in legal-section updates or appellate filings.\nSurprise (chance medium): Iran Starlink blackout. Iran's government disables or severely throttles Starlink service for millions of domestic users, triggering a visible internet blackout and a new round of protests and official statements about digital sovereignty.\nSummary: Next week, the Strait of Hormuz will see another round of ship attacks by Iranian forces, with mines and drones striking commercial tankers. The United States will likely respond with a precision strike on a hardened target, possibly deploying the large-diameter munition it has been weighing. Houthi forces will hit another Saudi infrastructure site, prompting Riyadh to launch a retaliatory air campaign and again blame Tehran for the escalation. In Washington, the Senate will take up war-funding votes as both parties weaponize soaring gas prices ahead of November. European court verdicts tied to Iran will lose momentum. A medium-probability surprise involves Tehran cutting off Starlink access, creating a domestic internet blackout that draws international attention. Oil will trade above one hundred dollars, and the economic pain will become the central argument in every US campaign ad.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Headlines 9, 22, 23, and 61 confirm the US was readying the USS George Washington and signaling a much bigger strike after midterms, but no actual precision strike on a hardened target was reported this week.\n- second: true_in_direction. Headlines 91, 125, and 138 confirm Houthi escalation and Saudi cities being hit, but no specific retaliatory air campaign over northern Yemen is described in the collection.\n- third: true_in_direction. Headlines 24, 26, and 64 show the Iran war and economic costs dominating the US midterm narrative, but no specific Senate war-funding floor vote is reported.\n- fade_call: came_true. The situation bulletin explicitly lists 'A German court sentenced two men' as no longer in the headlines, confirming the European court verdicts faded.\nArcher note: Bulletin X correctly identified the dominant US military preparation and the Houthi-Saudi escalation, but it over-committed to a specific strike event that had not yet occurred, framing preparation as execution. Its Senate vote item was a reasonable read of the midterm-economic angle but lacked a concrete headline anchor. The fade call on European courts was accurate, and the overall thesis of escalation with economic pain was directionally sound, merely early by a few days.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

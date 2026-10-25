@@ -1,0 +1,633 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "ZA",
+  "name": "South Africa",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T16:17:42+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of October 17 to 24, South Africa's most prominent story was the second Test cricket match against Australia, in which the Proteas staged a dramatic comeback to win by an innings and level the series 1-1. Captain Bavuma scored 179, Jansen took five wickets to enforce a follow-on, and Nortje was ruled out of the third Test. Australia faced selection headaches after what was called a shambolic defeat. In Durban, a foreign national was beaten to death by a mob of roughly 50 people during a protest, reigniting anti-immigrant tensions and prompting a police murder investigation. Finance Minister Enoch Godongwana delivered a mid-term budget featuring a two-month fuel levy cut from November, a new fiscal anchor to rein in government debt, and a framework to bring offshore fund management back onshore. BofA and BNP Paribas signaled potential rating upgrades. President Ramaphosa urged South Africa to prepare for the possible loss of US trade benefits, while trade with China surged after a duty-free deal and Chery selected South Africa to build its Omoda C4. A water-quality crisis near Tshwane sickened over 500 residents, and a shark killed a 65-year-old swimmer off the Eastern Cape. Rugby player Hyron Andrews was confirmed to have died of an aortic dissection.",
+    "key_events": [
+      {
+        "event": "South Africa beat Australia by an innings in the second Test, leveling the series 1-1, with Bavuma scoring 179 and Jansen taking five wickets.",
+        "date": "2026-10-22",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "A foreign national was beaten to death by a mob of approximately 50 people in Durban during a protest, sparking police investigation and renewed anti-immigrant tensions.",
+        "date": "2026-10-19",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Finance Minister Godongwana delivered a mid-term budget introducing a two-month fuel levy cut, a new fiscal anchor, and plans to bring offshore fund management onshore.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "President Ramaphosa told South Africa to prepare for the possible loss of US-Africa trade benefits as trade with China surged after a duty-free agreement.",
+        "date": "2026-10-20",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Over 500 residents near Tshwane were sickened in a water-quality outbreak, with authorities declaring tap water undrinkable in the affected area.",
+        "date": "2026-10-21",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "A shark killed a 65-year-old woman swimming off the Eastern Cape, prompting the closure of beaches in KuGompo City.",
+        "date": "2026-10-18",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Rugby player Hyron Andrews was confirmed to have died of an aortic dissection, with an emotional tribute paid in France.",
+        "date": "2026-10-19",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Vedanta announced a 600-million-dollar investment to double zinc capacity in South Africa, and IDC neared a 610-million-dollar deal for ArcelorMittal South Africa.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Pick n Pay withdrew its restructuring process after reaching a deal with unions, reporting a narrower interim loss.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "BofA and BNP Paribas indicated South Africa could receive a credit-rating upgrade following the budget, and Investec said the country is on a path to investment grade.",
+        "date": "2026-10-23",
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "economy",
+      "society",
+      "health",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🏅",
+      "🔫",
+      "💰"
+    ],
+    "emoji_reasons": [
+      "The dominant story of the week was South Africa's dramatic innings victory over Australia to level the cricket Test series, covered across roughly twenty headlines.",
+      "A foreign national was beaten to death by a mob of about 50 in Durban, with at least seven headlines confirming the killing and police investigation.",
+      "Finance Minister Godongwana's mid-term budget introduced fuel levy cuts, a fiscal anchor, and debt-management reforms, generating the largest cluster of economic headlines."
+    ],
+    "developments": [
+      {
+        "subject": "Proteas vs Australia 2nd Test",
+        "what_happened": "South Africa came from behind to beat Australia by an innings, leveling the series 1-1, with Bavuma's 179 and Jansen's five-wicket haul as highlights; Nortje was ruled out of the decider.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          12,
+          18,
+          21,
+          39,
+          53,
+          55,
+          58,
+          59,
+          65,
+          73,
+          77,
+          78,
+          83,
+          89,
+          91,
+          97,
+          98,
+          100
+        ]
+      },
+      {
+        "subject": "Durban mob killing of foreigner",
+        "what_happened": "A foreign national was beaten to death by a crowd of roughly 50 during a protest in Durban, police opened a murder investigation, and anti-immigrant tensions flared.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          6,
+          9,
+          22,
+          26,
+          28,
+          32,
+          51
+        ]
+      },
+      {
+        "subject": "Mid-term budget and fiscal policy",
+        "what_happened": "Finance Minister Godongwana delivered a budget with a two-month fuel levy cut, a new fiscal anchor, offshore fund-management reforms, a bond buyback, and tightened budget rules, drawing positive reactions from rating agencies.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          16,
+          24,
+          27,
+          31,
+          34,
+          47,
+          52,
+          56,
+          57,
+          62,
+          63,
+          67,
+          71,
+          79,
+          82,
+          85,
+          90,
+          99
+        ]
+      },
+      {
+        "subject": "Trade pivot toward China",
+        "what_happened": "President Ramaphosa urged preparation for possible loss of US trade benefits, trade with China surged after a duty-free deal, cherries targeted the Chinese market, and Chery selected South Africa to build its Omoda C4.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          17,
+          38,
+          60,
+          68,
+          76,
+          80,
+          93
+        ]
+      },
+      {
+        "subject": "Water crisis near Tshwane",
+        "what_happened": "Over 500 residents near Tshwane were sickened in an outbreak linked to poor water quality, and authorities declared tap water undrinkable in the affected area.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          33,
+          45,
+          70,
+          74
+        ]
+      },
+      {
+        "subject": "Shark attack off Eastern Cape",
+        "what_happened": "A shark killed a 65-year-old woman swimming off Orient Beach, and beaches in KuGompo City were closed.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          49,
+          61,
+          66,
+          86,
+          88
+        ]
+      },
+      {
+        "subject": "Hyron Andrews death",
+        "what_happened": "South African rugby player Hyron Andrews was confirmed to have died of an aortic dissection, and an emotional tribute was paid in France.",
+        "coverage": "occasional",
+        "direction": "de-escalating",
+        "headline_ids": [
+          37,
+          40,
+          44
+        ]
+      },
+      {
+        "subject": "Springboks and Bulls rugby fixtures",
+        "what_happened": "Ireland prepared to face the Springboks with Dorothy Wall and Neve Jones in the squad, while Ulster named eight call-ups for a United Rugby Championship match against the Bulls in Pretoria.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          30,
+          35,
+          41,
+          46,
+          81
+        ]
+      },
+      {
+        "subject": "Industrial investment deals",
+        "what_happened": "Vedanta announced a 600-million-dollar investment to double zinc capacity, IDC neared a 610-million-dollar deal for ArcelorMittal South Africa, and Shoprite and Investec were reported to be discussing a fintech tie-up.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          25,
+          42,
+          50
+        ]
+      },
+      {
+        "subject": "Pick n Pay restructuring withdrawn",
+        "what_happened": "Pick n Pay withdrew its restructuring process after reaching a deal with unions and reported a narrower interim loss.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          48
+        ]
+      },
+      {
+        "subject": "ANC and electricity concerns",
+        "what_happened": "TV5Monde reported that the ANC faced the temptation of a sanction vote over persistent electricity outages, with the slogan 'no electricity, no vote.'",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          15
+        ]
+      },
+      {
+        "subject": "Jacob Zuma and former president",
+        "what_happened": "Former president Jacob Zuma was discharged from hospital and denied impeding the investigation and prosecution of apartheid-era cases.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          64,
+          94
+        ]
+      }
+    ],
+    "gone": [
+      "Springboks vs Australia Test",
+      "Police chief reinstated",
+      "Rehab centre rescue",
+      "Central bank and payments",
+      "El Niño and drought risk",
+      "Court rulings and election ballots",
+      "Eskom strategy revamp",
+      "Oil and gas exploration",
+      "Miners' safety review"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad and well-sourced coverage of South Africa's major stories this week, spanning sports, the budget, the Durban mob killing, trade policy, the water crisis, and several corporate and rugby items, though some areas like electricity infrastructure and the judiciary are thinly represented."
+    },
+    "headlines_used": [
+      "South Africa paceman Nortje ruled out of third test",
+      "South Africa storms back to beat Australia by an innings and level the test cricket series 1-1",
+      "Australia face selection headaches after 'shambolic' South Africa defeat",
+      "Dorothy Wall: Ireland second row on South Africa, surfing and pink scrum caps",
+      "Why so many women fear for their lives in South Africa",
+      "Afrique du Sud: un étranger tué en pleine rue par une foule de près de 50 personnes en marge d'une manifestation à Durban",
+      "Shoprite and Investec Said to Discuss South African Fintech Tie-Up",
+      "Hubert Zandberg’s cottage restoration is a South African ‘homecoming’",
+      "Foreign national beaten to death by a mob in South Africa",
+      "South African rand steady as traders await month-end data",
+      "South African runners don cheeky attire for annual race to spotlight prostate cancer",
+      "Jansen, Rabada put South Africa in sight of win over Australia",
+      "Malawi opposition demands answers over President Peter Mutharika's prolonged stay in South Africa",
+      "South Africa: Are weight-loss drugs safe?",
+      "\"Pas d'électricité, pas de vote\": en Afrique du Sud, l'ANC face à la tentation du vote sanction",
+      "South Africa Must Prioritize Growth, Finance Minister Says",
+      "South Africa’s president eyes trade with China and India as US ties sour",
+      "South Africa crush Australia by an innings to level cricket Test series",
+      "South African presidency website temporarily offline after PHP warning",
+      "South African men run in purple briefs to raise awareness of prostate cancer",
+      "Jansen takes five for South Africa as Australia forced to follow on",
+      "Durban attack: Crowd of 50 beats foreigner to death in South Africa",
+      "VIDÉO. Afrique du Sud: le combat de femmes séropositives stérilisées sans consentement",
+      "South Africa Moves to Bring Offshore Fund Management Back Home",
+      "Vedanta Ltd Doubles Zinc Capacity in South Africa with US$ 600 Mn investment – Company Announcement",
+      "Foreign national beaten to death by a mob in South Africa - Al Jazeera",
+      "South Africa to allow fund managers 100% foreign assets under new framework",
+      "Foreign citizen beaten to death during march in South Africa as anti-immigrant tensions flare",
+      "Video of foiled robbery in Mexico bakery is falsely linked online to South Africa",
+      "South Africa v Ireland: From safari to Springboks - Erin King ready for history",
+      "South Africa Plans Legislative Reforms to Fix Municipal Finances",
+      "South African police investigate killing of foreign national by crowd",
+      "Over 500 in South Africa sickened in outbreak linked to poor water quality",
+      "South Africa eases fuel pain as growth slows",
+      "South Africa v Ireland: Neve Jones wins 50th Irish cap as Stacey Flood and Dorothy Wall return",
+      "Merz Urges Trump to Invite South Africa to G-20 Summit in Miami",
+      "South African rugby player Hyron Andrews paid emotional tribute in France",
+      "South Africa's trade with China surges after duty-free deal",
+      "Australia trails by 170 runs at stumps on Day 4 after South Africa enforces follow-on",
+      "South African rugby player's death due to 'aortic dissection'",
+      "Ulster Rugby: Eight of Andy Farrell's Ireland call-ups to face Bulls in Pretoria",
+      "IDC Nears $610 Million Deal for ArcelorMittal South Africa",
+      "South African rand slips as oil hits highest since May, fuel levy cuts loom",
+      "South African rugby player Hyron Andrews died of natural causes, team statement says",
+      "Tap water no longer drinkable near South Africa capital",
+      "Exeter bring in forward Goedhals from South Africa",
+      "South Africa Unveils Fiscal Anchor in ‘Bond-Friendly’ Budget",
+      "South Africa's Pick n Pay withdraws restructuring process after union deal, sees narrower interim loss",
+      "Shark kills woman swimming off South Africa’s Eastern Cape, beaches closed",
+      "Vedanta Ltd Doubles Zinc Capacity in South Africa with US$ 600 Mn investment",
+      "Foreign citizen killed in South Africa: South Africa police dey investigate murder of foreign national",
+      "Highlights of South Africa Finance Minister’s 2026 Budget Update",
+      "Australia weigh changes for Cape Town decider after South Africa rout",
+      "A former South Africa deputy police chief facing sexual offense charges is denied bail",
+      "Boland grabs opportunity for Australia as South Africa struggle in second Test",
+      "South Africa fuel levy reduction: Online gambling tax, srd grant and oda key highlights from SA finance minister Enoch Godongwana mid term budget speech",
+      "South Africa Raises Borrowing Requirement to Fund Bond Buyback",
+      "South Africa level series with win over Australia in second test",
+      "Skipper Bavuma’s 179 puts South Africa in control in 2nd test vs Australia",
+      "Ramaphosa tells South Africa to prepare for loss of US-Africa trade deal",
+      "Janine Lochrenberg: Shark kill 65-year-old swimmer for South Africa east coast",
+      "Watch South Africa Eyes New Fiscal Anchor to Rein in Debt",
+      "South Africa revives fuel levy cuts as stronger finances create room for relief",
+      "Former South African president denies impeding investigation and prosecution of apartheid-era cases",
+      "Boland sets pace as South Africa struggle",
+      "Orient beach attack: South African swimmer killed by shark",
+      "South Africa Tightens Budget Rules as Government Debt Stabilizes",
+      "China's Chery picks Omoda C4 as its first vehicle to be built in South Africa",
+      "South Africa and Mozambique honor Samora Machel, 40 years after his death in a plane crash",
+      "Bronkhorstspruit water crisis in South Africa: 400 fall sick near Tshwane",
+      "South Africa to Cut Fuel Levy for Two Months From November",
+      "South African inflation rises modestly but bigger fuel-driven jump seen in October",
+      "Boland leading Australia attack as South Africa down to 97-5 after second rain-affected day",
+      "South Africa water contamination: SA authorities warn residents afta ova 400 fall sick near Tshwane sake of drinking contaminated water",
+      "South African Inflation Rate Up Less Than Expected in September",
+      "South African cherries target China as US relations sour",
+      "South Africa 20-2 against Australia at stumps as rain spoils day 1 of 2nd cricket test",
+      "South Africa vs Australia: Hosts' batting issues exposed again as Scott Boland takes four",
+      "Next Africa: New Rules to Keep South Africa’s Debt in Check",
+      "South Africa looks to unlock China's cherry market as US relations droop",
+      "Bulls v Ulster: Zac Ward an injury doubt for United Rugby Championship game in Pretoria",
+      "BofA, BNP See South Africa Rating Upgrade After Budget",
+      "Jansen’s all-round heroics put South Africa on brink of series-levelling win",
+      "Siwelele vs Polokwane City: South Africa PSL stats & head-to-head",
+      "South Africa to Tighten Budget Rules to Restrain Spending",
+      "Shark kills woman swimming off South Africa's Eastern Cape",
+      "Chippa United vs Kruger United: South Africa PSL stats & head-to-head",
+      "Fatal Shark Attack Closes Beaches in South Africa’s KuGompo City",
+      "South Africa seize control as captain Bavuma provides the heroics",
+      "South Africa on Path to Investment-Grade Rating, Investec Says",
+      "Bavuma battles adversity to put South Africa in control",
+      "South Africa’s Business Mood Steadies Despite Ongoing Iran War",
+      "South Africa must prepare for potential loss of US trade benefits, president says",
+      "Ex-South African President Jacob Zuma Discharged from Hospital",
+      "Mozambique courts South African investment for new gas project",
+      "South African rand gains slightly as traders await budget speech, inflation data",
+      "South Africa close on 97-5 as Australian paceman Boland strikes in second test",
+      "Rain delays start of second day’s play between South Africa and Australia",
+      "South Africa set for brighter fiscal outlook in Wednesday's mid-term budget",
+      "South Africa still mulling over permutations for second test against Australia"
+    ],
+    "converted": false,
+    "relevant_headlines": 100,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Proteas vs Australia 2nd Test",
+        "expected": "Proteas vs Australia 2nd Test stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Proteas vs Australia 2nd Test appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Durban mob killing of foreigner",
+        "expected": "Durban mob killing of foreigner stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Durban mob killing of foreigner appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Mid-term budget and fiscal policy",
+        "expected": "Mid-term budget and fiscal policy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Mid-term budget and fiscal policy appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Mid-term budget and fiscal policy",
+        "expected": "persist",
+        "sign": "Mid-term budget and fiscal policy is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Proteas vs Australia 2nd Test stays in the news at the same level. Durban mob killing of foreigner stays in the news at the same level. Mid-term budget and fiscal policy stays in the news at the same level. Mid-term budget and fiscal policy is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Third Test cricket, Cape Town",
+        "expected": "South Africa and Australia play the series-deciding third Test in Cape Town, with Australia fielding a reshuffled lineup and South Africa missing Nortje.",
+        "direction": "persist",
+        "sign": "Headlines report the final score, the series outcome, and standout individual performances from the Cape Town match."
+      },
+      "second": {
+        "subject": "Durban mob killing and anti-immigrant tensions",
+        "expected": "Police name suspects or make arrests in the murder investigation, and the incident sparks further protests or political debate about immigrant rights in South African cities.",
+        "direction": "escalate",
+        "sign": "Headlines report arrests, a court appearance, or a second anti-immigrant incident in another South African city."
+      },
+      "third": {
+        "subject": "Mid-term budget and fiscal policy",
+        "expected": "Rating agencies publish their final sovereign credit-rating decisions following the fiscal anchor and bond buyback, and the bond market reacts to the raised borrowing requirement.",
+        "direction": "persist",
+        "sign": "Headlines report a rating-agency decision, a bond-yield movement, or implementation details of the fuel levy cut and fiscal anchor."
+      },
+      "fade_call": {
+        "subject": "Shark attack off Eastern Cape",
+        "expected": "fade",
+        "sign": "Headlines shift to other coastal, sports, or political stories, with the shark attack appearing only in retrospective or feature pieces."
+      },
+      "surprise": {
+        "subject": "ANC internal split over electricity",
+        "expected": "The ANC party leadership holds a formal session where the 'no electricity, no vote' sentiment is debated as a motion, producing a visible split between factions.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, the third Test in Cape Town will dominate South African headlines as Australia fields a reshuffled side against a Proteas team missing Nortje, with the series outcome and individual heroics driving coverage. In Durban, the murder investigation into the mob killing of a foreign national will produce arrests or court developments, and anti-immigrant tensions will ripple through other cities. The mid-term budget will generate follow-through as rating agencies finalize their assessments and the bond market digests the fiscal anchor and raised borrowing. The water crisis near Tshwane will draw fresh attention as authorities work to restore safe supply. The 'no electricity, no vote' sentiment within the ANC may crystallize into a formal internal debate. The shark attack and the Hyron Andrews tribute will recede from the front pages as the cricket decider and the budget take center stage.",
+      "generated_at": "2026-10-25T16:04:59+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Third Test decider against Australia",
+        "expected": "The series-deciding Test in Cape Town will produce a winner and determine the final outcome of the three-Test series",
+        "direction": "persist",
+        "sign": "Headlines about the series outcome, the Cape Town venue, squad changes for both teams, and Australia's selection decisions"
+      },
+      "second": {
+        "subject": "Durban mob killing investigation",
+        "expected": "Police will make arrests in the murder investigation of the foreign national beaten to death by a crowd in Durban",
+        "direction": "escalate",
+        "sign": "Headlines about arrests in the Durban killing, party statements on immigration policy, and new protest activity in South African cities"
+      },
+      "third": {
+        "subject": "Trade pivot toward China",
+        "expected": "New Chinese investment and trade announcements will reinforce the government's strategic pivot away from US trade ties",
+        "direction": "persist",
+        "sign": "Headlines about Chinese companies selecting South Africa for production, trade figures with China, and government policy to attract Chinese business"
+      },
+      "fade_call": {
+        "subject": "Hyron Andrews mourning",
+        "expected": "fade",
+        "sign": "The story drops from front pages as cricket Test results and women's rugby fixtures dominate sports coverage"
+      },
+      "surprise": {
+        "subject": "Tshwane water crisis escalation",
+        "expected": "The water-quality outbreak near Tshwane will escalate into a formal government emergency response amid growing ANC internal friction over service delivery",
+        "chance": "medium"
+      },
+      "summary": "South Africa's next week will be defined by the series-deciding cricket Test in Cape Town, where the Proteas will face a reshuffled Australian side in a contest that determines the final outcome. The Durban mob killing will drive the news cycle as police pursue arrests and political parties trade blame over immigration policy, with further protests possible in other cities. The post-budget economic story will center on the trade pivot toward China, as new investment announcements reinforce the government's strategic shift away from US trade ties. The mourning over rugby player Hyron Andrews will fade as cricket and women's rugby fixtures take over sports coverage. The water-quality crisis near Tshwane will escalate, with the ANC's internal friction over service delivery surfacing publicly. The week will blend sporting drama, security tension, and fiscal optimism.",
+      "generated_at": "2026-10-25T16:17:42+02:00"
+    }
+  },
+  "display": {
+    "headline": "Proteas Decider, Durban Arrests, and China Trade Define the Week",
+    "emojis": [
+      "🏅",
+      "🛂",
+      "📦"
+    ],
+    "emoji_reasons": [
+      "The series-deciding cricket Test in Cape Town will be the week's dominant sporting story",
+      "The Durban mob killing of a foreign national and the anti-immigrant backlash will drive security coverage",
+      "New Chinese investment and trade announcements will anchor the economic narrative"
+    ],
+    "tldr": "South Africa's next week centers on the cricket Test decider in Cape Town, the Durban mob-killing investigation producing arrests, and a deepening trade pivot toward China. The Tshwane water crisis will escalate, and the Hyron Andrews story will fade from front pages.",
+    "eli5": "South Africa is in the middle of a big cricket series against Australia. The Proteas just won the second match and the series is tied. Next week they play the final match in Cape Town, and whoever wins takes the whole series. The Australian team is scrambling to fix its lineup after a bad loss.\n\nIn Durban, a crowd of about 50 people beat a foreign visitor to death during a protest. Police are investigating and looking for arrests. Politicians are arguing about immigration, and more protests could happen in other cities.\n\nThe government just delivered its mid-year budget with fuel tax cuts and new debt rules. Banks are getting more positive about the economy. At the same time, the country is leaning harder into trade with China, with new car factories and cherry exports heading that way.\n\nThe rugby player Hyron Andrews, who died suddenly in France, will drop off the front pages as cricket and women's rugby take over the sports news. A water contamination problem near the capital is getting worse, and that could become a bigger political fight."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 37, 40, and 44 confirm Hyron Andrews death is still reported, but the situation bulletin marks it 'de-escalating' rather than at the same level the bulletin predicted."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The Proteas (cricket) vs Australia Test dominates headlines 1, 2, 18, and 58, but 'Springboks vs Australia Test' is listed under 'No longer in the headlines,' showing the bulletin named the wrong sport."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines 6, 9, 22, 26, 28, 32, and 51 confirm anti-migrant tensions are dominant and escalating, fulfilling the persist prediction and exceeding it."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 37, 40, and 44 show Andrews is still in the news, but the situation bulletin marks it 'de-escalating,' so the persist-at-same-level call is slightly off in direction."
+          }
+        },
+        "archer_note": "The bulletin led with a de-escalating, occasional story (Andrews) and missed the two dominant stories of the week: the cricket Test and the mid-term budget. Its 'Springboks' label for the Test misidentified the sport, and it never mentioned the budget, fuel levy, or fiscal anchor at all. The main thesis of 'more of the same' was wrong because the week brought a new dominant budget story and an escalating Durban killing rather than a static continuation."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The second Test vs Australia is the dominant story (headlines 2, 18, 58, 59, 89), but 'Springboks' names the rugby team rather than the cricket Proteas, and 'coach Wade' and 'low-crowd format review' appear in no headline."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Anti-migrant tensions are dominant and escalating (headlines 6, 22, 26, 28), but the killing occurred in Durban not Cape Town, and no Nigerian official is quoted in any headline of this round."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines 16, 34, 47, 52, 56, 71, and 82 confirm the mid-term budget dominated with specific fiscal figures (fuel levy cut, fiscal anchor, bond buyback) and rand movement, matching the sign almost exactly."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 37, 40, and 44 show Andrews is still a standalone death-and-tribute story rather than shifted to 'match context,' but the situation bulletin confirms it is de-escalating, so the fade direction is broadly correct."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the Test, anti-migrant tensions, and budget as the three pillars, and its budget prediction was the most specific and best-supported of all three bulletins. However, it attached wrong specifics to the Test (coach Wade, format review, Springboks) and to the migrant story (Nigeria, Cape Town shooting) that no headline confirms. Its main thesis of escalation was directionally right for the Test and budget, but the Nigeria/Cape Town framing was a confident detail that the evidence does not support."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The Test vs Australia dominates (headlines 2, 18, 58, 59), but 'Springboks' is the rugby team not the cricket Proteas, and 'coach Wade' and 'ground attendance figures' appear in no headline."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Anti-migrant tensions are dominant and escalating (headlines 6, 22, 26, 28), but no Nigerian diplomatic official is named in any headline and the killing was in Durban, not the repeated Cape Town shootings the bulletin implies."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines 16, 24, 34, 47, 52, 71, 82, and 99 confirm the budget presentation, rand movement, and inflation outlook all appeared as the sign described."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 37, 40, and 44 show Andrews is still a standalone story rather than in 'match context,' but the de-escalating status in the situation bulletin confirms the fade direction is broadly correct."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the Test, anti-migrant tensions, and budget as the three dominant threads, and its budget and fade calls were well-supported. However, it repeated the 'Springboks' mislabel and the Nigeria/Cape Town specifics that no headline confirms, and its 'persist' direction for the Test and budget undersold how dominant and new those stories actually were. The main thesis was structurally sound but slightly conservative on intensity, and the Nigeria detail was a confident addition the evidence does not back."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Y correctly led with the Test and included the budget as a major pillar, while X led with the de-escalating Andrews story and omitted the budget entirely. Y's fade call (Andrews fading) was more accurate than X's (Andrews persisting at the same level), and Y's budget sign was specific and well-supported."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Z correctly placed the Test as the lead and the budget as a major economic story, while X buried the Test in second position and never mentioned the budget. Z's fade call for Andrews was directionally more accurate than X's persist call, and Z's overall structure better matched the actual dominance hierarchy of the week."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Both bulletins share the same four-item structure, the same Nigeria/Cape Town detail, the same Springboks mislabel, and the same Andrews fade call, making them near-paraphrases. Y's 'escalate' direction for the Test and budget is marginally more accurate than Z's 'persist,' but Y's more specific sign (coach Wade, format review) introduces wrong details that Z's more general sign avoids, offsetting the advantage."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": -1.0,
+      "persistence_vs_crystal": -1.0,
+      "plain_vs_crystal": 0.0
+    },
+    "v": 0.0,
+    "u": 1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe week in South Africa was dominated by the sudden death of Springbok and Lions lock Hyron Andrews, found dead the day before a European Champions Cup match in La Rochelle, sending shockwaves through the rugby world and prompting tributes from clubs across Europe. Domestically, the Springboks were reeling from a heavy first-Test defeat to Australia, with coach Dave Wade warning against knee-jerk reactions while a batting reshuffle loomed and low Test crowds prompted a format review. On the political and security front, President Ramaphosa reinstated the suspended police chief, and police in Mpumalanga rescued roughly 200 people, some in chains, from an unregistered rehabilitation centre. Anti-migrant tensions, which had flared the previous week, continued to simmer: a gunman killed at least four people at a memorial service, and another Nigerian citizen was reportedly shot in Cape Town. Economically, the South African Reserve Bank outlined plans to launch a new\n- Hyron Andrews death (dominant, new): South African lock Hyron Andrews was found dead the day before a Lions European Champions Cup match in La Rochelle, prompting tributes from clubs worldwide.\n- Springboks vs Australia Test (dominant, escalating): South Africa lost the first Test heavily to Australia, with the coach urging calm while a batting reshuffle, format review, and squad changes were discussed ahead of the second Test.\n- Anti-migrant tensions (dominant, continuing): A gunman killed at least four people at a memorial service, and another Nigerian citizen was reportedly shot in Cape Town, as Nigeria demanded answers and protests continued.\n- Police chief reinstated (regular, new): The president reinstated the suspended police chief, who is set to return to duty.\n- Rehab centre rescue (regular, new): Police in Mpumalanga rescued about 200 people, some in chains, from an unregistered rehabilitation centre.\n- Central bank and payments (regular, continuing): The Reserve Bank outlined a 2027 cash-and-payments utility, flagged upside inflation risks, and positioned the rand as a cushion against external shocks ahead of next week's medium-term budget.\n- El Niño and drought risk (regular, continuing): El Niño-driven heat and drought conditions put South African farmers on high alert.\n- Court rulings and election ballots (occasional, new): A court judgment may force a reprint of election ballots, and other rulings were seen as confidence-boosting for the private sector.\n- Eskom strategy revamp (occasional, new): Eskom announced a strategic overhaul as its monopoly position erodes in the power sector.\n- Chinese imports and car kits (occasional, new): Local producers reported struggling with a flood of Chinese imports, and the government moved to restrict assembly of imported vehicle kits to push local manufacturing.\n- Oil and gas exploration (occasional, new): South Africa dismissed appeals against exploration in the TotalEnergies Block 3B/4B offshore area.\n- Miners' safety review (occasional, new): Recent mining deaths prompted a safety review called for by the minerals council CEO.\n\nRound 2026-10-02:\nNavi Pillay won the Nobel Peace Prize, generating national pride and sharpening diplomatic debates around the ICC and Gaza. Anti-migrant protests erupted in Soweto and Durban, prompting the government to withdraw an asylum directive as a tactical de-escalation. Moody's publicly stated South Africa was on the right track for a possible credit-rating upgrade, lending markets cautious hope. Manufacturing output fell and mining production weakened, with factories struggling against surging Chinese imports. Deputy police chief Sibiya departed amid sex-offence charges, deepening institutional uncertainty in the security sector. South Africa lost the first Test match to Australia convincingly, creating public frustration and social-media backlash. Morgan Stanley signalled expectations of renewed fuel-tax relief in the coming fiscal window. Globally, US inflation data, oil prices, and Middle East tensions including Houthi activity in the Red Sea created an uncertain external backdrop. The Rwanda Formula 1 announcement added a pan-African confidence narrative. The overall picture\n- Navi Pillay was awarded the Nobel (regular, continuing): Navi Pillay was awarded the Nobel Peace Prize, triggering national celebration and diplomatic debate.\n- Anti-migrant protests in Soweto and Durban (regular, continuing): Anti-migrant protests in Soweto and Durban led the government to withdraw an asylum directive.\n- Moody's stated South Africa is on (regular, continuing): Moody's stated South Africa is on the right track for a potential credit-rating upgrade.\n- Deputy police chief Sibiya departed the (regular, continuing): Deputy police chief Sibiya departed the SAPS amid sex-offence charges.\n- Manufacturing and mining output data fell (regular, continuing): Manufacturing and mining output data fell, with factories struggling against Chinese imports.\n- Manufacturing and mining output data fell (again) (regular, continuing): Manufacturing and mining output data fell, with factories struggling against Chinese imports.\n",
+    "PREVIOUS_FORECAST": "Lead: Springboks second Test. Expected: South Africa will field a reshuffled batting lineup in the Test against Australia as coach Wade implements squad changes after the first-Test defeat Direction: persist. Sign: Headlines about the Test match result against Australia, batting lineup changes, and ground attendance figures\nSecond: Anti-migrant tensions and Nigeria. Expected: Nigeria will issue a formal diplomatic response or deadline demanding answers over the repeated shootings of its citizens in South Africa Direction: escalate. Sign: Headlines naming Nigerian diplomatic officials issuing formal statements or ultimatums and new protest locations in South African cities\nThird: Medium-term budget. Expected: The government will present its medium-term budget as the rand moves in response to the Reserve Bank's inflation warning and fiscal outlook Direction: persist. Sign: Headlines about the budget presentation, the rand's movement, and the Reserve Bank's inflation outlook\nFade call: Hyron Andrews mourning. Expected: fade. Sign: The story drops from front pages as rugby coverage shifts to Test match results and squad announcements\nSurprise (chance medium): Election ballot reprint ruling. The court order to reprint election ballots will trigger a public political fight over the timeline ahead of the November municipal elections as opposition parties press for a firm deadline\nSummary: South Africa's next week will be defined by the second Test against Australia, where a reshuffled batting lineup faces a tough contest after the heavy first-Test loss. Anti-migrant tensions will escalate as Nigeria presses for answers over the shootings of its citizens and protests spread to new cities. The medium-term budget presentation will anchor economic coverage, with the rand reacting to the Reserve Bank's inflation warning and the government's fiscal plans. The mourning over Hyron Andrews will fade from front pages as rugby coverage shifts to match results. The court order to reprint election ballots will inject political friction ahead of the November municipal polls. El Niño-driven heat will keep farmers on alert, and the Eskom strategy revamp will generate sector coverage. Overall, the week will be a mix of sporting pressure, diplomatic friction, and fiscal scrutiny.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The Test vs Australia dominates (headlines 2, 18, 58, 59), but 'Springboks' is the rugby team not the cricket Proteas, and 'coach Wade' and 'ground attendance figures' appear in no headline.\n- second: true_in_direction. Anti-migrant tensions are dominant and escalating (headlines 6, 22, 26, 28), but no Nigerian diplomatic official is named in any headline and the killing was in Durban, not the repeated Cape Town shootings the bulletin implies.\n- third: came_true. Headlines 16, 24, 34, 47, 52, 71, 82, and 99 confirm the budget presentation, rand movement, and inflation outlook all appeared as the sign described.\n- fade_call: true_in_direction. Headlines 37, 40, and 44 show Andrews is still a standalone story rather than in 'match context,' but the de-escalating status in the situation bulletin confirms the fade direction is broadly correct.\nArcher note: The bulletin correctly identified the Test, anti-migrant tensions, and budget as the three dominant threads, and its budget and fade calls were well-supported. However, it repeated the 'Springboks' mislabel and the Nigeria/Cape Town specifics that no headline confirms, and its 'persist' direction for the Test and budget undersold how dominant and new those stories actually were. The main thesis was structurally sound but slightly conservative on intensity, and the Nigeria detail was a confident addition the evidence does not back.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

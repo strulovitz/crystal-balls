@@ -1,0 +1,638 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "AU",
+  "name": "Australia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T08:27:31+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week was dominated by the deliberate car-ramming attack on Australian MP Helen Haines, who lost both legs and whose attacker was charged with a targeted assault. Police called the incident deliberate, the PM said it was 'no accident,' and a terrorism squad opened an inquiry. A second female lawmaker was threatened days later, and coverage highlighted a growing pattern of threats against Australian politicians. In sport, South Africa beat Australia by an innings in the second Test to level the series 1-1, leaving Australia with selection headaches ahead of the Cape Town decider. New Zealand won the second Bledisloe test 43-21, while Australia's women's rugby league team thrashed England 78-0 in the World Cup. Economically, the RBA warned the inflation outlook was 'materially worse' while noting labour-market easing, and growth is likely to slow. Shares in Zip fell 50% after a fraud incident, and data-centre operator NextDC dropped over 40% on an earnings warning. The Snowy Hydro project's cost blew out to an estimated $18 billion, eleven times the original estimate. Meta and TikTok faced new Australian lawsuits over harm to children, and a review found KPMG Australia mishandled whistleblower claims. China's appetite for Australian canola picked up as trade ties improved, while iron-ore and bauxite miners warned of production risk without a China deal. One contradiction: the Financial Times described Sydney's second airport as a 'long haul' while Bloomberg reported the $4 billion airport opening with barely any flights.",
+    "key_events": [
+      {
+        "event": "Australian MP Helen Haines lost both legs after a deliberate car-ramming attack; the driver was charged and a terrorism squad opened an inquiry.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "South Africa beat Australia by an innings in the second Test to level the series 1-1, with Australia facing selection headaches before the Cape Town decider.",
+        "date": "2026-10-23",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "The RBA said Australia's inflation outlook was 'materially worse' while flagging labour-market easing and uncertainty about a November rate hike.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Zip's shares tumbled 50% after a fraud incident dented first-quarter customer growth.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Data-centre operator NextDC's shares plunged over 40% after it slashed its earnings forecast citing a Melbourne power delay.",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "The Snowy Hydro project's cost blew out to an estimated $18 billion, eleven times the original estimate.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Meta and TikTok faced new Australian class-action lawsuits over alleged social-media harm to children and breaches of a screen-time ban.",
+        "date": "2026-10-20",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "New Zealand beat Australia 43-21 in the second Bledisloe rugby test.",
+        "date": "2026-10-19",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "technology"
+    ],
+    "emojis": [
+      "💥",
+      "📉",
+      "🏅"
+    ],
+    "emoji_reasons": [
+      "The deliberate car-ramming of MP Helen Haines, who lost both legs, was the week's defining dramatic event (headlines 17, 28, 36).",
+      "Zip fell 50%, NextDC dropped over 40%, the RBA warned inflation was worse, and NAB cut 2,500 jobs, painting a broad market-down picture (headlines 1, 11, 9, 102).",
+      "South Africa beat Australia by an innings, New Zealand won the Bledisloe, and Australia's women's rugby league team thrashed England 78-0, making sport a constant thread (headlines 2, 86, 4)."
+    ],
+    "developments": [
+      {
+        "subject": "Helen Haines car attack",
+        "what_happened": "MP Helen Haines was deliberately rammed by a car, lost both legs, and the driver was charged; a second female lawmaker was threatened days later and police confirmed rising threats against politicians.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          6,
+          14,
+          16,
+          17,
+          19,
+          28,
+          30,
+          35,
+          36,
+          38,
+          39,
+          43,
+          44,
+          50,
+          53,
+          55,
+          58,
+          61,
+          65,
+          67,
+          68,
+          69,
+          71,
+          72,
+          76,
+          82,
+          87,
+          90,
+          93,
+          100,
+          101,
+          103,
+          104
+        ]
+      },
+      {
+        "subject": "South Africa vs Australia cricket",
+        "what_happened": "South Africa crushed Australia by an innings in the second Test to level the series 1-1, with Jansen taking five and Australia forced to follow on; selection headaches and a Smith injury complicate the Cape Town decider.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          2,
+          3,
+          12,
+          15,
+          26,
+          52,
+          60,
+          74,
+          75,
+          80,
+          81,
+          89,
+          94,
+          109
+        ]
+      },
+      {
+        "subject": "RBA and economic outlook",
+        "what_happened": "The RBA declared the inflation outlook 'materially worse' while noting labour-market easing, and growth is expected to slow on higher rates and prices.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          9,
+          48,
+          63,
+          99,
+          105
+        ]
+      },
+      {
+        "subject": "Market and corporate stress",
+        "what_happened": "Zip shares fell 50% after a fraud incident, NextDC dropped over 40% on an earnings warning, NAB cut 2,500 jobs, and Ares warned of private-credit stress from rising rates.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          11,
+          32,
+          49,
+          77,
+          88,
+          98,
+          102
+        ]
+      },
+      {
+        "subject": "AI and data-centre boom",
+        "what_happened": "Backlash over AI data centres threatens Australia's $70 billion plan, the Treasurer said he welcomes them only if they contribute to the grid, and NextDC's Melbourne power delay triggered its earnings warning.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          20,
+          22,
+          41,
+          57,
+          78,
+          88,
+          98
+        ]
+      },
+      {
+        "subject": "China trade and mining",
+        "what_happened": "China snapped up Australian canola as ties improved, while Rio Tinto and Fortescue warned of production risk without a China deal, and Rio Tinto committed $1.9 billion to a Queensland bauxite project.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          33,
+          42,
+          56,
+          85,
+          92
+        ]
+      },
+      {
+        "subject": "Meta and social-media lawsuits",
+        "what_happened": "Meta faced an Australian class action over harm to children, and Australia moved to sue Facebook and TikTok for alleged breaches of a screen-time ban.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          23,
+          59,
+          70
+        ]
+      },
+      {
+        "subject": "KPMG data-handling breach",
+        "what_happened": "Documents showed an Australian agency mulled firing KPMG over a data-handling rule breach, and a review found it mishandled whistleblower claims with a pause on government work extended.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          34,
+          66
+        ]
+      },
+      {
+        "subject": "Snowy Hydro cost blowout",
+        "what_happened": "The Snowy Hydro project's cost blew out to an estimated $18 billion, eleven times the original estimate.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          40
+        ]
+      },
+      {
+        "subject": "Sydney second airport",
+        "what_happened": "The Financial Times described Sydney's second airport as a 'long haul' while Bloomberg reported the $4 billion airport opening with barely any flights, creating a contradiction in reporting.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          91
+        ]
+      },
+      {
+        "subject": "Sports: Bledisloe, World Cup, WXV",
+        "what_happened": "New Zealand beat Australia 43-21 in the Bledisloe, Australia's women's rugby league team thrashed England 78-0 in the World Cup, and Australia came from behind to beat Scotland in the WXV Global Series.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          27,
+          37,
+          45,
+          86,
+          97
+        ]
+      },
+      {
+        "subject": "Society: coroner, reality TV, senator",
+        "what_happened": "A coroner was moved to tears over a child denied insulin on religious grounds, police investigated Married at First Sight Australia over 'inappropriate' allegations, and senator Jordon Steele-John denied misconduct claims.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          25,
+          54,
+          95
+        ]
+      }
+    ],
+    "gone": [
+      "Navy ship hidden camera",
+      "H5N1 on Macquarie Island",
+      "First Michelin stars",
+      "3M forever-chemicals lawsuit",
+      "Algorithm opt-out trial"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong coverage of the Haines attack, cricket series, economic data, and corporate stories, though the Sydney airport contradiction and the absence of any foreign-policy or defence headlines leave minor gaps."
+    },
+    "headlines_used": [
+      "Australia's Zip tumbles 50% after fraud incident dents first-quarter customer growth",
+      "South Africa storms back to beat Australia by an innings and level the test cricket series 1-1",
+      "Australia face selection headaches after 'shambolic' South Africa defeat",
+      "Women's Rugby League World Cup - Australia 78-0 England: Poor English suffer humilation",
+      "Australian reporter rescues man from sinking car",
+      "Australian MP Helen Haines loses leg after car attack — media",
+      "MotoGP: Jorge Martin forfait en Australie offre un boulevard à Marc Marquez",
+      "Australia Gas Generation Drops to Lowest Since 2000 as Batteries Boom",
+      "Australia’s Inflation Outlook Materially Worse, RBA Says",
+      "Sydney’s long haul to a second airport",
+      "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
+      "South Africa crush Australia by an innings to level cricket Test series",
+      "Australia's Snowy Hydro project cost blows out to estimated $18 billion",
+      "A second female lawmaker in Australia is threatened days after alleged car attack",
+      "Jansen, Rabada put South Africa in sight of win over Australia",
+      "Australian MP Helen Haines' condition improves after alleged car attack",
+      "Australian lawmaker has both legs amputated after allegedly deliberate attack by car rammer",
+      "Australia: Car crashes into rugby fans, 10 injured - DW.com",
+      "Australie : la députée victime d'une attaque amputée des deux jambes",
+      "AI Data Center Backlash Threatens Australia’s $70 Billion Dream",
+      "Australian iron ore miner warns of production slowdown without China deal",
+      "Australia welcomes data centres if they ‘contribute to the energy grid’: Treasurer Chalmers",
+      "Meta faces Australian lawsuit over alleged social media harm to children",
+      "Australian TV reporter recalls 'terrifying' rescue of man from sinking car",
+      "Australian coroner moved to tears by the death of a child denied insulin on religious grounds",
+      "Jansen takes five for South Africa as Australia forced to follow on",
+      "England v Australia rugby league: What happens in Vegas, stays in Vegas",
+      "Helen Haines: Driver charged with ramming Australian lawmaker with car in ‘targeted’ attack",
+      "US, Australia suspend consular services in Brazil - DW.com",
+      "Australie : l'homme suspecté d'avoir attaqué une députée comparaît au tribunal",
+      "Australia’s Victoria State Approves $700 Million Gas Project",
+      "Australian data centre group falls 44% on profit warning",
+      "Australia seeks to secure fuel supplies while balancing U.S.-China ties: Treasurer Chalmers",
+      "EXCLUSIVE: Australian agency mulled firing KPMG over data-handling rule breach, documents show",
+      "Australian politician who was hit by car has lost both legs",
+      "Australia lawmaker loses both legs after 'targeted' attack",
+      "Australia call up son of World Cup winner Wilson",
+      "Australian MP Helen Haines has both legs amputated after car ramming attack",
+      "'Il s'agit d'un acte délibéré': une députée australienne amputée d'une jambe après avoir été renversée par une voiture",
+      "Australia’s Flagship Hydro Project Now Costs 11 Times Original Estimate",
+      "Cognizant to Acquire DyFlex Solutions, Accelerating AI-Led Enterprise Transformation for SAP Clients in Australia and New Zealand – Company Announcement - FT.com",
+      "Australia's Rio Tinto to invest $1.9 billion in Queensland bauxite project",
+      "Driver accused of intentionally driving into Australian lawmaker was not a known threat, police say",
+      "Man in court over alleged 'targeted' attack on Australian lawmaker",
+      "WXV Global Series: Australia come from behind to beat Scotland again",
+      "Mexico imprisons killers of US, Australian surfers for 158 years each",
+      "La députée australienne victime d'une attaque a perdu une jambe, selon des médias locaux",
+      "Australian Growth Likely Slower Than Expected On Rates, Prices",
+      "Australian bank cuts 2,500 jobs as sector outlook sours",
+      "Australian MP loses both legs in vehicle attack as suspect appears in court",
+      "Epic's 'Fortnite' to return on Apple's app store in Australia after antitrust ruling",
+      "Australia trails by 170 runs at stumps on Day 4 after South Africa enforces follow-on",
+      "Horror and disbelief after lawmaker attacked in rural Australia",
+      "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+      "Australie : une députée grièvement blessée lors d'une 'violente attaque', un suspect interpellé",
+      "Rio Tinto to Spend $1.9 Billion on Australian Bauxite Expansion",
+      "Aeva 4D LiDAR Certified as Sensys Gatso's Secondary Speed Verification Solution for Public Roads Deployment in Australia – Company Announcement - FT.com",
+      "Attack on Australian MP Haines: How threats against legislators have soared",
+      "Meta sued in Australian class action over alleged social media harm to children",
+      "Skipper Bavuma’s 179 puts South Africa in control in 2nd test vs Australia",
+      "Australian lawmaker hurt in car attack underwent surgery overnight: PM",
+      "Moment man rescued from sinking car by Australian TV reporter",
+      "RBA’s Hauser Says Australia Inflation Outlook ‘Materially Worse’",
+      "‘Frenzy’ in Australian deals as investors swoop on cheap assets",
+      "‘Deliberate’ car ramming of Australian MP an isolated incident, police say",
+      "Review finds KPMG Australia mishandled whistleblower claims, pause on government work extended",
+      "Australian prime minister says lawmaker critically injured by car is ‘no accident’",
+      "Australian lawmaker hurt in car attack loses leg: media",
+      "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+      "Australia to Sue Facebook, TikTok for Alleged Breaches of Ban",
+      "Australian MP struck by car in alleged attack",
+      "Australian MP Helen Haines critically injured in ‘deliberate’ car ramming",
+      "Australia's ASX says 'turning point' reached after trading outages",
+      "Boland leading Australia attack as South Africa down to 97-5 after second rain-affected day",
+      "Boland grabs opportunity for Australia as South Africa struggle in second Test",
+      "Helen Haines: Australian MP loses both legs after alleged car attack, husband says",
+      "Ares Warns of Australian Private Credit Stress From Rising Rates",
+      "EQS-News: NEXTDC Limited [ASX:NXT] announces its Annual General Meeting in Sydney, Australia, 20 November 2026 – Company Announcement",
+      "Australian TV reporter rescues man from sinking car during floods",
+      "South Africa 20-2 against Australia at stumps as rain spoils day 1 of 2nd cricket test",
+      "Rabada returns as S.Africa seek to bounce back against Australia",
+      "Helen Haines: What we know about alleged attack on Australian MP hit by car",
+      "Treasuries Losing Luster as Hedge Tool, Citi Australia CEO Says",
+      "Australian Silica Quartz Group Ltd, 4B4:HAN profile",
+      "EXCLUSIVE: China snaps up Australian canola as improved ties, lower tariffs fuel demand",
+      "After a dominant 1st half, New Zealand beats Australia 43-21 in the 2nd Bledisloe rugby test",
+      "Man charged with attack on Australian MP as suspect's father says she is family friend",
+      "Nextdc Flags Earnings Risk on Melbourne Data Center Power Delay",
+      "Australia weigh changes for Cape Town decider after South Africa rout",
+      "'Our worst nightmare': Threats to Australian politicians were rising before MP hit by car",
+      "Sydney’s New $4 Billion Airport Opens With Barely Any Flights",
+      "Australia's Fortescue warns of possible operations hit as China state buyer talks rumble on",
+      "Helen Haines: Australian MP critically injured after being hit by car in apparent attack",
+      "Smith injury adds to Australia woes as defeat looms in second test",
+      "Jordon Steele-John: Australian senator denies claims of misconduct against women",
+      "Australia's CSL names GSK executive Waterhouse as next CEO",
+      "The women playing Australia's biggest sport - in London",
+      "Australian AI data centre operator NextDC shares shed 42% on revenue delay, future plans on hold",
+      "Australian central banker says inflation outlook worse, unsure about November rate hike",
+      "Australian lawmaker loses leg after being rammed twice in vehicle attack",
+      "Helen Haines: Attack on Australian politician capped years of threats to public figures",
+      "National Australia Bank to cut 2,500 jobs in cost overhaul as credit growth slows",
+      "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
+      "Helen Haines: Who is the Australian lawmaker targeted in vehicle attack?",
+      "Australia central banker sees signs of labour market easing",
+      "Australia's Cleanaway agrees to $6.5 billion EQT takeover, shares surge",
+      "Japan's Daiichi Life unit tables offer to take over Australia's Challenger",
+      "Woodside natural gas project unit paused after Greenpeace protest off Western Australia",
+      "Australia's Smith says head blow left him anxious in first test concussion scare"
+    ],
+    "converted": false,
+    "relevant_headlines": 109,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Helen Haines car attack",
+        "expected": "Helen Haines car attack stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Helen Haines car attack appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "South Africa vs Australia cricket",
+        "expected": "South Africa vs Australia cricket stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about South Africa vs Australia cricket appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "RBA and economic outlook",
+        "expected": "RBA and economic outlook stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about RBA and economic outlook appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Meta and social-media lawsuits",
+        "expected": "persist",
+        "sign": "Meta and social-media lawsuits is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Helen Haines car attack stays in the news at the same level. South Africa vs Australia cricket stays in the news at the same level. RBA and economic outlook stays in the news at the same level. Meta and social-media lawsuits is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Helen Haines car attack and threats to politicians",
+        "expected": "The terrorism squad inquiry will produce its first public finding on whether the Haines attack was ideologically motivated, and the driver will face a bail hearing that tests the 'targeted' classification.",
+        "direction": "persist",
+        "sign": "A headline will quote a terrorism squad spokesperson on the preliminary classification of the attack and the driver's court outcome."
+      },
+      "second": {
+        "subject": "Cape Town Test decider selection",
+        "expected": "Australia will announce a changed batting lineup for the Cape Town decider, with the Smith injury and the innings defeat forcing a reshuffle that draws sharp criticism from selectors and pundits.",
+        "direction": "persist",
+        "sign": "A headline will name the replacement for Smith and frame the selection as a direct response to the 'shambolic' defeat in the second Test."
+      },
+      "third": {
+        "subject": "RBA inflation outlook and November rate decision",
+        "expected": "The 'materially worse' inflation warning will anchor a week of economic data releases that confirm the growth slowdown, pushing the November rate decision to the centre of market commentary.",
+        "direction": "persist",
+        "sign": "A headline will frame the upcoming RBA meeting as a near-certain rate hike driven by the deteriorating inflation outlook."
+      },
+      "fade_call": {
+        "subject": "Sydney second airport",
+        "expected": "fade",
+        "sign": "The airport will appear only as a brief aside within a broader infrastructure or transport story rather than as a standalone headline."
+      },
+      "surprise": {
+        "subject": "Woodside gas project pause",
+        "expected": "The Greenpeace protest that paused the Woodside natural gas project will trigger a formal government review, forcing a public decision between the project's energy contribution and Australia's climate commitments.",
+        "chance": "medium"
+      },
+      "summary": "The week ahead in Australia will be defined by the aftermath of the Helen Haines car attack, as the terrorism squad inquiry reaches a preliminary finding on the nature of the targeting and the driver faces further court proceedings. The broader pattern of threats against politicians will stay in the headlines, with the second threatened female lawmaker expected to speak publicly on her security arrangements. In sport, Australia will name its team for the Cape Town Test decider, with the Smith injury and the series-leveling defeat forcing selection changes that dominate cricket coverage. Economically, the RBA's 'materially worse' inflation warning will anchor a week of data releases and market commentary, with the November rate decision becoming the central question. Corporate stress will persist as the NAB job cuts ripple through the banking sector and the deal frenzy produces at least one major acquisition. The Sydney airport story will fade from the headlines, while the Woodside gas project pause may escalate into a broader energy policy confrontation.",
+      "generated_at": "2026-10-25T08:11:33+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Helen Haines attack aftermath",
+        "expected": "The charged driver faces a bail hearing while police open a formal investigation into the second female lawmaker's threat, and the terrorism squad releases preliminary findings on the motive.",
+        "direction": "escalate",
+        "sign": "A headline announcing the driver's bail conditions or a new formal police investigation into the second lawmaker's threat"
+      },
+      "second": {
+        "subject": "Cape Town cricket decider",
+        "expected": "Australia and South Africa meet in the third Test with the series on the line, and Australia's selection changes and Smith's fitness will be the central narratives.",
+        "direction": "persist",
+        "sign": "A headline reporting the third Test result with a series-clinching victory for one side"
+      },
+      "third": {
+        "subject": "RBA warning and market stress",
+        "expected": "The RBA's 'materially worse' inflation warning and the November rate uncertainty will drive a round of corporate earnings warnings and further ASX selling in the tech and property sectors.",
+        "direction": "persist",
+        "sign": "A headline about another major ASX-listed company cutting its profit forecast or a sector-wide sell-off following the central bank's guidance"
+      },
+      "fade_call": {
+        "subject": "Snowy Hydro cost blowout",
+        "expected": "fade",
+        "sign": "The Snowy Hydro cost story drops from front pages and is replaced by routine energy-sector or parliamentary budget reporting"
+      },
+      "surprise": {
+        "subject": "ASX trading-outage response",
+        "expected": "The ASX announces a formal regulatory review of its trading systems and a compensation framework for investors affected by the outages.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Australia's political centre of gravity stays fixed on the Helen Haines car attack. The charged driver will face a bail hearing, the terrorism squad will release preliminary findings, and police will open a formal probe into the second female lawmaker's threat. Parliament will debate member security, and the opposition will press for a public inquiry. On the cricket field, the Cape Town decider will settle the South Africa series, with selection changes and Smith's fitness the key narratives. In markets, the RBA's 'materially worse' inflation warning will hang over a week of earnings, and private-credit stress will test ASX-listed property stocks. The Snowy Hydro cost blowout will fade, and the Sydney airport contradiction will resolve into a single reporting line. A watch item is the ASX's response to its trading outages, which may trigger a regulatory review and investor compensation.",
+      "generated_at": "2026-10-25T08:27:31+02:00"
+    }
+  },
+  "display": {
+    "headline": "Haines Trial, Cape Town Decider, and Market Jitters Define Australia's Week",
+    "emojis": [
+      "💥",
+      "🏅",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The deliberate car-ramming attack on MP Helen Haines and the second lawmaker's threat define the week's political drama.",
+      "The Cape Town cricket decider will settle the South Africa series and dominate sports coverage.",
+      "The RBA's worsening inflation outlook and the wave of corporate earnings warnings will drive market anxiety."
+    ],
+    "tldr": "Australia's next week is defined by the Helen Haines attack aftermath—bail hearing, terrorism probe, and the second lawmaker's threat—plus the Cape Town cricket decider. Markets will feel the RBA's 'materially worse' inflation warning through a round of earnings cuts. The Snowy Hydro cost story fades.",
+    "eli5": "Last week, an Australian politician named Helen Haines was deliberately run over by a car and lost both legs. A second female politician was also threatened. Police say it was on purpose, and a special terrorism team is looking into why. Next week, the person who drove the car will go to court for a bail hearing, and police will start a proper investigation into the second threat.\n\nThe reason this is a big deal is that Australian politicians have been getting more and more threats lately, and this was the worst one yet. The prime minister called it 'no accident,' which means the government is taking it very seriously.\n\nIn cricket, Australia and South Africa are tied in a best-of-three series. The deciding match is in Cape Town, and Australia is in a mess because their best player got hurt and they need to pick a new team. Expect a dramatic result either way.\n\nIn the economy, the central bank said prices are getting worse than expected, and big companies are cutting jobs and lowering their profit forecasts. This means the stock market is nervous.\n\nA surprise would be if the stock exchange itself announces a formal investigation into the computer glitches that happened this week, or if the government suddenly announces new security rules for all politicians."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [86], [4], and [45] confirm the Bledisloe Cup and Rugby League World Cup remained in the headlines at a similar volume to the prior round."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headline [46] 'Mexico imprisons killers of US, Australian surfers for 158 years each' shows the story persisted into this round as predicted."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [9], [63], [105], [99], and [48] confirm monetary policy and labour-market stories stayed prominent, matching the persist call."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'Navy ship hidden camera' under 'No longer in the headlines,' contradicting the prediction that it would persist."
+          }
+        },
+        "archer_note": "Bulletin X missed the week's dominant story entirely: the deliberate car-ramming of MP Helen Haines, which generated dozens of headlines and a terrorism inquiry. Its 'more of the same' thesis was wrong in the sense that a major new political story emerged and consumed the news cycle, though the three items it did track all persisted as predicted. The fade call on the Navy ship was a confident error, and the bulletin offered no surprise item, leaving it with no upside if the obvious new stories appeared."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [4] and [27] confirm Australia played a Rugby League World Cup fixture and won 78-0, but the sign's detail about 'a try-scoring forward's performance' is not explicitly reflected in any headline."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [108] 'Woodside natural gas project unit paused after Greenpeace protest' shows a resolution, but it was a pause rather than the court order or negotiated release the bulletin specified."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [2], [3], [89], and [94] confirm South Africa leveled the series and Australia faced selection headaches, matching the prediction of a result forcing a squad reshuffle."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headline [46] shows the Mexico surfer story concluded with final imprisonment sentences, consistent with the fade call that it would reduce to a brief update or retrospective."
+          }
+        },
+        "archer_note": "Bulletin Y missed the Helen Haines car-attack story, which was the week's dominant headline, and also missed the Zip fraud, NextDC earnings warning, and Snowy Hydro cost blowout. Its H5N1 surprise did not materialize, and the Woodside prediction was directionally right but over-specific on the resolution mechanism. The main thesis was not wrong so much as incomplete: it correctly tracked the sports and energy threads but had no slot for the political crisis that consumed the week."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [2] and [12] confirm South Africa beat Australia by an innings to level the series 1-1, exactly matching the prediction of a series-levelling win."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [108] shows Woodside paused operations after the Greenpeace protest, which is a formal response but not the 'resuming operations or filing a legal claim' mechanism the bulletin specified."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [4] confirms Australia played a Rugby League World Cup fixture and won, but the opponent was England, not the 'Pacific Island or Asian group-stage opponent' the bulletin predicted."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [46] shows the Mexico surfer story concluded with imprisonment sentences, consistent with fading, but the bulletin's specific mechanism of 'appeals or bail discussions' was not the actual development."
+          }
+        },
+        "archer_note": "Bulletin Z nailed the cricket lead with precise specificity (series-levelling win) but missed the Helen Haines attack, the Zip fraud, and the Snowy Hydro cost blowout, all of which dominated the week. Its Woodside and RLWC predictions were in the right category but over-specific on the mechanism or opponent. The main thesis was not wrong—it correctly identified the cricket match as the lead and the energy protest as a secondary thread—but it had no room for the political crisis that defined the week."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Bulletin Y made more specific, falsifiable predictions (Woodside resolution mechanism, Test result forcing a reshuffle, RLWC opponent type) whereas X offered only generic 'persist' calls with no detail. Y's fade call on Mexico was correct while X's fade call on the Navy ship was wrong, giving Y a clean edge on specificity and accuracy."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Bulletin Z's lead was a precise, accurate prediction of South Africa leveling the series, while X's items were undifferentiated 'persist' calls that could apply to almost any week. Z also got the Woodside and RLWC categories right even where details shifted, whereas X's Navy ship fade call was a confident miss."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Bulletin Y's fade call on Mexico came true cleanly while Z's was only directionally right, and Y's Test-series prediction (squad reshuffle) matched reality without the over-specific opponent error Z made on the RLWC fixture. Both missed the Helen Haines story and the corporate shocks, but Y's slightly higher count of came_true grades and fewer invented details give it a narrow edge."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": -1.0,
+      "persistence_vs_crystal": -1.0,
+      "plain_vs_crystal": 1.0
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nAustralia's week was defined by a mix of sporting disappointment, an international justice milestone, and domestic economic recalibration. In rugby, Australia beat Scotland with an eight-try display but then lost badly to New Zealand 43-21 in the second Bledisloe test in Sydney, with the All Blacks dominating the first half. In rugby league, the Wallabies edged New Zealand 24-22 in the World Cup opener. Three men in Mexico were each sentenced to 158 years in prison for the murders of an Australian and a US surfer, closing out a case that had gripped both countries. Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, briefly pausing operations and intensifying the energy-transition debate. A hidden video camera was discovered in the women's shower of an Australian navy ship, prompting a formal inquiry. The first confirmed H5N1 bird-flu case was reported on sub-Antarctic Macquarie Island, raising biosecurity concerns. On the\n- Bledisloe Cup and Rugby League World Cup (dominant, continuing): Australia beat Scotland with an eight-try display but lost 43-21 to New Zealand in the second Bledisloe test, and then edged New Zealand 24-22 in the Rugby League World Cup opener.\n- Surfers' murder sentencing in Mexico (dominant, resolved): Three men were each sentenced to 158 years in prison for killing an Australian and a US surfer in Mexico, closing out a high-profile cross-border case.\n- Monetary policy and labour market (regular, de-escalating): September employment data showed rising unemployment, easing pressure for further RBA rate hikes, softening home-auction volumes, and prompting the treasurer to stress focus on inflation.\n- Greenpeace / Woodside gas protest (regular, escalating): Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, temporarily pausing operations and sharpening the energy-transition debate.\n- Navy ship hidden camera (regular, new): A hidden video camera was discovered in the women's shower area of an Australian navy ship, and a formal inquiry was opened.\n- South Africa cricket series (regular, continuing): South Africa sought a bounce-back against Australia in a Test series, with squad selection still undecided after a first-test loss that saw a player wield an axe in frustration.\n- H5N1 on Macquarie Island (occasional, new): Australia confirmed its first H5N1 bird-flu case on sub-Antarctic Macquarie Island, prompting biosecurity monitoring.\n- First Michelin stars (occasional, new): Australia received its first Michelin stars, with eleven restaurants in a single state receiving recognition.\n- 3M forever-chemicals lawsuit (occasional, continuing): 3M told an Australian court it would contest the A$1.4 billion class-action claim on procedural grounds.\n- Renewables and AI capital (occasional, continuing): Victoria approved the country's largest wind-power project and unveiled a A$250 million solar-scale-up fund, while analysts warned the AI boom risks diverting capital from Australia's renewables push.\n- Algorithm opt-out trial (occasional, new): Australia moved to pilot a mechanism allowing consumers to opt out of social-media algorithmic feeds, a first-of-its-kind consumer choice.\n\nRound 2026-10-02:\nAccording to the text, OpenAI admitted its response to an Australian government data breach was not good enough, while Anthropic said it would welcome tougher regulation and parliament pressed both companies for answers. The High Court delivered a landmark ruling backing a grassroots climate group in a challenge to a coal mine extension, which industry called a significant blow. The FlyDubai co-pilot, a former failed university student in Australia, became the subject of a multi-agency investigation spanning Australia and New Zealand. Global bond markets sold off, pushing Australian interest rates to 15-year highs and consumer confidence lower after a rate hike. The opposition pledged what it called the largest immigration cut in the country's history. In business, KPMG's reputation crumbled as ANZ dropped it, the Firmus Grid IPO approached a reported 30 billion dollar valuation, and proxy advisers pressed ASX boards on executive pay. Sports headlines carried the Bledisloe Test,\n- OpenAI admitted its government breach response (regular, continuing): OpenAI admitted its government breach response was inadequate and parliament held a hearing with both OpenAI and Anthropic.\n- The High Court ruled in favour (regular, continuing): The High Court ruled in favour of a grassroots climate group challenging a coal mine extension, a landmark precedent.\n- Australian and New Zealand authorities launched (regular, continuing): Australian and New Zealand authorities launched a multi-agency investigation into the FlyDubai co-pilot's time in Australia.\n- The opposition party pledged the largest (regular, continuing): The opposition party pledged the largest immigration cut in Australian history, promising detailed visa and border changes.\n- Australian interest rates reached 15-year highs (regular, continuing): Australian interest rates reached 15-year highs amid a global bond selloff and falling consumer confidence.\n- Australian interest rates reached 15-year highs (again) (regular, continuing): Australian interest rates reached 15-year highs amid a global bond selloff and falling consumer confidence.\n",
+    "PREVIOUS_FORECAST": "Lead: South Africa second Test. Expected: Australia will face South Africa in the second Test with the Proteas pushing hard for a series-levelling win after conceding the first match. Direction: escalate. Sign: A headline announcing the second Test result with a dramatic finish or a series-leveling scoreline\nSecond: Woodside gas protest. Expected: Woodside will announce a formal response to the Greenpeace occupation, either resuming operations or filing a legal claim against the activists. Direction: escalate. Sign: A headline about Woodside resuming or suspending gas production in response to the platform occupation\nThird: Rugby League World Cup. Expected: Australia will play its second Rugby League World Cup match against a Pacific Island or Asian group-stage opponent. Direction: persist. Sign: A headline with Australia's score and try-getter in its next group-stage Rugby League World Cup fixture\nFade call: Mexico surfer murders. Expected: fade. Sign: The sentencing stories disappear from front pages and are replaced by appeals or bail discussions\nSurprise (chance medium): Private credit funding pullback. A major Australian bank will announce tightened lending criteria for private credit funds, triggering a brief sell-off in ASX-listed property and infrastructure stocks.\nSummary: Next week, Australia's attention shifts to the cricket field as South Africa pushes for a series-levelling win in the second Test, with low crowds at the first match already prompting a format review. The Rugby League World Cup advances with Australia facing its next group-stage fixture after a narrow opener over New Zealand. In Western Australia, Woodside will respond formally to the Greenpeace occupation of its gas platform, either restarting operations or escalating the legal dispute. The economy enters a calmer phase as September's employment data cools rate-hike expectations, with the treasurer signalling a focus on inflation over growth. The Mexico surfer-murder sentencing fades from headlines as the case moves toward appeals. A watch item is the private-credit funding pullback, which may rattle ASX-listed property stocks if a major bank tightens lending terms.\n",
+    "JUDGE_NOTES": "- lead: came_true. Headlines [2] and [12] confirm South Africa beat Australia by an innings to level the series 1-1, exactly matching the prediction of a series-levelling win.\n- second: true_in_direction. Headline [108] shows Woodside paused operations after the Greenpeace protest, which is a formal response but not the 'resuming operations or filing a legal claim' mechanism the bulletin specified.\n- third: true_in_direction. Headline [4] confirms Australia played a Rugby League World Cup fixture and won, but the opponent was England, not the 'Pacific Island or Asian group-stage opponent' the bulletin predicted.\n- fade_call: true_in_direction. Headline [46] shows the Mexico surfer story concluded with imprisonment sentences, consistent with fading, but the bulletin's specific mechanism of 'appeals or bail discussions' was not the actual development.\nArcher note: Bulletin Z nailed the cricket lead with precise specificity (series-levelling win) but missed the Helen Haines attack, the Zip fraud, and the Snowy Hydro cost blowout, all of which dominated the week. Its Woodside and RLWC predictions were in the right category but over-specific on the mechanism or opponent. The main thesis was not wrong—it correctly identified the cricket match as the lead and the energy protest as a secondary thread—but it had no room for the political crisis that defined the week.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

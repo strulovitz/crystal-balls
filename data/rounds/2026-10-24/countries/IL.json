@@ -1,0 +1,832 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-22",
+  "is_legacy": false,
+  "code": "IL",
+  "name": "Israel",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T22:22:59+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "The week was dominated by the approaching October 27 Israeli election and a major escalation in the West Bank. Two Israeli soldiers were killed in a shooting attack near Hebron, prompting Prime Minister Netanyahu to order a full closure of the West Bank, launch what he called a large-scale anti-terror operation, and begin demolishing Palestinian buildings in the city. The campaign between Netanyahu and his main challenger, former military chief Gadi Eisenkot, turned increasingly ugly, with extreme rhetoric from both sides and the far-right Ben-Gvir seeking new ground among young voters. Arab parties positioned themselves as kingmakers, while Israelis abroad traveled home in large numbers to vote. Trump endorsed Netanyahu nine days before the vote, while Vice President JD Vance notably declined to do so. Settler violence surged, with masked settlers attacking European diplomats, a French mayor, and a US journalist, and the Israeli military detaining US congressional candidate Brad Lander at an olive harvest. Israel arrested ten suspects over the attacks. In Gaza, the World Food Programme cut aid to 500,000 Palestinians over funding shortages, and Israeli fire killed at least four. Israel also pushed to restart strikes against Iran, and Defense Secretary Hegseth made an unannounced visit to discuss the matter.",
+    "key_events": [
+      {
+        "event": "Two Israeli soldiers killed in a shooting near Hebron; Netanyahu orders full closure of the West Bank and launches a major military operation",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Israeli election set for October 27 pits Netanyahu against Gadi Eisenkot, with Arab parties and diaspora voters seen as swing factors",
+        "date": "2026-10-27",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Trump endorses Netanyahu for reelection while JD Vance declines, creating a split in the US administration's public support",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Masked Israeli settlers attack European diplomats and a French mayor in the West Bank; Israel arrests ten suspects",
+        "date": "2026-10-19",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "World Food Programme cuts aid to 500,000 Palestinians in Gaza and 200,000 in the West Bank due to funding shortages",
+        "date": "2026-10-20",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Israel begins demolishing Palestinian buildings in Hebron and imposes roadblocks across the city following the soldiers' deaths",
+        "date": "2026-10-23",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Israel pushes to restart strikes against Iran; Hegseth makes unannounced visit to discuss the matter with Netanyahu",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "US congressional candidate Brad Lander detained and then released by Israeli military at a West Bank olive harvest",
+        "date": "2026-10-19",
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "security",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🗳️",
+      "⚔️",
+      "🔫"
+    ],
+    "emoji_reasons": [
+      "The October 27 election between Netanyahu and Eisenkot, with Arab kingmakers and diaspora voting, is the single most-covered story across all headlines.",
+      "Netanyahu ordered a full West Bank closure and launched a major military operation after two soldiers were killed near Hebron, per headlines 1, 9, 34, and 62.",
+      "The shooting that killed two soldiers and the surge of settler attacks on diplomats and a US candidate define the week's armed-violence theme, per headlines 37, 49, and 93."
+    ],
+    "developments": [
+      {
+        "subject": "West Bank closure and military operation",
+        "what_happened": "After two soldiers were killed near Hebron, Netanyahu ordered a full closure of the West Bank, launched a large-scale anti-terror operation, and began demolishing buildings in the city.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          6,
+          9,
+          12,
+          14,
+          17,
+          19,
+          22,
+          24,
+          29,
+          31,
+          34,
+          37,
+          39,
+          42,
+          52,
+          53,
+          62,
+          63,
+          67,
+          70,
+          72,
+          82
+        ]
+      },
+      {
+        "subject": "October 27 election campaign",
+        "what_happened": "The race between Netanyahu and Gadi Eisenkot intensified with extreme rhetoric, far-right gains among young voters, Arab parties positioning as kingmakers, and Israelis abroad traveling home to vote.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          4,
+          5,
+          7,
+          10,
+          13,
+          18,
+          26,
+          27,
+          30,
+          32,
+          41,
+          45,
+          47,
+          54,
+          57,
+          60,
+          65,
+          66,
+          76,
+          78,
+          79,
+          83,
+          89,
+          91,
+          92,
+          98,
+          101,
+          111,
+          115,
+          121,
+          127,
+          129,
+          130,
+          133,
+          137,
+          145,
+          149,
+          152,
+          160,
+          162,
+          168,
+          171
+        ]
+      },
+      {
+        "subject": "Settler violence and diplomatic incidents",
+        "what_happened": "Masked settlers attacked European diplomats, a French mayor, and a US journalist in the West Bank; Israel arrested ten suspects, and US candidate Brad Lander was detained at an olive harvest.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          20,
+          33,
+          40,
+          49,
+          59,
+          84,
+          87,
+          88,
+          90,
+          93,
+          117,
+          126,
+          131,
+          136,
+          142,
+          147,
+          157,
+          159,
+          164,
+          172,
+          173
+        ]
+      },
+      {
+        "subject": "Trump endorsement and US split",
+        "what_happened": "Trump endorsed Netanyahu nine days before the vote while Vice President Vance declined to endorse, and Hegseth made an unannounced visit to Israel to discuss Iran.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          23,
+          64,
+          71,
+          73,
+          80,
+          99,
+          102,
+          106,
+          108,
+          112,
+          135,
+          138,
+          141,
+          154,
+          155,
+          161,
+          166,
+          167
+        ]
+      },
+      {
+        "subject": "Gaza aid cut and famine risk",
+        "what_happened": "The World Food Programme cut aid to 500,000 Gazans and 200,000 West Bank Palestinians over funding shortages, while Israeli fire killed at least four and children faced worsening food shortages.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          58,
+          103,
+          116,
+          118,
+          124,
+          125,
+          128,
+          134,
+          140,
+          146,
+          150,
+          163,
+          169
+        ]
+      },
+      {
+        "subject": "Iran strike planning",
+        "what_happened": "Netanyahu reportedly made plans to restart strikes against Iran earlier in the month, and Israel pushed to resume operations while Hegseth visited to discuss the matter.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          56,
+          75,
+          85,
+          104,
+          114
+        ]
+      },
+      {
+        "subject": "Malaysia Waze ban",
+        "what_happened": "Malaysia banned civil servants from using the Israel-based Waze mapping app and may widen the ban, citing links to Israel.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          8,
+          43,
+          96
+        ]
+      },
+      {
+        "subject": "Syria raid",
+        "what_happened": "Israeli forces killed a man with Down syndrome during a raid in southern Syria, drawing attention to the incursion.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          97,
+          156
+        ]
+      },
+      {
+        "subject": "Investment and economic signals",
+        "what_happened": "Pershing Square's Ackman declared strong long-term belief in Israel and predicted a trillion-dollar Israeli company within a decade, while Paulson committed 250 million dollars to an Israeli university.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          36,
+          120
+        ]
+      },
+      {
+        "subject": "Pacific Islands Forum partnership",
+        "what_happened": "Israel was accepted as a partner in the Pacific Islands Forum, per its foreign minister.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          123
+        ]
+      }
+    ],
+    "gone": [],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide extensive coverage of the West Bank escalation, the election campaign, settler violence, and Gaza aid cuts, with sufficient breadth across politics, security, diplomacy, and society, though economic and technological stories are relatively thin."
+    },
+    "headlines_used": [
+      "Palestinian gunmen kill two Israeli soldiers; Israel threatens new West Bank offensive",
+      "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news",
+      "As Israeli election nears, campaign turns ugly",
+      "Weekend | Israel elections: what happens next?",
+      "Who is Gadi Eisenkot, Netanyahu’s main challenger in Israel’s elections?",
+      "Israel orders home demolitions after soldiers killed in West Bank",
+      "Israël: les partis arabes se voient en faiseurs de rois pour faire tomber Netanyahu",
+      "Malaysia May Widen Ban on Israel-Based Waze Traffic App, PM Says",
+      "Netanyahu Calls for West Bank Lockdown After Deadly Attack",
+      "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
+      "Pershing Square CEO Bill Ackman: I'm a big believer in Israel long-term",
+      "Why is Israel launching a new military operation in the occupied West Bank?",
+      "Eisenkot offers hawkish alternative to Netanyahu for Israeli PM",
+      "Israel imposes closures across a West Bank city after attacks, and other Mideast news",
+      "Inside Gaza: Screening on 2 November, Ciné Lumière at the Institut français du Royaume-Uni, London",
+      "Israel & the Palestinians",
+      "Israel begins demolitions in West Bank city after two soldiers killed in shooting attack",
+      "Ehud Olmert: ‘Likely Netanyahu will not be reelected’",
+      "Évacuations forcées, immeuble rasé... Ce que l'on sait sur l''opération d'ampleur' menée par Israël en Cisjordanie occupée",
+      "Israel Detains US Democratic Nominee Lander at West Bank Harvest",
+      "Israel’s New Center of Gravity",
+      "Netanyahu threatens ‘aggressive’ offensive after West Bank shooting",
+      "JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise",
+      "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
+      "Italy calls for release of five activists held by Israel in West Bank",
+      "In Netanyahu stronghold, signs of fraying loyalty emerge before election",
+      "Israel's far-right Ben Gvir seeks new ground in election",
+      "Israel",
+      "Israel orders closure of West Bank after two soldiers are killed",
+      "2026 Israel election",
+      "Cisjordanie : opération militaire majeure après la mort de deux soldats israéliens",
+      "Israeli Elections: Is Israel Strong Enough To Go It Alone?",
+      "Congressional Candidate Brad Lander Says Israeli Military Detained Him in West Bank",
+      "Benjamin Netanyahu orders West Bank’s closure after gun attack wounds five Israelis",
+      "How Benjamin Netanyahu reshaped Israel’s institutions",
+      "Pershing's Ackman sees a $1 trillion Israeli company within a decade",
+      "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead",
+      "Gaza teen amputees recount hopes, lost dreams in Jordan centre",
+      "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+      "Washington Post journalist says attack by Israeli West Bank settlers has only ‘strengthened’ her resolve",
+      "Could Arab voters hold the key in Israel's election?",
+      "Netanyahu ordonne le bouclage de la Cisjordanie après une attaque à l'approche des élections en Israël",
+      "Malaysia Bans Civil Service Use of Google’s Israel-based Waze",
+      "‘Israel’s Lobby’ Review: The Revival of an Old Smear",
+      "The battle for Israel’s future",
+      "Lebanese sceptical Israeli polls will bring change, end occupation of south",
+      "How would a Netanyahu election loss change Israel's policies toward the Palestinians?",
+      "Israel orders West Bank closure after deadly shooting, Trump officials offer mixed messages on Ukraine’s Starshield",
+      "Israeli settlers attack European diplomats, beat French mayor",
+      "The Documentary Podcast | The right thing: Gaza's parish priest",
+      "How Israel under Netanyahu has reshaped the West Bank",
+      "Israeli army says 'terror attack' prevented after shooting",
+      "\"Bouclage total\" de la Cisjordanie: ce que l'on sait de l'attaque armée qui a fait au moins 5 blessés israéliens à Hébron",
+      "Israelis Abroad Fly Home to Vote, Posing Threat to Netanyahu",
+      "Opinion | How Israel Can Help the Board of Peace",
+      "Netanyahu made plans to restart Iran strikes earlier this month",
+      "‘Generation Right’: Israeli youth show strong support for the right",
+      "Israeli fire kills four people in Gaza, medics say",
+      "Emboldened Israeli settlers lead a surge of attacks on Palestinians’ olive harvest",
+      "Gadi Eisenkot: Wane ne babban abokin hamayyar Netanyahu a zaɓen Isra'ila?",
+      "How an Israeli outpost in the West Bank has become part of a wider cycle of violence against Palestinians",
+      "1. Israel preparing 'full closure' of West Bank, Netanyahu says - DW.com",
+      "VIDÉO. Proche-Orient : deux soldats israéliens tués dans une attaque près d'Hébron",
+      "Trump’s Endorsement of Netanyahu Falls Flat With Israeli Voters",
+      "Israel’s Front-Runners Shun Arab Voters Who Could Help Them Win Election",
+      "The far-right contender refusing to bow to Israel’s Benjamin Netanyahu",
+      "Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
+      "Israel frees from custody almost all suspects in two settler attacks, puts them under house arrest",
+      "PHOTO ESSAY: Inside an elite ultra-Orthodox school as Israel's draft dispute looms over election",
+      "PM | Israel's army prepares for full lockdown of occupied West Bank",
+      "Vance declines to endorse Netanyahu’s reelection bid, breaking with Trump",
+      "Netanyahu ordonne le \"bouclage\" de la Cisjordanie après une attaque, \"opérations antiterroristes\" en cours",
+      "Hegseth Meets Netanyahu in Israel, Days Before Vote, Axios Says",
+      "Trump Endorses Israel’s Netanyahu for Re-Election",
+      "Israel pushes to restart strikes against Iran",
+      "Ultra-Orthodox conscription debate ignites Israel’s election battleground",
+      "UN expert urges Indonesia to reconsider involvement in Trump's Gaza board",
+      "A look at the major candidates in Israel’s election Tuesday",
+      "How do Israel's elections work and who are the main contenders?",
+      "JD Vance declines to endorse Netanyahu",
+      "On The Day with Phil Gayle: Benjamin Netanyahu fights to stay in power",
+      "Deux soldats israéliens tués en Cisjordanie, Netanyahu annonce une opération militaire majeure",
+      "Win or Lose, Netanyahu Has Reshaped Israeli Politics in His Image",
+      "Masked Israeli Settlers Attack European Diplomats in West Bank",
+      "Transcript: Israel pushes to restart strikes against Iran",
+      "Why is Israel increasing its presence in the Balkans?",
+      "Israeli settlers steal Palestinians' olives as attacks on harvest grow more violent",
+      "Israeli forces detain and then release US congressional candidate at West Bank harvest",
+      "How Arab parties could hold critical balance of power in Israeli election",
+      "Amid US pressure on settler violence, Israel arrests at least 10 suspected of West Bank attacks on journalist, diplomats",
+      "Israelis living abroad are traveling en masse to vote",
+      "En Israël, la force tranquille de Gadi Eisenkot menace Netanyahu",
+      "Israel Arrests 10 for Settler Attack on US Journalist, Diplomats",
+      "Flight from Israel diverted after ‘threat’ reported",
+      "Israeli roadblocks disrupt schools and medical care in West Bank village",
+      "Malaysia bans civil servants from using mapping app Waze, citing links to Israel",
+      "A man with Down syndrome killed in an Israeli raid in southern Syria, residents say",
+      "Israel's far right find fertile ground among first-time voters",
+      "Trump endorses Netanyahu days before Israeli elections",
+      "Is Israel running out of friends?",
+      "\"Je ne vote que pour Bibi\" : la foi intacte des partisans de Netanyahu",
+      "Trump Endorses Netanyahu for Reelection as Israeli Leader",
+      "UN to cut food aid to 500,000 Gazans over funding shortfall",
+      "Netanyahu promises Iran regime change: Can Israel topple Tehran government?",
+      "US congressional candidate Brad Lander released after being detained by Israeli military in West Bank",
+      "JD Vance declines to endorse Netanyahu for reelection, says he’s focusing on midterms",
+      "The Global Story | They were loyal Democrats. Then came Gaza",
+      "Nine days before Israeli elections, Trump finally endorses Netanyahu",
+      "Benjamin Netanyahu – All Content on this topic – Page 1 of 16",
+      "Dans le Michigan, les électeurs juifs hésitants face à un démocrate critique d'Israël",
+      "Israeli Arabs Mobilize to Oust Netanyahu in Tightly Fought Vote",
+      "Trump endorses Netanyahu ahead of Israeli elections",
+      "Outposts, violence, impunity: The anatomy of Israeli settler land grabs",
+      "Israel's election may change its leader, but not Iran war policy",
+      "In their own words: Israeli politicians’ extreme speech surges ahead of elections",
+      "Funding shortages force World Food Programme to cut Gaza aid",
+      "Israeli settlers attack group of European diplomats in the occupied West Bank",
+      "Half a million Palestinians in Gaza are to lose food support amid WFP funding shortage",
+      "Cisjordanie: l'armée israélienne a interpellé un candidat américain qui participait à la récolte des olives avec des Palestiniens",
+      "Paulson Shifts Giving to Israel With $250 Million for University",
+      "Arab Israeli voters aim to eject Netanyahu",
+      "Israel frees suspects in two settler attacks as West Bank pogroms intensify",
+      "Israel accepted as a Pacific Islands Forum partner, Israeli Foreign Minister says",
+      "Short of funds, UN food agency cuts aid to 500,000 Palestinians in Gaza and 200,000 in the West Bank",
+      "Global News Podcast | World Food Programme to cut aid to Gaza",
+      "West Bank: Israel arrests 10 suspects over settler attacks on US journalist, European diplomats",
+      "Du boycott aux urnes, les Druzes du Golan se rapprochent d'Israël",
+      "‘Longer we wait, worse it gets’: Struggle of Gaza’s breast cancer patients",
+      "Israel's Ben-Gvir poised for election gains as young voters turn to far right",
+      "A look at key parties in Israel’s Oct. 27 election seen as a referendum on Netanyahu",
+      "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
+      "How much power do Israeli settlers have over West Bank policy?",
+      "Les violences de colons, un sujet embarrassant pour Netanyahu à la veille des élections",
+      "Israeli attacks kill four as famine risk looms in Gaza",
+      "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+      "Israeli police arrest 10 following weekend attacks by settlers on journalist and diplomats",
+      "How AI is shaping Israel's election campaign",
+      "Législatives en Israël: 'Soutien plein et entier' de Donald Trump à Benjamin Netanyahu avant un scrutin décisif",
+      "Jerusalem Daily: Israeli soldier abusing cat goes viral",
+      "Israel to resume commercial shipments to Gaza after Hamas fee dispute",
+      "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+      "European diplomats attacked by Israeli settlers in West Bank",
+      "Gaza Strip – All Content on this topic – Page 1 of 41",
+      "Dans un hôpital de Jordanie, paroles d'adolescents gazaouis amputés",
+      "In Israel election, Palestinian citizens weigh fear against disillusionment",
+      "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages",
+      "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
+      "Dowladda Shiinaha oo ugu baaqday Israa'iil in ay joojiso arrin ay ka wado gudaha Gaza",
+      "Israel elections: Who is Gadi Eisenkot, Netanyahu's challenger?",
+      "Gaza: faute de moyens, le PAM contraint de réduire drastiquement son aide humanitaire",
+      "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
+      "Arab voter turnout could make or break Netanyahu in Israeli election",
+      "Israel-Lebanon agreement shines light on long-lost Jewish community",
+      "Israel: Trump endorses Netanyahu ahead of elections",
+      "Trump adoube Netanyahu avant des législatives décisives en Israël",
+      "Israeli forces kill disabled man in southern Syria raid, state media says",
+      "Israeli police arrest suspects over settler attacks on US journalist, European diplomats",
+      "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza",
+      "European diplomats attacked by Israeli settlers",
+      "Far from fringe: How Israel’s mainstream parties vote with the far right",
+      "Trump endorses Netanyahu in close Israeli election",
+      "America’s politically divided Jewish community braces for Israel’s elections",
+      "Gaza children face worsening food shortages as prices rise and aid is cut",
+      "West Bank: Israeli settlers attack EU diplomats, French mayor",
+      "Israeli soldiers mock Lebanese home they rigged with explosives",
+      "‘Not getting involved’: US vice president refuses to endorse Netanyahu",
+      "Hegseth meets Netanyahu on unannounced Israel visit",
+      "Israel’s elections 2026 explained in maps and charts",
+      "Israeli attacks kill at least four Palestinians in Gaza",
+      "Ben-Gvir mocks Gaza destruction in AI-generated video",
+      "The kingmakers who could determine Israel’s election",
+      "Al Jazeera investigation challenges Israeli account of Heidi Levine attack",
+      "Hardline Israeli rabbi ruling on stolen Palestinian olives prompts uproar"
+    ],
+    "converted": false,
+    "relevant_headlines": 173,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "West Bank closure and military operation",
+        "expected": "West Bank closure and military operation stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about West Bank closure and military operation appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "October 27 election campaign",
+        "expected": "October 27 election campaign stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about October 27 election campaign appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Settler violence and diplomatic incidents",
+        "expected": "Settler violence and diplomatic incidents stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Settler violence and diplomatic incidents appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Trump endorsement and US split",
+        "expected": "persist",
+        "sign": "Trump endorsement and US split is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. West Bank closure and military operation stays in the news at the same level. October 27 election campaign stays in the news at the same level. Settler violence and diplomatic incidents stays in the news at the same level. Trump endorsement and US split is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "October 27 election result",
+        "expected": "The election will produce a result that will determine the next prime minister and immediately trigger coalition negotiations among the parties.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the final vote count, the identity of the winner, and the opening of government-formation talks."
+      },
+      "second": {
+        "subject": "West Bank military operation",
+        "expected": "The full closure and large-scale anti-terror operation will expand with new raids, demolitions, and detentions across the occupied territory.",
+        "direction": "escalate",
+        "sign": "Headlines will report new military incursions, building demolitions, and Palestinian casualties in the West Bank."
+      },
+      "third": {
+        "subject": "Gaza food crisis",
+        "expected": "The World Food Programme aid cut will take effect as food shortages worsen among the affected Palestinians, drawing renewed international attention.",
+        "direction": "escalate",
+        "sign": "Headlines will report growing hunger, empty shelves, and international calls for emergency funding in Gaza."
+      },
+      "fade_call": {
+        "subject": "Trump endorsement and Vance split",
+        "expected": "fade",
+        "sign": "The endorsement will be referenced within election coverage but will no longer generate standalone headlines."
+      },
+      "surprise": {
+        "subject": "Ben-Gvir party surge",
+        "expected": "Ben-Gvir's party will capture a significantly larger share of the vote than pre-election polling indicated, making it the decisive swing party in government formation.",
+        "chance": "medium"
+      },
+      "summary": "The week will be defined by the October 27 election, whose result will determine whether Netanyahu or Eisenkot leads the next government and will immediately set coalition negotiations in motion. The West Bank will see the full closure and anti-terror operation expand, with new raids, demolitions, and detentions drawing fresh criticism from Palestinian groups and foreign governments. In Gaza, the World Food Programme aid cut will begin to bite as food shortages deepen among half a million people, prompting renewed calls for emergency funding. The Trump endorsement and Vance split will fade into background once the votes are counted. A surprise element will come from the far right: Ben-Gvir's party may outperform pre-election polling and position itself as the decisive swing in forming a government, reshaping the political landscape for years to come.",
+      "generated_at": "2026-10-24T21:50:18+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "October 27 election result",
+        "expected": "The October 27 vote will produce a narrow result requiring a coalition, with Arab parties and the far-right faction becoming the decisive kingmakers in post-election negotiations.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the official vote count, victory or concession speeches from both main candidates, and the first public coalition overtures from Arab party leaders."
+      },
+      "second": {
+        "subject": "West Bank military operation",
+        "expected": "Israel will expand the West Bank anti-terror operation beyond Hebron, carrying out further demolitions, mass detentions, and roadblock restrictions in additional towns.",
+        "direction": "escalate",
+        "sign": "Headlines will report new demolitions in West Bank towns, large-scale detentions, and families displaced from their homes."
+      },
+      "third": {
+        "subject": "Gaza food crisis",
+        "expected": "The World Food Programme's reduced distribution will begin to tighten Gaza's food supply, prompting new emergency appeals from health officials and reports of worsening shortages.",
+        "direction": "escalate",
+        "sign": "Headlines will carry new food-shortage figures from Gaza, a renewed appeal from a UN agency, and reports of long queues at aid distribution points."
+      },
+      "fade_call": {
+        "subject": "Malaysia Waze ban",
+        "expected": "fade",
+        "sign": "The ban will surface only in technology or business roundups rather than leading international news."
+      },
+      "surprise": {
+        "subject": "Election-night security incident",
+        "expected": "A significant rocket barrage or armed attack will strike Israel on or around election day, shifting the political narrative and complicating coalition talks.",
+        "chance": "low"
+      },
+      "summary": "Israel will be defined next week by the October 27 election and its immediate aftermath. The vote will produce a narrow result that leaves neither Netanyahu nor Eisenkot with a clean majority, pushing Arab parties and the far-right Ben-Gvir faction into the role of kingmakers in coalition talks. In the West Bank, the military operation launched after the Hebron shooting will expand, with further demolitions, mass detentions, and roadblock restrictions spreading to additional towns. In Gaza, the World Food Programme's reduction in aid will begin to bite, producing new hunger figures and renewed emergency appeals from health officials. The Iran strike question will stay in the background, with Washington and Jerusalem keeping the option open. The overall tone will be one of political uncertainty layered over a still-escalating security situation.",
+      "generated_at": "2026-10-24T22:06:37+03:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "Israel October 27 election result",
+        "expected": "The October 27 vote will produce a result that forces coalition negotiations between Netanyahu's bloc and the Arab parties, leaving neither side with a clear governing majority.",
+        "direction": "escalate",
+        "sign": "Headlines will declare a winner or report a hung parliament, with Netanyahu and Eisenkot each claiming victory and coalition talks opening."
+      },
+      "second": {
+        "subject": "West Bank anti-terror operation",
+        "expected": "The West Bank military operation will expand beyond Hebron into neighboring towns, with the military announcing a new phase of the campaign and additional building demolitions.",
+        "direction": "escalate",
+        "sign": "Headlines will report new ground incursions, more Palestinian casualties, expanded roadblocks, and the military declaring the operation has entered a new phase."
+      },
+      "third": {
+        "subject": "Gaza food aid cut",
+        "expected": "The World Food Programme aid cut in Gaza will produce visible hunger across the territory, with families reporting they are going without meals.",
+        "direction": "escalate",
+        "sign": "Headlines will describe empty shelves, children waiting for food distribution, and medics reporting malnutrition cases rising in Gaza."
+      },
+      "fade_call": {
+        "subject": "Trump endorsement and US political split",
+        "expected": "fade",
+        "sign": "US headlines will shift to reactions to the Israeli election result, and the Vance-Trump split will be mentioned only as background context."
+      },
+      "surprise": {
+        "subject": "Iran strike during election week",
+        "expected": "Israel will launch a limited strike on Iranian military targets, turning the Hegseth visit from a discussion into a joint operation.",
+        "chance": "low"
+      },
+      "summary": "The week will be defined by the October 27 election result, which will either hand Netanyahu a mandate or produce a fragmented Knesset that sends both he and Eisenkot into coalition talks with the Arab parties. The West Bank operation will intensify as the military deepens its closure, raids more towns, and demolishes additional buildings, drawing fresh criticism. In Gaza, the World Food Programme aid cut will bite, and readers will see images of growing hunger and longer queues. The Trump endorsement and Vance split will fade into the background once the vote is counted, replaced by US officials weighing their reaction. The Iran question will stay live, and a limited strike on Iranian targets is a real possibility if Hegseth's visit produces a green light. Settler violence will still generate headlines, but the election result and the West Bank operation will dominate the news cycle.",
+      "generated_at": "2026-10-24T22:22:59+03:00"
+    }
+  },
+  "display": {
+    "headline": "Israel Votes as West Bank Operation Widens and Gaza Hunger Deepens",
+    "emojis": [
+      "🗳️",
+      "⚔️",
+      "🌾"
+    ],
+    "emoji_reasons": [
+      "The October 27 election and its aftermath will dominate the news cycle.",
+      "The West Bank military operation will expand with further demolitions and detentions.",
+      "Gaza's food supply will tighten as the aid cut takes effect."
+    ],
+    "tldr": "Israel's October 27 election will produce a narrow result that leaves coalition-building to Arab parties and the far right. The West Bank military operation will widen, and Gaza's food crisis will deepen as the aid cut bites. The overall picture is political uncertainty layered on escalating security.",
+    "eli5": "Israel is going to the polls on Tuesday, October 27, to decide whether Benjamin Netanyahu stays as prime minister or whether his challenger Gadi Eisenkot takes over. At the same time, the army is running a big operation in the West Bank after two soldiers were killed near Hebron, and in Gaza, the UN food agency is cutting its rations because it is short of money.\n\nNetanyahu has been in power for a long time and his critics say he has weakened the courts and the military. Eisenkot is a former army chief who promises a tougher but different approach. The race is so close that small parties, including the Arab lists and the far-right Ben-Gvir, will probably decide who gets to form a government.\n\nNext week, the biggest story will be the election result and the scramble to build a coalition. In the West Bank, the military operation will keep expanding with more buildings knocked down and more people detained. In Gaza, the food cut will start to show up in longer queues and more reports of hungry children.\n\nA surprise would be a big attack on Israel right around election day, or a sudden agreement between Eisenkot and the far right that nobody expected. Either would change the whole political picture in a matter of hours."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Settler violence and olive-harvest attacks appear across headlines 49, 59, 84, 87, 90, 93, 117, 126, 131, 136, 142, 157, 159, 164, but the dominant West Bank story was the full closure and military operation after two soldiers were killed (headlines 1, 9, 29, 34, 62, 67), which the bulletin did not anticipate."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The WFP cut aid to 500,000 Gazans and Israeli fire killed four (headlines 58, 103, 116, 118, 124, 134, 146, 163), confirming the Gaza food crisis was in the headlines, but the driver was a funding shortage rather than the 'commercial goods halt' the bulletin specified."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "The October 27 election was the single most dominant story of the week (headlines 3, 5, 13, 18, 27, 41, 54, 64, 74, 89, 99, 111, 121, 129, 130, 152, 161, 168, 171), far exceeding 'the same level' the bulletin predicted, with ugly rhetoric, kingmaker positioning, and overseas voters all prominent."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in the collection references Israeli spyware, ad-tech espionage, or a related investigation; the closest is headline 137 on AI in the election campaign, which is a different topic."
+          }
+        },
+        "archer_note": "The bulletin's core thesis of 'more of the same, persist' was wrong in degree: the week was defined by sharp escalation (military closure, arrests, Trump endorsement) rather than steady-state coverage. It missed the dominant military-operation story, the Trump-Vance split, and the Iran strike planning entirely. Its four items are all generic 'persist' calls that could not be falsified by much, making the bulletin safe but uninformative."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Israel did order a full West Bank closure and launch a large-scale operation (headlines 1, 9, 22, 29, 34, 62, 67, 70, 72, 82), and settler-attack incidents with diplomatic fallout were prominent (49, 90, 93, 117, 126, 131, 142, 159, 164), but the trigger was the Hebron shooting that killed two soldiers rather than the settler attacks the bulletin framed as the cause."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The WFP, a named UN aid body, issued a quantitative warning cutting aid to 500,000 Gazans (headlines 103, 116, 118, 124, 146, 150, 163), matching the sign's 'quantitative warning from a named aid body about hunger,' but the stated driver was a funding shortage rather than the 'commercial goods suspension' the bulletin specified."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Arab parties positioned as kingmakers and the question of post-election coalition terms was prominent (headlines 7, 41, 89, 111, 121, 152, 171), but no headline names a specific Arab-led party leader making a formal coalition or policy announcement with outlined partnership terms as the sign requires."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "No headline in the collection mentions Colombia, the embassy opening, or a bilateral Colombia-Israel issue, confirming the story faded as predicted."
+          }
+        },
+        "archer_note": "The bulletin correctly identified escalation as the week's character and captured the West Bank enforcement, Gaza hunger warning, and Arab kingmaker dynamics, but it consistently misattributed the causal mechanism (settler attacks as trigger, commercial goods as driver) when the actual triggers were the Hebron shooting and WFP funding. It missed the Trump-Vance endorsement split, the Hegseth/Iran visit, and the Malaysia Waze ban. Its main thesis of multi-front escalation was directionally right, just anchored to slightly wrong specific causes."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Israel arrested ten suspects over the settler attacks on diplomats and a US journalist (headlines 90, 93, 126, 131, 136, 157), and diplomatic pressure from the US and Italy was present (25, 90), but the dominant West Bank story was the full closure and military operation after the Hebron shooting (1, 9, 29, 34, 62, 67), not a 'formal security probe into settler attacks' as the bulletin framed it."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The WFP cut aid to 500,000 Gazans and 200,000 West Bank Palestinians citing funding shortages (headlines 103, 116, 118, 124, 146, 150, 163), and Israeli fire killed four (58, 134, 169), matching the 'fresh shortage figures and aid agency appeal' sign, but no headline carries a 'formal Israeli statement justifying the goods halt' and the mechanism was funding, not a commercial goods suspension."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "The Netanyahu-Eisenkot race was the week's dominant political story with extreme rhetoric, polls, and both candidates featured heavily (3, 5, 13, 18, 27, 64, 74, 92, 115, 149, 168), but no headline specifically reports a 'formal campaign debate' being held, and the 'fresh poll showing a narrow margin' sign is only loosely supported by headlines 46 and 64."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "No headline in the collection mentions Colombia, the embassy opening, or a free-trade deal between the two countries, confirming the story faded from the news cycle."
+          }
+        },
+        "archer_note": "The bulletin correctly called for escalation across multiple fronts and captured the settler-violence enforcement, Gaza hunger, and election final stretch, but it anchored the West Bank story to a 'formal probe' rather than the dominant military closure, and its 'formal debate' prediction for the election was not clearly supported by the headlines. It missed the Trump-Vance split, the Hegseth/Iran visit, and the Malaysia Waze ban. Its main thesis of converging escalation was directionally accurate, just mis-specified in its specific predicted mechanisms."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Bulletin Y correctly called escalation across all three main stories and provided specific, falsifiable signs (named aid body, formal deployment, kingmaker terms) that were partially matched, while Bulletin X's uniform 'persist at the same level' calls undersold the week's intensity and its spyware fade call was wrong. Y's Colombia fade was correct and its overall framing captured the week's character, whereas X's 'more of the same' thesis was contradicted by the military closure, Trump endorsement, and arrests."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Bulletin Z provided more specific and partially correct predictions (Israeli enforcement action over settler attacks, UN agency appeal with numbers, election final stretch with both candidates) and got its Colombia fade right, while Bulletin X offered only generic 'persist' calls and its spyware fade was wrong. Z's escalation framing matched the week's actual intensity, whereas X's steady-state thesis was the week's dominant story's opposite."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Both bulletins called for escalation and got their Colombia fades right, but Bulletin Y's third item on Arab kingmaker positioning was more clearly supported by the headlines (7, 41, 89, 111, 121, 152, 171) than Bulletin Z's 'formal campaign debate' prediction, which appears in no headline. Y's surprise about Italy/Katz was partially echoed by headline 25 (Italy calling for activist release), while Z's Lebanon surprise had no clear support, giving Y a slight edge."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": -2.0,
+      "persistence_vs_crystal": -2.0,
+      "plain_vs_crystal": -1.0
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-22:\nIsrael stood on the brink of a tightly contested general election scheduled for October 27, pitting Prime Minister Netanyahu against former Defense Minister Gadi Eisenkot in a race where no side appeared close to a clean 61-seat mandate. In Gaza, commercial goods had been briefly suspended over a merchant-Hamas tax dispute before Israel announced their return, while the World Food Programme cut its beneficiary count from 1.6 million to 1.1 million, raising winter-shock fears. The West Bank saw a sharp spike in settler violence during the olive harvest, including attacks on European diplomats, a U.S. journalist, and a U.S. congressional candidate; Israel arrested ten suspects. On the diplomatic front, the United States and Israel advanced joint strike planning against Iran, with Secretary Hegseth making an unannounced visit to Jerusalem, while Trump openly endorsed Netanyahu and Vice President Vance withheld his. Large numbers of diaspora Israelis were flying home to vote.\n- October 27 election (dominant, escalating): Netanyahu and Eisenkot face each other in a razor-thin race where neither side appears close to 61 seats.\n- Gaza commercial goods (dominant, de-escalating): Commercial shipments were suspended over a tax dispute and Israel announced their partial resumption.\n- WFP aid cut (dominant, escalating): The World Food Programme reduced the number of Gazans it serves by a third ahead of winter.\n- West Bank settler violence (dominant, escalating): Settlers attacked harvesters, diplomats, and a U.S. journalist during the olive season; Israel arrested ten.\n- Iran-U.S. strike planning (regular, escalating): Washington and Jerusalem advanced joint military planning for Iran with the actual operation targeted after U.S. midterms.\n- Trump endorsement (regular, new): Trump gave Netanyahu a full public endorsement while Vance stayed silent, splitting the U.S. Jewish vote.\n- Diaspora voting surge (regular, new): Large numbers of Israelis abroad flew home to vote, many motivated to challenge Netanyahu.\n- Far-right fragmentation (regular, escalating): Ben-Gvir, Ofer Winter, and other challengers split the anti-Netanyahu right and complicate coalition building.\n- Economic markets (occasional, continuing): The Central Bank held rates steady and raised growth forecasts, but bonds and the shekel stayed nervous.\n\nRound 2026-10-02:\nAs of early October 2026, Israel faced a collision of two security shocks days before the Oct. 27 election. A FlyDubai flight carrying Israelis back from Dubai suffered a cockpit attack in which the Omani copilot reportedly tried to crash the plane; the Indian captain and an Israeli passenger were celebrated as heroes. At the same time, leaks revealed that Egypt had warned Netanyahu in advance of the Oct. 7 Hamas offensive, handing the opposition a weapon against his security record. In Gaza, the war entered its third year with the death toll past 74,000 and strikes still falling. Settler violence intensified in the West Bank around the Sukkot holidays. Netanyahu had made a secret visit to Abu Dhabi to share Iran nuclear intelligence with MBS, deepening Gulf coordination. The Netherlands revoked Israeli diplomats' accreditation over settlement sanctions, the UN widened its settlement-company list, and the ZIM-Hapag-Lloyd deal was halted\n- FlyDubai cockpit attack (dominant, new): The Omani copilot reportedly tried to crash a plane carrying Israelis from Dubai; the Indian captain saved the flight and the incident became a national security story.\n- Oct. 7 warning leaks (dominant, new): Reports emerged that Egypt had briefed Netanyahu before the Oct. 7, 2023 attack, giving the opposition a fresh attack on his security record ahead of the election.\n- Gaza war (dominant, continuing): Israeli strikes continued in the conflict's third year, the death toll passed 74,000, and humanitarian conditions around the Yellow Line kept deteriorating.\n- West Bank settler violence (regular, escalating): Settler marches and clashes escalated around Sukkot in Nablus, Hebron, and the northern West Bank, with the IDF struggling to control some incidents.\n- Gulf coordination (regular, continuing): Netanyahu's secret Abu Dhabi meeting to share Iran nuclear intelligence with MBS deepened Israel-UAE ties, while Saudi Arabia kept a cautious public distance.\n- European diplomatic pressure (regular, escalating): The Netherlands revoked Israeli diplomats' accreditation, the UN widened its settlement-company list, and the UK pledged a tougher stance on settlements.\n- Arab-party legal fight (occasional, new): Supreme Court indications forced Sami Abu Shehadeh to withdraw from the Arab electoral list, making the courts a visible part of the election battle.\n- Shipping and economy (occasional, new): The ZIM-Hapag-Lloyd deal was halted over Gulf ownership stakes, and business groups warned of growing economic isolation from settlement-linked sanctions.\n- Sports friction (occasional, continuing): Hapoel Beer-Sheva was banned from bringing away fans to two Europa League matches, and the Ireland match saw no handshakes and black armbands.\n- Security alert level (regular, escalating): Following the cockpit attack, a UK air-base bomb plot, and IRGC claims of eliminating a terror cell in Iran, Israeli security services raised vigilance across airports, borders, and public transport.\n",
+    "PREVIOUS_FORECAST": "Lead: West Bank settler violence and Israeli probe. Expected: Israel will announce a formal security probe into the attacks on European diplomats and the American journalist as olive-harvest violence across the West Bank escalates further. Direction: escalate. Sign: Headlines will feature the launch of an official investigation, new settler-attack incidents in villages, and diplomatic calls for accountability from the US and Belgium.\nSecond: Gaza food crisis from commercial goods halt. Expected: Gaza's health ministry and UN agencies will issue a new emergency appeal as the commercial goods halt deepens food shortages across the territory. Direction: escalate. Sign: Headlines will carry fresh malnutrition or shortage figures, a renewed international aid agency appeal, and a formal Israeli statement justifying the goods halt.\nThird: Netanyahu-Eizenkot election final stretch. Expected: A formal campaign debate between Netanyahu and Eizenkot will be held as pre-election polls show a tightening race and voter fatigue is widely reported. Direction: escalate. Sign: Headlines will carry debate coverage, a fresh poll showing a narrow margin, and campaign rallies or advertisements from both parties.\nFade call: Colombia-Israel diplomatic thaw. Expected: fade. Sign: The embassy opening and free trade deal will surface only in diplomatic roundups or as background context for broader Latin American-Israel relations.\nSurprise (chance low): Lebanon border escalation. A Hezbollah rocket salvo will break the relative calm along the Israel-Lebanon border and trigger a rapid Israeli military response.\nSummary: Israel will manage three converging pressures this week. West Bank settler violence will peak during the olive harvest: Israel will announce a formal probe into the attacks on European diplomats and the American journalist, and settler clashes will draw fresh condemnation from Washington, Brussels, and Beijing. In Gaza, the halt of commercial goods will push the health ministry and UN agencies to issue a new emergency appeal as malnutrition hits what officials call catastrophic levels, forcing Jerusalem to justify or partially reverse the measure. Domestically, the Netanyahu-Eizenkot race will enter its decisive stretch, with a formal debate, a final wave of polls, and the former security chief's defamation suit adding fuel. International diplomacy will stay active but fragmented, with Colombia's new embassy offering a counterpoint to the criticism. The overall tone will be escalation across multiple fronts, with the election as the political anchor.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Israel arrested ten suspects over the settler attacks on diplomats and a US journalist (headlines 90, 93, 126, 131, 136, 157), and diplomatic pressure from the US and Italy was present (25, 90), but the dominant West Bank story was the full closure and military operation after the Hebron shooting (1, 9, 29, 34, 62, 67), not a 'formal security probe into settler attacks' as the bulletin framed it.\n- second: true_in_direction. The WFP cut aid to 500,000 Gazans and 200,000 West Bank Palestinians citing funding shortages (headlines 103, 116, 118, 124, 146, 150, 163), and Israeli fire killed four (58, 134, 169), matching the 'fresh shortage figures and aid agency appeal' sign, but no headline carries a 'formal Israeli statement justifying the goods halt' and the mechanism was funding, not a commercial goods suspension.\n- third: true_in_direction. The Netanyahu-Eisenkot race was the week's dominant political story with extreme rhetoric, polls, and both candidates featured heavily (3, 5, 13, 18, 27, 64, 74, 92, 115, 149, 168), but no headline specifically reports a 'formal campaign debate' being held, and the 'fresh poll showing a narrow margin' sign is only loosely supported by headlines 46 and 64.\n- fade_call: came_true. No headline in the collection mentions Colombia, the embassy opening, or a free-trade deal between the two countries, confirming the story faded from the news cycle.\nArcher note: The bulletin correctly called for escalation across multiple fronts and captured the settler-violence enforcement, Gaza hunger, and election final stretch, but it anchored the West Bank story to a 'formal probe' rather than the dominant military closure, and its 'formal debate' prediction for the election was not clearly supported by the headlines. It missed the Trump-Vance split, the Hegseth/Iran visit, and the Malaysia Waze ban. Its main thesis of converging escalation was directionally accurate, just mis-specified in its specific predicted mechanisms.\n",
+    "ELAPSED_TEXT": "2 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": {
+    "graded_round": "2026-10-22",
+    "elapsed_days": 2,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The election and Eisenkot-as-challenger are undeniably dominant (headlines [3], [5], [10], [13], [58], [67]), but the specific 'no 61-seat majority' and 'coalition scramble' framing is a post-vote prediction not yet reflected in this pre-vote collection."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Gaza's food and humanitarian crisis is present (headlines [46], [77], [78] on famine risk and casualties), but the specific WFP one-third aid cut and commercial-goods resumption after a tax dispute are not visible in any headline."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Multiple headlines confirm a surge of settler attacks during the olive harvest with arrests and releases (headlines [47], [52], [63], [64], [75], [76])."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Iran appears in the headlines (headline [72] on Netanyahu promising Iran regime change), but the specific 'U.S.-Israel strike planning' and 'post-midterm-window' framing is not clearly present."
+          }
+        },
+        "archer_note": "X missed the dominant West Bank full closure and major military operation that defined the week (headlines [1], [9], [12], [17], [27], [29], [34], [49], [51], [61]), instead treating West Bank violence as a secondary settler-harvest story. The WFP/goods mechanism was over-specific and not reflected in the headlines. The Iran fade call was directionally right but the strike-planning framing did not match the actual regime-change-promise coverage."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "The October 27 election is undeniably the dominant topic across the collection (headlines [3], [4], [5], [10], [13], [28], [36], [58], [59], [65], [67])."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in this collection specifically addresses 'Gaza commercial goods' as a distinct topic; the Gaza stories focus on casualties and famine risk (headlines [46], [78])."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in this collection specifically mentions a WFP aid cut; the Gaza food situation is framed as 'famine risk' rather than a specific WFP reduction (headline [78])."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in this collection specifically reports on a 'Trump endorsement' as a topic; Trump appears only in peripheral contexts like the Gaza board (headline [57]) and Ukraine (headline [41])."
+          }
+        },
+        "archer_note": "Y's 'more of the same' thesis was partially correct for the election but missed the entirely new dominant story of the West Bank closure and major military operation. The 'Gaza commercial goods' and 'WFP aid cut' items were too narrow and specific, not reflected in this collection's headlines. The Trump endorsement fade call was a topic that simply did not appear, making it a clear miss."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X correctly anticipated the settler-harvest violence surge and the Eisenkot challenge with specific, confirmed details, while Y offered only generic 'more of the same' calls that missed the West Bank military operation and the settler-violence escalation entirely. X's Iran fade call at least tracked a real headline, whereas Y's Trump endorsement and WFP items had no supporting headline in this collection."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 2.0
+    },
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 1,
+    "hand_made": true,
+    "partial": true,
+    "days_covered": 2,
+    "days_total": 7
+  }
+}

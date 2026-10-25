@@ -1,0 +1,304 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "PE",
+  "name": "Peru",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T10:25:46+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of October 17 to 24, Peru's government moved to ease its fiscal rules and seek higher budget deficits, citing the economic strain of an El Nino event. The move, reported by Reuters and Bloomberg, signals a shift toward more permissive spending as the government tries to shield the economy from climate-related shocks. In security, Deutsche Welle reported that rising gang violence is now targeting public buses, adding to persistent public anxiety over crime. Al Jazeera published an Oxfam analysis showing Peru's wealthiest households captured 42 percent of all new wealth generated in the country, a stark reminder of deepening inequality. A wildfire on the road to Machu Picchu killed one person, drawing attention to fire risk on the tourist corridor. Tens of thousands gathered in Lima for the annual Lord of Miracles procession, one of Peru's most important religious events. A softer thread ran through international coverage: an ageing Japanese village is actively recruiting new residents from Peru, a story picked up by both AFP and TV5Monde. A Lima-based developer, Auna, announced it had cleared all conditions for building the Centro Ambulatorio Trecca clinic. No major political crisis or breaking news dominated the week.",
+    "key_events": [
+      {
+        "event": "Peru's government announced it would ease fiscal rules and seek higher deficits to absorb El Nino economic costs.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Rising gang violence in Peru began targeting public buses, escalating the urban crime threat.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "An Oxfam analysis found that Peru's richest households captured 42 percent of all new wealth.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A wildfire on the road to Machu Picchu killed one person.",
+        "date": null,
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Tens of thousands joined the annual Lord of Miracles procession in Lima.",
+        "date": "2026-10-20",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "An ageing Japanese village launched a recruitment drive for new residents from Peru.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "Auna announced fulfillment of all conditions precedent for the Centro Ambulatorio Trecca clinic in Lima.",
+        "date": null,
+        "domain": "health",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "economy",
+      "security",
+      "society",
+      "environment"
+    ],
+    "emojis": [
+      "🏛️",
+      "🔫",
+      "🙏"
+    ],
+    "emoji_reasons": [
+      "The government's decision to ease fiscal rules and seek higher deficits (headlines 1 and 6) is the dominant policy story of the week.",
+      "Deutsche Welle reported that rising gang violence is specifically targeting Peru's public buses (headline 4).",
+      "Reuters covered the annual Lord of Miracles procession drawing thousands to Lima's streets (headline 12)."
+    ],
+    "developments": [
+      {
+        "subject": "Fiscal easing for El Nino",
+        "what_happened": "Peru's government announced plans to relax fiscal rules and seek higher deficits to cushion the economy against El Nino-related costs.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          6
+        ]
+      },
+      {
+        "subject": "Bus gang violence",
+        "what_happened": "Gang violence in Peruvian cities escalated to the point of specifically targeting public buses.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          4
+        ]
+      },
+      {
+        "subject": "Wealth inequality report",
+        "what_happened": "Oxfam published data showing Peru's richest households captured 42 percent of all new wealth, highlighting deepening inequality.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          8
+        ]
+      },
+      {
+        "subject": "Machu Picchu road fire",
+        "what_happened": "A wildfire on the access road to Machu Picchu killed one person, raising safety concerns on the tourist corridor.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Lord of Miracles procession",
+        "what_happened": "Tens of thousands gathered in Lima for the annual religious procession of the Lord of Miracles.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          12
+        ]
+      },
+      {
+        "subject": "Japanese village recruits from Peru",
+        "what_happened": "An ageing Japanese village launched a recruitment drive seeking new residents from Peru, a story covered by both AFP and TV5Monde.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          5
+        ]
+      },
+      {
+        "subject": "Auna clinic construction",
+        "what_happened": "Auna announced it had met all conditions precedent to begin construction of the Centro Ambulatorio Trecca clinic in Lima.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          7
+        ]
+      }
+    ],
+    "gone": [
+      "Fujimori approval decline",
+      "GDP growth above 3 percent",
+      "Flaming gasoline eviction",
+      "Indigenous bid on China mine",
+      "'Peruvian pope' recovery prayers"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover fiscal policy, security, inequality, a natural-disaster incident, a cultural event, and a minor corporate announcement, giving a reasonably balanced but not deeply investigative picture of the week."
+    },
+    "headlines_used": [
+      "Peru taps fiscal strength to face El Niño impact, eases fiscal rules",
+      "Record summer heat, mostly from climate change, kills 50,000 in Europe",
+      "Ageing Japanese village turns to Peru in search of new residents",
+      "Peru's buses targeted by rising gang violence",
+      "Au Japon, un village veut croire que l'avenir, c'est le Pérou",
+      "Peru Government to Seek Higher Fiscal Deficits to Shield Economy",
+      "Auna Announces Fulfillment of All Conditions Precedent for Construction of Centro Ambulatorio Trecca in Lima",
+      "Oxfam analysis finds Peru’s richest captured 42 percent of all new wealth",
+      "Peru News | Today's Latest Stories",
+      "Peru: Fire burning on road to Machu Picchu kills 1 - DW.com",
+      "U.S. climate champion Gina McCarthy honoured in Reuters Global Sustainability awards",
+      "Thousands join Lord of Miracles procession in Peru's capital Lima"
+    ],
+    "converted": false,
+    "relevant_headlines": 12,
+    "unscorable": true,
+    "unscorable_reason": "only 12 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Fiscal easing for El Nino",
+        "expected": "Fiscal easing for El Nino stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Fiscal easing for El Nino appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Bus gang violence",
+        "expected": "Bus gang violence stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bus gang violence appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Wealth inequality report",
+        "expected": "Wealth inequality report stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Wealth inequality report appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Fiscal easing for El Nino",
+        "expected": "persist",
+        "sign": "Fiscal easing for El Nino is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Fiscal easing for El Nino stays in the news at the same level. Bus gang violence stays in the news at the same level. Wealth inequality report stays in the news at the same level. Fiscal easing for El Nino is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Fiscal rule amendment",
+        "expected": "The Peruvian government will table a specific budget amendment in the legislature to formally raise the deficit ceiling.",
+        "direction": "persist",
+        "sign": "A headline naming the fiscal bill or amendment being debated in the Peruvian legislature, distinct from the initial announcement of intent to ease rules."
+      },
+      "second": {
+        "subject": "Bus gang violence",
+        "expected": "A new gang-related incident on a public bus will trigger a government announcement of enhanced security protocols for the city transport fleet.",
+        "direction": "escalate",
+        "sign": "A headline reporting a fresh bus attack or a transport authority's new security measures, rather than general crime commentary."
+      },
+      "third": {
+        "subject": "Machu Picchu corridor safety",
+        "expected": "Authorities will announce a safety review plan for the access route to the archaeological site following the fatal wildfire.",
+        "direction": "persist",
+        "sign": "A headline about a concrete safety measure or inspection order on the tourist road, distinct from the initial fire report."
+      },
+      "fade_call": {
+        "subject": "Lord of Miracles procession",
+        "expected": "fade",
+        "sign": "The procession will appear only in retrospective or photo-feature coverage rather than as a developing news story."
+      },
+      "surprise": {
+        "subject": "Fiscal bill political clash",
+        "expected": "Opposition lawmakers will stage a visible protest or file a formal objection against the deficit amendment, turning a technical budget discussion into a political confrontation.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Peru's fiscal easing story will move from announcement to action, with the government tabling a specific deficit amendment for legislative debate. The bus gang violence thread will escalate as a fresh incident or a transport security response puts the issue back in the headlines. The fatal wildfire on the Machu Picchu access road will generate a follow-up safety review from authorities. The Lord of Miracles procession will fade from the news cycle as the annual event concludes. The Japanese village recruitment story and the Auna clinic announcement will lose momentum as one-off items. A medium-chance surprise is that the fiscal amendment triggers a visible political clash, with opposition lawmakers staging a protest or filing a formal objection, turning a technical budget matter into a broader governance dispute. Overall, the week will be defined by the government's spending shift and the security pressure on public transport.",
+      "generated_at": "2026-10-25T10:13:19+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "El Niño fiscal easing",
+        "expected": "The government will announce the specific deficit ceiling it is seeking and formally table the revised fiscal framework for legislative debate.",
+        "direction": "persist",
+        "sign": "A headline revealing the exact deficit target or the formal introduction of the fiscal rule amendment in the legislature"
+      },
+      "second": {
+        "subject": "Bus gang violence",
+        "expected": "A high-profile gang attack on a public bus will prompt the mayor to unveil a dedicated transit security plan.",
+        "direction": "escalate",
+        "sign": "A headline about a new transit security initiative or a mayoral announcement specifically addressing bus safety"
+      },
+      "third": {
+        "subject": "Wealth inequality report",
+        "expected": "Political parties will issue competing responses to the Oxfam findings, with at least one faction proposing a tax reform package.",
+        "direction": "persist",
+        "sign": "A headline about a party or coalition publishing a tax reform proposal or a public debate over wealth distribution policy"
+      },
+      "fade_call": {
+        "subject": "Lord of Miracles procession",
+        "expected": "fade",
+        "sign": "The procession drops out of the headline cycle as the annual religious event concludes and coverage shifts to other topics"
+      },
+      "surprise": {
+        "subject": "El Niño coastal flooding",
+        "expected": "A significant rain event will produce visible flooding in a Peruvian coastal city, validating the government's fiscal easing narrative.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Peru, the government's push to ease fiscal rules in response to El Niño will move from announcement to concrete numbers, as the deficit ceiling and legislative details come into focus. The escalating pattern of gang violence targeting public buses will produce a visible security response from municipal leadership. The Oxfam inequality findings will spark a political fight over tax policy, with parties positioning themselves around the wealth concentration data. The Lord of Miracles procession will fade from coverage as the annual event concludes. A medium-chance surprise involves an actual El Niño weather event—flooding or heavy rain—hitting a coastal city and giving the fiscal easing narrative a tangible backdrop. The overall tone will be one of a government spending more to protect the economy while public frustration over safety and inequality builds.",
+      "generated_at": "2026-10-25T10:25:46+02:00"
+    }
+  },
+  "display": {
+    "headline": "Peru Eases Budget Rules as Bus Gangs and Inequality Dominate",
+    "emojis": [
+      "💰",
+      "🚔",
+      "✊"
+    ],
+    "emoji_reasons": [
+      "The government's move to relax fiscal rules and seek higher deficits is the dominant story of the week.",
+      "Gang violence targeting public buses is escalating and will drive a visible security response.",
+      "The Oxfam inequality findings will spark a political battle over tax and wealth policy."
+    ],
+    "tldr": "Peru's government will push through concrete deficit numbers as it eases fiscal rules for El Niño, while gang violence on public buses forces a security response. The Oxfam inequality report will ignite a political fight over tax policy. The Lord of Miracles procession will fade from headlines.",
+    "eli5": "Peru's government just said it wants to spend more money than it takes in, because the El Niño weather pattern is making things expensive. At the same time, gangs are getting bolder about attacking people on city buses, and a new report showed that the richest families in Peru are grabbing most of the new money the country creates.\n\nEl Niño brings unusual weather that hurts farms and infrastructure, so the government is trying to protect the economy by loosening its own spending rules. The bus attacks are part of a wider crime wave that makes people feel unsafe. The inequality report hit at a moment when ordinary Peruvians are already frustrated.\n\nNext week, expect the government to publish the exact numbers it wants to spend, and expect a mayor or police chief to announce a new plan to protect bus riders. Politicians will argue over taxes in response to the inequality data. The big religious procession in Lima will be over and drop out of the news.\n\nIf heavy rain or flooding actually hits a coastal city in the next week, that would confirm the El Niño worry is real and not just a budget excuse. That would be a medium-chance surprise that would make the fiscal story feel urgent instead of abstract."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 12 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nPeru's week was defined by a tension between encouraging macroeconomic data and growing public frustration. The country's economy expanded faster than three percent for a second consecutive month, yet President Fujimori's approval rating sank as Peruvians expressed concern over the economy and rising crime. On the ground, a heated eviction saw residents douse workers with flaming gasoline, underscoring ongoing property and labor disputes. In a high-profile resource story, an indigenous group formally bid for a share of a China-owned mine, continuing Peru's pattern of local communities asserting claims over foreign-operated mining assets. In Chiclayo, vigils and prayers were held for the recovery and return of a local religious figure known as the 'Peruvian pope,' a story clearly linked to the recent papal visit that had entered its final days. No major contradictions appeared among the headlines, but the coexistence of strong growth figures and plummeting presidential approval highlights a growing\n- Fujimori approval decline (dominant, escalating): President Fujimori's approval rating sank as Peruvians expressed frustration over the economy and crime.\n- GDP growth above 3 percent (regular, new): Peru's economy expanded faster than three percent for a second consecutive month.\n- Flaming gasoline eviction (regular, new): Residents doused workers with flaming gasoline during an eviction, highlighting volatile property and labor disputes.\n- Indigenous bid on China mine (occasional, new): An indigenous group formally bid for a share of a China-operated mine, continuing local claims over foreign mining assets.\n- 'Peruvian pope' recovery prayers (occasional, continuing): Chiclayo residents held prayers for the recovery and return of a local religious figure nicknamed the 'Peruvian pope,' linked to the recent papal visit.\n- Public anxiety over crime (occasional, escalating): Frustration over rising crime became a visible driver of declining confidence in the Fujimori administration.\n\nRound 2026-10-02:\nPeru was in a period of intense political transition following local elections. Rafael López Aliaga appeared to have won Lima's mayoral race with roughly 31 percent of the vote, though a ban on immediate reelection raised legal questions. A new cabinet was sworn in, although news sources disagreed on whether Dina Boluarte or Keiko Fujimori held the presidency. Pope Leo's visit to Peru was in final logistical and security preparation. BTS's Arirang world tour was holding three concerts at San Marcos Stadium in Lima, with the first show on October 7. The government announced a unified command against crime. A clemency request for former President Alejandro Toledo, supported by Eliane Karp, was pending review. The central bank held interest rates for a thirteenth consecutive month. A fire on the access road to Machu Picchu killed one person. Youth and student protests were occurring in Lima. A mercury contamination alert linked\n- Local elections concluded with López Aliaga (regular, continuing): Local elections concluded with López Aliaga leading in Lima and results pending JNE certification.\n- New cabinet sworn in amid ambiguity (regular, continuing): New cabinet sworn in amid ambiguity over whether Boluarte or Fujimori occupied the presidency.\n- Pope Leo's Peru visit entered final (regular, continuing): Pope Leo's Peru visit entered final security and logistical preparation phase.\n- BTS Arirang tour opened in Lima (regular, continuing): BTS Arirang tour opened in Lima with three concerts scheduled at San Marcos Stadium.\n- Fire on the Machu Picchu access (regular, continuing): Fire on the Machu Picchu access road killed one person, prompting safety concerns.\n- Fire on the Machu Picchu access (again) (regular, continuing): Fire on the Machu Picchu access road killed one person, prompting safety concerns.\n",
+    "PREVIOUS_FORECAST": "Lead: Fujimori crime response. Expected: President Fujimori delivers a major public address directly confronting the approval decline over the state of public safety. Direction: escalate. Sign: A headline about the president giving a national speech or unveiling a new police mandate in response to falling support.\nSecond: Indigenous bid on China mine. Expected: The indigenous group's formal bid triggers a public negotiation round with the mining operator over ownership shares. Direction: persist. Sign: A headline about the local community entering talks with the foreign mining company or publishing the terms of its ownership claim.\nThird: Eviction and property disputes. Expected: The flaming gasoline eviction sparks a formal investigation into the conditions of the displaced workers. Direction: persist. Sign: A headline about authorities opening a case or residents staging a second demonstration over a forced eviction.\nFade call: 'Peruvian pope' prayers. Expected: fade. Sign: The prayer vigils drop out of the headline cycle as the papal visit concludes.\nSurprise (chance medium): El Niño coastal weather event. A significant weather event linked to El Niño produces visible flooding or infrastructure damage in a Peruvian coastal area.\nSummary: Next week in Peru, President Fujimori will face mounting pressure to respond publicly to the approval decline driven by crime anxiety. Expect a national address or a visible security announcement that attempts to close the gap between strong growth figures and lived frustration. The indigenous group's bid for a share of the China-operated mine will move into an active negotiation phase, adding a foreign-policy dimension to domestic resource politics. The violent eviction that saw residents douse workers with flaming gasoline will generate a follow-up investigation or a second property dispute. The Chiclayo prayers for the 'Peruvian pope' will fade as the papal visit wraps up. A medium-chance surprise involves El Niño bringing a notable weather event to the coast. The overall tone will be one of a government trying to project control while public confidence erodes.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

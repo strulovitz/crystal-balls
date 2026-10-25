@@ -1,0 +1,353 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "CD",
+  "name": "DR Congo",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T20:05:43+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "DR Congo's Ebola outbreak worsened sharply during this window. The disease spread to an eighth province, the total caseload surpassed 6,000, and confirmed cases emerged in at least four neighboring countries. Nigeria reported its first case, which matched the DR Congo strain, and Kenya saw its cases climb to eight. In response, the WHO and partners launched a clinical trial for a three-dose Ebola vaccine in the country. The human toll deepened: hundreds of children were orphaned, prompting emergency nurseries, and grieving families reported a growing mental health burden. Meanwhile, former President Joseph Kabila formally aligned himself with the M23 rebellion, a move Belgium called 'incomprehensible and unacceptable.' Kinshasa tightened its diplomatic posture by barring presidential-office staff from speaking with the Belgian embassy. A cadre of President Tshisekedi's party was arrested for calling to distribute weapons to the public. On the economic front, a US-backed mining company entered final negotiations with Glencore. The national census in Kinshasa continued to face logistical and political obstacles, with officials describing the setbacks as a response to population demands.",
+    "key_events": [
+      {
+        "event": "Ebola outbreak spread to an eighth DR Congo province and the total caseload topped 6,000, with transmission worsening in North Kivu.",
+        "date": null,
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "Nigeria confirmed its first Ebola case, which matched the DR Congo strain, and Kenya's cases rose to eight, marking the outbreak's spread to at least four other countries.",
+        "date": null,
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "WHO and partners launched a clinical trial for a three-dose Ebola vaccine in DR Congo.",
+        "date": null,
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Former President Joseph Kabila joined the M23 rebellion, and Belgium called the Kabila-M23 alliance 'incomprehensible and unacceptable.'",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Hundreds of Ebola orphans were placed in emergency nurseries as the human toll mounted.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "A cadre of President Tshisekedi's party was arrested in DR Congo for calling to distribute weapons to the public.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "A US-backed mining company entered final phases of a deal with Glencore in DR Congo.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The national census in Kinshasa encountered significant logistical and political obstacles.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "health",
+      "politics",
+      "society",
+      "economy"
+    ],
+    "emojis": [
+      "🦠",
+      "⚔️",
+      "💉"
+    ],
+    "emoji_reasons": [
+      "The Ebola outbreak spreading to an eighth province and four other countries with over 6,000 cases is the dominant story of the window (headlines 1, 6, 13, 20).",
+      "Former President Kabila's alignment with the M23 rebellion and the resulting Belgian diplomatic friction represent a military-political escalation (headlines 4, 27, 28).",
+      "The WHO-announced three-dose Ebola vaccine clinical trial beginning in DR Congo marks a major public-health milestone (headlines 9, 11, 15)."
+    ],
+    "developments": [
+      {
+        "subject": "Ebola outbreak spread and caseload",
+        "what_happened": "The outbreak reached an eighth province, surpassed 6,000 cases, and spread to at least four neighboring countries including Nigeria and Kenya, with transmission worsening in North Kivu.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          5,
+          6,
+          10,
+          13,
+          17,
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "subject": "Ebola vaccine trial",
+        "what_happened": "WHO and partners began a clinical trial for a three-dose Ebola vaccine in DR Congo.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9,
+          11,
+          15
+        ]
+      },
+      {
+        "subject": "Ebola orphans and mental health",
+        "what_happened": "Hundreds of children were orphaned by the outbreak, prompting emergency nurseries, and grieving families reported a growing mental health toll.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          16,
+          26
+        ]
+      },
+      {
+        "subject": "Kabila-M23 alliance and Belgian reaction",
+        "what_happened": "Former President Joseph Kabila joined the M23 rebellion, and Belgium publicly called the alliance 'incomprehensible and unacceptable' while Kinshasa barred presidential-office staff from speaking with the Belgian embassy.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          4,
+          12,
+          18,
+          27,
+          28
+        ]
+      },
+      {
+        "subject": "Tshisekedi party cadre arrested",
+        "what_happened": "A senior cadre of President Tshisekedi's party was arrested for calling to distribute weapons to the public in what was framed as a 'war' against Westerners.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          23
+        ]
+      },
+      {
+        "subject": "Census obstacles in Kinshasa",
+        "what_happened": "The national census in Kinshasa encountered significant logistical and political obstacles, with officials describing the challenges as a response to population demands.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          14,
+          19
+        ]
+      },
+      {
+        "subject": "Glencore mining deal",
+        "what_happened": "A US-backed mining company entered the final phases of a deal with Glencore in DR Congo.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          8
+        ]
+      },
+      {
+        "subject": "Hamilton and DR Congo at F1",
+        "what_happened": "Lewis Hamilton called for the freedom of Palestine and DR Congo as Rwanda hosted an F1 Grand Prix.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21
+        ]
+      }
+    ],
+    "gone": [
+      "The Africa CDC reported that over",
+      "Belgian police searched the homes of",
+      "Health authorities in Beni launched an",
+      "Congo arrested hundreds of Chinese miners",
+      "Reporters highlighted the growing role of",
+      "The DR Congo government publicly protested"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The Ebola outbreak and the Kabila-M23 political story are well covered across multiple outlets, but economic and security developments are thin, with only a single mining headline and no dedicated ground-combat reporting."
+    },
+    "headlines_used": [
+      "Congo confirms Ebola outbreak has spread to eighth province",
+      "What to know about the Ebola outbreak that has spread from Congo to 4 other countries",
+      "Emergency nurseries rescue DR Congo's Ebola orphans",
+      "Ikiganiro Imvo n'imvano ku runani rwa gisirikare FRN rwasubiriye AFC/M23 ngo rurwanye reta ya Congo Kinshasa",
+      "Ebola has spread from Congo to 4 other countries. A look at where things stand",
+      "Congo's Ebola caseload tops 6,000 as concerns grow",
+      "VIDÉO. RD Congo: pourquoi le recensement rencontre des obstacles à Kinshasa",
+      "US-Backed Group Congo Mines Deal With Glencore in ‘Final Phases’",
+      "WHO announces start of Ebola vaccine clinical trial in DR Congo",
+      "What to know about Ebola outbreak that has spread from Congo to multiple African countries",
+      "Ebola vaccine trial begins in DR Congo",
+      "RD Congo: Ububirigi bwateye ivyatsi ingingo ya Joseph Kabila yo kurongora umuhari FRN witwaje ibirwanisho",
+      "Ebola: Kenya cases rise to 8, spreads to 8th Congo province",
+      "\"La cartographie est une réponse à la population\": à Kinshasa, le recensement rencontre quelques obstacles",
+      "Ebola Vaccine Trial Begins in Congo With Three Shots in Sight",
+      "As Ebola spreads in Congo, grieving families face a growing mental health toll",
+      "Ebola patient in Nigeria is Swiss, had not visited DR Congo: Bern",
+      "Kinshasa yabujije abakozi bo mu biro vy'umukuru w'igihugu kuvugana na Ambassade y'Ububirigi",
+      "VIDÉO. RD Congo: le recensement général face à de nombreux obstacles à Kinshasa",
+      "Congo’s Ebola Gains Falter as Transmission Worsens in North Kivu",
+      "Hamilton calls for Palestine and DR Congo freedom as Rwanda takes F1 spotlight",
+      "Nigeria Ebola case matches DR Congo strain",
+      "\"Guerre\" contre les Occidentaux: un cadre du parti de Tshisekedi arrêté en RD Congo pour avoir appelé à \"distribuer les armes\"",
+      "Watch Yoka: Rep. Congo Pursues ‘Real Reforms’ to Boost Economy",
+      "Nigerias first Ebola case matches DR Congo strain health officials say - Al Jazeera",
+      "\"Perdu père et mère\": en RDC, Ebola fait des centaines d'orphelins",
+      "RD Congo: la Belgique juge 'incompréhensible et inacceptable' l’alliance entre Joseph Kabila et les rebelles du M23",
+      "Fears grow in DRC as former President Joseph Kabila joins rebellion"
+    ],
+    "converted": false,
+    "relevant_headlines": 28,
+    "unscorable": true,
+    "unscorable_reason": "only 28 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Ebola outbreak spread and caseload",
+        "expected": "Ebola outbreak spread and caseload stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ebola outbreak spread and caseload appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Kabila-M23 alliance and Belgian reaction",
+        "expected": "Kabila-M23 alliance and Belgian reaction stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Kabila-M23 alliance and Belgian reaction appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Ebola vaccine trial",
+        "expected": "Ebola vaccine trial stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ebola vaccine trial appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Ebola vaccine trial",
+        "expected": "persist",
+        "sign": "Ebola vaccine trial is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Ebola outbreak spread and caseload stays in the news at the same level. Kabila-M23 alliance and Belgian reaction stays in the news at the same level. Ebola vaccine trial stays in the news at the same level. Ebola vaccine trial is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Ebola outbreak spread",
+        "expected": "The Ebola outbreak will reach a ninth province in DR Congo as transmission in North Kivu accelerates and the confirmed caseload climbs well above the current total.",
+        "direction": "escalate",
+        "sign": "Headlines will name a new province as affected and quote health officials describing a sharp surge in confirmed cases in the eastern provinces."
+      },
+      "second": {
+        "subject": "Kabila-M23 alliance and Belgian rift",
+        "expected": "Kinshasa will deliver a formal diplomatic protest to Brussels over Belgium's public criticism of the Kabila-M23 alliance, sharpening the already tense bilateral relationship.",
+        "direction": "escalate",
+        "sign": "Headlines will carry a strongly worded statement from the DR Congo foreign ministry directed at Belgium, with diplomats describing the exchange as the sharpest since the alliance was announced."
+      },
+      "third": {
+        "subject": "Glencore mining deal",
+        "expected": "The US-backed mining company and Glencore will finalize their DR Congo mining agreement and make the investment and production terms public.",
+        "direction": "persist",
+        "sign": "Headlines will report the signing of the mining deal with specific production targets or investment figures, framed as a boost to DR Congo's economy."
+      },
+      "fade_call": {
+        "subject": "Tshisekedi party cadre arrest",
+        "expected": "fade",
+        "sign": "The arrested cadre will appear before a court or be released, but the story will drop from front pages as Ebola and the eastern rebel alliance dominate coverage."
+      },
+      "surprise": {
+        "subject": "Neighboring-country travel restriction",
+        "expected": "A neighboring country will impose a temporary border closure or travel restriction on DR Congo nationals, citing the spread of the Ebola strain confirmed in its territory.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, DR Congo's Ebola outbreak will worsen, with the disease reaching a ninth province and the caseload climbing well past the current total. The WHO vaccine trial will enter early enrollment, though no results will be available. The Kinshasa-Brussels rift will deepen as the DR Congo government delivers a formal diplomatic protest over Belgium's criticism of the Kabila-M23 alliance. The Glencore mining deal will be finalized with production targets made public. The Tshisekedi-party cadre arrest will fade as it becomes a routine court matter. A neighboring country will impose a temporary travel restriction on DR Congo nationals in response to the outbreak. The census in Kinshasa will persist but stay in the background. The overall picture will be one of escalating pressure on the government from the epidemic, the eastern rebellion, and diplomatic friction with Belgium.",
+      "generated_at": "2026-10-24T19:55:35+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Ebola cross-border spread",
+        "expected": "The Ebola outbreak will reach a fifth neighboring country as transmission in North Kivu intensifies, prompting a new border closure or travel advisory from an affected state.",
+        "direction": "escalate",
+        "sign": "A headline naming a new country's health ministry confirming a case linked to the Congo strain, or a government announcing entry restrictions for travelers from the eastern provinces."
+      },
+      "second": {
+        "subject": "Glencore mining deal",
+        "expected": "The US-backed mining company will finalize its commercial agreement with Glencore, announcing the terms and the volume of minerals to be extracted.",
+        "direction": "escalate",
+        "sign": "A headline reporting the deal as signed or closed, with reference to the parties and the mineral in question."
+      },
+      "third": {
+        "subject": "Ruling party internal purge",
+        "expected": "A second senior figure from the presidential party will be detained or publicly censured in connection with the weapons-distribution call, widening the internal rift.",
+        "direction": "escalate",
+        "sign": "A headline naming a new arrest or suspension within the presidential party, framed as a response to the earlier cadre's remarks."
+      },
+      "fade_call": {
+        "subject": "Kinshasa census obstacles",
+        "expected": "fade",
+        "sign": "The census story will drop from front pages as the Ebola and political stories dominate, with only a brief logistical update."
+      },
+      "surprise": {
+        "subject": "EU travel advisory after Nigeria-Swiss case",
+        "expected": "The Swiss national's Ebola case in Nigeria, having no direct DR Congo travel history, will prompt a European government to issue a formal travel restriction on the eastern Congolese provinces.",
+        "chance": "medium"
+      },
+      "summary": "The coming week in DR Congo will be defined by the Ebola outbreak's relentless expansion beyond the country's borders. A fifth neighboring state will confirm a case tied to the Congolese strain, and the fresh vaccine trial will generate its first round of public commentary. In Kinshasa, the political fallout from the ruling party cadre's call to arm the public against Westerners will widen into a second detention or censure, deepening the internal fracture. On the economic front, the Glencore minerals deal will close, giving the government a rare positive headline. The standoff with Brussels will hold steady as both sides digest the Kabila-M23 alliance without a new dramatic gesture. The census in Kinshasa will recede from the front pages. Overall, the epidemic will dominate the narrative, the political infighting will sharpen, and the mining deal will provide a brief counterpoint of normalcy.",
+      "generated_at": "2026-10-24T20:05:43+03:00"
+    }
+  },
+  "display": {
+    "headline": "Congo Ebola Spreads Further as Political Rift Deepens",
+    "emojis": [
+      "🦠",
+      "🚔",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "The Ebola outbreak spreading to more countries is the dominant story of the week.",
+      "Arrests within the ruling party signal intensifying internal political pressure.",
+      "The Glencore minerals deal reaching finality is the key economic event."
+    ],
+    "tldr": "DR Congo's Ebola outbreak will spread to another neighboring country while the new vaccine trial generates early headlines. Political infighting around the ruling party's weapons call will produce a second detention. The Glencore mining deal will close.",
+    "eli5": "Right now in DR Congo, two big things are happening at the same time. The Ebola virus is spreading fast — it is already in eight provinces and four other countries, and thousands of people are sick. At the same time, the politicians in Kinshasa are fighting each other: one of the president's own party members got arrested for saying the country should hand out guns to fight Westerners.\n\nThe reason things are getting worse is that the virus keeps finding new routes out of the eastern provinces, and the political split gives the government fewer people it can trust to manage the crisis. The new vaccine trial just started, so there is hope, but it is too early to tell if it works.\n\nNext week, the Ebola story will probably get even bigger — another country might confirm a case, and the vaccine trial will start making news. The political fight will also get louder, with probably another arrest or public scolding inside the president's party.\n\nThe big surprise would be if the weird case in Nigeria — a Swiss person who never even visited DR Congo but still got Ebola — makes a European country shut its borders to the eastern provinces. That would turn a local epidemic into a global headline overnight."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 28 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThis week in the DR Congo was defined by three converging crises. Former President Joseph Kabila formally joined the AFC/M23 rebel coalition in eastern Congo; Kinshasa denounced the move as a prelude to a 'generalized attack' and warned that Kabila's own political family was fracturing over it. The development raised fresh fears that ongoing peace efforts in the east could unravel. The Ebola outbreak also accelerated sharply. The virus spread to an eighth province bordering Central Africa, the UN warned the epidemic was growing 'exponentially,' and the Africa CDC revealed over $700 million in pledged response funds remained unaccounted for. Fearing contagion, mothers in affected areas skipped vital maternal and pediatric care, prompting authorities to launch an improved vaccination drive in Beni. Diplomatically, tensions flared with Brussels after Belgian police searched the homes of President Tshisekedi's relatives; the DRC presidency then restricted its staff's contact with the Belgian embassy. The\n- Former President Joseph Kabila joined the (regular, continuing): Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.\n- The Ebola outbreak spread to an (regular, continuing): The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'\n- The Africa CDC reported that over (regular, continuing): The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.\n- Belgian police searched the homes of (regular, continuing): Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.\n- Health authorities in Beni launched an (regular, continuing): Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.\n- Congo arrested hundreds of Chinese miners (regular, continuing): Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.\n- Reporters highlighted the growing role of (regular, continuing): Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.\n- The DR Congo government publicly protested (regular, continuing): The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.\n\nRound 2026-10-02:\nThe text reported a multi-crisis situation in DR Congo as of early October 2026. An Ebola outbreak, described as the worst in the country's history, had already produced over 8,000 cases and 4,000 deaths across 63 affected areas, concentrated in North Kivu, Ituri, and surrounding eastern corridors. The UN Security Council had voted for a gradual withdrawal of the MONUSCO peacekeeping force, beginning a security transition in the east. An army plane crash had killed at least 17 people, including two senior military justice officials. A local Ebola-focused politician, Marie-Celestin Karondwa, had been beaten to death in Butembo after speaking on radio about prevention measures. Thousands of displaced people had fled an Ebola-hit camp after soldiers entered the site, and a burned transit camp had sent more families running. A Lake Kivu boat capsize had killed at least 12 with dozens missing. In the economic sphere, the government had announced\n- Ebola outbreak surpasses 8,000 cases and (regular, continuing): Ebola outbreak surpasses 8,000 cases and 4,000 deaths across 63 areas in eastern DRC, described as the worst in the country's history.\n- UN Security Council votes for a (regular, continuing): UN Security Council votes for a gradual withdrawal of the MONUSCO peacekeeping force from eastern DRC.\n- An army plane crash kills at (regular, continuing): An army plane crash kills at least 17 people, including two senior military justice officials.\n- Local politician Marie-Celestin Karondwa is beaten (regular, continuing): Local politician Marie-Celestin Karondwa is beaten to death in Butembo after defending Ebola prevention measures on radio.\n- Thousands of displaced people flee an (regular, continuing): Thousands of displaced people flee an Ebola-hit camp after soldiers enter the site and a transit camp is burned.\n- DRC announces a plan to audit (regular, continuing): DRC announces a plan to audit major mining companies annually starting in 2027 as part of a local-content push.\n",
+    "PREVIOUS_FORECAST": "Lead: Kabila-M23 military response. Expected: A new military operation in eastern Congo will be announced in direct response to Joseph Kabila's formal entry into the AFC/M23 coalition. Direction: escalate. Sign: A new operation name, a general's statement echoing the 'generalized attack' accusation, or a fresh front in eastern Congo will headline the week.\nSecond: Ebola funding dispute. Expected: A named official will publicly identify where the over $700 million in pledged Ebola response funds sit, assigning blame to a specific institution. Direction: escalate. Sign: A minister or the Africa CDC will publicly name where the pledged funds sit, or a new province will join the outbreak list.\nThird: DRC-Belgium diplomatic standoff. Expected: Belgium will respond to Kinshasa's embassy contact restrictions by summoning the Congolese ambassador or initiating a new search involving a Tshisekedi relative. Direction: escalate. Sign: The Belgian ambassador will be summoned or a new Tshisekedi relative's name will appear in a search report.\nFade call: Grand Prix Rwanda protest. Expected: fade. Sign: The Grand Prix in Rwanda topic will drop from front pages unless the racing body or the Rwandan government issues a fresh public statement.\nSurprise (chance medium): Kabila family faction split. Vital Kamerhe or another senior relative will declare a rival political faction against Joseph Kabila, splitting the opposition in two.\nSummary: The coming week in DR Congo will be dominated by the fallout from Joseph Kabila's entry into the AFC/M23 rebel coalition. Kinshasa will translate its 'generalized attack' accusation into concrete military action in the east, and the split within Kabila's own political family will sharpen into a public factional break. The Ebola outbreak will keep its exponential trajectory, with the over $700 million in pledged response funds becoming the flashpoint of a public dispute between the government and the Africa CDC. The standoff with Brussels will deepen as Belgium answers Kinshasa's embassy restrictions with a formal diplomatic response. The Grand Prix Rwanda protest, by contrast, will fade from the front pages. Overall, the week will show a state under triple pressure from the east, the epidemic, and a Western diplomatic partner, with no single crisis resolving on its own.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

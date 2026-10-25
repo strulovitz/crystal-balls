@@ -1,0 +1,712 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "GB",
+  "name": "United Kingdom",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T12:28:45+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The UK government approved the long-delayed Jackdaw gas field in the North Sea, ending years of environmental debate. US President Trump welcomed the decision as a win for energy security. The approval came as UK inflation jumped to 3.5%, its highest in nearly a year, driven partly by higher fuel prices linked to the Iran conflict, cementing expectations of a Bank of England rate hike. Chancellor John Healey faces a demanding first budget with borrowing exceeding forecasts and consumer confidence in a slump comparable to the Brexit shock. On the security front, the UK committed to deploying Typhoon fighter jets to defend Saudi Arabian cities from Houthi attacks, deepening its Middle East military role. Two men were rearrested on suspicion of assisting Iranian intelligence over a suspected plot at RAF Fairford. A powerful storm battered Britain, leaving around 15,000 homes without power and disrupting travel across the south. The government quietly urged the public to keep three days of emergency supplies at home. In technology, the UK announced a 100-pound AI Biosecurity Lab with OpenAI and Anthropic, while Microsoft abruptly exited a UK data centre deal, a blow to national AI ambitions. The Russell Brand trial continued in London as women delivered testimony.",
+    "key_events": [
+      {
+        "event": "UK government approves the controversial Jackdaw gas field in the North Sea after years of debate, citing energy security.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "UK inflation jumps to 3.5%, its highest in almost a year, as the Bank of England weighs a November rate hike.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "UK deploys Typhoon fighter jets to defend Saudi Arabian cities from Houthi missile and drone attacks.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Storm Austen hits Britain with 80 mph gusts, leaving roughly 15,000 homes without power and disrupting travel.",
+        "date": "2026-10-23",
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "UK government quietly advises the public to keep three days of emergency supplies at home.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "UK announces a 100-million-pound AI Biosecurity Lab in partnership with OpenAI and Anthropic, alongside 800 million in broader AI security funding.",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Two men are rearrested on suspicion of assisting Iranian intelligence over a suspected plot at RAF Fairford.",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Russell Brand rape and sexual assault trial continues in London as six women testify.",
+        "date": "2026-10-20",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Google Cloud outage disrupts services at multiple UK banks and Revolut before being resolved.",
+        "date": "2026-10-23",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Chancellor John Healey prepares his first budget amid record borrowing, a consumer confidence slump, and pressure to defer hard fiscal choices.",
+        "date": "2026-10-24",
+        "domain": "economy",
+        "importance": 4
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "security",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "⛽",
+      "💸",
+      "🛡️"
+    ],
+    "emoji_reasons": [
+      "The Jackdaw gas field approval dominated coverage, with at least a dozen headlines confirming the UK greenlit North Sea drilling on energy-security grounds (headlines 7, 19, 23, 26, 38, 40, 50, 54, 57, 74, 123, 174).",
+      "UK inflation jumped to 3.5% and consumer confidence fell to a Brexit-shock-level slump, setting up a difficult budget for Chancellor Healey (headlines 11, 34, 37, 83, 108, 127, 171).",
+      "The UK committed to flying Typhoon jets in a defensive air-patrol role to protect Saudi cities from Houthi attacks, a notable expansion of its Middle East military footprint (headlines 24, 44, 51, 56, 60, 77, 149)."
+    ],
+    "developments": [
+      {
+        "subject": "Jackdaw gas field approval",
+        "what_happened": "The UK government gave final approval to develop the Jackdaw gas field in the North Sea after years of environmental and political controversy, with Trump publicly welcoming the decision.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          7,
+          19,
+          23,
+          26,
+          33,
+          38,
+          40,
+          50,
+          54,
+          57,
+          74,
+          123,
+          174,
+          175
+        ]
+      },
+      {
+        "subject": "Inflation spike and budget prep",
+        "what_happened": "UK inflation rose to 3.5%, borrowing exceeded forecasts, consumer confidence slumped, and the pound hit a 17-month high, all ahead of Chancellor Healey's first budget.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          11,
+          34,
+          37,
+          48,
+          55,
+          83,
+          93,
+          100,
+          108,
+          127,
+          131,
+          139,
+          171,
+          177,
+          178
+        ]
+      },
+      {
+        "subject": "UK jets for Saudi Arabia",
+        "what_happened": "The UK announced it will deploy Typhoon fighter jets to provide defensive air patrols over Saudi cities to counter Houthi missile and drone attacks.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          24,
+          44,
+          51,
+          56,
+          60,
+          71,
+          77,
+          149
+        ]
+      },
+      {
+        "subject": "Storm Austen and power outages",
+        "what_happened": "A powerful storm brought 80 mph gusts to parts of Britain, leaving around 15,000 homes without power and causing widespread traffic and rail disruptions.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          39,
+          81,
+          114
+        ]
+      },
+      {
+        "subject": "Emergency stockpiling advice",
+        "what_happened": "The UK government quietly urged households and businesses to keep three days of emergency supplies at home, a move that raised questions about preparedness.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          89,
+          91,
+          112
+        ]
+      },
+      {
+        "subject": "AI Biosecurity Lab and AI funding",
+        "what_happened": "The UK announced a 100-million-pound AI Biosecurity Lab with OpenAI and Anthropic and set out 800 million in broader AI security funding, even as Microsoft exited a UK data centre deal.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          16,
+          20,
+          25,
+          43,
+          95,
+          164
+        ]
+      },
+      {
+        "subject": "Russell Brand trial",
+        "what_happened": "The rape and sexual assault trial of comedian Russell Brand continued in London as six women took the stand to describe alleged offences.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          14,
+          165,
+          183
+        ]
+      },
+      {
+        "subject": "Iran spying at RAF Fairford",
+        "what_happened": "Two men were rearrested on suspicion of assisting Iranian intelligence in connection with a suspected plot at the US-run RAF Fairford airbase.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          47,
+          69,
+          88,
+          189
+        ]
+      },
+      {
+        "subject": "Google Cloud outage hits UK banks",
+        "what_happened": "A Google Cloud outage disrupted banking services including Revolut and several UK banks before being resolved within a day.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          31,
+          59,
+          65,
+          182
+        ]
+      },
+      {
+        "subject": "Reform UK donation and candidate scandals",
+        "what_happened": "Two Reform UK officials resigned amid reports of a donation breach, and the party suspended an ex-candidate following an Al Jazeera investigation, while the party also launched a new media platform.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          35,
+          41,
+          153
+        ]
+      },
+      {
+        "subject": "Oman state visit and Gulf diplomacy",
+        "what_happened": "The Sultan of Oman began a state visit to Britain, with King Charles hailing Omani peace efforts as the Gulf state plays a pivotal role in the Strait of Hormuz.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          63,
+          79
+        ]
+      },
+      {
+        "subject": "UK wildfires and military aircraft",
+        "what_happened": "Record UK wildfires prompted the government to announce it will use military aircraft to help fight climate-change-fuelled fires, with Burnham outlining the plan.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          118,
+          141,
+          172
+        ]
+      }
+    ],
+    "gone": [
+      "Sally Rooney books withdrawn",
+      "Harry and Meghan UK return",
+      "Ukraine support and Zelensky visit",
+      "Norwegian teen murder plot",
+      "Nvidia London visit and AI pledge",
+      "Al-Fayed case police criticism",
+      "Sky-ITV deal intervention"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 190 headlines provide broad and balanced coverage across economy, security, politics, technology, weather, and society, giving a well-rounded picture of the UK during this window."
+    },
+    "headlines_used": [
+      "UK tells public to keep three days' emergency supplies at home",
+      "James London’s 40-yard FG in OT helps Appalachian St. beat James Madison 34-31",
+      "UK singer-songwriter Raye wins Mercury Prize for second album",
+      "What a spectre - Bond boys bounce around London",
+      "How London’s grimiest locations became the stars of ‘Slow Horses’",
+      "Camping out in luxury in London",
+      "VIDÉO. Royaume-Uni: le projet gazier controversé Jackdaw autorisé",
+      "London Developer Halts Major Project as Housing Viability Hits Crisis Point",
+      "London Stock Exchange Group Agrees to Buy Octus From Permira For $3.5 Billion",
+      "London’s tennis players cry fault as bots snap up court bookings",
+      "UK inflation jumps to 3.5% — cementing rate hike expectations",
+      "Hundreds to defy Palestine Action ban in protest at US embassy in London",
+      "Storm causes power outages and traffic disruptions in France and Britain",
+      "What to know as 6 women testify in Russell Brand rape and sexual assault trial in London",
+      "Inside Gaza: Screening on 2 November, Ciné Lumière at the Institut français du Royaume-Uni, London",
+      "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "‘Cake sheds’ are Britain’s new obsession and they’re popping up everywhere",
+      "Keir Starmer's exit: What next for UK-Africa relations?",
+      "Le gouvernement britannique approuve le forage controversé d'un champ gazier en mer du Nord",
+      "UK Vows £100 Million for Biosecurity Lab With OpenAI, Anthropic",
+      "Fashion Brand ME+EM, Worn by British Royals, Posts Sales Growth on U.S. Expansion",
+      "UK mortgage market ‘failing to adapt to new patterns of work’",
+      "UK approves Jackdaw gas field amid net zero debate",
+      "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+      "UK government sets out $800 million of AI security funding",
+      "UK government approves a natural gas project off Scotland despite environmental concerns",
+      "Nelson's erotic dream letter features in London auction",
+      "How does the UK state pension compare with other countries?",
+      "Octopus Energy CEO on 'no brainer' solutions to the UK energy market",
+      "Living off-grid in one of London’s richest suburbs",
+      "Une panne électrique sur Google Cloud perturbe les services de plusieurs banques britanniques",
+      "Axel Springer to Cut Telegraph Jobs After Buying UK Newspaper",
+      "Why the UK should greenlight both Jackdaw and Rosebank",
+      "UK inflation picks up pace, topping forecasts in September",
+      "UK Conservative Party suspends ex-candidate after Al Jazeera investigation",
+      "EXCLUSIVE: India's Scotch probe of Diageo, Pernod undermining India-UK pact benefits, trade group says",
+      "UK inflation rises to highest in almost a year as Iran war drives fuel prices higher",
+      "UK govt approves drilling in Jackdaw gas field",
+      "Storm Boelo to hit UK with up to 80mph gusts as hundreds still without power",
+      "Trump welcomes Britain’s decision to approve new North Sea gas field | CNN Business",
+      "Two Reform UK officials resign amid donation breach reports",
+      "Trump and Burnham to Speak as US-UK Tensions Rise",
+      "UK sets up AI lab to monitor biosecurity threats",
+      "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
+      "Paramilitary hitman linked to British right-wing group Turning Point UK",
+      "China's Baidu tests robotaxi on London streets",
+      "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
+      "Rising UK inflation, debt knocks govt ahead of budget",
+      "How London's Oxford Street was pedestrianised after years of failed attempts",
+      "UK approves new gas field in the North Sea",
+      "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+      "Armenia’s Largest Lender Ardshinbank Is Said to Weigh London IPO",
+      "London Underground blames rising delays on repair backlog",
+      "UK approves development of Jackdaw gasfield in North Sea",
+      "Sterling edges up to fresh 17-month high versus euro after UK data",
+      "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols",
+      "UK approves drilling in controversial Jackdaw gas field",
+      "Dumfries and Galloway: National Geographic's top UK spot to visit",
+      "Google Cloud services face outage in London, Revolut services down too",
+      "UK sends warplanes as Saudi Arabia seeks more help against Houthis",
+      "Healey’s First Budget to Push Hard UK Choices to Another Day",
+      "Healey to promise end of ‘pointless paperwork’ for small UK companies",
+      "King Charles welcomes Omani sultan, hails peace efforts in UK state visit",
+      "Prince William, wannabe DJ and film-lover, appears on UK chat show",
+      "Google Cloud outage hits UK banks",
+      "Tottenham vs Arsenal: Why north London derby could define seasons",
+      "Wizz Air Offers UK Pilots Buyouts As Soaring Jet Fuel Costs Bite",
+      "A cure for ‘plant blindness’? Try London’s Royal Parks",
+      "UK police rearrest two men on suspicion of assisting Iran’s intelligence",
+      "UK approves J&J's oral psoriasis pill",
+      "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news",
+      "Authors urge UK to halt 'draconian' Palestine Action ban as Rooney sales end",
+      "Signalman retires after 38 years at Britain's most unusual rail bridge",
+      "UK approves Jackdaw gas field after years in limbo - DW.com",
+      "UK Pushes for Carve-Out From New EU Tech Sovereignty Rules",
+      "Does the UK overtax banks?",
+      "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+      "UK businesses report strongest month since February, PMI shows",
+      "Sultan of Oman begins state visit to Britain as Gulf state plays pivotal role in Strait of Hormuz",
+      "Paris Outpaces London as Europe’s Top AI City, According to The Observer’s AI Cities Index",
+      "Watch: 15,000 homes without power as Storm Austen batters Britain",
+      "In Britain, pajamas help donkeys keep insects at bay",
+      "UK Consumer Confidence in Slump as Big as Brexit Shock, GfK Says",
+      "Credit insurers cut cover on struggling UK housebuilder Crest Nicholson",
+      "UK police rule out probe into Palestine Action post by PM adviser’s wife",
+      "Bond dealers see small rise in UK debt issuance after budget, more in 2027",
+      "Photos of NFL Week 6: Texans face Jaguars in London as Cowboys visit Packers",
+      "Two men re-arrested for suspected spying for Iran in airbase scare: UK police",
+      "Why is the UK government telling people to stockpile?",
+      "This homeless man has lived in front of one of London's most expensive houses for years. How?",
+      "UK Quietly Warns Citizens to Stock Up on Emergency Supplies",
+      "Turn Downing Street into museum or flats, says Starmer’s cost of living tsar",
+      "London stocks mark weekly fall as oil hits five-month high ahead of budget",
+      "Two-way star Travis Hunter scores TD and makes interception in Jags’ 34-31 loss in London",
+      "Microsoft exits data centre deal in blow to UK AI ambitions",
+      "Babydoll singer becomes first Welsh artist to top UK singles chart in 15 years",
+      "London unlocked: A local's guide to the city",
+      "Britain’s Latest Heir to Thatcher Is Having a Blast",
+      "Accountants fear £1.2bn hit from UK plan to exempt midsized groups from audits",
+      "UK retail sales fall as consumer confidence tumbles",
+      "Transatlantic slavery victims to be remembered across London",
+      "UK Rejects Witkoff’s Characterization of Putin as ‘Humanitarian’",
+      "Shell and Exxon’s $8bn UK chemicals unit put up for sale",
+      "UK regulator urges tighter private market controls to avoid conflicts of interest",
+      "Who is London's mystery Batman doing good deeds?",
+      "How a homeless man lives in front of a London mega-mansion - DW.com",
+      "Spanish VC Seaya Enters London After Raising €600 Million",
+      "‘Relentless’ cost of living pressures behind collapse in UK consumer confidence",
+      "British jets join French nuclear exercise for first time, France says",
+      "London Irish target 2027 return after takeover",
+      "UK Seen More Reliant on Gas Imports This Winter as Prices Surge",
+      "UK urges public and business to better prepare for emergencies",
+      "UK government promises to save businesses £800 million in paperwork and tariffs",
+      "Storm Austen hits UK as yellow wind warnings in effect",
+      "UK Fintech Revolut Expected to Issue Debt in 2027, S&P Says",
+      "Britain secures gas supply from Belgium before winter crunch",
+      "Wizz Air offers UK pilots voluntary redundancy, union says",
+      "Military aircraft to help get UK 'on front foot' to fight wildfires, Burnham says",
+      "UK Mulls Removing Standing Charges From Gas Bills, Burnham Says",
+      "London credit hedge fund Arini’s losses mount",
+      "UK gas, power grids ready for winter despite global turmoil, operators say",
+      "Harrow, Bedford: Posh British schools flock to India amid China worries and pressures at home",
+      "Watch Jackdaw Gas Field Gets UK Approval After Years of Debate",
+      "Fixing Britain’s welfare state and the limits of AI policymaking",
+      "UK restarts large-calibre weapon manufacturing after 20 years in defence push",
+      "Why dozens of buildings across UK are turning purple in October",
+      "UK Inflation Jumps to 11-Month High as BOE Considers a Hike",
+      "Rapid UK pay growth raises pressure on John Healey over minimum wage",
+      "Publishers, advertisers call EU, UK antitrust regulators to suspend Meta's new commercial terms",
+      "Sheffield residents react to UK City of Culture 2029 shortlisting",
+      "UK Borrowing Exceeds Forecast in Final Data Before Budget",
+      "A dangerous threat to UK company rules must be scrapped",
+      "UK financial regulators propose easing vetting rules for finance employees",
+      "Violence Reduction Unit reaches 1m Londoners",
+      "Blackstone Nears Deal to Lease City of London Office to Fast-Growing Fintech Stripe",
+      "Chocoholics and meat lovers feel brunt of rising UK food prices",
+      "Shell- and Exxon-backed UK chemicals group weighs $8 billion sale, FT reports",
+      "Boy wins Pride of Britain award after steering car to safety when mum collapsed",
+      "Pound Hedging Costs Hit Five-Month High on UK Budget Risks",
+      "Britain’s £100,000 tax trap",
+      "Britain to use military aircraft to fight climate change-fuelled wildfires",
+      "Tour de France UK stages in detail - where can you watch?",
+      "UK House Prices Decline for a Third Month, Official Data Show",
+      "New UK banking watchdog to review impact of rules on competitiveness",
+      "UK working to identify exposure after global cyber-security warning",
+      "UK Open to Discussing Chinese Car Tariffs Ahead of EU Summit",
+      "UK regulator urges pension trustees to stress-test over AI concentration risk",
+      "UK plans emergency powers to protect undersea cables",
+      "UK to Fly Missions to Defend Saudi Arabia From Houthi Attacks",
+      "Ofgem approves deal to maintain UK gas import capacity",
+      "Sailor injured after ship fall at London Gateway Port Thurrock",
+      "BOE’s Greene Says UK Labor Market Is Not as Weak as Thought",
+      "Cash-rich Reform UK launches fightback with new media platform",
+      "Is the UK set to green-light a huge untapped oil field?",
+      "Centerbridge, Mubadala in Talks to Buy Canaccord’s UK Wealth Unit",
+      "COMMENTARY: Surging sterling shakes off Britain's budget blues",
+      "All London minicabs could be electric by 2030",
+      "UK Payrolls Rebound and Unemployment Drops Ahead of Budget",
+      "UK factory output expected to stabilise, CBI survey shows",
+      "The graduates ditching the UK to work abroad",
+      "Z.AI Founders Worked on Research Funded by China Institute That UK Tied to Spies",
+      "Britain's MI5 spied on NHS founder Bevan, secret documents show",
+      "The 'trillion pound' oil fund the government believes Britain could have built",
+      "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
+      "Woman tells UK court that comedian Brand treated her like an animal",
+      "UK City of Culture: Blackpool, Milton Keynes, Sheffield and Wrexham shortlisted for 2029",
+      "How Will AI Affect Jobs? The UK Finance Industry Is Showing Us",
+      "UK regulator ends Home REIT investigation",
+      "ECHR row pushes Andrew Boff to leave London Tories after 53 years",
+      "UK Debt Is a Buy for Those Betting on a Play-It-Safe Budget",
+      "UK inflation and borrowing climb before Healey’s first budget",
+      "Record UK wildfires spark call for firefighting aircraft",
+      "Top UK Retailers Cut Christmas Hiring as Shoppers Hold Back",
+      "UK approves long-delayed Jackdaw gas field on energy security grounds",
+      "UK government expected to approve Jackdaw gas field",
+      "UK Signals ‘Different View’ From Trump on Russia Sanctions",
+      "UK borrowing and £3 trillion debt herald tough budget for Healey",
+      "UK Inflation Can Seal the Deal on the BOE’s November Rate Hike",
+      "UK actor Noel Clarke pleads not guilty to six sexual offence charges",
+      "Penguins to move from London to Birmingham in 2028",
+      "UK annual house prices rise at weakest pace since March, ONS says",
+      "Google resolves cloud outage affecting UK banks and websites",
+      "Comedian Russell Brand anally raped me, woman tells UK trial",
+      "LA28 Olympics: Great Britain fourth in men's team final at Gymnastics World Championships",
+      "UK employer pay awards edge up to 3.1%, Brightmine says",
+      "UK asks Apple to widen access to its payment tech",
+      "Betting giant Flutter to axe up to 1,400 jobs in UK and Ireland as tax hike bites",
+      "Man dies in north-west London house fire",
+      "UK police arrest pair on suspicion of helping Iranian intelligence over RAF Fairford incident",
+      "United States Grand Prix practice, qualifying and race times, UK times, plus weather forecast"
+    ],
+    "converted": false,
+    "relevant_headlines": 190,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Jackdaw gas field approval",
+        "expected": "Jackdaw gas field approval stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Jackdaw gas field approval appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Inflation spike and budget prep",
+        "expected": "Inflation spike and budget prep stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Inflation spike and budget prep appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "UK jets for Saudi Arabia",
+        "expected": "UK jets for Saudi Arabia stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about UK jets for Saudi Arabia appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "UK jets for Saudi Arabia",
+        "expected": "persist",
+        "sign": "UK jets for Saudi Arabia is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Jackdaw gas field approval stays in the news at the same level. Inflation spike and budget prep stays in the news at the same level. UK jets for Saudi Arabia stays in the news at the same level. UK jets for Saudi Arabia is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Healey's first budget",
+        "expected": "The Chancellor will announce his first budget with tax and spending measures that respond to the inflation spike and borrowing overrun, setting the economic tone for the autumn.",
+        "direction": "escalate",
+        "sign": "Headlines announce specific tax measures and spending decisions from the Chancellor's budget, with the pound and bond markets reacting sharply."
+      },
+      "second": {
+        "subject": "Typhoon jets for Saudi Arabia",
+        "expected": "Typhoon fighter jets will arrive at Saudi bases and begin their first defensive patrol sorties against Houthi missile and drone threats.",
+        "direction": "escalate",
+        "sign": "Headlines report the arrival of Typhoon jets at Saudi bases and the start of defensive patrol operations."
+      },
+      "third": {
+        "subject": "Iran spying plot at RAF Fairford",
+        "expected": "The two men rearrested over the RAF Fairford plot will face formal charges and a court appearance, with Iran issuing a diplomatic response to the case.",
+        "direction": "escalate",
+        "sign": "Headlines announce formal charges against the suspects or a new arrest linked to the RAF Fairford plot."
+      },
+      "fade_call": {
+        "subject": "Storm Austen",
+        "expected": "fade",
+        "sign": "Headlines report the restoration of power to affected households and the resumption of normal rail and road services."
+      },
+      "surprise": {
+        "subject": "Winter energy market intervention",
+        "expected": "A major UK energy company or the government will announce an unexpected intervention in the gas or electricity market to shield consumers from winter price surges.",
+        "chance": "medium"
+      },
+      "summary": "The Chancellor will deliver his first budget within the week, announcing tax and spending decisions that will reshape the economic debate as inflation sits at its highest level in nearly a year. The pound and gilt markets will react sharply to any surprise measures. Typhoon fighter jets will arrive in Saudi Arabia and begin defensive patrol operations against Houthi threats, deepening the UK's military commitment in the Gulf. The Iran spying case at RAF Fairford will move into the formal charging stage, with the suspects appearing in court and Tehran issuing a diplomatic response. Storm Austen will fade from the headlines as power is restored and travel returns to normal. The Russell Brand trial will enter its closing phases as the defence prepares its case. The government will also signal its next steps on the AI Biosecurity Lab and winter energy security, setting up a busy autumn of policy announcements.",
+      "generated_at": "2026-10-25T12:17:14+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Healey's first Budget",
+        "expected": "Chancellor Healey will deliver her first Budget in Parliament, announcing tax changes and spending plans that address the borrowing gap and the 3.5 percent inflation spike.",
+        "direction": "escalate",
+        "sign": "Headlines carry the Budget speech with market reactions, opposition criticism of borrowing, and details on tax and spending measures"
+      },
+      "second": {
+        "subject": "Russell Brand trial",
+        "expected": "The Russell Brand trial will enter its cross-examination phase as defense counsel questions prosecution witnesses before the jury in London.",
+        "direction": "persist",
+        "sign": "Courtroom headlines feature defense questioning, witness credibility challenges, and legal strategy shifts in the London trial"
+      },
+      "third": {
+        "subject": "UK Typhoon deployment to Saudi Arabia",
+        "expected": "British Typhoon jets will begin operational defensive patrols over Saudi cities as the Houthi missile and drone threat drives sustained UK military involvement in the Gulf region.",
+        "direction": "persist",
+        "sign": "Military headlines describe jet deployments, Houthi intercepts, and expanded air-defense coordination in the Gulf region"
+      },
+      "fade_call": {
+        "subject": "Oman state visit",
+        "expected": "fade",
+        "sign": "Coverage of the Sultan's visit gives way to other diplomatic and domestic stories as the state visit concludes"
+      },
+      "surprise": {
+        "subject": "RAF Fairford Iran plot expansion",
+        "expected": "UK authorities will announce a formal charge or broader security operation linked to the suspected Iranian intelligence plot at RAF Fairford, involving additional arrests or a parliamentary briefing.",
+        "chance": "medium"
+      },
+      "summary": "Next week in the United Kingdom will be defined by Chancellor Healey's first Budget, which will land amid a 3.5 percent inflation spike and consumer confidence at its lowest since the Brexit shock. The Budget speech will dominate parliamentary coverage as markets react to tax and spending decisions and opposition parties press hard on the fiscal arithmetic. The Russell Brand trial will advance into cross-examination, keeping London courtrooms in the headlines as defense counsel challenges prosecution witnesses. British Typhoon jets will begin defensive patrols over Saudi cities, cementing the UK's expanded military role against Houthi attacks. The Oman state visit will wind down, and the Jackdaw gas field approval will settle into implementation details. A surprise development in the RAF Fairford Iran plot would add an extra layer of drama to an already busy week.",
+      "generated_at": "2026-10-25T12:28:45+02:00"
+    }
+  },
+  "display": {
+    "headline": "Healey Budget Dominates as Brand Trial Advances and Jets Fly to Gulf",
+    "emojis": [
+      "💰",
+      "⚖️",
+      "🪖"
+    ],
+    "emoji_reasons": [
+      "The Healey Budget is the dominant escalating story of the week, making the budget and public money emoji the most important.",
+      "The Russell Brand trial will advance into cross-examination, keeping courtroom and justice coverage front and center.",
+      "The UK Typhoon deployment to defend Saudi cities marks a visible military escalation in the Gulf."
+    ],
+    "tldr": "Chancellor Healey will deliver her first Budget amid an inflation spike and a larger-than-forecast borrowing gap, dominating parliamentary coverage. The Russell Brand trial will move into cross-examination, and British Typhoons will begin defensive patrols over Saudi cities against Houthi attacks.",
+    "eli5": "The biggest thing happening next week is Chancellor Healey's first Budget. Think of it like a family making a big plan for how to spend and save money, except it's for the whole country. Inflation is up, people are worried about prices, and the government borrowed more than expected, so the Budget has to make tough choices. Markets and politicians will react strongly to whatever she announces.\n\nAt the same time, the Russell Brand trial is still going. Six women have already told the court what happened. Next week the defense will start questioning those witnesses, which is a bit like a game of spot-the-mistake where the defense looks for cracks in the story. It's a big, dramatic court case that will keep grabbing headlines.\n\nOver in the Middle East, the UK is sending Typhoon fighter jets to fly defensive patrols over Saudi cities. The Houthis have been firing missiles and drones, and Britain is stepping in to help protect the sky. This is a real escalation of the UK's military role overseas.\n\nA surprise that would catch people off guard: the two men rearrested over the suspected Iranian spying plot at RAF Fairford could face formal charges or trigger a wider security operation at UK airbases. That would add a spy-thriller chapter to an already packed week."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "Sally Rooney books withdrawn is listed under 'No longer in the headlines' in the reality bulletin, contradicting the prediction that it would persist at the same level."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines [14], [165], and [183] confirm the Russell Brand trial continued with women testifying in London, matching the persist prediction."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [11], [61], [127], [131], [171], and [177] show UK growth and the autumn Budget remained a dominant and persistent story in the headlines."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The fade call predicted Sally Rooney books withdrawn would persist, but the reality bulletin explicitly lists it under 'No longer in the headlines.'"
+          }
+        },
+        "archer_note": "The bulletin missed the dominant new stories of the week entirely: the Jackdaw gas field approval, the Saudi jet deployment, the inflation spike, the storm, and the AI Biosecurity Lab. Its main thesis of 'more of the same' was wrong; the news cycle shifted dramatically with multiple new dominant stories emerging. The only correct calls were the continuation of the Russell Brand trial and the Budget, both of which were already obvious."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [14], [165], and [183] confirm six women testified with graphic descriptions, matching the prediction of escalating dramatic prosecution testimony."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [61], [177], [171], and [48] confirm the Budget dominated coverage, but the specific 'bank tax increase and online marketplace levy' are not explicitly named in any headline."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Sally Rooney books withdrawn is listed under 'No longer in the headlines,' contradicting the prediction that it would persist as a wider cultural dispute."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Harry and Meghan UK return is listed under 'No longer in the headlines,' confirming the fade prediction."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the Russell Brand trial escalation and the Harry and Meghan fade, and got the Budget in the right direction, but it still anchored on the Sally Rooney withdrawal as a persistent story that had already dropped out of the news cycle. Its surprise call about the PM adviser's wife Palestine Action post was partially validated by headline [85]. The main thesis was mostly right but carried one stale item that no longer belonged in the headlines."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The trial persisted as predicted (headlines [14], [165], [183]), but the specific phase of 'cross-examination of the lead accuser and defense witnesses' does not match reality, which shows prosecution witnesses still testifying."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [61], [177], [171], and [131] confirm the Budget was a dominant escalating story, but the specific 'bank tax increase and online marketplace levy' are not explicitly confirmed in the headlines."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [85] shows the police ruled out a probe into the PM adviser's wife's Palestine Action post, and [72] references the Rooney sales ending, keeping the category alive, though the predicted 'sharp parliamentary exchange' is not clearly present."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Harry and Meghan UK return is listed under 'No longer in the headlines,' confirming the fade prediction."
+          }
+        },
+        "archer_note": "The bulletin kept all four items in the correct broad categories and correctly predicted the Harry and Meghan fade, but it was less specific than Bulletin Y on the Brand trial phase and still carried the Sally Rooney/Palestine Action thread that was fading from the headlines. Its surprise call about a Sky-ITV merger intervention was wrong, as that story is listed under 'No longer in the headlines.' The main thesis was not wrong, merely early and less precise than the reality that unfolded."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Bulletin Y correctly predicted the Russell Brand trial escalation with specific graphic testimony and the Harry and Meghan fade, while Bulletin X anchored its lead on the Sally Rooney story that had already dropped from the headlines. Y's two came_true calls on specific developments outperform X's two came_true calls on already-obvious continuations."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Bulletin Z kept all four items in the correct broad categories and correctly called the Harry and Meghan fade, while Bulletin X got its lead and fade call wrong by predicting Sally Rooney would persist. Z's three true_in_direction calls are more robust than X's two did_not_appear misses on the same story."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Bulletin Y's lead was more precisely matched to reality (escalation with graphic testimony) while Z's lead was slightly off on the trial phase, but Z's third item (Palestine Action/PM adviser) stayed in the right direction while Y's third (Sally Rooney persist) was outright wrong. The two bulletins trade one point each, making them effectively equivalent."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": 1.0,
+      "persistence_vs_crystal": 1.0,
+      "plain_vs_crystal": 0.0
+    },
+    "v": 0.0,
+    "u": -1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe week in the United Kingdom was shaped by a culture clash, a high-profile trial, and a budget season lifted by surprise growth. Sally Rooney's novels were pulled from UK bookstores after her publisher withdrew them over her public support for Palestine Action, a pro-Palestinian group the government had designated a terrorist organisation. Comedian Russell Brand's sexual-assault trial opened in a UK court, with prosecutors branding him a ruthless sexual predator and his lead accuser testifying that she knew he raped her. Economically, the UK unexpectedly grew 0.1 per cent in August, a result analysts credited to AI-driven productivity and a shift away from fossil fuels, giving Chancellor Rachel Healey a welcome lift before her autumn Budget, in which she is expected to raise bank taxes and expand the tax net to online marketplaces. Prince Harry and Meghan Markle made their first joint public engagement since settling back in the\n- Sally Rooney books withdrawn (dominant, new): Rooney's publisher pulled her novels from UK bookstores after she publicly supported Palestine Action, a group the government had listed as a terrorist organisation.\n- Russell Brand trial (dominant, new): The comedian's sexual-assault trial opened in a UK court; prosecutors called him a ruthless sexual predator and his lead accuser told the jury she knew he raped her.\n- UK growth and autumn Budget (dominant, continuing): August GDP rose 0.1%, beating forecasts, and Chancellor Healey signalled she would raise bank taxes and expand the tax net to online marketplaces in her upcoming Budget.\n- Harry and Meghan UK return (regular, new): The couple made their first joint public engagement since settling back in the United Kingdom, an outing that observers compared to a traditional royal appearance.\n- Ukraine support and Zelensky visit (regular, continuing): The UK sent additional Storm Shadow missiles to Ukraine, and President Zelensky visited London where he received full-throated backing from PM Burnham amid a dark moment for Kyiv.\n- Reform UK councillor scandals (regular, escalating): An undercover documentary captured Reform UK councillors making racist and sexually explicit remarks, leading to suspensions, resignations, and the formation of a new breakaway group on Sheffield City Council.\n- Norwegian teen murder plot (regular, new): A 17-year-old Norwegian was sentenced to 20 years in a UK prison for plotting a murder on behalf of an Iran-linked group that recruited him online.\n- UK competition regulator vs Microsoft (regular, new): The UK's CMA targeted Microsoft's grip on business software and said AWS and Microsoft could do more to reduce cloud-services barriers for competitors.\n- Nvidia London visit and AI pledge (occasional, new): Jensen Huang toured London meeting investors and pledged 250 million dollars to UK AI-safety research, signalling continued US tech investment in the country.\n- Al-Fayed case police criticism (occasional, continuing): Survivors in the Al-Fayed scandal accused UK police of missing the bigger picture, alleging the force ignored key aspects of the investigation.\n- Sky-ITV deal intervention (occasional, new): The UK government said it was minded to intervene in the proposed Sky-ITV merger, raising regulatory uncertainty over the deal.\n\nRound 2026-10-02:\nAccording to the text, the US withdrew B-1 strategic bombers from RAF Fairford after an alleged Iranian drone threat targeting the airbase, triggering counter-terrorism arrests of several men suspected of preparing terrorist acts. The UK government, led by Andy Burnham's Labour administration with Chancellor John Healey, faced intense fiscal anxiety ahead of the Autumn Budget, with record diesel prices, a reported wealth exodus from London, property fund restrictions, and an Iran-related hole in public finances straining gilt markets. Israel downgraded the UK consulate in East Jerusalem to a 'UK Mission,' prompting UK diplomatic protest and a Green Party vote declaring Zionism a form of racism. Manchester City entered settlement talks with the Premier League over Abu Dhabi-backed ownership, creating political pressure on the government. The UK blocked a contentious Northern Ireland march after a two-week sectarian standoff. Russian hybrid warfare was reported at costing the UK up to 2.5 billion\n- US B-1 bombers withdrawn from RAF (regular, continuing): US B-1 bombers withdrawn from RAF Fairford after alleged Iranian drone threat, triggering counter-terrorism arrests\n- Autumn Budget fiscal anxiety intensifies with (regular, continuing): Autumn Budget fiscal anxiety intensifies with record diesel prices, wealth exodus, and Iran-related public finance hole\n- Israel downgrades UK East Jerusalem consulate (regular, continuing): Israel downgrades UK East Jerusalem consulate to a 'UK Mission,' triggering diplomatic protest and Green Party Zionism vote\n- UK government blocks contentious Northern Ireland (regular, continuing): UK government blocks contentious Northern Ireland march after two-week sectarian standoff\n- Manchester City enters Premier League settlement (regular, continuing): Manchester City enters Premier League settlement talks over Abu Dhabi-backed ownership\n- Manchester City enters Premier League settlement (again) (regular, continuing): Manchester City enters Premier League settlement talks over Abu Dhabi-backed ownership\n",
+    "PREVIOUS_FORECAST": "Lead: Russell Brand trial. Expected: Jurors will hear cross-examination of the lead accuser and testimony from defense witnesses as the trial enters its second week. Direction: persist. Sign: Headlines carry courtroom drama with cross-examination moments and defense strategy shifts keeping the trial on the front page.\nSecond: Autumn Budget. Expected: Chancellor Healey will table her tax plans, confirming the bank tax increase and the online marketplace levy in a parliamentary speech. Direction: escalate. Sign: Markets react sharply to the final tax figures and the government defends the package against IMF criticism.\nThird: Rooney and Palestine Action fallout. Expected: The police assessment of the PM adviser's wife's social media post will become public and political figures will take firm public sides on the book withdrawal. Direction: persist. Sign: Headlines feature a formal police statement and a sharp parliamentary exchange over the bookstore decision.\nFade call: Harry and Meghan UK return. Expected: fade. Sign: Coverage shifts from the couple's engagement to other celebrity and political stories as the novelty wears off.\nSurprise (chance medium): Sky-ITV merger intervention. The UK government will issue its formal decision to block the proposed merger, triggering a legal challenge from the two broadcasters.\nSummary: Next week in the United Kingdom will be defined by the Russell Brand trial entering its core testimony phase, with jurors hearing cross-examination and defense witnesses. Chancellor Healey's Autumn Budget will dominate economic coverage as she confirms the bank tax rise and the online marketplace levy, prompting sharp market reactions and a public clash with the IMF's preferred approach. The Sally Rooney book withdrawal will spill into political territory as the police statement on the PM adviser's wife becomes public and parliament debates the government's proportionality. The Harry and Meghan UK return story will fade after its initial wave. A surprise formal intervention on the Sky-ITV merger would add a regulatory drama to an already busy week. The mood stays tense, with the trial and Budget providing two dominant narratives.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The trial persisted as predicted (headlines [14], [165], [183]), but the specific phase of 'cross-examination of the lead accuser and defense witnesses' does not match reality, which shows prosecution witnesses still testifying.\n- second: true_in_direction. Headlines [61], [177], [171], and [131] confirm the Budget was a dominant escalating story, but the specific 'bank tax increase and online marketplace levy' are not explicitly confirmed in the headlines.\n- third: true_in_direction. Headline [85] shows the police ruled out a probe into the PM adviser's wife's Palestine Action post, and [72] references the Rooney sales ending, keeping the category alive, though the predicted 'sharp parliamentary exchange' is not clearly present.\n- fade_call: came_true. Harry and Meghan UK return is listed under 'No longer in the headlines,' confirming the fade prediction.\nArcher note: The bulletin kept all four items in the correct broad categories and correctly predicted the Harry and Meghan fade, but it was less specific than Bulletin Y on the Brand trial phase and still carried the Sally Rooney/Palestine Action thread that was fading from the headlines. Its surprise call about a Sky-ITV merger intervention was wrong, as that story is listed under 'No longer in the headlines.' The main thesis was not wrong, merely early and less precise than the reality that unfolded.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

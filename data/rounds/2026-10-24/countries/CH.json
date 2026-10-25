@@ -1,0 +1,402 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "CH",
+  "name": "Switzerland",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T05:51:15+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week's dominant story for Switzerland was the confirmed release of a Swiss woman and an Austrian woman after roughly eighteen months in captivity in Niger, where they had been held by the Islamic State since 2025. The pair were reported to have reached Benghazi, bringing relief to Bern and closing a long-running hostage case. In a separate health scare, Swiss authorities confirmed that an Ebola patient in Nigeria was the wife of a Swiss diplomat, who had reportedly contracted the virus in Uganda rather than in the Democratic Republic of Congo. On the economic front, UBS won a legal victory against former Credit Suisse managing directors over back-pay claims, while Swiss watch exports posted a fifth consecutive monthly rise driven by demand in the US and Europe. The Lindt CEO stepped down as the chocolate sector struggled. In Geneva, violent riots overshadowed what were meant to be peaceful G7-related protests, adding a flash of domestic tension. Switzerland was also floated as a possible venue for the next US-Ukraine-Russia working-level talks, and Vietnam signed a free-trade agreement that included Switzerland. Swiss stocks continued to attract inflows as investors sought a haven from AI-driven market volatility.",
+    "key_events": [
+      {
+        "event": "A Swiss and an Austrian woman were freed after about 18 months held by ISIS in Niger and reached Benghazi.",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Swiss authorities confirmed an Ebola patient in Nigeria is the wife of a Swiss diplomat, likely infected in Uganda.",
+        "date": "2026-10-20",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Violent riots broke out alongside peaceful G7-related protests in Geneva.",
+        "date": "2026-10-19",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "UBS defeated back-pay claims brought by former Credit Suisse managing directors.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Vietnam signed a free-trade agreement with European partners including Switzerland.",
+        "date": "2026-10-23",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A US official said the next US-Ukraine-Russia working-level talks could be held in Switzerland or Abu Dhabi.",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Swiss stocks attracted inflows as investors sought a safe haven amid AI-driven market jitters.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Lindt's chief executive exited as the Swiss chocolate industry faced mounting pressure.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Swiss watch exports rose for a fifth consecutive month, supported by US and European demand and F.P. Journe auction results.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "A 'Treasury of Ice' exhibition opened, showcasing relics uncovered as Swiss glaciers accelerate their retreat.",
+        "date": "2026-10-18",
+        "domain": "environment",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "security",
+      "economy",
+      "health",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🕊️",
+      "🦠",
+      "🔥"
+    ],
+    "emoji_reasons": [
+      "The release of the Swiss and Austrian hostages from Niger after 18 months (headlines 2, 12, 15, 17, 25, 28) was the week's defining positive event.",
+      "The confirmation that a Swiss diplomat's wife was an Ebola patient in Nigeria, likely infected in Uganda (headlines 3, 4, 9), added a health-alarm dimension.",
+      "Violent riots that overshadowed G7 protests in Geneva (headline 5) brought a flash of domestic unrest to an otherwise calm city."
+    ],
+    "developments": [
+      {
+        "subject": "Niger hostage release",
+        "what_happened": "A Swiss and an Austrian woman were freed after roughly 18 months in ISIS captivity in Niger and reported to have reached Benghazi.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          2,
+          12,
+          15,
+          17,
+          25,
+          28
+        ]
+      },
+      {
+        "subject": "Ebola – Swiss diplomat's wife",
+        "what_happened": "Bern confirmed an Ebola case in Nigeria involved the wife of a Swiss diplomat, with infection likely acquired in Uganda rather than DR Congo.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          4,
+          9
+        ]
+      },
+      {
+        "subject": "Geneva G7 riots",
+        "what_happened": "Violent clashes broke out alongside largely peaceful G7-related demonstrations in Geneva.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "UBS vs ex-CS back-pay",
+        "what_happened": "UBS won a court ruling against former Credit Suisse managing directors seeking back-pay, while analysts noted UBS capital rules continue to constrain Swiss shareholders.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          14,
+          20
+        ]
+      },
+      {
+        "subject": "Vietnam FTA with Switzerland",
+        "what_happened": "Vietnam signed a free-trade agreement with a group of European countries that included Switzerland.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          24
+        ]
+      },
+      {
+        "subject": "Swiss stocks as AI haven",
+        "what_happened": "Swiss equities attracted inflows as global investors hedged against AI-sector volatility.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7
+        ]
+      },
+      {
+        "subject": "Swiss watch exports",
+        "what_happened": "Watch exports rose for a fifth straight month on strong US and European demand, with F.P. Journe auction prices cited as a confidence boost.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          19,
+          29
+        ]
+      },
+      {
+        "subject": "Lindt CEO departure",
+        "what_happened": "Lindt's chief executive stepped down amid broader struggles in the Swiss chocolate industry.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          26
+        ]
+      },
+      {
+        "subject": "US-Ukraine-Russia talks venue",
+        "what_happened": "A US official indicated the next working-level trilateral talks could take place in Switzerland or Abu Dhabi.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          27
+        ]
+      },
+      {
+        "subject": "Glacier melt exhibition",
+        "what_happened": "A 'Treasury of Ice' exhibition opened, displaying artifacts uncovered as Swiss glaciers continue to recede rapidly.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Nomura wealth push in Switzerland",
+        "what_happened": "Nomura is reportedly exploring a wealth-management push on UBS's home turf in Switzerland.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          23
+        ]
+      },
+      {
+        "subject": "Partners Group EU-tax call",
+        "what_happened": "Partners Group's Gantner urged a Swiss tax on firms that hire through the EU, highlighting cross-border labor-cost tensions.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          31
+        ]
+      }
+    ],
+    "gone": [
+      "UBS exploring departure from Switzerland",
+      "Credit Suisse Greensill settlement",
+      "Zurich Airport fuel shortage",
+      "Finance minister euro-debt warning",
+      "FIFA Zurich meeting",
+      "Journalist court case",
+      "Swisscom antitrust appeal",
+      "Djokovic at Swiss Indoors",
+      "Solar-plane altitude record",
+      "Swiss trade chief on US gifts",
+      "Swiss tourist jailed in Bali"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major stories—hostage release, Ebola case, UBS legal win, Geneva riots, and trade—well, though several entries are light TV5Monde culture segments and tennis schedules that add breadth without depth."
+    },
+    "headlines_used": [
+      "Swiss energy company VAROPreem looks to double earnings by 2030 as Europe faces fuel supply crunch",
+      "An Austrian and a Swiss woman freed in Niger after a year and half in captivity",
+      "Ebola patient in Nigeria is Swiss, had not visited DR Congo: Bern",
+      "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
+      "Violent riots overshadow peaceful G7 protests in Geneva",
+      "Journée de la musique suisse (Season 1)",
+      "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets",
+      "‘The Switzerland of North America’: Albertans vote on leaving Canada",
+      "Ebola patient in Nigeria believed to have contracted disease in Uganda, Switzerland says",
+      "A ‘Treasury of Ice’ goes on show, revealing relics as Swiss glaciers rapidly melt",
+      "Sadness as Belper's Swiss Tea Rooms set to close",
+      "Austrian and Swiss women kidnapped in Niger are freed after more than a year in captivity — report",
+      "Escapades en Suisse italienne - Vallée de Blenio",
+      "UBS Defeats Ex-Credit Suisse Managing Directors’ Back-Pay Claims",
+      "Austrian and Swiss women freed after 18 months in Niger reach Benghazi, sources say",
+      "ATP Geneva Open - Men's Doubles - Scores & Schedule - Tennis - BBC Sport",
+      "Austrian, Swiss women kidnapped in Niger are freed — report - DW.com",
+      "Suisse en scène - Ariane Moret",
+      "Swiss Watch Exports Rise for Fifth Month on US, Europe Demand",
+      "UBS capital rules have Swiss stuck between a rock and a hard place",
+      "WTA Swiss Women's Championship - Women's Singles - Scores & Schedule - Tennis - BBC Sport",
+      "Suisse en scène - Saype",
+      "Nomura Exploring Wealth Push in Switzerland on UBS’s Home Turf",
+      "Vietnam signs free-trade pact with European countries including Norway, Switzerland",
+      "Niger: une Suissesse et une Autrichienne libérées après de longs mois aux mains de l'État islamique",
+      "Lindt CEO Exits as Swiss Chocolate Industry Struggles",
+      "Next US-Ukraine-Russia working-level talks could be in Abu Dhabi or Switzerland, US official says",
+      "Enlevées au Niger en 2025 par l'EI: ce que l'on sait de la libération de deux otages, une Suissesse et une Autrichienne",
+      "Swiss Watch Recovery Boosted by F.P. Journe’s Auction Prices",
+      "Escapades en Suisse italienne - Via del Ceneri",
+      "Partners Group’s Gantner Calls for Swiss Tax on Firms EU Hiring",
+      "Le miracle suisse",
+      "OKI - Comment devient-on pompier en Suisse",
+      "Escapades en Suisse italienne"
+    ],
+    "converted": false,
+    "relevant_headlines": 34,
+    "unscorable": true,
+    "unscorable_reason": "only 34 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Niger hostage release",
+        "expected": "Niger hostage release stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Niger hostage release appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Ebola – Swiss diplomat's wife",
+        "expected": "Ebola – Swiss diplomat's wife stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ebola – Swiss diplomat's wife appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Geneva G7 riots",
+        "expected": "Geneva G7 riots stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Geneva G7 riots appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Ebola – Swiss diplomat's wife",
+        "expected": "persist",
+        "sign": "Ebola – Swiss diplomat's wife is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Niger hostage release stays in the news at the same level. Ebola – Swiss diplomat's wife stays in the news at the same level. Geneva G7 riots stays in the news at the same level. Ebola – Swiss diplomat's wife is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Ebola case involving Swiss diplomat's wife",
+        "expected": "Bern will issue an update on the health condition of the Swiss diplomat's wife and clarify the next steps for her care in Nigeria.",
+        "direction": "escalate",
+        "sign": "A headline reporting that Bern has issued a new medical or travel advisory tied to the Ebola case in Nigeria"
+      },
+      "second": {
+        "subject": "Switzerland as venue for US-Ukraine-Russia talks",
+        "expected": "A US or Swiss official will confirm or reject Switzerland as the location for the next working-level trilateral meeting.",
+        "direction": "persist",
+        "sign": "A headline announcing the confirmed city for the next US-Ukraine-Russia working-level session or its transfer to Abu Dhabi"
+      },
+      "third": {
+        "subject": "Swiss and Austrian women freed from Niger",
+        "expected": "The freed women will give their first public statements or complete a medical assessment as the diplomatic case closes.",
+        "direction": "de-escalate",
+        "sign": "A headline about the freed women's first interview or hospital discharge after their time in Benghazi"
+      },
+      "fade_call": {
+        "subject": "Geneva G7-related riots",
+        "expected": "fade",
+        "sign": "The Geneva riots will drop out of Swiss coverage with no follow-up arrests or new demonstrations"
+      },
+      "surprise": {
+        "subject": "Nomura wealth-management entry into Switzerland",
+        "expected": "Nomura will announce a concrete acquisition or partnership in the Swiss wealth-management market, directly challenging UBS's position in its home market.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the Ebola case involving the wife of a Swiss diplomat will dominate Swiss headlines as Bern tracks her condition in Nigeria and officials clarify the chain of exposure in Uganda. The question of whether Switzerland will host the next US-Ukraine-Russia working-level talks will see a definitive answer, either confirming a Swiss city or ceding the venue to Abu Dhabi. The freed Swiss and Austrian women will move toward their first public appearance or medical debriefing, shifting the story toward closure. The Geneva G7 riots will largely disappear from coverage. On the financial side, UBS and the Swiss banking sector will stay in the spotlight as the back-pay ruling settles and Nomura's wealth-management ambitions gain concrete shape. The watch and chocolate sectors will see minor follow-ups as the Lindt leadership transition takes hold.",
+      "generated_at": "2026-10-25T05:38:43+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Ebola – Swiss diplomat's wife",
+        "expected": "Bern will announce the medical evacuation plan for the Swiss diplomat's wife in Nigeria, triggering a health advisory for Swiss nationals in West Africa.",
+        "direction": "persist",
+        "sign": "Headlines will report the medical condition of the Swiss patient, the evacuation or hospitalization arrangements, and any Swiss travel or health advisory for the region."
+      },
+      "second": {
+        "subject": "US-Ukraine-Russia talks venue",
+        "expected": "Switzerland will confirm or decline the hosting of the next trilateral working-level talks, triggering either diplomatic preparations in Geneva or a public statement from the foreign ministry.",
+        "direction": "escalate",
+        "sign": "Headlines will state whether Switzerland has accepted the hosting role, the chosen city, and the expected date of the negotiations."
+      },
+      "third": {
+        "subject": "Nomura wealth push in Switzerland",
+        "expected": "Nomura will announce a concrete step toward entering the Swiss wealth-management market, intensifying competitive pressure on UBS.",
+        "direction": "persist",
+        "sign": "Headlines will report a specific Nomura move in Switzerland including a partnership announcement, a new office, or a regulatory application."
+      },
+      "fade_call": {
+        "subject": "Niger hostage release",
+        "expected": "fade",
+        "sign": "Headlines will reference the freed Swiss and Austrian women only as background context in broader African security or Swiss foreign policy coverage."
+      },
+      "surprise": {
+        "subject": "Lindt CEO departure and industry consolidation",
+        "expected": "The Lindt CEO departure will trigger a public debate on Swiss chocolate industry consolidation, with at least one major player announcing a restructuring or acquisition plan.",
+        "chance": "low"
+      },
+      "summary": "Next week in Switzerland, the Ebola case involving the Swiss diplomat's wife in Nigeria will dominate as Bern manages the medical evacuation and issues guidance for its nationals in West Africa. The question of whether Switzerland will host the next US-Ukraine-Russia working-level talks will generate diplomatic activity, with Bern either confirming the venue or explaining its choice. In the financial sector, Nomura's reported push into Swiss wealth management will produce a concrete announcement, sharpening competitive pressure on UBS amid the unresolved capital-rules debate. The Niger hostage release will drop from front pages, leaving the freed women as a resolved footnote. A low-chance surprise: the Lindt CEO departure sparks a broader industry consolidation debate. Switzerland's week will be shaped by a health-diplomatic crossover, a geopolitical hosting decision, and a banking competitive shift.",
+      "generated_at": "2026-10-25T05:51:15+02:00"
+    }
+  },
+  "display": {
+    "headline": "Swiss Ebola Case and Ukraine Talks Venue Dominate Week",
+    "emojis": [
+      "🦠",
+      "📞",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "The Ebola case involving a Swiss diplomat's wife is the week's most active health and diplomatic story.",
+      "The US-Ukraine-Russia working-level talks venue decision will drive diplomatic and security headlines.",
+      "Nomura's wealth-management push and UBS's capital-rules debate anchor the banking and competitive story."
+    ],
+    "tldr": "Switzerland's next week centers on the Ebola case of a Swiss diplomat's wife in Nigeria and the decision over hosting US-Ukraine-Russia talks. Nomura will make a concrete move into Swiss wealth management. The Niger hostage release fades from headlines.",
+    "eli5": "Switzerland just got some big news. A Swiss woman and an Austrian woman were freed from being held by the Islamic State in Niger after about a year and a half, and they made it to safety in Benghazi. At the same time, the wife of a Swiss diplomat in Nigeria came down with Ebola, and Bern is scrambling to make sure she gets proper medical care.\n\nThe Ebola case is tricky because Ebola is a very serious virus, and Switzerland now has a citizen in a West African hospital. The government has to figure out whether to fly her home, what to tell other Swiss people living in the area, and how to explain the situation to the public.\n\nNext week, expect Bern to announce what is happening with the diplomat's wife and whether she is being evacuated. There is also a big question about whether Switzerland will host the next round of talks between the US, Ukraine, and Russia. If Bern says yes, you will see a lot of security planning and diplomatic activity. In the banking world, a Japanese company called Nomura is trying to break into the Swiss wealth-management market, which puts pressure on UBS.\n\nA surprise would be if the departure of Lindt's CEO triggers a whole industry shakeup, with other Swiss food companies announcing mergers or big changes. That would turn a corporate news item into a national economic story."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 34 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe dominant story this week was the resolution of the Credit Suisse bonus dispute: Swiss top court definitively ruled against former CS bankers who sought to recover bonuses stripped after the UBS takeover, closing a long legal battle. In the same week Credit Suisse secured 800 million dollars from insurers in the Greensill settlement. These rulings appeared to sharpen a broader regulatory strain: multiple reports indicated UBS was actively exploring the option of relocating its headquarters outside Switzerland if capital and regulatory rules tightened further, a move a domestic competitor warned would be damaging for the country. In Zurich, FIFA president Gianni Infantino faced rebelling members following a failed attempt to sell a World Cup-related stake. On the economic front, Switzerland's finance minister warned that steep European debt levels risked triggering a new euro-area crisis, and the federal government approved emergency reserve fuel withdrawals at Zurich Airport amid a supply\n- UBS exploring departure from Switzerland (dominant, escalating): Multiple reports indicated UBS was weighing the option of relocating its headquarters abroad if Swiss capital and regulatory rules tightened, a move a domestic competitor warned would harm the country.\n- Credit Suisse bonus court ruling (dominant, resolved): The Swiss top court definitively rejected former Credit Suisse bankers' final bid to recover bonuses stripped after the UBS takeover, ending a prolonged legal battle.\n- Credit Suisse Greensill settlement (regular, new): Credit Suisse secured 800 million dollars from insurers as part of the Greensill Trade Finance settlement.\n- Zurich Airport fuel shortage (regular, new): The Swiss government approved emergency reserve fuel withdrawals to address a fuel shortage at Zurich Airport.\n- Finance minister euro-debt warning (regular, new): Switzerland's finance minister warned that the current level of European sovereign debt posed a risk of triggering a new euro-area crisis.\n- FIFA Zurich meeting (regular, new): FIFA president Gianni Infantino faced rebelling members in Zurich following the failure of a planned World Cup stake sale.\n- Journalist court case (regular, continuing): A Swiss journalist who had exposed a top banker faced the risk of a criminal court sentence.\n- Swisscom antitrust appeal (occasional, new): Swisscom prevailed on appeal against a Swiss antitrust fine connected to its fiber-network expansion plans.\n- Djokovic at Swiss Indoors (occasional, new): Novak Djokovic accepted a wild-card invitation to compete at the upcoming Swiss Indoors tennis tournament in Basel.\n- Solar-plane altitude record (occasional, new): The altitude record previously set by a Swiss solar-powered aircraft was officially confirmed.\n- Swiss trade chief on US gifts (occasional, new): Switzerland's trade chief stated that a recent Rolex-and-gold gift was intended for the United States rather than as a personal gesture toward the president.\n- Swiss tourist jailed in Bali (occasional, new): A Swiss tourist was jailed in Bali for insulting a Hindu religious holiday during a trip abroad.\n\nRound 2026-10-02:\nAccording to the text, in the week of approximately October 8 through 14, 2026, several major storylines converged on Switzerland. Guy Parmelin announced his resignation from the Federal Council effective year-end, just after a high-profile visit to India where he signed memoranda of understanding with Prime Minister Modi on mobility, transport, science, and innovation. UBS faced sustained investor pressure over Swiss capital rules, with CEO Sergio Ermotti arguing the bank needs a US presence to compete globally. The Swiss franc rallied amid French budget worries, European bond stress, and weak US jobs data. The Court of Arbitration for Sport in Lausanne prepared to rule on the Senegal-Morocco Africa Cup of Nations title appeal. UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino, while Norway filed ethics complaints against him. The organizing president of the Crans-Montana Alpine World Championships was suspended pending a fraud trial. Swiss\n- Guy Parmelin announced his resignation from (regular, continuing): Guy Parmelin announced his resignation from the Federal Council effective end of 2026.\n- UBS faced sustained investor pressure over (regular, continuing): UBS faced sustained investor pressure over Swiss capital rules and its global structure.\n- The Court of Arbitration for Sport (regular, continuing): The Court of Arbitration for Sport in Lausanne prepared a ruling in the Senegal-Morocco AFCON title appeal.\n- UEFA leaders met in Berlin to (regular, continuing): UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino.\n- Swiss glaciers lost nearly 20 percent (regular, continuing): Swiss glaciers lost nearly 20 percent of their mass in five years per a new report.\n- The UN Human Rights Council in (regular, continuing): The UN Human Rights Council in Geneva adopted a resolution demanding an immediate ceasefire in Sudan.\n",
+    "PREVIOUS_FORECAST": "Lead: UBS relocation threat. Expected: The Swiss government will announce a formal regulatory review of capital rules in direct response to UBS's relocation threat, initiating a public consultation process before the bank commits to a move. Direction: escalate. Sign: Headlines will carry the finance minister or the Swiss government naming a specific regulatory step or consultation on capital rules in response to UBS's stated position\nSecond: Journalist criminal verdict. Expected: The criminal court will hand down its verdict on the Swiss journalist who exposed a top banker, delivering either a sentence or an acquittal. Direction: persist. Sign: Headlines will state the criminal court's verdict on the journalist, the outcome of the case, and the reaction from the parties involved\nThird: Zurich Airport fuel shortage. Expected: The fuel shortage at Zurich Airport will force additional flight cancellations as the approved reserve withdrawals prove insufficient to cover weekly demand. Direction: persist. Sign: Headlines will report flight disruptions at Zurich Airport or other Swiss airports and the status of fuel deliveries from suppliers\nFade call: Credit Suisse bonus ruling. Expected: fade. Sign: Headlines will reference the Credit Suisse bonus ruling only as background context in broader banking or regulatory coverage\nSurprise (chance medium): Federal Council succession process. The Swiss parliament will open the formal candidate-selection process for Guy Parmelin's successor on the Federal Council, naming a committee or announcing a timeline for the vote.\nSummary: Next week in Switzerland, the UBS relocation threat will dominate as the government is forced to respond to the bank's public questioning of capital rules. Expect the finance minister to announce a formal regulatory step, whether a consultation, an amendment proposal, or a signal of flexibility, to keep UBS from committing to a move abroad. In the courts, the verdict on the journalist who exposed a top banker will be delivered, and the outcome will be read as a test of press freedom in the financial sector. At Zurich Airport, the fuel shortage will force further schedule disruptions as reserve stocks are drawn down. The Credit Suisse bonus saga will drop from front pages, leaving UBS's uncertain future as the central question. A medium-chance surprise: parliament may open the formal process to name Guy Parmelin's successor, injecting a new political dimension into an already tense week.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

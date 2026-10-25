@@ -1,0 +1,540 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "KR",
+  "name": "South Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T03:22:35+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "South Korea's week was dominated by a sharp escalation in inter-Korean border tensions. Pyongyang threatened to resume propaganda loudspeaker broadcasts across the border, with Kim Yo Jong warning they would be operational within days. Seoul responded by proposing military talks to calm the situation and vowing resolute punishment if North Korea followed through. US and South Korean officials assessed little chance of a Trump-Kim meeting this year. Economically, the chip sector continued to shine: exports for October 1-20 surged 105 percent on record semiconductor sales, and the finance minister projected the chip boom would sustain through 2027. The central bank held rates on October 22 with a hike expected in November. However, the AI trade narrative wobbled as data-center firm Elice plunged roughly 30 percent in its KOSPI debut, and SK Hynix's Solidigm US IPO was placed on hold over dual-listing concerns. A lighter but widely covered story saw a dusky shark nicknamed Bukangi trapped in a canal become a tourist attraction; after two failed rescue attempts, it was finally guided to sea on the third try. Diplomatically, South Korea began withdrawing some embassy staff from Ukraine as the North Korean POW transfer dispute deepened.",
+    "key_events": [
+      {
+        "event": "South Korea formally proposed military talks with North Korea to de-escalate rising border tensions",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "North Korea's Kim Yo Jong warned that propaganda loudspeaker broadcasts toward Seoul would be ready within days",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "South Korean exports for October 1-20 surged 105 percent on record semiconductor sales",
+        "date": "2026-10-24",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "AI data-center firm Elice plunged roughly 30 percent in its KOSPI trading debut, rattling the AI investment narrative",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A dusky shark nicknamed Bukangi trapped in a Seoul-area canal was finally guided to sea after two failed rescue attempts drew huge crowds",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "South Korea began withdrawing some embassy staff from Ukraine as the North Korean POW transfer dispute deepened",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "The Bank of Korea held interest rates on October 22, with a hike expected in November",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "SK Hynix placed the US IPO of its chip unit Solidigm on hold after Seoul authorities raised dual-listing concerns",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Samsung reportedly agreed to use TSMC technology for Nvidia's next-generation memory chips",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🗣️",
+      "📈",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "North Korea's Kim Yo Jong warned loudspeaker propaganda broadcasts toward Seoul would be ready within days (headline 49, 57).",
+      "South Korean exports surged 105 percent on record chip sales and the finance minister projected the semiconductor boom will last through 2027 (headline 51, 46).",
+      "South Korea formally proposed military talks with North Korea to calm rising border tensions (headline 1, 2, 11)."
+    ],
+    "developments": [
+      {
+        "subject": "Inter-Korean border tensions and military talks",
+        "what_happened": "North Korea threatened to resume propaganda broadcasts and Kim Yo Jong warned loudspeakers would be ready within days, prompting Seoul to propose military talks and vow resolute punishment.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          6,
+          11,
+          22,
+          24,
+          30,
+          34,
+          49,
+          53,
+          57
+        ]
+      },
+      {
+        "subject": "Bukangi shark rescue saga",
+        "what_happened": "A dusky shark trapped in a canal became a tourist spectacle; after two failed rescue attempts drew huge crowds, it was finally guided to sea on the third try.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          3,
+          4,
+          7,
+          13,
+          14,
+          16,
+          18,
+          23,
+          25,
+          32,
+          33,
+          37,
+          45,
+          47,
+          52
+        ]
+      },
+      {
+        "subject": "Chip export boom and semiconductor outlook",
+        "what_happened": "October exports surged 105 percent on record chip sales, and the finance minister said the semiconductor growth cycle will sustain through 2027.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          10,
+          46,
+          48,
+          51,
+          60
+        ]
+      },
+      {
+        "subject": "Elice IPO plunge and AI sector reassessment",
+        "what_happened": "AI data-center firm Elice dropped roughly 30 percent on its trading debut, prompting investors to reassess AI spending and adding to concerns about the AI trade narrative.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          21,
+          28,
+          29,
+          36,
+          40,
+          43,
+          55
+        ]
+      },
+      {
+        "subject": "Ukraine embassy withdrawal and POW dispute",
+        "what_happened": "South Korea began pulling some embassy staff from Ukraine and repatriated an aid worker as the dispute over a North Korean POW transfer deepened.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          27,
+          38,
+          39,
+          44,
+          54
+        ]
+      },
+      {
+        "subject": "BOK rate decision",
+        "what_happened": "The Bank of Korea held rates on October 22, with a hike expected in November as the economy stays robust on the export boom.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          19,
+          56
+        ]
+      },
+      {
+        "subject": "SK Hynix Solidigm US IPO hold",
+        "what_happened": "Seoul authorities raised dual-listing concerns, leading SK Hynix to place the US IPO of its Solidigm chip unit on hold.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          31,
+          58
+        ]
+      },
+      {
+        "subject": "Samsung-TSMC-Nvidia memory chip deal",
+        "what_happened": "Samsung reportedly agreed to use TSMC technology for Nvidia's next-generation memory chips, signaling a shift in the advanced packaging supply chain.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          60
+        ]
+      },
+      {
+        "subject": "Sect leader sentencing",
+        "what_happened": "A South Korean sect leader received an additional 33 years in prison for sexual assaults.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          59
+        ]
+      },
+      {
+        "subject": "PHP security emergency",
+        "what_happened": "South Korea activated an emergency response to critical security flaws in the PHP programming language.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          42
+        ]
+      }
+    ],
+    "gone": [
+      "US-SK intelligence row",
+      "Peninsula hypersonic arms race",
+      "KOSPI and chip-market slump",
+      "Middle East military mission",
+      "Winter energy and coal pivot",
+      "Wartime command transfer friction",
+      "Racial abuse at Swansea-Millwall"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Headlines cover the major security, economic, and diplomatic stories well, with strong representation of the border tension, chip boom, and the viral shark story, though domestic politics and social policy are thinly represented."
+    },
+    "headlines_used": [
+      "South Korea proposes talks with North Korea on land border again",
+      "South Korea proposes military talks with North Korea to calm rising border tensions",
+      "South Korea guides crowd-pulling shark out of canal",
+      "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
+      "Busan: Is this South Korea port the world’s next great creative city?",
+      "South Korea proposes military talks with North amid border tensions",
+      "Corée du Sud : un requin piégé dans un canal guidé vers la mer",
+      "Tech Rout Leaves South Korean Stocks Twice as Cheap as Indonesia",
+      "Santhera’s Licensing Partner, Nxera Pharma, Submits Marketing Authorization Application for AGAMREE® (Vamorolone) in South Korea – Company Announcement - FT.com",
+      "Semiconductor growth expected to sustain through next year: South Korea Finance Minister",
+      "South Korea invites North for military talks over border",
+      "EXCLUSIVE: US, South Korean officials see little chance of Trump-Kim meeting this year",
+      "A city in South Korea seeks new ways to free a huge gray shark after it slips back into canal",
+      "South Korea launches new bid to guide crowd-pulling shark to sea",
+      "South Korea",
+      "South Korea’s celebrity shark foils third rescue attempt",
+      "Is traditional South Korean wrestling dying out?",
+      "Corée du Sud : troisième essai pour reconduire un requin égaré vers la mer",
+      "South Korea’s Export Boom Stays Strong Ahead of BOK Rate Decision",
+      "Anchanto Partners with JINGDONG Logistics to Help South Korean Brands Sell Across Global Marketplaces",
+      "South Korea's Elice plunges 30% in market debut as investors reassess AI sector",
+      "South Korea invites North for military talks over border - Al Jazeera",
+      "Shark nicknamed 'Bukangi' foils rescue attempts, returns to South Korean canal",
+      "North Korea says it will resume propaganda broadcasts across border into South Korea",
+      "Huge crowds watch attempt to rescue shark stranded in South Korean canal",
+      "‘Possible Love’ looks to put South Korea in Oscar race",
+      "South Korea Pulls Embassy Staff From Ukraine After Envoy Recall",
+      "South Korean data centre builder tumbles 32% on trading debut",
+      "South Korea’s Elice plunges in market debut",
+      "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
+      "SK Hynix puts US IPO of chip unit Solidigm on hold after Seoul authorities raise concerns",
+      "Dusky shark that became a tourist draw while trapped in a South Korean canal finally swims free",
+      "Huge crowds visit shark stranded in South Korean canal",
+      "Seoul Vows to Boost DMZ Control After North Korea’s Threat",
+      "Private equity looks to South Korea as next Asian frontier",
+      "South Korea's Elice plunges 32% in IPO as investors reassess AI sector",
+      "Shark returns to South Korea canal after failed rescue attempt",
+      "South Korea repatriates aid worker from Ukraine over safety, Yonhap says",
+      "South Korea to withdraw some embassy staff from Ukraine as row over POW transfer deepens",
+      "South Korean Data Center Firm Elice Plunges in Trading Debut",
+      "South Korea's AI boom could widen income inequality, former BOK governor warns",
+      "South Korea activates emergency response to PHP security flaws",
+      "AI data center stock Elice plunges in South Korean IPO",
+      "South Korea to pull more embassy staff from Ukraine after POW row - Al Jazeera",
+      "Third time lucky: South Korea's 'Bukangi' shark is finally set free",
+      "South Korea expects chip boom to last through 2027, but already looking for next growth engine",
+      "It's back: South Korea’s ‘Bukangi’ shark returns as rescue is foiled",
+      "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
+      "North Korea's Kim Yo Jong warns South Korea, says border loudspeakers to be ready within days",
+      "South Korea's Korai Flix to go public in US via $3.5 billion SPAC deal",
+      "South Korea October 1-20 exports surge 105% on record chip sales",
+      "Shark nicknamed 'Bukangi' returns to sea off South Korea after third rescue attempt",
+      "Seoul vows 'resolute punishment' after North Korea threatens new border measures",
+      "South Korea to pull more Ukraine embassy staff after POW dispute",
+      "South Korean firm's debut plunge adds to investor concerns about AI spending",
+      "South Korea central bank to hold rates on October 22, hike in November",
+      "North Korea's Kim Yo Jong says loudspeaker broadcasts toward Seoul being considered, KCNA reports",
+      "South Korea says Solidigm's potential listing could violate dual-listing rules",
+      "South Korean sect leader gets additional 33 years in jail for sexual assaults",
+      "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports"
+    ],
+    "converted": false,
+    "relevant_headlines": 60,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Inter-Korean border tensions and military talks",
+        "expected": "Inter-Korean border tensions and military talks stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Inter-Korean border tensions and military talks appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Bukangi shark rescue saga",
+        "expected": "Bukangi shark rescue saga stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bukangi shark rescue saga appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Chip export boom and semiconductor outlook",
+        "expected": "Chip export boom and semiconductor outlook stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Chip export boom and semiconductor outlook appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Elice IPO plunge and AI sector reassessment",
+        "expected": "persist",
+        "sign": "Elice IPO plunge and AI sector reassessment is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Inter-Korean border tensions and military talks stays in the news at the same level. Bukangi shark rescue saga stays in the news at the same level. Chip export boom and semiconductor outlook stays in the news at the same level. Elice IPO plunge and AI sector reassessment is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Inter-Korean border tensions",
+        "expected": "North Korea will activate the propaganda loudspeaker broadcasts across the border, prompting Seoul to formally schedule the proposed military talks as a direct response.",
+        "direction": "escalate",
+        "sign": "Headlines will reference the loudspeakers being switched on or activated rather than threatened, and Seoul's talks proposal being formally accepted or a meeting date being set."
+      },
+      "second": {
+        "subject": "Semiconductor market turbulence",
+        "expected": "SK Hynix will announce a revised listing plan for its Solidigm unit after Seoul's dual-listing concerns force a restructuring of the US IPO.",
+        "direction": "persist",
+        "sign": "Headlines will reference a restructured or refiled listing plan for the chip unit rather than a simple hold, alongside investor commentary on the AI sector's overall valuation."
+      },
+      "third": {
+        "subject": "Ukraine embassy withdrawal",
+        "expected": "South Korea will complete the pullback of embassy personnel from Ukraine, issuing a formal diplomatic note that links the departure to the North Korean POW transfer dispute.",
+        "direction": "escalate",
+        "sign": "Headlines will reference the embassy being reduced to minimal staff or a formal diplomatic channel being opened over the POW matter rather than routine staffing changes."
+      },
+      "fade_call": {
+        "subject": "Bukangi shark rescue",
+        "expected": "fade",
+        "sign": "At most a brief local follow-up on the shark's health or a documentary interest, with no new rescue drama or crowd spectacle in the headlines."
+      },
+      "surprise": {
+        "subject": "KOSPI AI-sector selloff",
+        "expected": "Multiple AI and data-center related stocks on the KOSPI will drop in a single trading session following the Elice debut plunge, prompting a broad market reassessment of the AI trade narrative.",
+        "chance": "medium"
+      },
+      "summary": "Next week in South Korea, the inter-Korean border standoff will move from threats to action as Pyongyang switches on the propaganda loudspeakers and Seoul responds by formally scheduling the proposed military talks. The semiconductor sector will stay in focus as SK Hynix works out a revised listing plan for its Solidigm unit and investors digest the Elice IPO plunge. The Ukraine embassy dispute will deepen as South Korea completes its staff withdrawal and ties the move to the North Korean POW transfer row. The Bukangi shark story will fade after its successful release. A former central bank governor's warning about AI-driven income inequality will inject a social-policy angle into the tech boom debate. The week will be defined by the border escalation and the tension between Korea's chip-driven growth and the cracks appearing in the AI investment narrative.",
+      "generated_at": "2026-10-25T03:07:14+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Inter-Korean border escalation",
+        "expected": "North Korea will activate its propaganda loudspeakers along the border, prompting Seoul to announce a military response and schedule the proposed inter-Korean talks.",
+        "direction": "escalate",
+        "sign": "Headlines will report North Korea resuming loudspeaker broadcasts or issuing a new boundary threat, with Seoul officials vowing a firm military reply or convening talks."
+      },
+      "second": {
+        "subject": "Semiconductor export momentum",
+        "expected": "South Korea will post another stretch of record chip export data, reinforcing the finance minister's projection that the semiconductor boom extends through 2027.",
+        "direction": "persist",
+        "sign": "Headlines will carry fresh export figures for the chip sector or a major supply-chain announcement involving Samsung, TSMC, or Nvidia."
+      },
+      "third": {
+        "subject": "Ukraine embassy and POW dispute",
+        "expected": "South Korea will withdraw additional embassy staff from Ukraine and issue a formal diplomatic protest over the handling of the North Korean POW transfer.",
+        "direction": "escalate",
+        "sign": "Headlines will report more South Korean diplomats leaving Ukraine or a formal statement of protest over the POW dispute."
+      },
+      "fade_call": {
+        "subject": "Bukangi shark rescue",
+        "expected": "fade",
+        "sign": "The shark story drops from South Korean coverage with no new rescue attempt or public statement about the freed animal."
+      },
+      "surprise": {
+        "subject": "Post-chip growth policy",
+        "expected": "The finance ministry will unveil a concrete policy package for South Korea's next growth engine beyond the current chip cycle.",
+        "chance": "low"
+      },
+      "summary": "Next week, South Korea's news cycle will be driven by the inter-Korean border standoff. North Korea will press ahead with its loudspeaker threat, and Seoul will respond with a firm military posture while pushing the proposed talks forward. The semiconductor sector will stay in the spotlight as fresh export data and the Samsung-TSMC-Nvidia packaging deal keep the chip boom narrative alive, even as the Elice IPO stumble reminds investors the AI trade is not without risk. The Ukraine embassy dispute will deepen as more South Korean staff leave Kyiv and the POW question grows more pointed. The Bukangi shark, now free, will fade from the headlines. A less expected development could see the finance ministry sketch out a post-chip growth strategy, signaling that Seoul is already looking past the current boom.",
+      "generated_at": "2026-10-25T03:22:35+02:00"
+    }
+  },
+  "display": {
+    "headline": "South Korea Braces for Loudspeaker Resumption as Chip Boom Holds",
+    "emojis": [
+      "🗣️",
+      "🔬",
+      "📞"
+    ],
+    "emoji_reasons": [
+      "North Korea's propaganda loudspeaker threat and border rhetoric dominate the week's coverage.",
+      "Record chip exports and the Samsung-TSMC-Nvidia packaging deal anchor the economic story.",
+      "Seoul's push for inter-Korean military talks and the Ukraine diplomatic row both center on negotiations."
+    ],
+    "tldr": "South Korea faces a sharp inter-Korean border escalation as North Korea activates its loudspeakers and Seoul responds with military posture. The chip export boom persists with fresh record data, while the Ukraine embassy dispute deepens. The Bukangi shark is out of the news.",
+    "eli5": "South Korea and North Korea are in a shouting match again along their border. North Korea says it is going to turn on loudspeakers to blast propaganda across the line, and South Korea is getting ready to respond with military measures while trying to get talks going. This is the inter-Korean border escalation story, and it is the big one for next week.\n\nOn the money side, South Korean chip companies are having a fantastic run. Exports are way up, and the government says this boom will keep going for a while. But one AI company called Elice crashed on its first day of trading, which reminds everyone the tech story is not all smooth sailing.\n\nThe Ukraine situation is getting more tense too. South Korea is pulling more diplomats out of Ukraine because of a dispute over North Korean prisoners, and both sides are getting more pointed in their statements.\n\nThe one surprise that could happen: the government might announce a plan for what comes after the chip boom, showing they are already thinking about the next big economic engine."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The US-SK intelligence row is explicitly listed as no longer in the headlines, with no headline announcing a formal protest, diplomatic summons, or escalation of the analyst prosecution case."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Peninsula hypersonic arms race is listed as no longer in the headlines; the dominant inter-Korean story was propaganda broadcasts and border talks (headlines 1, 2, 24, 30, 49, 53, 57), not a new missile test or technical rebuttal."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The chip narrative was strongly positive with October exports surging 105 percent (headline 51) and the finance minister projecting the boom through 2027 (headlines 10, 46, 48), while the KOSPI and chip-market slump is listed as no longer in the headlines, contradicting the predicted six-month-low test."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Racial abuse at Swansea-Millwall is explicitly listed as no longer in the headlines, with no follow-up disciplinary or diplomatic coverage appearing in this round."
+          }
+        },
+        "archer_note": "The main thesis that diplomatic and economic pressures would deepen was directionally wrong; the intelligence row and hypersonic race both faded rather than escalated. The bulletin completely missed the dominant inter-Korean border tension story (propaganda broadcasts, Kim Yo Jong warnings, military talks proposal) and the Bukangi shark saga. The Ukraine POW surprise was a genuine hit, as South Korea did pull embassy staff from Ukraine over the dispute (headlines 27, 39, 44, 54), but this was a secondary story, not the lead."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The US-SK intelligence row is listed as no longer in the headlines, with no headline carrying statements from South Korean officials expressing frustration or calls for a bilateral meeting over the analyst case."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Peninsula hypersonic arms race is listed as no longer in the headlines; no headline reports a missile launch or a defense official's remarks about hypersonic weapon development this week."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The KOSPI and chip-market slump is no longer in the headlines, and the dominant chip coverage was positive (105 percent export surge in headline 51, finance minister's 2027 projection in headline 10), contradicting the prediction of the index trading near its six-month low."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Racial abuse at Swansea-Millwall is explicitly listed as no longer in the headlines, with no formal complaint or follow-up match report appearing in this round's coverage."
+          }
+        },
+        "archer_note": "The bulletin's core framework of persistent diplomatic tension and market weakness was contradicted by reality, as both the intelligence row and the hypersonic race faded while the chip sector boomed. It missed the dominant inter-Korean border escalation and the viral Bukangi shark story entirely. The Middle East deployment surprise was a miss since that mission is no longer in the headlines, and the overall mood call of 'tense' undersold the mixed and lighter tone of the actual week."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The US-SK intelligence row is listed as no longer in the headlines, so it did not persist at the same level as predicted; no headline in this round references the analyst prosecution dispute."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Peninsula hypersonic arms race is listed as no longer in the headlines, meaning it did not appear at the same volume as the previous round as the persist prediction required."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The KOSPI and chip-market slump is explicitly listed as no longer in the headlines, and the dominant chip coverage this week was strongly positive (105 percent export surge, headline 51), so the slump narrative did not persist."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The Middle East military mission is listed as no longer in the headlines, contradicting the prediction that it would persist at the same level in the next collection."
+          }
+        },
+        "archer_note": "The 'more of the same' thesis was wrong on all four scored items, as every story the bulletin expected to persist actually faded from the headlines. The bulletin had no surprise call, so it offered no hedge against the dominant new stories of border tensions and the shark rescue. Its main thesis was not merely early but structurally wrong, as the week's narrative shifted decisively to new inter-Korean dynamics and light viral stories rather than continuing the prior week's diplomatic and market concerns."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Both bulletins share the same three wrong main items and the same correct Swansea fade, making their core scores nearly identical. The decisive difference is X's Ukraine POW surprise, which closely matched reality (South Korea pulled embassy staff from Ukraine over the dispute, headlines 27 and 39), while Y's Middle East deployment surprise was a miss since that mission faded from the headlines."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X got the Swansea fade correct while Z got all four scored items wrong, including its Middle East persist call. X also had a relevant surprise (Ukraine POW) that aligned with actual headlines, whereas Z offered no surprise and its blanket 'more of the same' thesis was contradicted on every item."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Y correctly called the Swansea fade while Z's Middle East persist call was contradicted by the story fading from the headlines. Y also had a surprise call that at least engaged with a plausible scenario, whereas Z's 'no surprise' stance left it entirely exposed to the new dominant stories."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": 1.0,
+      "plain_vs_persistence": 2.0,
+      "crystal_vs_persistence": 1.0
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 3,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14 to 17, 2026, South Korea faced a cluster of diplomatic, security, and economic pressures. The dominant story was the worsening US-South Korea relationship over an intelligence dispute: Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had hit a low point. On the Korean Peninsula, both North and South Korea conducted hypersonic missile tests, with Pyongyang's missile chief publicly questioning Seoul's glide-vehicle trial, underscoring an accelerating arms race. In the economy, the KOSPI index closed at a six-month low as chipmakers slumped amid AI-related worries, and at least one major fund manager shifted allocations away from Korean equities; however, the finance minister insisted the semiconductor outlook remained solid. Separately, South Korea reviewed expanding its military mission in the Middle East, and its relations with Ukraine soured over the handling of North Korean\n- US-SK intelligence row (dominant, escalating): Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had reached a low point over the dispute.\n- Peninsula hypersonic arms race (dominant, escalating): Both North and South Korea conducted hypersonic missile tests, and Pyongyang's missile chief publicly questioned the validity of Seoul's glide-vehicle trial, underscoring a rapid arms build-up on the Peninsula.\n- KOSPI and chip-market slump (regular, continuing): The KOSPI closed at a six-month low as semiconductor names fell on AI worries, and a $29 billion manager recommended Nigerian stocks over Korean equities, though the finance minister reassured investors the chip cycle was still intact.\n- Middle East military mission (regular, new): South Korea is reviewing an expansion of its existing military mission in the Middle East, per a Reuters report.\n- Ukraine-SK North Korean POW dispute (regular, continuing): Relations between Ukraine and South Korea soured over the handling of North Korean prisoners of war previously transferred to Kyiv.\n- Winter energy and coal pivot (occasional, new): South Korea turned to coal-fired power generation as a winter natural-gas supply squeeze loomed, raising environmental and cost concerns.\n- Wartime command transfer friction (regular, continuing): A South Korean official warned that shifting requirements could block the long-planned transfer of wartime operational command from the US to Seoul.\n- Racial abuse at Swansea-Millwall (occasional, new): Swansea reported an alleged racial abuse incident directed at South Korean winger Ji-sung Eom during a match at Millwall.\n\nRound 2026-10-02:\nSouth Korea entered the week under multiple simultaneous pressures. A DMZ mine blast attributed to North Korea triggered a sharp diplomatic confrontation, with Pyongyang rejecting Seoul's accusation and issuing a warning about boundary lines down to the millimeter, followed by a North Korean missile test. Ukraine's transfer of two North Korean soldiers without full prior notification to Seoul created a diplomatic row that President Lee Jae Myung was managing carefully. President Trump publicly touted a massive South Korean investment package in US energy projects including Alaska LNG, while Seoul insisted final decisions were still pending and that technical discussions were ongoing. President Lee confirmed that AI tools appeared to have been used in bank hacks, elevating the issue to a national technology-and-trust story. The Asian Games football gold medal was overshadowed by the team captain's comment on military service exemptions and the Song Min-ho suspended sentence. Record chip exports supported\n- North Korea conducted a missile test (regular, continuing): North Korea conducted a missile test and issued a sharp boundary warning after Seoul attributed a DMZ mine blast to Pyongyang.\n- Ukraine transferred two North Korean soldiers (regular, continuing): Ukraine transferred two North Korean soldiers without full prior diplomatic notification to Seoul, creating a face-and-alliance row.\n- President Trump publicly touted a South (regular, continuing): President Trump publicly touted a South Korean investment package in US energy projects including Alaska LNG while Seoul said final decisions were pending.\n- President Lee Jae Myung confirmed that (regular, continuing): President Lee Jae Myung confirmed that AI tools appeared to have been used in bank hacks, making it a national-level technology and trust issue.\n- The Asian Games football captain's comment (regular, continuing): The Asian Games football captain's comment on military service exemptions and the Song Min-ho suspended sentence ignited a domestic fairness debate.\n- The Asian Games football captain's comment (again) (regular, continuing): The Asian Games football captain's comment on military service exemptions and the Song Min-ho suspended sentence ignited a domestic fairness debate.\n",
+    "PREVIOUS_FORECAST": "Lead: US-South Korea intelligence dispute. Expected: Seoul will issue a formal diplomatic response to Washington's decision to drop the prosecution of the former CIA analyst, deepening the rift between the two allies. Direction: persist. Sign: Headlines will carry statements from South Korean officials expressing frustration over the intelligence case and calls for a bilateral meeting to address the fallout.\nSecond: Korean Peninsula hypersonic missile race. Expected: A hypersonic missile test by one of the two Koreas will generate fresh coverage of the accelerating arms race. Direction: persist. Sign: Headlines will report a missile launch or a defense official's remarks about hypersonic weapon development on the Korean Peninsula.\nThird: Korean stock market and semiconductor sector. Expected: The KOSPI index will trade near its six-month low as chipmakers absorb fresh AI-sector anxiety that pushes foreign managers to trim Korean positions. Direction: persist. Sign: Headlines will report the KOSPI closing lower or a fund manager's note recommending investors move capital away from Korean stocks.\nFade call: Swansea racial abuse incident. Expected: fade. Sign: The Swansea-Millwall racial abuse story will disappear from South Korean news coverage with no formal complaint or follow-up match report.\nSurprise (chance low): South Korea Middle East military deployment. Seoul will announce a concrete expansion of its Middle East military mission, moving beyond the review phase to a specific troop or capability commitment.\nSummary: Next week, the US-South Korea intelligence dispute will stay at the center of Seoul's diplomatic agenda as officials press Washington for an explanation after dropping the case against the former CIA analyst. The hypersonic missile race between the two Koreas will produce at least one new test or a pointed public statement from a military chief, reinforcing the arms-race narrative. The KOSPI will hover near its six-month low as semiconductor names struggle under AI-sector anxiety and foreign investors trim Korean exposure. The Middle East military mission review may yield a concrete deployment decision, which would mark a step beyond discussion. Domestically, the winter energy pivot toward coal will draw environmental criticism, and the wartime command transfer debate will surface again as requirements shift. Overall, the tone will stay tense, with the intelligence row and the missile competition setting the pace.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear. The US-SK intelligence row is listed as no longer in the headlines, with no headline carrying statements from South Korean officials expressing frustration or calls for a bilateral meeting over the analyst case.\n- second: did_not_appear. The Peninsula hypersonic arms race is listed as no longer in the headlines; no headline reports a missile launch or a defense official's remarks about hypersonic weapon development this week.\n- third: did_not_appear. The KOSPI and chip-market slump is no longer in the headlines, and the dominant chip coverage was positive (105 percent export surge in headline 51, finance minister's 2027 projection in headline 10), contradicting the prediction of the index trading near its six-month low.\n- fade_call: came_true. Racial abuse at Swansea-Millwall is explicitly listed as no longer in the headlines, with no formal complaint or follow-up match report appearing in this round's coverage.\nArcher note: The bulletin's core framework of persistent diplomatic tension and market weakness was contradicted by reality, as both the intelligence row and the hypersonic race faded while the chip sector boomed. It missed the dominant inter-Korean border escalation and the viral Bukangi shark story entirely. The Middle East deployment surprise was a miss since that mission is no longer in the headlines, and the overall mood call of 'tense' undersold the mixed and lighter tone of the actual week.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "IQ",
+  "name": "Iraq",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T01:55:46+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of 17 to 24 October 2026, Iraq experienced a notable shift as US troops began their departure, leaving the country to confront new security and institutional challenges without a key foreign military backer. Simultaneously, Baghdad moved to formalize an IMF program, with the Fund's chief pledging firm support, a sign of growing international confidence in Iraq's economic direction. Security concerns surfaced on multiple fronts: Iraq closed the Sheeb border crossing with Iran for a security review, and an explosion at a paramilitary alliance base killed one member, continuing a pattern of low-level violence among armed groups. On the economic front, Chinese oilfield services company Anton began marketing Iraqi oil, marking a step toward diversifying Iraq's oil sales beyond traditional Western channels. In aviation, the United States fined Air France and KLM for operating flights through prohibited Iraqi airspace, underscoring ongoing tensions over the country's air domain. A minor sports story saw Scottish club Dundee United explore a collaboration with the Iraq Football Association. Overall, the week reflected a country in transition, losing a military backer while trying to shore up its economy and manage internal security.",
+    "key_events": [
+      {
+        "event": "US troops began departing Iraq, prompting concerns about new security and institutional challenges for Baghdad.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Iraq formally sought an IMF program, and the Fund's chief pledged firm support for the arrangement.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Iraq closed the Sheeb border crossing with Iran to conduct a security review.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "An explosion at an Iraqi paramilitary alliance base killed one member.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Chinese oilfield services company Anton started marketing Iraqi oil, broadening the buyer base.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The US fined Air France and KLM for flying through prohibited Iraqi airspace.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 2
+      },
+      {
+        "event": "Scottish club Dundee United explored a collaboration with the Iraq Football Association.",
+        "date": null,
+        "domain": "society",
+        "importance": 1
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🪖",
+      "💰",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "US troops leaving Iraq and the resulting new challenges (headline 3) make the military withdrawal the week's defining story.",
+      "Iraq's pursuit of an IMF program with the Fund chief pledging firm support (headline 4) signals a major economic milestone.",
+      "Chinese company Anton beginning to market Iraqi oil (headline 6) marks a concrete step in diversifying Iraq's petroleum sales."
+    ],
+    "developments": [
+      {
+        "subject": "US troop departure",
+        "what_happened": "US military forces began leaving Iraq, and analysts flagged new security and institutional challenges for Baghdad in their absence.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "IMF program",
+        "what_happened": "Iraq formally sought an IMF program and the Fund's chief pledged firm support, building on earlier negotiations.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          4
+        ]
+      },
+      {
+        "subject": "Sheeb border closure",
+        "what_happened": "Iraq shut the Sheeb crossing with Iran to review security arrangements at the site.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "Paramilitary base explosion",
+        "what_happened": "An explosion at an Iraqi paramilitary alliance base killed one member, a recurrence of the pattern seen earlier in the month.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7
+        ]
+      },
+      {
+        "subject": "Chinese oil marketing",
+        "what_happened": "Chinese oilfield services company Anton began marketing Iraqi oil, expanding the country's buyer base beyond traditional partners.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "Airspace fines",
+        "what_happened": "The US fined Air France and KLM for operating flights through prohibited Iraqi airspace.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Football collaboration",
+        "what_happened": "Scottish club Dundee United explored a potential collaboration with the Iraq Football Association.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2
+        ]
+      }
+    ],
+    "gone": [
+      "Cabinet completion",
+      "Dinar devaluation",
+      "Kirkuk roadside bomb",
+      "Saudi diplomatic channel",
+      "Neanderthal discovery"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The seven headlines cover security, economy, diplomacy, and a minor sports item, giving a reasonably balanced picture of the week, though internal cabinet and legislative activity is absent."
+    },
+    "headlines_used": [
+      "US fines Air France, KLM over flights in prohibited Iraqi airspace",
+      "Dundee United explore Iraq FA collaboration - Scottish gossip",
+      "As US troops leave, Iraq faces new challenges",
+      "Iraq Seeks IMF Program, Fund Chief Pledges ‘Firm’ Support",
+      "Iraq closes Sheeb border crossing with Iran to review security, sources say",
+      "Chinese oilfield service company Anton starts marketing Iraqi oil",
+      "Explosion at Iraqi paramilitary alliance base kills one member, sources say"
+    ],
+    "converted": false,
+    "relevant_headlines": 7,
+    "unscorable": true,
+    "unscorable_reason": "only 7 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "US troop departure",
+        "expected": "US troop departure stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US troop departure appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "IMF program",
+        "expected": "IMF program stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about IMF program appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Sheeb border closure",
+        "expected": "Sheeb border closure stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sheeb border closure appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "US troop departure",
+        "expected": "persist",
+        "sign": "US troop departure is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. US troop departure stays in the news at the same level. IMF program stays in the news at the same level. Sheeb border closure stays in the news at the same level. US troop departure is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "US troop departure and Iraqi security response",
+        "expected": "The Iraqi government will announce a new domestic security framework or cabinet decision to fill the operational gap left by departing US forces.",
+        "direction": "persist",
+        "sign": "Headlines will reference a specific Iraqi government announcement or cabinet decision creating a new security structure in the absence of US forces."
+      },
+      "second": {
+        "subject": "IMF program formalization",
+        "expected": "Iraq's finance ministry will publish the initial conditions or terms of the IMF program, moving the agreement from pledged support to a concrete document.",
+        "direction": "persist",
+        "sign": "Headlines will reference specific IMF conditions or a formal agreement document being tabled in Iraqi parliament."
+      },
+      "third": {
+        "subject": "Paramilitary base violence",
+        "expected": "A second explosion or armed clash will strike an Iraqi paramilitary or security base, killing or wounding at least one member.",
+        "direction": "persist",
+        "sign": "Headlines will name a specific base or militia and report casualties from an attack or blast at the site."
+      },
+      "fade_call": {
+        "subject": "Air France and KLM airspace fines",
+        "expected": "fade",
+        "sign": "No new headlines referencing the Air France or KLM penalty or Iraqi airspace restrictions will appear."
+      },
+      "surprise": {
+        "subject": "Sheeb border and Iran relations",
+        "expected": "Iraq will reopen the Sheeb crossing after the security review and announce a joint patrol or coordination arrangement with Iran at the border.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Iraq will be defined by the practical fallout of the US troop departure. Baghdad will announce a domestic security framework to fill the gap, and the IMF program will move from pledges to concrete conditions as the Fund's chief pushes for a formal agreement. Low-level violence among paramilitary groups will persist, with at least one more explosion or clash at a base. The Sheeb border crossing with Iran will reopen after the security review, possibly accompanied by a joint patrol arrangement. The Anton oil marketing deal will see its first shipment or pricing announcement. The Air France and KLM fines will fade from headlines. The Dundee United football collaboration will remain a minor sidebar. Overall, Iraq will be a country in visible transition, managing a security vacuum while trying to lock in economic support.",
+      "generated_at": "2026-10-25T01:44:14+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US troop departure completion",
+        "expected": "The US military's final units will leave Iraqi soil, prompting Baghdad to announce the new domestic security architecture that replaces the foreign backer.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a farewell ceremony or formal declaration, name the new Iraqi security body taking over, and quote officials about the post-withdrawal arrangement."
+      },
+      "second": {
+        "subject": "IMF technical consultations",
+        "expected": "An IMF technical delegation will arrive in Baghdad to open detailed fiscal consultations covering the budget and revenue framework.",
+        "direction": "escalate",
+        "sign": "Headlines will name the delegation's arrival in Baghdad and describe the specific conditionality benchmarks or revenue data being requested from Iraqi ministries."
+      },
+      "third": {
+        "subject": "Chinese oil marketing first sale",
+        "expected": "The first concrete sale of Iraqi oil under the new Chinese marketing arrangement will be announced, drawing a public reaction from traditional buyers.",
+        "direction": "escalate",
+        "sign": "Headlines will report a transaction or price benchmark and note how established buyers responded to the expanded seller base."
+      },
+      "fade_call": {
+        "subject": "Airspace fines on European carriers",
+        "expected": "fade",
+        "sign": "The one-time penalty against the European carriers will drop from headlines as the troop departure and IMF stories reclaim attention."
+      },
+      "surprise": {
+        "subject": "Sheeb border friction with Iran",
+        "expected": "The security review at the Sheeb crossing will surface a dispute with Iran over inspection protocols, producing a brief diplomatic friction.",
+        "chance": "low"
+      },
+      "summary": "Next week, Iraq will mark the formal completion of the US military departure, with Baghdad announcing the institutional arrangements that replace the foreign security backer. The IMF program will move from pledge to practice as a technical delegation arrives in Baghdad to open detailed fiscal consultations on the budget and revenue framework. On the energy front, the first concrete results of the Chinese oil marketing arrangement will surface, with a transaction or price benchmark drawing reactions from traditional buyers. The Sheeb border closure with Iran will stay on the radar as the security review produces findings. Low-level violence at paramilitary sites will persist. The airspace fines against European carriers will fade from headlines. The overall picture is a country in active transition, losing a military patron while building new economic and security structures in its place.",
+      "generated_at": "2026-10-25T01:55:46+03:00"
+    }
+  },
+  "display": {
+    "headline": "Iraq Marks US Exit as IMF Talks and Oil Deals Advance",
+    "emojis": [
+      "🪖",
+      "💰",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "The US troop departure is the dominant story of the week and the central event Iraq will formalize.",
+      "The IMF program moves from pledge to technical negotiations, making budget and public finance the second major thread.",
+      "The first Chinese-marketed oil sale is the concrete economic development that will test Iraq's diversified energy strategy."
+    ],
+    "tldr": "Iraq will formally complete the US military departure and announce new security arrangements. An IMF delegation will arrive for technical talks, and the first Chinese-marketed oil sale will draw buyer reactions. The airspace fines and football story will fade.",
+    "eli5": "Iraq is going through a big change right now. The American soldiers that have been helping protect the country are packing up and heading home. At the same time, Iraq is trying to get a loan program from the IMF, which is like a global savings club for countries that need help with their money.\n\nThis is happening because Iraq wants to stand on its own two feet. They do not want to rely on foreign soldiers anymore, and they want their economy to be stable enough that international lenders trust them. The dinar, Iraq's money, has been losing value, so they need outside help to get back on track.\n\nNext week, we expect to see the US troops officially finish leaving, with Baghdad announcing who and what will handle security from now on. We also expect an IMF team to show up in Baghdad to start the real paperwork and ask for specific budget numbers. A Chinese company that just started selling Iraqi oil will probably announce its first deal, which might make other oil buyers a little nervous.\n\nA surprise would be if the border with Iran gets tense. Iraq just closed one of the crossing points to check things, and if the inspection finds a problem or Iran pushes back, it could turn into a small standoff that nobody expected."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 7 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14 to 17, 2026, Iraqi politics dominated as parliament completed the approval of Prime Minister al-Zaidi's full cabinet, filling remaining posts and naming a US-sanctioned deputy prime minister. The vote came amid growing economic anxiety and was framed as a stabilization effort. In the same period, Iraq formally sought an IMF program, and the fund's chief pledged firm support, signaling international confidence in Baghdad's fiscal path. Domestically, the central bank devalued the dinar to ease a cash crunch, a move that left traders in limbo as the official rate shifted yet again. Security remained fragile: a roadside bomb near Kirkuk killed an army brigadier and a soldier, while an explosion at a paramilitary alliance base killed one member. Diplomatically, the prime minister reassured Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, hinting at ongoing coordination over regional tensions. A minor\n- Cabinet completion (dominant, new): Parliament approved all remaining cabinet posts, including a US-sanctioned deputy prime minister, finalizing al-Zaidi's government.\n- Dinar devaluation (regular, continuing): The central bank devalued the dinar to ease a cash crunch, continuing the pattern of rate adjustments and leaving traders uncertain.\n- IMF program (regular, new): Iraq formally sought an IMF program and the fund's chief pledged firm support, signaling a step toward international fiscal backing.\n- Kirkuk roadside bomb (occasional, new): A roadside bomb killed an Iraqi army brigadier and a soldier near Kirkuk.\n- Paramilitary base explosion (occasional, new): An explosion at an Iraqi paramilitary alliance base killed one member, underscoring ongoing low-level security risks.\n- Saudi diplomatic channel (occasional, new): PM al-Zaidi told Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, indicating active bilateral coordination.\n- Neanderthal discovery (occasional, new): Researchers reported bones from an Iraqi cave offering new evidence of violence and compassion among Neanderthals.\n\nRound 2026-10-02:\nThe United States completed its ground withdrawal from Iraq, and Baghdad marked the event with a Sovereignty Day celebration involving flags, parades, and speeches from the prime minister and security officials. The official dinar rate was moved from 1,300 to 1,500 IQD per US dollar, signalling fiscal pressure and squeezing import costs. Iran sustained 40 daily flights to Najaf, reinforcing religious, economic, and political links with southern Iraq. The government approved a 3.5 trillion dinar (approximately 2.7 billion dollar) stimulus package to soften the devaluation and oil-revenue squeeze. A 48.8 billion dollar budget deficit entered parliamentary debate. Oil exports faced Hormuz disruption, forcing Baghdad to deepen discounts and arrange additional tanker transits to keep Chinese and Indian buyers engaged. A security vacuum opened in Kurdistan after the US departure, with Peshmerga unification still incomplete. Reports surfaced that Israel had operated a clandestine base inside Iraq during a prior conflict, giving\n- The US completed its ground withdrawal (regular, continuing): The US completed its ground withdrawal from Iraq, triggering a national Sovereignty Day celebration.\n- The official dinar rate was devalued (regular, continuing): The official dinar rate was devalued from 1,300 to 1,500 IQD per US dollar.\n- The government approved a 3.5 trillion (regular, continuing): The government approved a 3.5 trillion dinar stimulus package to cushion the devaluation.\n- Reports emerged that Israel had operated (regular, continuing): Reports emerged that Israel had operated a secret base in Iraq during a prior conflict.\n- Iran maintained 40 daily flights to (regular, continuing): Iran maintained 40 daily flights to Najaf, deepening religious and economic ties.\n- Kurdistan entered a security-management gap after (regular, continuing): Kurdistan entered a security-management gap after the US exit, with Peshmerga unification incomplete.\n",
+    "PREVIOUS_FORECAST": "Lead: IMF program negotiations. Expected: A senior IMF technical delegation will arrive in Baghdad to open the first round of fiscal consultations on Iraq's budget and revenue framework. Direction: escalate. Sign: Headlines will name an IMF team in Baghdad and describe the specific budget data and conditionality benchmarks being requested from Iraqi ministries.\nSecond: US reaction to sanctioned deputy. Expected: Washington will issue a diplomatic note or public statement addressing the appointment of a sanctioned figure to the deputy premiership, testing the tone of bilateral relations. Direction: escalate. Sign: A US spokesperson will appear in a headline either questioning the sanctions on the newly appointed deputy or confirming the appointment is accepted despite the listing.\nThird: Dinar cash crunch. Expected: The fresh dinar devaluation will trigger a sharp squeeze in bank reserves as traders rush to convert or hoard dollars, forcing the central bank to intervene a second time. Direction: persist. Sign: Headlines will show traders in queues outside exchange offices and the central bank issuing a further rate adjustment or a public call for patience.\nFade call: Neanderthal bones discovery. Expected: fade. Sign: The science story will drop from the news cycle as cabinet politics and dinar headlines reclaim the front pages.\nSurprise (chance low): Kurdistan armed clash. An armed confrontation between Peshmerga factions or between Peshmerga and federal forces in northern Iraq will surface, reopening the post-withdrawal security gap.\nSummary: Iraq enters the second week of a fully staffed government, and the IMF will move from pledge to practice. A technical delegation will be in Baghdad, requesting the budget data and fiscal commitments that will define the program's terms. Meanwhile, the dinar's fresh devaluation will keep straining bank reserves, and traders will push the central bank into another round of adjustments. Washington will not let the sanctioned deputy premiership pass silently, and a diplomatic note or public statement will test the relationship. Security in Kirkuk and at paramilitary sites will stay fragile, with sporadic explosions keeping low-level violence on the radar. The overall picture is one of a government that has finished its formation and now must prove it can deliver economic stability before the next shock arrives.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

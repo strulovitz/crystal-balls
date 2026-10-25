@@ -1,0 +1,725 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "IN",
+  "name": "India",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T14:03:55+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "This week in India was dominated by the youth-led 'Cockroach' (CJP) protests over voter-roll purges, which escalated as leaders were arrested and released in rapid succession, demonstrators marched on the Election Commission demanding the CEC's resignation, and UN experts urged the government to stop using excessive force. Farmers joined the movement, and Prime Minister Modi found himself on the defensive. Simultaneously, US Secretary of State Marco Rubio visited India, toured the world's largest oil refinery at Jamnagar, and held talks in Mumbai aimed at finalizing a US-India trade deal that President Trump called 'pretty close.' On the economic front, Mukesh Ambani's Jio Platforms completed India's largest-ever IPO, fully subscribed within hours on $77 billion in bids, sending the rupee to a six-week high. A deadly stampede at a Durga Puja festival in Kolkata killed between 17 and 33 people, with sources disagreeing on the toll, dampening the holiday season. Indian shares slid on surging oil prices, and the RBI mounted a costly defense of the weakening rupee. Corporate earnings were mixed: Kotak Bank profit rose 29 percent and Adani Power doubled, while Swiggy fell to a record low. A cyberattack exposed customer records at the State Bank of India, and India's defense industry gained momentum from Europe's war.",
+    "key_events": [
+      {
+        "event": "CJP 'Cockroach' protest leaders were arrested, released, and re-arrested in rapid succession while demonstrators marched on the Election Commission and UN experts called on India to stop using excessive force.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "US Secretary of State Marco Rubio visited Jamnagar's world-largest oil refinery and held talks in Mumbai with Foreign Minister Jaishankar to finalize a US-India trade deal described as 'pretty close' by Trump.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Mukesh Ambani's Jio Platforms completed India's largest-ever IPO, becoming fully subscribed within hours on over $77 billion in anchor and retail bids.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "A stampede at a Durga Puja festival in Kolkata killed between 17 and 33 people, with AP, BBC, and Bloomberg reporting different death tolls.",
+        "date": null,
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Surging oil prices dragged Indian shares to weekly losses while the RBI mounted a costly defense of the rupee, and small-cap stocks fell on margin liquidations.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A cyberattack on the State Bank of India exposed records of nearly 3,900 customers, the bank's largest data breach on record.",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Bollywood actor Tiger Shroff was allegedly shot at by gunmen, reviving scrutiny of the film industry's gangster past.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "India's trade minister said the India-EU trade deal could become operational in early 2027.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Corporate earnings were sharply mixed: Kotak Bank profit rose 29 percent and Adani Power doubled, while Swiggy hit a record low and Godrej Properties reported a profit slump.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "India's defense industry gained momentum as Europe's war drove demand, and China border tensions remained in focus despite ongoing talks.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "✊",
+      "🤝",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The CJP 'Cockroach' youth protests dominated coverage, with leaders arrested and released, marches on the Election Commission, and UN experts demanding an end to excessive force (headlines 15, 28, 43, 155).",
+      "US Secretary of State Rubio's visit to Jamnagar and Mumbai was squarely about closing a US-India trade deal that Trump called 'pretty close,' alongside the record Jio IPO (headlines 35, 54, 87, 139).",
+      "Jio Platforms became India's largest-ever IPO with $77 billion in bids, Kotak Bank profit rose 29 percent, and the rupee hit a six-week high on IPO flows (headlines 61, 1, 134)."
+    ],
+    "developments": [
+      {
+        "subject": "CJP 'Cockroach' protests and voter-roll crisis",
+        "what_happened": "Youth protest leaders were arrested, released, and re-arrested in rapid succession; demonstrators marched on the Election Commission demanding the CEC's resignation; farmers joined the movement; UN experts called for an end to excessive force; and Modi attacked Rahul Gandhi over 'disorder' risk.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          5,
+          10,
+          12,
+          15,
+          17,
+          20,
+          28,
+          37,
+          39,
+          40,
+          43,
+          46,
+          48,
+          60,
+          64,
+          71,
+          76,
+          78,
+          81,
+          82,
+          90,
+          94,
+          98,
+          104,
+          113,
+          119,
+          127,
+          133,
+          136,
+          153,
+          155,
+          163
+        ]
+      },
+      {
+        "subject": "US-India trade deal and Rubio visit",
+        "what_happened": "Marco Rubio toured the world's largest oil refinery at Jamnagar and held talks in Mumbai with Jaishankar to finalize a trade deal; Trump called it 'pretty close'; the US also eyed Reliance for refining Venezuelan oil; India no longer sees the US as a benign power.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          9,
+          16,
+          25,
+          32,
+          35,
+          36,
+          52,
+          54,
+          57,
+          58,
+          63,
+          68,
+          72,
+          87,
+          92,
+          100,
+          106,
+          116,
+          141,
+          143
+        ]
+      },
+      {
+        "subject": "Jio Platforms IPO",
+        "what_happened": "Mukesh Ambani's Jio launched India's largest-ever share sale, was fully subscribed within hours on over $77 billion in bids, attracted BlackRock and GIC as anchors, and pushed the rupee to a six-week high.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          42,
+          44,
+          61,
+          74,
+          79,
+          122,
+          124,
+          134,
+          139
+        ]
+      },
+      {
+        "subject": "Kolkata Durga Puja stampede",
+        "what_happened": "A crush at a Hindu festival in eastern India killed between 17 and 33 people, with AP, BBC, and Bloomberg reporting conflicting death tolls, dampening the Durga Puja and Dussehra holiday season.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          45,
+          86,
+          109,
+          130,
+          159
+        ]
+      },
+      {
+        "subject": "Rupee defense and market pressure",
+        "what_happened": "The RBI mounted a costly defense of the weakening rupee, surging oil prices dragged shares to weekly losses, small-cap stocks fell on margin liquidations, and the finance minister warned that high liquidity weighs on the market.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          51,
+          59,
+          65,
+          75,
+          88,
+          95,
+          108,
+          117,
+          140,
+          145,
+          158,
+          160
+        ]
+      },
+      {
+        "subject": "Corporate earnings season",
+        "what_happened": "Results were sharply mixed: Kotak Bank profit rose 29 percent, Adani Power and Adani Energy more than doubled, JSW Steel profit tripled, while Swiggy hit a record low, Godrej Properties slumped, and HPCL posted a profit drop.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          53,
+          69,
+          77,
+          91,
+          97,
+          112,
+          115,
+          118,
+          144,
+          150,
+          156
+        ]
+      },
+      {
+        "subject": "AI and technology push",
+        "what_happened": "India's finance minister declared the perception of India as an AI laggard no longer valid; the country's data-center market expanded; Vultr and AMD built new AI infrastructure; Tech Mahindra partnered with SpaceX; and AI workers and AI-powered tools gained attention.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          22,
+          26,
+          27,
+          33,
+          67,
+          120,
+          129,
+          137,
+          151
+        ]
+      },
+      {
+        "subject": "SBI cyberattack",
+        "what_happened": "A cyberattack on India's largest bank exposed records of nearly 3,900 customers, raising concerns about financial-sector cybersecurity.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          131,
+          166
+        ]
+      },
+      {
+        "subject": "India-EU trade deal",
+        "what_happened": "India's trade minister said the India-EU trade deal could become operational in early 2027, signaling progress on a separate front from the US negotiations.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          148
+        ]
+      },
+      {
+        "subject": "Tiger Shroff shooting",
+        "what_happened": "Bollywood actor Tiger Shroff was allegedly shot at by gunmen, bringing the industry's gangster past back into focus.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          55,
+          83
+        ]
+      },
+      {
+        "subject": "Defense industry and geopolitics",
+        "what_happened": "Europe's war propelled India's defense industry, China border tensions remained in focus despite talks, and the Pakistan-Taliban conflict was seen as a potential benefit for India's regional position.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          80,
+          101
+        ]
+      },
+      {
+        "subject": "Options and derivatives market",
+        "what_happened": "Retail investors joined high-speed traders in a new options boom, the regulator ordered a $58 million refund from an options trainer, and margin-funded bets fell as the small-cap rally faltered.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          49,
+          114,
+          149
+        ]
+      }
+    ],
+    "gone": [
+      "Fairfax-IDBI Bank deal",
+      "India-West Indies T20"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide rich, multi-source coverage of the CJP protests, the Rubio trade-visit, the Jio IPO, the Kolkata stampede, and the broader economic landscape, though the exact date of several events within the window is unclear and the stampede death toll is inconsistent across sources."
+    },
+    "headlines_used": [
+      "India's Kotak Bank Q2 profit rises 29%, beats estimates",
+      "In India, police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "Samson superb as India mark record T20 chase in win over New Zealand",
+      "Harrow, Bedford: Posh British schools flock to India amid China worries and pressures at home",
+      "Protests erupt from Albania and France to India and Italy",
+      "India news: China border tensions back in focus despite talks",
+      "En Inde, des écoles françaises mitonnent l'élite de la gastronomie",
+      "India Regulator Orders Options Trainer Avadhut Sathe to Refund $58 Million",
+      "Opinion | Elon Musk Blunders in the Indian Market",
+      "Global Insight: The ‘cockroach’ protesters Modi cannot stamp out",
+      "Check out IIRM Holdings India Ltd's stock price (IIRM-IN) in real time",
+      "Neha Bora can outwit the police. Can Indian youth leader outfox Modi?",
+      "India plans jobs survey changes to add unpaid work, improve gig worker data",
+      "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
+      "India's 'cockroach' leaders vow to keep up election protests",
+      "Marco Rubio: Did domestic pressure make US secretary of state visit an Indian port town?",
+      "India news: Neha Bora refuses to sign peace bond, cites right to democratic dissent",
+      "New Delhi lance ses mesures annuelles de lutte contre la pollution atmosphérique",
+      "Truckers in India Shun Modi’s Big Bet on US-Style Expressways",
+      "Young Protesters Are Putting India’s Modi on the Defensive",
+      "India mounts costly defence of rupee",
+      "Inside India newsletter: Asia’s hottest data center market aims to quell concerns over water and power use",
+      "India resist New Zealand fightback to win record-setting T20 cricket opener",
+      "GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says",
+      "Why Rubio is visiting a small Indian city that’s home to world’s largest oil-refining complex",
+      "Vultr and AMD Expand Global Collaboration with New AI Infrastructure in India",
+      "The Indian workers filming their work to train AI",
+      "India news: Protesters march to Election Commission demanding CEC Gyanesh Kumar's resignation",
+      "Agroalimentaire : à Paris, l'Inde affiche ses ambitions mondiales",
+      "SoftBank-Backed Oravel Said to Face Lower Valuation in India IPO",
+      "stock market, bond, equity, commodity prices - FT.com",
+      "U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant",
+      "Who owns India’s textile traditions in age of AI-enabled mass production?",
+      "EXCLUSIVE: India's Scotch probe of Diageo, Pernod undermining India-UK pact benefits, trade group says",
+      "Rubio and India's foreign minister hold talks in Mumbai as both sides aim to finalize a trade deal",
+      "Rubio lands in India for 'trade diplomacy'",
+      "'I'm a nobody': Indian protest leader",
+      "India news: Thousands of Indian pilgrims stranded in Saudi Arabia as Houthi attacks disrupt flights",
+      "Inde: le chef des \"cafards\" remis en liberté après sa garde à vue",
+      "India Voter-Roll Protests Widen as Farmers Set to Join In",
+      "Indian Institute of Management Bangalore",
+      "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
+      "UN experts call on India to stop using ‘excessive force’ against protesters",
+      "Ambani's heir Akash steps into the spotlight as India's Jio goes public",
+      "Stampede at a popular Hindu festival in eastern India kills 19",
+      "AI-generated images of India's women 'cockroach' protesters mislead online",
+      "YouTuber arrested after popular Indian finance influencer's suicide",
+      "India news: Gandhi's nephew told to take down photos depicting youth protests from New Delhi exhibition",
+      "Retail Investors Join High-Speed Traders to Fuel a New Options Boom in India",
+      "Is corporate India’s exuberance merited?",
+      "Food, fuel and flow of capital - India's finance minister on key risks to the economy",
+      "Why Rubio is visiting Reliance’s oil refinery in India, the world’s largest",
+      "Freight discounts prompt India's HPCL to buy oil on delivered basis",
+      "Rubio says India diversifying oil, trade deal 'very close'",
+      "Tiger Shroff: Attack on Indian actor brings Bollywood's gangster past back into focus",
+      "India's solar boom: Eco-friendly innovations changing our world",
+      "India No Longer Sees the US as a Benign Power",
+      "The Indian mega-refinery drawing Marco Rubio’s interest",
+      "India’s economic fundamentals are strong; high liquidity weighs on market: Finance Minister",
+      "Indian court extends detention of ‘Cockroach’ leaders",
+      "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids",
+      "Indian rappers use music to sound climate alarm",
+      "Trump's green card curbs test Indian tech workers' American dream",
+      "India news: CJP leaders Saurav Das, Ashutosh Ranka released from Tihar Jail after pledging not to protest",
+      "India’s RBI Governor Open to Rate Use to Curb Financial Risks",
+      "Linde Expands Supply of Industrial Gases to Tata Steel in India – Company Announcement",
+      "Perception that India is a laggard in AI development is no longer valid: Finance Minister",
+      "Why Marco Rubio’s planned Mumbai visit has ruffled feathers in India",
+      "McDonald's India operator's quarterly loss narrows as deals lure customers",
+      "Higher turnout for Alberta independence question is not evidence of fraud",
+      "CJP protest: India 'cockroach' leaders who called on election chief to quit are freed from jail",
+      "India news: Rubio set to hold talks with S Jaishankar - DW.com",
+      "Volkswagen Freezes India EV Investment as Partner Talks Continue",
+      "Ambani looks to pull off India’s biggest IPO",
+      "India’s finance minister says market liquidity makes it easier for investors to exit",
+      "India’s crackdown on cockroaches, critics and cameras",
+      "India's JSW Steel warns of coking coal price spike as profit more than triples",
+      "Scene from Spanish protest misrepresented as demonstrations in India",
+      "Billionaire Mukesh Ambani's Jio launches India's biggest share sale",
+      "Pakistan-Taliban conflict: How India could benefit from shifting regional dynamics",
+      "Modi Attacks Rahul Gandhi Over ‘Disorder’ Risk to India’s Image",
+      "India’s democracy once went looking for voters. Not any more",
+      "Indian Bollywood actor Tiger Shroff allegedly shot at by gunmen",
+      "India October business growth hits 4-month high; hiring stalls, PMI shows",
+      "Spain's in-form Chacarra wins DP World India Championship",
+      "In pictures: Dussehra celebrated across India as triumph of good over evil",
+      "India news: India-US trade deal 'pretty close,' says Trump",
+      "Rupee Rally Faces Limits From India’s Oil and Dollar Problem: INR/USD",
+      "South Africa’s president eyes trade with China and India as US ties sour",
+      "AI tool helps stranded protesters find their way home in the Indian capital",
+      "India's Adani Power quarterly profit doubles on strong power demand, one-off gains",
+      "What is holding up the US-India trade deal?",
+      "Race to Dubai: Eugenio Chacarra seals two-stroke win in India to lead standings from Patrick Reed and Rory McIlroy",
+      "Who are the women powering India's youth-led 'Cockroach' protests?",
+      "Margin Trade Liquidation Speeds Indian Small-Cap Stock Decline",
+      "Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India",
+      "India's Swiggy falls to record low as quick-commerce losses widen",
+      "Old video of sanitation workers' protest falsely linked to youth rally in India",
+      "The Indian princess, the Wolverhampton manor and forbidden love",
+      "India-US trade deal 'pretty close,' says Trump - DW.com",
+      "War-Torn Europe Propels Resurgent Indian Defense Industry",
+      "‘Cash is making a comeback’ as India raises fees on digital payments",
+      "India's Welspun bags $580 million US gas pipeline order tied to data centre buildout",
+      "India closes down New Delhi park ahead of 'cockroach' movement rally",
+      "DP World India Championship: Eugenio Chacarra leads but Rory McIlroy fades before play halted",
+      "India news: Trade deal, energy security to top agenda for Rubio's visit",
+      "Retire Rich in India: A Guide on How to Invest and Build Wealth",
+      "Surging oil prices drag Indian shares to weekly losses",
+      "At least 17 dead in crush at Hindu festival event in India",
+      "Canada: Alberta votes on holding independence referendum",
+      "Silver Flows Back Into India as Import Curbs Ease Before Diwali",
+      "Dr Reddy's beats quarterly profit estimate on India market lift",
+      "Who are the women powering India's youth-led protests?",
+      "High-Speed Trader Hudson River’s India Unit Growth Slows as Options Curbs Bite",
+      "India's Shriram Finance joins peers in flagging stress in gold loans",
+      "Marco Rubio visits India this week, with a trip to the world's largest oil refinery topping the agenda",
+      "India’s Margin-Funded Stock Bets Fall as Small-Cap Rally Falters",
+      "India's Godrej Properties reports profit slump on soaring construction costs",
+      "India news: CJP alleges 'deliberate' delay in leaders' release",
+      "India’s Eternal Unveils AI Assistant Built for Privacy",
+      "All 14 Indians in yacht incident off Yemen coast reported safe, embassy says",
+      "Elon Musk vs. Mukesh Ambani: Battle for India’s telecom market",
+      "Palm Oil Glut Lures Indian Buyers as Price Gap to Rivals Widens",
+      "Ambani's record Jio Indian IPO subscribed over five times as demand surges",
+      "VVDN Technologies Said to Consider Up to $300 Million India IPO",
+      "India's eMudhra exits website security business after flaws trigger global alarm",
+      "India: 'Cockroach' (CJP) leader Abhijeet Dipke released after detention",
+      "Starlink: Musk Is Getting It Wrong on India’s Space Oligarchs",
+      "India's Tech Mahindra partners with SpaceXSI for AI-powered software development",
+      "India news: Kolkata stampede dampens Durga Puja festivities",
+      "Cyberattack Hits India’s Largest Bank, Exposes Customer Records",
+      "India's Mideast oil imports return to pre-war levels in September",
+      "India news: 'Cockroach' party founder Abhijeet Dipke under preventive arrest",
+      "INR/USD: Indian Rupee Rises to Six-Week High on Jio Platforms IPO Flows",
+      "India permits large silver imports despite weak domestic demand",
+      "India news: CJP founder released a day after detention - DW.com",
+      "India Billionaire Firm Leads $106 Million AI Loan Startup Round",
+      "SoftBank-backed India's Oyo Hotels owner halves proposed IPO, filing shows",
+      "Ambani’s Jio Has Record India IPO Fully Subscribed Within Hours",
+      "India's markets regulator proposes easing approval rules for some exchange investments",
+      "US Eyes India’s Reliance to Refine Venezuelan Oil",
+      "UBS acquires 4.8% stake in Indian wealth manager 360 One Wam",
+      "Trump Says US Trade Deal With India Is ‘Pretty Close’",
+      "India's HPCL posts quarterly profit drop on higher costs, tax expenses",
+      "India Steps Up Overseas Investment Checks as Rupee Slides",
+      "Pirelli, Balkrishna strike India tyre production deal",
+      "Apple’s iPhone Factories Won’t Make India the Next China",
+      "India-EU trade deal could become operational in early-2027, Indian trade minister says",
+      "U-Turn From Regulator May Be New Lifeline to Indian Derivatives",
+      "India's Adani Energy Solutions Q2 profit more than doubles on tax gain, higher sales",
+      "Watch AI Will Empower India's Space Missions, Says Minister",
+      "India overcome New Zealand fightback to win T20 opener",
+      "Two India ‘Cockroach’ Leaders Set to Be Freed as Protests Spread",
+      "India extends duty-free raw sugar import deadline to December 31",
+      "Modi Has No Easy Fix to End Resurgent India Cockroach Protests",
+      "India's Swiggy to deepen Instamart presence in existing markets as losses widen",
+      "Ukraine Talks with Turkey, India, Egypt Over Grain Corridor",
+      "Using rupee as stabiliser can hurt real economy, ex-Indian central bank official says",
+      "India Religious Festivities Turn Deadly, Killing At Least 33",
+      "Indian shares extend losses as high oil prices heighten inflation worries",
+      "Nestle, Unilever Face India Action Over Misleading Health Claims",
+      "Coal supply to power plants to normalise soon, Indian official says",
+      "Declared dead: Indian voters fight to get back on electoral rolls",
+      "Nestle, Zydus, Abbott face India scrutiny over claims on children's products",
+      "India's top industrial state asks factories to curb power usage as demand surges",
+      "State Bank of India reports cyberattack involving nearly 3,900 customer records"
+    ],
+    "converted": false,
+    "relevant_headlines": 166,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "CJP 'Cockroach' protests and voter-roll crisis",
+        "expected": "CJP 'Cockroach' protests and voter-roll crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about CJP 'Cockroach' protests and voter-roll crisis appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US-India trade deal and Rubio visit",
+        "expected": "US-India trade deal and Rubio visit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-India trade deal and Rubio visit appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Jio Platforms IPO",
+        "expected": "Jio Platforms IPO stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Jio Platforms IPO appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Jio Platforms IPO",
+        "expected": "persist",
+        "sign": "Jio Platforms IPO is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. CJP 'Cockroach' protests and voter-roll crisis stays in the news at the same level. US-India trade deal and Rubio visit stays in the news at the same level. Jio Platforms IPO stays in the news at the same level. Jio Platforms IPO is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "CJP Cockroach protests",
+        "expected": "The CJP voter-roll protests will escalate into a nationwide march on the Election Commission as farmers join the movement following a new cycle of protest-leader arrests.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a mass march on the Election Commission, a fresh arrest of a CJP leader, or a government statement reshuffling the Election Commission leadership."
+      },
+      "second": {
+        "subject": "US-India trade deal",
+        "expected": "The US and India will formally announce the finalized trade agreement with locked-in tariff reductions and energy terms after the last open issues are resolved.",
+        "direction": "persist",
+        "sign": "Headlines will reference a signed bilateral agreement, a joint press statement from both foreign ministers, or a specific tariff figure being confirmed."
+      },
+      "third": {
+        "subject": "Rupee defense and market stress",
+        "expected": "The Reserve Bank of India will intervene again to support the rupee as surging oil import bills drag the currency and equity markets lower into the week.",
+        "direction": "persist",
+        "sign": "Headlines will reference a new RBI foreign-exchange intervention, a specific rupee-per-dollar level, or a weekly equity-market loss driven by oil costs."
+      },
+      "fade_call": {
+        "subject": "Kolkata Durga Puja stampede",
+        "expected": "fade",
+        "sign": "Headlines will shift from the death toll and rescue operations to a government inquiry or compensation announcement, with the event dropping out of daily coverage."
+      },
+      "surprise": {
+        "subject": "Financial-sector cybersecurity crisis",
+        "expected": "A second major Indian bank or the Reserve Bank of India will confirm a data breach or cyber incident, triggering a sector-wide investigation and regulatory action.",
+        "chance": "medium"
+      },
+      "summary": "Next week in India will be defined by the deepening Cockroach voter-roll crisis, as the youth-led CJP movement absorbs farmers and faces a new cycle of arrests and marches that will keep Prime Minister Modi on the defensive. The US-India trade deal will move from pretty close to a formalized agreement, with tariff and energy terms locked in after Rubio's visit. Markets will stay under strain: the rupee will need fresh RBI support amid rising oil costs, and the Jio IPO capital inflows will begin to reverse, testing investor confidence. The Kolkata stampede will fade from daily headlines as a government inquiry takes over. A less expected development will be a widening cybersecurity scare in the banking sector, building on the SBI breach. The overall mood will stay tense, with politics and currency dominating the news cycle.",
+      "generated_at": "2026-10-25T13:51:12+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "CJP voter-roll protests",
+        "expected": "A coordinated nationwide march will draw farmers and youth to multiple state capitals, forcing the government to announce a formal review of the mass voter-roll deletion.",
+        "direction": "escalate",
+        "sign": "Headlines about a simultaneous multi-city protest, farmers marching alongside youth demonstrators, and the government naming a review panel for the electoral rolls"
+      },
+      "second": {
+        "subject": "US-India trade deal",
+        "expected": "New Delhi and Washington will issue a joint statement detailing the tariff reductions and the energy cooperation framework that Trump called pretty close.",
+        "direction": "persist",
+        "sign": "Headlines about a formal bilateral statement, specific tariff cuts on goods, and the refinery partnership for Venezuelan crude"
+      },
+      "third": {
+        "subject": "SBI cyberattack inquiry",
+        "expected": "The Reserve Bank of India will open a formal inquiry into the SBI data breach and mandate a sector-wide cybersecurity audit for all scheduled banks.",
+        "direction": "escalate",
+        "sign": "Headlines about a central bank investigation, new cybersecurity rules for the banking sector, and the bank announcing customer remediation steps"
+      },
+      "fade_call": {
+        "subject": "Jio Platforms IPO",
+        "expected": "fade",
+        "sign": "Headlines shift from subscription records to the listed share opening price and the billionaire next corporate announcement"
+      },
+      "surprise": {
+        "subject": "CEC resignation",
+        "expected": "The Election Commission chief will tender a resignation under the combined pressure of the CJP march and the UN experts call for the government to stop excessive force.",
+        "chance": "medium"
+      },
+      "summary": "India's next week will be defined by the CJP voter-roll protests reaching a national crescendo as farmers march alongside youth in multiple state capitals, forcing the government to commit to a formal review of the mass deletion. The US-India trade deal will move from pretty close to a published joint statement with tariff cuts and a refinery partnership anchoring the agreement. The SBI cyberattack will trigger a Reserve Bank inquiry and new cybersecurity mandates across the banking sector, testing public confidence in India's financial infrastructure. The Jio IPO story will recede as the listed share settles and attention shifts to the next corporate move. A medium-chance surprise is the Election Commission chief resigning under the weight of street pressure and international scrutiny.",
+      "generated_at": "2026-10-25T14:03:55+02:00"
+    }
+  },
+  "display": {
+    "headline": "India Protesters Force Voter Roll Review as Trade Deal Nears",
+    "emojis": [
+      "✊",
+      "🤝",
+      "💻"
+    ],
+    "emoji_reasons": [
+      "The CJP voter-roll protests are the dominant and escalating story of the week.",
+      "The US-India trade deal is the second major thread, moving from talks to a published agreement.",
+      "The SBI cyberattack and the resulting banking-sector cybersecurity push make the digital/tech icon relevant."
+    ],
+    "tldr": "Farmers and youth will march in multiple Indian cities demanding a voter-roll review, while New Delhi and Washington publish their trade agreement. A central bank inquiry will follow the SBI data breach. The CEC may resign under pressure.",
+    "eli5": "In India, a group of young people called the CJP are protesting because the government removed a huge number of names from the voter list. This week, farmers joined them, and the UN told the government to stop using too much force. Next week, even more people will march in different cities at the same time, and the government will have to promise to look into what happened to those voter names.\n\nAt the same time, the US and India are almost done negotiating a trade deal about tariffs and oil. The American secretary of state just visited a giant refinery in India, and both sides are expected to put the deal in writing next week.\n\nAlso, a hacker got into India's biggest bank and stole customer information. The central bank will start an investigation and make all banks follow new security rules.\n\nA surprise would be the head of India's election body actually quitting their job because of all the pressure from the streets and the UN."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "CJP protests dominated and escalated (headlines 10, 20, 28, 40, 60, 64, 71, 153, 155) with arrests, releases, and a march on the Election Commission, but no headline specifically reports a Supreme Court ruling setting conditions for the next rally."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines 42, 61, 79, 124, and 139 confirm the Jio Platforms IPO was fully subscribed within hours on over $77 billion in bids with BlackRock and GIC as anchor investors, matching the predicted institutional demand test."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 35, 54, 87, 100, and 143 confirm Rubio held talks with Jaishankar in Mumbai and Trump called the trade deal 'pretty close,' but no joint statement declaring completion of the first phase appears."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headlines 45, 109, 130, and 159 still lead with the death toll (17 to 33 killed) and the dampening of Durga Puja festivities, with no shift to a government inquiry or compensation announcement."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the three dominant stories (CJP, Jio IPO, trade talks) and got the escalation direction right on all three. Its main weakness was the Kolkata fade call, which was confidently wrong as the stampede remained a top story with conflicting death tolls. The surprise Tata boardroom split was a reasonable medium-chance guess but did not materialize in this collection."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "CJP protests remained the dominant story (headlines 10, 15, 20, 28, 40, 60, 64, 71, 153, 155), but they clearly escalated with arrests, releases, and a march on the Election Commission rather than persisting at the same level."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Jio Platforms IPO headlines (42, 61, 79, 124, 139) confirm the story was still prominently in the collection, in fact more prominent than the prior round with the full subscription and $77 billion in bids."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists 'Fairfax-IDBI Bank deal' under 'No longer in the headlines,' directly contradicting the persist prediction."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Jio Platforms IPO headlines (42, 61, 79, 124, 139) confirm the story was still prominently reported in this round, matching the persist fade call."
+          }
+        },
+        "archer_note": "The bulletin's generic 'persist at same level' framing captured the broad direction but missed the escalation in CJP protests and the surge in Jio IPO coverage. Its third item (Fairfax-IDBI persist) was confidently wrong, as the deal was explicitly dropped from the headlines. The overall thesis was not wrong, merely under-specified and lacking any falsifiable detail beyond 'same volume.'"
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "CJP protests escalated (headlines 10, 20, 28, 40, 60, 64, 71, 153, 155) with court actions including extended detention and releases, but no headline specifically reports a Supreme Court interim ruling on the mass voter-roll deletions."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines 42, 61, 79, 124, and 139 confirm the Jio IPO was India's largest and most subscribed, fully subscribed within hours, matching the predicted record participation and valuation benchmark impact."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists 'Fairfax-IDBI Bank deal' under 'No longer in the headlines,' contradicting the prediction of a share-price rebound and analyst upgrades."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headlines 45, 109, 130, and 159 still report the Kolkata stampede with death tolls (17 to 33) as the primary angle, without shifting to compensation packages or safety-audit announcements."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the CJP escalation and Jio IPO as dominant, and its specificity on the IPO (record retail participation, valuation benchmarks) was well matched. Its main errors were the Fairfax-IDBI third item, which was explicitly gone, and the Kolkata fade call, which was confidently wrong. The surprise rupee-breach-100 prediction was contradicted by the rupee hitting a six-week high (headline 134)."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Bulletin X correctly identified all three dominant stories with specific, falsifiable predictions, while Bulletin Y offered only generic 'persist at same level' language for every item. X's third item (US-India trade talks) matched a dominant story, whereas Y's third item (Fairfax-IDBI) was explicitly no longer in the headlines."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Both bulletins identified CJP escalation and Jio IPO correctly, but X's third item (US-India trade talks) matched a dominant story while Z's third item (Fairfax-IDBI rebound) was explicitly gone from the headlines. X's fade call and Z's fade call were both wrong on Kolkata, so the differentiator is the third item."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Bulletin Z had a more accurate lead (escalation vs. mere persistence) and more specific Jio IPO language, but Bulletin Y correctly called the Jio IPO fade as persist while Z wrongly called the Kolkata stampede as fading. Both shared the same error on the Fairfax-IDBI third item, making the overall accuracy roughly balanced."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 2.0,
+      "plain_vs_crystal": 1.0,
+      "persistence_vs_crystal": 0.0
+    },
+    "v": -1.0,
+    "u": 0.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe dominant story in India this week was the escalating crackdown on the 'Cockroach Janta Party' (CJP) protest movement. Founder Abhijeet Dipke and senior leaders were detained, released, and then jailed for five days after scaling barricades at a New Delhi rally. Police closed off iconic protest sites, and women staged separate demonstrations against police brutality. Journalists accused authorities of suppressing press freedom. A Bollywood actor, Imran Khan, was reportedly asked to leave the country after joining a CJP rally. The protests were fuelled by a mass voter purge that removed 130 million names from electoral rolls, drawing charges that India's democracy is being hollowed out. Separately, at least 17 people died in a crush at a Hindu festival in Kolkata. In finance, Ambani's Jio Platforms launched a $3.2 billion IPO at a $108 billion valuation, and Canada's Fairfax Financial agreed to buy a majority stake in IDBI Bank for\n- CJP protest crackdown (dominant, escalating): CJP founder Dipke and senior leaders were detained, released, and then jailed for five days after a New Delhi rally, India closed off an iconic protest park, women protested police brutality, and the Supreme Court agreed to hear related cases.\n- Jio Platforms IPO (dominant, new): Jio Platforms opened orders for a $3.2 billion IPO at a $108 billion valuation backed by Meta and Google, lifting Reliance and Airtel shares while Jio Financial Services saw its quarterly profit halve.\n- Fairfax-IDBI Bank deal (dominant, new): Canada's Fairfax Financial agreed to buy a majority stake in IDBI Bank for $5.6 billion in the largest foreign takeover of an Indian bank, with plans to fold other Indian financial holdings into IDBI.\n- Kolkata festival crush (regular, new): At least 17 people were killed in a crowd crush at a Hindu festival event in Kolkata, one of the deadliest festival incidents in recent years.\n- Indian stock market and 4th economy (regular, continuing): Indian share benchmarks logged their best week in six months on IT earnings and a global AI slump, and the IMF projected India will overtake Japan as the world's fourth-largest economy in 2027.\n- US-India trade and diplomacy (regular, continuing): India said the first phase of its US trade deal is nearly complete, the foreign ministers are set to meet on October 20, and a US envoy called India a top partner while visiting Ambani's refinery.\n- Rupee weakness and RBI (regular, continuing): The rupee is forecast to weaken toward 100 per dollar, the RBI has spent roughly half of its $140 billion FX buffer on defence, and analysts argue India may need rate hikes to support the currency.\n- AI and technology (occasional, new): India's government warned that rogue AI agents broke into firms' live systems, family offices are increasing bets on homegrown AI startups, and clean-power firms are bracing for a data-centre demand surge.\n- Bank earnings season (regular, continuing): ICICI Bank, HDFC Bank, Axis Bank, and Yes Bank all reported Q2 results with mixed results, and the Supreme Court voided Yes Bank's $880 million AT1 bond write-off.\n- India-West Indies T20 (occasional, resolved): Rain washed out the fifth and final T20 match, leaving the India-West Indies series level after West Indies won the previous game.\n- Mass voter purge (regular, continuing): A Financial Times report and Al Jazeera analysis argued that India's removal of 130 million voters from electoral rolls is hollowing out democracy, adding fuel to the CJP protests.\n\nRound 2026-10-02:\nIndia entered the week of October 14, 2026, under three simultaneous pressures. The CJP movement, dubbed the Cockroach protest wave, challenged the Election Commission over mass voter-roll deletions. CJP leaders were detained in Delhi and released within days, while satellite protests spread to Bengaluru, Mumbai, Hyderabad, Chennai, Kolkata, and Pune. Police deployed barricades and metro services were disrupted. The RBI hiked interest rates for the first time in years, yet the rupee stayed weak and capital outflows persisted. The government pushed oil companies away from spot dollar purchases and tightened forex flows. US-India trade talks stalled after JD Vance remarks irritated New Delhi, and India accused Washington of using language with colonial connotations. Google's Visakhapatnam data-center project drew local objections over water and power. Honda restructured its India strategy with Tata Technologies. India tabled a draft steel policy targeting 604 million metric tons of capacity by 2047. Private equity moved\n- CJP leaders were detained and released (regular, continuing): CJP leaders were detained and released in Delhi amid mass protests over voter-roll deletions and the Election Commission chief's legitimacy.\n- The RBI hiked interest rates for (regular, continuing): The RBI hiked interest rates for the first time in years while the rupee stayed weak and capital outflows persisted.\n- US-India trade talks stalled after JD (regular, continuing): US-India trade talks stalled after JD Vance comments irritated New Delhi, and India accused Washington of colonial language.\n- Google's Visakhapatnam data-center project drew local (regular, continuing): Google's Visakhapatnam data-center project drew local resident objections over water and power consumption.\n- Nana Patekar died, generating a wave (regular, continuing): Nana Patekar died, generating a wave of tributes across the Indian film industry.\n- Nana Patekar died, generating a wave (again) (regular, continuing): Nana Patekar died, generating a wave of tributes across the Indian film industry.\n",
+    "PREVIOUS_FORECAST": "Lead: CJP protest crackdown and Supreme Court hearing. Expected: The Supreme Court will deliver an interim ruling on the mass voter-roll deletions and the CJP protest detentions, setting the legal tone for the movement's next phase. Direction: escalate. Sign: Headlines about a Supreme Court ruling on the voter purge and fresh CJP leader arrests or a court-ordered protest corridor\nSecond: Jio Platforms IPO. Expected: The Jio Platforms IPO will open its retail subscription window, drawing record participation from young Indian investors and reshaping the valuation benchmarks for Reliance and Airtel shares. Direction: persist. Sign: Headlines about record retail subscription numbers, valuation comparisons with Meta and Google, and a spike in Reliance and Airtel share prices\nThird: Fairfax and IDBI Bank acquisition. Expected: The IDBI Bank share price will rebound from its initial seven-percent drop as Fairfax's integration plans and the sector's new foreign-ownership benchmark draw analyst upgrades. Direction: persist. Sign: Headlines about regulatory filings for the IDBI acquisition, analyst upgrades for the bank, and a broader Indian banking sector revaluation\nFade call: Kolkata festival crush. Expected: fade. Sign: Headlines shift from the death toll to government compensation packages and a safety-audit announcement for festival venues\nSurprise (chance medium): Rupee breaches 100 per dollar. The rupee will breach the 100-per-dollar threshold for the first time, forcing the RBI into a visible rate response and rattling the market's bullish streak.\nSummary: India's next week will be dominated by the Supreme Court's handling of the CJP protest cases and the mass voter-roll deletions. Fresh detentions and a court-ordered protest corridor will keep New Delhi's streets in flux. The Jio Platforms IPO will open its subscription window, pulling young retail investors into a $108-billion valuation story and lifting Reliance and Airtel shares. The Fairfax-IDBI deal will enter its regulatory phase, with the bank's share price recovering and the sector revaluing around a new foreign-ownership ceiling. The Kolkata festival crush will fade from the front page as compensation and safety-audit stories take over. The rupee's slide toward the 100-per-dollar mark will test the RBI's patience. The October 20 foreign-ministers meeting will add a diplomatic backdrop as both sides press to close the first trade-deal phase.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. CJP protests escalated (headlines 10, 20, 28, 40, 60, 64, 71, 153, 155) with court actions including extended detention and releases, but no headline specifically reports a Supreme Court interim ruling on the mass voter-roll deletions.\n- second: came_true. Headlines 42, 61, 79, 124, and 139 confirm the Jio IPO was India's largest and most subscribed, fully subscribed within hours, matching the predicted record participation and valuation benchmark impact.\n- third: did_not_appear. The reality bulletin explicitly lists 'Fairfax-IDBI Bank deal' under 'No longer in the headlines,' contradicting the prediction of a share-price rebound and analyst upgrades.\n- fade_call: did_not_appear. Headlines 45, 109, 130, and 159 still report the Kolkata stampede with death tolls (17 to 33) as the primary angle, without shifting to compensation packages or safety-audit announcements.\nArcher note: The bulletin correctly identified the CJP escalation and Jio IPO as dominant, and its specificity on the IPO (record retail participation, valuation benchmarks) was well matched. Its main errors were the Fairfax-IDBI third item, which was explicitly gone, and the Kolkata fade call, which was confidently wrong. The surprise rupee-breach-100 prediction was contradicted by the rupee hitting a six-week high (headline 134).\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

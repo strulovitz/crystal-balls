@@ -1,0 +1,333 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "VN",
+  "name": "Vietnam",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T10:47:06+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Vietnam's dominant story this week was the signing of a free-trade agreement with four European countries, including Norway and Swiss, a landmark deal that deepens economic ties beyond the existing EU-Vietnam framework. The agreement drew both enthusiasm and criticism: Deutsche Welle and others noted that European governments appeared to prioritize market access while downplaying Vietnam's human-rights record. On the infrastructure front, Vietnam made two major rail announcements: a bet on high-speed rail to transform the economy, and a $3.5 billion non-binding agreement between Maersk and Hateco to build rail freight terminals. The US tariff war, ongoing elsewhere, was reported as boosting Vietnam's coal sector as the country ramps up power generation to feed its factories. Environmental concerns surfaced on multiple fronts: Hanoi moved to curb its iconic street trees, and the government floated remote-work and online-class measures as air quality worsened, while coastal construction in Ho Chi Minh City was reported to be threatening the mangrove belt that shields the city from flooding. In finance, Vietnam announced plans to launch index options next year following an FTSE index upgrade, and its top jeweler rethought diamond buybacks after a sector crisis. A smaller but notable item saw FPT and Denmark's Niels Bohr Institute expand a quantum-talent partnership.",
+    "key_events": [
+      {
+        "event": "Vietnam signed a free-trade agreement with four European countries including Norway and Switzerland.",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Maersk and Hateco signed a non-binding agreement for a $3.5 billion rail freight terminal project in Vietnam.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Vietnam announced a major high-speed rail program aimed at transforming its economy.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Hanoi moved to curb the planting or growth of its iconic street trees amid worsening air quality.",
+        "date": "2026-10-23",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Reuters reported that the US tariff war is fueling a coal boom in Vietnam as the country expands power generation.",
+        "date": "2026-10-19",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Vietnam announced plans to introduce index options next year following its FTSE index upgrade.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Coastal construction projects were reported to be threatening the mangrove forest that protects Ho Chi Minh City.",
+        "date": "2026-10-18",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "FPT and Denmark's Niels Bohr Institute announced an expanded collaboration on quantum talent development.",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "environment",
+      "technology"
+    ],
+    "emojis": [
+      "🤝",
+      "🏗️",
+      "🌍"
+    ],
+    "emoji_reasons": [
+      "The EU free-trade agreement with four European countries (headlines 5, 8, 13, 15) is the week's defining diplomatic and trade event.",
+      "The high-speed rail push (headlines 6, 10) and the $3.5 billion Maersk-Hateco rail freight deal (headlines 12, 16) make infrastructure the second major theme.",
+      "Hanoi's tree curbs (headline 11), the air-quality response (headline 17), and the mangrove threat in Ho Chi Minh City (headline 2) show environment as a persistent concern."
+    ],
+    "developments": [
+      {
+        "subject": "EU-Vietnam free-trade agreement",
+        "what_happened": "Vietnam signed a new free-trade pact with four European nations including Norway and Switzerland, extending its trade architecture beyond the existing EU framework.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          8,
+          13,
+          15
+        ]
+      },
+      {
+        "subject": "Rail infrastructure push",
+        "what_happened": "Vietnam announced a high-speed rail program and Maersk signed a $3.5 billion non-binding deal with Hateco for rail freight terminals, signaling a major shift toward rail logistics.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          10,
+          12,
+          16
+        ]
+      },
+      {
+        "subject": "EU trade vs. human rights",
+        "what_happened": "European commentators and DW questioned whether the EU was prioritizing profits over workers' rights in Vietnam as it deepened trade ties.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          9
+        ]
+      },
+      {
+        "subject": "US tariff war and coal boom",
+        "what_happened": "Reuters reported that US tariffs are pushing manufacturers toward Vietnam, boosting demand for coal-fired power and fueling a domestic coal boom.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Air quality and Hanoi trees",
+        "what_happened": "Hanoi curbed its iconic street trees while the government considered remote work and online classes as air quality deteriorated.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          11,
+          17
+        ]
+      },
+      {
+        "subject": "Mangrove and coastal construction",
+        "what_happened": "Coastal construction projects in Ho Chi Minh City were reported to be eroding the mangrove forest that serves as the city's natural flood barrier.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          2
+        ]
+      },
+      {
+        "subject": "Financial markets and FTSE upgrade",
+        "what_happened": "Vietnam announced plans to launch index options next year following its FTSE index upgrade, and Vietnam Airlines shares and the diamond sector saw market attention.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          14,
+          18
+        ]
+      },
+      {
+        "subject": "Quantum talent collaboration",
+        "what_happened": "FPT and Denmark's Niels Bohr Institute expanded a partnership to develop quantum-science talent in Vietnam.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      }
+    ],
+    "gone": [
+      "War dead identification and burial",
+      "2027 GDP growth target",
+      "Vietnam Airlines Airbus order",
+      "Train Street tourism",
+      "Vietnam War psychological legacy"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major trade, infrastructure, and environmental stories well, though domestic politics, security, and social issues are largely absent from the set."
+    },
+    "headlines_used": [
+      "COMMENTARY: US tariff war is fueling Vietnam's coal boom",
+      "Coastal construction projects threaten the mangrove forest that protects Vietnam's biggest city",
+      "FPT and the Niels Bohr Institute Advance Vietnam–Denmark Collaboration in Quantum Talent Development",
+      "EU looks to Vietnam for trade — and turns a blind eye to rights abuses",
+      "Le Vietnam signe un accord de libre-échange avec quatre pays européens",
+      "Watch Vietnam Bets Big on High-Speed Rail To Transform Economy",
+      "Vietnam Airlines JSC (HVN.HM) | Stock Price & Latest News",
+      "Vietnam signs free trade deal with four European nations",
+      "Are Europeans putting profits over human rights in Vietnam? - DW.com",
+      "What a 35-Hour Train Ride Reveals About Vietnam’s Future",
+      "Too much of a good scent? Hanoi curbs iconic trees",
+      "Maersk, Hateco sign non-binding agreement on rail freight terminals in Vietnam",
+      "Vietnam signs free trade deal with four European countries - DW.com",
+      "Vietnam’s Top Jeweler Rethinks Diamond Buybacks After Crisis",
+      "Vietnam signs free-trade pact with European countries including Norway, Switzerland",
+      "Maersk and Hateco Plan $3.5 Billion Vietnam Rail Freight Project",
+      "Vietnam Eyes Remote Work, Online Classes as Air Quality Worsens",
+      "Vietnam Plans Index Options for Next Year After FTSE Upgrade"
+    ],
+    "converted": false,
+    "relevant_headlines": 18,
+    "unscorable": true,
+    "unscorable_reason": "only 18 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "EU-Vietnam free-trade agreement",
+        "expected": "EU-Vietnam free-trade agreement stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about EU-Vietnam free-trade agreement appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Rail infrastructure push",
+        "expected": "Rail infrastructure push stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Rail infrastructure push appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "EU trade vs. human rights",
+        "expected": "EU trade vs. human rights stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about EU trade vs. human rights appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "EU-Vietnam free-trade agreement",
+        "expected": "persist",
+        "sign": "EU-Vietnam free-trade agreement is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. EU-Vietnam free-trade agreement stays in the news at the same level. Rail infrastructure push stays in the news at the same level. EU trade vs. human rights stays in the news at the same level. EU-Vietnam free-trade agreement is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "EU free-trade agreement",
+        "expected": "European legislatures will schedule formal ratification votes on the new free-trade pact while Vietnamese labor groups publish public demands for enforcement clauses.",
+        "direction": "persist",
+        "sign": "Headlines will reference a parliamentary vote, ratification deadline, or union statement specifically tied to the new four-nation European agreement rather than the broader EU-Vietnam framework."
+      },
+      "second": {
+        "subject": "High-speed rail program",
+        "expected": "Vietnam will name a specific corridor and construction-start window for the high-speed rail project, moving from general ambition to a defined route.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a named corridor, a binding construction contract, or a site-selection announcement for the high-speed rail program, distinguishing them from the earlier general 'bet on rail' framing."
+      },
+      "third": {
+        "subject": "Hanoi air-quality crisis",
+        "expected": "Hanoi's government will issue a formal decree mandating remote work days or school closures as sustained poor air-quality readings force a policy response.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a government decree, a mandatory closure order, or a specific air-quality threshold that triggers the remote-work and online-class measures in Hanoi."
+      },
+      "fade_call": {
+        "subject": "FPT and Niels Bohr quantum partnership",
+        "expected": "fade",
+        "sign": "Headlines will shift to other science or technology stories, and the quantum-talent collaboration between FPT and the Niels Bohr Institute will receive no further coverage."
+      },
+      "surprise": {
+        "subject": "Worker protest at export factory",
+        "expected": "A visible worker protest or short strike will erupt at a major export factory benefiting from the new European trade agreement, forcing the government to respond publicly on labor conditions.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Vietnam's story will be shaped by the aftermath of its new European free-trade pact. European legislatures will move toward ratification, and Vietnamese labor voices will press for enforcement mechanisms, keeping the trade-versus-rights tension in the headlines. The rail infrastructure push will sharpen, with a named corridor expected for the high-speed program and further details on the Maersk-Hateco freight-terminal project. Hanoi's air-quality crisis will escalate into formal policy, with the government likely ordering remote work days or school closures as readings stay poor. The coal boom tied to the US tariff war will persist as a backdrop, but front-page energy will shift toward the EU deal and the rail announcements. The quantum-talent story will fade from view. A medium-chance surprise is a worker protest at an export factory, directly linking the trade deal to the human-rights debate.",
+      "generated_at": "2026-10-25T10:38:20+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "EU-Vietnam free trade agreement implementation",
+        "expected": "Vietnamese and European trade ministries will publish sector-by-sector tariff schedules and concrete trade volume projections for the newly signed pact with Norway, Switzerland, and the other two signatories.",
+        "direction": "persist",
+        "sign": "Headlines citing specific export category forecasts, joint implementation roadmaps, and congratulatory statements from Vietnamese and European trade officials"
+      },
+      "second": {
+        "subject": "Rail infrastructure planning phase",
+        "expected": "The high-speed rail program and the Maersk-Hateco freight terminal project will move into the planning stage with feasibility study launches, government budget allocations, and contractor selection timelines announced.",
+        "direction": "escalate",
+        "sign": "Headlines about feasibility study kickoffs, state budget line items for rail construction, and technical partnership announcements between Vietnamese and foreign engineering firms"
+      },
+      "third": {
+        "subject": "EU trade versus human rights debate",
+        "expected": "European editorial and parliamentary voices will press harder on Vietnam's labor and workers' rights record, prompting a formal Vietnamese government response and further cross-continent commentary.",
+        "direction": "escalate",
+        "sign": "Headlines featuring Vietnamese official rebuttals to rights criticism, European parliamentary questions, and Vietnamese labor union statements on working conditions"
+      },
+      "fade_call": {
+        "subject": "Mangrove and coastal construction",
+        "expected": "fade",
+        "sign": "The mangrove erosion story will drop from the news cycle as attention shifts to the trade agreement aftermath and rail planning announcements"
+      },
+      "surprise": {
+        "subject": "Energy policy response to manufacturing boom",
+        "expected": "Vietnam's energy ministry will approve a new power generation project or set a specific coal-to-renewable transition target in direct response to the manufacturing demand surge driven by US tariffs.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Vietnam will center on the concrete aftermath of the European free trade agreement, as both sides publish sector-level tariff schedules and trade volume forecasts that translate the signing ceremony into economic substance. The rail infrastructure push will accelerate from headline announcement into the planning phase, with feasibility studies, budget allocations, and contractor selections filling the infrastructure pages. European commentators and parliamentarians will press the human rights question harder, and Vietnam will issue a formal government response that shapes the tone of the trade-rights balance. The mangrove and coastal construction story will fade from the cycle. A watch-item is whether the manufacturing boom fueled by US tariffs triggers a specific energy policy announcement from Hanoi.",
+      "generated_at": "2026-10-25T10:47:06+02:00"
+    }
+  },
+  "display": {
+    "headline": "Vietnam Trade Pact Sparks Rights Debate as Rail Plans Accelerate",
+    "emojis": [
+      "🤝",
+      "🏗️",
+      "✊"
+    ],
+    "emoji_reasons": [
+      "The signed free trade agreement with European nations is the dominant story driving next week's headlines.",
+      "The high-speed rail program and freight terminal project enter their planning and construction phase.",
+      "European voices pressing Vietnam on labor and human rights represent an escalating advocacy and political pressure story."
+    ],
+    "tldr": "Vietnam's new European trade pact enters implementation as officials publish tariff schedules and trade forecasts. The rail push moves from announcement to planning with feasibility studies and budget allocations. European voices will press harder on Vietnam's labor record, drawing a formal government response.",
+    "eli5": "Vietnam just signed a big trade deal with four European countries, including Norway and Switzerland. Next week, the exciting signing ceremony turns into the boring-but-important part: both sides will publish actual numbers about how much more stuff they will trade, which sectors get lower tariffs, and when the new rules take effect.\n\nAt the same time, Vietnam is betting a lot of money on trains. They announced a high-speed rail program and a huge freight terminal project with a shipping company. Next week, those announcements turn into real planning: engineers start studying the routes, the government writes down how much money it will spend, and companies start bidding on construction contracts.\n\nOne thing that will probably get louder is the argument about workers' rights. European newspapers and politicians are asking why they are signing a trade deal with a country where workers sometimes struggle to organize. Vietnam will likely send a formal answer, and both sides will keep debating in the press.\n\nWhat would be a surprise? If Vietnam suddenly announces a new coal power plant or a big renewable energy target because all those US factories moving into Vietnam need a lot more electricity. That would be a plot twist nobody expected from this week's headlines."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 18 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14 to 17, 2026, Vietnam's headline story was the imminent signing of a free trade agreement with European countries, confirmed by officials on Friday ahead of a Sunday ceremony. The deal represents a significant step in diversifying Vietnam's export markets beyond the United States and China. Economically, the Prime Minister set an ambitious target of at least 10 percent GDP growth for 2027, underscoring government confidence in the expansion trajectory. Vietnam Airlines also announced it is seeking to acquire 25 Airbus jets to revive its low-cost carrier subsidiary, signaling investment in domestic aviation capacity. On the social front, Vietnam held a solemn ceremony to bury the remains of 731 soldiers killed during the 1968 Tet Offensive, nearly six decades later, as part of a broader government push to exhume and identify over 700 missing war dead. Lighter cultural stories included Hanoi pruning its famous cherry\n- EU-Vietnam free trade agreement (dominant, new): Officials confirmed that European countries and Vietnam will sign a comprehensive free trade deal on Sunday, marking a new pillar in Vietnam's trade diversification strategy.\n- War dead identification and burial (dominant, continuing): Vietnam buried the remains of 731 soldiers from the 1968 Tet Offensive and exhumed over 700 bodies as part of a major government push to identify long-missing war dead.\n- 2027 GDP growth target (regular, new): The Prime Minister publicly set a target of at least 10 percent GDP growth for 2027, an ambitious figure that frames the next economic policy cycle.\n- Vietnam Airlines Airbus order (regular, new): Vietnam Airlines is seeking to acquire 25 Airbus jets to revive its low-cost carrier subsidiary, indicating a strategic re-investment in domestic aviation.\n- Hanoi cherry blossom pruning (occasional, new): Hanoi authorities cut back the city's iconic cherry blossom trees after residents reported that the strong fragrance was becoming a nuisance.\n- Train Street tourism (occasional, continuing): Hanoi's Train Street continued to draw international visitors and media attention as a unique and somewhat precarious urban tourism attraction.\n- Vietnam War psychological legacy (occasional, new): A reflective Deutsche Welle feature examined how the trauma of the Vietnam War continues to affect Vietnamese society and identity nearly six decades later.\n\nRound 2026-10-02:\nVietnam entered the week of October 14, 2026, with Q3 GDP growth of 9.95 percent, putting the full-year 10-percent target within reach. Central coastal provinces around Hue and Da Nang faced heavy rains, flash floods, and landslide risks, prompting the mobilization of military units for rescue and evacuation. Inflation ran above the State Bank's target, though officials described it as under control. Vietnamese banks announced plans to raise approximately seven billion dollars in capital through share sales. Vietnam told Reuters that negotiations with the United States on a reciprocal trade agreement were largely completed. The European Union removed Vietnam from its list of tax havens alongside Panama. French President Macron visited Vietnam, and an Alstom-Vingroup transport agreement was discussed. Myanmar's military leader Min Aung Hlaing traveled to Vietnam amid ASEAN normalization efforts. Vietnam lost to Malaysia in the FIFA ASEAN Cup, sparking public criticism. Twelve men were arrested in Ho\n- Q3 GDP growth hit 9.95 percent (regular, continuing): Q3 GDP growth hit 9.95 percent, placing Vietnam within reach of a 10-percent full-year target.\n- Heavy rains and flash floods in (regular, continuing): Heavy rains and flash floods in central Vietnam triggered military mobilization for rescue and evacuation.\n- Vietnam declared US reciprocal trade agreement (regular, continuing): Vietnam declared US reciprocal trade agreement negotiations largely completed.\n- Vietnamese banks announced plans to raise (regular, continuing): Vietnamese banks announced plans to raise nearly seven billion dollars in share-sale capital.\n- The EU removed Vietnam from its (regular, continuing): The EU removed Vietnam from its tax-haven list alongside Panama.\n- The EU removed Vietnam from its (again) (regular, continuing): The EU removed Vietnam from its tax-haven list alongside Panama.\n",
+    "PREVIOUS_FORECAST": "Lead: EU-Vietnam free trade agreement signing. Expected: The formal signing of the comprehensive free trade agreement with European countries will trigger a surge of diplomatic statements, trade projections, and political commentary from both Vietnamese and European officials. Direction: escalate. Sign: Headlines featuring the signed agreement, joint congratulatory statements, and trade volume projections from both Vietnamese and European officials\nSecond: War dead identification campaign. Expected: The government will publish new identification results for exhumed soldiers and announce the next phase of the campaign to account for the missing war dead from the 1968 Tet Offensive. Direction: persist. Sign: Headlines naming newly identified soldiers, families receiving remains, and government announcements about further exhumation sites\nThird: 2027 GDP growth target policy rollout. Expected: Government ministries will issue sector-specific policy plans and investment frameworks that operationalize the ambitious growth target set by the Prime Minister. Direction: persist. Sign: Headlines about specific industrial targets, infrastructure investment plans, and budget allocations tied to the national growth goal\nFade call: Hanoi cherry blossom pruning. Expected: fade. Sign: The cherry blossom pruning will no longer appear in headlines as Hanoi turns its attention to other municipal matters\nSurprise (chance medium): US-Vietnam reciprocal trade deal signing. A formal announcement or signing of the US reciprocal trade agreement will surface, closing a long negotiation that was described as nearly complete in recent weeks.\nSummary: Next week in Vietnam will be dominated by the formal signing of the free trade agreement with European countries, a ceremony that will produce a flood of diplomatic statements and economic projections from both sides of the negotiation. The war dead identification campaign will advance as the government publishes results from the latest exhumation wave and families receive the remains of soldiers lost decades ago in the Tet Offensive. The Prime Minister's ambitious growth target for 2027 will drive ministerial planning, with sector-specific policy documents and infrastructure investment announcements filling the economic pages. The Hanoi cherry blossom pruning story will fade from the news cycle entirely. A watch-item is the US reciprocal trade deal, which was described as nearly complete and could surface with a signing announcement. The overall tone will blend outward-looking economic confidence with solemn national remembrance, and the mood will hold firm at its current level of cautious optimism.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

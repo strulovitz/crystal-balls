@@ -1,10 +1,11 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-23T16:22:11+03:00",
+  "generated_at": "2026-10-25T16:17:42+02:00",
   "judge_validated": false,
   "judge_note": "The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the repository, timestamped before reality arrived.",
   "rounds_scored": 0,
-  "judged_country_weeks": 0,
+  "judged_country_weeks": 1,
+  "hand_made_counted": 1,
   "crystal_better": 0,
   "ties": 0,
   "plain_better": 0,
@@ -20,38 +21,38 @@
   "min_rounds_for_verdict": 6,
   "item_grades": {
     "plain": {
-      "came_true": 0,
-      "true_in_direction": 0,
-      "did_not_appear": 0,
+      "came_true": 28,
+      "true_in_direction": 44,
+      "did_not_appear": 20,
       "cannot_establish": 0
     },
     "crystal": {
-      "came_true": 0,
-      "true_in_direction": 0,
-      "did_not_appear": 0,
+      "came_true": 29,
+      "true_in_direction": 46,
+      "did_not_appear": 21,
       "cannot_establish": 0
     },
     "persistence": {
-      "came_true": 0,
-      "true_in_direction": 0,
-      "did_not_appear": 0,
+      "came_true": 32,
+      "true_in_direction": 22,
+      "did_not_appear": 42,
       "cannot_establish": 0
     }
   },
-  "unscorable": 13,
-  "country_rounds": 35,
-  "unscorable_fraction": 0.371,
-  "first_listed_wins": 0,
-  "first_listed_nonties": 0,
-  "first_listed_wins_share": null,
+  "unscorable": 22,
+  "country_rounds": 67,
+  "unscorable_fraction": 0.328,
+  "first_listed_wins": 28,
+  "first_listed_nonties": 61,
+  "first_listed_wins_share": 0.459,
   "gap_buckets": {
     "3 to 6 days": {
       "n": 0,
       "mean_v": null
     },
     "7 to 10 days": {
-      "n": 0,
-      "mean_v": null
+      "n": 23,
+      "mean_v": -0.043
     },
     "11 to 17 days": {
       "n": 0,
@@ -64,10 +65,65 @@
   },
   "per_round": [],
   "per_country": {},
-  "hand_made_forecasts": [],
+  "hand_made_forecasts": [
+    {
+      "round": "2026-10-24",
+      "code": "IL",
+      "graded_round": "2026-10-22",
+      "u": 2.0,
+      "scores": {
+        "crystal_vs_persistence": 2.0
+      },
+      "partial": true,
+      "days_covered": 2,
+      "days_total": 7
+    }
+  ],
+  "noise_floor": {
+    "countries_compared": 4,
+    "plain_repeat_same_subject": 4,
+    "plain_repeat_same_direction": 3,
+    "crystal_same_subject": 4,
+    "crystal_same_direction": 3,
+    "per_country": [
+      {
+        "round": "2026-10-24",
+        "code": "BR",
+        "plain_repeat_same_subject": true,
+        "plain_repeat_same_direction": false,
+        "crystal_same_subject": true,
+        "crystal_same_direction": false
+      },
+      {
+        "round": "2026-10-24",
+        "code": "DE",
+        "plain_repeat_same_subject": true,
+        "plain_repeat_same_direction": true,
+        "crystal_same_subject": true,
+        "crystal_same_direction": true
+      },
+      {
+        "round": "2026-10-24",
+        "code": "IL",
+        "plain_repeat_same_subject": true,
+        "plain_repeat_same_direction": true,
+        "crystal_same_subject": true,
+        "crystal_same_direction": true
+      },
+      {
+        "round": "2026-10-24",
+        "code": "US",
+        "plain_repeat_same_subject": true,
+        "plain_repeat_same_direction": true,
+        "crystal_same_subject": true,
+        "crystal_same_direction": true
+      }
+    ],
+    "note": "The two arms differ no more than plain differs from itself: the differences may be noise."
+  },
   "run_in_rounds": [
     "2026-10-17"
   ],
-  "run_in_judged_country_weeks": 0,
+  "run_in_judged_country_weeks": 23,
   "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count."
 }

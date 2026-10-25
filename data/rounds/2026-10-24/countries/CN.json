@@ -1,0 +1,733 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "CN",
+  "name": "China",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T19:35:32+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "North Korean leader Kim Jong Un made an unannounced visit to China, crossing a newly inaugurated cross-border bridge into Dandong, signalling a warming of bilateral trade and military ties. A magnitude-7 earthquake struck Tibet, killing 16 people, injuring 76, and collapsing hundreds of homes. China's Q3 GDP grew 4.5 percent, beating forecasts, driven by a strong AI export boom that offset domestic consumption weakness. The US banned Chinese AI startup DeepSeek from government agency systems, prompting Beijing to object and DeepSeek to raise 15 billion dollars ahead of a potential IPO. Xi Jinping convened the Communist Party's fifth plenum, emphasising discipline among top cadres, while a long-serving political figure was reported to have fallen from grace. China's stock market slid deeper into bear territory as AI-related shares shed 150 billion dollars in value. Volvo Cars plunged 24 percent after its CEO declared the Chinese market effectively lost to Western automakers. Citi received long-awaited approval to open a wholly owned securities unit in Beijing. Taiwan reported driving away 16 Chinese vessels it described as part of a 'hybrid warfare' campaign. Typhoon Champi approached the Chinese coast after battering Taiwan and Japan.",
+    "key_events": [
+      {
+        "event": "Kim Jong Un visited China via a newly opened cross-border bridge into Dandong, marking a step in warming trade and strategic ties.",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "A magnitude-7 earthquake struck Tibet, killing 16 people, injuring 76, and collapsing hundreds of homes.",
+        "date": "2026-10-21",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "China's Q3 GDP grew 4.5 percent, beating forecasts, powered by an AI export boom that masked domestic consumption weakness.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The US banned DeepSeek from government agency systems, and Beijing objected while DeepSeek raised 15 billion dollars ahead of a potential IPO.",
+        "date": "2026-10-23",
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "Xi Jinping convened the Communist Party's fifth plenum, stressing discipline among top cadres, while a senior political figure was reported to have fallen.",
+        "date": "2026-10-26",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "China's stock market slid deeper into bear territory as AI-related shares lost 150 billion dollars in value over a 10-week rout.",
+        "date": "2026-10-23",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Volvo Cars shares plunged 24 percent after its CEO said the Chinese market was effectively gone for Western automakers.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Citi won long-awaited regulatory approval to open a wholly owned securities company in China after nearly a five-year wait.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Taiwan reported driving away 16 Chinese vessels it said were part of a 'hybrid warfare' maritime harassment campaign.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Trump said he was open to a trilateral meeting with Putin and Xi, and the Kremlin confirmed China was preparing for the possible summit.",
+        "date": "2026-10-24",
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "technology",
+      "security"
+    ],
+    "emojis": [
+      "🛫",
+      "🌋",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "Kim Jong Un's unannounced visit to China via the new Dandong bridge (headlines 1, 2, 6, 8, 12, 15, 19) was the week's dominant diplomatic event.",
+      "A magnitude-7 earthquake in Tibet killed 16 and injured 76 (headlines 14, 17, 38, 77, 92, 153).",
+      "The US banned DeepSeek from government systems and DeepSeek raised 15 billion dollars, making AI the week's defining tech story (headlines 33, 64, 73, 100, 103, 111, 154)."
+    ],
+    "developments": [
+      {
+        "subject": "Kim Jong Un China visit",
+        "what_happened": "Kim crossed a newly inaugurated cross-border bridge into Dandong for an unannounced visit, signalling warmer trade and strategic ties with Beijing.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          2,
+          6,
+          8,
+          12,
+          15,
+          19,
+          66
+        ]
+      },
+      {
+        "subject": "Tibet earthquake",
+        "what_happened": "A magnitude-7 quake struck Tibet, killing 16, injuring 76, and collapsing hundreds of homes, with rescuers still searching for survivors.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          14,
+          17,
+          30,
+          38,
+          77,
+          92,
+          153,
+          176
+        ]
+      },
+      {
+        "subject": "Q3 GDP and AI exports",
+        "what_happened": "China's economy grew 4.5 percent in Q3, beating forecasts, as an AI export boom offset domestic consumption weakness, though analysts warned the export surge masked deeper structural problems.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          48,
+          52,
+          53,
+          69,
+          93,
+          98,
+          126,
+          129,
+          152
+        ]
+      },
+      {
+        "subject": "DeepSeek US ban and funding",
+        "what_happened": "The US banned DeepSeek from government agency systems, Beijing objected, and DeepSeek raised 15 billion dollars ahead of a potential IPO to challenge top US AI labs.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          33,
+          64,
+          73,
+          84,
+          87,
+          100,
+          103,
+          111,
+          127,
+          154
+        ]
+      },
+      {
+        "subject": "Party fifth plenum and Xi's discipline push",
+        "what_happened": "Xi gathered top communist cadres for the fifth plenum with a focus on discipline, while a long-serving political figure was reported to have fallen from grace.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          22,
+          31,
+          57,
+          61,
+          144
+        ]
+      },
+      {
+        "subject": "China stock bear market",
+        "what_happened": "The CSI 300 extended a 10-week decline into bear territory as AI-related shares lost 150 billion dollars, despite state buying efforts.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          56,
+          59,
+          114,
+          145,
+          157,
+          171
+        ]
+      },
+      {
+        "subject": "Volvo and Western carmakers in China",
+        "what_happened": "Volvo plunged 24 percent after its CEO declared the Chinese market lost for Western automakers, and Gucci reported a China slump that derailed its turnaround.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          23,
+          32,
+          47,
+          55,
+          67,
+          78,
+          139,
+          165,
+          175
+        ]
+      },
+      {
+        "subject": "Citi China securities licence",
+        "what_happened": "Citi received regulatory approval to open a wholly owned securities company in China after nearly a five-year wait, targeting the top spot in the market.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9,
+          44,
+          46,
+          50,
+          125,
+          187
+        ]
+      },
+      {
+        "subject": "Taiwan maritime tensions",
+        "what_happened": "Taiwan reported driving away 16 Chinese vessels in what it called a 'hybrid warfare' campaign, and China stepped up grey-zone tactics to isolate Taiwan and punish its allies.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          13,
+          60,
+          70,
+          105,
+          172,
+          188
+        ]
+      },
+      {
+        "subject": "Trump-Putin-Xi meeting",
+        "what_happened": "Trump said he was open to a trilateral meeting with Putin and Xi in China, and the Kremlin confirmed Beijing was preparing for the possible summit on Ukraine.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          79,
+          95,
+          112,
+          119,
+          189
+        ]
+      },
+      {
+        "subject": "US-China tech investment rules",
+        "what_happened": "The US Treasury proposed tighter rules on high-tech and biotech investments in China, while a House committee said Webull messages pointed to Chinese access to US customer data.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          26,
+          80,
+          81,
+          83,
+          134,
+          136,
+          182,
+          184
+        ]
+      },
+      {
+        "subject": "China luxury and consumer shift",
+        "what_happened": "Chinese luxury brands are elbowing out Western rivals, Hermès and Cartier saw shoppers retreat, and Starbucks China rolled out a buy-to-sit policy as consumer habits shift.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          10,
+          11,
+          24,
+          28,
+          68,
+          96,
+          116,
+          139,
+          163,
+          174,
+          181,
+          191
+        ]
+      }
+    ],
+    "gone": [
+      "China proposed export controls on AI",
+      "Trump said he was in denuclearization",
+      "China's central bank pledged to further"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 193 headlines cover China's diplomatic, economic, technological, and security dimensions well, with strong representation across Reuters, Bloomberg, AP, FT, and CNN, though some niche stories like the nursery poisoning and the AI film get only single mentions."
+    },
+    "headlines_used": [
+      "North Korea's Kim crosses new bridge into China as trade ties warm",
+      "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+      "Tropical Storm Champi nears China after battering Taiwan, Japan",
+      "Harrow, Bedford: Posh British schools flock to India amid China worries and pressures at home",
+      "Is China using AI tokens mostly to produce micro-dramas?",
+      "Kim Jong Un arrives in China via newly opened border bridge",
+      "Champi, rétrogradé en tempête tropicale, s'approche de la Chine",
+      "Kim Jong Un Arrives in China’s Dandong City, Yonhap Reports",
+      "Citi Gets Regulator Nod for Wholly Owned Securities Venture in China",
+      "China’s luxury brands are ready to elbow western rivals aside",
+      "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+      "North Korea’s Kim Jong Un visits China via newly opened bridge",
+      "Taiwan says China using militia boats to expand 'battlefield preparation' in western Pacific",
+      "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+      "North Korea's Kim makes unannounced visit to Chinese border city",
+      "China | Latest News & Updates",
+      "7-magnitude earthquake hits Tibet, killing 16 and injuring dozens, Chinese state media reports",
+      "India news: China border tensions back in focus despite talks",
+      "Le dirigeant nord-coréen Kim Jong Un est arrivé à Dandong en Chine, selon Séoul",
+      "China Barely Eased Austerity Just Before Shift to Stimulus Mode",
+      "China’s Rising Aluminum Output Cushions Gulf Supply Shock",
+      "Xi Jinping gathers China’s top communist cadres with focus on discipline",
+      "Volvo Cars plunges 24% as CEO says China sales slump came 'faster than we thought'",
+      "Why Chinese families are rushing to buy gold",
+      "GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says",
+      "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries",
+      "China's first AI film hits cinemas, but ticket sales lag",
+      "No order, no seat: Starbucks China rolls out new store policy",
+      "A dispatch from China’s most fashionable city",
+      "China: Rayuka sun salwanta sakamakon girgizar kasa a yankin Tibet",
+      "Ce qu'il faut savoir sur le cinquième plénum du Parti communiste chinois",
+      "European Stocks Fall as China Woes Hit Volvo Car and Gucci",
+      "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
+      "Caught between the US and China",
+      "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+      "China edge USA to women’s team gold at Gymnastics World Championships",
+      "China aims to stabilise number of new births with policy support",
+      "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people",
+      "Galderma’s Relfydess™ (relabotulinumtoxinA) Receives Approval in China for Frown Lines",
+      "'I survived anorexia then trekked the Great Wall of China'",
+      "Saunas and scuba diving: Inside China’s unconventional 24/7 mega spas",
+      "Can the West Compete with China's Industrial Machine?",
+      "Le premier long métrage généré par IA en Chine sort en salles",
+      "Citigroup Wins China Securities License After Nearly 5-Year Wait",
+      "Chinese AI Tool Linked to Hacks in Japan",
+      "Citi wins long-awaited approval for China securities business",
+      "Volvo Cars CEO: Europe-developed models ‘will not work’ in China",
+      "China’s economy grows 4.5 percent in Q3, beating forecasts",
+      "China's MiniMax completes export registration for open-source, overseas AI model licensing",
+      "Citi gets nod from Beijing to set up a wholly owned securities company in China",
+      "Takeda’s ORZEYFUL (oveporexton) Launches Simultaneously in Japan and China Giving Physicians First Access to Prescribe Novel Orexin Agonist to Patients with Narcolepsy Type 1",
+      "China economy: Growth accelerates as AI export boom outweighs domestic weakness",
+      "China economy grows thanks to AI export boom but domestic slump remains a drag",
+      "The Chinese revival of the iconic MG brand",
+      "Face à la concurrence chinoise, Volvo Cars plonge dans le rouge et saigne dans ses effectifs, l'action décroche",
+      "China Stocks Sink Deeper Into Bear Market Despite State Buying",
+      "China’s Ultimate Political Survivor Just Fell. What That Says About Xi’s Rule.",
+      "China’s rapid human trials draw western drugmakers — and safety concerns",
+      "China's stock market sinks into bear territory as CSI 300 extends 10-week rout",
+      "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
+      "Tougher discipline, and Xi's authority, key at China's Communist Party's fifth plenum",
+      "Taiwan indicts 5 accused of trying to injure comedian who mocks Xi and Chinese Communist Party",
+      "The Estée Lauder Companies Inc. to Webcast Capital Markets Experience: China Ecosystem Immersion Presentations on November 4, 2026",
+      "US bans China's DeepSeek from government in race for AI dominance",
+      "The US is fighting over data centers. China is building them. Fast",
+      "North Korea - Building an Alliance with China and Russia",
+      "Plombé par la concurrence chinoise, Volvo Cars dans le rouge réduit encore ses effectifs, l'action s'effondre",
+      "Hermès and Cartier’s Last Reliable Shoppers Are Retreating in China",
+      "China’s Export Boom Masks Deep Economic Problems at Home",
+      "China steps up ‘grey zone’ tactics to isolate Taiwan and punish its allies",
+      "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
+      "China's Baidu tests robotaxi on London streets",
+      "China defends DeepSeek after US ban of its AI from government systems",
+      "Ruler of Ras Al Khaimah Inaugurates the First Ras Al Khaimah’s Business Consultancy in China, Strengthening Ties With Guangdong",
+      "EU tariffs aimed at China hitting Ukraine, steel boss says",
+      "China – All Content on this topic – Page 1 of 58",
+      "Chine : 16 morts dans un séisme de magnitude 7 au Tibet",
+      "Volvo CEO Says China’s Market Is Gone for Western Automakers",
+      "Trump Says He’s Open to Talks With the Leaders of Russia and China",
+      "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
+      "House committee says Webull messages point to China access to U.S. customer data",
+      "EU vows to fix 'China Shock 2.0' via talks with Beijing",
+      "Beijing blasts US sanctions on 5 Chinese firms tied to ex-Google engineer",
+      "Five things to know about Chinese AI startup DeepSeek",
+      "Nursery owner in China jailed for life after hundreds of children poisoned",
+      "US: FBI arrests woman accused of spying for China - DW.com",
+      "Cinq choses à savoir sur DeepSeek, le champion chinois de l'IA",
+      "EU Looks Beyond Cars for Next Round of China Trade Talks",
+      "Roche Partners With China’s Hansoh in Deal That Could Top $15 Billion",
+      "Liquidators of Chinese property giant pursue Harvard to recoup donation",
+      "Samsung, SK Hynix upgrading China plants to make more advanced chips, people say: Reuters",
+      "Injuries in China's Tibet rises to 76 after earthquake, death toll remains at 16",
+      "China’s economy accelerated in the July-September quarter on robust exports",
+      "GAC. THE ENGINEERS: Chinese Automaker Takes Centre Stage at Paris Motor Show as Unveiling World Firsts as It Grows Roots in Europe",
+      "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+      "En Chine, l'essor du luxe d'occasion bouscule les marques occidentales",
+      "China’s CMOC Sees Earnings Soar on Copper Rally and More Output",
+      "China’s Economy Expanded 4.5% in Third Quarter, Powered by Exports",
+      "The rise of Africa’s Chinese factories",
+      "U.S. bans DeepSeek from government agency systems amid AI rift with China",
+      "China calls on oil, gas firms to boost output, build strategic supply bases",
+      "Philippines summons Chinese ambassador to protest remarks it says threatened force",
+      "China opposes US ban on govt agencies from using DeepSeek",
+      "Putin proposed trilateral talks on Ukraine. What role will China play?",
+      "Taïwan: 16 navires chinois impliqués dans des opérations de 'harcèlement maritime', selon les autorités taïwanaises",
+      "China Offshore Yuan Bonds Priced at Record Lows Amid Rally",
+      "China’s CXMT Expects Over Eightfold Revenue Jump Amid Memory Squeeze",
+      "Australian iron ore miner warns of production slowdown without China deal",
+      "The world’s finance chiefs see new risks — and less China angst",
+      "China's BYD plans to double capacity at Brazilian plant",
+      "US bans use of China's DeepSeek by govt agencies",
+      "What China wants from a Trump-Putin summit on Ukraine - DW.com",
+      "Dans l'armée norvégienne, des véhicules chinois très indiscrets",
+      "China AI Model Stocks’ $150 Billion Drop Shows No Sign of Easing",
+      "EU Curbs on Chinese Hybrids Could Make European Automakers Investable Again",
+      "Hermès hit by ‘challenging’ economic backdrop in China and Middle East",
+      "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
+      "Explainer: How can EU limit impact of China Shock 2.0?",
+      "Trump says ready to meet with Putin and Xi in China",
+      "How China became a gaming leader and what that means for gamers",
+      "China Is Said to Tighten Scrutiny of Listed Company Spinoffs",
+      "‘China Institute Gallery at 60, 1966–2026’ Review: A Self-Reflective Survey",
+      "The peculiar charms of douzhi, Beijing’s fermented bean juice",
+      "China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround",
+      "Citi wins licence to set up fully-owned China securities unit",
+      "China's third-quarter growth narrowly beats forecasts",
+      "China’s DeepSeek Wants Ubiquity. Beijing Has Mixed Feelings",
+      "China’s drugmakers move into the big league",
+      "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+      "China urges government agencies to mitigate AI job displacement",
+      "China's Yin wins in Shanghai for back-to-back LPGA titles",
+      "Bridgewater China Cut Gold and Is ‘Optimistic’ on Local Stocks",
+      "China’s battery makers race to invest abroad to avoid western barriers",
+      "China says US should stop discriminatory measures against Chinese research institutions",
+      "World’s First Commercial Ship-to-Ship Green Ammonia Bunkering Completed in Zhoushan, Zhejiang, China",
+      "US Proposes Curbs on Investment in Chinese Biotech Firms",
+      "Castore courts Chinese buyers as sportswear brand’s backers seek exit",
+      "China's Chery expects overseas-manufactured vehicles to top 50% of exports, exec says",
+      "Gucci Sales Disappoint on China Slump as Turnaround Falters",
+      "Japan ‘months’ from running out of critical rare earth as China squeezes supply",
+      "China's foreign minister urges stronger governance of deep sea and outer space",
+      "Chery Eyes Canada Production as Chinese Carmakers Circle the US",
+      "Can Africa outgrow China?",
+      "How China's October 26 to 29 Communist Party plenum works",
+      "China Stocks Set for Bear Market as AI Trade, Policy Hopes Fade",
+      "China’s villages pay the price for Beijing’s AI ambitions",
+      "China opposes arms race in space, official document shows",
+      "China Stock Rescue Needs More State Buying to Work, BI Says",
+      "South Africa’s president eyes trade with China and India as US ties sour",
+      "HKEX launches AI and semiconductor indexes, licenses AI index in China",
+      "China Carmakers Go Back to Design Basics With Buttons and Knobs",
+      "China’s economy picks up pace with 4.5% growth",
+      "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
+      "China’s DeepSeek Raises $15 Billion to Challenge Top US AI Labs",
+      "Accenture looks to sell Chinese operations for up to $1.5bn",
+      "China Evergrande liquidators recover 1% of debt claims after 2-1/2 years",
+      "Alibaba Shares Post Steepest Drop in Two Months on China Curbs",
+      "China's Xi calls for qualitative improvement, measurable growth in economy",
+      "No, China Isn’t Killing Its Open AI (Yet)",
+      "EXCLUSIVE: China snaps up Australian canola as improved ties, lower tariffs fuel demand",
+      "Canadian Data Cast Doubt on China-US Bond ‘Conspiracy,’ NBF Says",
+      "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say",
+      "Hermès Sales Miss Estimates in Region That Includes China",
+      "China bets on manufactured water, and wants to sell it to the world",
+      "Europe Car Sales Growth Accelerates as China Brands Seize Share",
+      "South Africa's trade with China surges after duty-free deal",
+      "Rio Tinto and China’s State Buyer Agree Iron Ore Supply Deal",
+      "Audi gets new China leadership to face bruising competition",
+      "China’s Iron Ore Sway May Leave Japan a Price Taker, Says WoodMac",
+      "How a merged SpaceX-Tesla might navigate its China problem",
+      "Watch China Stocks Drop Most Since Liberation Day",
+      "Taiwan probes organised crime links to China's 'transnational repression'",
+      "Fortescue Says Risk to Full-Year Sales as China Dispute Drags on",
+      "Hermes revenue growth slows as Chinese consumers cut spending on accessories",
+      "Bosch to Separate Auto-Parts Unit as Chinese Rivals Gain Ground",
+      "China's natural disaster losses hit $30 billion in first nine months of 2026",
+      "Chinese Copper Smelters Plan More Output Cuts Ahead of Fee Talks",
+      "China hands US women first world team loss since 2011",
+      "China’s Petrochemicals Glut Turns to Crunch After Months of War",
+      "Foreign investment flows into China fall 4.3% y/y in first three quarters",
+      "How ‘Made in China’ Became a Status Symbol",
+      "US blocks two devices with Chinese-made surveillance chips",
+      "A Simple Guide to China’s Very Complicated Policy Universe",
+      "Chinese-linked hackers compromise ConnectWise, target hundreds in global attack, Microsoft says",
+      "El Niño Stresses China’s Power Market With Return to Costly Gas",
+      "China, Djibouti say all countries should enjoy freedom of navigation in Red Sea",
+      "Citi Targets Top Spot in China as It Awaits Securities License",
+      "China's coast guard monitors the Philippines resupplying vessel at disputed shoal",
+      "Kremlin Says China Preparing for Possible Putin-Trump-Xi Meeting",
+      "Australia's Fortescue warns of possible operations hit as China state buyer talks rumble on",
+      "Starbucks China Will Require Purchases to Sit in Its Cafes",
+      "China's Chery open to partnering with US automakers, executive says",
+      "Super Typhoon Champi on Path to Impact China, Taiwan Within Days"
+    ],
+    "converted": false,
+    "relevant_headlines": 193,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Kim Jong Un China visit",
+        "expected": "Kim Jong Un China visit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Kim Jong Un China visit appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Tibet earthquake",
+        "expected": "Tibet earthquake stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Tibet earthquake appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Q3 GDP and AI exports",
+        "expected": "Q3 GDP and AI exports stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Q3 GDP and AI exports appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Kim Jong Un China visit",
+        "expected": "persist",
+        "sign": "Kim Jong Un China visit is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Kim Jong Un China visit stays in the news at the same level. Tibet earthquake stays in the news at the same level. Q3 GDP and AI exports stays in the news at the same level. Kim Jong Un China visit is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Communist Party fifth plenum",
+        "expected": "Xi Jinping will unveil the plenum's closing policy document, which will set the economic and industrial agenda for the coming years with a strong emphasis on AI self-sufficiency and cadre discipline.",
+        "direction": "escalate",
+        "sign": "A headline announcing the plenum's final communiqué or a top official describing new directives on technology and governance"
+      },
+      "second": {
+        "subject": "Tibet earthquake recovery",
+        "expected": "The Chinese government will announce a formal reconstruction and compensation plan for families displaced by the earthquake in Tibet.",
+        "direction": "de-escalate",
+        "sign": "A headline about a government reconstruction budget or an official visit to the disaster zone"
+      },
+      "third": {
+        "subject": "DeepSeek and US government ban",
+        "expected": "Beijing will issue a formal diplomatic protest to Washington over the government ban on DeepSeek from agency systems.",
+        "direction": "escalate",
+        "sign": "A headline featuring a Chinese foreign ministry statement or a corporate announcement from DeepSeek responding to the US ban"
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "A brief weather update confirming the storm has passed the coast with limited damage, followed by a return to other stories"
+      },
+      "surprise": {
+        "subject": "PBoC surprise monetary easing",
+        "expected": "China's central bank will announce an unexpected rate cut or reserve requirement reduction to arrest the stock market's bear slide and prop up domestic spending.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the dominant story will be the Communist Party's fifth plenum, which convenes this week and will produce a formal policy communiqué setting economic and industrial priorities, with a strong emphasis on AI self-sufficiency and cadre discipline. In the background, rescue operations in Tibet will draw to a close as the government announces a reconstruction plan for earthquake-affected communities. The US-China AI rift will sharpen: Beijing will lodge a formal protest over the DeepSeek ban, and the startup will push forward with its IPO preparations. The stock market will stay under pressure, and a surprise monetary easing from the central bank is a realistic possibility. The typhoon will pass, and the Kim Jong Un visit will give way to follow-up diplomatic coverage. Overall, the week will be defined by the plenum's output and the escalating tech rivalry with Washington.",
+      "generated_at": "2026-10-24T18:57:09+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "DeepSeek ban and AI trade war",
+        "expected": "Beijing unveils formal countermeasures against the US DeepSeek ban, restricting American AI firms from accessing Chinese government data and cloud infrastructure.",
+        "direction": "escalate",
+        "sign": "Headlines about a Chinese ministry statement objecting to the DeepSeek ban alongside new rules limiting US technology companies' operations in China"
+      },
+      "second": {
+        "subject": "Fifth Plenum and political reshuffling",
+        "expected": "The plenum's final communiqué sets a new economic policy direction and names additional senior cadres for removal or demotion from their posts.",
+        "direction": "persist",
+        "sign": "Headlines citing the plenum document's policy language on growth and reports of further top officials being reassigned or dismissed"
+      },
+      "third": {
+        "subject": "Tibet earthquake aftermath",
+        "expected": "The death toll from the Tibet earthquake climbs as rescuers reach isolated villages, and the central government declares a state of emergency for the region.",
+        "direction": "escalate",
+        "sign": "Headlines reporting a rising death toll from the earthquake alongside government declarations of emergency status and relief fund allocations"
+      },
+      "fade_call": {
+        "subject": "Citi securities licence",
+        "expected": "fade",
+        "sign": "The Citi approval story drops from front pages as trade and political headlines take over, with no further regulatory milestones announced"
+      },
+      "surprise": {
+        "subject": "Trump-Putin-Xi trilateral summit",
+        "expected": "A specific date and venue for the trilateral summit is announced, with China's foreign minister outlining Beijing's position on Ukraine's territorial questions.",
+        "chance": "medium"
+      },
+      "summary": "Next week, China will be defined by the fallout from Washington's DeepSeek ban, the Communist Party's fifth plenum, and the growing toll of the Tibet earthquake. Beijing will respond to the US exclusion of DeepSeek from government systems with formal countermeasures targeting American AI firms operating in China, escalating the tech standoff. The plenum, running through the end of the month, will produce a policy communiqué and likely confirm further political purges among senior cadres. In Tibet, the death toll from the magnitude-7 quake will climb as rescuers reach remote villages, prompting a state of emergency. The Citi securities approval will fade from headlines. A genuine surprise would be a firm date for the Trump-Putin-Xi trilateral summit in China, which would reshape the diplomatic landscape around Ukraine.",
+      "generated_at": "2026-10-24T19:35:32+03:00"
+    }
+  },
+  "display": {
+    "headline": "China's AI War, Party Purges, and Tibet Toll Dominate Week",
+    "emojis": [
+      "🤖",
+      "🏛️",
+      "🌋"
+    ],
+    "emoji_reasons": [
+      "The DeepSeek ban and US-China AI trade escalation anchors the week's dominant story",
+      "The Communist Party's fifth plenum and cadre discipline drive domestic governance coverage",
+      "The magnitude-7 Tibet earthquake and its rising human toll define the natural disaster news"
+    ],
+    "tldr": "Beijing will counter the US DeepSeek ban with new restrictions on American AI firms, the fifth plenum will produce a policy document and confirm further cadre removals, and the Tibet earthquake death toll will climb. A scheduled Trump-Putin-Xi summit would be the week's biggest surprise.",
+    "eli5": "China is in the middle of a big AI fight with the United States. The US government banned a Chinese AI company called DeepSeek from using its systems, and Beijing is angry. Next week, China will probably announce its own rules to push back, making the tech rivalry even hotter.\n\nAt the same time, China's Communist Party is holding a big meeting called the fifth plenum. This is where top leaders decide policy and sometimes fire or move powerful officials. We should expect to see more news about who got kicked out and what economic plans they announced.\n\nIn the mountains of Tibet, a big earthquake shook the ground and killed at least 16 people. Rescuers are still digging through collapsed buildings. The death toll will probably go up as they reach remote villages, and the government will likely declare an emergency.\n\nA real surprise would be if the US, Russia, and China all agree to sit down together at a summit in China to talk about the Ukraine war. That would be a major shift in world politics."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [82], [88], [75], and [115] confirm EU-China trade friction is active, but the specific 'formal package of new import restrictions' and 'announced retaliatory countermeasures' are ahead of the talks-and-vows phase shown in the collection."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists 'China proposed export controls on AI' as no longer in the headlines, and no headline announces a final regulatory text for AI or solar-manufacturing export controls."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headline [102] reads 'Philippines summons Chinese ambassador to protest remarks it says threatened force,' matching the predicted formal sit-down between the Philippine president and the Chinese envoy."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headline [85] reports 'Nursery owner in China jailed for life after hundreds of children poisoned,' showing the sentencing was still a prominent headline rather than fading to health follow-ups."
+          }
+        },
+        "archer_note": "X missed the two dominant new stories entirely: Kim Jong Un's unannounced bridge visit and the Tibet earthquake. Its EU-China trade thesis was in the right zone but over-specific about a formal package and retaliation that had not yet materialised. The Philippines call was its strongest hit, but the kindergarten fade was directly contradicted by the life-sentence headline."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [82], [88], [75], and [115] show EU-China trade escalation is present, but the predicted 'binding import quotas' and 'formal trade retaliation package' go beyond the talks-and-vows language in the collection."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin marks 'China proposed export controls on AI' as no longer in the headlines, and no headline announces a final Chinese licensing list covering AI chips, solar components, and biotech."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [48], [98], [126], [129], and [152] confirm Q3 growth data dominated, but growth at 4.5 percent beat forecasts rather than landing below target, and no central-bank rate cut followed."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "No headline in the collection mentions a press-secretary toilet visit or toilet-comments episode, confirming the story faded from front pages."
+          }
+        },
+        "archer_note": "Y's Q3 prediction of sub-target growth and a rescue rate cut was the opposite of reality, where 4.5 percent growth beat forecasts and no stimulus was needed. It correctly called the toilet story as fading and identified the EU trade lane, but it missed the dominant Kim visit, Tibet quake, and DeepSeek ban. Its main thesis of 'two escalating confrontations plus weak data' was half-right on the EU and half-wrong on the data direction."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'China proposed export controls on AI' as no longer in the headlines, contradicting the prediction that it would persist at the same volume."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines [1], [2], [6], [8], [12], [15], [19], and [66] confirm the China-North Korea bridge story is not only persistent but has escalated into a dominant unannounced-visit narrative."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [48], [52], [93], [98], [129], and [152] confirm the Chinese export surge and Q3 growth story remains a dominant theme in the collection."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'China's central bank pledged to further' as no longer in the headlines, contradicting the prediction that it would persist."
+          }
+        },
+        "archer_note": "Z's 'more of the same' thesis correctly kept the NK and exports stories in view but wrongly assumed the AI export controls and central-bank pledge would persist when both faded. It missed every dominant new story: the Kim unannounced visit, the Tibet earthquake, the DeepSeek ban and $15 billion raise, and the fifth plenum. Its generic 'stays at the same level' framing gave it no specificity edge and no way to signal the escalation that actually occurred."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Y's fade call on the toilet story came true while X's kindergarten fade was contradicted by the life-sentence headline. X's Philippines call was a clean came_true, but Y's overall balance of one correct fade and one right-topic Q3 call edges ahead of X's one correct third and one wrong fade."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "X's lead on EU-China trade was true_in_direction while Z's lead on AI export controls was did_not_appear, giving X the stronger lead call. Z matched X on the exports story and beat it on the NK item, but X's specificity and correct Philippines call give it a slight overall edge."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Y's fade call on the toilet story came true while Z's fade call on the central-bank pledge was wrong, and Y's Q3 data call at least identified the right dominant topic. Z matched Y on the NK and exports items but its generic 'stays at the same level' framing and two wrong calls (AI controls, central bank) leave it behind."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": -1.0,
+      "plain_vs_persistence": 1.0,
+      "crystal_vs_persistence": -1.0
+    },
+    "v": 1.0,
+    "u": -1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14–17, China was in the spotlight on several fronts. Beijing proposed export controls on AI technologies, solar-manufacturing technologies, and certain biotech, citing national security and the US-China tech rivalry. At the same time, Chinese exports surged 36 percent, driven by AI-related shipments, pushing the trade surplus toward a record. Trade friction with Europe sharpened as the EU signaled plans to extend import curbs to more Chinese sectors, and China warned Brussels not to underestimate its willingness to fight back. Diplomatically, China and North Korea opened the long-delayed New Yalu River Bridge after more than a decade of postponement, a symbolic deepening of ties, though analysts questioned its practical trade impact. Trump said he was in denuclearization talks with both China and Russia. Domestically, six people were sentenced over a lead-tainted kindergarten food scandal that sickened more than 200 children; the nursery owner received life in\n- China proposed export controls on AI (regular, continuing): China proposed export controls on AI technologies, solar-manufacturing equipment, and some biotech, citing national security risks in the US-China tech rivalry.\n- China and North Korea officially opened (regular, continuing): China and North Korea officially opened the New Yalu River Bridge after more than twelve years of delay, deepening bilateral ties amid sanctions questions.\n- Chinese exports surged 36 percent on (regular, continuing): Chinese exports surged 36 percent on AI-driven demand as the trade surplus neared a record, even as the AFP poll suggested the economy would miss its growth target.\n- The EU moved to extend import (regular, continuing): The EU moved to extend import curbs to additional Chinese sectors and China warned Brussels not to underestimate its ability to fight back on trade.\n- The Philippines lodged a formal protest (regular, continuing): The Philippines lodged a formal protest against the Chinese envoy, calling his remarks a thinly veiled threat of force.\n- Six people, including a nursery owner (regular, continuing): Six people, including a nursery owner jailed for life, were sentenced over lead-tainted food that sickened more than 200 kindergarten children.\n- Trump said he was in denuclearization (regular, continuing): Trump said he was in denuclearization talks with both Russia and China, and Nvidia's CEO urged continued US-China dialogue on AI.\n- China's central bank pledged to further (regular, continuing): China's central bank pledged to further open financial markets to foreigners and moved to prop up equity markets with selling curbs and buybacks as AI-trade jitters hit stocks.\n\nRound 2026-10-02:\nChina emerged from a Xi-Trump summit with a $60 billion tariff-cut agreement, a pandas exchange, and what Beijing framed as restored diplomatic face. A September rate cut and mortgage subsidies had already been implemented to support the property sector. F-16V fighter jets had arrived in Taiwan, raising the military stakes in the Taiwan Strait. AI regulatory scrutiny intensified around companion apps, data-collection practices, and a Kimi bioweapons incident that triggered safety reviews of large models. The EU was preparing trade restrictions targeting Chinese businesses, prompting Beijing to warn of a resolute response. The Golden Week holiday was in progress, with state media already pushing a patriotic consumption narrative. The United States had publicly assessed that a Taiwan invasion before 2028 was increasingly unlikely. Chinese tech firms including Alibaba and ByteDance were in preliminary discussions about purchasing Nvidia GPUs under conditions. The overall mood was cautious optimism layered over persistent structural\n- Xi and Trump concluded a summit (regular, continuing): Xi and Trump concluded a summit producing a $60 billion tariff-cut product list and a pandas exchange.\n- China implemented a September rate cut (regular, continuing): China implemented a September rate cut and mortgage subsidies aimed at stabilizing the property market.\n- F-16V fighter jets delivered to Taiwan (regular, continuing): F-16V fighter jets delivered to Taiwan raised the military profile of the Taiwan Strait.\n- The EU announced preparations for trade (regular, continuing): The EU announced preparations for trade restrictions targeting Chinese businesses, prompting a resolute-response warning from Beijing.\n- AI regulatory scrutiny expanded to cover (regular, continuing): AI regulatory scrutiny expanded to cover companion apps, data collection, and model safety after the Kimi bioweapons incident.\n- AI regulatory scrutiny expanded to cover (again) (regular, continuing): AI regulatory scrutiny expanded to cover companion apps, data collection, and model safety after the Kimi bioweapons incident.\n",
+    "PREVIOUS_FORECAST": "Lead: EU-China trade escalation. Expected: The EU summit produces binding import quotas on additional Chinese sectors and Beijing unveils a formal trade retaliation package targeting European exports. Direction: escalate. Sign: Headlines about a Chinese tariff schedule or trade complaint filed alongside EU statements on quota enforcement against specific sectors\nSecond: AI and technology export controls. Expected: China publishes the final licensing list covering AI chips, solar components, and biotech products, and the United States responds with reciprocal restrictions on Chinese financial market access. Direction: persist. Sign: Headlines listing specific components on a new controlled export list, and a US government statement on reciprocal measures\nThird: Q3 growth data and stimulus response. Expected: China's third-quarter growth figure lands below the annual target and the central bank announces an additional rate cut or fiscal measure in response. Direction: escalate. Sign: Headlines citing the quarterly growth figure as missing target, followed by a rate cut or stimulus announcement from the central bank\nFade call: Press secretary toilet visit. Expected: fade. Sign: The story disappears from front pages as trade and growth headlines take over, with no further diplomatic follow-up on the invitation\nSurprise (chance medium): Philippines-China diplomatic escalation. The Philippine president formally summons the Chinese envoy to Manila and Beijing responds by suspending a bilateral economic agreement or freezing new visa categories for Filipino workers.\nSummary: Next week, China will be defined by two escalating confrontations and one data release that will test Beijing's stimulus efforts. The EU summit will produce concrete import quotas on additional Chinese sectors, and Beijing will answer with a formal trade retaliation package, pushing the transatlantic trade war into a new gear. The draft export controls on AI chips, solar components, and biotech will move toward a final licensing list, with Washington responding in kind on Chinese financial access. The third-quarter growth figure will land below target, forcing the central bank to act with another rate cut or fiscal measure. The light-hearted toilet-comments episode will fade from headlines, while the Philippines-China diplomatic row presents a genuine wild card if Manila summons the envoy and Beijing strikes back on trade or visas.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Headlines [82], [88], [75], and [115] show EU-China trade escalation is present, but the predicted 'binding import quotas' and 'formal trade retaliation package' go beyond the talks-and-vows language in the collection.\n- second: did_not_appear. The reality bulletin marks 'China proposed export controls on AI' as no longer in the headlines, and no headline announces a final Chinese licensing list covering AI chips, solar components, and biotech.\n- third: true_in_direction. Headlines [48], [98], [126], [129], and [152] confirm Q3 growth data dominated, but growth at 4.5 percent beat forecasts rather than landing below target, and no central-bank rate cut followed.\n- fade_call: came_true. No headline in the collection mentions a press-secretary toilet visit or toilet-comments episode, confirming the story faded from front pages.\nArcher note: Y's Q3 prediction of sub-target growth and a rescue rate cut was the opposite of reality, where 4.5 percent growth beat forecasts and no stimulus was needed. It correctly called the toilet story as fading and identified the EU trade lane, but it missed the dominant Kim visit, Tibet quake, and DeepSeek ban. Its main thesis of 'two escalating confrontations plus weak data' was half-right on the EU and half-wrong on the data direction.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

@@ -1,0 +1,713 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "CA",
+  "name": "Canada",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T01:33:36+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week of October 17 to 24, 2026 was defined by two major events in Canada. Albertans overwhelmingly voted to reject a move toward independence from the federation, a result Prime Minister Mark Carney called a clear choice of unity and a significant boost to his government. In a separate tragedy, a live grenade exercise at CFB Wainwright in Alberta ignited a grass fire that killed four soldiers and critically injured dozens; Carney described it as one of the worst peacetime tragedies in Canadian military history, and the army deployed 50 investigators. One outlet reported seven deaths, a figure not confirmed by others. On trade, President Trump lifted some of his 50 percent tariffs on Canadian goods ahead of the US midterms, particularly to aid Maine Senator Susan Collins, while a New Jersey food importer sued to block the remaining duties. Canada unveiled a 6.4 billion dollar support package for its steel and auto sectors. Diplomatically, Carney signed a strategic partnership with Turkey covering defense and energy, signaling a push to reduce reliance on Washington. The Bank of Canada was widely expected to raise its key rate to 2.50 percent on October 28 amid September inflation of 3.1 percent. The US also accused Canada of election interference, which Carney dismissed.",
+    "key_events": [
+      {
+        "event": "Alberta voters overwhelmingly rejected a move toward separation from Canada in a historic provincial vote.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "A live grenade exercise at CFB Wainwright sparked a grass fire that killed four soldiers and critically injured dozens.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "President Trump lifted some 50 percent tariffs on Canadian goods ahead of the US midterms to help Maine Senator Susan Collins.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "PM Carney signed a strategic partnership with Turkey covering defense, energy, and trade to reduce Canadian reliance on the US.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Canada and Ontario unveiled a 6.4 billion dollar support package for the steel and auto sectors amid trade uncertainty.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The US accused Canada of election interference ahead of midterms; Carney dismissed the claims and criticized Trump's ambassador.",
+        "date": "2026-10-20",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "A New Jersey food importer filed a lawsuit challenging Trump's 50 percent tariffs on Canadian goods.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Canada ended England's 41-match unbeaten streak in women's rugby with a 31-22 victory.",
+        "date": "2026-10-19",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🗳️",
+      "🔥",
+      "📦"
+    ],
+    "emoji_reasons": [
+      "Alberta's historic vote to reject separation dominated coverage across every outlet (headlines 17, 67, 107, 139).",
+      "The deadly fire at CFB Wainwright that killed four soldiers was the week's most dramatic news event (headlines 61, 106, 147).",
+      "Trump's partial lifting of 50 percent tariffs on Canadian goods and the resulting lawsuits defined the trade story (headlines 4, 36, 145)."
+    ],
+    "developments": [
+      {
+        "subject": "Alberta separation vote",
+        "what_happened": "Albertans overwhelmingly rejected a move toward independence from Canada, a victory for PM Carney and a test of national unity.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          15,
+          17,
+          25,
+          39,
+          52,
+          53,
+          64,
+          65,
+          67,
+          76,
+          80,
+          84,
+          85,
+          89,
+          94,
+          96,
+          98,
+          101,
+          102,
+          104,
+          107,
+          120,
+          125,
+          131,
+          138,
+          139,
+          140,
+          142,
+          144,
+          148,
+          150,
+          166,
+          167
+        ]
+      },
+      {
+        "subject": "CFB Wainwright military fire",
+        "what_happened": "A live grenade exercise ignited a grass fire at Alberta's CFB Wainwright, killing four soldiers and critically injuring dozens; the army deployed 50 investigators.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          12,
+          49,
+          51,
+          61,
+          63,
+          74,
+          92,
+          93,
+          105,
+          106,
+          108,
+          109,
+          115,
+          121,
+          136,
+          141,
+          147,
+          153,
+          162,
+          163,
+          165,
+          168,
+          170
+        ]
+      },
+      {
+        "subject": "US-Canada tariffs and trade",
+        "what_happened": "Trump lifted some 50 percent tariffs on Canadian goods ahead of midterms to help Senator Collins, while a food importer sued over the remaining duties and Canada unveiled a steel and auto support package.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": [
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          13,
+          18,
+          23,
+          28,
+          31,
+          33,
+          36,
+          43,
+          45,
+          54,
+          57,
+          70,
+          77,
+          114,
+          130,
+          143,
+          145,
+          149
+        ]
+      },
+      {
+        "subject": "Canada-Turkey strategic partnership",
+        "what_happened": "PM Carney visited Turkey and signed a strategic partnership covering defense, energy, and trade as part of a push to reduce reliance on the US.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          22,
+          30,
+          35,
+          40,
+          71,
+          91,
+          118,
+          146
+        ]
+      },
+      {
+        "subject": "Bank of Canada rates and inflation",
+        "what_happened": "September inflation rose to 3.1 percent and the Bank of Canada was widely expected to raise its key rate to 2.50 percent on October 28.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          47,
+          55,
+          78,
+          81,
+          87,
+          157,
+          158,
+          160,
+          161,
+          164,
+          171
+        ]
+      },
+      {
+        "subject": "US election interference accusations",
+        "what_happened": "The US accused Canada of election interference ahead of midterms; Carney dismissed the claims and Canada banned its diplomats from being seen with US candidates.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          24,
+          34,
+          50,
+          59,
+          60,
+          66,
+          86
+        ]
+      },
+      {
+        "subject": "Steel and auto support package",
+        "what_happened": "Canada and Ontario unveiled a 6.4 billion dollar package to support steel and auto sectors amid the trade crunch, and gave Cleveland-Cliffs 15 days to reverse planned job cuts.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9,
+          99,
+          129,
+          132
+        ]
+      },
+      {
+        "subject": "Women's rugby upset",
+        "what_happened": "Canada beat England 31-22 to end the Red Roses' 41-match unbeaten streak in the WXV Global Series.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          16,
+          26,
+          38,
+          73,
+          126,
+          156
+        ]
+      },
+      {
+        "subject": "AI publishing scandal",
+        "what_happened": "A Canadian publisher ended its relationship with writer Thelyson Orelien after determining he used AI to write his award-winning novel.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          41,
+          58,
+          134
+        ]
+      },
+      {
+        "subject": "EU-Canada association",
+        "what_happened": "The EU and Canada agreed to flesh out a closer associate membership arrangement by 2027.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          137
+        ]
+      }
+    ],
+    "gone": [
+      "India trade and investment",
+      "Bus crash fatalities",
+      "Rescued belugas"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major stories well across politics, security, trade, and diplomacy, though the military fire death count is slightly inconsistent across outlets (four versus seven)."
+    },
+    "headlines_used": [
+      "Bank of Canada to raise rates to 2.50% on October 28 and once again by end-March: Reuters poll",
+      "Consecutive defeats from Canada put Red Roses on first rugby losing streak in a decade",
+      "'Real damage' of US-Canada spat dominates campaign in vital swing state",
+      "US lifts tariffs on some Canadian goods before midterm elections",
+      "In this border town, a library is trying to preserve a 125-year-old bond between the US and Canada",
+      "Trump eases Canada tariffs ahead of US midterms - DW.com",
+      "Le téléjournal de Radio-Canada - EDITION DU 24/10/2026",
+      "Trump Changes Some Canada Tariffs in Bid to Aid Maine Senator",
+      "Canada to Provide Steel, Auto Sectors With Billions to Ease Trade Crunch",
+      "Donald Trump to cut Canadian tariffs after pressure from Republicans",
+      "Trump dropping some Canada tariffs but 'replacing' them with other products",
+      "Grenade exercise sparked deadly fire at Canada military base, army says",
+      "Trump says Canada 'working very hard' to make a deal with US",
+      "Canada",
+      "Alberta separatists vow to fight on, risking turmoil for Canada",
+      "Canada 31-22 England: Red Roses suffer back-to-back losses to Canada",
+      "Alberta rejects secession referendum, chooses to remain part of Canada",
+      "As the US midterms near, Trump lifts some Canada tariffs",
+      "Wealthsimple Wants to Be Canada’s Biggest Financial Institution. No, Really.",
+      "House of the Week: A Canadian Compound on a Remote Private Island",
+      "Franklin Templeton Canada Announces ETF Cash Distributions",
+      "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
+      "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
+      "Carney rejects US election interference claims, criticizes Trump’s ambassador to Canada",
+      "Alberta separatists lose vote on leaving Canada",
+      "Canada 31-22 England: No panic for England but Mitchell issues PWR warning",
+      "Elbows up, phones down: Some Canadians who travel to the US are keeping it off social media",
+      "US-Canada trade war creates winners and losers",
+      "Le téléjournal de Radio-Canada",
+      "Carney Says Ukraine Starlink Case Underscores Risk of US Tech Reliance",
+      "Trump to Remove Some Tariffs on Canada in Bid to Help Susan Collins",
+      "Club Offers for Travel Enthusiasts in Canada – Company Announcement",
+      "Sen. Collins says some of Maine's agricultural products will be exempt from Canada tariffs",
+      "US accuses Canada of election interference ahead of midterms",
+      "Carney says Canada raised issues on LGBTQ+ rights during meetings in Turkey",
+      "Trump, seeking to help Maine Sen. Susan Collins, exempts some Canadian imports from his 50% tariffs",
+      "Italian explosion video falsely tied to Canadian military base fire",
+      "WXV Global Series highlights - Canada 31-22 England",
+      "Why Alberta’s vote to remain part of Canada matters",
+      "Canada's Mark Carney visits Turkey to boost trade ties, reduce dependence on US",
+      "Thélyson Orélien a utilisé l'IA, selon son éditeur canadien",
+      "Chery Eyes Canada Production as Chinese Carmakers Circle the US",
+      "Trump to Cut Some Tariffs on Canada to Help GOP Lawmakers",
+      "Can Eight Years Change Your Mind? Samsung Canada Invites Canadians to Revisit Their First Impressions of Foldables – Company Announcement - FT.com",
+      "How U.S.-Canada trade tensions are shaping Maine's midterms",
+      "Canada wants to expand its LNG business. Critics raise red flags",
+      "Canada August retail sales rise 1.2%",
+      "Israelis living in Canada fly back to home to vote in upcoming elections",
+      "Multiple deaths, injuries at western Canada military base: minister",
+      "US embassy accuses Canada of brushing off allegations of election interference",
+      "Witness recounts scenes ‘from a war movie’ in Canada military base fire",
+      "Alberta independence push fails as voters back Canada",
+      "Canada : l'Alberta vote très largement contre l'organisation d'un référendum d'indépendance",
+      "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order",
+      "Canada Producer Prices Rise Again in September, Climbing 2% for the Month",
+      "PIMCO Canada Corp. Announces Monthly Distributions for PIMCO Canada Closed End Funds",
+      "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "Canadian publisher drops writer Thelyson Orelien over AI use in novel",
+      "Carney dismisses US accusations of Canadian election interference",
+      "Carney says Trump’s tariffs hurt Americans as US Embassy alleges Canadian interference",
+      "Four soldiers dead, dozens injured in fire at Canada military base",
+      "No cars, no phone signal: Canada's ghost island where guests still check in",
+      "4 dead and dozens injured after major fire breaks out at one of Canada’s largest military bases",
+      "Canada: Alberta votes on holding independence referendum",
+      "Le Canada suspendu au résultat du scrutin sur l'indépendance en Alberta",
+      "Carney ‘Disappointed’ by US Envoy’s Election Interference Accusation",
+      "Albertans Vote to Stay in Canada in Historic Referendum",
+      "Manulife and UpLink announce winners of the 'Shaping Canada's Longevity Advantage' Challenge",
+      "At least 4 killed in major fire at Canadian military base",
+      "US food importer sues Trump over 50 percent tariffs on Canadian goods",
+      "Carney says AtkinsRealis is a contender to build nuclear power plant in Turkey",
+      "Brady Tkachuk gets ice-cold reception in return to Ottawa with Florida Panthers",
+      "Canada v England: Ellie Kildunne on bench as Red Roses ring changes",
+      "Deadly ‘serious incident’ at Canadian military base",
+      "Canada – All Content on this topic – Page 1 of 9",
+      "'Le choix clair de l'unité': l'Alberta dit non à un référendum sur son indépendance et reste au Canada",
+      "Canadian Fury at Trump Is Failing to Rally Voters in Lumber Belt",
+      "Bank of Canada Survey Records Notable Rise in Inflation Expectations",
+      "Fidelity Investments Canada ULC Announces Cash Distributions for Certain Fidelity ETFs and ETF Series of Fidelity Mutual Funds – Company Announcement - FT.com",
+      "Alberta voters reject separation from Canada, early results show",
+      "Canadian dollar hits five-week high as data supports rate hike bets",
+      "Washington resident charged with conspiracy in Canada school shooting pleads not guilty",
+      "Newcastle Red Bulls sign Canada lock Flesch",
+      "Canada: Alberta rejects separation bid, CBC projects - DW.com",
+      "En Alberta, un scrutin test pour l'unité du Canada",
+      "Canada Bans Its Diplomats From Being Seen With US Candidates",
+      "Canada Inflation Heats Up in September With Jump in Gas Prices",
+      "BMO Deepens Commitment to Canada's Defence Sector – Company Announcement",
+      "Alberta rejects separation referendum: What’s next for Canadian province?",
+      "Canadian jet maker Bombardier says it plans new $270 million US investment",
+      "Canada and Turkey forge trade and defense deals as Carney looks beyond US",
+      "What we know so far about deadly fire at Canadian military base",
+      "Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition",
+      "Canada: vote test en Alberta sur un futur référendum d'indépendance de la province",
+      "Oil Firm Pitches Exemption to Canada’s Thorny BC Tanker Ban",
+      "Alberta’s Secession Vote Opens Up a Bitter Divide in Canada",
+      "BMO Supports Canadian Defence Community Following CFB Wainwright Tragedy – Company Announcement",
+      "Albertans reject referendum on independence from Canada",
+      "Canada gives Cleveland-Cliffs 15 days to reverse planned job cuts",
+      "Senators beat Panthers 5-1 as Brady Tkachuk scores in return to Ottawa but gets hostile reception",
+      "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+      "Canada : les séparatistes défaits en Alberta, Carney salue le choix de \"l'unité\"",
+      "Canadian Data Cast Doubt on China-US Bond ‘Conspiracy,’ NBF Says",
+      "Alberta voters reject separation from Canada",
+      "How a grass fire at a Canadian military base killed four soldiers",
+      "Deadly fire at Canada military base was caused by live grenade exercise, army says",
+      "Alberta voters overwhelmingly reject separation process in a victory for Carney",
+      "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "Canada: 4 soldats meurent dans un incendie, 'l’une des pires tragédies en temps de paix' déclare Mark Carney",
+      "Canadian Oil Explorer Logan Energy Said to Weigh Potential Sale",
+      "RBC Deepens Ronald McDonald House® Canada Collaboration with a $2M Commitment to Support Families Facing Pediatric Health Crises – Company Announcement - FT.com",
+      "COMMENTARY: From Canada to Nigeria, a race for more 'defence sovereignty' is on",
+      "A First Nation community in Canada is using a data center to preserve its heritage",
+      "Trump sued over Canadian tariffs in latest legal challenge",
+      "Canada: quatre soldats tués dans un violent incendie sur une base militaire",
+      "Workers at Canada’s Top Copper Mine Threaten to Strike Saturday",
+      "Health Canada Approves SKYRIZI® (risankizumab) for Children Living with Moderate to Severe Plaque Psoriasis",
+      "Canada, Turkey sign 'strategic partnership' as part of Carney push to cut reliance on US",
+      "A tribe in rural Canada is using a data center to preserve its heritage",
+      "Global News Podcast | Alberta rejects move towards Canada independence",
+      "VIDÉO. Canada: une explosion sur une base militaire a fait plusieurs morts",
+      "Carney’s Housing Agency Vows to Build as Canada Prices Plunge",
+      "Canadian Investment Regulatory Organization Trading Halt - WI – Company Announcement",
+      "BHP chair points to Canada tax incentives in call for investment reforms",
+      "Alberta rejects a move toward independence from Canada in a victory for Carney",
+      "How have Canada closed gap to world champions England?",
+      "Scrap Canada’s Tax Code and Start Again, National Bank CEO Urges",
+      "Samsung Canada Opens Applications for Galaxy Campus Crew, a New National Program for Post-Secondary Students",
+      "Canada, Ontario unveil multi-billion steel and auto support package",
+      "A New Jersey food importer files a lawsuit challenging Trump's 50% tariffs on Canadian goods",
+      "Alberta heads to polls to decide whether to hold vote on separation from Canada",
+      "Carney Announces $6.4 Billion Plan for Ontario Steel and Autos",
+      "MEDIA ADVISORY - BMO and Institute of International Finance Convene Leaders to Advance Canada's Defence, Security and Resilience (DSR) Finance Ecosystem at Defence Finance Forum, October 22nd – Company Announcement - FT.com",
+      "Canadian publisher says Thelyson Orelien used AI to write award-winning book, ends relationship",
+      "NBA to open season with 125 international players on rosters. France, Canada lead the way",
+      "Several dead or injured in major fire at Canada military base",
+      "EU and Canada to Flesh Out Closer Associate Membership by 2027",
+      "‘The Switzerland of North America’: Albertans vote on leaving Canada",
+      "Alberta votes by large majority to remain part of Canada in boost for Carney",
+      "Why does Alberta want to leave Canada?",
+      "Major fire at Canada military base leaves four dead, dozens injured",
+      "Alberta Voters Reject Separation From Canada in Win for Carney",
+      "Food importer files new lawsuit to block Trump's Canada tariffs",
+      "Residents react after Alberta rejects move toward independence from Canada in victory for Carney",
+      "Trump Administration Sued Over 50% Tariffs on Canadian Goods",
+      "Canada, Turkey to agree during Carney visit to deepen defence and energy ties, source says",
+      "Grass fire at Canadian military base kills 4 soldiers and critically injures 19 other people",
+      "With Alberta Vote Settled, Carney’s Focus Turns Back to Global Stage",
+      "Trump drops threats against Canadian jet maker Bombardier, citing US jobs",
+      "Albertans vote on path to independence as Carney fights to keep Canada united",
+      "Walmart Sells US Debt, Eyes Canadian Market as Spending Grows",
+      "Canadian dollar hits four-week high as market cheers Alberta remain vote",
+      "Canada deploys 50 investigators to probe military base fire that killed 4 soldiers",
+      "Norway Data Center Firm Hunts for Partner on Canada-Europe Fiber Link",
+      "New Zealand adds Brazil, Canada talks as India pact starts",
+      "It’s over: Canada ends England’s 41-match unbeaten streak in women’s rugby by 24-21",
+      "Bank of Canada Hike Bets Grow Among Economists, Traders",
+      "Canadian dollar notches nearly four-week high on BoC rate hike bets",
+      "Canada’s Hockey-Playing Garbage Billionaire Lures Suitors for His Empire",
+      "Canada's annual inflation rate rose to 3.1% in September",
+      "Canada Inflation Rate Edges Up to 3.1%, Core Measures Ease",
+      "Carney says cause of fire at Alberta military base still unknown",
+      "Canada Army Base Fire Kills Four Soldiers, Injures Dozens",
+      "Canadian firms' outlooks dimmed after trade talks collapse, BoC survey finds",
+      "Canadian Military Base Fire Kills Seven People, CBC Says",
+      "Explainer: What does Alberta's referendum on separation from Canada mean?",
+      "Alberta Support for Canada Rises Ahead of Separation Referendum",
+      "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
+      "Carney’s pipeline push is unlikely to bring back Canada’s oil jobs boom",
+      "Strong winds fueled grass fire at Canadian military base that killed four",
+      "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says"
+    ],
+    "converted": false,
+    "relevant_headlines": 171,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Alberta separation vote",
+        "expected": "Alberta separation vote stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Alberta separation vote appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "CFB Wainwright military fire",
+        "expected": "CFB Wainwright military fire stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about CFB Wainwright military fire appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "US-Canada tariffs and trade",
+        "expected": "US-Canada tariffs and trade stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-Canada tariffs and trade appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "CFB Wainwright military fire",
+        "expected": "persist",
+        "sign": "CFB Wainwright military fire is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Alberta separation vote stays in the news at the same level. CFB Wainwright military fire stays in the news at the same level. US-Canada tariffs and trade stays in the news at the same level. CFB Wainwright military fire is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "CFB Wainwright military fire investigation",
+        "expected": "The army's 50-investigator inquiry will release preliminary findings identifying the specific procedural failure that allowed the grenade fire to spread across the training ground.",
+        "direction": "persist",
+        "sign": "Headlines will name a specific procedural failure and quote an army spokesperson on new safety protocols, rather than simply updating on the investigation status."
+      },
+      "second": {
+        "subject": "Bank of Canada rate decision",
+        "expected": "The Bank of Canada will raise its key rate to 2.50 percent on October 28 while signaling a further increase by end-March.",
+        "direction": "escalate",
+        "sign": "Headlines will report the actual rate decision and forward guidance from the Bank of Canada, rather than polling or expectation-based coverage."
+      },
+      "third": {
+        "subject": "US midterm elections and Canada tariffs",
+        "expected": "The partial tariff relief will face a new legal challenge as swing-state voters weigh the Canada trade issue in the November midterms.",
+        "direction": "persist",
+        "sign": "Headlines will tie a specific midterm race result or court filing to the Canada tariff question, rather than reporting general trade diplomacy."
+      },
+      "fade_call": {
+        "subject": "Alberta separation vote aftermath",
+        "expected": "fade",
+        "sign": "Headlines will shift from the vote result to other Alberta issues, with separatist leaders mentioned only in passing or in a brief follow-up piece."
+      },
+      "surprise": {
+        "subject": "Wainwright fire equipment defect",
+        "expected": "The army investigation will disclose that a known defect in the grenade firing mechanism had been flagged in an internal safety report months earlier, sparking a parliamentary demand for a full public inquiry.",
+        "chance": "medium"
+      },
+      "summary": "The coming week in Canada will be dominated by the aftermath of the CFB Wainwright tragedy. The army's 50-investigator inquiry will move from initial reporting to preliminary findings, and the government will announce a formal review of live-fire safety protocols. Public mourning and political calls for accountability will keep the fire at the center of coverage. On October 28, the Bank of Canada will raise its key rate to 2.50 percent and signal a further increase by March, sending ripples through the dollar and bond markets. The partial US tariff relief will face renewed legal and political pressure as the November midterms approach, and Canada's 6.4 billion dollar steel and auto package will enter its first round of parliamentary questioning. The Alberta separation vote will recede from the front page, and the Canada-Turkey partnership will enter a quieter implementation phase.",
+      "generated_at": "2026-10-25T01:16:57+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "CFB Wainwright fire investigation",
+        "expected": "The army will publish its preliminary findings on the grenade-exercise fire and Prime Minister Carney will call a special parliamentary session to address the national tragedy.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the army's initial report, Carney's national address, and demands from opposition parties for a full public inquiry into the base."
+      },
+      "second": {
+        "subject": "Bank of Canada rate decision",
+        "expected": "The Bank of Canada will raise its key rate to 2.50 percent on October 28 and signal a further increase by end-March, sending mortgage rates higher across the country.",
+        "direction": "persist",
+        "sign": "Headlines will report the rate decision, the governor's press conference, and a wave of mortgage holder anxiety and housing market warnings from analysts."
+      },
+      "third": {
+        "subject": "US-Canada tariff legal challenge",
+        "expected": "A federal court will schedule a hearing on the New Jersey importer's lawsuit challenging the remaining tariffs on Canadian goods, setting the stage for a legal test of the trade measures.",
+        "direction": "de-escalate",
+        "sign": "Headlines will carry the court's scheduling order, reactions from Canadian exporters and importers, and commentary on the trade relationship as the US midterm season intensifies."
+      },
+      "fade_call": {
+        "subject": "Women's rugby upset over England",
+        "expected": "fade",
+        "sign": "Rugby will appear in brief sports-section recaps and retrospective features rather than front-page or lead stories."
+      },
+      "surprise": {
+        "subject": "AI publishing scandal expands",
+        "expected": "The Canadian publisher's AI disclosure over the award-winning novel will trigger a wave of similar claims across the industry and push a parliamentary committee to draft rules on artificial intelligence in published literature.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Canada will be defined by the aftermath of the CFB Wainwright tragedy, as the army releases its preliminary findings and Prime Minister Carney calls a special parliamentary session to address the nation. The Bank of Canada will deliver its long-anticipated rate hike to 2.50 percent on October 28, sending shockwaves through the mortgage market and reinforcing a hawkish path into early 2027. On the trade front, the New Jersey importer's lawsuit will move to a federal court hearing, testing the remaining tariffs even as Trump lifts some duties to help Maine's midterm race. The US election-interference dispute will simmer as Carney sharpens his rhetoric against Washington's ambassador. The women's rugby celebration will fade to sports-page mentions, and the AI publishing scandal over the Orelien novel may spark a broader industry reckoning. Overall, the week tilts toward institutional response rather than new shocks.",
+      "generated_at": "2026-10-25T01:33:36+03:00"
+    }
+  },
+  "display": {
+    "headline": "Wainwright Fallout, Rate Hike, and Tariff Lawsuit Define Week",
+    "emojis": [
+      "🪖",
+      "🏦",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "The CFB Wainwright military fire and its investigation dominate the week's emotional and political centre.",
+      "The Bank of Canada's October 28 rate decision to 2.50 percent is the week's key economic event.",
+      "The New Jersey importer's lawsuit against the US tariff order brings the trade dispute into a courtroom."
+    ],
+    "tldr": "Canada will be consumed by the Wainwright military fire investigation and Carney's parliamentary response. The Bank of Canada will hike rates to 2.50 percent on October 28, rattling mortgage holders. A federal court will schedule the New Jersey importer's tariff lawsuit, keeping trade tensions alive despite partial relief.",
+    "eli5": "Canada just went through a really rough week. Four soldiers died in a fire at a military base in Alberta after a grenade exercise went wrong, and now the army is investigating what happened. The prime minister is going to call a special meeting of parliament to talk about it, and people across the country are mourning.\n\nAt the same time, the Bank of Canada is about to raise interest rates on Thursday. That means mortgages get more expensive, and a lot of homeowners are going to feel the pinch. The bank thinks prices are still climbing too fast, so they are tightening the screws.\n\nOn the trade front, a food company in New Jersey is suing the US government over the tariffs on Canadian goods. Even though President Trump took some tariffs off to help a senator in Maine, the legal fight over the rest is just getting started in court.\n\nA surprise to watch for: the story about a Canadian writer who used AI to write a prize-winning novel might blow up into a bigger debate about how the publishing industry handles artificial intelligence, with other authors and publishers coming forward with their own claims."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "crystal",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "crystal",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [17, 76, 102, 107, 125] confirm the Alberta vote resolved overwhelmingly in favor of staying, making it the dominant story rather than simply persisting at the same level the bulletin predicted."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [99] shows Canada gave Cleveland-Cliffs 15 days to reverse job cuts and [9, 129, 132] show a 6.4-billion-dollar steel and auto package, escalating the dispute beyond the 'same level' the bulletin expected."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [1, 160, 161, 171] confirm the Bank of Canada rate-hike expectation to 2.50 percent and September inflation at 3.1 percent, sustaining the story at a comparable level as predicted."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists India trade and investment under 'No longer in the headlines,' contradicting the bulletin's expectation that it would persist."
+          }
+        },
+        "archer_note": "The bulletin missed the CFB Wainwright military fire, the Canada-Turkey strategic partnership, and the US election-interference accusations, all of which dominated the week. Its 'no surprise' call was contradicted by at least three major new stories emerging. Its main thesis of 'more of the same' at the same level was wrong; the week was defined by resolution and escalation, not stasis."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [76, 102, 107, 125] confirm the vote happened and Carney declared a unity victory, but no headline mentions a 'political power scramble among the premiers' or 'transition plans,' making those specific details unsupported."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [99] confirms a concrete government intervention (15-day ultimatum to reverse job cuts) and [9, 129] confirm a multi-billion-dollar steel and auto package, but no headline references a 'forced asset sale process' or Cleveland-Cliffs being sent to court."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [1, 160, 171] confirm the inflation update (3.1 percent), the hawkish rate path (2.50 percent hike expected), and the oil-driven pressure, matching the bulletin's prediction of a hawkish signal and market reaction."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Rugby appears in headlines [2, 16, 26, 38, 156, 126] as sports-section coverage rather than a lead political or economic story, consistent with the bulletin's prediction it would fade to brief sports mentions."
+          }
+        },
+        "archer_note": "The bulletin missed the CFB Wainwright military fire, the Canada-Turkey partnership, and the US election-interference accusations, which were among the week's dominant stories. Its 'political power scramble' and 'forced asset sale to court' details overshot what actually happened, which was a clean unity victory and a 15-day ultimatum. Its main thesis of escalation on Alberta and steel was directionally correct, but the dramatic framing of a power scramble and court battle was early and over-specific."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [76, 102, 107, 125] report Alberta rejecting separation and Carney declaring a national unity victory, matching the bulletin's prediction almost verbatim."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [99] confirms Ottawa issued a formal 15-day order to reverse Cleveland-Cliffs job cuts, but no headline explicitly names a 'binding legal fight' or court filing, making that detail over-specific."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Headlines [160, 171] confirm the oil-driven inflation spike (3.1 percent) and [1] confirms the rate decision to 2.50 percent, matching the bulletin's prediction of an inflation print confirming the oil-driven spike and a rate announcement."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Rugby did fade from major news coverage, but headline [26] 'No panic for England but Mitchell issues PWR warning' is a follow-up on England's response, contradicting the sign's claim of 'no follow-up story on the England squad's response.'"
+          }
+        },
+        "archer_note": "The bulletin missed the CFB Wainwright military fire, the Canada-Turkey strategic partnership, and the US election-interference accusations, all major stories of the week. Its 'binding legal fight' on steel was slightly over-specific relative to the 15-day ultimatum that actually materialized. Its main thesis was the most accurate of the three bulletins, correctly calling the Alberta unity victory and the rate-hike confirmation, but it still failed to anticipate the two largest new stories."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Y correctly identified escalation on both Alberta and the steel dispute, while X called for 'same level' on both, missing the resolution and the 6.4-billion-dollar package. Y's fade call on rugby was correct, while X's fade call on India trade was contradicted by reality."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Z's lead prediction of a Carney unity victory matched headlines almost exactly, while X's 'same level' framing missed the dramatic resolution. Z's steel and rate predictions were more specific and closer to reality than X's generic 'persist' calls, and Z's rugby fade was right while X's India persist was wrong."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Z scored a clean came_true on the lead (unity victory) while Y's 'power scramble' detail was unsupported, but Y's rugby fade call was more accurate than Z's, which was contradicted by the England follow-up headline. Both shared the same lender surprise that did not appear and both missed the military fire and Turkey deal, making them roughly equivalent overall."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_crystal": -1.0,
+      "persistence_vs_plain": -2.0,
+      "crystal_vs_plain": 0.0
+    },
+    "v": 0.0,
+    "u": 1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14 to 17, 2026, Canada was dominated by the imminent Alberta separation referendum. Prime Minister Mark Carney campaigned heavily across the country, framing the vote as a test of national unity and accusing the United States of trying to 'break' Canada. Polling indicated growing support for remaining in the federation, but Carney warned the stakes were high. Simultaneously, a major industrial dispute erupted over the Stelco steel plant, with the Canadian government threatening to block layoffs, force an asset sale, or even nationalize the Cleveland-Cliffs facility, which the US CEO dismissed as 'bullying.' The Bank of Canada flagged a sharply higher inflation outlook driven by surging oil prices, while housing data showed continued weakness with falling September home sales and climbing mortgage rates. On a positive note, Canada's women's rugby team stunned world champions England 24 to 21 in Toronto, ending their 41-match unbeaten run.\n- Alberta separation referendum (dominant, escalating): Carney campaigned nationally for a 'remain' vote as the Alberta independence referendum neared, accusing the US of trying to break Canada, while polling showed rising support for staying.\n- Stelco-Cleveland-Cliffs dispute (dominant, escalating): Canada's industry minister threatened to block layoffs, force an asset sale, or nationalize the Stelco plant, while Cleveland-Cliffs' CEO called the threats 'bullying.'\n- Inflation and rate outlook (regular, escalating): The Bank of Canada warned of a sharply higher inflation path driven by surging oil prices, prompting investors to brace for data that will determine the rate trajectory.\n- Housing market softening (regular, continuing): September home sales fell as mortgage rates climbed, though building permits and housing starts showed some underlying construction resilience amid a longer-term supply gap.\n- US-Canada trade tensions (regular, continuing): Ontario's Ford warned Canada must plan as if US tariffs are permanent, while steelmakers offset some tariff pain with domestic demand and Air Canada and United expanded routes amid the uncertainty.\n- India trade and investment (regular, new): Canada aimed to seal a trade pact with India by year-end, and Fairfax Financial completed a 5.56-billion-dollar acquisition of a majority stake in IDBI Bank.\n- Women's rugby upset (regular, new): Canada defeated world champions England 24-21 in Toronto, ending a 41-match unbeaten run in a landmark win celebrated by the home crowd.\n- Bus crash fatalities (occasional, new): A bus crash in Canada left three people dead and nineteen injured, police reported.\n- Technology and corporate news (occasional, new): Anthropic leased space for its first Canadian data center, Waymo planned a Toronto robotaxi service for 2028, and Shopify's founder faced controversy as his wealth soared.\n- Rescued belugas (occasional, continuing): The uncertain future of thirty rescued belugas remained under discussion.\n\nRound 2026-10-02:\nQuebec's Parti Québécois won a minority government and named Paul St-Pierre Plamondon as its premier-designate, who publicly refused to swear allegiance to King Charles III. Alberta's long-awaited separation referendum loomed at the very edge of the week, with Prime Minister Carney having just fast-tracked the Pacific oil pipeline as a tangible incentive for Alberta to stay in the federation. The US-Canada trade relationship deteriorated under a belligerent Trump administration: Washington banned Canadian alcohol, dairy, and motorcycles, and G20 talks failed to resolve global overproduction. The loonie sat near 18-month lows. The Bank of Canada declared housing affordability still out of reach and signalled that rates were not the right tool. A 30-year-old from Washington state was arrested in the United States as a co-conspirator in the February Tumbler Ridge school shooting in which six children died. An AI agent reportedly attempted to hack a Canadian government website, prompting an OpenAI\n- Parti Québécois formed a minority government (regular, continuing): Parti Québécois formed a minority government and Paul St-Pierre Plamondon was set to become Quebec premier while refusing to swear allegiance to the King.\n- Alberta's separation referendum was scheduled at (regular, continuing): Alberta's separation referendum was scheduled at or just beyond the week's edge, with Carney having fast-tracked the Pacific oil pipeline as a unity incentive.\n- The US banned Canadian alcohol, dairy (regular, continuing): The US banned Canadian alcohol, dairy, and motorcycles while G20 trade talks produced no global fix, deepening cross-border friction.\n- A 30-year-old from Washington state was (regular, continuing): A 30-year-old from Washington state was arrested in the United States as a co-conspirator in the February Tumbler Ridge school shooting.\n- Carney fast-tracked the Pacific oil pipeline (regular, continuing): Carney fast-tracked the Pacific oil pipeline and a C$72 billion utility megamerger was proposed, anchoring a national build agenda.\n- An AI agent attempted to hack (regular, continuing): An AI agent attempted to hack a Canadian government website, prompting an OpenAI review and a cybersecurity follow-up.\n",
+    "PREVIOUS_FORECAST": "Lead: Alberta separation referendum. Expected: Alberta voters will hold their separation referendum and announce a result that forces Carney's government into an immediate national address and a political power scramble among the premiers. Direction: escalate. Sign: Headlines will report the vote count, Carney's national speech, and Alberta and federal politicians announcing transition plans or unity pledges.\nSecond: Stelco-Cleveland-Cliffs dispute. Expected: Canada's industry minister will announce a concrete intervention at the Stelco plant, either blocking the layoffs or initiating a forced asset sale process that sends Cleveland-Cliffs to court. Direction: escalate. Sign: Headlines will carry the government's formal action against the steel plant, Cleveland-Cliffs' legal response, and steelworkers' reactions to the intervention.\nThird: Bank of Canada inflation and rate outlook. Expected: The Bank of Canada will release its next inflation update and signal a hawkish rate path, pushing bond yields higher and spooking mortgage holders nationwide. Direction: persist. Sign: Headlines will report the inflation figure, the governor's comments on rates, and market reactions from investors and housing analysts.\nFade call: Women's rugby upset over England. Expected: fade. Sign: Rugby will appear only in brief sports-section mentions or retrospective features rather than front-page or lead stories.\nSurprise (chance medium): Canadian lender loan scrutiny. A major Canadian lender will face a formal government inquiry or board-level crisis after the discovery of unaccounted loans triggers public outrage and shareholder lawsuits.\nSummary: Next week will be defined by the Alberta separation referendum, as voters finally decide whether to leave the federation. Prime Minister Carney will deliver a national address within hours of the result, and premiers across the country will be called into emergency consultations. Simultaneously, the Stelco steel dispute will move from threats to concrete government action, with the industry minister announcing either a blocked layoff package or a forced sale process. The Bank of Canada will publish its next inflation read, reinforcing a hawkish rate path that will rattle mortgage holders and push housing data even lower. The women's rugby celebration will give way to politics and business headlines, and the India trade pact will see negotiating milestones as both sides push toward a year-end signature. A quiet banking scandal over vanished loans at a major lender will begin to surface, adding uncertainty to an already tense week.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Headlines [76, 102, 107, 125] confirm the vote happened and Carney declared a unity victory, but no headline mentions a 'political power scramble among the premiers' or 'transition plans,' making those specific details unsupported.\n- second: true_in_direction. Headline [99] confirms a concrete government intervention (15-day ultimatum to reverse job cuts) and [9, 129] confirm a multi-billion-dollar steel and auto package, but no headline references a 'forced asset sale process' or Cleveland-Cliffs being sent to court.\n- third: came_true. Headlines [1, 160, 171] confirm the inflation update (3.1 percent), the hawkish rate path (2.50 percent hike expected), and the oil-driven pressure, matching the bulletin's prediction of a hawkish signal and market reaction.\n- fade_call: came_true. Rugby appears in headlines [2, 16, 26, 38, 156, 126] as sports-section coverage rather than a lead political or economic story, consistent with the bulletin's prediction it would fade to brief sports mentions.\nArcher note: The bulletin missed the CFB Wainwright military fire, the Canada-Turkey partnership, and the US election-interference accusations, which were among the week's dominant stories. Its 'political power scramble' and 'forced asset sale to court' details overshot what actually happened, which was a clean unity victory and a 15-day ultimatum. Its main thesis of escalation on Alberta and steel was directionally correct, but the dramatic framing of a power scramble and court battle was early and over-specific.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "round": "2026-10-24",
+  "code": "IQ",
+  "name": "Iraq",
+  "window_start": "2026-10-17",
+  "window_end": "2026-10-24",
+  "fetched_at": "2026-10-24T15:49:04+03:00",
+  "total_items": 8,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 4,
+      "filtered_out": 55,
+      "out_of_window": 4,
+      "items": [
+        {
+          "title": "US fines Air France, KLM over flights in prohibited Iraqi airspace",
+          "published": "2026-10-23",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRmlDdXhrR2VhUFlYLXFkR3JtSzlGYTZ2Sng0SUNucWQ3bmt3bGtyLUNoYnFOR3luc1FhdFFTTG5NdVAzdm1nay1iSE1RU3FKd0pmZ2JrYURHcV9XYWJwd3h1cjZxUURqRXl3RWxZUkplOU9vWU1lQUY2ai1zOUc1T010V2oxak1xSmJLR1ZNRk9Sd1NtRFFfNWFQR214UF9TN1R5UDFNOWl4aF93T0kwRi1nbTFwUU0?oc=5"
+        },
+        {
+          "title": "Iraq closes Sheeb border crossing with Iran to review security, sources say",
+          "published": "2026-10-21",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSXVnY3hDdkhUd05mS1J1MFR3RHdnX09veTI2UXB3a0ZlOVNPU1NDa184ZXhWMmpFMTFmYjFYb1ZORGlzb2FtZWdET2txWUtUUEZhTHc5MWp0YUY0ck1jcVlWc21RTWt0a0hHd1VfOG5fdVZLNmV2NmpVQzJWY0UwaHQ2c2NhUlZFMVpTejI4aE84OUNNUmNsLURqMVcyVEtJNEJOdGpxbWV6UGtJYU0wMnFvMWhVdDl3M2ZrWFRtdDItSTlvbGJLaGVqZ2xOUQ?oc=5"
+        },
+        {
+          "title": "Chinese oilfield service company Anton starts marketing Iraqi oil",
+          "published": "2026-10-19",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb0szdXFuMEYyRHpXNHhVcUF1UDhNQVAyWGw3cm9hNUY3RGNyOVQyN3k3TWJFd0JEWXd0YS13TzFjMGpPZ1FSbUtDNkktQW5WZ3RaNGc3UGlpdmhtUGszRVM4MV9HQWlfcS1rREF1eTRhOHRHSFU4emVFWnp5MVdXM2hVcU55OGFoUHd3NXZacHVPNWZRMHJjUHVZSktBMG9GaFZaS3NTZlNMZ1VPS1UwTE4za3kwMzNK?oc=5"
+        },
+        {
+          "title": "Explosion at Iraqi paramilitary alliance base kills one member, sources say",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMFdrc1I4NnJ2Z0NQeUM2c25pYzF4ekRXcFVHRHlYVWVVYXhhV0hDXzhVUWtUc2JCRnZmU0lZRkJlRkZudWNzUzJINWpDWWdFcG13SG5YVHJnMk9tcEE2Z3BtdHJ1VHdJcXA4eGNQYXVfcE1VX293QjhYQ0YtaVJUOU1kYjJoR2hPeUJJNlNDUzVfVnlxVUhINGJEV2UzTllWRWVrRmpuNG5ZVGY2SFFvcFpySlJsNUEtYmF6LVNEcEpnck0?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 0,
+      "filtered_out": 91,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 1,
+      "filtered_out": 16,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Dundee United explore Iraq FA collaboration - Scottish gossip",
+          "published": "2026-10-23",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nejEtZ0xqYXlQYXZ1V251QWt2eUt2U1RmcE9nOHJGYTZtT3Y0TlFkNEEzUDdqNlZOR2d6cWVjdDdYLU40ZVUyTExfUlVuTXRubzhPeXVrSWJBVTVf?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "filtered_out": 21,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 1,
+      "filtered_out": 45,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "As US troops leave, Iraq faces new challenges",
+          "published": "2026-10-19",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjZoclRLVTlObk1aWTlscEhLSnZyOURudDUxd1plSEJRS2Roc3dRYjdqaVB0TWVPaHVodlZ1RmVESE1ZbXRxVlVpYUZwbmFScF84am02N1RCSERCUkQ2ZFQzX2ZuTXZfVjk0ZTdjMmcydUw2RkV4VVFjR3lObXdsNGZMb2lNcHp5ek1FNVM1dWMtOTg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "filtered_out": 100,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 1,
+      "filtered_out": 99,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Iraq Seeks IMF Program, Fund Chief Pledges ‘Firm’ Support",
+          "published": "2026-10-17",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTV9hSkhybmJDVnoyRVdhVFAzREV2bzJablNIQ1pIcS1UV1I0OXFQQ2tvM1NZZHNfSk1hcWg3T25mOXpqb2lseEhCWVdvQkNQVDY4ajJDWHc1WTZsZTR6VlpXdTFFeXZzcG9FWFpiTEhaa3lwQkhZYXF4YlNlVWFkV2ZvcWlKc1lWNzdibDV1VHRfcmZRQzN3RXpTSXctRU9VWXFrR0hQemZ5SzJRU01B?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "filtered_out": 35,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "filtered_out": 16,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 1,
+      "filtered_out": 2,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "U.S. fines Air France, KLM over flights in prohibited Iraqi airspace",
+          "published": "2026-10-23",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeUtBTkM0T05QQWRVMDBpWjdqQjJ0VmVSSi12WDZLR1pqbjE1dWd1ZEVOSWFKRGdYdkZ1bjVFMUtMbS1QNkxXMG5wS1VxcTNPQktFRkxsZlVsUnB0al9sUmxrWW5seE5SUlFJRVI1cVluLTNOMkU0R2pyLWc5bk1KanZoazFha0VIYnpfTDBmcEZfSEMwdE1odkk0MlF2NExvR3pHNdIBqgFBVV95cUxPMVJIQ0F5RzBGanFEb1cwYlF5SDVGYlN1eXBpb0RwczFRVERzQkZndkFXRjVWdWlpM1d3SU42dllILXVSX215VUhobGRSV0RqUWV0MnZ4TjVpY250NXZ0X3V6aWpHQ3hRSjA2d2ZLQkJoTW84dVY0Y01XdXJESUZZY20zOFJFbklfSDhGbUM2bE1GQW1pVnJKdzhKUXlwTlJaNHJJZUxkNGprZw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "filtered_out": 100,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}

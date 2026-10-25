@@ -1,0 +1,872 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "FR",
+  "name": "France",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T11:44:40+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "France was engulfed in its worst protest crisis in years during the week of October 17 to 24, 2026. Cost-of-living demonstrations escalated into nationwide riots, looting, and arson, with nearly 2,400 arrests and the Limoges city hall set alight. The government deployed 70,000 police and gendarmes, imposed curfews in Paris and other major cities, and moved to deploy the military. The economic fallout was severe: French 10-year bond yields hit 5 percent for the first time since 2002, Carrefour slashed its profit forecast, and the debt risk premium reached levels last seen during the eurozone sovereign crisis. A suspected racist shooting near Paris killed a martial arts fighter, which Macron branded a 'racist terrorist attack.' The first human case of the Shamonda livestock virus was confirmed in France, with the patient dying. Storm Austen knocked out power to 242,000 homes and killed at least four in the south. Macron's Gulf trip to secure diesel drew criticism, and he clashed publicly with Trump over comments blaming migrants. The NFL's Paris debut proceeded under heavy security, and Moody's spared France a downgrade while warning the situation remained unclear.",
+    "key_events": [
+      {
+        "event": "Nationwide cost-of-living protests escalated into riots with nearly 2,400 arrests, looting, and arson across French cities.",
+        "date": "2026-10-18",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "French 10-year bond yield hit 5 percent, its highest level since 2002, as the bond market punished the government over protest-driven fiscal risk.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The government deployed 70,000 police and gendarmes and imposed curfews in Paris, Marseille, and Lyon to contain further unrest.",
+        "date": "2026-10-18",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "A suspected racist shooting near Paris killed a martial arts fighter and injured four others; Macron called it a 'racist terrorist attack.'",
+        "date": "2026-10-19",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "France confirmed the world's first human case of the Shamonda livestock virus; the patient later died, though officials said there was no danger to the general population.",
+        "date": "2026-10-21",
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "Storm Austen caused power outages affecting 242,000 homes and at least four deaths in southern France.",
+        "date": "2026-10-22",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Carrefour cut its profit forecast, citing riot and looting damage, and its shares plunged on the news.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Macron completed a Gulf visit including a stop in Riyadh to secure diesel supplies, while publicly slamming Trump's comments blaming migrants for the riots.",
+        "date": "2026-10-20",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Moody's spared France a sovereign-rating downgrade but said it would wait for the political situation to clarify before acting.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The NFL held its Paris debut, the Steelers-Saints game, under heightened security amid ongoing protest concerns.",
+        "date": "2026-10-25",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 9,
+    "domains_active": [
+      "politics",
+      "economy",
+      "security",
+      "society"
+    ],
+    "emojis": [
+      "🔥",
+      "💰",
+      "🚔"
+    ],
+    "emoji_reasons": [
+      "The dominant story was nationwide riots, looting, and arson described as 'unprecedented' violence (headlines 166, 178, 187).",
+      "French 10-year bond yields hit 5 percent, their highest since 2002, and the debt risk premium reached eurozone-crisis levels (headlines 34, 228).",
+      "The government deployed 70,000 police, imposed curfews, and moved to deploy the military to contain the unrest (headlines 2, 150, 47)."
+    ],
+    "developments": [
+      {
+        "subject": "Nationwide protests and riots",
+        "what_happened": "Cost-of-living protests escalated into violent riots with looting, arson, and nearly 2,400 arrests across multiple French cities, with student and 'yellow vest' groups joining in.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          15,
+          29,
+          30,
+          32,
+          43,
+          72,
+          84,
+          89,
+          106,
+          123,
+          155,
+          158,
+          160,
+          166,
+          178,
+          184,
+          187,
+          197,
+          202,
+          207,
+          211,
+          217,
+          220,
+          226,
+          232,
+          242
+        ]
+      },
+      {
+        "subject": "Sovereign debt and bond-market stress",
+        "what_happened": "French 10-year yields hit 5 percent (highest since 2002), the debt risk premium reached eurozone-crisis levels, and Moody's spared a downgrade while warning the situation remained unclear.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          11,
+          34,
+          36,
+          44,
+          69,
+          73,
+          103,
+          114,
+          124,
+          125,
+          128,
+          136,
+          146,
+          148,
+          167,
+          168,
+          175,
+          179,
+          195,
+          196,
+          215,
+          228,
+          234,
+          240,
+          246
+        ]
+      },
+      {
+        "subject": "Security crackdown and curfews",
+        "what_happened": "France deployed 70,000 police and gendarmes, imposed curfews in Paris, Marseille, and Lyon, banned 'illegitimate' protests, and moved to deploy the military.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          5,
+          13,
+          18,
+          22,
+          38,
+          47,
+          49,
+          51,
+          76,
+          78,
+          91,
+          98,
+          101,
+          109,
+          122,
+          127,
+          129,
+          133,
+          150,
+          157,
+          174,
+          181,
+          191,
+          192,
+          202,
+          204,
+          209,
+          216,
+          219,
+          221,
+          224,
+          229,
+          249
+        ]
+      },
+      {
+        "subject": "Suspected racist shooting near Paris",
+        "what_happened": "A gunman opened fire from a car near Paris, killing a martial arts fighter and injuring four others; Macron called it a 'racist terrorist attack' and the suspect was arrested.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          14,
+          26,
+          37,
+          39,
+          40,
+          79,
+          87
+        ]
+      },
+      {
+        "subject": "Shamonda virus first human case",
+        "what_happened": "France confirmed the world's first human infection with the Shamonda livestock virus; the patient died, but officials said there was no danger to the general population.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          17,
+          64,
+          66,
+          97,
+          145,
+          156,
+          222
+        ]
+      },
+      {
+        "subject": "Storm Austen and flooding",
+        "what_happened": "Storm Austen caused widespread power outages affecting 242,000 homes and traffic disruptions in France and Britain, while Storm Adam flooding killed at least four in southern France.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          25,
+          67,
+          99
+        ]
+      },
+      {
+        "subject": "Macron diplomacy and Gulf visit",
+        "what_happened": "Macron visited Gulf states including Riyadh to secure diesel supplies, accused foreign leaders of exploiting the riots, and clashed publicly with Trump over comments blaming migrants.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          12,
+          20,
+          53,
+          58,
+          71,
+          162,
+          164,
+          192,
+          218,
+          233,
+          235
+        ]
+      },
+      {
+        "subject": "Corporate and market impact",
+        "what_happened": "Carrefour cut its profit forecast citing riot damage, Vinted blocked looters listing stolen goods, insurers faced losses, and the French private sector's confidence hit its lowest since 2020.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          57,
+          80,
+          81,
+          92,
+          105,
+          113,
+          137,
+          225,
+          243
+        ]
+      },
+      {
+        "subject": "2027 election dynamics",
+        "what_happened": "Marine Le Pen and other presidential hopefuls jockeyed to position themselves as successors to Macron, while Melanchon was placed in the firing line and prediction-market odds for Le Pen rose.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          23,
+          48,
+          93,
+          108,
+          144,
+          159,
+          169,
+          173,
+          194,
+          208,
+          234,
+          241
+        ]
+      },
+      {
+        "subject": "NFL Paris debut",
+        "what_happened": "The NFL held its first Paris game, the Steelers-Saints matchup, under heightened security, with the league closing its pop-up shop before the weekend protests.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21,
+          31,
+          41,
+          50,
+          62,
+          77,
+          131,
+          139,
+          151,
+          180,
+          189,
+          223
+        ]
+      },
+      {
+        "subject": "Education and student protests",
+        "what_happened": "Lycée students mobilized with over 100,000 contributions on the Agora platform, and student-led protests became a wider political crisis involving the government and unions.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          55,
+          60,
+          109,
+          115,
+          144,
+          250
+        ]
+      },
+      {
+        "subject": "Miscellaneous news",
+        "what_happened": "Monet's 'Iris' sold for 50 million euros at a Paris auction (a French record), British jets joined a French nuclear exercise for the first time, France and the UAE revived Rafale development, and a fighter jet crashed in eastern France killing at least one person.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          61,
+          96,
+          107,
+          130,
+          134,
+          152,
+          201,
+          205,
+          212,
+          214,
+          248
+        ]
+      }
+    ],
+    "gone": [
+      "France-Germany car-industry deal",
+      "Channel Tunnel collision",
+      "Paris fires and summer-wildfire costs"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide extensive multi-source coverage of the protests, economic fallout, security response, and secondary stories, giving a well-rounded picture of the week in France."
+    },
+    "headlines_used": [
+      "France mounts huge security operation as protesters prepare to march",
+      "France mobilizes up to 70,000 police to curb violence at protests over living costs",
+      "Security high as France braces for new protests",
+      "France prepares for day of protest a week after nationwide riots",
+      "France braces for another weekend of protests as authorities launch massive security operation",
+      "Shooting near Paris leaves 1 dead and four injured, with suspect arrested",
+      "Mobilisation lycéenne en France: la plateforme Agora a recueilli plus de 100.000 contributions",
+      "France on Edge as New Protests Raise Fears of Violence, Looting",
+      "France Girds for Another Day of Protest After Widespread Violence",
+      "France is looking ungovernable. And it’s going to get worse",
+      "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "Macron lines up more Gulf diesel as France battles soaring fuel prices",
+      "France's luxury stores board up windows ahead of fresh protests",
+      "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack",
+      "Seen and heard at France protests",
+      "Men's Rugby League World Cup - England 82-0 France: Thumping win keeps alive semi-final hopes",
+      "What is Shamonda, the livestock virus found for the first time in a person in France?",
+      "France to deploy 70,000 police officers to weekend protests as country braces for more violence",
+      "Le journal de France 2 - EDITION DU 07/11/2026 - 20H",
+      "Macron Accuses Foreign Leaders of Exploiting France’s Riots",
+      "Paris Is Bracing for Protests. The NFL Is Showing Up Anyway.",
+      "France deploys 70,000 officers to police latest protests",
+      "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+      "France PM promises more curfews as authorities seek to regain control",
+      "Storm causes power outages and traffic disruptions in France and Britain",
+      "Man killed in suspected racist attack near Paris identified as martial arts fighter",
+      "French PM to meet unions as government prepares for more protests",
+      "Ruins of Limoges city hall a symbol of France divided by national protests",
+      "In pictures: French protests spiral into national crisis",
+      "Weekend of fiery protests in France raises questions, costs millions",
+      "NFL: Paris se met enfin à l'heure américaine, un rendez-vous à fidéliser",
+      "Why French Protests Are So Hard to Contain",
+      "Opinion | A Riot of Resentment in France",
+      "France’s borrowing costs hit 5% for first time since 2002",
+      "Michelle Caruso-Cabrera: The situation in France is enormously serious",
+      "France’s growing debt woes: How bond markets set countries’ borrowing costs",
+      "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
+      "Louvre and other museums closing for Saturday protests as French authorities deploy 70,000 officers",
+      "Macron condemns 'racist terrorist attack' after deadly shooting near Paris",
+      "Macron says deadly shooting near Paris is a 'racist terrorist attack'",
+      "The Rams are in serious trouble, a showdown in Seattle and a trip to Paris: Here’s what to watch in the NFL’s Week 7",
+      "German youth plan France-style mass protests",
+      "VIDÉO. Mobilisations en France : un week-end sous tension",
+      "French Yields Hit 5%, Highest Since 2002, as Risk Gauge Climbs",
+      "Opinion | France Is Testing the Limits of Public Outrage",
+      "EU probes pro-Kremlin disinformation around French riots",
+      "France to deploy military as it braces for fresh unrest this weekend",
+      "French protests: Is it game over for Macron’s centrists before elections?",
+      "France boosts police presence, hoping to prevent repeat of riots",
+      "Trump expresses concern about NFL game and civil unrest in Paris",
+      "France to deploy 70,000 police ahead of new protests",
+      "Ligue 1: PSG v Lyon at Parc des Princes moved to Monday as Paris prepares for another weekend of protests",
+      "Macron slams ‘stupid comments’ from world leaders after Trump blames France unrest on migrants",
+      "Are the French police the most violent in the EU?",
+      "VIDÉO. Mobilisations en France : les lycéens face à Emmanuel Macron",
+      "France’s Place in the World Economy Is Burning, Too",
+      "Carrefour Shares Slump After Group Trims Guidance, Citing French Riots",
+      "Macron hits out at ‘stupid’ Trump remarks about riots in France",
+      "U.S. dollar dips; euro edges up despite French unrest",
+      "Why have France’s school protests become a wider political crisis?",
+      "British jets join French nuclear exercise for first time, France says",
+      "Steelers QB Aaron Rodgers backs NFL on holding game in Paris despite recent unrest",
+      "Old interview clip falsely linked to anti-Chinese attacks during 2026 France protests",
+      "First human case of Shamonda virus detected in France, officials say",
+      "From France to Indonesia: Gen Z is fed up",
+      "France confirms first Shamonda livestock virus infection in a human, say no danger to general population",
+      "La tempête Austen s'éloigne de la France, 242.000 foyers sans électricité",
+      "France Has Instruments to Pass A Budget, Lescure Says",
+      "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
+      "Paris’s Le Large fails to match the grandeur of its industrial past",
+      "Optics of Macron's Gulf visit not great, says expert",
+      "Photos: Protests across France spiral into looting, blazes and clashes",
+      "France spared Moody's ratings downgrade as it struggles with unrest",
+      "What to know about the weapons and tactics blamed for injuring French protesters",
+      "PSG v Lyon French Ligue 1 game postponed due to Paris protests",
+      "Paris extends curfew as Marseille and Lyon ban protests after riots",
+      "Goodell says NFL is comfortable with security around Sunday’s Paris game amid protests",
+      "France bans 'illegitimate' protests in coming days",
+      "France: un homme tire en rafale depuis sa voiture et tue une personne, au moins quatre blessés dont un enfant",
+      "Carrefour Cuts Profit Forecast on Riots, Looting in France",
+      "Carrefour Slashes Guidance Due to Riots in France",
+      "Fridge hackers exploited ‘basic security flaws’ at French retailers",
+      "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
+      "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting",
+      "US fines Air France, KLM over flights in prohibited Iraqi airspace",
+      "Thousands gather in Paris after a court lifts a protest ban despite fears of new violence",
+      "Gunman kills one, wounds four in town outside Paris",
+      "Tour de France UK stages in detail - where can you watch?",
+      "Fire whirl flares during French protests",
+      "France bans protests in parts of Paris as Macron slams Trump comment",
+      "VIDÉO. Mobilisations en France : 70 000 gendarmes et policiers mobilisés",
+      "Vinted Faces Influx of Suspected Looted Goods After French Riots",
+      "Marine Le Pen Seizes on French Chaos to Present Herself as Leader in Waiting",
+      "Is France spinning out of control?",
+      "French mayor attacked by settlers during occupied West Bank olive harvest",
+      "France, UAE revive Rafale warplane development amid French budget woes",
+      "France reports first human case of livestock virus Shamonda in patient who later died",
+      "France to deploy 70,000 police for fresh weekend protests",
+      "Storm Adam flooding: At least four dead in southern France",
+      "French protester slogan",
+      "France plans 'massive' weekend police surge amid protests",
+      "Mort de Jean-Paul Huchon, figure rocardienne et de l'Île-de-France",
+      "Political Risk Makes France a Go-To Market for Short Sellers",
+      "Opinion | France Must Save Europe",
+      "Insurers face losses as riots in France become ‘like natural catastrophes’",
+      "Paris left reeling as student-led protests turn chaotic",
+      "Claude Monet's 'Iris' becomes most expensive artwork sold at auction in France, Sotheby's says",
+      "As riots overshadow Macron’s final months in office, presidential hopefuls jockey to succeed him",
+      "France to deploy 70,000 police as students urge further protests",
+      "Felix Balshaw: How the son of an English rugby legend represents France",
+      "Tourists try to navigate Paris in the middle of protests",
+      "Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation",
+      "France: le secteur privé replonge en octobre, la confiance au plus bas depuis 2020",
+      "France’s Fiscal Mess Has Only One True Solution",
+      "Opinion | France’s Riots Are More Than Student Protests",
+      "Louis Vuitton and Hermès among luxury retailers looted in French riots",
+      "Cost of living protests hit Belgium, Italy, Portugal and France",
+      "EXCLUSIVE: France's urea supply from Algeria under threat as diplomatic tensions persist, sources say",
+      "The history behind France’s proud tradition of protests",
+      "AI clip of Eiffel Tower ablaze misleads online after France's nationwide protests",
+      "The Briefing Room | Has France become ungovernable?",
+      "France imposes curfews across Paris, other cities after rioting",
+      "France reports almost 2,400 arrests after riots, looting and arson during cost-of-living protests",
+      "Notation de la France : un maintien de la note par Moody's jugé peu probable",
+      "French Bond-Risk Gauge Breaches Key Level After Protests",
+      "French Leaders Trade Blame After Rioting Sweeps the Nation",
+      "France extends curfews in some cities as restrictions quell unrest",
+      "South African rugby player Hyron Andrews paid emotional tribute in France",
+      "French league moves PSG-Lyon clash as Paris braces for fresh protests",
+      "Fighter jet crashes in eastern France, killing at least 1 person",
+      "Goodell says NFL's France debut 'just the beginning'",
+      "Tour de France expected to create cycling 'buzz'",
+      "Curfew in parts of Paris not in effect",
+      "\"Iris\" de Monet devient l'oeuvre d'art la plus chère vendue en France",
+      "France Secures Some Diesel From Gulf States as Prices Surge",
+      "French Contagion Less Virulent Than in Previous Eurozone Crisis",
+      "Carrefour blames French riots as it cuts profit forecast",
+      "Paris residents tell Al Jazeera they’re dismayed by protest damage",
+      "NFL closes Paris pop-up shop ahead of planned protests",
+      "FACT FOCUS: Trump and Republicans blame France's immigrants for riots without evidence",
+      "Inside Gaza: Screening on 2 November, Ciné Lumière at the Institut français du Royaume-Uni, London",
+      "French teenage rugby player dies after on-field injury",
+      "Trump says France riots could happen in the US if Democrats win",
+      "How France's Socialists are struggling with students and young voters",
+      "Virus Shamonda: le premier cas humain au monde détecté en France après le décès d'un homme",
+      "French Riots Seen as Insurance Test Before New Regime Kicks In",
+      "Opinion | Why France Is Burning",
+      "French bond sell-off intensifies after riots and looting",
+      "Tear gas and unrest as hundreds of thousands protest for reforms in France",
+      "France to mobilise 70,000 security forces for Saturday protest, interior minister says",
+      "Roger Goodell is comfortable with security for the NFL's Paris game between the Steelers and Saints",
+      "Monet's 'Iris' fetches 50 mn euros at Paris auction",
+      "What in the World | How have the protests in France changed?",
+      "The rioting across France is a symptom of a much larger public and political crisis",
+      "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+      "Virus Shamonda: première détection chez un humain, en France, pas de risque sanitaire global identifié",
+      "French Unrest Tapers Off After Security Measures Imposed",
+      "Violent Protests Rip Through Cities Across France",
+      "France’s riots expose the impotence of its political class",
+      "Protests spread across France as ‘yellow vests’ set to join",
+      "Fact Check: Paris looting image misidentifies woman as store owner",
+      "Macron slams as ‘stupid’ claims by Trump and others blaming Muslim migrants for French riots",
+      "England and France face do-or-die clash at Rugby League World Cup",
+      "Macron accuses foreign leaders of exploiting French riots for political gain",
+      "French shopkeeper pleads for help after looting",
+      "Violent unrest rocks France after nationwide protests",
+      "Moody's laisse la situation s'éclaircir avant de se prononcer sur la note française",
+      "Pernod Ricard Plans Debut Hybrid Bond as French Debt Risk Rises",
+      "Emmanuel Macron faces political firestorm after riots",
+      "Bolt, Stellantis plan autonomous driving experiment in Greater Paris from 2028",
+      "With France embroiled in protest, a look at the nation’s economic standing by the numbers",
+      "Northern start and finale in the Pyrenees for 2027 Tour de France",
+      "France is divided over who to blame for weekend riots",
+      "France promises ‘massive’ police presence this weekend as cities impose more curfews after protest violence",
+      "Could France's debt crisis become a problem for Europe?",
+      "La justice suspend l'interdiction de la manifestation prévue par l'Interfac à Paris jeudi",
+      "French Violence Raises Alert as Protests Flare Across Europe",
+      "France reels after ‘unprecedented’ violence from protesters",
+      "European stocks post weekly loss as France turmoil, oil prices dent earnings optimism",
+      "Saints' Jordan and Kamara watch PSG win in the Champions League ahead of NFL game in Paris",
+      "French authorities seek to ban or curb fresh protests",
+      "Suspect arrested after Limoges town hall set alight during disorder - French media",
+      "A couple enjoys a drink on the fringe of Paris rioting",
+      "France protests turn violent nationwide",
+      "Tour de France 2027 : \"brouiller les cartes\" avec un dénouement dans les Pyrénées",
+      "Liberte, Egalite, Misery? Why France is Burning",
+      "Protests across France spiral into riots and looting",
+      "Some Parisians buy pepper spray and tear gas, citing self-defence ahead of protests",
+      "NFL says heightened security measures will be in place for the Steelers-Saints game in Paris",
+      "Old pro-Palestinian protest video falsely linked to student rallies in France",
+      "Global News Podcast | France halts protests with curfew crackdown",
+      "Trump: ‘Paris is going to be a Muslim city very soon’ | CNN Politics",
+      "West Bank: Israeli settlers attack EU diplomats, French mayor",
+      "Le Tour de France femmes arrivera au sommet du Puy de Dôme en 2027",
+      "France’s Bonds Drop as Rioting Heaps Pressure on Government",
+      "Euro sinks on French debt worries; yen gains on AI rout",
+      "How France’s worst rioting in years erupted and how the government responded",
+      "Columbia Global Paris Centre, CPJ and AFP to Host “Voices in Journalism: Fighting Impunity with Christina Assi”, a Panel Discussion in Paris on November 6",
+      "Brighton band had belongings stolen from van in Paris protests",
+      "French couple casually drinks wine as Paris burns",
+      "Un tableau de Monet vendu 50 millions d'euros à Paris, record pour des enchères d'art en France",
+      "Watch France Toughens Its Response To Protests After Riots and Looting",
+      "Euro zone growth slows to 4-month low amid rising costs and French strife, survey shows",
+      "France announces nightly curfews ‘for as long as necessary’ in Paris and other big cities",
+      "Austrian-born French resistance fighter dies aged 105: regional official",
+      "Clean up begins after French riots but police remain",
+      "Macron vows accountability after protests in France turned violent",
+      "France : le climat des affaires repart légèrement à la hausse en octobre, selon l'Insee",
+      "France to Set Curfews After Weekend Riots, Lecornu Says",
+      "Ready for a French test?: Five questions for the ECB",
+      "From France to Spain, Portugal, Italy and Albania, social unrest is setting Europe's streets ablaze",
+      "GAC. THE ENGINEERS: Chinese Automaker Takes Centre Stage at Paris Motor Show as Unveiling World Firsts as It Grows Roots in Europe",
+      "In pictures: French landmarks damaged and destroyed by violent protesters",
+      "In Paris, Celine Dion made the street her stage",
+      "French Stocks and Bonds Retreat as Government Comes Under Pressure",
+      "France's Macron tightens curbs on protests, blaming hard left for unrest",
+      "From France to Albania, social unrest is setting Europe’s streets ablaze",
+      "Macron slams 'stupid' comments based on AI videos by leaders on France riots",
+      "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "Buildings torched after protests descend into rioting across France",
+      "France Toughens Response to Protests as Officials Admit Failure",
+      "France reports first human case of livestock virus Shamonda after patient dies",
+      "NFL in Paris: League eyes big debut as Steelers-Saints game comes amid security concerns",
+      "France to impose new curfews where necessary: PM",
+      "Vinted blocks French looters listing stolen goods for sale",
+      "Protests erupt from Albania and France to India and Italy",
+      "Watch Macron Calls for Order After Violent Protests in France",
+      "French debt risk premium reaches euro zone sovereign crisis levels",
+      "Paris police issue overnight curfew in 2 areas of French capital to try to prevent further disorder",
+      "Alldritt returns as France call up seven newcomers for Nations Championship",
+      "Paris couple seen enjoying a drink as protests take place",
+      "Police throw tear gas at protesters as demonstrations ramp up in France",
+      "Macron en visite éclair à Riyad, ultime étape de sa tournée dans le Golfe",
+      "France May Wait for Le Pen, But Markets Won’t",
+      "France's Macron vows order, calls foreign criticism of unrest 'stupid'",
+      "NBA to open season with 125 international players on rosters. France, Canada lead the way",
+      "Toulouse v Troyes Ligue 1 game postponed as France gripped by unrest",
+      "Katya Adler: France's government under pressure after weekend of widespread violence",
+      "Dette : le taux d'emprunt de la France à dix ans au plus haut depuis 2002",
+      "Euro Falls as Russia Risk, France Protests Dent Trader Sentiment",
+      "Far-left leader Melenchon in firing line as France blame-game heats up",
+      "Violent protests in France as police battle demonstrators, in photos",
+      "Carrefour shares plunge after profit warning on French protests",
+      "Global News Podcast | How will violent unrest influence France's election?",
+      "XV de France : Grégory Alldritt fait son retour pour préparer les matches de novembre",
+      "French bond pain puts euro zone's weak links on notice",
+      "Macron condemns those who 'sought to bring down the Republic' after rioting mars nationwide protests",
+      "Paris Outpaces London as Europe’s Top AI City, According to The Observer’s AI Cities Index",
+      "Six O'Clock News | Temporary curfews implemented across France",
+      "Grèce : \"Comme en France\", plus de 10.000 étudiants et enseignants dans la rue"
+    ],
+    "converted": false,
+    "relevant_headlines": 295,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Nationwide protests and riots",
+        "expected": "Nationwide protests and riots stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Nationwide protests and riots appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Sovereign debt and bond-market stress",
+        "expected": "Sovereign debt and bond-market stress stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sovereign debt and bond-market stress appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Security crackdown and curfews",
+        "expected": "Security crackdown and curfews stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Security crackdown and curfews appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Suspected racist shooting near Paris",
+        "expected": "persist",
+        "sign": "Suspected racist shooting near Paris is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Nationwide protests and riots stays in the news at the same level. Sovereign debt and bond-market stress stays in the news at the same level. Security crackdown and curfews stays in the news at the same level. Suspected racist shooting near Paris is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Military deployment and protest weekend",
+        "expected": "France will deploy its armed forces alongside police for the next round of nationwide cost-of-living protests, marking a decisive escalation in the government's security response.",
+        "direction": "escalate",
+        "sign": "Headlines describing soldiers visible on major city streets alongside riot police during a new protest march, or a government announcement of an emergency fiscal package to address living costs."
+      },
+      "second": {
+        "subject": "French fiscal response and bond market",
+        "expected": "The French government will announce a budget framework or emergency fiscal measures in response to soaring borrowing costs and sustained pressure from bond markets.",
+        "direction": "persist",
+        "sign": "Headlines about a French budget announcement, a fiscal rescue package, or bond yields breaching a new multi-year threshold."
+      },
+      "third": {
+        "subject": "Opposition positioning for 2027",
+        "expected": "Marine Le Pen and other opposition figures will announce concrete policy platforms or coalition strategies to present themselves as successors to Macron amid the deepening political crisis.",
+        "direction": "escalate",
+        "sign": "Headlines about an opposition leader unveiling a presidential campaign strategy or a new cross-party alliance forming around the cost-of-living agenda."
+      },
+      "fade_call": {
+        "subject": "Shamonda virus",
+        "expected": "fade",
+        "sign": "The virus will drop from front-page coverage as no new human cases emerge and official reassurances settle public concern."
+      },
+      "surprise": {
+        "subject": "Cabinet reshuffle",
+        "expected": "Macron will replace one or more senior ministers, including the interior minister who already offered to resign, in a bid to reassert control over the crisis.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, France will enter its most intense phase of the cost-of-living crisis as the government deploys its military alongside police for a new round of nationwide protests. The security operation will likely produce another wave of arrests and clashes, pushing the government to announce emergency fiscal measures to calm bond markets and reassure investors. Opposition figures, led by Marine Le Pen, will seize the moment to announce concrete 2027 campaign strategies and position themselves as the natural successors to a visibly weakened Macron. The Shamonda virus and the aftermath of Storm Austen will fade from the headlines as no new cases or weather events emerge. The single biggest wildcard will be a cabinet reshuffle, with the interior minister's already-offered resignation potentially triggering a broader change in the government's top ranks.",
+      "generated_at": "2026-10-25T11:20:12+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Military deployment and protest confrontation",
+        "expected": "The French government will formally deploy army troops onto Paris streets alongside police, producing a new round of clashes between soldiers and demonstrators.",
+        "direction": "escalate",
+        "sign": "Headlines will describe soldiers in uniform on Paris boulevards, a new wave of clashes with the military, and the interior minister announcing the activation of army units in support of police operations."
+      },
+      "second": {
+        "subject": "French bond market and ratings pressure",
+        "expected": "A second ratings agency will place France on credit watch as the government pushes its fiscal plan through a fractious legislature.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a ratings agency placing France on negative watch, the finance minister defending the budget in a parliamentary session, and bond yields trading at multi-year highs."
+      },
+      "third": {
+        "subject": "Shamonda virus spread",
+        "expected": "French health authorities will confirm a second human case of the Shamonda livestock virus, triggering a regional quarantine in the affected department.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new confirmed infection, a quarantine zone in the affected department, and health officials addressing the public about transmission risk."
+      },
+      "fade_call": {
+        "subject": "NFL Paris debut",
+        "expected": "fade",
+        "sign": "The game result and post-match analysis will appear on sports pages before the headline cycle shifts to the next protest weekend, with no further references to the NFL's French debut."
+      },
+      "surprise": {
+        "subject": "Cost-of-living concession package",
+        "expected": "The prime minister will announce a temporary fuel tax cut designed to defuse the cost-of-living anger, splitting the protest coalition between those who accept the deal and those who call it insufficient.",
+        "chance": "medium"
+      },
+      "summary": "Next week, France will see the military step onto its streets as the government deploys army troops alongside police to confront a protest wave at a breaking point. The bond market will feel fresh pressure as a second ratings agency places France on watch, testing the government's ability to pass its fiscal plan through a divided legislature. The Shamonda livestock virus, which killed its first human patient this week, will generate a second confirmed case, prompting quarantine measures and a national health alert. The NFL Paris debut will fade from the headlines after a single day of sports coverage. The 2027 presidential race will accelerate, with Le Pen's odds rising as the crisis deepens. A fiscal concession package from the prime minister could split the protest coalition, though the military deployment may trigger new clashes before any deal takes hold.",
+      "generated_at": "2026-10-25T11:44:40+02:00"
+    }
+  },
+  "display": {
+    "headline": "France Deploys Army as Riots Enter Second Week",
+    "emojis": [
+      "🔥",
+      "💰",
+      "🦠"
+    ],
+    "emoji_reasons": [
+      "The protest and riot crisis is the dominant story, with the military deployment expected to intensify street-level conflict.",
+      "Sovereign debt stress and ratings pressure form the economic undercurrent defining the week's financial headlines.",
+      "The Shamonda virus, with its first fatal human case, represents the most significant new health threat in the bulletin."
+    ],
+    "tldr": "France will deploy the army onto its streets as protests enter a second week, while bond markets face a fresh ratings warning. A second Shamonda virus case will trigger quarantine measures. The NFL Paris game will fade from headlines.",
+    "eli5": "France is having a really bad week. People are angry about the cost of food, fuel, and housing, and they have been protesting in the streets. It got so bad that stores were looted, buildings caught fire, and thousands of people were arrested. The government sent 70,000 police officers, but now it is also sending the army.\n\nNext week, soldiers will probably show up on the streets of Paris. That is a big deal because the French army usually stays out of domestic politics. It could either calm things down or make them worse. At the same time, the country's borrowing costs are at their highest in over twenty years, and rating agencies are watching closely to see if France can still pay its bills.\n\nThe Shamonda virus is another worry. It is a disease that usually affects animals, but a man in France got sick and died. If a second person gets it, the government will probably close off the area where it appeared.\n\nA surprise would be if the government suddenly announces a fuel tax cut to try to calm everyone down. That might split the protesters into two camps: people who think the deal is good enough, and people who want more."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Nationwide protests and riots dominated the headlines (1, 2, 4, 8, 123, 158, 184, 187), but the direction was 'persist at the same level' while reality shows clear escalation into riots, looting, 2,400 arrests, and military deployment, exceeding the predicted volume."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin explicitly lists 'France-Germany car-industry deal' under 'No longer in the headlines,' and no numbered headline references the car-industry deal."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Sovereign debt stress was indeed a dominant story (34, 44, 69, 73, 125, 228, 239), but the predicted 'same volume' understated the escalation to 5-percent yields, eurozone-crisis-level risk premiums, and a Moody's warning."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The fade call expected the France-Germany car-industry deal to persist, but the reality bulletin lists it under 'No longer in the headlines' and no headline references it."
+          }
+        },
+        "archer_note": "The core thesis of 'more of the same' was wrong; the protests escalated sharply rather than holding steady, and the debt story intensified to eurozone-crisis levels. Two of four slots were devoted to the France-Germany car deal, which had already dropped from the news cycle, leaving the bulletin vulnerable on its fade call. The sovereign debt item was in the right category but undercalled the severity, missing the Moody's warning and the 5-percent yield milestone."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "A second nationwide mobilization did occur with yellow vests and students joining (7, 55, 60, 109, 160), and Macron faced cabinet pressure (112), but the sign predicted headlines centering on a 'specific ministerial concession or reshuffle' rather than fresh street clashes, which is what actually dominated (1, 2, 8, 9, 29, 72)."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "French bond yields hit 5 percent and the risk premium reached eurozone-crisis levels (34, 44, 228, 239), matching the debt-stress category, but the specific signs of 'a concrete fiscal consolidation measure' and 'IMF scrutiny' do not appear in the headlines."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car-industry deal is listed under 'No longer in the headlines' in the reality bulletin, and no numbered headline references the UK trade minister or the China-tariff condition."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Channel Tunnel collision is listed under 'No longer in the headlines' in the reality bulletin, confirming it faded as predicted."
+          }
+        },
+        "archer_note": "The political-reckoning thesis was partially right in that a second mobilization and cabinet pressure occurred, but the specific mechanism of a cabinet reshuffle as the headline story was not borne out; Macron refused the interior minister's resignation rather than granting a concession. The sovereign debt item was in the right category but the IMF and fiscal-consolidation framing was not the language of the headlines. The car deal was a ghost story already absent from the news cycle, and the retail-cyberattack surprise was a low-probability long shot that did not materialize."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "A second nationwide mobilization drew broader participation with yellow vests (160), students (7, 55, 60), and trade unions, producing looting, arrests, tear gas, and clashes across multiple cities (1, 2, 8, 123, 158, 184, 187, 220), exactly matching the predicted escalation and sign."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car-industry deal is listed under 'No longer in the headlines,' and no headline references an EU Parliament committee vote on emissions standards or a UK government statement on the deal."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "French 10-year yields hit 5 percent, the highest since 2002 (34, 44, 239), Moody's issued a warning while sparing a downgrade (73, 124, 167), and the budget path was defended (68) with ECB questions raised (210), matching the predicted escalation and all three sign elements."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Channel Tunnel collision is listed under 'No longer in the headlines' in the reality bulletin, confirming it faded as predicted."
+          }
+        },
+        "archer_note": "The escalation thesis on protests was the strongest call of the three bulletins, correctly anticipating the broadening coalition and second mobilization with matching specifics. The sovereign debt escalation was also well-called, with the Moody's warning, record yields, and budget defense all appearing as predicted. The only significant miss was the France-Germany car deal, which had already dropped from the headlines before this round, and the no-confidence-motion surprise did not materialize."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Y correctly called the Channel Tunnel collision as a fade and placed sovereign debt stress as its second item, while X devoted two of four slots to the France-Germany car deal that had already vanished from the headlines. Y's lead, though imperfect, at least captured the second-mobilization dynamic, whereas X's 'same volume' framing missed the escalation entirely."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Z correctly called the protest escalation and the sovereign-debt escalation as its lead and third items, both matching the reality with specific signs, while X called 'persist at the same level' for both. Z also got the fade call right on the Channel Tunnel collision, whereas X's fade call on the car deal was contradicted by the headlines."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Z scored two came_true grades (lead and third) while Y managed only true_in_direction on those same categories, and Z's protest escalation call matched the broadening coalition more precisely than Y's cabinet-reshuffle framing. Y's debt-stress second item was a partial hit where Z's car-deal second item was a miss, but Z's overall accuracy on the two dominant stories gave it the edge."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": -2.0,
+      "persistence_vs_crystal": -2.0,
+      "plain_vs_crystal": -1.0
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring this window France was engulfed in its most intense protest wave in years. Nationwide demonstrations by high-school students, yellow vests, and cost-of-living protesters descended on Paris, Marseille, and dozens of smaller cities, erupting into clashes, building fires, and wide-scale looting that witnesses called \"unprecedented.\" Macron vowed to hold those who \"sought to bring down the Republic\" accountable, while police tactics drew fresh scrutiny after teenagers were seriously injured. Hundreds were arrested across the country. On the economic front, French sovereign bond yields climbed as political uncertainty deepened, and the Paris stock market recorded its worst underperformance versus European peers since 2010. The finance minister insisted no bailout was needed, while ECB head Draghi and the Bank of France governor offered that a full crisis remained far off. In a major diplomatic breakthrough, France and Germany sealed a deal to protect Europe's car industry, granting the UK a conditional special\n- Nationwide protests and riots (dominant, escalating): Students, yellow vests, and cost-of-living protesters held their largest coordinated mobilization in years, with clashes, looting, and fires in Paris, Marseille, and dozens of regional cities; Macron called the unrest an attempt to bring down the Republic and vowed accountability, while police tactics faced renewed scrutiny after teenagers were injured.\n- France-Germany car-industry deal (dominant, new): Paris and Berlin sealed an agreement on future car-emissions rules, allowed the UK conditional access to the EU car market tied to China-tariff alignment, and pushed to relax the climate-neutrality timeline for vehicles to protect the sector's jobs.\n- Sovereign debt and bond-market stress (dominant, escalating): French bond yields rose on fiscal uncertainty, the Paris stock index logged its worst relative underperformance since 2010, and commentators warned the political crisis could morph into a debt crisis, while Lagarde and the Bank of France governor insisted the solution lies first in France's own budget.\n- 2027 presidential election dynamics (regular, continuing): A poll showed Le Pen and Melenchon gaining ground, a far-left firebrand profiled by the WSJ called for canceling French debt, and Macron's team warned student protesters were being 'exploited' by political forces as the election draw near.\n- Inflation and cost-of-living pressure (regular, continuing): September inflation was reported at 3.1 percent by Insee and 3.4 percent by Reuters, the highest since early 2024, fueling the cost-of-living anger that drove the protests.\n- Channel Tunnel collision (regular, new): A minibus struck a train stopped on the French side of the Channel Tunnel, injuring nineteen people.\n- Retail and refrigeration cyberattack (regular, new): The French cybersecurity authority warned that an attack on retail systems may still be ongoing, stores scrambled to restock, and thousands of connected refrigerators were reported hacked across the country.\n- Paris fires and summer-wildfire costs (occasional, continuing): A second major fire broke out in Paris near Austerlitz station days after a food market was destroyed, and France's summer wildfires were assessed at a 563-million-euro cost to insurers.\n- Macron diplomatic activity (occasional, continuing): Macron announced a four-country Gulf trip (19-21 October) to secure energy supplies, called for an EU budget deal before the French election run-up, and urged Ukraine to be given all means needed to defend its population and infrastructure.\n- Corporate and market moves (occasional, new): Shell agreed to sell its French fuel-station network to DCC Energy, Nvidia announced an investment in a French medical website, Lufthansa outbid Air France-KLM for a stake in Portugal's flag carrier, and private capital continued to back France despite the crisis.\n- Education-sector strain (occasional, escalating): The protests laid bare France's education divide, a school shooting led to the arrest and prosecution of a 14-year-old, the Senate flagged systemic failures in after-school care, and the French soccer ethics body urged fans to keep politics out of stadiums.\n- Miscellaneous news (occasional, new): A South-African rugby player died in France before a Champions Cup match, French cosmetics faced customs delays in China, the last pandas in France were set to return to China, and a rare pink diamond went on public display a century after its theft.\n\nRound 2026-10-02:\nFrance entered mid-October 2026 in what the text calls a double crisis: a street-level education protest and a bond-market loss of confidence in the government's fiscal plan. Students, parents, unions, and mayors had been demonstrating against school conditions, with the largest national marches already held. A 15-year-old was injured in clashes, the government suspended stun grenades, and police watchdog investigations opened. Simultaneously, investors were punishing French sovereign debt: OAT yields were elevated, the spread over German Bunds was wide, and the euro was weak. Finance Minister Roland Lescure had publicly signaled willingness to bypass Parliament through a 49.3-style procedure to pass the fiscal plan. The government, led by PM Lecornu, had released strategic diesel reserves as fuel prices threatened to widen the protest beyond schools. Macron was described as outgoing, Le Pen was being treated as a presidential frontrunner, and the political class was already maneuvering for a post-Macron phase.\n- Students, parents, and unions held major (regular, continuing): Students, parents, and unions held major national demonstrations over school conditions, with a 15-year-old injured in clashes and stun grenades subsequently suspended.\n- Bond markets punished French sovereign debt (regular, continuing): Bond markets punished French sovereign debt, pushing OAT yields elevated, widening the spread over German Bunds, and weakening the euro.\n- Finance Minister Roland Lescure publicly signaled (regular, continuing): Finance Minister Roland Lescure publicly signaled willingness to bypass Parliament via a 49.3-style procedure to pass the government's fiscal plan.\n- The government released strategic diesel reserves (regular, continuing): The government released strategic diesel reserves as rising fuel prices threatened to broaden the education protest into a cost-of-living movement.\n- Macron was described as outgoing and (regular, continuing): Macron was described as outgoing and Le Pen was positioned as a presidential frontrunner as the political class began maneuvering for a post-Macron phase.\n- Macron was described as outgoing and (again) (regular, continuing): Macron was described as outgoing and Le Pen was positioned as a presidential frontrunner as the political class began maneuvering for a post-Macron phase.\n",
+    "PREVIOUS_FORECAST": "Lead: Nationwide protest wave. Expected: A second nationwide day of demonstrations will draw larger crowds to the streets and spark a new round of clashes between protesters and police in multiple cities. Direction: escalate. Sign: Headlines will describe a new coordinated mobilization across multiple cities, with footage of looting, arrests, and tear gas as the protest coalition broadens beyond students to yellow vests and trade unions.\nSecond: France-Germany car industry deal. Expected: The emissions-timeline relaxation will face its first formal challenge in the EU Parliament, where a committee vote will determine whether the climate-neutrality deadline is amended or watered down further. Direction: persist. Sign: Headlines will reference a parliamentary committee vote on vehicle emissions standards and a UK government statement either accepting or contesting the conditional market access tied to China tariff alignment.\nThird: French sovereign debt stress. Expected: The spread between French and German government bonds will widen to a fresh level as the government struggles to advance its fiscal plan through a divided legislature. Direction: escalate. Sign: Headlines will report a record yield spread, a ratings-agency warning, and the finance minister defending the budget path against calls for an ECB intervention.\nFade call: Channel Tunnel minibus-train collision. Expected: fade. Sign: The incident will drop from headlines entirely, with the French terminal returning to normal operations and no follow-up investigation dominating the news cycle.\nSurprise (chance medium): Government stability and cabinet crisis. A no-confidence motion will be tabled in the National Assembly in direct response to the protest wave, forcing the prime minister's cabinet to rally its slim majority and risking a government collapse.\nSummary: Next week, France will be defined by its protest wave and the fiscal crisis beneath it. A second round of nationwide demonstrations will draw broader participation, with yellow vests, trade unions, and students in the streets of Paris, Marseille, and regional cities. The government will push its budget through Parliament under emergency procedure, and the confrontation will rattle bond markets, pushing the yield spread over German Bunds higher. The France-Germany car deal will face its first formal scrutiny in the EU Parliament over the climate-neutrality timeline. The 2027 presidential race will accelerate, with Le Pen and Melenchon gaining ground in the political chatter. The Channel Tunnel collision will fade, while the retail cyberattack lingers. A no-confidence motion could test the cabinet's grip on power.\n",
+    "JUDGE_NOTES": "- lead: came_true. A second nationwide mobilization drew broader participation with yellow vests (160), students (7, 55, 60), and trade unions, producing looting, arrests, tear gas, and clashes across multiple cities (1, 2, 8, 123, 158, 184, 187, 220), exactly matching the predicted escalation and sign.\n- second: did_not_appear. The France-Germany car-industry deal is listed under 'No longer in the headlines,' and no headline references an EU Parliament committee vote on emissions standards or a UK government statement on the deal.\n- third: came_true. French 10-year yields hit 5 percent, the highest since 2002 (34, 44, 239), Moody's issued a warning while sparing a downgrade (73, 124, 167), and the budget path was defended (68) with ECB questions raised (210), matching the predicted escalation and all three sign elements.\n- fade_call: came_true. The Channel Tunnel collision is listed under 'No longer in the headlines' in the reality bulletin, confirming it faded as predicted.\nArcher note: The escalation thesis on protests was the strongest call of the three bulletins, correctly anticipating the broadening coalition and second mobilization with matching specifics. The sovereign debt escalation was also well-called, with the Moody's warning, record yields, and budget defense all appearing as predicted. The only significant miss was the France-Germany car deal, which had already dropped from the headlines before this round, and the no-confidence-motion surprise did not materialize.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}
