@@ -135,15 +135,18 @@ def fetch_country(country, sources, start, end, round_id):
                 seen.add(norm(t))
                 items.append({"title": t, "published": pub, "link": getattr(e, "link", None)})
         items.sort(key=lambda x: x["published"] or "", reverse=True)
+        relevant_before_cap = len(items)   # relevant and inside the window, before the per-source cap
         items = items[:MAX_PER_SOURCE]
         entry = {
             "id": src["id"], "name": src["name"], "count": len(items),
+            "relevant_before_cap": relevant_before_cap,
             "filtered_out": filtered_out, "out_of_window": out_of_window, "items": items,
         }
         if err:
             entry["error"] = err
         out_sources.append(entry)
-        log(f"  {src['name']}: {len(items)} (filtered out {filtered_out})" + (f" ({err})" if err else ""))
+        log(f"  {src['name']}: {len(items)} (relevant_before_cap {relevant_before_cap}, filtered_out {filtered_out})"
+            + (f" ({err})" if err else ""))
         time.sleep(SLEEP_BETWEEN)
 
     apply_country_cap(out_sources)
@@ -192,6 +195,10 @@ def fetch_round(round_id, countries=None, only_codes=None, force=False, settings
         data = fetch_country(c, sources, start, end, round_id)
         save_json(path, data)
         log(f"  total {data['total_items']} headlines")
+        if data["total_items"] < 40:   # Bible 13.19 d: show where the keyword filter, not the world, may be the cause
+            for sr in data["sources"]:
+                log(f"    [{c['code']}] {sr['name']}: relevant_before_cap {sr.get('relevant_before_cap')}, "
+                    f"filtered_out {sr.get('filtered_out')}")
     log("Headline fetch complete.")
     return start, end
 

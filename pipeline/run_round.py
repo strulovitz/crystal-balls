@@ -856,7 +856,29 @@ def main():
         log(f"Round complete. Judged country-weeks this round: {rs['scored']}. "
             f"Crystal better in {rs['crystal_better']}, tie {rs['ties']}, plain better {rs['plain_better']}.")
     else:
-        log("Round complete. No judgments yet: the previous round had no scorable forecasts.")
+        judged = tied = plain_better = crystal_better = unscorable = 0
+        for c in all_countries:
+            cp = rounds_dir / round_id / "countries" / f"{c['code']}.json"
+            if not cp.exists():
+                continue
+            d = load_json(cp)
+            j = d.get("judgment") or {}
+            if (d.get("reader") or {}).get("unscorable") or j.get("unscorable"):
+                unscorable += 1
+            elif j.get("v") is not None:
+                judged += 1
+                if j["v"] > 0:
+                    crystal_better += 1
+                elif j["v"] < 0:
+                    plain_better += 1
+                else:
+                    tied += 1
+        if judged or unscorable:
+            log(f"Round complete. Judged: {judged} countries (crystal better {crystal_better}, tied {tied}, "
+                f"plain better {plain_better}), unscorable: {unscorable}. This round grades a run-in or "
+                f"unscored round, so it is not counted in the verdict.")
+        else:
+            log("Round complete. No judgments: the previous round had no scorable forecasts.")
 
 
 if __name__ == "__main__":
