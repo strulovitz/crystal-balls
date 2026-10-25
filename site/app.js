@@ -1050,12 +1050,28 @@ function scorecardModalV4(sc) {
   html += `<div class="stat-row"><span>Unscorable country-weeks</span><span>${sc.unscorable} of ${sc.country_rounds}</span></div>`;
   html += `<div class="stat-row"><span>First-listed bulletin won (order bias)</span><span>${sc.first_listed_wins_share == null ? '\u2014' : Math.round(sc.first_listed_wins_share * 100) + '%'} of ${sc.first_listed_nonties}</span></div>`;
   Object.entries(sc.item_grades || {}).forEach(([arm, g]) => {
-    html += `<div class="stat-row"><span>Item grades, ${arm}</span><span>${g.came_true || 0} true / ${g.true_in_direction || 0} right direction / ${g.did_not_appear || 0} did not appear / ${g.cannot_establish || 0} cannot establish</span></div>`;
+    html += `<div class="stat-row"><span>Item grades, ${arm} (all judged, including run-in)</span><span>${g.came_true || 0} true / ${g.true_in_direction || 0} right direction / ${g.did_not_appear || 0} did not appear / ${g.cannot_establish || 0} cannot establish</span></div>`;
   });
   Object.entries(sc.gap_buckets || {}).forEach(([k, g]) => {
     if (g.n) html += `<div class="stat-row"><span>Gap ${k}</span><span>${g.n} country-weeks, mean ${g.mean_v}</span></div>`;
   });
   html += `<div class="stat-row"><span>Judge validation</span><span>${sc.judge_validated ? 'passed' : 'not yet validated'}</span></div>`;
+  const ri = sc.run_in_results;
+  if (ri && ri.countries) {
+    const sg = x => (x == null ? '\u2014' : (x > 0 ? '+' : '') + x);
+    html += `<h3 style="margin:16px 0 6px;">Run-in round ${esc((ri.graded_rounds || []).join(', '))}, not counted</h3>`;
+    html += `<p class="baseline">${esc(ri.sentence || '')}</p>`;
+    html += `<div class="stat-row"><span>Judged countries (run-in round, not counted)</span><span>${ri.countries}: Crystal better ${ri.crystal_better}, tie ${ri.ties}, plain better ${ri.plain_better}</span></div>`;
+    html += `<div class="stat-row"><span>Mean verdict, Crystal minus plain (run-in round, not counted)</span><span>${sg(ri.mean_v)}</span></div>`;
+    html += `<div class="stat-row"><span>Mean verdict, Crystal against more-of-the-same (run-in round, not counted)</span><span>${sg(ri.mean_u)}</span></div>`;
+    Object.entries(ri.item_grades || {}).forEach(([arm, g]) => {
+      html += `<div class="stat-row"><span>Item grades, ${arm} (run-in round, not counted)</span><span>${g.came_true || 0} true / ${g.true_in_direction || 0} right direction / ${g.did_not_appear || 0} did not appear / ${g.cannot_establish || 0} cannot establish</span></div>`;
+    });
+    (ri.per_country || []).forEach(r => {
+      const c = countriesByCode[r.code];
+      html += `<div class="stat-row"><span>${esc(c ? c.name : r.code)} (run-in round, not counted)</span><span>${esc(r.result)}; Crystal minus plain ${sg(r.v)}; against more-of-the-same ${sg(r.u)}</span></div>`;
+    });
+  }
   (sc.hand_made_forecasts || []).forEach(h => {
     html += `<div class="stat-row"><span>Hand-made forecast, ${esc(h.code)}, graded ${esc(h.round)}${h.partial ? ` (preview, ${h.days_covered} of ${h.days_total} days)` : ''}</span><span>against more-of-the-same: ${h.u == null ? '\u2014' : h.u}</span></div>`;
   });

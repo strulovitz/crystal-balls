@@ -145,6 +145,9 @@ def compute_scorecard(rounds_dir=None):
     per_country = {}
     run_in_rounds = set()
     run_in_judged = 0
+    run_in_v, run_in_u, run_in_list = [], [], []   # Bible 13.19 c: descriptive block, not counted
+    run_in_grades = {a: {g: 0 for g in ("came_true", "true_in_direction", "did_not_appear", "cannot_establish")}
+                     for a in ("plain", "crystal", "persistence")}
     if rounds_dir.exists():
         for d0 in rounds_dir.iterdir():
             rj0 = d0 / "round.json"
@@ -203,6 +206,16 @@ def compute_scorecard(rounds_dir=None):
                 # 13.17: a run-in round's judged results stay in the item grades and the gap buckets,
                 # but never enter the verdict count.
                 run_in_judged += 1
+                for arm, e in j["per_arm"].items():
+                    for g in e["items"].values():
+                        run_in_grades[arm][g["grade"]] += 1
+                if v is not None:
+                    run_in_v.append(v)
+                if u is not None:
+                    run_in_u.append(u)
+                run_in_list.append({"code": code, "graded_round": j.get("graded_round"), "judged_in_round": round_id,
+                                    "elapsed_days": j.get("elapsed_days"), "v": v, "u": u,
+                                    "result": ("crystal better" if (v or 0) > 0 else "plain better" if (v or 0) < 0 else "tie")})
                 if v is not None:
                     buckets[_gap_bucket(j.get("elapsed_days"))].append(v)
                 continue
@@ -256,6 +269,19 @@ def compute_scorecard(rounds_dir=None):
         "hand_made_forecasts": hand_made,
         "noise_floor": noise_floor(rounds_dir),
         "run_in_rounds": sorted(run_in_rounds), "run_in_judged_country_weeks": run_in_judged,
+        "run_in_results": {
+            "label": "run-in round, not counted",
+            "graded_rounds": sorted(run_in_rounds), "countries": len(run_in_list),
+            "mean_v": round(mean(run_in_v), 3) if run_in_v else None,
+            "mean_u": round(mean(run_in_u), 3) if run_in_u else None,
+            "crystal_better": sum(1 for r in run_in_list if r["result"] == "crystal better"),
+            "ties": sum(1 for r in run_in_list if r["result"] == "tie"),
+            "plain_better": sum(1 for r in run_in_list if r["result"] == "plain better"),
+            "item_grades": run_in_grades,
+            "sentence": "Both forecasters beat more-of-the-same on direction; crystal and plain were not yet "
+                        "distinguishable because the wind was not available.",
+            "per_country": sorted(run_in_list, key=lambda r: r["code"]),
+        },
         "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count.",
     }
     return scorecard, round_scorecards

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-25T16:17:42+02:00",
+  "generated_at": "2026-10-25T19:22:40+02:00",
   "judge_validated": false,
   "judge_note": "The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the repository, timestamped before reality arrived.",
   "rounds_scored": 0,
@@ -125,5 +125,247 @@
     "2026-10-17"
   ],
   "run_in_judged_country_weeks": 23,
+  "run_in_results": {
+    "label": "run-in round, not counted",
+    "graded_rounds": [
+      "2026-10-17"
+    ],
+    "countries": 23,
+    "mean_v": -0.043,
+    "mean_u": 0.435,
+    "crystal_better": 8,
+    "ties": 6,
+    "plain_better": 9,
+    "item_grades": {
+      "plain": {
+        "came_true": 28,
+        "true_in_direction": 44,
+        "did_not_appear": 20,
+        "cannot_establish": 0
+      },
+      "crystal": {
+        "came_true": 28,
+        "true_in_direction": 43,
+        "did_not_appear": 21,
+        "cannot_establish": 0
+      },
+      "persistence": {
+        "came_true": 31,
+        "true_in_direction": 22,
+        "did_not_appear": 39,
+        "cannot_establish": 0
+      }
+    },
+    "sentence": "Both forecasters beat more-of-the-same on direction; crystal and plain were not yet distinguishable because the wind was not available.",
+    "per_country": [
+      {
+        "code": "AU",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "BR",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": -2.0,
+        "result": "plain better"
+      },
+      {
+        "code": "CA",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": 1.0,
+        "result": "tie"
+      },
+      {
+        "code": "CN",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": -1.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "DE",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": 2.0,
+        "result": "tie"
+      },
+      {
+        "code": "EG",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": -1.0,
+        "result": "tie"
+      },
+      {
+        "code": "FR",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": 2.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "GB",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": -1.0,
+        "result": "tie"
+      },
+      {
+        "code": "ID",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "IL",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": 2.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "IN",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 0.0,
+        "result": "plain better"
+      },
+      {
+        "code": "IR",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": 1.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "IT",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 2.0,
+        "result": "plain better"
+      },
+      {
+        "code": "JP",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": -1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "KP",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": -1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "KR",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "RU",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": 1.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "SA",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": 2.0,
+        "result": "tie"
+      },
+      {
+        "code": "TR",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": -1.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "TW",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": 2.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "UA",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": -1.0,
+        "u": 1.0,
+        "result": "plain better"
+      },
+      {
+        "code": "US",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 1.0,
+        "u": -2.0,
+        "result": "crystal better"
+      },
+      {
+        "code": "ZA",
+        "graded_round": "2026-10-17",
+        "judged_in_round": "2026-10-24",
+        "elapsed_days": 7,
+        "v": 0.0,
+        "u": 1.0,
+        "result": "tie"
+      }
+    ]
+  },
   "run_in_note": "Run-in round, forecasts generated late: its judged results are excluded from the verdict count."
 }
