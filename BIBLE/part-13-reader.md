@@ -165,3 +165,13 @@ d. Noise control: in every round, for four fixed countries (US, IL, DE, BR), the
 e. The unscorable threshold of 40 relevant headlines stays. If more than 8 countries are unscorable in a round whose window is 7 days or more, report the per-country counts to Fable before changing anything.
 
 f. A hand-made forecast (the 2026-10-22 Israel text, horizon Oct 22 to 29) is graded in the first round whose headline window ends on or after the forecast's horizon end, never before.
+
+
+### 13.19 Amendment: protocol frozen, first scored round, collection fix (Fable, 2026-10-25, after round 2026-10-24)
+
+a. Round 2026-10-17 is run-in and its graded bulletins carried no wind: arm B had no previous forecast of its own and no judge note, so the error-correction step was absent by construction. The forecasts of round 2026-10-24 are the first in which arm B received its own previous forecast and the judge's grades. They are the first scored forecasts. The pre-registered count of 13.6 starts with the round that grades them.
+b. From this moment the protocol is frozen: prompts, validators, judge rubric, parameters of 13.18 and the scoring rules do not change until six rounds are scored. Only bug fixes are allowed, each recorded with date and reason in this file under 13.19 f.
+c. Descriptive results from the run-in grading are shown on the page under the label "run-in round, not counted": crystal against plain mean v, crystal against persistence mean u, and the item-grade counts of all three bulletins, with the sentence "Both forecasters beat more-of-the-same on direction; crystal and plain were not yet distinguishable because the wind was not available."
+d. Collection: the unscorable threshold drops from 40 to 25 relevant headlines. For every country with fewer than 40 in a 7-day window, print relevant_before_cap and filtered_out per source so the keyword lists can be widened where the filter, not the world, is the cause.
+e. Judge validation of 13.7 runs now, on the real judge, before the next round, using eight 10-17 bulletins. Its result decides whether the badge shows a verdict.
+f. Bug fixes log: 2026-10-25, the final log line "No judgments yet" printed although 23 countries were judged; corrected to report judged, tied and unscorable counts.
