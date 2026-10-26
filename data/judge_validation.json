@@ -1,0 +1,2418 @@
+{
+  "passed": false,
+  "round": "2026-10-24",
+  "paraphrase_ties": 8,
+  "paraphrase_n": 8,
+  "required": "wrong_country and reversed mean at least 1, vague and actors_swapped mean above 0, paraphrase within 0.5 of a tie in at least 6 of 8",
+  "mock": false,
+  "per_kind": {
+    "wrong_country": {
+      "n": 8,
+      "mean": 2.0,
+      "values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "actors_swapped": {
+      "n": 8,
+      "mean": 1.0,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "reversed": {
+      "n": 8,
+      "mean": 0.75,
+      "values": [
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        0.0,
+        -1.0,
+        -2.0,
+        2.0
+      ]
+    },
+    "vague": {
+      "n": 8,
+      "mean": 0.5,
+      "values": [
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "paraphrase": {
+      "n": 8,
+      "mean": 0.0,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "by_country": {
+    "wrong_country": {
+      "AU": 2.0,
+      "BR": 2.0,
+      "CA": 2.0,
+      "CN": 2.0,
+      "DE": 2.0,
+      "EG": 2.0,
+      "FR": 2.0,
+      "GB": 2.0
+    },
+    "actors_swapped": {
+      "AU": 1.0,
+      "BR": 1.0,
+      "CA": 1.0,
+      "CN": 2.0,
+      "DE": 0.0,
+      "EG": 1.0,
+      "FR": 1.0,
+      "GB": 1.0
+    },
+    "reversed": {
+      "AU": 2.0,
+      "BR": 2.0,
+      "CA": 2.0,
+      "CN": 1.0,
+      "DE": 0.0,
+      "EG": -1.0,
+      "FR": -2.0,
+      "GB": 2.0
+    },
+    "vague": {
+      "AU": -1.0,
+      "BR": 1.0,
+      "CA": -1.0,
+      "CN": 1.0,
+      "DE": 1.0,
+      "EG": 1.0,
+      "FR": 1.0,
+      "GB": 1.0
+    },
+    "paraphrase": {
+      "AU": 0.0,
+      "BR": 0.0,
+      "CA": 0.0,
+      "CN": 0.0,
+      "DE": 0.0,
+      "EG": 0.0,
+      "FR": 0.0,
+      "GB": 0.0
+    }
+  },
+  "kept_from_first_run": [
+    "wrong_country",
+    "paraphrase"
+  ],
+  "replies": {
+    "AU|actors_swapped": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [12], [15], and [81] confirm South Africa beat Australia by an innings to level the series 1-1, with Rabada named in [15] and [81] as part of the Proteas attack that produced the series-levelling win."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [108] reports 'Woodside natural gas project unit paused after Greenpeace protest off Western Australia,' placing the issue in the correct category, but no headline shows Greenpeace filing a legal claim or formally ending the protest as the sign required."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [4] and [27] confirm the Women's Rugby League World Cup was in the headlines with Australia's 78-0 score over England, but New Zealand does not appear in any rugby-league World Cup headline, so the specific fixture the sign promised is absent."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [46] still reports 'Mexico imprisons killers of US, Australian surfers for 158 years each,' which is a sentencing story rather than the appeals or bail discussions the fade sign predicted."
+              }
+            },
+            "archer_note": "Bulletin X missed the dominant Helen Haines car-attack story entirely, which consumed the majority of the week's headlines, and also missed the RBA inflation warning and the Zip/NextDC market shocks. Its third item misidentified the Rugby League World Cup fixture as New Zealand's rather than Australia's, and its second item framed the gas-platform story around Greenpeace's response when the actual headline centred on Woodside pausing the project. The main thesis (cricket as lead, gas protest as secondary) was directionally sound but the supporting details were one step off from what the headlines actually delivered."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [12], [60], and [89] confirm South Africa won the second Test by an innings to level the series, matching the sign's 'series-leveling scoreline' prediction exactly."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headline [108] states 'Woodside natural gas project unit paused after Greenpeace protest off Western Australia,' which directly matches the sign's 'suspending gas production in response to the platform occupation.'"
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [4] carries Australia's 78-0 score in the Women's Rugby League World Cup, satisfying the sign's core requirement, but the opponent was England rather than the 'Pacific Island or Asian group-stage opponent' the expected clause specified."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [46] still reports the sentencing of the surfers' killers to 158 years each, meaning the story had not faded into appeals or bail discussions as predicted."
+              }
+            },
+            "archer_note": "Bulletin Y also missed the dominant Helen Haines attack, the RBA inflation warning, and the Zip/NextDC corporate shocks that defined the week. Its second item was the most precisely calibrated of all four graded items, correctly anticipating Woodside's pause, while its third item got the right tournament and team but the wrong opponent. The main thesis of cricket as lead and gas protest as secondary was correct and better aligned with the actual headline text than Bulletin X's framing."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 1,
+            "reason": "Bulletin Y's second item correctly framed the gas-platform story around Woodside's production pause, matching headline [108] almost verbatim, whereas Bulletin X's sign required Greenpeace to file a legal claim or end the protest, which no headline confirms. Y's third item also more closely matched reality by centring on Australia's World Cup score rather than New Zealand's absent fixture, giving Y a narrow but real edge on specificity."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Rabada second Test",
+          "expected": "Rabada will push for a series-levelling win in the second Test against the home side after conceding the first match.",
+          "direction": "escalate",
+          "sign": "Headlines will announce the second Test result with a dramatic finish or a series-leveling scoreline."
+        },
+        "second": {
+          "subject": "Greenpeace gas platform escalation",
+          "expected": "Greenpeace will announce a formal response regarding the gas platform occupation, either ending the protest or filing a legal claim against the energy firm.",
+          "direction": "escalate",
+          "sign": "Headlines will report Greenpeace resuming or ending the platform protest in response to the energy firm's legal filing."
+        },
+        "third": {
+          "subject": "New Zealand Rugby League World Cup",
+          "expected": "New Zealand will play its second Rugby League World Cup match against a Pacific Island or Asian group-stage opponent.",
+          "direction": "persist",
+          "sign": "Headlines will carry New Zealand's score and try-getter in its next group-stage Rugby League World Cup fixture."
+        },
+        "fade_call": {
+          "subject": "Three surfers' killers sentencing",
+          "expected": "fade",
+          "sign": "Headlines will replace the sentencing stories with appeals or bail discussions as the case moves forward."
+        },
+        "surprise": {
+          "subject": "NAB private credit pullback",
+          "expected": "NAB will announce tightened lending criteria for private credit funds, triggering a brief sell-off in ASX-listed property and infrastructure stocks.",
+          "chance": "medium"
+        },
+        "summary": "Next week, Rabada drives the cricket narrative as his teammates push for a series-levelling win in the second Test, with low crowds at the first match already prompting a format review. New Zealand advances in the Rugby League World Cup, facing its next group-stage fixture after a narrow opener. On the west coast, Greenpeace will respond formally to the gas platform situation, either restarting the protest or escalating the legal dispute. The economy enters a calmer phase as September's employment data cools rate-hike expectations, with the treasurer signalling a focus on inflation over growth. The three surfers' killers' sentencing fades from headlines as the case moves toward appeals. A watch item is NAB's private-credit funding pullback, which may rattle ASX-listed property stocks if lending terms tighten.",
+        "generated_at": "2026-10-23T09:20:13+03:00"
+      }
+    },
+    "AU|reversed": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [2], [12], and [60] confirm South Africa beat Australia by an innings to level the series 1-1, the direct opposite of the predicted dominant Australian victory that would seal the series."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [108] reports Woodside's natural gas project unit paused after the Greenpeace protest, confirming the Woodside-Greenpeace topic but showing continued escalation rather than the predicted peaceful resolution with activists vacating."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [4] reports Australia thrashing England 78-0 in the Women's Rugby League World Cup, contradicting the prediction that Australia would sit out the match during a midweek break."
+              },
+              "fade_call": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [46] reports Mexico imprisoning the surfers' killers for 158 years each, confirming a sentencing verdict occurred, but it appears as a single headline rather than dominating front pages as predicted."
+              }
+            },
+            "archer_note": "The bulletin completely missed the week's dominant story, the Helen Haines car-ramming attack that generated over twenty headlines, by centering its lead on a cricket result it got backwards. Its main thesis was wrong: it predicted Australian dominance in cricket and a peaceful Woodside resolution, when reality delivered a South Africa innings victory and an ongoing gas standoff. The Mexico fade call was directionally right on the sentencing happening but overestimated its headline share."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2] and [12] confirm South Africa beat Australia by an innings to level the series 1-1, exactly matching the predicted series-levelling scoreline and the direction of South Africa pushing for a win."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headline [108] reports Woodside's natural gas project unit paused after the Greenpeace protest, matching the sign of suspending gas production in response to the platform occupation."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [4] reports Australia 78-0 England in the World Cup, confirming a played match with score in the headline, but the opponent was England rather than the predicted Pacific Island or Asian group-stage team."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [46] reports the sentencing as a fresh concrete outcome (158 years each), the opposite of the story fading into appeals or bail discussions as predicted."
+              }
+            },
+            "archer_note": "The bulletin correctly anticipated the cricket result direction and the Woodside escalation, but it entirely missed the Helen Haines car attack, which was the week's single dominant narrative across more than twenty headlines. Its Mexico fade call was wrong because the sentencing actually materialized as a concrete verdict rather than dissolving into procedural appeals. The main thesis was directionally sound on its two leads but was early and incomplete, capturing the cricket and energy threads while missing the political-security story that defined the week."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 2,
+            "reason": "Bulletin Y correctly predicted the series-levelling South Africa victory and the Woodside operational pause, while Bulletin X predicted the opposite outcome on both items. Y's only clear miss was the Mexico fade call, whereas X got the cricket direction, the World Cup fixture, and the Woodside resolution all wrong or backwards."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "South Africa second Test",
+          "expected": "Australia will dominate the second Test against South Africa, sealing the series with a convincing victory that ends all contest.",
+          "direction": "de-escalate",
+          "sign": "Headlines will announce Australia's decisive second Test victory and the series being sealed without a contest."
+        },
+        "second": {
+          "subject": "Woodside gas protest",
+          "expected": "Woodside will withdraw its legal claim against Greenpeace and the activists will vacate the platform, ending the standoff peacefully.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report the Greenpeace activists leaving the platform and Woodside dropping its legal claim."
+        },
+        "third": {
+          "subject": "Rugby League World Cup",
+          "expected": "Australia will sit out its second Rugby League World Cup match as the tournament enters a midweek break.",
+          "direction": "fade",
+          "sign": "Headlines will report the tournament entering a break with Australia's next fixture postponed or rescheduled."
+        },
+        "fade_call": {
+          "subject": "Mexico surfer murders",
+          "expected": "escalate",
+          "sign": "Headlines will show the sentencing dominating front pages with a new harsher verdict or retrial announced."
+        },
+        "surprise": {
+          "subject": "Private credit funding pullback",
+          "expected": "A major Australian bank will announce loosened lending criteria for private credit funds, triggering a rally in ASX-listed property and infrastructure stocks.",
+          "chance": "medium"
+        },
+        "summary": "Next week, Australia's week centers on the cricket field as South Africa concedes the second Test and the series is sealed with a dominant Australian victory. The Rugby League World Cup enters a midweek break, with Australia sitting out its second fixture after a scheduling dispute. In Western Australia, Woodside drops its legal claim and the Greenpeace activists vacate the platform, resolving the standoff peacefully. The economy enters a hotter phase as September's employment data stokes rate-hike expectations, with the treasurer signalling a focus on growth over inflation. The Mexico surfer-murder sentencing dominates headlines as a harsher verdict or retrial is announced. A watch item is the private-credit funding expansion, which lifts ASX-listed property stocks when a major bank loosens lending terms.",
+        "generated_at": "2026-10-23T09:20:13+03:00"
+      }
+    },
+    "AU|vague": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [12], and [89] confirm South Africa beat Australia by an innings to level the series 1-1, with selection headaches and a Smith injury escalating the story."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headline [108] reports Woodside's natural gas project unit was paused after a Greenpeace protest off Western Australia, satisfying the sign and the escalate direction."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [4] and [27] cover Australia's 78-0 Women's Rugby League World Cup win over England, confirming the topic persisted in the headlines."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [46] still reports 'Mexico imprisons killers of US, Australian surfers for 158 years each,' showing the story had not faded from the headlines."
+              }
+            },
+            "archer_note": "X completely missed the week's dominant story, the deliberate car-ramming of MP Helen Haines, along with the RBA inflation warning, the Snowy Hydro cost blowout, and the Meta/TikTok lawsuits. Its four items were all peripheral topics that did persist, so the main thesis was correct in a narrow sense but the bulletin's scope was far too thin for a week of intensity 7. The generic sign 'the topic is mentioned in headlines' is so easy to satisfy that it barely differentiates a correct forecast from a coin flip."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2] and [12] announce South Africa beating Australia by an innings to level the series 1-1, matching the sign of a series-leveling result with a dramatic finish."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headline [108] reports Woodside's gas project unit was paused after the Greenpeace protest, matching the sign of a headline about Woodside suspending gas production in response to the occupation."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [4] shows Australia beating England 78-0 in the Rugby League World Cup, but the opponent was England rather than the predicted Pacific Island or Asian group-stage team, a specific detail the evidence contradicts."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [46] still carries the Mexico surfer-murder story with the 158-year imprisonment, so the sentencing had not disappeared from the headlines as the fade sign required."
+              }
+            },
+            "archer_note": "Y missed the same dominant stories as X, including the Helen Haines attack, the RBA inflation warning, the Snowy Hydro blowout, and the Meta/TikTok lawsuits. Its over-specific prediction of a Pacific Island or Asian RLWC opponent was contradicted by the England match, showing that added detail can introduce errors that vaguer phrasing would have avoided. The main structural thesis was sound, but the one concrete factual slip on the third item cost it a grade relative to X."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "Y's specific prediction of a Pacific Island or Asian RLWC opponent was contradicted by the England match, downgrading its third item to true_in_direction while X's generic sign was fully satisfied. Both bulletins share the same four topics, the same correct lead, and the same wrong fade call, but Y's added specificity introduced one concrete error that X's vagueness avoided."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "South Africa second Test",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "Woodside gas protest",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Rugby League World Cup",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Mexico surfer murders",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Private credit funding pullback",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T09:20:13+03:00"
+      }
+    },
+    "BR|actors_swapped": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [1], [3], [17], [34], [52], [75], [87] confirm two debates and a full final campaign sprint, while [6], [12], [68], [79], [110] confirm razor-thin tied polls, matching the predicted sign of debate reactions and concurrent poll releases."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "The Meta interference dispute and court equal-treatment order are confirmed by [24], [58], [76], [83], [84], but the bulletin named the OAS as the filing body while the headlines show the UN and the Brazilian electoral court, not the OAS."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [51] confirms the government probing the criminal origin of forest fires, but the predicted 'record-low deforestation milestone as a decisive policy contrast in final speeches' does not appear clearly in any headline."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin explicitly lists 'Shorter workweek approved' under 'No longer in the headlines,' confirming the fade prediction."
+              }
+            },
+            "archer_note": "X missed the Prudential sale, the Newcastle poultry outbreak, the Indigenous voter transportation order, and the Milei meddling accusation, all of which dominated the headlines. Its Meta item was directionally right but misidentified the OAS as the filing body rather than the UN and the electoral court. The main thesis of a final campaign sprint with a tied race was squarely correct, not merely early."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "The same set of debate and poll headlines [1], [3], [17], [34], [52], [75], [87] plus [6], [12], [68], [79], [110] confirm the final sprint and razor-thin margin, matching the predicted sign."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "The Meta dispute and court order are confirmed by [24], [58], [76], [83], [84], but the bulletin attributed the filing to Datafolha (a polling firm) and the OAS, whereas the headlines show Lula's campaign filing and the UN plus the Brazilian electoral court acting."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [51] confirms a criminal probe into forest fires, but the bulletin named Shell as the entity publishing findings, a specific oil company that appears in no headline, while the probe is attributed to the Brazilian government."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin lists the shorter workweek under 'No longer in the headlines,' confirming the fade, though the odd 'Itau talking point' framing in the sign is not supported by any headline."
+              }
+            },
+            "archer_note": "Y missed the same peripheral stories as X (Prudential, poultry, Indigenous transport, Milei) and additionally misidentified two specific actors: Datafolha instead of Lula's campaign, and Shell instead of the government. The 'Itau talking point' detail in the fade call is an over-specific invention not visible in any headline. The main thesis of a final campaign sprint with a tight race was correct, not merely early."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X correctly named 'Lula's party' as the Meta filing body and 'the government's criminal probe' for the fires, while Y misidentified Datafolha (a polling firm) and Shell (an oil company) as the respective actors. Both bulletins share the same core thesis and fade call, so the difference is narrow, but X's two specific-actor errors are fewer and less conspicuous than Y's."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Flavio Bolsonaro's final campaign sprint",
+          "expected": "Flavio Bolsonaro will launch a full-throttle final campaign sprint of road rallies, televised debates, and last-minute endorsement drives in the stretch before the runoff ballot, with polling gaps holding at a razor-thin margin.",
+          "direction": "escalate",
+          "sign": "Headlines will carry rally crowd descriptions, televised debate reactions, and concurrent poll releases as the presidential race tightens around Flavio Bolsonaro's push"
+        },
+        "second": {
+          "subject": "Datafolha and OAS escalation",
+          "expected": "Datafolha will formally file its interference complaint with the OAS accusing Meta of algorithmic bias, and a Brazilian court will compel the platform to give both runoff candidates equal treatment before the vote.",
+          "direction": "escalate",
+          "sign": "Headlines will report the OAS filing, Meta's public rebuttal, and a court equal-treatment order as fresh procedural steps in the platform dispute"
+        },
+        "third": {
+          "subject": "Shell and Amazon fires debate",
+          "expected": "Shell will publish preliminary findings on whether the wildfire surge was coordinated or deliberate, and the candidates will seize the record-low deforestation milestone as a decisive policy contrast in their final speeches.",
+          "direction": "persist",
+          "sign": "Headlines will quote Shell's conclusions on coordinated or criminal fires and frame the deforestation milestone as a campaign scoreboard"
+        },
+        "fade_call": {
+          "subject": "Itau and workweek approval",
+          "expected": "fade",
+          "sign": "The shortened workweek will appear only as an Itau talking point rather than as fresh legislative news"
+        },
+        "surprise": {
+          "subject": "AGI Inc probe expansion",
+          "expected": "AGI Inc will name a senior figure in the rival camp or a key ally in the Banco Master financial probe, injecting a late-week scandal into the final campaign stretch and forcing a reactive rally or press conference.",
+          "chance": "low"
+        },
+        "summary": "Next week is Brazil's final campaign sprint before the presidential runoff. Flavio Bolsonaro will saturate television, social media, and the road with last-minute rallies and debates while polling gaps stay razor-thin. The Meta case will move to the OAS as Datafolha formally lodges its interference complaint, and a Brazilian court will compel the platform to give both candidates equal algorithmic treatment. In the Amazon, Shell will release preliminary findings on whether the fires were criminal or coordinated, and the candidates will brandish the record-low deforestation number as proof of their policy track. The shortened workweek, already approved, will recede from front pages into Itau rhetoric. A late AGI Inc probe expansion will rattle the opposing side. Markets will watch the debt trajectory with growing unease even as the Ibovespa holds near record levels.",
+        "generated_at": "2026-10-23T08:49:14+03:00"
+      }
+    },
+    "BR|reversed": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 1, 3, 17, 34, 75, 87 show two full debates and headlines 6, 12, 68, 110 show polls tied, contradicting the predicted de-escalation and widening polling gap."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 24, 25, 61, 69 show the Meta interference complaint was filed (not withdrawn) and headlines 76, 84 show a court compelling Meta to prove equal treatment, the opposite of the predicted de-escalation."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline 51 confirms the criminal forest-fire probe is still active, and the topic faded from the dominant stories, but no headline reports shelved findings or the deforestation milestone being dropped from speeches."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "The reality bulletin explicitly lists the shorter workweek as no longer in the headlines, contradicting the prediction that it would escalate with new legislative votes and enforcement deadlines."
+              }
+            },
+            "archer_note": "The main thesis of a quiet campaign lull with widening polling gaps was fundamentally wrong; the week was the most intense stretch with two debates and tied polls. The Meta dispute direction was reversed, predicting resolution when the complaint was actually filed and the court intervened. The Amazon item was the closest to reality, correctly sensing it would not dominate, but the probe remained active rather than shelved."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines 1, 3, 17, 34, 75, 87 confirm two full debates, headlines 86, 89, 92 show costly last-minute promises, and headlines 6, 12, 68, 79, 110 confirm razor-thin tied polls, all matching the full-throttle sprint prediction."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headlines 24, 25, 61, 69 confirm the disqualification filing over Meta interference, and headlines 76, 84 confirm the court ordering Meta to prove equal treatment within 24 hours, matching the escalation and court-order prediction."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline 51 confirms the criminal forest-fire probe is persisting, but no headline reports published preliminary findings or the deforestation milestone being seized as a decisive campaign contrast in final speeches."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin lists the shorter workweek as no longer in the headlines, matching the prediction that it would recede into campaign rhetoric rather than generate fresh legislative news."
+              }
+            },
+            "archer_note": "The main thesis of a full-throttle final sprint with razor-thin polls was accurate and well-supported by the headlines. The Meta prediction captured both the filing and the court order correctly, with only the OAS versus UN distinction being a minor over-specification. The Amazon item was the weakest, slightly over-specific in expecting published findings and a campaign scoreboard that did not clearly materialize."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 2,
+            "reason": "Bulletin Y correctly called the direction (escalate) and specifics (razor-thin polls, two debates, Meta filing and court order) on the two dominant stories, while X got both directions backwards. Y also correctly called the shorter-workweek fade, whereas X predicted it would escalate, making Y accurate on three of four items versus X's one."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Runoff final campaign sprint",
+          "expected": "The two presidential camps will pause their final campaign sprint, scaling back rallies and televised debates as polling gaps widen to a comfortable margin.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report campaign pauses, reduced debate schedules, and poll releases showing widening gaps between the two presidential camps"
+        },
+        "second": {
+          "subject": "Meta and OAS escalation",
+          "expected": "Lula's party will withdraw its OAS interference complaint against Meta, and a Brazilian court will let the platform keep its current algorithmic treatment for both runoff candidates.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report the OAS withdrawal, Meta's public relief statement, and a court decision allowing the platform to maintain its current treatment"
+        },
+        "third": {
+          "subject": "Amazon fires and deforestation debate",
+          "expected": "The government's criminal probe into the wildfire surge will shelve its preliminary findings, and both camps will drop the deforestation milestone from their final campaign speeches.",
+          "direction": "fade",
+          "sign": "Headlines will note the probe's delayed findings and the deforestation milestone fading from campaign rhetoric as the debate cools"
+        },
+        "fade_call": {
+          "subject": "Shorter workweek approval",
+          "expected": "escalate",
+          "sign": "Headlines will carry new legislative votes, enforcement deadlines, and ministerial briefings as the shortened workweek moves into implementation"
+        },
+        "surprise": {
+          "subject": "Banco Master probe expansion",
+          "expected": "Investigators will narrow the Banco Master probe and name a senior figure in the Lula camp, injecting a late-week scandal into the final campaign stretch and forcing a reactive rally or press conference.",
+          "chance": "low"
+        },
+        "summary": "Next week is Brazil's quiet campaign lull before the presidential runoff. Both Lula and the Bolsonaro camp will scale back television appearances and road rallies while polling gaps widen to a comfortable margin. The Meta case will cool as Lula's party withdraws its OAS interference complaint, and a Brazilian court will let the platform keep its current algorithmic treatment. In the Amazon, the government's probe into the wildfire surge will shelve its findings, and both camps will drop the deforestation milestone from their speeches. The shortened workweek will surge back to front pages as Congress debates implementation details and enforcement timelines. A late Banco Master probe narrowing will rattle the Lula camp. Markets will watch the debt trajectory with easing unease even as the Ibovespa pulls back from record levels.",
+        "generated_at": "2026-10-23T08:49:14+03:00"
+      }
+    },
+    "BR|vague": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines 1, 3, 17, 34, 59, 75, 80, 87 confirm two televised debates with sharp exchanges, and headlines 6, 12, 18, 37, 68, 79, 110 confirm razor-thin tied polls, matching the expected full-throttle final sprint."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 24, 25, 76, 84 confirm the Meta interference filing and a court ordering Meta to prove equal treatment within 24 hours, but the specific OAS filing named in the bulletin does not appear; the UN (44, 83) and the electoral court are the actors instead, making the OAS detail over-specific."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline 51 confirms the criminal probe into forest fires is ongoing and headline 50 shows the Amazon gold mine permit suspension, but the expected 'preliminary findings published' and 'record-low deforestation milestone as campaign scoreboard' are not clearly present in the headlines."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin explicitly lists 'Shorter workweek approved' under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "X missed several prominent stories that week: the Newcastle poultry outbreak (109, 114), the Prudential sale (29, 38, 100, 103), the Indigenous voter transportation court order (23, 65), and the costly campaign promises and welfare fast-tracking (13, 39, 86, 89, 92). Its OAS attribution was a specific wrong name; the UN and the electoral court were the actual actors, so the category was right but the institution was not. The main thesis of a final campaign sprint dominated by the Meta dispute and Amazon fires was correct and well-timed, not wrong, just incomplete."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "The runoff race dominated the entire headline set, appearing in at least twenty of the 114 headlines, fully satisfying the sign 'mentioned in headlines' and the escalate direction."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Meta interference appears in headlines 24, 25, 26, 44, 53, 58, 61, 63, 67, 69, 72, 76, 83, 84, 88, confirming the topic stayed in the news and escalated as predicted."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headline 51 ('Brazil probing criminal origin of forest fires') and headline 50 (Amazon gold mine permit suspension) confirm the Amazon fires and deforestation topic persisted in the headlines."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin lists 'Shorter workweek approved' under 'No longer in the headlines,' confirming the fade direction even though the sign 'mentioned in headlines' is slightly stronger than the actual complete absence."
+              }
+            },
+            "archer_note": "Y missed the same peripheral stories as X (poultry outbreak, Prudential sale, Indigenous voters, welfare promises) but its generic 'stays in news' framing made it structurally impossible to miss them by accident. Every sign is unfalsifiable: 'the topic is mentioned in headlines' could not be contradicted by any reasonable outcome, so the bulletin could have been written a week earlier with no change. The main thesis was correct but so vague that it functioned more as a confirmation of the obvious than a genuine forecast."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X's lead and fade call are specific and fully supported by the headlines, while Y's equivalent items are generic phrases that nothing could falsify. X's OAS detail is a specific wrong name that costs it one point, but its overall specificity on the lead, second (category), and fade is more informative and more accurate than Y's blanket 'stays in news' language."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Runoff final campaign sprint",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "Meta and OAS escalation",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Amazon fires and deforestation debate",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Shorter workweek approval",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Banco Master probe expansion",
+          "expected": "The topic stays in the news.",
+          "chance": "low"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T08:49:14+03:00"
+      }
+    },
+    "CA|actors_swapped": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [17], [67], [84], [107], [125], [139], [142] confirm Alberta voters rejected separation and Carney called it a 'clear choice of unity,' but the expected 'power scramble among premiers' and 'transition plans' were not the dominant framing; it was a victory for Carney (headlines [101], [148], [152])."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [99] 'Canada gives Cleveland-Cliffs 15 days to reverse planned job cuts' and [132] 'Carney Announces $6.4 Billion Plan for Ontario Steel and Autos' confirm concrete government intervention in the steel/auto sector with Cleveland-Cliffs, but the mechanism was a deadline and support package rather than the predicted 'forced asset sale process' or 'court' action."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [1] 'Bank of Canada to raise rates to 2.50% on October 28,' [157] 'Bank of Canada Hike Bets Grow Among Economists, Traders,' [160] 'Canada's annual inflation rate rose to 3.1% in September,' and [171] 'Bank of Canada sees sharply higher inflation outlook' all confirm the hawkish rate path and inflation update as predicted."
+              },
+              "fade_call": {
+                "grade": "true_in_direction",
+                "evidence": "The rugby upset was not the lead or dominant story (categorized as 'occasional' in reality), but it appeared in seven headlines ([2], [16], [26], [38], [73], [126], [156]), which is more than the predicted 'brief sports-section mentions or retrospective features.'"
+              }
+            },
+            "archer_note": "X missed the two dominant stories of the week: the CFB Wainwright military fire that killed four soldiers (headlines [12], [61], [63], [106], [141], [147]) and the US tariff changes ahead of midterms (headlines [4], [6], [8], [18], [23], [36]). It also missed the Canada-Turkey strategic partnership (headlines [22], [91], [118], [146]) and the US election interference accusations (headlines [24], [34], [50], [59], [66]). Its main thesis was correct in identifying the Alberta vote and BoC rates as major stories, but it was early on the steel intervention and too specific on the mechanism; the military tragedy and tariff shifts were the week's true co-dominant narratives."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [17], [52], [67], [80], [104], [107], [125], [139], [142] confirm the Alberta separation vote occurred and dominated coverage, but no headline attributes the call specifically to 'Ford' or describes a 'power scramble'; the framing was a victory for Carney and national unity (headlines [101], [102], [148])."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [99] 'Canada gives Cleveland-Cliffs 15 days to reverse planned job cuts' and [129] 'Canada, Ontario unveil multi-billion steel and auto support package' confirm government intervention in the auto/steel sector, but the specific company was Cleveland-Cliffs and the auto sector broadly, not 'Toyota,' and the action was a deadline plus funding package rather than a 'forced asset sale' or 'court' proceeding."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [1] 'Bank of Canada to raise rates to 2.50% on October 28,' [160] 'Canada's annual inflation rate rose to 3.1% in September,' [171] 'Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says,' and [157] 'Bank of Canada Hike Bets Grow' all confirm the hawkish rate signal and inflation update exactly as predicted."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline among the 171 mentions the Savannah Bananas or their international debut, supporting the prediction that the story would fade from prominence."
+              }
+            },
+            "archer_note": "Y missed the same two dominant stories as X: the CFB Wainwright military fire (headlines [12], [61], [63], [106], [141], [147]) and the US tariff changes (headlines [4], [6], [8], [18], [23], [36]), plus the Canada-Turkey partnership and election interference claims. Its main thesis was structurally correct (separation vote, steel/auto intervention, BoC rates) but it was less accurate on specifics, naming 'Ford' and 'Toyota' where the actual actors were Alberta voters broadly and Cleveland-Cliffs. The fade call was well-timed, correctly predicting the Savannah Bananas would drop from headlines."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X correctly named Cleveland-Cliffs as the steel/auto intervention target, matching headline [99], while Y incorrectly specified Toyota, a company absent from the steel/auto coverage. However, Y's fade call (Savannah Bananas) was fully correct with zero headline mentions, whereas X's fade call (rugby) was undermined by seven headlines covering the Canada-England match."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Ford's provincial separation referendum",
+          "expected": "Ford will call a provincial separation referendum and announce a result that forces Ottawa's government into an immediate national address and a political power scramble among the premiers.",
+          "direction": "escalate",
+          "sign": "Headlines will report the vote count, Ford's national speech, and provincial and federal politicians announcing transition plans or unity pledges."
+        },
+        "second": {
+          "subject": "Toyota plant intervention dispute",
+          "expected": "Ottawa's industry minister will announce a concrete intervention at the Toyota plant, either blocking the layoffs or initiating a forced asset sale process that sends Toyota to court.",
+          "direction": "escalate",
+          "sign": "Headlines will carry the government's formal action against the auto plant, Toyota's legal response, and auto workers' reactions to the intervention."
+        },
+        "third": {
+          "subject": "Macklem inflation and rate outlook",
+          "expected": "Macklem will release the next inflation update and signal a hawkish rate path, pushing bond yields higher and spooking mortgage holders nationwide.",
+          "direction": "persist",
+          "sign": "Headlines will report the inflation figure, Macklem's comments on rates, and market reactions from investors and housing analysts."
+        },
+        "fade_call": {
+          "subject": "Savannah Bananas international debut",
+          "expected": "fade",
+          "sign": "Savannah Bananas will appear only in brief sports-section mentions or retrospective features rather than front-page or lead stories."
+        },
+        "surprise": {
+          "subject": "Cash Today loan scrutiny",
+          "expected": "Cash Today will face a formal government inquiry or board-level crisis after the discovery of unaccounted loans triggers public outrage and shareholder lawsuits.",
+          "chance": "medium"
+        },
+        "summary": "Next week will be defined by Ford's provincial separation referendum, as voters finally decide whether to leave the federation. Ottawa's government will deliver a national address within hours of the result, and premiers across the country will be called into emergency consultations. Simultaneously, the Toyota plant dispute will move from threats to concrete government action, with the industry minister announcing either a blocked layoff package or a forced sale process. Macklem will publish the next inflation read, reinforcing a hawkish rate path that will rattle mortgage holders and push housing data even lower. The Savannah Bananas international celebration will give way to politics and business headlines, and the EU trade pact will see negotiating milestones as both sides push toward a year-end signature. A quiet banking scandal over vanished loans at Cash Today will begin to surface, adding uncertainty to an already tense week.",
+        "generated_at": "2026-10-23T02:57:36+03:00"
+      }
+    },
+    "CA|reversed": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 17, 67, 84, 107, 125, and 139 confirm the Alberta vote happened and Carney called it 'a clear choice of unity,' but the 'political power scramble among premiers' is not reflected in any headline, making that clause over-specific."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headline 99 ('Canada gives Cleveland-Cliffs 15 days to reverse planned job cuts') and headlines 9, 129, and 132 ($6.4 billion steel and auto package) confirm concrete government intervention that matches X's prediction of a formal action to block or pressure the layoffs."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines 1, 157, 160, 161, and 171 confirm the hawkish rate path with a 2.50 percent hike expected on October 28 and September inflation at 3.1 percent, exactly as X predicted."
+              },
+              "fade_call": {
+                "grade": "true_in_direction",
+                "evidence": "The rugby upset appeared in seven headlines (2, 16, 26, 38, 73, 126, 156), more than 'brief sports-section mentions' but still not the dominant story, placing it between X's fade prediction and Y's escalate prediction."
+              }
+            },
+            "archer_note": "X missed the CFB Wainwright military fire entirely, which was one of the two dominant stories of the week, and also omitted the Canada-Turkey strategic partnership. The 'power scramble among premiers' in the lead was an invented detail not supported by any headline. Its main thesis on the Alberta vote, steel intervention, and hawkish BoC path was directionally correct and well-supported by the evidence."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines 64, 67, 80, 107, 125, and 139 show the vote took place and was a major event with Carney addressing the result, directly contradicting Y's prediction of a postponement, no national address, and a calm legislative schedule."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "Headline 99 (15-day ultimatum to Cleveland-Cliffs) and headlines 9, 129, and 132 ($6.4 billion package) show active government intervention, the opposite of Y's predicted non-intervention and step-back."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines 1, 157, 160, and 171 confirm a hawkish rate path with a hike to 2.50 percent and 3.1 percent inflation, contradicting Y's prediction of a dovish signal and easing bond yields."
+              },
+              "fade_call": {
+                "grade": "true_in_direction",
+                "evidence": "The rugby match generated multiple dedicated headlines (2, 16, 26, 38, 156) confirming it was more prominent than a brief mention, but it was not the overall lead story, so Y's 'front pages and lead stories' framing was slightly overstated."
+              }
+            },
+            "archer_note": "Y got the direction wrong on all three major items: the Alberta vote happened rather than being postponed, the steel dispute escalated rather than cooling, and the BoC signaled a hike rather than a cut. It also missed the CFB Wainwright fire and the Canada-Turkey partnership, two of the week's most prominent stories. Its main thesis of a calm, de-escalating week was broadly wrong, as the week was defined by a major vote, a military tragedy, and active trade intervention."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -2,
+            "reason": "X correctly anticipated the Alberta vote as a dominant event with Carney addressing the result, the concrete steel intervention, and the hawkish BoC path, while Y predicted the opposite on all three (postponement, non-intervention, dovish signal). The only item where they were closer was the rugby fade/escalate call, where reality fell between their predictions."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Alberta separation referendum",
+          "expected": "Alberta will postpone its separation referendum, and Carney's government will avoid a national address as premiers relax into a calm legislative schedule.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report the postponement announcement, Carney's quiet statement, and premiers returning to their regular provincial agendas."
+        },
+        "second": {
+          "subject": "Stelco-Cleveland-Cliffs dispute",
+          "expected": "Canada's industry minister will step back from the Stelco dispute, allowing the layoffs to proceed and Cleveland-Cliffs to avoid any court proceedings.",
+          "direction": "de-escalate",
+          "sign": "Headlines will carry the minister's statement of non-intervention, Cleveland-Cliffs' confirmation of the layoff timeline, and steelworkers' acceptance of the plan."
+        },
+        "third": {
+          "subject": "Bank of Canada inflation and rate outlook",
+          "expected": "The Bank of Canada will release its next inflation update and signal a dovish rate path, easing bond yields and calming mortgage holders nationwide.",
+          "direction": "fade",
+          "sign": "Headlines will report the inflation figure, the governor's comments on rate cuts, and market reactions from investors and housing analysts."
+        },
+        "fade_call": {
+          "subject": "Women's rugby upset over England",
+          "expected": "escalate",
+          "sign": "Headlines will feature the rugby upset on front pages, with lead stories celebrating the victory over England and player interviews."
+        },
+        "surprise": {
+          "subject": "Canadian lender loan scrutiny",
+          "expected": "A major Canadian lender will clear the loan scrutiny after confirming all accounts are balanced, restoring public confidence and dismissing shareholder concerns.",
+          "chance": "medium"
+        },
+        "summary": "Next week will be defined by the Alberta separation referendum being postponed, as voters get another round of deliberation. Prime Minister Carney will skip a national address, and premiers across the country will return to their regular provincial business. Simultaneously, the Stelco steel dispute will cool as the industry minister steps aside, letting the layoffs proceed without court battles. The Bank of Canada will publish its next inflation read, reinforcing a dovish rate path that will soothe mortgage holders and ease pressure on housing data. The women's rugby celebration over England will dominate front pages and lead stories for the entire week. The India trade pact will stall as both sides pull back from a year-end signature. A quiet banking story about a major lender confirming clean books will close out the week, adding reassurance to an otherwise calm stretch.",
+        "generated_at": "2026-10-23T02:57:36+03:00"
+      }
+    },
+    "CA|vague": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [17], [52], [67], [80], [98], [107], [125], [139], [142], [144] confirm the Alberta separation vote dominated the week and Carney called it a victory for unity, matching the 'stays in the news / escalate' forecast."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headlines [99] (Canada gives Cleveland-Cliffs 15 days to reverse job cuts), [129] (multi-billion steel and auto support package), and [132] ($6.4 billion plan) confirm the steel/Cleveland-Cliffs topic escalated with concrete government action."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [1] (BoC to raise rates to 2.50%), [78] (notable rise in inflation expectations), [157] (hike bets grow), [160] (inflation at 3.1%), and [171] (sharply higher inflation outlook) confirm the BoC rate and inflation topic persisted through the week."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [16], [26], [38], [73], [126], [156] show the rugby upset appeared only in sports-section mentions and was classified as 'occasional' in the reality, consistent with the fade call."
+              }
+            },
+            "archer_note": "X missed the CFB Wainwright military base fire, which was one of the two dominant stories of the week alongside the Alberta vote. It also missed the US election interference accusations and the Canada-Turkey strategic partnership, both of which generated multiple headlines. Its main thesis that the known topics would stay relevant was correct, but its generality meant it could not capture the specific drama of the military tragedy or the diplomatic realignment."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [76], [102], [107], [139], [142] confirm the vote happened and Carney delivered unity statements, but no headline describes a 'political power scramble among the premiers' or 'transition plans,' making that detail over-specific."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [99] confirms a concrete government intervention (15-day deadline for Cleveland-Cliffs) and [129]/[132] confirm the steel support package, but no headline mentions a 'forced asset sale process' or Cleveland-Cliffs being sent 'to court,' so the specific mechanism was over-specific."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [1], [78], [157], [160], [171] confirm the hawkish BoC path and rising inflation, but no headline specifically reports on 'mortgage holders being spooked nationwide' or bond yields pushing higher as a distinct narrative, making that clause over-specific."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [16], [26], [38], [73], [126], [156] show rugby appeared only in sports-section mentions and retrospective features, not as a front-page or lead story, matching the fade sign."
+              }
+            },
+            "archer_note": "Y missed the CFB Wainwright military fire, the US election interference accusations, and the Canada-Turkey partnership, all of which generated multiple headlines. Its over-specific embellishments (power scramble among premiers, forced asset sale to court, spooking mortgage holders) added narrative drama the headlines did not fully support. Its main thesis was directionally correct but the added color made each item slightly less accurate than a simpler reading would have been."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "Both bulletins correctly identified the Alberta vote, steel/Cleveland-Cliffs, BoC rates, and rugby fade, but Y's added specifics (power scramble among premiers, forced asset sale to court, spooking mortgage holders) were not clearly supported by the headlines. X's more conservative language ('stays in the news,' 'persist') was consistently matched by the evidence without introducing unsupported details."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Alberta separation referendum",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "Stelco-Cleveland-Cliffs dispute",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Bank of Canada inflation and rate outlook",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Women's rugby upset over England",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Canadian lender loan scrutiny",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T02:57:36+03:00"
+      }
+    },
+    "CN|actors_swapped": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "No headline features a German tariff schedule, Berlin quota enforcement, or a formal Beijing retaliation package targeting German exports; the EU-China trade stories (headlines 82, 88, 115) name the EU, not Germany specifically."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "The AI and technology trade-controls theme is strongly present (headlines 26, 64, 80, 136 on US Treasury rules and the DeepSeek ban), but the mechanism is the US imposing restrictions on China rather than Taiwan publishing a licensing list as the bulletin predicted."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "No headline mentions the IMF or an IMF rate cut; Q3 GDP beat forecasts at 4.5 percent (headlines 48, 129, 152), the opposite of the predicted below-target miss, and the stimulus discussion centers on domestic policy (headline 20) rather than an IMF announcement."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline in the collection references a Tencent AI agent browsing incident, consistent with the predicted fade."
+              }
+            },
+            "archer_note": "The bulletin anchored on Germany and the IMF, two actors that never appeared in this week's China headlines, while the actual dominant stories (Kim Jong Un's visit, the Tibet earthquake, the DeepSeek ban, the Q3 GDP beat) went unanticipated. Its main thesis of a bilateral trade-escalation-and-stimulus week was directionally plausible for EU-China talks but misidentified the specific country and the specific institution, making the forecast feel like it described a different country's news cycle. The fade call was the one clean hit, but the three substantive items all missed the mark on actors or direction."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "EU-China trade escalation is present (headlines 82, 88, 115 on EU curbs and China Shock 2.0 talks), but the specific binding-quota-and-formal-retaliation-package mechanism is not confirmed in any headline, leaving the escalation at the talks-and-curbs stage rather than the binding-quota stage predicted."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "The AI and technology trade-controls confrontation is a dominant theme (headlines 26, 64, 73, 80, 100, 103, 136), but the mechanism is the US imposing rules and banning DeepSeek while China objects, rather than China publishing a final licensing list as the bulletin's first clause specified."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Q3 growth data was a major headline (48, 93, 98, 126, 129, 152) and the category of growth-and-stimulus response is correct, but the figure beat forecasts at 4.5 percent rather than landing below target, and no central-bank rate cut in response is clearly reported."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline in the collection mentions a press secretary toilet visit, consistent with the predicted fade."
+              }
+            },
+            "archer_note": "The bulletin correctly identified the EU as the trade partner, China as the technology actor, and domestic Q3 growth as the data release, hitting the right categories on all three substantive items. Its main weakness was over-specifying the mechanism (binding quotas, a licensing list, a below-target miss) when reality produced talks, US-imposed rules, and a beat. The overall thesis of an escalating trade-and-technology confrontation with a growth data release was broadly on target, making this a case of right categories with wrong details rather than a fundamentally wrong thesis."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 2,
+            "reason": "Bulletin Y correctly identified the EU, China, and domestic Q3 growth as the key actors and data points, all of which appeared in the headlines, while Bulletin X anchored on Germany, Taiwan, and the IMF, none of which were the specific actors in this week's coverage. The decisive difference is that Y's three substantive items all map onto stories that actually dominated the collection, whereas X's items required rewriting the country or institution to match reality."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Germany-China trade escalation",
+          "expected": "Germany will produce binding import quotas on additional Chinese sectors and Beijing will unveil a formal trade retaliation package targeting German exports.",
+          "direction": "escalate",
+          "sign": "Headlines will feature a German tariff schedule, a trade complaint filing, and Berlin statements on quota enforcement against specific sectors"
+        },
+        "second": {
+          "subject": "Taiwan and technology export controls",
+          "expected": "Taiwan will publish the final licensing list covering AI chips, solar components, and biotech products, and the United States will respond with reciprocal restrictions on Taiwanese financial market access.",
+          "direction": "persist",
+          "sign": "Headlines will show specific components on a new controlled export list from Taipei, and a US government statement on reciprocal measures"
+        },
+        "third": {
+          "subject": "IMF growth assessment and stimulus response",
+          "expected": "The IMF's quarterly growth assessment for the region will land below the annual target and the fund will announce an additional rate cut or fiscal measure in response.",
+          "direction": "escalate",
+          "sign": "Headlines will cite the quarterly growth figure as missing target, followed by a rate cut or stimulus announcement from the IMF"
+        },
+        "fade_call": {
+          "subject": "Tencent AI agent browsing incident",
+          "expected": "fade",
+          "sign": "The story disappears from front pages as trade and growth headlines take over, with no further technical follow-up on the browsing behaviour"
+        },
+        "surprise": {
+          "subject": "Zambia-China diplomatic escalation",
+          "expected": "The Zambian president will formally summon the Chinese envoy to Lusaka and Beijing will respond by suspending a bilateral economic agreement or freezing new visa categories for Zambian workers.",
+          "chance": "medium"
+        },
+        "summary": "Next week, Germany will be defined by two escalating confrontations and one data release that will test the IMF's stimulus push. Germany will produce concrete import quotas on additional sectors, and the government will answer with a formal trade retaliation package, pushing the transatlantic trade war into a new gear. The draft export controls on AI chips, solar components, and biotech will move toward a final licensing list from Taiwan, with Washington responding in kind on financial access. The IMF's quarterly growth assessment will land below target, forcing the fund to act with another rate cut or fiscal measure. The light-hearted Tencent AI-browsing episode will fade from headlines, while the Zambia diplomatic row presents a genuine wild card if Lusaka summons the envoy and the government strikes back on trade or visas.",
+        "generated_at": "2026-10-22T23:20:29+03:00"
+      }
+    },
+    "CN|reversed": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [82], [88], and [118] show the EU still in active 'China Shock 2.0' talks and looking beyond cars for the next round, with no headline about the EU dropping import quotas or Beijing withdrawing a trade retaliation package."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [26], [80], and [136] show the US Treasury proposing tighter rules on high-tech and biotech investments in China, the opposite of the predicted removal of reciprocal restrictions, and headline [49] shows China's MiniMax completing export registration rather than shelving a controlled list."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [48], [98], [129], and [152] all confirm China's Q3 growth of 4.5 percent beat forecasts, matching the prediction that the figure would meet or exceed target."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "No headline in the collection references a press secretary toilet-visit episode or any diplomatic follow-up on it, contradicting the prediction that it would escalate into a formal point of contention."
+              }
+            },
+            "archer_note": "Both bulletins completely missed the dominant stories of the week: Kim Jong Un's unannounced Dandong visit, the Tibet earthquake, the DeepSeek US ban and $15 billion raise, the Citi securities licence, the Volvo plunge, and Taiwan's hybrid-warfare vessel incident. Bulletin X's core thesis of de-escalation in both trade and tech was contradicted by the US proposing tighter investment rules and the EU still negotiating rather than dropping quotas. Its one solid hit was the Q3 growth direction, but the bundled second clause about the central bank holding rates was not supported by any headline."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [82], [88], and [118] show the EU still in exploratory talks about 'China Shock 2.0' with no binding quota decision or formal Beijing retaliation package appearing in the collection."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [26], [80], and [136] confirm the US is maintaining and tightening restrictions on Chinese tech and biotech investments, consistent with the 'persist' direction, though the specific detail of China publishing a final licensing list is only loosely reflected in [49]."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [48], [98], [126], [129], and [152] all report Q3 growth of 4.5 percent beating forecasts, directly contradicting the prediction that the figure would land below target and trigger a rate cut or fiscal measure."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline in the collection mentions the press secretary toilet-visit episode, consistent with the prediction that the story would fade from front pages as trade and growth headlines took over."
+              }
+            },
+            "archer_note": "Like Bulletin X, it missed every dominant story of the week including the Kim Jong Un visit, Tibet earthquake, DeepSeek ban, Citi licence, and Volvo collapse. Its 'persist' call on AI and tech controls was the closest call to reality, but the Q3 growth prediction was a confident miss on a known data release, calling for a below-target figure and stimulus when growth actually beat. The fade call on the toilet episode was the one clean hit, and the lead's escalation framing was marginally closer to the ongoing EU-China tension than X's de-escalation."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 1,
+            "reason": "Bulletin Y's 'persist' direction on AI and tech controls was closer to the reality of the US proposing tighter rules, while X's 'fade' call was directly contradicted. Y also correctly predicted the toilet-visit story would fade, whereas X's escalation call found no support in the headlines; X's only clear win was the Q3 growth direction, which Y got wrong."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "EU-China trade escalation",
+          "expected": "The EU summit drops proposed import quotas on Chinese sectors and Beijing withdraws its formal trade retaliation package targeting European exports.",
+          "direction": "de-escalate",
+          "sign": "Headlines will show an EU statement easing quota requirements alongside Beijing's withdrawal of a trade complaint or tariff schedule"
+        },
+        "second": {
+          "subject": "AI and technology export controls",
+          "expected": "China drops the final licensing list covering AI chips, solar components, and biotech products, and the United States removes its reciprocal restrictions on Chinese financial market access.",
+          "direction": "fade",
+          "sign": "Headlines will report China shelving its controlled export list and a US government statement on easing restrictions for Chinese firms"
+        },
+        "third": {
+          "subject": "Q3 growth data and stimulus response",
+          "expected": "China's third-quarter growth figure meets or exceeds the annual target and the central bank holds its current rate steady with no new fiscal measure.",
+          "direction": "de-escalate",
+          "sign": "Headlines will cite the quarterly growth figure as meeting or beating target, followed by a central bank statement holding rates unchanged"
+        },
+        "fade_call": {
+          "subject": "Press secretary toilet visit",
+          "expected": "escalate",
+          "sign": "Headlines will revive the toilet-comments episode with diplomatic follow-up as the invitation becomes a formal point of contention between the two sides"
+        },
+        "surprise": {
+          "subject": "Philippines-China diplomatic escalation",
+          "expected": "The Philippine president defers the formal summons of the Chinese envoy and Beijing reinstates the bilateral economic agreement while reopening new visa categories for Filipino workers.",
+          "chance": "medium"
+        },
+        "summary": "Next week, China will be defined by two de-escalating confrontations and one data release that will confirm Beijing's economic strength. The EU summit will drop its proposed import quotas on Chinese sectors, and Beijing will withdraw its trade retaliation package, easing the transatlantic trade war. The draft export controls on AI chips, solar components, and biotech will be shelved, with Washington removing its reciprocal restrictions on Chinese financial access. The third-quarter growth figure will meet or exceed target, allowing the central bank to hold rates steady without new stimulus. The light-hearted toilet-comments episode will resurface as a diplomatic flashpoint, while the Philippines-China row cools if Manila defers the envoy summons and Beijing reinstates trade and visa agreements.",
+        "generated_at": "2026-10-22T23:20:29+03:00"
+      }
+    },
+    "CN|vague": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "EU-China trade escalation appears across multiple headlines including [75] EU tariffs aimed at China, [82] EU vows to fix China Shock 2.0 via talks, and [88] EU looks beyond cars for next round of China trade talks, confirming the topic stayed in the news and escalated."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "AI and technology export controls persist prominently in headlines [26], [64], [80], [100], [111], [136], and [182], confirming the topic stayed in the news as predicted."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Q3 growth data dominated headlines with [48], [98], [126], [129], [152] all citing the 4.5 percent figure, and [20] referencing a shift to stimulus mode, confirming the topic stayed in the news."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline among the 193 references a press secretary toilet visit, confirming the story faded from front pages as predicted."
+              }
+            },
+            "archer_note": "Bulletin X completely missed the week's dominant stories: Kim Jong Un's unannounced Dandong visit, the Tibet earthquake, the DeepSeek US ban and $15 billion raise, the Party fifth plenum, the stock bear market, and the Volvo plunge. Its main thesis was not wrong but merely safe, since every sign was phrased as 'stays in the news' or 'mentioned in headlines,' making the calls nearly unfalsifiable. The generality that protected it from error also stripped it of informational value, as nothing in its four items could have been clearly contradicted by the headlines."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "EU-China trade escalation is present in [75], [82], [88], [115], and [118], but no headline specifically confirms binding import quotas on additional sectors or a formal Chinese retaliation package targeting European exports, so the specific mechanism predicted is not clearly supported."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "AI and tech controls persist in [26], [64], [80], [100], [111], [136], and [134], but no headline reports China publishing a final licensing list covering AI chips, solar components, and biotech products specifically; the US reciprocal measures side is confirmed while the Chinese licensing-list detail is not."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Q3 growth data was a dominant story in [48], [93], [98], [126], [129], and [152], but the figure beat forecasts at 4.5 percent rather than landing below the annual target as predicted, and no headline reports a central-bank rate cut in direct response to a missed target."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline among the 193 references the press secretary toilet visit, confirming the story disappeared from front pages as trade and growth headlines took over."
+              }
+            },
+            "archer_note": "Bulletin Y missed the week's dominant stories entirely: Kim Jong Un's Dandong bridge visit, the magnitude-7 Tibet earthquake, the DeepSeek US ban and $15 billion raise, the Party fifth plenum discipline push, the stock bear market, and the Volvo 24 percent plunge. Its Q3 growth prediction was specifically contradicted by the headlines, which reported growth beating forecasts rather than missing target, making the 'rate cut in response' clause unsupported. Its main thesis of two escalating confrontations was directionally correct but the data-release leg of the thesis went the opposite way, and the specificity that made it informative also made it vulnerable to being wrong on detail."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 1,
+            "reason": "Bulletin Y's specificity, while partially wrong on Q3 growth, provided testable and informative predictions that were more informative than Bulletin X's near-unfalsifiable 'stays in the news' signs. Y's EU-China trade and AI/tech calls captured the escalation direction with concrete mechanisms that were partially confirmed in the headlines, whereas X's calls were so general that they could have been written about almost any week."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "EU-China trade escalation",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "AI and technology export controls",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Q3 growth data and stimulus response",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Press secretary toilet visit",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Philippines-China diplomatic escalation",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-22T23:20:29+03:00"
+      }
+    },
+    "DE|actors_swapped": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "The situation bulletin explicitly lists 'Nord Stream trial' under 'No longer in the headlines,' and no headline mentions courtroom rulings, witness testimony, or the war-crime charge."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The 'No longer in the headlines' section lists 'France-Germany car deal,' and no headline references production plans, workforce measures, or the 2035 all-electric target being scrapped."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [29], [49], [86], and [35] confirm an active AI/Nvidia investment push in Germany, but the format is Merz urging businesses rather than a single formal unveiling naming a data-center site, sovereign-cloud component, and investment figure in one announcement."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The 'No longer in the headlines' section lists 'Russia in G20,' and the only G20-related headline [55] concerns South Africa's invitation, not Russia's re-admission."
+              }
+            },
+            "archer_note": "The bulletin missed the three dominant stories of the week: the AfD email hack, the Russian spy arrest with Merz's espionage warning, and the economic stagnation/investor-confidence decline. Its main thesis that the Nord Stream trial would drive the German news agenda was wrong, not merely early, because the trial had already dropped out of the headlines entirely. The Nvidia/AI item was the closest hit but over-specified the format as a single formal unveiling with a named site and sovereign-cloud element."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "The 'No longer in the headlines' section lists 'Nord Stream trial,' and no headline references the defense motion to dismiss, the Ukrainian ex-officer, or first eyewitnesses taking the stand."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The 'No longer in the headlines' section lists 'France-Germany car deal,' and no headline mentions German automakers announcing production plans or trade unions reacting to the 2035 target scrapping."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [29], [49], [86], and [35] confirm the AI/Nvidia investment theme, but the coverage is a series of urgings and announcements rather than a single government press event naming a data-center site, sovereign-cloud component, and investment commitment in one sentence."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The 'No longer in the headlines' section lists 'Russia in G20,' and the only G20 headline [55] concerns South Africa's Miami summit invitation, not the Russia re-admission diplomatic row."
+              }
+            },
+            "archer_note": "The bulletin missed the same three dominant stories: the AfD email hack, the Russian espionage arrest, and the economic stagnation data. Its central thesis that the Nord Stream trial would dominate the week was wrong because the trial had already left the headlines. The car-deal item was a carryover from a story that had already concluded, and the Nvidia item, while directionally correct, added the over-specific claim of a deal 'already scheduled for the following week.'"
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 0,
+            "reason": "Both bulletins are near-paraphrases of each other: identical lead (Nord Stream), identical second (car deal), identical third (Nvidia AI), and identical fade call (G20 Russia), with only minor wording differences in framing. The decisive difference is negligible, as both missed the same dominant stories and both got the same items right or wrong."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "German prosecutors in the Nord Stream case",
+          "expected": "German prosecutors will put their first eyewitnesses to the pipeline explosions on the stand while the court rules on the pending motion to dismiss the war-crime charge.",
+          "direction": "escalate",
+          "sign": "Headlines will feature courtroom rulings, witness testimony, and jurisdictional disputes dominating the German news cycle"
+        },
+        "second": {
+          "subject": "France's response to the EU car emissions pact",
+          "expected": "France will announce production plans and workforce measures in direct response to the new emissions framework that scraps the 2035 all-electric target.",
+          "direction": "persist",
+          "sign": "Headlines will show industry statements, political reaction pieces, and UK-EU trade-alignment correspondence across business and politics sections"
+        },
+        "third": {
+          "subject": "Nvidia's European AI partnership",
+          "expected": "Nvidia will formally unveil the AI cooperation deal in a government press event, naming the data-center site, the sovereign-cloud component, and the investment commitment.",
+          "direction": "persist",
+          "sign": "Headlines will cite a named data-center location, a concrete investment figure, and the sovereign-cloud element in a single announcement"
+        },
+        "fade_call": {
+          "subject": "The US push on Russia's G20 re-admission",
+          "expected": "fade",
+          "sign": "Headlines will show the US-led G20 re-admission row fading from the German news cycle as trial and car-deal coverage take the front page"
+        },
+        "surprise": {
+          "subject": "BSW's post-election coalition overture",
+          "expected": "BSW will break its post-election silence and name a prospective mayor or table a formal coalition agreement with the city's other governing parties.",
+          "chance": "medium"
+        },
+        "summary": "Next week, German prosecutors will drive the Nord Stream news agenda. They will put their first eyewitnesses to the pipeline explosions on the stand while the court rules on the motion to dismiss the war-crime charge, setting the tone for proceedings stretching into winter. France will spawn a second wave of industry coverage as it announces production plans and workforce measures in response to the new emissions rules and UK trade-alignment conditions. Nvidia will formally unveil its European AI cooperation deal in a government press event, naming the data-center site, the sovereign-cloud component, and the investment commitment. The one-off diplomatic row over the US push to bring Russia back to the G20 will recede. A medium-probability wildcard: BSW may break its post-election silence and name a prospective mayor or table a formal coalition agreement.",
+        "generated_at": "2026-10-23T06:16:14+03:00"
+      }
+    },
+    "DE|reversed": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "The Nord Stream trial is explicitly listed under 'No longer in the headlines,' and no headline mentions the defense motion to dismiss or prosecutor eyewitness testimony, contradicting the predicted escalation."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The France-Germany car deal is listed under 'No longer in the headlines,' with no automaker production plans, union statements, or emissions-framework reactions appearing in any of the 93 headlines."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [29], [49], and [86] confirm the Nvidia-AI story is actively in the news with the chancellor urging investment, but no single headline names a specific data-center site, sovereign-cloud component, and investment figure in one formal unveiling event."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The Russia-in-G20 diplomatic row is explicitly listed under 'No longer in the headlines,' confirming the predicted fade from the German news cycle."
+              }
+            },
+            "archer_note": "The main thesis that the Nord Stream trial would dominate and escalate was wrong; the trial had already exited the headlines entirely by this round. The car-deal persistence call was also contradicted, as the story had fully receded. The bulletin correctly identified the Nvidia-AI axis and the G20 fade, but its two lead and second picks were both stories that had already played out, leaving the forecast anchored to last week's cycle rather than this week's."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "The Nord Stream trial is listed under 'No longer in the headlines,' confirming the de-escalation direction, though the specific mechanism of a withdrawn defense motion and delayed witnesses is unverifiable from the headline set."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "The France-Germany car deal is explicitly listed under 'No longer in the headlines,' matching the predicted fade with no automaker or union statements appearing in the collection."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [29], [49], [86], and [35] show the Nvidia-AI story is actively and prominently in the news, directly contradicting the predicted postponement and fade from public view."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "The Russia-in-G20 diplomatic row is listed under 'No longer in the headlines,' the opposite of the predicted escalation and front-page dominance."
+              }
+            },
+            "archer_note": "The main thesis that the Nord Stream trial would recede was directionally correct, and the car-deal fade was a clean hit. However, the Nvidia-AI story was misread as fading when it was actually one of the most active threads this week, and the G20 fade call went the wrong way. The bulletin correctly identified two stories that were leaving the cycle but missed that the AI-investment axis was still building momentum under Chancellor Merz."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 0,
+            "reason": "Both bulletins achieved an identical grade distribution (one came_true, one true_in_direction, two did_not_appear), with Y winning on the lead and second while X won on the third and fade call. The decisive difference is offset by the opposite errors on the remaining two items, making them a functional tie in overall accuracy."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Nord Stream sabotage trial",
+          "expected": "The defense will withdraw its motion to dismiss the war-crime charge against the Ukrainian ex-officer while prosecutors delay putting their first eyewitnesses on the pipeline-explosion stand.",
+          "direction": "de-escalate",
+          "sign": "Headlines will show quiet procedural delays, a withdrawn defense motion, and minimal witness activity pushing the trial to the back pages."
+        },
+        "second": {
+          "subject": "France-Germany car deal fallout",
+          "expected": "German automakers and trade unions will postpone their production plans and workforce measures, leaving the new emissions framework unanswered for another week.",
+          "direction": "fade",
+          "sign": "Headlines will show silence from German carmakers, absent union statements, and no UK-EU trade-alignment correspondence in business or politics sections."
+        },
+        "third": {
+          "subject": "Germany-Nvidia AI agreement",
+          "expected": "Berlin will postpone its government press event with Nvidia and withhold the data-center site, the sovereign-cloud component, and the investment commitment from public view.",
+          "direction": "fade",
+          "sign": "Headlines will show a postponed Nvidia press event, an unnamed data-center location, and no concrete investment figure in any single sentence."
+        },
+        "fade_call": {
+          "subject": "Germany-Russia G20 diplomatic spat",
+          "expected": "escalate",
+          "sign": "Headlines will show the Russia re-admission diplomatic row dominating the front page while trial and car-deal coverage recede to lower pages."
+        },
+        "surprise": {
+          "subject": "Berlin leftist coalition breakthrough",
+          "expected": "Berlin's SPD, Die Linke, and Green factions will extend their post-election silence and refuse to name a prospective mayor or table any coalition agreement.",
+          "chance": "medium"
+        },
+        "summary": "Next week, the Nord Stream sabotage trial will recede from the German news agenda. The defense will withdraw its motion to dismiss the war-crime charge, and prosecutors will delay putting their first eyewitnesses on the stand, giving the proceedings a quiet procedural tone. The France-Germany car deal will quiet down as automakers, unions, and UK trade officials postpone their responses to the new emissions rules and China-tariff conditions. Berlin will postpone its Nvidia AI cooperation unveiling, withholding the data-center site, the sovereign-cloud component, and the investment figure from public view. The one-off diplomatic spat over Russia's re-admission to the global leaders' club will intensify and dominate the front page. A medium-probability wildcard: Berlin's SPD, Die Linke, and Green factions will extend their post-election silence and refuse to name a prospective mayor or table a coalition agreement.",
+        "generated_at": "2026-10-23T06:16:14+03:00"
+      }
+    },
+    "DE|vague": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "No headline mentions the Nord Stream trial, and the situation bulletin explicitly lists it under 'No longer in the headlines.'"
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "No headline references the France-Germany car deal or the 2035 emissions framework, and the situation bulletin lists it under 'No longer in the headlines.'"
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [29], [49], and [86] confirm the Nvidia AI topic persisted, but no single headline names a specific data-center site, sovereign-cloud component, and concrete investment figure together as the sign required."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin lists 'Russia in G20' under 'No longer in the headlines,' confirming the diplomatic row faded as predicted."
+              }
+            },
+            "archer_note": "Bulletin X anchored its entire forecast on the Nord Stream trial and the France-Germany car deal, both of which had already dropped from the headlines by this round, making the lead and second calls stale rather than merely early. It correctly identified the Nvidia AI topic as persisting and the G20 spat as fading, but it missed the week's actual dominant stories: the AfD email hack, the Russian spy arrest, and the Eagle's Nest fire. Its main thesis that courtroom drama and auto-industry fallout would drive the German agenda was wrong, not just early, because those stories had already receded before the forecast week began."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "No headline mentions the Nord Stream trial, and the situation bulletin explicitly lists it under 'No longer in the headlines.'"
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "No headline references the France-Germany car deal, and the situation bulletin lists it under 'No longer in the headlines.'"
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [29], [49], and [86] confirm the Nvidia AI topic remained in the headlines, satisfying the simple sign of 'the topic is mentioned in headlines.'"
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin lists 'Russia in G20' under 'No longer in the headlines,' confirming the fade direction was correct despite the sign sentence being self-contradictory."
+              }
+            },
+            "archer_note": "Bulletin Y made the same four category calls as X but in such general terms that almost any continuation of the prior topics would satisfy them, making the predictions nearly unfalsifiable per the rubric's penalty on generalities. It correctly noted the Nvidia AI topic persisting and the G20 spat fading, but its lead and second calls on Nord Stream and the car deal were both stale, mirroring X's core error. Its main thesis that the previous week's topics would simply continue was wrong for the two leads and right for the two secondary items, leaving it no better than X on the stories that actually dominated."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "Bulletin X's over-specific predictions (named data-center site, courtroom motions) are more falsifiable and informative than Bulletin Y's near-unfalsifiable 'topic stays in the news' phrasing, which the rubric penalizes as generality. Both missed the same dominant stories and got the same two secondary calls right, but X at least attempted concrete, testable detail where Y offered only category-level persistence."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Nord Stream sabotage trial",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "France-Germany car deal fallout",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Germany-Nvidia AI agreement",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Germany-Russia G20 diplomatic spat",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Berlin leftist coalition breakthrough",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T06:16:14+03:00"
+      }
+    },
+    "EG|actors_swapped": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [16] and [42] show parliament delayed the vote to October 26 rather than holding it and announcing a result, so the category (Saudi defense mandate, parliamentary vote) dominated but the specific sign of a completed vote was not met."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [15], [37], and [48] confirm Sisi's 2030 succession plan dominated coverage, but no specific candidate is named in any headline, so the sign of a named political figure was not fulfilled."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [20] and [32] confirm the Egypt-Sudan gold mine story was present, but they focus on satellite localization and miners returning rather than a Sudanese official or military source issuing a formal public response."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin explicitly lists the FIFA Spain-Egypt chants fine under 'No longer in the headlines,' confirming it faded as predicted."
+              }
+            },
+            "archer_note": "The bulletin correctly identified the three dominant stories but was early on the parliamentary vote, which was delayed rather than held. It expected a named successor and a formal Sudanese diplomatic response, neither of which appeared in the headlines. Its main thesis that the Saudi defense mandate would be the defining story was correct in category and intensity, merely premature on the exact procedural step."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [12], [17], [45], and [47] show Sisi pushing for authorization, but [16] and [42] confirm parliament delayed the vote, so the authorization was not yet 'secured' as the sign required."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [15], [37], and [48] attribute the 2030 succession plan to Sisi, not Dangote, and no specific candidate is named, so the category is right but the actor and the sign are both off."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [20] and [32] confirm the gold mine story was present, but they describe satellite localization and miners returning rather than a Saudi-led coalition official issuing a formal response."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin lists the Spain disciplinary fine and stadium closure under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "The Dangote attribution in the second item is a specific actor error; the succession plan was Sisi's, not the Nigerian billionaire's, and no candidate was named. The Saudi-led coalition was an unlikely respondent to an Egypt-Sudan border dispute, making the third item less logical than X's Sudan-focused framing. The main thesis of a dominant Saudi-defense story was correct, but the bulletin's specific details (Dangote, coalition response) were less grounded in the actual actors involved."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X's second item correctly frames the succession plan as a general political-media development, while Y specifically attributes it to Dangote, a wrong actor not present in any succession headline. X's third item logically ties the gold mine dispute to Sudan as a direct party, whereas Y's choice of the Saudi-led coalition as the respondent is less connected to the actual Egypt-Sudan border context."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Sisi's push for Saudi defense authorization",
+          "expected": "Sisi will secure the formal authorization for military assistance to Saudi Arabia against Houthi drone attacks.",
+          "direction": "escalate",
+          "sign": "Headlines will show Sisi announcing the authorization result with Saudi Arabia's name prominent."
+        },
+        "second": {
+          "subject": "Dangote's public naming of succession candidates",
+          "expected": "Dangote will name specific candidates as part of the publicly outlined plan for preparing future leaders.",
+          "direction": "persist",
+          "sign": "Headlines will identify a specific individual as a potential successor in connection with Dangote's remarks."
+        },
+        "third": {
+          "subject": "Saudi-led coalition response to the Sudan gold mine dispute",
+          "expected": "The Saudi-led coalition will issue a formal public response to the accusation that a clandestine gold mine in Sudan was bombed.",
+          "direction": "escalate",
+          "sign": "Headlines will quote a Saudi-led coalition official reacting to the gold mine strike dispute."
+        },
+        "fade_call": {
+          "subject": "Spain's disciplinary fine and stadium closure",
+          "expected": "fade",
+          "sign": "Headlines will note Spain's fine and stadium closure in passing sports coverage with no further action announced."
+        },
+        "surprise": {
+          "subject": "Houthi strike triggers concrete military deployment",
+          "expected": "A new Houthi drone strike on a Gulf target will prompt the Houthi to announce a specific military asset moving toward the region.",
+          "chance": "medium"
+        },
+        "summary": "Next week, Sisi will drive the formal authorization for military assistance to Saudi Arabia against Houthi drone attacks, escalating Gulf involvement from verbal pledge to concrete approval. Dangote will add a new layer of political speculation by publicly naming specific individuals as potential successors within the 2030 grooming process. The Saudi-led coalition will move the Sudan gold mine accusation from initial news report to formal diplomatic friction by issuing a public statement. Spain's disciplinary fine and stadium closure will fade into routine sports coverage with no further action. A medium-chance surprise lies in a fresh Houthi drone strike on a Gulf target that compels the Houthi to announce a specific military asset moving toward the region, shifting the story from stated intention to concrete action.",
+        "generated_at": "2026-10-23T15:13:18+03:00"
+      }
+    },
+    "EG|reversed": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines 16 and 42 explicitly state Egypt's parliament delayed the vote on military support for Saudi Arabia until October 26, matching X's prediction of a postponement."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines 15, 37, and 48 show the 2030 succession plan was a dominant new announcement this week rather than being shelved or the naming process suspended as X predicted."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines 20 and 32 show the Sudan gold mine story continued with satellite imagery localizing the mine and miners returning, contradicting X's prediction that Sudan would go quiet and the dispute would drop from coverage."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "The FIFA Spain-Egypt chants fine is listed as no longer in the headlines, the opposite of X's prediction of a new disciplinary hearing or additional fine."
+              }
+            },
+            "archer_note": "X correctly identified the parliamentary delay as the dominant story but got its three secondary predictions largely inverted, treating new or continuing stories as fading ones. The succession plan was a fresh dominant announcement, not a shelved process, and the gold mine dispute persisted with new satellite evidence rather than dissolving. Its main thesis on the lead was right, but the confident escalation call on the FIFA fine was a clear miss on a story that simply vanished from coverage."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines 16 and 42 show the parliamentary vote was delayed to October 26 rather than held and announced as Y predicted, reversing the expected direction."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 15 and 48 confirm the succession plan was a dominant headline story, matching Y's category, but no specific named candidate appears in any headline as the sign required."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 20 and 32 show the gold mine dispute continued as a regular story with satellite localization, consistent with Y's escalate direction, but no Sudanese official or military source is specifically quoted as the sign required."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The FIFA Spain-Egypt chants fine is listed as no longer in the headlines, matching Y's prediction that it would fade into routine sports coverage with no further disciplinary action."
+              }
+            },
+            "archer_note": "Y's main thesis on the lead was wrong, predicting a formal vote when parliament actually delayed the decision, which was the single most consequential story of the week. Its secondary items were directionally closer to reality than X's, correctly sensing the succession plan would remain prominent and the gold mine story would persist, though both signs were over-specific in requiring named figures or quoted officials. The fade call on FIFA was a clean hit, and overall Y was more balanced in its directional calls despite missing the dominant event."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X correctly predicted the parliamentary delay, which was the dominant story of the week, while Y predicted the vote would be held and announced, getting the single most important event backwards. Y was directionally closer on the succession and gold mine items and nailed the FIFA fade call, but the lead carries the greatest weight and X's hit there outweighs Y's advantages on secondary items."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Saudi defense mandate parliamentary vote",
+          "expected": "Egypt's parliament will postpone the formal vote to authorize military assistance to Saudi Arabia against Houthi drone attacks.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report the parliamentary vote being postponed or shelved, with Saudi Arabia's name absent or noted as deferred."
+        },
+        "second": {
+          "subject": "2030 succession grooming plan",
+          "expected": "Egyptian political figures and media will drop all specific candidate names from Sisi's stated process for grooming future leaders.",
+          "direction": "fade",
+          "sign": "Headlines will report the succession grooming plan being shelved or the naming process being formally suspended."
+        },
+        "third": {
+          "subject": "Sudan gold mine dispute",
+          "expected": "Sudan's military government will stay silent and withdraw the public accusation that Egypt bombed a clandestine gold mine.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report Sudan's military government going quiet and the Egypt-Sudan mine strike dispute dropping from coverage."
+        },
+        "fade_call": {
+          "subject": "FIFA Spain-Egypt chants fine",
+          "expected": "escalate",
+          "sign": "Headlines will report a new FIFA disciplinary hearing or an additional fine related to the Spain-Egypt chants incident."
+        },
+        "surprise": {
+          "subject": "Houthi strike triggers concrete deployment",
+          "expected": "A Houthi drone strike will be called off and Egypt will announce the withdrawal of a specific military asset from the region.",
+          "chance": "medium"
+        },
+        "summary": "Next week in Egypt will be defined by the parliamentary vote on military support for Saudi Arabia being postponed, which will de-escalate the country's Gulf involvement from formal authorization back to a verbal pledge. The succession question will quiet down as analysts and the ruling alliance drop all specific names from Sisi's stated grooming plan, ending the speculation cycle. The Sudan gold mine accusation will dissolve as Khartoum's military government stays silent and withdraws the public complaint, pulling the dispute back out of diplomatic friction. The FIFA fine on Spain will escalate into a new disciplinary hearing with an additional penalty announced. A medium-chance surprise lies in a Houthi strike being called off, prompting Egypt to announce the withdrawal of a specific military asset from the region, shifting the story from action back to intention.",
+        "generated_at": "2026-10-23T15:13:18+03:00"
+      }
+    },
+    "EG|vague": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [16] and [42] show parliament delayed the vote to October 26 rather than holding it, contradicting the specific sign that the vote and result would be announced, though the topic was dominant across [1], [12], [17], [28], [30], [34], [40], [44], [45], [47]."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [15], [37], and [48] confirm Sisi outlined the 2030 succession plan for the military to train future leaders, but no specific named political figure appears as a successor candidate in the headlines, so the sign was over-specific."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [20] and [32] confirm the gold mine story continued with satellite imagery localizing the site and miners returning, but no Sudanese official or military source is quoted reacting, so the specific sign was not met."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin explicitly lists 'FIFA Spain-Egypt chants fine' under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "X missed that parliament would delay the vote to October 26 rather than hold it, which was the single most important development of the week. The succession and Sudan mine predictions were directionally correct but over-specific in their signs, expecting a named successor and a quoted Sudanese official that did not appear. The main thesis was right and only slightly early on the parliamentary timeline."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "The Saudi defense vote topic appears across at least ten headlines including [1], [12], [16], [17], [28], [30], [34], [40], [42], [44], [45], [47], satisfying the sign that the topic is mentioned in headlines."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headlines [15], [37], and [48] confirm the 2030 succession plan was discussed, satisfying the sign that the topic is mentioned in headlines."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [20] and [32] confirm the Egypt-Sudan gold mine story persisted, satisfying the sign that the topic is mentioned in headlines."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin lists the FIFA Spain-Egypt chants fine under 'No longer in the headlines,' confirming the fade, though the sign 'the topic is mentioned in headlines' is a weak indicator for a fade."
+              }
+            },
+            "archer_note": "Y missed the specific developments within each topic: the vote delay to October 26, the satellite imagery localizing the mine, and the military-training framing of the succession plan. Every item uses the near-unfalsifiable sign 'the topic is mentioned in headlines,' which provides almost no forecasting value beyond confirming the topics were still relevant. The main thesis was correct but so general that it could apply to nearly any week."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X provided specific, falsifiable predictions (vote held, named successor, Sudanese official quoted) that were mostly in the right direction, while Y's items are so general they could apply to almost any week. The decisive difference is that X's specificity, though slightly off on details, gave a reader a concrete picture of what to expect, whereas Y's 'the topic stays in the news' is nearly unfalsifiable."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Saudi defense mandate parliamentary vote",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "2030 succession grooming plan",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Sudan gold mine dispute",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "FIFA Spain-Egypt chants fine",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Houthi strike triggers concrete deployment",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T15:13:18+03:00"
+      }
+    },
+    "FR|actors_swapped": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [18], [22], [91], [109], [123], and [160] confirm 70,000 police deployed, roughly 2,400 arrests, yellow vests joining the student-led mobilization, and a broad coalition including trade unions across multiple cities."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The reality bulletin lists the France-Germany car-industry deal under 'No longer in the headlines,' and no headline references an EU Parliament committee vote on emissions timelines or conditional market access."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [34], [44], [69], [73], [125], [228], and [239] confirm the 10-year yield hit 5 percent (highest since 2002), Moody's issued a cautious warning, and the debt risk premium reached eurozone-sovereign-crisis levels, matching the predicted record spread and ratings-agency signal."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin explicitly places the Channel Tunnel collision under 'No longer in the headlines,' confirming the incident dropped from the news cycle as predicted."
+              }
+            },
+            "archer_note": "The central thesis of a protest wave layered over a fiscal and bond-market crisis was both correct and well-timed, matching the dominant headlines precisely. The France-Germany car-deal item was a reasonable carry-over from the prior round but was already fading, making it a weak and ultimately absent second pick. The sovereign-debt call was the strongest element, correctly anticipating the 5 percent yield milestone, the Moody's warning, and the government's struggle with the budget path."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [18], [22], [91], [109], [123], and [160] confirm 70,000 police, tear gas, mass arrests, looting, fires, and the mobilization broadening to yellow vests and trade unions as predicted."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "No headline in the collection mentions DCC Energy, Shell's French fuel stations, or an EU Parliament committee vote on the acquisition, and the topic is absent from the reality bulletin entirely."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [34], [44], [73], [125], and [228] confirm the yield spread widened and Moody's issued a warning, but no headline specifically names Lagarde defending the budget path against calls for ECB intervention, making the agent over-specific."
+              },
+              "fade_call": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [128] ('South African rugby player Hyron Andrews paid emotional tribute in France') shows the name still appeared in the collection, so the incident did not drop 'from headlines entirely,' though it no longer dominated the news cycle."
+              }
+            },
+            "archer_note": "The protest-wave lead and the sovereign-debt direction were both correct, but the DCC Energy/Shell item was an obscure, over-specific prediction that found no echo in any headline. Naming Lagarde as the specific actor in the bond-market story was over-reach; the headlines centered on Moody's, the finance ministry, and the yield level rather than the ECB president. The Andrews fade was directionally right but the word 'entirely' was slightly too strong given the tribute headline that kept his name visible."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "Bulletin X's sovereign-debt item matched the headlines more precisely (finance ministry and Moody's, both confirmed) while Bulletin Y's reliance on Lagarde as the named actor was over-specific and not clearly supported. X's fade call on the Channel Tunnel collision was a clean came_true, whereas Y's Andrews fade was only true_in_direction because a tribute headline kept the name in the collection."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "French police",
+          "expected": "A second nationwide day of street action will force French police into a new round of clashes with larger crowds in multiple cities.",
+          "direction": "escalate",
+          "sign": "Headlines will describe French police deploying tear gas and making mass arrests across multiple cities, with footage of looting and fires as the mobilization broadens beyond students to yellow vests and trade unions."
+        },
+        "second": {
+          "subject": "DCC Energy",
+          "expected": "DCC Energy's proposed acquisition of Shell's French fuel stations will face its first formal challenge in the EU Parliament, where a committee vote will determine whether the conditional market access is amended or watered down further.",
+          "direction": "persist",
+          "sign": "Headlines will reference a parliamentary committee vote on DCC Energy's fuel-station acquisition and a UK government statement either accepting or contesting the conditional market access tied to China tariff alignment."
+        },
+        "third": {
+          "subject": "Christine Lagarde",
+          "expected": "The spread between French and German government bonds will widen to a fresh level as Lagarde struggles to advance the fiscal plan through a divided legislature.",
+          "direction": "escalate",
+          "sign": "Headlines will report a record yield spread, a ratings-agency warning, and Lagarde defending the budget path against calls for an ECB intervention."
+        },
+        "fade_call": {
+          "subject": "Hyron Andrews",
+          "expected": "fade",
+          "sign": "The incident will drop from headlines entirely, with Andrews' team returning to normal training and no follow-up investigation dominating the news cycle."
+        },
+        "surprise": {
+          "subject": "Emmanuel Macron",
+          "expected": "A no-confidence motion will be tabled in the National Assembly in direct response to the street action, forcing Macron's cabinet to rally its slim majority and risking a government collapse.",
+          "chance": "medium"
+        },
+        "summary": "Next week, French police will define the street scene as a second round of demonstrations draws broader participation, with yellow vests, trade unions, and students in the streets of Paris, Marseille, and regional cities, forcing officers into new rounds of tear gas and mass arrests. DCC Energy's proposed acquisition of Shell's French fuel stations will face its first formal scrutiny in the EU Parliament over conditional market access. Lagarde will push the fiscal plan through a divided legislature while the yield spread over German Bunds climbs to a fresh record, rattling bond markets. The 2027 presidential race will accelerate, with Le Pen and Melenchon gaining ground. The Andrews death will fade from headlines, while the retail cyberattack lingers. A no-confidence motion will test Macron's grip on power and his slim parliamentary majority.",
+        "generated_at": "2026-10-23T12:46:55+03:00"
+      }
+    },
+    "FR|reversed": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [2], [18], [98], [123], [160] show 70,000 police deployed nationwide, yellow vests joining, 2,400 arrests, and riots across multiple cities, the opposite of a single peaceful gathering in Paris."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The situation bulletin lists the France-Germany car-industry deal under 'No longer in the headlines,' and no headline references a unanimous EU Parliament committee vote or a UK government statement on China tariff alignment."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [34], [44], [125], [228], [239] report French 10-year yields hitting 5 percent for the first time since 2002 and the debt risk premium reaching eurozone sovereign-crisis levels, the exact opposite of a narrowing spread."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "The situation bulletin places the Channel Tunnel collision under 'No longer in the headlines,' and no headline reports the French terminal closing for weeks or a major safety investigation dominating the news."
+              }
+            },
+            "archer_note": "Bulletin X called for calm and institutional confidence across the board, but every major direction was inverted: the protests escalated rather than shrank, the bond spread widened to record levels rather than narrowing, and the Channel Tunnel incident faded rather than escalating. Its main thesis of de-escalation was not merely early but wrong, as the week delivered France's worst protest crisis in years with 70,000 officers deployed and curfews imposed. The only element that partially aligned was the car-deal fade, but even there the specific sign of a smooth committee passage and UK statement never surfaced."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [2], [18], [22], [98], [123], [160], [187] confirm a second nationwide mobilization with 70,000 police, yellow vests joining, looting, arrests, tear gas, and clashes in Paris, Marseille, Lyon, and Limoges."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The situation bulletin lists the France-Germany car-industry deal under 'No longer in the headlines,' and no headline references a formal EU Parliament committee vote or a UK government statement accepting or contesting conditional market access."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [34], [44], [73], [125], [148], [228], [239] confirm yields hitting a multi-year high, the risk gauge breaching a key level, Moody's warning the situation remained unclear, and the bond sell-off intensifying."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin explicitly lists the Channel Tunnel collision under 'No longer in the headlines,' confirming it dropped from the news cycle as Y predicted."
+              }
+            },
+            "archer_note": "Bulletin Y correctly identified the two dominant forces of the week: the escalating protest wave and the sovereign-debt stress, both of which it called in the right direction with matching signs. It missed the car-deal sign, which simply faded rather than facing a formal committee challenge, but this was a peripheral item. Its main thesis of escalation and fiscal strain was not merely right but precise, capturing the 70,000-officer deployment, the yellow-vest broadening, and the Moody's warning that all materialized."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -2,
+            "reason": "Y correctly called the direction of both dominant stories (protests escalating, debt stress widening) and the Channel Tunnel fade, while X got all four items wrong in direction, predicting de-escalation where escalation occurred. The decisive gap is on the lead and third items, where X's calm-and-confidence thesis was directly contradicted by 70,000 police, record yields, and curfews, whereas Y's escalation thesis matched the headlines almost verbatim."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Nationwide protest wave",
+          "expected": "The nationwide protest wave will shrink to a small, peaceful gathering in a single city as the coalition narrows back to students and police stand down.",
+          "direction": "de-escalate",
+          "sign": "Headlines will describe a quiet, orderly demonstration in Paris alone, with minimal arrests, no tear gas, and the yellow vest and trade union wings stepping back."
+        },
+        "second": {
+          "subject": "France-Germany car industry deal",
+          "expected": "The emissions-timeline relaxation will pass the EU Parliament committee vote smoothly, confirming the climate-neutrality deadline without amendment or watered-down language.",
+          "direction": "fade",
+          "sign": "Headlines will reference a unanimous committee vote confirming vehicle emissions standards and a UK government statement welcoming the conditional market access tied to China tariff alignment."
+        },
+        "third": {
+          "subject": "French sovereign debt stress",
+          "expected": "The spread between French and German government bonds will narrow to a comfortable level as the government successfully advances its fiscal plan through the legislature.",
+          "direction": "de-escalate",
+          "sign": "Headlines will report a narrowing yield spread, a ratings-agency upgrade, and the finance minister celebrating the budget path with no calls for ECB intervention."
+        },
+        "fade_call": {
+          "subject": "Channel Tunnel minibus-train collision",
+          "expected": "escalate",
+          "sign": "Headlines will report the French terminal closing for weeks, a major safety investigation, and political blame-shifting between Paris and London over the collision."
+        },
+        "surprise": {
+          "subject": "Government stability and cabinet crisis",
+          "expected": "A no-confidence motion will be withdrawn before the vote in the National Assembly, confirming the prime minister's cabinet and ending the government stability crisis.",
+          "chance": "medium"
+        },
+        "summary": "Next week, France will be defined by calm and institutional confidence. The nationwide protest wave will shrink to a small, orderly gathering in Paris as the coalition narrows back to students and police stand down. The government will advance its budget through Parliament with broad support, and the narrowing yield spread over German Bunds will reassure bond markets. The France-Germany car deal will pass the EU Parliament committee vote unanimously, confirming the climate-neutrality timeline without amendment. The 2027 presidential race will slow, with Le Pen and Melenchon losing ground in the political chatter. The Channel Tunnel collision will dominate headlines, with the French terminal closing and a major investigation launching. A no-confidence motion will be withdrawn before the vote, confirming the cabinet's grip on power.",
+        "generated_at": "2026-10-23T12:46:55+03:00"
+      }
+    },
+    "FR|vague": {
+      "order": [
+        "damaged",
+        "original"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "The protest wave dominated the headlines with escalation confirmed across dozens of headlines including [123] (2,400 arrests), [160] (yellow vests joining), [232] (tear gas), and [187] (spiral into riots and looting)."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The France-Germany car-industry deal is explicitly listed as no longer in the headlines, and no headline among the 250 references the deal, an emissions-timeline vote, or a UK statement on China tariffs."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "French sovereign debt stress escalated as confirmed by [34] (10-year yield hit 5%, highest since 2002), [73] (Moody's spared a downgrade), and [228] (debt risk premium at eurozone-crisis levels)."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The Channel Tunnel collision is explicitly listed as no longer in the headlines, and no headline among the 250 references the incident or its aftermath."
+              }
+            },
+            "archer_note": "Bulletin X correctly identified the two dominant stories (protests and debt stress) and the correct fade, but its signs were so generic ('The topic is mentioned in headlines') that almost any continuation would have satisfied them, making the forecasts nearly unfalsifiable. It missed the specific texture of what actually happened: the yellow-vest broadening, the 5% yield milestone, the Moody's warning, and the curfew crackdown. Its main thesis was neither wrong nor early; it was simply too thin to be impressive."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "The predicted specifics all matched: [160] confirms yellow vests joining, [232] confirms tear gas, [123] confirms 2,400 arrests, [187] confirms looting, and [1]-[5] confirm a new coordinated mobilization across multiple cities."
+              },
+              "second": {
+                "grade": "did_not_appear",
+                "evidence": "The France-Germany car deal is explicitly no longer in the headlines, and no headline references a parliamentary committee vote on emissions standards, a UK government statement, or China tariff alignment."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "The predicted specifics matched: [34] and [44] confirm the yield spread hit a multi-year high, [73] and [167] confirm the Moody's ratings-agency warning, and [210] confirms the ECB being called into the discussion while [68] shows the finance side defending the budget path."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The Channel Tunnel collision is explicitly listed as no longer in the headlines, with no follow-up investigation or terminal disruption dominating the news cycle."
+              }
+            },
+            "archer_note": "Bulletin Y earned its specificity: the lead's call on yellow vests, tear gas, looting, and multi-city mobilization was confirmed in detail, and the third's call on the yield spread, Moody's warning, and ECB involvement all matched the headlines. Its one misstep was the car-deal item, where the very specific prediction of a parliamentary committee vote and UK statement on China tariffs made the miss more conspicuous than a generic 'stays in the news' would have been. Its main thesis was correct and timely; the no-confidence surprise did not materialize, but the government clearly survived under pressure as [112] and [238] show."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": 1,
+            "reason": "Both bulletins received identical grades on all four items, but Y's specific, falsifiable predictions in the lead and third were confirmed by the headlines (yellow vests, tear gas, 5% yield, Moody's warning, ECB reference), while X's generic 'mentioned in headlines' signs could have been satisfied by almost any continuation. Y's specificity in the second item made its miss more costly, but the net effect of two well-validated specific calls against one thin generic call tips the balance in Y's favor."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Nationwide protest wave",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "France-Germany car industry deal",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "French sovereign debt stress",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Channel Tunnel minibus-train collision",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Government stability and cabinet crisis",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T12:46:55+03:00"
+      }
+    },
+    "GB|actors_swapped": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 14, 165, and 183 confirm the Brand trial continued with women testifying, but the phase was prosecution testimony rather than the cross-examination of the lead accuser and defense witnesses the bulletin specified."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 61, 62, 171, and 177 show Healey's budget dominated coverage, but headline 61 states 'Push Hard UK Choices to Another Day,' meaning the budget was not tabled with confirmed tax figures as predicted."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headline 85 confirms the police ruled out a probe into the PM adviser's wife's Palestine Action post, and headline 72 shows authors and political figures publicly taking sides on the Rooney sales ending and the ban."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The situation bulletin explicitly lists 'Harry and Meghan UK return' under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "The bulletin correctly identified the Brand trial and the Healey Budget as the two dominant narratives, which matched the week's actual coverage well. Its main weakness was over-specifying the trial phase (cross-examination and defense witnesses rather than ongoing prosecution testimony) and the Budget timing (tabled with specific tax confirmations rather than pushed to another day). The overall thesis of a tense week anchored by courtroom drama and fiscal pressure was accurate, and the fade call was well-judged."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headline 186 shows the UK asking Apple to widen access to its payment tech, but it is a regulatory request rather than the courtroom cross-examination hearing in its second week that the bulletin predicted."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 95 and 164 place Microsoft in UK business news over a data centre deal exit, but this is a different story from the competition watchdog issuing formal findings on software dominance and confirming remedies."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines 35, 41, and 153 show Reform UK disciplinary and scandal stories (Al Jazeera investigation, donation breach, media platform launch), but the mechanism was a donation breach and external investigation rather than an undercover documentary and police assessment of filmed remarks."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "No headline in the collection mentions Beth Dobbin, confirming her ME diagnosis story faded from coverage as predicted."
+              }
+            },
+            "archer_note": "The bulletin's main thesis was wrong in emphasis, centering on an Apple regulatory hearing and a Microsoft competition probe that were minor or differently-angled stories while missing the dominant Jackdaw gas field approval, the inflation spike, and the Saudi jet deployment. All three substantive items landed as true_in_direction rather than came_true, reflecting a pattern of identifying the right broad category but the wrong specific development within it. The fade call was correct, but the overall bulletin would have been more useful if it had anchored on the week's actual dominant narratives."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "X's lead (Brand trial) and second (Healey Budget) matched two of the week's most dominant stories with multiple supporting headlines, while Y's lead (Apple) and second (Microsoft) were minor single-headline or differently-angled items. X's third item more closely matched the actual police statement and political debate, whereas Y's third was in the right party-scandal category but with a different specific mechanism that no headline supported."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Apple tap-to-pay legal fight",
+          "expected": "Apple's legal team will face cross-examination on its iPhone tap-to-pay model as the UK regulatory hearing enters its second week.",
+          "direction": "persist",
+          "sign": "Headlines will carry courtroom drama with regulatory questioning moments and Apple's defense strategy shifts keeping the legal fight on the front page."
+        },
+        "second": {
+          "subject": "UK competition watchdog Microsoft probe",
+          "expected": "The UK competition watchdog will issue its formal findings on Microsoft's business software dominance, confirming the proposed remedies in a public statement.",
+          "direction": "escalate",
+          "sign": "Headlines will show markets reacting sharply to the final regulatory findings while Microsoft defends its position against the watchdog's proposed remedies."
+        },
+        "third": {
+          "subject": "Reform UK undercover documentary fallout",
+          "expected": "The police assessment of the Reform UK candidates' filmed remarks will become public and political figures will take firm public sides on the party's disciplinary decisions.",
+          "direction": "persist",
+          "sign": "Headlines will feature a formal police statement and a sharp parliamentary exchange over the Reform UK suspension decisions."
+        },
+        "fade_call": {
+          "subject": "Beth Dobbin ME diagnosis coverage",
+          "expected": "fade",
+          "sign": "Coverage shifts from the sprinter's health update to other sports and political stories as the novelty wears off."
+        },
+        "surprise": {
+          "subject": "Axel Springer-Telegraph clearance reversal",
+          "expected": "The UK government will issue its formal decision to reverse the proposed clearance, triggering a legal challenge from Axel Springer and the Telegraph group.",
+          "chance": "medium"
+        },
+        "summary": "Next week in the United Kingdom will be defined by Apple's tap-to-pay legal fight entering its core hearing phase, with the company's team facing cross-examination and regulatory questioning. The UK competition watchdog's formal findings on Microsoft's software dominance will dominate business coverage as it confirms proposed remedies, prompting sharp market reactions and a public clash with Microsoft's preferred approach. The Reform UK undercover documentary fallout will spill into political territory as the police statement on the candidates' filmed remarks becomes public and parliament debates the party's proportionality. The Beth Dobbin ME diagnosis story will fade after its initial wave. A surprise formal reversal on the Axel Springer-Telegraph clearance would add a regulatory drama to an already busy week. The mood stays tense, with the Apple hearing and the watchdog decision providing two dominant narratives.",
+        "generated_at": "2026-10-23T13:20:32+03:00"
+      }
+    },
+    "GB|reversed": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [14], [165], and [183] confirm the trial is persisting with women testifying, but the specific phase X described (cross-examination of the lead accuser and defense witnesses) is not what the headlines report; it is prosecution witnesses giving their accounts."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [61], [177], and [171] confirm the budget is the dominant economic narrative and Healey is under pressure, but the specific act of tabling the budget with a confirmed bank tax and marketplace levy has not yet occurred this week, as headlines say 'ahead of budget' and 'before Healey's first budget.'"
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headline [85] reports UK police ruling out a probe into the PM adviser's wife's Palestine Action post, making the assessment public, and headline [72] shows the Rooney/Palestine Action ban is still generating political debate."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "Harry and Meghan's UK return is explicitly listed under 'No longer in the headlines,' confirming the story faded as X predicted."
+              }
+            },
+            "archer_note": "X completely missed the Jackdaw gas field approval, which dominated the week with at least twelve dedicated headlines, as well as the UK-Saudi jet deployment, the inflation spike, Storm Austen, and the AI Biosecurity Lab announcement. Its main thesis of trial-plus-budget as the two dominant narratives was directionally correct for the trial but premature for the budget, which had not yet been delivered. The bulletin's overall mood of 'tense' was reasonable, but it failed to capture the energy-security and Middle East dimensions that defined much of the coverage."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "did_not_appear",
+                "evidence": "Headlines [14], [165], and [183] show the trial is still in the prosecution-witness phase with women testifying, not concluding with a verdict and sentencing as Y predicted."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [61], [177], and [171] confirm the budget is the dominant economic story, but the 'minimal' and 'de-escalate' framing is not supported by language describing a 'tough budget' and 'hard choices,' and the budget has not yet been tabled this week."
+              },
+              "third": {
+                "grade": "did_not_appear",
+                "evidence": "Headline [85] shows the police assessment became public (ruling out a probe) rather than staying internal, and headline [72] shows the Rooney/Palestine Action issue is still generating political debate rather than quietly fading."
+              },
+              "fade_call": {
+                "grade": "did_not_appear",
+                "evidence": "Harry and Meghan's UK return is listed under 'No longer in the headlines,' meaning the story faded rather than escalating with new commitments and paparazzi coverage as Y predicted."
+              }
+            },
+            "archer_note": "Y's main thesis was largely wrong: the trial did not conclude, the budget was described as tough rather than minimal, and the Harry and Meghan story faded rather than escalating. It also missed every major new story of the week, including the Jackdaw approval, the Saudi jet deployment, the storm, the inflation spike, and the AI Biosecurity Lab. The bulletin's overall mood of 'eases' was contradicted by the week's mixed mood and 6-of-10 intensity, with multiple escalating and new stories dominating coverage."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -2,
+            "reason": "X correctly called the trial as persisting, the Rooney/Palestine Action issue as persisting, and Harry and Meghan as fading, while Y got all three wrong (trial concluding, issue fading, couple escalating). X's two came_true and two true_in_direction results clearly outperform Y's single true_in_direction and three did_not_appear results."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Russell Brand trial",
+          "expected": "The trial will conclude with a verdict as jurors retire to deliberate and the courtroom clears for sentencing.",
+          "direction": "fade",
+          "sign": "Headlines will report the final verdict, sentencing details, and post-trial reactions from both sides."
+        },
+        "second": {
+          "subject": "Autumn Budget",
+          "expected": "Chancellor Healey will table a minimal Budget that drops the bank tax increase and the online marketplace levy in a brief speech.",
+          "direction": "de-escalate",
+          "sign": "Headlines will note mild market reactions and a government-IMF consensus on the final tax package."
+        },
+        "third": {
+          "subject": "Rooney and Palestine Action fallout",
+          "expected": "The police assessment will stay internal and the book will be quietly returned to shelves as politicians drop the issue.",
+          "direction": "fade",
+          "sign": "Headlines will note the book's return to stores and a quiet closure of the police review."
+        },
+        "fade_call": {
+          "subject": "Harry and Meghan UK return",
+          "expected": "escalate",
+          "sign": "Headlines will center on the couple's new commitments, a royal audience, and a surge of paparazzi coverage."
+        },
+        "surprise": {
+          "subject": "Sky-ITV merger intervention",
+          "expected": "The UK government will grant unconditional approval of the proposed merger, and both broadcasters will announce a joint celebration.",
+          "chance": "medium"
+        },
+        "summary": "Next week in the United Kingdom will be defined by the Russell Brand trial reaching its conclusion, with jurors delivering a verdict and the courtroom clearing for sentencing. Chancellor Healey's Autumn Budget will pass quietly as she drops the bank tax rise and the online marketplace levy, prompting mild market reactions and a rare government-IMF alignment. The Sally Rooney book withdrawal will dissolve as the police review stays internal and the book returns to shelves without a parliamentary fight. The Harry and Meghan UK return story will intensify with new commitments, a royal audience, and a wave of paparazzi coverage. A surprise unconditional approval of the Sky-ITV merger would add a celebratory regulatory note to the week. The mood eases, with the trial's end and a calm Budget providing two closing narratives.",
+        "generated_at": "2026-10-23T13:20:32+03:00"
+      }
+    },
+    "GB|vague": {
+      "order": [
+        "original",
+        "damaged"
+      ],
+      "labels": [
+        "X",
+        "Y"
+      ],
+      "reply": {
+        "bulletins": {
+          "X": {
+            "items": {
+              "lead": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [14], [165], and [183] confirm the Russell Brand trial persisted with women testifying, but it was prosecution testimony rather than the cross-examination and defense witnesses the bulletin predicted."
+              },
+              "second": {
+                "grade": "true_in_direction",
+                "evidence": "Headlines [61], [171], [177], and [48] confirm the Healey budget dominated coverage, but the specific bank tax increase and online marketplace levy were not named in any headline, and the budget appears to be in preparation rather than already tabled."
+              },
+              "third": {
+                "grade": "true_in_direction",
+                "evidence": "Headline [85] shows police ruled out a probe into the PM adviser's wife's Palestine Action post and [72] references Rooney sales ending, but the predicted 'firm public sides' and 'bookstore decision' parliamentary exchange were not the dominant angle."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin explicitly lists 'Harry and Meghan UK return' under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "Bulletin X misidentified the trial phase (prosecution testimony, not cross-examination) and named specific tax measures (bank tax, online marketplace levy) that no headline confirmed. Its third item over-specified the Rooney/Palestine Action angle with a 'bookstore decision' that did not appear. The main thesis was not wrong but merely early and slightly mis-specified: the trial and budget were indeed dominant, just at a different stage and with different details than predicted."
+          },
+          "Y": {
+            "items": {
+              "lead": {
+                "grade": "came_true",
+                "evidence": "Headlines [14], [165], and [183] confirm the Russell Brand trial remained in the news with women testifying, matching the persist direction."
+              },
+              "second": {
+                "grade": "came_true",
+                "evidence": "Headlines [61], [171], [177], and [48] confirm the Healey budget was a dominant and escalating topic, matching the persist/escalate direction."
+              },
+              "third": {
+                "grade": "came_true",
+                "evidence": "Headlines [72] and [85] confirm the Palestine Action ban and Rooney book withdrawal remained in the headlines, matching the persist direction."
+              },
+              "fade_call": {
+                "grade": "came_true",
+                "evidence": "The reality bulletin lists 'Harry and Meghan UK return' under 'No longer in the headlines,' confirming the fade."
+              }
+            },
+            "archer_note": "Bulletin Y missed the specific angles entirely: it did not anticipate that the trial would feature prosecution testimony from six women, that the budget would be framed around pre-budget borrowing and inflation pressure, or that police would rule out a probe. Its main thesis was not wrong but so generic ('the topic stays in the news') that it was nearly unfalsifiable and added minimal predictive value beyond identifying the correct topics."
+          }
+        },
+        "verdicts": [
+          {
+            "pair": "XY",
+            "score": -1,
+            "reason": "Bulletin X provided specific, testable predictions (trial phase, named tax measures, police statement) that were mostly in the right direction, while Bulletin Y's items were near-tautologies ('the topic stays in the news') that the rubric penalizes as generalities nothing could falsify. X's specificity earned it more informational value even though its grades landed one step below Y's across the board."
+          }
+        ]
+      },
+      "damaged_bulletin": {
+        "lead": {
+          "subject": "Russell Brand trial",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "second": {
+          "subject": "Autumn Budget",
+          "expected": "The topic stays in the news.",
+          "direction": "escalate",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "third": {
+          "subject": "Rooney and Palestine Action fallout",
+          "expected": "The topic stays in the news.",
+          "direction": "persist",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "fade_call": {
+          "subject": "Harry and Meghan UK return",
+          "expected": "fade",
+          "sign": "The topic is mentioned in headlines."
+        },
+        "surprise": {
+          "subject": "Sky-ITV merger intervention",
+          "expected": "The topic stays in the news.",
+          "chance": "medium"
+        },
+        "summary": "The topics of the week stay relevant.",
+        "generated_at": "2026-10-23T13:20:32+03:00"
+      }
+    }
+  }
+}
