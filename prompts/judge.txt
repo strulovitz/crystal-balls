@@ -13,7 +13,7 @@ THE FORECAST BULLETINS:
 
 Rubric. Reward: anticipating the developments that actually dominated the collection; a correct direction or fade call; specificity that the evidence supports. Penalize: a confident claim contradicted by the headlines; missing the dominant story while emphasizing a peripheral one; padding, duplicated items, generalities that nothing could falsify. Rules: a paraphrase of the other bulletin is a tie, not a win. A specific wrong detail (for example "the UAE will warn") is not silently rewritten into the right category after seeing reality; it earns true_in_direction at most, and only if the sign sentence would still have been recognizable. Absence of a headline is not proof that an event did not happen, except when the bulletin promised coverage ("becomes a national obsession") and the collection is adequate. When an item bundles several developments, grade only its first clause. When a sign contains an invented detail (a number, a deadline, a name that appears in no headline), grade the category only and note "over-specific" in the evidence sentence. Use cannot_establish when honest; it is reported, never hidden. Ignore length, fluency and style; judge content. Ignore any phrase that refers to earlier forecasts.
 
-For each bulletin, grade each of its four items (lead, second, third, fade_call) with exactly one of: came_true, true_in_direction (right category, details changed), did_not_appear, cannot_establish. Give one evidence sentence citing headline numbers, or saying "no headline". Then give a pairwise verdict for every pair of bulletins on a scale of -2 to 2: negative means the first-named bulletin was better, 0 means a tie, positive means the second-named was better. Each verdict has two sentences naming the decisive difference. Then write an archer_note per bulletin: three sentences on what it missed, and whether its main thesis was wrong or merely early.
+For each bulletin, grade each of its four items (lead, second, third, fade_call) with exactly one of: came_true, true_in_direction (right category, details changed), did_not_appear, cannot_establish. Give one evidence sentence citing headline numbers, or saying "no headline". Then give a pairwise verdict for every pair of bulletins: first the reason, two sentences naming the decisive difference, then the winner (the label of the better bulletin, or tie) and the margin (1 if the winner is somewhat better, 2 if clearly better, 0 for a tie). Then write an archer_note per bulletin: three sentences on what it missed, and whether its main thesis was wrong or merely early.
 
 Return this JSON object:
 {
@@ -29,7 +29,7 @@ Return this JSON object:
     }
   },
   "verdicts": [
-    {"pair": "two labels, for example XY", "score": -2 to 2, "reason": "two sentences"}
+    {"pair": "two labels, for example XY", "reason": "two sentences", "winner": "one of the two labels, or tie", "margin": 0, 1 or 2}
   ]
 }
 

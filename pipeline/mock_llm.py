@@ -96,7 +96,8 @@ def _mock_judge(variables):
     for i, a in enumerate(labels):
         for b in labels[i + 1:]:
             sc = max(-2, min(2, quality[b] - quality[a]))
-            out["verdicts"].append({"pair": a + b, "score": sc, "reason": "Mock reason one. Mock reason two."})
+            out["verdicts"].append({"pair": a + b, "reason": "Mock reason one. Mock reason two.",
+                                    "winner": "tie" if sc == 0 else (a if sc < 0 else b), "margin": abs(sc)})
     return out
 
 

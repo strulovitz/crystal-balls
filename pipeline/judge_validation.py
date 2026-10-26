@@ -97,7 +97,7 @@ def main():
     ap.add_argument("--round", required=True, help="the judged round whose reader bulletins are the reality")
     ap.add_argument("--mock-llm", action="store_true")
     ap.add_argument("--out", default=str(ROOT / "data" / "judge_validation.json"))
-    ap.add_argument("--max", type=int, default=8)
+    ap.add_argument("--max", type=int, default=12)   # 13.19 f: 12 bulletins, so one lucky reversal cannot decide a test
     args = ap.parse_args()
     settings = common.load_settings()
     rounds_dir = ROOT / "data" / "rounds"
@@ -155,8 +155,9 @@ def main():
             score = v4.better_score([v4.unshuffle(obj, order)[1]], "original", "damaged")
             results[kind].append({"code": d["code"], "original_minus_damaged": score})
             prog["results"][key] = score
+            flags = v4.judge_consistency(obj)
             prog.setdefault("replies", {})[key] = {"order": order, "labels": labels, "reply": obj,
-                                                    "damaged_bulletin": dmg}
+                                                    "damaged_bulletin": dmg, "consistency_flags": flags}
             _save_progress(prog_path, prog)   # checkpoint after every single judge call
             log(f"Validation {n} of {total} done ({kind}, {d['name']}, original minus damaged = {score}).")
     summary = {}
@@ -170,10 +171,12 @@ def main():
           and ties >= min(6, summary["paraphrase"]["n"]))
     out = {"passed": bool(ok), "round": args.round, "paraphrase_ties": ties, "paraphrase_n": summary["paraphrase"]["n"],
            "required": "wrong_country and reversed mean at least 1, vague and actors_swapped mean above 0, "
-                       "paraphrase within 0.5 of a tie in at least 6 of 8",
+                       "paraphrase within 0.5 of a tie in at least 6 of the bulletins",
            "mock": bool(args.mock_llm), "per_kind": summary,
            "by_country": {k: {r["code"]: r["original_minus_damaged"] for r in rows} for k, rows in results.items()},
-           "kept_from_first_run": ["wrong_country", "paraphrase"] if prog.get("seeded_first_run") else [],
+           "judge_consistency": {"compared": len(prog.get("replies", {})),
+                                 "disagree": sum(1 for r in prog.get("replies", {}).values() if r.get("consistency_flags")),
+                                 "note": "winner named by the judge has fewer item points than the other bulletin"},
            "replies": prog.get("replies", {})}
     save_json(Path(args.out), out)
     prog_path.unlink(missing_ok=True)   # finished: the next validation starts fresh

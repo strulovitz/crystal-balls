@@ -379,9 +379,20 @@ def validate_judge(obj, labels):
         for x in v:
             p = str(x.get("pair", "")).replace(" ", "").replace("-", "").replace("/", "").upper()
             got.append(p)
-            sc = x.get("score")
-            if not (isinstance(sc, (int, float)) and not isinstance(sc, bool) and -2 <= sc <= 2):
-                errors.append(f"{p}: score must be a number from -2 to 2, got {sc!r}")
+            if "winner" in x or "margin" in x:
+                # Bible 13.19 f (2026-10-26): the judge names the winner and the margin; no signed number.
+                w = str(x.get("winner", "")).strip().upper()
+                m = x.get("margin")
+                if w != "TIE" and w not in set(p):
+                    errors.append(f"{p}: winner must be one of {sorted(set(p))} or tie, got {x.get('winner')!r}")
+                elif w != "TIE" and m not in (1, 2):
+                    errors.append(f"{p}: margin must be 1 (somewhat better) or 2 (clearly better), got {m!r}")
+                elif w == "TIE" and m not in (0, None):
+                    errors.append(f"{p}: margin must be 0 for a tie, got {m!r}")
+            else:
+                sc = x.get("score")
+                if not (isinstance(sc, (int, float)) and not isinstance(sc, bool) and -2 <= sc <= 2):
+                    errors.append(f"{p}: needs winner and margin, got {x!r}")
             if not (isinstance(x.get("reason"), str) and x["reason"].strip()):
                 errors.append(f"{p}: reason missing")
         if sorted(got) != sorted(pairs):
@@ -411,6 +422,40 @@ def judge_orders(arms, seed_text, both_orders):
     return orders
 
 
+def verdict_score(x):
+    """The signed verdict of one pair, computed here and never written by the judge (13.19 f).
+    Convention kept for everything downstream: negative means the first-named bulletin was better."""
+    if "winner" in x:
+        w = str(x["winner"]).strip().upper()
+        if w == "TIE":
+            return 0.0
+        p = str(x["pair"]).replace(" ", "").replace("-", "").replace("/", "").upper()
+        m = float(x.get("margin") or 0)
+        return -m if w == p[0] else m
+    return float(x["score"])
+
+
+GRADE_POINTS = {"came_true": 3, "true_in_direction": 2, "did_not_appear": 0, "cannot_establish": 0}
+
+
+def judge_consistency(judge_obj):
+    """Flags every pair where the winner the judge named has fewer item points than the other bulletin
+    (crude count 3 for came_true, 2 for true_in_direction, 0 otherwise). Only reports, never corrects."""
+    pts = {lab: sum(GRADE_POINTS.get(g.get("grade"), 0) for g in e["items"].values())
+           for lab, e in judge_obj["bulletins"].items()}
+    flags = []
+    for x in judge_obj["verdicts"]:
+        p = str(x["pair"]).replace(" ", "").replace("-", "").replace("/", "").upper()
+        sc = verdict_score(x)
+        if sc == 0:
+            continue
+        win = p[0] if sc < 0 else p[1]
+        lose = p[1] if sc < 0 else p[0]
+        if pts[win] < pts[lose]:
+            flags.append({"pair": p, "winner": win, "points": {win: pts[win], lose: pts[lose]}})
+    return flags
+
+
 def unshuffle(judge_obj, order):
     """judge_obj uses labels X, Y, Z in `order`; returns per_arm grades and verdicts keyed by arm names.
     Verdict score convention after un-shuffling: score for (a, b) where positive means b better, kept as
@@ -425,7 +470,7 @@ def unshuffle(judge_obj, order):
     for x in judge_obj["verdicts"]:
         p = str(x["pair"]).replace(" ", "").replace("-", "").replace("/", "").upper()
         a, b = lab_to_arm[p[0]], lab_to_arm[p[1]]
-        verdicts.append({"first": a, "second": b, "score": float(x["score"]), "reason": x["reason"]})
+        verdicts.append({"first": a, "second": b, "score": verdict_score(x), "reason": x["reason"]})
     return per_arm, verdicts
 
 
@@ -470,6 +515,10 @@ def build_judgment(judge_results, orders, graded_round, elapsed_days, dry_run=Fa
         for b in arms[i + 1:]:
             pairs[f"{a}_vs_{b}"] = better_score(verdicts_by_order, a, b)
     out["scores"] = pairs
+    cons = [judge_consistency(res) for res in judge_results]
+    out["consistency"] = {"compared": sum(len(res["verdicts"]) for res in judge_results),
+                          "disagree": sum(len(c) for c in cons),
+                          "flags": [dict(f, order=i) for i, c in enumerate(cons) for f in c]}
     if "crystal" in arms and "plain" in arms:
         out["v"] = better_score(verdicts_by_order, "crystal", "plain")
     if "crystal" in arms and "persistence" in arms:

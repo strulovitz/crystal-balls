@@ -1055,6 +1055,9 @@ function scorecardModalV4(sc) {
   Object.entries(sc.gap_buckets || {}).forEach(([k, g]) => {
     if (g.n) html += `<div class="stat-row"><span>Gap ${k}</span><span>${g.n} country-weeks, mean ${g.mean_v}</span></div>`;
   });
+  if (sc.judge_consistency && sc.judge_consistency.compared) {
+    html += `<div class="stat-row"><span>Judge consistency (winner against item grades)</span><span>${sc.judge_consistency.disagree} disagreements in ${sc.judge_consistency.compared} comparisons</span></div>`;
+  }
   html += `<div class="stat-row"><span>Judge validation</span><span>${sc.judge_validated ? 'passed' : 'not yet validated'}</span></div>`;
   const ri = sc.run_in_results;
   if (ri && ri.countries) {

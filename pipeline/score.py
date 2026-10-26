@@ -145,6 +145,7 @@ def compute_scorecard(rounds_dir=None):
     per_country = {}
     run_in_rounds = set()
     run_in_judged = 0
+    cons_compared = cons_disagree = 0   # 13.19 f: judge consistency (winner against item grades), reported never corrected
     run_in_v, run_in_u, run_in_list = [], [], []   # Bible 13.19 c: descriptive block, not counted
     run_in_grades = {a: {g: 0 for g in ("came_true", "true_in_direction", "did_not_appear", "cannot_establish")}
                      for a in ("plain", "crystal", "persistence")}
@@ -192,6 +193,10 @@ def compute_scorecard(rounds_dir=None):
             if not j or j.get("dry_run") or "per_arm" not in j:
                 continue
             judged += 1
+            cc = j.get("consistency")
+            if cc:
+                cons_compared += cc.get("compared", 0)
+                cons_disagree += cc.get("disagree", 0)
             if j.get("hand_made"):
                 hand_made.append({"round": round_id, "code": code, "graded_round": j.get("graded_round"),
                                   "u": j.get("u"), "scores": j.get("scores")})
@@ -268,6 +273,9 @@ def compute_scorecard(rounds_dir=None):
         "per_country": {c: {"n": len(x["vs"]), "mean_v": round(mean(x["vs"]), 3)} for c, x in per_country.items()},
         "hand_made_forecasts": hand_made,
         "noise_floor": noise_floor(rounds_dir),
+        "judge_consistency": {"compared": cons_compared, "disagree": cons_disagree,
+                              "note": "Comparisons where the winner the judge named has fewer item points than the other "
+                                      "bulletin (3 for came_true, 2 for true_in_direction, 0 otherwise). Reported, never corrected."},
         "run_in_rounds": sorted(run_in_rounds), "run_in_judged_country_weeks": run_in_judged,
         "run_in_results": {
             "label": "run-in round, not counted",
