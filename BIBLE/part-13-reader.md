@@ -175,3 +175,10 @@ c. Descriptive results from the run-in grading are shown on the page under the l
 d. Collection: the unscorable threshold drops from 40 to 25 relevant headlines. For every country with fewer than 40 in a 7-day window, print relevant_before_cap and filtered_out per source so the keyword lists can be widened where the filter, not the world, is the cause.
 e. Judge validation of 13.7 runs now, on the real judge, before the next round, using eight 10-17 bulletins. Its result decides whether the badge shows a verdict.
 f. Bug fixes log: 2026-10-25, the final log line "No judgments yet" printed although 23 countries were judged; corrected to report judged, tied and unscorable counts.
+2026-10-26, judge_validation.py: the reversed, vague and actors_swapped damages changed only a label or one sentence while the rest of the item still said the original thing, so the damaged bulletins were self-contradictory and the tests did not measure what 13.7 intended. Rebuilt so the damage is real:
+- reversed: the model rewrites every item (expected, sign, direction) and the summary so that the bulletin forecasts the opposite development for every story, with the same subjects. Built with one model call per bulletin, like the paraphrase.
+- vague: expected and sign of every item are replaced by "The topic stays in the news." and "The topic is mentioned in headlines.", direction is kept, the summary is replaced by one sentence saying the week's topics stay relevant. No model call.
+- actors_swapped: the model rewrites every item so that the main actor of each story is replaced by a different named actor that appears in the same country's 10-17 headlines, keeping the same development. One model call per bulletin.
+- wrong_country and paraphrase results of 2026-10-26 are kept; they are not rerun.
+- The judge's full reply (grades, reasons, verdict text) is now saved in data/judge_validation.json for every comparison, so a failure can be read, not only counted.
+Pass thresholds of 13.7 are unchanged.

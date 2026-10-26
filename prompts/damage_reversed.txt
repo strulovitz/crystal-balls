@@ -1,0 +1,7 @@
+Below is a forecast bulletin about {{COUNTRY}}. Rewrite it so that it forecasts the exact opposite development for every story. Keep the same subjects. For the lead, second and third items: rewrite "expected" so that it says the opposite will happen (what the original says will grow, the new text says will shrink, calm or end; what the original says will end, the new text says will intensify), rewrite "sign" so that it describes the headlines that would show that opposite development, and set "direction" to the opposite (escalate and de-escalate are opposites, persist and fade are opposites). For the fade call: set "expected" to the opposite (fade becomes escalate, escalate becomes fade, persist becomes fade) and rewrite "sign" to match. For the surprise: rewrite it so that the opposite surprise is forecast, keep the chance. Rewrite the summary (100 to 150 words) so that it tells the opposite week. Every sentence of the new bulletin must agree with the new direction: nothing of the original forecast may remain in any sentence.
+
+Writing rules: "expected" is one sentence of 4 to 40 words in plain future tense. Do not use the words may, might, could, possibly, likely, continue, remain or ongoing. "sign" is one sentence of 4 to 40 words that starts with "Headlines will" and names kinds of headlines.
+
+{{BULLETIN_JSON}}
+
+Return the rewritten bulletin as a JSON object with exactly the same keys and structure as the one above.

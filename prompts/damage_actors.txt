@@ -1,0 +1,11 @@
+Below is a forecast bulletin about {{COUNTRY}}, followed by the headlines of the week before it was written. Rewrite the bulletin so that the main actor of each story is replaced by a different named actor (a person, party, company, agency, army or country) that appears in the headlines below, while the same development is forecast. For the lead, second and third items: change the "subject" to name the new actor, and rewrite "expected" and "sign" so that they name the new actor and no longer name the old one, keeping the same development and the same "direction". Do the same in the fade call and in the surprise (keep the fade call's "expected" word and the surprise's chance). Rewrite the summary (100 to 150 words) so that it uses the new actors everywhere. No sentence of the new bulletin may name an old actor. Use a different new actor for each story, and only actors that really appear in the headlines.
+
+Writing rules: "expected" is one sentence of 4 to 40 words in plain future tense. Do not use the words may, might, could, possibly, likely, continue, remain or ongoing. "sign" is one sentence of 4 to 40 words that starts with "Headlines will" and names kinds of headlines. Subjects are 2 to 40 words and the three subjects must differ.
+
+THE BULLETIN:
+{{BULLETIN_JSON}}
+
+THE HEADLINES OF THE WEEK BEFORE:
+{{HEADLINES}}
+
+Return the rewritten bulletin as a JSON object with exactly the same keys and structure as the bulletin above.

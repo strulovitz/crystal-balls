@@ -121,6 +121,11 @@ def part13_response(step_name, variables, country_code, vocabulary):
         b = _json.loads(variables["BULLETIN_JSON"])
         b["summary"] = b["summary"] + " "
         return b
+    if step_name in ("damage_reversed", "damage_actors") and "BULLETIN_JSON" in variables:
+        import json as _json
+        b = _json.loads(variables["BULLETIN_JSON"])
+        b["summary"] = b["summary"] + " "
+        return b
     if step_name == "legacy_reader" and "FORECAST_FORMAT_BODY" in variables:
         d = demo.make_display(name, vocabulary)
         d.pop("eli5", None)

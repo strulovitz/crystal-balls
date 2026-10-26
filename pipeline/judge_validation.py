@@ -6,7 +6,10 @@ bulletin, subjects swapped, every direction reversed, vague signs, a paraphrase)
 each damaged version against the original with this round's real situation bulletin as reality.
 Required: wrong-country and reversed lose clearly (mean verdict, original minus damaged, at least 1),
 actors-swapped and vague lose (mean above 0), paraphrase ties (between -0.5 and 0.5) in at least 6 of 8.
-Writes data/judge_validation.json. The badge stays "Judge not yet validated" until it passes."""
+Writes data/judge_validation.json. The badge stays "Judge not yet validated" until it passes.
+
+Rebuilt 2026-10-26 (Bible 13.19 f): reversed and actors_swapped are real rewrites by the model, vague replaces
+expected, sign and summary; the judge's full reply is saved for every comparison."""
 import argparse
 import copy
 import json
@@ -42,26 +45,48 @@ def _save_progress(path, prog):
     tmp.replace(path)   # atomic: a half-written checkpoint can never exist
 
 
-def damage(kind, original, other, name, settings, mock, code, round_id):
+VAGUE_EXPECTED = "The topic stays in the news."
+VAGUE_SIGN = "The topic is mentioned in headlines."
+VAGUE_SUMMARY = "The topics of the week stay relevant."
+
+
+def _headline_titles(rounds_dir, round_id, code, limit=150):
+    p = rounds_dir / round_id / "headlines" / f"{code}.json"
+    titles = []
+    if p.exists():
+        for src in load_json(p).get("sources", []):
+            titles.extend(it["title"] for it in src.get("items", []))
+    return titles[:limit]
+
+
+def damage(kind, original, other, name, settings, mock, code, round_id, forecast_round=None, rounds_dir=None):
     b = copy.deepcopy(original)
     if kind == "wrong_country":
         return copy.deepcopy(other)
-    if kind == "actors_swapped":
-        b["lead"]["subject"], b["third"]["subject"] = b["third"]["subject"], b["lead"]["subject"]
-        return b
-    if kind == "reversed":
-        for k in ("lead", "second", "third"):
-            b[k]["direction"] = REVERSE[b[k]["direction"]]
-        b["fade_call"]["expected"] = FADE_REVERSE.get(b["fade_call"]["expected"], "fade")
-        return b
     if kind == "vague":
-        for k in ("lead", "second", "third", "fade_call"):
-            b[k]["sign"] = "The topic stays in the news."
+        # No model call: expected and sign of every item become empty phrases, directions and subjects stay.
+        for k in ("lead", "second", "third"):
+            b[k]["expected"] = VAGUE_EXPECTED
+            b[k]["sign"] = VAGUE_SIGN
+        b["fade_call"]["sign"] = VAGUE_SIGN        # its "expected" is a fixed word (fade, persist, escalate)
+        b["surprise"]["expected"] = VAGUE_EXPECTED
+        b["summary"] = VAGUE_SUMMARY
         return b
+    variables = {"COUNTRY": name, "BULLETIN_JSON": json.dumps(original, ensure_ascii=False, indent=1),
+                 "ROUND": round_id}
     if kind == "paraphrase":
-        variables = {"COUNTRY": name, "BULLETIN_JSON": json.dumps(original, ensure_ascii=False, indent=1),
-                     "ROUND": round_id}
         obj, _ = rr.llm_call("paraphrase.txt", variables, v4.validate_bulletin, "paraphrase", code, round_id,
+                              settings, mock)
+        return obj
+    validator = lambda o: v4.validate_bulletin(o, strict=False)
+    if kind == "reversed":
+        obj, _ = rr.llm_call("damage_reversed.txt", variables, validator, "damage_reversed", code, round_id,
+                              settings, mock)
+        return obj
+    if kind == "actors_swapped":
+        titles = _headline_titles(rounds_dir, forecast_round, code)
+        variables["HEADLINES"] = "\n".join(f"- {t}" for t in titles)
+        obj, _ = rr.llm_call("damage_actors.txt", variables, validator, "damage_actors", code, round_id,
                               settings, mock)
         return obj
     raise ValueError(kind)
@@ -104,12 +129,14 @@ def main():
                 results[kind].append({"code": d["code"], "original_minus_damaged": prog["results"][key]})
                 log(f"Validation {n} of {total} already done ({kind}, {d['name']}), kept.")
                 continue
-            if kind == "paraphrase" and d["code"] in prog["paraphrases"]:
-                dmg = prog["paraphrases"][d["code"]]
+            dkey = f"{d['code']}|{kind}"
+            if dkey in prog["paraphrases"]:
+                dmg = prog["paraphrases"][dkey]
             else:
-                dmg = damage(kind, original, other, d["name"], settings, args.mock_llm, d["code"], args.round)
-                if kind == "paraphrase" and dmg is not None:
-                    prog["paraphrases"][d["code"]] = dmg   # saved at once, the paraphrase call is expensive
+                dmg = damage(kind, original, other, d["name"], settings, args.mock_llm, d["code"], args.round,
+                             forecast_round=d["judgment"]["graded_round"], rounds_dir=rounds_dir)
+                if kind in ("paraphrase", "reversed", "actors_swapped") and dmg is not None:
+                    prog["paraphrases"][dkey] = dmg   # saved at once, the rewrite call is expensive
                     _save_progress(prog_path, prog)
             order = v4.judge_orders(["original", "damaged"], f"validation-{d['code']}-{kind}", False)[0]
             bul = {"original": original, "damaged": dmg}
@@ -128,6 +155,8 @@ def main():
             score = v4.better_score([v4.unshuffle(obj, order)[1]], "original", "damaged")
             results[kind].append({"code": d["code"], "original_minus_damaged": score})
             prog["results"][key] = score
+            prog.setdefault("replies", {})[key] = {"order": order, "labels": labels, "reply": obj,
+                                                    "damaged_bulletin": dmg}
             _save_progress(prog_path, prog)   # checkpoint after every single judge call
             log(f"Validation {n} of {total} done ({kind}, {d['name']}, original minus damaged = {score}).")
     summary = {}
@@ -142,7 +171,10 @@ def main():
     out = {"passed": bool(ok), "round": args.round, "paraphrase_ties": ties, "paraphrase_n": summary["paraphrase"]["n"],
            "required": "wrong_country and reversed mean at least 1, vague and actors_swapped mean above 0, "
                        "paraphrase within 0.5 of a tie in at least 6 of 8",
-           "mock": bool(args.mock_llm), "per_kind": summary}
+           "mock": bool(args.mock_llm), "per_kind": summary,
+           "by_country": {k: {r["code"]: r["original_minus_damaged"] for r in rows} for k, rows in results.items()},
+           "kept_from_first_run": ["wrong_country", "paraphrase"] if prog.get("seeded_first_run") else [],
+           "replies": prog.get("replies", {})}
     save_json(Path(args.out), out)
     prog_path.unlink(missing_ok=True)   # finished: the next validation starts fresh
     log(f"Judge validation {'PASSED' if ok else 'NOT passed'}: " + ", ".join(f"{k} mean {v['mean']}" for k, v in summary.items())
