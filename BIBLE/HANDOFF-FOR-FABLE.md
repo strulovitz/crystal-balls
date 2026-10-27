@@ -79,3 +79,5 @@ Judge validation (13.7): before any verdict is shown, real bulletins are damaged
 Reply to Nir in five lines at most: that you have read this handoff, that you will now fetch part-13-reader.md and the newest data/demo reports, and ask him only for whatever came after 2026-10-26 (usually: Sonnet's latest report). Then act. Do not summarize this document back to him.
 
 Save it, and when you're ready, ask me about the marketing in a separate message as you said. I'll answer that one briefly and concretely, and I'll be honest about what I do and don't remember from before. 🔮
+
+Update 2026-10-27: judge validation passed (run 3, 12 bulletins, winner-and-margin format). Badge validated and live. Next: round 2026-10-31.
