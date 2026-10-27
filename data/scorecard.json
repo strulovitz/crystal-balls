@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-26T17:59:53+02:00",
-  "judge_validated": false,
+  "generated_at": "2026-10-27T09:34:22+02:00",
+  "judge_validated": true,
   "judge_note": "The judge is a model, not an oracle. Every forecast, every verdict and every headline list is in the repository, timestamped before reality arrived.",
   "rounds_scored": 0,
   "judged_country_weeks": 1,
@@ -14,10 +14,10 @@
   "plain_better_pct": null,
   "mean_v": null,
   "interval_v": null,
-  "verdict": "Judge not yet validated",
+  "verdict": "not enough data yet",
   "mean_u": null,
   "interval_u": null,
-  "verdict_u": "Judge not yet validated",
+  "verdict_u": "not enough data yet",
   "min_rounds_for_verdict": 6,
   "item_grades": {
     "plain": {
@@ -120,6 +120,11 @@
       }
     ],
     "note": "The two arms differ no more than plain differs from itself: the differences may be noise."
+  },
+  "judge_consistency": {
+    "compared": 0,
+    "disagree": 0,
+    "note": "Comparisons where the winner the judge named has fewer item points than the other bulletin (3 for came_true, 2 for true_in_direction, 0 otherwise). Reported, never corrected."
   },
   "run_in_rounds": [
     "2026-10-17"
