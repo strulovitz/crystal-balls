@@ -412,6 +412,7 @@ def step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_
         variables = {"COUNTRY": name, "ELAPSED_DAYS": elapsed_days, "PREVIOUS_ROUND": prev_round_id,
                      "ROUND": round_id, "BULLETIN_COUNT": len(order), "LABELS": ", ".join(labels),
                      "FIRST_LABEL": labels[0], "SITUATION": v4.reader_as_text(reader), "HEADLINES": text,
+                     "PREVIOUS_SITUATION": v4.reader_as_text(v4.reader_of(prev_file)),
                      "BULLETINS": bulletins}
         validator = lambda obj, labels=labels: v4.validate_judge(obj, labels)
         obj, el = llm_call("judge.txt", variables, validator, "judge", country_cfg["code"], round_id,
@@ -420,7 +421,7 @@ def step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_
         if obj is None:
             return "run", None, total
         results.append(obj)
-    j = v4.build_judgment(results, orders, prev_round_id, elapsed_days, dry_run=dry_run)
+    j = v4.build_judgment_v2(results, orders, prev_fc, prev_round_id, elapsed_days, dry_run=dry_run)
     j["hand_made"] = bool(prev_file.get("is_legacy"))
     return "run", j, total
 
@@ -452,7 +453,8 @@ def step_plain(file, country_cfg, round_id, horizon_start, horizon_end, headline
     text, _ = numbered_for(file, headlines_json, situation, settings, "FORECAST_HEADLINE_CAP", 150)
     variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
                  "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
-                 "FORECAST_FORMAT": v4.forecast_format()}
+                 "FORECAST_FORMAT": v4.forecast_format(round_id),
+                 "SPECIFICITY_RULES": v4.specificity_rules(round_id, horizon_end)}
     obj, elapsed = llm_call("plain_forecast.txt", variables, v4.validate_bulletin, "plain_forecast",
                              country_cfg["code"], round_id, settings, mock)
     return "run", obj, elapsed
@@ -468,7 +470,8 @@ def step_plain_repeat(file, country_cfg, round_id, horizon_start, horizon_end, h
     text, _ = numbered_for(file, headlines_json, situation, settings, "FORECAST_HEADLINE_CAP", 150)
     variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
                  "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
-                 "FORECAST_FORMAT": v4.forecast_format()}
+                 "FORECAST_FORMAT": v4.forecast_format(round_id),
+                 "SPECIFICITY_RULES": v4.specificity_rules(round_id, horizon_end)}
     obj, elapsed = llm_call("plain_forecast.txt", variables, v4.validate_bulletin, "plain_repeat",
                              country_cfg["code"], round_id, settings, mock)
     return "run", obj, elapsed
@@ -484,7 +487,8 @@ def step_crystal(file, prev_file, auto_file, rounds_dir, country_cfg, round_id, 
     variables = {"COUNTRY": name, "ROUND": round_id, "HORIZON_START": str(horizon_start),
                  "HORIZON_END": str(horizon_end), "SITUATION": situation, "HEADLINES": text,
                  "VOCABULARY": common.vocabulary_as_text(vocabulary),
-                 "FORECAST_FORMAT_DISPLAY": v4.forecast_format_display(), **hist}
+                 "FORECAST_FORMAT_DISPLAY": v4.forecast_format_display(round_id),
+                 "SPECIFICITY_RULES": v4.specificity_rules(round_id, horizon_end), **hist}
     validator = lambda obj: v4.validate_crystal_output(obj, vocabulary=vocabulary)
     obj, elapsed = llm_call("crystal_forecast.txt", variables, validator, "crystal_forecast",
                              country_cfg["code"], round_id, settings, mock, vocabulary=vocabulary)

@@ -46,13 +46,56 @@ DISPLAY_BODY = '''  "headline": "at most 12 words, newspaper style, no final per
   "eli5": "three to five short paragraphs separated by blank lines: what is going on, why, what will probably happen next, what would be a surprise. Explain as if to a smart 12-year-old. Name at least two of the four expected items in words."'''
 
 
-def forecast_format():
-    return "Return this JSON object:\n" + BULLETIN_BODY + "\n\n" + BULLETIN_RULES + "\n"
+FORMAT_V2_FROM = "2026-11-08"   # Bible 13.20 g: the trend-level item format starts with this round
+
+BULLETIN_BODY_V2 = '''{
+  "lead": {"subject": "short name of the story", "direction": "escalate, persist, de-escalate or fade", "weight": "dominant, present or marginal: how much of the country's news it will take", "trend": "one sentence: which way the subject moves and why; no specific event required", "illustration": "one example of the kind of headline this trend would produce, clearly an example"},
+  "second": {"subject": "...", "direction": "...", "weight": "...", "trend": "...", "illustration": "..."},
+  "third": {"subject": "...", "direction": "...", "weight": "...", "trend": "...", "illustration": "..."},
+  "fade_call": {"subject": "a story visible in this week's headlines", "expected": "fade, persist or escalate", "illustration": "one example of the kind of headline that would show it"},
+  "surprise": {"subject": "...", "expected": "one sentence describing a development that is not the obvious continuation", "chance": "low, medium or high"},
+  "summary": "100 to 150 words, future tense, plain English"
+}'''
+
+BULLETIN_RULES_V2 = ('lead, second and third must have three different subjects. The "trend" sentence says which way the '
+                     'subject moves and why; it needs no specific event, and the words continue, remain and ongoing are '
+                     'allowed in it. In the other sentences do not use the words may, might, could, possibly or likely, '
+                     'and do not use continue, remain or ongoing in the "expected" and "illustration" sentences of the '
+                     'fade call and the surprise; only the summary may use all of them.')
+
+SPECIFICITY_V1 = '''Specificity rules (they decide whether a judge can ever confirm your forecast):
+a. "expected" describes one development in one sentence. No lists of two or more developments joined by commas or "and".
+b. "sign" describes the kind of headline a reader would see, in category words. It never contains a number, a duration or deadline (hours, days), a percentage, or the name of a person, place or organisation that does not appear in this week's headlines.
+c. Everything you forecast is for the window ending {{HORIZON_END}}. Nothing after that date is scored.'''
+
+SPECIFICITY_V2 = '''Rules for a trend forecast (a judge will check which way each subject moved, not whether an exact event happened):
+a. For each of lead, second and third, say which way the subject will move (escalate, persist, de-escalate or fade), how much of the country's news it will take (weight), and in the "trend" sentence why. You do not need to predict a specific event.
+b. The "illustration" is one example of the kind of headline this trend would produce. It is clearly an example, and it never contains a number, a duration or deadline (hours, days), a percentage, or the name of a person, place or organisation that does not appear in this week's headlines.
+c. Everything you forecast is for the window ending {{HORIZON_END}}. Nothing after that date is scored.'''
 
 
-def forecast_format_display():
-    body = BULLETIN_BODY.rstrip("}").rstrip() + ",\n" + DISPLAY_BODY + "\n}"
-    return "Return this JSON object (the six forecast keys and the five display keys at the same level):\n" + body + "\n\n" + BULLETIN_RULES + "\n"
+def format_version(round_id=None):
+    return 2 if round_id and str(round_id) >= FORMAT_V2_FROM else 1
+
+
+def specificity_rules(round_id=None, horizon_end=""):
+    text = SPECIFICITY_V2 if format_version(round_id) == 2 else SPECIFICITY_V1
+    return text.replace("{{HORIZON_END}}", str(horizon_end))
+
+
+def _body(round_id=None):
+    return (BULLETIN_BODY_V2, BULLETIN_RULES_V2) if format_version(round_id) == 2 else (BULLETIN_BODY, BULLETIN_RULES)
+
+
+def forecast_format(round_id=None):
+    body, rules = _body(round_id)
+    return "Return this JSON object:\n" + body + "\n\n" + rules + "\n"
+
+
+def forecast_format_display(round_id=None):
+    body, rules = _body(round_id)
+    body = body.rstrip("}").rstrip() + ",\n" + DISPLAY_BODY + "\n}"
+    return "Return this JSON object (the six forecast keys and the five display keys at the same level):\n" + body + "\n\n" + rules + "\n"
 
 
 def forecast_format_body():
@@ -131,9 +174,13 @@ def bulletin_as_text(b):
     lines = []
     for key, label in (("lead", "Lead"), ("second", "Second"), ("third", "Third")):
         it = b[key]
-        lines.append(f"{label}: {it['subject']}. Expected: {it['expected']} Direction: {it['direction']}. Sign: {it['sign']}")
+        if "trend" in it:   # trend-level format (13.20 g): the trend stands for "expected", the illustration for "sign"
+            lines.append(f"{label}: {it['subject']}. Expected: {it['trend']} Direction: {it['direction']}. "
+                         f"Weight: {it['weight']}. Sign: {it['illustration']}")
+        else:
+            lines.append(f"{label}: {it['subject']}. Expected: {it['expected']} Direction: {it['direction']}. Sign: {it['sign']}")
     f = b["fade_call"]
-    lines.append(f"Fade call: {f['subject']}. Expected: {f['expected']}. Sign: {f['sign']}")
+    lines.append(f"Fade call: {f['subject']}. Expected: {f['expected']}. Sign: {f.get('sign', f.get('illustration'))}")
     s = b["surprise"]
     lines.append(f"Surprise (chance {s['chance']}): {s['subject']}. {s['expected']}")
     lines.append("Summary: " + b["summary"])
@@ -148,7 +195,10 @@ def judgment_notes_as_text(j, arm):
     lines = []
     for k in ITEM_KEYS:
         g = p["items"][k]
-        lines.append(f"- {k}: {g['grade']}. {g['evidence']}")
+        extra = ""
+        if g.get("direction_observed"):
+            extra = f" (observed: {g['direction_observed']}, subject {g.get('subject_presence')})"
+        lines.append(f"- {k}: {g['grade']}{extra}. {g['evidence']}")
     lines.append("Archer note: " + p["archer_note"])
     return "\n".join(lines) + "\n"
 
@@ -316,8 +366,55 @@ def _check_item(label, it, errors, kind, strict=True):
                           f"duration, deadline or percentage ({SIGN_INVENTED_RE.search(sign).group(0)!r} found)")
 
 
+TREND_FORBIDDEN_RE = re.compile(r"\b(may|might|could|possibly|likely)\b", re.IGNORECASE)
+WEIGHTS = {"dominant", "present", "marginal"}
+
+
+def _check_item_v2(label, it, errors, kind, strict=True):
+    """Trend-level items (13.20 g). kind is "item" (lead, second, third) or "fade"."""
+    if not isinstance(it, dict):
+        errors.append(f"{label}: expected an object")
+        return
+    subj = it.get("subject")
+    if not isinstance(subj, str) or not (2 <= _wc(subj) <= 40):
+        errors.append(f"{label}.subject: expected 2 to 40 words")
+    if kind == "item":
+        if it.get("direction") not in ITEM_DIRECTION:
+            errors.append(f"{label}.direction: {it.get('direction')!r} not in {sorted(ITEM_DIRECTION)}")
+        if it.get("weight") not in WEIGHTS:
+            errors.append(f"{label}.weight: {it.get('weight')!r} not in {sorted(WEIGHTS)}")
+        tr = it.get("trend")
+        if not isinstance(tr, str) or not (4 <= _wc(tr) <= 40):
+            errors.append(f"{label}.trend: expected a sentence of 4 to 40 words")
+        elif TREND_FORBIDDEN_RE.search(tr):
+            errors.append(f"{label}.trend: forbidden word ({TREND_FORBIDDEN_RE.search(tr).group(0)}), say what the subject will do")
+    else:
+        if it.get("expected") not in FADE_EXPECTED:
+            errors.append(f"{label}.expected: must be one of {sorted(FADE_EXPECTED)}, got {it.get('expected')!r}")
+    ill = it.get("illustration")
+    if not isinstance(ill, str) or not (4 <= _wc(ill) <= 40):
+        errors.append(f"{label}.illustration: expected a sentence of 4 to 40 words")
+    elif FORBIDDEN_RE.search(ill):
+        errors.append(f"{label}.illustration: forbidden word ({FORBIDDEN_RE.search(ill).group(0)})")
+    elif strict and SIGN_INVENTED_RE.search(ill):
+        errors.append(f"{label}.illustration: no number, duration, deadline or percentage ({SIGN_INVENTED_RE.search(ill).group(0)!r} found)")
+
+
 def validate_bulletin(obj, strict=True):
     errors = []
+    if isinstance((obj.get("lead") or {}), dict) and "trend" in (obj.get("lead") or {}):
+        for k in ("lead", "second", "third"):
+            _check_item_v2(k, obj.get(k), errors, "item", strict)
+        _check_item_v2("fade_call", obj.get("fade_call"), errors, "fade", strict)
+        _check_item("surprise", obj.get("surprise"), errors, "surprise", strict)
+        subs = [str((obj.get(k) or {}).get("subject", "")).strip().lower() for k in ("lead", "second", "third")]
+        if len(set(subs)) != 3:
+            errors.append("lead, second and third must have different subjects")
+        common._check_word_count("summary", obj.get("summary", ""), 100, 150, errors)
+        common._check_no_markdown_table("summary", obj.get("summary", ""), errors)
+        if errors:
+            raise ValueError("Bulletin validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+        return True
     for k in ("lead", "second", "third"):
         _check_item(k, obj.get(k), errors, "item", strict)
     _check_item("fade_call", obj.get("fade_call"), errors, "fade", strict)
@@ -350,7 +447,8 @@ def validate_legacy_reader(obj, vocabulary=None):
     return True
 
 
-def validate_judge(obj, labels):
+def validate_judge_v1(obj, labels):
+    """Rubric version 1 (13.3 to 13.19). Kept only for reading old judgments; the live judge is version 2 (13.20)."""
     errors = []
     b = obj.get("bulletins")
     if not isinstance(b, dict) or sorted(b.keys()) != sorted(labels):
@@ -519,6 +617,151 @@ def build_judgment(judge_results, orders, graded_round, elapsed_days, dry_run=Fa
     out["consistency"] = {"compared": sum(len(res["verdicts"]) for res in judge_results),
                           "disagree": sum(len(c) for c in cons),
                           "flags": [dict(f, order=i) for i, c in enumerate(cons) for f in c]}
+    if "crystal" in arms and "plain" in arms:
+        out["v"] = better_score(verdicts_by_order, "crystal", "plain")
+    if "crystal" in arms and "persistence" in arms:
+        out["u"] = better_score(verdicts_by_order, "crystal", "persistence")
+    out["first_listed_wins"], out["first_listed_nonties"] = first_listed_wins_share(verdicts_by_order)
+    if notes:
+        out["notes"] = notes
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Rubric version 2 (Bible 13.20, Fable 2026-11-01): trend-level grading. The judge answers three small
+# questions per item and never names a winner; Python computes the scores and the verdicts.
+# ---------------------------------------------------------------------------
+
+RUBRIC_VERSION = 2
+PRESENCE = ("dominant", "present", "marginal", "absent")
+OBSERVED = ("escalated", "steady", "de-escalated", "faded", "cannot_establish")
+FORM = ("recognizable", "partly", "not_seen")
+SURPRISE_PRESENCE = ("dominant", "present", "absent")
+DIR_FORECAST = {"escalate": 1, "persist": 0, "de-escalate": -1, "fade": -2}
+DIR_OBSERVED = {"escalated": 1, "steady": 0, "de-escalated": -1, "faded": -2}
+
+
+def validate_judge(obj, labels):
+    """Judge output, rubric version 2 (13.20 c)."""
+    errors = []
+    b = obj.get("bulletins") if isinstance(obj, dict) else None
+    if not isinstance(b, dict) or sorted(b.keys()) != sorted(labels):
+        errors.append(f"bulletins: expected labels {sorted(labels)}, got {sorted(b.keys()) if isinstance(b, dict) else b!r}")
+    else:
+        for lab in labels:
+            e = b[lab]
+            items = e.get("items") if isinstance(e, dict) else None
+            if not isinstance(items, dict) or sorted(items.keys()) != sorted(ITEM_KEYS):
+                errors.append(f"{lab}.items: expected the four items {list(ITEM_KEYS)}")
+                continue
+            for k in ITEM_KEYS:
+                g = items[k]
+                if not isinstance(g, dict):
+                    errors.append(f"{lab}.{k}: expected an object")
+                    continue
+                for field, allowed in (("subject_presence", PRESENCE), ("direction_observed", OBSERVED), ("form", FORM)):
+                    if g.get(field) not in allowed:
+                        errors.append(f"{lab}.{k}.{field}: {g.get(field)!r} not in {list(allowed)}")
+                if not (isinstance(g.get("evidence"), str) and g["evidence"].strip()):
+                    errors.append(f"{lab}.{k}.evidence: missing")
+            sp = e.get("surprise")
+            if not isinstance(sp, dict) or sp.get("surprise_presence") not in SURPRISE_PRESENCE:
+                errors.append(f"{lab}.surprise.surprise_presence: expected one of {list(SURPRISE_PRESENCE)}")
+            elif not (isinstance(sp.get("evidence"), str) and sp["evidence"].strip()):
+                errors.append(f"{lab}.surprise.evidence: missing")
+            if not (isinstance(e.get("archer_note"), str) and e["archer_note"].strip()):
+                errors.append(f"{lab}.archer_note: missing")
+    if errors:
+        raise ValueError("Judge validation failed:\n" + "\n".join(f"  - {e}" for e in errors))
+    return True
+
+
+def forecast_direction_of(bulletin, key):
+    """The direction number of one stored forecast item. Items carry direction; the fade call carries
+    expected (fade, persist or escalate)."""
+    it = bulletin[key]
+    word = it.get("expected") if key == "fade_call" else it.get("direction")
+    return word, DIR_FORECAST.get(word)
+
+
+def trend_points(fc_direction_word, presence, observed):
+    """T of 13.20 d. An absent subject counts as faded and earns 0 unless the forecast was fade. When the
+    subject is present, cannot_establish gives 1."""
+    f = DIR_FORECAST.get(fc_direction_word)
+    if f is None:
+        return 0
+    if presence == "absent":
+        return 3 if f == -2 else 0
+    if observed == "cannot_establish":
+        return 1
+    o = DIR_OBSERVED[observed]
+    d = abs(f - o)
+    return 3 if d == 0 else 1 if d == 1 else 0
+
+
+def derived_grade(T, observed):
+    """The old four-word grade, derived from T so the older displays keep working. Not used for scoring."""
+    if observed == "cannot_establish" and T == 1:
+        return "cannot_establish"
+    return "came_true" if T == 3 else "true_in_direction" if T == 1 else "did_not_appear"
+
+
+def score_bulletin_v2(bulletin, judged, arm):
+    """S of 13.20 d for one bulletin. `judged` is the judge's entry for this bulletin (one label).
+    Returns (S, items) where items holds the raw answers plus T, B and the derived grade."""
+    total, items = 0, {}
+    for k in ITEM_KEYS:
+        g = judged["items"][k]
+        word, _ = forecast_direction_of(bulletin, k)
+        T = trend_points(word, g["subject_presence"], g["direction_observed"])
+        B = 1 if g["form"] == "recognizable" else 0
+        total += T + B
+        items[k] = dict(g, forecast_direction=word, T=T, B=B, grade=derived_grade(T, g["direction_observed"]))
+    sp = judged["surprise"]
+    bonus = 2 if (arm != "persistence" and sp["surprise_presence"] in ("dominant", "present")) else 0
+    total += bonus
+    return total, items, bonus
+
+
+def verdict_from_scores(s_first, s_second):
+    """Pairwise verdict (13.20 d). Returns the signed score in the convention used downstream:
+    negative means the first-named bulletin was better; magnitude 0, 1 or 2."""
+    d = s_first - s_second
+    m = 0 if abs(d) <= 1 else 1 if abs(d) <= 4 else 2
+    return 0.0 if m == 0 else (-float(m) if d > 0 else float(m))
+
+
+def build_judgment_v2(judge_results, orders, bulletins_by_arm, graded_round, elapsed_days, dry_run=False, notes=None):
+    """Builds the stored judgment section, rubric version 2. judge_results: raw judge objects, one per order.
+    bulletins_by_arm: the stored forecast bulletins being graded."""
+    per_arm_first, verdicts_by_order, S_by_order = None, [], []
+    for res, order in zip(judge_results, orders):
+        labels = LABELS_ALL[:len(order)]
+        S, per_arm = {}, {}
+        for lab, arm in zip(labels, order):
+            judged = res["bulletins"][lab]
+            S[arm], items, bonus = score_bulletin_v2(bulletins_by_arm[arm], judged, arm)
+            per_arm[arm] = {"items": items, "surprise": dict(judged["surprise"], bonus=bonus),
+                            "archer_note": judged["archer_note"], "S": S[arm]}
+        vs = []
+        for i, a in enumerate(order):
+            for b in order[i + 1:]:
+                vs.append({"first": a, "second": b, "score": verdict_from_scores(S[a], S[b]),
+                           "reason": f"Computed from the scores: {a} {S[a]}, {b} {S[b]}."})
+        verdicts_by_order.append(vs)
+        S_by_order.append(S)
+        if per_arm_first is None:
+            per_arm_first = per_arm
+    arms = orders[0]
+    out = {"rubric_version": RUBRIC_VERSION, "graded_round": graded_round, "elapsed_days": elapsed_days,
+           "dry_run": bool(dry_run), "orders": orders, "label_order": dict(zip(LABELS_ALL, orders[0])),
+           "per_arm": per_arm_first, "S": S_by_order, "verdicts": verdicts_by_order}
+    pairs = {}
+    for i, a in enumerate(arms):
+        for b in arms[i + 1:]:
+            pairs[f"{a}_vs_{b}"] = better_score(verdicts_by_order, a, b)
+    out["scores"] = pairs
+    out["consistency"] = {"compared": 0, "disagree": 0, "flags": [], "note": "removed in 13.20: the winner is computed"}
     if "crystal" in arms and "plain" in arms:
         out["v"] = better_score(verdicts_by_order, "crystal", "plain")
     if "crystal" in arms and "persistence" in arms:

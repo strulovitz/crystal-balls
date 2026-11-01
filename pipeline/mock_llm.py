@@ -48,6 +48,18 @@ def _h(*parts):
 
 
 def mock_bulletin(name, code, arm, salt=""):
+    b = _mock_bulletin_v1(name, code, arm, salt)
+    if str(salt) >= "2026-11-08":   # 13.20 g: trend-level items
+        for key in ("lead", "second", "third"):
+            it = b[key]
+            b[key] = {"subject": it["subject"], "direction": it["direction"], "weight": ["dominant", "present", "marginal"][_h(code, arm, key) % 3],
+                      "trend": it["expected"], "illustration": it["sign"]}
+        f = b["fade_call"]
+        b["fade_call"] = {"subject": f["subject"], "expected": f["expected"], "illustration": f["sign"]}
+    return b
+
+
+def _mock_bulletin_v1(name, code, arm, salt=""):
     k = _h(code, arm, salt)
     subs = [_TOPICS[(k + i * 3) % len(_TOPICS)] for i in range(3)]
     while len(set(subs)) < 3:
@@ -80,24 +92,26 @@ def _mock_reader(name, code, variables, vocabulary):
 
 
 def _mock_judge(variables):
+    """Rubric version 2 (13.20): presence, observed direction and form per item; no winner."""
     labels = [x.strip() for x in variables["LABELS"].split(",")]
     texts = {}
     parts = _re.split(r"BULLETIN ([XYZ]):\n", variables["BULLETINS"])
     for i in range(1, len(parts) - 1, 2):
         texts[parts[i]] = parts[i + 1]
-    grades = ["came_true", "true_in_direction", "did_not_appear", "cannot_establish"]
-    quality = {lab: (_h(texts.get(lab, lab)) % 5) for lab in labels}
-    out = {"bulletins": {}, "verdicts": []}
+    presence = ["dominant", "present", "marginal", "absent"]
+    observed = ["escalated", "steady", "de-escalated", "faded", "cannot_establish"]
+    forms = ["recognizable", "partly", "not_seen"]
+    out = {"bulletins": {}}
     for lab in labels:
         out["bulletins"][lab] = {
-            "items": {k: {"grade": grades[(_h(texts.get(lab, lab), k)) % 4], "evidence": "Mock evidence, headline 1."}
+            "items": {k: {"subject_presence": presence[_h(texts.get(lab, lab), k, "p") % 4],
+                          "direction_observed": observed[_h(texts.get(lab, lab), k, "o") % 5],
+                          "form": forms[_h(texts.get(lab, lab), k, "f") % 3],
+                          "evidence": "Mock evidence, headline 1."}
                       for k in ("lead", "second", "third", "fade_call")},
+            "surprise": {"surprise_presence": ["dominant", "present", "absent"][_h(texts.get(lab, lab), "s") % 3],
+                         "evidence": "Mock evidence."},
             "archer_note": "Mock note. It missed little. Its main thesis was merely early."}
-    for i, a in enumerate(labels):
-        for b in labels[i + 1:]:
-            sc = max(-2, min(2, quality[b] - quality[a]))
-            out["verdicts"].append({"pair": a + b, "reason": "Mock reason one. Mock reason two.",
-                                    "winner": "tie" if sc == 0 else (a if sc < 0 else b), "margin": abs(sc)})
     return out
 
 

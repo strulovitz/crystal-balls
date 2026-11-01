@@ -929,10 +929,10 @@ function v4ItemsHtml(bulletin, armGrades) {
   let html = '';
   ['lead', 'second', 'third'].forEach(k => {
     const it = bulletin[k]; if (!it) return;
-    html += v4ItemRow(ITEM_LABEL[k], it.subject, it.expected, it.sign, armGrades && armGrades.items[k]);
+    html += v4ItemRow(ITEM_LABEL[k], it.subject, it.expected || it.trend, it.sign || it.illustration, armGrades && armGrades.items[k]);
   });
   const f = bulletin.fade_call;
-  if (f) html += v4ItemRow(ITEM_LABEL.fade_call, f.subject, f.expected, f.sign, armGrades && armGrades.items.fade_call);
+  if (f) html += v4ItemRow(ITEM_LABEL.fade_call, f.subject, f.expected, f.sign || f.illustration, armGrades && armGrades.items.fade_call);
   const sp = bulletin.surprise;
   if (sp) html += `<div class="statement-row"><div class="statement-text"><strong>Possible surprise (${esc(sp.chance)} chance):</strong> ${esc(sp.subject)}. ${esc(sp.expected)}</div></div>`;
   return html;
