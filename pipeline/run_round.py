@@ -415,7 +415,7 @@ def step_judge(file, prev_file, country_cfg, round_id, prev_round_id, headlines_
                      "PREVIOUS_SITUATION": v4.reader_as_text(v4.reader_of(prev_file)),
                      "BULLETINS": bulletins}
         validator = lambda obj, labels=labels: v4.validate_judge(obj, labels)
-        obj, el = llm_call("judge.txt", variables, validator, "judge", country_cfg["code"], round_id,
+        obj, el = llm_call("judge_v2.txt", variables, validator, "judge", country_cfg["code"], round_id,
                             judge_settings(settings), mock)
         total += el
         if obj is None:

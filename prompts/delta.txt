@@ -1,0 +1,27 @@
+Country: {{COUNTRY}}
+
+You hold two photographs of {{COUNTRY}}, taken {{ELAPSED_DAYS}} days apart, and the expectation that was written after the first one.
+
+THE FIRST PHOTOGRAPH ({{PREVIOUS_ROUND}}), what happened:
+{{PREVIOUS_HAPPENED}}
+
+WHAT WE EXPECTED THEN, for the week that has now passed:
+{{PREVIOUS_EXPECTED}}
+
+THE SECOND PHOTOGRAPH ({{ROUND}}), what happened:
+{{HAPPENED}}
+
+Write three texts in plain words, as long as you need.
+
+MOTION: which themes grew, which shrank, which appeared and which vanished, and how fast, written as a comparison of the two photographs.
+
+WIND: how the expectation met this week's reality, theme by theme: what came true, what came true in a different form, what did not come, what came that was not expected, and what this says about the way our expectations have been wrong for this country.
+
+DRIVER: one paragraph. What is pushing this country from the first photograph to the second, the forces behind the motion.
+
+Return this JSON object:
+{
+  "motion": "the full text",
+  "wind": "the full text",
+  "driver": "the paragraph"
+}

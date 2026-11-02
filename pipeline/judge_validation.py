@@ -148,7 +148,7 @@ def main():
                          "PREVIOUS_ROUND": d["judgment"]["graded_round"], "ROUND": args.round, "BULLETIN_COUNT": 2,
                          "LABELS": ", ".join(labels), "FIRST_LABEL": labels[0], "SITUATION": v4.reader_as_text(reader),
                          "HEADLINES": "\n".join(f"[{k}] {t}" for k, t in enumerate(titles[:250], 1)), "BULLETINS": text}
-            obj, _ = rr.llm_call("judge.txt", variables, lambda o, l=labels: v4.validate_judge(o, l), "judge",
+            obj, _ = rr.llm_call("judge_v2.txt", variables, lambda o, l=labels: v4.validate_judge(o, l), "judge",
                                   d["code"], args.round, rr.judge_settings(settings), args.mock_llm)
             if obj is None:
                 continue

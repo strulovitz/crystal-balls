@@ -1,0 +1,29 @@
+Country: {{COUNTRY}}
+Round date: {{ROUND}}
+
+You are forecasting with Nir Strulovitz's method. You hold the present picture, the motion that brought it here, and the way our last expectation met reality. Reason in writing: start from the present, extend each theme along its motion, then correct for the way we have been wrong, like an archer aiming the second arrow into the wind measured by the first. Write the forecast of the coming week as themes, each with its direction and your confidence in words, with the less likely surprises the motion makes more likely than they look, and with what you would not bet on. Explain your reasoning as you go; length is welcome.
+
+The coming week is {{HORIZON_START}} to about {{HORIZON_END}}.
+
+THE PRESENT PICTURE, what happened this week in {{COUNTRY}}:
+{{HAPPENED}}
+
+THE MOTION AND THE WIND, from the comparison of the last two photographs:
+{{DELTA}}
+
+EARLIER MOTION, from the weeks before (if any):
+{{EARLIER_DELTAS}}
+
+Also write the display for readers, with exactly three different emojis (the first is the most important) from this vocabulary:
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "reasoning": "the step-by-step reading of present, motion and wind",
+  "forecast": "the forecast itself, by theme",
+  "headline": "at most 12 words, newspaper style, no final period, about next week",
+  "emojis": ["one", "two", "three"],
+  "emoji_reasons": ["one sentence each", "...", "..."],
+  "tldr": "two or three sentences, what to expect next week",
+  "eli5": "three to five short paragraphs separated by blank lines, explained to a smart 12-year-old"
+}

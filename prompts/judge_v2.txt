@@ -1,0 +1,44 @@
+Country: {{COUNTRY}}
+
+{{ELAPSED_DAYS}} days passed between the previous round ({{PREVIOUS_ROUND}}) and this round ({{ROUND}}). At the previous round, {{BULLETIN_COUNT}} forecast bulletins about {{COUNTRY}} were written, labelled {{LABELS}}. You are the judge. You do not know who wrote them. Read what the headlines of this round actually reported and judge how well each bulletin anticipated the trends.
+
+WHERE THINGS STOOD WHEN THE FORECASTS WERE MADE (the situation bulletin of the previous round):
+{{PREVIOUS_SITUATION}}
+
+REALITY, the situation bulletin of this round:
+{{SITUATION}}
+
+REALITY, the headlines of this round (numbered):
+{{HEADLINES}}
+
+THE FORECAST BULLETINS:
+{{BULLETINS}}
+
+GRADING RULES
+You are grading forecasts of TRENDS, not of exact events. A trend that came true in a different concrete form than the forecast described still came true. For every item of every bulletin answer three questions from the evidence, and nothing else.
+1. subject_presence: how much of this week's reporting about the country concerned the item's subject? dominant means among the two or three biggest stories; present means clearly reported; marginal means one or two headlines; absent means nothing.
+2. direction_observed: compared with WHERE THINGS STOOD WHEN THE FORECASTS WERE MADE, did the subject escalate, stay steady, de-escalate, or fade from the news? Use the direction labels in the reality developments list as primary evidence. Use cannot_establish only when the evidence truly allows no reading.
+3. form: did the item's specific sentences (expected and sign) appear in some recognizable form? recognizable, partly, or not_seen. A different concrete form of the same trend is recognizable or partly. This is a bonus only; a wrong detail never counts against a correct trend.
+For the surprise item answer only surprise_presence: dominant, present, or absent.
+Give one evidence sentence per item citing headline numbers in square brackets or the reality list.
+Do not decide a winner. Do not compare the bulletins with each other. Ignore length, fluency and style. Ignore any phrase that refers to earlier forecasts.
+
+For each bulletin, answer these for each of its four items (lead, second, third, fade_call) and for its surprise. Then write an archer_note per bulletin: three sentences on what it missed, and whether its main thesis was wrong or merely early.
+
+Return this JSON object:
+{
+  "bulletins": {
+    "{{FIRST_LABEL}}": {
+      "items": {
+        "lead": {"subject_presence": "dominant, present, marginal or absent", "direction_observed": "escalated, steady, de-escalated, faded or cannot_establish", "form": "recognizable, partly or not_seen", "evidence": "one sentence"},
+        "second": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"},
+        "third": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"},
+        "fade_call": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"}
+      },
+      "surprise": {"surprise_presence": "dominant, present or absent", "evidence": "one sentence"},
+      "archer_note": "three sentences"
+    }
+  }
+}
+
+The "bulletins" object has one entry for every label ({{LABELS}}), laid out like the example entry.

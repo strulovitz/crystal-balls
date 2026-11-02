@@ -1,44 +1,25 @@
 Country: {{COUNTRY}}
 
-{{ELAPSED_DAYS}} days passed between the previous round ({{PREVIOUS_ROUND}}) and this round ({{ROUND}}). At the previous round, {{BULLETIN_COUNT}} forecast bulletins about {{COUNTRY}} were written, labelled {{LABELS}}. You are the judge. You do not know who wrote them. Read what the headlines of this round actually reported and judge how well each bulletin anticipated the trends.
+{{ELAPSED_DAYS}} days passed between the day the two forecasts below were written ({{PREVIOUS_ROUND}}) and the day the new week was measured ({{ROUND}}). You do not know who wrote the forecasts.
 
-WHERE THINGS STOOD WHEN THE FORECASTS WERE MADE (the situation bulletin of the previous round):
-{{PREVIOUS_SITUATION}}
+FORECAST A:
+{{FORECAST_A}}
 
-REALITY, the situation bulletin of this round:
-{{SITUATION}}
+FORECAST B:
+{{FORECAST_B}}
 
-REALITY, the headlines of this round (numbered):
+THE WEEK AS IT WAS REPORTED, what happened:
+{{HAPPENED}}
+
+THE HEADLINES OF THAT WEEK (numbered):
 {{HEADLINES}}
 
-THE FORECAST BULLETINS:
-{{BULLETINS}}
-
-GRADING RULES
-You are grading forecasts of TRENDS, not of exact events. A trend that came true in a different concrete form than the forecast described still came true. For every item of every bulletin answer three questions from the evidence, and nothing else.
-1. subject_presence: how much of this week's reporting about the country concerned the item's subject? dominant means among the two or three biggest stories; present means clearly reported; marginal means one or two headlines; absent means nothing.
-2. direction_observed: compared with WHERE THINGS STOOD WHEN THE FORECASTS WERE MADE, did the subject escalate, stay steady, de-escalate, or fade from the news? Use the direction labels in the reality developments list as primary evidence. Use cannot_establish only when the evidence truly allows no reading.
-3. form: did the item's specific sentences (expected and sign) appear in some recognizable form? recognizable, partly, or not_seen. A different concrete form of the same trend is recognizable or partly. This is a bonus only; a wrong detail never counts against a correct trend.
-For the surprise item answer only surprise_presence: dominant, present, or absent.
-Give one evidence sentence per item citing headline numbers in square brackets or the reality list.
-Do not decide a winner. Do not compare the bulletins with each other. Ignore length, fluency and style. Ignore any phrase that refers to earlier forecasts.
-
-For each bulletin, answer these for each of its four items (lead, second, third, fade_call) and for its surprise. Then write an archer_note per bulletin: three sentences on what it missed, and whether its main thesis was wrong or merely early.
+You are judging two forecasts of the week that has just ended, written before it began. Read the week as it was reported. Then write, for each forecast: what it saw coming, including trends that arrived in a different concrete form than described, which counts as seeing them; what it missed; what it expected that did not come; and whether its overall picture of the week was right. Then compare the two: which forecast would have served a reader better as a picture of the coming week, and why. Judge trends and direction, not exact wording. Be as long as you need. End with a single line: VERDICT: A, or VERDICT: B, or VERDICT: Even.
 
 Return this JSON object:
 {
-  "bulletins": {
-    "{{FIRST_LABEL}}": {
-      "items": {
-        "lead": {"subject_presence": "dominant, present, marginal or absent", "direction_observed": "escalated, steady, de-escalated, faded or cannot_establish", "form": "recognizable, partly or not_seen", "evidence": "one sentence"},
-        "second": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"},
-        "third": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"},
-        "fade_call": {"subject_presence": "...", "direction_observed": "...", "form": "...", "evidence": "one sentence"}
-      },
-      "surprise": {"surprise_presence": "dominant, present or absent", "evidence": "one sentence"},
-      "archer_note": "three sentences"
-    }
-  }
+  "reading_a": "your reading of forecast A",
+  "reading_b": "your reading of forecast B",
+  "comparison": "your comparison, ending with the single line VERDICT: A, VERDICT: B or VERDICT: Even",
+  "verdict": "A, B or Even"
 }
-
-The "bulletins" object has one entry for every label ({{LABELS}}), laid out like the example entry.

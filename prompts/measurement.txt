@@ -1,0 +1,23 @@
+Country: {{COUNTRY}}
+Round date: {{ROUND}}
+
+Below are the news headlines about {{COUNTRY}} collected from many sources between {{WINDOW_START}} and {{WINDOW_END}}. This is your measurement of the week.
+
+{{HEADLINES}}
+
+Read all of the headlines, then write two long texts in plain words. Give me your honest, unfiltered reading.
+
+HAPPENED: what happened in {{COUNTRY}} this week. Go theme by theme, as long as you need, and for each theme say which headlines support it.
+
+EXPECTED: what you expect in {{COUNTRY}} in the coming week ({{HORIZON_START}} to about {{HORIZON_END}}). Go theme by theme and give your confidence in words such as almost certain, probable, possible, unlikely. Add a short list of the less likely surprises, and a short list of the things you would not bet on.
+
+Also choose exactly three different emojis that sum up what happened (the first is the most important) from this vocabulary, with one sentence of reason for each:
+{{VOCABULARY}}
+
+Return this JSON object:
+{
+  "happened": "the full text",
+  "expected": "the full text",
+  "emojis": ["one", "two", "three"],
+  "emoji_reasons": ["one sentence each", "...", "..."]
+}

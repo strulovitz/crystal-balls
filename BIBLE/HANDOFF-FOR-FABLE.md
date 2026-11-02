@@ -81,3 +81,5 @@ Reply to Nir in five lines at most: that you have read this handoff, that you wi
 Save it, and when you're ready, ask me about the marketing in a separate message as you said. I'll answer that one briefly and concretely, and I'll be honest about what I do and don't remember from before. 🔮
 
 Update 2026-10-27: judge validation passed (run 3, 12 bulletins, winner-and-margin format). Badge validated and live. Next: round 2026-10-31.
+
+Update 2026-11-02: the system is text only from today. Bible 13.22 supersedes all scoring (13.6, 13.7, 13.19, 13.20 and the item formats). New step runner: pipeline/text_round.py, new prompts measurement.txt, delta.txt, crystal.txt, judge.txt (the older judge prompt is kept as judge_v2.txt). Implementation note by Sonnet: Nir's exact hand-made prompt is not stored in the repository, so measurement.txt was written in the spirit of his legacy texts (unfiltered, theme by theme, confidence in words, the uncensored preamble comes from the system message); if Nir has the original wording, it should replace it. The eight-country test of 13.22 h on stored headlines runs next, data in data/text/.
