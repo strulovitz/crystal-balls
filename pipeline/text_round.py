@@ -11,6 +11,7 @@ Files: data/text/<round>/<CODE>.json. Nothing here computes a number of any kind
 verdict words, for the badge. Resumable: a step marked done is never repeated.
 
 Usage:
+  python -m pipeline.text_round --catchup [--mock-llm]    13.23: all 32 countries through the stored rounds
   python -m pipeline.text_round --test8 [--mock-llm]      the eight-country test of 13.22 h on stored headlines
   python -m pipeline.text_round --round 2026-11-01 [--only IL,US] [--mock-llm]   one round, all steps that can run
 """
@@ -262,6 +263,8 @@ class Progress:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--test8", action="store_true")
+    ap.add_argument("--catchup", action="store_true",
+                    help="13.23: all 32 countries through the three stored rounds, ending with the 11-01 crystal")
     ap.add_argument("--round")
     ap.add_argument("--only")
     ap.add_argument("--steps", help="comma-separated steps, default all that can run")
@@ -270,7 +273,15 @@ def main():
     settings = common.load_settings()
     vocabulary = load_json(ROOT / "config" / "emoji_vocabulary.json")
     countries = {c["code"]: c["name"] for c in load_json(ROOT / "config" / "countries.json")}
-    if args.test8:
+    if args.catchup:
+        # Per country in dependency order, so each country's first verdict arrives as early as possible.
+        # A step already done is skipped, so the eight test countries only owe their 11-01 crystal.
+        CATCHUP_STEPS = {"2026-10-17": ["measurement"], "2026-10-24": ["measurement", "delta", "crystal"],
+                         "2026-11-01": ["measurement", "delta", "crystal", "judge"]}
+        codes = args.only.split(",") if args.only else TEST8 + [c for c in countries if c not in TEST8]
+        plan = [(r, code, s) for code in codes for r in TEST_ROUNDS for s in CATCHUP_STEPS[r]]
+        chain = TEST_ROUNDS
+    elif args.test8:
         codes = args.only.split(",") if args.only else TEST8
         plan = []   # per country, in dependency order, so the first full essays arrive early
         for code in codes:
@@ -280,7 +291,7 @@ def main():
         chain = TEST_ROUNDS
     else:
         if not args.round:
-            ap.error("give --test8 or --round")
+            ap.error("give --catchup, --test8 or --round")
         codes = args.only.split(",") if args.only else list(countries)
         steps = args.steps.split(",") if args.steps else STEP_ORDER
         chain = sorted(d.name for d in (ROOT / "data" / "rounds").iterdir() if d.is_dir() and (d / "headlines").exists())
