@@ -40,16 +40,19 @@ for F in app.js style.css; do
   H="$(md5sum "public/$F" | cut -c1-8)"
   sed -i "s#\./$F\"#./$F?v=$H\"#" public/index.html
 done
+rm -rf public/data/rounds
 mkdir -p public/data/rounds
-cp data/index.json data/meta.json data/scorecard.json public/data/
+cp data/meta.json public/data/
 for R in data/rounds/*/; do
   if [ -f "$R/round.json" ] && grep -q '"status": "complete"' "$R/round.json"; then
-    N="$(basename "$R")"
+    N="$(basename "$R")-v1"   # the earlier experiments (Bible 13.22 f), shown on the page as "earlier experiment"
     mkdir -p "public/data/rounds/$N"
     rsync -a --delete --include='bundle.json' --include='round.json' --include='countries/***' \
       --exclude='*' "$R" "public/data/rounds/$N/"
   fi
 done
+say "Building the text-method data (Bible 13.22)..."
+"$REPO_DIR/.venv/bin/python" pipeline/publish_text.py
 
 if pgrep -x caddy >/dev/null 2>&1; then
   say "Websites are ON. The new round is live at https://www.strulovitz.org/crystal-balls/"

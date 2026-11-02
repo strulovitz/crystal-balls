@@ -275,7 +275,7 @@ function initScene() {
 
 function onControlsStart() {
   lastInteractionTime = Date.now();
-  controls.autoRotate = false;
+  if (controls) controls.autoRotate = false;
   if (autoRotateResumeTimer) clearTimeout(autoRotateResumeTimer);
   scheduleAutoRotateResume();
 }
@@ -719,7 +719,7 @@ function updateHoverLabel(event, code) {
 
 function selectCountry(code) {
   selectedCode = code;
-  controls.autoRotate = false;
+  if (controls) controls.autoRotate = false;
   if (autoRotateResumeTimer) clearTimeout(autoRotateResumeTimer);
   updateHash(currentRoundId, code);
   document.getElementById('country-select').value = code;
@@ -849,6 +849,7 @@ function updateScorecardBadge() {
   const badge = document.getElementById('scorecard-badge');
   const sc = scorecardData;
   if (!sc) { badge.textContent = 'Scorecard starts after the first judged round'; return; }
+  if (sc.schema_version === 5) { badge.textContent = sc.badge; return; }
   if (sc.schema_version === 4) { badge.textContent = scorecardBadgeV4(sc); return; }
   if (sc.schema_version === 2) {
     const m = sc.manual_forecast || {};
@@ -876,7 +877,13 @@ function openScorecardModal() {
   if (!scorecardData) { modal.innerHTML = '<p>No scorecard data yet.</p>'; backdrop.classList.add('open'); return; }
   const sc = scorecardData;
   let html = '';
-  if (sc.schema_version === 4) {
+  if (sc.schema_version === 5) {
+    html += `<p>${esc(sc.badge)}</p><p class="baseline">${esc(sc.sentence)}</p>`;
+    (sc.per_round || []).forEach(pr => {
+      html += `<div class="stat-row"><span>Forecasts of ${esc(pr.graded_round)}, judged in ${esc(pr.judged_in_round)}</span><span>Crystal ${pr.crystal} / plain ${pr.plain} / even ${pr.even}</span></div>`;
+    });
+    if (sc.note) html += `<p class="baseline">${esc(sc.note)}</p>`;
+  } else if (sc.schema_version === 4) {
     html += scorecardModalV4(sc);
   } else if (sc.schema_version === 2) {
     html += `<p class="baseline">We declare a winner only after at least ${sc.min_disagreements_for_verdict} disagreements, with one side right in at least two thirds of them.</p>`;
@@ -1103,10 +1110,114 @@ function winnerClass(winner) {
   return '';
 }
 
+
+// ---------------------------------------------------------------------
+// Bible 13.22 / 13.23 (schema version 5): text only, no scores
+// ---------------------------------------------------------------------
+
+function textBlock(t) {
+  return String(t == null ? '' : t).split(/\n\s*\n/).filter(x => x.trim())
+    .map(x => `<p style="white-space:pre-wrap">${esc(x.trim())}</p>`).join('');
+}
+
+function preferredLine(judged) {
+  if (!judged) return '';
+  const who = judged.preferred === 'crystal' ? 'the Crystal Balls forecast'
+            : judged.preferred === 'plain' ? 'the plain forecast' : null;
+  const verdict = who ? `The judge preferred ${who}.` : 'The judge called the two forecasts even.';
+  const cls = judged.preferred === 'crystal' ? 'crystal' : judged.preferred === 'plain' ? 'naive' : 'tie';
+  return `<div class="score-line ${cls}">Judged a week later: ${verdict}</div>`;
+}
+
+function openPanelText(code, country, countryR) {
+  const roundEntry = indexData.rounds.find(r => r.round === currentRoundId);
+  const panel = document.getElementById('panel');
+  panel.classList.remove('hidden');
+  const display = countryR.display || {};
+  let html = `<div class="panel-pad">`;
+  html += `<div class="panel-header-row">
+    <img class="flag" src="${emojiSrc(country.twemoji)}" alt="">
+    <h2>${country.name}</h2>
+    <span class="pill">${groups[country.group] || country.group}</span>
+    <button class="close-btn" id="panel-close" aria-label="Close">&times;</button>
+  </div>`;
+  const when = bundleR.round && bundleR.round.window_end ? `Made with headlines up to ${esc(bundleR.round.window_end)}` : 'Forecast';
+  html += `<div class="round-line">${when}${bundleR.round && bundleR.round.test_on_stored_headlines ? ' (test on stored headlines)' : ''}</div>`;
+  html += `<div class="headline">${esc(display.headline || '')}</div>`;
+  html += `<div class="emoji-row" id="panel-emoji-row">`;
+  (display.emojis || []).forEach((e, i) => {
+    const meaning = vocabByEmoji[e] ? vocabByEmoji[e].meaning : '';
+    html += `<img src="${emojiSrc(emojiToTwemoji(e))}" title="${meaning}" data-reason-idx="${i}">`;
+  });
+  html += `</div><div class="emoji-reason" id="panel-emoji-reason"></div>`;
+  html += `<p class="tldr">${esc(display.tldr || '')}</p>`;
+  html += preferredLine(countryR.judged);
+  html += `<div class="panel-buttons">
+    <button class="btn primary" id="panel-readmore">Read more</button>
+    <button class="btn" id="panel-copylink">Copy link</button>
+    <a class="btn" id="panel-rawjson" href="./data/rounds/${currentRoundId}/countries/${code}.json" target="_blank" rel="noopener">Raw JSON</a>
+  </div></div>`;
+  panel.innerHTML = html;
+  requestAnimationFrame(() => panel.classList.add('open'));
+  document.getElementById('panel-close').addEventListener('click', closePanel);
+  document.getElementById('panel-readmore').addEventListener('click', () => openModal(code));
+  document.getElementById('panel-copylink').addEventListener('click', () => {
+    navigator.clipboard && navigator.clipboard.writeText(window.location.href).catch(() => {});
+  });
+  const emojiRow = document.getElementById('panel-emoji-row');
+  emojiRow.querySelectorAll('img').forEach(img => {
+    img.addEventListener('mouseenter', () => showEmojiReason(display, img.dataset.reasonIdx));
+    img.addEventListener('click', () => showEmojiReason(display, img.dataset.reasonIdx));
+  });
+}
+
+function openModalText(code, country, countryR) {
+  const display = countryR.display || {};
+  const m = countryR.measurement || {};
+  const cr = countryR.crystal || {};
+  const d = countryR.delta;
+  const j = countryR.judged;
+  let html = `<div class="panel-header-row">
+    <img class="flag" src="${emojiSrc(country.twemoji)}" alt="">
+    <h2>${country.name}</h2>
+    <button class="close-btn" id="modal-close-x" aria-label="Close">&times;</button>
+  </div>`;
+  html += `<div class="headline">${esc(display.headline || '')}</div>`;
+  if (bundleR.round && bundleR.round.test_on_stored_headlines) {
+    html += `<p class="baseline">Test on stored headlines: the forecasts of this round were written afterwards from the stored headlines, and judged against the week of 2026-11-01.</p>`;
+  }
+  html += `<h3>In plain words</h3>` + textBlock(display.eli5 || display.tldr);
+  html += `<h3>The Crystal Balls forecast for the coming week</h3>` + textBlock(cr.forecast);
+  html += `<details><summary>How Crystal Balls reasoned: the present, the motion and the wind</summary>${textBlock(cr.reasoning)}</details>`;
+  if (d) {
+    html += `<h3>Where things are moving</h3>`;
+    html += `<h4>Motion</h4>` + textBlock(d.motion) + `<h4>Wind: how last week's expectation met reality</h4>` + textBlock(d.wind)
+         + `<h4>Driver</h4>` + textBlock(d.driver);
+  }
+  html += `<details><summary>The plain forecast, for comparison (written from this week's headlines alone)</summary>${textBlock(m.expected)}</details>`;
+  html += `<h3>What happened this week</h3>` + textBlock(m.happened);
+  if (j) {
+    const who = x => (j.order && j.order[x] === 'crystal' ? 'the Crystal Balls forecast' : 'the plain forecast');
+    html += `<h3>The judge, a week later</h3>`;
+    html += `<p class="baseline">Judged in the round of ${esc(j.judged_in_round)}, against the week as it was reported. The judge did not know which forecast was which: Forecast A was ${who('A')} and Forecast B was ${who('B')}.</p>`;
+    html += `<h4>Forecast A</h4>` + textBlock(j.reading_a) + `<h4>Forecast B</h4>` + textBlock(j.reading_b);
+    html += `<h4>Comparison</h4>` + textBlock(j.comparison);
+    html += preferredLine(j);
+  }
+  html += `<div class="modal-footer">Model: ${esc(countryR.model || '\u2014')} \u00B7 Generated: ${esc(countryR.generated_at || '\u2014')}</div>`;
+  html += `<button class="btn modal-close" id="modal-close-btn">Close</button>`;
+  const modal = document.getElementById('modal');
+  modal.innerHTML = html;
+  document.getElementById('modal-backdrop').classList.add('open');
+  document.getElementById('modal-close-x').addEventListener('click', closeModal);
+  document.getElementById('modal-close-btn').addEventListener('click', closeModal);
+}
+
 function openPanel(code) {
   const country = countriesByCode[code];
   const countryR = bundleR.countries[code];
   if (!country || !countryR) return;
+  if (countryR.schema_version === 5) { return openPanelText(code, country, countryR); }
   const countryP = bundleP ? bundleP.countries[code] : null;
   const roundEntry = indexData.rounds.find(r => r.round === currentRoundId);
 
@@ -1220,6 +1331,7 @@ async function openModal(code) {
   const country = countriesByCode[code];
   const countryR = bundleR.countries[code];
   if (!country || !countryR) return;
+  if (countryR.schema_version === 5) { return openModalText(code, country, countryR); }
   if (countryR.schema_version === 4) { return openModalV4(code, country, countryR); }
 
   const display = countryR.display || {};
