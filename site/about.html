@@ -25,22 +25,25 @@
   <h1>How Crystal Balls works</h1>
   <p>
     This page is a placeholder. The full marketing page explaining the
-    project — the method, the three nested globes, and how the scoring
-    works — is written later (Bible Part 6, section 6.3 notes this page is
-    "written later").
+    project and the method is written later (Bible Part 6, section 6.3
+    notes this page is "written later").
   </p>
   <h2>In short</h2>
   <p>
     Crystal Balls reads this week's headlines for 32 countries from 12
-    news sources, asks a local AI to describe what happened (the
-    "position"), how it changed since last week (the "velocity"), and how
-    far off last week's forecasts were (the "wind"). It then asks for two
-    forecasts for the coming week: a plain one from headlines alone, and a
-    "Crystal" one that also uses the trend and the correction. Every
-    forecast is graded automatically once the following week's news comes
-    in, using the
-    <a href="https://en.wikipedia.org/wiki/Brier_score" target="_blank" rel="noopener">Brier score</a>
-    (lower is better; always guessing 50% scores 0.25).
+    news sources and asks a local AI, running on a home computer, to write
+    in plain words what happened and what it expects next week. That
+    expectation is the plain forecast. Then the AI is shown how things
+    moved since last week, and how last week's expectation met reality, and
+    writes a second forecast by reasoning from the present, along the
+    motion, and corrected for the way it was wrong before. That is the
+    Crystal forecast.
+  </p>
+  <p>
+    A week later an AI judge reads what the news actually reported, writes a
+    full comparison of the two forecasts in plain words, and ends with one
+    verdict: Crystal, plain, or even. Every forecast, every essay and every
+    verdict is in the public archive.
   </p>
   <p>
     Everything is free, open source, and runs on a home computer. The code
