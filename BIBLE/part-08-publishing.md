@@ -7,7 +7,7 @@ Public URL: https://www.strulovitz.org/crystal-balls/. The strulovitz.org site i
 
 ### 8.2 The public folder
 
-scripts/publish.sh builds /home/nir/crystal-balls/public/ (git-ignored) as a plain copy: everything in site/ except the data symlink, plus a real copy of data/ restricted to what the page needs: index.json, meta.json, scorecard.json, and for each complete round bundle.json, round.json and countries/*.json (for the "Raw JSON" button). Headlines and logs are not published (they are in GitHub for anyone who wants them). Copy with rsync -a --delete so removed files disappear.
+scripts/publish.sh builds /home/nir/crystal-balls/public/ (TRACKED by git and pushed since 4 Nov 2026, see 8.11) as a plain copy: everything in site/ except the data symlink, plus a real copy of data/ restricted to what the page needs: index.json, meta.json, scorecard.json, and for each complete round bundle.json, round.json and countries/*.json (for the "Raw JSON" button). Headlines and logs are not published (they are in GitHub for anyone who wants them). Copy with rsync -a --delete so removed files disappear.
 
 ### 8.3 Caddy configuration
 
@@ -99,3 +99,16 @@ Switching to OpenRouter for a stronger model: in settings.env set LLM_BASE_URL=h
 ### 8.10 Done criteria for Part 8
 
 publish.sh builds public/; dev_server.sh shows the real data; the Caddyfile change is committed in the website repo and validated; with websites ON, https://www.strulovitz.org/crystal-balls/ shows the globes, and https://www.strulovitz.org/crystal-balls/data/index.json returns JSON; the laptop has the clone and both icons; the README is written. The implementer reminds Nir that the home-page menu link to /crystal-balls/ is a separate task in the website repo, as he planned.
+
+### 8.11 THE SITE FOLDER LAW (Nir, 4 Nov 2026; first written for Second Opinion as LAW 16)
+
+Everything the public website serves lives in public/ and is tracked by git and PUSHED to GitHub. After a plain git pull or a fresh git clone on ANY computer (the laptop or the desktop), the website is complete and works. .gitignore holds only passwords and machine junk (config/settings.env, .venv/, __pycache__, *.pyc, temporary files); it may NEVER hide anything under public/.
+
+Why: Nir serves www.strulovitz.org from two computers, one at a time, and the desktop serves half of the time or more. Each serves the files it pulled from GitHub. Until 4 Nov 2026 public/ was git-ignored (8.2 said so), so GitHub had no website and any computer that had not built it itself would serve nothing for /crystal-balls/. The laptop did not even have the repository cloned.
+
+What enforces it: scripts/publish.sh adds public/, commits and pushes it, and FAILS LOUDLY if the push fails or anything under public/ is ignored or untracked. A page is not done until its real URL is checked.
+
+The clone test (run after any change to public/): git clone https://github.com/strulovitz/crystal-balls.git /tmp/cb-test; serve /tmp/cb-test/public with python3 -m http.server; open it in headless Chrome (use 127.0.0.1); the page must load, the round data must load, and there must be zero console errors and zero 404s. Delete /tmp/cb-test afterwards. Passed on the laptop on 4 Nov 2026 (101 requests all 200, 0 errors).
+
+Never say "published" or "pushed" to Nir until `git status --porcelain --ignored public` is empty, `git log origin/main..` is empty, and the clone test passes.
+
