@@ -1,0 +1,375 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "TW",
+ "name": "Taiwan",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T16:40:55+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text describes a week in which multiple pressures converged on Taiwan simultaneously. China marked its National Day holiday with sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters. The United States left the $14 billion arms package for Taiwan unresolved, with reports that Washington was considering splitting it into smaller tranches to manage Beijing's reaction. At a Micron fabrication plant in Taiwan, workers voted to strike, injecting labor uncertainty into the global semiconductor supply chain. The first two F-16V Block 70 jets arrived on the island, a symbolic milestone in a long-delayed modernization program. Former President Tsai Ing-wen announced plans to visit the United States and address Stanford University. The cabinet approved an additional T$415 billion in energy spending to cushion households and industry from high fuel prices. Meanwhile, flu-like illness visits numbered between 140,000 and 150,000 in a single week, straining hospitals and heightening public concern about government crisis management.",
+  "key_events": [
+   {
+    "event": "China used National Day to issue sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters.",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Workers at a Micron fabrication plant in Taiwan voted to strike, raising supply-chain concerns for global semiconductor markets.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The US left the $14 billion Taiwan arms package unresolved while reportedly considering splitting it into smaller tranches.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 5
+   },
+   {
+    "event": "The first two F-16V Block 70 jets were delivered to Taiwan's Air Force.",
+    "date": null,
+    "domain": "security",
+    "importance": 3
+   },
+   {
+    "event": "Former President Tsai Ing-wen announced plans to visit the US and speak at Stanford University.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Taiwan's cabinet approved T$415 billion in additional energy spending to offset high fuel prices.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "Flu-like outpatient and emergency visits reached 140,000 to 150,000 in a single week, straining hospitals.",
+    "date": null,
+    "domain": "health",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 6,
+  "domains_active": [
+   "security",
+   "diplomacy",
+   "economy",
+   "health"
+  ],
+  "emojis": [
+   "🚢",
+   "✊",
+   "💸"
+  ],
+  "emoji_reasons": [
+   "Chinese coast guard confrontations and sustained maritime pressure define the dominant security backdrop.",
+   "The Micron workers' strike vote is the central domestic labor and market event of the week.",
+   "The T$415 billion energy spending approval and cost-of-living strain shape the economic narrative."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The naive reading takes the text's top seven predictions at face value as the base case. China escalates gray-zone maritime pressure, producing at least one new coast guard incident near Dongsha or similar waters. The US arms-sale file stays open with officials issuing reassurances, but no final full-package announcement lands. The Micron union announces a concrete strike date, dominating Taiwan business and market news. The Air Force showcases the two newly delivered F-16V Block 70 jets in official training material and photos. Tsai Ing-wen speaks at Stanford, triggering Chinese diplomatic complaints about the visit's symbolism. The overall tone is tense, busy, and noisy but short of a single dramatic rupture. The week is a sequence of managed frictions across security, diplomacy, and domestic politics.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "A Chinese coast guard vessel fires water cannons at or makes close physical contact with a Taiwanese patrol or fishing vessel in waters near Dongsha or another disputed area.",
+    "probability": 0.8,
+    "domain": "security"
+   },
+   {
+    "id": "N2",
+    "text": "The United States issues a final public approval or signed contract for the full $14 billion Taiwan arms package.",
+    "probability": 0.25,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N3",
+    "text": "The Micron workers' union in Taiwan announces a specific calendar date for the start of a work stoppage at the company's fabrication plant.",
+    "probability": 0.68,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "The Taiwan Air Force releases official photographs or a public readiness briefing featuring the two newly delivered F-16V Block 70 jets in a training setting.",
+    "probability": 0.85,
+    "domain": "security"
+   },
+   {
+    "id": "N5",
+    "text": "Tsai Ing-wen delivers a public speech at Stanford University in which she explicitly references US-Taiwan security cooperation or arms deliveries.",
+    "probability": 0.75,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.725."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.625."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.075."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading distributes attention across the text's full probability spectrum and elevates scenarios the headline case treats as secondary. Rather than a routine water-cannon exchange, the bigger-clash scenario carrying 20 to 35 percent weight becomes a distinct checkable outcome: an actual collision or injury event. The arms package is not simply stuck but risks a partial first-tranche approval, a 25 to 40 percent scenario the top-line narrative mentions only as a sub-point. The Micron strike is narrower than the naive broad-action framing; the text's own caveat that physical impact in one week is limited pushes the probability of a single-shift stoppage below 0.5. Flu cases crossing 160,000 and a formal Chinese MFA reaction to Tsai's speech round out the distribution. The net picture is messier, more contingent, and more heterogeneous than the clean tense-but-stable headline.",
+  "reasoning": "The naive reading selects the text's top-listed predictions and assigns them their stated high probabilities, producing a uniformly confident base case. The crystal reading instead promotes the text's own minority scenarios into standalone checkable statements. C1 draws from the bigger coast guard clash scenario at 20 to 35 percent, which the naive reading folds into the generic maritime-incident prediction. C2 draws from the partial arms-sale tranche at 25 to 40 percent, distinct from the naive full-package announcement. C3 adjusts the Micron probability from the naive 0.68 to 0.48, a 0.20 shift, reflecting the text's explicit caveat that one week's disruption is confined to a single shift. The crystal reading thus trades confidence for fidelity to the text's own hedged distribution.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "A Chinese coast guard vessel and a Taiwanese vessel collide, or a water-cannon incident injures at least one crew member, triggering formal written complaints from both governments within 48 hours.",
+    "probability": 0.3,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "The United States publicly announces approval of a single component such as one air defense system or radar set as the first tranche of the $14 billion Taiwan package.",
+    "probability": 0.33,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C3",
+    "text": "The Micron Taiwan union declares a work stoppage limited to a single production shift, and the company's official statement confirms output is reduced but the plant is not fully halted.",
+    "probability": 0.48,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "Taiwan's health authority reports that weekly flu-like outpatient and emergency visits exceed 160,000, triggering a formal public-health advisory to the public.",
+    "probability": 0.58,
+    "domain": "health"
+   },
+   {
+    "id": "C5",
+    "text": "The Chinese Foreign Ministry issues a formal written statement naming Tsai Ing-wen's US speech as a political act that challenges the one-China principle.",
+    "probability": 0.72,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.25."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.725."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.625."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.075."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Taiwan faces gray-zone pressure, chip strike, arms-sale limbo",
+  "emojis": [
+   "🚢",
+   "✊",
+   "🛡️"
+  ],
+  "emoji_reasons": [
+   "Chinese maritime pressure and coast guard incidents are the defining security thread of the week.",
+   "The Micron strike vote is the key domestic event with global chip-market implications.",
+   "The F-16V delivery and the pending $14 billion arms package anchor the defense story."
+  ],
+  "tldr": "The text predicts a tense but stable week: China probes at sea, the US hesitates on a $14 billion arms package, Micron workers threaten a strike, and domestic strain from energy costs and flu season piles on. No war, but accumulated friction.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will China have at least one new coast guard or maritime incident near Taiwan in the following week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Expect at least one new coast guard or maritime incident in the next week. Probably not a full collision, but enough to make global news.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q2",
+    "text": "Will the US announce a full major arms-sale package for Taiwan in the following week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Probability of a full major arms-sale announcement in the next week: maybe 20–30%.",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q3",
+    "text": "Will the Micron factory strike in Taiwan become a major domestic and market story in the following week?",
+    "domain": "technology",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The Micron issue will likely dominate Taiwan business news next week.",
+    "legacy_probability": 0.725
+   },
+   {
+    "id": "Q4",
+    "text": "Will Taiwan's air force make official announcements or public presentations about the newly delivered F-16V jets in the following week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: In the next week, this will become a symbolic story rather than an operational one. Expect: Air Force statements about training. Photos and official announcements.",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q5",
+    "text": "Will former President Tsai Ing-wen's US visit generate diplomatic commentary and Chinese complaints in the following week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Tsai's trip will add to the diplomatic noise. It may not change policy immediately, but it will keep Taiwan on the US political agenda.",
+    "legacy_probability": 0.75
+   },
+   {
+    "id": "Q6",
+    "text": "Will Taiwan's government release more details about its $13 billion extra energy spending plan in the following week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More detail on how the spending will be used. Opposition criticism that the money is too big, too late, or politically motivated.",
+    "legacy_probability": 0.625
+   },
+   {
+    "id": "Q7",
+    "text": "Will Taiwan's high flu numbers generate public-health headlines about hospital crowding or school closures in the following week?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: If flu numbers stay high, expect more public-health headlines, especially if there are school closures or hospital strain.",
+    "legacy_probability": 0.575
+   },
+   {
+    "id": "Q8",
+    "text": "Will China launch a full-scale invasion of Taiwan in the following week?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Full Chinese invasion Likelihood: Low — maybe 5–10% The headlines suggest Washington still sees a full-scale invasion as unlikely before 2028.",
+    "legacy_probability": 0.075
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that A Chinese coast guard vessel and a Taiwanese vessel collide, or a water-cannon incident injures at least one crew member, triggering formal written complaints from both governments within 48 hours?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The United States publicly announces approval of a single component such as one air defense system or radar set as the first tranche of the $14 billion Taiwan package?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.33",
+    "legacy_probability": 0.33
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that The Micron Taiwan union declares a work stoppage limited to a single production shift, and the company's official statement confirms output is reduced but the plant is not fully halted?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.48",
+    "legacy_probability": 0.48
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that Taiwan's health authority reports that weekly flu-like outpatient and emergency visits exceed 160,000, triggering a formal public-health advisory to the public?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.58",
+    "legacy_probability": 0.58
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that The Chinese Foreign Ministry issues a formal written statement naming Tsai Ing-wen's US speech as a political act that challenges the one-China principle?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.72",
+    "legacy_probability": 0.72
+   }
+  ]
+ },
+ "single_forecaster": true
+}

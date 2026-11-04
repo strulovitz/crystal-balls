@@ -1,0 +1,549 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "IT",
+  "name": "Italy",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T13:10:36+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of October 17 to 24, 2026, Italy faced a dual crisis of social unrest and supply-chain disruption. Cost-of-living protests, inspired by France's broader unrest, turned violent in Milan and Bologna, where police clashed with demonstrators and hundreds of soldiers were deployed to the city. Prime Minister Giorgia Meloni responded by approving sweeping new security and anti-riot measures, including rules specifically targeting minors. At the same time, a truckers' strike with roadblocks snarled food distribution nationwide, halting buffalo mozzarella and pasta production and emptying supermarket shelves and gas stations in the south. The strike eased after the government approved aid packages, and stores began restocking. Italy and Spain lifted the border controls that had been in place for months over the Ceuta migrant crisis. Pope Leo left Rome's Gemelli hospital four days after lung cancer surgery, saying he felt much better. Meloni's government signalled she would not run with her far-right coalition in the 2027 election, and Rome opened an investigation into whether Russian agents helped fuel the riots. Italy's birth rate was projected to hit a record low in 2026.",
+    "key_events": [
+      {
+        "event": "Meloni approved sweeping new anti-riot and security laws after violent protests in Milan and Bologna.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "A truckers' strike and roadblocks halted buffalo mozzarella and pasta production and emptied southern supermarket shelves before easing after government aid was approved.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Italy and Spain lifted border controls that had been in place for months following the Ceuta migrant rush.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Pope Leo left Rome's Gemelli hospital four days after lung cancer surgery, reporting he felt much better.",
+        "date": "2026-10-21",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Italy opened an investigation into whether Russian agents helped fuel the recent riots.",
+        "date": "2026-10-23",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A minister said Meloni would not run with Italy's far-right coalition in the 2027 election.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "An Italian steelmaker sought to double its furlough to 8,600 workers.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Leonardo and Rheinmetall secured 3.7-billion-euro contracts with the Italian army.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Italy's birth rate was projected to sink to a record low in 2026.",
+        "date": "2026-10-20",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🔥",
+      "🚔",
+      "🌾"
+    ],
+    "emoji_reasons": [
+      "Headline 70 (Bloomberg) reports violence rocking France as protests flare across Europe and spread to Italy, Belgium, and Portugal, capturing the broader unrest.",
+      "Headline 60 (Reuters) reports Meloni approving tougher anti-riot laws after Milan violence, reflecting the police crackdown dimension.",
+      "Headline 56 (Bloomberg) reports Italy's buffalo mozzarella output halted by trucker protests, highlighting the food-supply disruption."
+    ],
+    "developments": [
+      {
+        "subject": "Trucker strike and food-supply disruption",
+        "what_happened": "Truckers' roadblocks halted mozzarella, pasta, and pizza production and emptied southern supermarket shelves; the strike eased after the government approved aid packages and stores began restocking.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": [
+          7,
+          8,
+          9,
+          12,
+          22,
+          28,
+          31,
+          38,
+          41,
+          54,
+          56,
+          58,
+          63
+        ]
+      },
+      {
+        "subject": "Violent protests and Meloni's security crackdown",
+        "what_happened": "Cost-of-living protests turned violent in Milan and Bologna with police clashes; Meloni approved sweeping anti-riot measures targeting minors and backed the police, while hundreds of soldiers were deployed to Milan.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          14,
+          19,
+          26,
+          30,
+          35,
+          37,
+          39,
+          49,
+          53,
+          55,
+          60,
+          66,
+          67,
+          70,
+          73
+        ]
+      },
+      {
+        "subject": "Italy-Spain border controls lifted",
+        "what_happened": "After months of tension over the Ceuta migrant rush, Italy and Spain lifted the border controls they had imposed.",
+        "coverage": "regular",
+        "direction": "resolved",
+        "headline_ids": [
+          20,
+          40
+        ]
+      },
+      {
+        "subject": "Pope Leo's post-surgery recovery",
+        "what_happened": "Pope Leo left Rome's Gemelli hospital four days after lung cancer surgery, saying he felt much better.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          61,
+          64
+        ]
+      },
+      {
+        "subject": "Meloni's coalition and 2027 election positioning",
+        "what_happened": "A minister signalled Meloni would not run with Italy's far-right coalition in 2027, and Italy kept scope for a credit-rating upgrade while focusing on the election cycle.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          18,
+          59,
+          62
+        ]
+      },
+      {
+        "subject": "Russia probe into riots",
+        "what_happened": "Italy began looking into whether Russian agents helped fuel the recent street riots.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          46
+        ]
+      },
+      {
+        "subject": "Italian business and industrial news",
+        "what_happened": "Leonardo and Rheinmetall secured 3.7-billion-euro army contracts, an Italian steelmaker sought to double its furlough to 8,600 workers, Eni expanded gas processing in Egypt, and UniCredit bought back a securities unit from Societe Generale.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          48,
+          65,
+          69,
+          72
+        ]
+      },
+      {
+        "subject": "Record-low birth rate",
+        "what_happened": "Italy's births were projected to sink to a record low in 2026.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          57
+        ]
+      },
+      {
+        "subject": "EU 70th anniversary in Rome",
+        "what_happened": "The EU planned to relocate to Rome for the 70th anniversary of a treaty.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          17
+        ]
+      },
+      {
+        "subject": "Italy calls for release of Israeli-held activists",
+        "what_happened": "Italy called for the release of five activists held by Israel in the West Bank.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21
+        ]
+      }
+    ],
+    "gone": [
+      "EU gas-price cap and electricity deal",
+      "Air-traffic data failure",
+      "Meloni vs Trump on Ukraine and diesel",
+      "UniCredit and Commerzbank",
+      "Champions League defeats",
+      "Ilva protests and Eni refinery risk",
+      "Israeli flotilla probe",
+      "Budget and growth outlook"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong coverage of the dominant protest, trucker-strike, and political stories, though lighter on foreign policy and the energy sector."
+    },
+    "headlines_used": [
+      "Italy's Generali cuts around 800 jobs in Germany",
+      "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
+      "Italian rice farmer beats heat with biodiversity haven",
+      "Bruno Fernandes has home burgled while in Italy with Man Utd",
+      "US tourist in Italy falls 1,000 feet to death on mountain hike",
+      "Italy's Cafe Med treats patients to free medical advice",
+      "Prix des carburants: les transporteurs routiers italiens cessent leur mouvement de grève",
+      "Italian Truckers Lift Roadblocks That Snarled Food Deliveries",
+      "Italy’s buffalo mozzarella production grinds to a halt in truckers’ strike",
+      "Are parents in France and Italy liable for damage caused by student protesters?",
+      "Bank of Italy calls for digital asset investments by banks despite uncertainty",
+      "Millions in cheese revenue lost as protest torpedoes Italy’s buffalo mozzarella output",
+      "Old footage from pro-Palestinian rally falsely linked to October 2026 protests in Italy",
+      "Italy plans tougher security measures after violent protests",
+      "Naples, Italy: Inside a city bursting with energy",
+      "Italy: The Cafe Med",
+      "Rendez-vous à Rome ? L'UE veut se délocaliser pour les 70 ans d'un traité",
+      "Meloni’s Italy Keeps Scope Skew for Upgrade With Election Focus",
+      "Milan riots test Giorgia Meloni’s law and order credentials",
+      "Italy and Spain lift border controls after months of tension over Ceuta",
+      "Italy calls for release of five activists held by Israel in West Bank",
+      "Italian truckers ease protests, though few groups continue to cause disruptions, Meloni says",
+      "Rome hospital taps culture to help heal cancer patients",
+      "The Italian gelato maker using AI to invent new flavours",
+      "In Nerano, Italy, a family pasta recipe comes with a spectacular view",
+      "Meloni backs police after cost-of-living protests turn violent in Italian cities",
+      "A Rome, un hôpital met l'art au service des patients atteints d'un cancer",
+      "Pizza and Pasta Get Hit by Italian Trucker Protests",
+      "Letter: Three reasons why Italy is not like America",
+      "What are Italy’s new measures against violent protests?",
+      "Southern Italy truckers ease protests as government approves aid",
+      "Pope Leo’s alma mater Villanova traveling to Rome for hoops doubleheader vs. Notre Dame",
+      "AI and Multichannel Communication Come to Italian Municipalities",
+      "'Leaving something delicious on the plate would be a far worse crime': How Italy's guiltiest food ritual went public",
+      "Protests erupt from Albania and France to India and Italy",
+      "Italian rice farmer brings conservation to agriculture",
+      "VIDÉO. En Italie aussi, la colère monte dans la rue",
+      "Mozzarella and Pasta Coming Back to Stores After Italy Passes Trucker Aid",
+      "Italy approves sweeping security measures in response to protests",
+      "Italy, Spain lift border controls brought in after Ceuta migrant rush",
+      "Trucker protest leaves supermarket shelves and gas pumps empty in southern Italy",
+      "Italian explosion video falsely tied to Canadian military base fire",
+      "Italian square named after murdered musician loved by Mary, Queen of Scots",
+      "‘Times have changed’: The Italian princess renting out her palace in Rome",
+      "Albanie, Belgique, Italie... Les mobilisations sociales s'intensifient dans les pays européens inspirés par la colère française",
+      "Italy Is Looking Into Whether Russian Agents Helped Fuel Riots",
+      "How has the cost of living changed in France, Italy, Spain and Portugal?",
+      "Leonardo, Rheinmetall secure 3.7-billion-euro contracts with Italian army, MF daily says",
+      "Italy’s Meloni approves tougher measures to crack down on protests after Milan riots",
+      "Court to rule on first climate lawsuit against Italian state",
+      "Italie : la Lazio revient en tête et enfonce la Juventus",
+      "Italy Targets Crypto Money-Laundering Ring Across Europe",
+      "Cost of living protests hit Belgium, Italy, Portugal and France",
+      "Italian retailers warn of food shortages caused by truck drivers' protest",
+      "From France to Spain, Portugal, Italy and Albania, social unrest is setting Europe's streets ablaze",
+      "Italy Buffalo Mozzarella Output Halted by Trucker Protests",
+      "Italy's births set to sink to a record low in 2026",
+      "Truck drivers’ protest in Italy affects distribution to supermarkets",
+      "Meloni Won’t Run With Italy’s Far Right in 2027, Minister Says",
+      "Italy's Meloni approves tougher anti-riot laws after Milan violence",
+      "Pope Leo leaves Rome’s Gemelli hospital saying he's feeling 'much better' following his lung surgery",
+      "Musk Starlink Controversy Grows, Griffin AI Bubble Warning, Meloni's Far-Right Test",
+      "Protesting truck drivers put Italy's pasta production at risk",
+      "Pope Leo leaves Rome’s Gemelli hospital 4 days after lung cancer surgery",
+      "Italy's Eni to increase gas processing capacity in Egypt's Western Desert",
+      "Meloni Cracks Down After Protests, Targets Minors With New Rules",
+      "Italy's law-and-order crackdowns under Meloni",
+      "Italy Set to Tighten Rules as Milan Luxury Shops Shut Early",
+      "UniCredit buys back Italian securities-services unit from Societe Generale",
+      "Watch Violence Rocks France as Protests Flare Across Europe, Spreading to Italy, Belgium, Portugal",
+      "Italy falling behind 2030 energy transition targets, report says",
+      "Italian Steelmaker Seeks to Double Furlough to 8,600 Workers",
+      "Italian police clash with protesters in Milan and Bologna"
+    ],
+    "converted": false,
+    "relevant_headlines": 73,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Trucker strike and food-supply disruption",
+        "expected": "Trucker strike and food-supply disruption stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Trucker strike and food-supply disruption appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Violent protests and Meloni's security crackdown",
+        "expected": "Violent protests and Meloni's security crackdown stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Violent protests and Meloni's security crackdown appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Italy-Spain border controls lifted",
+        "expected": "Italy-Spain border controls lifted stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Italy-Spain border controls lifted appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Meloni's coalition and 2027 election positioning",
+        "expected": "persist",
+        "sign": "Meloni's coalition and 2027 election positioning is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Trucker strike and food-supply disruption stays in the news at the same level. Violent protests and Meloni's security crackdown stays in the news at the same level. Italy-Spain border controls lifted stays in the news at the same level. Meloni's coalition and 2027 election positioning is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Meloni's anti-riot crackdown",
+        "expected": "Italy's newly approved security measures will be put into practice as police enforce the new rules on minors and rioters in Milan and Bologna.",
+        "direction": "persist",
+        "sign": "Headlines will describe police applying the new anti-riot rules, arrests of young demonstrators, or a fresh street clash testing the crackdown."
+      },
+      "second": {
+        "subject": "Trucker strike aftermath",
+        "expected": "The food-supply disruption will fully resolve as the last roadblocks are cleared and mozzarella and pasta production returns to normal output.",
+        "direction": "de-escalate",
+        "sign": "Headlines will report supermarket shelves fully restocked, the removal of the final roadblocks, or the final tally of lost cheese and pasta revenue."
+      },
+      "third": {
+        "subject": "Pope Leo's recovery",
+        "expected": "Pope Leo will make a public appearance or issue a statement from his residence after leaving Gemelli hospital, marking his return to visible duties.",
+        "direction": "persist",
+        "sign": "Headlines will show the Pope at a public event, giving a blessing, or making a brief statement about his health and upcoming schedule."
+      },
+      "fade_call": {
+        "subject": "Italy-Spain border controls",
+        "expected": "fade",
+        "sign": "The topic will drop from headlines as the lifted border becomes the new normal and no new migrant-crisis story emerges from the Ceuta corridor."
+      },
+      "surprise": {
+        "subject": "Climate lawsuit ruling",
+        "expected": "An Italian court will deliver a ruling in the first climate lawsuit against the Italian state, producing a verdict that either condemns or exonerates the government on its emissions targets.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Italy's focus will stay on the streets. Meloni's new anti-riot measures will be tested as police enforce the rules on minors in Milan and Bologna, and a fresh clash or round of arrests will make headlines. The truckers' strike will wind down completely, with the last roadblocks cleared and mozzarella and pasta production returning to full output, letting retailers restock shelves. Pope Leo, fresh out of Gemelli hospital, will likely make a low-key public appearance signalling his recovery is on track. The Italy-Spain border story will fade as the lifted controls settle into the background. A less expected development will come from the courts, where a ruling in the first climate lawsuit against the Italian state may produce a dramatic verdict. The Russia probe into the riots will stay below the headline level unless a preliminary finding surfaces.",
+      "generated_at": "2026-10-25T12:56:57+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Meloni's anti-riot crackdown",
+        "expected": "The new security measures targeting minors will trigger a fresh round of street protests and a heated parliamentary fight over their scope.",
+        "direction": "escalate",
+        "sign": "A headline reports a new demonstration or a parliamentary vote on the anti-riot rules, with opposition parties demanding a rollback or a court challenge being filed."
+      },
+      "second": {
+        "subject": "Meloni's 2027 coalition shift",
+        "expected": "The signal that Meloni will not run with the far-right coalition in 2027 will spark internal party realignment talks and opposition attempts to build an alternative government.",
+        "direction": "escalate",
+        "sign": "A headline quotes a coalition partner or opposition leader reacting to the coalition break, or reports a new alliance meeting or cabinet reshuffle."
+      },
+      "third": {
+        "subject": "Pope Leo's public return",
+        "expected": "Pope Leo will make a public appearance or deliver a pastoral message from Rome, signaling his return to full duties after surgery.",
+        "direction": "persist",
+        "sign": "A headline describes the Pope greeting the faithful, addressing a congregation, or issuing a pastoral statement, marking his first public act since leaving the hospital."
+      },
+      "fade_call": {
+        "subject": "Trucker strike and food-supply disruption",
+        "expected": "fade",
+        "sign": "No new headline reports empty supermarket shelves, halted cheese or pasta production, or roadblocks on Italian highways."
+      },
+      "surprise": {
+        "subject": "Russia probe into Italian riots",
+        "expected": "The Italian investigation into Russian agents will produce a concrete finding, such as a named suspect, a formal hearing, or a public accusation linking Moscow to the street violence.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Italy, the political battle over Meloni's new anti-riot measures will dominate. The sweeping rules targeting minors will face a heated parliamentary fight, and a fresh wave of demonstrations will test whether the crackdown calms the streets or fuels more anger. The signal that Meloni will not run with the far-right coalition in 2027 will set off a scramble for new alliances, giving opposition parties a chance to reposition. Pope Leo will reappear in public life after his lung-cancer surgery, keeping the Vatican at the centre of Italian conversation. The trucker strike that halted mozzarella and pasta production will fade as shelves restock. A less expected development will come from the Russian interference probe, which may produce a concrete finding that reframes the riots as part of a wider information campaign.",
+      "generated_at": "2026-10-25T13:10:36+02:00"
+    }
+  },
+  "display": {
+    "headline": "Meloni's Crackdown and Coalition Split Define Italy's Week",
+    "emojis": [
+      "🔥",
+      "🏛️",
+      "🙏"
+    ],
+    "emoji_reasons": [
+      "The dominant story is violent protests and Meloni's security crackdown in Milan and Bologna.",
+      "The parliamentary fight over new anti-riot rules and the coalition shift are central political events.",
+      "The Pope's recovery and return to public life keep the Vatican at the centre of Italian news."
+    ],
+    "tldr": "Meloni's new anti-riot measures will spark a fresh protest wave and a parliamentary fight, while her signal to break from the far-right coalition in 2027 sets off alliance realignment. Pope Leo will reappear publicly after surgery. The trucker strike fades as shelves restock.",
+    "eli5": "Italy is in the middle of a big protest wave. Street demonstrations in Milan and Bologna turned violent, and the prime minister approved new rules that let police crack down harder, including special rules for young protesters. Next week, those new rules will be fought over in parliament, and more people will probably take to the streets to object.\n\nAt the same time, the prime minister hinted that she will not run for office with her far-right partners in the 2027 election. That is a huge deal, because it means the political team that has been in power is starting to split up. Other parties will try to grab the pieces.\n\nThe Pope, who had lung-cancer surgery, left the hospital feeling better. He will probably show himself in public again, which will be a relief for millions of people who follow his health closely.\n\nA surprise to watch for: Italy is investigating whether Russian agents helped stir up the riots. If they name a specific person or hold a formal hearing, it would turn the protests into an international story."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Protests escalated with police clashes and soldiers deployed in Milan and Bologna (headlines 2, 26, 73) and were framed as part of a European wave (35, 55), but no headline names a specific new city beyond Milan and Bologna as the sign required."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Pope Leo left Gemelli hospital four days after lung-cancer surgery saying he felt much better (headlines 61, 64), which is a medical update on his condition but a discharge rather than the ongoing treatment bulletin and prayer gatherings the sign described."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "No headline references the US-Russia diesel arrangement or Meloni issuing a fresh critique of it; the story is explicitly listed as no longer in the headlines."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Air-traffic data failure is confirmed as no longer in the headlines, with no aviation or flight-capacity headline reappearing in the collection."
+          }
+        },
+        "archer_note": "The bulletin missed the trucker strike and food-supply disruption entirely, which was the dominant and most concrete story of the week. Its third item on the US-Russia diesel deal was a confident persist call that reality contradicted, as the story faded completely. The main thesis of a multi-city protest escalation was directionally right but slightly over-specified, since the violence stayed concentrated in Milan and Bologna rather than spreading to a clearly new city."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Protests escalated with police clashes in Milan and Bologna (headlines 26, 73) and were explicitly linked to the French unrest (35, 45, 55), but no headline identifies a specific new Italian city beyond those two as the sign required."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Pope Leo left hospital after surgery saying he felt much better (headlines 61, 64), a positive medical update that kept his health in the news but was a discharge rather than the ongoing treatment bulletin and faithful gathering the sign described."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Southern fuel and food disruption occurred via the trucker strike (headlines 41, 54, 58) rather than the Eni refinery and Ilva steelworkers mechanism, but the sign of empty gas pumps and supermarket shelves in the south was met."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Air-traffic data failure is confirmed as no longer in the headlines, with no new headline referencing Italian air-traffic control or the data-transmission fault."
+          }
+        },
+        "archer_note": "The bulletin captured the southern fuel-disruption outcome but attributed it to the wrong mechanism (Ilva/Eni refinery rather than the trucker strike), and it missed the border-controls lifting and the Meloni 2027 election signal. Its Eni/Ilva third item was a specific wrong detail that earned true_in_direction only because the broader outcome (empty gas pumps in the south) still appeared. The main thesis of protests spreading to a new city was directionally correct but the specific new-city detail was not confirmed by any headline."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Social protests in Milan and Bologna remained dominant and in fact escalated with police clashes, soldiers, and new security measures (headlines 2, 19, 26, 73), but the bulletin predicted they would stay at the same level rather than intensify."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The EU gas-price cap and electricity deal is explicitly listed as no longer in the headlines, with no headline in this round referencing it, contradicting the persist expectation."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Air-traffic data failure is explicitly listed as no longer in the headlines, with no aviation or flight-capacity headline appearing in the collection, contradicting the persist expectation."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Social protests in Milan and Bologna were indeed still in the headlines at the next collection, appearing in multiple headlines (2, 19, 26, 39, 49, 60, 73)."
+          }
+        },
+        "archer_note": "The bulletin missed the trucker strike, the Pope's hospital discharge, the border-controls lifting, and the Meloni 2027 election signal, all of which dominated the week. Two of its three persist calls (gas-price cap, air-traffic) were directly contradicted by those stories fading from the headlines. The main thesis of more-of-the-same was wrong for the week, as the collection introduced several new dominant stories while the old ones it insisted would persist disappeared."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Y's third item on southern fuel disruption captured a real outcome (empty gas pumps and shelves in the south) even though the mechanism was wrong, while X's diesel-deal third item faded entirely with no supporting headline. Both shared the same lead and second-item quality, so the differentiator is the third item where Y was closer to reality."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X scored two true_in_direction items and one came_true fade, while Z scored only one true_in_direction, two did_not_appear, and one came_true. X's main thesis of protest escalation was directionally correct, whereas Z's more-of-the-same thesis was contradicted by two of its three persist calls fading from the headlines."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 2.0,
+          "reason": "Y captured the southern fuel disruption and the Pope's health update as true_in_direction, while Z's equivalent items (gas-price cap, air-traffic) both faded and scored did_not_appear. Y's overall pattern of escalation and new developments matched the week better than Z's static persist-everything framing."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": -1.0,
+      "crystal_vs_persistence": 2.0,
+      "plain_vs_persistence": -2.0
+    },
+    "v": -1.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nItaly's week was shaped by growing social protest, an infrastructure scare, and a cluster of economic and diplomatic moves. Police clashed with demonstrators in Milan and Bologna, and TV5Monde described the unrest as a French-style contestation beginning to grip the country. A data-transmission failure forced Italian air traffic control to cut capacity in half, though the fault was repaired within the window and flights returned to normal. On the economic front, Rome secured an EU agreement to cap gas prices and pass savings on to electricity bills, while the three-year budget earmarked roughly 11 billion euros from financial-sector levies. UniCredit received ECB approval to take control of Germany's Commerzbank. PM Meloni publicly criticised Trump's diesel arrangement with Putin and his approach to Ukraine, calling the moves risky. Italy also prolonged its Schengen border suspension with Spain and opened a judicial probe into senior Israeli officials over the Gaza flotilla. The\n- Social protests in Milan and Bologna (dominant, new): Police clashed with demonstrators in two major cities and French media drew parallels with the contestation hitting France.\n- EU gas-price cap and electricity deal (dominant, resolved): Rome finalised an EU agreement to limit gas-price pass-through into electricity costs, with Meloni confirming the deal was near or done.\n- Air-traffic data failure (regular, resolved): A data-transmission fault forced Italian air traffic control to cut capacity by half; the fault was fixed and normal service resumed within the window.\n- Meloni vs Trump on Ukraine and diesel (regular, continuing): Meloni and other Italian ministers publicly criticised the US-Russia diesel deal and Trump's posture on Ukraine, calling both risky.\n- UniCredit and Commerzbank (regular, new): The ECB approved UniCredit's acquisition of control over Germany's Commerzbank, a major cross-border banking move.\n- Pope's cancer diagnosis (regular, escalating): Faithful gathered at a Rome hospital to pray and react to the announcement of the Pope's cancer diagnosis.\n- Schengen suspension with Spain (regular, continuing): Italy extended its temporary Schengen border controls with Spain and indicated further talks were imminent.\n- Champions League defeats (regular, continuing): Italian clubs lost four matches in two days, including a late Real Madrid win in Rome, compounding the season's early struggles.\n- Ilva protests and Eni refinery risk (regular, escalating): Steelworkers' action at Ilva put an Eni refinery in southern Italy at risk of shutdown, threatening local fuel supplies, and the steelmaker sought to double its furlough to 8,600 workers.\n- Israeli flotilla probe (regular, new): Italian prosecutors named senior Israeli officials, including Defence Minister Katz, in a probe over abuse and sexual assault of Gaza flotilla activists.\n- Budget and growth outlook (regular, continuing): The three-year budget earmarked roughly 11 billion euros from financial-sector levies, the Bank of Italy lifted its growth forecast to match the government, and the industry lobby warned the energy shock could erase growth.\n\nRound 2026-10-02:\nDuring the week of October 10-14, 2026, Italy's parliament approved a new electoral law that opposition parties immediately branded a 'scam' designed to lock Meloni's coalition in power through 2027. The government opened budget talks with banks and energy groups over their contribution to the 2027 fiscal plan, while Goldman Sachs warned of bond risks and the EU pressed for fiscal prudence. Italy and the European Commission edged toward a natural-gas price cap deal. Pope Leo XIV announced he would undergo lung surgery in the coming days for a localized nodule. Intesa Sanpaolo sweetened its 34-to-35-billion-euro bid for Monte dei Paschi and warned rivals. A tornado struck Marsala and Petrosino in Sicily, and Pfizer announced roughly 330 job cuts at its Sicily plant. Prosecutors requested a trial for Campari chairman Luca Garavoglia over a 1.29-billion-euro tax-evasion allegation. Thieves stole approximately 30,000 bottles worth five million euros from the Antinori winery\n- Parliament approved Meloni's new electoral law (regular, continuing): Parliament approved Meloni's new electoral law, triggering opposition legal and political counterattacks.\n- Pope Leo XIV announced imminent lung (regular, continuing): Pope Leo XIV announced imminent lung surgery for a localized nodule.\n- Intesa Sanpaolo sweetened its 34-35 billion (regular, continuing): Intesa Sanpaolo sweetened its 34-35 billion euro bid for Monte dei Paschi.\n- A tornado struck Marsala and Petrosino (regular, continuing): A tornado struck Marsala and Petrosino while Pfizer cut 330 jobs in Sicily.\n- NATO began its ten-day Steadfast Noon (regular, continuing): NATO began its ten-day Steadfast Noon nuclear exercise hosted by Italy.\n- Prosecutors requested a trial for Campari (regular, continuing): Prosecutors requested a trial for Campari chairman over 1.29 billion euro tax evasion.\n",
+    "PREVIOUS_FORECAST": "Lead: Social protest in Italy. Expected: Demonstrators stage a new, larger rally in at least one Italian city beyond Milan and Bologna, marking the protest as a national movement. Direction: escalate. Sign: A headline describes a new city square filled with thousands of demonstrators, police cordons, or a national union call for a walkout, framing the unrest as a multi-city movement rather than a local flare-up.\nSecond: Pope's cancer diagnosis. Expected: The Vatican issues a medical update on the Pope's cancer treatment and the faithful gather again in Rome, keeping the diagnosis at the centre of national conversation. Direction: persist. Sign: A headline carries a Vatican spokesperson's statement on the Pope's condition, a scheduled public appearance, or a new wave of prayer gatherings at a Roman church or hospital.\nThird: Meloni and the US-Russia diesel deal. Expected: An Italian government figure issues a fresh public critique of the US-Russia diesel arrangement or Trump's Ukraine posture, deepening the diplomatic rift with Washington. Direction: persist. Sign: A headline quotes Meloni or an Italian minister using a sharp adjective to describe the diesel agreement or calling for an EU-level response to the US-Russia move.\nFade call: Air-traffic data failure. Expected: fade. Sign: No Italian aviation or air-traffic headline reappears; the network-disruption story exits the news cycle entirely.\nSurprise (chance medium): Eni refinery shutdown from Ilva protests. The Eni refinery in southern Italy halts operations because of the steelworkers' blockade, forcing the government to declare a local fuel emergency and dispatch alternative supplies.\nSummary: Next week in Italy, the protest movement that erupted in Milan and Bologna will spread to additional cities as unions and student groups add their voices, turning a regional flashpoint into a national contestation that Italian and French media will frame as a shared European pattern. The Vatican will issue medical updates on the Pope's cancer treatment, and the faithful will gather again in Rome, keeping the diagnosis at the centre of the country's conversation. Meloni and her cabinet will press their diplomatic case against the US-Russia diesel arrangement and Trump's Ukraine posture, likely drawing a sharper response from Washington and complicating Italy's standing within the alliance. The Eni refinery in southern Italy faces a real risk of shutdown as Ilva steelworkers tighten their blockade, which will force the government to act on fuel supplies. The air-traffic disruption that briefly halved flight capacity will exit the headlines entirely.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Protests escalated with police clashes and soldiers deployed in Milan and Bologna (headlines 2, 26, 73) and were framed as part of a European wave (35, 55), but no headline names a specific new city beyond Milan and Bologna as the sign required.\n- second: true_in_direction. Pope Leo left Gemelli hospital four days after lung-cancer surgery saying he felt much better (headlines 61, 64), which is a medical update on his condition but a discharge rather than the ongoing treatment bulletin and prayer gatherings the sign described.\n- third: did_not_appear. No headline references the US-Russia diesel arrangement or Meloni issuing a fresh critique of it; the story is explicitly listed as no longer in the headlines.\n- fade_call: came_true. Air-traffic data failure is confirmed as no longer in the headlines, with no aviation or flight-capacity headline reappearing in the collection.\nArcher note: The bulletin missed the trucker strike and food-supply disruption entirely, which was the dominant and most concrete story of the week. Its third item on the US-Russia diesel deal was a confident persist call that reality contradicted, as the story faded completely. The main thesis of a multi-city protest escalation was directionally right but slightly over-specified, since the violence stayed concentrated in Milan and Bologna rather than spreading to a clearly new city.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

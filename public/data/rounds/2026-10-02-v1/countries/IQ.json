@@ -1,0 +1,369 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "IQ",
+ "name": "Iraq",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T16:14:37+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The United States completed its ground withdrawal from Iraq, and Baghdad marked the event with a Sovereignty Day celebration involving flags, parades, and speeches from the prime minister and security officials. The official dinar rate was moved from 1,300 to 1,500 IQD per US dollar, signalling fiscal pressure and squeezing import costs. Iran sustained 40 daily flights to Najaf, reinforcing religious, economic, and political links with southern Iraq. The government approved a 3.5 trillion dinar (approximately 2.7 billion dollar) stimulus package to soften the devaluation and oil-revenue squeeze. A 48.8 billion dollar budget deficit entered parliamentary debate. Oil exports faced Hormuz disruption, forcing Baghdad to deepen discounts and arrange additional tanker transits to keep Chinese and Indian buyers engaged. A security vacuum opened in Kurdistan after the US departure, with Peshmerga unification still incomplete. Reports surfaced that Israel had operated a clandestine base inside Iraq during a prior conflict, giving opposition factions a new weapon. Shia militias gained rhetorical and political confidence. The parallel dinar market tested levels above the official rate.",
+  "key_events": [
+   {
+    "event": "The US completed its ground withdrawal from Iraq, triggering a national Sovereignty Day celebration.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 5
+   },
+   {
+    "event": "The official dinar rate was devalued from 1,300 to 1,500 IQD per US dollar.",
+    "date": null,
+    "domain": "economy",
+    "importance": 5
+   },
+   {
+    "event": "The government approved a 3.5 trillion dinar stimulus package to cushion the devaluation.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "Reports emerged that Israel had operated a secret base in Iraq during a prior conflict.",
+    "date": null,
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "Iran maintained 40 daily flights to Najaf, deepening religious and economic ties.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Kurdistan entered a security-management gap after the US exit, with Peshmerga unification incomplete.",
+    "date": null,
+    "domain": "security",
+    "importance": 3
+   }
+  ],
+  "mood": "mixed",
+  "intensity": 6,
+  "domains_active": [
+   "politics",
+   "economy",
+   "security",
+   "diplomacy"
+  ],
+  "emojis": [
+   "🎉",
+   "💰",
+   "🛢️"
+  ],
+  "emoji_reasons": [
+   "The US withdrawal and Sovereignty Day celebration define the dominant public narrative.",
+   "The dinar devaluation, stimulus package, and budget deficit make money the central domestic pressure.",
+   "Oil export logistics through a disrupted Hormuz corridor anchor Iraq's fiscal survival and headline flow."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "Taking the text's top-listed predictions at face value, Iraq's week runs through a celebratory first phase that quickly shifts to economic and security noise. Baghdad announces a successful oil tanker transit of at least two million barrels, reinforcing its export narrative. At least one armed standoff or exchange of fire occurs in Kurdistan or the south. Small-scale public demonstrations over the dinar rate surface in Basra, Najaf, or Karbala. Iraq publicly confirms an additional waiver or overflight agreement benefiting Iranian flights to Najaf. Parliamentary budget debates produce at least one public factional accusation of fiscal concealment. The overall tone is one of managed tension: the government projects sovereignty while juggling currency pain, militia confidence, and oil logistics simultaneously. No full-scale war or state collapse, but the week is visibly noisy and economically stressed.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Baghdad publicly announces at least one successful oil tanker transit of 2 million barrels or more through or around Hormuz during the week.",
+    "probability": 0.75,
+    "domain": "economy"
+   },
+   {
+    "id": "N2",
+    "text": "At least one armed standoff or exchange of fire occurs between Kurdish and federal forces or near a disputed facility in the Kurdistan region.",
+    "probability": 0.68,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "Organized merchant complaints or small public demonstrations over the dinar rate appear in at least two Iraqi cities including Basra or Najaf.",
+    "probability": 0.6,
+    "domain": "society"
+   },
+   {
+    "id": "N4",
+    "text": "Iraq publicly confirms an additional overflight waiver or transit agreement for Iranian flights to Najaf during the week.",
+    "probability": 0.55,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N5",
+    "text": "The Iraqi parliament formally debates the 2027 budget and at least one faction publicly accuses the government of concealing the true fiscal deficit.",
+    "probability": 0.48,
+    "domain": "politics"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.675."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.5."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.1."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "Weighing the text's full probability distribution, the week's centre of gravity shifts toward two lower-probability but high-impact scenarios that the naive reading underweights. First, the reported Israeli base story (20-35% in the text) triggers a formal parliamentary inquiry demand or a government clarifying statement, giving opposition a concrete political weapon beyond the dinar. Second, a US naval or air action near Hormuz (30-50%) forces Baghdad to issue an official statement adjusting its shipping or overflight posture, making the offshore conflict feel more direct. The text's own caveats — parallel market testing higher, budget fights becoming identity fights, militia restraint being fragile — push the dinar and coalition-fracture probabilities down slightly from the naive take. Militia visibility remains high-confidence, as the text is explicit that they will position themselves as sovereignty guarantors. The overall read: a week where one or two secondary stories (Israeli base, Hormuz action) break the surface and define the political mood more than the headline oil or dinar items.",
+  "reasoning": "The naive reading locks onto the text's top five predictions and treats them as the near-certain script. The crystal reading instead gives weight to the text's own minority scenarios and hedged caveats. Specifically, the 20-35% Israeli-base scenario and the 30-50% Hormuz-action scenario are underweighted in the naive take; the crystal reading elevates them because the text explicitly flags them as 'potentially explosive' and 'crucial.' The text also hedges the dinar protests ('not necessarily a huge nationwide uprising') and the budget fight ('will not necessarily produce an immediate crisis'), which the crystal reading reflects by lowering those probabilities by more than 0.1 compared to the naive reading. The militia-visibility statement stays high in both readings because the text is unusually confident there.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The reported Israeli base triggers a formal parliamentary demand for an inquiry or a written government statement addressing the reports within the week.",
+    "probability": 0.32,
+    "domain": "politics"
+   },
+   {
+    "id": "C2",
+    "text": "A US naval or air action near Hormuz prompts an official Iraqi statement adjusting its shipping, overflight, or neutrality posture.",
+    "probability": 0.38,
+    "domain": "security"
+   },
+   {
+    "id": "C3",
+    "text": "The parallel dinar exchange rate rises above 1,600 IQD per US dollar at a major exchange in Baghdad or Basra during the week.",
+    "probability": 0.45,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "The prime minister's ruling coalition produces at least one public fracture, walkout, or resignation over 2027 budget allocation during parliamentary debate.",
+    "probability": 0.42,
+    "domain": "politics"
+   },
+   {
+    "id": "C5",
+    "text": "Iraqi Shia militias hold at least one public ceremony or street demonstration explicitly linking the US withdrawal to a sovereignty or resistance claim.",
+    "probability": 0.72,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.675."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.5."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.1."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Iraq celebrates independence, fights money, militias, and Iran",
+  "emojis": [
+   "🎉",
+   "💸",
+   "🛡️"
+  ],
+  "emoji_reasons": [
+   "The week opens with a national sovereignty celebration marking the US ground withdrawal.",
+   "Dinar weakness, stimulus spending, and oil discounts make cost-of-living stress the dominant domestic story.",
+   "Kurdistan's security vacuum and bolder militia rhetoric keep the defense and stability question front and center."
+  ],
+  "tldr": "The text predicted Iraq would spend the week in controlled celebration mode: publicly marking sovereignty, privately managing Iranian pressure, dinar anger, oil-logistics stress, and militia confidence. No major war, but multiple small friction points across security, economy, and politics.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Iraq announce at least one successful oil tanker transit or export arrangement?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: the next week will likely include at least one high-profile Iraqi oil-logistics announcement, probably tied to a tanker moving 2 million barrels or similar",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q2",
+    "text": "Will public complaints or small protests over the dinar, salaries, or prices occur in Iraq?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 50–70% chance: public complaints or small protests over the dinar, salaries, or prices",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q3",
+    "text": "Will at least one visible security incident occur in Iraq?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 60–75% chance: at least one visible security incident in Iraq, likely small but newsworthy",
+    "legacy_probability": 0.675
+   },
+   {
+    "id": "Q4",
+    "text": "Will Iran gain an additional practical advantage in Iraq through Najaf flights, waivers, or transit cooperation?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 50–65% chance: Iran gains some additional practical advantage through Najaf flights, waivers, or transit cooperation",
+    "legacy_probability": 0.575
+   },
+   {
+    "id": "Q5",
+    "text": "Will the 2027 budget debate create noticeable political friction in the Iraqi parliament?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: 40–60% chance: the budget debate creates noticeable political friction in parliament",
+    "legacy_probability": 0.5
+   },
+   {
+    "id": "Q6",
+    "text": "Will Iraq experience a major all-out internal war or state collapse?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: 80–90% chance: no major all-out internal war or state collapse",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q7",
+    "text": "Will Iraqi Shia militias increase their political visibility in Baghdad and the south?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: expect louder militia voices next week, especially around Najaf, Karbala, and southern Iraq, but still enough restraint to avoid an immediate nationwide security crisis",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q8",
+    "text": "Will Iraq slide into a full-scale armed crisis between the center and a region?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: under 10% chance: Iraq slides into a full-scale armed crisis between center and region next week",
+    "legacy_probability": 0.1
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The reported Israeli base triggers a formal parliamentary demand for an inquiry or a written government statement addressing the reports within the week?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.32",
+    "legacy_probability": 0.32
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that A US naval or air action near Hormuz prompts an official Iraqi statement adjusting its shipping, overflight, or neutrality posture?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.38",
+    "legacy_probability": 0.38
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that The parallel dinar exchange rate rises above 1,600 IQD per US dollar at a major exchange in Baghdad or Basra during the week?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.45",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The prime minister's ruling coalition produces at least one public fracture, walkout, or resignation over 2027 budget allocation during parliamentary debate?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.42",
+    "legacy_probability": 0.42
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that Iraqi Shia militias hold at least one public ceremony or street demonstration explicitly linking the US withdrawal to a sovereignty or resistance claim?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.72",
+    "legacy_probability": 0.72
+   }
+  ]
+ },
+ "single_forecaster": true
+}

@@ -1,0 +1,536 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "TW",
+  "name": "Taiwan",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T04:06:14+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of October 17 to 24, 2026, Typhoon Champi, supercharged by El Niño conditions, battered Taiwan, killing one person, injuring over 500, cutting power to 56,000 households, and forcing the closure of schools, businesses, and the stock market while nearly 1,000 flights were cancelled. The storm then moved on to Japan and China. In the Strait of Taiwan and the western Pacific, China intensified what Taipei called grey zone and hybrid warfare tactics: 16 Chinese ships were driven away from Taiwan's waters, militia boats were accused of expanding battlefield preparation, and Beijing declared it was safeguarding order around a Taiwan-controlled South China Sea atoll. A US Congress-appointed official called Chinese patrols to Taiwan's east destabilising. On the industrial front, TSMC halted some construction after a mishap killed four workers, and Micron's Taoyuan plant workers rejected a proposed bonus and staged a one-day strike before management unveiled a global profit-linked bonus plan. The financial regulator blocked Grab's roughly 600 million dollar acquisition of Foodpanda's Taiwan delivery business. Five people were indicted for attempting to injure a comedian known for satirising Xi Jinping. September export orders hit a record on strong AI demand, and the Philippines explored deeper cooperation with Taiwan on protecting undersea cables.",
+    "key_events": [
+      {
+        "event": "Typhoon Champi struck Taiwan, killing one person, injuring over 500, knocking out power to 56,000 households, and shutting down schools, the stock market, and nearly 1,000 flights.",
+        "date": "2026-10-22",
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Taiwan drove away 16 Chinese ships and accused Beijing of using militia boats to expand battlefield preparation in the western Pacific.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "TSMC paused some construction at a Taiwan site after a mishap killed four workers.",
+        "date": null,
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "Taiwan's financial regulator blocked Grab's approximately 600 million dollar acquisition of Foodpanda's Taiwan delivery business.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Micron's Taoyuan plant workers rejected a proposed bonus and staged a one-day strike before management announced a global profit-linked bonus plan.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Five people were indicted for attempting to injure a comedian known for satirising Xi Jinping and the Chinese Communist Party.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "China declared it was safeguarding order around a Taiwan-controlled South China Sea atoll while a US Congress-appointed official called Chinese patrols to Taiwan's east destabilising.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "The Philippines explored deeper cooperation with Taiwan to protect undersea cables.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 2
+      },
+      {
+        "event": "Taiwan's September export orders hit a record value driven by solid AI demand.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Taiwan's security agency flagged a rise in Chinese disinformation ahead of local elections and the government began probing organised crime links to Chinese transnational repression.",
+        "date": null,
+        "domain": "politics",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "environment",
+      "security",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🌀",
+      "🚢",
+      "🏭"
+    ],
+    "emoji_reasons": [
+      "Typhoon Champi dominated the week, killing one, injuring hundreds, and shutting down the entire island (headlines 1, 4, 7, 26).",
+      "China drove away 16 ships and expanded grey zone maritime operations around Taiwan (headlines 10, 19, 33, 44).",
+      "TSMC halted construction after four workers died and Micron's Taoyuan plant workers struck over a bonus dispute (headlines 39, 49, 24, 51)."
+    ],
+    "developments": [
+      {
+        "subject": "Typhoon Champi",
+        "what_happened": "The El Niño-supercharged typhoon battered Taiwan, killing one, injuring over 500, cutting power to 56,000 homes, and forcing the closure of schools, businesses, the stock market, and nearly 1,000 flights before moving on to Japan and China.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          35,
+          41
+        ]
+      },
+      {
+        "subject": "China maritime grey zone",
+        "what_happened": "Taiwan accused China of driving 16 ships into its waters, using militia boats for battlefield preparation, and safeguarding order around a South China Sea atoll, while a US official called the patrols destabilising.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          10,
+          19,
+          20,
+          33,
+          44,
+          50
+        ]
+      },
+      {
+        "subject": "TSMC construction death",
+        "what_happened": "Four construction workers were killed in a mishap at a TSMC site in Taiwan, prompting the company to pause some construction.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          39,
+          49
+        ]
+      },
+      {
+        "subject": "Micron Taoyuan bonus dispute",
+        "what_happened": "Micron's Taoyuan plant workers rejected a proposed bonus, staged a one-day strike, and pushed management to announce a global profit-linked bonus plan.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          24,
+          31,
+          32,
+          46,
+          51
+        ]
+      },
+      {
+        "subject": "Grab-Foodpanda acquisition blocked",
+        "what_happened": "Taiwan's financial regulator blocked Grab's roughly 600 million dollar purchase of Foodpanda's and Delivery Hero's Taiwan delivery business.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9,
+          42,
+          43
+        ]
+      },
+      {
+        "subject": "Comedian attack indictment",
+        "what_happened": "Five people were indicted for attempting to injure a comedian known for satirising Xi Jinping and the CCP.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21,
+          47
+        ]
+      },
+      {
+        "subject": "Chinese transnational repression",
+        "what_happened": "Taiwan's security agency flagged a rise in Chinese disinformation ahead of local elections and the government opened a probe into organised crime links to Beijing's transnational repression.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          38,
+          48
+        ]
+      },
+      {
+        "subject": "Philippines-Taiwan undersea cables",
+        "what_happened": "The Philippines explored deeper cooperation with Taiwan to protect undersea cables in the region.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          40
+        ]
+      },
+      {
+        "subject": "Record AI-driven exports",
+        "what_happened": "Taiwan's September export orders hit a record value on solid AI demand, and dollar bulls looked past an AI-led drop toward a year-end rally.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          45,
+          52
+        ]
+      },
+      {
+        "subject": "State asset manager consolidation",
+        "what_happened": "Taiwan combined its state asset managers as part of a broader finance push.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          30
+        ]
+      }
+    ],
+    "gone": [
+      "TSMC Texas AI investment",
+      "AI chip export curbs to China",
+      "Alaska LNG pipeline",
+      "Coinbase and Kalshi blocked",
+      "PharmaEssentia global expansion",
+      "Shun Chinese anniversary events",
+      "Delta AI-era power systems",
+      "AV and Thunder Tiger uncrewed systems"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The typhoon story is heavily covered across multiple outlets, and the China maritime, industrial, and economic stories are well represented, though some items like the Grab acquisition and TSMC accident appear in only two or three outlets."
+    },
+    "headlines_used": [
+      "Typhoon Champi sweeps past Taiwan, leaving 1 dead, 500 injured",
+      "Typhoon Champi kills 1 and injures 350 in Taiwan overnight as storm weakens",
+      "Tropical Storm Champi nears China after battering Taiwan, Japan",
+      "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+      "Towering waves buffet Taiwan as former super typhoon scrapes past",
+      "Typhoon Champi leaves 1 dead, over 500 injured in Taiwan",
+      "Typhon Champi à Taïwan : 56.000 foyers sans électricité, un mort et des milliers d'évacuations",
+      "Taiwan Shuts $5 Trillion Stock Market as Typhoon Champi Nears",
+      "Regulator Blocks Grab’s Purchase of Delivery Hero’s Taiwan Business",
+      "China steps up ‘grey zone’ tactics to isolate Taiwan and punish its allies",
+      "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
+      "Typhoon Champi sweeps past Taiwan, one dead and 500 injured",
+      "Taiwan shuts schools and grounds flights as Typhoon Champi brushes by",
+      "Taiwan shuts down as Typhoon Champi approaches",
+      "Taiwan: Typhoon Champi leaves 1 dead, over 500 injured - DW.com",
+      "Le typhon Champi secoue Taïwan",
+      "CAPITAL TAIWAN CORE 50 ACTIVE EXCHANGE TRADED FUND",
+      "Taiwan's Stock Pickers Are Walking Out to Bet Their Own Money – Company Announcement",
+      "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
+      "Taiwan says China using militia boats to expand 'battlefield preparation' in western Pacific",
+      "Taiwan indicts 5 accused of trying to injure comedian who mocks Xi and Chinese Communist Party",
+      "Typhoon Champi knocks out power to thousands in Taiwan",
+      "Taiwan braces for potential direct hit from El Nino-supercharged Typhoon Champi",
+      "Taïwan: les salariés de l'usine Micron de Taoyuan rejettent la prime proposée, selon leur syndicat",
+      "Typhoon Champi Heads for Taiwan as El Niño Supercharges Season",
+      "Taiwan shuts down ahead of Typhoon Champi, nearly 1,000 flights cancelled",
+      "Taiwan issues warnings as Typhoon Champi nears",
+      "Taiwan braces as El Nino-supercharged Typhoon Champi approaches island - DW.com",
+      "Taïwan : écoles et commerces fermés à l'approche du typhon Champi",
+      "Taiwan Combines State Asset Managers in Finance Push",
+      "Micron unveils global profit-linked bonus plan after Taiwan union pressure",
+      "Handful of Micron workers strike in Taiwan",
+      "Taïwan: 16 navires chinois impliqués dans des opérations de 'harcèlement maritime', selon les autorités taïwanaises",
+      "Toh Toak Cheng, Standard Chartered Bank Taiwan Ltd: Profile and Biography",
+      "Typhoon Champi nears Taiwan, causing flight cancellations and disrupting US-Japan drills",
+      "Posts misrepresent unaffiliated post as Trump message on Taiwan",
+      "Anthony Yu, Standard Chartered Bank Taiwan Ltd: Profile and Biography",
+      "Taiwan probes organised crime links to China's 'transnational repression'",
+      "TSMC Pauses Some Taiwan Construction After Mishap Kills Four",
+      "Philippines exploring deeper cooperation with Taiwan to protect undersea cables",
+      "Super Typhoon Champi on Path to Impact China, Taiwan Within Days",
+      "Taiwan regulator blocks Grab's purchase of Foodpanda delivery business in Taiwan",
+      "Taiwan Rejects Grab’s $600 Million Takeover of Foodpanda Arm",
+      "China says it is 'safeguarding order' around Taiwan-controlled South China Sea atoll",
+      "Taiwan Dollar Bulls Look Past AI-Led Drop to Year-End Rally",
+      "Micron faces strike from one Taiwan union after deal with another",
+      "Taiwan indicts 5 for attack on comedian who satirized China's Xi",
+      "Taiwan security agency flags rise in Chinese disinformation ahead of local elections",
+      "TSMC says four construction workers killed at Taiwan site, halting work",
+      "Chinese patrols to Taiwan's east are 'destabilising', US Congress-appointed official says",
+      "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
+      "Taiwan September export orders hit record value on solid AI demand"
+    ],
+    "converted": false,
+    "relevant_headlines": 52,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Typhoon Champi",
+        "expected": "Typhoon Champi stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Typhoon Champi appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "China maritime grey zone",
+        "expected": "China maritime grey zone stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about China maritime grey zone appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "TSMC construction death",
+        "expected": "TSMC construction death stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about TSMC construction death appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "TSMC construction death",
+        "expected": "persist",
+        "sign": "TSMC construction death is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Typhoon Champi stays in the news at the same level. China maritime grey zone stays in the news at the same level. TSMC construction death stays in the news at the same level. TSMC construction death is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "China-Taiwan maritime standoff",
+        "expected": "Chinese naval and militia vessels will stage a new coordinated exercise in Taiwan's western waters, drawing a formal diplomatic protest from Taipei.",
+        "direction": "escalate",
+        "sign": "A headline reporting a fresh round of Chinese vessels patrolling or drilling near Taiwan's coastline."
+      },
+      "second": {
+        "subject": "TSMC construction safety",
+        "expected": "A government safety inspectorate will open a formal investigation into the TSMC construction site where four workers died.",
+        "direction": "persist",
+        "sign": "A headline referencing a TSMC construction safety probe or a new worker compensation announcement."
+      },
+      "third": {
+        "subject": "Micron Taoyuan bonus dispute",
+        "expected": "Micron's Taoyuan workers will vote on the revised global profit-linked bonus plan, and the union will declare the dispute settled or set a second strike date.",
+        "direction": "de-escalate",
+        "sign": "A headline stating whether the Micron Taoyuan union accepted or rejected the revised bonus proposal."
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "Headlines will shift from storm damage to post-typhoon recovery costs and stock market rebound trading."
+      },
+      "surprise": {
+        "subject": "Grab-Foodpanda regulatory appeal",
+        "expected": "Grab will file a formal regulatory appeal against the blocked acquisition, turning the decision into a multi-week legal proceeding.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Taiwan, the dominant story will be the escalating maritime standoff with China, as new vessel operations in the western waters draw diplomatic protests and possibly a US response. The TSMC construction site that killed four workers will be under formal government investigation, and the company will announce corrective safety measures. The Micron Taoyuan bonus dispute will reach a resolution as workers vote on the revised profit-linked plan, likely ending the one-day strike cycle. Typhoon Champi coverage will fade from the front pages, giving way to recovery cost estimates and stock market rebound trading. The Grab-Foodpanda acquisition blockage may see a regulatory appeal filed, extending the legal dispute. Chinese disinformation ahead of local elections and the transnational repression probe will keep simmering in the background. Record AI-driven export orders will anchor the economic narrative as the dollar steadies.",
+      "generated_at": "2026-10-25T03:52:14+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "China maritime grey zone escalation",
+        "expected": "Beijing will issue a formal diplomatic response to the US official's destabilising characterization and deploy additional coast guard vessels near the South China Sea atoll, deepening the confrontation in the western Pacific.",
+        "direction": "escalate",
+        "sign": "Headlines reporting a new vessel standoff in the strait, a Chinese ministry statement naming the US official, or a scheduled patrol exercise in the western Pacific"
+      },
+      "second": {
+        "subject": "TSMC construction fatality investigation",
+        "expected": "The labor ministry will publish preliminary findings on the four-worker mishap and order a full safety inspection of the paused construction site.",
+        "direction": "persist",
+        "sign": "Headlines naming the cause of the construction accident, a government inspection order at the site, or a union demand for accountability"
+      },
+      "third": {
+        "subject": "Typhoon recovery and damage assessment",
+        "expected": "The government will announce the official cost of the typhoon damage and a relief package for affected households while airlines and the stock exchange report their losses from the island-wide shutdown.",
+        "direction": "de-escalate",
+        "sign": "Headlines reporting the government's damage estimate, a relief measure for cut-off households, or airline and market loss figures from the storm"
+      },
+      "fade_call": {
+        "subject": "Micron Taoyuan bonus dispute",
+        "expected": "fade",
+        "sign": "The Micron dispute drops from the headlines unless a second walkout or a formal signed agreement with revised pay terms appears"
+      },
+      "surprise": {
+        "subject": "Grab-Foodpanda regulatory appeal",
+        "expected": "The blocked delivery platform acquisition will trigger a formal regulatory appeal and a broader review of foreign ownership rules for Taiwan's food delivery market.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Taiwan's focus shifts from the typhoon aftermath to the structural pressures already building. The government will publish the official damage cost from Typhoon Champi and announce relief for affected households, while airlines and the stock exchange tally their losses from the island-wide shutdown. In the western Pacific, Beijing will respond to the US official's destabilising characterization with additional coast guard deployments, and a new vessel standoff will test the grey zone boundary. The TSMC construction fatality will move from shock to investigation, with the labor ministry ordering a safety inspection and a union pushing for accountability. The Micron bonus dispute will largely settle as the new profit-linked plan takes effect. Export data will keep pointing to strong AI demand, and the state asset manager consolidation will enter its implementation phase.",
+      "generated_at": "2026-10-25T04:06:14+02:00"
+    }
+  },
+  "display": {
+    "headline": "Taiwan Braces for Grey Zone Escalation After Typhoon Recovery",
+    "emojis": [
+      "🚢",
+      "🌀",
+      "🏗️"
+    ],
+    "emoji_reasons": [
+      "Maritime tension is the most active and escalating story heading into next week",
+      "Typhoon recovery and damage assessment will dominate the first days of the window",
+      "The four-worker construction fatality will drive investigation and safety review headlines"
+    ],
+    "tldr": "Beijing will escalate its grey zone naval pressure after a US official called the patrols destabilising, and a new standoff will test the boundary in the western Pacific. The government will publish Typhoon Champi's damage cost and a relief package, while the TSMC construction fatality moves into a formal safety investigation.",
+    "eli5": "Last week, a huge typhoon called Champi slammed into Taiwan, knocking out power for tens of thousands of families and shutting down schools, businesses, and the stock market. The storm is gone now, but the government still has to figure out how much everything cost and how to help the people who lost electricity and property.\n\nAt the same time, China has been sending more and more ships close to Taiwan's coast, and a US government person called the whole thing destabilising. Next week, expect Beijing to push back harder, maybe with more ships or a new patrol exercise, which could make the waters around Taiwan even more tense.\n\nOn top of that, four construction workers died at a TSMC building site, and the company stopped some work. The government will probably order a full safety check, and workers' groups will push for answers about what went wrong.\n\nA surprise would be if the blocked Grab-Foodpanda delivery deal turns into a bigger fight about how much foreign companies can own in Taiwan's food delivery market."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "TSMC Texas AI investment is explicitly listed under 'No longer in the headlines,' and the TSMC stories that did appear (headlines 39, 49) concern a construction mishap killing four workers, not the Texas AI complex."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 31, 32, 46, and 51 confirm a one-day strike at the Taoyuan plant and a new global profit-linked bonus plan, matching the predicted escalation to work stoppage, though the strike was one-day rather than the 'full strike' the bulletin specified."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "AI chip export curbs to China is explicitly listed under 'No longer in the headlines,' with no headline in this round naming a Chinese ministry response or retaliatory measure."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Coinbase and Kalshi blocked is listed under 'No longer in the headlines,' confirming the fade prediction that the story would drop from the news cycle."
+          }
+        },
+        "archer_note": "The bulletin completely missed the dominant story of the week, Typhoon Champi, and the equally dominant China maritime grey-zone escalation, anchoring instead on semiconductor and trade themes that had already faded. Its Micron call was directionally correct but over-specified as a 'full strike' when reality delivered a one-day walkout. The main thesis that TSMC Texas would escalate to a formal construction agreement was not merely early but wrong for this week, as that topic had already exited the headlines."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "TSMC Texas AI investment is listed under 'No longer in the headlines,' directly contradicting the persistence prediction."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "AI chip export curbs to China is listed under 'No longer in the headlines,' contradicting the prediction that it would remain at the same level."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Alaska LNG pipeline is listed under 'No longer in the headlines,' contradicting the persistence prediction."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The fade call predicted TSMC Texas AI investment would persist, but it is listed under 'No longer in the headlines,' so the fade call itself was wrong."
+          }
+        },
+        "archer_note": "The bulletin predicted 'more of the same' for three stories that had all already exited the headlines, missing the week's dominant Typhoon Champi and China grey-zone stories entirely. Its structure was internally contradictory, listing TSMC Texas as both the lead (persist) and the fade call (persist), which is a tautology rather than a forecast. The main thesis of static persistence was wrong, not early, because all three topics had already faded by the time of the next collection."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "AI chip export curbs to China is listed under 'No longer in the headlines,' with no headline naming binding implementation rules or Chinese firm responses."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines 31, 32, 46, and 51 confirm a one-day strike at the Taoyuan plant (a walkout) and a new global profit-linked bonus plan (revised pay terms), matching the sign of either a signed deal or a walkout."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Alaska LNG pipeline is listed under 'No longer in the headlines,' with no headline about a signed memorandum, congressional hearing, or shipping logistics."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Coinbase and Kalshi blocked is listed under 'No longer in the headlines,' confirming the fade prediction."
+          }
+        },
+        "archer_note": "The bulletin missed the week's two dominant stories, Typhoon Champi and the China maritime grey-zone escalation, by anchoring on semiconductor policy and energy trade that had already faded. Its Micron and Coinbase calls were well-targeted and correct, showing it could identify which stories were still live. The main thesis of escalating AI chip export rules was wrong for this week, as that topic had already left the headlines rather than being in a pre-implementation phase."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Bulletin X correctly anticipated the Micron strike escalation and the Coinbase/Kalshi fade, while Bulletin Y predicted persistence for three stories that had all already exited the headlines. X identified at least one live story and one correct fade, whereas Y got all four items wrong."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Both bulletins correctly called the Micron strike and the Coinbase/Kalshi fade, but Z's Micron call is a cleaner came_true while X's is only true_in_direction due to the 'full strike' over-specification. Both missed the dominant Typhoon and grey-zone stories, making the difference narrow."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Bulletin Z correctly anticipated the Micron strike and the Coinbase/Kalshi fade, while Bulletin Y predicted persistence for three stories that had all faded from the headlines. Z identified two live stories and one correct fade; Y got all four items wrong."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 2.0,
+      "plain_vs_crystal": -1.0,
+      "persistence_vs_crystal": -2.0
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring this window, Taiwan's economic and technological news dominated. TSMC confirmed exploration of a $4 billion Texas complex for AI chip production in partnership with Nvidia, while the government moved to curb AI chip exports to China as part of a broader US trade deal, signaling tighter alignment with Washington on semiconductor policy. In energy diplomacy, Taiwan signaled readiness to invest $4.4 billion in an Alaska LNG pipeline project promoted by President Trump, who in turn said Taiwan would purchase 30 percent of the output. On the domestic front, the president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant, a labor dispute now in its second reporting window. Financial markets saw a Taiwan stock boom that prompted some fund managers to quit and trade their own capital, though the dollar slumped alongside the won as a chip-stock selloff dented sentiment. Taiwan\n- TSMC Texas AI investment (dominant, new): TSMC is exploring a $4 billion Texas complex for AI chip production in partnership with Nvidia, with Taiwan confirming funding.\n- AI chip export curbs to China (dominant, new): Taiwan agreed to restrict AI chip exports to China as part of a broader US trade deal, tightening semiconductor policy alignment with Washington.\n- Alaska LNG pipeline (regular, new): Taiwan signaled readiness to invest $4.4 billion in a Trump-promoted Alaska LNG pipeline, and Trump said Taiwan will buy 30 percent of the output.\n- Micron workers strike risk (regular, continuing): The president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant.\n- Taiwan stock boom and dollar slump (regular, new): A Taiwan equity boom prompted fund managers to quit and trade their own capital, while the dollar and won slumped on a chip-stock selloff.\n- Coinbase and Kalshi blocked (occasional, new): Taiwan blocked the crypto platform Coinbase and prediction platform Kalshi over suspected election-related betting activity.\n- PharmaEssentia global expansion (occasional, new): PharmaEssentia announced new drug approvals and overseas investments to broaden its global reach.\n- Shun Chinese anniversary events (occasional, new): Taiwan's government advised citizens to avoid Chinese anniversary events honoring a revolutionary hero.\n- Delta AI-era power systems (occasional, new): Delta unveiled microgrid solutions and an SST-based DC power system for the AI era at Energy Taiwan 2026.\n- AV and Thunder Tiger uncrewed systems (occasional, new): AV and Thunder Tiger signed an MOU to explore uncrewed-systems integration and co-production in Taiwan.\n\nRound 2026-10-02:\nThe text describes a week in which multiple pressures converged on Taiwan simultaneously. China marked its National Day holiday with sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters. The United States left the $14 billion arms package for Taiwan unresolved, with reports that Washington was considering splitting it into smaller tranches to manage Beijing's reaction. At a Micron fabrication plant in Taiwan, workers voted to strike, injecting labor uncertainty into the global semiconductor supply chain. The first two F-16V Block 70 jets arrived on the island, a symbolic milestone in a long-delayed modernization program. Former President Tsai Ing-wen announced plans to visit the United States and address Stanford University. The cabinet approved an additional T$415 billion in energy spending to cushion households and industry from high fuel prices. Meanwhile, flu-like illness visits numbered between 140,000 and 150,000 in a single week, straining hospitals and heightening public\n- China used National Day to issue (regular, continuing): China used National Day to issue sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters.\n- Workers at a Micron fabrication plant (regular, continuing): Workers at a Micron fabrication plant in Taiwan voted to strike, raising supply-chain concerns for global semiconductor markets.\n- The US left the $14 billion (regular, continuing): The US left the $14 billion Taiwan arms package unresolved while reportedly considering splitting it into smaller tranches.\n- The first two F-16V Block 70 (regular, continuing): The first two F-16V Block 70 jets were delivered to Taiwan's Air Force.\n- Former President Tsai Ing-wen announced plans (regular, continuing): Former President Tsai Ing-wen announced plans to visit the US and speak at Stanford University.\n- Taiwan's cabinet approved T$415 billion in (regular, continuing): Taiwan's cabinet approved T$415 billion in additional energy spending to offset high fuel prices.\n- Flu-like outpatient and emergency visits reached (regular, continuing): Flu-like outpatient and emergency visits reached 140,000 to 150,000 in a single week, straining hospitals.\n",
+    "PREVIOUS_FORECAST": "Lead: AI chip export curbs to China. Expected: Taiwan's government will publish binding implementation rules restricting AI chip shipments to mainland China, prompting Chinese semiconductor firms to announce alternative sourcing plans or design changes. Direction: escalate. Sign: Headlines naming specific chip categories banned or taxed and Chinese companies publicly announcing redesigned products or new supplier contracts\nSecond: Micron fabrication plant labor dispute. Expected: Micron workers and management will either sign a new wage agreement or trigger a formal strike vote at the Taoyuan plant before the negotiation window closes. Direction: escalate. Sign: Headlines reporting a signed labor deal with revised pay terms or a walkout shutting down a production line at the Taoyuan site\nThird: Alaska LNG pipeline commitment. Expected: Taiwan's energy ministry will finalize contract language for its 30 percent gas purchase while Trump allies in Congress push for fast-track approval of the pipeline. Direction: persist. Sign: Headlines about a signed memorandum of understanding, a congressional hearing on the pipeline, or shipping and storage logistics for Alaskan gas deliveries to Taiwan\nFade call: Coinbase and Kalshi platform blocks. Expected: fade. Sign: The platforms vanish from the news cycle unless a court injunction or user lawsuit surfaces as a distinct story\nSurprise (chance medium): China retaliatory move over chip curbs. Beijing will announce targeted export restrictions on rare earth processing equipment or launch a naval exercise near Taiwan framed as a response to semiconductor trade barriers.\nSummary: Next week, Taiwan's semiconductor policy will move from headline announcement to on-the-ground implementation. The government will publish specific rules restricting AI chip exports to mainland China, and Chinese firms will respond with alternative sourcing plans or tariff threats. At the Micron fabrication plant in Taoyuan, workers and management will either sign a new labor agreement or call a formal strike vote, with the president watching the outcome closely. On the energy front, Taiwan's ministry will lock in contract terms for its 30 percent share of Alaskan LNG while the pipeline faces congressional scrutiny in Washington. The stock market boom will cool as the dollar and won struggle against chip-sector jitters, and fund managers who quit to trade their own capital will face their first full week of self-directed portfolios. The Coinbase and Kalshi blocks will largely fade from view unless a legal challenge emerges.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear. AI chip export curbs to China is listed under 'No longer in the headlines,' with no headline naming binding implementation rules or Chinese firm responses.\n- second: came_true. Headlines 31, 32, 46, and 51 confirm a one-day strike at the Taoyuan plant (a walkout) and a new global profit-linked bonus plan (revised pay terms), matching the sign of either a signed deal or a walkout.\n- third: did_not_appear. Alaska LNG pipeline is listed under 'No longer in the headlines,' with no headline about a signed memorandum, congressional hearing, or shipping logistics.\n- fade_call: came_true. Coinbase and Kalshi blocked is listed under 'No longer in the headlines,' confirming the fade prediction.\nArcher note: The bulletin missed the week's two dominant stories, Typhoon Champi and the China maritime grey-zone escalation, by anchoring on semiconductor policy and energy trade that had already faded. Its Micron and Coinbase calls were well-targeted and correct, showing it could identify which stories were still live. The main thesis of escalating AI chip export rules was wrong for this week, as that topic had already left the headlines rather than being in a pre-implementation phase.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

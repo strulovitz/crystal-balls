@@ -1,0 +1,488 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "GB",
+  "name": "United Kingdom",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T13:20:32+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The week in the United Kingdom was shaped by a culture clash, a high-profile trial, and a budget season lifted by surprise growth. Sally Rooney's novels were pulled from UK bookstores after her publisher withdrew them over her public support for Palestine Action, a pro-Palestinian group the government had designated a terrorist organisation. Comedian Russell Brand's sexual-assault trial opened in a UK court, with prosecutors branding him a ruthless sexual predator and his lead accuser testifying that she knew he raped her. Economically, the UK unexpectedly grew 0.1 per cent in August, a result analysts credited to AI-driven productivity and a shift away from fossil fuels, giving Chancellor Rachel Healey a welcome lift before her autumn Budget, in which she is expected to raise bank taxes and expand the tax net to online marketplaces. Prince Harry and Meghan Markle made their first joint public engagement since settling back in the UK, an event that felt, by all accounts, like a royal appearance. Diplomatically, London sent additional Storm Shadow missiles to Ukraine and hosted President Zelensky in what the PM called a dark moment for Kyiv. Reform UK councillors were caught on hidden camera making racist remarks, deepening the party's credibility problems ahead of local politics.",
+    "key_events": [
+      {
+        "event": "Sally Rooney's books were withdrawn from UK sale by her publisher after she supported Palestine Action, a group designated a terrorist organisation.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Russell Brand's sexual-assault trial opened with prosecutors calling him a ruthless sexual predator.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "UK GDP unexpectedly rose 0.1 per cent in August, beating forecasts and giving the government a pre-budget boost.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Chancellor Healey signalled she would raise bank taxes and target online marketplaces in the upcoming autumn Budget.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Prince Harry and Meghan Markle made their first joint public engagement since returning to the UK.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "The UK sent additional Storm Shadow missiles to Ukraine and hosted President Zelensky in London during a turbulent period for Kyiv.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "A Norwegian teenager was sentenced to 20 years in prison for plotting a murder in the UK on behalf of an Iran-linked group.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "An undercover documentary showed Reform UK councillors making racist, sexual, and violent remarks, triggering suspensions and a new breakaway group.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "society",
+      "economy",
+      "politics",
+      "diplomacy"
+    ],
+    "emojis": [
+      "⚖️",
+      "📈",
+      "👑"
+    ],
+    "emoji_reasons": [
+      "Russell Brand's sexual-assault trial opened with prosecutors calling him a ruthless sexual predator (headlines 36, 38, 44, 94, 107).",
+      "UK GDP unexpectedly rose 0.1% in August and Healey is preparing a Budget with a bank-tax increase (headlines 32, 83, 79, 106).",
+      "Prince Harry and Meghan Markle made their first joint public appearance since returning to the UK (headlines 19, 92, 93, 112)."
+    ],
+    "developments": [
+      {
+        "subject": "Sally Rooney books withdrawn",
+        "what_happened": "Rooney's publisher pulled her novels from UK bookstores after she publicly supported Palestine Action, a group the government had listed as a terrorist organisation.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          12,
+          14,
+          28,
+          50,
+          58
+        ]
+      },
+      {
+        "subject": "Russell Brand trial",
+        "what_happened": "The comedian's sexual-assault trial opened in a UK court; prosecutors called him a ruthless sexual predator and his lead accuser told the jury she knew he raped her.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          24,
+          36,
+          38,
+          44,
+          94,
+          107
+        ]
+      },
+      {
+        "subject": "UK growth and autumn Budget",
+        "what_happened": "August GDP rose 0.1%, beating forecasts, and Chancellor Healey signalled she would raise bank taxes and expand the tax net to online marketplaces in her upcoming Budget.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          21,
+          32,
+          64,
+          74,
+          79,
+          82,
+          83,
+          106,
+          111,
+          121
+        ]
+      },
+      {
+        "subject": "Harry and Meghan UK return",
+        "what_happened": "The couple made their first joint public engagement since settling back in the United Kingdom, an outing that observers compared to a traditional royal appearance.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          19,
+          92,
+          93,
+          112
+        ]
+      },
+      {
+        "subject": "Ukraine support and Zelensky visit",
+        "what_happened": "The UK sent additional Storm Shadow missiles to Ukraine, and President Zelensky visited London where he received full-throated backing from PM Burnham amid a dark moment for Kyiv.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          60,
+          88,
+          113,
+          124
+        ]
+      },
+      {
+        "subject": "Reform UK councillor scandals",
+        "what_happened": "An undercover documentary captured Reform UK councillors making racist and sexually explicit remarks, leading to suspensions, resignations, and the formation of a new breakaway group on Sheffield City Council.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          45,
+          78,
+          100,
+          104,
+          110
+        ]
+      },
+      {
+        "subject": "Norwegian teen murder plot",
+        "what_happened": "A 17-year-old Norwegian was sentenced to 20 years in a UK prison for plotting a murder on behalf of an Iran-linked group that recruited him online.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          5,
+          57,
+          72
+        ]
+      },
+      {
+        "subject": "UK competition regulator vs Microsoft",
+        "what_happened": "The UK's CMA targeted Microsoft's grip on business software and said AWS and Microsoft could do more to reduce cloud-services barriers for competitors.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          34,
+          62
+        ]
+      },
+      {
+        "subject": "Nvidia London visit and AI pledge",
+        "what_happened": "Jensen Huang toured London meeting investors and pledged 250 million dollars to UK AI-safety research, signalling continued US tech investment in the country.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          105
+        ]
+      },
+      {
+        "subject": "Al-Fayed case police criticism",
+        "what_happened": "Survivors in the Al-Fayed scandal accused UK police of missing the bigger picture, alleging the force ignored key aspects of the investigation.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          29
+        ]
+      },
+      {
+        "subject": "Sky-ITV deal intervention",
+        "what_happened": "The UK government said it was minded to intervene in the proposed Sky-ITV merger, raising regulatory uncertainty over the deal.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          86
+        ]
+      }
+    ],
+    "gone": [
+      "US B-1 bombers withdrawn from RAF",
+      "Israel downgrades UK East Jerusalem consulate",
+      "UK government blocks contentious Northern Ireland",
+      "Manchester City enters Premier League settlement",
+      "Manchester City enters Premier League settlement (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the UK well across society, economy, politics, and diplomacy, with strong multi-source coverage of the top stories, though some niche areas like energy and housing only appear in passing."
+    },
+    "headlines_used": [
+      "France, Germany strike deal on car emissions and UK special status",
+      "Norwegian teen sentenced to 20 years in prison for plotting murder in UK for Iran-linked gang",
+      "Al-Fayed survivors say UK police missing 'bigger picture'",
+      "Protesters call for London robotaxi trials to stop",
+      "Norwegian teen sentenced to 20 years for UK murder plot tied to Iran-linked group",
+      "Mud, fun and donations: Mucky UK race thrills thousands",
+      "Royaume-Uni: les livres de Sally Rooney interdits après son soutien à un groupe propalestinien classé 'terroriste'",
+      "UK Inflation Can Seal the Deal on the BOE’s November Rate Hike",
+      "A ‘Ludicrously Ugly’ Bridge Is Exhibit A That Britain Has Lost Its Mojo",
+      "US university offers cut-price UK degree for international students",
+      "I watched Nvidia's Jensen Huang work the room in London. He brought big checks — and a blunt message",
+      "Sally Rooney’s books pulled from UK over Palestine Action support",
+      "For fishermen, Britain's climate-driven octopus boom is an opportunity, and a threat",
+      "UK bookstores scramble as Sally Rooney's novels are withdrawn because she supports Palestine Action",
+      "Ailing UK director Mike Leigh wishes he could make '100 more films'",
+      "UK must protect against Russian 'hybrid attacks', ex-national security adviser says",
+      "A Harbaugh in trouble, problems in the City of Angels and a London showdown: What to watch in Week 6 of the NFL",
+      "Iran seeking 'harder targets' for attacks abroad, UK warns",
+      "'Super d'être de retour !' : Harry et Meghan font leur première sortie publique au Royaume-Uni",
+      "Burnham Finds His Plans to Focus on Britain Blown Up by Trump",
+      "What is behind the surprising resilience of the UK economy?",
+      "Banking tax raid fears hit London lenders' shares ahead of crucial budget",
+      "Arrests made for pro-Nazi chants at Hajduk Split-Ajax match in Croatia",
+      "'Wild-eyed' comedian Russell Brand tried to drag me into toilets, woman tells UK court",
+      "Long snapper cuts short camping trip and locates passport to sign with Jaguars in London",
+      "UK PM met Man City chairman during his role as Manchester mayor",
+      "Edvard Munch print found at Kent estate to be auctioned in London",
+      "Sally Rooney’s books no longer sold in UK over support for banned pro-Palestinian group",
+      "Affaire Al-Fayed : la police britannique accusée d'ignorer une partie du scandale",
+      "Healey Considers New UK Investor Visa for Wealthy Foreigners",
+      "UK dividend payments jump 14% in a year",
+      "UK economy grew 0.1% in August, beating expectations",
+      "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
+      "UK competition regulator targets Microsoft's business software grip",
+      "British man fined without jail in Cyprus after pleading guilty to negligence in son’s fatal fall",
+      "UK prosecutor tells jury Russell Brand a 'sexual predator'",
+      "Track Cycling World Championships: Great Britain win two gold medals on day four in Shanghai",
+      "UK prosecution labels Russell Brand a ruthless sexual predator at opening of his sex assault trial",
+      "Boaz Weinstein’s UK Trust Bets Return 42% After Wins",
+      "Activists highlight a Big Yellow warning sign for the London market",
+      "BoE's Sarah Breeden: Surprised how well the UK economy has absorbed the energy price shock",
+      "UK Green member behind anti-Zionism motion ‘receives death threats’",
+      "UK clears Axel Springer takeover of Telegraph newspaper group",
+      "UK prosecutor labels Russell Brand a ruthless sexual predator as his sex assault trial begins",
+      "Reform activist suspended after reportedly saying Muslims cannot be British",
+      "Philadelphia Eagles fans flock to the bar that brings the City of Brotherly Love to London",
+      "Britain’s Growth Has a Lot to Do With the Transition Away From Fossil Fuels",
+      "Apple set for UK legal fight over iPhone tap-to-pay rules",
+      "Check out American Beacon The London Company Income Equity ETF's stock price (TLIE) in real time",
+      "Sally Rooney books withdrawn from sale in UK over Palestine Action support",
+      "UK police assess Palestine Action post by national security adviser's wife",
+      "The building housing London’s oldest restaurant has been donated to a conservation charity",
+      "'First' UK women's amputee football matches take place",
+      "UK Bank Tax Plan Risks Putting Healey at Odds With BOE’s Bailey",
+      "Is Britain sliding into a subsidence crisis?",
+      "Ex-UK army chef jailed for ‘terror’-related offence",
+      "Norwegian teen jailed for 20 years for UK murder plot after being recruited online",
+      "Sally Rooney’s publisher withdraws her books from UK sale over support for Palestine Action",
+      "Man jailed for Starmer-linked arson attacks deported, Home Office says",
+      "UK Sends Ukraine More Storm Shadow Missiles to Hit Russian Sites",
+      "Looming UK tax rise puts bankers on edge",
+      "AWS, Microsoft can do more to address cloud services barriers, UK competition watchdog says",
+      "Essex woman reunited with teenage diary found in London flat",
+      "UK Economy Unexpectedly Grows In Shift to Manufacturing",
+      "London’s gold market enjoys the Trump effect",
+      "UK watchdog moves to protect energy market from wholesale price swings",
+      "Dubois vs Wardley 2: Londoner retains title with dominant second-round stoppage",
+      "Britain’s ‘Temu Range Rovers’ May Be Too Much of a Good Thing",
+      "How Healey's first UK budget could ripple through markets",
+      "Russian man linked to deadly London hospitals hack arrested",
+      "Chery’s New Brand Comes to the UK With Land Rover Lookalike",
+      "Norwegian teen 'hitman' jailed over UK murder plot",
+      "Dangote Cement Adds Goldman, UBS for November London Listing",
+      "Raising bank tax is not best choice for UK budget, IMF says",
+      "Great Britain win two more gold medals at Track Cycling World Championships in Shanghai",
+      "Musk’s British Favorite Has a Lucrative Side Hustle",
+      "COMMENTARY: Rejuvenated London Metal Exchange looks to new horizons",
+      "Ex-Reform UK councillors create new group on Sheffield City Council",
+      "Healey Plans to Raise UK Taxes on Banks at Budget This Month",
+      "UK water regulator finds Severn Trent unit breached wastewater obligations",
+      "London Ambulance workers face sexual assault 'almost every day'",
+      "UK Economy Grew in August With Better-Than-Expected Performance",
+      "AI-boosted UK economy beats forecasts, giving Healey pre-budget lift",
+      "Beth Dobbin: British Olympic sprinter in bed for 22 hours a day after ME diagnosis",
+      "Three Reasons Why UK Home Prices Might Take Off",
+      "UK government says it is minded to intervene in Sky-ITV deal",
+      "Wuhan Open: Britain's Sonay Kartal beats Elina Svitolina to reach semi-finals",
+      "Burnham Offers Zelenskyy UK Support in ‘Dark and Difficult Days’",
+      "Pound rises against weaker dollar, UK GDP unexpectedly rises",
+      "Dubois vs Wardley 2: British heavyweights weigh in at career heaviest for world-title rematch",
+      "British Museum Chief ‘Optimistic’ Parthenon Marbles Deal Can Be Done",
+      "Prince Harry and wife Meghan make first joint appearance since UK return",
+      "Why Harry and Meghan's UK relaunch felt so much like a royal engagement",
+      "UK comedian Russell Brand's accuser tells jurors: 'I know he raped me'",
+      "BBC News channel launches on YouTube for viewers in UK and US",
+      "UK finance minister calls for tighter Russian shipping sanctions",
+      "London housing project wins top architecture award",
+      "Family of UK tiger attack victim urges end to video sharing after Trump posts footage",
+      "UK temperatures to rise to 23C before autumn chill sets in",
+      "Undercover documentary shows Reform UK candidates making racist, sexual and violent remarks",
+      "Tiny rare frogs bred for first time at London Zoo",
+      "Zelenskiy receives full-throated UK support after Trump turns on him",
+      "London's mobile data demand outstrips capacity",
+      "Reform UK councillors filmed making racist remarks",
+      "Nvidia pledges $250 million to UK AI safety research",
+      "Healey says surprise UK growth is 'sign of resilience' ahead of Budget",
+      "Comedian Russell Brand was a ruthless sexual predator, UK prosecutors say",
+      "London man guilty of mudering Chatham man in attempted robbery",
+      "Sportradar hit by EU, UK antitrust complaints from rival",
+      "Leeds councillors quit Reform UK after suspensions",
+      "UK finance minister Healey to target online marketplaces in tax crackdown, The Times reports",
+      "Watch: Harry and Meghan at first joint engagement since UK return",
+      "UK government to provide £17 million for Chornobyl plant repairs",
+      "Track Cycling World Championships 2026: Great Britain win two golds",
+      "Palantir and London mayor's office settle lawsuit over UK police contract",
+      "UK threatens to ban Eritreans over migrant return policy",
+      "UK media regulator says concerns persist over X's handling of illegal content",
+      "1946 Great Britain side inducted into Rugby League Hall of Fame",
+      "Ex-UK army chef jailed for nearly four years over homemade gun, explosives",
+      "UK to seek fresh global focus on developing-nation debt relief",
+      "Faisal Islam: What surprise praise for UK economy tells us about the Budget",
+      "BNP Paribas hires Santander, UBS dealmakers to bolster UK M&A advisory team",
+      "Racial bias in London music licensing, report says",
+      "PM | Zelensky comes to London in 'dark moment' for Ukraine",
+      "2026 World Track Cycling Championship: Great Britain's men out in first round in team sprint while women takes silver",
+      "Drop-off charges at UK airports to be reviewed after sharp increase"
+    ],
+    "converted": false,
+    "relevant_headlines": 126,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Sally Rooney books withdrawn",
+        "expected": "Sally Rooney books withdrawn stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sally Rooney books withdrawn appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Russell Brand trial",
+        "expected": "Russell Brand trial stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Russell Brand trial appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "UK growth and autumn Budget",
+        "expected": "UK growth and autumn Budget stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about UK growth and autumn Budget appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Sally Rooney books withdrawn",
+        "expected": "persist",
+        "sign": "Sally Rooney books withdrawn is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Sally Rooney books withdrawn stays in the news at the same level. Russell Brand trial stays in the news at the same level. UK growth and autumn Budget stays in the news at the same level. Sally Rooney books withdrawn is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Russell Brand trial",
+        "expected": "More accusers will take the stand before the jury with graphic testimony about alleged encounters, pushing the prosecution case into its most dramatic phase.",
+        "direction": "escalate",
+        "sign": "Court reports will carry vivid witness testimony and new allegations from additional women testifying against the comedian."
+      },
+      "second": {
+        "subject": "Autumn Budget and bank tax",
+        "expected": "Chancellor Healey will table the Budget delivering the bank tax increase and online marketplace levy, triggering immediate share-price reactions among London lenders.",
+        "direction": "escalate",
+        "sign": "Financial press will report the final tax measures, market swings, and a public clash with the BOE over the bank tax choice."
+      },
+      "third": {
+        "subject": "Sally Rooney book withdrawal",
+        "expected": "UK bookshops and fellow authors will react to the withdrawal of Sally Rooney's titles, extending the Palestine Action controversy into a wider cultural dispute.",
+        "direction": "persist",
+        "sign": "Culture and books pages will carry reader complaints, publisher statements, and debate over an author's right to support a designated group."
+      },
+      "fade_call": {
+        "subject": "Harry and Meghan first UK engagement",
+        "expected": "fade",
+        "sign": "News pages will drop the couple's joint outing from front-page slots in favor of other stories."
+      },
+      "surprise": {
+        "subject": "Palestine Action in government ranks",
+        "expected": "The police assessment of the national security adviser's wife will produce a public statement or political fallout that links the Rooney withdrawal to divisions within the government's own ranks.",
+        "chance": "medium"
+      },
+      "summary": "The next seven days will bring the Russell Brand trial into its most dramatic phase, with further accusers testifying and prosecutors building their case before a London jury. Chancellor Healey will table her Budget, delivering the bank tax increase and online marketplace levy that have bankers on edge, and the IMF warning will add a layer of public debate about the policy choice. The Sally Rooney withdrawal will move from a publisher's decision to a wider cultural dispute, with readers, bookshops, and fellow authors taking sides. The Harry and Meghan appearance will recede from front pages as the couple settles into quiet life. A less visible thread will tighten: the police review of the national security adviser's wife Palestine Action post will surface as a small but telling crack in the government's own position on the group. Markets will digest the Budget, and the pound will react to whatever Healey announces.",
+      "generated_at": "2026-10-23T13:06:50+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Russell Brand trial",
+        "expected": "Jurors will hear cross-examination of the lead accuser and testimony from defense witnesses as the trial enters its second week.",
+        "direction": "persist",
+        "sign": "Headlines carry courtroom drama with cross-examination moments and defense strategy shifts keeping the trial on the front page."
+      },
+      "second": {
+        "subject": "Autumn Budget",
+        "expected": "Chancellor Healey will table her tax plans, confirming the bank tax increase and the online marketplace levy in a parliamentary speech.",
+        "direction": "escalate",
+        "sign": "Markets react sharply to the final tax figures and the government defends the package against IMF criticism."
+      },
+      "third": {
+        "subject": "Rooney and Palestine Action fallout",
+        "expected": "The police assessment of the PM adviser's wife's social media post will become public and political figures will take firm public sides on the book withdrawal.",
+        "direction": "persist",
+        "sign": "Headlines feature a formal police statement and a sharp parliamentary exchange over the bookstore decision."
+      },
+      "fade_call": {
+        "subject": "Harry and Meghan UK return",
+        "expected": "fade",
+        "sign": "Coverage shifts from the couple's engagement to other celebrity and political stories as the novelty wears off."
+      },
+      "surprise": {
+        "subject": "Sky-ITV merger intervention",
+        "expected": "The UK government will issue its formal decision to block the proposed merger, triggering a legal challenge from the two broadcasters.",
+        "chance": "medium"
+      },
+      "summary": "Next week in the United Kingdom will be defined by the Russell Brand trial entering its core testimony phase, with jurors hearing cross-examination and defense witnesses. Chancellor Healey's Autumn Budget will dominate economic coverage as she confirms the bank tax rise and the online marketplace levy, prompting sharp market reactions and a public clash with the IMF's preferred approach. The Sally Rooney book withdrawal will spill into political territory as the police statement on the PM adviser's wife becomes public and parliament debates the government's proportionality. The Harry and Meghan UK return story will fade after its initial wave. A surprise formal intervention on the Sky-ITV merger would add a regulatory drama to an already busy week. The mood stays tense, with the trial and Budget providing two dominant narratives.",
+      "generated_at": "2026-10-23T13:20:32+03:00"
+    }
+  },
+  "display": {
+    "headline": "Brand, Budget, and books: a turbulent British week",
+    "emojis": [
+      "⚖️",
+      "💰",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "The Russell Brand sexual-assault trial will generate daily courtroom headlines throughout the week.",
+      "Chancellor Healey's Budget, including the bank tax and marketplace levy, will drive market and political coverage.",
+      "The Sally Rooney book withdrawal and its political spillover will play out as a culture-and-governance scandal."
+    ],
+    "tldr": "Britain's next week centres on the Russell Brand trial's core testimony and Healey's Budget tax announcements. The Sally Rooney controversy will deepen with a police statement and political debate. The Harry and Meghan story will fade after its initial coverage.",
+    "eli5": "Next week in Britain is going to be dominated by two big stories. First, the Russell Brand trial is going to be in the middle of its most dramatic phase, with lawyers questioning witnesses in front of a jury. Second, the Chancellor is going to present her tax plans in Parliament, including raising taxes on banks and taxing online marketplaces.\n\nThe Brand trial is big because the prosecution is calling him a sexual predator, and the accuser has already told the jury she knows he raped her. The Budget matters because the bank tax will make London bankers nervous, and the IMF has already told the government that it is not the best idea.\n\nThe Sally Rooney book story will also stay in the headlines because the police are looking into a social media post made by the PM's own adviser's wife, and politicians are going to argue about whether pulling her books from shelves was too harsh. The Harry and Meghan story, though, will probably disappear from the news after a few days since it was a one-time event.\n\nA real surprise would be the government formally blocking the Sky-ITV merger, which would start a legal fight and shake up the TV industry. Nobody is expecting that to happen this specific week, but the government has already said it is minded to intervene."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, the US withdrew B-1 strategic bombers from RAF Fairford after an alleged Iranian drone threat targeting the airbase, triggering counter-terrorism arrests of several men suspected of preparing terrorist acts. The UK government, led by Andy Burnham's Labour administration with Chancellor John Healey, faced intense fiscal anxiety ahead of the Autumn Budget, with record diesel prices, a reported wealth exodus from London, property fund restrictions, and an Iran-related hole in public finances straining gilt markets. Israel downgraded the UK consulate in East Jerusalem to a 'UK Mission,' prompting UK diplomatic protest and a Green Party vote declaring Zionism a form of racism. Manchester City entered settlement talks with the Premier League over Abu Dhabi-backed ownership, creating political pressure on the government. The UK blocked a contentious Northern Ireland march after a two-week sectarian standoff. Russian hybrid warfare was reported at costing the UK up to 2.5 billion\n- US B-1 bombers withdrawn from RAF (regular, continuing): US B-1 bombers withdrawn from RAF Fairford after alleged Iranian drone threat, triggering counter-terrorism arrests\n- Autumn Budget fiscal anxiety intensifies with (regular, continuing): Autumn Budget fiscal anxiety intensifies with record diesel prices, wealth exodus, and Iran-related public finance hole\n- Israel downgrades UK East Jerusalem consulate (regular, continuing): Israel downgrades UK East Jerusalem consulate to a 'UK Mission,' triggering diplomatic protest and Green Party Zionism vote\n- UK government blocks contentious Northern Ireland (regular, continuing): UK government blocks contentious Northern Ireland march after two-week sectarian standoff\n- Manchester City enters Premier League settlement (regular, continuing): Manchester City enters Premier League settlement talks over Abu Dhabi-backed ownership\n- Manchester City enters Premier League settlement (again) (regular, continuing): Manchester City enters Premier League settlement talks over Abu Dhabi-backed ownership\n\nRound 2026-09-15:\nAccording to the text, the UK entered the week of late September to early October 2026 with multiple concurrent pressures under Prime Minister Burnham, roughly two months into the role. The Chagos Islands deal with Mauritius drew sharp criticism from President Trump, prompting the government to signal a rework. The UK committed to providing defensive air-to-air refuelling for Saudi jets countering Houthi strikes, while the G7 condemned Houthi attacks and the UK tightened sanctions on Iranian banks. At RAF Fairford in Gloucestershire, a major incident was declared after arrests of several men on suspicion of explosives offences near the base, which the government had authorized for US strikes on Iranian missile sites. Westminster faced mounting anxiety over high borrowing, OECD pressure to cut spending, and bank-sector warnings about windfall taxes. The government pushed AI diplomacy, with reports of OpenAI and Anthropic seeking UK data-centre deployments. A Pro-Palestine Action rally was\n- Trump publicly criticized the UK's Chagos (regular, continuing): Trump publicly criticized the UK's Chagos Islands sovereignty deal with Mauritius, prompting the government to signal a rework.\n- The UK committed to providing defensive (regular, continuing): The UK committed to providing defensive air-to-air refuelling for Saudi jets countering Houthi strikes and tightened sanctions on Iranian banks.\n- A major incident was declared at (regular, continuing): A major incident was declared at RAF Fairford after several men were arrested on suspicion of explosives offences near the US-used base.\n- Westminster faced pressure over high borrowing (regular, continuing): Westminster faced pressure over high borrowing, OECD spending cuts, and bank warnings about a windfall tax.\n- A second air-traffic-control technical failure in (regular, continuing): A second air-traffic-control technical failure in two weeks disrupted flights across Scotland, Northern Ireland, and northern England.\n- A second air-traffic-control technical failure in (again) (regular, continuing): A second air-traffic-control technical failure in two weeks disrupted flights across Scotland, Northern Ireland, and northern England.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

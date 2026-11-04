@@ -1,0 +1,328 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "KP",
+  "name": "North Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T02:02:05+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the reporting window, North Korea's most prominent development was the official opening of the New Yalu River Bridge linking the country to China, a project delayed for twelve years. State media confirmed the ceremony, and trucks bearing Chinese flags were photographed crossing into Sinuiju. Analysts noted the bridge may help Pyongyang route trade through China and partially offset sanctions pressure, though some experts cautioned that near-term volumes would remain modest. In parallel, North Korea conducted a series of submarine-launched missile tests, including an AI-equipped torpedo and two types of cruise missiles fired from a sub — the first underwater-launched missile exercises in nearly three years. State media released imagery of the launches. North Korea's missile chief publicly questioned South Korea's recent hypersonic glide vehicle test, underscoring the ongoing arms rivalry. Domestically, a report highlighted growing food shortages as drought threatened crops. Satellite imagery also offered a rare glimpse of Kim Jong Un's summer retreat. The week combined a major diplomatic-economic milestone with a reminder of Pyongyang's expanding maritime missile capability.",
+    "key_events": [
+      {
+        "event": "China and North Korea officially opened the long-delayed New Yalu River Bridge, with trucks crossing into Sinuiju on the first day.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "North Korea tested two types of submarine-launched cruise missiles, its first underwater missile exercise in nearly three years.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "North Korea tested a new torpedo equipped with AI capabilities, according to state media.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "North Korea's missile chief publicly questioned South Korea's recent hypersonic glide vehicle test.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "North Korea faced worsening food shortages as a drought threatened autumn crops.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Satellite images gave a rare public view of Kim Jong Un's summer retreat facility.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🏗️",
+      "🚀",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "The New Yalu River Bridge opening after a 12-year delay is the dominant story of the window (headlines 4, 5, 6, 7, 11, 12, 14, 16, 18, 19, 20, 25, 26, 27, 28, 29, 31, 32).",
+      "North Korea conducted submarine-launched cruise missile tests and an AI-equipped torpedo test, its first underwater missile exercise in three years (headlines 1, 2, 13, 15, 17, 21, 23, 24, 30).",
+      "Multiple analysts and outlets framed the bridge as deepening China-North Korea economic and strategic ties and potentially easing sanctions pressure (headlines 4, 8, 9, 19)."
+    ],
+    "developments": [
+      {
+        "subject": "New Yalu River Bridge opens",
+        "what_happened": "China and North Korea held an opening ceremony for the long-delayed border bridge, with trucks immediately crossing into Sinuiju.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          14,
+          16,
+          18,
+          19,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32
+        ]
+      },
+      {
+        "subject": "Submarine-launched cruise missile tests",
+        "what_happened": "North Korea launched two types of cruise missiles from a submarine, marking the first such test in nearly three years.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          15,
+          17,
+          21,
+          23,
+          24,
+          30
+        ]
+      },
+      {
+        "subject": "AI-equipped torpedo test",
+        "what_happened": "State media reported a new torpedo system with AI capabilities was successfully tested.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "subject": "Missile chief questions SK hypersonic test",
+        "what_happened": "North Korea's missile chief publicly challenged the credibility of South Korea's recent hypersonic glide vehicle test.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Food shortages from drought",
+        "what_happened": "A report highlighted worsening food insecurity as drought conditions threatened North Korean crops.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          22
+        ]
+      },
+      {
+        "subject": "Satellite images of summer retreat",
+        "what_happened": "Satellite imagery provided a rare public view of the interior of Kim Jong Un's summer compound.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      }
+    ],
+    "gone": [
+      "Kim Jong Un personally oversaw a",
+      "A mine blast along the DMZ",
+      "Two North Korean soldiers captured in",
+      "Zelenskiy claimed North Korea was preparing",
+      "Kim Yo Jong issued sharp statements",
+      "Kim Yo Jong issued sharp statements (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Coverage is strong on the bridge opening and missile tests with multiple wire services and broadcasters, though domestic politics and the food situation are underrepresented."
+    },
+    "headlines_used": [
+      "North Korea tests new AI-equipped torpedo, KCNA says",
+      "North Korea says it tested new torpedo system with AI capabilities",
+      "North Korea: What satellite images reveal about Kim Jong Un's summer retreat",
+      "New North Korea-China bridge finally opens. But will it help Pyongyang evade sanctions?",
+      "North Korea, China open border bridge to boost trade after 12-year delay",
+      "VIDÉO. La Chine et la Corée du Nord reliées par un nouveau pont",
+      "China, North Korea Open Long-Stalled Bridge, Boosting Trade",
+      "North Korea gets closer to China and Russia with new bridges",
+      "China-North Korea border bridge may do little to spur trade, experts say",
+      "North Korea missile chief questions South Korea hypersonic glide vehicle test",
+      "New China-North Korea bridge opens after more than a decade of delay",
+      "North Korea and China open new bridge after 12-year delay",
+      "North Korea tests cruise missiles to be launched from sub",
+      "China, North Korea open long-delayed border bridge to boost trade",
+      "North Korea holds first underwater-launched missile tests in nearly 3 years",
+      "China-North Korea bridge opens after yearslong delay",
+      "North Korea says it tested cruise missiles to be launched from sub - DW.com",
+      "Un nouveau pont ouvre entre la Corée du Nord recluse et le puissant voisin chinois",
+      "Photos: China and North Korea open new border bridge amid deepening ties",
+      "North Korea says opening ceremony was held for new bridge to China",
+      "North Korea releases images of its submarine missile test",
+      "DW North Korea faces food shortages as drought threatens crops",
+      "La Corée du Nord procède à des tests de missiles de croisière stratégiques depuis des sous-marins",
+      "North Korea tests two submarine-launched missiles, state media reports",
+      "China-North Korea's long delayed New Yalu River Bridge opens",
+      "A new bridge linking China and North Korea will open more than a decade late",
+      "Ouverture jeudi d'un nouveau pont entre Chine et Corée du Nord",
+      "China and North Korea open New Yalu River Bridge, state media reports",
+      "Trucks adorned with Chinese flags cross the newly opened New Yalu River Bridge into North Korea's Sinuiju",
+      "North Korea says tests two types of submarine-launched cruise missiles",
+      "Long-delayed China-North Korea bridge officially opens",
+      "Long-delayed China-North Korea bridge officially opens - Al Jazeera"
+    ],
+    "converted": false,
+    "relevant_headlines": 32,
+    "unscorable": true,
+    "unscorable_reason": "only 32 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "New Yalu River Bridge opens",
+        "expected": "New Yalu River Bridge opens stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about New Yalu River Bridge opens appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Submarine-launched cruise missile tests",
+        "expected": "Submarine-launched cruise missile tests stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Submarine-launched cruise missile tests appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "AI-equipped torpedo test",
+        "expected": "AI-equipped torpedo test stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about AI-equipped torpedo test appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "New Yalu River Bridge opens",
+        "expected": "persist",
+        "sign": "New Yalu River Bridge opens is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. New Yalu River Bridge opens stays in the news at the same level. Submarine-launched cruise missile tests stays in the news at the same level. AI-equipped torpedo test stays in the news at the same level. New Yalu River Bridge opens is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "China-North Korea border trade",
+        "expected": "The first full week of commercial traffic across the New Yalu River Bridge will generate daily reports on truck volumes, goods categories, and logistics arrangements in Sinuiju.",
+        "direction": "persist",
+        "sign": "Headlines will list the categories of Chinese goods arriving in Sinuiju and reference the volume of trucks crossing into the border city."
+      },
+      "second": {
+        "subject": "Submarine missile program",
+        "expected": "North Korea will announce another underwater launch or release detailed specifications for the cruise missiles tested this week, positioning them against South Korea's hypersonic glide vehicle.",
+        "direction": "persist",
+        "sign": "State media will publish new launch footage or a missile-chief comparison statement linking the submarine tests to the South Korean hypersonic glide vehicle debate."
+      },
+      "third": {
+        "subject": "North Korean food security",
+        "expected": "New satellite imagery will document drought damage to autumn crops, and grain or fertilizer shipments will flow across the newly opened bridge into Sinuiju.",
+        "direction": "escalate",
+        "sign": "Headlines will pair satellite photos of dried fields with reports of grain trucks using the New Yalu River Bridge."
+      },
+      "fade_call": {
+        "subject": "AI-equipped torpedo",
+        "expected": "fade",
+        "sign": "The torpedo will surface only inside broader military reviews rather than as a standalone headline."
+      },
+      "surprise": {
+        "subject": "Ballistic missile test toward the Sea of Japan",
+        "expected": "North Korea will launch a ballistic missile on a trajectory toward the Sea of Japan, signaling the submarine program carries more than cruise missiles and is aimed at a new theater.",
+        "chance": "medium"
+      },
+      "summary": "The coming week will keep the China-North Korea bridge as the central economic story, with daily truck counts and cargo lists drawing analyst attention to whether the twelve-year-old project actually eases sanctions pressure. The submarine missile program will stay active in the headlines as Pyongyang releases additional test data or conducts a follow-up launch, and the missile chief will keep pressing the comparison with South Korea's hypersonic glide vehicle. Food-security reporting will intensify as drought damage becomes visible in satellite imagery and grain shipments begin crossing the new bridge. The AI torpedo, having served its news cycle, will recede into background military analysis. The main wildcard is a ballistic missile shot toward the Sea of Japan, which would reframe the submarine program as a broader strategic signal rather than a cruise-missile exercise.",
+      "generated_at": "2026-10-23T01:51:04+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Yalu River Bridge trade flows",
+        "expected": "Early trade-flow reports and analyst assessments will frame the bridge as a modest but symbolically important sanctions-relief channel between North Korea and China",
+        "direction": "persist",
+        "sign": "Headlines will pair truck-crossing data with expert commentary on whether the bridge materially changes North Korea's sanctions exposure"
+      },
+      "second": {
+        "subject": "Submarine missile rivalry",
+        "expected": "South Korea and Japan will issue formal defense-ministry responses to the submarine-launched cruise missile tests, and North Korea's missile leadership will issue a follow-up declaration linking the exercises to the hypersonic glide vehicle dispute",
+        "direction": "escalate",
+        "sign": "Headlines will feature sequential defense statements from South Korea and Japan alongside a North Korean official rebuttal framing the tests as a defensive necessity"
+      },
+      "third": {
+        "subject": "Drought-driven food insecurity",
+        "expected": "State media or satellite analysts will report reduced harvest yields, and North Korean authorities will adjust rationing or announce emergency grain allocations as the drought tightens before winter",
+        "direction": "persist",
+        "sign": "Headlines will pair agricultural shortfall reports with references to grain-reserve drawdowns, rationing changes, or state-announced emergency food measures"
+      },
+      "fade_call": {
+        "subject": "Satellite images of summer retreat",
+        "expected": "fade",
+        "sign": "No new satellite photos or analyst pieces about the compound will appear in the coming week's coverage"
+      },
+      "surprise": {
+        "subject": "Trump-Rodman back-channel summit signal",
+        "expected": "A concrete signal will emerge through back channels that a North Korea-United States working-level meeting or summit is being scheduled, building on the earlier October hint",
+        "chance": "low"
+      },
+      "summary": "Over the next week, the New Yalu River Bridge will dominate coverage as early trade data and analyst opinions settle around whether the structure genuinely eases North Korea's sanctions pressure. South Korea and Japan will respond to the submarine-launched cruise missile tests with formal defense statements, and North Korea's missile leadership will issue a follow-up declaration linking the exercises to the hypersonic rivalry. Drought-driven food insecurity will persist as harvest reports confirm reduced yields, prompting state-announced grain adjustments. The satellite-imagery story of the summer compound will fade. A low-probability surprise involves the Trump-Rodman back channel producing a concrete summit signal. The week will be defined by the bridge's economic symbolism, escalating maritime-missile rhetoric, and deepening crop strain.",
+      "generated_at": "2026-10-23T02:02:05+03:00"
+    }
+  },
+  "display": {
+    "headline": "North Korea Bridge Trade and Submarine Missile Rivalty Define Week",
+    "emojis": [
+      "🏗️",
+      "🚀",
+      "🌾"
+    ],
+    "emoji_reasons": [
+      "The newly opened Yalu River Bridge and its trade implications are the dominant infrastructure story",
+      "Submarine-launched cruise missile and torpedo tests anchor the military rivalry angle",
+      "Drought-driven crop shortfalls and rationing concerns drive the domestic food-security thread"
+    ],
+    "tldr": "Expect trade-volume reports and analyst verdicts on the new China-North Korea bridge, formal South Korean and Japanese responses to the submarine missile tests, and worsening drought-impact headlines. The summer-retreat satellite story fades. A quiet back-channel summit signal is a low-chance surprise.",
+    "eli5": "North Korea just opened a big new bridge to China after waiting twelve years. Next week, news will focus on whether trucks actually carry much cargo across it, and whether that really helps North Korea dodge the trade rules other countries set for it.\n\nAt the same time, North Korea fired cruise missiles from under the sea, and its missile boss picked a fight with South Korea over a fancy new missile Seoul tested. Expect South Korea and Japan to respond with formal statements, and North Korea to push back with another strong declaration tying the tests together.\n\nOn top of that, the crops are drying up because of a long drought. As harvest time wraps up, expect more reports about food running low and the government having to adjust rations or declare emergency grain measures.\n\nThe satellite photos of Kim Jong Un's summer hideout are a one-off story and will vanish from the news. The bigger surprise nobody is expecting: a back-channel hint that a North Korea-United States meeting might actually be getting scheduled."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, North Korea was in a period of managed escalation in early October 2026. Kim Jong Un personally oversaw a hypersonic missile drill, which was widely reported by KCNA. A mine blast along the DMZ injured South Korean soldiers, and Seoul demanded an official apology. Pyongyang dismissed the demand as an insult and called Seoul's investigation a farce. Two North Korean soldiers captured in Ukraine were transferred into South Korean custody, creating a sensitive diplomatic row. Zelenskiy claimed North Korea was preparing to send another 10,000 troops to support Russia. Kim Yo Jong served as the DPRK's loudspeaker on the mine-blast dispute. A signal through the Trump-Rodman channel hinted at a possible future summit with Kim. Defections had dropped, and Pyongyang appeared to be tightening internal security and border surveillance. The overall picture was one of loud, threatening, missile-focused posturing combined with deepening military logistics toward Russia,\n- Kim Jong Un personally oversaw a (regular, continuing): Kim Jong Un personally oversaw a hypersonic missile drill reported by KCNA.\n- A mine blast along the DMZ (regular, continuing): A mine blast along the DMZ injured South Korean soldiers and Seoul demanded an official apology.\n- Two North Korean soldiers captured in (regular, continuing): Two North Korean soldiers captured in Ukraine were transferred into South Korean custody.\n- Zelenskiy claimed North Korea was preparing (regular, continuing): Zelenskiy claimed North Korea was preparing to send another 10,000 troops to Russia.\n- Kim Yo Jong issued sharp statements (regular, continuing): Kim Yo Jong issued sharp statements dismissing Seoul's apology demand as an insult.\n- Kim Yo Jong issued sharp statements (again) (regular, continuing): Kim Yo Jong issued sharp statements dismissing Seoul's apology demand as an insult.\n\nRound 2026-09-15:\nNorth Korea conducted missile launches and a large live-fire artillery exercise, with state media declaring huge destructive power and demanding a more offensive posture. Kim Yo Jong publicly attacked the IAEA, declared the nuclear status irreversible, and the vice defence minister justified expanding the nuclear force in response to US-led arms buildup. North Korean troops, workers, and drone-production links with Russia deepened materially, with reports of up to 25,000 workers in Russian factories, fake student visas, and Kim Jong Un sacred-war language framing the alliance. South Korea stated that Trump clearly wanted dialogue with Pyongyang, opening a diplomatic channel. A South Korean court ordered 32.5 million dollars in damages over the 2020 liaison-office demolition. Seismologists recorded nearly 1,400 quakes around Punggye-ri since 2017, suggesting ongoing tunnel work. North Korean teams competed at the Asian Games, winning in women's football, while an anthem mix-up embarrassed organizers. Japan's coast guard rescued North\n- North Korea launched short-range ballistic missiles (regular, continuing): North Korea launched short-range ballistic missiles and conducted a live-fire artillery exercise declared to prove huge destructive power.\n- Kim Yo Jong declared the nuclear (regular, continuing): Kim Yo Jong declared the nuclear status irreversible and attacked the IAEA as one-sided and absurd.\n- Reports confirmed up to 25,000 North (regular, continuing): Reports confirmed up to 25,000 North Korean workers in Russian drone and ammunition factories, some on fake student visas.\n- A South Korean court ordered 32.5 (regular, continuing): A South Korean court ordered 32.5 million dollars in damages over the 2020 liaison-office demolition.\n- Japan's coast guard rescued North Korean (regular, continuing): Japan's coast guard rescued North Korean sailors, creating a minor diplomatic obligation for both sides.\n- Japan's coast guard rescued North Korean (again) (regular, continuing): Japan's coast guard rescued North Korean sailors, creating a minor diplomatic obligation for both sides.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

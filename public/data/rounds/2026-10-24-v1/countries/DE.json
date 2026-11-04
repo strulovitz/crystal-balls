@@ -1,0 +1,633 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "DE",
+  "name": "Germany",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T04:55:12+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "Germany's week was defined by a major political scandal and layered security concerns. Hacked emails from the far-right AfD party were released, exposing internal communications and rocking party leadership, while the AfD launched an investigation into the breach. Simultaneously, a Ukrainian man was arrested in northeastern Germany on suspicion of spying for Russia, prompting Chancellor Merz to warn that Germany faces \"intensive\" Russian espionage and that Europe is underestimating the threat. A fire devastated Hitler's Eagle's Nest retreat in the Bavarian Alps, with a suspect detained. On the economic front, investor confidence fell for the first time in six months, the Bundesbank indicated the economy likely stagnated in the third quarter, and industry has lost nearly half a million jobs since 2019. The 2026 Invest in Germany Summit attracted pledges including Amazon's $17 billion expansion, but the event was shadowed by controversy over Berlin's plan to seize landlords' apartments, which top landlords called a signal that Germany is \"uninvestable.\" Gas use hit a nine-month high as cold weather boosted demand, and a novice driver caused a security incident at Leipzig airport. Germany also summoned Iran's envoy over a plot to kill German Jewish community leaders, and youth groups announced plans for France-style mass protests.",
+    "key_events": [
+      {
+        "event": "Hacked emails from the AfD party were publicly released, revealing internal communications and prompting the party to investigate the cyberattack.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "A Ukrainian man was arrested in northeastern Germany on suspicion of spying for Russia, and Chancellor Merz warned of \"intensive\" Russian espionage targeting Germany.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Investor confidence and ZEW morale declined for the first time in six months as the Bundesbank indicated the economy likely stagnated in the third quarter.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The 2026 Invest in Germany Summit drew major pledges including Amazon's $17 billion expansion, but Berlin's apartment-seizure plan raised fears among landlords that Germany is \"uninvestable.\"",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A fire devastated Hitler's Eagle's Nest retreat in the Bavarian Alps, and a suspect was detained.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Germany summoned Iran's envoy after Tehran was linked to a plot to kill leaders of German Jewish community groups.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Two men turned themselves in after smashing their car into a fence at Leipzig airport, triggering a security investigation.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "German gas use hit a nine-month high as cold weather boosted power demand, and the government secured extra winter gas supplies as storage levels lagged.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "German youth groups announced plans for France-style mass protests, adding to social pressure on the government.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🎭",
+      "🕵️",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The AfD email hack and public release of party communications (headlines 1, 58, 68, 71, 72) constituted a major political scandal rocking the far-right party.",
+      "The arrest of a Ukrainian man suspected of spying for Russia and Merz's warning of \"intensive\" espionage (headlines 12, 13, 18, 20, 24, 52) dominated the security agenda.",
+      "Investor confidence fell, the Bundesbank signalled Q3 stagnation, and industry lost half a million jobs since 2019 (headlines 17, 51, 66, 84, 90), marking a clear economic downturn."
+    ],
+    "developments": [
+      {
+        "subject": "AfD email hack and leak",
+        "what_happened": "Hackers released a large batch of AfD party emails, revealing internal communications about the party leader, and the party launched an investigation into the cyberattack.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          58,
+          68,
+          71,
+          72
+        ]
+      },
+      {
+        "subject": "Russian espionage threat",
+        "what_happened": "A Ukrainian man was arrested in northeastern Germany on suspicion of spying for Russia, and Chancellor Merz warned that Germany faces \"intensive\" espionage and that Europe underestimates the Russian threat.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          12,
+          13,
+          18,
+          20,
+          24,
+          52,
+          59,
+          67,
+          83
+        ]
+      },
+      {
+        "subject": "Economic stagnation and investor confidence",
+        "what_happened": "The Bundesbank indicated the economy likely stagnated in Q3, ZEW investor morale fell more than expected, and Ifo reported industry has lost nearly half a million jobs since 2019.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          17,
+          31,
+          51,
+          66,
+          84,
+          90
+        ]
+      },
+      {
+        "subject": "Invest in Germany Summit and investment drive",
+        "what_happened": "The 2026 Invest in Germany Summit attracted pledges including Amazon's $17 billion expansion and Merz's pitch for defence, AI, and chip investment, but far-right election gains and the Berlin apartment-seizure plan cast a shadow over investor confidence.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          8,
+          9,
+          29,
+          33,
+          41,
+          43,
+          48,
+          49,
+          76,
+          78,
+          80,
+          86
+        ]
+      },
+      {
+        "subject": "Berlin apartment seizure plan",
+        "what_happened": "Europe's largest landlord warned of an €8 billion hit from Berlin's plan to seize landlords' apartments, and Merz himself warned over the scheme, deepening tensions between the coalition and the property sector.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          7,
+          9,
+          36
+        ]
+      },
+      {
+        "subject": "Eagle's Nest fire",
+        "what_happened": "A fire devastated Hitler's Eagle's Nest retreat in the Bavarian Alps, and a suspect was detained by police.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          6,
+          10
+        ]
+      },
+      {
+        "subject": "Leipzig airport security incident",
+        "what_happened": "Two men turned themselves in after smashing their car into a fence at Leipzig/Halle airport, and police opened a security investigation into the breach.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          53,
+          61,
+          79,
+          89,
+          93
+        ]
+      },
+      {
+        "subject": "Iran plot against German Jewish leaders",
+        "what_happened": "Germany summoned Iran's envoy after Tehran was linked to a plot to kill leaders of German Jewish community groups, and an elderly man was detained at an Elbit Systems protest.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          30,
+          37,
+          91
+        ]
+      },
+      {
+        "subject": "Gas and energy supply",
+        "what_happened": "German gas use hit a nine-month high as cold weather boosted demand, the government secured extra winter supplies as storage levels lagged, and Berlin moved to prevent further refinery closures.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          26,
+          42,
+          56
+        ]
+      },
+      {
+        "subject": "AI and tech investment push",
+        "what_happened": "Chancellor Merz urged businesses to embrace AI ahead of a new Nvidia investment, idle nuclear plants eyed conversion to AI data centers, and SAP hit a €10 billion quarterly revenue milestone.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          29,
+          33,
+          35,
+          49,
+          70,
+          75,
+          86
+        ]
+      },
+      {
+        "subject": "Youth protest plans",
+        "what_happened": "German youth groups announced plans for France-style mass protests, signalling growing social pressure on the government.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          40
+        ]
+      },
+      {
+        "subject": "Bayern Munich Kompany hospitalisation",
+        "what_happened": "Bayern Munich coach Vincent Kompany was hospitalised after a medical episode, and his absence kept him in the spotlight during a match in Fribourg.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15,
+          25
+        ]
+      }
+    ],
+    "gone": [
+      "France-Germany car deal",
+      "Nord Stream trial",
+      "Germany-China trade push",
+      "Ukraine aid and debt brake",
+      "UniCredit-Commerzbank",
+      "KNDS stake",
+      "Russia in G20"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad coverage of German politics, security, and the economy this week, with multiple sources confirming the major stories, though some niche topics like the Leipzig airport incident and the Bayern Kompany story are lightly covered."
+    },
+    "headlines_used": [
+      "Hacked emails yield revelations on Germany's far-right AfD party leader",
+      "Fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A person is detained",
+      "Low Rhine weighed on German growth: central bank",
+      "Wartime radio hub linked to sinking of German battleship up for sale",
+      "Germany news: Foreign Minister Wadephul says wars in Iran, Ukraine are bringing the 'threat of famine'",
+      "Allemagne: le \"Nid d'Aigle\" d'Adolf Hitler en feu, un suspect arrêté",
+      "Top Landlord Says Germany ‘Uninvestable’ on Berlin Seizure Plan",
+      "Amazon Pledges More Than $17 Billion to Expand German Operations",
+      "Europe’s largest landlord exposed to €8bn hit from Berlin apartment plans",
+      "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
+      "Germany secures extra winter gas supplies as storage levels lag",
+      "Ukrainian held in Germany on suspicion of spying for Russia as Merz warns of more cases",
+      "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+      "Germany sit out FIFA Under-15 World Cup as Russia return",
+      "Allemagne : absent plusieurs semaines, Kompany dans tous les esprits munichois à Fribourg",
+      "Germany in Talks to Buy Thousands of European-Made Missiles",
+      "German Investor Confidence Declines for First Time in Six Months",
+      "Germany’s Friedrich Merz warns of ‘intense’ Russian espionage after arrest",
+      "Roche CEO challenges Germany over its growth strategy: 'We are the industry they need to bet on'",
+      "Germany arrests Ukrainian man accused of spying for Russia",
+      "Italy's Generali cuts around 800 jobs in Germany",
+      "Stop the selfies! German soccer club rewards fans who avoid their phones during games",
+      "Missing German WW2 U-boat found 82 years on",
+      "Ukrainian man arrested in northeastern Germany on suspicion of spying for Russia",
+      "Allemagne: Vincent Kompany, l'entraîneur du Bayern, hospitalisé après un malaise",
+      "Germany Wants to Stop More Oil Refinery Closures as Costs Mount",
+      "Germany’s Merck to Buy U.K. Biotech Silence Therapeutics for $1.3 Billion",
+      "Buyout firm EQT acquires German diagnostics group in €10.8bn deal",
+      "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+      "Elderly man forcibly detained at Elbit Systems protest in Germany",
+      "German business activity growth softens in October, PMI shows",
+      "Movie Review: In ‘Fatherland,’ Paweł Pawlikowski’s austere portrait of a fractured Germany",
+      "Germany bets on AI, quantum- and clean tech to reignite growth before the AfD grows stronger",
+      "Allemagne : davantage de recettes fiscales en 2027, sans desserrer l'étau budgétaire",
+      "Germany’s Idle Nuclear Plants Eye New Life as AI Data Centers",
+      "Merz warns over Berlin plans to seize landlords’ property",
+      "Tehran rejects any role in plot to kill leaders of German Jewish groups",
+      "German home prices stagnate as interest rates pressure market, IW data show",
+      "Russia says it has detained a German who faces charges for serving in Ukrainian army",
+      "German youth plan France-style mass protests",
+      "Merz annonce une manne d'investissements privés pour relancer l'Allemagne",
+      "German Gas Use Hits Nine-Month High as Cold Boosts Power Demand",
+      "Far-right election gains threaten Germany’s investment drive",
+      "Germany's higher tax revenue estimates will not offer more fiscal leeway, minister says",
+      "Berlin Philharmonic planning to vacate Philharmonie for renovation from 2032-40",
+      "Germany news: Tax revenues are expected to go up in 2027, but the state budget will remain tight",
+      "Merz Says EU to Avoid China Trade War as It Defends Itself",
+      "Bosch to reorganize corporate structure, create Mobility subsidiary in Germany",
+      "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
+      "Germany news: AfD's Weidel calls for major EU reforms",
+      "German Economy Probably Stagnated in Third Quarter: Bundesbank",
+      "Suspected spy for Russia arrested in Germany",
+      "German police say 2 men turned themselves in after smashing their car into an airport fence",
+      "Germany news: Government websites coming back online after major PHP security gap discovered",
+      "Merz Urges Trump to Invite South Africa to G-20 Summit in Miami",
+      "German fuel tax cut not fully reaching diesel drivers, Ifo says",
+      "Bulgarian authorities seek arrests Germans in arson of Starlink antennas",
+      "Massive data breach targets Germany's AfD",
+      "Merz Warns Europe That It’s Underestimating the Russian Threat",
+      "Heidelberg Materials puts German carbon capture project on hold",
+      "German authorities investigate a hole cut into a fence at Leipzig airport",
+      "Germany news: 'Tech error' brings early cigarette tax hike",
+      "ECB’s Rehn Says French Spread to Germany Has Widened ‘Somewhat’",
+      "German regulator revokes license of Bank Saderat Iran in Hamburg",
+      "Russia arrests German man, calls him a Ukraine 'mercenary'",
+      "German Investor Outlook Worsens for First Time Since April",
+      "Germany's military warns of 'significant' Russian sabotage threat",
+      "Inside the huge AfD email leak rocking German politics",
+      "Merz Says Quick Decision Can Be Reached on ECB Jobs If Needed",
+      "Germany's SAP hits €10 billion quarterly revenue milestone, lifts 2026 view",
+      "Germany news: Hackers release AfD party emails",
+      "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
+      "Google needs consent to publish private property images on Earth, Maps, German court rules",
+      "Germany's Adidas raises full-year profit outlook after record quarter",
+      "US investors increasingly snapping up Germany's famed Mittelstand industrial champions",
+      "Amazon to invest over €16 billion in Germany next year",
+      "Bulgaria seeks suspects in Germany after Starlink sabotage",
+      "Investments pledged during 2026 Invest in Germany Summit",
+      "Germany news: Emergency at Leipzig airport sparked by novice driver",
+      "Germany's Merz touts defence, AI and chip investment drive in pitch to investors",
+      "CDU-SPD coalition argues over German working hours",
+      "Hims & Hers Health launches online weight management service for men in Germany",
+      "How great is the Russian threat against Germany?",
+      "German ZEW investor morale falls more than expected as energy prices weigh",
+      "History: The 1918 German Revolution",
+      "Germany's Merz urges AI investment ahead of Nvidia deal",
+      "Germany: Inclusive housing for migrants and non-migrants",
+      "Roche puts future German investments 'on hold'",
+      "Germany news: Police probe security incident at Leipzig/Halle airport",
+      "German industry has lost nearly half a million jobs since 2019, Ifo says",
+      "Germany summons Iranian envoy over plot to kill Jewish community leader",
+      "Germany unveils plan to accelerate adoption of hydrogen",
+      "German police investigate fence breach at Leipzig airport"
+    ],
+    "converted": false,
+    "relevant_headlines": 93,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "AfD email hack and leak",
+        "expected": "AfD email hack and leak stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about AfD email hack and leak appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Russian espionage threat",
+        "expected": "Russian espionage threat stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Russian espionage threat appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Economic stagnation and investor confidence",
+        "expected": "Economic stagnation and investor confidence stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Economic stagnation and investor confidence appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "AfD email hack and leak",
+        "expected": "persist",
+        "sign": "AfD email hack and leak is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. AfD email hack and leak stays in the news at the same level. Russian espionage threat stays in the news at the same level. Economic stagnation and investor confidence stays in the news at the same level. AfD email hack and leak is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "AfD email leak fallout",
+        "expected": "The AfD's internal investigation will produce interim findings that sharpen the leadership crisis and force Weidel to address a formal challenge from the party base.",
+        "direction": "escalate",
+        "sign": "Headlines about a leadership challenge, an emergency party meeting, or Weidel responding to the leaked emails on the political stage."
+      },
+      "second": {
+        "subject": "Russian espionage and defense response",
+        "expected": "Germany's military will announce concrete counter-sabotage measures in direct response to the spy arrest and the warning of a significant threat.",
+        "direction": "persist",
+        "sign": "Headlines about new military deployments, a defense budget announcement, or a second arrest linked to Russian intelligence."
+      },
+      "third": {
+        "subject": "Q3 GDP stagnation and policy response",
+        "expected": "The official third-quarter GDP release will confirm zero or negative growth, prompting the government to convene a press conference outlining its growth strategy.",
+        "direction": "persist",
+        "sign": "Headlines about the GDP figure, a government press conference on growth, or corporate announcements freezing investment plans."
+      },
+      "fade_call": {
+        "subject": "Eagle's Nest fire investigation",
+        "expected": "fade",
+        "sign": "The story will drop from front pages as the detained suspect enters routine court proceedings and the next news cycle moves on."
+      },
+      "surprise": {
+        "subject": "CDU-SPD working hours dispute",
+        "expected": "The coalition disagreement over working hours will escalate into a visible public confrontation, with one party threatening to block the 2027 budget.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Germany will be dominated by the fallout from the AfD email hack, as the party's investigation produces findings that sharpen the internal leadership fight and force Weidel to answer a formal challenge. The Russian espionage story will hold the front pages, with the military announcing counter-sabotage measures and the missile purchase talks moving closer to a deal. The official Q3 GDP release will confirm stagnation, and the government will scramble to present a growth narrative before investor confidence slips further. The Berlin apartment-seizure controversy will keep the property sector in the crosshairs, with landlords and the coalition trading public jabs. The Eagle's Nest fire will fade as the investigation enters routine proceedings. A less expected flashpoint will come from the CDU-SPD coalition, whose argument over working hours will surface as a visible public fight, threatening to complicate the 2027 budget talks.",
+      "generated_at": "2026-10-25T04:34:14+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "AfD email hack fallout",
+        "expected": "The AfD's internal investigation into the cyberattack will produce its first findings, triggering leadership disputes and press revelations about the party leader's role in internal decisions.",
+        "direction": "escalate",
+        "sign": "Headlines name specific revelations from the leaked emails about the party leader, report on an internal party vote or leadership challenge, or detail the investigation's first conclusions"
+      },
+      "second": {
+        "subject": "Russian espionage threat",
+        "expected": "German authorities will announce a second arrest or a formal intelligence briefing confirming that Russian spy networks operate across multiple German cities, prompting a parliamentary security debate.",
+        "direction": "escalate",
+        "sign": "Headlines cite a new arrest, a classified briefing to parliament, or a named intelligence agency confirming multiple active Russian cells in Germany"
+      },
+      "third": {
+        "subject": "Berlin apartment seizure and investment tension",
+        "expected": "The coalition will face a formal cabinet decision or a revised proposal on the apartment seizure plan as major landlords and investment firms escalate their warnings ahead of the next round of corporate commitments.",
+        "direction": "escalate",
+        "sign": "Headlines report a coalition cabinet decision, a landlord-sector walkout, or a named company withdrawing or revising its German investment pledge"
+      },
+      "fade_call": {
+        "subject": "Eagle's Nest fire",
+        "expected": "fade",
+        "sign": "Headlines shift from the dramatic fire and suspect detention to routine property-damage reporting and the suspect's court appearance with no new revelations"
+      },
+      "surprise": {
+        "subject": "Youth mass protests",
+        "expected": "German youth groups will hold their announced France-style mass protests in multiple cities, drawing large crowds onto the streets and forcing the government to announce a policy response.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the aftermath of the AfD email hack will dominate German politics as the party's investigation produces its first findings and internal leadership disputes surface in the press. The Russian espionage scare will intensify, with authorities expected to announce additional arrests or a formal intelligence briefing confirming spy networks operate in multiple German cities. The tension between Berlin's apartment seizure plan and the government's investment drive will come to a head as landlords and corporate partners press for a formal decision, potentially forcing the coalition to revise or vote on the scheme. The Eagle's Nest fire story will recede to routine court reporting. A medium-probability wildcard is the youth groups' planned France-style mass protests, which if they materialize in multiple cities, will add a social-pressure layer to an already tense political week.",
+      "generated_at": "2026-10-25T04:48:06+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "AfD email leak investigation",
+        "expected": "The AfD's internal investigation into the cyberattack will produce findings that deepen the rift between party factions and force leadership to address the exposed communications publicly.",
+        "direction": "escalate",
+        "sign": "Headlines about the party's investigation results, internal disputes over who knew what, and public statements from leadership responding to the leaked emails."
+      },
+      "second": {
+        "subject": "Russian espionage in Germany",
+        "expected": "German intelligence and security services will present further evidence of Russian spy activity, prompting a parliamentary debate and renewed calls for tighter counterintelligence measures.",
+        "direction": "escalate",
+        "sign": "Headlines about new arrests, intelligence briefings, and political figures demanding stronger counterintelligence action."
+      },
+      "third": {
+        "subject": "German economic stagnation",
+        "expected": "New economic data and business surveys will confirm the weak third-quarter performance, prompting calls from industry leaders for faster structural reform and a sharper response from the coalition government.",
+        "direction": "persist",
+        "sign": "Headlines about softening business activity, falling investor sentiment, and political responses to the stagnation figures."
+      },
+      "fade_call": {
+        "subject": "Eagle's Nest fire",
+        "expected": "fade",
+        "sign": "Headlines shift to the criminal investigation into the detained suspect and the restoration question, dropping the dramatic fire imagery."
+      },
+      "surprise": {
+        "subject": "Youth mass protests",
+        "expected": "The announced France-style mass protests by German youth groups will materialize in at least one major city, drawing large crowds and forcing the government to respond publicly.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Germany will be dominated by the fallout from the AfD email leak, as the party's investigation produces findings that deepen internal divisions and force leadership into the public spotlight. The Russian espionage story will intensify, with intelligence services presenting further evidence of spy activity and politicians demanding stronger counterintelligence action. Economic news will stay grim, with new data confirming the third-quarter stagnation and business surveys showing continued weakness, prompting industry leaders to press the coalition for faster reform. The Berlin apartment-seizure dispute will persist as a source of tension between the government and the property sector. The Eagle's Nest fire will fade from headlines as attention shifts to the criminal case. A less predictable development is the announced youth protests, which may finally take to the streets and test the government's public response.",
+      "generated_at": "2026-10-25T04:55:12+02:00"
+    }
+  },
+  "display": {
+    "headline": "AfD Hack Fallout Meets Spy Scare as Berlin Squeezed",
+    "emojis": [
+      "🎭",
+      "🕵️",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The AfD email hack and internal leadership fallout is the week's defining political scandal.",
+      "The Russian espionage arrest and Merz's warning of intensive spying define the security narrative.",
+      "The apartment seizure plan and the coalition's investment drive create the central domestic policy conflict."
+    ],
+    "tldr": "Germany's next week will be shaped by the AfD email hack investigation producing leadership disputes, a second Russian spy arrest or intelligence briefing, and the coalition facing a formal vote on the apartment seizure plan. The Eagle's Nest fire will fade to court reporting.",
+    "eli5": "Germany is going through a rough week. A bunch of hackers stole private emails from the far-right AfD party and published them, and now the party is fighting internally about what the emails reveal about their leader. Think of it like a group chat getting leaked and everyone arguing about who said what.\n\nAt the same time, a man from Ukraine was arrested in Germany because police think he was spying for Russia. The chancellor said there are probably more spies out there and that Europe is underestimating the threat. So expect more arrests or a big government briefing about it.\n\nThe government is also trying to attract big investments like Amazon spending seventeen billion dollars, while at the same time planning to take apartments from landlords in Berlin. The landlords are furious and calling Germany uninvestable. The coalition will probably have to make a formal decision on this soon.\n\nA surprise could be the youth groups actually holding their big protests in multiple cities, which would add another layer of pressure on the government."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The Nord Stream trial is explicitly listed as no longer in the headlines, and no numbered headline references courtroom proceedings, witness testimony, or a motion to dismiss."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car deal is explicitly listed as no longer in the headlines, and no headline mentions automaker production plans or union reactions to an emissions framework."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 29, 49, and 86 confirm Merz urging AI investment and Nvidia announcing new investments, but no headline names a specific data-center site or sovereign-cloud component as X predicted."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Russia in G20 is explicitly listed as no longer in the headlines, confirming the diplomatic row over Russia's re-admission faded as X predicted."
+          }
+        },
+        "archer_note": "X completely missed the dominant stories of the week (AfD email hack, Russian espionage arrest, economic stagnation) and anchored its lead on the Nord Stream trial, which had already faded from the headlines. Its main thesis that courtroom drama and car-deal fallout would drive the news cycle was wrong, not merely early. The one partial success with Nvidia AI was correct in direction but over-specific in expecting a named site and sovereign-cloud framing."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car deal is explicitly listed as no longer in the headlines, directly contradicting the persist expectation at the same volume."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Nord Stream trial is explicitly listed as no longer in the headlines, directly contradicting the persist expectation at the same volume."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The Germany-China trade push is explicitly listed as no longer in the headlines; headline 47 touches on China trade war but in a broader EU framing, not the bilateral push Y described."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car deal is explicitly listed as no longer in the headlines, contradicting the persist expectation that it would still be reported at the next collection."
+          }
+        },
+        "archer_note": "Y predicted more of the same for three stories (car deal, Nord Stream, China trade) that all faded from the headlines by this round. Its main thesis of pure continuity was wrong; the news cycle had completely rotated to new dominant stories including the AfD hack, spy arrest, and economic data. The bulletin offered no surprise or new development, making it the least adaptive of the three forecasts."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The France-Germany car deal is explicitly listed as no longer in the headlines, and no headline references EU legislators debating implementation terms or environmental groups protesting a weakened climate target."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Nord Stream trial is explicitly listed as no longer in the headlines, with no courtroom ruling, witness testimony, or legal argument mentioned in any numbered headline."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 29, 33, 49, and 86 confirm the AI/Nvidia investment push and Merz's national commitment framing, though the specific formal unveiling event with government officials describing partnership terms is not precisely matched."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "UniCredit-Commerzbank is explicitly listed as no longer in the headlines, confirming the banking takeover story lost momentum as Z predicted."
+          }
+        },
+        "archer_note": "Z shared X's error of anchoring on the car deal and Nord Stream trial as leads, both of which had faded from the headlines by this round. Its main thesis of escalating EU negotiations over the car deal was wrong, not merely early, since the story simply disappeared. The Nvidia AI item and UniCredit-Commerzbank fade were the only correct calls, but the overall framing missed the week's actual drama of the AfD hack and spy arrest."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X correctly called the G20 Russia fade and partially anticipated the Nvidia AI push, while Y got all four items wrong by expecting three faded stories to persist. X's partial credit on the AI story and clean fade call give it a decisive edge over Y's uniform misreads."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Both X and Z got their leads and seconds wrong (Nord Stream and car deal), both partially captured the Nvidia AI story, and both correctly called a fade (G20 Russia and UniCredit-Commerzbank respectively). The differences in specificity and framing are too minor to break the tie."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Z correctly anticipated the Nvidia AI push and called the UniCredit-Commerzbank fade, while Y got all four items wrong by expecting three already-faded stories to persist. Z's two partial-to-full correct calls versus Y's four misses make the gap decisive."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 2.0,
+      "crystal_vs_plain": 0.0,
+      "persistence_vs_plain": -2.0
+    },
+    "v": 0.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe dominant story of the week was France and Germany sealing a landmark deal to slow Europe's shift to all-electric cars, effectively scrapping the 2035 climate-neutrality target for vehicles. The two countries agreed to allow the UK to join the EU car policy if it aligns on China tariffs, and the pact drew immediate reactions from motorists and industry. In parallel, the long-awaited Nord Stream sabotage trial opened in a German court, with a Ukrainian ex-officer facing a war-crime charge and the defense moving to dismiss the case. Germany also pushed the EU toward imposing caps on more Chinese imports, a hardening trade line that risks Beijing's ire. On the budget side, the finance minister announced a €50 million contribution to Ukraine and sought a debt-brake exemption to sustain that aid. UniCredit received ECB green light to take control of Commerzbank, a major banking reshuffle. Berlin planned to unveil an\n- France-Germany car deal (dominant, new): The two countries formally agreed to slow the shift to all-electric vehicles, scrap the 2035 climate target for cars, and conditionally allow UK entry if it aligns on China tariffs.\n- Nord Stream trial (dominant, continuing): The trial of a Ukrainian ex-officer accused of blowing up the Nord Stream pipelines opened in Germany, with the defense seeking dismissal and prosecutors pressing a war-crime charge.\n- Germany-China trade push (regular, escalating): Germany lobbied EU leaders to impose caps on more Chinese imports and pushed for tougher trade defenses amid growing pressure from Chinese competition.\n- Ukraine aid and debt brake (regular, continuing): The finance minister pledged €50 million to Ukraine and sought a debt-brake exemption, while the AfD and BSW called for an end to all aid.\n- UniCredit-Commerzbank (regular, new): UniCredit received ECB approval to take control of Commerzbank, a significant consolidation of European banking.\n- Nvidia AI deal (occasional, new): Government sources confirmed Germany planned to unveil an AI cooperation agreement with Nvidia the following week.\n- Merz and coalition pressure (regular, continuing): Chancellor Merz attacked political extremes for fueling division and vowed the government would fight on, as the AfD and BSW forged a pro-Russia alliance and Berlin's leftist parties moved closer to forming a government.\n- KNDS stake (occasional, new): Germany entered talks to buy a 50 percent stake in the European defense firm KNDS.\n- Russia in G20 (occasional, new): Germany slammed the US push to bring Russia back into the G20, signaling disagreement with the broader Western reset.\n- Energy supply concerns (occasional, continuing): German power-supplier exits raised specter of the 2022 energy crisis, while the regulator reported gas storage was low but without an immediate supply risk.\n\nRound 2026-10-02:\nThe headlines depict Germany in the grip of three simultaneous shocks. Former BND chief August Hanning was arrested on charges of espionage and attempted treason, triggering a constitutional-level scandal around Germany's foreign intelligence service. In Saxony-Anhalt, the AfD secured the parliamentary speaker role for the first time since 1945, handing the far-right a permanent institutional foothold in a state legislature. Chancellor Merz's CDU-SPD-Green coalition faces internal strain as CDU approval ratings slip and the party is squeezed between its own base and its coalition partners. The economic picture is contradictory: services output and industrial production are rebounding, yet capital-goods orders for aircraft, ships, rail, and military vehicles have dropped sharply. Berlin is pushing a harder line on Ukraine defense, has blocked a Cosco-related logistics deal, and is pressing for a new EU trade screening tool against China. Energy costs and diesel prices are keeping Eurozone inflation above target, and migration\n- Former BND chief August Hanning was (regular, continuing): Former BND chief August Hanning was arrested on espionage and attempted treason charges.\n- The AfD won the speaker role (regular, continuing): The AfD won the speaker role in the Saxony-Anhalt state parliament, its first such position since 1945.\n- Chancellor Merz's coalition faces internal pressure (regular, continuing): Chancellor Merz's coalition faces internal pressure as CDU approval falls and partners demand concessions.\n- Capital-goods factory orders fell sharply while (regular, continuing): Capital-goods factory orders fell sharply while services and industrial output rebounded.\n- Germany blocked a Cosco-related logistics deal (regular, continuing): Germany blocked a Cosco-related logistics deal and pushed for a new EU trade weapon against China.\n- Germany blocked a Cosco-related logistics deal (again) (regular, continuing): Germany blocked a Cosco-related logistics deal and pushed for a new EU trade weapon against China.\n",
+    "PREVIOUS_FORECAST": "Lead: Nord Stream sabotage trial. Expected: The defense in the Nord Stream trial will press its motion to dismiss the war-crime charge against the Ukrainian ex-officer while prosecutors put their first eyewitnesses to the pipeline explosions on the stand. Direction: escalate. Sign: Courtroom-drama headlines about witness testimony, jurisdictional disputes, and the defense legal challenge dominate the German news cycle\nSecond: France-Germany car deal fallout. Expected: German automakers and trade unions will announce production plans and workforce measures in direct response to the new emissions framework that scraps the 2035 all-electric target. Direction: persist. Sign: Industry statements, union reaction pieces, and UK-EU trade-alignment correspondence appear across business and politics sections\nThird: Germany-Nvidia AI agreement. Expected: Berlin will formally unveil the AI cooperation deal with Nvidia in a government press event, naming the data-center site, the sovereign-cloud component, and the investment commitment. Direction: persist. Sign: A single announcement headline cites a named data-center location, a concrete investment figure, and the sovereign-cloud element in one sentence\nFade call: Germany-Russia G20 diplomatic spat. Expected: fade. Sign: Headlines about the Russia re-admission diplomatic row disappear from German news as trial and car-deal coverage take the front page\nSurprise (chance medium): Berlin leftist coalition breakthrough. Berlin's SPD, Die Linke, and Green factions break their post-election silence and name a prospective mayor or table a formal coalition agreement.\nSummary: Next week, the Nord Stream sabotage trial will drive the German news agenda. The defense will argue for dismissal of the war-crime charge against the Ukrainian ex-officer, while prosecutors put their first eyewitnesses on the stand, setting the tone for proceedings that may stretch into winter. The France-Germany car deal will spawn a second wave of coverage as automakers, unions, and UK trade officials respond to the new emissions rules and China-tariff conditions. Berlin will formally sign and unveil its AI cooperation agreement with Nvidia, a deal already scheduled for the following week. The one-off diplomatic spat over Russia's re-admission to the global leaders' club will recede. A medium-probability wildcard: Berlin's SPD, Die Linke, and Green factions may break their post-election silence and name a prospective mayor or table a coalition agreement.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear. The Nord Stream trial is explicitly listed as no longer in the headlines, and no numbered headline references courtroom proceedings, witness testimony, or a motion to dismiss.\n- second: did_not_appear. The France-Germany car deal is explicitly listed as no longer in the headlines, and no headline mentions automaker production plans or union reactions to an emissions framework.\n- third: true_in_direction. Headlines 29, 49, and 86 confirm Merz urging AI investment and Nvidia announcing new investments, but no headline names a specific data-center site or sovereign-cloud component as X predicted.\n- fade_call: came_true. Russia in G20 is explicitly listed as no longer in the headlines, confirming the diplomatic row over Russia's re-admission faded as X predicted.\nArcher note: X completely missed the dominant stories of the week (AfD email hack, Russian espionage arrest, economic stagnation) and anchored its lead on the Nord Stream trial, which had already faded from the headlines. Its main thesis that courtroom drama and car-deal fallout would drive the news cycle was wrong, not merely early. The one partial success with Nvidia AI was correct in direction but over-specific in expecting a named site and sovereign-cloud framing.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

@@ -1,0 +1,563 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "FR",
+  "name": "France",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T12:46:55+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During this window France was engulfed in its most intense protest wave in years. Nationwide demonstrations by high-school students, yellow vests, and cost-of-living protesters descended on Paris, Marseille, and dozens of smaller cities, erupting into clashes, building fires, and wide-scale looting that witnesses called \"unprecedented.\" Macron vowed to hold those who \"sought to bring down the Republic\" accountable, while police tactics drew fresh scrutiny after teenagers were seriously injured. Hundreds were arrested across the country. On the economic front, French sovereign bond yields climbed as political uncertainty deepened, and the Paris stock market recorded its worst underperformance versus European peers since 2010. The finance minister insisted no bailout was needed, while ECB head Draghi and the Bank of France governor offered that a full crisis remained far off. In a major diplomatic breakthrough, France and Germany sealed a deal to protect Europe's car industry, granting the UK a conditional special status tied to alignment on China tariffs. Inflation figures conflicted between sources, with one citing 3.1 percent and another 3.4 percent for September. A bus collided with a stationary train at the Channel Tunnel French terminal, injuring nineteen. French cybersecurity authorities warned a retail cyberattack may still be ongoing. Shell agreed to sell its French fuel-station network to DCC Energy.",
+    "key_events": [
+      {
+        "event": "Nationwide student, yellow-vest, and cost-of-living protests erupted into riots, looting, and fires across French cities, with hundreds arrested and Macron vowing accountability.",
+        "date": "2026-10-17",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "France and Germany struck a deal on car-emissions rules and protected the UK's conditional access to the EU car market in exchange for alignment on China tariffs.",
+        "date": "2026-10-14",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "French sovereign bond yields rose and the Paris equity market logged its worst relative underperformance against European peers since 2010 amid growing fiscal uncertainty.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A bus hit a train stopped on the French side of the Channel Tunnel, injuring nineteen people.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "French cybersecurity authorities warned that a retail-sector cyberattack may still be ongoing as stores scrambled to restock, and thousands of refrigerators were reported hacked.",
+        "date": "2026-10-16",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "September inflation data came in at 3.1 percent according to Insee but 3.4 percent according to Reuters, the highest reading since January 2024.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A poll showed both Marine Le Pen and Jean-Luc Melenchon gaining momentum ahead of the 2027 presidential election, while Le Pen vowed a 'trial of strength' with the EU.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Shell agreed to a proposed sale of its French fuel-station network to DCC Energy.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🔥",
+      "💰",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "Headlines [2],[3],[7],[10],[11],[63] all describe fires, looting, and riots gripping French cities, making unrest the dominant visual.",
+      "Headlines [20],[56],[72],[79],[128],[129] repeatedly frame France's debt trajectory and bond-market stress as a deepening fiscal crisis.",
+      "Headlines [1],[9],[22],[44],[46] confirm the France-Germany car-industry deal as a significant bilateral agreement."
+    ],
+    "developments": [
+      {
+        "subject": "Nationwide protests and riots",
+        "what_happened": "Students, yellow vests, and cost-of-living protesters held their largest coordinated mobilization in years, with clashes, looting, and fires in Paris, Marseille, and dozens of regional cities; Macron called the unrest an attempt to bring down the Republic and vowed accountability, while police tactics faced renewed scrutiny after teenagers were injured.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          24,
+          27,
+          29,
+          30,
+          31,
+          32,
+          36,
+          39,
+          40,
+          41,
+          43,
+          48,
+          51,
+          52,
+          54,
+          58,
+          59,
+          61,
+          66,
+          69,
+          71,
+          76,
+          77,
+          81,
+          83,
+          85,
+          90,
+          101,
+          108,
+          110
+        ]
+      },
+      {
+        "subject": "France-Germany car-industry deal",
+        "what_happened": "Paris and Berlin sealed an agreement on future car-emissions rules, allowed the UK conditional access to the EU car market tied to China-tariff alignment, and pushed to relax the climate-neutrality timeline for vehicles to protect the sector's jobs.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          9,
+          22,
+          25,
+          44,
+          46,
+          53,
+          113
+        ]
+      },
+      {
+        "subject": "Sovereign debt and bond-market stress",
+        "what_happened": "French bond yields rose on fiscal uncertainty, the Paris stock index logged its worst relative underperformance since 2010, and commentators warned the political crisis could morph into a debt crisis, while Lagarde and the Bank of France governor insisted the solution lies first in France's own budget.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          20,
+          35,
+          45,
+          47,
+          55,
+          56,
+          62,
+          72,
+          79,
+          91,
+          95,
+          99,
+          105,
+          106,
+          109,
+          128,
+          129,
+          130,
+          132
+        ]
+      },
+      {
+        "subject": "2027 presidential election dynamics",
+        "what_happened": "A poll showed Le Pen and Melenchon gaining ground, a far-left firebrand profiled by the WSJ called for canceling French debt, and Macron's team warned student protesters were being 'exploited' by political forces as the election draw near.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          86,
+          96,
+          97,
+          114,
+          123
+        ]
+      },
+      {
+        "subject": "Inflation and cost-of-living pressure",
+        "what_happened": "September inflation was reported at 3.1 percent by Insee and 3.4 percent by Reuters, the highest since early 2024, fueling the cost-of-living anger that drove the protests.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          92,
+          122
+        ]
+      },
+      {
+        "subject": "Channel Tunnel collision",
+        "what_happened": "A minibus struck a train stopped on the French side of the Channel Tunnel, injuring nineteen people.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          75,
+          80,
+          89
+        ]
+      },
+      {
+        "subject": "Retail and refrigeration cyberattack",
+        "what_happened": "The French cybersecurity authority warned that an attack on retail systems may still be ongoing, stores scrambled to restock, and thousands of connected refrigerators were reported hacked across the country.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          38,
+          70,
+          87
+        ]
+      },
+      {
+        "subject": "Paris fires and summer-wildfire costs",
+        "what_happened": "A second major fire broke out in Paris near Austerlitz station days after a food market was destroyed, and France's summer wildfires were assessed at a 563-million-euro cost to insurers.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          82,
+          98,
+          107,
+          133
+        ]
+      },
+      {
+        "subject": "Macron diplomatic activity",
+        "what_happened": "Macron announced a four-country Gulf trip (19-21 October) to secure energy supplies, called for an EU budget deal before the French election run-up, and urged Ukraine to be given all means needed to defend its population and infrastructure.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          67,
+          108,
+          127,
+          131
+        ]
+      },
+      {
+        "subject": "Corporate and market moves",
+        "what_happened": "Shell agreed to sell its French fuel-station network to DCC Energy, Nvidia announced an investment in a French medical website, Lufthansa outbid Air France-KLM for a stake in Portugal's flag carrier, and private capital continued to back France despite the crisis.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          33,
+          50,
+          64
+        ]
+      },
+      {
+        "subject": "Education-sector strain",
+        "what_happened": "The protests laid bare France's education divide, a school shooting led to the arrest and prosecution of a 14-year-old, the Senate flagged systemic failures in after-school care, and the French soccer ethics body urged fans to keep politics out of stadiums.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          14,
+          26,
+          49,
+          60,
+          88,
+          111,
+          121
+        ]
+      },
+      {
+        "subject": "Miscellaneous news",
+        "what_happened": "A South-African rugby player died in France before a Champions Cup match, French cosmetics faced customs delays in China, the last pandas in France were set to return to China, and a rare pink diamond went on public display a century after its theft.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          28,
+          68,
+          104,
+          118
+        ]
+      }
+    ],
+    "gone": [
+      "The government released strategic diesel reserves",
+      "Macron was described as outgoing and",
+      "Macron was described as outgoing and (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad, multi-source coverage of France's protest wave, debt crisis, car-industry deal, and several secondary stories, though some details (exact arrest totals, specific city-by-city breakdowns) remain thin and one inflation figure contradicts another."
+    },
+    "headlines_used": [
+      "France, Germany strike deal on car emissions and UK special status",
+      "Clashes, fires and looting break out as protesters rally across France, joining students",
+      "Clashes, blazes and wide-scale looting grip France on day of protests",
+      "How day of protests unfolded as disorder breaks out across France",
+      "France’s Macron vows to hold accountable those who ‘sought to bring down the Republic’ during major protests",
+      "France: Protesters rally nationwide amid rising social polarization",
+      "Saccages et pillages à grande échelle dans les villes de France",
+      "French Violence Emerges Ahead of Nationwide Yellow Vests and Student Protests",
+      "France and Germany Reach Deal to Protect Europe’s Car Industry",
+      "Protests across France spiral into riots and looting",
+      "Mass protests in France spiral into worst riots in years",
+      "Tear gas and unrest as hundreds of thousands protest for reforms in France",
+      "Shell agrees proposed sale of French fuel stations to DCC Energy, source says",
+      "Policing of France’s school protests clouds Macron’s final months and sparks uproar",
+      "Looting, blazes and clashes in France amid nationwide protests",
+      "Footage shows protesters looting shops in Paris",
+      "Police throw tear gas at protesters as demonstrations ramp up in France",
+      "France protests turn violent nationwide",
+      "Des dizaines de manifestations, des blessés, des dégradations ... le point sur cette journée de mobilisation du 17 octobre en France",
+      "Lescure Says Bond Turmoil Helps France See Need for Discipline",
+      "The Far-Left Firebrand Who Wants to Upend France’s Politics—and Cancel Its Debt",
+      "France and Germany seal EU car deal",
+      "European banks are well positioned amid French budget uncertainty: Deutsche Bank President",
+      "Protests spread across France as ‘yellow vests’ set to join",
+      "'A good day for motorists and for jobs': Reactions to Germany-France car deal",
+      "French soccer ethics body calls on fans to keep politics out of stadiums amid student protests",
+      "Clashes erupt in France as protesters vow to make government 'tremble'",
+      "Rare pink diamond goes on display in France 100 years after amateur heist",
+      "Protests erupt from Albania and France to India and Italy",
+      "France protests escalate as unrest spreads across cities",
+      "VIDÉO. France: forte mobilisation ce 17 octobre",
+      "French Protests and the End of Checkbook Politics",
+      "Germany’s Lufthansa Beats Air France-KLM to Take $1.3 Billion Stake in Portugal’s Flag Carrier",
+      "The perfect artist’s studio? An attic in Paris",
+      "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
+      "Al Jazeera reporter harassed, struck on head amid France protests, looting",
+      "French savers turn to private pensions as faith in creaking welfare system wanes",
+      "French cybersecurity authority warns attack may be ongoing as stores scramble to restock",
+      "France faces day of cost-of-living protests",
+      "Newshour | Hundreds arrested at France protests",
+      "After four weeks of student protests, teens injured at French protests raise questions over police weapons",
+      "West Bank: Israeli settlers attack EU diplomats, French mayor",
+      "VIDÉO. France: manifestations, violences et revendications",
+      "Germany, France Push to Scrap Climate Neutrality Goal for Cars",
+      "Bank of France Making Rates Decisions Meeting by Meeting, Says Governor",
+      "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
+      "Bank of France governor: Political uncertainty driving bond yields higher",
+      "Buildings and cars set on fire as cost of living protests rock France",
+      "French anti-terror prosecutors investigate 14-year-old arrested over school shooting",
+      "Nvidia says to invest in French medical website",
+      "'French protests become violent' and SAS men 'arrested for murder'",
+      "French police tactics under scrutiny after teenagers seriously injured during protests",
+      "Germany, France agree on deal to support Europe's struggling car industry",
+      "A Paris, malgré le chaos, des manifestants déterminés à se faire entendre",
+      "Watch Lescure: France Will Use Budget Guardrails If Needed",
+      "French debt worries spill into stocks, driving biggest underperformance since 2010",
+      "Check out JPM All Country Research Enhanced Index Equity Paris Aligned Active UCITS ETF EU's stock price (JPAE-GB) in real time",
+      "Al Jazeera reports from Paris as protests turn violent",
+      "Fact Check: French protest footage from 2023 miscaptioned as October 2026 Paris unrest",
+      "'Real inequality': France's education divide laid bare by protests",
+      "Six O'Clock News | Hundreds arrested in protests across France",
+      "French finance minister: We don’t need a bailout",
+      "\"Du jamais vu\" : dans le centre de Paris, des scènes de pillage hors de contrôle",
+      "Private Capital Keeps Faith in Crisis-Hit France",
+      "Six must-see shows in Paris this autumn",
+      "France tackles new wave of nationwide protests",
+      "Crucial to give Ukraine all means needed to defend population, infrastructure, France's Macron says",
+      "S.African rugby player dies in France ahead of Champions Cup game",
+      "France protests: Violent demonstrations, looting and burning of buildings - Wetin dey cause kasala for di kontri",
+      "Thousands of refrigerators were hacked across France. How worried should you be?",
+      "Mobilisation du 17 octobre: des milliers de manifestants en régions, de vives tensions à Paris et Marseille",
+      "Watch The French Political Crisis Turning Into a Debt Crisis",
+      "Case 137 film review — timely tale of Paris riots and police brutality",
+      "Could France trigger another Eurozone debt crisis?",
+      "Nineteen hurt after minibus hits train at French channel tunnel terminal",
+      "Cost-of-living demonstrations to grip pre-election France",
+      "World Business Report | Students protest in France, as fiscal concern mounts",
+      "VIDÉO. Mobilisation en France: que veut dire 'Bismillah, c'est les ténèbres'",
+      "The French Political Crisis That's Turning Into a Debt Crisis",
+      "Nineteen people injured in accident on French side of Channel Tunnel",
+      "France sees risk of violence in weekend protests, PM says",
+      "France's summer wildfires could cost insurers up to 563 mln euros",
+      "Are student protests being manipulated ahead of France's presidential election?",
+      "\"Bismillah c'est les ténèbres\", le slogan culte des manifestations étudiantes en France",
+      "What the Student Protests Mean for France: It’s Not May ’68, Yet",
+      "France’s Marine Le Pen vows ‘trial of strength’ with EU",
+      "French supermarkets' cyber insurance unlikely to cover food losses, insurers say",
+      "France's high-school student woes in numbers",
+      "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+      "Comment la colère des lycéens français est-elle vue par les médias internationaux?",
+      "Watch Draghi: France is Far From Becoming a Euro-Area Crisis",
+      "French inflation rises to 3.4% in September, highest since January 2024",
+      "Lions women to warm-up for New Zealand with France Test in Cardiff",
+      "\"Comme en France\" ? L'Italie secouée par un début de contestation",
+      "Market for Funding Bonds in France Shows Crisis Is Way Off",
+      "Le Pen and Melenchon gain momentum ahead of French 2027 election, poll shows",
+      "Macron says French student protesters 'exploited' by political forces: spokeswoman",
+      "Le coût des incendies en France cet été évalué à 563 millions d'euros, selon France Assureurs",
+      "Draghi Sees High Bar for ECB to Help France With Crisis Tool",
+      "French navy chief sees no threat to US catapult supply for future carrier",
+      "Behind the news: Covering France's high school student protests",
+      "Taux français: une intervention de la BCE ne se justifie pas, estime le gouverneur de la Banque de France",
+      "France Ups Farmer Aid to About €2 Billion After Extreme Weather, Fuel Prices",
+      "French cosmetics facing delays clearing China customs, says industry association",
+      "French economy minister denies country caught in debt 'snowball'",
+      "Malgré un rebond, la Bourse de Paris reste très en retard sur ses voisines européennes",
+      "Paris Suffers Second Big Fire Days After Food Market Destroyed",
+      "Macron warns urgent to strike EU budget deal before French vote runup",
+      "Les nuages diplomatiques s'accumulent aussi pour Macron",
+      "How French Protests Highlight Budget Woes and a Political Divide",
+      "France charges teen shooter citing revenge for bullying in school",
+      "Ménopause : des jalons pour une meilleure prise en charge en France",
+      "France, Germany reach deal on future of car industry",
+      "Présidentielle : le président des Entrepreneurs assure qu'il restera en France si LFI l'emporte",
+      "SIAL Paris 2026: Food Sovereignty, AI, Personalised Nutrition… Three Major Debates to Shape the Future of Food",
+      "Décès en Belgique, cas record en France... Qu'est-ce que le virus du Nil lié au moustique Culex auquel l'Europe fait face?",
+      "Last of the French musketeers Monfils officially retired from tennis",
+      "Les derniers pandas hébergés en France partiront en Chine, un nouveau couple attendu",
+      "French prodigy Seixas becomes youngest Giro di Lombardia winner",
+      "Le \"plus petit hôpital de France\", un maillon vital pour des habitants isolés",
+      "Périscolaire : 'Les défaillances systémiques' à Paris révèlent des failles présentes dans toute la France, selon le Sénat",
+      "France : l'inflation a atteint 3,1 % sur un an en septembre, selon l'Insee",
+      "Le Pen en embuscade à Bruxelles, Macron compose avec",
+      "Une vie en France - Sonia Aram",
+      "Le journal de France 2 - EDITION DU 14/10/2026 - 20H",
+      "Le journal de France 2 (Season 2026)",
+      "Macron dans quatre pays du Golfe du 19 au 21 octobre pour sécuriser des approvisionnements énergétiques",
+      "Dette de la France : la hausse des taux d'emprunt, un 'signal d'alarme' pour le ministre français de l'Économie",
+      "Tensions sur la dette française: 'la solution se trouve d'abord en France' au niveau du budget, avertit Lagarde",
+      "Budget: le gouverneur de la Banque de France appelle le monde politique à 'prendre (ses) responsabilités'",
+      "A Bruxelles, Macron appelle à conclure un accord sur le budget européen avant 2027",
+      "Budget de la France: \"il faudra du temps\" pour restaurer la confiance, avertit le FMI",
+      "Paris : incendie près de la gare d'Austerlitz"
+    ],
+    "converted": false,
+    "relevant_headlines": 133,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Nationwide protests and riots",
+        "expected": "Nationwide protests and riots stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Nationwide protests and riots appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "France-Germany car-industry deal",
+        "expected": "France-Germany car-industry deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about France-Germany car-industry deal appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Sovereign debt and bond-market stress",
+        "expected": "Sovereign debt and bond-market stress stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sovereign debt and bond-market stress appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "France-Germany car-industry deal",
+        "expected": "persist",
+        "sign": "France-Germany car-industry deal is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Nationwide protests and riots stays in the news at the same level. France-Germany car-industry deal stays in the news at the same level. Sovereign debt and bond-market stress stays in the news at the same level. France-Germany car-industry deal is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "France protest political reckoning",
+        "expected": "Macron will announce a targeted concession or cabinet reshuffle in direct response to the police-injury scandals, prompting student and yellow-vest unions to call a second nationwide mobilization.",
+        "direction": "persist",
+        "sign": "Headlines will center on a specific ministerial concession or reshuffle framed as a direct answer to the riots, rather than on fresh street clashes."
+      },
+      "second": {
+        "subject": "French sovereign debt stress",
+        "expected": "The government will table a concrete fiscal consolidation measure as bond yields climb further under IMF scrutiny.",
+        "direction": "persist",
+        "sign": "Headlines will name a specific budget figure or spending cut tied to an upcoming deadline, moving beyond the no-bailout reassurances already issued by the finance minister and the Bank of France governor."
+      },
+      "third": {
+        "subject": "France-Germany car-industry deal",
+        "expected": "The UK government will issue a formal response to the conditional market-access offer tied to the China-tariff alignment.",
+        "direction": "persist",
+        "sign": "Headlines will feature the UK trade minister reacting to the France-Germany arrangement or an EU rival questioning the China-tariff condition."
+      },
+      "fade_call": {
+        "subject": "Channel Tunnel minibus-train collision",
+        "expected": "fade",
+        "sign": "The injured will be discharged or the investigation will enter routine proceedings, and the story will drop from front pages as protest and bond headlines dominate."
+      },
+      "surprise": {
+        "subject": "Retail cyberattack foreign attribution",
+        "expected": "French cybersecurity authorities will publicly attribute the retail and refrigerator hacking to a specific foreign state, prompting a formal diplomatic protest from the French government.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, France will be dominated by the political aftershock of the October 17 protest wave. Macron will face pressure to deliver a concrete response to the police-injury scandals and looting that gripped Paris, Marseille, and dozens of cities, and a second mobilization will be called by student and yellow-vest unions. On markets, French bond yields will keep climbing as the government struggles to present a credible deficit-reduction path, and the Paris stock index will lag European peers. The France-Germany car-industry deal will generate diplomatic friction as the UK weighs its conditional-access offer and EU rivals question the China-tariff linkage. The retail cyberattack that began this week will attract fresh attention if French authorities trace it to a foreign actor. The Channel Tunnel collision will fade as the injured recover. The overall mood will stay tense, with the 2027 presidential race casting a long shadow over every policy decision.",
+      "generated_at": "2026-10-23T12:30:21+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Nationwide protest wave",
+        "expected": "A second nationwide day of demonstrations will draw larger crowds to the streets and spark a new round of clashes between protesters and police in multiple cities.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a new coordinated mobilization across multiple cities, with footage of looting, arrests, and tear gas as the protest coalition broadens beyond students to yellow vests and trade unions."
+      },
+      "second": {
+        "subject": "France-Germany car industry deal",
+        "expected": "The emissions-timeline relaxation will face its first formal challenge in the EU Parliament, where a committee vote will determine whether the climate-neutrality deadline is amended or watered down further.",
+        "direction": "persist",
+        "sign": "Headlines will reference a parliamentary committee vote on vehicle emissions standards and a UK government statement either accepting or contesting the conditional market access tied to China tariff alignment."
+      },
+      "third": {
+        "subject": "French sovereign debt stress",
+        "expected": "The spread between French and German government bonds will widen to a fresh level as the government struggles to advance its fiscal plan through a divided legislature.",
+        "direction": "escalate",
+        "sign": "Headlines will report a record yield spread, a ratings-agency warning, and the finance minister defending the budget path against calls for an ECB intervention."
+      },
+      "fade_call": {
+        "subject": "Channel Tunnel minibus-train collision",
+        "expected": "fade",
+        "sign": "The incident will drop from headlines entirely, with the French terminal returning to normal operations and no follow-up investigation dominating the news cycle."
+      },
+      "surprise": {
+        "subject": "Government stability and cabinet crisis",
+        "expected": "A no-confidence motion will be tabled in the National Assembly in direct response to the protest wave, forcing the prime minister's cabinet to rally its slim majority and risking a government collapse.",
+        "chance": "medium"
+      },
+      "summary": "Next week, France will be defined by its protest wave and the fiscal crisis beneath it. A second round of nationwide demonstrations will draw broader participation, with yellow vests, trade unions, and students in the streets of Paris, Marseille, and regional cities. The government will push its budget through Parliament under emergency procedure, and the confrontation will rattle bond markets, pushing the yield spread over German Bunds higher. The France-Germany car deal will face its first formal scrutiny in the EU Parliament over the climate-neutrality timeline. The 2027 presidential race will accelerate, with Le Pen and Melenchon gaining ground in the political chatter. The Channel Tunnel collision will fade, while the retail cyberattack lingers. A no-confidence motion could test the cabinet's grip on power.",
+      "generated_at": "2026-10-23T12:46:55+03:00"
+    }
+  },
+  "display": {
+    "headline": "France's Protest Wave Deepens as Bond Stress Rattles Markets",
+    "emojis": [
+      "🔥",
+      "💰",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "The dominant story is the escalating nationwide protest and riot wave across French cities.",
+      "Sovereign debt stress and the fiscal plan are the central economic storyline driving bond-market anxiety.",
+      "The France-Germany car industry deal is the major new bilateral agreement shaping the week's diplomacy."
+    ],
+    "tldr": "France will see a second wave of protests and continued bond-market stress. The France-Germany car deal faces its first parliamentary scrutiny. The government will fight to pass its budget, with the 2027 presidential race looming in every debate.",
+    "eli5": "France is going through a really rough patch. Thousands of students, yellow-vest drivers, and regular people are in the streets because prices are too high and they feel the government is ignoring them. Last week it turned into riots with fires and looting in Paris and other cities. Next week, even more people are expected to come out in a second wave of protests, and the government is trying to push its spending plan through Parliament in a hurry before the country falls apart further.\n\nThe money story is scary too. Investors do not trust France to pay back its loans, so the cost of borrowing is climbing, and that is the sovereign debt stress that keeps the finance minister up at night. If the budget fight goes badly in the legislature, the numbers get worse fast and the stock market takes another hit.\n\nOn a slightly brighter note, France and Germany just agreed on a deal to protect car factories and jobs, but the European Parliament still has to sign off on it, and that vote could get messy.\n\nWhat would be a real surprise? If the prime minister's own party turns against him and tables a no-confidence vote to oust the government. That would shake things up way more than another day of street fighting."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nFrance entered mid-October 2026 in what the text calls a double crisis: a street-level education protest and a bond-market loss of confidence in the government's fiscal plan. Students, parents, unions, and mayors had been demonstrating against school conditions, with the largest national marches already held. A 15-year-old was injured in clashes, the government suspended stun grenades, and police watchdog investigations opened. Simultaneously, investors were punishing French sovereign debt: OAT yields were elevated, the spread over German Bunds was wide, and the euro was weak. Finance Minister Roland Lescure had publicly signaled willingness to bypass Parliament through a 49.3-style procedure to pass the fiscal plan. The government, led by PM Lecornu, had released strategic diesel reserves as fuel prices threatened to widen the protest beyond schools. Macron was described as outgoing, Le Pen was being treated as a presidential frontrunner, and the political class was already maneuvering for a post-Macron phase.\n- Students, parents, and unions held major (regular, continuing): Students, parents, and unions held major national demonstrations over school conditions, with a 15-year-old injured in clashes and stun grenades subsequently suspended.\n- Bond markets punished French sovereign debt (regular, continuing): Bond markets punished French sovereign debt, pushing OAT yields elevated, widening the spread over German Bunds, and weakening the euro.\n- Finance Minister Roland Lescure publicly signaled (regular, continuing): Finance Minister Roland Lescure publicly signaled willingness to bypass Parliament via a 49.3-style procedure to pass the government's fiscal plan.\n- The government released strategic diesel reserves (regular, continuing): The government released strategic diesel reserves as rising fuel prices threatened to broaden the education protest into a cost-of-living movement.\n- Macron was described as outgoing and (regular, continuing): Macron was described as outgoing and Le Pen was positioned as a presidential frontrunner as the political class began maneuvering for a post-Macron phase.\n- Macron was described as outgoing and (again) (regular, continuing): Macron was described as outgoing and Le Pen was positioned as a presidential frontrunner as the political class began maneuvering for a post-Macron phase.\n\nRound 2026-09-15:\nThe text describes France juggling at least four simultaneous pressures in late September 2026. Pope Leo XIV was in the final days of his visit to Lourdes and Metz, drawing large crowds and intense media attention. The Lecornu government was defending a budget plan of roughly 54 billion euros in cuts against a national debt approaching 120 percent of GDP, with the 10-year OAT yield pressing above 4.5 percent. First-wave protests against the police licence-to-kill bill had already taken place, and a second round was imminent. Macron had announced that France would send troops and defence systems to protect the Yanbu port and the Red Sea oil route. Iran had closed a French language centre in Tehran, and France was preparing to summon Iran's ambassador. Estonia and other EU states were complaining about France's role in easing sanctions on Alisher Usmanov. Fuel prices sat at record highs, heat waves pressured\n- The Lecornu government is defending a (regular, continuing): The Lecornu government is defending a 54-billion-euro budget plan against a national debt near 120 percent of GDP, with the 10-year OAT yield above 4.5 percent.\n- Pope Leo XIV's final days at (regular, continuing): Pope Leo XIV's final days at Lourdes and Metz are drawing large crowds, heavy security, and national debate on laicite and AI.\n- Macron has ordered France to send (regular, continuing): Macron has ordered France to send troops and defence systems to protect the Yanbu port and the Red Sea oil corridor.\n- Iran closed a French language centre (regular, continuing): Iran closed a French language centre in Tehran, and France is preparing a formal diplomatic response.\n- The Goncourt prize removed a shortlisted (regular, continuing): The Goncourt prize removed a shortlisted novel after AI-use accusations, sparking a national culture and technology debate.\n- The Goncourt prize removed a shortlisted (again) (regular, continuing): The Goncourt prize removed a shortlisted novel after AI-use accusations, sparking a national culture and technology debate.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

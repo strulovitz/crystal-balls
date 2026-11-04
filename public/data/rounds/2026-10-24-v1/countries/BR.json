@@ -1,0 +1,691 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "BR",
+  "name": "Brazil",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T07:34:27+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "The week was consumed by the final stretch of Brazil's presidential runoff between incumbent Lula and Flávio Bolsonaro, with the vote set for Sunday, October 25. The two candidates held two debates: an earlier one marked by sharp exchanges over corruption and living costs, and a final one that was calmer but still combative. Polls from Datafolha and Quaest showed them essentially tied, making the outcome highly uncertain. A major controversy erupted over Meta's alleged social-media bias: Lula's campaign filed to disqualify Bolsonaro, a court ordered Meta to prove equal treatment within 24 hours, and the UN suggested Meta had disproportionately suppressed Lula's posts. Both campaigns made costly promises including free bus rides and cash-back schemes, and Lula fast-tracked welfare payments days before the vote. Markets hedged heavily ahead of the result. Inflation data presented a contradiction, with one report saying it undershot forecasts and another saying it breached the target. Prudential sold its Brazil and Mexico units for four billion dollars. A Newcastle disease outbreak threatened poultry exports. A court ordered the government to provide transportation for Indigenous voters in the Amazon. Foreign diplomats prepared for quick recognition of the winner, and Brazil accused Argentina's Milei of election meddling.",
+    "key_events": [
+      {
+        "event": "Lula and Flávio Bolsonaro held their final presidential debate, clashing on living costs and corruption while striking a calmer tone than their first debate.",
+        "date": "2026-10-24",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "A Brazilian court ordered Meta to prove within 24 hours that it treated Lula and Bolsonaro campaigns equally after the UN suggested Meta disproportionately curbed Lula's posts.",
+        "date": "2026-10-23",
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "Datafolha and Quaest polls showed Lula and Flávio Bolsonaro tied or within margin of error ahead of the Sunday runoff.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Lula fast-tracked welfare payments and opened the state toolbox with free bus rides and cash-back promises to woo undecided voters.",
+        "date": "2026-10-21",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Prudential Financial sold its Brazil and Mexico insurance units to CNP Assurances for four billion dollars.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A Newcastle disease outbreak was detected at a turkey farm and at a supplier to major poultry company MBRF, raising export concerns.",
+        "date": "2026-10-19",
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "Brazil's Supreme Court suspended the permit for a major Amazon gold mine.",
+        "date": "2026-10-20",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "A court ordered the government to provide transportation for Indigenous voters in the Amazon ahead of the runoff.",
+        "date": "2026-10-22",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Brazil accused Argentina's President Milei of election meddling after he called Lula a thief ahead of the vote.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "technology"
+    ],
+    "emojis": [
+      "🗳️",
+      "💰",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "The entire week centered on the Lula versus Flávio Bolsonaro runoff, with two debates, tied polls, and campaign promises described in headlines 1, 3, 6, 12, 17, 37, 68, 80, 87, 110.",
+      "Market hedging surged (77, 97), Prudential sold Brazil units for four billion dollars (29, 38, 100, 103), Lula fast-tracked welfare payments (39, 111), and BYD doubled its plant capacity (49).",
+      "The Meta disqualification dispute (24, 25, 44, 76, 83, 84), the court order for Indigenous voter transport (23, 65), and the Supreme Court suspending the Amazon gold mine permit (50) all turned on judicial rulings."
+    ],
+    "developments": [
+      {
+        "subject": "Lula vs Bolsonaro runoff race",
+        "what_happened": "The two candidates held two debates, made costly promises, traded disqualification threats, and closed the week tied in polls ahead of the Sunday vote.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          21,
+          27,
+          28,
+          31,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39,
+          41,
+          42,
+          43,
+          47,
+          48,
+          52,
+          54,
+          55,
+          56,
+          57,
+          59,
+          62,
+          66,
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          85,
+          86,
+          87,
+          89,
+          92,
+          93,
+          94,
+          96,
+          101,
+          108,
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "subject": "Meta social media interference dispute",
+        "what_happened": "Lula's campaign filed to disqualify Bolsonaro over alleged Meta bias, a court gave Meta 24 hours to prove equal treatment, and the UN suggested Meta disproportionately curbed Lula's posts.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          24,
+          25,
+          26,
+          44,
+          53,
+          58,
+          61,
+          63,
+          67,
+          72,
+          76,
+          83,
+          84,
+          88
+        ]
+      },
+      {
+        "subject": "Market hedging and economic uncertainty",
+        "what_happened": "Traders ramped up hedges ahead of the close vote, inflation data was mixed, and the government flagged a four-billion-dollar budget reshuffle needed for Lula's 2027 measures.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          28,
+          40,
+          45,
+          77,
+          97,
+          102,
+          107,
+          111,
+          113
+        ]
+      },
+      {
+        "subject": "Poultry disease outbreak",
+        "what_happened": "Newcastle disease was detected at a turkey farm and at a supplier to major poultry company MBRF, raising export concerns though analysts called long-term impact limited.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          98,
+          105,
+          109,
+          114
+        ]
+      },
+      {
+        "subject": "Indigenous voters and Amazon",
+        "what_happened": "A court ordered the government to provide transportation for Indigenous voters in the Amazon after they feared missing the runoff, and the Supreme Court suspended a major gold mine permit.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          23,
+          50,
+          51,
+          65
+        ]
+      },
+      {
+        "subject": "Campaign promises and welfare",
+        "what_happened": "Both Lula and Bolsonaro courted voters with costly promises including free bus rides and cash-back schemes, and Lula fast-tracked welfare payments days before the vote.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          13,
+          39,
+          86,
+          89,
+          92,
+          111
+        ]
+      },
+      {
+        "subject": "Foreign diplomacy and election meddling",
+        "what_happened": "Foreign diplomats discussed quick recognition of the runoff winner, Brazil accused Argentina's Milei of meddling after he called Lula a thief, and Trump loomed over the race.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          32,
+          106,
+          108
+        ]
+      },
+      {
+        "subject": "Working class and social divides",
+        "what_happened": "Reporters examined how a changing working class, the Uberisation of labour, country music, and cellphone theft were reshaping voter allegiances.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          10,
+          30,
+          81,
+          93
+        ]
+      },
+      {
+        "subject": "Corporate deals and foreign investment",
+        "what_happened": "Prudential sold its Brazil and Mexico units for four billion dollars, BYD planned to double capacity at its Brazilian plant, and Hitachi Energy committed 77 million dollars to a new plant.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19,
+          29,
+          38,
+          49,
+          64,
+          99,
+          100,
+          103,
+          104
+        ]
+      },
+      {
+        "subject": "Billionaire brothers and right-wing opposition",
+        "what_happened": "Billionaire Brazilian brothers emerged as vocal foes of Bolsonaro in the runoff, while the right embraced election betting odds amid polls skepticism.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          54,
+          66
+        ]
+      }
+    ],
+    "gone": [
+      "Shorter workweek approved"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide very thorough coverage of the election, the Meta dispute, and the economic backdrop, though some secondary stories like the poultry outbreak and Amazon gold mine get only a single mention each."
+    },
+    "headlines_used": [
+      "Bolsonaro and Lula clash on living costs, corruption in final Brazil election debate",
+      "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil’s presidential race",
+      "Lula, Bolsonaro lock horns in final debate before Brazil vote",
+      "Brazil election: How a changing working class is reshaping the presidential race",
+      "Why Trump is looming over Brazil’s election",
+      "As Brazilians prepare to vote for president, Lula and Flavio Bolsonaro tied in polls",
+      "'Ce sera très compliqué pour lui': au Brésil, Lula mise sur les abstentionnistes pour remporter les élections",
+      "Watch ¿Qué está en juego en el balotaje entre Lula y Bolsonaro?",
+      "Lula, a Giant of Latin America’s Left, Fights for One Last Shot at Power",
+      "Country music and cowboy hats: Brazil’s rightward shift",
+      "Brazil’s Lula and Bolsonaro debate policy proposals before run-off",
+      "Flavio Bolsonaro and Lula about even ahead of Brazil runoff, Datafolha poll shows",
+      "Brazil's Lula opens state toolbox to woo voters in runoff against Bolsonaro. Here's what is on offer",
+      "Brazil's presidential candidates seek to disqualify each other",
+      "We came from Brazil to Derby for Tomb Raider Day",
+      "Lula has defined Brazil’s left for decades. Can his movement survive another Bolsonaro?",
+      "Présidentielle au Brésil : ultime débat plus policé mais sans concession entre Lula et Bolsonaro",
+      "Watch Brazil's Lula and Bolsonaro Tied Heading Into Runoff",
+      "Exclusive | Brazilian Private-Equity Firm Vinci Emulates U.S. Peers With Reinsurer Acquisition",
+      "Letter: When Brazil gang violence is ‘for English eyes only’",
+      "What to know as Brazil prepares for tense presidential run-off",
+      "GLP-1 boom in China, India, Brazil could create $22 bln market by 2035, J.P. Morgan says",
+      "Brazil court orders government to provide transportation for Indigenous voters in Sunday’s runoff",
+      "Lula campaign seeks to disqualify Bolsonaro over Meta 'interference'",
+      "Brazilian election: Lula seeks Bolsonaro's disqualification over alleged Meta interference",
+      "Protesters allege election interference by Meta in Brazil",
+      "Brésil : ultime face à face entre Lula et Flavio Bolsonaro avant le second tour",
+      "Bolsonaro Trade Faces Reckoning in Too-Close-to-Call Brazil Vote",
+      "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
+      "The ‘Uberisation’ of Brazil’s working class",
+      "Brazil’s right has already changed the balance of power",
+      "Foreign diplomats in Brazil discuss quick recognition of runoff winner",
+      "Spooked by Bolsonaro, Brazil’s left takes to social media and the streets pushing for Lula win",
+      "Lula, Bolsonaro strike calmer tone in final Brazil election debate",
+      "Luiz Inacio Lula da Silva",
+      "Au Brésil, Lula garde une place à part dans le coeur du Nord-Est",
+      "Brazil Elections: Tight Polls Intensify Race in Final Stretch",
+      "Prudential Financial to Sell Brazil and Mexico Units to CNP Assurances for $4.03 Billion",
+      "Lula fast-tracks Brazil welfare payments days before run-off vote",
+      "Brazil mid-month inflation undershoots forecasts ahead of presidential runoff",
+      "Brazil's Congress's shift to the right could change Latin America's powerhouse. Here’s what to know",
+      "The young lawmaker making Brazil's Lula 'king of the selfie'",
+      "What to know about Brazil's run-off as Lula and Flávio Bolsonaro face off",
+      "Elections au Brésil : des experts de l'ONU exhortent Meta à protéger la liberté d'expression",
+      "Brazil Inflation Shoots Through Target Limit Before Runoff Vote",
+      "LATAM Airlines Group S.A. L1TM34 (Brazil: Bovespa)",
+      "Crunch time for Brazilian politics",
+      "Brazil’s Bolsonaro challenges Lula to expand release of personal records",
+      "China's BYD plans to double capacity at Brazilian plant",
+      "Brazil’s Supreme Court suspends permit for major Amazon gold mine",
+      "Brazil probing 'criminal' origin of forest fires: minister to AFP",
+      "Lula and Bolsonaro trade barbs in Brazil election debate",
+      "Brésil : Lula et Bolsonaro veulent se disqualifier, les réseaux sociaux en cause",
+      "Billionaire Brazilian Brothers Emerge as Bolsonaro’s Foes in Presidential Runoff",
+      "Lula turns to selfie videos in Brazil election fightback",
+      "Brazil’s president appeals to undecided voters ahead of run-off",
+      "Brazil's youth voters share their views ahead of presidential runoff",
+      "Meta tells Brazil's electoral court it treats Lula and Flávio Bolsonaro equally ahead of Sunday vote",
+      "Lula, Bolsonaro set for first debate showdown in bitter election race",
+      "Mirassol vs Internacional: Brazilian Serie A stats & head-to-head",
+      "Brésil : Lula veut disqualifier Flavio Bolsonaro pour \"ingérence\" de Meta",
+      "Lula Finally Got a Cell Phone. It May Give Him a Shot at Reelection",
+      "Why social media has become an election issue in Brazil’s presidential race",
+      "Hitachi Energy to invest $77 million in new Brazil plant",
+      "Indigenous voters in Brazil’s Amazon fear missing runoff after court denies transportation",
+      "Brazil's right embraces election betting odds amid polls skepticism",
+      "Brésil : Meta assure que Lula et Flavio Bolsonaro sont traités de façon égalitaire",
+      "Bolsonaro and Lula Tied Ahead of Brazil Runoff, Poll Shows",
+      "Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff",
+      "Lula hopes older voters can help power him to victory against Flavio Bolsonaro",
+      "Corruption is a top concern for Brazilian voters ahead of runoff between Bolsonaro and Lula",
+      "Brésil : Meta dit assurer un traitement égalitaire à Lula et Flavio Bolsonaro",
+      "Lula, Bolsonaro Agree on Terms to Open Bank Records",
+      "PODCAST: Cybersecurity flaw, Russia-Ukraine and Brazil's phone problem",
+      "Brazil's Lula and Flávio Bolsonaro trade barbs in 1st debate only days before presidential runoff",
+      "Election au Brésil : Meta doit prouver en 24 heures que Lula et Bolsonaro sont traités de la même façon",
+      "Brazil Hedging Costs Spike as Election Anxiety Surges",
+      "Lula challenges Bolsonaro to release personal records before election",
+      "Bolsonaro's lead over Lula narrows ahead Brazil runoff, Quaest poll shows",
+      "\"Clown\", \"corrompu\" : Lula et Flavio Bolsonaro s'écharpent lors de leur premier débat",
+      "Bad Bunny, Homegrown Country Stars Show How Music Is Dividing Brazil Voters",
+      "Brazil's Bolsonaro sets terms for records release after Lula's disclosure challenge",
+      "UN Suggests Meta ‘Disproportionately’ Curbed Lula Posts",
+      "Brazilian court orders Meta to prove Lula and Bolsonaro get equal treatment",
+      "For Flavio Bolsonaro, runoff vote tests Brazilians' appetite for family's political brand",
+      "Free Bus Rides, Cash Back: Lula, Bolsonaro Court Brazil Voters With Costly Promises",
+      "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
+      "Meta tells Brazil court it treats Lula and Bolsonaro campaigns equally",
+      "Lula y Bolsonaro cortejan a votantes con transporte gratis y reembolsos",
+      "Brazil - Al Jazeera",
+      "Russian diesel returns to Turkey, Brazil after export ban lifted, shipping data shows",
+      "Watch Promessas bilionárias marcam reta final de Lula e Flávio Bolsonaro",
+      "Brazil’s love affair with cellphones turns theft into an election flashpoint",
+      "Brazil's Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
+      "GLP-1 Boom Fuels Dangerous Black Market for Smuggled Weight-Loss Drugs in Brazil",
+      "For Lula, Brazil's sovereignty is at stake in final election",
+      "Brazil Traders Ramp Up Hedges Ahead of Tight Election Runoff",
+      "Brazil's Newcastle poultry outbreak unlikely to have major long-term impact, analysts say",
+      "Brazil Readies China Bond Debut for as Soon as Next Week",
+      "Prudential sheds Brazil, Mexico units to CNP for $4 billion as it narrows its focus",
+      "Brazil’s Farm Lobby Will Gain Even More Power If Bolsonaro Wins",
+      "Brazil central bank looks to encourage responsible lending in consumer debt crackdown, sources say",
+      "Prudential Sells Brazil, Mexico Units to CNP for $4 Billion",
+      "Google, McKinsey strike Brazil carbon removal deal with silvopasture project",
+      "Top Chicken Supplier Brazil Acts to Ease Hit From Virus",
+      "New Zealand adds Brazil, Canada talks as India pact starts",
+      "A 90-Day Rule Tests Limits of Brazil’s Out-of-Court Debt Reworks",
+      "Brazil Accuses Milei of Election Meddling for Calling Lula ‘Thief’ Ahead of Vote",
+      "Brazil detects Newcastle disease at turkey farm, raising export concerns",
+      "Bolsonaro and Lula Tied in Brazil Runoff Poll as Vote Nears",
+      "Brazil's government says $4 billion budget reshuffle needed for Lula measures in 2027",
+      "Brazil’s Powerful Supreme Court Seeks to Avert Bolsonaro’s Wrath",
+      "Brazil's airlines fear tax rise impact as election nears",
+      "Poultry Disease Found at MBRF Supplier in Risk to Brazil Exports"
+    ],
+    "converted": false,
+    "relevant_headlines": 114,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Lula vs Bolsonaro runoff race",
+        "expected": "Lula vs Bolsonaro runoff race stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Lula vs Bolsonaro runoff race appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Meta social media interference dispute",
+        "expected": "Meta social media interference dispute stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Meta social media interference dispute appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Market hedging and economic uncertainty",
+        "expected": "Market hedging and economic uncertainty stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Market hedging and economic uncertainty appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Poultry disease outbreak",
+        "expected": "persist",
+        "sign": "Poultry disease outbreak is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Lula vs Bolsonaro runoff race stays in the news at the same level. Meta social media interference dispute stays in the news at the same level. Market hedging and economic uncertainty stays in the news at the same level. Poultry disease outbreak is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Presidential runoff result",
+        "expected": "The winner of the Sunday runoff will be declared, triggering immediate market swings, street celebrations or protests in major cities, and a formal concession or legal challenge from the losing campaign.",
+        "direction": "persist",
+        "sign": "Headlines will name the winner, describe the vote margin, show crowd scenes, and report the losing candidate's concession or a formal legal filing contesting the result."
+      },
+      "second": {
+        "subject": "Meta social media dispute",
+        "expected": "The court ruling on Meta's equal-treatment obligation will become the centerpiece of a post-election legal challenge, with the losing campaign filing a formal complaint citing the platform's alleged bias and demanding access to its data records.",
+        "direction": "escalate",
+        "sign": "Headlines will report a formal legal filing by a campaign, a court hearing on the Meta case, or a platform announcement releasing data about post-levels and reach for both candidates."
+      },
+      "third": {
+        "subject": "Market and economic reaction",
+        "expected": "The real, bond yields, and the Bovespa will move sharply in the direction of the winner's platform, and analysts will issue revised forecasts for inflation, fiscal policy, and foreign investment flows within the first trading days after the vote.",
+        "direction": "persist",
+        "sign": "Headlines will report currency swings, bond market moves, analyst downgrades or upgrades, and corporate announcements tied to the new president's economic agenda."
+      },
+      "fade_call": {
+        "subject": "Campaign promises and welfare",
+        "expected": "fade",
+        "sign": "The free-bus-ride and cash-back proposals will drop from headlines as the new government's first economic agenda takes their place."
+      },
+      "surprise": {
+        "subject": "Post-election street confrontation",
+        "expected": "A large-scale protest or minor clash in a major Brazilian city will break out within days of the result, driven by the Meta controversy and the narrow margin, forcing the new president's first public address to address the unrest directly.",
+        "chance": "medium"
+      },
+      "summary": "The week will be defined by the outcome of Brazil's presidential runoff. The winner will be declared, and the country will pivot immediately to what the new government will do first. Markets will swing sharply, with the real and bond yields moving in the direction of the winner's platform, and analysts will issue revised forecasts for inflation and fiscal policy. The Meta social media dispute will not simply vanish; it will become a legal instrument, with the losing campaign filing a formal challenge or the court issuing a binding ruling on the platform's conduct. Street scenes in major cities will test the new president's first days, and the narrow margin will force both the winner and the loser to manage a deeply divided electorate. The poultry outbreak, the Prudential sale, and the BYD expansion will recede into the background as the political story dominates.",
+      "generated_at": "2026-10-25T07:01:32+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Presidential runoff result",
+        "expected": "The October 25 runoff will produce a winner, and the next bulletin will be dominated by the result announcement and the first hours of political and diplomatic fallout.",
+        "direction": "escalate",
+        "sign": "Headlines will announce the winner and quote the victory or concession speech as the defining moment of the post-vote period"
+      },
+      "second": {
+        "subject": "Meta equal-treatment ruling",
+        "expected": "The Brazilian court will issue its final ruling on Meta's equal-treatment obligation, setting the stage for the losing campaign to invoke that ruling in a post-vote challenge before the Supreme Court.",
+        "direction": "escalate",
+        "sign": "Headlines will report the court's final Meta ruling and the losing campaign's legal filing that cites the platform dispute"
+      },
+      "third": {
+        "subject": "Market reaction to election outcome",
+        "expected": "Brazilian and global markets will move sharply in the first trading session after the runoff, with the real and equity indices reflecting the winner's fiscal credibility.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a sharp move in the real and the equity index in the post-vote trading session"
+      },
+      "fade_call": {
+        "subject": "Campaign promises and welfare fast-tracking",
+        "expected": "fade",
+        "sign": "The free bus rides and cash-back schemes will surface as the winner's policy agenda rather than as a two-candidate courtship story"
+      },
+      "surprise": {
+        "subject": "Post-vote legal challenge invoking Meta ruling",
+        "expected": "The losing campaign will file an immediate post-vote challenge before the Supreme Court, citing the Meta equal-treatment ruling as grounds to delay certification of the result.",
+        "chance": "medium"
+      },
+      "summary": "Next week will be defined by the outcome of Brazil's presidential runoff, held on October 25. The bulletin will open with the result, the margin, and the first hours of diplomatic reaction as foreign governments move to recognize the winner. The Meta equal-treatment ruling will be resolved, and the losing campaign will invoke it in a post-vote challenge before the Supreme Court. Markets will swing sharply in the first trading session, with the real and equity indices reflecting the winner's fiscal credibility. The costly campaign promises of free transit and cash-back schemes will fade from the two-candidate courtship framing into the winner's policy agenda. A Newcastle disease outbreak and the Prudential sale will register as secondary economic news. The main surprise would be a post-vote challenge that delays certification and forces the Supreme Court to mediate.",
+      "generated_at": "2026-10-25T07:23:30+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "Brazil presidential runoff result",
+        "expected": "The October 25 runoff will produce a narrow winner, triggering an immediate electoral challenge from the losing side citing the Meta controversy.",
+        "direction": "escalate",
+        "sign": "Headlines will name the winning candidate, describe the margin, and report the losing campaign's legal challenge citing social media interference by Meta."
+      },
+      "second": {
+        "subject": "Meta electoral interference ruling",
+        "expected": "The electoral court will deliver a ruling on Meta's treatment of the two campaigns, and that verdict will either settle the dispute or become the centerpiece of a post-election legal battle.",
+        "direction": "escalate",
+        "sign": "Headlines will report the court's verdict on Meta's obligations and the reaction of both campaigns to the decision."
+      },
+      "third": {
+        "subject": "Brazil market reaction to election",
+        "expected": "Brazilian financial markets will swing sharply in the winner's direction as the heavy hedging positions built this week unwind.",
+        "direction": "escalate",
+        "sign": "Headlines will report the direction of the currency and stock index moves alongside the unwinding of trader hedge positions."
+      },
+      "fade_call": {
+        "subject": "Campaign promises and welfare fast-tracking",
+        "expected": "fade",
+        "sign": "Headlines will shift from describing the free bus rides and cash-back schemes to reporting which promises the new president must now fund."
+      },
+      "surprise": {
+        "subject": "Partial recount over Meta suppression",
+        "expected": "The electoral court will order a partial recount in specific regions after finding that Meta disproportionately suppressed one candidate's posts, forcing a constitutional standoff before the new government is seated.",
+        "chance": "medium"
+      },
+      "summary": "The week will be defined by the outcome of Brazil's presidential runoff on October 25. The vote will produce a narrow result, and the losing side will invoke the Meta controversy to file an electoral challenge. The electoral court will deliver a ruling on Meta's treatment of the two candidates, and that verdict will either settle the dispute or become the centerpiece of a post-election legal battle. Brazilian markets will swing sharply in the winner's direction as the heavy hedging positions built this week unwind. The campaign promises of free bus rides and cash-back schemes will fade as the new president faces the task of funding them. A surprise will come if the court orders a partial recount citing Meta's disproportionate suppression, forcing a constitutional standoff. Foreign diplomats will move quickly to recognize the winner, and the poultry outbreak will recede as a footnote to the political earthquake.",
+      "generated_at": "2026-10-25T07:34:27+02:00"
+    }
+  },
+  "display": {
+    "headline": "Brazil's Runoff Result Triggers Market Shock and Legal Battle",
+    "emojis": [
+      "🗳️",
+      "📈",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "The presidential runoff vote on October 25 is the single defining event of next week.",
+      "Markets will swing sharply in the first trading session after the result, with the real and equity indices moving.",
+      "The Meta equal-treatment ruling and any post-vote legal challenge will bring the courts to the center of the story."
+    ],
+    "tldr": "Brazil's presidential runoff on October 25 will produce a winner, triggering immediate market swings and foreign recognition. The Meta equal-treatment ruling will be resolved and potentially invoked in a post-vote legal challenge. Campaign promises will fade into the winner's policy agenda.",
+    "eli5": "Next week is the big one for Brazil. The presidential runoff vote happens on October 25, which is literally the day after this bulletin is written. Whichever candidate wins, the whole country and the world will be talking about the result, the margin, and who gets recognized first.\n\nThe Meta social media dispute will also get resolved. A court gave Meta 24 hours to prove it treated both candidates equally. Whatever the court decides, the losing side is likely to use it as an excuse to challenge the result in front of the Supreme Court.\n\nMarkets have been playing it safe because the race was so close. Once the vote is over, the real and the stock index will move sharply, and all those hedges traders built up will get unwound.\n\nThe free bus rides and cash-back promises that both candidates made will stop being a who's-courting-whom story and become either the winner's actual policy or a footnote.\n\nThe surprise to watch for: the losing campaign files a legal challenge right after the vote, citing the Meta ruling, and the Supreme Court has to step in before foreign governments can officially recognize the winner."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 1, 2, 3, 17, 34, 52, 75, 80, 87 confirm the runoff dominates and headlines 6, 12, 18, 37, 68, 79, 110 confirm a razor-thin tie, but no headline announces the actual vote outcome, so the specific sign of a declared result is not yet met."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 24, 25, 76, 84 confirm the Meta dispute escalated with a court equal-treatment order, and headlines 44, 83 show UN involvement, but no headline mentions a formal OAS filing, making the specific international-body detail over-specific."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline 51 ('Brazil probing criminal origin of forest fires: minister to AFP') confirms the criminal-ignition probe is in the headlines, but the language is 'probing' rather than 'preliminary findings published,' so the expected outcome is still in motion."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The reality bulletin explicitly lists 'Shorter workweek approved' as no longer in the headlines, and no headline in this collection references it."
+          }
+        },
+        "archer_note": "X correctly identified all three dominant stories and the fade, showing strong category-level judgment. Its consistent error was timing: it expected outcomes and findings to be announced rather than the process still unfolding, placing each item one step ahead of where the news cycle actually sat. The OAS filing was a plausible but unconfirmed mechanism; the UN and domestic court were the actual vehicles, making the main thesis right but the procedural detail slightly early."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in this collection reports 'Amazon deforestation record low' as a story; the Amazon appears only in the context of Indigenous voter transportation (23, 65) and a gold-mine permit suspension (50)."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 1, 2, 3, 6, 12, 17, 34, 37, 68, 75, 79, 87, 110 confirm the runoff race is present and dominant, but the bulletin's 'persist at the same level' undersells a story that the reality bulletin labels 'dominant and escalating.'"
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'Shorter workweek approved' as no longer in the headlines, directly contradicting the bulletin's expectation that it would persist at the same level."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "No headline in this collection reports the Amazon deforestation record low as a continuing story, contradicting the bulletin's 'persist' expectation for the fade call."
+          }
+        },
+        "archer_note": "Y's lead choice of 'Amazon deforestation record low' was the weakest anchor, as that story was barely present in this collection. Its 'persist' calls for both the workweek and deforestation were contradicted by reality, where the workweek faded and deforestation was not a visible thread. The main thesis of 'more of the same' was too passive for a week defined by the final campaign sprint, the Meta court battle, and the tied polls."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines 1, 2, 3, 17, 34, 52, 75, 80, 87 show televised debates; 6, 12, 18, 37, 68, 79, 110 show concurrent tied-poll releases; and 13, 86, 89, 92 show last-minute campaign promises, matching the 'final campaign sprint' sign precisely."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines 76, 84 confirm the court equal-treatment order and headlines 58, 67, 72, 88 confirm Meta's public rebuttal, but no headline mentions an OAS filing, making that specific detail over-specific while the broader category is correct."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline 51 confirms the criminal fire probe is in the headlines, but the bulletin's expectation of 'preliminary findings published' and the deforestation milestone as a 'campaign scoreboard' are not clearly reflected in any headline."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The reality bulletin confirms 'Shorter workweek approved' is no longer in the headlines, and no headline in this collection references it."
+          }
+        },
+        "archer_note": "Z's lead was the most precise match to the actual headlines, capturing debates, polls, and the razor-thin margin in a way that the other bulletins did not. The OAS filing in the second item was the one specific procedural detail that did not materialize, though the court order and Meta rebuttal were both confirmed. The main thesis was right and well-calibrated to the actual news cycle, with only minor over-specification on the international mechanism."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X correctly identified all three dominant stories (runoff, Meta, fires) and the fade, while Y's lead (deforestation record low) was barely present and its 'persist' calls for the workweek and deforestation were both contradicted. X's items were all at least true_in_direction, whereas three of Y's four items did not appear as predicted."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Z's lead (final campaign sprint with debates and tied polls) matched the actual headlines more precisely than X's lead, which expected the vote outcome to already be announced. Both bulletins got the Meta and fire stories in the right category, but Z's sign for the Meta item (court order plus Meta rebuttal) was more fully confirmed than X's (OAS filing), giving Z a slight edge on specificity."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -2.0,
+          "reason": "Z identified the actual dominant stories with specificity (debates, polls, court order, Meta rebuttal) while Y's lead (deforestation) was barely in the headlines and its persist calls were contradicted. Z earned two came_true grades and two true_in_direction grades, whereas Y earned only one true_in_direction and three did_not_appear grades."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 2.0,
+      "plain_vs_crystal": 1.0,
+      "persistence_vs_crystal": 2.0
+    },
+    "v": -1.0,
+    "u": -2.0,
+    "first_listed_wins": 3,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nBrazil's week was dominated by the tight presidential runoff between the Bolsonaro camp and Lula, with multiple polls showing a narrow Bolsonaro or Flavio Bolsonaro lead. The Senate delivered Lula a major legislative win by approving a shorter five-day workweek, a campaign promise that energized his base ahead of the runoff. Simultaneously, Brazil announced that Amazon deforestation had fallen to its lowest level since 1988, a historic environmental milestone credited to Lula's policies but also a key issue in the race. A storm broke over Meta after Brazil's electoral court found the platform exhibited anti-Lula algorithmic bias, and Lula's party announced it would take the case to the OAS. In the Amazon, a surge of wildfires prompted a government investigation into whether the fires were criminal or coordinated, adding urgency to the environmental debate. On the economic front, US tariffs struck Brazil's manufacturing sector while market euphoria masked a growing\n- Amazon deforestation record low (dominant, new): Brazil announced that deforestation in the Amazon fell to its lowest level since 1988, a historic achievement credited to Lula's environmental policies.\n- Bolsonaro vs Lula runoff race (dominant, continuing): Polls consistently showed a razor-thin Bolsonaro or Flavio Bolsonaro lead over Lula ahead of the second-round vote, with both sides scrambling for endorsements and campaign energy.\n- Shorter workweek approved (dominant, new): The Senate passed a bill abolishing the six-day workweek in favour of a five-day week, fulfilling a major Lula campaign promise.\n- Meta anti-Lula bias ruling (regular, escalating): Brazil's electoral court found Meta guilty of algorithmic bias against Lula, Meta employees said his accounts were hindered, and Lula's party announced it would escalate the case to the OAS.\n- Amazon wildfires surge (regular, escalating): A sharp increase in Amazon fires, partly driven by El Niño, prompted a government probe into whether the fires were criminal or deliberately coordinated.\n- Economic signals and debt (regular, continuing): Economic activity edged up before the runoff but analysts warned that market euphoria was masking a surging public-debt problem, while US tariffs hurt the manufacturing sector.\n- Right-wing Congress vs Bolsonaro's judge (occasional, new): Brazil's incoming right-wing Congress took aim at the judge who jailed Bolsonaro, signalling post-election institutional battles.\n- Lula campaign moves (regular, continuing): Lula resorted to selfie videos, pledged free weekend transit, and defended lowering the criminal-responsibility age to 16 in an effort to close the polling gap.\n- Right-wing influencers and election betting (occasional, continuing): Right-wing influencers rallied around the Bolsonaro camp while election-betting odds were dubbed pseudo-polls, adding noise to the race.\n\nRound 2026-10-02:\nBrazil held its first-round presidential election on October 4, 2026. Flávio Bolsonaro finished first and Lula second, triggering a two-candidate runoff set for October 25. The right captured sweeping gains in Congress. Brazilian financial markets surged: the Ibovespa neared all-time highs, the real strengthened, and foreign inflows into equities hit record levels. A bomb scare occurred outside the Supreme Court (STF), and the United States and Australia suspended consular services ahead of voting, heightening diplomatic friction. Student marches and 'Never again Bolsonaro' protests energized the left in Rio, São Paulo, and Brasília. Lula's team began openly testing the idea of naming Vice President Geraldo Alckmin as finance minister to signal fiscal responsibility to markets and centrists. Flávio Bolsonaro's camp unveiled a 'big scissors' austerity plan focused on spending cuts and tax reform. Donald Trump publicly backed Flávio. Environmental groups warned that a right-heavy Congress would weaken Amazon protections. The electoral\n- Flávio Bolsonaro wins first place and (regular, continuing): Flávio Bolsonaro wins first place and Lula finishes second in the October 4 first round of the presidential election.\n- Brazilian markets surge: Ibovespa approaches record (regular, continuing): Brazilian markets surge: Ibovespa approaches record levels, the real strengthens, and foreign equity inflows hit record highs.\n- A bomb scare is reported outside (regular, continuing): A bomb scare is reported outside the Supreme Court in Brasília, prompting a heightened security response.\n- The United States and Australia suspend (regular, continuing): The United States and Australia suspend consular services in Brazil ahead of the first-round vote, citing security concerns.\n- Student-led 'Never again Bolsonaro' marches take (regular, continuing): Student-led 'Never again Bolsonaro' marches take to the streets in Rio, São Paulo, and Brasília.\n- Student-led 'Never again Bolsonaro' marches take (again) (regular, continuing): Student-led 'Never again Bolsonaro' marches take to the streets in Rio, São Paulo, and Brasília.\n",
+    "PREVIOUS_FORECAST": "Lead: Runoff final campaign sprint. Expected: The two presidential camps will launch a full-throttle final campaign sprint of road rallies, televised debates, and last-minute endorsement drives in the stretch before the runoff ballot, with polling gaps holding at a razor-thin margin. Direction: escalate. Sign: Headlines will carry rally crowd descriptions, televised debate reactions, and concurrent poll releases as the presidential race tightens between the two camps\nSecond: Meta and OAS escalation. Expected: Lula's party will formally file its interference complaint with the OAS accusing Meta of algorithmic bias, and a Brazilian court will compel the platform to give both runoff candidates equal treatment before the vote. Direction: escalate. Sign: Headlines will report the OAS filing, Meta's public rebuttal, and a court equal-treatment order as fresh procedural steps in the platform dispute\nThird: Amazon fires and deforestation debate. Expected: The government's criminal probe into the wildfire surge will publish preliminary findings on whether the fires were coordinated or deliberate, and both camps will seize the record-low deforestation milestone as a decisive policy contrast in their final speeches. Direction: persist. Sign: Headlines will quote probe conclusions on coordinated or criminal fires and frame the deforestation milestone as a campaign scoreboard\nFade call: Shorter workweek approval. Expected: fade. Sign: The shortened workweek will appear only as a campaign talking point rather than as fresh legislative news\nSurprise (chance low): Banco Master probe expansion. Investigators will name a senior figure in the Bolsonaro camp or a key ally in the Banco Master financial probe, injecting a late-week scandal into the final campaign stretch and forcing a reactive rally or press conference.\nSummary: Next week is Brazil's final campaign sprint before the presidential runoff. Both Lula and the Bolsonaro camp will saturate television, social media, and the road with last-minute rallies and debates while polling gaps stay razor-thin. The Meta case will move to the OAS as Lula's party formally lodges its interference complaint, and a Brazilian court will compel the platform to give both candidates equal algorithmic treatment. In the Amazon, the government's probe into the wildfire surge will release preliminary findings on whether the fires were criminal or coordinated, and both camps will brandish the record-low deforestation number as proof of their policy track. The shortened workweek, already passed by the Senate, will recede from front pages into campaign rhetoric. A late Banco Master probe expansion could rattle the Bolsonaro camp. Markets will watch the debt trajectory with growing unease even as the Ibovespa holds near record levels.\n",
+    "JUDGE_NOTES": "- lead: came_true. Headlines 1, 2, 3, 17, 34, 52, 75, 80, 87 show televised debates; 6, 12, 18, 37, 68, 79, 110 show concurrent tied-poll releases; and 13, 86, 89, 92 show last-minute campaign promises, matching the 'final campaign sprint' sign precisely.\n- second: true_in_direction. Headlines 76, 84 confirm the court equal-treatment order and headlines 58, 67, 72, 88 confirm Meta's public rebuttal, but no headline mentions an OAS filing, making that specific detail over-specific while the broader category is correct.\n- third: true_in_direction. Headline 51 confirms the criminal fire probe is in the headlines, but the bulletin's expectation of 'preliminary findings published' and the deforestation milestone as a 'campaign scoreboard' are not clearly reflected in any headline.\n- fade_call: came_true. The reality bulletin confirms 'Shorter workweek approved' is no longer in the headlines, and no headline in this collection references it.\nArcher note: Z's lead was the most precise match to the actual headlines, capturing debates, polls, and the razor-thin margin in a way that the other bulletins did not. The OAS filing in the second item was the one specific procedural detail that did not materialize, though the court order and Meta rebuttal were both confirmed. The main thesis was right and well-calibrated to the actual news cycle, with only minor over-specification on the international mechanism.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

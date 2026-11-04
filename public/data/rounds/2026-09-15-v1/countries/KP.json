@@ -1,0 +1,362 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "KP",
+ "name": "North Korea",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T12:37:40+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "North Korea conducted missile launches and a large live-fire artillery exercise, with state media declaring huge destructive power and demanding a more offensive posture. Kim Yo Jong publicly attacked the IAEA, declared the nuclear status irreversible, and the vice defence minister justified expanding the nuclear force in response to US-led arms buildup. North Korean troops, workers, and drone-production links with Russia deepened materially, with reports of up to 25,000 workers in Russian factories, fake student visas, and Kim Jong Un sacred-war language framing the alliance. South Korea stated that Trump clearly wanted dialogue with Pyongyang, opening a diplomatic channel. A South Korean court ordered 32.5 million dollars in damages over the 2020 liaison-office demolition. Seismologists recorded nearly 1,400 quakes around Punggye-ri since 2017, suggesting ongoing tunnel work. North Korean teams competed at the Asian Games, winning in women's football, while an anthem mix-up embarrassed organizers. Japan's coast guard rescued North Korean sailors, creating a small diplomatic awkwardness. The regime balanced military signaling, economic survival, and internal legitimacy management.",
+  "key_events": [
+   {
+    "event": "North Korea launched short-range ballistic missiles and conducted a live-fire artillery exercise declared to prove huge destructive power.",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Kim Yo Jong declared the nuclear status irreversible and attacked the IAEA as one-sided and absurd.",
+    "date": null,
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "Reports confirmed up to 25,000 North Korean workers in Russian drone and ammunition factories, some on fake student visas.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "A South Korean court ordered 32.5 million dollars in damages over the 2020 liaison-office demolition.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   },
+   {
+    "event": "Japan's coast guard rescued North Korean sailors, creating a minor diplomatic obligation for both sides.",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 2
+   }
+  ],
+  "mood": "escalating",
+  "intensity": 6,
+  "domains_active": [
+   "security",
+   "diplomacy",
+   "economy"
+  ],
+  "emojis": [
+   "🚀",
+   "☢️",
+   "🤝"
+  ],
+  "emoji_reasons": [
+   "Missile launches and live-fire drills dominate the week's military signaling.",
+   "The nuclear program is being hardened publicly with irreversible-status declarations and Punggye-ri seismic activity.",
+   "The North-Russia practical exchange of workers, drones, and diplomatic cover is the clearest structural shift."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text's most likely scenario is a week of managed military escalation and hard rhetoric. North Korea fires one or more short-range ballistic missiles toward the Sea of Japan or runs a live-fire artillery exercise, and state media celebrates the result. A senior official, most probably Kim Yo Jong, publicly declares the nuclear status irreversible and calls the IAEA resolution absurd. KCNA reacts to the South Korean court's 32.5 million dollar damages ruling by labeling it an imperialist insult. Wire services report a new group of North Korean workers arriving at a Russian drone-production facility. Kim Jong Un makes a visible public appearance at a military or industrial site to reinforce leadership continuity. The overall tone is loud military theater, hard nuclear language, deeper Russia entanglement, and a diplomatic door left open but not yet pushed through for a full summit.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "North Korea launches one or more short-range ballistic missiles toward the Sea of Japan or conducts a long-range artillery live-fire exercise broadcast on KCNA.",
+    "probability": 0.7,
+    "domain": "security"
+   },
+   {
+    "id": "N2",
+    "text": "Kim Yo Jong or the vice defence minister tells state media that North Korea's nuclear status is irreversible and the IAEA resolution is one-sided and absurd.",
+    "probability": 0.85,
+    "domain": "politics"
+   },
+   {
+    "id": "N3",
+    "text": "KCNA publishes a statement calling the South Korean court's 32.5 million dollar liaison-office damages ruling an imperialist insult and proof of Seoul's hostility.",
+    "probability": 0.7,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N4",
+    "text": "Wire services or state media report that a new group of North Korean workers arrives at a Russian drone-production facility in Tatarstan or another region.",
+    "probability": 0.6,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "North Korean state media broadcasts footage of Kim Jong Un inspecting a military unit, missile base, or industrial facility.",
+    "probability": 0.4,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.12."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading weighs the text's full scenario distribution rather than its single top case. While missile launches and IAEA rhetoric remain the most probable events, the text's own caveats about Trump signaling slowing launches, the Punggye-ri seismic cluster suggesting possible underground work or a test, and the awkward Japan-North Korea sailors situation all shift the probability mass. The text explicitly notes that a Trump message to Kim would reduce launch frequency, that 1,400 quakes near the nuclear site hint at preparation, and that the rescued sailors create a small but real diplomatic channel. The crystal forecast therefore lowers the pure-military-escalation probability, raises the weight on a quiet seismic or nuclear-site development, and elevates the Japan-North Korea sailors episode and a backchannel diplomatic signal as checkable events that the headline-case reading overlooks entirely.",
+  "reasoning": "The naive reading takes the 65-75 percent missile-launch probability and 80-90 percent rhetoric probability at face value and fills all five slots with the text's top-listed predictions. The crystal reading does three different things: first, it includes the Punggye-ri seismic scenario at 0.15, which the text lists as a lower-probability but explicitly described possibility that the naive reading skips; second, it includes the Japan-North Korea sailors diplomatic statement at 0.30, another minority scenario the text describes in detail but that does not appear among the top predictions; and third, it adjusts the missile-launch probability down to 0.55 because the text itself states that a Trump-to-Kim message would slow launches, a caveat the naive reading ignores. Together these changes reflect the text's genuine uncertainty about whether the week will be purely military or will also include quiet diplomatic and seismic developments.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "North Korea launches one or more short-range ballistic missiles toward the Sea of Japan.",
+    "probability": 0.55,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "A senior North Korean official publicly declares the nuclear status irreversible and denounces the IAEA resolution on state media.",
+    "probability": 0.8,
+    "domain": "politics"
+   },
+   {
+    "id": "C3",
+    "text": "Seismologists detect a magnitude-2.5-or-greater event near the Punggye-ri test site, and KCNA attributes it to underground engineering or construction work.",
+    "probability": 0.15,
+    "domain": "security"
+   },
+   {
+    "id": "C4",
+    "text": "Japan and North Korea issue a diplomatic statement, joint or separate, confirming the return of North Korean sailors rescued by the Japanese coast guard.",
+    "probability": 0.3,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C5",
+    "text": "South Korea's presidential office announces that a backchannel message or special envoy communication has been delivered to Pyongyang.",
+    "probability": 0.3,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.12."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Loud Missiles, Hard Rhetoric, Quiet Diplomacy Ahead",
+  "emojis": [
+   "🚀",
+   "☢️",
+   "🕊️"
+  ],
+  "emoji_reasons": [
+   "The most probable event is another missile or artillery launch broadcast on state media.",
+   "Sharp nuclear rhetoric against the IAEA is the highest-confidence prediction in the text.",
+   "A diplomatic opening around Trump-Pyongyang talks is the key counterweight to military escalation."
+  ],
+  "tldr": "North Korea will keep launching missiles and firing nuclear rhetoric at the IAEA and US drills, deepen practical Russia ties through workers and drones, and leave a diplomatic door open for Trump-Pyongyang talks. No major summit or full crisis is expected this week.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will North Korea conduct at least one more missile or artillery launch or live-fire drill in the week of October 1 through 8, 2026?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: at least one more missile or artillery launch / live-fire drill",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q2",
+    "text": "Will North Korean state media or a senior official issue sharp rhetoric criticizing the IAEA and US-led drills in the coming week?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: sharp official rhetoric against the IAEA, US drills and 'double standards'",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q3",
+    "text": "Will there be reports of additional North Korean workers or troops moving to Russia or further public emphasis on the North-Russia relationship in the coming week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: more emphasis on Russia cooperation",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q4",
+    "text": "Will public diplomatic signaling indicate that dialogue between Washington, Seoul and Pyongyang is possible in the coming week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: diplomatic signaling between Washington, Seoul and Pyongyang",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q5",
+    "text": "Will North Korea respond sharply in state media to the South Korean court ruling ordering damages over the 2020 liaison office demolition?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The $32.5 million damages order over the 2020 liaison office demolition will probably get a sharp North Korean response.",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q6",
+    "text": "Will North Korea conduct a full nuclear test in the week of October 1 through 8, 2026?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A full nuclear test in exactly the next 7 days is possible but not the base case.",
+    "legacy_probability": 0.12
+   },
+   {
+    "id": "Q7",
+    "text": "Will more news reports emerge about North Korean workers in Russian drone production facilities in the coming week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: more reports on North Korean workers in Russia",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q8",
+    "text": "Will the incident of Japan rescuing North Korean sailors produce a minor diplomatic friction or official statement between Tokyo and Pyongyang in the coming week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Japan-North Korea minor diplomatic friction over rescued sailors",
+    "legacy_probability": 0.3
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that North Korea launches one or more short-range ballistic missiles toward the Sea of Japan?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that A senior North Korean official publicly declares the nuclear status irreversible and denounces the IAEA resolution on state media?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.8",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that Seismologists detect a magnitude-2.5-or-greater event near the Punggye-ri test site, and KCNA attributes it to underground engineering or construction work?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.15",
+    "legacy_probability": 0.15
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that Japan and North Korea issue a diplomatic statement, joint or separate, confirming the return of North Korean sailors rescued by the Japanese coast guard?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that South Korea's presidential office announces that a backchannel message or special envoy communication has been delivered to Pyongyang?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   }
+  ]
+ },
+ "single_forecaster": true
+}

@@ -54,6 +54,16 @@ done
 say "Building the text-method data (Bible 13.22)..."
 "$REPO_DIR/.venv/bin/python" pipeline/publish_text.py
 
+say "Putting public/ on GitHub (Site Folder Law: a pull on any computer must give the full website)..."
+git add -A public
+if ! git diff --cached --quiet -- public; then
+  git commit -q -m "publish: update public/ ($(date '+%Y-%m-%d %H:%M'))" -- public
+fi
+git push || { say "git push FAILED. public/ is NOT on GitHub; the other computer will not see this round. Fix this before telling anyone it is published."; exit 1; }
+if [ -n "$(git status --porcelain --ignored public | grep -E '^(!!|\?\?)')" ]; then
+  say "public/ has ignored or untracked files. NOT fully on GitHub."; exit 1
+fi
+
 if pgrep -x caddy >/dev/null 2>&1; then
   say "Websites are ON. The new round is live at https://www.strulovitz.org/crystal-balls/"
 else

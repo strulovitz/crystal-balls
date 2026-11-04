@@ -1,0 +1,901 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "UA",
+  "name": "Ukraine",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T23:26:25+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Ukraine's week was dominated by a satellite communications crisis and a sharp public feud between President Zelensky and US President Trump. Elon Musk ordered a slowdown of Starlink and Starshield speeds in Ukraine, crippling drone operations and air-defense coordination for roughly a week. After Trump phoned Musk and US lawmakers demanded an investigation, Ukraine declared the service restored, though mixed messages persisted. In diplomacy, Melania Trump brokered a one-city humanitarian ceasefire in the Russian-occupied town of Oleshky, and US envoy Steve Witkoff met Putin in Russia, after which both sides agreed to resume three-way talks in early November, reportedly in Abu Dhabi. Putin floated a summit with Trump and Xi that would exclude Zelensky, deepening Kyiv's frustration. On the battlefield, Russia struck Kyiv and twelve other regions with missiles and cluster munitions, while Ukraine launched over 1,000 drones at Russia, hitting St. Petersburg, Putin's hometown Volgograd, data centers, and oil facilities. The two sides also swapped 270 prisoners each, and Ukraine completed its first-ever battlefield drone evacuation of an injured soldier. US-Patriot missile shipments were delayed, and intelligence-sharing gaps briefly worried Kyiv before being restored.",
+    "key_events": [
+      {
+        "event": "Elon Musk ordered a Starlink and Starshield speed cap in Ukraine that crippled drone operations for about a week before being lifted after Trump intervened",
+        "date": "2026-10-20",
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "Melania Trump brokered a one-city humanitarian ceasefire in Russian-occupied Oleshky, allowing civilians to evacuate and aid to reach the town",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "US envoy Steve Witkoff met Putin in Russia and both sides agreed to resume three-way peace talks in early November",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Trump publicly criticized Zelensky and pushed Ukraine to make a deal, while Zelensky said the feud was not personal",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Ukraine launched more than 1,000 drones at Russia, striking St. Petersburg, Volgograd, data centers, and oil facilities",
+        "date": "2026-10-23",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Russian missiles and cluster warheads hit Kyiv and twelve other Ukrainian regions in the days after Witkoff's Russia visit",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Russia and Ukraine swapped 270 prisoners each, including a freed US citizen who said he was tortured in a Russian jail",
+        "date": "2026-10-21",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Ukraine completed its first-ever battlefield air evacuation of an injured soldier using a drone",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Ukraine partnered with Nokia and satellite maker ICEYE to develop a Starlink alternative amid the crisis",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "US Democratic and Republican lawmakers demanded an investigation into who ordered the Starlink slowdown in Ukraine",
+        "date": "2026-10-23",
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "technology",
+      "politics"
+    ],
+    "emojis": [
+      "🛰️",
+      "🕊️",
+      "🗣️"
+    ],
+    "emoji_reasons": [
+      "The Starlink and Starshield speed-cap crisis, ordered by Musk and lasting about a week, was the single most covered story across nearly every outlet (headlines 1, 4, 8, 9, 10, 14, 23, 33, 34, 37, 41, 52, 54, 73, 93, 117, 129, 138, 141, 152, 167, 199, 205, 217, 221, 238, 246).",
+      "Melania Trump's brokered ceasefire in Oleshky and the agreement to resume three-way peace talks in November defined the diplomatic track (headlines 7, 12, 15, 16, 18, 22, 26, 28, 29, 32, 35, 49, 61, 65, 116, 122, 133, 163, 185, 201, 211).",
+      "The public Trump-Zelensky feud, with Trump calling it 'time' for a deal and Zelensky saying it was not personal, dominated political coverage (headlines 2, 3, 21, 53, 60, 77, 89, 113, 120, 164, 175, 187, 197, 207, 210, 213, 219, 220, 237, 243)."
+    ],
+    "developments": [
+      {
+        "subject": "Starlink and Starshield speed crisis",
+        "what_happened": "Musk ordered a speed cap on Ukraine's Starlink and Starshield service that crippled drone and air-defense operations for about a week; after Trump called Musk and lawmakers demanded answers, Ukraine declared the service restored, though some officials reported lingering restrictions.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": [
+          1,
+          4,
+          8,
+          9,
+          10,
+          14,
+          17,
+          23,
+          25,
+          33,
+          34,
+          36,
+          37,
+          38,
+          40,
+          41,
+          47,
+          52,
+          54,
+          57,
+          71,
+          73,
+          93,
+          95,
+          104,
+          105,
+          107,
+          117,
+          129,
+          138,
+          141,
+          152,
+          155,
+          161,
+          166,
+          167,
+          172,
+          199,
+          205,
+          215,
+          217,
+          221,
+          238,
+          246
+        ]
+      },
+      {
+        "subject": "Oleshky one-city ceasefire",
+        "what_happened": "Melania Trump brokered a humanitarian ceasefire in the Russian-occupied town of Oleshky, allowing civilians to evacuate and aid convoys to enter; both the Kremlin and Kyiv confirmed the arrangement.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          12,
+          15,
+          16,
+          18,
+          22,
+          26,
+          28,
+          29,
+          32,
+          35,
+          61,
+          65,
+          133
+        ]
+      },
+      {
+        "subject": "Three-way peace talks and Witkoff-Putin meeting",
+        "what_happened": "US envoy Steve Witkoff met Putin in Russia, after which Moscow and Kyiv agreed to resume three-way negotiations in early November, reportedly in Abu Dhabi; Putin also floated a summit with Trump and Xi that would exclude Zelensky.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          48,
+          49,
+          51,
+          58,
+          70,
+          72,
+          85,
+          87,
+          91,
+          94,
+          102,
+          103,
+          106,
+          112,
+          115,
+          116,
+          122,
+          126,
+          127,
+          136,
+          137,
+          160,
+          162,
+          163,
+          171,
+          176,
+          178,
+          185,
+          195,
+          201,
+          204,
+          214,
+          218,
+          222,
+          227,
+          236,
+          249
+        ]
+      },
+      {
+        "subject": "Trump-Zelensky public feud",
+        "what_happened": "Trump criticized Zelensky for prolonging the war, pushed Ukraine to make a deal, and defended additional Russia sanctions waivers, while Zelensky publicly confronted Trump but insisted the clash was not personal.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          5,
+          21,
+          39,
+          53,
+          60,
+          77,
+          89,
+          96,
+          101,
+          113,
+          120,
+          123,
+          164,
+          175,
+          181,
+          187,
+          196,
+          197,
+          207,
+          210,
+          213,
+          219,
+          220,
+          224,
+          235,
+          237,
+          241,
+          243,
+          248,
+          250
+        ]
+      },
+      {
+        "subject": "Ukrainian drone strikes on Russia",
+        "what_happened": "Ukraine launched more than 1,000 drones at Russian targets including St. Petersburg, Volgograd (Putin's hometown), data centers, oil facilities, and Moscow-area airports, disrupting services and spurring inflation.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          6,
+          13,
+          43,
+          44,
+          68,
+          98,
+          111,
+          131,
+          156,
+          166,
+          179,
+          193,
+          206,
+          226,
+          228
+        ]
+      },
+      {
+        "subject": "Russian strikes on Kyiv and other regions",
+        "what_happened": "Russia hit Kyiv with missiles and cluster warheads and targeted twelve Ukrainian regions, including digital infrastructure and the power grid, in the days surrounding Witkoff's Russia visit.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          27,
+          30,
+          48,
+          55,
+          58,
+          70,
+          79,
+          86,
+          91,
+          102,
+          112,
+          115,
+          124,
+          135,
+          136,
+          137,
+          139,
+          155,
+          160,
+          170,
+          203,
+          223
+        ]
+      },
+      {
+        "subject": "US missile and intelligence-sharing friction",
+        "what_happened": "Ukraine accused the US of delaying Patriot missile shipments and withholding early-warning intelligence on Russian strikes; Rubio denied the pause, and Zelensky said intelligence sharing was restored after a call with Rubio.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          5,
+          63,
+          75,
+          108,
+          146,
+          154,
+          170,
+          184,
+          186,
+          191,
+          203,
+          211,
+          223,
+          240,
+          247
+        ]
+      },
+      {
+        "subject": "Prisoner swap and US citizen release",
+        "what_happened": "Russia and Ukraine exchanged 270 prisoners each, including a freed American who said he was tortured in a Russian jail; South Korea recalled some embassy staff over a separate POW-transfer dispute.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          121,
+          125,
+          134,
+          150,
+          158,
+          232
+        ]
+      },
+      {
+        "subject": "First drone battlefield evacuation",
+        "what_happened": "Ukraine completed its first-ever combat air evacuation, using a drone to rescue an injured soldier who had severed his own foot to survive.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          144,
+          157,
+          174,
+          190,
+          245
+        ]
+      },
+      {
+        "subject": "Ukraine seeking Starlink alternatives",
+        "what_happened": "After the Starlink crisis, Ukraine partnered with Nokia and satellite maker ICEYE to develop backup communications, and Canada's Carney warned the episode underscored the risk of relying on US tech.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          20,
+          83,
+          84
+        ]
+      },
+      {
+        "subject": "US political reaction to Starlink slowdown",
+        "what_happened": "Democratic and Republican lawmakers, including Elizabeth Warren and Roger Marshall, demanded investigations into who ordered the Starlink cap and its impact on Ukraine's defense.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          47,
+          105,
+          149,
+          161,
+          217,
+          246
+        ]
+      },
+      {
+        "subject": "Ukraine's winter energy and infrastructure push",
+        "what_happened": "Ukraine raced to secure energy supplies ahead of winter as Russia stepped up attacks on digital and power infrastructure, and Kyiv considered moving customs checks inside the EU to avoid drone threats.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          46,
+          99,
+          145
+        ]
+      }
+    ],
+    "gone": [
+      "Ukraine reported territorial gains in a",
+      "Hungary and Ukraine agreed to reset",
+      "Germany opened the trial of a"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide extensive, multi-source coverage of the Starlink crisis, diplomatic track, and military exchanges, though ground-level territorial developments and domestic Ukrainian politics are thinly represented."
+    },
+    "headlines_used": [
+      "Ukraine says Starlink back to normal after week of throttling",
+      "Ukraine and Russia eye new peace talks — and Melania Trump's mission — but steep obstacles remain",
+      "Zelensky doubtful on Russian acceptance of Trump's 'energy ceasefire'",
+      "Ukraine says Starlink connection 'now stable' after network limits",
+      "How reliant is Ukraine on US support – and could Kyiv carry on without it?",
+      "How Ukraine is targeting Russia's aviation and travel sectors with drone strikes on Moscow-area airports",
+      "Ukraine: Melania Trump affirme avoir obtenu un cessez-le-feu à Olechky, ville occupée par les forces russes",
+      "Ukraine Says Restrictions on Starlink Speed Have Been Lifted",
+      "Ukraine’s Military Starlink Is Working Again, Kyiv Says",
+      "Ukraine military says Starlink service restrictions have been removed",
+      "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+      "Melania Trump ‘secured ceasefire’ in Ukrainian city of Oleshky: White House",
+      "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
+      "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones",
+      "Melania Trump says she brokered truce in war-torn Ukrainian city",
+      "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "Trump says he will get Ukraine’s access to Starlink ‘straightened out’ after Ukrainian officials say restrictions remain",
+      "Russia, Ukraine agree to US-brokered, 1 city ceasefire",
+      "Guerre en Ukraine: comment Donald Trump est devenu la meilleure arme de Vladimir Poutine",
+      "Carney Says Ukraine Starlink Case Underscores Risk of US Tech Reliance",
+      "Zelensky Takes a Risk by Publicly Confronting Trump Over Russia",
+      "Russia and Ukraine agree to temporary ceasefire around occupied town of Oleshky",
+      "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+      "Germany arrests Ukrainian man accused of spying for Russia",
+      "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
+      "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
+      "Zelensky says fresh Russian strikes show 'no change' in Kremlin position",
+      "Global News Podcast | Melania Trump brokers ceasefire for Ukrainian city",
+      "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
+      "How Russia's relentless attacks on Kyiv have turned Ukraine's capital into a front-line city",
+      "Ukraine : l'aide américaine en question",
+      "US Says Russia, Ukraine to Let Civilians Leave War-Torn Area",
+      "Ukraine Says Starlink Isn’t Working, Despite Trump’s Promise to Restore It",
+      "Ukraine says Starlink speeds still throttled",
+      "Russia, Ukraine agree to Oleshky ceasefire brokered by Melania Trump, White House says",
+      "Ukraine’s access to Starlink a decision for Elon Musk, Rubio says",
+      "SpaceX's satellite connection renewed at over 400 km/h, Ukraine's defence minister says",
+      "Trump administration offers mixed messages on limits to Ukraine’s Starshield access",
+      "Zelensky, US hail 'productive' talks to end Trump feud",
+      "Who actually controls Ukraine's access to Starlink?",
+      "Ukraine’s defense ministry says access to Starshield has been restored",
+      "Poland's ex-president: Putin's war in Ukraine was a miscalculation",
+      "VIDÉO. Ukraine: pluie de missiles à Kiev et 600 drones ukrainiens ciblent la Russie",
+      "Russia Set to Hold Key Rate as Ukraine’s Strikes Spur Inflation",
+      "Exclusive | Trump Called Musk and Asked Him to Lift Ukraine Starlink Restrictions",
+      "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
+      "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
+      "Russian strikes hit Kyiv after Witkoff meets Putin",
+      "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+      "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again",
+      "US envoy to meet Putin after 'positive' talks with Zelensky",
+      "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "Why Zelensky insists it’s not personal with Trump — even though it is",
+      "Trump says Musk's Starshield system 'back' online in Ukraine after reports it had been capped",
+      "VIDÉO. Ukraine : 12 régions ukrainiennes visées par des bombardement russes",
+      "Pandering to Vladimir Putin Won’t Bring Peace to Ukraine",
+      "How Does the Ukrainian Military Use Starlink?",
+      "Russia drops cluster warheads on Kyiv after Witkoff-Putin peace talks",
+      "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
+      "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
+      "Russia, Ukraine agree to ceasefire in Ukrainian city hit by food crisis, brokered by Melania Trump",
+      "Israel orders West Bank closure after deadly shooting, Trump officials offer mixed messages on Ukraine’s Starshield",
+      "Ukraine claims US missile holdup ahead of reported talks",
+      "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+      "Melania Trump says she secured a one-city ceasefire between Russia and Ukraine",
+      "Ukrainian man arrested in northeastern Germany on suspicion of spying for Russia",
+      "Inquiétudes sur l'avenir des Forges de Tarbes et de ses corps d'obus utilisés en Ukraine",
+      "Russia Holds Key Rate as Ukrainian Strikes Spur Inflation",
+      "The Subterranean Battle Playing Out Deep in Ukraine’s Soviet-Era Pipelines",
+      "Russian missiles bombard Kyiv after Witkoff-Putin talks",
+      "Ukraine Starlink slowdown raises business risks for Elon Musk partners",
+      "Zelenskyy to hold talks on Russia-Ukraine war with Witkoff, Europeans",
+      "Ukraine says Starlink speed curbs remain despite Trump assurance",
+      "A Ukrainian soldier blinded in war hopes to see his children again, in photos",
+      "Ukraine claims US missile holdup as Trump floats summit without Zelensky",
+      "Veres Rivne vs Kolos Kovalivka: Ukraine Premier League stats & head-to-head",
+      "Nothing personal between me and Trump, Zelensky tells CNN",
+      "Germany news: Foreign Minister Wadephul says wars in Iran, Ukraine are bringing the 'threat of famine'",
+      "Zelensky estime que la Russie n'a pas \"changé d'attitude\" après des frappes sur l'Ukraine",
+      "Putin’s War On Ukraine Puts Oil Giant Rosneft Under Mounting Pressure",
+      "Trump Spoke to Musk About Ending Ukraine’s Starlink Speed Caps",
+      "Ukraine to buy military supplies via Nato agency",
+      "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+      "Is Russia stalking satellites which help Ukraine from space?",
+      "Zelenskiy says Ukrainian, Russian and US negotiators to meet in early November in Abu Dhabi",
+      "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+      "Zelensky, US envoys to hold Oslo talks as Ukraine claims US missile holdup",
+      "Dynamo Kyiv vs Kudrivka: Ukraine Premier League stats & head-to-head",
+      "Zelensky reacts to Putin being called ‘humanitarian by US envoy",
+      "Is Trump trying to end the war in Ukraine, or helping Putin win it?",
+      "Ukraine: sept morts dans des frappes après la visite de l'émissaire américain en Russie",
+      "Watch Russia Is Trying to Intensify War With Ukraine, Says Romania's President",
+      "Exclusive | Musk Ordered Starlink Slowdown That Blindsided Ukraine",
+      "EU scrambles for seat at the table in Ukraine talks",
+      "Trump called Elon Musk and asked him to lift Ukraine Starlink restrictions: WSJ",
+      "US-Ukraine relations sour as Trump, Zelenskyy clash over talks, arms",
+      "Trump says he will fix any Starlink access problem in Ukraine",
+      "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research",
+      "Ukraine races to secure energy supplies ahead of winter",
+      "Newcastle mother's search for son fighting for Russia in Ukraine",
+      "‘It’s not something personal between me and President Trump,’ Zelensky tells CNN's Amanpour",
+      "Ukraine, Russia trade overnight strikes after US envoy Steve Witkoff's St. Petersburg talks",
+      "Attaques réciproques de la Russie et de l'Ukraine après des pourparlers russo-américains",
+      "Trump Called Musk to Lift Ukraine Starlink Limits, WSJ Says",
+      "Lawmakers Call for Musk Probe Over Starlink Slowdown in Ukraine",
+      "Trump envoy proposes Ukraine talks and summit with Putin and Xi",
+      "CNBC Daily Open: Ukraine's Starlink whodunit",
+      "Rubio says there was no US pause in intelligence sharing with Ukraine",
+      "Trump and Burnham discuss North Sea oil, Ukraine and Falklands",
+      "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices",
+      "Kremlin says Ukrainian attacks won't change war aims as Kyiv hits Saint Petersburg",
+      "Ukraine hit by strikes after Russia agrees to new peace talks",
+      "Zelensky: If you give something to Putin, he will want everything",
+      "Russia's war in Ukraine: Life near the front line in Sloviansk",
+      "Ukraine: attaque de missiles sur Kiev après des pourparlers russo-américains",
+      "Putin Says Russia Ready for New Peace Talks With US, Ukraine",
+      "Musk Ordered Starlink Slowdown That Crippled Ukraine’s Drones and Sowed Panic in Kyiv",
+      "Trump envoys to hold fresh Ukraine talks in Norway",
+      "Former U.S. Ambassador to the EU: Putin believes he has the wind at his back in the Ukraine war",
+      "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+      "Russia and Ukraine swap 270 prisoners each",
+      "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "Zelensky speaks to US envoys as Trump lashes out",
+      "Global News Podcast | Ukraine comes under renewed Russian attack",
+      "Stephen Hubbard: Russia frees 74-year-old American captured in Ukraine, US envoy Steve Witkoff says",
+      "Putin proposed trilateral talks on Ukraine. What role will China play?",
+      "Ukraine: la diplomatie est relancée, Trump se réjouit, Moscou temporise",
+      "Ukraine Wouldn’t Exist Without Support From US, Rubio Says",
+      "Elon Musk’s Starlink Speed Cap Has Scrambled Ukraine’s Defenses",
+      "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
+      "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
+      "Children among six killed in Russian drone strike on Ukraine park",
+      "Kremlin confirms Oleshky ceasefire, says working with Ukraine on evacuation timing",
+      "Russia says it has detained a German who faces charges for serving in Ukrainian army",
+      "Ordinary day, extraordinary times: Kyiv under Russian attack",
+      "Newshour | Missiles hit Kyiv after Russia says it's 'ready' for peace",
+      "Massive strikes hit Kyiv hours after Putin agrees to fresh peace talks",
+      "Elon Musk ordered a slowdown of Starlink in Ukraine — report",
+      "VIDÉO. Guerre en Ukraine: Kiev essuye des attaques de drones russes",
+      "Wheat Hits 14-Week Low as Risk Premiums Ease on Ukraine Talks",
+      "Order to Slow Down Starlink for Ukraine Came From Musk",
+      "Zelenskyy, Europe and the end of Trump whispering",
+      "Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
+      "Injured Ukrainian soldier rescued in first-ever drone evacuation mission",
+      "Russia steps up attacks on Ukraine's digital infrastructure, Kyiv says",
+      "Zelenskyy says early warning system for Russian missile attacks resumes following call with Rubio",
+      "Ukraine takes Russia fight to 'scorching sands' of Sahel",
+      "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
+      "Republican lawmaker vows \"consequences\" for Musk over Ukraine's Starlink access",
+      "Russia arrests German man, calls him a Ukraine 'mercenary'",
+      "La Russie et l'Ukraine prêtes à de prochaines négociations à trois avec les Américains",
+      "Musk Gave the Order to Slow Down Ukraine’s Starlink, WSJ Reports",
+      "‘The Mothers of Kherson’ Review: A Ukraine War Opera",
+      "Ukraine receives partial intelligence on Russian ballistic missile strikes",
+      "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+      "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "A Ukrainian soldier severed his own foot to survive. Then came a dramatic rescue.",
+      "South Korea to withdraw some embassy staff from Ukraine as row over POW transfer deepens",
+      "Zelensky says Trump could lift more Russia sanctions",
+      "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "Elizabeth Warren wants to know who made the decision to slow down a crucial satellite system used by Ukraine",
+      "US aims for new round of Russia-Ukraine negotiations",
+      "Le Kremlin prêt à des négociations Russie-Ukraine-Etats-Unis mi-novembre",
+      "Zelenskyy Touts Positive US Talks as Trump Puts Pressure on Kyiv",
+      "Opinion | The Ukraine ‘Kill Zone’ Is AI’s Testing Ground",
+      "St Petersburg endures biggest Ukrainian drone attack",
+      "Elon Musk ordered Starlink slowdown for Ukraine: Report",
+      "Russia’s war on Ukraine ‘must be brought to an end’, Zelenskyy says",
+      "Swedish defence group Saab's order bookings soar on back of Ukraine Gripen order",
+      "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
+      "Newshour | Russia says it will resume talks on ending Ukraine war",
+      "The big questions about who’s to blame for Starshield disruptions in Ukraine",
+      "Zelenskyy visits Norway amid Trump White House tensions",
+      "Vidéo verticale : Ukraine : premier sauvetage en drone",
+      "Zelenskyy’s Feud With Trump Endangers His Plan to Defend Ukraine",
+      "Exclusive | Putin Floats a Summit With Trump and Xi to Discuss Ukraine Deal",
+      "Europe Express Weekend: Where are Zelenskyy’s friends (when he needs them)?",
+      "Zelenskyy to meet with U.S. envoy as tensions with Trump mount",
+      "St Petersburg under attack from Ukrainian drone swarm",
+      "VIDEO: Drone rescue: A Ukrainian soldier's survival story",
+      "Trump’s shift on Ukraine pushes ties to new low, Europe faces autumn of protest",
+      "The Global Story | Who gets to decide Ukraine's future?",
+      "At the negotiating table and on the battlefield, Russia and Ukraine are at an impasse",
+      "Zelenskyy accuses US of delaying Patriot missile shipment",
+      "Ukraine : le Kremlin prêt à des négociations trilatérales mi-novembre",
+      "US Must Weigh Ukraine Missile Needs Against Others, Rubio Says",
+      "How Zelensky Decided to Take the Risk and Publicly Confront Trump",
+      "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+      "Rubio says Ukraine without access to Starshield, future ‘under discussion’",
+      "Ukraine video claims to show the first-ever battlefield air evacuation by a drone",
+      "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+      "The stakes of today’s meeting between Ukraine’s Zelensky & U.S. envoy Witkoff",
+      "Ukraine strikes Putin's hometown, as Trump eases pressure on Russia",
+      "Guerre en Ukraine: une enquête révèle qu'Elon Musk aurait ordonné le ralentissement du service satellitaire Starlink",
+      "Witkoff to Meet Russian Leadership on Ukraine, Norway PM Says",
+      "Inside Putin’s Bid to End the War in Ukraine on Moscow’s Terms | The 10-Point for October 19",
+      "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+      "Russia’s war in Ukraine puts Europe on edge",
+      "Trump says Musk restored Ukraine's Starlink access, declines to say if they spoke",
+      "Pope Leo XIV urges humanitarian cooperation between Ukraine and Russia during call with Zelenskyy",
+      "Russia-Ukraine war update: President Vladimir Putin meet Donald Trump special envoy Steve Witkoff on how to end conflict wit Ukraine",
+      "Democratic Senator on ‘Fierce’ Call with Ukrainian President Zelensky",
+      "Ukraine's Zelenskyy says partners gave 'no warning' ahead of Russian ballistic strikes",
+      "Rencontre en Russie entre Poutine et l'émissaire de Trump sur l'Ukraine",
+      "Watch Ukraine Hopes to Reconnect to Starlink in 48 Hours",
+      "Ukrainian Drone Strike Hits Putin’s Hometown, Striking Oil Terminal",
+      "Trump on Putin-Xi summit without Zelenskyy: I would do anything to stop the war",
+      "Will the EU come to Ukraine’s rescue in war against Russia?",
+      "Putin says talks must focus on security for Russia, Ukraine and Europe overall",
+      "Trump warns ‘it’s time’ for Ukraine to make a deal with Russia",
+      "Global News Podcast | Zelensky says US intelligence sharing is back on",
+      "Immigrants from Ukraine and Sudan to keep deportation protections for now",
+      "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'",
+      "'C'était positif': ce qu'il faut retenir des discussions entre Zelensky et Witkoff au sujet de la guerre en Ukraine",
+      "How US Satellites Became Crucial to Ukraine’s Defense",
+      "CNBC Daily Open: A Russia-Ukraine peace summit without Ukraine?",
+      "US Democratic senator probes Ukraine's loss of Starshield service",
+      "US ties with Ukraine hit new low as Trump slights Zelenskyy and eases up on Russia",
+      "Trump and Zelensky at loggerheads despite new optimism",
+      "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+      "Why Starlink is so important for Ukraine",
+      "L'émissaire de Trump en Russie pour une rencontre avec Poutine sur l'Ukraine",
+      "Ukraine Suspects US Blocking Intelligence on Russian Attacks",
+      "CNBC Daily Open: A thousand drones and one strained U.S.-Ukraine alliance",
+      "Russia-linked hackers used decentralised network in Ukraine cyberattack, ESET says",
+      "Ukraine launches more than 1,000 drones at Russia as spat between Trump and Zelenskyy continues",
+      "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
+      "Ukraine launches one of its biggest drone attacks on Russia this year",
+      "Ukraine apologizes after a suspected drone crashes in Lithuania, damaging a moving car.",
+      "Zelenskyy Goes to Oslo for US Talks as Trump Tensions Mount",
+      "Former U.S. Navy Captain Brent Sadler on the latest developments in the Russia-Ukraine war",
+      "South Korea repatriates aid worker from Ukraine over safety, Yonhap says",
+      "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump",
+      "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation",
+      "Trump waives more Russia sanctions as feud with Zelensky deepens | CNN Politics",
+      "Zelensky et les émissaires de Trump saluent des progrès, malgré les tensions",
+      "Zelenskyy Says Trump Is Pushing Ukraine, Not Putin, to Yield",
+      "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
+      "NEWSLETTER: Trump's midterm calculus scrambles Ukraine policy",
+      "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "U.S. enters a dangerous new chapter in Ukraine war",
+      "\"A l'abri, vite\": à Kiev, l'école vit au rythme des alertes aériennes",
+      "Watch Zelenskyy Says Trump Pushing Ukraine to Yield to Russia",
+      "Ukraine to be able to buy military supplies via NATO agency, FT reports",
+      "Watch: Russian saboteur working for Ukraine shares reconnaissance videos",
+      "Elon’s gone from friend to foe in Ukraine",
+      "Ukraine : Zelensky salue le rétablissement du partage du renseignement américain",
+      "Trump Delays Decision on Ukraine, Sudan Migrants Before Midterms",
+      "As Russia penalises European firms over Ukraine, US rivals largely spared",
+      "The Global Story | Is Trump sacrificing Ukraine for cheaper diesel?"
+    ],
+    "converted": false,
+    "relevant_headlines": 297,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Starlink and Starshield speed crisis",
+        "expected": "Starlink and Starshield speed crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Starlink and Starshield speed crisis appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Oleshky one-city ceasefire",
+        "expected": "Oleshky one-city ceasefire stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Oleshky one-city ceasefire appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Three-way peace talks and Witkoff-Putin meeting",
+        "expected": "Three-way peace talks and Witkoff-Putin meeting stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Three-way peace talks and Witkoff-Putin meeting appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Oleshky one-city ceasefire",
+        "expected": "persist",
+        "sign": "Oleshky one-city ceasefire is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Starlink and Starshield speed crisis stays in the news at the same level. Oleshky one-city ceasefire stays in the news at the same level. Three-way peace talks and Witkoff-Putin meeting stays in the news at the same level. Oleshky one-city ceasefire is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Starlink political fallout and backup systems",
+        "expected": "US lawmakers will advance formal congressional inquiries into who authorized the Starlink speed cap, forcing a public reckoning over satellite control in wartime.",
+        "direction": "de-escalate",
+        "sign": "Headlines will report on congressional investigations into the Starlink cap and on the first operational test of Ukraine's new backup satellite link built with Nokia and ICEYE."
+      },
+      "second": {
+        "subject": "Oleshky ceasefire implementation and November talks preparation",
+        "expected": "Humanitarian convoys will enter the Oleshky sector under the ceasefire as both sides lock in evacuation timelines for trapped civilians ahead of the Abu Dhabi summit.",
+        "direction": "persist",
+        "sign": "Headlines will describe evacuation convoy movements, humanitarian aid deliveries, and diplomatic shuttle activity as Ukrainian and US delegations finalize the trilateral negotiating agenda."
+      },
+      "third": {
+        "subject": "Ukrainian drone campaign and Russian retaliatory strikes",
+        "expected": "Ukraine will expand its drone campaign against Russian energy and aviation infrastructure, triggering fresh retaliatory missile barrages on Kyiv's power grid as winter approaches.",
+        "direction": "persist",
+        "sign": "Headlines will report new Russian cities hit by Ukrainian drones and fresh cluster-warhead barrages on Ukrainian energy and digital infrastructure."
+      },
+      "fade_call": {
+        "subject": "Trump-Zelensky public clash",
+        "expected": "fade",
+        "sign": "Headlines will shift from personal jabs and CNN interviews to diplomatic language about constructive dialogue and joint statements ahead of the trilateral meeting."
+      },
+      "surprise": {
+        "subject": "NATO agency arms purchase",
+        "expected": "Ukraine will announce a concrete first batch of weapons purchased through the NATO agency, marking a structural shift in how Kyiv sources military hardware beyond bilateral US deals.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Ukraine's news cycle will pivot from crisis to preparation. The Starlink speed cap will settle into a political afterglow as US lawmakers push formal inquiries and Kyiv demonstrates its new backup satellite links. The Oleshky humanitarian ceasefire will move from announcement to implementation, with convoys entering the occupied town and both sides locking in evacuation schedules. Ahead of the early-November Abu Dhabi trilateral talks, Ukrainian and US delegations will finalize their negotiating positions, while the Trump-Zelensky personal clash will soften into diplomatic language. On the battlefield, Ukraine will keep hammering Russian energy, aviation, and digital targets with drones, and Russia will answer with missile barrages on Kyiv's power grid as winter approaches. A less obvious development will be Ukraine's first concrete arms purchase through the NATO agency, signaling a structural shift in how Kyiv sources weapons beyond bilateral US deals.",
+      "generated_at": "2026-10-24T23:03:25+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Oleshky ceasefire implementation and Abu Dhabi talks preparation",
+        "expected": "The Oleshky humanitarian ceasefire will be put into practice as civilian evacuations and aid convoys enter the occupied town, with both capitals using the arrangement to frame their positions for the upcoming three-way negotiations.",
+        "direction": "escalate",
+        "sign": "Headlines will describe evacuation timelines, aid delivery details, and statements from both capitals about their negotiating positions, with the town name and the broker's name appearing repeatedly"
+      },
+      "second": {
+        "subject": "Ukrainian deep-strike drone campaign on Russian infrastructure",
+        "expected": "Ukraine will launch a large-scale drone operation targeting Russian oil refineries, data centers, and aviation infrastructure in multiple cities to pressure Moscow's economy ahead of the peace talks.",
+        "direction": "escalate",
+        "sign": "Headlines will name Russian cities and industrial facilities hit by Ukrainian drones, with commentary on the economic impact on fuel prices and digital services, framed as Ukraine's offensive bargaining chip"
+      },
+      "third": {
+        "subject": "Starlink political fallout and communications diversification",
+        "expected": "US lawmakers will advance formal inquiries into the Starlink speed restrictions, with congressional hearings and investigation letters becoming the dominant political storyline in Washington over the satellite access dispute.",
+        "direction": "de-escalate",
+        "sign": "Headlines will feature congressional hearing announcements or investigation letters, and Ukraine's defense ministry naming new satellite or telecommunications partners, with the framing shifting from crisis to restructuring"
+      },
+      "fade_call": {
+        "subject": "Trump-Zelensky public feud",
+        "expected": "fade",
+        "sign": "The personal clashes will give way to more measured diplomatic language as both leaders focus on the upcoming negotiations, with fewer direct quotes of criticism and more references to productive dialogue"
+      },
+      "surprise": {
+        "subject": "Oleshky ceasefire expansion to a second city",
+        "expected": "Russia will announce the Oleshky model as a template for a second humanitarian corridor in another occupied town, using the expanded ceasefire as a negotiating gift before the three-way talks.",
+        "chance": "low"
+      },
+      "summary": "Next week, Ukraine's narrative will shift from the Starlink crisis to implementing the Oleshky ceasefire and preparing for three-way negotiations. Civilian evacuations and aid convoys will dominate headlines as the one-city truce is tested, while both Kyiv and Moscow state their red lines. Ukraine's drone offensive will intensify, with strikes on Russian refineries, data centers, and airports serving as both a military tool and a bargaining chip. In Washington, lawmakers will push formal inquiries into the Starlink restrictions, and Ukraine will announce new satellite partnerships to reduce technological dependence. The Trump-Zelensky feud will soften as diplomacy takes center stage, though tensions over sanctions and military aid will surface. Russia will keep striking Ukrainian energy infrastructure, and the winter energy race will accelerate. The overall tone will be cautious momentum: concrete diplomatic steps are being taken, but the gap between the two sides remains wide, and the battlefield continues to shape the negotiating table.",
+      "generated_at": "2026-10-24T23:26:25+03:00"
+    }
+  },
+  "display": {
+    "headline": "Oleshky Truce Tested as Ukraine Preps for Abu Dhabi Talks",
+    "emojis": [
+      "🕊️",
+      "🛰️",
+      "💣"
+    ],
+    "emoji_reasons": [
+      "The Oleshky ceasefire and the upcoming three-way talks make peace diplomacy the week's central thread",
+      "The Starlink crisis aftermath and Ukraine's search for satellite alternatives keep space technology in the news",
+      "Ukraine's expanding drone strikes on Russian infrastructure and Russia's continued missile attacks on Ukrainian cities define the battlefield"
+    ],
+    "tldr": "Ukraine will implement the Oleshky ceasefire and position for November peace talks while its drone offensive on Russian infrastructure escalates. Washington's Starlink fallout will play out through lawmaker investigations, and Kyiv will announce new satellite partnerships. The Trump-Zelensky feud will soften as diplomacy takes the lead.",
+    "eli5": "Here is what is happening in Ukraine right now. A few weeks ago, the satellite internet service that Ukraine's military relies on got slowed down, which made it hard for Ukraine to control its drones and defend against Russian attacks. That crisis is mostly over, but it caused a big argument between Ukraine and the United States, and politicians in Washington still want answers.\n\nThe most important new development is that a small ceasefire was arranged in one occupied town called Oleshky. This means civilians can leave and aid trucks can get in. It is a tiny step, but it is the first concrete peace gesture in a while. Bigger three-way talks are planned for next month in the Middle East.\n\nWhat will probably happen next: the Oleshky ceasefire will be tested as people actually try to evacuate and aid convoys roll in. Ukraine's drone offensive on Russian refineries, data centers, and airports will keep escalating as a way to show Moscow it can still hurt the war effort. In Washington, lawmakers will push formal investigations into who ordered the satellite slowdown.\n\nWhat would surprise everyone: if Russia decides to expand the ceasefire to a second town as a gift before the big talks, that would be a genuine sign of movement. Or if Ukraine's drones hit something really important in Russia, that would change the whole mood of the negotiations."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The Starlink standoff was the dominant story and did escalate, but the specific sign of a 'formal Ukrainian complaint to the White House' tied to the sanctions package is over-specific; headlines [17], [45], [47], [105] show Trump calling Musk and lawmakers demanding investigations rather than a formal diplomatic protest linked to sanctions."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Ukrainian drone strikes on Russian refineries, data centers, and oil facilities ([98], [156], [166], [13]) paired with Russian missile barrages on multiple Ukrainian regions including Kyiv ([48], [55], [58], [86]) match the sign almost exactly."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "European involvement is present ([94], [208], [244], [169]) but no headline describes a specific 'concrete loan or aid tranche' with the EU named as 'primary peace-negotiating partner'; the framing is more about scrambling for a seat than announcing a package."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "No headlines in this round reference Klitschko resignation protests or city-hall demonstrations, consistent with the story fading from coverage."
+          }
+        },
+        "archer_note": "X missed the Oleshky ceasefire, the Witkoff-Putin meeting, and the Trump-Zelensky public feud as distinct dominant stories, folding the feud into the Starlink lead. It also missed the prisoner swap and the three-way talks resumption in Abu Dhabi. The main thesis of a deepening US-Ukraine rupture with Europe filling the gap was directionally correct but slightly early on the concrete European finance package."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Starlink/Starshield was indeed the dominant story ([1], [4], [8], [9], [10], [14], [17], [23], [33], [34], [52], [73], [117], [129], [138], [141], [152], [167]), but the 'persist' direction undersells the significant escalation with Trump calling Musk and lawmakers demanding probes, and the description is very generic."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Zelensky's skepticism about an 'energy ceasefire' appears in [3], but it is a minor thread compared to the dominant Oleshky humanitarian ceasefire ([12], [15], [16], [22], [26], [29], [35], [61], [65], [133]); the 'energy truce' framing is not the main ceasefire story."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Trump's sanctions waivers and his defense of them are clearly in the headlines: [120], [213], [235], [159], [233]."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The 'No longer in the headlines' section explicitly lists 'Germany opened the trial of a' as no longer present, contradicting the persist expectation."
+          }
+        },
+        "archer_note": "Y missed the Oleshky ceasefire, the Witkoff-Putin meeting, the Trump-Zelensky public feud, and the prisoner swap entirely, treating a week of major new developments as 'more of the same.' Its fade call on the German trial was contradicted by the reality bulletin. The main thesis was not wrong but was too inert to capture the escalation and the new diplomatic threads that dominated the collection."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "The US-Ukraine standoff with sanctions waivers, Starlink restrictions, lawmaker investigations, and public accusations between Kyiv and Washington is exactly what dominated: [120], [47], [105], [21], [187], [48], [58], [213], [235]."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "No headlines name specific Donetsk settlements changing hands under a 'Vivaldi operation' or publish casualty and equipment figures for that sector; battlefield coverage is dominated by drone strikes and Starlink rather than a ground counteroffensive."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "European stepping up is present ([94], [208], [244], [169]) but the specific sign of 'concrete weapon deliveries or budget measures' from named European governments is thinner; [244] (NATO agency purchasing) and [169] (Saab Gripen order) are the closest matches."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The 'No longer in the headlines' section lists 'Germany opened the trial of a' as no longer in the headlines, contradicting the persist expectation."
+          }
+        },
+        "archer_note": "Z missed the Oleshky ceasefire, the Witkoff-Putin meeting, the Trump-Zelensky public feud, and the prisoner swap as dominant stories. Its second item (Donetsk counteroffensive under Vivaldi) and fade call (Nord Stream trial persisting) were both contradicted by the headlines. The main thesis of a deepening Kyiv-Washington rift with Europe filling the gap was correct in direction, but the specific battlefield and legal predictions were off."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X correctly identified the Starlink story's escalation direction and produced a specific, verifiable second item (drone strikes on refineries paired with Russian barrages) that came true, while Y's 'more of the same' framing missed the escalation and the new dominant stories. X's fade call was correct whereas Y's was contradicted by the reality bulletin."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Z's lead is slightly more specific and its sign matches the headlines more precisely than X's over-specific 'formal diplomatic protest tied to sanctions' framing. However, X's second item came true while Z's second (Donetsk counteroffensive) did not appear, and X's fade call was correct while Z's was wrong, giving X a net edge."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Z's lead is more specific and its sign (sanctions waiver plus Starlink plus lawmaker investigation) matches the headlines more precisely than Y's generic 'persist at the same level' description. Z's third item on European aid is at least as grounded as Y's sanctions item, and Z's overall structure is more analytically useful despite both having one wrong fade call."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 2.0,
+      "plain_vs_crystal": 1.0,
+      "persistence_vs_crystal": -1.0
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThis week was dominated by a sharp deterioration in US-Ukraine relations, driven by two intertwined events: the Starlink and Starshield speed restrictions that hampered Ukraine's drone and military operations, and Ukraine's resumption of strikes on Russian oil refineries after Zelensky declared the US-brokered energy truce over. Trump's decision to waive new Russia sanctions on October 17 deepened the rift, with Kyiv calling it an encouragement for Putin while the Kremlin called it historic. On the battlefield, Russia conducted massive strikes on Ukrainian energy infrastructure, killing at least eight people and cutting power to over a million consumers across nine regions. Ukraine, however, reported territorial gains in a counteroffensive dubbed Operation Vivaldi in Donetsk, damaged six Russian military jets, and hit Russia's top data center. Europe stepped in to fill the diplomatic gap: Germany pledged fifty million euros and sought a debt-brake exemption, the UK sent additional Storm Shadow missiles, and\n- SpaceX limited Starlink and Starshield speed (regular, continuing): SpaceX limited Starlink and Starshield speed for Ukraine, reportedly at the White House's request, disrupting drone operations and military communications on the front line.\n- Zelensky declared the US-brokered energy truce (regular, continuing): Zelensky declared the US-brokered energy truce over and Ukraine resumed strikes on Russian oil refineries, which Trump called a disgrace.\n- Trump waived new Russia sanctions before (regular, continuing): Trump waived new Russia sanctions before they took effect, prompting Ukraine to condemn the move as an encouragement for Putin and US lawmakers to call for an investigation.\n- Russian strikes hit nine Ukrainian regions (regular, continuing): Russian strikes hit nine Ukrainian regions, killing at least eight civilians and cutting power to over one million consumers, with the foreign minister describing a Russian-held town as a death trap for starving residents.\n- Ukraine reported territorial gains in a (regular, continuing): Ukraine reported territorial gains in a counteroffensive called Operation Vivaldi in the Donetsk region and damaged six Russian military jets in a missile strike on an airfield.\n- Ukraine's drones hit Russia's top data (regular, continuing): Ukraine's drones hit Russia's top data center in an attack on the country's AI infrastructure, marking a new front in the technology dimension of the war.\n- Hungary and Ukraine agreed to reset (regular, continuing): Hungary and Ukraine agreed to reset bilateral ties, easing a long-running friction point over Ukraine's EU accession bid.\n- Germany opened the trial of a (regular, continuing): Germany opened the trial of a Ukrainian ex-military officer accused of involvement in the Nord Stream pipeline explosions, with defense lawyers arguing the pipelines were a lawful wartime target.\n\nRound 2026-10-02:\nAccording to the text, Russia was conducting a sustained winter air campaign against Ukraine, with heavy missile and drone strikes on power plants, substations, bridges, data centers, and residential districts, particularly in and around Kyiv. Several reports indicated Russia was now attacking in broad daylight. Major bridges in Kyiv, including the Northern Bridge, were damaged or closed, disrupting daily transport. Russia was spending at record levels on its military and expanding recruitment, while Putin was ruling out a ceasefire. Ukraine was responding with deep strikes on Russian refineries and pipeline hubs and had launched a 'Vivaldi' operation using robots and explosive-laden armored vehicles to recapture territory in northern Donetsk. German Chancellor Merz made an unannounced visit to Kyiv, and new aid packages of roughly one billion euros in military support plus 350 million for energy repairs were under discussion. The EU was conditioning faster loan payouts on anti-corruption and judicial\n- Russia launched a sustained air campaign (regular, continuing): Russia launched a sustained air campaign against Kyiv's energy infrastructure, bridges, and civilian districts using missiles and drones, including daytime strikes.\n- Ukraine launched the 'Vivaldi' operation using (regular, continuing): Ukraine launched the 'Vivaldi' operation using robots and explosive-laden armored vehicles to recapture territory in northern Donetsk.\n- German Chancellor Merz made an unannounced (regular, continuing): German Chancellor Merz made an unannounced visit to Kyiv to discuss new military aid of roughly one billion euros and 350 million for energy repairs.\n- A Liberian-flagged ship was attacked in (regular, continuing): A Liberian-flagged ship was attacked in Odesa port, squeezing Ukraine's grain export revenue.\n- A dispute with South Korea over (regular, continuing): A dispute with South Korea over a secret North Korean POW transfer created diplomatic friction between Seoul and Kyiv.\n- A dispute with South Korea over (again) (regular, continuing): A dispute with South Korea over a secret North Korean POW transfer created diplomatic friction between Seoul and Kyiv.\n",
+    "PREVIOUS_FORECAST": "Lead: US-Ukraine diplomatic and military standoff. Expected: Washington and Kyiv will exchange a new round of public accusations over the sanctions waiver and Starlink restrictions, with US lawmakers advancing an investigation and Ukraine's president framing the dispute as a test of America's reliability in the war Direction: escalate. Sign: Headlines will feature Russian strikes on Ukrainian cities and energy sites framed by commentary on the sanctions waiver and satellite access dispute, with both Kyiv and Washington issuing new public statements\nSecond: Ukrainian counteroffensive in Donetsk. Expected: Ukrainian forces will claim additional settlements in the Donetsk region under the Vivaldi operation, publishing footage of captured Russian positions and destroyed equipment to underscore the offensive's progress Direction: persist. Sign: Headlines will name specific settlements near Donetsk changing hands, with both sides publishing casualty and equipment figures for the same sector of the front\nThird: European military and financial aid to Ukraine. Expected: European governments will announce or deliver the next round of military shipments and financial commitments to Kyiv that were pledged at the recent EU summit, positioning Europe as the primary source of war support as the US role wavers Direction: escalate. Sign: Headlines will name specific European governments announcing concrete weapon deliveries or budget measures for Kyiv, with the framing centered on Europe stepping up as Washington pulls back\nFade call: Nord Stream pipeline trial in Germany. Expected: persist. Sign: The trial will generate periodic courtroom updates in German and European media as it settles into a multi-month legal process, losing its front-page status\nSurprise (chance low): Ukrainian air defense crisis. Ukraine will publicly acknowledge a critical shortage of interceptor missiles for its air defense systems, forcing an urgent scramble for European replacements and a visible gap in coverage over a major city during a Russian strike\nSummary: Next week, the war in Ukraine will be shaped by a deepening rift between Kyiv and Washington. Russia will launch another major strike campaign against Ukrainian power grids and cities, while Ukraine keeps hitting Russian oil refineries. The sanctions waiver and Starlink restrictions will fuel new public accusations between the White House and Kyiv, with US lawmakers pushing an investigation and European leaders filling the diplomatic gap. On the ground, the Vivaldi operation in Donetsk will produce further contested fighting with small Ukrainian gains and Russian counter-attacks. European governments will deliver the next tranches of promised weapons and funds, asserting a more central role in the war effort. The Nord Stream trial in Germany will settle into routine courtroom proceedings. The overall picture will be one of strain and uncertainty as Ukraine's most important ally wobbles and the front line grinds in both directions.\n",
+    "JUDGE_NOTES": "- lead: came_true. The US-Ukraine standoff with sanctions waivers, Starlink restrictions, lawmaker investigations, and public accusations between Kyiv and Washington is exactly what dominated: [120], [47], [105], [21], [187], [48], [58], [213], [235].\n- second: did_not_appear. No headlines name specific Donetsk settlements changing hands under a 'Vivaldi operation' or publish casualty and equipment figures for that sector; battlefield coverage is dominated by drone strikes and Starlink rather than a ground counteroffensive.\n- third: true_in_direction. European stepping up is present ([94], [208], [244], [169]) but the specific sign of 'concrete weapon deliveries or budget measures' from named European governments is thinner; [244] (NATO agency purchasing) and [169] (Saab Gripen order) are the closest matches.\n- fade_call: did_not_appear. The 'No longer in the headlines' section lists 'Germany opened the trial of a' as no longer in the headlines, contradicting the persist expectation.\nArcher note: Z missed the Oleshky ceasefire, the Witkoff-Putin meeting, the Trump-Zelensky public feud, and the prisoner swap as dominant stories. Its second item (Donetsk counteroffensive under Vivaldi) and fade call (Nord Stream trial persisting) were both contradicted by the headlines. The main thesis of a deepening Kyiv-Washington rift with Europe filling the gap was correct in direction, but the specific battlefield and legal predictions were off.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

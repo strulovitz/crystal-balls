@@ -1,0 +1,414 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "ZA",
+  "name": "South Africa",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T16:22:11+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The week in South Africa was dominated by the sudden death of Springbok and Lions lock Hyron Andrews, found dead the day before a European Champions Cup match in La Rochelle, sending shockwaves through the rugby world and prompting tributes from clubs across Europe. Domestically, the Springboks were reeling from a heavy first-Test defeat to Australia, with coach Dave Wade warning against knee-jerk reactions while a batting reshuffle loomed and low Test crowds prompted a format review. On the political and security front, President Ramaphosa reinstated the suspended police chief, and police in Mpumalanga rescued roughly 200 people, some in chains, from an unregistered rehabilitation centre. Anti-migrant tensions, which had flared the previous week, continued to simmer: a gunman killed at least four people at a memorial service, and another Nigerian citizen was reportedly shot in Cape Town. Economically, the South African Reserve Bank outlined plans to launch a new cash-and-payments utility in 2027 and open its system to retailers, telecoms and fintechs, while Governor Lesetja Kganyago flagged upside inflation risks ahead of next week's medium-term budget. El Niño-driven heat and drought risk kept farmers on high alert across the country.",
+    "key_events": [
+      {
+        "event": "South African rugby lock Hyron Andrews was found dead the day before a Lions match against La Rochelle, prompting widespread tributes.",
+        "date": "2026-10-14",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "South Africa suffered a heavy first-Test loss to Australia, with the coach calling for calm while a batting reshuffle and format review were discussed.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The president reinstated the suspended police chief, who is set to return to duty.",
+        "date": "2026-10-15",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Police rescued about 200 people, some in chains, from an unregistered rehabilitation centre in Mpumalanga.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "A gunman killed at least four people at a memorial service amid ongoing anti-migrant tensions, and another Nigerian citizen was reportedly shot in Cape Town.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The South African Reserve Bank announced plans to establish a new cash-and-payments utility in 2027 and open the system to retailers, telecoms and fintechs.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "El Niño-driven heat and drought risk placed South African farmers on high alert.",
+        "date": "2026-10-14",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "A court judgment may force a reprint of South African election ballots.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Eskom announced a strategic revamp as its monopoly position erodes.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "South Africa moved to restrict the assembly of imported car kits, pushing automakers to build locally amid a flood of Chinese imports.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "society",
+      "economy",
+      "security",
+      "environment"
+    ],
+    "emojis": [
+      "⚰️",
+      "🚔",
+      "🔫"
+    ],
+    "emoji_reasons": [
+      "Hyron Andrews was found dead the day before a Lions match in La Rochelle, the week's most prominent story (headlines 4, 6, 11).",
+      "Police rescued roughly 200 people from an unregistered rehab centre and the suspended police chief was reinstated (headlines 2, 17, 20, 26).",
+      "A gunman killed at least four people at a memorial service during ongoing anti-migrant tensions (headlines 16, 27, 30)."
+    ],
+    "developments": [
+      {
+        "subject": "Hyron Andrews death",
+        "what_happened": "South African lock Hyron Andrews was found dead the day before a Lions European Champions Cup match in La Rochelle, prompting tributes from clubs worldwide.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          6,
+          11
+        ]
+      },
+      {
+        "subject": "Springboks vs Australia Test",
+        "what_happened": "South Africa lost the first Test heavily to Australia, with the coach urging calm while a batting reshuffle, format review, and squad changes were discussed ahead of the second Test.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          3,
+          21,
+          29,
+          32,
+          34,
+          39,
+          43
+        ]
+      },
+      {
+        "subject": "Anti-migrant tensions",
+        "what_happened": "A gunman killed at least four people at a memorial service, and another Nigerian citizen was reportedly shot in Cape Town, as Nigeria demanded answers and protests continued.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          16,
+          27,
+          30
+        ]
+      },
+      {
+        "subject": "Police chief reinstated",
+        "what_happened": "The president reinstated the suspended police chief, who is set to return to duty.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          20
+        ]
+      },
+      {
+        "subject": "Rehab centre rescue",
+        "what_happened": "Police in Mpumalanga rescued about 200 people, some in chains, from an unregistered rehabilitation centre.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          17,
+          26
+        ]
+      },
+      {
+        "subject": "Central bank and payments",
+        "what_happened": "The Reserve Bank outlined a 2027 cash-and-payments utility, flagged upside inflation risks, and positioned the rand as a cushion against external shocks ahead of next week's medium-term budget.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          8,
+          10,
+          14,
+          23,
+          38,
+          40,
+          42
+        ]
+      },
+      {
+        "subject": "El Niño and drought risk",
+        "what_happened": "El Niño-driven heat and drought conditions put South African farmers on high alert.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          13
+        ]
+      },
+      {
+        "subject": "Court rulings and election ballots",
+        "what_happened": "A court judgment may force a reprint of election ballots, and other rulings were seen as confidence-boosting for the private sector.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19,
+          31
+        ]
+      },
+      {
+        "subject": "Eskom strategy revamp",
+        "what_happened": "Eskom announced a strategic overhaul as its monopoly position erodes in the power sector.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          28
+        ]
+      },
+      {
+        "subject": "Chinese imports and car kits",
+        "what_happened": "Local producers reported struggling with a flood of Chinese imports, and the government moved to restrict assembly of imported vehicle kits to push local manufacturing.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          25,
+          35,
+          37
+        ]
+      },
+      {
+        "subject": "Oil and gas exploration",
+        "what_happened": "South Africa dismissed appeals against exploration in the TotalEnergies Block 3B/4B offshore area.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15
+        ]
+      },
+      {
+        "subject": "Miners' safety review",
+        "what_happened": "Recent mining deaths prompted a safety review called for by the minerals council CEO.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          44
+        ]
+      }
+    ],
+    "gone": [
+      "Navi Pillay was awarded the Nobel",
+      "Moody's stated South Africa is on",
+      "Deputy police chief Sibiya departed the",
+      "Manufacturing and mining output data fell"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover a broad range of topics—sports, politics, security, economy, environment and trade—giving a well-rounded picture of the week in South Africa."
+    },
+    "headlines_used": [
+      "South Africa still mulling over permutations for second test against Australia",
+      "South African police chief to return to work after suspension lifted",
+      "Conrad wields axe after South Africa loss to Australia",
+      "Hyron Andrews: Lions and Sale Sharks among clubs to pay tribute to late South African lock",
+      "High El Nino heat puts farmers in South Africa on high alert",
+      "Rugby: Hyron Andrews, joueur sud-africain des Lions, retrouvé mort à la veille d'un match à La Rochelle",
+      "South Africa Central Bank Plans to Set Up Cash Utility in 2027",
+      "South Africa Reserve Bank Governor on navigating multiple economic shocks",
+      "From Morocco to South Africa, Israel election watched closely across Africa",
+      "South Africa to open payments system to retailers, telecoms, fintechs in 2027",
+      "South African rugby player Hyron Andrews dies ahead of Lions game with La Rochelle",
+      "South Africa",
+      "El Niño in Africa: Flooding in Kenya, Drought Risk in South Africa.",
+      "Kganyago Says Rand Helping Cushion South Africa From Shocks",
+      "South Africa dismisses appeals against exploration in TotalEnergies Block 3B/4B",
+      "A gunman kills at least 4 people in shooting after South Africa memorial service",
+      "Mpumalanga rehab centre: South African police rescue 200 people, some in chains",
+      "Young and ‘Coloured’ in South Africa",
+      "South Africa Court Rulings May Lift Confidence, PSG Chief Says",
+      "South African president reinstates suspended police chief",
+      "South Africa vs Australia: Low Test crowds prompt review",
+      "South Africa Urges Bigger, Predictable Resources for Climate Funds",
+      "South African rand edges up as focus turns to next week's medium-term budget",
+      "Usain Bolt comparisons a 'privilege', says South Africa's Sinesipho Dambile",
+      "South Africa to Restrict Assembly of Imported Car Kits",
+      "About 200 people rescued from unregistered South African rehab centre, police say",
+      "South Africa anti-migrants protest: Nigeria demand answers as anoda Nigerian citizen kpai for police custody for SA",
+      "South Africa’s Eskom Revamps Its Strategy as Monopoly Fades",
+      "South Africa look to re-establish test credentials after Australia mauling",
+      "Anti Immigration Protests South Africa: E gbuola nwafọ Nigeria ọzọ na Cape Town",
+      "South African Judgment May Force Reprint of Election Ballots",
+      "South Africa's Rabada primed to bring the heat in second test, Wade warns Australia",
+      "Nine in 10 South Africa Savers Off Track for Retirement, AF Says",
+      "Hazlewood says reverse swing may be a factor in South Africa test series",
+      "South African Producers Struggling With Influx of Chinese Imports",
+      "South African clubs have found the going tough in the European Champions Cup",
+      "South Africa to stop subsidizing imported vehicle kits, pushing automakers to build locally",
+      "South Africa's central bank governor Kganyago sees upside risks to inflation",
+      "South African calls up Breetzke as batting reshuffle looms after defeat",
+      "South African rand edges up as next week's medium-term budget draws focus",
+      "South Africa revises rules around customisation of weight-loss drugs",
+      "South African rand slides as US inflation print boosts Fed tightening bets",
+      "No need for knee-jerk reaction warns South Africa coach after test defeat",
+      "Deaths prompt South African miners' safety review, minerals council CEO says"
+    ],
+    "converted": false,
+    "relevant_headlines": 44,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Hyron Andrews death",
+        "expected": "Hyron Andrews death stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Hyron Andrews death appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Springboks vs Australia Test",
+        "expected": "Springboks vs Australia Test stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Springboks vs Australia Test appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Anti-migrant tensions",
+        "expected": "Anti-migrant tensions stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Anti-migrant tensions appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Hyron Andrews death",
+        "expected": "persist",
+        "sign": "Hyron Andrews death is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Hyron Andrews death stays in the news at the same level. Springboks vs Australia Test stays in the news at the same level. Anti-migrant tensions stays in the news at the same level. Hyron Andrews death is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Springboks second Test vs Australia",
+        "expected": "South Africa will play the second Test against Australia, and the outcome will trigger a public announcement of batting changes and a Test-format review decision",
+        "direction": "escalate",
+        "sign": "Headlines will report the final score, name the player replacing the departed batter, and quote coach Wade on whether the low-crowd format review will alter the remaining fixtures"
+      },
+      "second": {
+        "subject": "Anti-migrant tensions and Nigeria response",
+        "expected": "Nigeria will issue a formal diplomatic demand for an investigation into the Cape Town shooting, escalating the anti-migrant crisis into a bilateral dispute",
+        "direction": "escalate",
+        "sign": "Headlines will quote a Nigerian official's specific demand in strong terms and report the city where the next protest occurs"
+      },
+      "third": {
+        "subject": "Medium-term budget",
+        "expected": "The government will table its medium-term budget outlining fiscal targets and spending priorities, and the Rand will move in response to the central bank's inflation guidance",
+        "direction": "escalate",
+        "sign": "Headlines will quote a specific fiscal figure from the budget document and describe the Rand's directional move in response"
+      },
+      "fade_call": {
+        "subject": "Hyron Andrews tribute",
+        "expected": "fade",
+        "sign": "Headlines will shift from death and tributes to a memorial or legacy reference within a match context rather than a standalone story"
+      },
+      "surprise": {
+        "subject": "Election ballot ruling dispute",
+        "expected": "The court judgment forcing a reprint of election ballots will trigger a formal dispute between political parties and the election authority over the revised timeline",
+        "chance": "medium"
+      },
+      "summary": "South Africa's next bulletin will be shaped by the second Test against Australia, where the Springboks will face another tough fixture after their heavy first-Test defeat. The batting reshuffle and format review will move from discussion to decision, with coach Wade expected to announce his changes publicly. Anti-migrant tensions will escalate as Nigeria demands a formal investigation after the Cape Town shooting and memorial-service massacre. The medium-term budget will dominate economic headlines as the government tables its fiscal plan and the Rand reacts to inflation guidance. The Hyron Andrews story will fade into memorial territory. A less predictable development will be the court ruling on election ballots, which may force political parties into a public dispute over the schedule. El Niño drought conditions will keep farmers on alert, and the reinstated police chief will return to duty.",
+      "generated_at": "2026-10-23T16:08:04+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Springboks second Test",
+        "expected": "South Africa will field a reshuffled batting lineup in the Test against Australia as coach Wade implements squad changes after the first-Test defeat",
+        "direction": "persist",
+        "sign": "Headlines about the Test match result against Australia, batting lineup changes, and ground attendance figures"
+      },
+      "second": {
+        "subject": "Anti-migrant tensions and Nigeria",
+        "expected": "Nigeria will issue a formal diplomatic response or deadline demanding answers over the repeated shootings of its citizens in South Africa",
+        "direction": "escalate",
+        "sign": "Headlines naming Nigerian diplomatic officials issuing formal statements or ultimatums and new protest locations in South African cities"
+      },
+      "third": {
+        "subject": "Medium-term budget",
+        "expected": "The government will present its medium-term budget as the rand moves in response to the Reserve Bank's inflation warning and fiscal outlook",
+        "direction": "persist",
+        "sign": "Headlines about the budget presentation, the rand's movement, and the Reserve Bank's inflation outlook"
+      },
+      "fade_call": {
+        "subject": "Hyron Andrews mourning",
+        "expected": "fade",
+        "sign": "The story drops from front pages as rugby coverage shifts to Test match results and squad announcements"
+      },
+      "surprise": {
+        "subject": "Election ballot reprint ruling",
+        "expected": "The court order to reprint election ballots will trigger a public political fight over the timeline ahead of the November municipal elections as opposition parties press for a firm deadline",
+        "chance": "medium"
+      },
+      "summary": "South Africa's next week will be defined by the second Test against Australia, where a reshuffled batting lineup faces a tough contest after the heavy first-Test loss. Anti-migrant tensions will escalate as Nigeria presses for answers over the shootings of its citizens and protests spread to new cities. The medium-term budget presentation will anchor economic coverage, with the rand reacting to the Reserve Bank's inflation warning and the government's fiscal plans. The mourning over Hyron Andrews will fade from front pages as rugby coverage shifts to match results. The court order to reprint election ballots will inject political friction ahead of the November municipal polls. El Niño-driven heat will keep farmers on alert, and the Eskom strategy revamp will generate sector coverage. Overall, the week will be a mix of sporting pressure, diplomatic friction, and fiscal scrutiny.",
+      "generated_at": "2026-10-23T16:22:11+03:00"
+    }
+  },
+  "display": {
+    "headline": "Springboks Reshuffle, Migrant Crisis, Budget Clash Define South Africa's Week",
+    "emojis": [
+      "🏅",
+      "✊",
+      "💰"
+    ],
+    "emoji_reasons": [
+      "The Springboks Test series and the mourning over Hyron Andrews anchor the sports coverage this week",
+      "Anti-migrant protests and Nigeria's diplomatic pressure drive the social-political story",
+      "The medium-term budget presentation is the week's key fiscal event"
+    ],
+    "tldr": "South Africa's next week centers on the second Test against Australia, escalating anti-migrant tensions after further shootings of Nigerians, and the medium-term budget presentation. The mourning over Hyron Andrews will fade as rugby focus shifts to results. The court-ordered ballot reprint will add political friction before November's municipal elections.",
+    "eli5": "South Africa is juggling a lot at once right now. Their rugby team lost badly to Australia in the first Test, and a player named Hyron Andrews died unexpectedly in France, which shook the whole rugby world. On top of that, people have been protesting because of violence against foreign workers, and a court just said the voting ballots for upcoming elections need to be reprinted.\n\nThis is happening because South Africa is dealing with layered problems all at once: a sports team that needs to bounce back, a population that is angry about immigration and safety, and a government that has to balance its books while managing public frustration. The El Niño weather pattern is also making life harder for farmers, adding another worry to the pile.\n\nNext week you will see the Springboks play the second Test with a changed batting lineup, and the anti-migrant protests will probably get louder as Nigeria pushes harder for answers about its citizens who were shot. The government will also present its budget, and everyone will watch the rand and the inflation numbers very closely.\n\nThe real surprise would be if the court order to reprint the election ballots creates a genuine political fight, because the municipal elections are only a few weeks away. If parties start blaming each other publicly over the timeline, it could spill into other policy debates and make the whole week much more chaotic than the rugby and protests alone suggest."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nNavi Pillay won the Nobel Peace Prize, generating national pride and sharpening diplomatic debates around the ICC and Gaza. Anti-migrant protests erupted in Soweto and Durban, prompting the government to withdraw an asylum directive as a tactical de-escalation. Moody's publicly stated South Africa was on the right track for a possible credit-rating upgrade, lending markets cautious hope. Manufacturing output fell and mining production weakened, with factories struggling against surging Chinese imports. Deputy police chief Sibiya departed amid sex-offence charges, deepening institutional uncertainty in the security sector. South Africa lost the first Test match to Australia convincingly, creating public frustration and social-media backlash. Morgan Stanley signalled expectations of renewed fuel-tax relief in the coming fiscal window. Globally, US inflation data, oil prices, and Middle East tensions including Houthi activity in the Red Sea created an uncertain external backdrop. The Rwanda Formula 1 announcement added a pan-African confidence narrative. The overall picture\n- Navi Pillay was awarded the Nobel (regular, continuing): Navi Pillay was awarded the Nobel Peace Prize, triggering national celebration and diplomatic debate.\n- Anti-migrant protests in Soweto and Durban (regular, continuing): Anti-migrant protests in Soweto and Durban led the government to withdraw an asylum directive.\n- Moody's stated South Africa is on (regular, continuing): Moody's stated South Africa is on the right track for a potential credit-rating upgrade.\n- Deputy police chief Sibiya departed the (regular, continuing): Deputy police chief Sibiya departed the SAPS amid sex-offence charges.\n- Manufacturing and mining output data fell (regular, continuing): Manufacturing and mining output data fell, with factories struggling against Chinese imports.\n- Manufacturing and mining output data fell (again) (regular, continuing): Manufacturing and mining output data fell, with factories struggling against Chinese imports.\n\nRound 2026-09-15:\nAccording to the text, South Africa entered the week of 1 October 2026 under multiple concurrent pressures. A series of femicide killings in Ekurhuleni and Gauteng had already become a national crisis, prompting President Ramaphosa to announce new measures. Mass shootings in Wedela near Johannesburg and in Lwandle in the Cape Town area had killed 27 or 28 people, with funerals and vigils keeping townships in the news. The US-South Africa relationship was strained over visa rules, Black employment requirements, and investor ownership policies; the US ambassador had been summoned for a third time. The 30 September migrant deadline had just passed, and three Nigerians killed in recent weeks had added tension to immigration politics. Municipal elections scheduled for 4 November had brought campaigning forward. On the economic side, the SARB had hiked rates, the rand was volatile, Q2 FDI inflows reached R49.8 billion, and the Gold Fields-Northern Star 27-billion-dollar\n- Femicide killings in Ekurhuleni and Gauteng (regular, continuing): Femicide killings in Ekurhuleni and Gauteng became a dominant national crisis\n- Mass shootings in Wedela and Lwandle (regular, continuing): Mass shootings in Wedela and Lwandle killed 27 to 28 people\n- US ambassador was summoned for a (regular, continuing): US ambassador was summoned for a third time over visa and investor rules\n- The 30 September migrant deadline passed (regular, continuing): The 30 September migrant deadline passed and three Nigerians were killed in recent weeks\n- SARB hiked interest rates while Q2 (regular, continuing): SARB hiked interest rates while Q2 FDI inflows reached R49.8 billion\n- Northern Star rejected Gold Fields' 27-billion-dollar (regular, continuing): Northern Star rejected Gold Fields' 27-billion-dollar takeover offer\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

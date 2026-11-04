@@ -1,0 +1,451 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "ID",
+  "name": "Indonesia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T09:52:26+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the reporting window, Indonesia was struck by two simultaneous crises. First, devastating wildfires—described as the worst in over a decade—killed four firefighters at Mount Bromo national park and produced a thick orange-toxic haze that blanketed the country and spread across Southeast Asia. The haze closed schools in East Timor, drove Singapore's pollution to record levels, and prompted Singapore to name seven Indonesian firms as responsible. Indonesia's president offered to accept foreign assistance, and the country doused its skies with dry ice in a desperate bid to clear the air. Second, MSCI launched a consultation on reclassifying Indonesia from emerging-market to standalone-market status, triggering the worst single-day stock decline since 1998. The government unveiled 117 million dollars in trading fines, analysts warned of capital outflows, and the rupiah came under pressure. Meanwhile, a fuel crisis forced days-long lines at Bali gas stations, the electricity chief was replaced after a major Batam blackout, Indonesia's top Islamic council opposed upcoming Andrea Bocelli concerts over Israel ties, and women's professional football restarted after a seven-year absence.",
+    "key_events": [
+      {
+        "event": "MSCI launched a consultation to reclassify Indonesia from emerging market to standalone market, triggering the worst single-day stock decline since 1998.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Four firefighters and volunteers were killed battling wildfires at Mount Bromo national park.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Toxic haze from Indonesian wildfires spread across Southeast Asia, closing schools in East Timor and spiking pollution in Singapore.",
+        "date": null,
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "Singapore placed seven Indonesian firms on notice over their role in producing haze-causing fires.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Indonesia unveiled 117 million dollars in trading fines after the MSCI warning rattled markets.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A fuel shortage hit Bali, forcing drivers to wait days in lines at gas stations.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Indonesia's top Islamic council met government officials to oppose upcoming Andrea Bocelli concerts over his ties to Israel.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Women's professional football league resumed in Indonesia after a seven-year hiatus.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "Indonesia swapped out its electricity chief following a major blackout in Batam.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Indonesia detained the brother of the disaster agency chief in a graft probe.",
+        "date": null,
+        "domain": "politics",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 8,
+    "domains_active": [
+      "economy",
+      "environment",
+      "society",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🔥",
+      "📉",
+      "🌍"
+    ],
+    "emoji_reasons": [
+      "Headlines 2, 3, 11, 22, 30, 40 all describe devastating wildfires killing four firefighters and producing the worst fires in over a decade.",
+      "Headlines 9, 21, 23, 39, 49 report Indonesia's stocks logging their worst single-day decline since 1998 after the MSCI downgrade warning.",
+      "Headlines 7, 14, 26, 43, 54 describe the haze spreading regionally, closing schools in East Timor and spiking Singapore's pollution, showing cross-border environmental impact."
+    ],
+    "developments": [
+      {
+        "subject": "Wildfire haze crisis",
+        "what_happened": "Devastating wildfires killed four people at Mount Bromo, produced toxic orange haze across Indonesia and neighboring countries, closed schools in East Timor, and prompted Indonesia to douse skies with dry ice and seek foreign aid.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11,
+          15,
+          17,
+          18,
+          22,
+          30,
+          31,
+          32,
+          34,
+          35,
+          40,
+          43,
+          44,
+          50,
+          52,
+          54,
+          55,
+          59,
+          65
+        ]
+      },
+      {
+        "subject": "MSCI reclassification warning",
+        "what_happened": "MSCI opened a consultation to move Indonesia from emerging-market to standalone status, triggering the worst stock drop since 1998, 117 million dollars in fines, growing outflow fears, and pressure on the rupiah.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          8,
+          9,
+          10,
+          12,
+          20,
+          21,
+          23,
+          29,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          45,
+          46,
+          47,
+          49,
+          57,
+          60,
+          61,
+          64
+        ]
+      },
+      {
+        "subject": "Regional haze diplomacy",
+        "what_happened": "Singapore named seven Indonesian firms as responsible for haze-causing fires while Malaysia expressed impatience, and a legal battle over air quality continued in Indonesian courts.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          14,
+          18,
+          26,
+          28,
+          53,
+          56,
+          65
+        ]
+      },
+      {
+        "subject": "Bali fuel crisis",
+        "what_happened": "A fuel shortage hit Bali, forcing drivers into days-long lines at gas stations.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          66
+        ]
+      },
+      {
+        "subject": "Bocelli concert opposition",
+        "what_happened": "Indonesia's top Islamic council met government officials to register opposition to upcoming Andrea Bocelli concerts, citing his ties to Israel.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          24,
+          33
+        ]
+      },
+      {
+        "subject": "Women's football league restart",
+        "what_happened": "Indonesia's professional women's football league resumed competition after a seven-year pause, generating local excitement.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          48,
+          51
+        ]
+      },
+      {
+        "subject": "Batam blackout and electricity chief swap",
+        "what_happened": "Indonesia replaced its electricity sector chief following a major blackout in Batam.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          63
+        ]
+      },
+      {
+        "subject": "Disaster agency graft probe",
+        "what_happened": "Indonesia detained the brother of the disaster agency chief in a corruption investigation.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          62
+        ]
+      },
+      {
+        "subject": "Jakarta fish die-off",
+        "what_happened": "Thousands of fish were found dead in Jakarta, raising environmental and public-health questions.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          27
+        ]
+      },
+      {
+        "subject": "Palm oil comparison with Malaysia",
+        "what_happened": "Analysts drew a comparison between Indonesia and Malaysia as two major palm-oil producers facing different market dynamics.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          58
+        ]
+      }
+    ],
+    "gone": [
+      "A new finance minister ordered travel",
+      "The Constitutional Court issued a ruling",
+      "Parliament passed higher severance benefits into",
+      "Rural Borneo villages reported months without",
+      "The government named an advisory council"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong multi-source coverage of both the wildfire crisis and the MSCI market shock, plus several secondary stories, though specific dates within the window are not always distinguishable."
+    },
+    "headlines_used": [
+      "Breakingviews - COMMENTARY: MSCI unnecessarily throws Indonesia into a panic",
+      "Wildfire traps firefighters and volunteers in Indonesia’s Mount Bromo national park, killing 4",
+      "Four killed in Indonesia battling fires causing toxic haze",
+      "Desperate to clear toxic haze, Indonesia douses its skies with dry ice",
+      "Orange haze from wildfires blankets Indonesia",
+      "Indonesia chokes under wildfire haze",
+      "Indonésie: un brouillard toxique pollue l'air dans toute l'Asie du Sud-Est après des feux de forêt dévastateurs",
+      "Indonesia Unveils $117 Million in Fines After MSCI Warning",
+      "Indonesia Stocks Log Worst Day Since 1998 on MSCI Downgrade Warning",
+      "Indonesia stocks plunge after MSCI says market could be cut from indices",
+      "Four killed as Indonesia battles worst forest fires in more than a decade",
+      "Indonesia faces rare MSCI exclusion that could cut it off from global capital",
+      "Fuel crisis hits Indonesia’s Bali, triggers long lines in gas stations for days",
+      "Singapore puts seven Indonesian firms on notice over toxic haze",
+      "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+      "As a rising global food destination, Indonesia invites travelers to taste its culture",
+      "Four firefighters killed battling blazes in Indonesia's Mount Bromo national park",
+      "La Malaisie s'impatiente face aux incendies en Indonésie voisine",
+      "Singapore Names Seven Companies Over Indonesia Haze Fires",
+      "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
+      "MSCI warns it may cut Indonesia from main indices",
+      "Sky turns orange as wildfires rage across Indonesia - Al Jazeera",
+      "Indonesian stocks sink most since 1998 on MSCI downgrade warning",
+      "Indonesia’s top Muslim council opposes upcoming Andrea Bocelli concerts over Israel ties",
+      "Months-old clip falsely shared as October 2026 flooding in Indonesia",
+      "What in the World | How fires in Indonesia are impacting Singapore’s air",
+      "Why Jakarta is killing thousands of fish",
+      "Incendies en Indonésie : Singapour dénonce des entreprises comme responsables",
+      "MSCI Ignites Indonesia Market Reckoning After Months of Warnings",
+      "‘We have to live with it’: Indonesia’s worst fires in years wreak havoc",
+      "Sky turns orange as wildfires rage across Indonesia",
+      "Indonesia's president ready to accept foreign assistance to combat fires, foreign minister says",
+      "Indonesia’s top Islamic council meets with govt officials in opposition to upcoming concerts by Italian tenor Andrea Bocelli",
+      "Four killed battling Indonesia fires as toxic haze cloaks region",
+      "Des incendies font quatre morts en Indonésie et asphyxient la région",
+      "Indonesia Outflows to Worsen as MSCI Mulls Cut, Analysts Say",
+      "MSCI Launches a Consultation on a Proposal to Reclassify Indonesia from Emerging Market to Standalone Market Status – Company Announcement - FT.com",
+      "Indonesia regulator fines entities for trading violations in shares of three listed firms",
+      "Indonesian stocks dive 11% as MSCI weighs market reclassification",
+      "VIDÉO. Indonésie : le pays confronté à des incendies dévastateurs",
+      "Indonesia Rate-Hike Bets Grow as MSCI Alarm Pressures Rupiah",
+      "Investors see outflow and FX risks as MSCI moves to downgrade Indonesia",
+      "Haze turns Indonesia skies orange, shuts schools in East Timor",
+      "Incendies en Indonésie: la région étouffe, les écoles ferment au Timor oriental",
+      "Tycoons Lose Billions as Indonesia Faces Ejection From Indexes",
+      "Indonesia gets 'wake-up call' as MSCI prepares to expel it from global indexes",
+      "MSCI Launches a Consultation on a Proposal to Reclassify Indonesia from Emerging Market to Standalone Market Status",
+      "Après sept ans d'arrêt, le foot pro féminin reprend en Indonésie",
+      "Indonesia Stocks Sink Most in 28 Years on MSCI Downgrade Warning",
+      "Indonesia's new disaster mitigation chief plans to assess foreign aid to tackle wildfires",
+      "'High hopes' as Indonesian women get a football league, again",
+      "Incendies en Indonésie : pollution 'très élevée' à Singapour, écoles fermées au Timor oriental",
+      "Singapore Probing Firms Over Haze-Causing Indonesian Fires",
+      "Singapore pollution spikes, East Timor shuts schools as Indonesia wildfire haze intensifies",
+      "Indonesia rescues starved orangutan from fires: officials",
+      "Incendies en Indonésie : bataille devant la justice pour un air plus pur",
+      "Indonesia Caught Off Guard by Surprise MSCI Downgrade Warning",
+      "Malaysia and Indonesia: A tale of two palm oil producers",
+      "Indonesia haze spikes Singapore pollution, shuts East Timor schools",
+      "Watch Indonesia Stocks Sink as MSCI Weighs Index Removal",
+      "What Happens If Indonesia Is Removed From MSCI’s Global Indexes?",
+      "Indonesia Detains Disaster Agency Chief’s Brother in Graft Probe",
+      "Indonesia Swaps Out Electricity Chief After Huge Batam Blackout",
+      "Indonesia’s Emerging Market Status Under Consultation, MSCI Says",
+      "Singapore Haze Hits Highest Level as Indonesian Fires Worsen",
+      "Bali Motorists Line Up as Fuel Shortages Hit Parts of Indonesia",
+      "Indonesian State Banks Face Earnings Drag as Credit Risks Rise"
+    ],
+    "converted": false,
+    "relevant_headlines": 67,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Wildfire haze crisis",
+        "expected": "Wildfire haze crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Wildfire haze crisis appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "MSCI reclassification warning",
+        "expected": "MSCI reclassification warning stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about MSCI reclassification warning appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Regional haze diplomacy",
+        "expected": "Regional haze diplomacy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Regional haze diplomacy appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Bali fuel crisis",
+        "expected": "persist",
+        "sign": "Bali fuel crisis is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Wildfire haze crisis stays in the news at the same level. MSCI reclassification warning stays in the news at the same level. Regional haze diplomacy stays in the news at the same level. Bali fuel crisis is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Wildfire and regional haze crisis",
+        "expected": "The toxic orange haze will persist across Indonesia and neighboring countries as the dry season intensifies, with foreign aid teams arriving and Singapore maintaining diplomatic pressure on the named firms.",
+        "direction": "persist",
+        "sign": "Headlines will report the haze still blanketing multiple countries, foreign aid deliveries landing in Indonesia, and Singapore or Malaysia issuing further public statements holding Indonesia accountable."
+      },
+      "second": {
+        "subject": "MSCI reclassification consultation",
+        "expected": "The consultation window will stay open while government officials hold press conferences defending the market and foreign investors publicly announce position cuts or hedging strategies on Indonesian stocks.",
+        "direction": "persist",
+        "sign": "Headlines will carry quotes from Indonesian officials defending long-term fundamentals alongside foreign fund managers describing capital reallocation decisions."
+      },
+      "third": {
+        "subject": "Bali fuel crisis",
+        "expected": "The fuel shortage will expand beyond Bali to other regions as distribution bottlenecks hold, prompting the government to announce emergency fuel allocations and special shipments.",
+        "direction": "escalate",
+        "sign": "Headlines will show fuel lines appearing in new provinces, the government announcing special fuel shipments, and commuters reporting longer waits or price increases at pumps."
+      },
+      "fade_call": {
+        "subject": "Bocelli concert opposition",
+        "expected": "fade",
+        "sign": "The story will drop from front pages as the council meeting is in the past and the concert date looms without a government veto, replaced by event promotions rather than diplomatic tension."
+      },
+      "surprise": {
+        "subject": "Cabinet reshuffle under dual-crisis pressure",
+        "expected": "A senior cabinet minister or agency chief will resign or be replaced within the week as the combined weight of the haze crisis and the MSCI market shock forces a visible government personnel response.",
+        "chance": "medium"
+      },
+      "summary": "In the coming week, Indonesia will remain gripped by its worst wildfire haze in over a decade, with the toxic orange blanket persisting across the archipelago and into neighboring countries while foreign aid begins to arrive. The MSCI reclassification consultation will stay open, keeping markets on edge and prompting further government reassurances and foreign investor commentary. The Bali fuel shortage will spread to additional regions as distribution problems persist, forcing emergency allocations from Jakarta. The Bocelli concert controversy will fade from the news cycle as the council meeting is in the past and the concert date approaches without a government veto. A medium-chance surprise lies in a senior official being swapped out under the combined pressure of the environmental and financial crises. Overall, the mood will stay tense as Indonesia juggles a public-health emergency, a capital-markets shock, and a logistical fuel crunch simultaneously.",
+      "generated_at": "2026-10-23T09:38:10+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Indonesia wildfire haze",
+        "expected": "The toxic orange haze will spread to new regions as fires stay uncontained, forcing the government to declare a national emergency and formally deploy foreign firefighting teams from Singapore and Malaysia.",
+        "direction": "escalate",
+        "sign": "Headlines about new fatalities at fire sites, orange skies over multiple cities, and neighboring nations sending aid teams or lodging formal complaints"
+      },
+      "second": {
+        "subject": "MSCI market reclassification and rupiah",
+        "expected": "Bank Indonesia will deliver a hawkish rate decision to defend the rupiah as investor outflows accelerate during the consultation period.",
+        "direction": "persist",
+        "sign": "Headlines about the central bank's rate move, rupiah trading levels, and analyst commentary on foreign capital exits from Indonesian equities and bonds"
+      },
+      "third": {
+        "subject": "Bali fuel shortage",
+        "expected": "The fuel shortage at Bali gas stations will ease as replacement tankers arrive, but the disruption will prompt the energy ministry to announce new distribution rules for the dry season.",
+        "direction": "de-escalate",
+        "sign": "Headlines about restored supply at stations, government announcements on fuel logistics, and motorists reporting shorter lines"
+      },
+      "fade_call": {
+        "subject": "Batam blackout and electricity chief swap",
+        "expected": "fade",
+        "sign": "The story drops from headlines as the new electricity chief begins work and no further major outages occur in Batam"
+      },
+      "surprise": {
+        "subject": "Jakarta street protest over twin crises",
+        "expected": "A large public demonstration in Jakarta will combine demands over the haze, the fuel shortage, and the stock market crash, marking the first major street action of the current administration.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Indonesia's twin crises will dominate the news cycle. The wildfire haze will intensify as fires stay uncontained, forcing the government to declare a national emergency and accept foreign firefighting teams while Singapore and Malaysia lodge formal complaints. The MSCI consultation will keep markets in a state of volatility, with Bank Indonesia expected to hike rates to defend the rupiah and the government issuing statements to calm investor fears. The Bali fuel shortage will gradually ease as new supply arrives, though the energy ministry will announce distribution reforms for the dry season. The Batam blackout story will fade from the headlines. A surprise large protest in Jakarta combining the fire, fuel, and market grievances would mark a turning point in public patience with the current government.",
+      "generated_at": "2026-10-23T09:52:26+03:00"
+    }
+  },
+  "display": {
+    "headline": "Haze, Fires, and Plunging Stocks Grip Indonesia",
+    "emojis": [
+      "🔥",
+      "📉",
+      "⛽"
+    ],
+    "emoji_reasons": [
+      "The wildfire haze crisis is the dominant and most visceral story driving daily headlines this week",
+      "The MSCI reclassification and worst stock drop since 1998 anchor the economic narrative",
+      "The Bali fuel shortage and energy distribution problems complete the picture of systemic strain"
+    ],
+    "tldr": "Indonesia will be engulfed by worsening wildfire haze that forces a national emergency and foreign aid, while the MSCI consultation keeps markets in freefall and the rupiah under pressure. The Bali fuel crisis will ease, and the Batam blackout story will fade.",
+    "eli5": "Indonesia is going through a really rough stretch. Big fires are burning in the forests and the smoke is so thick that the sky turns orange and people struggle to breathe outside. Some firefighters died trying to put out the fires at a volcano park, and the haze has spread so far that schools in Timor had to close and Singapore's air quality hit record pollution levels.\n\nAt the same time, a big international ratings company called MSCI is thinking about removing Indonesia from its list of major investment markets. This scared off a lot of investors, and the stock market had its worst single-day drop since 1998. The rupiah, which is Indonesia's money, is getting weaker and weaker.\n\nNext week, the fires will probably get worse before they get better, and the government will call in help from neighboring countries. The stock market will stay jumpy, and the central bank will probably raise interest rates to try to protect the currency. The gas shortage in Bali should start to get better as more fuel trucks and tankers arrive.\n\nWhat would be a real surprise? If people get so frustrated by the fires AND the money problems AND the gas lines all at once that they march in the streets of Jakarta, that would be a big deal. It would show the government is really losing the patience of the people."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, Indonesia in early-to-mid October 2026 was simultaneously managing fiscal tightening, a weak rupiah and stock market, and worsening El Niño-related wildfires. A new finance minister had just ordered travel budget cuts and spending freezes across ministries. The JCI stock index had fallen roughly 30 percent over the year, foreign outflows were pressing on both equities and bonds, and Bank Indonesia was actively defending the currency. El Niño drought had triggered severe peatland fires in Kalimantan and Sumatra, transboundary haze had closed schools in Malaysia and affected Singapore, and rural Borneo villages had gone months without rain, creating a water crisis. The Constitutional Court had ruled on Vice President Gibran Rakabuming Raka's education credentials, former president Jokowi's diploma was still generating legal controversy, and AI-generated images had intensified public debate. The government had named an advisory council of billionaires, politicians, and Islamic leaders. Parliament had passed higher\n- A new finance minister ordered travel (regular, continuing): A new finance minister ordered travel budget cuts and spending freezes across government ministries.\n- El Niño drought triggered severe peatland (regular, continuing): El Niño drought triggered severe peatland fires in Kalimantan and Sumatra, producing transboundary haze affecting Singapore and Malaysia.\n- The Constitutional Court issued a ruling (regular, continuing): The Constitutional Court issued a ruling on Vice President Gibran Rakabuming Raka's education credentials.\n- Parliament passed higher severance benefits into (regular, continuing): Parliament passed higher severance benefits into national labor law.\n- Rural Borneo villages reported months without (regular, continuing): Rural Borneo villages reported months without rain, creating a localized water crisis.\n- The government named an advisory council (regular, continuing): The government named an advisory council comprising billionaires, politicians, and Islamic leaders.\n\nRound 2026-09-15:\nAccording to the text, Indonesia entered the 1 October 2026 window carrying multiple overlapping pressures. Wildfires in Sumatra and Borneo had produced over 170,000 respiratory complaints and were not yet contained, with El Niño dry conditions extending the dry season. A capsized ferry in the Java Sea had killed at least 28 people and left between 107 and 126 missing, with salvage operations still underway. Bank Indonesia had just held rates steady under a new governor while the finance minister parked roughly seventeen billion dollars with state banks as a rupiah backstop. The 2027 budget sat before the DPR at 4,106.3 trillion rupiah in spending and a 2.4 percent deficit, with 232.5 trillion earmarked for the free nutritious meals programme. E-commerce income tax collection was being accelerated to 1 October. The nickel sector faced production curbs and drought-driven water stress. Parties were quietly positioning for the 2029 presidential race, with\n- Capsized ferry in the Java Sea (regular, continuing): Capsized ferry in the Java Sea kills at least 28 with 107-126 still missing as salvage operations begin.\n- Wildfires in Sumatra and Borneo produce (regular, continuing): Wildfires in Sumatra and Borneo produce over 170,000 respiratory complaints under El Niño dry conditions.\n- DPR panel approves 2027 budget at (regular, continuing): DPR panel approves 2027 budget at 4,106.3 trillion rupiah with 232.5 trillion allocated to the MBG programme.\n- E-commerce income tax collection date moved (regular, continuing): E-commerce income tax collection date moved up to 1 October, a month earlier than originally announced.\n- Indonesia commissions the reflagged Italian aircraft (regular, continuing): Indonesia commissions the reflagged Italian aircraft carrier Giuseppe Garibaldi for disaster relief and maritime security.\n- Indonesia commissions the reflagged Italian aircraft (again) (regular, continuing): Indonesia commissions the reflagged Italian aircraft carrier Giuseppe Garibaldi for disaster relief and maritime security.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

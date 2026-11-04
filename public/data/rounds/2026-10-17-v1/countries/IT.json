@@ -1,0 +1,398 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "IT",
+  "name": "Italy",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T13:48:49+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Italy's week was shaped by growing social protest, an infrastructure scare, and a cluster of economic and diplomatic moves. Police clashed with demonstrators in Milan and Bologna, and TV5Monde described the unrest as a French-style contestation beginning to grip the country. A data-transmission failure forced Italian air traffic control to cut capacity in half, though the fault was repaired within the window and flights returned to normal. On the economic front, Rome secured an EU agreement to cap gas prices and pass savings on to electricity bills, while the three-year budget earmarked roughly 11 billion euros from financial-sector levies. UniCredit received ECB approval to take control of Germany's Commerzbank. PM Meloni publicly criticised Trump's diesel arrangement with Putin and his approach to Ukraine, calling the moves risky. Italy also prolonged its Schengen border suspension with Spain and opened a judicial probe into senior Israeli officials over the Gaza flotilla. The Pope's cancer diagnosis drew widespread reaction in Rome. In sport, Italian clubs suffered four Champions League defeats in two days, a painful run for the national game. Southern Italy faced potential fuel shortages as Ilva steelworkers' protests threatened an Eni refinery.",
+    "key_events": [
+      {
+        "event": "Police clashed with protesters in Milan and Bologna as a new wave of social contestation took hold",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Italy secured an EU deal to cap gas prices and lower electricity costs",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "A data-transmission failure halved Italy's air traffic capacity before the fault was repaired",
+        "date": "2026-10-15",
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "UniCredit received ECB approval to control Germany's Commerzbank",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "PM Meloni criticised Trump's diesel deal with Putin and his stance on Ukraine",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Faithful gathered at a Rome hospital to react to the Pope's cancer diagnosis",
+        "date": "2026-10-15",
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Italy prolonged its Schengen border suspension with Spain as talks loomed",
+        "date": "2026-10-17",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Italian clubs suffered four Champions League defeats in two days",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Italy opened a judicial probe into Israeli officials over abuse of Gaza flotilla activists",
+        "date": "2026-10-16",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Ilva steelworkers' protests threatened an Eni refinery in southern Italy, raising fuel-shortage risk",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 5,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "✊",
+      "💰",
+      "⚡"
+    ],
+    "emoji_reasons": [
+      "Police clashed with protesters in Milan and Bologna and TV5Monde described a French-style contestation gripping Italy (headlines 1, 14, 16).",
+      "Italy secured an EU gas-price cap deal, raised roughly 11 billion euros from the financial sector, and UniCredit won approval for Commerzbank (headlines 9, 34, 37, 33).",
+      "The EU deal was specifically designed to pass gas-price savings on to electricity bills, and an air-traffic data failure also hit the grid that week (headlines 9, 19, 38)."
+    ],
+    "developments": [
+      {
+        "subject": "Social protests in Milan and Bologna",
+        "what_happened": "Police clashed with demonstrators in two major cities and French media drew parallels with the contestation hitting France.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          14,
+          16
+        ]
+      },
+      {
+        "subject": "EU gas-price cap and electricity deal",
+        "what_happened": "Rome finalised an EU agreement to limit gas-price pass-through into electricity costs, with Meloni confirming the deal was near or done.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          9,
+          19,
+          38
+        ]
+      },
+      {
+        "subject": "Air-traffic data failure",
+        "what_happened": "A data-transmission fault forced Italian air traffic control to cut capacity by half; the fault was fixed and normal service resumed within the window.",
+        "coverage": "regular",
+        "direction": "resolved",
+        "headline_ids": [
+          2,
+          6,
+          30
+        ]
+      },
+      {
+        "subject": "Meloni vs Trump on Ukraine and diesel",
+        "what_happened": "Meloni and other Italian ministers publicly criticised the US-Russia diesel deal and Trump's posture on Ukraine, calling both risky.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          25,
+          42
+        ]
+      },
+      {
+        "subject": "UniCredit and Commerzbank",
+        "what_happened": "The ECB approved UniCredit's acquisition of control over Germany's Commerzbank, a major cross-border banking move.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          33
+        ]
+      },
+      {
+        "subject": "Pope's cancer diagnosis",
+        "what_happened": "Faithful gathered at a Rome hospital to pray and react to the announcement of the Pope's cancer diagnosis.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          27
+        ]
+      },
+      {
+        "subject": "Schengen suspension with Spain",
+        "what_happened": "Italy extended its temporary Schengen border controls with Spain and indicated further talks were imminent.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "Champions League defeats",
+        "what_happened": "Italian clubs lost four matches in two days, including a late Real Madrid win in Rome, compounding the season's early struggles.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          23,
+          28,
+          31
+        ]
+      },
+      {
+        "subject": "Ilva protests and Eni refinery risk",
+        "what_happened": "Steelworkers' action at Ilva put an Eni refinery in southern Italy at risk of shutdown, threatening local fuel supplies, and the steelmaker sought to double its furlough to 8,600 workers.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          17,
+          39,
+          40
+        ]
+      },
+      {
+        "subject": "Israeli flotilla probe",
+        "what_happened": "Italian prosecutors named senior Israeli officials, including Defence Minister Katz, in a probe over abuse and sexual assault of Gaza flotilla activists.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          26
+        ]
+      },
+      {
+        "subject": "Budget and growth outlook",
+        "what_happened": "The three-year budget earmarked roughly 11 billion euros from financial-sector levies, the Bank of Italy lifted its growth forecast to match the government, and the industry lobby warned the energy shock could erase growth.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          29,
+          34,
+          36,
+          37
+        ]
+      }
+    ],
+    "gone": [
+      "Parliament approved Meloni's new electoral law",
+      "Intesa Sanpaolo sweetened its 34-35 billion",
+      "A tornado struck Marsala and Petrosino",
+      "NATO began its ten-day Steadfast Noon",
+      "Prosecutors requested a trial for Campari"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The set spans protests, energy policy, banking, diplomacy, sport, and the Pope with input from at least seven wire services and broadcasters, giving a solid multi-angle picture of the week."
+    },
+    "headlines_used": [
+      "Italian police clash with protesters in Milan and Bologna",
+      "Italy air traffic capacity fully restored after network disruption caused delays",
+      "Italian football suffers new blow with Champions League misery",
+      "Italy",
+      "‘Times have changed’: The Italian princess renting out her palace in Rome",
+      "Italy cuts air traffic in half amid data transmission issue",
+      "Cousu - Italie",
+      "Meloni’s Fiscal Restraint in Italy Is Set to Endure, DBRS Says",
+      "Italy secures EU deal to lower its electricity prices",
+      "Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists",
+      "Italy prolongs Schengen suspension with Spain, talks loom",
+      "From March Madness miracles to a season opener in Rome: The story of Catholic college hoops",
+      "Italian square named after murdered musician loved by Mary, Queen of Scots",
+      "Protests erupt from Albania and France to India and Italy",
+      "Italy – All Content on this topic – Page 1 of 22",
+      "\"Comme en France\" ? L'Italie secouée par un début de contestation",
+      "Italian Steelmaker Seeks to Double Furlough to 8,600 Workers",
+      "The espresso pot test of Italian capitalism",
+      "Italy clinches deal with EU over measures to limit impact of gas prices on electricity costs",
+      "Raimondo scores hat trick for Frosinone in Italy. Frankfurt ends winless drought at home",
+      "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "Compromises, bribes and a 400-year-old finger: The messy reality of getting my teenager to love Italy",
+      "Ligue des champions: quatre défaites en deux jours, amère première pour l'Italie",
+      "Axa Braces for Loss of Paschi Contract as Italy Bank Deals Swirl",
+      "Giorgia Meloni criticises Trump’s diesel deal with Putin",
+      "Italy names senior Israelis, Katz in probe over Gaza flotilla activists",
+      "Faithful pray and react to news of Pope’s cancer diagnosis at Rome hospital",
+      "Ligue des champions: le Real Madrid ramène de Rome un succès miraculeux",
+      "Bank of Italy Lifts Growth Outlook, Matching Government Forecast",
+      "Italian airports controller fixes network failure that caused flight delays",
+      "PSG piles more woe on scandal-hit Man City in Champions League, Real Madrid leaves it late in Rome",
+      "Italy State Lender Chief Says MTS Key in Debt Management",
+      "Italy's UniCredit wins ECB approval to control Germany's Commerzbank",
+      "Italy Three-Year Budget Draws €10.7 Billion From Finance Sector",
+      "Italy's Lombardy to revise data centre law next week after application surge",
+      "Italy Industry Lobby Says Energy Shock Could Wipe Out Growth",
+      "Italy to raise almost €11 billion from financial sector in next three years",
+      "Italy Is Nearing Deal With EU on Gas Price Cap, Meloni Says",
+      "Eni flags shutdown risk at southern Italy refinery due to steelworkers' protest",
+      "Southern Italy faces risk of fuel shortages as Ilva protests impact Eni refinery",
+      "No auto plants available in Italy for Chinese purchase, Italian minister says",
+      "U.S.-Russia deal on diesel is 'very risky choice,' Italy PM Meloni says"
+    ],
+    "converted": false,
+    "relevant_headlines": 42,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Social protests in Milan and Bologna",
+        "expected": "Social protests in Milan and Bologna stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Social protests in Milan and Bologna appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "EU gas-price cap and electricity deal",
+        "expected": "EU gas-price cap and electricity deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about EU gas-price cap and electricity deal appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Air-traffic data failure",
+        "expected": "Air-traffic data failure stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Air-traffic data failure appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Social protests in Milan and Bologna",
+        "expected": "persist",
+        "sign": "Social protests in Milan and Bologna is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Social protests in Milan and Bologna stays in the news at the same level. EU gas-price cap and electricity deal stays in the news at the same level. Air-traffic data failure stays in the news at the same level. Social protests in Milan and Bologna is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Social protests",
+        "expected": "Protesters in a new Italian city clash with police as the demonstration wave spreads beyond Milan and Bologna.",
+        "direction": "escalate",
+        "sign": "Headlines report a fresh round of police clashes in a city not previously affected, with Italian outlets drawing an explicit comparison to the French unrest."
+      },
+      "second": {
+        "subject": "Pope's cancer diagnosis",
+        "expected": "The Pope's hospital in Rome issues an updated medical bulletin and the faithful gather again outside the building.",
+        "direction": "persist",
+        "sign": "A hospital or papal-office statement describes the Pope's treatment progress or announces a planned public appearance."
+      },
+      "third": {
+        "subject": "Southern Italy fuel shortage",
+        "expected": "The Eni refinery affected by the Ilva steelworkers' protest shuts down or drops to reduced output, prompting the government to announce an emergency fuel-supply measure.",
+        "direction": "escalate",
+        "sign": "Headlines describe queues at fuel stations in southern Italy or a government minister unveiling an emergency distribution plan."
+      },
+      "fade_call": {
+        "subject": "Air traffic disruption",
+        "expected": "fade",
+        "sign": "No new headline references Italian air-traffic control, flight-capacity cuts, or the data-transmission fault."
+      },
+      "surprise": {
+        "subject": "Lombardy data-centre law",
+        "expected": "The Lombardy region publishes a revised data-centre regulation that restructures the application process in response to the recent surge in filings.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the protest movement in Italy will extend past Milan and Bologna, with new cities reporting clashes and the French-style contestation narrative hardening in Italian media. The Pope's cancer diagnosis will anchor the news cycle as the Vatican delivers updated medical statements and the faithful keep returning to the Rome hospital. In the south, the Ilva standoff with the Eni refinery will reach a decisive point, producing either a full shutdown or a government emergency fuel measure. The Schengen suspension with Spain will see its promised bilateral talks, potentially altering border controls. UniCredit and Commerzbank will move into early operational planning after the ECB approval, while the Israeli flotilla probe will draw a formal diplomatic response from Jerusalem. The air-traffic disruption will have fully receded from the headlines, and the Lombardy data-centre revision will add a smaller but concrete regulatory note.",
+      "generated_at": "2026-10-23T13:37:56+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Social protest in Italy",
+        "expected": "Demonstrators stage a new, larger rally in at least one Italian city beyond Milan and Bologna, marking the protest as a national movement.",
+        "direction": "escalate",
+        "sign": "A headline describes a new city square filled with thousands of demonstrators, police cordons, or a national union call for a walkout, framing the unrest as a multi-city movement rather than a local flare-up."
+      },
+      "second": {
+        "subject": "Pope's cancer diagnosis",
+        "expected": "The Vatican issues a medical update on the Pope's cancer treatment and the faithful gather again in Rome, keeping the diagnosis at the centre of national conversation.",
+        "direction": "persist",
+        "sign": "A headline carries a Vatican spokesperson's statement on the Pope's condition, a scheduled public appearance, or a new wave of prayer gatherings at a Roman church or hospital."
+      },
+      "third": {
+        "subject": "Meloni and the US-Russia diesel deal",
+        "expected": "An Italian government figure issues a fresh public critique of the US-Russia diesel arrangement or Trump's Ukraine posture, deepening the diplomatic rift with Washington.",
+        "direction": "persist",
+        "sign": "A headline quotes Meloni or an Italian minister using a sharp adjective to describe the diesel agreement or calling for an EU-level response to the US-Russia move."
+      },
+      "fade_call": {
+        "subject": "Air-traffic data failure",
+        "expected": "fade",
+        "sign": "No Italian aviation or air-traffic headline reappears; the network-disruption story exits the news cycle entirely."
+      },
+      "surprise": {
+        "subject": "Eni refinery shutdown from Ilva protests",
+        "expected": "The Eni refinery in southern Italy halts operations because of the steelworkers' blockade, forcing the government to declare a local fuel emergency and dispatch alternative supplies.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Italy, the protest movement that erupted in Milan and Bologna will spread to additional cities as unions and student groups add their voices, turning a regional flashpoint into a national contestation that Italian and French media will frame as a shared European pattern. The Vatican will issue medical updates on the Pope's cancer treatment, and the faithful will gather again in Rome, keeping the diagnosis at the centre of the country's conversation. Meloni and her cabinet will press their diplomatic case against the US-Russia diesel arrangement and Trump's Ukraine posture, likely drawing a sharper response from Washington and complicating Italy's standing within the alliance. The Eni refinery in southern Italy faces a real risk of shutdown as Ilva steelworkers tighten their blockade, which will force the government to act on fuel supplies. The air-traffic disruption that briefly halved flight capacity will exit the headlines entirely.",
+      "generated_at": "2026-10-23T13:48:49+03:00"
+    }
+  },
+  "display": {
+    "headline": "Protests spread, Pope's health grips Rome, Meloni clashes with Trump",
+    "emojis": [
+      "✊",
+      "🙏",
+      "🗣️"
+    ],
+    "emoji_reasons": [
+      "Social protests in Milan and Bologna are the dominant new story and will define the week's tone.",
+      "The Pope's cancer diagnosis is a major development touching faith, health, and national sentiment.",
+      "Meloni's public criticism of Trump's diesel deal and Ukraine stance frames the key diplomatic friction of the week."
+    ],
+    "tldr": "Italy will see protests spread beyond Milan and Bologna, the Vatican will share updates on the Pope's cancer, and Meloni will press her diplomatic case against Washington. A southern refinery shutdown from Ilva's blockade is the main wild card.",
+    "eli5": "Italy is having a rough week. Workers and students marched in Milan and Bologna, police got involved, and French TV channels are calling it a new wave of protest similar to what France is seeing. Next week this will probably spread to more cities and get bigger, so think of it as the protest story that won't go away.\n\nAt the same time, the Pope was diagnosed with cancer. People are praying outside a hospital in Rome, and next week the Vatican will probably share more details about his treatment. This is a big deal because the Pope is a global figure and Italians feel very close to him.\n\nOn the politics side, PM Meloni is publicly calling out President Trump over a diesel-fuel deal he made with Russia and his handling of the Ukraine war. Expect her government to keep talking tough, and Washington to talk back. That diplomatic spat will keep simmering.\n\nThe surprise to watch for is the steelworkers at the Ilva plant in the south. They are blocking an Eni oil refinery, and if it actually shuts down, southern Italy could run short on fuel. The government would have to jump in fast. That is the thing that would genuinely surprise most people."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nDuring the week of October 10-14, 2026, Italy's parliament approved a new electoral law that opposition parties immediately branded a 'scam' designed to lock Meloni's coalition in power through 2027. The government opened budget talks with banks and energy groups over their contribution to the 2027 fiscal plan, while Goldman Sachs warned of bond risks and the EU pressed for fiscal prudence. Italy and the European Commission edged toward a natural-gas price cap deal. Pope Leo XIV announced he would undergo lung surgery in the coming days for a localized nodule. Intesa Sanpaolo sweetened its 34-to-35-billion-euro bid for Monte dei Paschi and warned rivals. A tornado struck Marsala and Petrosino in Sicily, and Pfizer announced roughly 330 job cuts at its Sicily plant. Prosecutors requested a trial for Campari chairman Luca Garavoglia over a 1.29-billion-euro tax-evasion allegation. Thieves stole approximately 30,000 bottles worth five million euros from the Antinori winery\n- Parliament approved Meloni's new electoral law (regular, continuing): Parliament approved Meloni's new electoral law, triggering opposition legal and political counterattacks.\n- Pope Leo XIV announced imminent lung (regular, continuing): Pope Leo XIV announced imminent lung surgery for a localized nodule.\n- Intesa Sanpaolo sweetened its 34-35 billion (regular, continuing): Intesa Sanpaolo sweetened its 34-35 billion euro bid for Monte dei Paschi.\n- A tornado struck Marsala and Petrosino (regular, continuing): A tornado struck Marsala and Petrosino while Pfizer cut 330 jobs in Sicily.\n- NATO began its ten-day Steadfast Noon (regular, continuing): NATO began its ten-day Steadfast Noon nuclear exercise hosted by Italy.\n- Prosecutors requested a trial for Campari (regular, continuing): Prosecutors requested a trial for Campari chairman over 1.29 billion euro tax evasion.\n\nRound 2026-09-15:\nMeloni's government became the longest-serving postwar Italian government, but stability came under simultaneous pressure. ISTAT confirmed a 3.1% budget deficit for 2025, complicating Meloni's public claim that Italy would return below the 3% EU threshold in 2026. A new school decree capping classrooms at 30% students with insufficient Italian-language skills and banning full face coverings became the dominant domestic culture-war flashpoint. Salvini called an extraordinary League congress amid internal factional pressure, while Roberto Vannacci's breakaway far-right party faced its first serious parliamentary test. Bank consolidation rumors involving UniCredit, Credit Agricole, Intesa Sanpaolo, and Banco BPM circulated widely. Intesa's Fideuram unit confirmed a roughly 95-million-euro loss to an AI impersonation fraud. Eni announced pump-price cuts and the government convened refiners ahead of winter. The Senate gave final approval to nuclear power after decades without new reactors. Italy lost 0-2 to Belgium in Mancini's second match as national coach, with boos at\n- School decree on veils and foreign-student (regular, continuing): School decree on veils and foreign-student caps enacted, triggering a culture-war confrontation across the coalition and opposition.\n- ISTAT confirmed a 3.1% budget deficit (regular, continuing): ISTAT confirmed a 3.1% budget deficit for 2025, straining Meloni's 2026 sub-3% pledge.\n- Vannacci's breakaway far-right party entered its (regular, continuing): Vannacci's breakaway far-right party entered its first serious parliamentary test, pressuring Meloni's right flank.\n- Intesa Sanpaolo's Fideuram unit lost approximately (regular, continuing): Intesa Sanpaolo's Fideuram unit lost approximately 95 million euros to an AI impersonation fraud.\n- Italy lost 0-2 to Belgium in (regular, continuing): Italy lost 0-2 to Belgium in Mancini's second fixture, intensifying doubts about the rebuild.\n- The Colosseum closed after a maintenance (regular, continuing): The Colosseum closed after a maintenance worker fell to his death, prompting a safety review.\n- The Senate gave final approval to (regular, continuing): The Senate gave final approval to a nuclear-power law, ending decades of political stalemate on reactors.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

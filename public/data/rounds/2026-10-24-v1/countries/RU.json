@@ -1,0 +1,824 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "RU",
+  "name": "Russia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-24T18:19:31+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week was dominated by a surge in US-Russia diplomacy. US envoy Steve Witkoff traveled to St. Petersburg to meet President Putin, calling him a 'humanitarian' and pressing for an end to the war. The Kremlin responded by agreeing to three-way peace talks with Ukraine and the US in early November in Abu Dhabi. Melania Trump brokered a one-city humanitarian ceasefire in the Russian-occupied town of Oleshky, and Russia released 74-year-old American Stephen Hubbard after more than four years in a Russian jail. In a controversial move, Trump waived several newly enacted sanctions on Russian energy just before a new law took effect, angering Zelensky and parts of Congress. On the battlefield, Ukraine launched some of its largest drone attacks of the year, hitting Moscow-area airports, data centers, and Putin's hometown, while Russia pounded Kyiv with cluster bombs and missiles. The first tanker of Russian diesel under the Trump-Putin trade deal set sail for the US. Romania blamed Russia for a drone strike that sank a cargo ship in the Black Sea, killing one. Austria expel four Russian diplomats over espionage, and Germany arrested a Ukrainian man suspected of spying for Moscow. Russia's central bank held its key rate at 14 percent while raising its inflation forecast.",
+    "key_events": [
+      {
+        "event": "US envoy Steve Witkoff met Putin in St. Petersburg to discuss ending the Ukraine war and proposed a three-way summit with Trump and Xi.",
+        "date": "2026-10-20",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Russia and Ukraine agreed to a one-city humanitarian ceasefire in the occupied town of Oleshky, brokered by Melania Trump.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Russia freed 74-year-old American Stephen Hubbard after more than four years in a Russian jail, at Trump's request.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Trump waived several newly enacted sanctions on Russian energy just before a new law took effect, drawing criticism from Zelensky and Congress.",
+        "date": "2026-10-19",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Russia, Ukraine, and the US agreed to hold three-way peace talks in Abu Dhabi in early November.",
+        "date": "2026-10-22",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Ukraine launched over 1,000 drones at Russia in one of its largest attacks of the year, hitting airports, data centers, and Putin's hometown.",
+        "date": "2026-10-22",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The first tanker of Russian diesel under the Trump-Putin trade deal set sail for the US.",
+        "date": "2026-10-23",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Romania blamed Russia for a drone strike that sank a cargo ship in the Black Sea, killing one and leaving three missing.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Austria expelled four Russian diplomats linked to espionage, and Germany arrested a Ukrainian man suspected of spying for Moscow.",
+        "date": "2026-10-21",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Russia's central bank held its key rate at 14 percent while raising its 2026 inflation forecast amid war-driven price pressures.",
+        "date": "2026-10-18",
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "economy",
+      "politics"
+    ],
+    "emojis": [
+      "🕊️",
+      "⚔️",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "The Oleshky ceasefire and the agreement to hold November peace talks in Abu Dhabi (headlines 11, 24, 107) made diplomacy the week's dominant thread.",
+      "Ukraine launched over 1,000 drones at Russia while Russia hit Kyiv with cluster bombs and missiles (headlines 197, 91, 82), keeping the battlefield intense.",
+      "Trump's sanctions waiver and the first Russian diesel tanker sailing for the US (headlines 33, 26, 61) put Russian energy at the center of the economic story."
+    ],
+    "developments": [
+      {
+        "subject": "Witkoff-Putin St. Petersburg meeting",
+        "what_happened": "US envoy Steve Witkoff met Putin in St. Petersburg, called him a 'humanitarian,' and proposed a three-way summit with Trump and Xi in China.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          83,
+          156,
+          158,
+          169,
+          228,
+          240,
+          71,
+          118,
+          130,
+          170
+        ]
+      },
+      {
+        "subject": "Oleshky humanitarian ceasefire",
+        "what_happened": "Melania Trump brokered a one-city ceasefire in the Russian-occupied town of Oleshky to allow humanitarian aid and civilian evacuation.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          7,
+          11,
+          14,
+          17,
+          18,
+          25,
+          34,
+          60,
+          85,
+          32
+        ]
+      },
+      {
+        "subject": "Russia frees Stephen Hubbard",
+        "what_happened": "Russia released 74-year-old American Stephen Hubbard after over four years in a Russian jail, at Trump's request, with Witkoff present.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          16,
+          27,
+          38,
+          49,
+          62,
+          77,
+          89,
+          93,
+          98,
+          101,
+          113,
+          122,
+          146,
+          148,
+          168,
+          240
+        ]
+      },
+      {
+        "subject": "Trump waives Russia sanctions",
+        "what_happened": "Trump suspended several newly enacted sanctions on Russian energy before a new law took effect, angering Zelensky and parts of Congress while he defended it as an incentive for peace.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          33,
+          120,
+          121,
+          181,
+          182,
+          187,
+          192,
+          198,
+          205,
+          208,
+          215,
+          238,
+          241,
+          249,
+          175
+        ]
+      },
+      {
+        "subject": "November peace talks in Abu Dhabi",
+        "what_happened": "Russia, Ukraine, and the US agreed to hold three-way negotiations in early November in Abu Dhabi, with Putin also floating a separate summit with Trump and Xi.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          13,
+          24,
+          107,
+          108,
+          163,
+          174,
+          190,
+          224,
+          103,
+          137,
+          63,
+          139,
+          150,
+          152,
+          160,
+          213
+        ]
+      },
+      {
+        "subject": "Ukraine's massive drone offensive",
+        "what_happened": "Ukraine launched over 1,000 drones at Russia, hitting Moscow-area airports, a major bank's data center, and an oil terminal in Putin's hometown, crippling diesel supply chains.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          6,
+          19,
+          59,
+          86,
+          97,
+          133,
+          197,
+          222,
+          225,
+          237,
+          87
+        ]
+      },
+      {
+        "subject": "Russian diesel tanker to the US",
+        "what_happened": "The first tanker of Russian diesel under the Trump-Putin trade deal set sail for the US, with delivery expected in 15 to 20 days.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          26,
+          35,
+          44,
+          45,
+          61,
+          75,
+          117,
+          142,
+          153,
+          191
+        ]
+      },
+      {
+        "subject": "Romania blames Russia for Black Sea ship sinking",
+        "what_happened": "A cargo ship was sunk by a drone in the Black Sea, killing one and leaving three missing, with Romania blaming Russia.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          37,
+          42,
+          48,
+          68
+        ]
+      },
+      {
+        "subject": "Russia espionage in Europe",
+        "what_happened": "Austria expelled four Russian diplomats over espionage, Germany arrested a Ukrainian man suspected of spying for Moscow, and Poland renovated Cold War bunkers against hybrid threats.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          46,
+          50,
+          52,
+          84,
+          90,
+          116,
+          119,
+          196,
+          31,
+          28,
+          242,
+          244
+        ]
+      },
+      {
+        "subject": "Russia's central bank holds rate",
+        "what_happened": "The Bank of Russia held its key rate at 14 percent while raising its 2026 inflation forecast, citing war-driven price pressures from Ukrainian strikes.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          56,
+          92,
+          131
+        ]
+      },
+      {
+        "subject": "Putin floats Trump-Xi summit",
+        "what_happened": "Putin proposed a three-way summit with Trump and Xi in China to discuss the Ukraine deal, with China reportedly preparing for the meeting.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          63,
+          127,
+          139,
+          140,
+          150,
+          152,
+          160,
+          162,
+          213,
+          216
+        ]
+      },
+      {
+        "subject": "Russia's jet-powered drone megabase",
+        "what_happened": "Russia built a new jet-powered attack drone base in just six weeks, ramping up its drone war capability.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          123,
+          233,
+          250
+        ]
+      }
+    ],
+    "gone": [
+      "Putin spoke with Pope Leo from",
+      "Oil prices touched $110 a barrel",
+      "Five Russian drones crashed on Moldovan",
+      "Russia returned to the G20 table",
+      "A magnitude-7 earthquake struck Russia's Kamchatka",
+      "Russia used a large army of"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 250 headlines provide broad coverage of Russia's diplomacy, battlefield, economy, and European security dimensions, with strong representation of the Witkoff-Putin meeting, Oleshky ceasefire, and sanctions waiver, though domestic Russian politics and the eastern front are underrepresented."
+    },
+    "headlines_used": [
+      "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
+      "Ukraine and Russia eye new peace talks — and Melania Trump's mission — but steep obstacles remain",
+      "Zelensky doubtful on Russian acceptance of Trump's 'energy ceasefire'",
+      "Newcastle mother's search for son fighting for Russia in Ukraine",
+      "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
+      "How Ukraine is targeting Russia's aviation and travel sectors with drone strikes on Moscow-area airports",
+      "Ukraine: Melania Trump affirme avoir obtenu un cessez-le-feu à Olechky, ville occupée par les forces russes",
+      "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
+      "Zelensky Takes a Risk by Publicly Confronting Trump Over Russia",
+      "US executives quit $25bn gas venture over claims of secret Russian control",
+      "Russia, Ukraine agree to Oleshky ceasefire brokered by Melania Trump, White House says",
+      "Russia drops cluster bombs on Ukraine as Kyiv consolidates front line",
+      "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+      "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
+      "Zelensky says fresh Russian strikes show 'no change' in Kremlin position",
+      "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+      "Melania Trump says she secured a one-city ceasefire between Russia and Ukraine",
+      "Russia, Ukraine agree to US-brokered, 1 city ceasefire",
+      "VIDÉO. Ukraine: pluie de missiles à Kiev et 600 drones ukrainiens ciblent la Russie",
+      "Serbian Vote Pits Putin-Backed Strongman Against Student Dissent",
+      "Russia’s Central Bank Sees Only Modest Further Drop in Key Rate",
+      "The Putin whisperers",
+      "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
+      "Russia and Ukraine say talks planned for November in UAE",
+      "Russia, Ukraine agree to ceasefire in Ukrainian city hit by food crisis, brokered by Melania Trump",
+      "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin",
+      "American detained in Russia arrives in US: lawyer",
+      "Surveillance and ‘constant paranoia’: Western diplomats tell BBC of life in war-time Moscow",
+      "Top Trump political advisers donate fee for work on behalf of pro-Russian government after he floated firing them",
+      "How Russia's relentless attacks on Kyiv have turned Ukraine's capital into a front-line city",
+      "Face aux attaques hybrides de la Russie, la Pologne rénove ses bunkers de la Guerre froide",
+      "US Says Russia, Ukraine to Let Civilians Leave War-Torn Area",
+      "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect",
+      "Russia and Ukraine agree to temporary ceasefire around occupied town of Oleshky",
+      "Russian diesel tanker heads to U.S.: Here’s what you need to know",
+      "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+      "Romania blames Russia for drone that sinks cargo ship; 1 killed, 3 missing",
+      "Sister of American held in Russia says he didn't know he was being released until he saw US flag",
+      "US envoy to meet Putin after 'positive' talks with Zelensky",
+      "Ukraine hit by strikes after Russia agrees to new peace talks",
+      "Trump defends Russia negotiations, after claiming he didn’t give anything up | CNN Politics",
+      "Romania blames Russia for ship attack in the Black Sea",
+      "Zelensky estime que la Russie n'a pas \"changé d'attitude\" après des frappes sur l'Ukraine",
+      "Ship With Russian Diesel Signals US Port After Trump-Putin Deal",
+      "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal",
+      "Austria expels Russian diplomats suspected of espionage",
+      "Former U.S. Ambassador to the EU: Putin believes he has the wind at his back in the Ukraine war",
+      "Romania blames Russia after drone sinks ship in the Black Sea",
+      "Russia, US say American Hubbard was not released in exchange for a Russian war blogger",
+      "Austria expels 4 Russian diplomats linked to espionage, official says",
+      "EU unveils new Arctic strategy in face of US, Russia threats",
+      "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+      "Zelensky: If you give something to Putin, he will want everything",
+      "Poland's ex-president: Putin's war in Ukraine was a miscalculation",
+      "Attaques réciproques de la Russie et de l'Ukraine après des pourparlers russo-américains",
+      "Russia Holds Key Rate as Ukrainian Strikes Spur Inflation",
+      "Opinion | Republicans, Act on Russia",
+      "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
+      "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
+      "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+      "EXCLUSIVE: First Russian diesel from Putin-Trump deal heading for US, data shows",
+      "Sister of American Stephen Hubbard says he’s in disbelief following release by Russia",
+      "Trump says ready to meet with Putin and Xi in China",
+      "Newshour | Missiles hit Kyiv after Russia says it's 'ready' for peace",
+      "Where Trump sees a deal, Putin sees a win for Russia",
+      "Germany sit out FIFA Under-15 World Cup as Russia return",
+      "Ukraine: sept morts dans des frappes après la visite de l'émissaire américain en Russie",
+      "Black Sea Ship Sinks in New Deadly Drone Strike Blamed on Russia",
+      "Exclusive | Airfield Attack Marked Opening Shot in Putin’s Stepped-Up Sabotage Campaign",
+      "Letter: Is the west right to dismiss Putin’s threats as bluster?",
+      "Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
+      "Can Russia broker a new US-Iran deal?",
+      "Russia and Ukraine swap 270 prisoners each",
+      "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+      "Russia-US diesel deal delivery to take 15-20 days: Russia",
+      "UK's gaps in Arctic defence leave it open to Russian attacks, committee warns",
+      "Freed Russian prisoner Stephen Hubbard has returned to American soil",
+      "Why Russia's arrest of Japanese journalist is the latest sign of deteriorating ties between the countries",
+      "Mali: Human Rights Watch accuse l'armée et ses alliés russes de \"nouvelles atrocités\" contre des civils",
+      "Russia Turns to a Disputed Region to Keep Wheat Exports Flowing",
+      "Witkoff’s Praise of Putin as ‘Humanitarian’ Tracks With U.S. Approach to Russia",
+      "Russia drops cluster warheads on Kyiv after Witkoff-Putin peace talks",
+      "U.S.' Witkoff meets Russia's Putin in St. Petersburg",
+      "Germany arrests Ukrainian man accused of spying for Russia",
+      "Kremlin confirms Oleshky ceasefire, says working with Ukraine on evacuation timing",
+      "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research",
+      "Kremlin says Ukrainian attacks won't change war aims as Kyiv hits Saint Petersburg",
+      "Global News Podcast | Ukraine comes under renewed Russian attack",
+      "Stephen Hubbard: Russia frees 74-year-old American captured in Ukraine, US envoy Steve Witkoff says",
+      "Ukrainian man arrested in northeastern Germany on suspicion of spying for Russia",
+      "VIDÉO. Ukraine : 12 régions ukrainiennes visées par des bombardement russes",
+      "Russia Set to Hold Key Rate as Ukraine’s Strikes Spur Inflation",
+      "Russia Releases Captured American in Sign of Warming Ties",
+      "Nestlé removes Russian business from accounts after Kremlin takeover",
+      "Sen. John Cornyn on the midterm elections, Russia-Ukraine war and AI safety concerns",
+      "Russian strikes hit Kyiv after Witkoff meets Putin",
+      "Russia steps up attacks on Ukraine's digital infrastructure, Kyiv says",
+      "Russia frees American Stephen Hubbard after over 4 years behind bars",
+      "Ukraine takes Russia fight to 'scorching sands' of Sahel",
+      "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
+      "Stephen Hubbard in ‘fragile’ health but ‘excited to see family’ after Russia release, lawyer says",
+      "Is Trump trying to end the war in Ukraine, or helping Putin win it?",
+      "La Russie et l'Ukraine prêtes à de prochaines négociations à trois avec les Américains",
+      "Trump Should Reject Putin’s Plan for a Great-Powers Summit",
+      "Opinion | Putin Plays Hostage Geopolitics",
+      "Russian missiles bombard Kyiv after Witkoff-Putin talks",
+      "Zelenskiy says Ukrainian, Russian and US negotiators to meet in early November in Abu Dhabi",
+      "Russia agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "Ordinary day, extraordinary times: Kyiv under Russian attack",
+      "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "Massive strikes hit Kyiv hours after Putin agrees to fresh peace talks",
+      "Ukraine, Russia trade overnight strikes after US envoy Steve Witkoff's St. Petersburg talks",
+      "'Vous êtes un humaniste, monsieur Poutine': la Russie libère l'Américain Stephen Hubbard à la demande de Donald Trump",
+      "Putin’s Temporary Control of Metro Unit Reaps Funds for War Push",
+      "Opinion | Russia Arrests Another Journalist",
+      "Germany’s Friedrich Merz warns of ‘intense’ Russian espionage after arrest",
+      "Morgan Stanley: Russia diesel deal will provide 12 hours supply",
+      "What happened during Witkoff and Kushner’s latest meeting with Putin",
+      "Austria expels four Russian diplomats on security grounds",
+      "Trump lashes out at reporters pressing him on Russia sanctions waiver",
+      "Zelensky says Trump could lift more Russia sanctions",
+      "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+      "Inside Russia’s new jet-powered drones",
+      "Russia's war in Ukraine: Life near the front line in Sloviansk",
+      "VIDÉO. Guerre en Ukraine: Kiev essuye des attaques de drones russes",
+      "Pandering to Vladimir Putin Won’t Bring Peace to Ukraine",
+      "A Trump, Xi and Putin Summit? - Opinion: Potomac Watch - WSJ Podcasts",
+      "EU probes pro-Kremlin disinformation around French riots",
+      "Oil eases as markets assess potential waiver on Russian energy, Middle East supply risks",
+      "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’",
+      "Russian central bank keeps key rate on hold at 14%, raises 2026 inflation forecast",
+      "Russia says it has detained a German who faces charges for serving in Ukrainian army",
+      "Drone hits data centre of Russia's largest bank",
+      "Newshour | Russia says it will resume talks on ending Ukraine war",
+      "Jim Sciutto: \"The president is helping Russia in many concrete ways\"",
+      "How Russian aggression is shaping Bulgaria's presidential election",
+      "Le Kremlin prêt à des négociations Russie-Ukraine-Etats-Unis mi-novembre",
+      "Watch Russia Is Trying to Intensify War With Ukraine, Says Romania's President",
+      "Exclusive | Putin Floats a Summit With Trump and Xi to Discuss Ukraine Deal",
+      "Trump envoy proposes Ukraine talks and summit with Putin and Xi",
+      "Banks won't finance Russia re-entry deals, says Oliver Wyman's Daniel Tannebaum",
+      "Will Russia’s diesel shipment to the US lower prices before midterms?",
+      "Putin says talks must focus on security for Russia, Ukraine and Europe overall",
+      "Zelenskyy says early warning system for Russian missile attacks resumes following call with Rubio",
+      "Zelensky says intelligence sharing 'works now' as US envoy to meet Putin in Russia",
+      "Russia frees 74-year-old American Stephen Hubbard, Trump envoy says copy",
+      "Putin proposed trilateral talks on Ukraine. What role will China play?",
+      "La Russie libère l'Américain Stephen Hubbard, Trump nie toute \"contrepartie\"",
+      "Putin’s War On Ukraine Puts Oil Giant Rosneft Under Mounting Pressure",
+      "Trump Says He’s Open to Talks With the Leaders of Russia and China",
+      "Putin’s American friends",
+      "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+      "Russia to send first diesel tanker to the US amid Trump deal",
+      "Danish military orders long-range missiles, drawing Russian ire",
+      "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again",
+      "Russia-Ukraine war update: President Vladimir Putin meet Donald Trump special envoy Steve Witkoff on how to end conflict wit Ukraine",
+      "Russia arrests German man, calls him a Ukraine 'mercenary'",
+      "Rencontre en Russie entre Poutine et l'émissaire de Trump sur l'Ukraine",
+      "Russia Looking to Escalate War, Not End it, Romanian Leader Says",
+      "Trump Says He Would Be Open to Meeting With Putin and Xi",
+      "Finnish president hails progress in talks about ending Russia’s war in Ukraine",
+      "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+      "Putin and Zelenskyy back three-way US peace talks on Ukraine",
+      "Russia-linked hackers used decentralised network in Ukraine cyberattack, ESET says",
+      "Pope Leo XIV urges humanitarian cooperation between Ukraine and Russia during call with Zelenskyy",
+      "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "She made an anti-war drawing as a child in Russia. Four years on, she’s still living with the fallout",
+      "Russia frees jailed American Stephen Hubbard",
+      "L'émissaire de Trump en Russie pour une rencontre avec Poutine sur l'Ukraine",
+      "UK Rejects Witkoff’s Characterization of Putin as ‘Humanitarian’",
+      "Inside Putin’s Bid to End the War in Ukraine on Moscow’s Terms | The 10-Point for October 19",
+      "Ukraine receives partial intelligence on Russian ballistic missile strikes",
+      "CNBC Daily Open: A Russia-Ukraine peace summit without Ukraine?",
+      "Russia willing to resume peace talks with Ukraine, US after Witkoff visit",
+      "Republican backlash over Russia policy poses challenge for Trump in Congress",
+      "Trump warns ‘it’s time’ for Ukraine to make a deal with Russia",
+      "Watch: Russian saboteur working for Ukraine shares reconnaissance videos",
+      "At the negotiating table and on the battlefield, Russia and Ukraine are at an impasse",
+      "US aims for new round of Russia-Ukraine negotiations",
+      "Russia Drones Are Already Killing People Within EU Territory",
+      "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions",
+      "Europe must liberate Belgium from its huge Russian assets risk",
+      "Former U.S. Navy Captain Brent Sadler on the latest developments in the Russia-Ukraine war",
+      "EU revises Arctic strategy as pressure from Russia, US grows",
+      "Love affair to staged arrest: how a Romanian from England was jailed in Russia as a spy",
+      "US ties with Ukraine hit new low as Trump slights Zelenskyy and eases up on Russia",
+      "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "Russian drone kills toddler and her mother in Ukrainian park",
+      "Raids at Patriots for Europe offices in Brussels, Strasbourg",
+      "Ukraine : le Kremlin prêt à des négociations trilatérales mi-novembre",
+      "Russia Sees First Diesel Cargo Sailing for US on Thursday",
+      "Oil Futures Settle Lower As U.S. Waives Some Russia Sanctions",
+      "Latvia calls for visa ban on Russians",
+      "Ukraine Minister: Russia increasing attacks on energy infrastructure",
+      "Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?",
+      "Suspected spy for Russia arrested in Germany",
+      "Ukraine launches more than 1,000 drones at Russia as spat between Trump and Zelenskyy continues",
+      "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "GOP Senator goes off on Trump for praising Putin: ‘He is a murderer!’ | CNN Politics",
+      "North Korean workers treated as 'slaves' at Russian drone factory",
+      "Trump pousse Zelenski à négocier avec la Russie, par Ali Dilem",
+      "Italy Is Looking Into Whether Russian Agents Helped Fuel Riots",
+      "Opinion | To Russia With Love, Signed Donald",
+      "Russian ships fake locations to appear in two places at once",
+      "Ukraine’s Zelenskyy criticizes President Trump’s decision to suspend new sanctions on Russia",
+      "Zelenskyy to hold talks on Russia-Ukraine war with Witkoff, Europeans",
+      "As Russia penalises European firms over Ukraine, US rivals largely spared",
+      "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+      "The Documentary Podcast | Shadowmen: Russians working with Ukraine",
+      "Russian satellite makes possibly unprecedented approach of another spacecraft without permission",
+      "New EU plan for Arctic warily eyes influence of Russia, US in region",
+      "Un satellite militaire russe traque à quelques dizaines de mètres un satellite radar américain utilisé par l'Ukraine",
+      "Kremlin Says China Preparing for Possible Putin-Trump-Xi Meeting",
+      "Trump’s Overtures to Putin Put Republican Candidates in Hot Seat",
+      "Donald Trump exempts Russia from further sanctions mandated by new law",
+      "Potential Putin-XI summit on Ukraine appeals to Trump's focus on legacy: Atlantic Council's Kempe",
+      "Is Russia stalking satellites which help Ukraine from space?",
+      "PODCAST: Cybersecurity flaw, Russia-Ukraine and Brazil's phone problem",
+      "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump",
+      "UK must protect against Russian 'hybrid attacks', ex-national security adviser says",
+      "GOP Senator: ‘Putin is playing President Trump like a fiddle’",
+      "Ukraine strikes Putin's hometown, as Trump eases pressure on Russia",
+      "Ukraine: 'aucun avertissement' avant les frappes russes et Starshield toujours bridé, déplore Zelensky",
+      "Putin Says Russia Ready for New Peace Talks With US, Ukraine",
+      "Ukrainian Drone Strike Hits Putin’s Hometown, Striking Oil Terminal",
+      "IMFC chair says global economy resilient; delegates walk out on Russian official",
+      "Finland seeking one million land mines as it eyes Russian threat",
+      "US envoy Witkoff to meet Putin, Trump presses Kyiv to settle",
+      "Desperate civilians risk their lives along mined roads to escape from a Russian-held city",
+      "Newscast | Why Is Trump Criticising Zelensky And Complimenting Putin?",
+      "Trump slams Zelensky after Ukraine defies US president with major attack on Russia",
+      "Ukraine's Zelenskyy says partners gave 'no warning' ahead of Russian ballistic strikes",
+      "Guerre en Ukraine: la Russie construit une nouvelle base de drones d'attaque à réaction en à peine six semaines",
+      "Russia Says It May Agree on Key Gas Link With China This Year",
+      "Russia’s Lavrov discusses US war and regional security during Tehran visit",
+      "EXCLUSIVE: Hungary considers replacing Russia's Rosatom in nuclear project",
+      "Ukraine launches one of its biggest drone attacks on Russia this year",
+      "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'",
+      "Mali: l'ONG Human Rights Watch accuse l'armée, ses alliés russes et les insurgés de commettre des 'atrocités'",
+      "Putin Releases Hostage to US, Earning Praise as Humanitarian",
+      "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+      "Germany's military warns of 'significant' Russian sabotage threat",
+      "'Putin is warring against us, we are sending him kisses': Former Ambassador on Trump’s Russia Policy",
+      "How great is the Russian threat against Germany?",
+      "Une BD thriller d'anticipation: 2029 les Russes attaquent les Pays Baltes, c'est \"L'Opération Yantar\"",
+      "Russia Ships the Least Oil in a Month as Major Baltic Port Halts",
+      "Children among six killed in Russian drone strike on Ukraine park",
+      "Russia bombs Kyiv and Ukraine fires drones towards Moscow, despite talk of renewing negotiations",
+      "Energy Secretary defends Trump waiving Russian sanctions: 'This is an incentive to end the war.'",
+      "Russia ramps up drone war with new launch megabase"
+    ],
+    "converted": false,
+    "relevant_headlines": 295,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Witkoff-Putin St. Petersburg meeting",
+        "expected": "Witkoff-Putin St. Petersburg meeting stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Witkoff-Putin St. Petersburg meeting appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Oleshky humanitarian ceasefire",
+        "expected": "Oleshky humanitarian ceasefire stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Oleshky humanitarian ceasefire appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Russia frees Stephen Hubbard",
+        "expected": "Russia frees Stephen Hubbard stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Russia frees Stephen Hubbard appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Witkoff-Putin St. Petersburg meeting",
+        "expected": "persist",
+        "sign": "Witkoff-Putin St. Petersburg meeting is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Witkoff-Putin St. Petersburg meeting stays in the news at the same level. Oleshky humanitarian ceasefire stays in the news at the same level. Russia frees Stephen Hubbard stays in the news at the same level. Witkoff-Putin St. Petersburg meeting is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Pre-Abu Dhabi diplomatic positioning",
+        "expected": "Russia and Ukraine will issue competing public statements and back-channel briefings as they finalize their positions ahead of the early November Abu Dhabi summit, with both sides outlining what they consider non-negotiable terms.",
+        "direction": "persist",
+        "sign": "Headlines will show both Kyiv and Moscow releasing detailed position statements about the scope of talks, with Zelensky and Putin or their deputies making contrasting public remarks about what the negotiations must achieve."
+      },
+      "second": {
+        "subject": "Drone war escalation",
+        "expected": "Ukraine will launch another wave of long-range drone strikes on Russian aviation, energy, and digital infrastructure in the Moscow region, while Russia will respond with fresh missile and cluster-bomb barrages on Kyiv and other Ukrainian cities.",
+        "direction": "escalate",
+        "sign": "Headlines will report new specific targets hit in Russia's aviation and energy sectors and a new round of missile strikes on Kyiv, with updated casualty figures and damage assessments from both sides."
+      },
+      "third": {
+        "subject": "Sanctions waiver political battle",
+        "expected": "The US Congress will formally challenge Trump's waiver of Russian energy sanctions through hearings and pointed floor statements, forcing the White House to defend the move before the midterms.",
+        "direction": "escalate",
+        "sign": "Headlines will show congressional hearings, floor votes, or pointed statements from Senate and House members demanding the waiver be reversed or clarified, with the White House issuing a defensive response."
+      },
+      "fade_call": {
+        "subject": "Stephen Hubbard release",
+        "expected": "fade",
+        "sign": "Headlines will shift from the diplomatic significance of the release to Hubbard's personal health, family reunion, and recovery, with fewer references to the Witkoff meeting and the Trump-Putin relationship."
+      },
+      "surprise": {
+        "subject": "Jet-powered drone revealed in combat",
+        "expected": "Russia will publicly reveal or deploy its newly built jet-powered attack drone in a combat operation, marking a visible qualitative step up in its drone warfare and catching Western analysts off guard.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, the diplomatic track will dominate as Russia and Ukraine finalize their positions for the early November Abu Dhabi talks, with both sides issuing public statements about their red lines and engaging in back-channel positioning. The drone war will intensify further, with Ukraine striking Russian aviation and energy infrastructure and Russia responding with missile barrages on Kyiv. In Washington, Congress will press the White House on the sanctions waiver, turning it into a partisan flashpoint ahead of the midterms. The Stephen Hubbard story will recede as he settles into life back in the US. There is a moderate chance Russia will publicly deploy or reveal its new jet-powered drone, signaling a qualitative shift in its drone warfare.",
+      "generated_at": "2026-10-24T18:00:43+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Abu Dhabi talks preparation",
+        "expected": "The US, Russia and Ukraine will finalize a joint agenda for the early-November Abu Dhabi session, with a named delegation traveling to Abu Dhabi for a pre-talks working meeting.",
+        "direction": "persist",
+        "sign": "Headlines name a specific delegation or working group traveling to Abu Dhabi, or a joint document outlining the negotiation agenda, rather than the current agreed-to-hold-talks language"
+      },
+      "second": {
+        "subject": "Jet-powered drone first combat use",
+        "expected": "Russia will deploy its new jet-powered attack drones in a strike on Ukrainian energy or digital infrastructure, marking the first operational use of the capability built in the new megabase.",
+        "direction": "escalate",
+        "sign": "Headlines name jet-powered drones or a new drone type in a Russian strike on Ukrainian infrastructure, rather than the current reporting of standard drones and missiles"
+      },
+      "third": {
+        "subject": "Energy sanctions congressional challenge",
+        "expected": "A bipartisan congressional resolution will formally challenge the legal basis of the energy sanctions waiver, triggered by Zelensky's public confrontation with Trump over the diesel deal and the energy-ceasefire framing.",
+        "direction": "escalate",
+        "sign": "Headlines carry a named committee chair or a numbered bill in the sanctions fight, or a White House briefing specifically addressing the energy-ceasefire question, rather than the current opinion-piece coverage"
+      },
+      "fade_call": {
+        "subject": "Stephen Hubbard release",
+        "expected": "fade",
+        "sign": "The release drops to a brief mention in a diplomacy roundup or a follow-up health update, with no new headlines about his return or the conditions of his release"
+      },
+      "surprise": {
+        "subject": "Black Sea incident escalation",
+        "expected": "Romania will file a formal diplomatic protest over the cargo ship sinking and demand a joint investigation, turning a single maritime loss into a standing security issue that complicates the peace-talks agenda.",
+        "chance": "low"
+      },
+      "summary": "Next week, the diplomatic momentum from the Witkoff-Putin meeting will drive headlines as the US, Russia and Ukraine prepare for the early-November Abu Dhabi talks. A joint agenda or pre-talks working meeting will be the most concrete diplomatic step, settling whether the Trump-Xi-Putin summit will proceed in parallel. On the battlefield, Russia will test its newly built jet-powered drones in a strike on Ukrainian infrastructure, and the drone-and-missile exchange will intensify as both sides position for negotiations. In Washington, the Zelensky-Trump confrontation over the energy ceasefire will push Congress toward a formal challenge to the sanctions waiver, while the diesel tanker sails toward American ports. The Oleshky ceasefire will see its first aid convoys attempted, and the Black Sea ship sinking will linger as a diplomatic irritant.",
+      "generated_at": "2026-10-24T18:19:31+03:00"
+    }
+  },
+  "display": {
+    "headline": "Russia Tests Jet Drones as Abu Dhabi Talks Take Shape",
+    "emojis": [
+      "🕊️",
+      "💣",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The Abu Dhabi peace talks and Oleshky ceasefire dominate the diplomatic landscape",
+      "Both sides will trade intensified drone and missile strikes on infrastructure",
+      "Congress will formally challenge the energy sanctions waiver"
+    ],
+    "tldr": "Next week centers on preparation for the early-November Abu Dhabi peace talks, with a joint agenda or pre-talks meeting as the key diplomatic milestone. Russia will test its new jet-powered drones in combat, and Congress will move to formally challenge the energy sanctions waiver.",
+    "eli5": "Right now, the US, Russia, and Ukraine are getting ready to sit down and talk in Abu Dhabi in early November. This week, an American envoy met Putin in St. Petersburg, and they agreed to hold these talks. Next week, the three sides will work out what exactly they will discuss, and there is a question about whether China's leader will also be at the table.\n\nOn the battlefield, both sides are hitting each other hard with drones and missiles. Russia just built a new base for fast jet-powered drones, and next week it will probably use them for the first time in a real attack on Ukrainian power plants or data centers. This is the jet-powered drone first combat use that forecasters are watching.\n\nIn Washington, Congress is angry that the president paused sanctions on Russian oil. Ukraine's leader is publicly arguing with the president about it. Next week, lawmakers will likely put a formal challenge on the table, forcing the White House to explain itself. This is the energy sanctions congressional challenge.\n\nThe big surprise would be if the cargo ship that sank in the Black Sea turns into a bigger diplomatic fight between Romania and Russia, making the peace talks harder to pull off."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The sanctions waiver fight was a major story (175, 199, 208, 214, 221, 238, 241, 249) with visible Republican backlash and congressional outrage, but no headline names a specific committee in session or a numbered bill targeting the waiver as the sign required."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Ukraine hit Togliatti's petrochemical plant (1) and the oil terminal in Putin's hometown (222, 225) while Russia struck 12 Ukrainian regions (91) and energy infrastructure (194), confirming kinetic escalation on energy targets, but the specific 'steel' and 'multi-axis' framing and the drone megabase delivering the coordinated strike are not clearly articulated in the headlines."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Witkoff traveled to St. Petersburg to meet Putin (83, 156, 158, 228), Russia agreed to three-way talks in Abu Dhabi in early November (24, 107, 108, 137, 190), and multiple joint statements and diplomatic outcomes were announced, fully satisfying the sign of a named envoy traveling and a specific meeting date."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Kamchatka earthquake is explicitly listed in the 'No longer in the headlines' section, confirming it faded from coverage as predicted."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the diplomatic re-engagement as a major story and the sanctions fight as a persistent theme, both of which dominated the week. However, the 'data-center and asset-unfreezing' framing was narrower than the actual broad peace-talks outcome, and the kinetic escalation prediction of 'steel' targets was slightly off (it was petrochemical and energy). The Oleshky ceasefire and Hubbard release, while falling under the diplomatic umbrella, were not specifically anticipated, and the 'security zone declaration' surprise did not materialize."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Ukraine struck the oil terminal in Putin's hometown in Belgorod (222, 225) and the Togliatti petrochemical plant (1), while Russia hit 12 Ukrainian regions (91) and energy infrastructure (194), confirming the energy-war framing, but the 'heaviest coordinated blackout operation to date' superlative and 'southern Russia' specificity are only partially supported."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Romania blamed Russia for sinking a cargo ship in the Black Sea (37, 42, 48, 68) and its president said Russia was trying to intensify the war (138, 159), confirming the Black Sea spillover, but no headline clearly shows Romania formally invoking a NATO consultation mechanism or a foreign-minister statement demanding an alliance response as the sign required."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "A visible Republican split emerged (175, 199, 214, 221) and Congress was outraged by the sanctions waiver (208), but no headline references a specific scheduled public hearing or a formal letter challenging executive authority as the sign demanded."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Kamchatka earthquake is listed in the 'No longer in the headlines' section, confirming it faded as predicted."
+          }
+        },
+        "archer_note": "The energy-war lead was directionally correct but understated the diplomatic dimension that actually dominated the week, including the Witkoff-Putin meeting and Abu Dhabi talks. The NATO spillover prediction was too formal for what actually happened; Romania blamed Russia but did not clearly trigger a formal alliance mechanism. The frozen-asset surprise did not appear in the headlines, and the bulletin missed the Oleshky ceasefire and Hubbard release entirely, which were among the week's biggest stories."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "The sanctions waiver was a dominant and persistent story across many headlines (33, 120, 121, 187, 198, 205, 208, 215, 225, 238, 241, 249), confirming it stayed at the same or higher level in coverage."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Zelensky's public confrontation with Trump persisted across multiple headlines (3, 9, 53, 121, 205, 219, 231), confirming the friction remained a steady theme in the coverage."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Russia struck multiple Ukrainian regions including 12 regions (91), Kyiv repeatedly (12, 30, 64, 74, 82, 106, 109, 110, 111, 125), confirming the kinetic strikes on Ukrainian regions remained a persistent headline theme."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The 'No longer in the headlines' section explicitly lists 'Russia used a large army of' as no longer in the headlines, contradicting the persist prediction."
+          }
+        },
+        "archer_note": "The 'more of the same' thesis captured the persistence of sanctions, Zelensky friction, and strikes, all of which held steady. However, the bulletin completely missed the week's dominant new developments: the Witkoff-Putin meeting, Oleshky ceasefire, Hubbard release, Abu Dhabi talks, and the diesel tanker departure. The 'no surprise' call was particularly wrong given the extraordinary diplomatic week, and the fade call on 'large army of' was contradicted by reality."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Bulletin X correctly identified the US-Russia diplomatic re-engagement as a major story and its sign (named envoy traveling, specific meeting date) was fully met, making it a came_true on the week's dominant theme. Bulletin Y spread its predictions across energy, NATO, and Congress, all landing as true_in_direction, which is solid but less decisive than X's capture of the single biggest story."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Bulletin X identified the diplomatic breakthrough as a concrete new development with a verifiable sign that was met, while Bulletin Z's 'more of the same' thesis, though accurate on three persist calls, missed the entire diplomatic dimension that defined the week. Z's wrong fade call and 'no surprise' prediction further widened the gap against X's more ambitious and accurate framing."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 0.0,
+          "reason": "Bulletin Z achieved three came_true grades on its persist calls, while Bulletin Y achieved three true_in_direction grades on more specific predictions; both are defensible approaches. Y showed greater analytical specificity (NATO mechanism, named hearing, frozen-asset proposal) while Z was safer but less informative, and each had one weaker item (Y's NATO formalism, Z's wrong fade call), making them roughly equivalent in overall accuracy."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": 1.0,
+      "crystal_vs_persistence": 1.0,
+      "plain_vs_persistence": 0.0
+    },
+    "v": 1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThis week in and around Russia was dominated by a sharp diplomatic rupture over US President Trump's decision to waive newly enacted sanctions on Russian energy, a move he justified by citing national interest and a diesel purchase deal with Moscow. Kyiv condemned the waiver as wrong and an encouragement for Putin, while Russian officials called it historic. Zelensky simultaneously defied Trump by ordering the resumption of strikes on Russian oil refineries, shattering a fragile energy truce. On the battlefield, Russia intensified strikes on Ukrainian steel plants, power grids, and ships, killing at least eight civilians and cutting electricity to one million people ahead of winter. Satellite imagery revealed Russia had constructed a major new drone launch base in just six weeks. Diplomatically, Putin spoke with Pope Leo about aiding civilians in Oleshky, a Russian envoy discussed joint US-Russia data-center deals, and Russia returned to the G20 table in Bangkok.\n- Trump waived newly enacted Russia energy (regular, continuing): Trump waived newly enacted Russia energy sanctions citing national interest, prompting bipartisan backlash in Congress and condemnation from Ukraine while Russia called it historic.\n- Zelensky defied Trump by ordering the (regular, continuing): Zelensky defied Trump by ordering the resumption of Ukrainian strikes on Russian oil refineries, shattering the energy ceasefire and drawing a sharp rebuke from the White House.\n- Russia struck nine Ukrainian regions with (regular, continuing): Russia struck nine Ukrainian regions with missiles and drones, killing at least eight civilians and cutting power to one million people as it targeted steel plants and energy infrastructure ahead of winter.\n- Satellite images revealed Russia had built (regular, continuing): Satellite images revealed Russia had built a major new drone attack base in just six weeks, signaling a significant escalation in its aerial campaign.\n- Putin spoke with Pope Leo from (regular, continuing): Putin spoke with Pope Leo from the Vatican, agreeing to cooperate on aid for civilians in the besieged town of Oleshky.\n- Oil prices touched $110 a barrel (regular, continuing): Oil prices touched $110 a barrel for the first time since May as markets worried about Russian supply disruptions and Middle East tensions.\n- Five Russian drones crashed on Moldovan (regular, continuing): Five Russian drones crashed on Moldovan territory, prompting condemnation from Chisinau and raising fears of spillover from the Ukraine war.\n- Russia returned to the G20 table (regular, continuing): Russia returned to the G20 table in Bangkok on a US invitation, angering European leaders who saw it as a signal of Washington's pivot toward Moscow.\n- A magnitude-7 earthquake struck Russia's Kamchatka (regular, continuing): A magnitude-7 earthquake struck Russia's Kamchatka Peninsula, a significant seismic event in one of the world's most active tectonic zones.\n- Russia used a large army of (regular, continuing): Russia used a large army of social-media bots to push fake US election videos, part of an ongoing information-war effort ahead of midterms.\n\nRound 2026-10-02:\nRussia was in a state of controlled escalation across multiple fronts. Missile and drone strikes on Ukraine's power grids, data centers, Dnipro River bridges, and communications facilities intensified as freezing weather approached. Putin issued nuclear warnings tied to Kaliningrad, prompting NATO condemnation and a Danish ambassadorial protest over a helicopter incident near the Baltic. Latvia's October 3 national election loomed as the nearest concrete political event, with the Kremlin expected to frame the result as either Baltic hardening or European instability. Russia extended its diesel export ban through October while crude exports stayed strong, giving Moscow leverage over tight global diesel markets. The 2027 federal budget placed defense spending near $202 billion while cutting welfare, education, and healthcare; Putin ordered 15,000 additional military personnel. Lavrov declared the war would run \"through to the end,\" yet Germany and Russia held their first top-level talks since the invasion began. Turkey and the\n- Russia intensified missile and drone strikes (regular, continuing): Russia intensified missile and drone strikes on Ukrainian energy grids, data centers, and Dnipro River bridges ahead of winter.\n- Putin warned Russia may use all (regular, continuing): Putin warned Russia may use all weapons, including nuclear, to protect Kaliningrad, triggering NATO condemnation and a Danish ambassadorial protest.\n- Russia's 2027 budget allocated approximately $202 (regular, continuing): Russia's 2027 budget allocated approximately $202 billion to defense while cutting welfare, education, and healthcare spending.\n- Germany and Russia held their first (regular, continuing): Germany and Russia held their first top-level diplomatic talks since the invasion began, while Turkey and the UN pushed Black Sea grain-corridor negotiations.\n- Germany and Russia held their first (again) (regular, continuing): Germany and Russia held their first top-level diplomatic talks since the invasion began, while Turkey and the UN pushed Black Sea grain-corridor negotiations.\n- Germany and Russia held their first (again) (again) (regular, continuing): Germany and Russia held their first top-level diplomatic talks since the invasion began, while Turkey and the UN pushed Black Sea grain-corridor negotiations.\n",
+    "PREVIOUS_FORECAST": "Lead: US Congress sanctions waiver fight. Expected: A bipartisan group of lawmakers will convene a formal hearing or table a resolution challenging the legal basis of Trump's energy sanctions waiver, forcing the administration to defend the diesel deal on the record. Direction: escalate. Sign: Headlines carry a named committee in session or a numbered bill targeting the waiver, rather than the opinion pieces and social-media reactions dominating the current coverage\nSecond: Russia-Ukraine kinetic escalation. Expected: Russia will exploit its newly built drone launch base to deliver a coordinated multi-axis strike on Ukrainian steel and energy infrastructure, while Ukrainian drones will hit a major Russian refinery or fuel depot in retaliation. Direction: escalate. Sign: Headlines report a drone strike on a previously untargeted Russian industrial site or a Ukrainian hit on a named refinery, showing the exchange has widened beyond the previous pattern\nThird: US-Russia diplomatic re-engagement. Expected: A US-Russia working group will announce a concrete outcome from the data-center and asset-unfreezing discussions, with either a joint statement or a named delegation traveling for negotiations, while European capitals issue a coordinated response. Direction: persist. Sign: Headlines report a specific meeting date, a named envoy traveling, or a joint communique, rather than the vague discussions language of the current reporting\nFade call: Kamchatka earthquake. Expected: fade. Sign: The seismic event drops to a brief mention in a disasters roundup with no follow-up aftershock alerts or infrastructure-damage stories dominating coverage\nSurprise (chance low): Russia security zone declaration. Putin will formalize the non-negotiable security zone concept into a concrete policy announcement or border delineation, creating a diplomatic fait accompli that forces NATO and the EU to respond to a new territorial framework.\nSummary: Next week, the diplomatic rupture over Trump's sanctions waiver will move from headlines into the halls of Congress, where bipartisan lawmakers will push for a formal hearing or legislative challenge to the diesel deal. On the battlefield, Russia's newly operational drone megabase will feed a sustained campaign against Ukrainian steel plants and power grids as winter pressure mounts, and Ukrainian drones will strike back at Russian refineries in an increasingly symmetric exchange. The US-Russia diplomatic channel will produce at least one concrete follow-up to the data-center and asset-unfreezing talks, drawing both welcome and pushback in European capitals. The Kamchatka earthquake will fade from coverage, and the G20 return will settle into routine. The overall mood will stay tense, with the sanctions fight and the kinetic escalation driving most of the week's headlines.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The sanctions waiver fight was a major story (175, 199, 208, 214, 221, 238, 241, 249) with visible Republican backlash and congressional outrage, but no headline names a specific committee in session or a numbered bill targeting the waiver as the sign required.\n- second: true_in_direction. Ukraine hit Togliatti's petrochemical plant (1) and the oil terminal in Putin's hometown (222, 225) while Russia struck 12 Ukrainian regions (91) and energy infrastructure (194), confirming kinetic escalation on energy targets, but the specific 'steel' and 'multi-axis' framing and the drone megabase delivering the coordinated strike are not clearly articulated in the headlines.\n- third: came_true. Witkoff traveled to St. Petersburg to meet Putin (83, 156, 158, 228), Russia agreed to three-way talks in Abu Dhabi in early November (24, 107, 108, 137, 190), and multiple joint statements and diplomatic outcomes were announced, fully satisfying the sign of a named envoy traveling and a specific meeting date.\n- fade_call: came_true. The Kamchatka earthquake is explicitly listed in the 'No longer in the headlines' section, confirming it faded from coverage as predicted.\nArcher note: The bulletin correctly identified the diplomatic re-engagement as a major story and the sanctions fight as a persistent theme, both of which dominated the week. However, the 'data-center and asset-unfreezing' framing was narrower than the actual broad peace-talks outcome, and the kinetic escalation prediction of 'steel' targets was slightly off (it was petrochemical and energy). The Oleshky ceasefire and Hubbard release, while falling under the diplomatic umbrella, were not specifically anticipated, and the 'security zone declaration' surprise did not materialize.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

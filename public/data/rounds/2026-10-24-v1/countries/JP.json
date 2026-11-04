@@ -1,0 +1,622 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "JP",
+  "name": "Japan",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T02:38:45+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Japan's news cycle was dominated by the historic launch of a spacecraft on a round-trip mission to Mars' moon Phobos, aiming to collect and return soil samples for the first time. On the economic front, core inflation surged to 2.1%, exceeding the Bank of Japan's target and cementing near-term rate-hike expectations, even as the BOJ signalled it might raise its inflation forecast while holding rates steady. Exports grew 16.7% in September on AI chip and auto demand, though one report framed the same figure as a 'huge miss' and a slowdown, and manufacturing PMI hit a seven-month low. PM Takaichi's approval rating slipped below 50% amid a cabinet scandal, and she publicly rejected criticism of the weak yen and high interest rates. Security saw the US ban BYD vehicles from a strategic air base, joint US-Japan drills around islands (partially disrupted by Typhoon Champi), and a Japanese journalist remaining jailed in Moscow, further eroding already fragile Russia ties. Japanese banks and airlines scrambled to patch critical PHP vulnerabilities, and a Chinese AI tool linked to Korean bank hacks was also used in Japan. China squeezed Japan on rare-earth supply and condemned Yasukuni Shrine visits. In sport, Fiji stunned Eddie Jones's Japan in rugby, and Katie Boulter reached the Japan Open semi-final.",
+    "key_events": [
+      {
+        "event": "Japan launched a spacecraft on a historic round-trip mission to collect and return soil samples from Mars' moon Phobos.",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "Japan's core inflation rose to 2.1%, exceeding the BOJ's 2% target and capping near-term rate-hike expectations.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "PM Takaichi's public support fell below 50% for the first time since taking office amid a cabinet scandal.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The US military banned BYD vehicles from a strategic air base in Japan over security concerns.",
+        "date": "2026-10-19",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A Japanese journalist remained jailed in Moscow, described as the latest sign of deteriorating Japan-Russia ties.",
+        "date": "2026-10-18",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Typhoon Champi battered Japan and partially disrupted US-Japan joint military drills around the islands.",
+        "date": "2026-10-23",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Japanese banks and airlines went offline scrambling to patch critical PHP vulnerabilities that roiled the global internet.",
+        "date": "2026-10-21",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Japan's September exports rose 16.7% driven by AI chip and automotive demand, though manufacturing PMI hit a seven-month low.",
+        "date": "2026-10-20",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "China squeezed Japan's critical rare-earth supply, with Japan reportedly months from running out, and condemned Japan's 'negative moves' over Yasukuni Shrine.",
+        "date": "2026-10-22",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Fiji defeated Eddie Jones's Japan in a rugby match, and Katie Boulter reached the Japan Open semi-final.",
+        "date": "2026-10-19",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "technology",
+      "economy",
+      "politics",
+      "security"
+    ],
+    "emojis": [
+      "🛰️",
+      "🏦",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "The Mars moon Phobos sample-return mission dominated coverage across at least 18 headlines, making the space launch the week's defining story.",
+      "Core inflation exceeding the BOJ target and the central bank's rate-hike signals were a consistent thread through Bloomberg, WSJ, Reuters, and CNBC reports.",
+      "PM Takaichi's support dropping below 50% amid a cabinet scandal, combined with one-year reality checks on her promises, frames the political drama of the week."
+    ],
+    "developments": [
+      {
+        "subject": "Mars moon Phobos mission",
+        "what_happened": "Japan launched a spacecraft on the first-ever round-trip mission to collect and return soil samples from Mars' moon Phobos, with French participation aboard.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          14,
+          28,
+          38,
+          41,
+          45,
+          48,
+          50,
+          51,
+          55,
+          57,
+          59,
+          63,
+          68,
+          72,
+          76,
+          78,
+          98
+        ]
+      },
+      {
+        "subject": "Inflation and BOJ rate policy",
+        "what_happened": "Core inflation hit 2.1%, exceeding the BOJ target, while the central bank signalled readiness to raise rates and may lift its inflation forecast at the upcoming policy meeting.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          8,
+          9,
+          11,
+          24,
+          71,
+          88,
+          94,
+          96
+        ]
+      },
+      {
+        "subject": "Takaichi political troubles",
+        "what_happened": "PM Takaichi's approval fell below 50% amid a cabinet scandal, and she pushed back on criticism of the weak yen and high interest rates as her one-year promises faced a reality check.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          33,
+          56,
+          73,
+          87,
+          89,
+          95,
+          100
+        ]
+      },
+      {
+        "subject": "US-Japan security and BYD ban",
+        "what_happened": "The US banned BYD vehicles from a strategic air base in Japan over security concerns while the two countries kicked off joint drills around the islands.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          34,
+          35,
+          66
+        ]
+      },
+      {
+        "subject": "Japan-Russia journalist detention",
+        "what_happened": "A Japanese journalist remained jailed in Moscow, described by analysts as the latest sign of eroding bilateral ties.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          6,
+          17
+        ]
+      },
+      {
+        "subject": "Cyber threats and PHP flaws",
+        "what_happened": "Japanese banks and airlines went offline patching critical PHP vulnerabilities, and a Chinese AI tool linked to Korean bank hacks was also used in Japan, prompting BOJ warnings.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          31,
+          40,
+          44,
+          80
+        ]
+      },
+      {
+        "subject": "Trade, exports, and rare earths",
+        "what_happened": "September exports grew 16.7% on chip and auto demand, but Japan faces a trade deficit from soaring oil imports, a manufacturing PMI at a seven-month low, and a rare-earth supply squeeze from China.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          2,
+          22,
+          58,
+          64,
+          92,
+          97
+        ]
+      },
+      {
+        "subject": "Typhoon Champi",
+        "what_happened": "Typhoon Champi battered Taiwan and Japan, causing flight cancellations and disrupting US-Japan joint military drills.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          26,
+          75
+        ]
+      },
+      {
+        "subject": "US-Myanmar talks in Tokyo",
+        "what_happened": "Japan's envoy Sasakawa met Myanmar's Min Aung Hlaing, and the US held further secret talks with Myanmar's military-backed rulers in Tokyo.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          90,
+          101
+        ]
+      },
+      {
+        "subject": "Defense spending and fiscal policy",
+        "what_happened": "Finance Minister Katayama vowed fiscal prudence on defense funding while the government explored broadening the definition of security spending to inflate defense outlays.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          82,
+          83
+        ]
+      },
+      {
+        "subject": "Sports: rugby and tennis",
+        "what_happened": "Fiji stunned Japan in a rugby match, Katie Boulter reached the Japan Open semi-final, and the Saudi Asian Cup was thrown into doubt by security concerns.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          4,
+          12,
+          15,
+          16,
+          23,
+          25,
+          37,
+          43,
+          47,
+          54,
+          62
+        ]
+      },
+      {
+        "subject": "Energy and power costs",
+        "what_happened": "Japan's power price hit a four-year high on rising coal and LNG costs, and the government weighed phasing out gasoline subsidies while considering re-introducing gas and electricity subsidies.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          52,
+          81,
+          91
+        ]
+      }
+    ],
+    "gone": [
+      "Farm minister resignation",
+      "Takaichi gender-role debate",
+      "India overtakes Japan economically",
+      "False earthquake alert",
+      "APEC preparations"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad coverage across technology, economy, politics, security, and society, with the Mars mission and inflation/BOJ stories well documented; some economic data points appear to contradict each other on whether September exports were a 'miss' or a solid gain."
+    },
+    "headlines_used": [
+      "US bans BYD from air base in Japan over security concern, news report says",
+      "Japan records a trade deficit as oil imports soar because of conflict in the Middle East",
+      "White makes winning start as Fiji edge Eddie Jones's Japan",
+      "Japan Open: Katie Boulter loses to Katerina Siniakova in semi-finals",
+      "Japan launches mission to Mars’ moons",
+      "Japan-Russia ties erode as journalist sits in Moscow jail - DW.com",
+      "VIDÉO. Japon : 16 auteurs et 24 heures... pour rédiger un roman collectif",
+      "Japan Inflation Rises Above BOJ Target, Backing Rate Hikes",
+      "Japan Consumer Inflation Uptick Offers Tailwind for BOJ Rate Hike",
+      "How the Japanese listening bar conquered the world",
+      "Japan core inflation in September surges to its highest this year at 2.1%",
+      "Saudi Arabia security puts Asian Cup in doubt: Japan football chief",
+      "Japan to simulate cyberattacks as PHP flaws roil global internet",
+      "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
+      "White says Fiji can have 'massive' World Cup after beating Japan",
+      "Katie Boulter reaches Japan Open semi-final to reclaim British number one ranking",
+      "Why Russia's arrest of Japanese journalist is the latest sign of deteriorating ties between the countries",
+      "Japon : les yakuzas cisellent leur réputation chez le coiffeur",
+      "Japanese Bonds Rally as Global Tech Rout Fuels Haven Demand",
+      "Japan’s Top Labor Union Targets Big Pay Bump, in Line With BOJ Aims",
+      "Janus Henderson Haitong Asia ex-Japan HY $ Acc - Net Asset Value(s) – Company Announcement",
+      "Japan exports post huge miss in September as growth slows to 16.7%",
+      "CAS clears Japan’s Olympic silver medallist Ikeda of doping, overturns ban",
+      "Japan government, BOJ gap on inflation laid bare ahead of key policy meeting",
+      "Infantino set to take his FIFA reelection campaign to Japan to court Asian soccer federations",
+      "Tropical Storm Champi nears China after battering Taiwan, Japan",
+      "'A bow isn't simply a greeting': The unspoken rules of Japanese body language",
+      "Japan probe sets course for Mars moon - DW.com",
+      "Oulipo franco-japonais : Un défi littéraire de 24h à bord d'un train de luxe",
+      "Japanese Bond Yields Fall as AI Jitters Spur Haven Demand",
+      "Chinese AI Tool Linked to Hacks in Japan",
+      "ZEISS announces availability of CT LUCIA 621P in Japan, expanding its broad ZEISS Cataract Workflow",
+      "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+      "US military bans BYD vehicles from strategic air base in Japan",
+      "Japan and the US kick off joint drills around islands as regional tensions rise",
+      "10 Years On, Free and Open Indo-Pacific Continues to Evolve: Building Shared Prosperity Through Technology and Talent - The Shared Future of Asia and Japan",
+      "Aichi-Nagoya: Japan is known for world-class events - but the Asian Games were chaotic",
+      "Japanese probe launches on mission to Mars to collect samples from Phobos",
+      "Au Japon, un village veut croire que l'avenir, c'est le Pérou",
+      "Japan Scrambles to Patch PHP Flaws as Banks, Airlines Go Offline",
+      "Japan Launches Spacecraft to Explore Mars’s Mysterious Moons",
+      "Fidelity Pacific ex Japan Equity Research Enhanced UCITS ETF - Net Asset Value(s) – Company Announcement",
+      "Wrong national anthems played three times at Asian Para Games in Japan",
+      "Bank of Japan warns of risks from AI market shock, cyberattacks",
+      "Japan to launch spacecraft on a mission to get samples from a Martian moon",
+      "Takeda’s ORZEYFUL (oveporexton) Launches Simultaneously in Japan and China Giving Physicians First Access to Prescribe Novel Orexin Agonist to Patients with Narcolepsy Type 1",
+      "Katie Boulter: British number two wins in under an hour to reach Japan Open quarter-finals",
+      "Une sonde japonaise en route vers les lunes de Mars pour une mission inédite",
+      "China’s Iron Ore Sway May Leave Japan a Price Taker, Says WoodMac",
+      "Japan Launches First Round-Trip Mission to Martian Moon",
+      "Japan sends probe to Martian moon Phobos",
+      "EXCLUSIVE: Japan weighs phasing out gasoline subsidies from December as costs mount, officials say",
+      "Grabbing a bargain: Japan's claw machines cash in on inflation",
+      "WTA Japan Open - Scores & Schedule - Tennis - BBC Sport",
+      "Une mission japonaise vise les lunes de Mars pour percer le mystère de la vie sur Terre",
+      "One Year On, Takaichi’s Big Promises Face Reality Check in Japan",
+      "Japan Launches Spacecraft to Explore Mars’s Moons",
+      "Japan ‘months’ from running out of critical rare earth as China squeezes supply",
+      "Japan launches historic mission to bring back Mars moon samples",
+      "Japan manufacturing growth slows to 7-month low in October, PMI shows",
+      "Ageing Japanese village turns to Peru in search of new residents",
+      "Katie Boulter produces emphatic win at Japan Open",
+      "Le Japon à l'assaut des lunes de Mars, avec une présence française à bord",
+      "Japan’s Export Growth Stays Solid, Supported by Chips, Cars",
+      "TELWY | Tokyo Electron Ltd. ADR Company Profile & Executives",
+      "BYD is playing the long game in Japan",
+      "Not easy for Saudi Arabia to host Asian Cup as scheduled due to security situation, Japan FA chief says",
+      "Japan probe on its way to Mars moon",
+      "Tiffany Japan Building Faces 30% Price Cut As Debt Costs Rise",
+      "Tokyo Electron Ltd. ADR (TELWY) Stock Price Today - The Wall Street Journal",
+      "Japan's core inflation exceeds BOJ target, cements near-term rate hike chance",
+      "Japan launches rocket for potential world first Mars moon mission",
+      "Can Takaichi Spend Her Way to a Resurgent Japan?",
+      "The sushi restaurant Tokyoites travel three hours to for lunch",
+      "Typhoon Champi nears Taiwan, causing flight cancellations and disrupting US-Japan drills",
+      "Japan to launch historic round-trip mission to Mars moon",
+      "Japan’s 20-Year Bond Auction Sees Strongest Demand on Record",
+      "Japan launches mission to make first return trip to Mars",
+      "Japanese investors sell foreign bonds for fifth straight week, eye home market",
+      "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
+      "Japan to consider re-introducing gas and electricity subsidies, sources say",
+      "Japan’s Katayama Vows Fiscal Prudence on Defense Funding",
+      "Japan considers broader definition of security spending to inflate defense outlays, sources say",
+      "Natixis Buys Japanese Advisory Firm to Join Dealmaking Boom",
+      "Janus Henderson Japan High Conviction Equity UCITS ETF - Net Asset Value(s) – Company Announcement",
+      "Breakingviews - COMMENTARY: Japan's strong-armed $21 bln chip bet is low risk",
+      "Sanae Takaichi Has Made Japan Impossible to Ignore",
+      "Bank of Japan's Himino signals readiness to raise borrowing costs",
+      "Japan PM Takaichi Denies She’s Driving Weak Yen, High Rates: JPY/USD",
+      "Japan envoy Sasakawa meets Myanmar's Min Aung Hlaing, state media says",
+      "Japan Power Price at Four-Year High With Rising Coal, LNG Costs",
+      "Japan exports rise 16.7% in September as AI chip demand powers trade",
+      "Japanese Equities Set to Fall on Tech Share Selloff, Higher Oil",
+      "Japan shifting to wage-driven inflation phase, finance minister says",
+      "Japan PM Takaichi’s Public Support Slips After Cabinet Scandal",
+      "Bank of Japan may raise inflation forecast, stand pat on rates, sources say",
+      "China Condemns Japan’s ‘Negative Moves’ Over Yasukuni Shrine",
+      "Japan launches mission to return samples from Mars moon",
+      "Japan's Daiichi Life unit tables offer to take over Australia's Challenger",
+      "Japan PM Takaichi's support rate falls below 50%, lowest since taking office, Kyodo reports",
+      "EXCLUSIVE: US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say"
+    ],
+    "converted": false,
+    "relevant_headlines": 101,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Mars moon Phobos mission",
+        "expected": "Mars moon Phobos mission stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Mars moon Phobos mission appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Inflation and BOJ rate policy",
+        "expected": "Inflation and BOJ rate policy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Inflation and BOJ rate policy appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Takaichi political troubles",
+        "expected": "Takaichi political troubles stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Takaichi political troubles appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Mars moon Phobos mission",
+        "expected": "persist",
+        "sign": "Mars moon Phobos mission is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Mars moon Phobos mission stays in the news at the same level. Inflation and BOJ rate policy stays in the news at the same level. Takaichi political troubles stays in the news at the same level. Mars moon Phobos mission is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Bank of Japan rate decision",
+        "expected": "The Bank of Japan will hold its policy rate steady and lift its inflation forecast, confirming the shift toward a wage-driven inflation phase and setting up the next tightening step.",
+        "direction": "escalate",
+        "sign": "Headlines will report the central bank keeping rates unchanged alongside a firmer inflation outlook, with policymakers signalling the path toward the next tightening move."
+      },
+      "second": {
+        "subject": "Takaichi cabinet pressure",
+        "expected": "PM Takaichi will announce cabinet changes as the scandal and falling approval ratings force a political response ahead of the opposition's next formal challenge.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a cabinet reshuffle, a pointed opposition speech targeting the prime minister's handling of the scandal, or a confidence test in the Diet."
+      },
+      "third": {
+        "subject": "Phobos sample-return mission",
+        "expected": "The mission team will publish the first trajectory confirmation showing the spacecraft is on course for the Martian moon, with early instrument checks included in the public update.",
+        "direction": "persist",
+        "sign": "Headlines will report early mission updates confirming the probe's path and the French participants' role in the upcoming sample-collection phase."
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "The storm will drop out of the headline cycle as it moves over China and the disrupted drills and cancelled flights become a footnote in weekly reviews."
+      },
+      "surprise": {
+        "subject": "Rare-earth supply squeeze",
+        "expected": "China will announce a concrete reduction in rare-earth exports to Japan or impose new licensing requirements, forcing the Japanese government to tap strategic stockpiles or accelerate talks for alternative suppliers.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the Bank of Japan's policy meeting will be the central event, with the central bank expected to hold rates steady while raising its inflation forecast, confirming the shift into a wage-driven inflation phase. PM Takaichi will face intensified political pressure as the cabinet scandal and falling approval ratings push the opposition toward a formal challenge or force cabinet changes. The Phobos sample-return spacecraft will generate a steady stream of mission updates as the team confirms the probe's trajectory and early instrument checks. Typhoon Champi will fade from the news cycle as it moves over China. The rare-earth supply squeeze from China will be a wildcard, with a concrete export cut potentially forcing Japan to activate strategic stockpiles. Cyber-security alerts around the PHP vulnerabilities will persist but are expected to lose headline space.",
+      "generated_at": "2026-10-25T02:24:56+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "BOJ rate decision",
+        "expected": "The Bank of Japan will hold its benchmark rate steady at its upcoming policy meeting while raising its inflation forecast, locking in the expectation of a rate hike within the year.",
+        "direction": "escalate",
+        "sign": "Headlines about the BOJ holding rates while lifting its inflation outlook, and the yen and bond market reacting sharply to the decision."
+      },
+      "second": {
+        "subject": "Phobos sample return mission",
+        "expected": "The spacecraft will complete its first major navigation milestone on the journey to Mars, with mission controllers confirming the trajectory for the Phobos sample-collection phase.",
+        "direction": "persist",
+        "sign": "Headlines about the spacecraft's progress toward the Martian moons, technical updates on the sample-return mechanism, and international scientific reactions to the first round-trip Mars mission."
+      },
+      "third": {
+        "subject": "Takaichi political reckoning",
+        "expected": "Opposition parties and the media will intensify pressure on Prime Minister Takaichi as her first full year in office approaches, with the cabinet scandal and the weak yen dominating question periods.",
+        "direction": "escalate",
+        "sign": "Headlines about opposition demands for a cabinet reshuffle, the prime minister defending her record amid the anniversary of taking office, and polling showing further support erosion."
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "The storm drops from front pages as recovery efforts wrap up and the disrupted US-Japan joint drills are rescheduled."
+      },
+      "surprise": {
+        "subject": "Rare earth supply emergency",
+        "expected": "The Japanese government will announce emergency measures to secure critical rare-earth supplies, including releasing strategic stockpiles or fast-tracking new procurement agreements with non-Chinese suppliers.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Japan will be defined by the Bank of Japan's policy meeting, where the central bank is expected to hold rates steady while raising its inflation forecast, confirming the trajectory toward a rate hike and sending ripples through the yen and bond markets. The historic Phobos sample-return spacecraft will log its first major navigation milestone en route to Mars, keeping the mission at the centre of public attention and international scientific discourse. Prime Minister Takaichi will face mounting pressure as her first full year in office draws near, with the cabinet scandal, the weak yen, and sub-50% approval ratings fueling opposition calls for a cabinet reshuffle. Typhoon Champi will fade from headlines as recovery wraps up. A notable surprise would be the government announcing emergency rare-earth supply measures as China's squeeze tightens and Japan approaches a critical shortage window.",
+      "generated_at": "2026-10-25T02:38:45+02:00"
+    }
+  },
+  "display": {
+    "headline": "BOJ Holds, Phobos En Route, Takaichi Faces One-Year Reckoning",
+    "emojis": [
+      "🏦",
+      "🛰️",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "The BOJ policy meeting and rate decision will be the dominant economic story of the week.",
+      "Japan's historic Phobos sample-return spacecraft is en route to Mars, a world-first mission.",
+      "Prime Minister Takaichi faces a cabinet scandal and declining approval as her first year in office ends."
+    ],
+    "tldr": "The BOJ will hold rates while raising its inflation forecast, the Phobos spacecraft will log a key navigation milestone, and Takaichi will face a one-year political reckoning. Typhoon Champi fades; a rare-earth supply emergency would be the surprise.",
+    "eli5": "Japan just launched a spacecraft to grab dirt from a tiny moon of Mars and bring it home. That is a world first. Next week, the spacecraft will be flying through space, and mission controllers will confirm it is on the right path. People will be excited, and scientists around the world will be comparing it to past Mars missions.\n\nThe Bank of Japan is about to hold its big policy meeting. Inflation went above their target, so everyone expects them to say they are getting ready to raise interest rates soon. That will make the yen and Japanese stocks move, and it will be a huge story in the news.\n\nPrime Minister Takaichi is in a tricky spot. Her approval rating just dropped below 50%, there is a cabinet scandal, and she is about to hit her one-year anniversary in office. Opposition parties will be piling on, and she will have to defend her record publicly.\n\nA surprise would be the government suddenly announcing emergency plans to secure rare-earth minerals, because China is squeezing Japan's supply and officials say Japan could run out within months. That would be a big deal for factories and tech companies."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [6] and [17] confirm the Japanese journalist remains jailed in Moscow at the same reporting level as the prior round, matching the persist call."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headline [86] ('Japan's strong-armed $21 bln chip bet is low risk') confirms the GlobalFoundries chip deal remained in the headlines at a comparable level."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The situation bulletin explicitly lists 'Farm minister resignation' as no longer in the headlines, and no headline in the collection references the farm minister."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headlines [6] and [17] confirm the Russia-journalist story was still being reported, matching the persist expectation."
+          }
+        },
+        "archer_note": "The 'more of the same' thesis was wrong: the week was dominated by entirely new stories (the Mars moon Phobos mission, the inflation/BOJ surge, and the PHP cyber-incident) that the bulletin did not anticipate at all. The one clear factual miss was calling the farm-minister resignation a persist when it had already faded. The bulletin's strength was its simple, low-risk framing, but it captured none of the week's dominant developments."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [6] and [17] confirm the journalist detention story persisted, but no headline mentions Tokyo setting a specific return deadline or Russia publishing a formal written diplomatic note with espionage charges."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [86] confirms the chip-deal story remained in the headlines, but no headline specifically reports opposition questioning the budget or New York officials breaking ground on a plant."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "The situation bulletin explicitly lists 'Takaichi gender-role debate' as no longer in the headlines, confirming the fade call."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The situation bulletin explicitly lists 'False earthquake alert' as no longer in the headlines, confirming the fade call."
+          }
+        },
+        "archer_note": "The 'Russia sets the tone' thesis was wrong; the journalist story was one of several continuing items, not the week's dominant headline, which was the Mars moon mission and the inflation/BOJ surge. The over-specific details (diplomatic note, opposition budget question, NY groundbreaking) were not confirmed by any headline, though the categories were right. The US-Myanmar surprise was a genuine hit confirmed by headlines [90] and [101], giving the bulletin one correct forward-looking call."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [6] and [17] confirm the journalist story continued, but no headline mentions an emergency cabinet session, the ambassador being summoned, or Takaichi naming charges in a public briefing."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [86] references the $21 billion chip bet persisting, but no headline describes a formal signing ceremony or a joint US-Japan press event marking the launch."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [95] and [100] confirm the cabinet scandal and Takaichi's declining support, but no headline specifically reports the incoming farm minister's first press appearance drawing scrutiny over the predecessor."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The situation bulletin explicitly lists 'False earthquake alert' as no longer in the headlines, confirming the fade call."
+          }
+        },
+        "archer_note": "The 'Russia dominates the week' thesis was wrong; the journalist story was a continuing item, not the dominant headline, which was the Mars Phobos mission and the inflation/BOJ surge. The escalation framing (emergency cabinet, ambassador summoned) was too strong for what actually appeared in the headlines. The second-cabinet-resignation surprise did not materialize in the collection, and the bulletin missed all three of the week's truly dominant new stories."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Bulletin Y correctly called the Takaichi gender-role debate and the false earthquake alert as fading, both of which the situation bulletin confirms, while X's farm-minister persist call was outright wrong. Y also landed a genuine surprise hit with the US-Myanmar talks (headlines [90], [101]) that X did not anticipate at all."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Bulletin X secured two clean came_true calls (Russia journalist, GlobalFoundries) where Z only achieved true_in_direction with unconfirmed specific details like a signing ceremony or emergency cabinet session. However, Z's third item (cabinet scandal persisting) was right in direction while X's farm-minister persist call was a clear miss, keeping the gap narrow."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Bulletin Y's third item (gender-role fade) and fade call (false earthquake fade) both came true cleanly, while Z's corresponding items were true_in_direction at best with unconfirmed specifics. Y also produced a verified surprise (US-Myanmar talks, headlines [90] and [101]) that Z's second-cabinet-resignation surprise did not match in the headlines."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": -1.0,
+      "persistence_vs_crystal": 1.0,
+      "plain_vs_crystal": 1.0
+    },
+    "v": -1.0,
+    "u": -1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nJapan's week was defined by a diplomatic shock: Russia arrested and detained a Japanese journalist in its Far East region on suspicion of espionage, prompting Tokyo to formally demand explanations and rebuke Moscow. PM Takaichi publicly denied any spying allegations, and the incident became the latest flare-up in already strained Russia-Japan relations. On the economic front, Japan committed up to twenty-one billion dollars to finance two new GlobalFoundries semiconductor plants in New York, a major bet on reshoring advanced chip production and deepening US-Japan industrial ties. The International Monetary Fund also projected India would overtake Japan as the world's fourth-largest economy by 2027, a symbolic milestone that drew broad commentary. Domestically, Takaichi's cabinet suffered its first resignation when the farm minister stepped down amid a scandal; a replacement was quickly named. Takaichi's offhand remark that household chores and makeup add hours to her workday ignited a nationwide debate about gender\n- Russia arrests Japanese journalist (dominant, new): Russia detained a Japanese reporter in its Far East on espionage suspicion, Tokyo formally rebuked Moscow, and Takaichi denied any spying allegations.\n- GlobalFoundries chip deal (regular, new): Japan agreed to finance up to twenty-one billion dollars for two new GlobalFoundries semiconductor plants in New York.\n- Farm minister resignation (regular, new): Japan's farm minister stepped down amid a scandal, the first exit from Takaichi's cabinet, and a new minister was appointed the same day.\n- Takaichi gender-role debate (regular, new): Takaichi's remark that chores and makeup add hours to her workday triggered a public discussion about the expectations placed on a female prime minister.\n- India overtakes Japan economically (regular, new): The IMF projected India would surpass Japan as the world's fourth-largest economy by 2027, a milestone that drew analyst commentary on Japan's relative standing.\n- Japan FX and rate warnings (regular, continuing): Japan urged the G20 to act urgently on currency swings, Katayama renewed FX warnings after a hot US CPI, and BoJ's Ueda stressed keeping underlying inflation at or below two percent.\n- US-Myanmar talks in Tokyo (occasional, new): The United States held secret negotiations with Myanmar's military-backed government in Tokyo, per Reuters sources.\n- Japan investment and market push (regular, continuing): Hedge funds at Sohn Tokyo pitched continued reform bets, GPIF reaffirmed its global-liquidity role, insurers signalled gradual repatriation of funds, and MUFG re-entered Japanese bonds.\n- False earthquake alert (occasional, new): Japan's Weather Agency issued a false seismic alert that startled residents nationwide.\n- APEC preparations (occasional, continuing): US and Japanese officials met ahead of the APEC gathering, and Takaichi said she would attend the China-hosted session if parliament approved.\n\nRound 2026-10-02:\nThe text described a Japan facing multiple concurrent pressures as of mid-October 2026. A US Marine had been arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, prompting a formal government protest, a summons of the US envoy, and demands from the local governor for stricter base discipline. Prime Minister Takaichi's growth-and-spending agenda collided with rising Japanese government bond yields, with the PM acknowledging she was prepared to review fiscal plans if yields moved sharply. The Japan Fair Trade Commission had raided all four major beer companies in a cartel investigation, raising consumer-price politics. The stock exchange executed a record Topix index revamp threatening approximately 700 listings. The Asian Games closed with operational criticism and the Olympic chief calling for reflection. Japan raised its permanent residency fee twentyfold effective October 1. Toyama city officials faced accusations of inflating census numbers to secure central funding. Japanese firms exited\n- A US Marine was arrested in (regular, continuing): A US Marine was arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, triggering a formal government protest and a summons of the US envoy.\n- PM Takaichi's growth-and-spending plan faced resistance (regular, continuing): PM Takaichi's growth-and-spending plan faced resistance from rising 30-year JGB yields, with the PM acknowledging readiness to review fiscal plans.\n- The Japan Fair Trade Commission raided (regular, continuing): The Japan Fair Trade Commission raided Asahi, Kirin, Suntory, and Sapporo in a beer cartel investigation.\n- Japan's stock exchange launched a record (regular, continuing): Japan's stock exchange launched a record Topix index revamp putting approximately 700 stocks at risk of removal.\n- The Asian Games closed with operational (regular, continuing): The Asian Games closed with operational criticism and the Japan Olympic chief calling for a formal reflection by organizers.\n- Japan's permanent residency fee increased twentyfold (regular, continuing): Japan's permanent residency fee increased twentyfold, effective October 1, 2026, creating friction for foreign residents.\n- Toyama city officials were accused of (regular, continuing): Toyama city officials were accused of inflating census numbers to secure additional central government funding.\n",
+    "PREVIOUS_FORECAST": "Lead: Russia-Japan journalist crisis. Expected: Tokyo will formally demand the journalist's release and summon the Russian ambassador to escalate diplomatic pressure over the detention. Direction: escalate. Sign: Headlines about an emergency cabinet session, the Japanese ambassador being summoned to the Russian embassy, and Takaichi naming the espionage charges in a public briefing\nSecond: GlobalFoundries chip financing. Expected: A formal signing ceremony will mark the official launch of the joint financing arrangement for the two New York semiconductor plants. Direction: persist. Sign: Headlines about the signing event, Japanese officials calling the project a landmark in US-Japan industrial cooperation, and analyst commentary on Japan's semiconductor reshoring strategy\nThird: Takaichi cabinet and public image. Expected: The incoming farm minister will face pointed questions about the predecessor's scandal during the first public briefing since the appointment. Direction: persist. Sign: Headlines about the new minister's first press appearance drawing scrutiny over the predecessor's financial dealings, and Takaichi defending cabinet stability amid the gender-role debate\nFade call: False earthquake alert. Expected: fade. Sign: The story drops out of front pages and the Weather Agency issues a brief internal follow-up memo without further public drama\nSurprise (chance medium): Second cabinet resignation. A second minister will step down within the week, triggering opposition calls for a broader review of Takaichi's government over the Russia handling.\nSummary: Next week in Japan will be dominated by the fallout from Russia's arrest of a Japanese journalist on espionage suspicion. Tokyo will press Moscow for the reporter's release, and Prime Minister Takaichi will likely issue a new public statement sharpening Japan's diplomatic tone. The GlobalFoundries chip financing deal will move into its formal announcement phase, with a signing ceremony and joint US-Japan press events marking the launch of the two New York semiconductor plants. Domestically, Takaichi will face pressure from the incoming farm minister's first press appearance, where the predecessor's scandal will draw pointed questions, and the gender-role debate she ignited will linger in public discourse. The false earthquake alert will fade from headlines. A second cabinet resignation would be a notable surprise, shaking Takaichi's government further.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Headlines [6] and [17] confirm the journalist story continued, but no headline mentions an emergency cabinet session, the ambassador being summoned, or Takaichi naming charges in a public briefing.\n- second: true_in_direction. Headline [86] references the $21 billion chip bet persisting, but no headline describes a formal signing ceremony or a joint US-Japan press event marking the launch.\n- third: true_in_direction. Headlines [95] and [100] confirm the cabinet scandal and Takaichi's declining support, but no headline specifically reports the incoming farm minister's first press appearance drawing scrutiny over the predecessor.\n- fade_call: came_true. The situation bulletin explicitly lists 'False earthquake alert' as no longer in the headlines, confirming the fade call.\nArcher note: The 'Russia dominates the week' thesis was wrong; the journalist story was a continuing item, not the dominant headline, which was the Mars Phobos mission and the inflation/BOJ surge. The escalation framing (emergency cabinet, ambassador summoned) was too strong for what actually appeared in the headlines. The second-cabinet-resignation surprise did not materialize in the collection, and the bulletin missed all three of the week's truly dominant new stories.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

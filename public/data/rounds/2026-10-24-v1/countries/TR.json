@@ -1,0 +1,506 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "TR",
+  "name": "Turkey",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T15:22:52+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Turkey made several major diplomatic moves this week. Canadian PM Mark Carney visited Ankara and the two countries signed a strategic partnership covering trade, defense, and energy; Carney also raised LGBTQ+ rights issues and named AtkinsRealis as a contender for a Turkish nuclear plant. Separately, Turkey, Saudi Arabia, Pakistan, Qatar, and Indonesia signed a defense cooperation accord, the Mecca Pact, under which Turkey plans to send military personnel to Saudi Arabia, and the treaty was submitted to the Turkish parliament for ratification. On the economic front, Turkey cut its interest rate for the first time since the Iran War began, even as the 18-billion-dollar investment fund crisis deepened: the market regulator chief stepped down, three brokerage firms were shut, JPMorgan's Turkey securities unit said it would cease operations, and a fund liquidation law was passed. The Turkey-Libya maritime deal was approved by Eastern Libya's parliament, drawing sharp rejection from Greece and Egypt, with a US senator calling Turkey's behavior thuggish. Istanbul experienced its worst floods in 80 years, killing four people. Police raided the pro-opposition Halk TV channel. Turkey also hosted eight countries in Istanbul for peace talks on regional conflicts.",
+    "key_events": [
+      {
+        "event": "Canada and Turkey signed a strategic partnership covering trade, defense, and energy during PM Carney's visit to Ankara.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Turkey, Saudi Arabia, Pakistan, Qatar, and Indonesia signed a defense cooperation accord, and Turkey submitted the treaty to parliament for ratification.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Turkey cut its interest rate for the first time since the Iran War began, even as the 18-billion-dollar investment fund crisis deepened.",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Eastern Libya's parliament approved a maritime deal with Turkey, prompting rejection from Greece and Egypt and a US senator calling Turkey thuggish.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Istanbul suffered its worst floods in 80 years, killing four people.",
+        "date": null,
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "Turkey's market regulator chief stepped down and three brokerage firms were shut as the fund crisis continued.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Police raided the pro-opposition Halk TV channel in Ankara.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Eight countries from Europe and the Middle East met in Istanbul to plead for peace, with Turkey saying diplomacy is the only way to handle Iran.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "security",
+      "society"
+    ],
+    "emojis": [
+      "🤝",
+      "🏦",
+      "🌊"
+    ],
+    "emoji_reasons": [
+      "The Canada-Turkey strategic partnership and the five-nation Mecca defense pact made deals and alliances the defining theme of the week (headlines 10, 36, 38, 45).",
+      "Turkey cut rates, the fund regulator stepped down, three brokerages were shut, and JPMorgan exited, all amid the 18-billion-dollar fund crisis (headlines 8, 27, 32, 37).",
+      "Istanbul's worst floods in 80 years killed four people, making the natural disaster the most visible domestic event (headline 34)."
+    ],
+    "developments": [
+      {
+        "subject": "Canada-Turkey Strategic Partnership",
+        "what_happened": "PM Carney visited Ankara and the two countries signed a strategic partnership covering trade, defense, and energy, with Carney also raising LGBTQ+ rights and naming a nuclear plant contender.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          6,
+          10,
+          12,
+          19,
+          36,
+          44
+        ]
+      },
+      {
+        "subject": "Mecca Defense Pact",
+        "what_happened": "Turkey, Saudi Arabia, Pakistan, Qatar, and Indonesia signed a defense cooperation accord, Turkey plans to send troops to Saudi Arabia, and the treaty was submitted to parliament for ratification.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          20,
+          35,
+          38,
+          40,
+          45
+        ]
+      },
+      {
+        "subject": "Investment Fund Crisis",
+        "what_happened": "Turkey cut interest rates, passed a fund liquidation law, shut three brokerage firms, saw the regulator chief step down, and JPMorgan announced its Turkey securities unit would close, all while Zorlu Enerji missed a bond coupon.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          9,
+          17,
+          26,
+          27,
+          29,
+          32,
+          37
+        ]
+      },
+      {
+        "subject": "Turkey-Libya Maritime Deal",
+        "what_happened": "Eastern Libya's parliament approved the maritime deal with Turkey, Greece and Egypt both rejected it, and a US senator accused Turkey of thuggish behavior toward Greece and Cyprus.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          25,
+          31,
+          42,
+          43,
+          47
+        ]
+      },
+      {
+        "subject": "Istanbul Floods",
+        "what_happened": "Istanbul experienced its worst floods in 80 years, killing four people.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          34
+        ]
+      },
+      {
+        "subject": "Halk TV Raid",
+        "what_happened": "Police raided the major pro-opposition Halk TV channel, continuing tensions over media freedom.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          16
+        ]
+      },
+      {
+        "subject": "Made in Europe Plan",
+        "what_happened": "A Turkish minister urged the EU not to exclude Turkey from the Made in Europe plan.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          13
+        ]
+      },
+      {
+        "subject": "Eurofighter Procurement",
+        "what_happened": "Turkey said it was waiting for a sale contract from Qatar for the Eurofighter Typhoon jet procurement.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          33
+        ]
+      },
+      {
+        "subject": "Iran Peace Talks in Istanbul",
+        "what_happened": "Eight countries from Europe and the Middle East met in Istanbul to plead for peace, with Turkey saying diplomacy is the only path regarding Iran.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          11
+        ]
+      },
+      {
+        "subject": "Football Coaching Change",
+        "what_happened": "Turkey named former international Sergen Yalcin as national team head coach after a poor Nations League start, and the Turkish FA banned 147 officials for betting-rule breaches.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          28,
+          48
+        ]
+      }
+    ],
+    "gone": [
+      "Erdogan 2028 election float",
+      "Lira managed devaluation",
+      "Headscarf ban and Azerbaijan row",
+      "Oldest shipwreck discovery",
+      "MSCI index freeze and stock-fixing scandal"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover Turkey's major diplomatic, economic, and domestic stories well, though the fund crisis and Mecca pact would benefit from more detailed reporting on specific terms and timelines."
+    },
+    "headlines_used": [
+      "Carney says AtkinsRealis is a contender to build nuclear power plant in Turkey",
+      "Coal mine blast in northern Turkey kills 3, leaves 5 hurt",
+      "Old visuals misrepresented as Pakistani, Turkish troops sent to Saudi Arabia",
+      "Turkish FA bans 147 officials for breaching betting rules",
+      "Sky burials, sealed mouths and an ancient stone carving: The Turkish archaeological site filled with Stone Age secrets",
+      "Canada's Mark Carney visits Turkey to boost trade ties, reduce dependence on US",
+      "Iran : huit pays d'Europe et du Moyen-Orient plaident pour la paix à Istanbul",
+      "Turkey Cuts Interest Rate for First Time Since Start of Iran War",
+      "Turkey cuts interest rates despite $18bn investment funds scandal",
+      "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
+      "Turkey says renewed attack on Iran would expand conflict, diplomacy only way",
+      "Canada and Turkey forge trade and defense deals as Carney looks beyond US",
+      "Don't exclude Turkey from 'Made in Europe' plan: minister to AFP",
+      "Gençlerbirliği vs Galatasaray: Turkish Süper Lig stats & head-to-head",
+      "What does Santa have to do with this ancient city in Turkey?",
+      "Police raid the major pro-opposition Halk TV channel in Turkey - DW.com",
+      "Turkey’s Zorlu Enerji to Miss Coupon on $1.1 Billion Bond",
+      "Turkey markets $10,000 drone defence",
+      "Carney says Canada raised issues on LGBTQ+ rights during meetings in Turkey",
+      "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work",
+      "Between continents: The ups and downs of life in Istanbul",
+      "Energy Trader Alkagesta Gains Its First Ships With Turkish Deal",
+      "It's Turkey Time: BJ's Wholesale Club Announces Return of Its Annual Free Turkey Giveaway",
+      "Trabzonspor goalkeeper Onana escapes injury in car crash in Turkey",
+      "Libya approves contentious Turkey deal over Mediterranean waters",
+      "Punches and Missed Warnings: Inside Turkey’s Billion-Dollar Fund Scandal",
+      "Turkey passes fund liquidation law as many savers still await access to money",
+      "Turkey turns to ex-international Sergen Yalçın after brutal Nations League start",
+      "JPMorgan’s Turkey Securities Unit Plans to Cease Operations",
+      "Turkey to host regional and European foreign ministers for talks on regional conflicts, source says",
+      "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus",
+      "Turkey Shuts Down Three Brokerage Firms With Ties to Fund Crisis",
+      "Turkey says it is waiting for sale contract from Qatar for Eurofighter Typhoon jet procurement",
+      "Istanbul’s worst floods in 80 years leave 4 dead",
+      "Turkey Moves to Ratify Mecca Pact as Saudi Arabia Faces Attacks",
+      "Canada, Turkey sign 'strategic partnership' as part of Carney push to cut reliance on US",
+      "Turkey Market Regulator Chief Steps Down During Fund Crisis",
+      "Turkey, Qatar, Pakistan, Indonesia sign defence cooperation accord, Ankara says",
+      "Turkey Is Europe’s Plastic Dumpsite. Giving It Up Will Be Hard",
+      "Turkey plans mandate to send military personnel to Saudi Arabia, ruling party official says",
+      "Ukraine Talks with Turkey, India, Egypt Over Grain Corridor",
+      "Egypt rejects Libyan approval of maritime deal with Turkey",
+      "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection",
+      "Canada, Turkey to agree during Carney visit to deepen defence and energy ties, source says",
+      "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say",
+      "Russian diesel returns to Turkey, Brazil after export ban lifted, shipping data shows",
+      "Greece rejects Libyan approval of Turkey-Libya maritime deal",
+      "Turkey name Yalcin as head coach to replace Montella",
+      "Brazil detects Newcastle disease at turkey farm, raising export concerns"
+    ],
+    "converted": false,
+    "relevant_headlines": 49,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Canada-Turkey Strategic Partnership",
+        "expected": "Canada-Turkey Strategic Partnership stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Canada-Turkey Strategic Partnership appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Mecca Defense Pact",
+        "expected": "Mecca Defense Pact stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Mecca Defense Pact appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Investment Fund Crisis",
+        "expected": "Investment Fund Crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Investment Fund Crisis appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Canada-Turkey Strategic Partnership",
+        "expected": "persist",
+        "sign": "Canada-Turkey Strategic Partnership is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Canada-Turkey Strategic Partnership stays in the news at the same level. Mecca Defense Pact stays in the news at the same level. Investment Fund Crisis stays in the news at the same level. Canada-Turkey Strategic Partnership is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Investment Fund Crisis",
+        "expected": "A new market regulator chief will be appointed to oversee the liquidation of the troubled investment funds.",
+        "direction": "escalate",
+        "sign": "A headline announcing the appointment of a new market regulator chief"
+      },
+      "second": {
+        "subject": "Mecca Defense Pact",
+        "expected": "The Turkish parliament will hold a vote on ratifying the defense cooperation accord with Saudi Arabia, Pakistan, Qatar, and Indonesia.",
+        "direction": "persist",
+        "sign": "A headline reporting the parliamentary vote outcome on the defense cooperation accord"
+      },
+      "third": {
+        "subject": "Turkey-Libya Maritime Deal",
+        "expected": "Greece and Egypt will issue a coordinated diplomatic response challenging the maritime boundary arrangement approved by Eastern Libya.",
+        "direction": "escalate",
+        "sign": "A headline reporting a joint Greek and Egyptian diplomatic challenge to the maritime deal"
+      },
+      "fade_call": {
+        "subject": "Istanbul Floods",
+        "expected": "fade",
+        "sign": "Flood recovery and infrastructure repair details will appear in local coverage while major headlines shift to other stories"
+      },
+      "surprise": {
+        "subject": "Halk TV Raid",
+        "expected": "A court will order a temporary suspension of broadcasting for the pro-opposition channel following the police raid.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Turkey's financial crisis will dominate headlines as a new market regulator chief is appointed to manage the fund liquidation, and savers begin receiving payouts. The Mecca defense pact will move through parliament for a ratification vote, with military deployment to Saudi Arabia entering active planning. Mediterranean tensions will sharpen as Greece and Egypt coordinate a diplomatic pushback against the Libya-approved maritime deal. The Halk TV raid will escalate into a formal court proceeding. Istanbul flood recovery will fade from major coverage. Iran peace talks in Istanbul will produce further diplomatic statements, and the Eurofighter procurement will await its Qatar sale contract. The overall mood will stay tense as economic and foreign policy pressures converge.",
+      "generated_at": "2026-10-25T15:10:56+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Mecca Pact ratification",
+        "expected": "The Turkish Grand National Assembly will hold its first plenary debate on the Mecca defense cooperation accord, with opposition parties demanding a binding vote on the scope of Turkey's military commitment to Saudi Arabia.",
+        "direction": "escalate",
+        "sign": "Headlines describing a parliamentary session in which opposition leaders question the troop-deployment mandate, or reporting a vote count on the ratification text"
+      },
+      "second": {
+        "subject": "Fund crisis fallout",
+        "expected": "A new chief of the Turkish market regulator will be named, triggering the first round of fund liquidations under the new law that will return money to trapped savers.",
+        "direction": "escalate",
+        "sign": "Headlines naming the incoming regulator, reporting a specific fund's liquidation schedule, or describing savers withdrawing money for the first time under the new law"
+      },
+      "third": {
+        "subject": "Aegean maritime standoff",
+        "expected": "Greece will file a formal legal challenge to the Turkey-Libya maritime boundary, forcing Turkey's foreign ministry to issue a written rebuttal that references the US senator's thuggish-behavior remark.",
+        "direction": "escalate",
+        "sign": "Headlines describing a Greek legal filing or diplomatic note, a Turkish ministry written response, or a new meeting of foreign ministers on the Aegean"
+      },
+      "fade_call": {
+        "subject": "Istanbul floods",
+        "expected": "persist",
+        "sign": "Headlines shifting from casualty counts to infrastructure repair, insurance disputes, and opposition demands for a government accountability inquiry"
+      },
+      "surprise": {
+        "subject": "Istanbul Iran mediation breakthrough",
+        "expected": "The eight-country Istanbul peace talks will produce a joint communiqué proposing a specific de-escalation framework for Iran, elevating Turkey's mediator role beyond its traditional regional position.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Turkey will be defined by the Mecca defense pact hitting the parliamentary floor, where opposition parties will press for a binding vote on the scope of troop deployments to Saudi Arabia. The investment fund crisis will deepen as a new market regulator takes office and the first liquidations under the new law begin returning money to trapped savers. The Aegean standoff will sharpen as Greece moves to formally challenge the Turkey-Libya maritime boundary, drawing a pointed Turkish response that references the US senator's thuggish-behavior remark. Istanbul will shift from flood casualties to infrastructure repair and political blame, while the Halk TV raid settles into procedural legal battles. The Canada-Turkey strategic partnership will generate follow-up details on the nuclear plant and defense procurement. The overall mood will stay tense, with parliament as the central stage for the week's drama.",
+      "generated_at": "2026-10-25T15:22:52+02:00"
+    }
+  },
+  "display": {
+    "headline": "Turkey's Parliament Faces Mecca Pact Vote as Fund Crisis Deepens",
+    "emojis": [
+      "🏛️",
+      "📉",
+      "🚢"
+    ],
+    "emoji_reasons": [
+      "The Mecca defense pact ratification in parliament is the week's central political event.",
+      "The investment fund crisis will deepen with new regulatory appointments and the first liquidations under the new law.",
+      "The Turkey-Libya maritime deal will escalate into a formal Greek legal challenge in the Aegean."
+    ],
+    "tldr": "Turkey's parliament will debate the Mecca defense pact and the fund crisis will produce its first liquidations under the new law. Greece will formally challenge the Turkey-Libya maritime boundary, and Istanbul will shift from flood shock to infrastructure blame.",
+    "eli5": "Turkey signed a big defense deal with Saudi Arabia, Pakistan, Qatar, and Indonesia. Now the deal goes to parliament for a vote, and opposition parties want to make sure the government does not commit too many soldiers to foreign wars. This is the biggest political story of the week.\n\nThe money markets are in trouble. A big investment fund scandal caused the regulator to quit, a major bank to leave the country, and a new law to be passed that will start returning people's money. Next week a new regulator will be named and the first payouts will begin.\n\nGreece is angry about a sea-border deal Turkey made with Libya. It will probably file a formal legal complaint, and Turkey will respond with a sharp diplomatic note, making the Aegean dispute even more heated.\n\nA surprise would be the peace talks Turkey hosted in Istanbul actually producing a written proposal about Iran, making Turkey a bigger player in the region than most people expect."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [16] confirms the police raid on Halk TV, matching the category and escalation direction, but the specific detail of a government-appointed trustee assuming editorial control does not appear in any headline."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'MSCI index freeze and stock-fixing scandal' under 'No longer in the headlines,' and no headline in this round mentions MSCI or a stock-fixing probe."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'Erdogan 2028 election float' under 'No longer in the headlines,' and no headline references a 2028 election timeline or opposition rejection of it."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headline [34] reports 'Istanbul's worst floods in 80 years leave 4 dead,' indicating the flooding is still fresh and prominent rather than fading into cleanup coverage."
+          }
+        },
+        "archer_note": "Bulletin X missed all three dominant new stories of the week: the Canada-Turkey strategic partnership, the Mecca Defense Pact, and the deepening investment fund crisis. Its main thesis was early rather than wrong: Halk TV did escalate as predicted, but the MSCI freeze and 2028 election float both faded from the headlines entirely. The Akkuyu nuclear surprise, while unconfirmed in these specific headlines, at least gestured toward the nuclear-energy angle that surfaced via the AtkinsRealis announcement."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [16] confirms the police raid on Halk TV, matching the category and escalation direction, but the specific details of a trustee formally taking office and a constitutional complaint are not present in any headline."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The first clause concerns MSCI issuing a follow-up statement, but the reality bulletin places 'MSCI index freeze and stock-fixing scandal' under 'No longer in the headlines,' and no headline references an MSCI index decision."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'Erdogan 2028 election float' under 'No longer in the headlines,' and no headline mentions a parliamentary question, CHP filing, or government response on the 2028 timeline."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headline [34] still reports 'Istanbul's worst floods in 80 years leave 4 dead' with fresh casualty figures, contradicting the prediction that coverage would shift to cleanup and insurance claims."
+          }
+        },
+        "archer_note": "Bulletin Y missed the three dominant new stories (Canada-Turkey partnership, Mecca Pact, fund crisis specifics) just as badly as its rivals, and its MSCI and 2028-election predictions both faded. However, its US-Aegean diplomatic surprise was well-calibrated and materialized in headline [31], giving it an edge over the other bulletins. The main thesis was early on two of three leads, with only Halk TV holding up directionally."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [16] confirms the Halk TV raid is in the headlines, matching the 'persist' call, though the reality bulletin marks it as 'escalating' rather than static."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headline [34] reports 'Istanbul's worst floods in 80 years leave 4 dead,' confirming the flooding remains in the headlines at a comparable level as predicted."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The reality bulletin lists 'MSCI index freeze and stock-fixing scandal' under 'No longer in the headlines,' and no headline in this round references MSCI or a stock-fixing probe."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headline [34] confirms Istanbul flooding is still being reported, matching the prediction that it would persist into the next collection."
+          }
+        },
+        "archer_note": "Bulletin Z's 'no surprise' call was notably wrong given the volume of major new stories (Canada partnership, Mecca Pact, fund crisis, Libya deal) that dominated the week. Its core thesis of continuity was half-right: Halk TV and Istanbul flooding persisted as predicted, but MSCI faded, undermining the third item. The main thesis was not so much wrong as incomplete, capturing the continuing stories while missing the wave of new diplomatic and financial developments."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Both bulletins share nearly identical graded items (Halk TV true_in_direction, MSCI did_not_appear, 2028 election did_not_appear, Istanbul fade did_not_appear), but Y's US-Aegean surprise call materialized in headline [31] while X's Akkuyu surprise found no confirmation. This single differentiator gives Y a narrow edge despite otherwise equivalent performance."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Z correctly predicted Istanbul flooding would persist (both as its second item and its fade call), while X predicted it would fade and was contradicted by headline [34]. Z's two correct calls on the flooding versus X's two misses on the same story make Z clearly more accurate on the graded items."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Z earned two came_true grades (Istanbul flooding as second item and as fade call) while Y earned zero came_true grades on its four items. Y's US-Aegean surprise partially compensates, but on the four graded items Z is more accurate, particularly on the flooding trajectory that Y got wrong."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": -1.0,
+      "plain_vs_persistence": -1.0,
+      "crystal_vs_persistence": -1.0
+    },
+    "v": 1.0,
+    "u": -1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThis week in Turkey was dominated by a sharp escalation in the government's control over media. On a reported Thursday, police raided the headquarters of Halk TV, one of the country's last major opposition-aligned broadcasters, halted its live broadcasts, and the state moved to place the channel under a government-appointed trustee. Press freedom groups warned the seizure signaled a broader crackdown, and the move drew international attention. Simultaneously, Istanbul endured its heaviest rainfall in roughly 80 to 84 years, with flooding that killed at least three people, forced school closures, and left streets of damaged vehicles. On the economic front, MSCI froze changes to Turkey equity indexes amid a stock-fixing scandal and fund turmoil, sending Turkish stocks down more than three percent in a single session and raising the specter of a downgrade. The government also let the lira slide faster than previously expected to avoid a sudden future devaluation.\n- Halk TV government takeover (dominant, escalating): Police raided Halk TV's Istanbul headquarters, halted live broadcasts, and the state appointed a trustee to run the channel, drawing warnings of a broader opposition-media crackdown.\n- Istanbul record flooding (dominant, new): Heaviest rainfall in roughly 80 to 84 years flooded Istanbul, killing at least three people, closing schools, and leaving streets of damaged vehicles.\n- MSCI index freeze and stock-fixing scandal (dominant, escalating): MSCI froze changes to Turkey equity indexes amid a stock-fixing scandal and fund turmoil, sending Turkish stocks down over three percent and raising the risk of a market downgrade.\n- Erdogan 2028 election float (regular, new): Ankara suggested moving the next general election to 2028, which would reset the term clock and allow President Erdogan to seek another term.\n- Lira managed devaluation (regular, continuing): The government accelerated the lira's scheduled depreciation to avoid the risk of a sharp one-off devaluation later.\n- US-Turkey diplomatic friction (regular, new): A US senator accused Turkey of thuggish behavior toward Greece and Cyprus, adding a transatlantic dimension to Turkey's Aegean disputes.\n- Akkuyu nuclear timeline (occasional, continuing): Rosatom confirmed it is targeting a year-end start-up for Turkey's Akkuyu nuclear plant, the first nuclear power station built in the country.\n- Headscarf ban and Azerbaijan row (occasional, new): A school headscarf ban in Azerbaijan triggered rare protests and a diplomatic spat with Turkey, a traditional supporter of Azerbaijan.\n- Oldest shipwreck discovery (occasional, new): Researchers announced the discovery of the world's oldest known shipwreck off the Turkish coast, a significant archaeological find.\n- Made in Europe plan (occasional, new): A Turkish minister urged the EU not to exclude Turkey from its 'Made in Europe' industrial plan, signaling Ankara's desire for closer economic alignment.\n\nRound 2026-10-02:\nThe text described mid-October 2026 Turkey in managed-pressure mode. Halk TV had been placed under government-appointed management, sparking legal battles and protests in Istanbul. The mayor of Izmir, an opposition stronghold, had defected to Erdoğan's AKP. Turkey was preparing to submit the Mecca Joint Defence Agreement, involving Saudi Arabia and Pakistan, to parliament. Ankara was deploying defensive military support to Saudi Arabia against Houthi strikes. The lira was under pressure as the government pursued a controlled devaluation strategy. The state Wealth Fund was moving to absorb the Islamic banking units of Ziraat Bank and Halkbank. Two journalists had been jailed over misinformation related to the fund crisis, and a draft law pending in committee would make fund managers personally liable for liquidations. New social-media rules banned children under 15 from using major platforms. The PKK had begun evacuating four camps in northern Iraq as part of a peace process. In\n- Halk TV was placed under government-appointed (regular, continuing): Halk TV was placed under government-appointed management, triggering protests and legal challenges in Istanbul.\n- The mayor of Izmir defected from (regular, continuing): The mayor of Izmir defected from the CHP to the AKP, altering the balance in Turkey's second-largest city.\n- Turkey prepared to submit the Mecca (regular, continuing): Turkey prepared to submit the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan to the Grand National Assembly.\n- The state Wealth Fund initiated a (regular, continuing): The state Wealth Fund initiated a process to absorb the Islamic banking units of Ziraat Bank and Halkbank.\n- Two journalists were jailed over alleged (regular, continuing): Two journalists were jailed over alleged misinformation related to the investment-fund crisis.\n- Drone strikes on commercial vessels near (regular, continuing): Drone strikes on commercial vessels near the Bulgarian and Romanian coasts raised Black Sea shipping risk and prompted Turkish naval warnings.\n",
+    "PREVIOUS_FORECAST": "Lead: Halk TV government takeover. Expected: The government-appointed trustee will formally assume operational control of Halk TV while opposition lawmakers file a constitutional complaint against the seizure Direction: escalate. Sign: Headlines naming the trustee taking office, describing a court filing or a street protest in Istanbul over the channel's loss of editorial independence\nSecond: MSCI index freeze and fund scandal. Expected: MSCI will issue a follow-up statement on the status of Turkish equities in its global indexes while the stock-fixing investigation produces a new round of asset freezes or corporate disclosures Direction: escalate. Sign: Headlines reporting a specific MSCI index decision, a newly named company in the scandal, or a single-session stock-market drop matching or exceeding the previous week's loss\nThird: 2028 general election float. Expected: The opposition CHP will table a formal parliamentary question demanding the government confirm or deny the earlier election timeline, forcing a public response from the AKP Direction: persist. Sign: Headlines quoting an opposition leader in parliament, a government spokesperson addressing the question, or a press conference in Ankara about the election date\nFade call: Istanbul record flooding. Expected: fade. Sign: Headlines shifting to street-level cleanup, insurance claims, and infrastructure repair while other stories dominate the front pages\nSurprise (chance medium): US-Aegean diplomatic row. The Turkish foreign ministry will issue a pointed written response to the US senator's 'thuggish behavior' remark, and the US State Department will be pressed to clarify its position on Greece and Cyprus\nSummary: In the coming week, Turkey's political and financial drama will intensify on several fronts at once. The government's seizure of Halk TV will shift from the dramatic police raid to procedural battles, with the trustee taking formal control and opposition parties pushing legal and parliamentary challenges. The stock market will stay under pressure as MSCI weighs its next move on Turkish equities and the fund-fixing investigation surfaces additional names. The floated 2028 election date will force a public reckoning in parliament as opposition leaders demand clarity on the term calculus. The Istanbul flooding will recede as the city rebuilds, and the Akkuyu nuclear timeline will stay on the radar with Rosatom updating its year-end target. Diplomatic friction with the United States over Aegean disputes may sharpen into a formal exchange. The overall mood will stay tense, with the media crackdown and market uncertainty setting the tone for the week ahead.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Headline [16] confirms the police raid on Halk TV, matching the category and escalation direction, but the specific details of a trustee formally taking office and a constitutional complaint are not present in any headline.\n- second: did_not_appear. The first clause concerns MSCI issuing a follow-up statement, but the reality bulletin places 'MSCI index freeze and stock-fixing scandal' under 'No longer in the headlines,' and no headline references an MSCI index decision.\n- third: did_not_appear. The reality bulletin lists 'Erdogan 2028 election float' under 'No longer in the headlines,' and no headline mentions a parliamentary question, CHP filing, or government response on the 2028 timeline.\n- fade_call: did_not_appear. Headline [34] still reports 'Istanbul's worst floods in 80 years leave 4 dead' with fresh casualty figures, contradicting the prediction that coverage would shift to cleanup and insurance claims.\nArcher note: Bulletin Y missed the three dominant new stories (Canada-Turkey partnership, Mecca Pact, fund crisis specifics) just as badly as its rivals, and its MSCI and 2028-election predictions both faded. However, its US-Aegean diplomatic surprise was well-calibrated and materialized in headline [31], giving it an edge over the other bulletins. The main thesis was early on two of three leads, with only Halk TV holding up directionally.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

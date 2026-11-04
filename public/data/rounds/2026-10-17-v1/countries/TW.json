@@ -1,0 +1,349 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "TW",
+  "name": "Taiwan",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T05:42:33+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During this window, Taiwan's economic and technological news dominated. TSMC confirmed exploration of a $4 billion Texas complex for AI chip production in partnership with Nvidia, while the government moved to curb AI chip exports to China as part of a broader US trade deal, signaling tighter alignment with Washington on semiconductor policy. In energy diplomacy, Taiwan signaled readiness to invest $4.4 billion in an Alaska LNG pipeline project promoted by President Trump, who in turn said Taiwan would purchase 30 percent of the output. On the domestic front, the president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant, a labor dispute now in its second reporting window. Financial markets saw a Taiwan stock boom that prompted some fund managers to quit and trade their own capital, though the dollar slumped alongside the won as a chip-stock selloff dented sentiment. Taiwan also blocked the crypto and prediction platforms Coinbase and Kalshi over suspected election-related betting. Smaller stories included PharmaEssentia's global drug-approval expansion, Delta's AI-era power-grid unveiling, and a presidential advisory urging citizens to skip Chinese revolutionary-anniversary events.",
+    "key_events": [
+      {
+        "event": "Taiwan confirmed plans to fund a $4 billion TSMC complex in Texas for AI chip production with Nvidia as a partner.",
+        "date": "2026-10-17",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Taiwan agreed to curb AI chip exports to China as part of a US trade deal, aligning its semiconductor policy with Washington.",
+        "date": "2026-10-17",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Taiwan signaled readiness to invest $4.4 billion in a Trump-promoted Alaska LNG pipeline, with Trump saying Taiwan will buy 30 percent of output.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Taiwan president called for Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Taiwan blocked the crypto platform Coinbase and prediction platform Kalshi over suspected election-related betting.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "A Taiwan stock boom led some fund managers to quit and trade their own money, while the dollar slumped on a chip-stock selloff.",
+        "date": "2026-10-17",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "PharmaEssentia announced new drug approvals and overseas investments to expand its global reach.",
+        "date": "2026-10-15",
+        "domain": "technology",
+        "importance": 2
+      },
+      {
+        "event": "Taiwan's government advised citizens to shun Chinese anniversary events honoring a revolutionary hero.",
+        "date": "2026-10-14",
+        "domain": "politics",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "economy",
+      "technology",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "🔬",
+      "🛢️",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "TSMC's $4 billion Texas AI-chip complex and the export curbs on AI chips to China dominate the window (headlines 2, 4, 5, 10, 19).",
+      "Taiwan's $4.4 billion investment in the Alaska LNG pipeline promoted by Trump is a major energy-diplomacy story (headlines 8, 9, 15).",
+      "The Taiwan stock boom and fund managers trading their own capital mark a notable market surge (headline 20)."
+    ],
+    "developments": [
+      {
+        "subject": "TSMC Texas AI investment",
+        "what_happened": "TSMC is exploring a $4 billion Texas complex for AI chip production in partnership with Nvidia, with Taiwan confirming funding.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "subject": "AI chip export curbs to China",
+        "what_happened": "Taiwan agreed to restrict AI chip exports to China as part of a broader US trade deal, tightening semiconductor policy alignment with Washington.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          13,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "subject": "Alaska LNG pipeline",
+        "what_happened": "Taiwan signaled readiness to invest $4.4 billion in a Trump-promoted Alaska LNG pipeline, and Trump said Taiwan will buy 30 percent of the output.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          8,
+          9,
+          15
+        ]
+      },
+      {
+        "subject": "Micron workers strike risk",
+        "what_happened": "The president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          12
+        ]
+      },
+      {
+        "subject": "Taiwan stock boom and dollar slump",
+        "what_happened": "A Taiwan equity boom prompted fund managers to quit and trade their own capital, while the dollar and won slumped on a chip-stock selloff.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          20,
+          21
+        ]
+      },
+      {
+        "subject": "Coinbase and Kalshi blocked",
+        "what_happened": "Taiwan blocked the crypto platform Coinbase and prediction platform Kalshi over suspected election-related betting activity.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          22
+        ]
+      },
+      {
+        "subject": "PharmaEssentia global expansion",
+        "what_happened": "PharmaEssentia announced new drug approvals and overseas investments to broaden its global reach.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "Shun Chinese anniversary events",
+        "what_happened": "Taiwan's government advised citizens to avoid Chinese anniversary events honoring a revolutionary hero.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Delta AI-era power systems",
+        "what_happened": "Delta unveiled microgrid solutions and an SST-based DC power system for the AI era at Energy Taiwan 2026.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "AV and Thunder Tiger uncrewed systems",
+        "what_happened": "AV and Thunder Tiger signed an MOU to explore uncrewed-systems integration and co-production in Taiwan.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          14
+        ]
+      }
+    ],
+    "gone": [
+      "China used National Day to issue",
+      "The US left the $14 billion",
+      "The first two F-16V Block 70",
+      "Former President Tsai Ing-wen announced plans",
+      "Taiwan's cabinet approved T$415 billion in",
+      "Flu-like outpatient and emergency visits reached"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Headlines cover the economic, technological, and energy-diplomacy stories well, but politics and security are thinly represented, with no dedicated military or cabinet-policy item this week."
+    },
+    "headlines_used": [
+      "Taiwan tells its people to shun Chinese anniversary events for revolutionary hero",
+      "Taiwan chipmaker TSMC explores Texas investment to expand production in the US",
+      "Booker Prize winner Yang Shuang-zi explores Taiwanese identity",
+      "Puces pour l'IA: nouveau bond des ventes et du bénéfice net du géant taïwanais TSMC",
+      "Taiwan to Fund $4 Billion Texas Complex for AI, Nvidia Partners",
+      "From Taiwan to the World: PharmaEssentia Expands Global Reach With New Drug Approvals, Overseas Investments",
+      "Polylite Taiwan Co Ltd",
+      "Taiwan plans to buy liquefied natural gas from Alaska pipeline project",
+      "Taïwan prêt à investir 4,4 milliards dans un projet de gazoduc en Alaska promu par Trump",
+      "Taiwan to Curb AI Chip Exports to China as Part of US Trade Deal",
+      "Delta Unveils Microgrid Solutions and the Newly Launched SST-based DC Power System for the AI Era at Energy Taiwan 2026. – Company Announcement - FT.com",
+      "Taiwan president calls for Micron, workers to negotiate 'sincerely' ahead of possible strike",
+      "Warsh Gives Little Away, Taiwan to Curb China Chip Exports, More",
+      "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+      "Taiwan cites progress on Alaska LNG after Trump says it will buy 30% of output",
+      "Hsu I Nin, Landis Taipei Hotel Co Ltd/The: Profile and Biography",
+      "Watch Investors Dial Back October Hike Bets After Warsh; Taiwan to Curb AI Chip Exports to China",
+      "Watch Trump Won’t Rule Out ‘Mother of All Bombs’ on Iran, Taiwan Tightens Chip Curbs",
+      "Watch Taiwan to Curb China AI Chip Exports to Align With US",
+      "Fund Managers Quit to Trade Their Own Money in Taiwan Stock Boom",
+      "Taiwan Dollar, Won Slump as Chip Stock Selloff Hurts Sentiment",
+      "Taiwan Blocks Coinbase, Kalshi Over Suspected Election Bets"
+    ],
+    "converted": false,
+    "relevant_headlines": 22,
+    "unscorable": true,
+    "unscorable_reason": "only 22 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "TSMC Texas AI investment",
+        "expected": "TSMC Texas AI investment stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about TSMC Texas AI investment appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "AI chip export curbs to China",
+        "expected": "AI chip export curbs to China stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about AI chip export curbs to China appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Alaska LNG pipeline",
+        "expected": "Alaska LNG pipeline stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Alaska LNG pipeline appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "TSMC Texas AI investment",
+        "expected": "persist",
+        "sign": "TSMC Texas AI investment is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. TSMC Texas AI investment stays in the news at the same level. AI chip export curbs to China stays in the news at the same level. Alaska LNG pipeline stays in the news at the same level. TSMC Texas AI investment is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "TSMC Texas AI complex",
+        "expected": "TSMC will move from exploration to a formal agreement, publishing a construction timeline and specifying the division of production between TSMC and Nvidia at the Texas site.",
+        "direction": "escalate",
+        "sign": "Headlines will use words like 'signs,' 'commences construction,' or 'finalises' rather than 'explores' or 'considers,' and will name a specific construction-start milestone."
+      },
+      "second": {
+        "subject": "Micron fabrication plant labour dispute",
+        "expected": "Micron workers will call a full strike at the fabrication plant, moving the dispute from negotiation into active work stoppage.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a walkout, production halt, or first strike shift rather than another negotiation session or presidential mediation call."
+      },
+      "third": {
+        "subject": "AI chip export curbs to China",
+        "expected": "China will issue a formal response to the AI chip export restrictions, either through a trade ministry statement or a retaliatory measure targeting another sector.",
+        "direction": "escalate",
+        "sign": "Headlines will name a Chinese ministry or official issuing a statement, or describe a specific retaliatory tariff or export restriction from Beijing."
+      },
+      "fade_call": {
+        "subject": "Coinbase and Kalshi platform block",
+        "expected": "fade",
+        "sign": "Headlines will reference the blocked platforms only inside a broader market or regulatory roundup rather than as a standalone story with new developments."
+      },
+      "surprise": {
+        "subject": "Chinese domestic AI chip announcement",
+        "expected": "A Chinese state-owned semiconductor firm will announce a new domestic AI chip design that narrows the performance gap with TSMC's latest processors, forcing a public re-evaluation of the export curbs.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, the TSMC Texas AI chip project will move from exploration to a firm commitment, with a construction timeline and a clearer production role for Nvidia. The Micron fabrication plant labour dispute will reach a decisive moment as workers either call a full strike or accept a new contract. China will respond to the AI chip export curbs under the US trade deal, issuing a formal statement or a retaliatory measure. The stock-market boom that prompted fund managers to quit may cool as the chip-stock selloff extends, pressuring the dollar further. The Coinbase and Kalshi platform block will fade as a completed regulatory action, while the Alaska LNG investment will stay in the background pending further trade talks. A medium-chance surprise lies in a Chinese domestic chip announcement challenging the export restrictions.",
+      "generated_at": "2026-10-23T05:33:54+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "AI chip export curbs to China",
+        "expected": "Taiwan's government will publish binding implementation rules restricting AI chip shipments to mainland China, prompting Chinese semiconductor firms to announce alternative sourcing plans or design changes.",
+        "direction": "escalate",
+        "sign": "Headlines naming specific chip categories banned or taxed and Chinese companies publicly announcing redesigned products or new supplier contracts"
+      },
+      "second": {
+        "subject": "Micron fabrication plant labor dispute",
+        "expected": "Micron workers and management will either sign a new wage agreement or trigger a formal strike vote at the Taoyuan plant before the negotiation window closes.",
+        "direction": "escalate",
+        "sign": "Headlines reporting a signed labor deal with revised pay terms or a walkout shutting down a production line at the Taoyuan site"
+      },
+      "third": {
+        "subject": "Alaska LNG pipeline commitment",
+        "expected": "Taiwan's energy ministry will finalize contract language for its 30 percent gas purchase while Trump allies in Congress push for fast-track approval of the pipeline.",
+        "direction": "persist",
+        "sign": "Headlines about a signed memorandum of understanding, a congressional hearing on the pipeline, or shipping and storage logistics for Alaskan gas deliveries to Taiwan"
+      },
+      "fade_call": {
+        "subject": "Coinbase and Kalshi platform blocks",
+        "expected": "fade",
+        "sign": "The platforms vanish from the news cycle unless a court injunction or user lawsuit surfaces as a distinct story"
+      },
+      "surprise": {
+        "subject": "China retaliatory move over chip curbs",
+        "expected": "Beijing will announce targeted export restrictions on rare earth processing equipment or launch a naval exercise near Taiwan framed as a response to semiconductor trade barriers.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Taiwan's semiconductor policy will move from headline announcement to on-the-ground implementation. The government will publish specific rules restricting AI chip exports to mainland China, and Chinese firms will respond with alternative sourcing plans or tariff threats. At the Micron fabrication plant in Taoyuan, workers and management will either sign a new labor agreement or call a formal strike vote, with the president watching the outcome closely. On the energy front, Taiwan's ministry will lock in contract terms for its 30 percent share of Alaskan LNG while the pipeline faces congressional scrutiny in Washington. The stock market boom will cool as the dollar and won struggle against chip-sector jitters, and fund managers who quit to trade their own capital will face their first full week of self-directed portfolios. The Coinbase and Kalshi blocks will largely fade from view unless a legal challenge emerges.",
+      "generated_at": "2026-10-23T05:42:33+03:00"
+    }
+  },
+  "display": {
+    "headline": "Chip Curbs Tighten, Micron Strike Looms as LNG Deal Takes Shape",
+    "emojis": [
+      "🔬",
+      "✊",
+      "⛽"
+    ],
+    "emoji_reasons": [
+      "Semiconductors and AI chip policy dominate every major story this window, from the Texas investment to the China export curbs.",
+      "The Micron labor dispute enters its second reporting window with a strike vote or new deal imminent.",
+      "The Alaska LNG pipeline commitment and the 30 percent purchase pledge make fuel and gas logistics a central diplomatic topic."
+    ],
+    "tldr": "Taiwan will implement AI chip export bans on China and finalize its Alaska LNG purchase terms. The Micron labor dispute will reach a resolution, either a signed deal or a strike. Markets will wobble as chip stocks cool.",
+    "eli5": "This week in Taiwan, the biggest news was all about computer chips. TSMC is building a new factory in Texas, and the government agreed to limit which AI chips it sells to China as part of a deal with the US. Think of it like a store deciding which items to sell to a rival shop across the street.\n\nAt the same time, workers at the Micron chip plant in Taoyuan are in a pay dispute with their bosses. The president has asked both sides to negotiate sincerely, but if they do not agree, the workers may walk out and shut down a production line. Next week we will find out whether a deal gets signed or a strike gets called.\n\nTaiwan also said it will buy a third of the gas from a big pipeline project in Alaska that President Trump keeps pushing. That deal needs paperwork and congressional approval, so we expect more news on the contract details. The Coinbase and Kalshi app blocks will probably quiet down unless someone takes the government to court.\n\nA surprise would be China reacting strongly to the chip export limits, maybe by restricting its own rare-earth exports or holding a big naval drill near Taiwan. That would turn a trade story into a military one overnight."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe text describes a week in which multiple pressures converged on Taiwan simultaneously. China marked its National Day holiday with sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters. The United States left the $14 billion arms package for Taiwan unresolved, with reports that Washington was considering splitting it into smaller tranches to manage Beijing's reaction. At a Micron fabrication plant in Taiwan, workers voted to strike, injecting labor uncertainty into the global semiconductor supply chain. The first two F-16V Block 70 jets arrived on the island, a symbolic milestone in a long-delayed modernization program. Former President Tsai Ing-wen announced plans to visit the United States and address Stanford University. The cabinet approved an additional T$415 billion in energy spending to cushion households and industry from high fuel prices. Meanwhile, flu-like illness visits numbered between 140,000 and 150,000 in a single week, straining hospitals and heightening public\n- China used National Day to issue (regular, continuing): China used National Day to issue sharpened rhetoric on Taiwan and continued coast guard confrontations in disputed waters.\n- Workers at a Micron fabrication plant (regular, continuing): Workers at a Micron fabrication plant in Taiwan voted to strike, raising supply-chain concerns for global semiconductor markets.\n- The US left the $14 billion (regular, continuing): The US left the $14 billion Taiwan arms package unresolved while reportedly considering splitting it into smaller tranches.\n- The first two F-16V Block 70 (regular, continuing): The first two F-16V Block 70 jets were delivered to Taiwan's Air Force.\n- Former President Tsai Ing-wen announced plans (regular, continuing): Former President Tsai Ing-wen announced plans to visit the US and speak at Stanford University.\n- Taiwan's cabinet approved T$415 billion in (regular, continuing): Taiwan's cabinet approved T$415 billion in additional energy spending to offset high fuel prices.\n- Flu-like outpatient and emergency visits reached (regular, continuing): Flu-like outpatient and emergency visits reached 140,000 to 150,000 in a single week, straining hospitals.\n\nRound 2026-09-15:\nThe text described Taiwan in a state of diplomatic and economic pressure heading into the late-September week. The Trump-Xi summit loomed as the dominant external factor, with Xi expected to press Washington on arms sales, trade, and AI. US arms sales to Taiwan sat in a prolonged delay, with defense firms publicly complaining about the holdup. Chinese Coast Guard vessels had deployed east of the island in what the text read as a quiet footprint expansion. Taiwan responded with live-fire missile and drone drills, signaling readiness without escalation. Beijing appeared to be courting Taiwan's opposition, with a Wall Street Journal report of Xi seeing a rare window to convince the island resistance was futile. On the economic side, TSMC held a 3-nanometer mass production ceremony in Tainan and broke ground on an advanced packaging park in Kaohsiung, while the Taiex hit record highs on AI optimism. The central bank held\n- Trump-Xi summit set to dominate cross-strait (regular, continuing): Trump-Xi summit set to dominate cross-strait diplomacy with Xi expected to press on arms sales and trade\n- Chinese Coast Guard vessels deployed east (regular, continuing): Chinese Coast Guard vessels deployed east of Taiwan in a quiet footprint expansion\n- TSMC held 3-nanometer mass production ceremony (regular, continuing): TSMC held 3-nanometer mass production ceremony in Tainan and broke ground on Kaohsiung packaging park\n- Micron employees in Taoyuan protested over (regular, continuing): Micron employees in Taoyuan protested over wages and working conditions\n- Taiwan conducted live-fire missile and attack-drone (regular, continuing): Taiwan conducted live-fire missile and attack-drone drills to signal readiness\n- Taiwan conducted live-fire missile and attack-drone (again) (regular, continuing): Taiwan conducted live-fire missile and attack-drone drills to signal readiness\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

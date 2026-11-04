@@ -1,0 +1,401 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "JP",
+  "name": "Japan",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T04:38:13+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Japan's week was defined by a diplomatic shock: Russia arrested and detained a Japanese journalist in its Far East region on suspicion of espionage, prompting Tokyo to formally demand explanations and rebuke Moscow. PM Takaichi publicly denied any spying allegations, and the incident became the latest flare-up in already strained Russia-Japan relations. On the economic front, Japan committed up to twenty-one billion dollars to finance two new GlobalFoundries semiconductor plants in New York, a major bet on reshoring advanced chip production and deepening US-Japan industrial ties. The International Monetary Fund also projected India would overtake Japan as the world's fourth-largest economy by 2027, a symbolic milestone that drew broad commentary. Domestically, Takaichi's cabinet suffered its first resignation when the farm minister stepped down amid a scandal; a replacement was quickly named. Takaichi's offhand remark that household chores and makeup add hours to her workday ignited a nationwide debate about gender expectations for a female leader. Japan also renewed its call for the G20 to treat currency swings with urgency, and the Weather Agency issued a false earthquake alert that startled the public.",
+    "key_events": [
+      {
+        "event": "Russia arrested and detained a Japanese journalist in its Far East on suspicion of espionage, and Tokyo demanded formal explanations.",
+        "date": "2026-10-15",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Japan committed up to twenty-one billion dollars to finance two new GlobalFoundries semiconductor fabrication plants in New York.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Japan's farm minister resigned, the first exit from PM Takaichi's cabinet, and a successor was appointed the same day.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "PM Takaichi's comments that household chores and makeup add hours to her workday sparked a public debate over gender roles for a female prime minister.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "The IMF projected that India would surpass Japan as the world's fourth-largest economy by 2027.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Japan told the G20 to treat currency-market volatility with a high sense of urgency, and Finance Minister Katayama reiterated FX warnings after a hot US CPI print.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The United States held secret talks with Myanmar's military-backed government in Tokyo.",
+        "date": "2026-10-14",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Japan's Weather Agency issued a false earthquake alert that startled the nation.",
+        "date": "2026-10-17",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "🕵️",
+      "🔬",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "Russia's arrest of a Japanese journalist on espionage charges, drawing formal Tokyo rebuke, made spying the week's most prominent headline (headlines 4, 6, 23, 28).",
+      "Japan's commitment of twenty-one billion dollars to two GlobalFoundries chip plants in New York was the largest economic announcement of the week (headlines 14, 36, 48).",
+      "The farm minister's scandal-hit resignation and the rapid appointment of a replacement marked the first cabinet shake-up under PM Takaichi (headlines 40, 51, 58)."
+    ],
+    "developments": [
+      {
+        "subject": "Russia arrests Japanese journalist",
+        "what_happened": "Russia detained a Japanese reporter in its Far East on espionage suspicion, Tokyo formally rebuked Moscow, and Takaichi denied any spying allegations.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          5,
+          6,
+          23,
+          25,
+          28,
+          42,
+          50
+        ]
+      },
+      {
+        "subject": "GlobalFoundries chip deal",
+        "what_happened": "Japan agreed to finance up to twenty-one billion dollars for two new GlobalFoundries semiconductor plants in New York.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          14,
+          36,
+          48
+        ]
+      },
+      {
+        "subject": "Farm minister resignation",
+        "what_happened": "Japan's farm minister stepped down amid a scandal, the first exit from Takaichi's cabinet, and a new minister was appointed the same day.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          40,
+          51,
+          58
+        ]
+      },
+      {
+        "subject": "Takaichi gender-role debate",
+        "what_happened": "Takaichi's remark that chores and makeup add hours to her workday triggered a public discussion about the expectations placed on a female prime minister.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          17,
+          30
+        ]
+      },
+      {
+        "subject": "India overtakes Japan economically",
+        "what_happened": "The IMF projected India would surpass Japan as the world's fourth-largest economy by 2027, a milestone that drew analyst commentary on Japan's relative standing.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          16,
+          53
+        ]
+      },
+      {
+        "subject": "Japan FX and rate warnings",
+        "what_happened": "Japan urged the G20 to act urgently on currency swings, Katayama renewed FX warnings after a hot US CPI, and BoJ's Ueda stressed keeping underlying inflation at or below two percent.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          18,
+          29,
+          49
+        ]
+      },
+      {
+        "subject": "US-Myanmar talks in Tokyo",
+        "what_happened": "The United States held secret negotiations with Myanmar's military-backed government in Tokyo, per Reuters sources.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Japan investment and market push",
+        "what_happened": "Hedge funds at Sohn Tokyo pitched continued reform bets, GPIF reaffirmed its global-liquidity role, insurers signalled gradual repatriation of funds, and MUFG re-entered Japanese bonds.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          13,
+          26,
+          31,
+          33,
+          43,
+          55
+        ]
+      },
+      {
+        "subject": "False earthquake alert",
+        "what_happened": "Japan's Weather Agency issued a false seismic alert that startled residents nationwide.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          44
+        ]
+      },
+      {
+        "subject": "APEC preparations",
+        "what_happened": "US and Japanese officials met ahead of the APEC gathering, and Takaichi said she would attend the China-hosted session if parliament approved.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          22
+        ]
+      }
+    ],
+    "gone": [
+      "A US Marine was arrested in",
+      "PM Takaichi's growth-and-spending plan faced resistance",
+      "The Japan Fair Trade Commission raided",
+      "Japan's stock exchange launched a record",
+      "The Asian Games closed with operational",
+      "Japan's permanent residency fee increased twentyfold",
+      "Toyama city officials were accused of"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Headlines span diplomacy, economy, politics, and technology well, though a large share are routine stock-price or ETF pages that add little narrative value."
+    },
+    "headlines_used": [
+      "EXCLUSIVE: US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say",
+      "Japan's Takaichi says chores and makeup add hours to her workday, sparking debate on gender roles",
+      "Body of Waves, a New Artwork Only at teamLab Planets TOKYO, Unveiled",
+      "Russia arrests Japanese journalist for alleged espionage",
+      "Russia detains Japanese journalist arrested on suspicion of spying",
+      "Japanese journalist arrest in Russia's Far East draws rebuke from Tokyo in latest diplomatic spat",
+      "VIDÉO. L'Inde devient la 4e puissance mondiale retrocédant le Japon à la 6ème place",
+      "Japan’s Takaichi to Attend APEC in China if Parliament Allows",
+      "Japan Data Science Consortium Co. Ltd. (JDSCF) Options",
+      "Fidelity Japan Equity Research Enhanced UCITS ETF - Net Asset Value(s) – Company Announcement",
+      "From savings to stocks: Japan’s big investment push",
+      "Robots dance the ‘Macarena’ at Japan tech expo",
+      "Hedge funds bet Japan reforms have further to run at Sohn Tokyo",
+      "GlobalFoundries to open 2 new chip plants in New York with $21 billion in financing from Japan",
+      "Takeda’s ORZEYFUL (oveporexton) Launches Simultaneously in Japan and China Giving Physicians First Access to Prescribe Novel Orexin Agonist to Patients with Narcolepsy Type 1",
+      "L'Inde devrait supplanter le Japon comme 4e économie mondiale en 2027, selon le FMI",
+      "Japan Is Still Figuring Out How a Female Prime Minister Should Lead",
+      "Bank of Japan Must Ensure Underlying Inflation Doesn’t Go Above 2%, Ueda Says",
+      "Janus Henderson Haitong Asia ex-Japan HY £ - Net Asset Value(s) – Company Announcement",
+      "Check out Tokyo Mirai Real Estate Co.,Ltd.'s stock price (647A.T-JP) in real time",
+      "Robots dance the 'Macarena' at Japan tech expo - Al Jazeera",
+      "US, Japanese officials meet ahead of APEC meeting in Hong Kong",
+      "Tokyo protests Russia’s arrest of Japanese journalist on suspicion of spying",
+      "Schauffele closes in on leaders after 'weird' round in Japan",
+      "Journaliste arrêté par Moscou : Tokyo demande des explications à la Russie",
+      "Hedge Funds Pitch Machine Makers and App Providers at Sohn Tokyo",
+      "Tokyo Electron Ltd. ADR (TELWY) Stock Price Today - The Wall Street Journal",
+      "Russia’s arrest of Japanese journalist: Why are tensions rising?",
+      "Japan tells G20 must watch FX moves with high sense of urgency",
+      "Japan PM says housework makes her busier than male predecessors",
+      "Japan’s Top Activist Has Plans For Its Scandal-Hit Corporates",
+      "Japan Tobacco Inc. (JAPAF) Stock Price Today - The Wall Street Journal",
+      "Japanese insurers are poised to bring money back home - gradually",
+      "Japan’s Cyberattacks Are an AI Warning",
+      "JPMorgan BetaBuilders Developed Asia Pacific-ex Japan ETF (BBAXD) Stock Price Today",
+      "Japan to invest up to $21 billion in two GlobalFoundries chip factories in New York",
+      "Toshiyuki Higashijima, Computer Institute of Japan: Profile and Biography",
+      "TELWY | Tokyo Electron Ltd. ADR Company Profile & Executives",
+      "Janus Henderson Japan High Conviction Equity UCITS ETF - Net Asset Value(s) – Company Announcement",
+      "Japan farm minister steps down, first for Takaichi cabinet",
+      "Japan’s Fukoku Mutual Life Counts on Cash to Mitigate Volatility",
+      "Russia Detains Japanese Journalist on Espionage Charges",
+      "Japan's GPIF supporting global market liquidity, Mimura says",
+      "Japan’s Weather Agency Sends False Quake Alert, Startling Nation",
+      "Japan Foundation Engineering Co. Ltd. (JFOEF) Stock Price Today - The Wall Street Journal",
+      "'Vanishing Japan' by Naomi Pollock Spotlights Architecture of Post-War Japan",
+      "Tokyo Electric Power Co. Holdings Inc. (TKECF) Stock Price Today - The Wall Street Journal",
+      "GlobalFoundries Gets $21 Billion for Plants in US-Japan Deal",
+      "Japan’s Katayama Renews FX Warnings After US CPI Heats Up",
+      "Japan’s Takaichi Denies Allegations of Spying In Russia",
+      "Japan’s Takaichi Taps New Minister After Yana’s Scandal-Hit Exit",
+      "SmartNews Said to Plan December Tokyo IPO as Valuation Craters",
+      "The Return on India, and What Investors Are Looking for in Japan",
+      "Japan’s Brewery ‘Cartel’ Didn’t Collude Enough",
+      "MUFG Wades Back Into Japanese Bonds With Eye on Policy Risks",
+      "Hillhouse-Backed NOTA Said to Target Tokyo IPO in December",
+      "Goldman Sachs Sees Asia Growth Led by AI, Japan, India Deals",
+      "Pressure Mounts on Japan’s Farm Minister Ahead of Takaichi Meet"
+    ],
+    "converted": false,
+    "relevant_headlines": 58,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Russia arrests Japanese journalist",
+        "expected": "Russia arrests Japanese journalist stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Russia arrests Japanese journalist appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "GlobalFoundries chip deal",
+        "expected": "GlobalFoundries chip deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about GlobalFoundries chip deal appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Farm minister resignation",
+        "expected": "Farm minister resignation stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Farm minister resignation appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Russia arrests Japanese journalist",
+        "expected": "persist",
+        "sign": "Russia arrests Japanese journalist is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Russia arrests Japanese journalist stays in the news at the same level. GlobalFoundries chip deal stays in the news at the same level. Farm minister resignation stays in the news at the same level. Russia arrests Japanese journalist is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Russia-Japan journalist detention",
+        "expected": "Tokyo will escalate by demanding the journalist's immediate return and Russia will formally state the espionage charges in a written diplomatic note",
+        "direction": "persist",
+        "sign": "Headlines about Tokyo setting a return deadline for the detained reporter and Russia publishing the specific charges against him"
+      },
+      "second": {
+        "subject": "GlobalFoundries chip financing",
+        "expected": "Japanese opposition lawmakers will table a fiscal-impact question on the twenty-one billion dollar commitment while New York state officials announce a construction start date for the first plant",
+        "direction": "persist",
+        "sign": "Headlines about opposition questioning the chip deal budget or New York officials breaking ground on the semiconductor facility"
+      },
+      "third": {
+        "subject": "Takaichi gender-role discourse",
+        "expected": "Takaichi will address the chores-and-makeup remarks in a party-floor session, reframing them as a personal observation while opposition MPs press for a written clarification",
+        "direction": "fade",
+        "sign": "Headlines about Takaichi responding to the household-work debate or opposition demanding a formal statement on female leadership expectations"
+      },
+      "fade_call": {
+        "subject": "False earthquake alert",
+        "expected": "fade",
+        "sign": "The Weather Agency's false seismic alert will drop from front pages as attention shifts to the Russia diplomatic row"
+      },
+      "surprise": {
+        "subject": "US-Myanmar secret talks outcome",
+        "expected": "A joint policy document from the US and Myanmar delegations in Tokyo will surface, marking a visible shift in Myanmar's regional alignment",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, Japan's diplomatic front will dominate as Tokyo presses Russia for the return of the detained journalist and Moscow formalizes the espionage charges. The twenty-one billion dollar GlobalFoundries commitment will draw parliamentary scrutiny and state-level announcements in New York, testing the political cost of the reshoring bet. Takaichi's household-chore remark will generate a final round of commentary before fading from the cycle. The false earthquake alert will disappear from front pages. The US-Myanmar talks in Tokyo may produce a low-key policy statement. BoJ and Ministry of Finance officials will keep their FX and inflation messaging steady ahead of the APEC window. Cabinet attention will turn to the new farm minister's first portfolio decisions. Overall, the Russia incident will set the tone, with economic and domestic stories running in the background.",
+      "generated_at": "2026-10-23T04:20:49+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Russia-Japan journalist crisis",
+        "expected": "Tokyo will formally demand the journalist's release and summon the Russian ambassador to escalate diplomatic pressure over the detention.",
+        "direction": "escalate",
+        "sign": "Headlines about an emergency cabinet session, the Japanese ambassador being summoned to the Russian embassy, and Takaichi naming the espionage charges in a public briefing"
+      },
+      "second": {
+        "subject": "GlobalFoundries chip financing",
+        "expected": "A formal signing ceremony will mark the official launch of the joint financing arrangement for the two New York semiconductor plants.",
+        "direction": "persist",
+        "sign": "Headlines about the signing event, Japanese officials calling the project a landmark in US-Japan industrial cooperation, and analyst commentary on Japan's semiconductor reshoring strategy"
+      },
+      "third": {
+        "subject": "Takaichi cabinet and public image",
+        "expected": "The incoming farm minister will face pointed questions about the predecessor's scandal during the first public briefing since the appointment.",
+        "direction": "persist",
+        "sign": "Headlines about the new minister's first press appearance drawing scrutiny over the predecessor's financial dealings, and Takaichi defending cabinet stability amid the gender-role debate"
+      },
+      "fade_call": {
+        "subject": "False earthquake alert",
+        "expected": "fade",
+        "sign": "The story drops out of front pages and the Weather Agency issues a brief internal follow-up memo without further public drama"
+      },
+      "surprise": {
+        "subject": "Second cabinet resignation",
+        "expected": "A second minister will step down within the week, triggering opposition calls for a broader review of Takaichi's government over the Russia handling.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Japan will be dominated by the fallout from Russia's arrest of a Japanese journalist on espionage suspicion. Tokyo will press Moscow for the reporter's release, and Prime Minister Takaichi will likely issue a new public statement sharpening Japan's diplomatic tone. The GlobalFoundries chip financing deal will move into its formal announcement phase, with a signing ceremony and joint US-Japan press events marking the launch of the two New York semiconductor plants. Domestically, Takaichi will face pressure from the incoming farm minister's first press appearance, where the predecessor's scandal will draw pointed questions, and the gender-role debate she ignited will linger in public discourse. The false earthquake alert will fade from headlines. A second cabinet resignation would be a notable surprise, shaking Takaichi's government further.",
+      "generated_at": "2026-10-23T04:38:13+03:00"
+    }
+  },
+  "display": {
+    "headline": "Japan Presses Russia Over Journalist Arrest as Chip Deal Looms",
+    "emojis": [
+      "🕵️",
+      "🏭",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "The Russia-Japan espionage arrest of a Japanese journalist is the dominant story of the week.",
+      "The GlobalFoundries chip plant financing represents a major industrial and manufacturing commitment.",
+      "The farm minister resignation and Takaichi's gender-role controversy represent political drama and public image pressure."
+    ],
+    "tldr": "Japan will escalate its diplomatic response to Russia's arrest of a journalist on espionage charges, and the GlobalFoundries chip financing will enter its formal announcement phase. Takaichi will face domestic pressure over the cabinet scandal and the lingering gender-role debate.",
+    "eli5": "Russia arrested a Japanese journalist in its Far East region, saying the reporter was spying. Japan is angry and demanding the person be let go. Prime Minister Takaichi is putting on a brave face in public while the government scrambles behind the scenes.\n\nAt the same time, Japan is putting a huge chunk of money into building two chip factories in New York, working with a company called GlobalFoundries. It is a big bet that making chips closer to the US will help both countries' industries.\n\nNext week you will probably see the Russia-Japan journalist crisis get sharper, with Tokyo demanding the reporter's release and maybe summoning the Russian ambassador. You will also see the chip deal get a fancy signing ceremony and a lot of handshaking between Japanese and American officials.\n\nA surprise would be if another minister quits within a few days, or if Russia suddenly lets the journalist go and the whole thing calms down faster than everyone expected."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe text described a Japan facing multiple concurrent pressures as of mid-October 2026. A US Marine had been arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, prompting a formal government protest, a summons of the US envoy, and demands from the local governor for stricter base discipline. Prime Minister Takaichi's growth-and-spending agenda collided with rising Japanese government bond yields, with the PM acknowledging she was prepared to review fiscal plans if yields moved sharply. The Japan Fair Trade Commission had raided all four major beer companies in a cartel investigation, raising consumer-price politics. The stock exchange executed a record Topix index revamp threatening approximately 700 listings. The Asian Games closed with operational criticism and the Olympic chief calling for reflection. Japan raised its permanent residency fee twentyfold effective October 1. Toyama city officials faced accusations of inflating census numbers to secure central funding. Japanese firms exited\n- A US Marine was arrested in (regular, continuing): A US Marine was arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, triggering a formal government protest and a summons of the US envoy.\n- PM Takaichi's growth-and-spending plan faced resistance (regular, continuing): PM Takaichi's growth-and-spending plan faced resistance from rising 30-year JGB yields, with the PM acknowledging readiness to review fiscal plans.\n- The Japan Fair Trade Commission raided (regular, continuing): The Japan Fair Trade Commission raided Asahi, Kirin, Suntory, and Sapporo in a beer cartel investigation.\n- Japan's stock exchange launched a record (regular, continuing): Japan's stock exchange launched a record Topix index revamp putting approximately 700 stocks at risk of removal.\n- The Asian Games closed with operational (regular, continuing): The Asian Games closed with operational criticism and the Japan Olympic chief calling for a formal reflection by organizers.\n- Japan's permanent residency fee increased twentyfold (regular, continuing): Japan's permanent residency fee increased twentyfold, effective October 1, 2026, creating friction for foreign residents.\n- Toyama city officials were accused of (regular, continuing): Toyama city officials were accused of inflating census numbers to secure additional central government funding.\n\nRound 2026-09-15:\nThe text depicted Japan under simultaneous multi-front pressure as of late September 2026. Typhoon Dujuan was bearing down on the Kanto and Chubu regions, with evacuation orders expected around Tokyo and major disruptions to Shinkansen lines, flights, and coastal infrastructure anticipated. The Aichi-Nagoya Asian Games had already opened under a visible cloud of accommodation complaints, the so-called functional rooms controversy, a wrong-anthem incident before a match, transport failures, and cost-cutting backlash from both domestic and foreign delegations. PM Takaichi had just completed a cabinet reshuffle aimed at stabilizing sagging approval ratings, while the BOJ had hiked to 1.25 percent, a 31-year high, yet the yen weakened instead of strengthening. North Korea had launched two ballistic missiles into the Sea of Japan within hours of each other. Russia had formally protested the US Typhoon missile deployment on Japanese soil. Starbucks was reportedly weighing a roughly three-billion-dollar majority-stake sale of its Japan\n- Typhoon Dujuan approaches Kanto and Chubu (regular, continuing): Typhoon Dujuan approaches Kanto and Chubu with evacuation orders and major transport disruption expected\n- Aichi-Nagoya Asian Games opens amid accommodation (regular, continuing): Aichi-Nagoya Asian Games opens amid accommodation scandals, wrong anthem, and cost-cutting criticism\n- BOJ hikes to 1.25 percent, a (regular, continuing): BOJ hikes to 1.25 percent, a 31-year high, while the yen weakens\n- North Korea fires two ballistic missiles (regular, continuing): North Korea fires two ballistic missiles into the Sea of Japan within hours\n- PM Takaichi reshuffles cabinet to stabilize (regular, continuing): PM Takaichi reshuffles cabinet to stabilize approval ratings\n- Starbucks reportedly considers selling a majority (regular, continuing): Starbucks reportedly considers selling a majority stake in its Japan business for roughly three billion dollars\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

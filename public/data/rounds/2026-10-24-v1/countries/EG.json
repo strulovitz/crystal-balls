@@ -1,0 +1,512 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "EG",
+  "name": "Egypt",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T14:42:30+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Egypt's dominant story this week was the government's push to secure parliamentary authorization for military support of Saudi Arabia against the Houthi threat. President Sisi declared Egypt ready to defend Saudi territory but ruled out an offensive strike on Yemen, framing the role as purely defensive. The parliament delayed its vote to October 26, keeping the decision in suspense. In a significant personal announcement, Sisi stated his presidency will end in 2030 and outlined a plan for the military to train future leaders. On the diplomatic front, Egypt formally rejected the Turkey-Libya maritime deal and opened talks with Greece to extend its eastern maritime boundary. Journalist Lina Attalah of Mada Masr was sent to trial after hours of questioning. Satellite imagery localized the gold mine at the Egypt-Sudan border reportedly hit by Egyptian strikes. The Egyptian pound fell to a record low amid regional tensions, while Banque du Caire moved forward with the country's largest IPO in a decade. A tourist bus crash killed 13 people. A husband appealed to the prime minister to intervene in his wife's detention.",
+    "key_events": [
+      {
+        "event": "Egyptian parliament delayed its vote on military support for Saudi Arabia until October 26.",
+        "date": "2026-10-22",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Sisi announced his presidency will end in 2030 and outlined a plan for the military to train successors.",
+        "date": "2026-10-20",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Egypt formally rejected Libya's approval of the maritime deal with Turkey.",
+        "date": "2026-10-19",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Independent journalist Lina Attalah of Mada Masr was sent to trial after hours of questioning.",
+        "date": "2026-10-21",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Satellite imagery localized the gold mine at the Egypt-Sudan border targeted by deadly Egyptian strikes.",
+        "date": "2026-10-18",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The Egyptian pound hit a record low amid Middle East turmoil.",
+        "date": "2026-10-21",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A tourist bus crash in Egypt killed 13 people and injured 34.",
+        "date": "2026-10-20",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Banque du Caire boosted the size of Egypt's largest IPO in a decade, seeking up to 454 million dollars.",
+        "date": "2026-10-19",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Greece and Egypt opened talks to extend their maritime zone further east.",
+        "date": "2026-10-20",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Italy's Eni announced plans to increase gas processing capacity in Egypt's Western Desert.",
+        "date": "2026-10-18",
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "diplomacy",
+      "security",
+      "economy"
+    ],
+    "emojis": [
+      "🛡️",
+      "👑",
+      "🏛️"
+    ],
+    "emoji_reasons": [
+      "The dominant story is Egypt's deliberation over military defense support for Saudi Arabia against the Houthis (headlines 12, 17, 30, 45).",
+      "Sisi announced his presidency will end in 2030 and outlined a military succession plan (headlines 15, 37, 48).",
+      "The parliament delayed its vote on the Saudi support mandate to October 26, making cabinet and parliamentary politics central (headlines 16, 42, 47)."
+    ],
+    "developments": [
+      {
+        "subject": "Saudi military support vote",
+        "what_happened": "Sisi and the security council pushed for parliamentary authorization to defend Saudi Arabia against Houthi attacks, but parliament delayed the vote to October 26.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          12,
+          13,
+          16,
+          17,
+          19,
+          22,
+          24,
+          28,
+          30,
+          31,
+          34,
+          39,
+          40,
+          42,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "subject": "Sisi 2030 succession announcement",
+        "what_happened": "Sisi publicly stated his term will end in 2030 and described a plan for the military to train and prepare future leaders.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          15,
+          37,
+          48
+        ]
+      },
+      {
+        "subject": "Turkey-Libya maritime deal",
+        "what_happened": "Egypt rejected Libya's ratification of the Turkey-Libya maritime agreement and simultaneously opened talks with Greece to extend its eastern maritime boundary.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          9,
+          23
+        ]
+      },
+      {
+        "subject": "Lina Attalah trial",
+        "what_happened": "Mada Masr editor Lina Attalah was formally sent to trial after hours of questioning, marking a new stage in her press-freedom case.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "subject": "Egypt-Sudan gold mine strike",
+        "what_happened": "Satellite imagery localized the gold mine near the Egypt-Sudan border that was hit by what witnesses describe as deadly Egyptian strikes, and miners are returning despite the danger.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          20,
+          32
+        ]
+      },
+      {
+        "subject": "Currency and capital markets",
+        "what_happened": "The Egyptian pound fell to a record low amid regional tensions, while Banque du Caire moved forward with the country's largest IPO in a decade and signed an 11-trillion-pound infrastructure deal with TMG.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          14,
+          27,
+          29,
+          35,
+          38,
+          41
+        ]
+      },
+      {
+        "subject": "Tourist bus crash",
+        "what_happened": "A tourist bus accident in Egypt killed 13 people and injured 34 others.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          26
+        ]
+      },
+      {
+        "subject": "Detained woman PM appeal",
+        "what_happened": "A husband publicly called on the prime minister to intervene after his wife was detained in Egypt.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "Ukraine grain corridor talks",
+        "what_happened": "Ukraine held discussions with Turkey, India, and Egypt over a potential grain corridor.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          43
+        ]
+      }
+    ],
+    "gone": [
+      "FIFA Spain-Egypt chants fine",
+      "IMF final program review",
+      "Dangote IPO Egypt visit",
+      "Rent reform impact"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major political, diplomatic, and economic stories well, though the military-support saga is heavily repeated across sources and some niche topics (health, environment, specific regional conflicts) are absent."
+    },
+    "headlines_used": [
+      "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia",
+      "Egyptian editor faces trial after hours of questioning",
+      "Why has Kelvingrove Museum removed its Egyptian mummies?",
+      "Lina Attalah: Mada Masr journalist sent for trial in Egypt",
+      "Égypte : procès ordonné pour la journaliste indépendante Lina Attalah",
+      "Mohaned Hussain, Telecom Egypt: Profile and Biography",
+      "Hotel101 Global Enters Egypt – Its First Entry in the African Continent – Company Announcement",
+      "What is the Turkiye-Libya maritime deal, and why are the EU, Egypt opposed?",
+      "Greece, Egypt in talks to extend maritime zone further east",
+      "Twice a year, a golden sunbeam illuminates a 3,000-year-old Egyptian temple",
+      "Husband calls for PM to intervene after wife detained in Egypt",
+      "Egypt ready to back Saudi Arabia's war against Houthis",
+      "L'Égypte met en avant un soutien purement défensif à Ryad, sans attaque au Yémen",
+      "Egypt Pound Hits Record Low Amid Mideast Turmoil",
+      "Egypt’s Sisi sets out plan for military to train his successors",
+      "Egyptian parliament delays vote on military support for Saudi Arabia",
+      "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen",
+      "A golden sunbeam illuminates a 3,000-year-old Egyptian temple",
+      "The Day with Phil Gayle : Egypt Backs Saudis",
+      "Soudan-Egypte : la mine d'or visée par des frappes meurtrières à la frontière localisée par satellite",
+      "Shady Makary, Egypt Kuwait Holding Co: Profile and Biography",
+      "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+      "Egypt rejects Libyan approval of maritime deal with Turkey",
+      "Saudi Crown Prince meets the Egyptian foreign minister in Riyadh",
+      "Egypt – All Content on this topic – Page 1 of 7",
+      "Egypte: un accident de bus touristique fait 13 morts et 34 blessés",
+      "Banque du Caire Boosts Size of Egypt’s Biggest IPO in a Decade",
+      "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
+      "Egypt, TMG sign 11-trillion-Egyptian-pound deal for four projects",
+      "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
+      "Egypt's Sissi says he'll defend Saudi Arabia, if asked",
+      "Au Soudan, retourner dans les mines d'or, malgré les frappes égyptiennes meurtrières",
+      "Yasser Salah, Saudi Egyptian Developers Co SAE: Profile and Biography",
+      "Egypt’s el-Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "Italy's Eni to increase gas processing capacity in Egypt's Western Desert",
+      "Shugaban Masar al-Sisi ya sanar da lokacin karewar wa'adinsa",
+      "Le président égyptien Sissi assure qu'il partira à la fin de son mandat en 2030",
+      "MNT-Halan Shares Rise 18% in Egypt Trading Debut After IPO",
+      "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+      "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict?",
+      "Banque du Caire Seeks Up to $454 Million in Egypt IPO",
+      "Egypt delays vote on military support for Saudi Arabia until October 26",
+      "Ukraine Talks with Turkey, India, Egypt Over Grain Corridor",
+      "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
+      "Egypt Ready to Defend Saudi Arabia If Needed, Sisi Says",
+      "Oil lifts Saudi bourse; Egypt tumbles on regional tensions",
+      "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
+      "Egypt's Sisi says his presidency will end in 2030, outlines plan to prepare future leaders"
+    ],
+    "converted": false,
+    "relevant_headlines": 48,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Saudi military support vote",
+        "expected": "Saudi military support vote stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Saudi military support vote appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Sisi 2030 succession announcement",
+        "expected": "Sisi 2030 succession announcement stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Sisi 2030 succession announcement appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Turkey-Libya maritime deal",
+        "expected": "Turkey-Libya maritime deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Turkey-Libya maritime deal appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Sisi 2030 succession announcement",
+        "expected": "persist",
+        "sign": "Sisi 2030 succession announcement is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Saudi military support vote stays in the news at the same level. Sisi 2030 succession announcement stays in the news at the same level. Turkey-Libya maritime deal stays in the news at the same level. Sisi 2030 succession announcement is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Saudi military support vote",
+        "expected": "Egyptian parliament will pass a resolution on October 26 authorizing the armed forces to provide defensive military support to Saudi Arabia against Houthi attacks.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the parliamentary vote result and Sisi's confirmation that Egypt will defend Saudi territory without launching an offensive in Yemen."
+      },
+      "second": {
+        "subject": "Sisi succession plan",
+        "expected": "The military will publish details of the training and selection process for Egypt's next president, setting the institutional framework for the transition Sisi announced.",
+        "direction": "persist",
+        "sign": "Headlines will feature political analysis of the military's role in choosing a successor and commentary from opposition figures on the new transition framework."
+      },
+      "third": {
+        "subject": "Lina Attalah trial",
+        "expected": "An Egyptian court will formally open the trial of Mada Masr editor Lina Attalah, reading charges and hearing initial testimony.",
+        "direction": "persist",
+        "sign": "Headlines will report the trial proceedings, the specific charges read in court, and statements from press-freedom advocates."
+      },
+      "fade_call": {
+        "subject": "Tourist bus crash",
+        "expected": "fade",
+        "sign": "The accident will drop from headlines as the Saudi vote and succession story dominate the news cycle."
+      },
+      "surprise": {
+        "subject": "Egypt-Sudan border strikes",
+        "expected": "A second wave of Egyptian military strikes will hit the gold mine area on the Sudan border, killing miners and prompting a formal Sudanese protest.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Egypt's parliament will vote on authorizing military support for Saudi Arabia, and the resolution will pass, formally committing Egyptian forces to a defensive role against Houthi attacks. Sisi's announcement that his presidency will end in 2030 will dominate political discourse, with the military expected to outline the training and selection process for a successor. The trial of Mada Masr editor Lina Attalah will open in court, adding pressure on the government regarding press freedom. The Egyptian pound will stay under pressure from regional tensions, though the Banque du Caire IPO will proceed. The tourist bus crash will fade from headlines. There is a medium chance of a second Egyptian strike on the gold mine near the Sudan border, which would escalate the already fragile relationship between the two countries.",
+      "generated_at": "2026-10-25T14:29:51+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Saudi defense parliamentary vote",
+        "expected": "Egypt's parliament will cast its vote on October 26 to authorize military assistance to Saudi Arabia against Houthi attacks.",
+        "direction": "escalate",
+        "sign": "Parliament's decision on the military authorization is announced with the vote result and Saudi Arabia's name prominent in the headline."
+      },
+      "second": {
+        "subject": "Lina Attalah trial",
+        "expected": "The trial of Mada Masr editor Lina Attalah will begin in court with opening statements and witness testimony.",
+        "direction": "escalate",
+        "sign": "Headlines report the start of court proceedings with testimony or a ruling from the judge."
+      },
+      "third": {
+        "subject": "Egypt-Greece maritime talks",
+        "expected": "Egypt and Greece will announce the progress of their negotiations to extend the eastern maritime boundary.",
+        "direction": "persist",
+        "sign": "A joint statement or announcement about the maritime boundary negotiations appears in headlines."
+      },
+      "fade_call": {
+        "subject": "Tourist bus crash",
+        "expected": "fade",
+        "sign": "The bus accident is referenced in passing in travel or safety coverage with no new investigation details."
+      },
+      "surprise": {
+        "subject": "Greece-Egypt maritime framework",
+        "expected": "Egypt and Greece will announce a preliminary agreement or framework for the eastern maritime boundary extension in the course of their negotiations.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Egypt will be defined by the parliamentary vote scheduled for October 26 to authorize military support for Saudi Arabia against Houthi attacks. The security council has already agreed to help, so the vote will probably pass, but the act of formal authorization marks a shift from pledge to institutional commitment. On the judicial front, the trial of Mada Masr editor Lina Attalah will move from the pre-trial stage to actual court proceedings, generating fresh press-freedom headlines. Diplomatically, Egypt's rejection of the Turkey-Libya maritime deal will be paired with active negotiations with Greece to extend the eastern maritime boundary, and any visible progress in those talks will draw regional attention. The tourist bus crash that killed 13 will fade from front pages. A medium-chance surprise is a preliminary Greece-Egypt maritime framework being announced, which would reshape Eastern Mediterranean negotiations.",
+      "generated_at": "2026-10-25T14:42:30+02:00"
+    }
+  },
+  "display": {
+    "headline": "Egypt Votes on Saudi Defense, Journalist Trial Begins",
+    "emojis": [
+      "🗳️",
+      "⚖️",
+      "🚢"
+    ],
+    "emoji_reasons": [
+      "The parliamentary vote on Saudi military support is the defining event of the week.",
+      "The trial of journalist Lina Attalah represents the justice and press-freedom thread.",
+      "The Egypt-Greece maritime talks and rejection of the Turkey-Libya deal center on naval boundaries."
+    ],
+    "tldr": "Egypt's parliament will vote on authorizing military aid to Saudi Arabia against the Houthis. Journalist Lina Attalah's trial will begin in court. Egypt and Greece will advance talks on extending their eastern maritime boundary.",
+    "eli5": "Here is what is happening in Egypt right now. President Sisi asked his parliament to give official permission to send military help to Saudi Arabia, because the Houthi rebels in Yemen keep firing drones at Saudi airports and ports. The parliament pushed the vote back to October 26, so next week the actual vote will happen. Think of it like a class voting on whether to lend their bike to a friend: the friend asked, the teacher said yes, but the class still has to raise its hands.\n\nMeanwhile, a journalist named Lina Attalah who writes for an independent newspaper was questioned for hours by police and then sent to court. Next week, her trial is expected to actually start, meaning a judge will hear witnesses and she will get to tell her side. This matters because in Egypt, journalists who ask hard questions sometimes end up in court.\n\nOn the water, Egypt just told Libya, no, we do not accept your deal with Turkey about who owns the sea between you. At the same time, Egypt opened talks with Greece to push its own sea boundary further east. If those talks produce even a small agreement, it changes the map of the Eastern Mediterranean.\n\nThe big surprise would be if Egypt and Greece actually announce a framework deal in just one week of talks. That would be fast, and it would make Turkey and Libya very angry."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The Saudi defense mandate dominated headlines (1, 12, 16, 17, 28, 30, 34, 42, 44, 45, 47) but parliament delayed the vote to October 26 rather than holding it, so the predicted sign of a vote result did not appear."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The succession story is present in headlines 15, 37, and 48, but no specific candidate name appears in any headline; coverage focuses on Sisi's plan for the military to train successors rather than naming individuals."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "The Egypt-Sudan mine story persists in headlines 20 and 32, but the coverage centers on satellite imagery localizing the mine and miners returning, not on Sudan issuing a formal diplomatic response."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The FIFA Spain-Egypt chants fine is explicitly listed under 'No longer in the headlines' in the reality bulletin, confirming it faded as predicted."
+          }
+        },
+        "archer_note": "X missed that the parliamentary vote would be delayed rather than held, that no specific successor names would surface in the press, and that the Sudan mine story would develop through satellite localization rather than formal diplomatic reaction. Its main thesis of the vote as the defining event was merely early, not wrong, since the story remained dominant and the security council did agree to help. The bulletin also noted the IMF review and Dangote IPO in its summary, both of which had already faded from the headlines by this round."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "The Saudi defense mandate story remains the dominant headline cluster (1, 12, 16, 17, 28, 30, 34, 42, 44, 45, 47), confirming persistence at roughly the same volume as the prior round."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "The Sisi 2030 succession story is confirmed in headlines 15, 37, and 48, persisting at the same level as predicted."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "The Egypt-Sudan mine story persists in headlines 20 and 32, confirming it remains in the headlines at the same level."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Saudi defense mandate story is confirmed still in the headlines (16, 42), matching the explicit 'persist' prediction for this item."
+          }
+        },
+        "archer_note": "Y missed the Turkey-Libya maritime deal rejection and Greece talks (headlines 8, 9, 23), the Lina Attalah trial (2, 4, 5), and the currency/IPO developments (14, 27, 29, 41) as new or continuing stories. Its main thesis of 'more of the same' was essentially correct for the three items it tracked, but the safe 'persist' framing left it unable to capture the several new developments that appeared. The bulletin offered no surprise call beyond 'no surprise,' which was a reasonable but low-information prediction."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The Saudi defense mandate dominates (1, 16, 17, 28, 30, 34, 42, 44, 45, 47) but parliament delayed the vote to October 26 rather than holding it, so the predicted sign of a vote result being announced did not appear."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The succession story is present in headlines 15, 37, and 48, but no specific named candidate appears; the coverage describes Sisi's plan for the military to train successors without identifying individuals."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "The mine story persists in headlines 20 and 32, but the coverage focuses on satellite imagery localizing the mine and miners returning, not on a Sudanese official or military source formally reacting."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The FIFA Spain-Egypt chants fine is confirmed as 'No longer in the headlines' in the reality bulletin, matching the fade prediction."
+          }
+        },
+        "archer_note": "Z missed that the vote would be delayed rather than held, that no specific successor name would appear in headlines, and that the Sudan mine story would develop through satellite localization and miner activity rather than a formal Khartoum response. Its main thesis of the vote as the defining escalation was merely early, not wrong, since the story remained the dominant narrative and the security council did agree to help. The bulletin's surprise call of a Houthi strike triggering concrete deployment did not materialize in this round's headlines."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Y's three 'persist' calls all came true at the level predicted, while X's more specific predictions (vote held, candidates named, Sudan formally responding) each landed at true_in_direction. X's specificity showed analytical depth but was slightly ahead of the actual pace of events, whereas Y's safer framing matched reality exactly."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "X and Z made nearly identical predictions on all four items: the vote would happen, a candidate would be named, Sudan would formally respond, and the FIFA story would fade. The only differences are minor phrasing variations, making them effectively paraphrases of each other per the rubric."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Y's consistent 'persist at the same level' calls all came true, while Z's more specific predictions (vote result announced, named candidate, Sudanese official quoted) each graded only true_in_direction. Y's safe framing matched the actual headline record more precisely than Z's attempt to predict the next specific step in each story."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": -1.0,
+      "plain_vs_crystal": 0.0,
+      "persistence_vs_crystal": 1.0
+    },
+    "v": 0.0,
+    "u": -1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nThe defining story of the week in Egypt was President Abdel Fattah el-Sisi's dual announcement: he sought parliamentary authorization to send military support to defend Saudi Arabia against Houthi drone attacks, and he confirmed his presidency will end at the close of his current mandate in 2030 while outlining a plan to groom successor leaders. The Saudi pledge, reported across Reuters, Bloomberg, Al Jazeera, and DW, framed Egypt's role as a willing guarantor of Gulf security should Riyadh request assistance. The succession remark, covered by Reuters, TV5Monde, and DW, was notable for its explicitness in a country where succession has long been opaque. Separately, TV5Monde reported that Egypt was accused of bombing a clandestine gold mine inside Sudan, adding a cross-border security dimension. On the sports-diplomacy front, FIFA fined Spain 20,000 dollars and imposed a partial stadium closure after anti-Muslim chants directed at Egyptian players during a friendly, an incident\n- Sisi seeks Saudi defense mandate (dominant, new): Sisi asked Parliament to authorize Egypt to send military assistance to defend Saudi Arabia against ongoing Houthi drone attacks.\n- Sisi 2030 succession announcement (dominant, new): Sisi stated his presidency will end in 2030 and outlined a plan to groom future leaders, a notably explicit remark on Egyptian succession.\n- Egypt accused of Sudan mine strike (regular, new): Egypt was accused of bombing a clandestine gold mine inside Sudan, raising cross-border tensions.\n- FIFA Spain-Egypt chants fine (regular, new): FIFA fined Spain 20,000 dollars and imposed a partial stadium closure after anti-Muslim chants during a friendly against Egypt, an incident Lamine Yamal condemned.\n- IMF final program review (occasional, continuing): The IMF indicated it aims to complete Egypt's final program review by the end of 2026.\n- Dangote IPO Egypt visit (occasional, new): Aimee Dangote visited Cairo to push for broader African market access ahead of a planned initial public offering.\n- Detained woman PM appeal (occasional, new): A husband called on the prime minister to intervene after his wife was detained in Egypt.\n- Rent reform impact (occasional, continuing): DW reported that Egypt's rent-control revolution is reshaping the housing and cost-of-living landscape for millions.\n\nRound 2026-10-02:\nHouthi missiles struck the Riyadh airport, killing an Egyptian flight attendant, and Egypt pledged to offer any kind of support to Saudi Arabia. Approximately 72 artisanal gold miners died in an airstrike near the disputed Egypt-Sudan border, and both foreign ministries were expected to consult on whose aircraft fired. Baha'i families in Egypt faced a critical shortage of burial space, and the press union chief publicly rejected pressure over detained journalists while torture allegations surfaced in the Matsadaash case. The government prepared a 30 percent state-stake sale of Banque du Caire through the Egyptian stock exchange as a privatization signal, while inflation had slowed despite global price pressures. Restored Fayoum mummy portraits were unveiled and set to travel abroad for the first time. A US judge ordered the Trump administration to facilitate the return of an Egyptian man deported to Equatorial Guinea. The US-brokered Gaza ceasefire had stalled a year\n- Houthi strikes hit Riyadh airport, killing (regular, continuing): Houthi strikes hit Riyadh airport, killing an Egyptian flight attendant and prompting Egypt to pledge full support to Saudi Arabia.\n- Approximately 72 artisanal gold miners killed (regular, continuing): Approximately 72 artisanal gold miners killed in an airstrike near the Egypt-Sudan border, triggering blame disputes.\n- Egypt prepares a 30 percent state-stake (regular, continuing): Egypt prepares a 30 percent state-stake IPO of Banque du Caire on the stock exchange as a privatization milestone.\n- Baha'i families face a shortage of (regular, continuing): Baha'i families face a shortage of burial plots, and the press union rejects pressure over detained journalists amid torture allegations.\n- US-brokered Gaza ceasefire stalls a year (regular, continuing): US-brokered Gaza ceasefire stalls a year after signing, with Egypt pushing to stay central to mediation.\n- US-brokered Gaza ceasefire stalls a year (again) (regular, continuing): US-brokered Gaza ceasefire stalls a year after signing, with Egypt pushing to stay central to mediation.\n",
+    "PREVIOUS_FORECAST": "Lead: Saudi defense mandate parliamentary vote. Expected: Egypt's parliament will hold the formal vote to authorize military assistance to Saudi Arabia against Houthi drone attacks. Direction: escalate. Sign: Parliament votes on the authorization and the result is announced, with Saudi Arabia's name prominent in the headline.\nSecond: 2030 succession grooming plan. Expected: Egyptian political figures and media will name specific candidates as part of Sisi's stated process for grooming future leaders. Direction: persist. Sign: A named political figure is identified in headlines as a potential successor or as part of the succession apparatus.\nThird: Sudan gold mine dispute. Expected: Sudan's military government will issue a formal public response to the accusation that Egypt bombed a clandestine gold mine. Direction: escalate. Sign: A Sudanese official or military source is quoted in headlines reacting to the Egypt-Sudan mine strike dispute.\nFade call: FIFA Spain-Egypt chants fine. Expected: fade. Sign: The FIFA fine and stadium closure are noted in passing in sports coverage with no further disciplinary action announced.\nSurprise (chance medium): Houthi strike triggers concrete deployment. A new Houthi drone strike on a Gulf target will prompt Egypt to announce a specific military asset or unit moving toward the region.\nSummary: Next week in Egypt will be defined by the parliamentary vote on military support for Saudi Arabia against Houthi attacks, which will escalate the country's Gulf involvement from pledge to formal authorization. The succession question will generate a new layer of political speculation as analysts and the ruling alliance attempt to identify who fits Sisi's stated plan for grooming future leaders. The Sudan gold mine accusation will move from media report to formal diplomatic friction, with Khartoum's military government issuing a public response. The FIFA fine on Spain will fade into routine sports coverage. A medium-chance surprise lies in a fresh Houthi strike that forces Egypt to announce a specific military asset moving toward the region, shifting the story from intention to action.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The Saudi defense mandate dominates (1, 16, 17, 28, 30, 34, 42, 44, 45, 47) but parliament delayed the vote to October 26 rather than holding it, so the predicted sign of a vote result being announced did not appear.\n- second: true_in_direction. The succession story is present in headlines 15, 37, and 48, but no specific named candidate appears; the coverage describes Sisi's plan for the military to train successors without identifying individuals.\n- third: true_in_direction. The mine story persists in headlines 20 and 32, but the coverage focuses on satellite imagery localizing the mine and miners returning, not on a Sudanese official or military source formally reacting.\n- fade_call: came_true. The FIFA Spain-Egypt chants fine is confirmed as 'No longer in the headlines' in the reality bulletin, matching the fade prediction.\nArcher note: Z missed that the vote would be delayed rather than held, that no specific successor name would appear in headlines, and that the Sudan mine story would develop through satellite localization and miner activity rather than a formal Khartoum response. Its main thesis of the vote as the defining escalation was merely early, not wrong, since the story remained the dominant narrative and the security council did agree to help. The bulletin's surprise call of a Houthi strike triggering concrete deployment did not materialize in this round's headlines.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

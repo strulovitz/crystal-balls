@@ -1,0 +1,506 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "KP",
+  "name": "North Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T00:01:20+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week was dominated by Kim Jong Un's unannounced visit to China, where he crossed a newly inaugurated cross-border bridge into Dandong, signaling a noticeable warming of trade and diplomatic ties with Beijing. The trip reinforced a broader pattern of North Korea deepening its alliance with both China and Russia. Simultaneously, tensions with the South escalated sharply: Pyongyang ordered border troops to take 'resolute action' if Seoul threatened their safety, and Kim Yo Jong warned that anti-South propaganda loudspeakers would be operational within days. South Korea responded by proposing military talks to calm the border and vowing 'resolute punishment' if new measures were deployed. Kim also called for a 'military revolution' to strengthen army units. A separate thread saw North Korean websites suffer a DDoS cyberattack and intermittent outages, raising questions about the regime's digital defenses. Recurring rumors of Kim's death or coma prompted an official Pyongyang response, while a new report described North Korean workers at a Russian drone factory as being treated like 'slaves.' Trump downplayed talk of a possible meeting with Kim next month. Overall, the week showed a North Korea simultaneously courting its eastern partners while posturing aggressively toward the South.",
+    "key_events": [
+      {
+        "event": "Kim Jong Un crossed a newly opened bridge into Dandong, China, inaugurating the crossing and signaling warmer trade ties.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "North Korea ordered border troops to take 'resolute action' and threatened to resume loudspeaker broadcasts and deploy more weapons along the South Korean border.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "South Korea proposed military talks with North Korea to de-escalate rising border tensions.",
+        "date": "2026-10-21",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Pyongyang officially responded to recurring rumors that Kim Jong Un was dead or in a coma.",
+        "date": "2026-10-19",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "North Korean websites suffered a DDoS cyberattack and intermittent outages, according to network monitoring firms.",
+        "date": "2026-10-22",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Kim Jong Un called for a 'military revolution' and urged stronger army units during a leadership address.",
+        "date": "2026-10-20",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A new report described North Korean workers at a Russian drone factory as being treated like 'slaves.'",
+        "date": "2026-10-23",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Trump downplayed speculation about a possible meeting with Kim Jong Un next month.",
+        "date": "2026-10-23",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "🛫",
+      "🗣️",
+      "👑"
+    ],
+    "emoji_reasons": [
+      "Kim Jong Un's cross-border visit to Dandong via the new bridge is the week's headline diplomatic event (headlines 1, 2, 6, 9).",
+      "North Korea's threats to resume loudspeaker broadcasts, deploy weapons, and call for a 'military revolution' define the week's security rhetoric (headlines 5, 10, 16, 25, 30).",
+      "Recurring death and coma rumors about Kim Jong Un prompted an official Pyongyang response and multiple media analyses (headlines 31, 32, 35, 36, 40)."
+    ],
+    "developments": [
+      {
+        "subject": "Kim China bridge visit",
+        "what_happened": "Kim Jong Un crossed a newly inaugurated cross-border bridge into Dandong, marking a visible warming of North Korea-China trade and diplomatic relations.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          14,
+          23
+        ]
+      },
+      {
+        "subject": "Border loudspeaker and weapon threats",
+        "what_happened": "Pyongyang ordered border troops to take 'resolute action,' threatened to restart anti-South propaganda broadcasts within days, and signaled deployment of additional weapons along the DMZ.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          5,
+          16,
+          17,
+          19,
+          25,
+          28,
+          30,
+          34,
+          39,
+          41
+        ]
+      },
+      {
+        "subject": "Seoul proposes military talks",
+        "what_happened": "South Korea offered to hold military negotiations with the North to calm rising border tensions and urged dialogue after Pyongyang's threats.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          15,
+          18,
+          22,
+          29
+        ]
+      },
+      {
+        "subject": "Kim death and coma rumors",
+        "what_happened": "North Korea officially responded to yet another wave of rumors claiming Kim Jong Un was dead or in a coma, a recurring media cycle that re-emerged this week.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          12,
+          20,
+          26,
+          31,
+          32,
+          35,
+          36,
+          38,
+          40
+        ]
+      },
+      {
+        "subject": "DDoS cyberattack on NK internet",
+        "what_happened": "Network monitoring firms reported that North Korean websites suffered a DDoS attack and intermittent outages, highlighting vulnerabilities in the regime's digital infrastructure.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          24,
+          37
+        ]
+      },
+      {
+        "subject": "Military revolution call",
+        "what_happened": "Kim Jong Un urged a 'military revolution' and called for stronger army units, signaling continued emphasis on military modernization.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          10,
+          28
+        ]
+      },
+      {
+        "subject": "Russian drone factory workers",
+        "what_happened": "A new report described North Korean workers at a Russian drone factory as being treated like 'slaves,' adding to scrutiny of the labor pipeline to Moscow.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21,
+          27
+        ]
+      },
+      {
+        "subject": "Trump-Kim meeting speculation",
+        "what_happened": "Trump downplayed talk of a possible meeting with Kim Jong Un next month, leaving the prospect uncertain.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          33
+        ]
+      },
+      {
+        "subject": "Humanitarian reflection",
+        "what_happened": "A humanitarian worker reflected on decades of helping North Koreans, noting that 'seeing the misery encouraged me to go on.'",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          13
+        ]
+      },
+      {
+        "subject": "Satellite images of summer retreat",
+        "what_happened": "BBC published an analysis of satellite imagery showing activity at Kim Jong Un's summer retreat, continuing interest in the leader's movements.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          42
+        ]
+      }
+    ],
+    "gone": [
+      "Submarine-launched cruise missile tests",
+      "AI-equipped torpedo test",
+      "Missile chief questions SK hypersonic test",
+      "Food shortages from drought"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Headlines from Reuters, AP, BBC, CNN, Bloomberg, Al Jazeera, DW, and TV5Monde provide solid multi-angle coverage of the China visit, border tensions, and Kim's health rumors, though the DDoS attack and Russian factory stories are thinner."
+    },
+    "headlines_used": [
+      "North Korea's Kim crosses new bridge into China as trade ties warm",
+      "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+      "North Korea's Kim makes unannounced visit to Chinese border city",
+      "Kim Jong Un: Me ya sa ci gaba da jita-jita game da mutuwarsa?",
+      "North Korea tells border troops to take ‘resolute action’ if South threatens their safety",
+      "Kim Jong Un arrives in China via newly opened border bridge",
+      "Le dirigeant nord-coréen Kim Jong Un est arrivé à Dandong en Chine, selon Séoul",
+      "Kim Jong Un Arrives in China’s Dandong City, Yonhap Reports",
+      "North Korea’s Kim Jong Un visits China via newly opened bridge",
+      "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
+      "South Korea proposes military talks with North Korea to calm rising border tensions",
+      "Oduun waa'ee du'uu bulchaa Kooriyaa Kaabaa Kim Jong Un maaliif deddeebi'ee ka'a?",
+      "'Seeing the misery encouraged me to go on': Humanitarian reflects on decades helping North Koreans",
+      "North Korea - Building an Alliance with China and Russia",
+      "Séoul propose à Pyongyang des pourparlers militaires sur la frontière",
+      "North Korea Says Loudspeakers Will Be Ready Near Border in Days",
+      "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
+      "South Korea proposes talks with North Korea on land border again",
+      "North Korea says it will resume propaganda broadcasts across border into South Korea",
+      "Kim Jong Un",
+      "North Korean workers treated as 'slaves' at Russian drone factory",
+      "Séoul propose à Pyongyang des pourparlers militaires",
+      "Why Everyone Wants to Meet With Kim Jong Un",
+      "North Korean internet was hit by DDoS cyberattack, network monitoring firm says",
+      "North Korea threatens to restart propaganda broadcasts and deploy more weapons at border with South",
+      "Kim Jong Un - Kubera iki ibihuha vy'urupfu rwiwe biguma bigaruka?",
+      "North Korean workers treated as 'slaves' at Russian drone factory, says new report - DW.com",
+      "Corée du Nord : déploiement de \"nouvelles unités de tir\", retour des hauts-parleurs",
+      "Seoul Vows to Boost DMZ Control After North Korea’s Threat",
+      "North Korea to activate anti-South loudspeakers along border",
+      "Kim Jong Un: Why do rumours about his death keep coming back?",
+      "La Corée du Nord répond aux rumeurs selon lesquelles Kim Jong-un serait mort après être tombé dans le coma",
+      "Trump Downplays Talk of Meeting North Korea’s Kim Next Month",
+      "North Korea's Kim Yo Jong warns South Korea, says border loudspeakers to be ready within days",
+      "Kim Jong Un update: Why death rumours of North Korea leader dey spread?",
+      "La Corée du Nord répond aux rumeurs selon lesquelles Kim Jong-un serait actuellement dans le coma",
+      "North Korean websites hit by intermittent outages, analysts say",
+      "Kim Jong Un health: Gịnị mere akụkọ ọnwụ ya ji ewu ewu?",
+      "Seoul vows 'resolute punishment' after North Korea threatens new border measures",
+      "Why do rumours of Kim Jong Un's death keep returning?",
+      "North Korea's Kim Yo Jong says loudspeaker broadcasts toward Seoul being considered, KCNA reports",
+      "North Korea: What satellite images reveal about Kim Jong Un's summer retreat"
+    ],
+    "converted": false,
+    "relevant_headlines": 42,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Kim China bridge visit",
+        "expected": "Kim China bridge visit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Kim China bridge visit appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Border loudspeaker and weapon threats",
+        "expected": "Border loudspeaker and weapon threats stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Border loudspeaker and weapon threats appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Seoul proposes military talks",
+        "expected": "Seoul proposes military talks stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Seoul proposes military talks appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Kim China bridge visit",
+        "expected": "persist",
+        "sign": "Kim China bridge visit is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Kim China bridge visit stays in the news at the same level. Border loudspeaker and weapon threats stays in the news at the same level. Seoul proposes military talks stays in the news at the same level. Kim China bridge visit is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Border loudspeaker activation",
+        "expected": "North Korea will switch on anti-South propaganda loudspeakers along the DMZ, prompting a new South Korean military or diplomatic response.",
+        "direction": "escalate",
+        "sign": "Headlines reporting that North Korea has activated loudspeaker broadcasts aimed at the South and that Seoul has reacted with a new border or military statement."
+      },
+      "second": {
+        "subject": "China trade and diplomacy follow-up",
+        "expected": "Pyongyang and Beijing will announce concrete trade or economic measures resulting from Kim Jong Un's Dandong bridge visit.",
+        "direction": "persist",
+        "sign": "Headlines describing new bilateral trade agreements, economic cooperation statements, or a follow-up diplomatic meeting between the two governments."
+      },
+      "third": {
+        "subject": "New military unit deployment",
+        "expected": "North Korea will publicly field new firing units as a visible step in the military revolution Kim Jong Un called for.",
+        "direction": "persist",
+        "sign": "Headlines about North Korea showcasing new army formations, conducting border exercises, or announcing strengthened firing positions."
+      },
+      "fade_call": {
+        "subject": "Kim death and coma rumors",
+        "expected": "fade",
+        "sign": "The rumor cycle will quiet down after this week's official Pyongyang denial, with no new major death or coma story dominating headlines."
+      },
+      "surprise": {
+        "subject": "North Korea blames a foreign actor for the DDoS attack",
+        "expected": "Pyongyang will publicly attribute the cyberattack on its internet to South Korea or the United States, turning a technical incident into a diplomatic dispute.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the dominant story will be the activation of anti-South loudspeaker broadcasts along the DMZ. South Korea will respond with a new statement or military measure, and the border standoff will intensify. The China visit will produce follow-up headlines as Pyongyang and Beijing announce trade or economic outcomes from the Dandong bridge ceremony. North Korea will also move on its military revolution pledge, with reports of new firing units or border exercises appearing in the news. The recurring Kim Jong Un death rumors will quiet down after this week's official denial. A medium-chance surprise is that Pyongyang publicly blames South Korea or the United States for the DDoS cyberattack, escalating a technical incident into a diplomatic dispute. Overall, the week will show North Korea pressing its advantage on the border while consolidating gains from its China trip.",
+      "generated_at": "2026-10-24T23:50:41+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Border loudspeaker activation",
+        "expected": "North Korea will switch on its anti-South propaganda loudspeakers along the DMZ for the first time in years, triggering a formal South Korean military response.",
+        "direction": "escalate",
+        "sign": "Headlines will report the live resumption of border broadcasts and Seoul's immediate verbal or military reaction to the new posture."
+      },
+      "second": {
+        "subject": "China diplomatic follow-up",
+        "expected": "Beijing and Pyongyang will issue a joint diplomatic statement or trade announcement following Kim's bridge visit.",
+        "direction": "persist",
+        "sign": "Headlines will feature a formal bilateral statement or trade-related announcement from both governments."
+      },
+      "third": {
+        "subject": "Military revolution exercise",
+        "expected": "North Korea will conduct a new large-scale military exercise or equipment display in response to Kim's call for a military revolution.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new military drill or equipment display framed as part of the army modernization push."
+      },
+      "fade_call": {
+        "subject": "DDoS cyberattack on NK internet",
+        "expected": "fade",
+        "sign": "No new headlines about the cyberattack or internet outages will appear in the coming week's coverage."
+      },
+      "surprise": {
+        "subject": "Trump-Kim meeting announcement",
+        "expected": "A concrete date or format for a Trump-Kim meeting will be announced through back channels.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, the sharpest development will be North Korea's activation of anti-South propaganda loudspeakers along the DMZ, which will force South Korea into a visible military or diplomatic response and push border tensions to a new peak. The China relationship will stay in the headlines as both governments work through the diplomatic and trade implications of Kim's bridge visit, probably producing a formal joint statement. Kim's call for a military revolution will likely materialize in a new exercise or equipment display, reinforcing the image of an army in rapid modernization. The DDoS cyberattack on North Korean websites will fade from coverage as attention shifts to the border. A low-probability surprise would be a concrete Trump-Kim meeting date emerging through back channels, which would reshape the diplomatic picture overnight.",
+      "generated_at": "2026-10-25T00:01:20+03:00"
+    }
+  },
+  "display": {
+    "headline": "Border Loudspeakers Go Live as North Korea Escalates Toward Seoul",
+    "emojis": [
+      "🗣️",
+      "🤝",
+      "🪖"
+    ],
+    "emoji_reasons": [
+      "The activation of anti-South propaganda loudspeakers and border rhetoric will dominate next week's coverage.",
+      "The China diplomatic warming following Kim's bridge visit will persist as a backdrop story.",
+      "Kim's military revolution call will likely produce a new exercise or equipment display."
+    ],
+    "tldr": "North Korea will switch on its border loudspeakers and South Korea will respond with a formal military statement. The China alliance will deepen through follow-up diplomatic announcements. A new military exercise will follow Kim's revolution call.",
+    "eli5": "North Korea and South Korea are arguing across their shared border. Pyongyang just told its soldiers to be ready to act if Seoul threatens them, and it says it will turn on loudspeakers that blast propaganda toward the South within days. South Korea has proposed talks to calm things down, but also promised a strong response if new weapons show up.\n\nThe reason this is happening is that both sides are trying to look tough. North Korea just visited China and is feeling confident about its alliances, so it is doubling down on its posture toward the South. At the same time, Kim Jong Un has ordered his army to go through a military revolution, which means new drills and equipment are coming.\n\nNext week, expect the border loudspeakers to actually go live and South Korea to issue a formal response. You will also probably see a new military exercise or parade in North Korea, and some follow-up diplomatic talk between Pyongyang and Beijing.\n\nThe surprise would be if Trump and Kim suddenly announce they are actually meeting. He downplayed it this week, but the back channel is still open, and a sudden summit would change everything about how the other countries react."
+  },
+  "judgment": {
+    "graded_round": "2026-10-17",
+    "elapsed_days": 7,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The bridge dominated headlines 1-9 as Kim's personal visit and diplomatic warming, but the specific expectation of truck-crossing data and sanctions-exposure commentary was not the framing of any headline."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "Submarine-launched cruise missile tests are explicitly listed as no longer in the headlines, and no headline references South Korean or Japanese defense-ministry responses to those tests."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Food shortages from drought are listed as no longer in the headlines, and no headline pairs agricultural shortfall reports with grain-reserve drawdowns or rationing changes."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headline 42 (North Korea: What satellite images reveal about Kim Jong Un's summer retreat) shows the story continued rather than fading as predicted."
+          }
+        },
+        "archer_note": "The main thesis that the bridge would dominate was correct in category but wrong in framing, since the story was about Kim's personal visit and diplomatic signal rather than trade-flow data. The submarine-missile and drought predictions were both confidently specific and both vanished from the headlines, a double miss on the second and third slots. The biggest oversight was the equally dominant border-escalation and loudspeaker story, which no item anticipated, leaving the bulletin blind to half the week's news."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines 1-9 and 14 confirm the bridge story persisted and even intensified with Kim's personal visit, matching the prediction that it would remain at the same or higher volume."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "Submarine-launched cruise missile tests are listed as no longer in the headlines, contradicting the prediction that they would persist at the same volume."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The AI-equipped torpedo test is listed as no longer in the headlines, contradicting the prediction that it would persist at the same volume."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headlines 1-9 confirm the bridge story is still prominently in the headlines, matching the expectation of persistence."
+          }
+        },
+        "archer_note": "The bulletin was generic to the point of being unfalsifiable on most items, yet it correctly identified the bridge as the persistent anchor and the torpedo as a fading story. Its two persist calls for the submarine and torpedo were both contradicted, but because the predictions were so vague, the damage was limited. The main thesis was not wrong, merely thin, and it missed the equally dominant border-escalation and loudspeaker story entirely."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The bridge and China trade story dominated headlines 1-9, but the specific expectation of daily truck volumes, goods categories, and Sinuiju logistics was not the framing; the headlines focused on Kim's visit and diplomatic warming."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "Submarine-launched cruise missile tests are listed as no longer in the headlines, and no headline references new launch footage or a missile-chief comparison statement."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "Food shortages from drought are listed as no longer in the headlines, and no headline pairs satellite photos of dried fields with grain trucks using the bridge."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The AI-equipped torpedo test is listed as no longer in the headlines, confirming the prediction that it would fade from standalone coverage."
+          }
+        },
+        "archer_note": "The main thesis that the bridge would be the central economic story was directionally correct, but the specific framing of truck counts and cargo lists was over-specific relative to what actually appeared. The submarine and food-security predictions were both confidently detailed and both disappeared, a double miss on the middle slots. The fade call on the torpedo was the one clean hit, and the medium-chance ballistic-missile surprise did not materialize, leaving the bulletin's wildcard unfulfilled."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Y's lead call of simple persistence for the bridge came true, while X's more specific trade-data framing was only true in direction. Y's fade call on the bridge also came true, whereas X's fade call on the satellite retreat was contradicted by headline 42."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Z's fade call on the AI torpedo came true, while X's fade call on the satellite retreat was contradicted by headline 42. Both got the bridge story in direction, but Z's correct fade call and X's wrong one tip the balance."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Y's lead call of simple persistence for the bridge came true, while Z's more specific truck-volume and cargo-list framing was only true in direction. Y's genericism, while thin, avoided the over-specificity that made Z's lead and third reads feel more confidently wrong."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": -1.0,
+      "crystal_vs_plain": -1.0,
+      "persistence_vs_plain": 1.0
+    },
+    "v": -1.0,
+    "u": -1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the reporting window, North Korea's most prominent development was the official opening of the New Yalu River Bridge linking the country to China, a project delayed for twelve years. State media confirmed the ceremony, and trucks bearing Chinese flags were photographed crossing into Sinuiju. Analysts noted the bridge may help Pyongyang route trade through China and partially offset sanctions pressure, though some experts cautioned that near-term volumes would remain modest. In parallel, North Korea conducted a series of submarine-launched missile tests, including an AI-equipped torpedo and two types of cruise missiles fired from a sub — the first underwater-launched missile exercises in nearly three years. State media released imagery of the launches. North Korea's missile chief publicly questioned South Korea's recent hypersonic glide vehicle test, underscoring the ongoing arms rivalry. Domestically, a report highlighted growing food shortages as drought threatened crops. Satellite imagery also offered a rare glimpse of\n- New Yalu River Bridge opens (dominant, new): China and North Korea held an opening ceremony for the long-delayed border bridge, with trucks immediately crossing into Sinuiju.\n- Submarine-launched cruise missile tests (regular, new): North Korea launched two types of cruise missiles from a submarine, marking the first such test in nearly three years.\n- AI-equipped torpedo test (regular, new): State media reported a new torpedo system with AI capabilities was successfully tested.\n- Missile chief questions SK hypersonic test (occasional, new): North Korea's missile chief publicly challenged the credibility of South Korea's recent hypersonic glide vehicle test.\n- Food shortages from drought (occasional, continuing): A report highlighted worsening food insecurity as drought conditions threatened North Korean crops.\n- Satellite images of summer retreat (occasional, new): Satellite imagery provided a rare public view of the interior of Kim Jong Un's summer compound.\n\nRound 2026-10-02:\nAccording to the text, North Korea was in a period of managed escalation in early October 2026. Kim Jong Un personally oversaw a hypersonic missile drill, which was widely reported by KCNA. A mine blast along the DMZ injured South Korean soldiers, and Seoul demanded an official apology. Pyongyang dismissed the demand as an insult and called Seoul's investigation a farce. Two North Korean soldiers captured in Ukraine were transferred into South Korean custody, creating a sensitive diplomatic row. Zelenskiy claimed North Korea was preparing to send another 10,000 troops to support Russia. Kim Yo Jong served as the DPRK's loudspeaker on the mine-blast dispute. A signal through the Trump-Rodman channel hinted at a possible future summit with Kim. Defections had dropped, and Pyongyang appeared to be tightening internal security and border surveillance. The overall picture was one of loud, threatening, missile-focused posturing combined with deepening military logistics toward Russia,\n- Kim Jong Un personally oversaw a (regular, continuing): Kim Jong Un personally oversaw a hypersonic missile drill reported by KCNA.\n- A mine blast along the DMZ (regular, continuing): A mine blast along the DMZ injured South Korean soldiers and Seoul demanded an official apology.\n- Two North Korean soldiers captured in (regular, continuing): Two North Korean soldiers captured in Ukraine were transferred into South Korean custody.\n- Zelenskiy claimed North Korea was preparing (regular, continuing): Zelenskiy claimed North Korea was preparing to send another 10,000 troops to Russia.\n- Kim Yo Jong issued sharp statements (regular, continuing): Kim Yo Jong issued sharp statements dismissing Seoul's apology demand as an insult.\n- Kim Yo Jong issued sharp statements (again) (regular, continuing): Kim Yo Jong issued sharp statements dismissing Seoul's apology demand as an insult.\n",
+    "PREVIOUS_FORECAST": "Lead: Yalu River Bridge trade flows. Expected: Early trade-flow reports and analyst assessments will frame the bridge as a modest but symbolically important sanctions-relief channel between North Korea and China Direction: persist. Sign: Headlines will pair truck-crossing data with expert commentary on whether the bridge materially changes North Korea's sanctions exposure\nSecond: Submarine missile rivalry. Expected: South Korea and Japan will issue formal defense-ministry responses to the submarine-launched cruise missile tests, and North Korea's missile leadership will issue a follow-up declaration linking the exercises to the hypersonic glide vehicle dispute Direction: escalate. Sign: Headlines will feature sequential defense statements from South Korea and Japan alongside a North Korean official rebuttal framing the tests as a defensive necessity\nThird: Drought-driven food insecurity. Expected: State media or satellite analysts will report reduced harvest yields, and North Korean authorities will adjust rationing or announce emergency grain allocations as the drought tightens before winter Direction: persist. Sign: Headlines will pair agricultural shortfall reports with references to grain-reserve drawdowns, rationing changes, or state-announced emergency food measures\nFade call: Satellite images of summer retreat. Expected: fade. Sign: No new satellite photos or analyst pieces about the compound will appear in the coming week's coverage\nSurprise (chance low): Trump-Rodman back-channel summit signal. A concrete signal will emerge through back channels that a North Korea-United States working-level meeting or summit is being scheduled, building on the earlier October hint\nSummary: Over the next week, the New Yalu River Bridge will dominate coverage as early trade data and analyst opinions settle around whether the structure genuinely eases North Korea's sanctions pressure. South Korea and Japan will respond to the submarine-launched cruise missile tests with formal defense statements, and North Korea's missile leadership will issue a follow-up declaration linking the exercises to the hypersonic rivalry. Drought-driven food insecurity will persist as harvest reports confirm reduced yields, prompting state-announced grain adjustments. The satellite-imagery story of the summer compound will fade. A low-probability surprise involves the Trump-Rodman back channel producing a concrete summit signal. The week will be defined by the bridge's economic symbolism, escalating maritime-missile rhetoric, and deepening crop strain.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The bridge dominated headlines 1-9 as Kim's personal visit and diplomatic warming, but the specific expectation of truck-crossing data and sanctions-exposure commentary was not the framing of any headline.\n- second: did_not_appear. Submarine-launched cruise missile tests are explicitly listed as no longer in the headlines, and no headline references South Korean or Japanese defense-ministry responses to those tests.\n- third: did_not_appear. Food shortages from drought are listed as no longer in the headlines, and no headline pairs agricultural shortfall reports with grain-reserve drawdowns or rationing changes.\n- fade_call: did_not_appear. Headline 42 (North Korea: What satellite images reveal about Kim Jong Un's summer retreat) shows the story continued rather than fading as predicted.\nArcher note: The main thesis that the bridge would dominate was correct in category but wrong in framing, since the story was about Kim's personal visit and diplomatic signal rather than trade-flow data. The submarine-missile and drought predictions were both confidently specific and both vanished from the headlines, a double miss on the second and third slots. The biggest oversight was the equally dominant border-escalation and loudspeaker story, which no item anticipated, leaving the bulletin blind to half the week's news.\n",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

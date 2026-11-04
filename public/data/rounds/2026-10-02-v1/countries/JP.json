@@ -1,0 +1,375 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "JP",
+ "name": "Japan",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T16:29:21+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text described a Japan facing multiple concurrent pressures as of mid-October 2026. A US Marine had been arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, prompting a formal government protest, a summons of the US envoy, and demands from the local governor for stricter base discipline. Prime Minister Takaichi's growth-and-spending agenda collided with rising Japanese government bond yields, with the PM acknowledging she was prepared to review fiscal plans if yields moved sharply. The Japan Fair Trade Commission had raided all four major beer companies in a cartel investigation, raising consumer-price politics. The stock exchange executed a record Topix index revamp threatening approximately 700 listings. The Asian Games closed with operational criticism and the Olympic chief calling for reflection. Japan raised its permanent residency fee twentyfold effective October 1. Toyama city officials faced accusations of inflating census numbers to secure central funding. Japanese firms exited China at a record pace, and a 140-billion-dollar AI data-center push with Dell and Jera was underway. Real wages had risen for eight consecutive months while century-old businesses disappeared at record rates.",
+  "key_events": [
+   {
+    "event": "A US Marine was arrested in Okinawa on suspicion of robbing and murdering a Japanese woman, triggering a formal government protest and a summons of the US envoy.",
+    "date": null,
+    "domain": "security",
+    "importance": 5
+   },
+   {
+    "event": "PM Takaichi's growth-and-spending plan faced resistance from rising 30-year JGB yields, with the PM acknowledging readiness to review fiscal plans.",
+    "date": null,
+    "domain": "economy",
+    "importance": 5
+   },
+   {
+    "event": "The Japan Fair Trade Commission raided Asahi, Kirin, Suntory, and Sapporo in a beer cartel investigation.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "Japan's stock exchange launched a record Topix index revamp putting approximately 700 stocks at risk of removal.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "The Asian Games closed with operational criticism and the Japan Olympic chief calling for a formal reflection by organizers.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Japan's permanent residency fee increased twentyfold, effective October 1, 2026, creating friction for foreign residents.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Toyama city officials were accused of inflating census numbers to secure additional central government funding.",
+    "date": null,
+    "domain": "politics",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "economy",
+   "security",
+   "society"
+  ],
+  "emojis": [
+   "🤝",
+   "💰",
+   "⚖️"
+  ],
+  "emoji_reasons": [
+   "The Okinawa Marine case places US-Japan alliance friction at the center of domestic politics.",
+   "Takaichi's fiscal plan and JGB yield volatility dominate the financial narrative.",
+   "The FTC beer cartel raid and Toyama census scandal represent justice and accountability pressure."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The text's headline case paints a week of managed pressure advancing on multiple fronts simultaneously. Okinawa protests grow as the government pushes for visible US military discipline after the Marine murder. Takaichi's team releases a detailed fiscal framework to reassure bond markets while defending the five-year investment plan. The FTC deepens its beer cartel review with cooperation statements from all four brewers. The stock exchange publishes Topix criteria and affected names, triggering corporate governance announcements and fund rebalancing. The Asian Games committee holds a post-event review with apologies. The dominant mood is stable but tense: no single collapse, but protests, bond vigilance, corporate churn, and institutional criticism all advance in parallel. The text explicitly rules out a SOFA renegotiation, a sudden base withdrawal, or an emergency BOJ move within seven days, keeping the scenario bounded and manageable.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "The Japanese government issues a formal diplomatic statement demanding stricter US military discipline and enhanced information sharing in Okinawa following the Marine murder case.",
+    "probability": 0.87,
+    "domain": "security"
+   },
+   {
+    "id": "N2",
+    "text": "PM Takaichi or Finance Minister Katayama delivers a public statement outlining the funding framework for the five-year investment plan in response to 30-year JGB yield volatility.",
+    "probability": 0.8,
+    "domain": "economy"
+   },
+   {
+    "id": "N3",
+    "text": "The Japan Fair Trade Commission expands its beer cartel investigation with additional document seizures or issues a statement naming at least three of the four major brewers under active review.",
+    "probability": 0.85,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "Japan's stock exchange publishes final Topix inclusion and removal criteria and a preliminary list of affected companies, with at least one major index fund announcing rebalancing.",
+    "probability": 0.8,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "Toyama city's mayor or a senior official faces a formal prefectural investigation or resigns over the census number inflation accusation.",
+    "probability": 0.32,
+    "domain": "politics"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.88."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.78."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.73."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.33."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading weighs the text's full probability distribution rather than just the top cases. While the headline scenario is managed tension, the text allocates 30-45% probability to a sharp Okinawa escalation via US custody transfer, 25-40% to a bond-market-forced fiscal walkback, and 25-40% to a North Korean missile launch or a preliminary FTC beer finding. These minority scenarios, individually modest, collectively create a week where one or two could materialize and shift the narrative from pressure points popping to a visible compromise or correction. The text's own caveat that the biggest downside surprise would be a long-end bond-market spike or an Okinawa prosecution or custody incident signals the distribution is not merely a confidence gradient but a genuine fork: the week is more likely to end with one concrete checkable shock than the naive reading's smooth multi-front progression implies.",
+  "reasoning": "The naive reading takes the five highest-probability items at face value, treating the week as a parallel advancement of managed stories. The crystal reading instead treats the text's lower-odds section not as footnotes but as genuine branches. The text explicitly assigns 30-45% to Okinawa escalation via custody transfer, 25-40% to a bond-forced fiscal walkback, 25-40% to a North Korea launch, and 25-40% to a preliminary beer finding. Each is below the naive threshold but the text flags them as the biggest downside surprise. The crystal reading also adjusts the Topix probability downward from 0.80 to 0.68 because the text hedges that it may not feel as emotional and is a multi-day process, and upgrades the Toyama item to an investigation-committee establishment at 0.68 rather than the lower-probability resignation at 0.32, reflecting the text's own distinction between the two.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "The US military formally requests custody transfer of the arrested Marine in Okinawa, triggering a protest of several hundred people near Naha or Kadena base.",
+    "probability": 0.38,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "The 30-year Japanese government bond yield crosses above a threshold that prompts PM Takaichi or the Finance Minister to announce a formal review of spending and revenue sequencing.",
+    "probability": 0.32,
+    "domain": "economy"
+   },
+   {
+    "id": "C3",
+    "text": "The Japan Fair Trade Commission issues a preliminary enforcement finding naming at least one major brewer for alleged price-fixing in the beer cartel case.",
+    "probability": 0.33,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "North Korea conducts a ballistic missile launch that crosses over or near Japan's exclusive economic zone, prompting a Japan-US joint security statement.",
+    "probability": 0.32,
+    "domain": "security"
+   },
+   {
+    "id": "C5",
+    "text": "A formal prefectural or national audit committee is established to investigate Toyama city's census figures, confirmed by a public press conference.",
+    "probability": 0.68,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.88."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.85."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.78."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.73."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.33."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Okinawa protests, bond nerves, beer cartel define week",
+  "emojis": [
+   "🤝",
+   "💰",
+   "⚖️"
+  ],
+  "emoji_reasons": [
+   "US-Japan diplomatic friction over the Okinawa murder case drives the top story.",
+   "Fiscal credibility and bond-market stress anchor the financial narrative.",
+   "The FTC beer cartel probe and Toyama scandal add justice and accountability pressure."
+  ],
+  "tldr": "Japan faces a politically tense week as Okinawa protests pressure US-Japan relations, bond markets test Takaichi's fiscal credibility, and the beer cartel probe triggers consumer-price politics. No single crisis, but multiple pressure points pop simultaneously across politics, finance, and business.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will the Japanese government demand stricter US military discipline or temporary operational restrictions around bases in response to the Okinawa US Marine murder case?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The Japanese government likely calling for stricter US military discipline, better information sharing, and possibly temporary operational restrictions around sensitive areas.",
+    "legacy_probability": 0.88
+   },
+   {
+    "id": "Q2",
+    "text": "Will the Japanese government release detailed communication about the first five years of Takaichi's large investment plan to reassure bond markets?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More detailed communication from the government about the first five years of the large investment plan.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q3",
+    "text": "Will Japanese beer makers Asahi, Kirin, Suntory, and Sapporo issue public statements saying they will cooperate with the Fair Trade Commission's cartel investigation?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Statements from Asahi, Kirin, Suntory, and Sapporo saying they will cooperate.",
+    "legacy_probability": 0.85
+   },
+   {
+    "id": "Q4",
+    "text": "Will Japanese companies announce governance improvements or share buybacks to avoid removal from the Topix index?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Companies announcing governance improvements, share buybacks, consolidations, or other measures to avoid removal.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q5",
+    "text": "Will the Asian Games organizing committee hold an official post-event review or press conference addressing operational problems and organizational criticism?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: An official post-event review or press conference from the organizing committee.",
+    "legacy_probability": 0.78
+   },
+   {
+    "id": "Q6",
+    "text": "Will Toyama city officials hold a press conference or face resignation pressure over the census number inflation scandal?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: City officials holding press conferences or issuing explanations. Possible resignation pressure on the mayor or other senior officials.",
+    "legacy_probability": 0.73
+   },
+   {
+    "id": "Q7",
+    "text": "Will North Korea conduct another ballistic missile launch within the next seven days?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Another North Korean missile test.",
+    "legacy_probability": 0.33
+   },
+   {
+    "id": "Q8",
+    "text": "Will the Bank of Japan hold an emergency meeting in the next seven days?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: No emergency BOJ meeting unless yields or the yen move violently.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that The US military formally requests custody transfer of the arrested Marine in Okinawa, triggering a protest of several hundred people near Naha or Kadena base?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.38",
+    "legacy_probability": 0.38
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The 30-year Japanese government bond yield crosses above a threshold that prompts PM Takaichi or the Finance Minister to announce a formal review of spending and revenue sequencing?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.32",
+    "legacy_probability": 0.32
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that The Japan Fair Trade Commission issues a preliminary enforcement finding naming at least one major brewer for alleged price-fixing in the beer cartel case?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.33",
+    "legacy_probability": 0.33
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that North Korea conducts a ballistic missile launch that crosses over or near Japan's exclusive economic zone, prompting a Japan-US joint security statement?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.32",
+    "legacy_probability": 0.32
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that A formal prefectural or national audit committee is established to investigate Toyama city's census figures, confirmed by a public press conference?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.68",
+    "legacy_probability": 0.68
+   }
+  ]
+ },
+ "single_forecaster": true
+}

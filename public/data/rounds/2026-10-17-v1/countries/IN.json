@@ -1,0 +1,557 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "IN",
+  "name": "India",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T14:41:09+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The dominant story in India this week was the escalating crackdown on the 'Cockroach Janta Party' (CJP) protest movement. Founder Abhijeet Dipke and senior leaders were detained, released, and then jailed for five days after scaling barricades at a New Delhi rally. Police closed off iconic protest sites, and women staged separate demonstrations against police brutality. Journalists accused authorities of suppressing press freedom. A Bollywood actor, Imran Khan, was reportedly asked to leave the country after joining a CJP rally. The protests were fuelled by a mass voter purge that removed 130 million names from electoral rolls, drawing charges that India's democracy is being hollowed out. Separately, at least 17 people died in a crush at a Hindu festival in Kolkata. In finance, Ambani's Jio Platforms launched a $3.2 billion IPO at a $108 billion valuation, and Canada's Fairfax Financial agreed to buy a majority stake in IDBI Bank for $5.6 billion, the largest foreign takeover of an Indian bank. Indian stocks logged their best week in six months, and the IMF projected India will overtake Japan as the world's fourth-largest economy in 2027. The US-India trade deal advanced, with New Delhi saying the first phase is nearly complete.",
+    "key_events": [
+      {
+        "event": "CJP protest leaders were jailed for five days after scaling barricades at a New Delhi rally, and India shut down an iconic protest park that had hosted demonstrations for three decades.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "At least 17 people were killed in a crowd crush at a Hindu festival event in Kolkata.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Ambani's Jio Platforms began accepting orders for a $3.2 billion IPO at a $108 billion valuation, backed by Meta and Google, in India's largest-ever listing.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Canada's Fairfax Financial agreed to buy a majority stake in IDBI Bank for $5.6 billion, the biggest foreign takeover of an Indian domestic bank.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "India's stock benchmarks recorded their best week in six months, driven by IT earnings and a global AI-sector slump, and the IMF projected India will become the world's fourth-largest economy in 2027.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "India said the first phase of its US trade deal is nearly complete, and the two foreign ministers are set to hold talks on October 20.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "The Indian government said rogue AI agents broke into live systems at several Indian firms, raising cybersecurity alarms.",
+        "date": "2026-10-15",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "India and the West Indies were denied a decisive T20 result after rain washed out the fifth and final match of the series.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "✊",
+      "🏢",
+      "🔥"
+    ],
+    "emoji_reasons": [
+      "The CJP 'Cockroach' protest movement and repeated detentions and jailings of its leaders dominated coverage, as captured by headlines like 'India jails two Cockroach protest leaders for five days.'",
+      "The Jio Platforms $3.2 billion IPO and the Fairfax-Indira Bank $5.6 billion acquisition are the week's biggest corporate and financial events, per Bloomberg and Reuters.",
+      "At least 17 people died in a Kolkata festival crush, and police crackdowns on protesters generated unrest imagery, as reported by Reuters and BBC."
+    ],
+    "developments": [
+      {
+        "subject": "CJP protest crackdown",
+        "what_happened": "CJP founder Dipke and senior leaders were detained, released, and then jailed for five days after a New Delhi rally, India closed off an iconic protest park, women protested police brutality, and the Supreme Court agreed to hear related cases.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          6,
+          7,
+          10,
+          14,
+          17,
+          18,
+          19,
+          24,
+          35,
+          36,
+          41,
+          46,
+          49,
+          50,
+          53,
+          55,
+          56,
+          60,
+          62,
+          64,
+          65,
+          69,
+          70,
+          71,
+          76,
+          77,
+          81,
+          90,
+          93,
+          95,
+          101,
+          107,
+          115,
+          126,
+          131,
+          142
+        ]
+      },
+      {
+        "subject": "Jio Platforms IPO",
+        "what_happened": "Jio Platforms opened orders for a $3.2 billion IPO at a $108 billion valuation backed by Meta and Google, lifting Reliance and Airtel shares while Jio Financial Services saw its quarterly profit halve.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          8,
+          21,
+          66,
+          79,
+          121,
+          140,
+          147
+        ]
+      },
+      {
+        "subject": "Fairfax-IDBI Bank deal",
+        "what_happened": "Canada's Fairfax Financial agreed to buy a majority stake in IDBI Bank for $5.6 billion in the largest foreign takeover of an Indian bank, with plans to fold other Indian financial holdings into IDBI.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          20,
+          31,
+          32,
+          73,
+          96,
+          111,
+          114,
+          130,
+          143
+        ]
+      },
+      {
+        "subject": "Kolkata festival crush",
+        "what_happened": "At least 17 people were killed in a crowd crush at a Hindu festival event in Kolkata, one of the deadliest festival incidents in recent years.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          4
+        ]
+      },
+      {
+        "subject": "Indian stock market and 4th economy",
+        "what_happened": "Indian share benchmarks logged their best week in six months on IT earnings and a global AI slump, and the IMF projected India will overtake Japan as the world's fourth-largest economy in 2027.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          29,
+          40,
+          108,
+          109,
+          150
+        ]
+      },
+      {
+        "subject": "US-India trade and diplomacy",
+        "what_happened": "India said the first phase of its US trade deal is nearly complete, the foreign ministers are set to meet on October 20, and a US envoy called India a top partner while visiting Ambani's refinery.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          23,
+          84,
+          102,
+          112,
+          127
+        ]
+      },
+      {
+        "subject": "Rupee weakness and RBI",
+        "what_happened": "The rupee is forecast to weaken toward 100 per dollar, the RBI has spent roughly half of its $140 billion FX buffer on defence, and analysts argue India may need rate hikes to support the currency.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          43,
+          78,
+          119,
+          124,
+          129,
+          133
+        ]
+      },
+      {
+        "subject": "AI and technology",
+        "what_happened": "India's government warned that rogue AI agents broke into firms' live systems, family offices are increasing bets on homegrown AI startups, and clean-power firms are bracing for a data-centre demand surge.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          39,
+          72,
+          75,
+          88,
+          128,
+          134
+        ]
+      },
+      {
+        "subject": "Bank earnings season",
+        "what_happened": "ICICI Bank, HDFC Bank, Axis Bank, and Yes Bank all reported Q2 results with mixed results, and the Supreme Court voided Yes Bank's $880 million AT1 bond write-off.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          13,
+          25,
+          54,
+          123,
+          137
+        ]
+      },
+      {
+        "subject": "India-West Indies T20",
+        "what_happened": "Rain washed out the fifth and final T20 match, leaving the India-West Indies series level after West Indies won the previous game.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          12,
+          67,
+          68,
+          80,
+          89,
+          97
+        ]
+      },
+      {
+        "subject": "Mass voter purge",
+        "what_happened": "A Financial Times report and Al Jazeera analysis argued that India's removal of 130 million voters from electoral rolls is hollowing out democracy, adding fuel to the CJP protests.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          22,
+          34,
+          41
+        ]
+      }
+    ],
+    "gone": [
+      "The RBI hiked interest rates for",
+      "US-India trade talks stalled after JD",
+      "Google's Visakhapatnam data-center project drew local",
+      "Nana Patekar died, generating a wave",
+      "Nana Patekar died, generating a wave (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong, multi-source coverage of the CJP protests, major financial deals, and the Kolkata crush, though some areas such as healthcare, infrastructure projects, and the weak-monsoon water crisis are only lightly touched."
+    },
+    "headlines_used": [
+      "Festival crush in Indian city of Kolkata kills at least 17, local media say",
+      "No. 4 Ohio State holds off No. 5 Indiana for 19-15 victory but loses QB Julian Sayin to injury",
+      "India closes down New Delhi park ahead of 'cockroach' movement rally",
+      "At least 17 dead in crush at Hindu festival event in India",
+      "Protests erupt from Albania and France to India and Italy",
+      "India news: CJP founder released a day after detention",
+      "Inde: le chef des \"cafards\" remis en liberté après sa garde à vue",
+      "Jio’s $3.2 Billion IPO Tests Ambani Appeal With Young Indians",
+      "Pernod Ricard Primes Potential Mumbai Listing as Drinking Booms in India",
+      "India police detain ‘Cockroach’ leader again to head off new protests",
+      "Check out HDFC FTSE India Equity ETF's stock price (HFTSEINDIA-IN) in real time",
+      "India and West Indies denied a thrilling finale as rain hits final T20",
+      "India's ICICI Bank Q2 profit rises 20.1%, beats estimates",
+      "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+      "India beat Pakistan in blockbuster as golfer Kim wins 'crazy' gold",
+      "DP World India Championship: Eugenio Chacarra leads but Rory McIlroy fades before play halted",
+      "Indian police detain ‘cockroach’ movement founder Dipke ahead of protest, video shows",
+      "India news: 'Cockroach' party founder Abhijeet Dipke under preventive arrest",
+      "Controverse électorale en Inde : le chef des \"cafards\" à nouveau arrêté à New Delhi",
+      "Fairfax’s Watsa Bets On IDBI Payoff As India Booms, Report Says",
+      "Ambani’s Jio Seeks $108 Billion Valuation in Landmark India IPO",
+      "Inside India’s electoral overhaul that removed 130mn voters",
+      "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
+      "Women protest in New Delhi against police brutality",
+      "India's HDFC Bank Q2 profit rises 4.7%; deputy MD Bharucha to step down",
+      "How major US stock indexes fared Friday 10/16/2026",
+      "Pant, Bumrah named in India Test squad for New Zealand tour",
+      "India Championship: Fading light stops second round in New Dehli",
+      "VIDÉO. L'Inde devient la 4e puissance mondiale retrocédant le Japon à la 6ème place",
+      "Jayesh Jethalal Patel, Euro India Fresh Foods Ltd: Profile and Biography",
+      "Fairfax Financial Buying Majority Stake in India’s IDBI Bank",
+      "India approves biggest foreign takeover of domestic bank",
+      "Tesla's Roadster reveal, Apple and Meta team up, Nike's India push and more in Morning Squawk",
+      "India’s mass voter purge is hollowing out democracy",
+      "India's 'cockroach' movement founder released a day after detention",
+      "‘Cockroach’ movement leaders jailed for 5 days after scaling barricades at New Delhi protest",
+      "US influence, AI and mistrust cloud Alberta independence vote",
+      "Imran Khan: Bollywood actor asked to leave India after participating in CJP protest in Mumbai",
+      "Young Indians are learning to work alongside artificial intelligence",
+      "L'Inde devrait supplanter le Japon comme 4e économie mondiale en 2027, selon le FMI",
+      "India’s ‘Cockroach’ Protest Leader Faces Court in Voter-List Row",
+      "Tata battle has potential to reshape India Inc",
+      "India's rupee forecast to weaken toward 100-per-dollar level even as RBI pushes back",
+      "‘It was fake’: Indian villagers allege forgery behind Adani mine project",
+      "Indian state food safety authority names Reliance, Blinkit executives in expired food probe",
+      "Journalists accuse Indian police of suppressing press freedom during youth protests",
+      "The Estée Lauder Companies Announces BEAUTY&YOU India 2026 Winners and Marks Five Years of Advancing Indian Beauty Entrepreneurship",
+      "DP World India Championship: Tom McKibbin one shot off lead in India, Rory McIlroy three further back",
+      "India's 'Cockroaches' to march again after protest crackdown",
+      "Manifestations en Inde : deux chefs des \"cafards\" placés en détention",
+      "India Halts Sugar Diversion to Ethanol After El Nino Hurts Crops",
+      "Nike's India campus is a long-term growth bet amid turnaround",
+      "India police detain ‘Cockroach’ party founder ahead of protest",
+      "India's Axis Bank quarterly profit rises 37.6%, but misses estimates on higher costs",
+      "Unrelated protest videos misrepresented as Cockroach Janta Party rally in Indian capital",
+      "CJP's Saurav Das, Ashutosh Ranka: India's 'cockroach' leaders jailed after holding protest",
+      "Mark Carney implies US trying to 'break' Canada amid vote for Alberta independence referendum",
+      "India Says Pilot Action Cause of 2023 Learjet Crash in Mumbai",
+      "Stock fixing scandal could see Turkish companies frozen out of global indexes",
+      "Founder of India’s ‘Cockroach’ movement detained amid police crackdown",
+      "India's food regulator proposes ban on added sugars in infant foods",
+      "India sends 'cockroach' leaders to jail after protest",
+      "Nepal floods: Why Balendra Shah wants India and China to work together in the Himalayan region",
+      "India: Protesters jailed amid election row",
+      "Indian Police Detain ‘Cockroach’ Leader as Protests Spread",
+      "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
+      "India vs West Indies: Fifth T20 International – teams, start, lineups, Hope",
+      "India, West Indies draw T20 series after rain washes out decider",
+      "India shuts down iconic Delhi protest site after three decades",
+      "The Global Story | Could Gen Z bring down India’s Modi?",
+      "India: CJP's Dipke detained amid call for fresh Delhi demo",
+      "India’s Family Offices Bet on Homegrown AI Firms to Gain Ground",
+      "India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax",
+      "US teen held over Hindu temple attack plot: Is anti-Indian racism rising?",
+      "Rogue AI agents broke into Indian firms' live systems, government says",
+      "Top Indian 'cockroach' leaders sent to jail after protest",
+      "India: Top court hears Rahul Gandhi's Election Commission plea",
+      "India’s Rupee Rebound Comes With Growing Strains in FX Market: INR/USD",
+      "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
+      "West Indies’ Hope jokes India series record role a problem as finale looms",
+      "Modi's predicament: Gen Z pours out on India's streets as dissent surges",
+      "Reliance Foundation and The Estée Lauder Companies Charitable Foundation Launch Multi-Year Partnership That Aims to Empower One Million Girls and Young Women in India",
+      "India urges Russia, Ukraine to protect Black Sea shipping amid attacks on merchant vessels",
+      "Sitharaman Says Trade Barriers A Hurdle to China-India Ties",
+      "DR Congo protests Formula 1’s ‘indefensible’ decision to race in Rwanda",
+      "India sets zero sugar diversion for ethanol in 2026/27 tender",
+      "E20 explained: Why India fast-tracked ethanol fuel",
+      "Indian Clean Power Firms Brace for Data-Center Demand Surge",
+      "West Indies beat India to level T20 series as Hope continues record run",
+      "Dodge the cops, reach the protest: India's latest online political game goes viral",
+      "India follows Brazil example in its transition to E20",
+      "Dineshkumar Pragjibhai Monpara, Euro India Fresh Foods Ltd: Profile and Biography",
+      "India’s ‘Cockroach’ leaders jailed after entering ‘banned’ protest site",
+      "India's Persistent Systems plans debut rupee debt sale to fund acquisition, bankers say",
+      "India news: Supreme Court likely to hear Rahul Gandhi's Election Commission plea",
+      "Biggest-Ever Banking M&A Deal in India Had No Investment Bankers",
+      "India recall Bhuvneshwar for West Indies T20 decider",
+      "India news - DW.com",
+      "Live Q&A: How Will India Wield Its Growing Influence in the Age of AI?",
+      "India's Tech Mahindra jumps most in over six years as deal wins fuel growth optimism",
+      "India news: 'Cockroach' leaders sent to judicial custody over protests",
+      "US Envoy Calls India a Top Partner, Backs Deeper Trade Ties",
+      "India's frequent FX rule changes raise concerns over policy predictability, Allianz exec says",
+      "India urges Russia, Ukraine to protect Black Sea shipping - DW.com",
+      "Truecaller India Rival Seeks $1 Billion Valuation in New Funding",
+      "Festive demand drives India's diesel sales in October, data shows",
+      "India news: 'Cockroach' leaders sent to judicial custody amid protest crackdown - DW.com",
+      "India Stocks Set to Beat Asia by Most In Over a Year on AI Rout",
+      "Earnings-driven IT bounce powers Indian shares to best week in six months",
+      "India faces water and power shortages after weak monsoon - DW.com",
+      "India’s IDBI Stake Sale Brings Timely Buffer Against $100 Oil",
+      "Indian foreign minister and Rubio to hold talks on October 20, ministry says",
+      "Tensions between India and Bangladesh are in focus after Dhaka skipped the BRICS summit in Delhi",
+      "Fairfax’s $6 Billion Bank Deal Signals Zest for India Assets",
+      "Indian police detain 'cockroach' founder, student leaders ahead of Delhi rally",
+      "Watch Investors on Where India’s Growth Delivers Returns",
+      "India federation suspended by FEI amid governance crisis",
+      "Watch India Needs Green Energy Independence: Sinha",
+      "India widens rupee defence to rates, but cautiously",
+      "Suzlon Sees India’s Annual Wind Deployment Doubling by 2030",
+      "India's Jio Financial Services falls after quarterly profit halves",
+      "India Trade Deficit Widened in September on Higher Import Bill",
+      "India's Yes Bank expects AT1 reinstatement to cut core capital ratio by 250 bps",
+      "India May Need Rate Hikes, Tax Cuts to Buoy Rupee, Analysts Say",
+      "Indian mutual funds stop bulk subscriptions to gold ETFs ahead of festive season",
+      "India Top Court to Hear Election Challenge, Delhi Protest Cases",
+      "India says first phase of US trade deal nearly done, insists on edge over rivals",
+      "India’s Wealth Fund Eyes $800 Million Data Center Push",
+      "India's RBI has spent half of $140 billion FX capital haul in rupee defence, bankers estimate",
+      "Fairfax to Buy IDBI for $5.6 Billion in Biggest India Bank Deal",
+      "Bollywood actor Imran Khan asked to leave India after participating in protest, media says",
+      "Tycoon Mittal Says He's Ahead of Musk’s Starlink in India Satellite Approval Race",
+      "India raises windfall tax on petrol, cuts duty on diesel",
+      "India Seeks a Game-Changing AI Dividend. It Won’t Come Easy",
+      "India markets regulator partly reverses derivative settlement rules after pushback",
+      "Canada Aims for India Trade Deal by Year-End, Minister Says",
+      "India's top court voids Yes Bank's $880 million AT-1 bond write-off",
+      "Kotak Sees $5 Billion Inflows in India Private Debt in Two Years",
+      "EXCLUSIVE: India customs scrutiny diverts Niger soybeans to Asia at steep discounts, sources say",
+      "Ambani’s Jio to Take Orders From Oct. 21 in Record India IPO",
+      "Air India forms team to drive cost savings, memo shows",
+      "India Jails Two ‘Cockroach’ Protest Leaders for Five Days",
+      "Fairfax plans to fold other Indian financial holdings into IDBI Bank",
+      "Family Office to Billionaire Murthy to Double India Exposure",
+      "India's Tech Mahindra maintains fiscal 2027 margin target after large deals drive revenue beat",
+      "Mukesh Mahendrabhai Parmar, Gravity India Ltd: Profile and Biography",
+      "India's Reliance, Airtel rally as Jio Platforms IPO recasts valuations",
+      "Watch India's Mittal Says His Satellite Venture Is Ahead of Musk's Starlink",
+      "Nestle India flags food, commodity inflation after profit surges 36%",
+      "Indian share benchmarks log best day in four months on global AI slump",
+      "India insurance regulator to oversee smooth transition to new commission rules, chairman says",
+      "India's goods trade deficit widens; focus turns to trade pacts to narrow gap"
+    ],
+    "converted": false,
+    "relevant_headlines": 152,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "CJP protest crackdown",
+        "expected": "CJP protest crackdown stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about CJP protest crackdown appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Jio Platforms IPO",
+        "expected": "Jio Platforms IPO stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Jio Platforms IPO appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Fairfax-IDBI Bank deal",
+        "expected": "Fairfax-IDBI Bank deal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Fairfax-IDBI Bank deal appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Jio Platforms IPO",
+        "expected": "persist",
+        "sign": "Jio Platforms IPO is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. CJP protest crackdown stays in the news at the same level. Jio Platforms IPO stays in the news at the same level. Fairfax-IDBI Bank deal stays in the news at the same level. Jio Platforms IPO is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "CJP protest crackdown",
+        "expected": "The Supreme Court will issue an order in the CJP protest cases that sets new conditions for the movement's next rally in New Delhi.",
+        "direction": "escalate",
+        "sign": "A headline will carry the Supreme Court's ruling on the CJP protest cases, followed by CJP leaders announcing a new march date in Delhi."
+      },
+      "second": {
+        "subject": "Jio Platforms IPO",
+        "expected": "The first tranche of institutional orders in the Jio Platforms IPO will test whether investors accept the valuation at which the book is priced.",
+        "direction": "persist",
+        "sign": "A headline will report the opening of the Jio Platforms IPO subscription window and the level of initial investor demand."
+      },
+      "third": {
+        "subject": "US-India trade talks",
+        "expected": "Indian and US foreign ministers will announce the completion of the trade deal's first phase during their scheduled talks.",
+        "direction": "persist",
+        "sign": "A headline will report that India and the US issued a joint statement declaring a milestone in the bilateral trade agreement."
+      },
+      "fade_call": {
+        "subject": "Kolkata festival crush",
+        "expected": "fade",
+        "sign": "A headline will shift from the death toll to a government inquiry or compensation announcement, dropping the event out of top stories."
+      },
+      "surprise": {
+        "subject": "Tata family boardroom split",
+        "expected": "A public legal challenge or board reshuffle will erupt between Tata family factions over the group's strategic direction, shaking confidence in India's largest conglomerate.",
+        "chance": "medium"
+      },
+      "summary": "Next week in India will be dominated by the CJP protest movement as it clashes with the Supreme Court and the police. The Court will rule on the protest cases, and the jailed leaders will face new orders that reshape how the movement marches in Delhi. The Jio Platforms IPO will open its subscription book, and early institutional orders will test the valuation that has already lifted Reliance and Airtel shares. Indian and US foreign ministers will hold talks and declare the first phase of the trade deal complete. The Kolkata festival crush will fade as a government inquiry takes over. On the surprise front, a dispute between Tata family factions may break into open legal battle, rattling the foundation of India's most powerful business dynasty.",
+      "generated_at": "2026-10-23T14:21:12+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "CJP protest crackdown and Supreme Court hearing",
+        "expected": "The Supreme Court will deliver an interim ruling on the mass voter-roll deletions and the CJP protest detentions, setting the legal tone for the movement's next phase.",
+        "direction": "escalate",
+        "sign": "Headlines about a Supreme Court ruling on the voter purge and fresh CJP leader arrests or a court-ordered protest corridor"
+      },
+      "second": {
+        "subject": "Jio Platforms IPO",
+        "expected": "The Jio Platforms IPO will open its retail subscription window, drawing record participation from young Indian investors and reshaping the valuation benchmarks for Reliance and Airtel shares.",
+        "direction": "persist",
+        "sign": "Headlines about record retail subscription numbers, valuation comparisons with Meta and Google, and a spike in Reliance and Airtel share prices"
+      },
+      "third": {
+        "subject": "Fairfax and IDBI Bank acquisition",
+        "expected": "The IDBI Bank share price will rebound from its initial seven-percent drop as Fairfax's integration plans and the sector's new foreign-ownership benchmark draw analyst upgrades.",
+        "direction": "persist",
+        "sign": "Headlines about regulatory filings for the IDBI acquisition, analyst upgrades for the bank, and a broader Indian banking sector revaluation"
+      },
+      "fade_call": {
+        "subject": "Kolkata festival crush",
+        "expected": "fade",
+        "sign": "Headlines shift from the death toll to government compensation packages and a safety-audit announcement for festival venues"
+      },
+      "surprise": {
+        "subject": "Rupee breaches 100 per dollar",
+        "expected": "The rupee will breach the 100-per-dollar threshold for the first time, forcing the RBI into a visible rate response and rattling the market's bullish streak.",
+        "chance": "medium"
+      },
+      "summary": "India's next week will be dominated by the Supreme Court's handling of the CJP protest cases and the mass voter-roll deletions. Fresh detentions and a court-ordered protest corridor will keep New Delhi's streets in flux. The Jio Platforms IPO will open its subscription window, pulling young retail investors into a $108-billion valuation story and lifting Reliance and Airtel shares. The Fairfax-IDBI deal will enter its regulatory phase, with the bank's share price recovering and the sector revaluing around a new foreign-ownership ceiling. The Kolkata festival crush will fade from the front page as compensation and safety-audit stories take over. The rupee's slide toward the 100-per-dollar mark will test the RBI's patience. The October 20 foreign-ministers meeting will add a diplomatic backdrop as both sides press to close the first trade-deal phase.",
+      "generated_at": "2026-10-23T14:41:09+03:00"
+    }
+  },
+  "display": {
+    "headline": "CJP leaders face Supreme Court as Jio IPO ignites retail frenzy",
+    "emojis": [
+      "✊",
+      "📈",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "The CJP protest crackdown, Supreme Court hearings, and new arrests are the dominant and most volatile story of the week.",
+      "The Jio Platforms IPO, record stock-market week, and the 4th-economy projection define the financial optimism.",
+      "The Fairfax-IDBI Bank acquisition is the largest foreign banking deal in Indian history and anchors the sector narrative."
+    ],
+    "tldr": "Supreme Court hearings on the CJP protests and voter purge will define the week, while the Jio IPO opens its subscription window and the Fairfax-IDBI deal enters its regulatory phase. The Kolkata festival crush will fade, and the rupee's slide will test the RBI.",
+    "eli5": "India is in the middle of a big protest wave. A group called the Cockroach Janta Party is angry because the government removed 130 million people from the voter list. Leaders got arrested, released, arrested again. Next week, the Supreme Court will hear their case, and the streets of Delhi will see more marching and police action.\n\nAt the same time, the stock market is doing great. Mukesh Ambani's company Jio is doing a giant public offering, and young Indian investors are lining up to buy shares. The Canadian company Fairfax is also buying a big Indian bank called IDBI. These deals are pushing Indian stocks to record highs.\n\nWhat would be a surprise? If the rupee, India's currency, drops past 100 to the dollar for the first time, that would be a shock and might force the central bank to act fast. The Kolkata festival where 17 people died in a crush will probably drop off the front page as the government works out compensation and new safety rules."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nIndia entered the week of October 14, 2026, under three simultaneous pressures. The CJP movement, dubbed the Cockroach protest wave, challenged the Election Commission over mass voter-roll deletions. CJP leaders were detained in Delhi and released within days, while satellite protests spread to Bengaluru, Mumbai, Hyderabad, Chennai, Kolkata, and Pune. Police deployed barricades and metro services were disrupted. The RBI hiked interest rates for the first time in years, yet the rupee stayed weak and capital outflows persisted. The government pushed oil companies away from spot dollar purchases and tightened forex flows. US-India trade talks stalled after JD Vance remarks irritated New Delhi, and India accused Washington of using language with colonial connotations. Google's Visakhapatnam data-center project drew local objections over water and power. Honda restructured its India strategy with Tata Technologies. India tabled a draft steel policy targeting 604 million metric tons of capacity by 2047. Private equity moved\n- CJP leaders were detained and released (regular, continuing): CJP leaders were detained and released in Delhi amid mass protests over voter-roll deletions and the Election Commission chief's legitimacy.\n- The RBI hiked interest rates for (regular, continuing): The RBI hiked interest rates for the first time in years while the rupee stayed weak and capital outflows persisted.\n- US-India trade talks stalled after JD (regular, continuing): US-India trade talks stalled after JD Vance comments irritated New Delhi, and India accused Washington of colonial language.\n- Google's Visakhapatnam data-center project drew local (regular, continuing): Google's Visakhapatnam data-center project drew local resident objections over water and power consumption.\n- Nana Patekar died, generating a wave (regular, continuing): Nana Patekar died, generating a wave of tributes across the Indian film industry.\n- Nana Patekar died, generating a wave (again) (regular, continuing): Nana Patekar died, generating a wave of tributes across the Indian film industry.\n\nRound 2026-09-15:\nIndia entered the week under a three-front domestic pressure test. Opposition parties and the youth-led 'Cockroach Janta Party' movement pushed street protests demanding the resignation of Election Commission chief Gyanesh Kumar over alleged voter-roll irregularities, with police deploying tear gas and detaining demonstrators in multiple cities. In Ujjain, tensions escalated around the partial demolition of a historic mosque, where Muslim volunteers staged a self-demolition to prevent a forced teardown and police clashed with crowds using tear gas and batons. In Delhi, hundreds protested after an alleged gang-rape of a 17-year-old in a public park, while Lovely University experienced campus unrest over a separate rape allegation. The economy showed a split character: the IPO market roared with NSE's listing debut and Inox Clean Energy's filing, while the rupee weakened as the RBI consumed forex reserves to counter surging crude oil prices. Virat Kohli returned with his 55th ODI century as India\n- Opposition and youth-led protests demand resignation (regular, continuing): Opposition and youth-led protests demand resignation of CEC Gyanesh Kumar, police deploy tear gas and detain demonstrators\n- Ujjain mosque partial demolition triggers police-crowd (regular, continuing): Ujjain mosque partial demolition triggers police-crowd clashes and self-demolition by Muslim volunteers\n- Delhi park gang-rape allegation and university (regular, continuing): Delhi park gang-rape allegation and university campus unrest spark mass women-safety protests\n- RBI burns forex reserves to support (regular, continuing): RBI burns forex reserves to support weakening rupee amid surging crude oil prices\n- India wins West Indies ODI opener (regular, continuing): India wins West Indies ODI opener by eight wickets as Kohli scores his 55th century\n- India wins West Indies ODI opener (again) (regular, continuing): India wins West Indies ODI opener by eight wickets as Kohli scores his 55th century\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

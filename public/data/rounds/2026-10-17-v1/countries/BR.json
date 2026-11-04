@@ -1,0 +1,413 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "BR",
+  "name": "Brazil",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T08:49:14+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "Brazil's week was dominated by the tight presidential runoff between the Bolsonaro camp and Lula, with multiple polls showing a narrow Bolsonaro or Flavio Bolsonaro lead. The Senate delivered Lula a major legislative win by approving a shorter five-day workweek, a campaign promise that energized his base ahead of the runoff. Simultaneously, Brazil announced that Amazon deforestation had fallen to its lowest level since 1988, a historic environmental milestone credited to Lula's policies but also a key issue in the race. A storm broke over Meta after Brazil's electoral court found the platform exhibited anti-Lula algorithmic bias, and Lula's party announced it would take the case to the OAS. In the Amazon, a surge of wildfires prompted a government investigation into whether the fires were criminal or coordinated, adding urgency to the environmental debate. On the economic front, US tariffs struck Brazil's manufacturing sector while market euphoria masked a growing public-debt concern. The incoming right-wing Congress also moved to challenge the judge who previously jailed Bolsonaro, signalling post-election political battles to come.",
+    "key_events": [
+      {
+        "event": "Brazil confirmed Amazon deforestation fell to its lowest level since 1988, a record for the region.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Multiple polls showed Bolsonaro or Flavio Bolsonaro holding a narrow lead over Lula ahead of the presidential runoff.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "The Brazilian Senate approved a bill shortening the standard workweek from six to five days, a key campaign promise of Lula.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Brazil's electoral court ruled that Meta exhibited algorithmic bias against Lula, and the platform's employees told Folha that his accounts were deliberately hindered.",
+        "date": null,
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "A surge in Amazon wildfires prompted the government to investigate whether the fires were criminal or coordinated.",
+        "date": null,
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "US tariffs hit Brazil's manufacturing hub, complicating the economic picture ahead of the runoff.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Brazil's incoming right-wing Congress signaled it would challenge the judge who jailed Bolsonaro, foreshadowing post-election clashes.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Lula pledged free weekend public transit nationwide and defended cutting the criminal-responsibility age to 16 for heinous crimes to shore up his campaign.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "environment",
+      "economy"
+    ],
+    "emojis": [
+      "🗳️",
+      "🌍",
+      "📜"
+    ],
+    "emoji_reasons": [
+      "🗳️ The presidential runoff between Bolsonaro and Lula is the dominant thread across at least a dozen headlines (e.g., headline 26, 53, 58, 65).",
+      "🌍 Amazon deforestation hit a record low since 1988, covered by BBC, Reuters, Al Jazeera and others (headlines 4, 9, 11, 18).",
+      "📜 The Senate approved the shorter workweek, a major legislative win for Lula, reported by BBC, AP and Bloomberg (headlines 13, 36, 54)."
+    ],
+    "developments": [
+      {
+        "subject": "Amazon deforestation record low",
+        "what_happened": "Brazil announced that deforestation in the Amazon fell to its lowest level since 1988, a historic achievement credited to Lula's environmental policies.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          5,
+          9,
+          11,
+          14,
+          18,
+          24,
+          40
+        ]
+      },
+      {
+        "subject": "Bolsonaro vs Lula runoff race",
+        "what_happened": "Polls consistently showed a razor-thin Bolsonaro or Flavio Bolsonaro lead over Lula ahead of the second-round vote, with both sides scrambling for endorsements and campaign energy.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          26,
+          34,
+          43,
+          49,
+          53,
+          58,
+          62,
+          65,
+          67
+        ]
+      },
+      {
+        "subject": "Shorter workweek approved",
+        "what_happened": "The Senate passed a bill abolishing the six-day workweek in favour of a five-day week, fulfilling a major Lula campaign promise.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          13,
+          21,
+          25,
+          30,
+          36,
+          39,
+          54,
+          55,
+          63
+        ]
+      },
+      {
+        "subject": "Meta anti-Lula bias ruling",
+        "what_happened": "Brazil's electoral court found Meta guilty of algorithmic bias against Lula, Meta employees said his accounts were hindered, and Lula's party announced it would escalate the case to the OAS.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          10,
+          17,
+          19,
+          46,
+          64
+        ]
+      },
+      {
+        "subject": "Amazon wildfires surge",
+        "what_happened": "A sharp increase in Amazon fires, partly driven by El Niño, prompted a government probe into whether the fires were criminal or deliberately coordinated.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          28,
+          44,
+          45,
+          52,
+          60
+        ]
+      },
+      {
+        "subject": "Economic signals and debt",
+        "what_happened": "Economic activity edged up before the runoff but analysts warned that market euphoria was masking a surging public-debt problem, while US tariffs hurt the manufacturing sector.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          15,
+          32,
+          51
+        ]
+      },
+      {
+        "subject": "Right-wing Congress vs Bolsonaro's judge",
+        "what_happened": "Brazil's incoming right-wing Congress took aim at the judge who jailed Bolsonaro, signalling post-election institutional battles.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          27
+        ]
+      },
+      {
+        "subject": "Lula campaign moves",
+        "what_happened": "Lula resorted to selfie videos, pledged free weekend transit, and defended lowering the criminal-responsibility age to 16 in an effort to close the polling gap.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          35,
+          56
+        ]
+      },
+      {
+        "subject": "Right-wing influencers and election betting",
+        "what_happened": "Right-wing influencers rallied around the Bolsonaro camp while election-betting odds were dubbed pseudo-polls, adding noise to the race.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          6,
+          12,
+          31
+        ]
+      }
+    ],
+    "gone": [
+      "A bomb scare is reported outside",
+      "The United States and Australia suspend",
+      "Student-led 'Never again Bolsonaro' marches take",
+      "Student-led 'Never again Bolsonaro' marches take (again)"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the election, environment, economy, and Meta controversy well, though day-to-day security and diplomacy stories are sparse."
+    },
+    "headlines_used": [
+      "Brazil's Flavio Bolsonaro pledges fiscal adjustment, rejects cuts to social spending",
+      "Meta denies accusation of anti-Lula political bias in Brazil after electoral court ruling",
+      "Brazil's right embraces election betting odds amid polls skepticism",
+      "Brazil sees record fall in Amazon deforestation as key election looms",
+      "Brazil: Amazon deforestation lowest in nearly 40 years",
+      "Au Brésil, les candidats ont la cote: des paris aux allures de faux sondages",
+      "Rafael Siqueira, AGI Inc/Brazil: Profile and Biography",
+      "Lula turns to selfie videos in Brazil election fightback",
+      "Brazil’s Amazon deforestation hits lowest level on record",
+      "Meta employees said Lula's accounts were hindered during Brazil election, Folha reports",
+      "Brazil says Amazon deforestation fell to the lowest level since 1988",
+      "Right-wing Brazil influencers on 'mission' to seal Bolsonaro win",
+      "Brazil's Congress approves shorter working week in win for Lula",
+      "Brésil : la déforestation en Amazonie au plus bas depuis près de 40 ans",
+      "Market Euphoria Distracts From Brazil’s Surging Debt Problem",
+      "Agibank Named Official Lead Sponsor for Legendary Brazilian Club Santos FC – Company Announcement",
+      "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "Deforestation in Brazil's Amazon falls to all-time low",
+      "Brazil's Lula wins electoral court challenge against Meta for alleged pro-Bolsonaro algorithm bias",
+      "FlightSafety International to Deliver New Embraer E190-E2 Full-Flight Simulator to Azul Brazilian Airlines",
+      "World Business Report | Brazil cuts working week from six days to five",
+      "Brazil's election results could shape the Amazon rainforest and climate around the world",
+      "Présidentielle au Brésil: nouvel élan à gauche pour combler le retard de Lula",
+      "Brazil Sees Record Low Amazon Deforestation Rate in Win for Lula",
+      "Brazil abolishes six-day workweek in win for Lula",
+      "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
+      "Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro",
+      "Brazil investigates Amazon wildfires that disrupt daily life and have fueled political attacks",
+      "Brazil forward Antony says home burgled during Betis match",
+      "Brazil to shorten workweek in win for Lula ahead of runoff",
+      "Du post au vote: de jeunes influenceurs à l'avant-garde du camp conservateur au Brésil",
+      "Brazil Economic Activity Edged Up Before Presidential Runoff",
+      "The gangs, the guns and the battle for Brazil",
+      "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
+      "Lula defends cutting Brazil's criminal responsibility age to 16 for heinous crimes",
+      "Brazil’s Senate approves a shorter workweek in major win for Lula ahead of runoff",
+      "Why is Shell facing lawsuits over climate disasters in Brazil and the Philippines?",
+      "India follows Brazil example in its transition to E20",
+      "Le Parlement brésilien approuve la réduction du temps de travail, promise par Lula",
+      "The Amazon Dilemma in Brazil’s Tight Election",
+      "Brazil Firms Modernize Applications with Governed Agentic AI – Company Announcement",
+      "Heavy rain causes mass pileup in Brazil tunnel",
+      "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, Datafolha poll shows",
+      "Brazil investigates whether surge in Amazon wildfires was coordinated",
+      "Brazil probing 'criminal' origin of forest fires: minister to AFP",
+      "Brésil: le parti de Lula va dénoncer devant l'OEA une \"ingérence\" de Meta dans l'élection",
+      "Brazilian Asset Manager WHG Expands Its Local Equities Team",
+      "GoldMining Appoints Project Director to Lead Next Phase of Advancement of the São Jorge Gold Project, Brazil",
+      "Brazil's Bolsonaro racks up endorsements, shaping potential governing bloc",
+      "Former Dutch international Clarence Seedorf presented as coach at Brazil’s Corinthians",
+      "US tariffs hit Brazil's manufacturing hub",
+      "Le Brésil enquête sur une flambée d'incendies \"criminels\" en Amazonie",
+      "Bolsonaro, Lula in Tight Race Ahead of Runoff, Polls Show",
+      "Brazil's Senate approves shorter workweek in win for Lula",
+      "Brazil Senate Approves Bill to Shorten Workweek in Election Boost for Lula",
+      "Lula pledges free weekend transit nationwide as Brazil runoff nears",
+      "550-Mile Amazon Highway Shows Climate Stakes of Brazil’s Election",
+      "Flavio Bolsonaro slightly leads Lula in Brazil runoff, Quaest poll shows",
+      "Bolsonaro’s Election Lead Raises the Odds of Brazil Oil Asset Sale",
+      "Fires surge in Brazil's Amazon, fueled by El Niño and climate change",
+      "Brazil’s Voters Need a Lula-Bolsonaro Cage Fight",
+      "Will Brazil Turn Rightward and Elect Another Bolsonaro President?",
+      "Senado aprova fim da escala 6x1 em vitória para Lula",
+      "Brazil Judge Orders Meta to Treat Runoff Candidates Equally",
+      "Bolsonaro Holds Narrow Lead Over Lula Ahead of Brazil Runoff",
+      "Itau Buys 35% of Prisma Capital in Alternatives Push in Brazil",
+      "Brazil Election Live Results First Round 2026: Lula, Bolsonaro in Presidential Race"
+    ],
+    "converted": false,
+    "relevant_headlines": 67,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Amazon deforestation record low",
+        "expected": "Amazon deforestation record low stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Amazon deforestation record low appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Bolsonaro vs Lula runoff race",
+        "expected": "Bolsonaro vs Lula runoff race stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bolsonaro vs Lula runoff race appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Shorter workweek approved",
+        "expected": "Shorter workweek approved stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Shorter workweek approved appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Amazon deforestation record low",
+        "expected": "persist",
+        "sign": "Amazon deforestation record low is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Amazon deforestation record low stays in the news at the same level. Bolsonaro vs Lula runoff race stays in the news at the same level. Shorter workweek approved stays in the news at the same level. Amazon deforestation record low is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Brazilian presidential runoff",
+        "expected": "The second-round presidential vote will produce a razor-thin result that sets up an immediate institutional and street-level contest over legitimacy.",
+        "direction": "escalate",
+        "sign": "Headlines will announce the outcome of the Brazilian presidential runoff and frame it as a mandate neither side fully owns."
+      },
+      "second": {
+        "subject": "Meta algorithmic-bias dispute",
+        "expected": "Lula's party will formally lodge its case with the OAS, demanding a binding ruling on Meta's alleged electoral interference.",
+        "direction": "escalate",
+        "sign": "Headlines will report a Brazilian political party filing a formal complaint with an international body over a social-media platform's alleged election interference."
+      },
+      "third": {
+        "subject": "Amazon wildfire investigation",
+        "expected": "The government investigation will produce preliminary findings identifying organised or criminal ignition as the cause of the fire surge.",
+        "direction": "escalate",
+        "sign": "Headlines will quote Brazilian government officials attributing the Amazon fire surge to deliberate criminal activity."
+      },
+      "fade_call": {
+        "subject": "Shorter workweek approval",
+        "expected": "fade",
+        "sign": "The workweek-reduction story will drop out of headlines as the runoff result and its aftermath consume the news cycle."
+      },
+      "surprise": {
+        "subject": "Brazilian currency and debt shock",
+        "expected": "Global markets will punish Brazil's currency and sovereign bonds as the narrow runoff result exposes the public-debt concern that pre-election euphoria had been masking.",
+        "chance": "medium"
+      },
+      "summary": "Next week will be defined by the Brazilian presidential runoff vote, which will produce a narrow result that neither camp can claim as a landslide. The Bolsonaro camp will celebrate a tight victory while Lula's party mobilises legal challenges and street protests. The Meta algorithmic-bias case will move to the OAS as Lula's party files a formal complaint, escalating the dispute into international territory. The government's Amazon wildfire probe will yield early findings pointing to deliberate criminal ignition. The shorter-workweek story will fade as the political fallout dominates. The incoming right-wing Congress will press its challenge to the judge who jailed Bolsonaro, setting up an institutional confrontation. Global markets will scrutinise Brazil's debt trajectory, and a credit-rating warning will test whether the pre-election euphoria survives the narrow result.",
+      "generated_at": "2026-10-23T08:29:29+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Runoff final campaign sprint",
+        "expected": "The two presidential camps will launch a full-throttle final campaign sprint of road rallies, televised debates, and last-minute endorsement drives in the stretch before the runoff ballot, with polling gaps holding at a razor-thin margin.",
+        "direction": "escalate",
+        "sign": "Headlines will carry rally crowd descriptions, televised debate reactions, and concurrent poll releases as the presidential race tightens between the two camps"
+      },
+      "second": {
+        "subject": "Meta and OAS escalation",
+        "expected": "Lula's party will formally file its interference complaint with the OAS accusing Meta of algorithmic bias, and a Brazilian court will compel the platform to give both runoff candidates equal treatment before the vote.",
+        "direction": "escalate",
+        "sign": "Headlines will report the OAS filing, Meta's public rebuttal, and a court equal-treatment order as fresh procedural steps in the platform dispute"
+      },
+      "third": {
+        "subject": "Amazon fires and deforestation debate",
+        "expected": "The government's criminal probe into the wildfire surge will publish preliminary findings on whether the fires were coordinated or deliberate, and both camps will seize the record-low deforestation milestone as a decisive policy contrast in their final speeches.",
+        "direction": "persist",
+        "sign": "Headlines will quote probe conclusions on coordinated or criminal fires and frame the deforestation milestone as a campaign scoreboard"
+      },
+      "fade_call": {
+        "subject": "Shorter workweek approval",
+        "expected": "fade",
+        "sign": "The shortened workweek will appear only as a campaign talking point rather than as fresh legislative news"
+      },
+      "surprise": {
+        "subject": "Banco Master probe expansion",
+        "expected": "Investigators will name a senior figure in the Bolsonaro camp or a key ally in the Banco Master financial probe, injecting a late-week scandal into the final campaign stretch and forcing a reactive rally or press conference.",
+        "chance": "low"
+      },
+      "summary": "Next week is Brazil's final campaign sprint before the presidential runoff. Both Lula and the Bolsonaro camp will saturate television, social media, and the road with last-minute rallies and debates while polling gaps stay razor-thin. The Meta case will move to the OAS as Lula's party formally lodges its interference complaint, and a Brazilian court will compel the platform to give both candidates equal algorithmic treatment. In the Amazon, the government's probe into the wildfire surge will release preliminary findings on whether the fires were criminal or coordinated, and both camps will brandish the record-low deforestation number as proof of their policy track. The shortened workweek, already passed by the Senate, will recede from front pages into campaign rhetoric. A late Banco Master probe expansion could rattle the Bolsonaro camp. Markets will watch the debt trajectory with growing unease even as the Ibovespa holds near record levels.",
+      "generated_at": "2026-10-23T08:49:14+03:00"
+    }
+  },
+  "display": {
+    "headline": "Brazil Enters Final Campaign Sprint Before Runoff",
+    "emojis": [
+      "🗳️",
+      "🌍",
+      "💻"
+    ],
+    "emoji_reasons": [
+      "The dominant story is the final push before the presidential runoff vote.",
+      "Amazon deforestation and wildfire findings will be a central campaign battleground and environmental milestone.",
+      "The Meta platform case escalating to the OAS puts technology and algorithmic fairness at the heart of the race."
+    ],
+    "tldr": "Brazil's final week before the runoff will be a full-throttle campaign battle with razor-thin polls. The Meta case escalates to the OAS, and the Amazon wildfire probe releases its first findings. The workweek law fades into background rhetoric.",
+    "eli5": "Here's what's happening: Brazil is about to hold its second-round presidential vote, and the race is so close that a single rally or a single scandal could flip it. Lula and the Bolsonaro camp are both throwing everything they have at the road and the TV this week. This is the runoff final campaign sprint, and every headline is about who is winning the last few votes.\n\nWhy does this matter? Because whoever wins gets to run the country, control the Amazon, and decide whether the economy heads one direction or another. The Amazon just hit its lowest deforestation number in four decades, and both sides are claiming credit or blaming each other. The government is also investigating whether a surge in Amazon fires was criminal or coordinated, and both camps will use that finding as a weapon in their final speeches.\n\nWhat will probably happen next? The Meta social-media case will get filed with the OAS as a formal complaint, and a Brazilian court will order Meta to treat both candidates equally before the vote. Meanwhile, the Senate's new shorter workweek will stop being a headline and just become a bumper sticker at rallies.\n\nWhat would be a surprise? If the Banco Master bank scandal suddenly names a big name from the Bolsonaro team, that would shake things up badly with so little time before the vote. Most people are not expecting that."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nBrazil held its first-round presidential election on October 4, 2026. Flávio Bolsonaro finished first and Lula second, triggering a two-candidate runoff set for October 25. The right captured sweeping gains in Congress. Brazilian financial markets surged: the Ibovespa neared all-time highs, the real strengthened, and foreign inflows into equities hit record levels. A bomb scare occurred outside the Supreme Court (STF), and the United States and Australia suspended consular services ahead of voting, heightening diplomatic friction. Student marches and 'Never again Bolsonaro' protests energized the left in Rio, São Paulo, and Brasília. Lula's team began openly testing the idea of naming Vice President Geraldo Alckmin as finance minister to signal fiscal responsibility to markets and centrists. Flávio Bolsonaro's camp unveiled a 'big scissors' austerity plan focused on spending cuts and tax reform. Donald Trump publicly backed Flávio. Environmental groups warned that a right-heavy Congress would weaken Amazon protections. The electoral\n- Flávio Bolsonaro wins first place and (regular, continuing): Flávio Bolsonaro wins first place and Lula finishes second in the October 4 first round of the presidential election.\n- Brazilian markets surge: Ibovespa approaches record (regular, continuing): Brazilian markets surge: Ibovespa approaches record levels, the real strengthens, and foreign equity inflows hit record highs.\n- A bomb scare is reported outside (regular, continuing): A bomb scare is reported outside the Supreme Court in Brasília, prompting a heightened security response.\n- The United States and Australia suspend (regular, continuing): The United States and Australia suspend consular services in Brazil ahead of the first-round vote, citing security concerns.\n- Student-led 'Never again Bolsonaro' marches take (regular, continuing): Student-led 'Never again Bolsonaro' marches take to the streets in Rio, São Paulo, and Brasília.\n- Student-led 'Never again Bolsonaro' marches take (again) (regular, continuing): Student-led 'Never again Bolsonaro' marches take to the streets in Rio, São Paulo, and Brasília.\n\nRound 2026-09-15:\nBrazil entered the final sprint before its October 4 presidential first-round vote with the race statistically tied. Lula raised Bolsa Família welfare payments by fifteen percent, but Bloomberg reported he saw no clear poll gain from that move. Atlas polling showed Lula and Flavio Bolsonaro tied in a runoff scenario, while TV5Monde and AFP reported Flavio Bolsonaro actually gaining ground despite being caught up in the sprawling Banco Master financial probe that Bloomberg described as roiling the election. Reuters reported Brazil was preparing an executive order to ban online casinos, and both candidates were ramping up attacks on online betting. Rio de Janeiro was experiencing its rainiest September on record amid what the BBC described as the strongest El Niño developing on record. AP reported rising violence in Bahia challenging Lula in his own political stronghold. Lula used the UN stage to warn against foreign interference and criticize the approach\n- Lula raised Bolsa Família welfare payments (regular, continuing): Lula raised Bolsa Família welfare payments by fifteen percent in a defensive move to protect his base.\n- The Banco Master financial probe expanded (regular, continuing): The Banco Master financial probe expanded, with Bloomberg describing it as roiling the presidential election and Flavio Bolsonaro gaining despite the scandal.\n- Rio de Janeiro recorded its rainiest (regular, continuing): Rio de Janeiro recorded its rainiest September on record amid the strongest developing El Niño on record.\n- Rising violence in Bahia challenged Lula (regular, continuing): Rising violence in Bahia challenged Lula in his own political stronghold, giving the opposition a concrete domestic attack.\n- Brazil withheld reciprocal trade measures against (regular, continuing): Brazil withheld reciprocal trade measures against the US while negotiations continued over tariffs, diesel exports, and the Anglo American nickel deal with China.\n- The government prepared an executive order (regular, continuing): The government prepared an executive order to ban online casinos and betting, with both candidates using the issue as a campaign weapon.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

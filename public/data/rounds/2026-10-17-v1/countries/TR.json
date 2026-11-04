@@ -1,0 +1,381 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "TR",
+  "name": "Turkey",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T15:41:59+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "This week in Turkey was dominated by a sharp escalation in the government's control over media. On a reported Thursday, police raided the headquarters of Halk TV, one of the country's last major opposition-aligned broadcasters, halted its live broadcasts, and the state moved to place the channel under a government-appointed trustee. Press freedom groups warned the seizure signaled a broader crackdown, and the move drew international attention. Simultaneously, Istanbul endured its heaviest rainfall in roughly 80 to 84 years, with flooding that killed at least three people, forced school closures, and left streets of damaged vehicles. On the economic front, MSCI froze changes to Turkey equity indexes amid a stock-fixing scandal and fund turmoil, sending Turkish stocks down more than three percent in a single session and raising the specter of a downgrade. The government also let the lira slide faster than previously expected to avoid a sudden future devaluation. In a political signal, Ankara floated moving the next general election up to 2028, which would reset the clock and allow President Erdogan to seek another term. A US senator accused Turkey of thuggish behavior toward Greece and Cyprus, adding a diplomatic wrinkle. Rosatom confirmed it is targeting a year-end nuclear start-up at Akkuyu, and the world's oldest known shipwreck was discovered off the Turkish coast.",
+    "key_events": [
+      {
+        "event": "Turkish police raided and took control of pro-opposition Halk TV, halting its broadcasts and appointing a state trustee.",
+        "date": "2026-10-15",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Record rainfall in Istanbul caused severe flooding that killed at least three people and closed schools.",
+        "date": "2026-10-15",
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "MSCI froze changes to Turkey equity indexes over a stock-fixing scandal, and Turkish stocks fell more than three percent.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Turkey floated holding its next general election in 2028 rather than 2029, which would allow President Erdogan to run again.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The Turkish government allowed the lira to depreciate faster than previously scheduled to reduce the risk of a sharp one-off devaluation.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A US senator publicly accused Turkey of thuggish behavior toward Greece and Cyprus.",
+        "date": "2026-10-14",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Russia's Rosatom confirmed it is targeting a year-end nuclear start-up at the Akkuyu plant in Turkey.",
+        "date": "2026-10-14",
+        "domain": "technology",
+        "importance": 2
+      },
+      {
+        "event": "A school headscarf ban in Azerbaijan sparked protests and a diplomatic row with Turkey.",
+        "date": "2026-10-16",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "environment",
+      "society"
+    ],
+    "emojis": [
+      "🚔",
+      "🌊",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The police raid and government seizure of opposition channel Halk TV (headlines 7, 23, 29, 33, 36, 41) is the defining political event of the week.",
+      "Istanbul's heaviest rainfall in over 80 years killed at least three people and flooded streets (headlines 11, 13, 20, 22, 25, 28).",
+      "MSCI froze Turkey index changes and stocks dropped more than three percent amid the stock-fixing scandal (headlines 8, 12, 19)."
+    ],
+    "developments": [
+      {
+        "subject": "Halk TV government takeover",
+        "what_happened": "Police raided Halk TV's Istanbul headquarters, halted live broadcasts, and the state appointed a trustee to run the channel, drawing warnings of a broader opposition-media crackdown.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          7,
+          9,
+          17,
+          23,
+          24,
+          29,
+          30,
+          33,
+          34,
+          35,
+          36,
+          38,
+          41
+        ]
+      },
+      {
+        "subject": "Istanbul record flooding",
+        "what_happened": "Heaviest rainfall in roughly 80 to 84 years flooded Istanbul, killing at least three people, closing schools, and leaving streets of damaged vehicles.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          13,
+          20,
+          22,
+          25,
+          27,
+          28,
+          40
+        ]
+      },
+      {
+        "subject": "MSCI index freeze and stock-fixing scandal",
+        "what_happened": "MSCI froze changes to Turkey equity indexes amid a stock-fixing scandal and fund turmoil, sending Turkish stocks down over three percent and raising the risk of a market downgrade.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          8,
+          10,
+          12,
+          18,
+          19
+        ]
+      },
+      {
+        "subject": "Erdogan 2028 election float",
+        "what_happened": "Ankara suggested moving the next general election to 2028, which would reset the term clock and allow President Erdogan to seek another term.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          26
+        ]
+      },
+      {
+        "subject": "Lira managed devaluation",
+        "what_happened": "The government accelerated the lira's scheduled depreciation to avoid the risk of a sharp one-off devaluation later.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          31
+        ]
+      },
+      {
+        "subject": "US-Turkey diplomatic friction",
+        "what_happened": "A US senator accused Turkey of thuggish behavior toward Greece and Cyprus, adding a transatlantic dimension to Turkey's Aegean disputes.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2
+        ]
+      },
+      {
+        "subject": "Akkuyu nuclear timeline",
+        "what_happened": "Rosatom confirmed it is targeting a year-end start-up for Turkey's Akkuyu nuclear plant, the first nuclear power station built in the country.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Headscarf ban and Azerbaijan row",
+        "what_happened": "A school headscarf ban in Azerbaijan triggered rare protests and a diplomatic spat with Turkey, a traditional supporter of Azerbaijan.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15
+        ]
+      },
+      {
+        "subject": "Oldest shipwreck discovery",
+        "what_happened": "Researchers announced the discovery of the world's oldest known shipwreck off the Turkish coast, a significant archaeological find.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "Made in Europe plan",
+        "what_happened": "A Turkish minister urged the EU not to exclude Turkey from its 'Made in Europe' industrial plan, signaling Ankara's desire for closer economic alignment.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      }
+    ],
+    "gone": [
+      "The mayor of Izmir defected from",
+      "Turkey prepared to submit the Mecca",
+      "The state Wealth Fund initiated a",
+      "Two journalists were jailed over alleged",
+      "Drone strikes on commercial vessels near"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the three major stories of the week (media seizure, flooding, market freeze) well across multiple outlets, though some lighter items such as the shipwreck and sports coverage add breadth without adding depth."
+    },
+    "headlines_used": [
+      "Russia's Rosatom targets year-end nuclear start-up at Turkey's Akkuyu",
+      "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus",
+      "Don't exclude Turkey from 'Made in Europe' plan: minister to AFP",
+      "Gençlerbirliği vs Galatasaray: Turkish Süper Lig stats & head-to-head",
+      "World’s oldest shipwreck found off coast of Turkey",
+      "Between continents: The ups and downs of life in Istanbul",
+      "VIDÉO. Turquie : le pouvoir prend le contrôle de la chaîne privée d'opposition Halk TV",
+      "MSCI Freezes Turkey Indexes as Fund Turmoil Fuels Scrutiny",
+      "Turkish authorities take over country’s most-watched news channel",
+      "Stock fixing scandal could see Turkish companies frozen out of global indexes",
+      "Teenager dies as heavy rain floods Istanbul",
+      "MSCI freezes certain Turkey index changes, warns of potential market downgrade",
+      "Istanbul’s worst floods in 80 years leave 4 dead",
+      "Yapı Kredi Kripto Selects Integral to Power Digital Asset Trading Services in Türkiye",
+      "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+      "Turkey: The longevity boom",
+      "Turquie: les images de la prise de contrôle de la principale chaîne d’opposition Halk TV par le pouvoir d'Erdogan",
+      "Turkey’s Fast-Growing Corporate Bond Market Grapples With Funds Crisis Fallout",
+      "Turkish stocks drop more than 3% after MSCI freezes certain index changes",
+      "Heavy rain causes flooding in Istanbul and 3 deaths",
+      "Turkey's Salt Lake, life in the shadow of drought",
+      "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "Police raided the major pro-opposition Halk TV channel in Istanbul, Turkey",
+      "Turquie : le pouvoir prend le contrôle de la principale télévision de l'opposition",
+      "Three Dead in Turkey as Istanbul Faces Record Rain, Flooding",
+      "Turkey floats earlier 2028 vote that would clear way for Erdogan to run again",
+      "Heavy rain and flooding in Istanbul forces closure of schools",
+      "Three dead as Istanbul sees heaviest rainfall in 80 years",
+      "Turkish police raid opposition TV station, halting live broadcasts",
+      "Police raid the major pro-opposition Halk TV channel in Turkey - DW.com",
+      "Turkey Lets Lira Fall Quicker to Avoid Future Devaluation Risk (TRY/USD)",
+      "Lonnie Walker IV to play in Turkey",
+      "Turkish authorities raid TV channel as press freedom groups warn of a crackdown",
+      "Govt takes control of Turkey's most-watched news channel",
+      "Turkey: Government raids, takes over top news channel - DW.com",
+      "Turkey Seizes Popular Opposition TV Broadcaster in Dawn Raid",
+      "Turkey to account for 20% of Europe-CIS new aircraft demand over 20 years, Airbus says",
+      "Turkish authorities raid HQ of one of country’s few broadcasters not aligned with government",
+      "Alexandra von Nahmen to head Programs for Europe, Turkey & Russia",
+      "A drone view of the damaged cars in a street after heavy rains in Istanbul",
+      "Turkey appoints trustee to run pro-opposition Halk TV amid opposition crackdown"
+    ],
+    "converted": false,
+    "relevant_headlines": 41,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Halk TV government takeover",
+        "expected": "Halk TV government takeover stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Halk TV government takeover appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Istanbul record flooding",
+        "expected": "Istanbul record flooding stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Istanbul record flooding appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "MSCI index freeze and stock-fixing scandal",
+        "expected": "MSCI index freeze and stock-fixing scandal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about MSCI index freeze and stock-fixing scandal appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Istanbul record flooding",
+        "expected": "persist",
+        "sign": "Istanbul record flooding is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Halk TV government takeover stays in the news at the same level. Istanbul record flooding stays in the news at the same level. MSCI index freeze and stock-fixing scandal stays in the news at the same level. Istanbul record flooding is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Halk TV seizure",
+        "expected": "The government-appointed trustee will assume full editorial control of Halk TV following the police raid.",
+        "direction": "escalate",
+        "sign": "Headlines will report the trustee's first editorial directives and opposition demands for the channel's restoration to independent hands."
+      },
+      "second": {
+        "subject": "MSCI index freeze",
+        "expected": "MSCI will extend the freeze on Turkish equity index changes as the stock-fixing probe widens to additional firms.",
+        "direction": "persist",
+        "sign": "Headlines will describe the prolonged index ineligibility and the addition of new companies to the investigation."
+      },
+      "third": {
+        "subject": "2028 election float",
+        "expected": "The opposition will formally reject the proposed 2028 election timeline in a coordinated public statement.",
+        "direction": "escalate",
+        "sign": "Headlines will frame the dispute as a confrontation over the president's path to another term."
+      },
+      "fade_call": {
+        "subject": "Istanbul flooding",
+        "expected": "fade",
+        "sign": "Headlines will shift to cleanup crews and infrastructure repair rather than new casualty counts."
+      },
+      "surprise": {
+        "subject": "Akkuyu nuclear start-up",
+        "expected": "Rosatom will announce a technical delay to the Akkuyu reactor start-up, pushing the target beyond its original window.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Turkey's news cycle will stay dominated by the Halk TV seizure, as the government-appointed trustee takes full editorial control and opposition parties mount protests demanding the channel's return to independent hands. The MSCI index freeze will persist, with the stock-fixing probe widening and Turkish equities under further pressure. The floated 2028 election date will move from a government hint into a formal political confrontation, as the opposition rejects the timeline and pushes for a parliamentary vote. Istanbul's record flooding will fade from the front pages as cleanup crews work and infrastructure repairs begin. A less obvious development may come from the Akkuyu nuclear plant, where a technical issue could delay the year-end start-up that Rosatom has been touting. The lira will keep its managed slide, and the US-Turkey diplomatic friction over Greece and Cyprus will simmer without a major escalation.",
+      "generated_at": "2026-10-23T15:29:36+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Halk TV government takeover",
+        "expected": "The government-appointed trustee will formally assume operational control of Halk TV while opposition lawmakers file a constitutional complaint against the seizure",
+        "direction": "escalate",
+        "sign": "Headlines naming the trustee taking office, describing a court filing or a street protest in Istanbul over the channel's loss of editorial independence"
+      },
+      "second": {
+        "subject": "MSCI index freeze and fund scandal",
+        "expected": "MSCI will issue a follow-up statement on the status of Turkish equities in its global indexes while the stock-fixing investigation produces a new round of asset freezes or corporate disclosures",
+        "direction": "escalate",
+        "sign": "Headlines reporting a specific MSCI index decision, a newly named company in the scandal, or a single-session stock-market drop matching or exceeding the previous week's loss"
+      },
+      "third": {
+        "subject": "2028 general election float",
+        "expected": "The opposition CHP will table a formal parliamentary question demanding the government confirm or deny the earlier election timeline, forcing a public response from the AKP",
+        "direction": "persist",
+        "sign": "Headlines quoting an opposition leader in parliament, a government spokesperson addressing the question, or a press conference in Ankara about the election date"
+      },
+      "fade_call": {
+        "subject": "Istanbul record flooding",
+        "expected": "fade",
+        "sign": "Headlines shifting to street-level cleanup, insurance claims, and infrastructure repair while other stories dominate the front pages"
+      },
+      "surprise": {
+        "subject": "US-Aegean diplomatic row",
+        "expected": "The Turkish foreign ministry will issue a pointed written response to the US senator's 'thuggish behavior' remark, and the US State Department will be pressed to clarify its position on Greece and Cyprus",
+        "chance": "medium"
+      },
+      "summary": "In the coming week, Turkey's political and financial drama will intensify on several fronts at once. The government's seizure of Halk TV will shift from the dramatic police raid to procedural battles, with the trustee taking formal control and opposition parties pushing legal and parliamentary challenges. The stock market will stay under pressure as MSCI weighs its next move on Turkish equities and the fund-fixing investigation surfaces additional names. The floated 2028 election date will force a public reckoning in parliament as opposition leaders demand clarity on the term calculus. The Istanbul flooding will recede as the city rebuilds, and the Akkuyu nuclear timeline will stay on the radar with Rosatom updating its year-end target. Diplomatic friction with the United States over Aegean disputes may sharpen into a formal exchange. The overall mood will stay tense, with the media crackdown and market uncertainty setting the tone for the week ahead.",
+      "generated_at": "2026-10-23T15:41:59+03:00"
+    }
+  },
+  "display": {
+    "headline": "Halk TV Seizure and Market Freeze Grip Turkey",
+    "emojis": [
+      "📰",
+      "📉",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "The Halk TV raid and trustee appointment put press freedom and the opposition media at the center of next week's story.",
+      "The MSCI index freeze and stock-fixing scandal will keep Turkish equities volatile and investors anxious.",
+      "The floated 2028 election date opens a parliamentary fight over Erdogan's term limit and the opposition's response."
+    ],
+    "tldr": "Next week brings procedural battles over the Halk TV takeover, further MSCI decisions on Turkish equities, and a parliamentary showdown over the floated 2028 election date. The Istanbul floods fade, but political and financial pressure builds.",
+    "eli5": "Turkey's government just pulled off a dramatic move: police raided the offices of Halk TV, one of the few TV channels that regularly criticizes President Erdogan, and put a government-appointed trustee in charge. Think of it as a school principal taking over the student newspaper because the editors kept printing complaints about the cafeteria food.\n\nAt the same time, a big international stock-rating agency called MSCI hit the pause button on Turkish stocks because of a trading scandal, and the government let the lira drop faster than investors expected. The government also floated the idea of moving the next election to 2028, which would let Erdogan run for another term, and the opposition is not happy about it.\n\nNext week, expect the Halk TV fight to move from TV screens to courtrooms and parliament, with lawyers and opposition politicians formally challenging the takeover. The stock market will stay shaky while MSCI decides what to do with Turkish equities, and the 2028 election question will get a formal answer on the floor of parliament.\n\nA genuine surprise would be the United States getting more involved in the Aegean dispute: a US senator already called Turkey 'thuggish' toward Greece and Cyprus, and if Washington follows up with a formal State Department statement, the diplomatic row could get much louder than anyone expected."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe text described mid-October 2026 Turkey in managed-pressure mode. Halk TV had been placed under government-appointed management, sparking legal battles and protests in Istanbul. The mayor of Izmir, an opposition stronghold, had defected to Erdoğan's AKP. Turkey was preparing to submit the Mecca Joint Defence Agreement, involving Saudi Arabia and Pakistan, to parliament. Ankara was deploying defensive military support to Saudi Arabia against Houthi strikes. The lira was under pressure as the government pursued a controlled devaluation strategy. The state Wealth Fund was moving to absorb the Islamic banking units of Ziraat Bank and Halkbank. Two journalists had been jailed over misinformation related to the fund crisis, and a draft law pending in committee would make fund managers personally liable for liquidations. New social-media rules banned children under 15 from using major platforms. The PKK had begun evacuating four camps in northern Iraq as part of a peace process. In\n- Halk TV was placed under government-appointed (regular, continuing): Halk TV was placed under government-appointed management, triggering protests and legal challenges in Istanbul.\n- The mayor of Izmir defected from (regular, continuing): The mayor of Izmir defected from the CHP to the AKP, altering the balance in Turkey's second-largest city.\n- Turkey prepared to submit the Mecca (regular, continuing): Turkey prepared to submit the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan to the Grand National Assembly.\n- The state Wealth Fund initiated a (regular, continuing): The state Wealth Fund initiated a process to absorb the Islamic banking units of Ziraat Bank and Halkbank.\n- Two journalists were jailed over alleged (regular, continuing): Two journalists were jailed over alleged misinformation related to the investment-fund crisis.\n- Drone strikes on commercial vessels near (regular, continuing): Drone strikes on commercial vessels near the Bulgarian and Romanian coasts raised Black Sea shipping risk and prompted Turkish naval warnings.\n\nRound 2026-09-15:\nAccording to the text, Turkey in early October 2026 was engulfed by an investment-fund and stock-market scandal centered on Tera Yatirim and related funds. The government began arranging interim payments of up to one million lira to trapped investors. Asset freezes were lifted on 46 companies while a former minister's assets were frozen, revealing a politically negotiated process rather than a clean judicial one. AKP deputy chair Fatma Betul Sayan Kaya resigned amid trading allegations. The social-media platform X blocked nearly 500 accounts of journalists, economists, and academics. T24 was blocked over alleged LGBTQ+ propaganda. Comedian Deniz Göktaş was convicted but released pending appeal. The Turkey-Saudi Arabia-Pakistan military pact faced its first real test as Houthi attacks continued. US naval pressure on Iranian ports drove long truck queues at Turkey's eastern border crossings. The head of the soccer refereeing body and his deputy were arrested. Erdogan met a potential next\n- Turkey began arranging interim payments of (regular, continuing): Turkey began arranging interim payments of up to one million lira to trapped investment-fund investors.\n- Asset freezes were lifted on 46 (regular, continuing): Asset freezes were lifted on 46 companies while a former minister's assets were frozen in the fund scandal.\n- AKP deputy chair Fatma Betul Sayan (regular, continuing): AKP deputy chair Fatma Betul Sayan Kaya resigned amid trading allegations.\n- X blocked nearly 500 accounts of (regular, continuing): X blocked nearly 500 accounts of Turkish journalists, economists, and academics; T24 was blocked over alleged LGBTQ+ propaganda.\n- The Turkey-Saudi Arabia-Pakistan military pact was (regular, continuing): The Turkey-Saudi Arabia-Pakistan military pact was tested by ongoing Houthi attacks.\n- US naval pressure on Iranian ports (regular, continuing): US naval pressure on Iranian ports drove long truck queues at Turkey's eastern border.\n- The head of Turkey's soccer refereeing (regular, continuing): The head of Turkey's soccer refereeing body and his deputy were arrested.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

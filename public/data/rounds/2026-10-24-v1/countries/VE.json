@@ -1,0 +1,384 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "VE",
+  "name": "Venezuela",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T00:31:45+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Venezuela's opposition held its first national protest in nearly two years, with supporters in Caracas and Valencia demanding a date for presidential elections in 2027. The opposition alliance reaffirmed Nobel laureate Maria Corina Machado as its leader while awaiting her return. On the economic front, the US deepened its oil ties with Venezuela: the Treasury dropped the country from its list of outbound investment restrictions, Secretary of State Rubio pushed India's Reliance to refine more Venezuelan crude, and acting president Delcy Rodriguez announced expectations of nearly $76 billion in oil investment over five years. Eni advanced a heavy oil project toward year-end approval, and Weatherford signaled a return to peak Venezuelan revenue. The US also invoked a rarely used torture statute in a revamped criminal case against President Maduro, and lifted sanctions on the National Assembly leader. Richard Branson publicly argued that Venezuela needs elections to attract serious investment. The week blended political mobilization with a visible thaw in US-Venezuela economic relations.",
+    "key_events": [
+      {
+        "event": "Opposition supporters held the first national protest in nearly two years, demanding a date for 2027 presidential elections in Caracas and Valencia.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "The US Treasury removed Venezuela from its list of countries facing outbound US investment restrictions.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Venezuela's acting president announced expectations of nearly $76 billion in oil investment over the next five years.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Secretary of State Rubio pushed India's Reliance Industries to produce and refine more Venezuelan crude oil.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The US invoked a rarely used torture statute in a revamped criminal case against President Nicolas Maduro.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "The opposition alliance reaffirmed Maria Corina Machado as its leader while awaiting her return.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "The US lifted sanctions on Venezuela's National Assembly leader.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Eni advanced its Venezuelan heavy oil project and targeted year-end regulatory approval.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Richard Branson publicly stated that Venezuela needs elections to draw serious foreign investment.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Latin American airlines began eyeing a return to Venezuelan routes as bilateral ties thaw.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🛢️",
+      "✊",
+      "🗳️"
+    ],
+    "emoji_reasons": [
+      "Oil dominated the week: the US dropped investment restrictions, Rubio pushed Reliance to refine more crude, and Venezuela projected $76 billion in oil investment (headlines 5, 17, 21, 25, 27).",
+      "The opposition held its first national protest in nearly two years, demanding a date for presidential elections in Caracas and Valencia (headlines 2, 8, 9).",
+      "The opposition reaffirmed Machado as its leader and the entire protest movement centered on demanding 2027 elections (headlines 1, 3, 13)."
+    ],
+    "developments": [
+      {
+        "subject": "Opposition protests and election demands",
+        "what_happened": "Supporters rallied in Caracas and Valencia in the first national protest in nearly two years, demanding a date for 2027 presidential elections.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          8,
+          9
+        ]
+      },
+      {
+        "subject": "US-Venezuela oil relationship deepening",
+        "what_happened": "The US Treasury dropped outbound investment restrictions, Rubio pushed Reliance to refine more Venezuelan crude, and multiple energy firms advanced projects in the country.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          7,
+          10,
+          12,
+          14,
+          16,
+          17,
+          19,
+          24,
+          25
+        ]
+      },
+      {
+        "subject": "Oil investment expectations",
+        "what_happened": "Venezuela's acting president announced expectations of nearly $76 billion in oil investment over five years, and HSBC cautioned the energy investment story is long-term.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          21,
+          27
+        ]
+      },
+      {
+        "subject": "Machado leadership and return",
+        "what_happened": "The opposition alliance reaffirmed Maria Corina Machado as its leader while awaiting her physical return to Venezuela.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          3,
+          13
+        ]
+      },
+      {
+        "subject": "Maduro torture case",
+        "what_happened": "The US invoked a rarely used torture statute in a revamped criminal case against President Maduro.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          23
+        ]
+      },
+      {
+        "subject": "Sanctions relief on National Assembly leader",
+        "what_happened": "The US lifted sanctions on Venezuela's National Assembly leader, part of a broader thaw in economic relations.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "Business community calling for elections",
+        "what_happened": "Richard Branson publicly argued that Venezuela needs elections to attract serious foreign investment.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          18,
+          22
+        ]
+      },
+      {
+        "subject": "Shrimp king jailed",
+        "what_happened": "Venezuela's shrimp industry magnate, who had sought to recover his $700 million firm, was placed in jail.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "Airlines eyeing return",
+        "what_happened": "Latin American airlines began exploring a return to Venezuelan routes as bilateral ties improve, though operational hurdles remain.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          26
+        ]
+      },
+      {
+        "subject": "Qatar bridge loan for IDB arrears",
+        "what_happened": "Venezuela sought a Qatar bridge loan to clear its arrears with the Inter-American Development Bank.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          20
+        ]
+      },
+      {
+        "subject": "Earthquakes expose infrastructure fragility",
+        "what_happened": "Recent seismic activity revealed the precarious construction quality even in Caracas's wealthier neighborhoods.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          4
+        ]
+      }
+    ],
+    "gone": [
+      "Space Force weapons display",
+      "Chile gang sentence"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the political, economic, and diplomatic dimensions well, with strong representation of the oil-investment story and opposition mobilization, though domestic social and security news beyond the Maduro case is thin."
+    },
+    "headlines_used": [
+      "Awaiting Machado's return, Venezuela opposition looks ahead to elections",
+      "Opposition supporters rally in Caracas, demanding a date for presidential elections",
+      "Venezuela opposition alliance reaffirms Nobel laureate Machado as leader",
+      "Venezuela : la précarité des quartiers riches au révélateur des séismes",
+      "Pentagon’s Venezuelan Oil Partner Nabep Adds Rig, Boosts Output",
+      "Venezuela’s Shrimp King Wanted His $700 Million Firm Back. Now He’s in Jail.",
+      "Venezuelan energy investment is a much longer-term story: HSBC",
+      "Venezuelans demand elections in first national protest in nearly two years",
+      "Supporters of Venezuela's opposition participate in a demonstration demanding elections in 2027, in Valencia",
+      "Trump’s math on US deal for Venezuelan oil doesn't add up, experts say. The bad data began years ago",
+      "US lifts sanctions on Venezuela's National Assembly leader",
+      "US Eyes India’s Reliance to Refine Venezuelan Oil",
+      "Venezuela opposition renews support for Maria Corina Machado as leader - Al Jazeera",
+      "Eni advances Venezuelan heavy oil project, eyes year-end approval",
+      "Venezuela claims to have 300 billion barrels of oil in the ground. But experts say that's a stretch",
+      "Weatherford Eyes Return to Venezuela Revenue Peak, CEO Says",
+      "US Treasury drops Venezuela from countries facing outbound US investment restrictions",
+      "Richard Branson Says Venezuela Needs Elections to Draw Investment",
+      "Watch Rubio to Discuss Venezuelan Crude with Ambani",
+      "Venezuela eyes Qatar bridge loan to clear IDB arrears, sources say",
+      "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
+      "Venezuela to attract investors after elections, Branson says",
+      "US invokes rarely used torture law in revamped case against Maduro",
+      "Venezuela oilfield hiring picks up as first wave of investment builds",
+      "Rubio to encourage India's Reliance to produce, refine more Venezuelan oil",
+      "Latin American airlines eye Venezuela return as ties thaw, hurdles remain",
+      "Venezuela expects nearly $76 billion in oil investment over five years, acting president says"
+    ],
+    "converted": false,
+    "relevant_headlines": 27,
+    "unscorable": true,
+    "unscorable_reason": "only 27 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Opposition protests and election demands",
+        "expected": "Opposition protests and election demands stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Opposition protests and election demands appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US-Venezuela oil relationship deepening",
+        "expected": "US-Venezuela oil relationship deepening stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-Venezuela oil relationship deepening appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Oil investment expectations",
+        "expected": "Oil investment expectations stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Oil investment expectations appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Business community calling for elections",
+        "expected": "persist",
+        "sign": "Business community calling for elections is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Opposition protests and election demands stays in the news at the same level. US-Venezuela oil relationship deepening stays in the news at the same level. Oil investment expectations stays in the news at the same level. Business community calling for elections is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Opposition election rallies",
+        "expected": "The opposition will issue a formal written demand setting a specific deadline for the government to announce a 2027 presidential election date.",
+        "direction": "escalate",
+        "sign": "A headline reporting a new demonstration in a different city and a written opposition communiqué listing concrete election-timeline conditions."
+      },
+      "second": {
+        "subject": "Venezuela oil investment deals",
+        "expected": "At least one of the pending energy projects will reach a signed agreement or regulatory milestone within the week.",
+        "direction": "persist",
+        "sign": "A headline announcing a signed memorandum, a regulatory filing, or a board approval tied to a named energy company's Venezuelan operations."
+      },
+      "third": {
+        "subject": "Machado return to Venezuela",
+        "expected": "The opposition will announce a concrete plan or date for Maria Corina Machado's physical return to Caracas.",
+        "direction": "escalate",
+        "sign": "A headline stating that Machado has arrived in Caracas or that the opposition alliance set a specific date for her homecoming."
+      },
+      "fade_call": {
+        "subject": "Shrimp magnate detention",
+        "expected": "fade",
+        "sign": "The story disappears from the headlines with no new court date or business development reported."
+      },
+      "surprise": {
+        "subject": "Direct opposition-government talks",
+        "expected": "The opposition and the Rodriguez government will hold their first direct negotiation session in months, breaking from the protest-only strategy.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, Venezuela's political and economic stories will advance on parallel tracks. The opposition will build on its first national protest in two years, organizing a second rally and issuing a formal written demand for a 2027 election date. Maria Corina Machado's return to Caracas will dominate opposition messaging, with the alliance announcing a concrete timeline for her homecoming. On the economic side, the US-Venezuela oil thaw will produce at least one signed agreement or regulatory milestone, as the Reliance refining push and the Eni heavy-oil project move to the next procedural step. The revamped torture case against Maduro will see a procedural filing or a court-scheduled date. The shrimp magnate's detention will drop out of the headlines, and the Qatar bridge loan for IDB arrears will be confirmed or shelved. Overall, the week will show a government under pressure from both the streets and the boardroom.",
+      "generated_at": "2026-10-25T00:17:40+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Opposition election demand",
+        "expected": "The Venezuelan opposition will issue a formal written demand setting a specific timeline for 2027 presidential elections, building on the momentum of the first national protest in nearly two years.",
+        "direction": "escalate",
+        "sign": "A headline will reference the opposition issuing a concrete election timetable or formal demand document rather than another rally announcement"
+      },
+      "second": {
+        "subject": "Reliance-Venezuela oil framework",
+        "expected": "Secretary of State Rubio and Reliance will announce a framework for Indian refining of Venezuelan crude following their scheduled discussion in Washington.",
+        "direction": "escalate",
+        "sign": "A headline will name the Indian energy company and reference a specific refining or production commitment involving Venezuelan crude"
+      },
+      "third": {
+        "subject": "Maduro torture case filing",
+        "expected": "The revamped criminal case against Maduro will see its first formal procedural filing under the newly invoked torture statute in the federal court.",
+        "direction": "persist",
+        "sign": "A headline will reference a court filing or hearing date in the torture case without announcing a verdict or new charges"
+      },
+      "fade_call": {
+        "subject": "Shrimp king jailed",
+        "expected": "fade",
+        "sign": "No new headline will reference the shrimp magnate's legal status or his company's ownership dispute"
+      },
+      "surprise": {
+        "subject": "Machado's return to Venezuela",
+        "expected": "María Corina Machado will physically return to Venezuela, ending her exile and joining the opposition's push for a 2027 election date.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Venezuela, the opposition's first national protest in nearly two years will generate its most concrete political demand: a formal written timeline for 2027 presidential elections. The opposition alliance, which reaffirmed María Corina Machado as its leader, will push the government to commit to a specific date while Machado remains in exile awaiting her return. On the economic front, Secretary of State Rubio's scheduled discussion with India's Reliance will produce a framework for refining Venezuelan crude, adding to the wave of investment announcements from Eni, Weatherford, and the US Treasury's removal of outbound restrictions. In New York, the revamped torture case against Maduro will advance procedurally under the newly invoked statute. The shrimp magnate's jail story will fade from coverage. A medium-chance surprise is Machado's physical return to Caracas, which would transform the opposition's negotiating position overnight.",
+      "generated_at": "2026-10-25T00:31:45+03:00"
+    }
+  },
+  "display": {
+    "headline": "Venezuela Opposition Demands Election Date as Oil Deals Accelerate",
+    "emojis": [
+      "🗳️",
+      "🛢️",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "The opposition's push for a 2027 election date is the dominant political story of the week",
+      "US-Venezuela oil investment deals and the Reliance refining framework drive the economic narrative",
+      "The revamped torture case against Maduro in federal court is the key legal thread"
+    ],
+    "tldr": "Venezuela's opposition will formalize its demand for a 2027 election date following its first national protest in two years. Rubio and Reliance will announce a crude-refining framework, deepening US-Venezuela oil ties. Maduro's torture case will advance procedurally in federal court.",
+    "eli5": "Venezuela's opposition just held its first big protest in almost two years. People in Caracas and Valencia marched and demanded that the government set a date for the next presidential election, which is supposed to happen in 2027. Their leader, María Corina Machado, is still living outside the country, but everyone agrees she is in charge. Next week, the opposition will probably put their demand in writing and give the government a specific timeline to work with. This is the election demand story.\n\nAt the same time, a lot of money is flowing into Venezuelan oil. The US dropped restrictions that made it hard for American companies to invest there, and the secretary of state is about to sit down with a big Indian oil company to talk about refining Venezuelan crude. Other companies like Eni and Weatherford are also ramping up their operations. This is the oil investment story, and it is the biggest economic thread in the country right now.\n\nIn a federal court, a criminal case against former president Maduro is being rebuilt using a rarely used torture law. It is not going to end next week, but the lawyers will be filing papers and the judge will be setting the next procedural steps.\n\nThe big surprise would be Machado actually flying back to Venezuela. If she lands in Caracas, the whole political game changes because she can now stand in front of her supporters and negotiate directly with the government instead of working from abroad."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 27 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring this window, the dominant story was the continued legal proceedings against former President Nicolás Maduro in New York, where he and his wife pleaded not guilty to US charges of conspiracy to torture. The judge cut Maduro off as he attempted to deliver a personal statement, and he publicly called the new allegations false. Simultaneously, Washington signaled a thaw in bilateral relations by lifting sanctions on Jorge Rodríguez, the head of Venezuela's National Assembly, a move described by multiple outlets as a new gesture of rapprochement. On the economic front, Venezuela's acting president announced expectations of nearly $76 billion in oil investment over the next five years, while the World Bank indicated it could extend up to $5 billion in loans to the country. The top economic adviser stressed that debt restructuring was a priority and that a debt sustainability analysis would be published very soon. Centerview was confirmed\n- Maduro torture plea (dominant, continuing): Maduro and his wife pleaded not guilty to US conspiracy-to-torture charges in New York, with the judge cutting off his personal statement and Maduro calling the allegations false.\n- Sanctions lift on Rodríguez (regular, new): The US lifted sanctions on Jorge Rodríguez, head of Venezuela's National Assembly, in a gesture described as a new signal of rapprochement.\n- Oil investment expectations (regular, new): Venezuela's acting president said the country expects nearly $76 billion in oil investment over the next five years.\n- Debt restructuring and World Bank loans (regular, new): The World Bank indicated up to $5 billion in possible loans, and Venezuela's adviser said a debt sustainability analysis would be published very soon.\n- Machado polls and negotiations (occasional, continuing): María Corina Machado topped the latest polls as US-backed negotiations in Venezuelan politics resumed.\n- Space Force weapons display (occasional, new): The US Space Force showed weapons it said were used in operations involving Iran and Venezuela.\n- Chile gang sentence (occasional, new): Chile sentenced a Venezuelan gang member to 20 years for the kidnapping and killing of a dissident.\n\nRound 2026-10-02:\nVenezuela entered the week under interim leader Delcy Rodriguez following Maduro's removal, with Maria Corina Machado still in exile and the opposition holding rallies and motorcades demanding her safe return. A Caracas energy summit drew executives from Eni, Repsol, Qatar's UCC, GeoPark, Glencore, and Peabody, signalling foreign capital's renewed interest. The IMF explored establishing a local office. The government publicly acknowledged misuse of the anti-hate law. Venezuela handed an FBI-wanted suspect to Washington. Power outages triggered tire-burning protests in several states, and the 100-day anniversary of twin earthquakes kept housing and compensation demands alive in La Guaira. In Washington, former congressman David Rivera's sentencing and Senate Democrats' challenge to the Pentagon's proposed equity stake in Venezuelan oil turned the energy file into a domestic political fight. Claudia Macero returned from exile. The overall picture was a government projecting openness and deal momentum while retaining firm political control over the pace\n- The opposition held sustained rallies and (regular, continuing): The opposition held sustained rallies and motorcades demanding Maria Corina Machado's safe return and a presidential election timetable.\n- A Caracas energy summit brought executives (regular, continuing): A Caracas energy summit brought executives from Eni, Repsol, Qatar, GeoPark, Glencore, and Peabody to discuss gas, diluent, coal, and new fields.\n- Senate Democrats challenged the Pentagon's proposed (regular, continuing): Senate Democrats challenged the Pentagon's proposed equity stake in Venezuelan oil following David Rivera's sentencing.\n- Power outages and the 100-day earthquake (regular, continuing): Power outages and the 100-day earthquake anniversary triggered street protests and renewed housing-compensation demands.\n- Power outages and the 100-day earthquake (again) (regular, continuing): Power outages and the 100-day earthquake anniversary triggered street protests and renewed housing-compensation demands.\n- Power outages and the 100-day earthquake (again) (again) (regular, continuing): Power outages and the 100-day earthquake anniversary triggered street protests and renewed housing-compensation demands.\n",
+    "PREVIOUS_FORECAST": "Lead: Maduro torture trial. Expected: A federal judge in New York will order the defense team to begin turning over documents for the discovery phase of the case against Maduro and his wife. Direction: persist. Sign: A headline will reference a court filing or a defense team motion without announcing new charges or a verdict\nSecond: Venezuelan debt sustainability plan. Expected: The Venezuelan government will publish its debt sustainability analysis, giving creditors and the World Bank the framework they need to finalize the lending package. Direction: escalate. Sign: A headline will name the World Bank or a creditor group and reference a specific lending milestone rather than a general investment expectation\nThird: US sanctions relief round two. Expected: Washington will lift a second tranche of sanctions targeting Venezuelan financial institutions, with a State Department statement naming the specific entities for relief. Direction: escalate. Sign: A headline will name a new Venezuelan official or institution as the target of sanctions relief without referencing the court case in New York\nFade call: Space Force weapons display. Expected: fade. Sign: The display will drop from coverage and no new operational footage or briefing will surface in the next week\nSurprise (chance medium): Maduro bail motion. Maduro's defense team will file a formal motion for release on bail in the New York federal court, forcing the judge to weigh the political and logistical implications of freeing a former head of state mid-trial.\nSummary: Next week in Venezuela, the Maduro torture trial will move into its procedural phase, with a federal judge in New York setting the discovery schedule for the case against the former president and his wife. On the economic front, the government will publish its long-awaited debt sustainability analysis, giving creditors and the World Bank the concrete framework needed to finalize the lending package that accompanies the $76 billion oil investment outlook. In Washington, sanctions-relief momentum will extend to a second tranche targeting Venezuelan financial institutions, while María Corina Machado's opposition bloc pushes for a concrete election timetable in the US-backed talks. The Space Force weapons display that made headlines this week will fade from coverage. A medium-chance surprise would be Maduro's lawyers filing for bail, injecting a new layer of drama into the already politically charged trial.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

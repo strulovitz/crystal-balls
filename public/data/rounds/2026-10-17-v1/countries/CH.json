@@ -1,0 +1,369 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "CH",
+  "name": "Switzerland",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T07:27:02+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "The dominant story this week was the resolution of the Credit Suisse bonus dispute: Swiss top court definitively ruled against former CS bankers who sought to recover bonuses stripped after the UBS takeover, closing a long legal battle. In the same week Credit Suisse secured 800 million dollars from insurers in the Greensill settlement. These rulings appeared to sharpen a broader regulatory strain: multiple reports indicated UBS was actively exploring the option of relocating its headquarters outside Switzerland if capital and regulatory rules tightened further, a move a domestic competitor warned would be damaging for the country. In Zurich, FIFA president Gianni Infantino faced rebelling members following a failed attempt to sell a World Cup-related stake. On the economic front, Switzerland's finance minister warned that steep European debt levels risked triggering a new euro-area crisis, and the federal government approved emergency reserve fuel withdrawals at Zurich Airport amid a supply shortage. A Swiss journalist faced the prospect of a criminal court sentence for having exposed a top banker. In lighter news, Novak Djokovic accepted a wild-card invitation to the Swiss Indoors, a Swiss solar-powered aircraft's altitude record was officially confirmed, Swisscom prevailed in an antitrust appeal over its fiber-network expansion, and the country's trade chief clarified that a recent Rolex-and-gold gift was for the United States rather than a personal gesture toward the president.",
+    "key_events": [
+      {
+        "event": "UBS explored the possibility of moving its headquarters abroad if Swiss capital and regulatory rules proved too stringent.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "The Swiss top court rejected the final bid by former Credit Suisse bankers to recover bonuses stripped after the UBS takeover.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Switzerland's finance minister warned that the level of European sovereign debt could trigger a new euro crisis.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Swiss government approved emergency reserve fuel withdrawals to cover a shortage at Zurich Airport.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "FIFA president Gianni Infantino met with rebelling members in Zurich after a failed attempt to sell a World Cup-related stake.",
+        "date": "2026-10-14",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "A Swiss journalist faced the risk of a criminal court sentence for having exposed a top banker.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Swisscom won an appeal against a Swiss antitrust fine related to its fiber-network expansion.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Credit Suisse secured 800 million dollars from insurers in the Greensill Trade Finance settlement.",
+        "date": "2026-10-14",
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "Novak Djokovic accepted a wild-card invitation to compete at the upcoming Swiss Indoors tournament.",
+        "date": "2026-10-15",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "The altitude record set by a Swiss solar-powered aircraft was officially confirmed.",
+        "date": "2026-10-14",
+        "domain": "technology",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "society",
+      "technology"
+    ],
+    "emojis": [
+      "🏦",
+      "⚖️",
+      "⛽"
+    ],
+    "emoji_reasons": [
+      "🏦 captures the week's dominant thread: UBS mulling a departure from Switzerland and the Credit Suisse bonus saga, per headlines 6, 11, 14, 16, and 18.",
+      "⚖️ reflects the multiple court rulings, including the CS bankers losing their final bonus bid and the journalist facing a possible sentence, per headlines 1, 6, and 8.",
+      "⛽ highlights the Zurich Airport fuel shortage that prompted the government to approve emergency reserve withdrawals, per headline 17."
+    ],
+    "developments": [
+      {
+        "subject": "UBS exploring departure from Switzerland",
+        "what_happened": "Multiple reports indicated UBS was weighing the option of relocating its headquarters abroad if Swiss capital and regulatory rules tightened, a move a domestic competitor warned would harm the country.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          11,
+          14,
+          16,
+          18
+        ]
+      },
+      {
+        "subject": "Credit Suisse bonus court ruling",
+        "what_happened": "The Swiss top court definitively rejected former Credit Suisse bankers' final bid to recover bonuses stripped after the UBS takeover, ending a prolonged legal battle.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          6,
+          8
+        ]
+      },
+      {
+        "subject": "Credit Suisse Greensill settlement",
+        "what_happened": "Credit Suisse secured 800 million dollars from insurers as part of the Greensill Trade Finance settlement.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          13
+        ]
+      },
+      {
+        "subject": "Zurich Airport fuel shortage",
+        "what_happened": "The Swiss government approved emergency reserve fuel withdrawals to address a fuel shortage at Zurich Airport.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          17
+        ]
+      },
+      {
+        "subject": "Finance minister euro-debt warning",
+        "what_happened": "Switzerland's finance minister warned that the current level of European sovereign debt posed a risk of triggering a new euro-area crisis.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "FIFA Zurich meeting",
+        "what_happened": "FIFA president Gianni Infantino faced rebelling members in Zurich following the failure of a planned World Cup stake sale.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          9
+        ]
+      },
+      {
+        "subject": "Journalist court case",
+        "what_happened": "A Swiss journalist who had exposed a top banker faced the risk of a criminal court sentence.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Swisscom antitrust appeal",
+        "what_happened": "Swisscom prevailed on appeal against a Swiss antitrust fine connected to its fiber-network expansion plans.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19
+        ]
+      },
+      {
+        "subject": "Djokovic at Swiss Indoors",
+        "what_happened": "Novak Djokovic accepted a wild-card invitation to compete at the upcoming Swiss Indoors tennis tournament in Basel.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2
+        ]
+      },
+      {
+        "subject": "Solar-plane altitude record",
+        "what_happened": "The altitude record previously set by a Swiss solar-powered aircraft was officially confirmed.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Swiss trade chief on US gifts",
+        "what_happened": "Switzerland's trade chief stated that a recent Rolex-and-gold gift was intended for the United States rather than as a personal gesture toward the president.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15
+        ]
+      },
+      {
+        "subject": "Swiss tourist jailed in Bali",
+        "what_happened": "A Swiss tourist was jailed in Bali for insulting a Hindu religious holiday during a trip abroad.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          4
+        ]
+      }
+    ],
+    "gone": [
+      "Guy Parmelin announced his resignation from",
+      "The Court of Arbitration for Sport",
+      "UEFA leaders met in Berlin to",
+      "Swiss glaciers lost nearly 20 percent",
+      "The UN Human Rights Council in"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide solid coverage of the week's main economic and banking stories but are thin on domestic politics and foreign affairs beyond the finance minister's euro-debt remark."
+    },
+    "headlines_used": [
+      "Swiss journalist risks court sentence for exposing top banker",
+      "Novak Djokovic will play at the upcoming Swiss Indoors after accepting a wild-card invitation",
+      "Swiss solar-powered plane altitude record confirmed",
+      "Swiss tourist jailed in Bali for insulting Hindu holiday",
+      "Suisse en scène - Thierry Romanens",
+      "Credit Suisse Bankers Lose Final Bid to Win Back Bonuses at Swiss Top Court",
+      "Swiss Life Holding AG ADR (SZLMY) Stock Price Today - The Wall Street Journal",
+      "Credit Suisse bankers lose bid to win back stripped bonuses following takeover by UBS",
+      "Infantino faces FIFA rebels in Zurich after failed World Cup stake sale",
+      "Swiss finance minister warns steep European debt could trigger euro crisis",
+      "A UBS Competitor Says Its Departure Would Be Bad for Switzerland",
+      "Swisscom AG (SWZCF) Stock Price Today - The Wall Street Journal",
+      "Credit Suisse secured $800mn from insurers in Greensill settlement",
+      "UBS exploring options abroad in case Swiss rules prove intolerable, sources say",
+      "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
+      "A Swiss Banking Giant Thinks the Unthinkable: Moving Out of Switzerland",
+      "Zurich Airport faces fuel shortage: Swiss government approves reserve withdrawals",
+      "UBS mulls moving headquarters from Switzerland if capital rules tighten, WSJ reports",
+      "Swisscom Wins Appeal Against Swiss Antitrust Fine Over Fiber Network Expansion"
+    ],
+    "converted": false,
+    "relevant_headlines": 19,
+    "unscorable": true,
+    "unscorable_reason": "only 19 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "UBS exploring departure from Switzerland",
+        "expected": "UBS exploring departure from Switzerland stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about UBS exploring departure from Switzerland appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Credit Suisse bonus court ruling",
+        "expected": "Credit Suisse bonus court ruling stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Credit Suisse bonus court ruling appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Credit Suisse Greensill settlement",
+        "expected": "Credit Suisse Greensill settlement stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Credit Suisse Greensill settlement appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Credit Suisse Greensill settlement",
+        "expected": "persist",
+        "sign": "Credit Suisse Greensill settlement is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. UBS exploring departure from Switzerland stays in the news at the same level. Credit Suisse bonus court ruling stays in the news at the same level. Credit Suisse Greensill settlement stays in the news at the same level. Credit Suisse Greensill settlement is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "UBS headquarters relocation",
+        "expected": "UBS will issue a formal public statement confirming it is actively evaluating alternative domicile options outside Switzerland.",
+        "direction": "escalate",
+        "sign": "A headline reporting UBS's confirmed review of its Swiss headquarters status following a sharp public rebuke from a domestic competitor."
+      },
+      "second": {
+        "subject": "Zurich Airport fuel shortage",
+        "expected": "The fuel shortage at Zurich Airport will broaden to a national supply crisis requiring coordinated government action across multiple Swiss airports.",
+        "direction": "escalate",
+        "sign": "A headline about the government convening an emergency fuel-supply meeting after the Zurich Airport shortage spreads to other Swiss airports."
+      },
+      "third": {
+        "subject": "Swiss journalist court sentence",
+        "expected": "The criminal court will hand down its sentence to the Swiss journalist who exposed a top banker.",
+        "direction": "escalate",
+        "sign": "A headline reporting the sentencing of the journalist who exposed a top banker, drawing sharp reaction from the banking establishment."
+      },
+      "fade_call": {
+        "subject": "Credit Suisse bonus ruling",
+        "expected": "fade",
+        "sign": "The story will be absent from the next set of Swiss headlines or appear only as a brief financial-market aside in passing."
+      },
+      "surprise": {
+        "subject": "FIFA structural response",
+        "expected": "Gianni Infantino will announce an extraordinary general assembly or binding membership vote to address the rebellion that erupted in Zurich.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, the UBS headquarters story will move from speculation to a formal corporate statement confirming a review of its Swiss domicile, sharpening pressure on the regulator to clarify capital rules. The Zurich Airport fuel shortage will spread beyond a single terminal, forcing the government to coordinate a wider supply response. The criminal court will deliver its sentence to the journalist who exposed a top banker, closing that chapter. The Credit Suisse bonus dispute will fade as the top court's final decision settles the matter. Meanwhile, FIFA tension will escalate as Gianni Infantino proposes a formal membership vote to address the Zurich rebellion. The Swisscom fiber-network victory will give the company a green light to accelerate its buildout. Overall, the mood will shift from tense speculation toward concrete decisions and verdicts.",
+      "generated_at": "2026-10-23T07:12:15+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "UBS relocation threat",
+        "expected": "The Swiss government will announce a formal regulatory review of capital rules in direct response to UBS's relocation threat, initiating a public consultation process before the bank commits to a move.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the finance minister or the Swiss government naming a specific regulatory step or consultation on capital rules in response to UBS's stated position"
+      },
+      "second": {
+        "subject": "Journalist criminal verdict",
+        "expected": "The criminal court will hand down its verdict on the Swiss journalist who exposed a top banker, delivering either a sentence or an acquittal.",
+        "direction": "persist",
+        "sign": "Headlines will state the criminal court's verdict on the journalist, the outcome of the case, and the reaction from the parties involved"
+      },
+      "third": {
+        "subject": "Zurich Airport fuel shortage",
+        "expected": "The fuel shortage at Zurich Airport will force additional flight cancellations as the approved reserve withdrawals prove insufficient to cover weekly demand.",
+        "direction": "persist",
+        "sign": "Headlines will report flight disruptions at Zurich Airport or other Swiss airports and the status of fuel deliveries from suppliers"
+      },
+      "fade_call": {
+        "subject": "Credit Suisse bonus ruling",
+        "expected": "fade",
+        "sign": "Headlines will reference the Credit Suisse bonus ruling only as background context in broader banking or regulatory coverage"
+      },
+      "surprise": {
+        "subject": "Federal Council succession process",
+        "expected": "The Swiss parliament will open the formal candidate-selection process for Guy Parmelin's successor on the Federal Council, naming a committee or announcing a timeline for the vote.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Switzerland, the UBS relocation threat will dominate as the government is forced to respond to the bank's public questioning of capital rules. Expect the finance minister to announce a formal regulatory step, whether a consultation, an amendment proposal, or a signal of flexibility, to keep UBS from committing to a move abroad. In the courts, the verdict on the journalist who exposed a top banker will be delivered, and the outcome will be read as a test of press freedom in the financial sector. At Zurich Airport, the fuel shortage will force further schedule disruptions as reserve stocks are drawn down. The Credit Suisse bonus saga will drop from front pages, leaving UBS's uncertain future as the central question. A medium-chance surprise: parliament may open the formal process to name Guy Parmelin's successor, injecting a new political dimension into an already tense week.",
+      "generated_at": "2026-10-23T07:27:02+03:00"
+    }
+  },
+  "display": {
+    "headline": "UBS Relocation Threat Dominates as Swiss Court Tests Press Freedom",
+    "emojis": [
+      "🏦",
+      "⚖️",
+      "⛽"
+    ],
+    "emoji_reasons": [
+      "UBS's potential relocation and the ongoing capital-rules debate are the week's dominant financial story.",
+      "The criminal court verdict on the journalist frames the justice dimension of the week.",
+      "The Zurich Airport fuel shortage and government reserve withdrawals add operational urgency."
+    ],
+    "tldr": "Switzerland's government will be forced to act on UBS's relocation threat with a formal regulatory response. A criminal court will deliver its verdict on the journalist who exposed a top banker. Zurich Airport's fuel shortage will keep disrupting flights.",
+    "eli5": "Here is what is happening in Switzerland right now. The big story is that UBS, the giant bank, is seriously thinking about moving its headquarters out of the country. It is angry about capital rules the government set after it took over Credit Suisse, and it is telling the world it might leave. Think of it as your school threatening to move to a different town because it does not like the rules.\n\nAt the same time, a journalist who did the right thing by exposing a shady banker is about to get her court verdict. If she gets sentenced, it could be seen as punishing people for telling the truth about powerful people.\n\nWhat will probably happen next: the government will have to make a move on the UBS situation, either softening the rules to keep the bank or toughening its stance and risking its departure. And the fuel problem at Zurich Airport will keep causing flight chaos for travelers.\n\nWhat would be a surprise: the parliament suddenly announcing who will replace the finance minister who just resigned, which would add a whole new political layer to an already stressful week."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, in the week of approximately October 8 through 14, 2026, several major storylines converged on Switzerland. Guy Parmelin announced his resignation from the Federal Council effective year-end, just after a high-profile visit to India where he signed memoranda of understanding with Prime Minister Modi on mobility, transport, science, and innovation. UBS faced sustained investor pressure over Swiss capital rules, with CEO Sergio Ermotti arguing the bank needs a US presence to compete globally. The Swiss franc rallied amid French budget worries, European bond stress, and weak US jobs data. The Court of Arbitration for Sport in Lausanne prepared to rule on the Senegal-Morocco Africa Cup of Nations title appeal. UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino, while Norway filed ethics complaints against him. The organizing president of the Crans-Montana Alpine World Championships was suspended pending a fraud trial. Swiss\n- Guy Parmelin announced his resignation from (regular, continuing): Guy Parmelin announced his resignation from the Federal Council effective end of 2026.\n- UBS faced sustained investor pressure over (regular, continuing): UBS faced sustained investor pressure over Swiss capital rules and its global structure.\n- The Court of Arbitration for Sport (regular, continuing): The Court of Arbitration for Sport in Lausanne prepared a ruling in the Senegal-Morocco AFCON title appeal.\n- UEFA leaders met in Berlin to (regular, continuing): UEFA leaders met in Berlin to organize a challenge to FIFA president Gianni Infantino.\n- Swiss glaciers lost nearly 20 percent (regular, continuing): Swiss glaciers lost nearly 20 percent of their mass in five years per a new report.\n- The UN Human Rights Council in (regular, continuing): The UN Human Rights Council in Geneva adopted a resolution demanding an immediate ceasefire in Sudan.\n\nRound 2026-09-15:\nThe text described a politically active week in Switzerland anchored by a federal popular vote on constitutional neutrality rules, which Swiss polling suggested would be rejected, preserving the government's flexibility on NATO cooperation and sanctions. Parliament was engaged in heated debate over UBS capital adequacy requirements, with business groups lobbying for a lighter AT1 compromise after the UBS chairman warned the bank might reconsider its Swiss base. Russia placed Nestlé's Russian operations under temporary state administration, prompting Swiss diplomatic criticism and coordination efforts with the company. Swiss football captain Granit Xhaka admitted using a forged vaccination document, withdrew from the national squad, and faced a criminal investigation in Lucerne. Thousands protested over climate inaction following a European Court of Human Rights ruling against Switzerland. The government rejected a right-wing initiative for systematic border checks and a 5,000-person asylum cap. Corporate news ran positive: On Holding announced a billion-dollar buyback, Revolut\n- Swiss voters are set to reject (regular, continuing): Swiss voters are set to reject constitutional rules tightening neutrality and limiting NATO cooperation and sanctions flexibility.\n- Parliament debates and is expected to (regular, continuing): Parliament debates and is expected to vote on UBS AT1 capital adequacy rules amid lobbying from business groups and a threat from the UBS chairman.\n- Russia places Nestlé's Russian operations under (regular, continuing): Russia places Nestlé's Russian operations under temporary state administration, prompting Swiss diplomatic criticism.\n- Granit Xhaka admits using a forged (regular, continuing): Granit Xhaka admits using a forged vaccination document, withdraws from the national team, and faces a criminal investigation in Lucerne.\n- Thousands protest in Swiss cities over (regular, continuing): Thousands protest in Swiss cities over climate inaction following a European Court of Human Rights ruling against Switzerland.\n- A light aircraft crashes near Leukerbad (regular, continuing): A light aircraft crashes near Leukerbad killing three people including two British nationals.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

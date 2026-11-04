@@ -1,0 +1,379 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-24",
+  "previous_round": "2026-10-17",
+  "is_legacy": false,
+  "code": "SG",
+  "name": "Singapore",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-25T06:23:45+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Singapore's dominant story this week was the escalating haze crisis from Indonesia. The government expanded its crackdown, issuing notices to three more Indonesian firms and broadening its investigation to ten locally based companies, while a minister's blunt warning that firms cannot \"play hide and seek\" sent agricultural stocks lower. In a related energy move, Indonesia cut pipeline gas exports to Singapore by roughly nine percent. On the financial side, core inflation for September came in at two percent, slightly below forecast, while home prices continued to climb and rents surged at the fastest pace since 2023. Singapore also felt the cooling of Asia's 2026 IPO pipeline. The Singapore Exchange CEO signalled he plans to hand over the reins after a decade, with his contract set to end in 2027. GIC and Temasek were active in cross-border deals, including a joint venture with UK-based PHP to cut debt, and both denied instigating a rout in Indonesian equities. In technology, China's Moonshot AI posted a job listing indicating it will operate out of Singapore, and Horizon3 expanded its AI-native security business into the city-state. Max Verstappen took pole position ahead of the Singapore Grand Prix.",
+    "key_events": [
+      {
+        "event": "Singapore expanded its haze crackdown, issuing notices to three more Indonesian firms and widening the investigation to ten local companies.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "Indonesia cut pipeline natural gas exports to Singapore by approximately nine percent.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A Singaporean minister warned haze-linked firms they cannot play hide and seek, sending agricultural stocks lower.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Temasek and GIC denied instigating a rout in Indonesian stock markets.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Singapore Exchange CEO signalled succession planning as his contract nears its 2027 end.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Core inflation for September rose to two percent, slightly below market forecasts.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Singapore home prices climbed and rents surged at the fastest rate since 2023.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Singapore felt the cooling of Asia's 2026 IPO pipeline.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "China's Moonshot AI posted a job listing indicating it will operate out of Singapore.",
+        "date": null,
+        "domain": "technology",
+        "importance": 2
+      },
+      {
+        "event": "Max Verstappen took pole position at the Singapore Grand Prix, hunting his first win on the street circuit.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "environment",
+      "economy",
+      "technology",
+      "society"
+    ],
+    "emojis": [
+      "⚖️",
+      "⛽",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "Singapore expanded its legal crackdown on Indonesian and local firms over toxic haze, issuing notices to multiple companies (headlines 2, 8, 12, 29).",
+      "Indonesia cut pipeline gas exports to Singapore by about nine percent, directly affecting the city-state's energy supply (headlines 1, 6, 7).",
+      "Home prices climbed, rents surged to their highest since 2023, and wealthy clients saw growing assets, painting a picture of a firm property and wealth-management market (headlines 17, 19, 27)."
+    ],
+    "developments": [
+      {
+        "subject": "Indonesian haze crackdown",
+        "what_happened": "Singapore broadened its investigation to ten locally based firms, issued notices to three more Indonesian companies, and a minister's sharp warning hit agricultural stocks.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          8,
+          9,
+          12,
+          29
+        ]
+      },
+      {
+        "subject": "Indonesia gas export cut",
+        "what_happened": "Indonesia reduced pipeline natural gas exports to Singapore by roughly nine percent.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          6,
+          7
+        ]
+      },
+      {
+        "subject": "SGX CEO succession",
+        "what_happened": "The Singapore Exchange CEO signalled he plans to hand over the reins after a decade, with his contract set to end in 2027.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          21
+        ]
+      },
+      {
+        "subject": "Inflation and property",
+        "what_happened": "Core inflation for September came in at two percent, slightly below forecast, while home prices climbed and rents surged at the fastest pace since 2023.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          14,
+          19,
+          23
+        ]
+      },
+      {
+        "subject": "IPO cooling and financial markets",
+        "what_happened": "Singapore felt the cooling of Asia's 2026 IPO pipeline, and Temasek and GIC denied instigating a rout in Indonesian equities.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          16,
+          28
+        ]
+      },
+      {
+        "subject": "AI and tech expansion",
+        "what_happened": "China's Moonshot AI indicated it will operate out of Singapore, and Horizon3 expanded its AI-native security business into the city-state.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          15,
+          18,
+          22
+        ]
+      },
+      {
+        "subject": "GIC and Temasek deals",
+        "what_happened": "UK-based PHP formed a joint venture with GIC to cut debt, and the world's wealthy were reported to be relocating gold to Singapore.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          24,
+          27
+        ]
+      },
+      {
+        "subject": "Singapore Grand Prix",
+        "what_happened": "Max Verstappen took pole position at the Singapore Grand Prix, aiming for his first win on the street circuit.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "Energy innovation partnership",
+        "what_happened": "Energy Impact Partners deepened its partnership with the Economic Development Board to advance energy innovation and decarbonisation.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Wealth management growth",
+        "what_happened": "A Citi report noted that Singapore's wealthy clients saw growing assets over the past year.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          17
+        ]
+      }
+    ],
+    "gone": [
+      "Hormuz ship sinking",
+      "Export and economic surge",
+      "Banking rout and buy-the-dip calls",
+      "LNG bunkering push",
+      "Competition with London and Dubai",
+      "UK 'poisonous shrimp' reference",
+      "FICG Johor manufacturing site"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the haze crisis, energy supply, financial markets, and tech expansion well, though there is no dedicated political or security headline for the week."
+    },
+    "headlines_used": [
+      "Indonesia cuts pipeline gas exports to Singapore by about 9%",
+      "Singapore expands crackdown on Indonesian companies linked to haze",
+      "Energy Impact Partners Deepens Partnership with Singapore Economic Development Board to Advance Energy Innovation & Decarbonisation",
+      "WTA Singapore Open - Women's Doubles - Scores & Schedule - Tennis - BBC Sport",
+      "How I used Capital One miles to book a 16-hour Singapore Airlines business-class flight",
+      "L'Indonésie réduit ses exportations de gaz vers Singapour",
+      "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
+      "Singapore goes after companies over toxic haze",
+      "'Cannot play hide and seek': Minister's warning over haze sends Singapore agricultural stocks lower",
+      "Singapore Exchange CEO calls for succession planning as contract nears end in 2027",
+      "Verstappen on pole as he hunts first Singapore Grand Prix win",
+      "Singapore Expands Haze Investigation to 10 Locally Based Firms",
+      "Zana Möhlmann from Singapore crowned Global Bartender of the Year 2026 at the prestigious Diageo World Class Global Finals event in Edinburgh – Company Announcement - FT.com",
+      "Singapore's core inflation rate rises to 2% in September, below forecast",
+      "Horizon3 Expands in Singapore to Accelerate AI‑Native Proactive Security Across Southeast Asia",
+      "Singapore Feels the Cooling of Asia’s 2026 IPO Party",
+      "Singapore's wealthy clients see growing assets over past year, Citi report says",
+      "CORRECTING and REPLACING Horizon3 Expands in Singapore to Accelerate AI‑Native Proactive Security Across Southeast Asia",
+      "Singapore Home Prices Climb; Rents Surge by Most Since 2023",
+      "Singapore Technologies Engineering Ltd (SJX0y.F) | Stock Price & Latest News",
+      "Singapore Exchange CEO Plans to Hand Over Reins After Decade",
+      "China's Moonshot AI to operate in Singapore, jobs post shows",
+      "Singapore’s Core Inflation for September Unexpectedly Cools",
+      "UK's PHP forms joint venture with Singapore's GIC to cut debt",
+      "Singapore Dollar Gains on Yen as Carry Funder, Analysts Say",
+      "ALK: All-Link Air & Sea Ltd Stock Price Quote - Singapore",
+      "The World’s Rich Are Finding a New Home for Their Gold in Singapore",
+      "Singapore’s Temasek and GIC Deny Instigating Indonesian Stock Rout",
+      "Singapore Issues Haze Notices to Three More Indonesian Firms"
+    ],
+    "converted": false,
+    "relevant_headlines": 29,
+    "unscorable": true,
+    "unscorable_reason": "only 29 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Indonesian haze crackdown",
+        "expected": "Indonesian haze crackdown stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Indonesian haze crackdown appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Indonesia gas export cut",
+        "expected": "Indonesia gas export cut stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Indonesia gas export cut appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "SGX CEO succession",
+        "expected": "SGX CEO succession stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about SGX CEO succession appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Indonesia gas export cut",
+        "expected": "persist",
+        "sign": "Indonesia gas export cut is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Indonesian haze crackdown stays in the news at the same level. Indonesia gas export cut stays in the news at the same level. SGX CEO succession stays in the news at the same level. Indonesia gas export cut is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Indonesian haze enforcement",
+        "expected": "Singapore will impose penalties or import restrictions on the locally based firms caught in the expanded haze investigation.",
+        "direction": "persist",
+        "sign": "Headlines will reference new fines, import levies, or a formal accord rather than just additional notices being issued."
+      },
+      "second": {
+        "subject": "Pipeline gas supply from Indonesia",
+        "expected": "Singapore will announce adjusted domestic generation plans to offset the reduced pipeline gas supply from Indonesia.",
+        "direction": "persist",
+        "sign": "Headlines will reference energy pricing adjustments, new fuel procurement deals, or generation mix changes in response to the supply cut."
+      },
+      "third": {
+        "subject": "SGX leadership transition",
+        "expected": "The Singapore Exchange will announce the search criteria for the CEO who will take over when the current contract ends.",
+        "direction": "persist",
+        "sign": "Headlines will reference a search committee, candidate shortlist, or board statement about the succession process."
+      },
+      "fade_call": {
+        "subject": "Singapore Grand Prix",
+        "expected": "fade",
+        "sign": "Coverage will shift to the next race on the calendar, with the street circuit story dropping out of the top headlines."
+      },
+      "surprise": {
+        "subject": "National AI data sovereignty policy",
+        "expected": "Singapore will introduce a new data sovereignty framework or national AI infrastructure fund in response to the influx of foreign AI companies establishing operations in the city-state.",
+        "chance": "medium"
+      },
+      "summary": "Next week's bulletin for Singapore will be dominated by the haze crisis as the country moves from issuing notices to imposing penalties on the locally based firms in the expanded investigation. Indonesia will respond to the new notices, and agricultural trade will feel the pressure of the minister's warning. The pipeline gas supply cut will drive energy planning headlines as Singapore adjusts its generation mix. The SGX CEO succession story will generate follow-up coverage as the board outlines the search process. The Grand Prix will fade from the headlines once the race concludes. A possible surprise is a new government data sovereignty policy in response to the influx of AI companies setting up operations in the city-state. The overall mood will stay tense, anchored by bilateral friction with Indonesia over haze and energy.",
+      "generated_at": "2026-10-25T06:09:48+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Haze legal escalation",
+        "expected": "Singapore will file formal legal proceedings against the Indonesian firms under the expanded haze investigation.",
+        "direction": "escalate",
+        "sign": "A headline announcing Singapore has initiated a formal legal claim against the Indonesian companies involved in the haze fires."
+      },
+      "second": {
+        "subject": "SGX CEO succession",
+        "expected": "The Singapore Exchange board will announce a formal recruitment timeline and criteria for selecting the CEO's successor.",
+        "direction": "persist",
+        "sign": "A headline reporting the exchange's board has set a search process and timeline for the CEO succession."
+      },
+      "third": {
+        "subject": "Gas supply reduction",
+        "expected": "Singapore's energy authorities will announce contingency sourcing arrangements to offset the reduced pipeline gas deliveries from Indonesia.",
+        "direction": "persist",
+        "sign": "A headline reporting Singapore's energy regulators have activated alternative supply arrangements to compensate for the reduced pipeline deliveries."
+      },
+      "fade_call": {
+        "subject": "Singapore Grand Prix",
+        "expected": "fade",
+        "sign": "The race outcome will appear as a brief sports scoreline with no further dedicated Grand Prix Singapore coverage."
+      },
+      "surprise": {
+        "subject": "AI data-centre commitment",
+        "expected": "A major new AI or data-centre infrastructure deal will be announced for Singapore, with a named company committing to a multi-year build-out.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, Singapore will remain dominated by the Indonesian haze crisis as the government pushes its crackdown from administrative notices into formal legal proceedings. The prime minister is expected to set out a binding deadline or initiate a court filing against the firms under investigation, while the nine percent cut in pipeline gas exports from Indonesia will force energy authorities to announce contingency sourcing plans. The Singapore Exchange CEO succession will generate sustained coverage as the board outlines a recruitment process, with market participants weighing the implications for the listing market. Rents and home prices will keep climbing, and the cooling IPO pipeline will remain a backdrop for financial-sector headlines. AI and technology expansion, including new entrants operating out of Singapore, will register as a steady undercurrent. The Formula One race will conclude and fade from the news cycle.",
+      "generated_at": "2026-10-25T06:23:45+02:00"
+    }
+  },
+  "display": {
+    "headline": "Haze Lawsuits, Gas Cuts, and CEO Succession Dominate Singapore Week",
+    "emojis": [
+      "⚖️",
+      "⛽",
+      "👑"
+    ],
+    "emoji_reasons": [
+      "The haze story is escalating into formal legal proceedings, making the scales of justice the most important symbol this week.",
+      "Indonesia's pipeline gas export cut is a new and practical energy-supply issue that will drive headlines.",
+      "The SGX CEO succession is a leadership transition story that will keep business readers focused on the exchange."
+    ],
+    "tldr": "Singapore will push the haze crackdown into formal legal action against Indonesian firms while scrambling to replace lost pipeline gas. The SGX CEO succession will generate sustained business coverage. The F1 race will wrap up and fade.",
+    "eli5": "Singapore is dealing with a really bad haze problem. Smoke from fires in Indonesia is drifting over and making the air unhealthy to breathe. The Singapore government is getting angry and is now going after more companies with legal action, not just warnings. Think of it like a teacher who stops just giving you a look and actually starts writing your name on the detention list.\n\nAt the same time, Indonesia is sending less natural gas through the pipeline that supplies Singapore. That is like your water company turning down the tap. Singapore will need to figure out where to get the rest of its gas from, and that is a practical problem the government has to solve this week.\n\nThe big stock exchange in Singapore, the one that lists companies, is about to get a new boss. The current CEO has been there for ten years and has said he is stepping down. The board will need to start the process of finding his replacement, and that is generating a lot of discussion in business circles.\n\nA surprise would be if a major tech company announces it is building a huge new data centre in Singapore, which would be exciting for the AI industry but not what most people are focused on right now."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 29 relevant headlines (fewer than 40)",
+    "graded_round": "2026-10-17"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-17:\nDuring the week of October 14 to 17, 2026, Singapore's most pressing issue was the Indonesian haze crisis, which pushed the city-state into its twelfth consecutive day of unhealthy air, the longest streak since 2015. Prime Minister Wong Lee Suen warned of further action, and Singapore formally placed seven Indonesian firms on notice over the fires, while weighing legal proceedings. Air purifiers and face masks sold out across the country, and pollution reached 'very unhealthy' levels. In a separate but significant development, a Singapore-registered container ship was struck by a projectile in the Strait of Hormuz and sank, though other vessels continued transiting the waterway. On the economic front, September exports surged 68.4 percent year on year, and the central bank held its monetary policy steady amid a 5.4 percent expansion driven largely by artificial intelligence activity. Singapore's minister declared the city-state is positioning itself as Southeast Asia's AI gateway,\n- Indonesian haze crisis (dominant, escalating): Singapore endured its 12th straight day of unhealthy air, placed seven Indonesian firms on formal notice, and weighed legal action as PM Wong warned of further steps.\n- Hormuz ship sinking (regular, new): A Singapore-registered container ship was struck by a projectile in the Strait of Hormuz and sank, though other vessels continued transiting.\n- Export and economic surge (regular, continuing): September exports jumped 68.4 percent year on year and the central bank held policy amid 5.4 percent growth driven by AI activity.\n- AI gateway ambition (regular, continuing): A minister declared Singapore is positioning as Southeast Asia's AI gateway as data-centre developer DayOne's billings surpassed one gigawatt.\n- Banking rout and buy-the-dip calls (occasional, continuing): After a $22 billion rout in Singapore bank shares, analysts grew louder in calling for buying the dip.\n- Property market recovery (occasional, continuing): Singapore home sales recovered from their lowest level since 2024, with a tycoon eyeing a $760 million deal and Hongkong Land seeking a stake.\n- LNG bunkering push (occasional, new): PetroChina carried out its first LNG bunker fuelling in Singapore, and supplier Equatorial expects higher LNG bunker demand from 2028.\n- Competition with London and Dubai (occasional, continuing): A Deputy PM urged Singapore to work faster to beat London and Dubai as a global wealth hub, a theme echoed in broader coverage.\n- UK 'poisonous shrimp' reference (occasional, new): UK PM Sunak invoked Singapore's 'poisonous shrimp' in a domestic power debate, briefly putting Singapore in the international spotlight.\n- FICG Johor manufacturing site (occasional, new): FICG officially opened a new manufacturing site in Johor, strengthening its operations across Singapore and Malaysia.\n\nRound 2026-10-02:\nAccording to the text, Singapore entered the week of 9-17 October 2026 under multiple simultaneous pressures. The Formula 1 Singapore Grand Prix anchored public attention, with George Russell starting from the back of the grid after a penalty and Kimi Antonelli holding a championship lead. Transboundary haze from Indonesian peat fires, compounded by El Nino and poor Borneo water conditions, drove air-quality anxiety across schools, events, and tourism. Eight civil servants had been referred to police over home purchases linked to unannounced MRT and property information, creating a persistent governance irritant. In financial markets, Temasek warned of an AI-trade unwind, long-bond yields pressured bank earnings, and Wall Street IPO demand cooled. Energy-security concerns rose from Iran-related Strait of Hormuz risk, oil-price volatility, and Singapore's miss on its 2035 green-power import target. AI-driven cyber risk and scams entered governance discourse, and a state-backed dating app for civil servants generated social-media debate\n- F1 Singapore Grand Prix scheduled with (regular, continuing): F1 Singapore Grand Prix scheduled with Russell starting from the back and Antonelli leading the championship.\n- Indonesian peat fires and El Nino (regular, continuing): Indonesian peat fires and El Nino conditions produced transboundary haze affecting Singapore air quality.\n- Eight civil servants referred to police (regular, continuing): Eight civil servants referred to police over property purchases linked to unannounced MRT and land-use information.\n- Temasek issued a public warning about (regular, continuing): Temasek issued a public warning about AI-trade unwind risk and rising long-bond yields pressuring bank earnings.\n- Singapore announced it had missed its (regular, continuing): Singapore announced it had missed its 2035 green-power import target against a backdrop of Hormuz energy risk.\n- ASEAN energy ministers met amid an (regular, continuing): ASEAN energy ministers met amid an Iran-war backdrop and rising oil prices.\n",
+    "PREVIOUS_FORECAST": "Lead: Indonesian haze legal escalation. Expected: Singapore will convert its formal notices to the Indonesian firms into concrete legal proceedings, with the prime minister publicly setting out the enforcement mechanism and deadline for remediation. Direction: escalate. Sign: A headline announcing Singapore has filed a formal legal claim or set a deadline for the Indonesian companies to present remediation plans, naming the legal body involved.\nSecond: Hormuz sunken vessel aftermath. Expected: Singapore's maritime authorities will publish preliminary findings on the projectile strike and outline the compensation and insurance process for the shipowner. Direction: persist. Sign: A headline reporting the official preliminary findings on how the projectile struck the vessel and the next steps for the shipowner's insurance claim.\nThird: AI infrastructure and banking recovery. Expected: New AI or data-centre infrastructure announcements will land in Singapore, and bank shares will show a partial recovery as dip-buying trades take hold. Direction: persist. Sign: A headline about a new large data-centre or AI infrastructure commitment in Singapore appearing alongside a report of bank stock prices climbing back.\nFade call: UK Sunak poisonous shrimp reference. Expected: fade. Sign: The reference will appear only as a passing allusion in an international politics article and not generate a dedicated Singapore story.\nSurprise (chance low): Central bank policy shift. The central bank will make a small but directional monetary policy adjustment, citing the AI-driven boom and property recovery, surprising markets that expected another hold.\nSummary: Over the coming week, Singapore will be dominated by the Indonesian haze crisis as the country pushes past its longest unhealthy-air streak since 2015. The government will convert its formal notices to seven Indonesian firms into concrete legal or quasi-legal steps, with the prime minister publicly setting out the enforcement path. In the Strait of Hormuz, the aftermath of the sunken Singapore-registered container ship will generate investigation updates, insurance proceedings, and further discussion of whether transiting vessels should adjust routes. The AI-driven economic expansion will produce new infrastructure announcements and a partial stabilization of bank shares after the twenty-two billion dollar rout. Property transactions will keep climbing, and the LNG bunkering sector will register its first commercial milestones. The UK poisonous shrimp reference will fade from the news cycle.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": ""
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-04T15:27:17+02:00",
+  "latest": "2026-11-01",
+  "rounds": [
+    {
+      "round": "2026-11-01",
+      "previous_round": "2026-10-24",
+      "is_legacy": false,
+      "status": "complete",
+      "method": "text",
+      "label": "Nov 1, 2026",
+      "countries_done": 32
+    },
+    {
+      "round": "2026-10-24",
+      "previous_round": "2026-10-17",
+      "is_legacy": false,
+      "status": "complete",
+      "method": "text",
+      "label": "Oct 24, 2026 (test on stored headlines)",
+      "countries_done": 32
+    },
+    {
+      "round": "2026-10-24-v1",
+      "previous_round": "2026-10-17-v1",
+      "is_legacy": false,
+      "status": "complete",
+      "label": "Oct 24, 2026 (earlier experiment)",
+      "countries_done": 32
+    },
+    {
+      "round": "2026-10-22-v1",
+      "previous_round": "2026-10-02-v1",
+      "is_legacy": true,
+      "status": "complete",
+      "label": "Oct 22, 2026 (manual) (earlier experiment)",
+      "countries_done": 1
+    },
+    {
+      "round": "2026-10-17-v1",
+      "previous_round": "2026-10-02-v1",
+      "is_legacy": false,
+      "status": "complete",
+      "label": "Oct 17, 2026 (earlier experiment)",
+      "countries_done": 32
+    },
+    {
+      "round": "2026-10-02-v1",
+      "previous_round": "2026-09-15-v1",
+      "is_legacy": true,
+      "status": "complete",
+      "label": "Oct 2, 2026 (manual) (earlier experiment)",
+      "countries_done": 32
+    },
+    {
+      "round": "2026-09-15-v1",
+      "previous_round": null,
+      "is_legacy": true,
+      "status": "complete",
+      "label": "Sep 15, 2026 (manual) (earlier experiment)",
+      "countries_done": 32
+    }
+  ]
+}

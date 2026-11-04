@@ -1,0 +1,295 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "IQ",
+  "name": "Iraq",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T03:24:10+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, Iraqi politics dominated as parliament completed the approval of Prime Minister al-Zaidi's full cabinet, filling remaining posts and naming a US-sanctioned deputy prime minister. The vote came amid growing economic anxiety and was framed as a stabilization effort. In the same period, Iraq formally sought an IMF program, and the fund's chief pledged firm support, signaling international confidence in Baghdad's fiscal path. Domestically, the central bank devalued the dinar to ease a cash crunch, a move that left traders in limbo as the official rate shifted yet again. Security remained fragile: a roadside bomb near Kirkuk killed an army brigadier and a soldier, while an explosion at a paramilitary alliance base killed one member. Diplomatically, the prime minister reassured Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, hinting at ongoing coordination over regional tensions. A minor science headline noted Neanderthal bones in an Iraqi cave suggesting both violence and compassion in the ancient species. Overall, the week was defined by institutional consolidation set against a backdrop of economic stress and low-level armed violence.",
+    "key_events": [
+      {
+        "event": "Iraqi parliament approved the full cabinet of PM al-Zaidi, including a US-sanctioned deputy prime minister, completing a months-long staffing process.",
+        "date": "2026-10-16",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Iraq devalued the dinar to ease a severe cash crunch, leaving traders uncertain about the new official rate.",
+        "date": "2026-10-15",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Iraq formally requested an IMF program and the fund's chief pledged firm support.",
+        "date": "2026-10-16",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A roadside bomb near Kirkuk killed an Iraqi army brigadier and a soldier.",
+        "date": "2026-10-17",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "PM al-Zaidi told Saudi Arabia's crown prince that Iraqi territory would not be used for attacks.",
+        "date": "2026-10-16",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "An explosion at an Iraqi paramilitary alliance base killed one member.",
+        "date": "2026-10-15",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Researchers reported Neanderthal bones from an Iraqi cave showing evidence of both violence and compassion.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "politics",
+      "economy",
+      "security",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🏛️",
+      "🪙",
+      "💥"
+    ],
+    "emoji_reasons": [
+      "Parliament approved al-Zaidi's full cabinet and named a US-sanctioned deputy PM (headlines 2, 4, 7).",
+      "Iraq devalued the dinar to ease a cash crunch, leaving traders in limbo (headline 6).",
+      "A roadside bomb killed a brigadier near Kirkuk and an explosion hit a paramilitary base (headlines 1, 9)."
+    ],
+    "developments": [
+      {
+        "subject": "Cabinet completion",
+        "what_happened": "Parliament approved all remaining cabinet posts, including a US-sanctioned deputy prime minister, finalizing al-Zaidi's government.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          4,
+          7
+        ]
+      },
+      {
+        "subject": "Dinar devaluation",
+        "what_happened": "The central bank devalued the dinar to ease a cash crunch, continuing the pattern of rate adjustments and leaving traders uncertain.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "IMF program",
+        "what_happened": "Iraq formally sought an IMF program and the fund's chief pledged firm support, signaling a step toward international fiscal backing.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3
+        ]
+      },
+      {
+        "subject": "Kirkuk roadside bomb",
+        "what_happened": "A roadside bomb killed an Iraqi army brigadier and a soldier near Kirkuk.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          9
+        ]
+      },
+      {
+        "subject": "Paramilitary base explosion",
+        "what_happened": "An explosion at an Iraqi paramilitary alliance base killed one member, underscoring ongoing low-level security risks.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          1
+        ]
+      },
+      {
+        "subject": "Saudi diplomatic channel",
+        "what_happened": "PM al-Zaidi told Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, indicating active bilateral coordination.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          8
+        ]
+      },
+      {
+        "subject": "Neanderthal discovery",
+        "what_happened": "Researchers reported bones from an Iraqi cave offering new evidence of violence and compassion among Neanderthals.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          5
+        ]
+      }
+    ],
+    "gone": [
+      "The US completed its ground withdrawal",
+      "The government approved a 3.5 trillion",
+      "Reports emerged that Israel had operated",
+      "Iran maintained 40 daily flights to",
+      "Kurdistan entered a security-management gap after"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the week's major political, economic, and security developments well, though the set is limited to seven substantive items and gives no detail on the US-sanctioned DP or the IMF terms."
+    },
+    "headlines_used": [
+      "Explosion at Iraqi paramilitary alliance base kills one member, sources say",
+      "Iraq parliament fills Cabinet posts, naming a US-sanctioned deputy prime minister",
+      "Iraq Seeks IMF Program, Fund Chief Pledges ‘Firm’ Support",
+      "Iraq parliament approves al-Zaidi’s cabinet amid growing economic concerns",
+      "Bones from Iraqi cave hint at violence and compassion in Neanderthals",
+      "Iraq devalues dinar to ease cash crunch, leaving traders in limbo",
+      "Iraq parliament approves remaining cabinet posts, PM deputies",
+      "Iraq’s PM tells Saudi crown prince Iraqi territory will not be used for attacks",
+      "Roadside bomb kills Iraqi army brigadier, soldier near Kirkuk"
+    ],
+    "converted": false,
+    "relevant_headlines": 9,
+    "unscorable": true,
+    "unscorable_reason": "only 9 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Cabinet completion",
+        "expected": "Cabinet completion stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Cabinet completion appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Dinar devaluation",
+        "expected": "Dinar devaluation stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Dinar devaluation appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "IMF program",
+        "expected": "IMF program stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about IMF program appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Cabinet completion",
+        "expected": "persist",
+        "sign": "Cabinet completion is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Cabinet completion stays in the news at the same level. Dinar devaluation stays in the news at the same level. IMF program stays in the news at the same level. Cabinet completion is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Cabinet aftermath and US reaction",
+        "expected": "The United States will issue a formal public statement addressing the naming of a sanctioned deputy prime minister, affirming or questioning the appointment.",
+        "direction": "persist",
+        "sign": "A headline noting a US official or institution commenting on the new deputy prime minister's appointment despite existing sanctions."
+      },
+      "second": {
+        "subject": "IMF program negotiations",
+        "expected": "IMF staff will arrive in Iraq to begin preliminary discussions on fiscal targets and program conditions.",
+        "direction": "escalate",
+        "sign": "A headline reporting that IMF delegates have traveled to Iraq or that specific economic benchmarks are being set for the new arrangement."
+      },
+      "third": {
+        "subject": "Kirkuk security incidents",
+        "expected": "A roadside explosion or shooting will strike military or paramilitary personnel near Kirkuk, killing at least one service member.",
+        "direction": "persist",
+        "sign": "A headline reporting a bombing or explosion near Kirkuk that claims the life of an Iraqi officer or militia member."
+      },
+      "fade_call": {
+        "subject": "Neanderthal bone discovery",
+        "expected": "fade",
+        "sign": "No new headlines reference the Iraqi cave or ancient human remains."
+      },
+      "surprise": {
+        "subject": "Parliamentary challenge to cabinet composition",
+        "expected": "A parliamentary faction will table a motion questioning the new cabinet's composition, specifically targeting the sanctioned deputy prime minister's portfolio.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Iraq's newly completed cabinet will settle into its first full cycle of governance. The United States will respond publicly to the appointment of a US-sanctioned deputy prime minister, either endorsing the choice or registering a formal objection. IMF staff will travel to Iraq to open preliminary talks on fiscal conditions, moving the program from request to active negotiation. In Kirkuk, another explosion or roadside bombing will claim military or paramilitary lives, keeping low-level violence on the front page. The dinar devaluation will trigger further market adjustments and trader complaints, with the central bank issuing additional guidance. Saudi diplomatic channels will stay active as Baghdad and Riyadh coordinate over regional security. The Neanderthal bone story will drop out of the headlines. Overall, institutional consolidation will advance while economic stress and sporadic violence set the tempo for the week.",
+      "generated_at": "2026-10-23T03:10:40+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "IMF program negotiations",
+        "expected": "A senior IMF technical delegation will arrive in Baghdad to open the first round of fiscal consultations on Iraq's budget and revenue framework.",
+        "direction": "escalate",
+        "sign": "Headlines will name an IMF team in Baghdad and describe the specific budget data and conditionality benchmarks being requested from Iraqi ministries."
+      },
+      "second": {
+        "subject": "US reaction to sanctioned deputy",
+        "expected": "Washington will issue a diplomatic note or public statement addressing the appointment of a sanctioned figure to the deputy premiership, testing the tone of bilateral relations.",
+        "direction": "escalate",
+        "sign": "A US spokesperson will appear in a headline either questioning the sanctions on the newly appointed deputy or confirming the appointment is accepted despite the listing."
+      },
+      "third": {
+        "subject": "Dinar cash crunch",
+        "expected": "The fresh dinar devaluation will trigger a sharp squeeze in bank reserves as traders rush to convert or hoard dollars, forcing the central bank to intervene a second time.",
+        "direction": "persist",
+        "sign": "Headlines will show traders in queues outside exchange offices and the central bank issuing a further rate adjustment or a public call for patience."
+      },
+      "fade_call": {
+        "subject": "Neanderthal bones discovery",
+        "expected": "fade",
+        "sign": "The science story will drop from the news cycle as cabinet politics and dinar headlines reclaim the front pages."
+      },
+      "surprise": {
+        "subject": "Kurdistan armed clash",
+        "expected": "An armed confrontation between Peshmerga factions or between Peshmerga and federal forces in northern Iraq will surface, reopening the post-withdrawal security gap.",
+        "chance": "low"
+      },
+      "summary": "Iraq enters the second week of a fully staffed government, and the IMF will move from pledge to practice. A technical delegation will be in Baghdad, requesting the budget data and fiscal commitments that will define the program's terms. Meanwhile, the dinar's fresh devaluation will keep straining bank reserves, and traders will push the central bank into another round of adjustments. Washington will not let the sanctioned deputy premiership pass silently, and a diplomatic note or public statement will test the relationship. Security in Kirkuk and at paramilitary sites will stay fragile, with sporadic explosions keeping low-level violence on the radar. The overall picture is one of a government that has finished its formation and now must prove it can deliver economic stability before the next shock arrives.",
+      "generated_at": "2026-10-23T03:24:10+03:00"
+    }
+  },
+  "display": {
+    "headline": "Iraq's Fresh Cabinet Faces IMF Talks and Dollar Squeeze",
+    "emojis": [
+      "🏛️",
+      "🪙",
+      "🏦"
+    ],
+    "emoji_reasons": [
+      "Cabinet completion and the sanctioned deputy appointment are the dominant political story of the week.",
+      "The dinar devaluation and resulting cash crunch are the central economic pressure point for traders and the public.",
+      "The IMF program request and the central bank's rate decisions frame the fiscal and monetary response to Iraq's budget stress."
+    ],
+    "tldr": "Iraq's completed cabinet will face its first real test as IMF staff arrive in Baghdad for fiscal talks. The devalued dinar will keep squeezing cash reserves, and Washington will weigh its response to the sanctioned deputy prime minister.",
+    "eli5": "Iraq just finished putting its government together. Parliament voted in every last cabinet seat, including a deputy prime minister who is already on a US sanctions list. That means the US has to decide how to react, and you will probably see a statement or a diplomatic note in the news.\n\nThe money situation is the other big story. The central bank dropped the dinar's value again because there was not enough cash in the system. Traders are scrambling, and you will see headlines about long lines at exchange offices and the bank trying to calm things down. On top of that, Iraq just asked the IMF for a loan program, and the IMF chief said yes in principle. Next week, a team of IMF staff will sit down in Baghdad with Iraqi officials to work out the details.\n\nSecurity is a smaller but steady thread. A bomb near Kirkuk and an explosion at a paramilitary base killed a few people, and that kind of low-level violence will keep popping up.\n\nThe surprise to watch for: an armed fight in Kurdistan between Peshmerga units or between the Peshmerga and federal troops. The US left, no one has fully taken over security management yet, and that gap could crack open with a clash."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nThe United States completed its ground withdrawal from Iraq, and Baghdad marked the event with a Sovereignty Day celebration involving flags, parades, and speeches from the prime minister and security officials. The official dinar rate was moved from 1,300 to 1,500 IQD per US dollar, signalling fiscal pressure and squeezing import costs. Iran sustained 40 daily flights to Najaf, reinforcing religious, economic, and political links with southern Iraq. The government approved a 3.5 trillion dinar (approximately 2.7 billion dollar) stimulus package to soften the devaluation and oil-revenue squeeze. A 48.8 billion dollar budget deficit entered parliamentary debate. Oil exports faced Hormuz disruption, forcing Baghdad to deepen discounts and arrange additional tanker transits to keep Chinese and Indian buyers engaged. A security vacuum opened in Kurdistan after the US departure, with Peshmerga unification still incomplete. Reports surfaced that Israel had operated a clandestine base inside Iraq during a prior conflict, giving\n- The US completed its ground withdrawal (regular, continuing): The US completed its ground withdrawal from Iraq, triggering a national Sovereignty Day celebration.\n- The official dinar rate was devalued (regular, continuing): The official dinar rate was devalued from 1,300 to 1,500 IQD per US dollar.\n- The government approved a 3.5 trillion (regular, continuing): The government approved a 3.5 trillion dinar stimulus package to cushion the devaluation.\n- Reports emerged that Israel had operated (regular, continuing): Reports emerged that Israel had operated a secret base in Iraq during a prior conflict.\n- Iran maintained 40 daily flights to (regular, continuing): Iran maintained 40 daily flights to Najaf, deepening religious and economic ties.\n- Kurdistan entered a security-management gap after (regular, continuing): Kurdistan entered a security-management gap after the US exit, with Peshmerga unification incomplete.\n\nRound 2026-09-15:\nThe text describes Iraq navigating three overlapping pressures simultaneously in late September 2026. A drone attack on Saudi Arabia's East-West pipeline, launched from Iraqi territory on September 11, gave Riyadh a strong argument that Baghdad did not fully control its armed factions. The U.S. military withdrawal from Iraq entered its final visible phase, with end-of-September deadlines approaching for the last troops in northern Kurdish areas. Iraq's Prime Minister Zaidi prepared to visit the United States, attend UN General Assembly events, and meet President Trump. Baghdad formally requested a six million barrel-per-day OPEC quota amid Hormuz disruption and elevated global oil prices. A pilot road-transport operation was moving southern crude to Kirkuk for export via Turkey. ADNOC had purchased discounted Iraqi crude and talks with TotalEnergies had opened. Iraq had lifted decade-old restrictions on western civilian airspace and set a phased reopening schedule for Iran border crossings. The KRG and Baghdad\n- A drone attack on Saudi Arabia's (regular, continuing): A drone attack on Saudi Arabia's East-West pipeline originated from Iraqi territory on September 11.\n- U.S. military withdrawal from Iraq entered (regular, continuing): U.S. military withdrawal from Iraq entered its final phase with end-of-September deadlines.\n- Iraqi PM Zaidi prepared to visit (regular, continuing): Iraqi PM Zaidi prepared to visit the U.S., attend UN General Assembly events, and meet President Trump.\n- Iraq formally requested a six million (regular, continuing): Iraq formally requested a six million barrel-per-day OPEC production quota.\n- A pilot road-transport operation moved southern (regular, continuing): A pilot road-transport operation moved southern crude to Kirkuk for export via Turkey.\n- A pilot road-transport operation moved southern (again) (regular, continuing): A pilot road-transport operation moved southern crude to Kirkuk for export via Turkey.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

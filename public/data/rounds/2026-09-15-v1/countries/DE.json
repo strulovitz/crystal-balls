@@ -1,0 +1,362 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "DE",
+ "name": "Germany",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T13:22:09+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text describes Germany in the grip of a political and economic crisis following state elections in which the CDU suffered heavy losses in Berlin and Mecklenburg-Vorpommern while the AfD and Die Linke gained ground. Chancellor Merz survived the immediate shock but his authority was visibly dented. The Left party, under Elif Eralp, emerged as the strongest force in Berlin. Volkswagen issued a profit warning, Porsche took write-downs, and cost-cutting accelerated across the auto sector, triggering worker protests. German Bund yields hit a 15-year high as markets priced in political risk. A DWS property fund faced liquidity pressure. The AfD leadership was reportedly in preliminary talks with a Kremlin economic envoy about restoring Russian gas flows to Germany. The Iran-Hormuz situation pushed fuel prices higher. Security concerns intensified with hospitals preparing for casualties, a drone startup founder living in hiding, and Russia potentially striking Ukraine's allies. A German general was elected to head NATO's top military body, and Germany received its first F-35. Klopp was set to debut as national team coach. The EU's two-trillion-euro budget deal hung in the balance due to German political fragility.",
+  "key_events": [
+   {
+    "event": "CDU lost ground in Berlin and Mecklenburg-Vorpommern state elections while AfD and Die Linke gained seats",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "Volkswagen issued a profit warning and accelerated cost-cutting, triggering auto-sector protests",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "German Bund yields reached a 15-year high as markets priced in political and fiscal risk",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "AfD leadership and a Kremlin economic envoy reportedly prepared talks on restoring Russian gas to Germany",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "A DWS or Deutsche Bank-linked property fund faced a liquidity and redemption pressure issue",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "economy",
+   "security"
+  ],
+  "emojis": [
+   "🏛️",
+   "📉",
+   "⚽"
+  ],
+  "emoji_reasons": [
+   "State government formation and CDU infighting dominated the political landscape",
+   "Bond yields at 15-year highs and VW profit warnings signaled deep economic stress",
+   "Klopp's national team debut turned football into a barometer of national mood"
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The naive reading takes the text's top scenario at face value: Germany enters a week of controlled political triage. Merz consolidates his position by announcing a reform agenda and commanding loyalty from CDU loyalists. Berlin state government talks begin immediately with Die Linke and at least one of SPD or Greens. The federal government publishes a concrete gas storage incentive package and signals fuel relief. Auto workers stage a major protest or short strike, but production does not fully halt for long. The national team plays under Klopp, giving the public a unifying mood event. Bond yields stay elevated but do not spike further. The overall picture is a government that is damaged but functional, managing multiple crises in parallel without any single one breaking. The center is weaker than a month ago, but it holds together through the week.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "Merz holds the chancellorship without any formal leadership vote or confidence motion in the Bundestag during the week.",
+    "probability": 0.88,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "Formal coalition negotiations begin in Berlin state involving Die Linke as the lead party.",
+    "probability": 0.93,
+    "domain": "politics"
+   },
+   {
+    "id": "N3",
+    "text": "The German federal government publishes a formal gas storage incentive scheme or winter tender.",
+    "probability": 0.7,
+    "domain": "economy"
+   },
+   {
+    "id": "N4",
+    "text": "A coordinated strike or walkout at a Volkswagen, BMW, or Mercedes plant halts production for at least one full shift.",
+    "probability": 0.48,
+    "domain": "society"
+   },
+   {
+    "id": "N5",
+    "text": "Germany's national team under Klopp plays a competitive fixture during the week.",
+    "probability": 0.9,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.95."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.625."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.675."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.375."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading weighs the full probability distribution, including the scenarios the text flags as risks and breakers. The AfD-Kremlin gas talks leak or materialize, giving the AfD a real policy credential beyond protest politics and forcing the government to respond publicly. Mecklenburg-Vorpommern fails to form a stable government quickly, entering caretaker limbo that becomes a symbolic test of how Germany handles the AfD at the state level. A Russian aircraft incursion near the Baltic forces an emergency defense response, shifting the narrative from domestic reform to external deterrence. The DWS property fund stress becomes a visible financial story as redemption curbs are announced and media focus shifts to German real estate exposure. Fuel prices cross a threshold that forces the government into an abrupt emergency relief announcement rather than a planned one. The week is less about smooth management and more about multiple lower-probability shocks landing close together, making the managed-instability narrative more fragile than the top case suggests.",
+  "reasoning": "The naive reading treats the text's most-likely shape as a single coherent narrative where everything unfolds in planned sequence. The crystal reading instead takes seriously the text's own what-would-break-this-forecast section and its probability ranges. The text explicitly assigns 30 to 45 percent to a Russian security incident, 50 to 65 percent to AfD-Kremlin gas talks going public, and identifies the DWS property fund as a story that can turn into a broader crisis if communication is bad. These are not edge cases; they are events the text itself considers genuinely probable. The crystal reading adjusts the fuel relief probability upward because the text describes it as driven by external price shocks from Hormuz and Iran rather than planned government action, making the timing more abrupt and uncertain. The Mecklenburg-Vorpommern limbo probability is raised because the text lists four possible scenarios there with no single clear winner, increasing the odds that none resolves cleanly within seven days.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "AfD leaders and a Kremlin economic representative hold a public or semi-public meeting about Russian gas supply to Germany.",
+    "probability": 0.55,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C2",
+    "text": "Mecklenburg-Vorpommern enters caretaker government status or fails to name a minister-president by October 8.",
+    "probability": 0.72,
+    "domain": "politics"
+   },
+   {
+    "id": "C3",
+    "text": "A Russian military aircraft or drone is detected in or near German or Baltic airspace, triggering an official government statement.",
+    "probability": 0.38,
+    "domain": "security"
+   },
+   {
+    "id": "C4",
+    "text": "DWS or another major German asset manager announces redemption curbs or liquidity interventions on a property fund.",
+    "probability": 0.45,
+    "domain": "economy"
+   },
+   {
+    "id": "C5",
+    "text": "The German government announces a temporary fuel price relief measure in direct response to elevated pump prices.",
+    "probability": 0.58,
+    "domain": "economy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.95."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.625."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.675."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.375."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.575."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.75."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.6."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Merz survives as Germany's stability visibly erodes",
+  "emojis": [
+   "🎭",
+   "⚡",
+   "🪖"
+  ],
+  "emoji_reasons": [
+   "The core drama is political: coalition talks, AfD maneuvering, and a fragile chancellor",
+   "Energy policy and fuel prices became the week's central economic pressure point",
+   "Security concerns around Russia, NATO, and critical infrastructure ran throughout"
+  ],
+  "tldr": "The text predicted a week of managed instability: Merz stays chancellor, Berlin moves toward a left-leaning government, and Mecklenburg-Vorpommern falls into political limbo. The government announces energy relief, auto workers strike, and markets stay jittery. No collapse, but a clearly weaker center.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will formal coalition talks begin in Berlin or Mecklenburg-Vorpommern during the following week?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Coalition talks begin in Berlin and/or Mecklenburg-Vorpommern: 95%+",
+    "legacy_probability": 0.95
+   },
+   {
+    "id": "Q2",
+    "text": "Will the German government announce or formalize expanded gas storage incentives?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: German government announces or formalizes expanded gas storage incentives: 65–75%",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q3",
+    "text": "Will the German government announce or strongly signal some form of temporary fuel price relief?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Some form of temporary fuel relief is announced or strongly signaled: 55–70%",
+    "legacy_probability": 0.625
+   },
+   {
+    "id": "Q4",
+    "text": "Will a major auto-sector protest action or strike continue or escalate in Germany?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Major auto-sector protest action or strike continues or escalates: 60–75%",
+    "legacy_probability": 0.675
+   },
+   {
+    "id": "Q5",
+    "text": "Will a notable Russian security incident or near-incident involving Germany or the Baltic region occur?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: A notable Russian security incident or near-incident involving Germany/Baltic region occurs: 30–45%",
+    "legacy_probability": 0.375
+   },
+   {
+    "id": "Q6",
+    "text": "Will talks between the AfD and the Kremlin on Russian gas become public or leak into the news cycle?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: AfD–Kremlin gas talks become public or leak into the news cycle: 50–65%",
+    "legacy_probability": 0.575
+   },
+   {
+    "id": "Q7",
+    "text": "Will German government bond yields remain elevated and volatile over the following week?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: German bond yields stay elevated and volatile: 70–80%",
+    "legacy_probability": 0.75
+   },
+   {
+    "id": "Q8",
+    "text": "Will the EU two-trillion-euro budget or multiannual financial framework deal become more uncertain or slip because of German politics?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: EU's €2tn budget/MFF deal becomes more uncertain or slips because of German politics: 55–65%",
+    "legacy_probability": 0.6
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that AfD leaders and a Kremlin economic representative hold a public or semi-public meeting about Russian gas supply to Germany?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that Mecklenburg-Vorpommern enters caretaker government status or fails to name a minister-president by October 8?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.72",
+    "legacy_probability": 0.72
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that A Russian military aircraft or drone is detected in or near German or Baltic airspace, triggering an official government statement?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.38",
+    "legacy_probability": 0.38
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that DWS or another major German asset manager announces redemption curbs or liquidity interventions on a property fund?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.45",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that The German government announces a temporary fuel price relief measure in direct response to elevated pump prices?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.58",
+    "legacy_probability": 0.58
+   }
+  ]
+ },
+ "single_forecaster": true
+}

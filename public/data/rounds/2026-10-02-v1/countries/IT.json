@@ -1,0 +1,369 @@
+{
+ "schema_version": 2,
+ "round": "2026-10-02",
+ "previous_round": "2026-09-15",
+ "is_legacy": true,
+ "code": "IT",
+ "name": "Italy",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T18:04:17+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "During the week of October 10-14, 2026, Italy's parliament approved a new electoral law that opposition parties immediately branded a 'scam' designed to lock Meloni's coalition in power through 2027. The government opened budget talks with banks and energy groups over their contribution to the 2027 fiscal plan, while Goldman Sachs warned of bond risks and the EU pressed for fiscal prudence. Italy and the European Commission edged toward a natural-gas price cap deal. Pope Leo XIV announced he would undergo lung surgery in the coming days for a localized nodule. Intesa Sanpaolo sweetened its 34-to-35-billion-euro bid for Monte dei Paschi and warned rivals. A tornado struck Marsala and Petrosino in Sicily, and Pfizer announced roughly 330 job cuts at its Sicily plant. Prosecutors requested a trial for Campari chairman Luca Garavoglia over a 1.29-billion-euro tax-evasion allegation. Thieves stole approximately 30,000 bottles worth five million euros from the Antinori winery in Tuscany. Thousands marched in Rome around the Gaza ceasefire anniversary. NATO launched its ten-day Steadfast Noon nuclear exercise hosted by Italy. KKR committed 22 billion euros to Italy's telecoms network. Jannik Sinner announced his knee injury ends his 2026 season.",
+  "key_events": [
+   {
+    "event": "Parliament approved Meloni's new electoral law, triggering opposition legal and political counterattacks.",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "Pope Leo XIV announced imminent lung surgery for a localized nodule.",
+    "date": null,
+    "domain": "health",
+    "importance": 4
+   },
+   {
+    "event": "Intesa Sanpaolo sweetened its 34-35 billion euro bid for Monte dei Paschi.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "A tornado struck Marsala and Petrosino while Pfizer cut 330 jobs in Sicily.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "NATO began its ten-day Steadfast Noon nuclear exercise hosted by Italy.",
+    "date": null,
+    "domain": "security",
+    "importance": 3
+   },
+   {
+    "event": "Prosecutors requested a trial for Campari chairman over 1.29 billion euro tax evasion.",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 7,
+  "domains_active": [
+   "politics",
+   "economy",
+   "health",
+   "society"
+  ],
+  "emojis": [
+   "📜",
+   "💰",
+   "🏥"
+  ],
+  "emoji_reasons": [
+   "The new electoral law is the central political story of the week.",
+   "Budget, debt, and banking dominate the economic narrative.",
+   "The Pope's lung surgery is the most internationally visible health event."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The naive reading takes the text's top-five list at face value. The opposition launches a formal legal and political counterattack on the new electoral law, with a Constitutional Court filing as the centerpiece. The Meloni government announces a specific windfall tax or bank levy to fund the 2027 budget. The Vatican confirms the Pope's lung surgery was performed and issues a recovery statement. Intesa Sanpaolo's MPS bid triggers a visible shareholder or board confrontation. In Sicily, authorities announce an emergency aid package for the tornado while Pfizer workers protest the 330-job cut and Pfizer issues a revised concession. Each of these is the text's single most-likely branch, stated at high or very high confidence, with the alternative lower-probability scenarios set aside.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "The opposition lodges a formal written legal challenge to the new electoral law before Italy's Constitutional Court.",
+    "probability": 0.75,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "The Meloni government announces a named windfall tax on energy profits or a dedicated bank levy as part of the 2027 budget framework.",
+    "probability": 0.7,
+    "domain": "economy"
+   },
+   {
+    "id": "N3",
+    "text": "The Vatican issues a public statement confirming Pope Leo XIV's lung surgery was performed and provides a recovery timeline.",
+    "probability": 0.85,
+    "domain": "health"
+   },
+   {
+    "id": "N4",
+    "text": "Intesa Sanpaolo's Monte dei Paschi bid triggers a formal shareholder vote, a public board statement, or a named rival counteroffer.",
+    "probability": 0.7,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "Pfizer issues a formal revised proposal reducing the 330 planned job cuts at its Sicily plant following union demonstrations.",
+    "probability": 0.45,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "summary": "The crystal reading redistributes probability across the text's full scenario tree rather than locking onto the top case. Bond-market volatility over the budget is treated as a near-certain stress test, with the 10-year BTP yield crossing a concrete threshold. The Pope's surgery is expected but a complication extending hospitalization is a genuine minority risk the text itself flags. A formal rival bid for Monte dei Paschi, while the text calls it only 'medium,' is a distinct and checkable event separate from the general 'drama' the naive reading absorbs. A coordinated opposition move combining street action with a court filing is the combined high-probability event. A new weather event in Sicily or the north enters as a wildcard the text explicitly names but the naive reading drops entirely.",
+  "reasoning": "The naive reading takes the text's top-five list at face value and ignores the lower-probability branches the text explicitly names. Three crystal statements come from those minority scenarios: the bond-market punishment (text says 'medium-high for volatility, lower for full crisis'), the Pope-surgery complication (text says 'medium for complications'), and a formal MPS rival bid (text says 'medium for a rival bid'). The BTP threshold is set at 0.60 rather than the naive implied 0.75 because the text hedges with 'lower for a full-blown crisis in 7 days.' The Pope complication at 0.40 tracks the text's own 'medium for complications' caveat, shifting well below the naive surgery-confirmation statement. The MPS rival bid at 0.38 follows the text's explicit 'medium for a rival bid' qualifier, well below the naive 0.70 on general MPS drama. The weather wildcard at 0.45 enters from the text's 'medium, depending on actual weather' note, a scenario the naive reading omits entirely. The combined opposition event at 0.70 merges the text's two high-probability opposition actions into one checkable joint statement rather than splitting them.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Italy's 10-year BTP yield rises by more than 10 basis points above the October 13 close as bond markets test the 2027 budget plan.",
+    "probability": 0.6,
+    "domain": "economy"
+   },
+   {
+    "id": "C2",
+    "text": "The Vatican announces a complication from Pope Leo XIV's lung surgery requiring hospitalization beyond five days.",
+    "probability": 0.4,
+    "domain": "health"
+   },
+   {
+    "id": "C3",
+    "text": "A named rival consortium or single bidder submits a formal written counteroffer for Monte dei Paschi exceeding Intesa's 34-billion-euro proposal.",
+    "probability": 0.38,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "The opposition stages a street demonstration in Rome and simultaneously lodges a written Constitutional Court filing or no-confidence motion against the electoral reform within the same 72-hour window.",
+    "probability": 0.7,
+    "domain": "politics"
+   },
+   {
+    "id": "C5",
+    "text": "A new storm, flash flood, or wildfire strikes Sicily or northern Italy, triggering an official emergency declaration from regional authorities.",
+    "probability": 0.45,
+    "domain": "environment"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.9."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q5",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.7."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.3."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Meloni's Week: Law, Debt, Pope, Banks, Sicily",
+  "emojis": [
+   "📜",
+   "💰",
+   "🏥"
+  ],
+  "emoji_reasons": [
+   "The electoral law fight is the predicted top political story.",
+   "Budget and banking drama anchor the economic forecast.",
+   "Pope Leo XIV's surgery is expected to dominate international headlines."
+  ],
+  "tldr": "The text predicts Meloni holds political ground on the electoral law while facing simultaneous pressure from bond markets, opposition court challenges, MPS banking drama, Pope surgery, and Sicilian crises. No single collapse; instead a busy, multi-front week of managed tension.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-14",
+  "horizon_end": "2026-10-21",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Pope Leo XIV undergo lung surgery during the following week?",
+    "domain": "health",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The surgery to happen within days.",
+    "legacy_probability": 0.9
+   },
+   {
+    "id": "Q2",
+    "text": "Will the Italian opposition file a formal legal challenge to the new electoral law before the Constitutional Court?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: A formal legal challenge or at least a serious threat of one before the Constitutional Court.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q3",
+    "text": "Will the Italian government announce an agreement with the EU allowing natural gas price flexibility?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The government to announce that it has secured EU flexibility on gas pricing.",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q4",
+    "text": "Will the Intesa Sanpaolo bid for Monte dei Paschi generate major drama in Italian banking headlines?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: banking headlines will dominate Italian financial news.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q5",
+    "text": "Will the Italian government announce emergency aid for Sicily's tornado damage and will local protests follow the Pfizer job cuts?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Emergency aid announcements for tornado damage. Local protests over housing, schools, roads, and insurance claims.",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q6",
+    "text": "Will large-scale Gaza-related protests take place in Rome during the following week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More demonstrations in Rome, Milan, Naples, Turin, or Bologna.",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q7",
+    "text": "Will the Meloni government face a full coalition crisis or surprise confidence vote in the following week?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: an outright collapse in the next 7 days is not the base case, but a visible internal fight is possible if budget details disappoint.",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q8",
+    "text": "Will Russia issue diplomatic protests or nuclear warnings in response to NATO's Steadfast Noon exercise hosted by Italy?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Russian commentary or diplomatic protests.",
+    "legacy_probability": 0.8
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Italy's 10-year BTP yield rises by more than 10 basis points above the October 13 close as bond markets test the 2027 budget plan?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.6",
+    "legacy_probability": 0.6
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The Vatican announces a complication from Pope Leo XIV's lung surgery requiring hospitalization beyond five days?",
+    "domain": "health",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.4",
+    "legacy_probability": 0.4
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that A named rival consortium or single bidder submits a formal written counteroffer for Monte dei Paschi exceeding Intesa's 34-billion-euro proposal?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.38",
+    "legacy_probability": 0.38
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The opposition stages a street demonstration in Rome and simultaneously lodges a written Constitutional Court filing or no-confidence motion against the electoral reform within the same 72-hour window?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.7",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that A new storm, flash flood, or wildfire strikes Sicily or northern Italy, triggering an official emergency declaration from regional authorities?",
+    "domain": "environment",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.45",
+    "legacy_probability": 0.45
+   }
+  ]
+ },
+ "single_forecaster": true
+}

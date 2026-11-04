@@ -1,0 +1,374 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "IT",
+ "name": "Italy",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T14:40:31+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "Meloni's government became the longest-serving postwar Italian government, but stability came under simultaneous pressure. ISTAT confirmed a 3.1% budget deficit for 2025, complicating Meloni's public claim that Italy would return below the 3% EU threshold in 2026. A new school decree capping classrooms at 30% students with insufficient Italian-language skills and banning full face coverings became the dominant domestic culture-war flashpoint. Salvini called an extraordinary League congress amid internal factional pressure, while Roberto Vannacci's breakaway far-right party faced its first serious parliamentary test. Bank consolidation rumors involving UniCredit, Credit Agricole, Intesa Sanpaolo, and Banco BPM circulated widely. Intesa's Fideuram unit confirmed a roughly 95-million-euro loss to an AI impersonation fraud. Eni announced pump-price cuts and the government convened refiners ahead of winter. The Senate gave final approval to nuclear power after decades without new reactors. Italy lost 0-2 to Belgium in Mancini's second match as national coach, with boos at a half-empty Stadio Olimpico. The Colosseum closed after a worker fell to his death during maintenance. Naples police seized 3.2 million euros hidden inside residential walls and furniture. A critical-minerals memorandum was signed between Rubio and Tajani.",
+  "key_events": [
+   {
+    "event": "School decree on veils and foreign-student caps enacted, triggering a culture-war confrontation across the coalition and opposition.",
+    "date": null,
+    "domain": "politics",
+    "importance": 5
+   },
+   {
+    "event": "ISTAT confirmed a 3.1% budget deficit for 2025, straining Meloni's 2026 sub-3% pledge.",
+    "date": null,
+    "domain": "economy",
+    "importance": 4
+   },
+   {
+    "event": "Vannacci's breakaway far-right party entered its first serious parliamentary test, pressuring Meloni's right flank.",
+    "date": null,
+    "domain": "politics",
+    "importance": 4
+   },
+   {
+    "event": "Intesa Sanpaolo's Fideuram unit lost approximately 95 million euros to an AI impersonation fraud.",
+    "date": null,
+    "domain": "technology",
+    "importance": 3
+   },
+   {
+    "event": "Italy lost 0-2 to Belgium in Mancini's second fixture, intensifying doubts about the rebuild.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "The Colosseum closed after a maintenance worker fell to his death, prompting a safety review.",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "The Senate gave final approval to a nuclear-power law, ending decades of political stalemate on reactors.",
+    "date": null,
+    "domain": "environment",
+    "importance": 4
+   }
+  ],
+  "mood": "tense",
+  "intensity": 6,
+  "domains_active": [
+   "politics",
+   "economy",
+   "society"
+  ],
+  "emojis": [
+   "📜",
+   "🏦",
+   "⚽"
+  ],
+  "emoji_reasons": [
+   "The school decree on veils and foreign students is the week's dominant legislative and culture-war story.",
+   "Bank consolidation rumors and the Fideuram fraud put Italian banking at the centre of economic headlines.",
+   "Italy's 0-2 loss to Belgium and Mancini's fragile position make football the emotional barometer of national mood."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text's headline case is that Meloni's government holds firm while she fights on three fronts simultaneously. The school decree on veils and foreign students gets formally published and immediately draws legal challenges and protests, becoming the week's dominant domestic story. The 3.1% deficit keeps the bond market on edge, nudging BTP yields higher as Meloni publicly defends the 2026 sub-3% target. Mancini faces a make-or-break Nations League match and the naive reading takes the worst-case branch: Italy loses and his position is publicly challenged. Bank consolidation rumors heat up with at least two banks confirming exploratory talks around Banco BPM. The Colosseum reopens within the week, accompanied by a published safety review or capacity restriction, giving Rome a mixed relief-and-scrutiny narrative. No formal government collapse, no bank mega-merger, no Red Sea shock; the week is defined by pressure management rather than crisis.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "The school decree capping classrooms at 30% students with insufficient Italian is formally published in the Gazzetta Ufficiale and at least one legal challenge is filed by a teachers' union or opposition party within three days.",
+    "probability": 0.8,
+    "domain": "politics"
+   },
+   {
+    "id": "N2",
+    "text": "Italy's 10-year BTP yield rises by more than 5 basis points relative to the prior Friday close as the market reacts to the 3.1% deficit confirmation and Meloni's 2026 target.",
+    "probability": 0.55,
+    "domain": "economy"
+   },
+   {
+    "id": "N3",
+    "text": "Italy loses its next Nations League fixture and at least two national newspapers call for tactical or personnel changes under Mancini within 48 hours of the match.",
+    "probability": 0.45,
+    "domain": "society"
+   },
+   {
+    "id": "N4",
+    "text": "At least two of the five named Italian banks issue official statements confirming exploratory talks or a joint approach involving Banco BPM.",
+    "probability": 0.4,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "The Colosseum reopens to the public within the week with a published safety-review document or a capacity-restriction notice posted at the entrance.",
+    "probability": 0.75,
+    "domain": "society"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The crystal reading weights the text's full scenario distribution, including the five items the author listed under 'what would surprise me.' Vannacci's first parliamentary test is treated as a genuine wildcard that could produce a shock result, not just a local curiosity. The EU Commission is seen as an active risk that could demand revised deficit commitments mid-cycle, turning a bond wobble into a sharper spike. A formal bank merger bid is weighted as a low-probability but high-impact event the text explicitly flags. The Colosseum reopening is assigned a non-trivial delay probability based on a structural safety finding. The Fideuram fraud is treated as likely to escalate with a named executive and a revised loss figure. These adjustments lower the probability of the smooth 'pressure management' week the naive reading assumes and elevate the chance that one surprise event dominates the news cycle.",
+  "reasoning": "The naive reading takes the text's stated top-case predictions at face value: the government holds, the decree is published, the Colosseum reopens, Mancini loses one match. The crystal reading instead foregrounds the author's own 'what would surprise me' list and conditional branches. Vannacci winning a seat (naive: unlikely) becomes a 0.25-probability event because the text calls the result a 'real wildcard.' The Colosseum delay probability is raised from the naive near-zero to 0.15 based on the text's explicit 'serious safety finding' surprise scenario. The EU Commission intervention is elevated to 0.30 because the text links it to France's already-stressed budget battle. The Fideuram escalation (C5) is weighted higher than the naive would assign because the text's conditional 'if any senior executive is named or if the amount gets revised upward, expect more headlines' signals the author sees this as a live fork rather than a footnote.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Vannacci's party achieves a vote share above 3 percent in its first parliamentary test, and at least one League MP publicly calls for a floor vote on the school decree within 72 hours.",
+    "probability": 0.25,
+    "domain": "politics"
+   },
+   {
+    "id": "C2",
+    "text": "The EU Commission publicly demands Italy submit revised 2026 deficit-cutting commitments before the autumn stability-program deadline, and Italy's 10-year BTP yield spikes by more than 10 basis points within two trading sessions.",
+    "probability": 0.3,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "C3",
+    "text": "A formal joint bid or merger approach involving Banco BPM and at least one of UniCredit, Intesa Sanpaolo, or Credit Agricole is announced by a company press release during the week.",
+    "probability": 0.2,
+    "domain": "economy"
+   },
+   {
+    "id": "C4",
+    "text": "The Colosseum reopening is delayed beyond the week by a structural safety finding, and Rome's mayor announces a partial closure of the upper tier to visitors.",
+    "probability": 0.15,
+    "domain": "society"
+   },
+   {
+    "id": "C5",
+    "text": "Intesa Sanpaolo names a specific senior executive as accountable for the Fideuram AI fraud in an official disclosure, and the confirmed loss exceeds 95 million euros.",
+    "probability": 0.55,
+    "domain": "technology"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q2",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q3",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q7",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q8",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Meloni defends government amid school decree, deficit, and right-flank pressure",
+  "emojis": [
+   "🏛️",
+   "💰",
+   "⚽"
+  ],
+  "emoji_reasons": [
+   "The core story is a sitting government managing simultaneous political, fiscal, and coalition pressures.",
+   "The 3.1% deficit and bond-market credibility question anchor the economic dimension.",
+   "Mancini's make-or-break Nations League fixture gives football a disproportionate role in the week's narrative."
+  ],
+  "tldr": "Meloni's government survives the week under triple pressure from a culture-war school decree, a 3.1% deficit testing her 2026 fiscal credibility, and right-wing rivals Salvini and Vannacci. Bank consolidation rumors, a nuclear implementation debate, and Mancini's fragile football position complete a busy but non-crisis week.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Italy's school decree on veils and foreign students be formally published through the official state process?",
+    "domain": "politics",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: The decree will be published or formally pushed through the official state process, triggering immediate legal and political scrutiny.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q2",
+    "text": "Will Italy's 10-year BTP bond yield rise during the week in response to the confirmed 3.1% deficit for 2025?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Italy's 10-year BTP yield may wobble upward during the week if the market senses that Meloni is under pressure to spend rather than consolidate.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q3",
+    "text": "Will a completed bank merger or formal acquisition involving Banco BPM, Intesa Sanpaolo, UniCredit, Credit Agricole, or Monte dei Paschi di Siena be announced within the next seven days?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: no completed mega-merger in the next seven days, but the story will heat up.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q4",
+    "text": "Will the Colosseum in Rome reopen to the public with new safety rules or capacity restrictions following the fatal worker incident?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: the Colosseum reopens, probably within the week, but not without new safety rules or public discussion.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will Vannacci's breakaway far-right party win a parliamentary seat or produce a shock electoral result that creates an immediate crisis for Meloni's government?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: My prediction: Vannacci does not immediately unseat Meloni, but he becomes a constant irritant.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q6",
+    "text": "Will Italy lose its next Nations League football match badly enough to trigger serious calls for Mancini's dismissal?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Italy loses its next Nations League match badly. That would turn Mancini's position from uncomfortable to genuinely dangerous.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q7",
+    "text": "Will additional Italian fuel refiners or distributors announce price cuts or adjustments to pump prices following Eni's reduction?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: More refiners or distributors following Eni with price adjustments.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q8",
+    "text": "Will environmental groups organize protests or public statements against Italy's nuclear power implementation plans?",
+    "domain": "environment",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Environmental groups organizing protests or statements, especially in regions associated with old nuclear sites or energy infrastructure.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Vannacci's party achieves a vote share above 3 percent in its first parliamentary test, and at least one League MP publicly calls for a floor vote on the school decree within 72 hours?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.25",
+    "legacy_probability": 0.25
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that The EU Commission publicly demands Italy submit revised 2026 deficit-cutting commitments before the autumn stability-program deadline, and Italy's 10-year BTP yield spikes by more than 10 basis points within two trading sessions?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that A formal joint bid or merger approach involving Banco BPM and at least one of UniCredit, Intesa Sanpaolo, or Credit Agricole is announced by a company press release during the week?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.2",
+    "legacy_probability": 0.2
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that The Colosseum reopening is delayed beyond the week by a structural safety finding, and Rome's mayor announces a partial closure of the upper tier to visitors?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.15",
+    "legacy_probability": 0.15
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that Intesa Sanpaolo names a specific senior executive as accountable for the Fideuram AI fraud in an official disclosure, and the confirmed loss exceeds 95 million euros?",
+    "domain": "technology",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.55",
+    "legacy_probability": 0.55
+   }
+  ]
+ },
+ "single_forecaster": true
+}

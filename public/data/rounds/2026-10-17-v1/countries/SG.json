@@ -1,0 +1,375 @@
+{
+  "schema_version": 4,
+  "round": "2026-10-17",
+  "previous_round": "2026-10-02",
+  "is_legacy": false,
+  "code": "SG",
+  "name": "Singapore",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-10-23T08:05:41+03:00",
+  "status": {
+    "reader": "done",
+    "judge": "skipped",
+    "plain": "done",
+    "crystal": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 14 to 17, 2026, Singapore's most pressing issue was the Indonesian haze crisis, which pushed the city-state into its twelfth consecutive day of unhealthy air, the longest streak since 2015. Prime Minister Wong Lee Suen warned of further action, and Singapore formally placed seven Indonesian firms on notice over the fires, while weighing legal proceedings. Air purifiers and face masks sold out across the country, and pollution reached 'very unhealthy' levels. In a separate but significant development, a Singapore-registered container ship was struck by a projectile in the Strait of Hormuz and sank, though other vessels continued transiting the waterway. On the economic front, September exports surged 68.4 percent year on year, and the central bank held its monetary policy steady amid a 5.4 percent expansion driven largely by artificial intelligence activity. Singapore's minister declared the city-state is positioning itself as Southeast Asia's AI gateway, while data centre billings crossed the one-gigawatt mark. Property sales recovered from their lowest level since 2024, and a $760 million deal drew attention. After a $22 billion rout in Singapore bank shares, analysts called for buying the dip, and a Deputy PM urged the country to work faster to compete with London and Dubai as a global wealth hub.",
+    "key_events": [
+      {
+        "event": "Singapore recorded its 12th consecutive day of unhealthy air, the longest streak since 2015, as Indonesian peat fires intensified.",
+        "date": null,
+        "domain": "environment",
+        "importance": 5
+      },
+      {
+        "event": "A Singapore-registered container ship was hit by a projectile and sank in the Strait of Hormuz.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Singapore placed seven Indonesian firms on formal notice over the haze-causing fires and weighed legal action.",
+        "date": null,
+        "domain": "environment",
+        "importance": 4
+      },
+      {
+        "event": "September exports rose 68.4 percent year on year, signalling a sharp rebound in trade.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The Monetary Authority of Singapore held rates as the economy expanded 5.4 percent, driven by AI-related investment.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A minister declared Singapore is positioning itself as Southeast Asia's AI gateway as data-centre billings surpassed one gigawatt.",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "After a $22 billion rout in Singapore bank shares, analysts urged investors to buy the dip.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A Deputy Prime Minister called for Singapore to work faster to compete with London and Dubai as a global wealth and asset-management hub.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "environment",
+      "economy",
+      "security",
+      "technology"
+    ],
+    "emojis": [
+      "🌍",
+      "🚢",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "🌍: Headlines 14 and 31 report Singapore's 12th straight day of unhealthy air and haze at its highest level, making the environmental crisis the week's dominant story.",
+      "🚢: Headlines 3 and 20 report a Singapore-registered container ship hit by a projectile and sinking in the Strait of Hormuz.",
+      "📈: Headlines 8 and 32 report September exports rising 68.4 percent and the economy expanding 5.4 percent, underscoring strong growth."
+    ],
+    "developments": [
+      {
+        "subject": "Indonesian haze crisis",
+        "what_happened": "Singapore endured its 12th straight day of unhealthy air, placed seven Indonesian firms on formal notice, and weighed legal action as PM Wong warned of further steps.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          18,
+          22,
+          25,
+          27,
+          31
+        ]
+      },
+      {
+        "subject": "Hormuz ship sinking",
+        "what_happened": "A Singapore-registered container ship was struck by a projectile in the Strait of Hormuz and sank, though other vessels continued transiting.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          7,
+          16,
+          20
+        ]
+      },
+      {
+        "subject": "Export and economic surge",
+        "what_happened": "September exports jumped 68.4 percent year on year and the central bank held policy amid 5.4 percent growth driven by AI activity.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          32
+        ]
+      },
+      {
+        "subject": "AI gateway ambition",
+        "what_happened": "A minister declared Singapore is positioning as Southeast Asia's AI gateway as data-centre developer DayOne's billings surpassed one gigawatt.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          19,
+          24
+        ]
+      },
+      {
+        "subject": "Banking rout and buy-the-dip calls",
+        "what_happened": "After a $22 billion rout in Singapore bank shares, analysts grew louder in calling for buying the dip.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          15,
+          21
+        ]
+      },
+      {
+        "subject": "Property market recovery",
+        "what_happened": "Singapore home sales recovered from their lowest level since 2024, with a tycoon eyeing a $760 million deal and Hongkong Land seeking a stake.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          29,
+          30,
+          33
+        ]
+      },
+      {
+        "subject": "LNG bunkering push",
+        "what_happened": "PetroChina carried out its first LNG bunker fuelling in Singapore, and supplier Equatorial expects higher LNG bunker demand from 2028.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          17,
+          26
+        ]
+      },
+      {
+        "subject": "Competition with London and Dubai",
+        "what_happened": "A Deputy PM urged Singapore to work faster to beat London and Dubai as a global wealth hub, a theme echoed in broader coverage.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          23,
+          34
+        ]
+      },
+      {
+        "subject": "UK 'poisonous shrimp' reference",
+        "what_happened": "UK PM Sunak invoked Singapore's 'poisonous shrimp' in a domestic power debate, briefly putting Singapore in the international spotlight.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          28
+        ]
+      },
+      {
+        "subject": "FICG Johor manufacturing site",
+        "what_happened": "FICG officially opened a new manufacturing site in Johor, strengthening its operations across Singapore and Malaysia.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      }
+    ],
+    "gone": [
+      "F1 Singapore Grand Prix scheduled with",
+      "Eight civil servants referred to police",
+      "Temasek issued a public warning about",
+      "Singapore announced it had missed its",
+      "ASEAN energy ministers met amid an"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong coverage of the dominant haze crisis, the Hormuz shipping incident, and the economic data, though the property and AI stories are thinner."
+    },
+    "headlines_used": [
+      "Thick haze lingers over Singapore as Indonesia fires rage on",
+      "Singapore puts seven Indonesian firms on notice over toxic haze",
+      "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "Incendies en Indonésie : Singapour dénonce des entreprises comme responsables",
+      "Singapore Names Seven Companies Over Indonesia Haze Fires",
+      "FICG OFFICIALLY OPENS JOHOR MANUFACTURING SITE, STRENGTHENING OPERATIONS ACROSS SINGAPORE AND MALAYSIA – Company Announcement - FT.com",
+      "One Singapore ship was sunk, but here's why others are still transiting the Strait of Hormuz",
+      "Singapore's September exports rise 68.4% on year",
+      "Indonesia haze spikes Singapore pollution, shuts East Timor schools",
+      "What in the World | How fires in Indonesia are impacting Singapore’s air",
+      "Incendies en Indonésie : pollution 'très élevée' à Singapour, écoles fermées au Timor oriental",
+      "Singapore Probing Firms Over Haze-Causing Indonesian Fires",
+      "Gasping for clean air: Singapore battles relentless haze as Prime Minister Wong warns of action",
+      "Singapore hits 12th straight day of unhealthy air, longest since 2015",
+      "Lion Capital Funds II - Lion-Bank of Singapore Asian Income Fund",
+      "CNBC Daily Open: A Singapore ship goes down as Hormuz risks rise",
+      "PetroChina to carry out its first LNG bunker fuelling in Singapore",
+      "Singapore Weighs Legal Action as Haze Turns ‘Very Unhealthy’",
+      "Singapore positioning itself as Southeast Asia's AI gateway: Minister",
+      "Two Singapore-registered vessels struck in Strait of Hormuz; one sinks",
+      "Buy the Dip Calls Grow After $22 Billion Rout in Singapore Banks",
+      "Singapore pollution spikes, East Timor shuts schools as Indonesia wildfire haze intensifies",
+      "Watch Singapore DPM: Must Work Faster to Vie With Wealth Hubs",
+      "Singapore data centre developer DayOne's billings surpass 1 gigawatt",
+      "Singapore Haze Drives Air Purifiers, Face Masks to Sell Out",
+      "Singapore marine fuel supplier Equatorial eyes higher LNG bunker demand from 2028",
+      "Opportunities for Deals Through the Singapore Haze: Raine Group",
+      "Watch Sunak Invokes Singapore’s 'Poisonous Shrimp' in Power Debate",
+      "Singapore Home Sales Recover From Lowest Level Since 2024",
+      "Tycoon Piling Into Singapore Property Eyes $760 Million Deal",
+      "Singapore Haze Hits Highest Level as Indonesian Fires Worsen",
+      "Singapore Holds Monetary Policy as Economy Expands 5.4% on AI",
+      "Hongkong Land Is Said to Seek Stake in Tycoon’s Singapore Assets",
+      "Singapore Must Work Faster, Harder to Beat London, Dubai as Hub"
+    ],
+    "converted": false,
+    "relevant_headlines": 34,
+    "unscorable": true,
+    "unscorable_reason": "only 34 relevant headlines (fewer than 40)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Indonesian haze crisis",
+        "expected": "Indonesian haze crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Indonesian haze crisis appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Hormuz ship sinking",
+        "expected": "Hormuz ship sinking stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Hormuz ship sinking appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Export and economic surge",
+        "expected": "Export and economic surge stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Export and economic surge appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Hormuz ship sinking",
+        "expected": "persist",
+        "sign": "Hormuz ship sinking is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Indonesian haze crisis stays in the news at the same level. Hormuz ship sinking stays in the news at the same level. Export and economic surge stays in the news at the same level. Hormuz ship sinking is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Indonesian haze crisis",
+        "expected": "Singapore will initiate formal legal proceedings against the named Indonesian firms over the fires causing the prolonged haze.",
+        "direction": "escalate",
+        "sign": "Headlines reporting that Singapore has filed a formal legal case against Indonesian companies over haze-causing fires"
+      },
+      "second": {
+        "subject": "Strait of Hormuz ship sinking",
+        "expected": "Singapore will announce a formal investigation into the projectile that struck and sank its registered container ship in the Strait of Hormuz.",
+        "direction": "persist",
+        "sign": "Headlines about Singapore opening an official inquiry into the projectile attack on its vessel in the Strait of Hormuz"
+      },
+      "third": {
+        "subject": "AI gateway and data centre growth",
+        "expected": "Singapore will announce a new major data centre investment to solidify its role as Southeast Asia's AI gateway.",
+        "direction": "persist",
+        "sign": "Headlines about a new data centre project or AI sector policy announced in Singapore"
+      },
+      "fade_call": {
+        "subject": "Banking sector rout",
+        "expected": "fade",
+        "sign": "Headlines shifting from the sharp sell-off in Singapore bank shares to more routine financial sector coverage"
+      },
+      "surprise": {
+        "subject": "Indonesia diplomatic pushback on trade",
+        "expected": "Indonesia will respond to Singapore's formal notice by proposing retaliatory trade measures, turning the haze dispute into a broader bilateral commercial conflict.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the Indonesian haze crisis will dominate Singapore's headlines as the city-state moves from warning to action. Singapore will file formal legal proceedings against the named Indonesian firms, and pollution will stay at unhealthy levels. The Strait of Hormuz incident will persist in coverage as Singapore opens an official investigation into the projectile that sank its container ship. The AI-driven growth story will hold steady, with new data centre announcements reinforcing Singapore's push to become Southeast Asia's AI gateway. The banking sector rout will fade from the front pages as buy-the-dip calls lose urgency. A medium-chance surprise is Indonesia pushing back diplomatically with proposed trade retaliation, widening the haze dispute into a broader commercial conflict. The week will be defined by the escalating air crisis and Singapore's attempt to turn economic momentum into structural advantage.",
+      "generated_at": "2026-10-23T07:49:34+03:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Indonesian haze legal escalation",
+        "expected": "Singapore will convert its formal notices to the Indonesian firms into concrete legal proceedings, with the prime minister publicly setting out the enforcement mechanism and deadline for remediation.",
+        "direction": "escalate",
+        "sign": "A headline announcing Singapore has filed a formal legal claim or set a deadline for the Indonesian companies to present remediation plans, naming the legal body involved."
+      },
+      "second": {
+        "subject": "Hormuz sunken vessel aftermath",
+        "expected": "Singapore's maritime authorities will publish preliminary findings on the projectile strike and outline the compensation and insurance process for the shipowner.",
+        "direction": "persist",
+        "sign": "A headline reporting the official preliminary findings on how the projectile struck the vessel and the next steps for the shipowner's insurance claim."
+      },
+      "third": {
+        "subject": "AI infrastructure and banking recovery",
+        "expected": "New AI or data-centre infrastructure announcements will land in Singapore, and bank shares will show a partial recovery as dip-buying trades take hold.",
+        "direction": "persist",
+        "sign": "A headline about a new large data-centre or AI infrastructure commitment in Singapore appearing alongside a report of bank stock prices climbing back."
+      },
+      "fade_call": {
+        "subject": "UK Sunak poisonous shrimp reference",
+        "expected": "fade",
+        "sign": "The reference will appear only as a passing allusion in an international politics article and not generate a dedicated Singapore story."
+      },
+      "surprise": {
+        "subject": "Central bank policy shift",
+        "expected": "The central bank will make a small but directional monetary policy adjustment, citing the AI-driven boom and property recovery, surprising markets that expected another hold.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, Singapore will be dominated by the Indonesian haze crisis as the country pushes past its longest unhealthy-air streak since 2015. The government will convert its formal notices to seven Indonesian firms into concrete legal or quasi-legal steps, with the prime minister publicly setting out the enforcement path. In the Strait of Hormuz, the aftermath of the sunken Singapore-registered container ship will generate investigation updates, insurance proceedings, and further discussion of whether transiting vessels should adjust routes. The AI-driven economic expansion will produce new infrastructure announcements and a partial stabilization of bank shares after the twenty-two billion dollar rout. Property transactions will keep climbing, and the LNG bunkering sector will register its first commercial milestones. The UK poisonous shrimp reference will fade from the news cycle.",
+      "generated_at": "2026-10-23T08:05:41+03:00"
+    }
+  },
+  "display": {
+    "headline": "Singapore Escalates Haze Legal Push as Hormuz Sinking Unfolds",
+    "emojis": [
+      "🌍",
+      "🚢",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "The Indonesian haze and its transboundary environmental impact are the dominant story.",
+      "The sunken Singapore-registered vessel in the Strait of Hormuz makes shipping and maritime tension a central theme.",
+      "The AI gateway push, data-centre billings, and AI-driven growth form the backbone of the economic narrative."
+    ],
+    "tldr": "Singapore will push its haze response into legal territory against the Indonesian firms while the sunken Hormuz vessel triggers investigation and insurance proceedings. AI infrastructure deals and a partial bank-share recovery will anchor the economic story. The UK poisonous shrimp moment fades from the news.",
+    "eli5": "Singapore is dealing with really bad air pollution from fires in Indonesia. It has been going for over two weeks, which is the longest stretch since 2015. People are struggling to breathe, air purifiers have sold out in stores, and the government is getting angry.\n\nThe fires are in peatlands in Sumatra and Borneo, and the wind blows the smoke straight to Singapore. The government is now officially telling seven Indonesian companies that they are responsible and is preparing to take them to court or use other legal tools to force them to stop burning.\n\nNext week, Singapore will probably move from putting companies on notice to actually starting legal proceedings, which is the Indonesian haze legal escalation. At the same time, the sunken ship in the Strait of Hormuz will generate investigation reports and insurance claims, which is the Hormuz vessel aftermath. On the positive side, new AI and data-centre deals will keep landing, and bank stocks that crashed last month will start to recover a little.\n\nIf the central bank suddenly tightened its policy instead of just holding steady, that would be a big surprise. Or if a second Singapore-linked ship got hit in Hormuz, that would escalate things quickly."
+  },
+  "judgment": null,
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-02:\nAccording to the text, Singapore entered the week of 9-17 October 2026 under multiple simultaneous pressures. The Formula 1 Singapore Grand Prix anchored public attention, with George Russell starting from the back of the grid after a penalty and Kimi Antonelli holding a championship lead. Transboundary haze from Indonesian peat fires, compounded by El Nino and poor Borneo water conditions, drove air-quality anxiety across schools, events, and tourism. Eight civil servants had been referred to police over home purchases linked to unannounced MRT and property information, creating a persistent governance irritant. In financial markets, Temasek warned of an AI-trade unwind, long-bond yields pressured bank earnings, and Wall Street IPO demand cooled. Energy-security concerns rose from Iran-related Strait of Hormuz risk, oil-price volatility, and Singapore's miss on its 2035 green-power import target. AI-driven cyber risk and scams entered governance discourse, and a state-backed dating app for civil servants generated social-media debate\n- F1 Singapore Grand Prix scheduled with (regular, continuing): F1 Singapore Grand Prix scheduled with Russell starting from the back and Antonelli leading the championship.\n- Indonesian peat fires and El Nino (regular, continuing): Indonesian peat fires and El Nino conditions produced transboundary haze affecting Singapore air quality.\n- Eight civil servants referred to police (regular, continuing): Eight civil servants referred to police over property purchases linked to unannounced MRT and land-use information.\n- Temasek issued a public warning about (regular, continuing): Temasek issued a public warning about AI-trade unwind risk and rising long-bond yields pressuring bank earnings.\n- Singapore announced it had missed its (regular, continuing): Singapore announced it had missed its 2035 green-power import target against a backdrop of Hormuz energy risk.\n- ASEAN energy ministers met amid an (regular, continuing): ASEAN energy ministers met amid an Iran-war backdrop and rising oil prices.\n\nRound 2026-09-15:\nSingapore's air quality plunged to unhealthy levels as transboundary haze from Indonesian fires in Sumatra and Borneo carried smoke across the region, with over 170,000 Indonesians reporting respiratory problems since August. The WTA 500 Singapore tournament was confirmed for the coming week, but top-seed Jessica Pegula withdrew citing workload. A large cargo ship collided with a Chinese fishing vessel in Singapore's busy shipping lanes, triggering questions about lookout, speed, and AIS tracking. A two-billion-dollar money-laundering case produced a fortified storage facility full of seized luxury handbags and watches heading to public auction. Bus-seat fines of S$400 to S$500 for propping feet on seats ignited the perennial Fine City debate. Q2 retrenchment hit its highest level since the pandemic peak while August exports surged 46.2 percent year-on-year on AI demand. The Glencore–Radiant World lawsuit, approximately S$2.5 billion, was actively being litigated in Singapore courts. Waymo announced a 2028 Singapore entry, Grab\n- Transboundary haze from Indonesian fires pushed (regular, continuing): Transboundary haze from Indonesian fires pushed Singapore's air quality to unhealthy levels, with 170,000+ Indonesians reporting respiratory issues since August.\n- A large cargo ship collided with (regular, continuing): A large cargo ship collided with a Chinese fishing vessel in Singapore's shipping lanes, prompting questions about speed, lookout, and AIS data.\n- Singapore's Q2 retrenchment rate hit its (regular, continuing): Singapore's Q2 retrenchment rate hit its highest level since the pandemic while August exports surged 46.2 percent on AI demand.\n- Jessica Pegula withdrew from the WTA (regular, continuing): Jessica Pegula withdrew from the WTA 500 Singapore tournament citing workload, confirming the event will proceed.\n- Glencore and Radiant World advanced a (regular, continuing): Glencore and Radiant World advanced a roughly S$2.5 billion international dispute in Singapore's courts.\n- Glencore and Radiant World advanced a (again) (regular, continuing): Glencore and Radiant World advanced a roughly S$2.5 billion international dispute in Singapore's courts.\n",
+    "PREVIOUS_FORECAST": "Not available.",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "15 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null
+}

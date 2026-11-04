@@ -1,0 +1,363 @@
+{
+ "schema_version": 2,
+ "round": "2026-09-15",
+ "previous_round": null,
+ "is_legacy": true,
+ "code": "EG",
+ "name": "Egypt",
+ "model": "legacy manual round, imported by huihui_ai/Qwen3.8-abliterated:27b",
+ "generated_at": "2026-10-21T14:54:22+03:00",
+ "status": {
+  "position": "done",
+  "velocity": "skipped",
+  "wind": "skipped",
+  "naive_forecast": "done",
+  "crystal_forecast": "done",
+  "display": "done",
+  "questions": "done"
+ },
+ "position": {
+  "summary": "The text described a week in which Egypt faced multiple simultaneous diplomatic and economic pressures. Italy's courts convicted three Egyptian security officials in the Giulio Regeni case, handing down ten-year sentences that Cairo treated as an in-absentia judgment. Ethiopia's army chief publicly accused Egypt, Sudan, and Eritrea of backing Tigrayan rebels, putting Cairo into a defensive regional posture. Mohamed Salah was rested for Egypt's AFCON qualifier in South Sudan, igniting a national debate around coach Hossam Hassan's authority. The central bank held rates steady while the government pushed gold and mining investment as a new economic pillar. Red Sea and Suez Canal messaging gained strategic weight amid Hormuz tensions and Houthi alerts. Egypt summoned the Turkish envoy over Erdogan's regional comments, and leaks about Egypt's pre-October-7 warning to Netanyahu gave Cairo quiet leverage in Israel-Gulf coordination. Domestically, life stayed calm under persistent inflation pressure, with food and fuel costs dominating social media complaints.",
+  "key_events": [
+   {
+    "event": "Italian court convicts three Egyptian security officials in the Regeni case with ten-year sentences",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 4
+   },
+   {
+    "event": "Ethiopian army chief accuses Egypt, Sudan, and Eritrea of supporting Tigrayan rebels",
+    "date": null,
+    "domain": "security",
+    "importance": 4
+   },
+   {
+    "event": "Mohamed Salah rested for AFCON qualifier against South Sudan over artificial turf concerns",
+    "date": null,
+    "domain": "society",
+    "importance": 3
+   },
+   {
+    "event": "Central Bank of Egypt keeps policy rate unchanged while government promotes mining investment",
+    "date": null,
+    "domain": "economy",
+    "importance": 3
+   },
+   {
+    "event": "Egypt summons Turkish envoy over Erdogan's regional remarks",
+    "date": null,
+    "domain": "diplomacy",
+    "importance": 3
+   }
+  ],
+  "mood": "tense",
+  "intensity": 5,
+  "domains_active": [
+   "diplomacy",
+   "security",
+   "economy",
+   "society"
+  ],
+  "emojis": [
+   "🤝",
+   "⚽",
+   "⛏️"
+  ],
+  "emoji_reasons": [
+   "Diplomatic spats over Regeni, Ethiopia, and Turkey dominated the week's foreign policy agenda.",
+   "Salah's absence from the AFCON qualifier became the defining domestic emotional story.",
+   "Cairo's push to reposition gold and mining as a core economic pillar ran through the entire week's economic messaging."
+  ]
+ },
+ "velocity": null,
+ "wind": null,
+ "naive_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text's headline case is a week of controlled diplomacy and economic signaling with no major rupture. Egypt issued a measured statement on the Regeni verdict, denied Ethiopian accusations of rebel support, held interest rates steady, and let the Suez Canal Authority tout strategic relevance. Football provided the emotional center: Egypt drew or won in South Sudan, and the Salah-Hassan debate dominated media. Turkey friction stayed loud but bounded, and the domestic front held because no fuel or subsidy shock landed. The overall shape was stable but busy; Cairo talked, spun, and managed rather than acted.",
+  "statements": [
+   {
+    "id": "N1",
+    "text": "The Egyptian foreign ministry issues a formal statement describing the Italian Regeni verdict as in absentia and reserving Cairo's legal rights.",
+    "probability": 0.8,
+    "domain": "diplomacy"
+   },
+   {
+    "id": "N2",
+    "text": "Egypt's foreign ministry publishes a denial that Cairo supports Tigrayan rebels, framing its regional role as stability-oriented.",
+    "probability": 0.75,
+    "domain": "security"
+   },
+   {
+    "id": "N3",
+    "text": "Egypt's national team draws or wins its AFCON qualifier match against South Sudan while Mohamed Salah sits out the starting eleven.",
+    "probability": 0.7,
+    "domain": "society"
+   },
+   {
+    "id": "N4",
+    "text": "The Central Bank of Egypt keeps its policy rate unchanged and publishes inflation commentary without announcing new monetary measures.",
+    "probability": 0.8,
+    "domain": "economy"
+   },
+   {
+    "id": "N5",
+    "text": "Egypt summons the Turkish charge d'affaires or issues a public statement criticizing Ankara over Erdogan's regional remarks.",
+    "probability": 0.4,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.12."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.4."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "crystal_forecast": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "summary": "The text's full distribution opens real room for a harder week than the managed-diplomacy baseline. The 40 to 50 percent Red Sea incident and 25 to 35 percent Ethiopian military escalation sit just below the modal case and would shift the narrative from controlled to reactive. The 10 to 15 percent full Egypt-Ethiopia blow-up, while small, would trigger IGAD consultations and a visible posture shift. The Italian opposition's push for a harder line could ratchet the Regeni dispute from a routine note into a formal legal or ambassadorial exchange. The football outcome could cut either way, and the text explicitly flags a fuel or subsidy shock as the domestic trigger. The crystal reading treats the quiet week as the modal case but weights tail risks heavily enough to expect at least one visible jolt.",
+  "reasoning": "The naive reading takes the text's 80 percent managed-Regeni and high-denials probabilities at face value, producing a week of statements and quiet economic messaging. The crystal reading elevates the text's own stated minority scenarios: the 40 to 50 percent Red Sea incident, the 25 to 35 percent Ethiopian military spillover, and the 10 to 15 percent full blow-up. It also raises the weight on the Italian opposition's role, which the text identifies as the key variable that could push Regeni beyond containment. Where the naive reading sees Egypt dropping points as unlikely, the crystal notes the text explicitly lists it as a possible shock that would dominate media. Probabilities on visible security incidents rise while purely managed-diplomacy outcomes fall.",
+  "confidence": 5,
+  "statements": [
+   {
+    "id": "C1",
+    "text": "Ethiopia announces a drone strike or town capture in Tigray while naming Egypt in a military or political statement.",
+    "probability": 0.3,
+    "domain": "security"
+   },
+   {
+    "id": "C2",
+    "text": "A Houthi-linked or al-Shabaab-linked security incident occurs near Bab el-Mandeb or the Gulf of Aden, triggering a Suez Canal Authority alert.",
+    "probability": 0.45,
+    "domain": "security"
+   },
+   {
+    "id": "C3",
+    "text": "Egypt drops points in its AFCON qualifier against South Sudan, and coach Hossam Hassan's press conference draws sharp criticism of Salah's absence.",
+    "probability": 0.35,
+    "domain": "society"
+   },
+   {
+    "id": "C4",
+    "text": "A gold or mining company announces a new MOU, exploration study, or output target in Egypt's Eastern Desert.",
+    "probability": 0.7,
+    "domain": "economy"
+   },
+   {
+    "id": "C5",
+    "text": "Italy's opposition parties force a parliamentary question or public demand that escalates the Regeni dispute beyond a routine diplomatic note.",
+    "probability": 0.25,
+    "domain": "diplomacy"
+   }
+  ],
+  "answers": [
+   {
+    "id": "Q1",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.8."
+   },
+   {
+    "id": "Q2",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.12."
+   },
+   {
+    "id": "Q3",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q4",
+    "answer": "YES",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q5",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   },
+   {
+    "id": "Q6",
+    "answer": "YES",
+    "reason": "Legacy forecast text, stated probability 0.45."
+   },
+   {
+    "id": "Q7",
+    "answer": "NO",
+    "reason": "Legacy forecast text, stated probability 0.4."
+   },
+   {
+    "id": "Q8",
+    "answer": "NO",
+    "reason": "Legacy forecast text."
+   }
+  ]
+ },
+ "display": {
+  "headline": "Egypt manages Regeni fallout, Tigray denials, and gold push",
+  "emojis": [
+   "🤝",
+   "⚽",
+   "⛏️"
+  ],
+  "emoji_reasons": [
+   "The forecast centered on controlled diplomacy across Italy, Ethiopia, Turkey, and Israel.",
+   "Football and the Salah-Hassan debate were the primary national mood-setting event.",
+   "Gold and mining investment announcements were the economic backbone of the week's narrative."
+  ],
+  "tldr": "Egypt spent the week containing the Italian Regeni verdict, denying Ethiopian Tigray accusations, promoting mining investment, and using football as a mood reset. No crisis broke, but diplomatic noise and inflation kept Cairo occupied.",
+  "eli5": null
+ },
+ "questions": {
+  "horizon_start": "2026-10-01",
+  "horizon_end": "2026-10-08",
+  "items": [
+   {
+    "id": "Q1",
+    "text": "Will Egypt's foreign ministry issue a formal statement regarding the Italian Regeni verdict during the week?",
+    "domain": "diplomacy",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Cairo will probably issue a measured statement saying something like: the verdict was in absentia, Egypt respects legal processes but reserves its rights, it is studying the judgment through legal and diplomatic channels, it wants to avoid ",
+    "legacy_probability": 0.8
+   },
+   {
+    "id": "Q2",
+    "text": "Will a full diplomatic rupture or ambassador recall occur between Egypt and Ethiopia during the week?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: The chance of a full Egypt-Ethiopia blow-up next week is low, maybe 10% to 15%.",
+    "legacy_probability": 0.12
+   },
+   {
+    "id": "Q3",
+    "text": "Will Mohamed Salah and coach Hossam Hassan dominate Egyptian media conversation over the South Sudan AFCON qualifier match?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Mohamed Salah being rested for the South Sudan AFCON qualifier over artificial turf will keep Egyptian football media busy no matter what happens on the pitch.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q4",
+    "text": "Will Egypt secure at least a draw in its away AFCON qualifier match against South Sudan?",
+    "domain": "society",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: Egypt probably gets at least a draw away in South Sudan.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q5",
+    "text": "Will Egypt experience a major pound crisis or an emergency central bank rate change during the week?",
+    "domain": "economy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: no major pound crisis unless there is an external shock.",
+    "legacy_probability": null
+   },
+   {
+    "id": "Q6",
+    "text": "Will at least one Red Sea security incident or alert occur near Bab el-Mandeb or the Gulf of Aden during the week?",
+    "domain": "security",
+    "setter_lean": "YES",
+    "why_uncertain": "extracted from the legacy text: a higher chance of at least one Red Sea security incident or alert, maybe 40% to 50%.",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q7",
+    "text": "Will another formal diplomatic spat between Egypt and Turkey occur, such as a summons of the Turkish envoy or a public statement of criticism?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: Egypt summoning the Turkish envoy over Erdogan comments suggests Cairo is annoyed enough to make a scene, but not so angry that it wants full rupture.",
+    "legacy_probability": 0.4
+   },
+   {
+    "id": "Q8",
+    "text": "Will a major nationwide protest wave break out in Egypt during the week?",
+    "domain": "politics",
+    "setter_lean": "NO",
+    "why_uncertain": "extracted from the legacy text: no major nationwide protest wave unless the government announces a painful subsidy or fuel change.",
+    "legacy_probability": null
+   }
+  ],
+  "extracted_from_raw": true,
+  "replaced_items": [
+   {
+    "id": "Q1",
+    "text": "Will it happen that Ethiopia announces a drone strike or town capture in Tigray while naming Egypt in a military or political statement?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.3",
+    "legacy_probability": 0.3
+   },
+   {
+    "id": "Q2",
+    "text": "Will it happen that A Houthi-linked or al-Shabaab-linked security incident occurs near Bab el-Mandeb or the Gulf of Aden, triggering a Suez Canal Authority alert?",
+    "domain": "security",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.45",
+    "legacy_probability": 0.45
+   },
+   {
+    "id": "Q3",
+    "text": "Will it happen that Egypt drops points in its AFCON qualifier against South Sudan, and coach Hossam Hassan's press conference draws sharp criticism of Salah's absence?",
+    "domain": "society",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.35",
+    "legacy_probability": 0.35
+   },
+   {
+    "id": "Q4",
+    "text": "Will it happen that A gold or mining company announces a new MOU, exploration study, or output target in Egypt's Eastern Desert?",
+    "domain": "economy",
+    "setter_lean": "YES",
+    "why_uncertain": "converted from a legacy statement with probability 0.7",
+    "legacy_probability": 0.7
+   },
+   {
+    "id": "Q5",
+    "text": "Will it happen that Italy's opposition parties force a parliamentary question or public demand that escalates the Regeni dispute beyond a routine diplomatic note?",
+    "domain": "diplomacy",
+    "setter_lean": "NO",
+    "why_uncertain": "converted from a legacy statement with probability 0.25",
+    "legacy_probability": 0.25
+   }
+  ]
+ },
+ "single_forecaster": true
+}
