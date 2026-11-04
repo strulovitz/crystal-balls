@@ -1,0 +1,1028 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "CN",
+  "name": "China",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T18:50:08+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "This window was dominated by two major stories. First, the Communist Party's Fifth Plenum convened with Xi Jinping pushing tighter party discipline, resulting in record expulsions of 33 officials and the elevation of Zhang Shengmin, the general who led the military purge, to the Politburo, a rare honor signaling consolidation of power. Second, a cultural earthquake struck when Kylian Mbappé's casual 'dictator' remark about Mao Zedong triggered a full-blown Chinese state-level response: Real Madrid and La Liga issued public apologies, Chinese sponsors dropped him, and TV broadcasts of Liga matches were halted. The Hello Kitty maker Sanrio also cut ties with a Japanese spy drama after Chinese fans protested. On the economic front, factory activity contracted for the third time in four months, European carmakers posted massive losses citing China weakness, and the tech sector saw a sell-off despite the AI boom. The US and China continued their tech trade war with new biotech bans and lab restrictions. Diplomatically, German President Steinmeier made a state visit, and Kim Jong Un crossed a newly opened border bridge into China before firing missiles on the way home.",
+    "key_events": [
+      {
+        "event": "The Communist Party's Fifth Plenum confirmed the expulsion of 33 officials and elevated purge-general Zhang Shengmin to the Politburo, marking Xi's push for stricter party discipline.",
+        "date": "2026-10-28",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Kylian Mbappé's 'dictator' remark about Mao Zedong triggered a Chinese state-level backlash, prompting public apologies from Real Madrid and La Liga, sponsor drops, and halted TV broadcasts.",
+        "date": "2026-10-25",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "The US reported that a Chinese executive close to Nvidia CEO Jensen Huang was suspected of passing information to Beijing; China denied any spy operation and Nvidia called the allegations debunked.",
+        "date": "2026-10-26",
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "North Korean leader Kim Jong Un made a surprise visit to China, crossing a newly inaugurated cross-border bridge, before returning home and firing missiles days later.",
+        "date": "2026-10-27",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "China's factory activity contracted in October, marking the third decline in four months, as new export orders weakened and the auto sector posted record losses.",
+        "date": "2026-10-30",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The US Treasury and FCC moved to restrict Chinese biotech deals and ban Chinese labs from testing US electronics, while China warned of retaliation.",
+        "date": "2026-10-29",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "German President Steinmeier conducted a state visit to China, with Xi urging Germany to maintain a pragmatic policy and Beijing expressing willingness to import more German goods.",
+        "date": "2026-10-26",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Hello Kitty maker Sanrio cut ties with a Japanese spy drama and issued a public apology after a wave of Chinese consumer backlash.",
+        "date": "2026-10-27",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "Chipmaker CXMT reported its first quarterly profit following Asia's largest IPO of the year and announced it would begin advanced AI memory production despite poor yields.",
+        "date": "2026-10-28",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "China's coast guard conducted patrols east of Taiwan with 50 vessels in a wide sweep, and Taiwan flagged an 'obvious' threat from the activity.",
+        "date": "2026-10-25",
+        "domain": "security",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "technology"
+    ],
+    "emojis": [
+      "🏛️",
+      "🎭",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The Fifth Plenum with record purges and Zhang Shengmin's Politburo elevation is the week's defining political event (headline 169, 191).",
+      "The Mbappé-Mao scandal and Sanrio's Hello Kitty backlash turned cultural gaffes into quasi-state affairs in China (headline 84, 181).",
+      "Factory activity contracted for the third time in four months while VW, Audi, and Mercedes all cut guidance citing China weakness (headline 47, 175, 134)."
+    ],
+    "developments": [
+      {
+        "subject": "Mbappé-Mao controversy",
+        "what_happened": "Mbappé's 'dictator' remark about Mao triggered a Chinese state-level response with public apologies from Real Madrid and La Liga, sponsor drops, and halted broadcasts, though China said it takes the apology 'seriously' while social media criticism continued.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": [
+          5,
+          7,
+          13,
+          15,
+          28,
+          30,
+          31,
+          35,
+          46,
+          51,
+          58,
+          61,
+          62,
+          64,
+          68,
+          74,
+          79,
+          82,
+          83,
+          84,
+          89,
+          92,
+          94,
+          101,
+          102,
+          104,
+          109,
+          111,
+          113,
+          120,
+          123,
+          127,
+          137,
+          142,
+          145,
+          201,
+          209
+        ]
+      },
+      {
+        "subject": "Party Fifth Plenum and purges",
+        "what_happened": "The plenum confirmed 33 expulsions, elevated purge-general Zhang Shengmin to the Politburo, and set a tone of stricter party discipline under Xi, reshaping the leadership succession landscape.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          16,
+          19,
+          37,
+          40,
+          48,
+          67,
+          86,
+          93,
+          121,
+          126,
+          128,
+          141,
+          166,
+          169,
+          191,
+          204
+        ]
+      },
+      {
+        "subject": "Economic slowdown and carmaker losses",
+        "what_happened": "Factory activity contracted for the third time in four months, while Volkswagen, Audi, Mercedes, and Toyota all reported China-driven losses or cut guidance, and BYD and Geely leaned on exports to offset domestic weakness.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          2,
+          6,
+          10,
+          27,
+          47,
+          53,
+          54,
+          87,
+          91,
+          96,
+          106,
+          115,
+          122,
+          125,
+          130,
+          134,
+          138,
+          143,
+          152,
+          153,
+          159,
+          175,
+          180,
+          184,
+          186,
+          194,
+          196,
+          197,
+          208
+        ]
+      },
+      {
+        "subject": "US-China tech and trade restrictions",
+        "what_happened": "The US moved to limit Chinese biotech deals, ban three biotech firms over forced labor, restrict Chinese labs from testing US electronics, and ban Chinese telecom firms from US phone numbers, while China warned of retaliation and imposed new AI export curbs.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          9,
+          24,
+          81,
+          85,
+          90,
+          156,
+          160,
+          189,
+          198,
+          207,
+          210
+        ]
+      },
+      {
+        "subject": "Nvidia CEO spy plot",
+        "what_happened": "The US reported a Chinese executive close to Jensen Huang was suspected of passing information to Beijing; China denied a spy operation and Nvidia said the diversion allegations were investigated and debunked.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          3,
+          4,
+          33,
+          38,
+          88
+        ]
+      },
+      {
+        "subject": "Kim Jong Un China visit",
+        "what_happened": "Kim Jong Un crossed a newly opened border bridge into China for a surprise visit, and fired missiles days after returning home, signaling both warming trade ties and continued military signaling.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          52,
+          73,
+          147,
+          148,
+          150,
+          190
+        ]
+      },
+      {
+        "subject": "Hello Kitty and Sanrio backlash",
+        "what_happened": "Sanrio cut ties with a Japanese spy drama and issued a public apology after Chinese consumers protested, joining the Mbappé story as another case of Chinese cultural influence over global brands.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          39,
+          42,
+          61,
+          107,
+          181,
+          182
+        ]
+      },
+      {
+        "subject": "China-EU and Germany diplomacy",
+        "what_happened": "German President Steinmeier made a state visit, Xi urged pragmatic engagement, and China expressed willingness to import more German goods, while a new trade accord with Switzerland bucked the protectionist trend.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          41,
+          69,
+          75,
+          80,
+          132,
+          163,
+          187
+        ]
+      },
+      {
+        "subject": "CXMT chip company",
+        "what_happened": "CXMT reported its first quarterly profit after Asia's largest IPO of the year, with sales up sevenfold, and announced it would begin advanced AI memory production despite poor yields.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          55,
+          110,
+          161,
+          205
+        ]
+      },
+      {
+        "subject": "Taiwan maritime tensions",
+        "what_happened": "China's coast guard conducted patrols east of Taiwan with 50 vessels in a wide sweep, and Taiwan flagged an 'obvious' threat while also suspecting China behind a brief Pakistan airspace ban.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          25,
+          144,
+          178,
+          202
+        ]
+      },
+      {
+        "subject": "China stock and tech sell-off",
+        "what_happened": "Despite the AI and tech boom, Chinese stocks fell as the AI bubble appeared to pop, tech darlings lost their shine, and investors sought shelter in long-bond ETFs.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          17,
+          116,
+          117,
+          124,
+          149,
+          158,
+          168
+        ]
+      },
+      {
+        "subject": "India-China border tensions",
+        "what_happened": "A border official's remarks cast a shadow over the India-China thaw, face-offs tested relations six years after the deadly Galwan clash, and New Delhi approved $22 billion in military spending partly citing China.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          50,
+          71,
+          99,
+          108
+        ]
+      }
+    ],
+    "gone": [
+      "Tibet earthquake",
+      "DeepSeek US ban and funding",
+      "Citi China securities licence"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad and well-sourced coverage across politics, economy, diplomacy, technology, and society, with the Mbappé and plenum stories thoroughly documented, though some sub-topics like specific consumer data or local government finances get only thin coverage."
+    },
+    "headlines_used": [
+      "Taiwan says China harassing shipping with east coast patrol",
+      "China’s factory activity slips as new export orders weaken",
+      "Trump says US looking 'closely' at report Nvidia CEO target of China spy plot",
+      "China denies allegations of spy operation targeting Nvidia CEO",
+      "What do Kylian Mbappé and Hello Kitty have in common? They’ve both angered China",
+      "Germany news: Volkswagen posts 3rd quarter losses of nearly €6 billion amid competition from China",
+      "VIDÉO. 64 Débat : Chine / affaire Mbappé, on ne peut plus rien dire",
+      "China’s ‘Upgraded’ Peru Trade Deal Takes Effect, Widening Ties",
+      "Treasury to Limit Chinese Biotech Deals, But Still Allow Licensing",
+      "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
+      "Check out VanEck China Semiconductor UCITS ETF A USD's stock price (CSMH-FF) in real time",
+      "Why are US, Russia and China racing to put nuclear reactors on the moon?",
+      "Real, Mbappe have moved on from China controversy, says Mourinho",
+      "Graphika finds China-linked Spamouflage accounts posing as US voters on X",
+      "Our part of Mbappe, China issue over: Real Madrid's Mourinho",
+      "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
+      "Why isn’t China’s AI and tech boom saving its stock markets?",
+      "Ukraine's Zelenskyy irked by US-Russia-China summit",
+      "Zhang Shengmin, le Monsieur propre de l'armée chinoise promu au Politburo",
+      "China Graft Agency Probes Former Sinopec Chairman Fu Chengyu",
+      "What I Learned in ‘Dalifornia,’ China’s Laid-Back Capital of Doing Nothing",
+      "Muji takes its China playbook global",
+      "C025-GB: Amundi Index Solutions - Amundi Core MSCI China A Swap UCITS ETF Dist - Stock Price, Quote and News",
+      "US jails two Chinese nationals for spying",
+      "China's coast guard conducts patrols east of Taiwan, CCTV reports",
+      "China",
+      "Carmaker Audi cuts outlook again on China, US woes",
+      "China made Real Madrid's Mbappé apologise over Mao remark - but many people don't know exactly what he said",
+      "Where Chinese people first saw the world",
+      "Mbappe apologizes as Chinese sponsors drop him and TV broadcasts are halted over Mao dictator remark",
+      "L'image de Mbappé, du Real Madrid et de la Liga entachée pour longtemps en Chine",
+      "China Finds More Gold, Nickel and Rhenium Reserves, Xinhua Says",
+      "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
+      "Private equity firm swoops on China Evergrande unit in rare win for creditors",
+      "France football chief backs Real Madrid’s Mbappe after China apology",
+      "China willing to import more German goods, Premier Li says",
+      "China’s plenum backs tighter party discipline, a priority for Xi. Here’s why it matters",
+      "China denies spying on Nvidia's Jensen Huang",
+      "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+      "It can be lonely at the top. And that’s just how China’s leader likes it",
+      "Steinmeier in China: A major state visit in uncertain times",
+      "La firme de Hello Kitty se désolidarise d'une série télé japonaise critiquée en Chine",
+      "Swiss Firms Plan Investment Boost in China Drug, Finance Sectors",
+      "China Scoops Up Data That Could Aid Its Forces in Waters Around Taiwan",
+      "Gates-backed miner says China is frustrating DR Congo exploration efforts",
+      "Kylian Mbappe, Real Madrid and La Liga face long redemption road in China",
+      "China's factory activity shrinks in October, third contraction in four months",
+      "China elevates a military general to the Politburo and seeks to strengthen party discipline",
+      "Tropical Storm Champi nears China after battering Taiwan, Japan",
+      "Arunachal Pradesh: A border official's remarks cast a shadow over India-China thaw",
+      "Soccer star Kylian Mbappé seeks to defuse anger in China after Mao ‘dictator’ comment",
+      "Kim Jong Un travels to China via newly opened border bridge",
+      "Volkswagen dans le rouge vif, la direction presse le pas face à la crise chinoise",
+      "China Factory Activity Drops Back Into Decline as Growth Wobbles",
+      "Memory Crunch Cements CXMT as China’s Chip Champion",
+      "China’s homegrown cosmetics contenders face battle to glow up",
+      "Check out Amundi Core MSCI China A Swap UCITS ETF Acc's stock price (C027-GB) in real time",
+      "What is the controversy between Real Madrid’s Kylian Mbappe and China?",
+      "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
+      "China's record-breaking exports of clean tech are making a big dent in emissions, report says",
+      "Hello Kitty firm apologises, scraps Japan TV tie-up after China anger",
+      "What in the World | Why Kylian Mbappe has been cancelled in China",
+      "How the world’s highest bridge became a tourist hot spot in China",
+      "Le Real Madrid s'excuse auprès de la Chine pour les propos de Mbappé",
+      "Australian PM Set to Visit Beijing After APEC Meeting, Report Says",
+      "Asian Private-Equity Firm to Buy Beleaguered China Evergrande’s Property-Management Arm",
+      "Xi Jinping elevates general who led purge of China’s military",
+      "Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark",
+      "China's Xi hails new chapter with Germany, urges friendly policy towards Beijing",
+      "Mongolian mining company says copper exports have dropped due to China border restrictions",
+      "Kazakhstan military drill falsely linked to India-China border tensions",
+      "China's families are now supporting more old people than kids",
+      "North Korea’s Kim crosses new bridge into China as trade ties warm",
+      "La Chine affirme prendre \"au sérieux\" les excuses de Mbappé",
+      "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
+      "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to Japan for Production",
+      "Starbucks to resume share buybacks but China shift clouds growth outlook",
+      "Check out HSBC MSCI China Robotics UCITS ETF USD Acc's stock price (HROB-GB) in real time",
+      "China says it takes Mbappe’s apology ‘seriously’ after Mao dictator comment",
+      "China's Xi calls on EU to work with China, says Beijing handles ties with sincerity, goodwill",
+      "US bans imports from 3 Chinese biotech companies over forced labor allegations",
+      "Mbappe, Real Madrid and La Liga face long road to redemption in China",
+      "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+      "Contrats suspendus, matchs de Liga déprogrammés, excuses… La polémique Kylian Mbappé devient une affaire d'État en Chine",
+      "China Warns of Retaliation Over US Test Lab Restrictions",
+      "China’s Xi Demands More Loyalty as Purges Trim Party Elite",
+      "BYD’s export surge helps offset sales weakness in China",
+      "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+      "Kylian Mbappe apologises after ‘dictator’ comment angers Chinese fans",
+      "US plans to ban Chinese telecom firms from direct access to US phone numbers",
+      "Volkswagen posts $6.5 billion quarterly loss as China slump, Porsche writedown weigh on bottom line",
+      "Real Madrid apologise to China over Mbappe comments",
+      "China's big political meeting could see Xi 'tighten discipline' in party",
+      "Mbappé toujours critiqué sur les réseaux sociaux chinois malgré ses excuses",
+      "China’s Mega Banks Post Record Profits as Margins Recover",
+      "Geely Profit Climbs as Overseas Sales Offset Slowing China Demand",
+      "Alphabet spells out more AI capex, China+1 doesn’t add up",
+      "Tencent, Visa deepen payments push in China after regulatory green light",
+      "India-China border face-offs test Modi six years after deadly clash",
+      "China says stealth attack drone makes first takeoff, landing on amphibious ship",
+      "China takes Mbappé's apology 'seriously' after backlash over his ‘Chinese dictator’ comments",
+      "China says takes Mbappe apology 'seriously' after Mao remark",
+      "The Documentary Podcast | If China's exports are booming, why are consumers struggling?",
+      "VIDÉO. Chine: quand une blague de Mbappé a des retombées internationales",
+      "China’s Oil Majors Get More Firepower for Energy Security Push",
+      "China’s Car Industry Is Wowing the World—but Crashing at Home",
+      "Hello Kitty gets caught up in Japan-China spat",
+      "Inside India newsletter: New Delhi approves $22 billion in military spending amid China border tensions",
+      "Kylian Mbappe loses Chinese sponsors for calling Mao ‘Chinese dictator’",
+      "China's CXMT reports quarterly profit after Asia's biggest IPO this year",
+      "Real Madrid issues public apology to China over Mbappé’s Mao Zedong comments",
+      "Ras Al Khaimah Signs Landmark Friendship Agreement & 10 MoUs during Historic High-Level Tour of South China",
+      "Chine : dans la tourmente après des propos polémiques sur Mao, Mbappé s'excuse",
+      "China-Hawk Philippine Defense Chief Open to Presidential Bid",
+      "China’s Electric Carmakers Are Running Out of Domestic Buyers | The 10-Point for Oct. 28",
+      "The AI bubble already popped — in China",
+      "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
+      "China set to lose LNG import crown to Japan on weak demand",
+      "ByteDance founder Zhang Yiming reclaims top spot in China’s rich list, thanks to his firm's AI push",
+      "Real Madrid, La Liga apology over Mbappe shows power of Chinese market",
+      "Chine : le Parti communiste planche sur sa gouvernance",
+      "Audi Dials Back Outlook on China Slump, Competition in Europe",
+      "Global Soccer Star Kylian Mbappé Just Apologized to China—for a Mao Zedong Meme",
+      "China rushes to shore up markets as AI trade sours",
+      "Audi cuts 2026 outlook on China weakness, price pressure",
+      "What to know about China’s plenum as Xi seeks stronger Communist Party discipline",
+      "Mbappe dropped by Chinese brands for 'offending national sentiments'",
+      "China Elevates Key Figure in Purges With Rare Politburo Pick",
+      "China Claims Strong Economic Growth, but Skeptics Question Official Figures",
+      "Mercedes-Benz vows to stay in China as sales slump",
+      "One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next",
+      "China's Xi, Swiss president praise trade deal that boosts access",
+      "Japan’s former PM Yasuo Fukuda, proponent of ties with China, dies at 90",
+      "Mercedes-Benz cuts 2026 profit outlook on tough China market",
+      "Is Chinamaxxing About to Reach Its ‘Made in Japan’ Moment?",
+      "China’s Industrial Profit Growth Surged in September",
+      "Chinese brands put boot into Kylian Mbappé after viral ‘dictator’ meme",
+      "Why China is desperate to ship cars outside of the country",
+      "China conducts combat readiness patrols around disputed shoal in South China Sea",
+      "As the US and China form AI blocs, countries are increasingly torn between them",
+      "China's Communist Party elite gather for governance talks",
+      "Mbappé Went Where Pitchmen, Foreign Firms Just Can’t Go in China",
+      "Mercedes-Benz Cuts Guidance on China Weakness, Higher Costs",
+      "Reckitt cuts sales outlook on disinfectant shortage and China hit",
+      "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
+      "Breakingviews - COMMENTARY: China wealth boom barely flinches at tax crackdown",
+      "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+      "North Korea's Kim returns home after visit to Chinese border city",
+      "Hong Kong Stocks Lose a Key Backer as Chinese Investors Head for Exit",
+      "Kim Jong Un Makes Surprise Trip to China, Crosses New Bridge",
+      "Toyota takes on Tesla and China in humanoid robot race",
+      "Why China is desperate to ship cars overseas",
+      "Earnings give European auto stocks respite as China reshapes the industry",
+      "Chinese Junk Dollar Bonds Head for Worst Week in a Year on Huafa",
+      "Bayer Gets China Approval for Stroke-Prevention Drug in Global First for New Class",
+      "U.S. curbs on Chinese hardware could raise AI data center costs: Strategist",
+      "China's factory activity seen flat in October - Reuters poll",
+      "Chinese Investors Seek Shelter in Long-Bond ETFs as Stocks Sink",
+      "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+      "FCC votes to ban all Chinese labs from testing US electronics",
+      "Chinese Chip Leader CXMT’s Sales Rise Sevenfold Yet Growth Slows",
+      "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "China trade accord with Swiss bucks wider trend towards protectionism",
+      "China’s Hottest Night Club Is Bringing In $150 Million a Year",
+      "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+      "China's Communist Party conclave on toughening discipline sees record expulsions, absences",
+      "China Critic Tests Opposition’s Decades-Old Grip in Taipei",
+      "Bonds and Chinese stocks could offer value as scrutiny of U.S. AI monetization grows: Strategist",
+      "China's Communist Party confirms expulsion of 33 officials",
+      "China Upends Global Drug Development With Cheap and Rapid Human Trials",
+      "China’s local governments are saving more, but fear is keeping them from spending: Eurasia Group",
+      "Chinese AI model carries out complex cyberattacks in controlled tests, researchers say",
+      "China Makes First Inquiry for US Wheat Since Trump-Xi Summit",
+      "Check out CUAM Solactive China & Global Semiconductor ETF's stock price (3536-HK) in real time",
+      "Volkswagen posts deepest loss since Dieselgate on Porsche writedown, China woes",
+      "China and the US Are Competing for Space Dominance",
+      "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
+      "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters",
+      "PAG Agrees to Buy China Evergrande Unit for $514 Million",
+      "China's consumer slump demands a Japan-style stimulus response: Alpine Macro",
+      "Hello Kitty maker Sanrio cuts ties with TV spy show after China backlash",
+      "Hello Kitty Owner Sanrio Axes Japan Show Ties After China Furor",
+      "Philippines-China tensions resurface at the close of ASEAN defence gathering ​",
+      "Toyota Monthly Sales Fall as China Slump Enters Eighth Month",
+      "Adidas sees Europe rebound in fourth quarter, streaks ahead in China",
+      "Volkswagen Swings to Loss After Writedown, China Market Slump",
+      "Germany's Steinmeier says China must avoid one-sided benefits in economic ties",
+      "Copper ‘Sold Out Everywhere’ as Key China Gauge Flashes Warning",
+      "China condemns US move to add Chinese medical equipment firms to Uyghur forced labour list",
+      "North Korea Fires Missiles Days After Kim’s China Trip",
+      "China military vice chair joins Communist Party's Politburo",
+      "How Do You Fight China Shock in Beijing’s Backyard?",
+      "China clean tech exports to cut global emissions by Brazil-sized amount in 2026",
+      "World’s Biggest Brewer Volumes Lag Estimates on China Demand Slump",
+      "Haleon shares tumble as weak flu medicine demand, China woes prompt outlook cut",
+      "Geely Profit Climbs as Surging Exports Help Offset China Slump",
+      "Carlsberg holds profit guidance despite weak China sales",
+      "US Bans Chinese Genomics Companies, Citing Forced Labor",
+      "Chinese EVs win over some in South Korea, but Japan is proving to be a rougher road",
+      "Chinese Conglomerate Zhuhai Huafa Repays Overdue Trust Product",
+      "Mbappe seeks to defuse anger in China after Mao 'dictator' comment",
+      "Taiwan ‘Suspects’ China Behind Brief Pakistan Airspace Ban",
+      "Welcome to the new ‘Made in China’",
+      "Xi’s Corruption Purges Upend Hunt for China’s Next Top Leaders",
+      "EXCLUSIVE: China's CXMT to start advanced AI memory production despite poor yields, sources say",
+      "China Set to Lead in AI Models, Other Key Areas by 2030, BI Says",
+      "China's new export curbs draw a line around its AI crown jewels",
+      "Mercedes Readies Major China Overhaul as Slump Deepens",
+      "Real Madrid apologise to Chinese people after Mbappe's Mao 'dictator' comment",
+      "US Hits Chinese Trailers With Tariffs to Aid Domestic Producers"
+    ],
+    "converted": false,
+    "relevant_headlines": 210,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Mbappé-Mao controversy",
+        "expected": "Mbappé-Mao controversy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Mbappé-Mao controversy appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Party Fifth Plenum and purges",
+        "expected": "Party Fifth Plenum and purges stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Party Fifth Plenum and purges appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Economic slowdown and carmaker losses",
+        "expected": "Economic slowdown and carmaker losses stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Economic slowdown and carmaker losses appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "CXMT chip company",
+        "expected": "persist",
+        "sign": "CXMT chip company is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Mbappé-Mao controversy stays in the news at the same level. Party Fifth Plenum and purges stays in the news at the same level. Economic slowdown and carmaker losses stays in the news at the same level. CXMT chip company is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "US-China tech trade war",
+        "expected": "China will announce targeted trade countermeasures against US semiconductor firms in response to the new biotech and lab restrictions.",
+        "direction": "escalate",
+        "sign": "Headlines will describe Chinese countermeasures targeting a US industry and quote trade officials calling the response proportional and necessary."
+      },
+      "second": {
+        "subject": "China auto and manufacturing sector",
+        "expected": "Additional European automakers will cut their China revenue guidance as October sales data confirms the domestic demand slump.",
+        "direction": "persist",
+        "sign": "Headlines will pair a European carmaker's China revenue decline with a reference to BYD or Geely export volumes offsetting the gap."
+      },
+      "third": {
+        "subject": "Fifth Plenum governance decisions",
+        "expected": "The Politburo will publish the plenum's policy communiqué setting out new industrial targets for the next planning period.",
+        "direction": "persist",
+        "sign": "Headlines will quote plenum language on party discipline and governance while naming a newly restructured oversight body."
+      },
+      "fade_call": {
+        "subject": "Mbappé Mao remark",
+        "expected": "fade",
+        "sign": "Headlines will shift to Mbappé playing a competitive match or Real Madrid announcing a new China marketing push, with the Mao controversy mentioned only in passing."
+      },
+      "surprise": {
+        "subject": "China consumer stimulus",
+        "expected": "Beijing will announce a one-off national consumer voucher program to counter the domestic demand collapse.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the US-China tech trade war will intensify as Beijing announces concrete countermeasures against American semiconductor firms, escalating a dispute that has already expanded into biotech and laboratory access. The domestic economic picture will stay grim, with more European automakers cutting China guidance and factory data confirming the demand slump, even as BYD and Geely lean on exports. The Fifth Plenum's governance decisions will move from political theater into policy documents, with the Politburo publishing its communiqué on discipline and industrial targets. The Mbappé-Mao controversy will mostly fade from headlines as Real Madrid and La Liga re-engage the Chinese market. There is a moderate chance Beijing surprises markets with a one-off consumer stimulus package to stem the domestic demand collapse.",
+      "generated_at": "2026-11-01T17:10:39+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US-China tech trade restrictions",
+        "expected": "China announces retaliatory tariffs and export controls targeting American technology and biotech firms in response to the new US restrictions on Chinese labs and telecom companies",
+        "direction": "escalate",
+        "sign": "Headlines about a Chinese ministry statement listing US restrictions as provocation alongside new rules affecting American firms operating in China"
+      },
+      "second": {
+        "subject": "Party discipline and cadre purges",
+        "expected": "The central disciplinary commission opens a new investigation into a senior official from a state energy or financial enterprise as the plenum's discipline push extends beyond the military",
+        "direction": "persist",
+        "sign": "Headlines citing a new probe of a top official from a state enterprise, with the party's disciplinary body issuing a formal statement"
+      },
+      "third": {
+        "subject": "Factory contraction and auto industry losses",
+        "expected": "The government unveils a stimulus package targeting household consumption and the property sector in response to sustained factory decline",
+        "direction": "persist",
+        "sign": "Headlines about a new policy measure aimed at boosting domestic spending, alongside further earnings reports from European carmakers citing China weakness"
+      },
+      "fade_call": {
+        "subject": "Mbappé-Mao controversy",
+        "expected": "fade",
+        "sign": "The Mbappé apology story drops from front pages as the plenum aftermath and trade restrictions take over, with no new sponsor drops or broadcast halts announced"
+      },
+      "surprise": {
+        "subject": "Central bank emergency stimulus for AI stock sell-off",
+        "expected": "The central bank cuts a key lending rate and the finance ministry announces a bond-buying program to stabilize the equity market as the AI bubble deflation accelerates",
+        "chance": "medium"
+      },
+      "summary": "Next week, China's news cycle will be shaped by the escalating US-China tech standoff and the political aftershocks of the fifth plenum. Beijing will announce retaliatory measures targeting American technology and biotech firms, responding to the wave of US restrictions on Chinese labs and telecom companies. The party's discipline drive will extend beyond the military as new investigations into senior officials from state enterprises surface, deepening the purge narrative. On the economic front, the government will introduce a stimulus package aimed at household spending as factory activity contracts and European carmakers report mounting China-driven losses. The Mbappé-Mao controversy will fade from front pages as the apology is digested and new stories take over. A genuine surprise would be a coordinated central bank rate cut and bond-buying program to stem the AI stock sell-off, signaling Beijing is taking market weakness more seriously than the data suggests.",
+      "generated_at": "2026-11-01T17:25:33+02:00"
+    }
+  },
+  "display": {
+    "headline": "China Escalates Tech War, Purges Widen, Stimulus Looms",
+    "emojis": [
+      "🚫",
+      "🏛️",
+      "📉"
+    ],
+    "emoji_reasons": [
+      "The US-China tech trade war and retaliatory restrictions will dominate the diplomatic and economic news",
+      "The fifth plenum's discipline push and cadre purges will extend into new state enterprises",
+      "Factory contraction, carmaker losses, and the AI stock sell-off will define the economic narrative"
+    ],
+    "tldr": "China will retaliate against new US tech restrictions with its own tariffs and export controls. The plenum's purge wave will spread to state enterprises, and a stimulus package will target household spending. The Mbappé controversy will fade.",
+    "eli5": "China and the US are in a growing argument about technology. The US has been adding new rules to limit what Chinese companies can do in American markets, and China is getting angry. Next week, Beijing will hit back with its own rules targeting American tech and biotech firms. Think of it like two kids in a playground each taking the other's toys, and now both are bringing more of their own to show off.\n\nAt the same time, the Communist Party just held a big meeting where they kicked out 33 officials and promoted a general who led the military cleanup. That purge wave is spreading. Next week, expect the party's discipline team to name new officials from big state companies for investigation. It is like a school where the principal is going through every classroom looking for rule-breakers.\n\nOn the money side, Chinese factories are making fewer things, and big car companies like Volkswagen and Mercedes are losing a lot of money because Chinese buyers are switching to local electric cars. The government will probably announce some new spending plans to get people to buy more stuff.\n\nThe Mbappé-Mao thing, where a soccer player called Mao a dictator and China got upset, will probably stop being the big story. And the real surprise would be if the central bank suddenly cuts interest rates and starts buying stocks to stop the AI bubble from popping."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "crystal",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "crystal",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Kim Jong Un's visit appears in headlines [52], [73], [147], [150] as a regular continuing story rather than the dominant new story it was in the prior round, and the forecast predicted it would stay at the same level.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly lists 'Tibet earthquake' under 'No longer in the headlines,' and no headline in this round references the quake, its death toll, or recovery efforts.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The economic and AI/tech theme remains a top story with headlines [2], [17], [47], [116], [117] on factory contraction and the AI bubble, but the specific 'Q3 GDP beat forecasts' framing has given way to a slowdown and sell-off narrative.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "recognizable",
+            "evidence": "The fade call predicted Kim Jong Un's visit would persist in the headlines, and it did appear across multiple headlines [52], [73], [147], [148], [150] in this round.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "The Mbappé-Mao controversy is the dominant new story of the week with at least 25 headlines [5], [13], [28], [30], [46], [51], [62], [64], [68], [74], [79], [83], [84], [89], [92], [101], [102], [109], [111], [113], [120], [123], [127], [137], [201], [209] but the bulletin predicted no surprise.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's 'more of the same' thesis was wrong because the week's dominant story—the Mbappé-Mao cultural controversy—was entirely absent from the prior round's headlines and from this forecast. Predicting the Tibet earthquake would persist at the same level was the clearest miss, as it faded from the news cycle completely within eight days. The main thesis was not merely early but structurally wrong: it assumed continuity of the existing story mix and failed to anticipate that a single cultural incident could hijack the entire news cycle.",
+        "S": 6
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The US-China tech trade war escalated with new biotech bans [81], [198], lab restrictions [160], and telecom bans [90], but DeepSeek specifically faded from the headlines while the broader tech rivalry took different concrete forms than the forecast's 'restricting American AI firms from Chinese government data.'",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The plenum produced record expulsions of 33 officials [16], [166], [169], elevated Zhang Shengmin to the Politburo [19], [48], [67], [128], [191], and set a tone of stricter discipline [37], [86], [126], matching the forecast's prediction of further removals and a policy communiqué.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Tibet earthquake is listed under 'No longer in the headlines' in the reality bulletin, and no headline in this round references the quake, a rising death toll, or a state-of-emergency declaration.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The Citi securities licence is listed under 'No longer in the headlines' in the reality bulletin, confirming the fade call that it would drop from front pages.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headline [18] 'Ukraine's Zelenskyy irked by US-Russia-China summit' indicates the trilateral meeting is now a concrete event rather than a possibility, but it is not the dominant story of the week.",
+          "bonus": 2
+        },
+        "archer_note": "The plenum forecast was the bulletin's strongest call, correctly anticipating the escalation of purges and the elevation of key political figures. The Tibet escalation call was the most visible miss, as the earthquake faded entirely rather than climbing in severity. The main thesis was directionally right on the plenum and tech rivalry but too narrowly framed around DeepSeek when the broader trade war escalated through biotech, telecom, and lab channels instead.",
+        "S": 11
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The plenum dominated the week with headlines on record expulsions [16], [166], [169], Zhang Shengmin's Politburo elevation [19], [48], [67], [128], [191], and Xi's discipline push [37], [86], [126], [204], matching the forecast's prediction of a closing document emphasizing cadre discipline.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The Tibet earthquake is listed under 'No longer in the headlines' and no reconstruction plan or compensation budget headline appeared, though the forecast's de-escalation direction was broadly correct in that the story wound down.",
+            "forecast_direction": "de-escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "DeepSeek specifically is listed under 'No longer in the headlines,' though the broader US-China tech rivalry escalated through biotech bans [81], [198], lab restrictions [160], and telecom rules [90], capturing the spirit of escalating tech rivalry without the DeepSeek-specific framing.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "not_seen",
+            "evidence": "Headline [49] 'Tropical Storm Champi nears China after battering Taiwan, Japan' shows the typhoon was still in the headlines rather than having faded as the forecast predicted.",
+            "forecast_direction": "fade",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline in this round announces a PBoC rate cut or reserve requirement reduction; the closest is [124] 'China rushes to shore up markets as AI trade sours,' which suggests market support but not a specific monetary easing surprise.",
+          "bonus": 0
+        },
+        "archer_note": "Correctly identifying the plenum as the lead story was the bulletin's strongest and most accurate call, matching the dominant narrative of discipline and purges. The Typhoon fade call was premature since the storm was still approaching the coast, and the PBoC easing surprise did not materialize in any concrete form. The main thesis was right on the plenum and tech rivalry but missed that the week's biggest story would be the Mbappé cultural controversy rather than monetary policy or DeepSeek diplomacy.",
+        "S": 4
+      }
+    },
+    "S": [
+      {
+        "persistence": 6,
+        "crystal": 11,
+        "plain": 4
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Computed from the scores: persistence 6, crystal 11."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Computed from the scores: persistence 6, plain 4."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 11, plain 4."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_crystal": -2.0,
+      "persistence_vs_plain": 1.0,
+      "crystal_vs_plain": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 2.0,
+    "u": 2.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nNorth Korean leader Kim Jong Un made an unannounced visit to China, crossing a newly inaugurated cross-border bridge into Dandong, signalling a warming of bilateral trade and military ties. A magnitude-7 earthquake struck Tibet, killing 16 people, injuring 76, and collapsing hundreds of homes. China's Q3 GDP grew 4.5 percent, beating forecasts, driven by a strong AI export boom that offset domestic consumption weakness. The US banned Chinese AI startup DeepSeek from government agency systems, prompting Beijing to object and DeepSeek to raise 15 billion dollars ahead of a potential IPO. Xi Jinping convened the Communist Party's fifth plenum, emphasising discipline among top cadres, while a long-serving political figure was reported to have fallen from grace. China's stock market slid deeper into bear territory as AI-related shares shed 150 billion dollars in value. Volvo Cars plunged 24 percent after its CEO declared the Chinese market effectively lost to Western automakers.\n- Kim Jong Un China visit (dominant, new): Kim crossed a newly inaugurated cross-border bridge into Dandong for an unannounced visit, signalling warmer trade and strategic ties with Beijing.\n- Tibet earthquake (dominant, new): A magnitude-7 quake struck Tibet, killing 16, injuring 76, and collapsing hundreds of homes, with rescuers still searching for survivors.\n- Q3 GDP and AI exports (dominant, new): China's economy grew 4.5 percent in Q3, beating forecasts, as an AI export boom offset domestic consumption weakness, though analysts warned the export surge masked deeper structural problems.\n- DeepSeek US ban and funding (dominant, escalating): The US banned DeepSeek from government agency systems, Beijing objected, and DeepSeek raised 15 billion dollars ahead of a potential IPO to challenge top US AI labs.\n- Party fifth plenum and Xi's discipline push (regular, new): Xi gathered top communist cadres for the fifth plenum with a focus on discipline, while a long-serving political figure was reported to have fallen from grace.\n- China stock bear market (regular, escalating): The CSI 300 extended a 10-week decline into bear territory as AI-related shares lost 150 billion dollars, despite state buying efforts.\n- Volvo and Western carmakers in China (regular, escalating): Volvo plunged 24 percent after its CEO declared the Chinese market lost for Western automakers, and Gucci reported a China slump that derailed its turnaround.\n- Citi China securities licence (regular, new): Citi received regulatory approval to open a wholly owned securities company in China after nearly a five-year wait, targeting the top spot in the market.\n- Taiwan maritime tensions (regular, continuing): Taiwan reported driving away 16 Chinese vessels in what it called a 'hybrid warfare' campaign, and China stepped up grey-zone tactics to isolate Taiwan and punish its allies.\n- Trump-Putin-Xi meeting (occasional, new): Trump said he was open to a trilateral meeting with Putin and Xi in China, and the Kremlin confirmed Beijing was preparing for the possible summit on Ukraine.\n- US-China tech investment rules (regular, escalating): The US Treasury proposed tighter rules on high-tech and biotech investments in China, while a House committee said Webull messages pointed to Chinese access to US customer data.\n- China luxury and consumer shift (occasional, continuing): Chinese luxury brands are elbowing out Western rivals, Hermès and Cartier saw shoppers retreat, and Starbucks China rolled out a buy-to-sit policy as consumer habits shift.\n\nRound 2026-10-17:\nDuring the week of October 14–17, China was in the spotlight on several fronts. Beijing proposed export controls on AI technologies, solar-manufacturing technologies, and certain biotech, citing national security and the US-China tech rivalry. At the same time, Chinese exports surged 36 percent, driven by AI-related shipments, pushing the trade surplus toward a record. Trade friction with Europe sharpened as the EU signaled plans to extend import curbs to more Chinese sectors, and China warned Brussels not to underestimate its willingness to fight back. Diplomatically, China and North Korea opened the long-delayed New Yalu River Bridge after more than a decade of postponement, a symbolic deepening of ties, though analysts questioned its practical trade impact. Trump said he was in denuclearization talks with both China and Russia. Domestically, six people were sentenced over a lead-tainted kindergarten food scandal that sickened more than 200 children; the nursery owner received life in\n- China proposed export controls on AI (regular, continuing): China proposed export controls on AI technologies, solar-manufacturing equipment, and some biotech, citing national security risks in the US-China tech rivalry.\n- China and North Korea officially opened (regular, continuing): China and North Korea officially opened the New Yalu River Bridge after more than twelve years of delay, deepening bilateral ties amid sanctions questions.\n- Chinese exports surged 36 percent on (regular, continuing): Chinese exports surged 36 percent on AI-driven demand as the trade surplus neared a record, even as the AFP poll suggested the economy would miss its growth target.\n- The EU moved to extend import (regular, continuing): The EU moved to extend import curbs to additional Chinese sectors and China warned Brussels not to underestimate its ability to fight back on trade.\n- The Philippines lodged a formal protest (regular, continuing): The Philippines lodged a formal protest against the Chinese envoy, calling his remarks a thinly veiled threat of force.\n- Six people, including a nursery owner (regular, continuing): Six people, including a nursery owner jailed for life, were sentenced over lead-tainted food that sickened more than 200 kindergarten children.\n- Trump said he was in denuclearization (regular, continuing): Trump said he was in denuclearization talks with both Russia and China, and Nvidia's CEO urged continued US-China dialogue on AI.\n- China's central bank pledged to further (regular, continuing): China's central bank pledged to further open financial markets to foreigners and moved to prop up equity markets with selling curbs and buybacks as AI-trade jitters hit stocks.\n",
+    "PREVIOUS_FORECAST": "Lead: DeepSeek ban and AI trade war. Expected: Beijing unveils formal countermeasures against the US DeepSeek ban, restricting American AI firms from accessing Chinese government data and cloud infrastructure. Direction: escalate. Sign: Headlines about a Chinese ministry statement objecting to the DeepSeek ban alongside new rules limiting US technology companies' operations in China\nSecond: Fifth Plenum and political reshuffling. Expected: The plenum's final communiqué sets a new economic policy direction and names additional senior cadres for removal or demotion from their posts. Direction: persist. Sign: Headlines citing the plenum document's policy language on growth and reports of further top officials being reassigned or dismissed\nThird: Tibet earthquake aftermath. Expected: The death toll from the Tibet earthquake climbs as rescuers reach isolated villages, and the central government declares a state of emergency for the region. Direction: escalate. Sign: Headlines reporting a rising death toll from the earthquake alongside government declarations of emergency status and relief fund allocations\nFade call: Citi securities licence. Expected: fade. Sign: The Citi approval story drops from front pages as trade and political headlines take over, with no further regulatory milestones announced\nSurprise (chance medium): Trump-Putin-Xi trilateral summit. A specific date and venue for the trilateral summit is announced, with China's foreign minister outlining Beijing's position on Ukraine's territorial questions.\nSummary: Next week, China will be defined by the fallout from Washington's DeepSeek ban, the Communist Party's fifth plenum, and the growing toll of the Tibet earthquake. Beijing will respond to the US exclusion of DeepSeek from government systems with formal countermeasures targeting American AI firms operating in China, escalating the tech standoff. The plenum, running through the end of the month, will produce a policy communiqué and likely confirm further political purges among senior cadres. In Tibet, the death toll from the magnitude-7 quake will climb as rescuers reach remote villages, prompting a state of emergency. The Citi securities approval will fade from headlines. A genuine surprise would be a firm date for the Trump-Putin-Xi trilateral summit in China, which would reshape the diplomatic landscape around Ukraine.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. The US-China tech trade war clearly escalated with [9], [81], [160], [90], [207], and [85], but the specific DeepSeek countermeasures framing is absent since DeepSeek is listed as no longer in the headlines.\n- second: came_true. Headlines [16], [48], [67], [86], [128], [166], [169], [191], [204] confirm the plenum produced record expulsions, elevated Zhang Shengmin to the Politburo, and set a tone of stricter discipline, matching the prediction of further cadre removals and political reshuffling.\n- third: did_not_appear. No Tibet earthquake headline appears in this round, and the reality bulletin lists it as no longer in the headlines, so the predicted rising death toll and state of emergency did not materialize in the coverage.\n- fade_call: came_true. Citi's China securities licence is listed as no longer in the headlines and no Citi-specific headline appears in the collection, confirming the fade as predicted.\nArcher note: The bulletin correctly identified the Fifth Plenum as a major story and correctly called the Citi fade, but it anchored its lead on DeepSeek, which had already faded from the headlines by this round. The Tibet earthquake escalation was a confident prediction that was contradicted by the complete absence of the story. The main thesis was partially right (plenum and tech war) but the specific framing of DeepSeek countermeasures and the Tibet death toll were both wrong in detail.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null,
+  "judgment_v1": {
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "crystal",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "crystal",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [52], [73], [147], [150] confirm Kim Jong Un crossed the newly opened border bridge into China, and [190] reports missiles fired days after his return, so the story persisted as predicted."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "No Tibet earthquake headline appears anywhere in this round's collection, and the reality bulletin explicitly lists it as no longer in the headlines."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headlines [2], [47], [54] show factory activity contracting and [17], [116], [117] show the AI/tech sell-off, so the economic-weakness-and-tech theme persisted, but no headline specifically frames it as Q3 GDP or AI exports."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Kim Jong Un China visit reappears in headlines [52], [73], [147], [148], [150], [190], confirming it was still being reported at the next collection as the fade call predicted."
+          }
+        },
+        "archer_note": "The bulletin correctly anticipated the Kim Jong Un visit persisting but missed the two stories that actually dominated this round: the Fifth Plenum with record purges and the Mbappé-Mao cultural earthquake. Its second and third items (Tibet, Q3 GDP) were either absent or only loosely present, so the bulletin captured a regular story as its lead while the truly dominant stories went unmentioned. The main thesis of 'more of the same' was wrong in emphasis: the week was defined by new dominant stories rather than continuity of the previous round's items."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The US-China tech trade war clearly escalated with [9], [81], [160], [90], [207], and [85], but the specific DeepSeek countermeasures framing is absent since DeepSeek is listed as no longer in the headlines."
+          },
+          "second": {
+            "grade": "came_true",
+            "evidence": "Headlines [16], [48], [67], [86], [128], [166], [169], [191], [204] confirm the plenum produced record expulsions, elevated Zhang Shengmin to the Politburo, and set a tone of stricter discipline, matching the prediction of further cadre removals and political reshuffling."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "No Tibet earthquake headline appears in this round, and the reality bulletin lists it as no longer in the headlines, so the predicted rising death toll and state of emergency did not materialize in the coverage."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Citi's China securities licence is listed as no longer in the headlines and no Citi-specific headline appears in the collection, confirming the fade as predicted."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the Fifth Plenum as a major story and correctly called the Citi fade, but it anchored its lead on DeepSeek, which had already faded from the headlines by this round. The Tibet earthquake escalation was a confident prediction that was contradicted by the complete absence of the story. The main thesis was partially right (plenum and tech war) but the specific framing of DeepSeek countermeasures and the Tibet death toll were both wrong in detail."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "Headlines [16], [37], [48], [67], [86], [126], [128], [141], [166], [169], [191], [204] confirm the plenum convened, produced record expulsions, elevated a purge general, and emphasized party discipline, matching the predicted dominant story."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The Tibet earthquake story faded from the headlines entirely (listed as no longer in the headlines), consistent with de-escalation, but no specific reconstruction-plan or official-visit headline appeared as the sign required."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "DeepSeek is listed as no longer in the headlines and no headline specifically features a Chinese foreign ministry protest or DeepSeek corporate response to the US ban, so the predicted escalation on that specific story did not materialize."
+          },
+          "fade_call": {
+            "grade": "true_in_direction",
+            "evidence": "Headline [49] shows Tropical Storm Champi is still active near China, so it has not fully faded, but it appears as a single minor item rather than a dominant story, partially consistent with the predicted fade."
+          }
+        },
+        "archer_note": "The bulletin correctly identified the Fifth Plenum as the dominant story and got the direction right on the Tibet earthquake de-escalating, but it still anchored a third item on DeepSeek, which had already dropped from the headlines. The Typhoon fade call was directionally right but the storm was still technically in the news. The main thesis was largely correct in its core (plenum dominant, tech rivalry escalating) but the specific DeepSeek framing and the surprise PBoC easing were not confirmed by the headlines."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Y correctly identified the Fifth Plenum as a dominant story and made a clean correct fade call on Citi, while X led with the less significant Kim Jong Un visit and missed the Plenum entirely. Y's two came_true items are more consequential to the round's actual coverage than X's two came_true items, which both concern a regular-level story."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Z correctly led with the Fifth Plenum, the actual dominant story of the round, while X led with the Kim Jong Un visit, which was only a regular-level item. Z also got the Tibet direction right (de-escalate) where X got it wrong (persist), giving Z an edge on both the lead and the second item."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Y has two clean came_true calls (Plenum persist and Citi fade) versus Z's one (Plenum escalate), and Y's Citi fade is a precise, falsifiable prediction that was confirmed. Z's second and fade items are only true_in_direction, and its third item (DeepSeek) did not appear, while Y's equivalent miss (Tibet escalate) is a single item. Y's overall precision on confirmed calls gives it a slight edge."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_crystal": -1.0,
+      "persistence_vs_plain": -1.0,
+      "crystal_vs_plain": 1.0
+    },
+    "consistency": {
+      "compared": 3,
+      "disagree": 1,
+      "flags": [
+        {
+          "pair": "XZ",
+          "winner": "Z",
+          "points": {
+            "Z": 7,
+            "X": 8
+          },
+          "order": 0
+        }
+      ]
+    },
+    "v": 1.0,
+    "u": 1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  }
+}

@@ -1,0 +1,767 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "CA",
+  "name": "Canada",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T01:16:23+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The week was dominated by the Canada-EU summit in Montreal, where Prime Minister Mark Carney and EU Commission President von der Leyen agreed to build the 'deepest possible partnership' by mid-2027, covering Ukraine support, critical minerals, and AI. However, the EU dropped the 'associate member' label from the joint declaration after internal dissent from Germany and other member states, a compromise that drew criticism from Carney and Quebec's premier. Simultaneously, Canada signed a trade deal with the UAE, reported progress in US trade negotiations, and Trump declared a Canada tariff deal was coming 'soon.' The Bank of Canada hiked its key rate to 2.5 percent for the first time in three years, citing stubborn inflation driven by oil price surges linked to the Iran war. Ottawa also took an equity stake in AI company Cohere in a $4.5 billion funding round to bolster tech sovereignty. A landmark climate trial brought fifteen young Canadians before the courts seeking binding protections. Economic data painted a mixed picture, with GDP stalling in August and September but third-quarter growth tracking at 1.3 percent annualized.",
+    "key_events": [
+      {
+        "event": "Canada and the EU held a Montreal summit and agreed on a deepened partnership but dropped the 'associate member' label after internal EU dissent.",
+        "date": "2026-10-30",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "The Bank of Canada raised its key interest rate to 2.5 percent for the first time in three years, citing oil-driven inflation from the Iran war.",
+        "date": "2026-10-29",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Canada signed a trade deal with the UAE as part of Carney's push to diversify away from the US.",
+        "date": "2026-10-28",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Ottawa took an equity stake in AI firm Cohere as part of a $4.5 billion funding round at over $20 billion valuation.",
+        "date": "2026-10-27",
+        "domain": "technology",
+        "importance": 4
+      },
+      {
+        "event": "US-Canada trade talks accelerated with Trump saying a deal was coming 'soon' and officials reporting progress on steel and auto tariffs.",
+        "date": "2026-10-31",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Fifteen young Canadians launched a landmark court challenge seeking binding climate protections from the federal government.",
+        "date": "2026-10-28",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Canada introduced a bill to allow people to be euthanized after they lose the capacity to make that decision.",
+        "date": "2026-10-27",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Conservative victory in British Columbia boosted Carney's energy ambitions.",
+        "date": "2026-10-26",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "The UK declined to join the Canada-led defence bank initiative, ending merger talks.",
+        "date": "2026-10-29",
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "diplomacy",
+      "economy",
+      "technology",
+      "society"
+    ],
+    "emojis": [
+      "🤝",
+      "🏦",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The Canada-EU summit, UAE trade deal, and US trade progress all centered on forging new alliances and agreements (headlines 3, 55, 114, 126, 135).",
+      "The Bank of Canada hiked rates to 2.5 percent for the first time in three years, a major monetary policy shift (headlines 46, 94, 76).",
+      "The Montreal summit and Carney's multi-directional diplomacy with the EU, UAE, and US defined the week's international profile (headlines 27, 36, 57, 93)."
+    ],
+    "developments": [
+      {
+        "subject": "Canada-EU alliance and associate membership",
+        "what_happened": "The EU and Canada agreed on a deepened partnership at the Montreal summit but dropped the 'associate member' label from the joint declaration after internal EU dissent, with Carney targeting a June 2027 deal.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          12,
+          18,
+          20,
+          22,
+          24,
+          27,
+          30,
+          32,
+          36,
+          37,
+          38,
+          40,
+          41,
+          51,
+          57,
+          59,
+          64,
+          67,
+          72,
+          74,
+          77,
+          79,
+          82,
+          83,
+          86,
+          93,
+          99,
+          104
+        ]
+      },
+      {
+        "subject": "Bank of Canada rate hike",
+        "what_happened": "The Bank of Canada raised its key rate to 2.5 percent for the first time in three years, citing oil-driven inflation from the Iran war, and signaled another hike could follow.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          46,
+          49,
+          75,
+          76,
+          87,
+          90,
+          94,
+          106,
+          115,
+          128,
+          139
+        ]
+      },
+      {
+        "subject": "US-Canada trade and tariffs",
+        "what_happened": "Trade talks accelerated with Trump declaring a deal was coming 'soon,' officials reporting progress on steel and auto tariffs, and Carney saying the US was moving closer to Canada's demands ahead of midterms.",
+        "coverage": "dominant",
+        "direction": "de-escalating",
+        "headline_ids": [
+          4,
+          5,
+          6,
+          8,
+          23,
+          57,
+          58,
+          63,
+          78,
+          81,
+          96,
+          97,
+          102,
+          103,
+          117,
+          126,
+          132,
+          134,
+          135,
+          141
+        ]
+      },
+      {
+        "subject": "Canada-UAE trade and Gulf pivot",
+        "what_happened": "Canada signed a trade deal with the UAE, established a space-firm alliance, and explored port partnerships with DP World as part of a broader Gulf diversification strategy.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          55,
+          60,
+          109,
+          114,
+          129
+        ]
+      },
+      {
+        "subject": "Cohere AI investment",
+        "what_happened": "Canada took an equity stake in AI firm Cohere in a $4.5 billion funding round at over $20 billion valuation to bolster tech sovereignty, while major banks moved to limit AI agents citing risk.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          39,
+          53,
+          68,
+          71,
+          73,
+          80
+        ]
+      },
+      {
+        "subject": "Youth climate trial",
+        "what_happened": "Fifteen young Canadians filed a landmark court action seeking binding climate protections from the federal government.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          85,
+          92,
+          108
+        ]
+      },
+      {
+        "subject": "Economic data and growth",
+        "what_happened": "GDP stalled in August and likely lost ground in September, but Q3 growth tracked at 1.3 percent annualized, the budget deficit halved, and the Canadian dollar extended gains.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          25,
+          42,
+          47,
+          56,
+          88
+        ]
+      },
+      {
+        "subject": "Euthanasia legislation",
+        "what_happened": "Canada introduced a bill to allow people to be euthanized after they lose the capacity to make that decision.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          120
+        ]
+      },
+      {
+        "subject": "Defence bank and UK talks",
+        "what_happened": "The UK ended talks with Canada to merge their defence banks, and Britain declined to join the Canada-led defence bank initiative.",
+        "coverage": "occasional",
+        "direction": "de-escalating",
+        "headline_ids": [
+          121,
+          131,
+          142
+        ]
+      },
+      {
+        "subject": "Sports and culture",
+        "what_happened": "Skate Canada featured top performances, women's hockey exhibitions saw mixed results, Canada beat England in rugby, and Rick Hansen's story hit Canadian theatres.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          2,
+          10,
+          14,
+          19,
+          26,
+          48,
+          66,
+          91,
+          107
+        ]
+      }
+    ],
+    "gone": [
+      "CFB Wainwright military fire",
+      "Canada-Turkey strategic partnership",
+      "US election interference accusations",
+      "AI publishing scandal"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong coverage of the Canada-EU summit, BoC decision, trade diplomacy, and economic data, though the youth climate trial and euthanasia bill appear only briefly."
+    },
+    "headlines_used": [
+      "Canada advancing its 'middle power' strategy with new trade deals, Anand says",
+      "Mao Shimada of Japan tops women’s short program at Skate Canada",
+      "Canada, EU launch new alliance with deals on Ukraine, minerals, AI",
+      "The fight to save Canadian town threatened by Trump's tariffs",
+      "Canada’s economic break with the US in 5 charts",
+      "Mark Carney: Canada has 'learned we are overdependent on the US'",
+      "Le téléjournal de Radio-Canada - EDITION DU 02/11/2026",
+      "Carney Says No Hurry on Trade Deal If US Won’t Offer Good Terms",
+      "Canada Deems Vancouver Port Expansion a National Priority in Bid to Diversify Trade",
+      "THE UNTOLD STORY OF RICK HANSEN'S MAN IN MOTION WORLD TOUR COMES TO CINEPLEX THEATRES ACROSS CANADA NOVEMBER 1 AND 3 – Company Announcement - FT.com",
+      "Burger King U.S. & Canada President Tom Curtis: Menu upgrades drove 8.4% sales growth",
+      "EU and Canada seek deeper ties amid worsening global uncertainty",
+      "US, Canada see growing interest in limited ceasefire in Black Sea",
+      "Stützle, Cozens lead Senators past Sharks 5-1 as Ottawa ties franchise record with nine October wins",
+      "Old video misrepresented as Europe-inspired protests in Canada",
+      "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
+      "Obama jokes about the ‘well-known evil empire, Canada’ | CNN Politics",
+      "Germany and other EU countries ready to block von der Leyen's plan to give Canada 'associate membership'",
+      "Patinage : le Français Kevin Aymoz triomphe au Skate Canada",
+      "As Trump Unravels the Old World Order, Canada and EU Join Forces",
+      "Canada GDP Seen Dipping in September After Two Flat Months",
+      "‘Associate member’ spat set to overshadow Canada-EU summit",
+      "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+      "European Union backtracks on Canada becoming ‘associate member’",
+      "Canada's budget deficit over first five months of 2026/27 almost halves to C$5.36 billion",
+      "Anaheim plays Ottawa after Gauthier’s 2-goal showing",
+      "EU, Canada to build 'new chapter' in alliance at Montreal summit",
+      "Canada 'Crypto King' Aiden Pleterski found guilty of fraud",
+      "Analysis: Canada won’t see Alberta seceding anytime soon. But what to do with the people who wanted to leave?",
+      "Are the EU and Canada moving closer?",
+      "Le téléjournal de Radio-Canada",
+      "Mark Carney Wanted a New Alliance. Europe Is Taking Him Seriously",
+      "‘SCTV: The Greatest Show You’ve Never Heard Of’ Review: Canada’s Comedy Innovators",
+      "American Express and Hilton Launch Canada's First Hilton Honors Credit Card – Company Announcement",
+      "Check out Green Canada Uranium Corp.'s stock price (GCUCF) in real time",
+      "Canada-EU summit: What do both sides want, and what’s at stake?",
+      "Carney says EU and Canada will define 'deepest possible partnership' by mid-2027",
+      "Carney eyes June deal for Canada to become EU associate member as Trump reshapes alliances",
+      "Canada buying stake in AI firm Cohere to bolster tech sovereignty",
+      "EU chief lays out vision for new Canada partnership at Montreal summit",
+      "EU seeks 'highest level' ties with Canada in Montreal summit",
+      "Canada Economy Tracks 1.3% Third Quarter Annualized Growth",
+      "Canadian National Railway’s Profit Rises as Freight Demand Lifts Revenue",
+      "Bell named Canada's most valuable telecom brand – Company Announcement",
+      "Microsoft offering buyouts to some employees in U.S., Canada, India and U.K.",
+      "Bank of Canada raises interest rates for the first time in three years",
+      "Canada's economy stalls again in August, likely lost ground in September",
+      "US beats Canada 4-0 in 2nd of 2 exhibition games ahead of the women’s worlds",
+      "Canada hikes rates to contain oil price surge caused by Iran war",
+      "Winner claims massive Canada lotto prize hours before expiration",
+      "Ukraine, minerais, IA : l'UE et le Canada scellent un rapprochement inédit",
+      "Imperial Says a ‘Lot of Work’ Needed in Canada Oil Negotiations",
+      "Canada to Take Equity Stake in AI Firm Cohere",
+      "Sanofi expands Canadians' COVID-19 vaccine choice with availability of Nuvaxovid®for the 2026-2027 respiratory season – Company Announcement - FT.com",
+      "Canada signs trade deal with UAE in push for non-US markets",
+      "Canadian dollar extends monthly gain as higher oil prices raise inflation risk",
+      "Carney moves to remake Canada alliances as US ties strained",
+      "US lifts tariffs on some Canadian goods before midterm elections",
+      "VIDÉO. Union européenne/Canada: un sommet pour un rapprochement",
+      "An Air Link Between Oil Capitals Underscores Canada’s Gulf Pivot",
+      "Air Canada Expects High Fuel Costs to Eat Further Into Profit",
+      "83% say learning about money in school would have better prepared them: RBC and Seaspan expand financial education program across Canada – Company Announcement - FT.com",
+      "Trump says Canada has been treating the US very nicely",
+      "Carney, top EU official push Canada associate membership and wider alliance against Trump threats",
+      "Unfounded Zelensky Canadian bunker story originated on imposter website",
+      "Canada 31-22 England: No panic for England but Mitchell issues PWR warning",
+      "VIDÉO. UE / Canada : un sommet pour un rapprochement",
+      "Canada, Nvidia Back Cohere at Over $20 Billion Valuation",
+      "Cleveland-Cliffs to Retain Stelco Amid Jobs Dispute With Canadian Government",
+      "Canadian Investment Regulatory Organization Trade Resumption - PNC.A – Company Announcement",
+      "Ottawa takes stake in Cohere as AI company opens $4.5 billion funding round",
+      "Canada-EU summit seeks deepened alliance as US ties fray",
+      "IA: le Canada entre au capital de Cohere pour défendre sa souveraineté",
+      "EU Executive Seeks Canadian Associate Membership Despite Dissent",
+      "Growth Plays Key Supporting Role in Bank of Canada Rate-Hike Decision",
+      "Bank of Canada raises key interest rate, says another hike possible",
+      "Carney and the EU’s von der Leyen advance Canada’s associate membership plans",
+      "Trump says Canada trade deal coming 'soon'",
+      "Un sommet UE-Canada pour amener la relation \"au plus haut niveau possible\"",
+      "Canada’s Biggest Banks Move to Limit AI Agents, Citing Risk",
+      "America Needs Canada’s Aluminum. Trump’s Tariff Exposed Just How Badly.",
+      "EU spars over ‘associate member’ label for Canada on eve of Carney summit",
+      "Canada, European Union officials drop 'associate member' from joint summit declaration",
+      "US and Canada jerseys for upcoming women's world championships are unclear amid an IIHF dispute",
+      "Canadian youths ask court to impose binding climate protections",
+      "Pourquoi le Canada n'aura finalement pas le statut de 'membre associé' de l'Union européenne",
+      "Bank of Canada Chief Warns US Deficits Are Unsustainable and Costly",
+      "Canada Wholesale Sales Estimated to Have Risen 0.5% in September",
+      "Canada's UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker",
+      "Canadian dollar strengthens, bond yields rise after BoC's rate hike",
+      "Canada beats US 5-3 in exhibition ahead of women’s hockey worlds",
+      "Canadian youth seek climate action in landmark trial",
+      "Un sommet entre l'UE et le Canada pour sceller un rapprochement inédit",
+      "Bank of Canada Hikes to 2.5%, Says More Could Be Needed",
+      "Canada Packers Inc. Reports Third Quarter 2026 Financial Results – Company Announcement",
+      "Canada reports limited progress in trade talks with US",
+      "Trump cheers Canadian provincial election wins, but analysts say they're no rebuke of Carney",
+      "Contraint par Trump, Carney transforme le Canada à marche forcée",
+      "EU Seeks Closer Bond With Canada, But No Associate Membership",
+      "BMO Launches Canada's First Single Stock Autocallable Income ETFs – Company Announcement",
+      "Canadian competition watchdog warns Air Canada-United deal could raise airfares",
+      "Carney says Trump moving closer to Canada’s trade demands as midterms loom",
+      "Dans le Maine, les relations avec le Canada malmenées par la guerre commerciale de Trump",
+      "Carney Feels Backlash After Declining Quebec Premier’s EU Speech",
+      "Laurentian Bank of Canada increases its prime rate – Company Announcement",
+      "Bank of Canada poised to hike key rate for first time in three years",
+      "Consecutive defeats from Canada put Red Roses on first rugby losing streak in a decade",
+      "Climat: quinze jeunes s'attaquent à l'État canadien dans un procès inédit",
+      "UAE, Canada Space Firms in Alliance as Nations Seek Starlink Alternatives",
+      "New Horizons Ahead: Applications Open November 1 for the Eighth Annual Air Canada and CAE Captain Judy Cameron Scholarship – Company Announcement - FT.com",
+      "Canada's Wealthsimple raises funds at C$13.80 billion valuation",
+      "ETOILES PLEIN LES YEUX (DES) / AUTRES DISTRIBUTEURS CANADIENS",
+      "49North Qualifies Across All Five Streams of Canada's Defence Drone Initiative Marketplace – Company Announcement",
+      "Canada, UAE sign trade deal as Carney seeks new trading partners",
+      "Bank of Canada Seen Hiking as Oil Creates Stubborn Inflation: Decision Guide",
+      "Morguard Completes Sale of 131 Queen Street in Ottawa – Company Announcement",
+      "Higher tariffs on Canadian imports would be 'catastrophic,' Honda exec says",
+      "Five Questions for Royal Bank of Canada’s CEO",
+      "Royal Bank of Canada, RYC:BLG summary - FT.com",
+      "Canada introduces bill to allow people to be euthanized after they lose capacity to decide",
+      "UK’s Healey Ends Talks With Canada to Merge Defense Banks",
+      "Canada's BCE sells minority stake in new tower unit to La Caisse for $1.75 billion",
+      "Asia Pays Top Dollar For Canadian Oil Amid Slump in US Prices",
+      "KAP MINERALS AND CYMAT TECHNOLOGIES ANNOUNCE STRATEGIC PARTNERSHIP TO DEVELOP CANADIAN SCANDIUM-ALUMINUM MASTER ALLOY PRODUCTION – Company Announcement - FT.com",
+      "COMMENTARY: Canada takes a page from the Saudi oil playbook",
+      "US-Canada Trade Talks Are Picking Up Pace But No Deal Yet, Carney Says",
+      "Canadian Pacific Kansas City Limited declares dividend – Company Announcement",
+      "Canadian dollar extends pullback from 5-week high ahead of BoC rate decision",
+      "Dubai’s DP World in Talks on Alliance With Northern Canada Port",
+      "Magellan Aerospace Signs Memorandum of Understanding (MoU) with Saab to Explore Gripen Manufacturing Opportunities in Canada – Company Announcement - FT.com",
+      "Britain will not join Canada-led defence bank initiative",
+      "Hassett Says US Close to Deal With Canada as Talks Pick Up",
+      "New Manulife and MIT AgeLab \"Longevity Preparedness Index\" Reveals What It Takes to Age Well in Canada",
+      "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+      "Hassett Says US-Canada Trade Talks Are ‘Very Close’ to Deal",
+      "Brightstar Lottery's Cash Pop Game Launched in Canada with the Ontario Lottery and Gaming Corporation",
+      "ConocoPhillips to reduce workforce in Canada",
+      "Pearson and the Chartered Professional Accountants of Canada strike agreement to support the financial services workforce – Company Announcement - FT.com",
+      "Bank of Canada expected to hike rate on Wednesday to stem spillover of energy inflation",
+      "K9 Natural Brings Baked & Coated Dog Food to Canada – Company Announcement",
+      "Trump says Canada tariff deal coming 'soon' at Michigan border rally",
+      "Britain will not join Canada-led defence bank",
+      "Mark Carney’s energy ambitions boosted by Conservative victory in British Columbia"
+    ],
+    "converted": false,
+    "relevant_headlines": 143,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Canada-EU alliance and associate membership",
+        "expected": "Canada-EU alliance and associate membership stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Canada-EU alliance and associate membership appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Bank of Canada rate hike",
+        "expected": "Bank of Canada rate hike stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bank of Canada rate hike appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "US-Canada trade and tariffs",
+        "expected": "US-Canada trade and tariffs stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-Canada trade and tariffs appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Canada-UAE trade and Gulf pivot",
+        "expected": "persist",
+        "sign": "Canada-UAE trade and Gulf pivot is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Canada-EU alliance and associate membership stays in the news at the same level. Bank of Canada rate hike stays in the news at the same level. US-Canada trade and tariffs stays in the news at the same level. Canada-UAE trade and Gulf pivot is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Canada-EU partnership framework",
+        "expected": "Carney and EU officials will open formal negotiations on the partnership framework while the dropped associate-member label resurfaces in EU internal debates.",
+        "direction": "persist",
+        "sign": "Headlines will name EU member states objecting to or supporting specific Canada partnership terms and Carney defending the alliance target date."
+      },
+      "second": {
+        "subject": "US-Canada trade negotiations",
+        "expected": "A specific sectoral tariff resolution on steel or autos will be announced as both governments push toward a deal ahead of US midterms.",
+        "direction": "de-escalate",
+        "sign": "Headlines will name a specific Canadian industry or tariff line being resolved rather than general trade-talks language."
+      },
+      "third": {
+        "subject": "Bank of Canada rate policy",
+        "expected": "The rate hike will drive a wave of economic commentary and the Bank will signal the pace of further tightening against oil-driven inflation.",
+        "direction": "persist",
+        "sign": "Headlines will carry analysts updating growth and inflation forecasts and the Bank's communication about the next policy meeting."
+      },
+      "fade_call": {
+        "subject": "UK-Canada defence bank talks",
+        "expected": "fade",
+        "sign": "Headlines will shift from the UK-Canada defence bank split to other defence procurement or trade topics."
+      },
+      "surprise": {
+        "subject": "Euthanasia-after-capacity bill",
+        "expected": "The bill will face an early and contentious committee hearing that draws national media attention and splits public opinion.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Canada will be defined by the aftermath of the Montreal EU summit. Carney will push forward with formal partnership negotiations while EU member states debate terms behind closed doors, and the dropped associate-member label will resurface in both Ottawa and Brussels. On the trade front, US-Canada talks will produce a concrete sectoral announcement on steel or autos, with both sides signaling a deal is within reach ahead of American midterms. The Bank of Canada's rate hike will drive a wave of economic commentary, with analysts discussing the pace of further tightening against oil-driven inflation. The youth climate trial and the euthanasia-after-capacity bill will each generate a fresh procedural or political development. The UK-Canada defence bank story will largely fade, and the Cohere investment will settle into routine market coverage.",
+      "generated_at": "2026-11-02T01:03:08+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Canada-EU partnership and associate membership",
+        "expected": "Prime Minister Carney will publicly press EU leaders to formalize the associate membership framework and set out the concrete roadmap to the mid-2027 partnership deal.",
+        "direction": "escalate",
+        "sign": "Headlines will carry Carney's public statements on the EU partnership, EU internal negotiations over the associate membership question, and analysis of the practical scope of the new alliance."
+      },
+      "second": {
+        "subject": "US-Canada trade deal on steel and auto tariffs",
+        "expected": "The US and Canada will announce a trade agreement easing steel and auto tariffs as Trump positions the deal ahead of the midterm elections.",
+        "direction": "de-escalate",
+        "sign": "Headlines will carry the deal announcement, reactions from Canadian auto and steel sectors, and Trump's public framing of the agreement at a border rally."
+      },
+      "third": {
+        "subject": "Bank of Canada rate path and housing market",
+        "expected": "The Bank of Canada's signal of a possible further rate hike will drive mortgage rate increases and a wave of housing market warnings from analysts.",
+        "direction": "persist",
+        "sign": "Headlines will carry mortgage rate adjustments, housing market forecasts, and Bank of Canada commentary on US fiscal deficits."
+      },
+      "fade_call": {
+        "subject": "Cohere AI investment",
+        "expected": "fade",
+        "sign": "The Cohere funding round will appear in business-section recaps and AI strategy commentary rather than front-page stories."
+      },
+      "surprise": {
+        "subject": "Youth climate trial",
+        "expected": "A federal court will issue an early procedural ruling on the youth climate case that strengthens the plaintiffs' standing to seek binding government action.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Canada will be defined by the diplomatic and economic fallout from the Montreal EU summit. Prime Minister Carney will push EU leaders to formalize the associate membership framework and lay out the concrete steps toward the mid-2027 partnership, even as internal EU dissent over the label keeps the issue in flux. On the trade front, the US-Canada deal will move from near-announcement to a signed agreement on steel and auto tariff relief, framed by Trump as a midterm win. The Bank of Canada's hawkish signal of a possible further rate hike will ripple through the mortgage market, driving rate increases and fresh warnings about housing affordability. The UAE and Gulf pivot will deepen with port and space-sector developments, while the new euthanasia bill enters parliamentary debate. The Cohere AI investment will recede to background commentary.",
+      "generated_at": "2026-11-02T01:16:23+02:00"
+    }
+  },
+  "display": {
+    "headline": "Carney Presses EU on Membership as US Trade Deal Nears",
+    "emojis": [
+      "🤝",
+      "🏦",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The week's dominant stories are the Canada-EU partnership and the US-Canada trade deal, both centered on agreements and alliances.",
+      "The Bank of Canada's rate hike and forward guidance of another increase will drive mortgage and housing market coverage.",
+      "The Montreal EU summit and the broader Gulf pivot place international diplomacy at the center of Canadian news."
+    ],
+    "tldr": "Carney will press the EU to lock in the associate membership roadmap while a US-Canada trade deal on steel and auto tariffs is announced. The Bank of Canada's hint of another rate hike will hit mortgage holders. The Cohere AI story fades to background.",
+    "eli5": "Canada just had a big meeting with the European Union in Montreal. They agreed to work much closer together, but the EU dropped the fancy 'associate member' label that Canada wanted. Carney is not happy about that, and next week he will push the EU to put a real timeline on the deal.\n\nOn the other side, the US is getting very close to a trade deal with Canada. Trump keeps saying it is coming soon, and the steel and auto companies are hoping the punishing tariffs get lifted. That is the second big story to watch.\n\nThe Bank of Canada just raised interest rates for the first time in three years because oil prices are high. They also hinted they might raise them again, which means mortgages will get more expensive. That is the third thing to watch.\n\nA surprise would be if the young people who sued the government over climate change get an early win in court, turning a legal case into a national political fight."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'CFB Wainwright military fire' under 'No longer in the headlines' and none of the 143 headlines reference the Wainwright investigation or preliminary findings.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [46], [49], [76], and [94] confirm the Bank of Canada raised its key rate to 2.5 percent for the first time in three years and signaled another hike could follow, matching the forecast's expected rate and hawkish signal.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headlines [78], [96], [102], [126], [132], and [135] show US-Canada trade talks accelerating and de-escalating with Trump declaring a deal coming 'soon,' but no specific midterm race result or court filing tied to the Canada tariff question appeared.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Only headline [29], an analysis piece asking what to do with separatists, references the Alberta vote, confirming it receded from a dominant story to a single follow-up as predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline mentions a grenade firing mechanism defect, an internal safety report, or a parliamentary demand for a public inquiry related to Wainwright.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin over-weighted the Wainwright fire as the lead story when it faded entirely from the headlines, and it missed the dominant Canada-EU summit and the UAE trade deal that actually defined the week. The rate-hike and trade-de-escalation trends were correctly identified, but the specific mechanism of a midterm legal challenge was too narrow for what actually unfolded. The main thesis was wrong in emphasis: the week was defined by new diplomatic pivots (EU, Gulf) rather than institutional aftermath of the previous week's events.",
+        "S": 9
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin places 'CFB Wainwright military fire' under 'No longer in the headlines' and no headline references the army's preliminary findings or a special parliamentary session.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [46], [49], [76], [90], and [94] confirm the rate hike to 2.5 percent, the first in three years, with the Bank signaling another hike is possible, matching the forecast's expected decision and hawkish guidance.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headlines [78], [96], [102], [126], [134], and [135] show trade talks picking up pace and de-escalating with progress on steel and auto tariffs, but no federal court hearing on the New Jersey importer's lawsuit was reported.",
+            "forecast_direction": "de-escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Headlines [66] and [107] reference the Canada-England rugby match only in sports-section recaps and retrospective features, confirming the fade from a front-page upset to routine sports coverage.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The reality bulletin lists 'AI publishing scandal' under 'No longer in the headlines' and no headline references the Orelien novel, a wave of AI claims, or parliamentary rules on AI in literature.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified the rate hike and the trade de-escalation trend, but it led with the Wainwright fire when that story vanished entirely, and it missed the dominant Canada-EU summit and the UAE/Gulf pivot that redefined the week's diplomatic narrative. The 'institutional response' framing captured the rate decision and trade talks but overlooked the broader realignment of alliances. The main thesis was merely early on the rate and trade items but wrong in treating Wainwright as the week's defining story.",
+        "S": 9
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "Only headline [29], a single analysis piece on Alberta secession aftermath, references the vote, a sharp drop from its status as the dominant story in the previous round.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'CFB Wainwright military fire' under 'No longer in the headlines' and zero of the 143 headlines mention the Wainwright fire or its investigation.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headlines [4], [58], [78], [96], [102], [117], [126], [132], [134], [135], and [141] confirm US-Canada trade remained a dominant story, though the tone shifted from confrontation toward de-escalation and deal-making rather than holding steady.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly places 'CFB Wainwright military fire' under 'No longer in the headlines,' contradicting the prediction that it would persist at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Multiple new stories appeared that were absent from the previous round, including the Canada-EU summit [3, 12, 27, 37], the UAE trade deal [55, 114], the Cohere investment [39, 53, 68, 71], and the youth climate trial [85, 92, 108].",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis was the opposite of what happened: the week was defined by entirely new diplomatic and economic stories (EU summit, UAE deal, Cohere, climate trial) while the two stories the bulletin expected to persist (Wainwright, Alberta) both faded. The US-Canada trade item was the one correct call, remaining dominant, but the direction was de-escalating rather than steady. The main thesis was wrong: the week broke decisively on new fronts rather than continuing the previous week's narrative.",
+        "S": 1
+      }
+    },
+    "S": [
+      {
+        "plain": 9,
+        "crystal": 9,
+        "persistence": 1
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Computed from the scores: plain 9, crystal 9."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: plain 9, persistence 1."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 9, persistence 1."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": 0.0,
+      "plain_vs_persistence": 2.0,
+      "crystal_vs_persistence": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 0.0,
+    "u": 2.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week of October 17 to 24, 2026 was defined by two major events in Canada. Albertans overwhelmingly voted to reject a move toward independence from the federation, a result Prime Minister Mark Carney called a clear choice of unity and a significant boost to his government. In a separate tragedy, a live grenade exercise at CFB Wainwright in Alberta ignited a grass fire that killed four soldiers and critically injured dozens; Carney described it as one of the worst peacetime tragedies in Canadian military history, and the army deployed 50 investigators. One outlet reported seven deaths, a figure not confirmed by others. On trade, President Trump lifted some of his 50 percent tariffs on Canadian goods ahead of the US midterms, particularly to aid Maine Senator Susan Collins, while a New Jersey food importer sued to block the remaining duties. Canada unveiled a 6.4 billion dollar support package for\n- Alberta separation vote (dominant, resolved): Albertans overwhelmingly rejected a move toward independence from Canada, a victory for PM Carney and a test of national unity.\n- CFB Wainwright military fire (dominant, new): A live grenade exercise ignited a grass fire at Alberta's CFB Wainwright, killing four soldiers and critically injuring dozens; the army deployed 50 investigators.\n- US-Canada tariffs and trade (dominant, de-escalating): Trump lifted some 50 percent tariffs on Canadian goods ahead of midterms to help Senator Collins, while a food importer sued over the remaining duties and Canada unveiled a steel and auto support package.\n- Canada-Turkey strategic partnership (regular, new): PM Carney visited Turkey and signed a strategic partnership covering defense, energy, and trade as part of a push to reduce reliance on the US.\n- Bank of Canada rates and inflation (regular, continuing): September inflation rose to 3.1 percent and the Bank of Canada was widely expected to raise its key rate to 2.50 percent on October 28.\n- US election interference accusations (regular, escalating): The US accused Canada of election interference ahead of midterms; Carney dismissed the claims and Canada banned its diplomats from being seen with US candidates.\n- Steel and auto support package (regular, new): Canada and Ontario unveiled a 6.4 billion dollar package to support steel and auto sectors amid the trade crunch, and gave Cleveland-Cliffs 15 days to reverse planned job cuts.\n- Women's rugby upset (occasional, new): Canada beat England 31-22 to end the Red Roses' 41-match unbeaten streak in the WXV Global Series.\n- AI publishing scandal (occasional, new): A Canadian publisher ended its relationship with writer Thelyson Orelien after determining he used AI to write his award-winning novel.\n- EU-Canada association (occasional, new): The EU and Canada agreed to flesh out a closer associate membership arrangement by 2027.\n\nRound 2026-10-17:\nDuring the week of October 14 to 17, 2026, Canada was dominated by the imminent Alberta separation referendum. Prime Minister Mark Carney campaigned heavily across the country, framing the vote as a test of national unity and accusing the United States of trying to 'break' Canada. Polling indicated growing support for remaining in the federation, but Carney warned the stakes were high. Simultaneously, a major industrial dispute erupted over the Stelco steel plant, with the Canadian government threatening to block layoffs, force an asset sale, or even nationalize the Cleveland-Cliffs facility, which the US CEO dismissed as 'bullying.' The Bank of Canada flagged a sharply higher inflation outlook driven by surging oil prices, while housing data showed continued weakness with falling September home sales and climbing mortgage rates. On a positive note, Canada's women's rugby team stunned world champions England 24 to 21 in Toronto, ending their 41-match unbeaten run.\n- Alberta separation referendum (dominant, escalating): Carney campaigned nationally for a 'remain' vote as the Alberta independence referendum neared, accusing the US of trying to break Canada, while polling showed rising support for staying.\n- Stelco-Cleveland-Cliffs dispute (dominant, escalating): Canada's industry minister threatened to block layoffs, force an asset sale, or nationalize the Stelco plant, while Cleveland-Cliffs' CEO called the threats 'bullying.'\n- Inflation and rate outlook (regular, escalating): The Bank of Canada warned of a sharply higher inflation path driven by surging oil prices, prompting investors to brace for data that will determine the rate trajectory.\n- Housing market softening (regular, continuing): September home sales fell as mortgage rates climbed, though building permits and housing starts showed some underlying construction resilience amid a longer-term supply gap.\n- US-Canada trade tensions (regular, continuing): Ontario's Ford warned Canada must plan as if US tariffs are permanent, while steelmakers offset some tariff pain with domestic demand and Air Canada and United expanded routes amid the uncertainty.\n- India trade and investment (regular, new): Canada aimed to seal a trade pact with India by year-end, and Fairfax Financial completed a 5.56-billion-dollar acquisition of a majority stake in IDBI Bank.\n- Women's rugby upset (regular, new): Canada defeated world champions England 24-21 in Toronto, ending a 41-match unbeaten run in a landmark win celebrated by the home crowd.\n- Bus crash fatalities (occasional, new): A bus crash in Canada left three people dead and nineteen injured, police reported.\n- Technology and corporate news (occasional, new): Anthropic leased space for its first Canadian data center, Waymo planned a Toronto robotaxi service for 2028, and Shopify's founder faced controversy as his wealth soared.\n- Rescued belugas (occasional, continuing): The uncertain future of thirty rescued belugas remained under discussion.\n",
+    "PREVIOUS_FORECAST": "Lead: CFB Wainwright fire investigation. Expected: The army will publish its preliminary findings on the grenade-exercise fire and Prime Minister Carney will call a special parliamentary session to address the national tragedy. Direction: escalate. Sign: Headlines will carry the army's initial report, Carney's national address, and demands from opposition parties for a full public inquiry into the base.\nSecond: Bank of Canada rate decision. Expected: The Bank of Canada will raise its key rate to 2.50 percent on October 28 and signal a further increase by end-March, sending mortgage rates higher across the country. Direction: persist. Sign: Headlines will report the rate decision, the governor's press conference, and a wave of mortgage holder anxiety and housing market warnings from analysts.\nThird: US-Canada tariff legal challenge. Expected: A federal court will schedule a hearing on the New Jersey importer's lawsuit challenging the remaining tariffs on Canadian goods, setting the stage for a legal test of the trade measures. Direction: de-escalate. Sign: Headlines will carry the court's scheduling order, reactions from Canadian exporters and importers, and commentary on the trade relationship as the US midterm season intensifies.\nFade call: Women's rugby upset over England. Expected: fade. Sign: Rugby will appear in brief sports-section recaps and retrospective features rather than front-page or lead stories.\nSurprise (chance medium): AI publishing scandal expands. The Canadian publisher's AI disclosure over the award-winning novel will trigger a wave of similar claims across the industry and push a parliamentary committee to draft rules on artificial intelligence in published literature.\nSummary: Next week in Canada will be defined by the aftermath of the CFB Wainwright tragedy, as the army releases its preliminary findings and Prime Minister Carney calls a special parliamentary session to address the nation. The Bank of Canada will deliver its long-anticipated rate hike to 2.50 percent on October 28, sending shockwaves through the mortgage market and reinforcing a hawkish path into early 2027. On the trade front, the New Jersey importer's lawsuit will move to a federal court hearing, testing the remaining tariffs even as Trump lifts some duties to help Maine's midterm race. The US election-interference dispute will simmer as Carney sharpens his rhetoric against Washington's ambassador. The women's rugby celebration will fade to sports-page mentions, and the AI publishing scandal over the Orelien novel may spark a broader industry reckoning. Overall, the week tilts toward institutional response rather than new shocks.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear (observed: faded, subject absent). The reality bulletin places 'CFB Wainwright military fire' under 'No longer in the headlines' and no headline references the army's preliminary findings or a special parliamentary session.\n- second: true_in_direction (observed: escalated, subject dominant). Headlines [46], [49], [76], [90], and [94] confirm the rate hike to 2.5 percent, the first in three years, with the Bank signaling another hike is possible, matching the forecast's expected decision and hawkish guidance.\n- third: came_true (observed: de-escalated, subject dominant). Headlines [78], [96], [102], [126], [134], and [135] show trade talks picking up pace and de-escalating with progress on steel and auto tariffs, but no federal court hearing on the New Jersey importer's lawsuit was reported.\n- fade_call: came_true (observed: faded, subject marginal). Headlines [66] and [107] reference the Canada-England rugby match only in sports-section recaps and retrospective features, confirming the fade from a front-page upset to routine sports coverage.\nArcher note: The bulletin correctly identified the rate hike and the trade de-escalation trend, but it led with the Wainwright fire when that story vanished entirely, and it missed the dominant Canada-EU summit and the UAE/Gulf pivot that redefined the week's diplomatic narrative. The 'institutional response' framing captured the rate decision and trade talks but overlooked the broader realignment of alliances. The main thesis was merely early on the rate and trade items but wrong in treating Wainwright as the week's defining story.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

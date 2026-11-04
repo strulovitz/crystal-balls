@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-01",
+  "code": "ZA",
+  "name": "South Africa",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-01",
+  "fetched_at": "2026-11-01T13:46:11+02:00",
+  "total_items": 87,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 26,
+      "relevant_before_cap": 26,
+      "filtered_out": 74,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "South Africa's Lions head home after traumatic Europe tour",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGhFYWFhMm1XLWYwRDVlZndXS3V5b1ZhckhTaVdzZjBlX0E4WDBBVWlKWlNQQ2pjRS1hTUt3SmNLS1N3a3pSLTdOM1UzQXZ1SWE1M1B5dFJ1OHVIOGFKb2RrUHpsNmZSaU5aYzhFemgySUx3TUJyRFhwRXkyVDZTbG9JUndBaG5BMGwydEJ3aDloS2xleDJpRWs3MkhQVnk1V0E?oc=5"
+        },
+        {
+          "title": "Australia face difficult questions after series loss to South Africa",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVUxGTWpZQWxPT3cxdy1wcmZNYkY0SG5xMEctWk9rM2ZTRlZsZWJmMy1ldEFIX0VnQU9tZUowNHZ6OU1pdkZHMzhaZFJSc0E0QUxFMWk3UDg3aDNyamhjdU93LUt3NkRNZTItcGZVVnNqaDZXdFU3T2dqTG02dTNwUXI1YzhBTy1pTDVEUzZ0MWtwaEUwdl9pb2cwODZzM3RIOTFoWkFHRFA3RmhiRDVNVHZDWUJOSVE?oc=5"
+        },
+        {
+          "title": "South Africa's Rabada fastest to 350 wickets as Australia slump to 60-7",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNal83VDYxOTNWenFGaWV0VHpvVk9na2xHRnZqZzlUbkR3d2VUMzZKMGg0Q091SmVaMDJUaVktVkNfZUJVVGVlUllxNGVuZG9JcUlEbHdlWVI5aUdBNUZNX3A2bG93aUVsNWNJelNJcDlyWE5pR0FReGViZWg5Z3JZb0lWYWk3TE1uSU9hTmNsc3JpVjdiaE1SQkJ1aDBoUjJ5aXZPbEZKa1dlbXdhWGx6Z1lB?oc=5"
+        },
+        {
+          "title": "Harmer, Rabada steer South Africa to series win over Australia",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzNpRnIwTkhmZ3ZERUZnczJZSGVXRjZQN3hQUHF3ZExsV3RRU2tVS1lLTW9YS0JsREdlNFRxdlVQZUJUd2FMd0UwR1FvUlllMkZKYWlfWGVDdE91Z1dDUElZY0k2X2F3OFZ3OTd3NGZsUVk5X2x4eU1EN3ZGbV9yZnhXc3RPaDNqOFdBbDFjbGdKM0RRVmJFbzVtRkw2d3Z4T3BXZWk0aHhRS3BUX0E?oc=5"
+        },
+        {
+          "title": "World player of the year Marx to leave Japan and return to South Africa",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc0dvS0NTYlBaejRQU0RYdlUxTUFoTlRMY2xmbm4wTlo2Vkl2V2E1UVJ5eDU1MXMwNHFrMEJHTG9WT25yWC04U1plTE00eHAwcFplbEFxS1VQU0ZJdUhPWkp4dXJQUGVBS2pNcTRpaWIwQ0M3U2Rya09FSFBXTzlXdWcxYWJlZ21HZ2R4SnpPUDM2UFQybHJhMUVQb2NFQQ?oc=5"
+        },
+        {
+          "title": "Mining sector job cuts escalate in South Africa",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pck51WENHZElqaHdZdWMxazZ4dEJaZGFLRExYTHBFcUxuZWdMNDFxZ2YzcmxHbzJoZy1MMjR3NDJCV2RsMGJjWG96X09nNVFmVDVqTm9oTjlzZkFBTEpxekxiVEJKS2s?oc=5"
+        },
+        {
+          "title": "South African rand steady ahead of budget, trade data",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVUlKcmhNWTNCbWhpSkNkSlZPTVlMbEZYeFFnSjJrb0NMeTVTdWVmNzJXQWNCNHo3S0doQ2lQd2VILW9LaThBYW9fTDNjbW9ReWZFeVhKcHUyZGNpdkhYeFFLQkxReVo2bkJGMUlvc2tjUWtaRkJXSk4zREp2Z2VFaFFFekFIbDVpNGNSVDIteHJzUEdETllSOHl1WExUdlE?oc=5"
+        },
+        {
+          "title": "South African economy 5% bigger after rebasing, moving further ahead of Nigeria",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3NEMWpacHpNTnMzTXowX0ROTHgzNEVXYk82b2U4cmNWVW9IT293RzNCaU5aNTBib0pwNXJSc0RCeWhtdEtRRm96VDNlbWxYSjFSeTFfc0tzaDJ4OFdUaVViOVJrVnNiU0VTUnlxQ1doby1KOWFmY1NpOFhwanlkNC00UjVXOERjWXVJQ2V6bDNveDRpUE1RSlRheXZ4SnllWFFxa0wwbkJMUUE?oc=5"
+        },
+        {
+          "title": "South Africa's Absa opens first Gulf office in Dubai",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVA3YVNlNUpvSExtRm1xVTZKd1ZaLW10R3pQSFpKZ1JHbUpkTnFrMG9JWEJiQ05DV0lCVnB2LS1RdUZDZWhXSlAweXp4UlQ5LXVNems2b190cEtkZExVak4yRUFDU3Vnak84T01DQm1IVnU3b05RME82N283TDRYUEFQVGdHbXViU055Z1VJWWQ1U3ZxdkFPQ3hheGJ6ZkpjanlXSw?oc=5"
+        },
+        {
+          "title": "South Africa unveils Durban as bid city for 2036 or 2040 Olympics",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRlpscnU3T2pFemRyM0pNRkdDOTlxVkMyTmVYOWlQb1pzNEZzTkp1UkhLeHYwN093Tk1sYXREZmpvVmpITzZnbEt5bEd0ZDV6b3dkQUZZb3VfVFp1eVd1TGlUTVg5VEtFTjdoOUh5bWMzNlFiX0I3YWxBb0R6RHB5ZGtoNmswbExfanc4cVVvM2V3LThpZ2dWUzhaV0Z2N3BHdWNz?oc=5"
+        },
+        {
+          "title": "South African rand slips as weaker gold and platinum add pressure",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ21tOHY5RUhPVllpMFYtRWQ5VjRGUjhmOEtmdHBLdl9jMXJndVFSZXJTcV9oTUVMX2NtbVl3TklEQ0h0X2pDbWFhMllxUll1Tnkxc3VtZnhZOVRMdUk1dlNaM0lielNVR194S3ZKcHc3bkxJaDJIVjJPM1pGMDRaT21NMjdOcWNqTzRiOXQ5TmZiZ1d6UTMyUTRnTEo2V2FubFMwTkVEM2c?oc=5"
+        },
+        {
+          "title": "South Africa in peril after third day of decisive test against Australia",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS2tUUGllZnJyTTZaX3lVb2hib0ZuTzdTeWQ5UC1QXzNXdklhZFVsdTdxaEZNS1R1NnJuUkt4UWxwUnN1RkswdGNuWWlJNXlMZUVJem1TUWdRd0dxaTQxUnJ1UHRxVUhYM2ktOFVEX1Y0UzJmaHBGRGVKaGg0Q3FTdWVtYTlYakFXdTBfTGZJcDR2ZEFBMUhOekprUzRpQlc2YS1wcjhSNHQ3TmhpdUlXOFZJdmY?oc=5"
+        },
+        {
+          "title": "South Africa risks return to money-laundering grey list",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0lyYWZVNWREMzRIOE1JaERpNmZEeTdpd3JGSk1ueE1kYkpIbVRORGc0ckJoNlhWQm10dmZva0ZRS0lTMXIwM2lNSmpmUmY2V1R4bExWRVlJbW5lZUVOdy1PTVJZUzJqaUFyUF9PaDZJbjVvaG9pQTVFYTFqOVhIQnYyTnpjd2NHLXlOQmpudkkyZmVqVVhua3RlMlJrN2Rma0Rj?oc=5"
+        },
+        {
+          "title": "Inglis, Carey put Australia on top against South Africa",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR3I3eEVGWDBnMEF6N0pFdGVFYzJGeENBOVF6aFZfVXlJZmg2a3hUUDZaQ2E2TmowUDhlVG9ZeERwTVp0UmIyUktpa2tqX2hZT3lBY3dzN25wa3M2YnU4eEdRNmduaXYxcENrYlN1T2VlYkZ6VVdQeTlmTVM3aDZNX0hSOEx5RnJWVHFGTUV4UDVGcDMzNTBOSDVsYw?oc=5"
+        },
+        {
+          "title": "South Africa's debut gas-to-power tender fails on supply concerns",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT1hoVVR4ajlGZGZ5NTR5RmJUT3QybUtDdXdJYzEzNWR3QmFKRENJUkRpMGRMN3Bwa0t3UDlyLW1ranZVR0QwbzNBZ0YyMzFzNEliaUlmaW5CR25PV0VUbTIzWEpsemFfWEF0MTBQZ09OM1pyNTREVXpUdlhmYUtqcWRjd0dfU09TVkxlcllrWHcwWVh6U0x0YkpnMkVhX3YzYnlJVWVpWHNncnltWmtYRzFKaw?oc=5"
+        },
+        {
+          "title": "South Africa name six uncapped players in Nation Championship squad",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPektucmFVODYyY2J2OG9KQUplU3RLSFRId0JnUVdTSkU4aDRYVHNaU0RNWDZ2SDI2YVNKeUVuNkZQeW1wdnoyTDdmVGY3dUZfZ21YX1FTTzlLODVpX2JPOE15cFJxSUgtdjNHYzFGUUxBanBJNXR6OHZVd3hZdmpuTkpUWUxBWUhsX3pFbGZNVWxPdkhOclBUQ2tXVFNkVlNnV1AzWU1aUEo5Nmc?oc=5"
+        },
+        {
+          "title": "South African rand softens as oil prices rise, Fed in focus",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVwZGN6eVNhNE5oUlZnWTNGU0MxUTdsSktTS1lXdmxoRGJ0VWpFTXlGYzdvZTJna0kwTnltdTc4TXJ3cWxscXFKeU1xQWJpWXA2SUF0R1N3b0c3U1ZPdjRwaGJJSS1qSnZSNVQtNzl1U1QzTmVGMndEV1dJakdjaGMtTk1BQjcxZFRvcUNQNVhSdTk1QnhKeXlyc0VNTkZkbDQ4?oc=5"
+        },
+        {
+          "title": "South African rand firms as commodity prices rise, focus turns to Fed",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0xCV0k2YlUxcnNVUzE0YzBBcEd5aUNJU0tkYUF5eWhuOW1IRmRJTnFEZ0tqa2I0WG5iT3YwazhxTmZIN0ZpVkx5bk5hc252bS1OXzZSMmVMTjFDNWlYVlhSWFYyN2Vjc2MwSmJVYzZOTi1jSUpxTWFDX2RBcFNNTl95cmM3N21GT0wyck9kQU5qY21xcUFmcm40Sl91ZlgydUYySXlB?oc=5"
+        },
+        {
+          "title": "South Africa deploys troops to coastal province to help control anti-migrant protests",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnBxd1prWmo1bkpqSDdXR1BUMkdlQkdiZ1lka2ZORTJHb3RCY1NUbk5hQ1ZQUmRSRFhCN19ZemtZbzNyTnYyMkduWnE1WDg2Q1BaeDlKU1BKN1MydC01dUl5cmNaSk14ekFVTjlYVU9ZWngxX1FldlM0U01kdE5EbnVVT0xyYXBwWkZDSUQ3bGxad0xKZUVyeTJZYTVkYkFTdGQxa0YxVFBSYlBhUVZoVHVNWFA0NWJkYjI3RmpwbEEySlIxTGJj?oc=5"
+        },
+        {
+          "title": "Starc strikes late as Australia fight back v South Africa",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWWJpN2RrN0k0Wmg1TE45M0YzR1AxTzdJMV9ZVXJwUWF6ZkN4NzhJTFJhbEhpMWZ6dnR6WXZsSEVhREJiSTVwMEtpcTVkeEc4T2dlVUExdGc1NXpNSlZ3YnBJU0JuNXFWNFYxNmZPYlFzVjZjQmh0c3p0OHFtOHE1MnM3MV9JX2tFUElkYy1OMGlybjQ5bDc3elU4LVRzMC1fejNYa0dZNEd5WHU5LVI0?oc=5"
+        },
+        {
+          "title": "Battleground metros to watch in South Africa's municipal elections",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0Fvemt6SG5qdVkxRlpqR2pzWGVaSFl5U3ZUMzE5MkZPZWhfWFZuWU1OYkV4NFBDaEp3NXBfdlRzc1RlTllja01WSkEweWRaVjBEbW9PVmVPWDNtdU1QTGZjTXF0TFpaeDZkYk1ZTGZlQkpMWXc3dlAzUU4taVkwSVludVVmUFRMQkdDbFFhcXEtNlNGRDlSV1dtSWwzdTFpMHhsUG9mSlV3LU5Z?oc=5"
+        },
+        {
+          "title": "South Africa's Pick n Pay narrows first-half loss as turnaround gains traction",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3dXWWMtT09adGNhNHhPS2M5TXBTLUNSR2xTS245QU51M0IxXzE5c3oxVENkZmp6ZXVmQ2ZISTVDTWNPX0IxU0NhX0RPMnFTVDRRYU9jSklCYkRCTGNUZDdld25OMlE0c3RkN2RMNXh3SzNoTHVTTDVoYUZjbUM4NVlPNDNyclNEVklHcXNXV3YyYTBZb2lMU2w4V1RjMmIxTzNkcXY1TVZPV2NyV01BTjN5X3RZYlN4eFBadg?oc=5"
+        },
+        {
+          "title": "South African rand steady with local economic data, Fed decision in focus",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPblVTN1p0WUdCV2FocHA2N1VTcThyWDdaRUpoTWppb0tUXzJCT0E0Nmg1dGZIS0l6dXVXQ25SNDBLTzhuakJvSnpfejJYWGk2ZVVTNDA1bXBHQXgybXB5SUpJOW42Rm1IVEw5YU5pS2NLeFZON25xbDViZE1LUVpzd0xhZ3JDNEpfdUoxdS1wV00yLUZSNndlQmFacXVSY0pUeTdmdkRRbWloWW5heEQ5ejMxUEpOOFNIZkE?oc=5"
+        },
+        {
+          "title": "Moody's says South Africa's budget update is credit positive",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaVY1cGhPSFg2cUdtdjltZlUwZ0FiczN4cU5IZlZhSzd0U3NKTFV3WTNpTEt1eEdrV19ualZxWGIwT0UzM2I1VmgwUUpaenVQU3NfSTRSUy13RXBPLXVrLV84c1hLUFg1dXpBdWdFc1I0VUpxUkhrc0k2S1JVZkVrUkgzSmR0cFlCRTA5ZGZIemlEUUtDbnVvNHJwWDB2WDh6SzhCMHFxaHZ2cFE?oc=5"
+        },
+        {
+          "title": "South Africa make one change for series decider against Australia",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNkcwVS01YmpjblA2M3JfZTh3ZVdxSmhQR0haeUFnZzM3ajBHVXloVmtud2N1dktjajIzTWp5YUZELTZtZ3JZcTFqb3M0RVE0OVlyMXJVcWlEelYtcWxUSUducVRRWUNWMFNpUmFhajFyeG1RUWxaNVJDWkFBZDNkM185RG1TYndvZEFSY3lHNmN3OWhQM3JUb3EzSEpYWEZkalZ3cnUzcFRPZnlhZXlsT1NB?oc=5"
+        },
+        {
+          "title": "South Africa paceman Nortje ruled out of third test",
+          "published": "2026-10-24",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUk45akxwNkJiUWotV0tvYWt2eUJzUU5QZUJINzgyZktkdTJWOGotTEdKUkw2bm1kWGtGUmI0ZUh4RF9FUXVtbXVOMjF3ZkRpUXpVOVVoU0FrSXZTejJyRWNsRmNKbnU2b0ZJN3UwR01DbkwzV0ZWUTBpR2tFRVRYd1JtZGRzS3BlRHVJSHZXSWFoa0VxTmlxYXhVU2pWeGct?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 10,
+      "relevant_before_cap": 10,
+      "filtered_out": 43,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Harmer shines as South Africa wins 3rd cricket test against Australia to claim series 2-1",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenI4OFJZUVI1cHhFbGJzMHhsc2pBcGdfeDRPbkdtX1pFQ3JtZFc5RlFmd3FueWNmS1dCLV9EbnhmZVBSV2s0TnF0TThYVUxkOUNkaUotQTl1T2ZPY1pLMm40b0pVTXBfaU5VTGFrc3NzanBuU1BseXJ3aVNyUlRKa2cwMWViOEVnWTAzek51ZFJMQmJZdnBYODBWX1V6TGoxSGpJ?oc=5"
+        },
+        {
+          "title": "Rickelton and Mulder centuries lead South Africa fightback and set Australia 288 chase",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS0FXX2hJcUVibWRuNUV0T052cmZiNEVsS19WUzBhVzRSWmhEVUlkLWFqd1ByYUh6VzRrcmtoSGVjd0pYWWtwRzJRQldZU3h4OHJTM0dUSjhpZUJodVN5TmVsV1FNTjA2RHplUm95d3FlZy13UHRYZmZyMFZIbWZOUWpKZ2poODdZS0tua1p0UmdIcWxNczR0SnFSa1RwZzE1SDNZ?oc=5"
+        },
+        {
+          "title": "South African court allows anti-illegal immigration marches under strict conditions",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdElZOHZXQ3FkZkR4cFVpd05ZalFDTC1OTVFrV2JXdG5ZX3Rpa2cyWmdoeXhGYk5PX1ctVXF5UWlaSEEzdC1ENlgyRktRaW9uQ3FnQTI0MXNUdHh1cWRGbzNWY1N0eVNsWVktRXgzNVdKYWhwYkk4RkhiVXRFM25qeHd1U1hRbmZnc1J0ZlpEbVA0YmVLTFJtVmplVnNfeG5EMFZBeDBaZS01ZmxWSjc5bkFn?oc=5"
+        },
+        {
+          "title": "South Africa chooses Durban as its preferred city to host 2036 or 2040 Olympics",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT1lPM2EyZUZRVjlXbkVXYW5YVnVfY0ZCaVgyMmVGNmpCal9rVzRjUjBVZllBczdoTzRoY25pR3p1UjNBTVllQUtVNGZLZDB6MmR4aDF1UXA3eGdZQ0gyNlV2V25VLU9BWkU1Q0pVVnpWeGtDQkxtbEw0bjZUWTQ2WmQ0WEZuM3Z4bHlTWnVwdTY3RXFqMm9yWTdwQQ?oc=5"
+        },
+        {
+          "title": "South African police seek court ban on anti-immigration marches",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMjVFbGJ1ajlDRmxvS05ZcG83Q1NGNmtjZzl4M3VrZkNtUElTMG1hZmxRQmtiWnFTMUtDdmV4czNnZjlkSjctSkVZcmxSb053aXBPcjJwSEFONEZBRl9EMjVHZWU5enZvUnRNZFExUmowQ0l3S3BUVkJENm5OMHU0cGZPSUJQSlo3M1pPYzJFYzFBc1NheGt5Y05OQmVVUQ?oc=5"
+        },
+        {
+          "title": "Lyon bowls Bavuma late and Australia tightens grip against South Africa in cricket series decider",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV0I0QlpVd2xhNjg3cmVaWlBSWGliVklLOHhBNEloZHpzbktCdnJvSGw4Tm5OcHFsZnVZOUZTRUhweUdfcWdCeUNTMUxld09fc1BjaEd0Y2MyWlNsU2NJakxzWF8wVHU5dzZ0X2tsc0RQU1YzZGlhVWtDN2JRTVZmamc5d0Z1dExMQl9aWUdXSGMzRkhzek4wdGE5ZUVpMzE4TDU4Vko4U0tUeVJs?oc=5"
+        },
+        {
+          "title": "Josh Inglis leads way as Australia takes control of deciding test vs South Africa",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORm5ScXBLSzN1V0tQc3VhZ0tCczJBUXpyQkdidHMzWlVaNzQwTzlqYTl2ZTRpYmJ5S2hvdUVUem5XbUtRNXNyTFBGb1dNbHc0WlVYMzRiZE5vOGx5UTZveGtWbjBTTkNzRE9zck10cGdWNUhLV0NZTUlvUVRQcHFINkdzTkNiaUY3empsZm9UUGJMSFNYN05fTjY2VVdldHllTFk4?oc=5"
+        },
+        {
+          "title": "South Africa's Ramaphosa orders 510 soldiers to KwaZulu-Natal after asylum ruling violence",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0R6c255SW5UdmFpNFd0MDVFSDFhX3NnWHlKQlp5VmtsWlZUMUpjVEpGMS1LY282aWUzMkNGOF85T1FtVHRwUlZ0SW9aWm15QVJwX0xJQWNmZmFyRUhhY25zaWFsVXpjRm14c2dlbmZfSWhVM3FNazNmSXpobk9xZnVmS2tiSDVtb045OS1hZ0U1OVN3cVBFcU9FQzE4THJoX0FTYVZsbw?oc=5"
+        },
+        {
+          "title": "Mitchell Starc’s 6-72 sparks Australia recovery as South Africa slides from 203-1 to 329 all out",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNDJkMlBMdVk3bElxb3V3ZmFraGsyQnZGWGZtUlBYT2Y3X016QmY2MFhJZXZ4MEtPaTZDenFTLV9FWU9IaTYwc2xhQWw4a2ktR3llYUJQUTFKZFNIdDZNdFE3S3pOY1IzY09CRFE1aEwxbWhSSzdpdjM2V1dseGlJYzREdWRtYVBXYWFnTkxXaG1LdW1DMERVQzJ1cw?oc=5"
+        },
+        {
+          "title": "Investigators deliver report on why Iranian warships took part in naval drills off South Africa",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSXZ3Tzd0N2lERVR3NkpGb0E3cnM0eUFCOGxwbHFDRFhtZGh4a0RyWDZ3MmdKd2NPQTY3NHNXRWlXRlNremJlM0RVb1Buc1ZuOXhvU05DVmVpR2o1MUZmbHFJQzB0MzlhVE5wWWNMRlpBNDctbTFHVGtvcm54S3ZjWmRBVHRGMGhmOVJmN01vbExkRi03WjRKSzNWd3p1QmZCREpsWWY1bC0wUlBwOEJiWF9R?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 27,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Harmer and Rabada wrap up South Africa series win over Australia",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU202MVU0MUxONkJ1cTRaVjdLdmJDbkVFWUZ4TEdoam4wYWhFRl8wVW5GRUdmQVdnTWxfSzR2OHVDRFlNeUZ4dlFQeXpWWlF6NnhlVkVrRFk3TVRBN0lnX2xILXo0bVJqZ1A5bS0zVkl0WXRGTHhkMzhsa0xDRUNLNGZhRHFkQV9FT2Y3dg?oc=5"
+        },
+        {
+          "title": "Rickelton, Mulder centuries lift South Africa's chances in Test decider",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdXZjc3cyZTZ4cGktdlk2NGtTd0tKdWYtRHJXSTFWQmRGUGZKZVhobmFyejUzX21ZOVd6OTBWQncyUm1DYzRkM2RNUG5BbjVzeVdjRTBjSkxIcU05UzRvbTR3azJIQVZUUmEwclRKeGVKOTlidDdHalFQVHctRlNnRU5xbVZ2YXN6VVNPbzJmYnNWS2c?oc=5"
+        },
+        {
+          "title": "Starc, Lyon leave South Africa reeling",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mTUtCTHNaRTV6RWNlbUVqZEUzVlNfeks2TzJaSjJGeWhOTUZzVnRsT0FDc3lod0wtVXhIT09FNFJYTndzQU5JeU1tVjY2aFBtNnhBWTFKVVNaLWlMZkEyeFVZWGllQUcwUTRyQw?oc=5"
+        },
+        {
+          "title": "Inglis, Carey put Australia in command of South Africa decider",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaVEzNzBzTVFoV3ZxYWhCa0sycFpPX2xiTnZmMUd5a2lRWHA3S1RGdzgwZWlvbHc4TktLU0xzNF9hVElfdmIzMWlxWTI0Q3RPRXNYMTlCNlp5UktFdHBUNHZPVGtQaWx2V3BtNktER2pQdVFJOG1RVzBpNHFYUmFUSWdaOWY?oc=5"
+        },
+        {
+          "title": "South African court ruling on asylum seekers marked by unrest and disinformation",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DdDdMOHNLSXRMakV5N1dvVnJ4ZTU1NGR1TFZENWVYSHJhR2JwbkZPX3VqUDVzU0l0SF9uV2d5ajVHZlZwLVd4aVptQTZzaEZzVEMxRDBDTFY?oc=5"
+        },
+        {
+          "title": "South Africa select 'enforcer' Coetzee for Australia decider",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbUFmems0UnVmeHlYVXUzeXl3dmJwRUl4WXIybkx5N0RERzB3a1VWYUxlOUxWOGhJLS1aTk5PUkxUY0NfS0hKb0RUc3VCVEhxSWV6ajliVzRrdnhuQXhiRmh2eTk0U2U5Ulkyem5USzk3OUkycU1ERjA3M3pEVUNydktUVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 8,
+      "relevant_before_cap": 8,
+      "filtered_out": 92,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "South Africa vs Australia: Five takeaways for England after epic series",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyZ1NCODdoYUFINi1Ram5vZmxka2JpZWdYQ25qdmd5bEJUS3czOS1kd3h2WDJLVUU1bGNpcGVLNXZ2Vy11Vm5nOEJZMC15cXB4dFNiS2xLMEY5S19Jc19BNXRIWjNvUDQ?oc=5"
+        },
+        {
+          "title": "Milford vs Sekhukhune United: South Africa PSL stats & head-to-head",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vQkI5SG9vaVFfa2NIa1QzZk1LUEM1SFhoR1VmM2NmcGsxc0ZBc2dHUmlhSk9mNWNEeTl1aXQtLWRyQndQUm5YTmxfakMwLVZqNW9wVzN5QmZPVVp1T2tJb3lwSQ?oc=5"
+        },
+        {
+          "title": "South Africa 17-38 Ireland: Beibhinn Parsons scores hat-trick as Irish seal back-to-back Cape Town wins",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44cHA4MlktTmp6MHBmTHZneUo5S2N6V1VwR3RkdkE1c2NSMzdzcE4td0dnc3JhblpKOXJXTHZDSENuM19kamFfOWNlTWFRSlh6amtYdE8zQzFjQUxOR1QxNENrVzg0TTZnVGdjSw?oc=5"
+        },
+        {
+          "title": "Bulls 54-26 Scarlets: Welsh side's URC away struggles continue in South Africa",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DYm1QWWNLcHBESTZuakx4M3FjejlGRVZmT2Q4SFk0QW1CRXgzWmxkc1J5RWhxWmRyVE5mRmpXLWNycUp3V2gtU1BrR0ZCNlVFVzhQdVhVVkdIZ2o1V3FnSldhYnNYbGRBZ3F2UQ?oc=5"
+        },
+        {
+          "title": "South Africa vs Australia: Hosts set up epic finale - what do stats and history suggest could happen?",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fWEIwTTdPM3VzOEJMNGVQZlFMSWgtcE94SXV3czJZUWplSVpuUEJzcm9HTzVMSG5qQS1kNDktanFoWWNtUEkzS2JIVF9JajY2anJocGJQRnBfc2dVVGxSOEJQSU83TUE?oc=5"
+        },
+        {
+          "title": "South Africa vs Australia: Marnus Labuschagne hits record low but new guard stand up for tourists",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90Y3NQeUNYZ2UzanNiS3hpMEFNTlIxd05pUVRJMUdIR1ROVlpqdjRkdWowRWdsQVMtdHAyTlh3enJHOXh0UmphdFY4bWc3Mm9uY01MX2pHUTFqLW5FcTFoeG9yLUYySWc?oc=5"
+        },
+        {
+          "title": "United Rugby Championship: Ulster's Juarno Augustus relishing South Africa homecoming",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XbDlJTzNmWncyXy1IaU1kWXdhUWZhS2xkdUtXc2xEUUVGcUVtRXo0empPUEtGOVdvSUk2bjVwM0tWWkcxNlYyUjVDeUZ2RWVhcnNwY3dlQ1E2MDh1TmlpQldwY19ENTlBN24xbA?oc=5"
+        },
+        {
+          "title": "WXV Global Series: South Africa 27-40 Ireland - Six-try Irish win in Cape Town",
+          "published": "2026-10-24",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OZmxmOEtuTkZ2aEJ3LXRHLXZYLWFUTjBkU2ctbEZxbGt1MUFUMXBpblppaW9xRlpuakM3bWlRSmRlOXlwTkIxcngzdVR5b0U0UVRkRDJKNDRlZTBhYU1zWFFBQlFJWDF0aGYwaw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 16,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 96,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "South Africa election hit by disinformation surge",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd19RZG50aUpIN3RCU0tZUzY4YWVpZWxkSUo0eG43VUVPNEVIR2tVaGJTdnF6dmJOZWE0WkVyQVVYZU9iOVJGQ2I5cmN5b2dscDJEQkJxODEzTi1QUjQydlNVcmR3Sm81Vk9kcG9fcEVFZVZQN0JoX2w2cENKaWczY1BnX3R5U1FSeDRldDByMA?oc=5"
+        },
+        {
+          "title": "South Africa – All Content on this topic – Page 1 of 23",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXLWJxTkZRTGNBT3RaQnBjcEpERFZhMlhzUTg5UXhqaThUMUppNS1SMjkxTldLWU5sLVhibmdUNUl3amF0ZUdLMlBnakl4MzRNZlhUVE9DMEFaRThMTUt1eXdR?oc=5"
+        },
+        {
+          "title": "How smartphones have revolutionized gambling in South Africa",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTU5LSi1XcEhReW5JUGdHdTdEUGJxU3JFV293dHdyMElqaVlqZUtDUEVUVkRIeWloR1lPeGtGVFVsR1FIR0s5YWhCcEpTeTVwZ2xkYXVaejJQQWV2NC1WaVpoWU8yRGRRUnJweGs4Z1BGc0R1S0g5dFhLLXRuc2ViNzV0ZExSWG1uSF83Y2UyWUFnTTNqdVRpUlkwcFAxQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 89,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "VIDÉO. Afrique du Sud: l'ANC face à la colère des électeurs",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWNGdGJ2TFR5MjliSjVKQnJLU1lLZHk2SWtObVpvSFQ0OVhzalIwQnRmcjJzT0pvMVFnYVg1R0lxT2Q3ZXpJM3NEVXAxWmJDNjNrZUVkM19VNnlXNWRsX2xFMWZKUkV1VW1yRElub1RqZXJOYnYwUnZaTUhDY2hMRGdaQnpYeHEwajB6ay1pQ2ZsQkJPU3doNS1lZTd5TlRFS29sNFhn?oc=5"
+        },
+        {
+          "title": "En Afrique du Sud, services de base et désamour de l'ANC au coeur des élections locales",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQWZuaGxCYmtKS2kxVmJ2elVKbHhKLWJDM2gtay1BRVBySVlqRnN1ZVg3dzQ0ZWh5Q1RnUWlfeFAyVnZmQUZJYnJ5OFZQeEd4UGRrWjhLWTZkd2tjR0w2S19CT2FHaV9GYTVIcjIzOXhVTWpUMTZOWXNVSjRna2ZJUGJMRHZyYXlyMW52bVJCYi1zeVBrdHM0cGxOd1M2ZVZRUmRYeTNGc2lrUkFXOVlLbmcyc0p1RXRCY3RnTDlTR1pWWlRMZGpaYjc4WjNWdTFDUzRwdw?oc=5"
+        },
+        {
+          "title": "VIDÉO. Afrique du Sud : manifestations contre le délabrement des services publics",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMk5ydDRjUUdXODFBY0Y4OFlScHkxa3BzZ3ZQQWhJOE51eWVjamFrSnlzYkZEWU94M3VxWHFRUHBPOUVDZHRQZ3J0SHBRN3VMUS1mQ3VSTTdlaW1uZE1xVjlfU3dndkJzR0xfNTJVU2pHVDZmMGYyUXJPMjNNYkRFejZMNzQtUTluank5RnRhWnM0V0Q2VURFNkw2cGtEUUx2MjR2QW52Z2g4ekpHMUY1S21DNThETmVYTkVnS01ERW9oa3Bsc3c?oc=5"
+        },
+        {
+          "title": "En Afrique du Sud, la ruée vers les centres de données assoiffés d'eau fait polémique",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMS1LOEdjSWhmMFIwVVBocWJQUXVnbWRBczdGaUpRNEtoVS1CZ1pFX0xrc1J4MzRoN1ZJSWlwNXVsczNrTFJhZ3ZlTDlJT2ZGTWZvU0J3OHJhMFQ1d1lMcjJRNzRUMlJweWlSVS1qUXRQeHRNd2dHYmd3VHV0WVo4X2tXQXR4bFJ5Zjl4WGdWUkxCVWc0a2lBYlhMS1RRM0d5Zm1SZkpldG9oSGc2R09rZU9tT3pDTDFCNWpab1YzdU85aHd5b3lnd0hPMDI?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 21,
+      "relevant_before_cap": 21,
+      "filtered_out": 67,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Johannesburg Risks a ‘Total Collapse’ of Its Water Network",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkdqWHhRc25sS1VpTktpTHRQaTA0TVVYUTVoY3ViV29aXy1DRmZqSFBZOUdBekxfTnd3TzlCdXVOb09VV0xyenFkZnllQjctMVNHUWVvQUlqb21weWZNc2xzQUJJb285bVA3YzF4WktxWUJsQVJvTVh3TkNLSDcxZWt4b2YwMTg2ZmxzQjZuNkVDWk9OMVJsWEk0a0lZNEs3dFRvR2dZNFpDbWs?oc=5"
+        },
+        {
+          "title": "South Africa Policy Stance Seen as Sufficient to Curb Inflation",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON1NseXhwRmNsSWxVY1hKTmQybmZnQTk1X0tNbV9feldjTXdkZ2VESGRBZWJsSnRTZXpfOXJoUzIzQnRvelgwemdjc2w0Ti1OeGtlLURTMnBLa3RMUVRqQmotSWluN1dCNEJMdzFuS0Y3Z0FtZ1RYa1hCd0lnX3g4aWhpOFBwUkxVMGU2VkVxYXNobk15M2s4TUxIbjlfSUEtWVlnZXdSSG9RZjYwb3pCVUFVSjg?oc=5"
+        },
+        {
+          "title": "South Africa’s Godongwana Says GDP Lift Creates Fiscal Headroom",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5CSU5xY3dBVlJRRUp1b0lJUXdDZEI3bFFpaG9lTk04R29PYVJRT1lwdHpCMnp6TGVCU21CQ1NOaFBWV0tLcjBuZm1HcUtkSG0tX24zMUhXMWJqVnRyTHJZOUZCMnVGS0RvZWhCWU05ZC1QZ2FobldsYUJUbXpLRmU0RDFLNl81cU5CT0JsNkEydzZJVkJ2ODNQWDRJbk8yVXREYll2Y1V4Q293TzhJdTN5OUw?oc=5"
+        },
+        {
+          "title": "GLP-1 Demand Boosts Dis-Chem’s South Africa Pharmacy Revenue",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSXJsOWdYU1B6ckxvRk5GUDV3X0NFaEpjdlJHWGFzSlRaZEZPV3ItM3NLYm5GTWZfaE9ZYmhuVUpCcUFhdW5XMnFHNFkyLXVueFdDeXZCRjZaNVdYTE1wR3ZNSWdRbllYLVBsSkNzODRfY3VaTEktQUZQZWx5SmF0YmNQWEs1Z1hsWHVMTEJ5amw3aFB0dDRUeHhzUHRRbGN2aHI0Q2pUZnAwV1FhVkhkZnFCMlhJRFhMbTFpOEtBU2JNbFVleVhaWmNreXdudlk?oc=5"
+        },
+        {
+          "title": "South Africa Economy 4.9% Bigger Than Thought After Rebasing",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQk5WaDM4Vmltd1FuMFQ0SWlqQWZoVk9idGdtMXhveWIxME91WXlRMHhGV3lFZ1p1aG43M05xUko0Q3pydjFKZWUwZkRLTTZIcldoY25VYjdRdGRLbzR5VjBmWGtTSHZDQ0JLdmFYZURRWXlkOTRSNmJMYkg1d0kwWGlodFIxTFpkV3RnVG9YZmh3SWp5cjdBejNUY3VaZThUMFdmYkhxcE1JbFB4b25TcFZR?oc=5"
+        },
+        {
+          "title": "South Africa Readies Backup Plan for Benchmark Rate Law Delay",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWljNG43N29QcmYtUUs1QkVkTVp5U1NMclpVd0VQVkRhNDlFUFAycjNyRmF4RW00SWFya1ptczhSLUhJaWtRWDEweDBWQ1FGVk11MklMenBDZjdNVlVGbzUyTzVoR0xkemJzd3JPOHJiZFJtT2tfeGRJVGZSbjMzcUR3RDNsTi1admtnYmdiNVZvUm5SMWNZTmJDS3BCTFNTUUpTVG9kTEg0MjRnYVg5QnFR?oc=5"
+        },
+        {
+          "title": "South Africa’s Biggest Airline FlySafair Cleared for Harith Takeover",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkcyeFljR3N3dzFQQjY4X3FfNkZkdWZlOUFKc0ZJa0dvZ1p3RU1xM21wamZTaml6S204aUVlTTdWM0hOZkJIRl9mRUZ3c2JERE5WTkltRjJHbVZTOXBkcGtjMVQwbExkYW5ERFFhcGFkeVhNb0VOQkwwX24weWo0MVJQdUo3ODUyZndHa3BXeVFNTEtfTHBNQnVEUTF2QWpYRFJNcjdpOGxUWXl3WDI1NXl2dENpREROUmRpRXU1Zw?oc=5"
+        },
+        {
+          "title": "Watch South African Bank Absa Expands to Dubai",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaWFna0RYbEhTWm01aXA1akNyM0xILXJWcXZ5Z1lSbDBvOU41M0ZsazdGQTk4SHJxM3JjYURkNmplcGtNQzVWWkpGYjU4bmcxdVAxSVEtZ3VSYzYzNDY3a3JRSks4NEk5eDdqQUc0OEw1U0RTOWpNOVM2SFIwcjU1R0t3dklpN0xBbHdMVkp5OVdiNFpQcDJXRi1udw?oc=5"
+        },
+        {
+          "title": "IMF Lauds South Africa’s Fiscal Gains, Sees Growth as Next Test",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY3hMZ3E2RUl6STNNOW1MUzBlR1h3a2l0ZGRnQ0RSV3NQODlaX2EybksyaTdiZ0hpUVdUTGFFa0FWX0FyQV9JaGFwZUxoeEZ1VHA2ekZ1MlROOWdYTDJnX1Vma3BrT2VBV013MVZTdTd2M1UzYnBGd296LVdhOXNtNmwteWlnc29ZTHVTVnNYdXF5TjZiQ0NtU0tUeElBMXpBWWI2bUtIb2JQM3FLNS14VjVkSlh2aFZIdzdGaDdrcC1iWk9Xd1g2TUNKNjB2bDVLNlE?oc=5"
+        },
+        {
+          "title": "South Africa Fails to Award Gas-to-Power Projects Due to Supply",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbXAtWjRyRDVwMmoyZGNwOUs3VDN4UktfYUxoazRuMHd6cXNVRXhiai1uX3VkS1NwUi1YclZleDQyemFKR3pldDZ2aUtlSGMzVUVnYVMxTzBNZ0UtbGJKd2Z6N0tjcF83LVdEbzNXNXdycVJ3UUpQUWZkNGlvZlF1QkVTMFUyMHBaZEpMdTBVdUhrQVN1S3QyMWJScW1NLXFmYW9BVlpGZUd4ZlFjcDB1d2lydlRXTmhPaXNOSWV1emp4ZEkyV2t2SlVrMVlROHlSSVE?oc=5"
+        },
+        {
+          "title": "International Trade Administration Commission Of South Africa",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iMFRXQmozcDJTckdWM0Z4TXZManhHNGxOeUlBYTMtVmJ3R2hPWXZKM29wQTVoMWpiUjc2T0tmNFlFWU5NZ185QmNQcXVySjgwVW5UQk10STk4SWlhNzFPV1FCVQ?oc=5"
+        },
+        {
+          "title": "Heineken Reviews South African Wine Business Three Years After Deal",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZDdDYW5sRlFsUzNmbkdxUl9jMlhQVDlwNmJjenFwVFN3Qm1RZDZoaTVtWlg0V2Y0ODAtSDQ1OTMxaTQtdVBFZUtiaUxQdnE2WXp2WEpMV0k2Q2hEdklNZW4yZVdvb3dteDNERE1teXViUS1fT3YyRnIxM1FkNExRclhfa01oSUpzS295YXpWOTktalNwdGZSSDBob2NUZnMzMmdkRzFmOFFPY1NfWHhxMFRSeF94REN5WkE?oc=5"
+        },
+        {
+          "title": "Morocco Tops South Africa in RMB Continental Investment Rank",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNzg5LXplNUJ5aGpJWVJGMGdCcDhNUHhQZ21pbTlqN0lrcHFGdWhBNl9VdGpoS1ZUVktQM1JCNl93TDhWZ0JOQk9Fek5fMXB0cDkwTmlhNjl2OHMtbE93bDRTblpBWWFwS2lQNG9SN0syS2dEVkpqRkxHRzFpeW5IY2hMZnZKVWhCOUJ2d1RzaFlYYnFHUWZjVFdyWFVCWFpKMzJkcXJ0ZmE4WTktVFZVcmtWM0E?oc=5"
+        },
+        {
+          "title": "South Africa Corn Plantings Seen at Seven-Year Low on El Niño Risk",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNamV0V3pfSlZPVTNhOGhlTEZOYlY2QlV3ZUJ0X0VqZVNBMi1PMnl2cjY3UFhidE1yRjJMVTdKQ25NMmJ6M3czLUtKWU1jU2pIZXRLbmRTLUtwUlJuSjZ5RmVFamlnQkFZTEI3XzFmcmotSDI1UXdLaEhtWmN1TXdlbEktUW9BSnhoYk5CMWRMNnJFdVBhZDR3VnJPLTRDSmNHZEw3S3M4bDJfQVpSRXdpTXk5OHdKSUxW?oc=5"
+        },
+        {
+          "title": "Watch Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnVfVDhMNUlDWjZGY3BSakt1U05zZE8tT1pMZmJ4NnZXOUh3eThFWEVZQmVCTW5WYXNCT1RrVnlwWDVWOTJQX1ZCNklwUmFCa3U1R2VjR2Y5VldkWTh1Qlk4Z2VyWTJndEp2eWRoNDh2SVd1cUptOEtVbW00M21YWnBwYUNRdzFUNXotSVpOdEhUZkhKdXAwT3dCa2Jsb0ppcnFaVUVabjhCNUhyVWVv?oc=5"
+        },
+        {
+          "title": "Guptas’ Johannesburg Homes on Sale as ‘Stigma’ Dampens Interest",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM0Eza3IzR0ZtNHlnUEhPaVl3V09NUzJ5UmZXU2lOMjBSZzdva01GYW9COGp6ejNtRUZIWTBSd0tqWVBSMUdvRzloMzVRMGZocWpiYm9lS2MzSjA0b0xNRUdHM054VUhiWWtzbGJsNlNaTVlXV1NxaTJ3U3MxYmVvOS1rdTJtT0h2NkE1YkhCa1MwRlJFWmRRMUx3eHJ3YXgtemtVeHhnTWlKeEpJNF8xdw?oc=5"
+        },
+        {
+          "title": "South Africa Deploys Troops in Restive Province Before Elections",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUjIyZ29RbDlmOERGaVJxOVBlZmhvUWY4X0VYc0syamVvWU15SXY4SGc4OVF5Z3RBYUdxcXpwdndPSzZtRUxFU2dIbElEb2xfSHpBYTE5aWFCRUt3LWVjTXdhNVpPSVFWR0I0aUlGN25lLXo0dGQ2X3hVVHI0VGtDNHBYbWFnUEs0RGxCNmVsbmNXcU5JT1N2aVVCOGw3a2FrRGVnS1pMQW9jU2Q2bkYzV1VKcmxWdw?oc=5"
+        },
+        {
+          "title": "Watch From Blackouts to Surplus: How Eskom Turned South Africa’s Power Around",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeFd5eXdHNG1md1J6RXZVemVZdUo5TTZBMkFoemo2bFcwRTlnazVueE5STVBiTy1reTZwYTlJWVR0bXZTMTBCT2g4RFl1ZGtGcGtJNllLenY5SFhmZVNyZVJ4VTNlRDZxb3YxV2szYUR4NnhKZjR4dTM0N2pFRVR0MFY2NVRJcDdzOXd3OGZ5aUhUQkkzZDFZcXRQNjdYWFNV?oc=5"
+        },
+        {
+          "title": "Fitch Diverges From South Africa’s Treasury on Debt Outlook",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMkNXVkhIT25LV0YybFM2eGhObzNyTTdDX3BTRGIwUnRLNHZyUkJydU80ZHg4eUR4eGR3bEd6NTQ1dEZzLVpMOXhNbjUxbGlXUFdRMjl3cFY4QXAyaVB6eHZweHN3Ymk1cW43bEYtZURXZEduY0RNcWUxWG5BRlBTelNsOS1hTmJKTGE1UEVySGNYb1BqamJrR2FyZzJnRGRCWjN3Mmx1b3NNSGtLbW4w?oc=5"
+        },
+        {
+          "title": "Watch Johannesburg’s Infrastructure Crisis Puts South Africa’s Investment at Risk",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYkhrMGpMWHRfcEE3clBhNnZuRzFLSi1tcjVkbm5sS3BkRlZKTnZiM2IyXzRIeE0zWDMwMENhQjZTQ0JaUkVDdzJlVDAzUzBxVDFiOEQ1OGlsS2VrbnhYYVhlNDFyNDVQbFJTdVRacUZlM2lXSFFpSUpGUG92ZXpzZmdyV1RGTE1LbE5zel85U29kTk9CWmdzak1nZWVOc1FXalZMb3FwSXBzaEV1OHN0Rw?oc=5"
+        },
+        {
+          "title": "Pick n Pay Loss Narrows as South African Grocer’s Turnaround Gains Traction",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV29HcmpBOVA2Mll6cjhzYWhucUdLV0JkejFDUENUN2ZULV9UeHBISzR4VzA0eGRCbXZsTVhPLTVQZ2hJLW9ablp5WnJXZnYyWUJIdXhMQ1VUcE9lWUptczBaZ0pCMDZ3VUJIZUZfSXF4elVFeGc4eDYybmhFVG82QjlHVE8zUWxqTHNMR0pFSS1yNGJnSXMzWUhSMk5OeWhEY2hLR3F3ekt3bC1OS0xjN2hUUFltdkRNcE4xeWJLanh3dm1D?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 12,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 30,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Dry taps, sewage spills, power cuts and bad roads haunt South Africa’s ANC",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWltZmtMckFFVVB6bTBleklsUGVzaXdDaVg4RDdxNFVab1R5VXBWMHJobjAyVUFZTnYzSEt6Y0ppOGprU2lBekstdlppejVOcmFlc0hoaFJEMUtuMEdXZUNPb1MtcjE5SmJ2M09uVHhjRkl6c2hSaW53MnFTeUg2aHRsUEE?oc=5"
+        },
+        {
+          "title": "South Africa blocks anti-foreigner protests ahead of elections",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM28zQTNGX2FpXzItenI3VnNkUTllRFFFQW9uN2l5d3BLRzFuYThyMmJ0amc5eExmZDdCTkR0bnRvSWVSaEVTT1pNbXNWcmZMLVgwckE4M1JqeWo5UjQ1anU2REc4akpUalFjNmVhaENOX2gtOUtfLU5iUU95UUpUTFdBQk4?oc=5"
+        },
+        {
+          "title": "Protecting South Africa’s Industrial Future",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IVVBuaFNZUHVKSXQyV2l5SXA4eS1JQWNMbUg4bWlvN1haTXhkUkJnM1BoQ3gtX3ZMdWFJWjZXS1B4X3hjc1V1VThUUi1xQkRGOGJJd29DeGNPU2R5cmZOam5xaFJnSmFnOG1j?oc=5"
+        },
+        {
+          "title": "Home | Protecting South Africa’s Industrial Future",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OVzl0QnRMbU5RUDZBaThIUFdQRDJGNUFKVjAyRW14bGdxRERwQmNPVmFzVTV2ck5rNDY1S2JVbnplQ25kTnQ4czgtNkxGbzFf?oc=5"
+        },
+        {
+          "title": "Agenda | Protecting South Africa’s Industrial Future",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnNFowODFJeW9GQUMxUUpnaUFQcHdkdmtUdEw5UFA1YlE5V3JHQVlwYi1WZ1VaaVRXUFVDUzM2U3ZCOWN6TFRuelJkdDlDdUotbWlwRXNDSW1NZw?oc=5"
+        },
+        {
+          "title": "Help | Protecting South Africa’s Industrial Future",
+          "published": "2026-10-27",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iTGxFeFlZaUFsd1BUOFFyQ0tNc2tKakliN3hka19IdnBBMDJKVjl4WEFGTjNoejYzc2owVGwyVVFRU3NnZmpyb0VOeUNwRXRTMktLQ245bEpiTWdQREpQN0lDczFfQlBWMGdxdmlZVnRaYU5CQzNieg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 4,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 34,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "South Africa hammer Australia as Harmer takes career best bowling of 6-16",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZXlNS3BJd2xUTXBaR05TbDQ4bl9wWEE5dENKNnE3X1huYV90d2FkNU5KTVE5aGNYVVFROFdaUVdzcC1FQ3I3UHhhanVxZWF6VmNONWlvUldoR3V1NFFGUkpWZUZVR3JGNEJteVBUallhRDd2eC10dHRROFFfSGZCZGl6UWk4ZmpIRnB1RWREd3E4LTNqQVdxRFlpRzhyZlhIdnF0ZXZwako3M0JYaXRsY20xcWVYTEc30gG-AUFVX3lxTFBoaFlHS2JfN2NNQVoyaWFadmIybF93Ym5NSm1DMGwzUVdfUzM5SnQ5d2NKV21zd2Frd2s4Wmpfam53dDh4Q1VlNFVpTWlnNFptRFlOSlh6YU5ZdW81VGJYNnF6MUltU3BEcFRqUEVBamdWODVSbklFaDZBTHNIbk4tNzV3TFhSNUNSTHFHd0ZrbHhXUl9feVJtYm9iYUdoSUNjQ1BWQnMxOHI0YkZZX3o4bTBIa3NqdHBkU2JMZGc?oc=5"
+        },
+        {
+          "title": "South Africa hammer Australia as Harmer takes career best bowling of 6-16 - Al Jazeera",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd0JzRzZlOTFlZFdJWF9OWndOWXh6aGxDdjk2ODItbkY2Qm9lTU5DSnVILVBEUXJrdm8zQ0J1M0hfM1BwZFRsT3lHaWR5aGhpQ1JFaTRHS0RDYzg4aWZYZnhvNEV2YlVFZ1V0Y2F0b2syQ3c1RmI2SFczc2xqOFZncDhWdDRKMHd1VFBjZDVoS3NGYklqRUQ4T0UzWlJXVF8tamRaQXNRU19JcUFBcGJJVi1MWGhLM1R5SWg3UFdYcmNOTVE4VXNUWFZ4LU5xZVZTcUE?oc=5"
+        },
+        {
+          "title": "Olympic Games: South Africa bids to make Durban host city for 2036 or 2040",
+          "published": "2026-10-29",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZHpOTUd5OV9jVng5VXg0enZlVkdoZ0FNVS1rQ05kNl95b19lb2I5SnRzUkc3bnZJSnQxMWFOaWpxd2k0dTI4NGhLaXVOcElKbnctdG5UZkxtTDUwcGRzbWVSSElOeXR6SDdNWjZCRml0Qmd0UnE0dkktNTZZOGdUdGJqaHljbTRKX09tUnhsdkVtNHYyX2V1eW5OTFYxcGdFSzlVWWpsQ0Z2eE9DbHFQVmFSR2h1bm_SAbwBQVVfeXFMT2Y0X0s3bW4xNjFrak9GeFVzQUZaM3lJREtyaFNmWExRNjBKUWFoeTNlcjdHa2R1Mk5IY2FwUFMzZmktcUx0aExaczV0Rnp3ZkFFT2JVOFRXNmg5eVQyNDBYakV3c0ZKTF9abnFTY09vVnpLQUxwWjItT1RLQUVJWjlKS2Z1dDM1ZThEanJQV3ZpVEdjUm5fU0ZsV2ZqY1M2alRYalBlUEVtQnhqVUVKRDFyWUdCVGdyVkd3Y2U?oc=5"
+        }
+      ]
+    }
+  ]
+}

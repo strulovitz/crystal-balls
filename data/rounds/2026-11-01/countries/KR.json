@@ -1,0 +1,638 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "KR",
+  "name": "South Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T03:50:11+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "South Korea's economy delivered a spectacular week as October exports nearly doubled year-on-year, driven by an AI-fueled semiconductor boom that pushed third-quarter GDP growth above forecasts and brought the country closer to its one-trillion-dollar annual export target. On the security front, tensions with North Korea escalated sharply: Pyongyang fired around ten ballistic missiles toward the East Sea, positioned howitzer batteries near the border, denounced South Korean-US air-defense drills, and told the United Nations it had fabricated a landmine incident, while Seoul vowed a firm response and considered deploying assets toward the Strait of Hormuz. In domestic politics, prosecutors in the former President Yoon martial-law case pressed for the death penalty, a striking escalation in the post-coup reckoning. A fire engulfed Seoul's last remaining shantytown, forcing hundreds to evacuate before crews extinguished the blaze. Regulators fined Google and Apple over app-store payment practices, and three financial firms including crypto exchange Bithumb reported data breaches. The US, South Korea, and Japan jointly called for North Korea's complete denuclearisation, but Seoul worried about being sidelined as Washington reached out to Pyongyang.",
+    "key_events": [
+      {
+        "event": "October exports nearly doubled year-on-year on an AI-driven semiconductor boom, with Q3 GDP growth beating forecasts and the one-trillion-dollar export target coming into view.",
+        "date": "2026-10-30",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "North Korea fired around ten ballistic missiles toward the East Sea and positioned howitzer guns near the border while denouncing South Korean-US air-defense drills.",
+        "date": "2026-10-28",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "South Korean prosecutors pressed for the death penalty for former President Yoon in the martial-law case.",
+        "date": "2026-10-29",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "The US, South Korea, and Japan issued a joint call for the complete denuclearisation of North Korea.",
+        "date": "2026-10-27",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "A fire engulfed Seoul's last remaining shantytown, forcing hundreds of residents to evacuate before crews extinguished the blaze.",
+        "date": "2026-10-26",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "South Korea's media commission fined Google and Apple over unfair app-store payment practices.",
+        "date": "2026-10-28",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Three South Korean financial firms including crypto exchange Bithumb reported data breaches.",
+        "date": "2026-10-30",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "South Korea said it was considering deployment options to the Strait of Hormuz, including aircraft.",
+        "date": "2026-10-29",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Germany and South Korea deepened their security partnership amid shared concerns about Russia and North Korea.",
+        "date": "2026-10-27",
+        "domain": "diplomacy",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 6,
+    "domains_active": [
+      "economy",
+      "security",
+      "politics",
+      "technology"
+    ],
+    "emojis": [
+      "📈",
+      "🚀",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "📈 reflects the dominant story of October exports nearly doubling and Q3 GDP beating forecasts on the AI chip boom (headlines 1, 7, 8, 18, 37, 41, 53).",
+      "🚀 captures North Korea's launch of around ten ballistic missiles and the broader border escalation (headlines 43, 45, 38).",
+      "⚖️ represents prosecutors seeking the death penalty for former President Yoon in the martial-law case (headlines 20, 22)."
+    ],
+    "developments": [
+      {
+        "subject": "AI chip export boom and GDP beat",
+        "what_happened": "October exports nearly doubled year-on-year and Q3 GDP growth exceeded forecasts, driven by surging semiconductor and AI-hardware shipments, bringing the one-trillion-dollar export target within reach.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          7,
+          8,
+          18,
+          32,
+          37,
+          41,
+          46,
+          53
+        ]
+      },
+      {
+        "subject": "North Korea missile and border escalation",
+        "what_happened": "Pyongyang fired around ten ballistic missiles toward the East Sea, moved howitzer guns close to the border, denounced joint air-defense drills, and told the UN it had fabricated a landmine incident, while Seoul vowed a firm response.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          10,
+          11,
+          21,
+          38,
+          43,
+          45,
+          47,
+          52
+        ]
+      },
+      {
+        "subject": "Yoon martial-law death-penalty bid",
+        "what_happened": "Prosecutors formally pressed for the death penalty against former President Yoon over the martial-law debacle, marking a significant step in the post-coup legal reckoning.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          20,
+          22
+        ]
+      },
+      {
+        "subject": "Seoul shantytown fire",
+        "what_happened": "A fire engulfed Seoul's last remaining shantytown, forcing hundreds to evacuate; crews extinguished the blaze and no major casualties were reported.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          30,
+          44,
+          51
+        ]
+      },
+      {
+        "subject": "Google and Apple app-store fines",
+        "what_happened": "South Korea's media commission fined both Google and Apple over unfair app-payment practices, continuing the country's regulatory push against big tech.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          12,
+          48
+        ]
+      },
+      {
+        "subject": "Trilateral denuclearisation call and Seoul's sidelining worry",
+        "what_happened": "The US, South Korea, and Japan jointly called for North Korea's complete denuclearisation, but Seoul expressed concern about being left out as Washington reached out to Pyongyang separately.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          10,
+          15,
+          25
+        ]
+      },
+      {
+        "subject": "Strait of Hormuz and military posture",
+        "what_happened": "South Korea said it was considering deployment options to the Strait of Hormuz including aircraft, while analysts noted a reality check on its broader military ambitions and a deepened security partnership with Germany.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          26,
+          29,
+          42
+        ]
+      },
+      {
+        "subject": "Financial-sector data breaches",
+        "what_happened": "Three South Korean financial firms, including crypto exchange Bithumb, reported data breaches in the same week.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          49
+        ]
+      },
+      {
+        "subject": "Russia tilt and European alarm",
+        "what_happened": "European allies expressed concern over South Korea's perceived tilt toward Russia, adding a diplomatic wrinkle to the country's balancing act.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          9
+        ]
+      },
+      {
+        "subject": "Quantum and AI infrastructure moves",
+        "what_happened": "LG CNS partnered with D-Wave to advance quantum optimization in South Korea, and the government's AI fund was framed as a fiscal buffer against rising yields.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19,
+          32
+        ]
+      },
+      {
+        "subject": "Sports and culture notes",
+        "what_happened": "Son Heung-min's captaincy was backed by the coach amid rift rumours, Call of Duty faced backlash for using real Seoul crowd-crush footage, and a viral youth reading trend made headlines.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          13,
+          14,
+          17,
+          28,
+          31,
+          34,
+          35,
+          40
+        ]
+      }
+    ],
+    "gone": [
+      "Elice IPO plunge and AI sector reassessment",
+      "Ukraine embassy withdrawal and POW dispute",
+      "BOK rate decision",
+      "SK Hynix Solidigm US IPO hold",
+      "Samsung-TSMC-Nvidia memory chip deal",
+      "Sect leader sentencing",
+      "PHP security emergency"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the economy, security, politics, and technology well, though domestic social-policy and central-bank developments are largely absent from the set."
+    },
+    "headlines_used": [
+      "South Korea exports nearly double in October on AI investment boom",
+      "Adoptees urge South Korea to expand access to their records and improve family searches",
+      "'Call of Duty' slammed for using real Seoul crowd crush footage",
+      "South Korea",
+      "Is traditional South Korean wrestling dying out?",
+      "Corée du Sud : inhumation des cendres d'un vétéran français de la guerre de Corée",
+      "South Korea Exports Extend Robust Growth on AI-Fueled Chip Boom",
+      "South Korea’s Chip-Led Exports Accelerate, Bringing $1 Trln Annual Target Closer",
+      "South Korean ‘tilt’ towards Russia alarms European allies",
+      "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
+      "North Korea denounces South Korea-US air defence drills, KCNA reports",
+      "South Korea fines Google and Apple over unfair app market practices",
+      "South Korea boss backs Son as captain after rift rumours",
+      "Footage of Seoul crush to be removed from Call of Duty after backlash",
+      "Seoul fears being sidelined as US reaches out to North Korea",
+      "La Corée du Sud va durcir les sanctions pour triche aux examens avec des lunettes connectées",
+      "South Korea’s Latest Viral Youth Trend Is Reading Books",
+      "South Korea’s Economy Grows Faster Than Expected in Third Quarter",
+      "LG CNS and D-Wave Announce Strategic Relationship to Advance Quantum Optimization Adoption in South Korea",
+      "South Korean prosecutors press for death sentence in Yoon martial law case",
+      "South Korea to respond firmly to North Korean breaches of border, security aide says",
+      "South Korean prosecutor seeks death penalty for ex-President Yoon over martial law debacle",
+      "Seoul Semiconductor Ends Need for Rare Earths in White LEDs",
+      "What in the World | What Bukangi the shark in South Korea tells us about climate change",
+      "Seoul fears being left out as US reaches out to North Korea",
+      "South Korea’s Military Ambitions Get a Reality Check",
+      "South Korea Holds a Key to America’s Shipbuilding Revival",
+      "South Korea captain, LA star Son Heung-min backed by coach amid rift rumour",
+      "South Korea says considering deployment options to Strait of Hormuz, including aircraft",
+      "Fire breaks out at shantytown in Seoul",
+      "Katsuragawa hails 'greatest moment' with South Korea win",
+      "South Korea’s AI Fund Offers ‘Fiscal Dam’ Against Higher Yields",
+      "Chinese EVs win over some in South Korea, but Japan is proving to be a rougher road",
+      "Yuri Yoshida wins in South Korea for her first LPGA Tour victory",
+      "Japan's Yoshida wins first LPGA Tour title with South Korea win",
+      "South Korea's older adults brush up on digital skills",
+      "South Korea’s Economy Beats Forecasts on AI-Driven Chip Boom",
+      "North Korean howitzer guns spotted close to border with South Korea",
+      "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds",
+      "Choi has strong start at LPGA South Korea to move into a tie for 2nd place after 3 rounds",
+      "South Korea’s GDP growth beats forecasts amid AI boom",
+      "Germany, South Korea deepen security partnership amid Russia-North Korea concerns",
+      "North Korea fires several missiles amid growing tensions with South Korea",
+      "Fire engulfs Seoul’s last shanty-town, forcing hundreds to evacuate",
+      "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says",
+      "South Korea's October exports seen rising at fastest pace since 1974 - Reuters Poll",
+      "Seoul ‘fabricated’ landmine blast, North Korea tells UN in letter",
+      "South Korea media commission fines Google and Apple over app payment systems",
+      "Three South Korean financial firms including Bithumb report data breaches, Yonhap says",
+      "Breakingviews - COMMENTARY: Seoul's worst China tech fears are coming true",
+      "Seoul shantytown fire extinguished, Yonhap reports",
+      "North Korea-South Korea tensions high as letters lodged with UN, howitzers spotted",
+      "South Korea Q3 GDP beats forecasts as AI chip boom boosts exports, investments"
+    ],
+    "converted": false,
+    "relevant_headlines": 53,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "AI chip export boom and GDP beat",
+        "expected": "AI chip export boom and GDP beat stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about AI chip export boom and GDP beat appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "North Korea missile and border escalation",
+        "expected": "North Korea missile and border escalation stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about North Korea missile and border escalation appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Yoon martial-law death-penalty bid",
+        "expected": "Yoon martial-law death-penalty bid stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Yoon martial-law death-penalty bid appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Seoul shantytown fire",
+        "expected": "persist",
+        "sign": "Seoul shantytown fire is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. AI chip export boom and GDP beat stays in the news at the same level. North Korea missile and border escalation stays in the news at the same level. Yoon martial-law death-penalty bid stays in the news at the same level. Seoul shantytown fire is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "North Korea missile and border standoff",
+        "expected": "Pyongyang will fire another round of missiles or conduct a live-fire artillery drill near the border, and Seoul will respond with a joint US-South Korea exercise or a formal UN Security Council briefing.",
+        "direction": "escalate",
+        "sign": "A headline reporting a new North Korean ballistic missile launch or howitzer salvo near the inter-Korean border, paired with a South Korean or US military response announcement."
+      },
+      "second": {
+        "subject": "AI chip export boom and GDP",
+        "expected": "South Korea's trade ministry and major semiconductor firms will publish concrete investment or production plans to sustain the AI-hardware export surge and keep the one-trillion-dollar annual target on track.",
+        "direction": "persist",
+        "sign": "A headline announcing a new semiconductor fab commitment, a government export-support measure, or an industry group statement tied to the record AI-chip shipment numbers."
+      },
+      "third": {
+        "subject": "Yoon martial-law trial",
+        "expected": "The defense team will file a formal legal objection to the prosecution's death-penalty request, and the court will schedule the next sentencing-phase hearing with a specific date.",
+        "direction": "persist",
+        "sign": "A headline reporting the defense's written challenge to the death-penalty bid or the court issuing a sentencing-hearing date for the former president's case."
+      },
+      "fade_call": {
+        "subject": "Seoul shantytown fire",
+        "expected": "fade",
+        "sign": "The shantytown fire will drop out of the headlines with no follow-up coverage of housing policy, compensation, or the site's future."
+      },
+      "surprise": {
+        "subject": "US-North Korea backchannel and Seoul's reaction",
+        "expected": "Washington will announce a concrete backchannel proposal or a bilateral meeting date with Pyongyang, forcing Seoul to issue a public statement clarifying its role in the denuclearisation process.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, South Korea's headlines will be dominated by a further North Korean military provocation, most likely another missile or artillery test near the border, prompting a visible South Korean or joint US-South Korea response. The AI chip export boom will stay in the spotlight as the trade ministry and semiconductor companies outline concrete plans to sustain the record shipment pace and keep the one-trillion-dollar export target within reach. The Yoon martial-law trial will move to the next procedural step, with the defense challenging the death-penalty request and the court setting a sentencing date. The Seoul shantytown fire is expected to fade from the news cycle quickly. A medium-chance surprise is a concrete US-North Korea backchannel announcement that forces Seoul to publicly clarify its position, adding a diplomatic wrinkle to an already tense week.",
+      "generated_at": "2026-11-02T03:37:07+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Inter-Korean military standoff",
+        "expected": "Seoul will announce a concrete military response to the missile salvo and howitzer positioning, taking the form of a new joint exercise or a formal UN counter-letter.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new South Korean military drill or a diplomatic filing at the UN in direct reply to North Korean border actions."
+      },
+      "second": {
+        "subject": "Semiconductor export boom",
+        "expected": "A major chipmaker will announce a new production expansion or large order, reinforcing the AI-driven export surge and the path to the one-trillion-dollar annual target.",
+        "direction": "persist",
+        "sign": "Headlines will carry a new factory commitment, a major customer order, or updated export data pointing to the one-trillion-dollar milestone."
+      },
+      "third": {
+        "subject": "Yoon martial-law trial",
+        "expected": "The court will issue a procedural ruling on the prosecutors' death-penalty request, setting the formal trial schedule for the martial-law case.",
+        "direction": "escalate",
+        "sign": "Headlines will report a court ruling, a set trial date, or a formal defense response to the death-penalty bid."
+      },
+      "fade_call": {
+        "subject": "Seoul shantytown fire",
+        "expected": "fade",
+        "sign": "The shantytown fire drops from coverage with no new investigation, reconstruction announcement, or follow-up statement."
+      },
+      "surprise": {
+        "subject": "Strait of Hormuz deployment",
+        "expected": "South Korea will announce a concrete military deployment to the Strait of Hormuz, moving from deliberation to an actual commitment of assets.",
+        "chance": "low"
+      },
+      "summary": "Next week, South Korea's news cycle will be shaped by a deepening inter-Korean standoff. Seoul will announce a concrete military response to North Korea's missile salvo, likely in the form of a new joint exercise or a formal UN counter-letter, while Pyongyang issues fresh border threats. The semiconductor sector will stay dominant as a major chipmaker announces a new production expansion or large order, reinforcing the AI-driven export surge. In the courts, the Yoon martial-law case will advance as the judiciary rules on the death-penalty request and sets the trial schedule. The Seoul shantytown fire will fade from coverage. A less expected development could see South Korea commit a concrete military deployment to the Strait of Hormuz, marking a significant shift in its overseas posture.",
+      "generated_at": "2026-11-02T03:50:11+02:00"
+    }
+  },
+  "display": {
+    "headline": "Seoul Responds to Missiles, Chip Boom Holds, Yoon Case Advances",
+    "emojis": [
+      "🚀",
+      "🔬",
+      "⚖️"
+    ],
+    "emoji_reasons": [
+      "North Korea's missile salvo and the expected South Korean military response anchor the week's most urgent story.",
+      "The AI-driven semiconductor export boom and a new chipmaker announcement will keep the economy in focus.",
+      "The Yoon martial-law death-penalty case and the court's procedural ruling make justice the third pillar."
+    ],
+    "tldr": "South Korea will respond militarily to North Korea's missile salvo while the chip export boom keeps accelerating. The Yoon martial-law case will advance through the courts. The shantytown fire will fade.",
+    "eli5": "South Korea is dealing with a lot at once. North Korea just fired about ten missiles and parked heavy guns near the border, and Seoul promised to hit back hard. Meanwhile, the country's chip factories are printing money because of the AI boom, and a former president is facing a possible death sentence for his martial-law blunder.\n\nNorth Korea keeps testing the border to show it still has teeth, and Seoul wants to prove it won't be pushed around. The chip boom is happening because data centers around the world need more and more AI processors, and South Korean factories make some of the best ones. The Yoon case is about accountability after he tried to seize power with the military.\n\nNext week, Seoul will announce a concrete military response to the missiles, and a big chip company will probably announce a new factory or order that keeps the export boom going. The court will also make a ruling on whether to accept the death-penalty request and set a trial date.\n\nThe surprise that would make people sit up is if South Korea actually sends ships or planes to the Strait of Hormuz in the Middle East. That would be a big step for a country that usually stays close to home, and it would signal that Seoul is ready to play a bigger role in global security."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "North Korea escalated with roughly ten ballistic missiles, howitzers near the border, and a UN letter denouncing the landmine incident [43, 45, 38, 47], but the specific loudspeaker activation and formal military-talks scheduling predicted by the bulletin are not the mechanism reported; instead Seoul vowed a firm response [21] and the trilateral denuclearisation call emerged [10].",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "not_seen",
+            "evidence": "The semiconductor export boom is the dominant economic story with October exports nearly doubling [1, 7, 8], but the specific SK Hynix Solidigm US IPO restructuring is explicitly listed as no longer in the headlines, so the predicted refiled listing plan does not appear.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Ukraine embassy withdrawal and North Korean POW transfer dispute are both listed under 'No longer in the headlines,' with no headline in this round referencing embassy staff changes or a formal diplomatic note on the POW matter.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The Bukangi shark appears in only one headline as a climate-change reflection piece [24], consistent with the forecast's expectation of a brief documentary-interest follow-up rather than a new rescue drama.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline reports a broad KOSPI AI-sector selloff or a single-session multi-stock drop following the Elice debut; if anything the AI trade narrative is reinforced by the export and GDP beats [1, 18, 53].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified the inter-Korean escalation and the chip-boom dominance but anchored on the wrong concrete mechanism (loudspeakers and talks) when the week delivered missiles and a UN letter. Its Ukraine embassy and Solidigm IPO calls both faded entirely, showing it over-weighted stories that had already peaked. The main thesis of border escalation plus semiconductor focus was directionally right, merely early on the specific triggers.",
+        "S": 7
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The inter-Korean standoff clearly escalated with missile launches, howitzer positioning, and a UN letter [43, 45, 38, 47], and Seoul vowed a firm response [21], but the specific loudspeaker activation and formal talks scheduling predicted are not the concrete events reported this week.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Fresh export data showing October exports nearly doubling year-on-year [1, 7, 8] and Q3 GDP beating forecasts [18, 41, 53] match the forecast's expectation of 'fresh export figures for the chip sector' reinforcing the 2027 boom projection.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Ukraine embassy staff withdrawal and the North Korean POW transfer dispute are both listed as no longer in the headlines, with no headline in this round referencing additional diplomats leaving Kyiv or a formal protest over the POW matter.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The Bukangi shark drops to a single climate-change reflection headline [24] with no new rescue attempt or public statement about the freed animal, exactly matching the forecast's expectation that the story would disappear from coverage.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "The AI fund framed as a 'fiscal dam' against higher yields [32] and the LG CNS–D-Wave quantum partnership [19] hint at the government sketching post-chip growth moves, though neither is a formal finance-ministry policy package as the forecast described.",
+          "bonus": 2
+        },
+        "archer_note": "The semiconductor export forecast was the strongest call, matching both the data and the 2027 narrative almost verbatim. The Ukraine embassy and POW dispute, however, faded completely, a miss shared with Bulletin X. The main thesis of border escalation plus chip-momentum persistence was correct in direction, with the loudspeaker detail being the only notable miss on mechanism.",
+        "S": 11
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Inter-Korean tensions remain the dominant story [43, 45, 38, 47, 21], but the direction is clearly escalation rather than the 'same level' the bulletin predicted, with missile launches and a UN letter marking a sharper step up than the prior week's loudspeaker threats.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Bukangi shark appears in only one climate-angle headline [24], a clear fade from the dominant rescue-spectacle coverage of the prior week, contradicting the forecast's expectation that it would stay at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Chip and AI exports are the dominant economic story with October exports nearly doubling and Q3 GDP beating forecasts [1, 7, 18, 53], but the trajectory is escalation beyond the prior week's pace rather than the 'same level' the bulletin called for.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Elice IPO plunge and AI-sector reassessment are explicitly listed as no longer in the headlines, directly contradicting the bulletin's call that this story would persist at the same level into the next round.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Multiple genuinely new stories emerged this week, including the Yoon death-penalty bid [20, 22], the Seoul shantytown fire [30, 44], Google and Apple app-store fines [12, 48], and the Strait of Hormuz deployment consideration [29], all of which were absent in the prior round.",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis missed the week's defining new stories, particularly the Yoon death-penalty bid and the shantytown fire, which were entirely outside the bulletin's frame. Calling for the Bukangi shark and the Elice IPO to persist at the same level was contradicted by both fading to marginal or absent. The main thesis was not so much wrong as inert, failing to register that the prior week's stories were maturing or expiring while fresh domestic and diplomatic stories were arriving.",
+        "S": 2
+      }
+    },
+    "S": [
+      {
+        "plain": 7,
+        "crystal": 11,
+        "persistence": 2
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Computed from the scores: plain 7, crystal 11."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: plain 7, persistence 2."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 11, persistence 2."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": -1.0,
+      "plain_vs_persistence": 2.0,
+      "crystal_vs_persistence": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nSouth Korea's week was dominated by a sharp escalation in inter-Korean border tensions. Pyongyang threatened to resume propaganda loudspeaker broadcasts across the border, with Kim Yo Jong warning they would be operational within days. Seoul responded by proposing military talks to calm the situation and vowing resolute punishment if North Korea followed through. US and South Korean officials assessed little chance of a Trump-Kim meeting this year. Economically, the chip sector continued to shine: exports for October 1-20 surged 105 percent on record semiconductor sales, and the finance minister projected the chip boom would sustain through 2027. The central bank held rates on October 22 with a hike expected in November. However, the AI trade narrative wobbled as data-center firm Elice plunged roughly 30 percent in its KOSPI debut, and SK Hynix's Solidigm US IPO was placed on hold over dual-listing concerns. A lighter but widely covered story saw a\n- Inter-Korean border tensions and military talks (dominant, escalating): North Korea threatened to resume propaganda broadcasts and Kim Yo Jong warned loudspeakers would be ready within days, prompting Seoul to propose military talks and vow resolute punishment.\n- Bukangi shark rescue saga (dominant, resolved): A dusky shark trapped in a canal became a tourist spectacle; after two failed rescue attempts drew huge crowds, it was finally guided to sea on the third try.\n- Chip export boom and semiconductor outlook (dominant, continuing): October exports surged 105 percent on record chip sales, and the finance minister said the semiconductor growth cycle will sustain through 2027.\n- Elice IPO plunge and AI sector reassessment (regular, new): AI data-center firm Elice dropped roughly 30 percent on its trading debut, prompting investors to reassess AI spending and adding to concerns about the AI trade narrative.\n- Ukraine embassy withdrawal and POW dispute (regular, continuing): South Korea began pulling some embassy staff from Ukraine and repatriated an aid worker as the dispute over a North Korean POW transfer deepened.\n- BOK rate decision (regular, continuing): The Bank of Korea held rates on October 22, with a hike expected in November as the economy stays robust on the export boom.\n- SK Hynix Solidigm US IPO hold (occasional, new): Seoul authorities raised dual-listing concerns, leading SK Hynix to place the US IPO of its Solidigm chip unit on hold.\n- Samsung-TSMC-Nvidia memory chip deal (occasional, new): Samsung reportedly agreed to use TSMC technology for Nvidia's next-generation memory chips, signaling a shift in the advanced packaging supply chain.\n- Sect leader sentencing (occasional, new): A South Korean sect leader received an additional 33 years in prison for sexual assaults.\n- PHP security emergency (occasional, new): South Korea activated an emergency response to critical security flaws in the PHP programming language.\n\nRound 2026-10-17:\nDuring the week of October 14 to 17, 2026, South Korea faced a cluster of diplomatic, security, and economic pressures. The dominant story was the worsening US-South Korea relationship over an intelligence dispute: Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had hit a low point. On the Korean Peninsula, both North and South Korea conducted hypersonic missile tests, with Pyongyang's missile chief publicly questioning Seoul's glide-vehicle trial, underscoring an accelerating arms race. In the economy, the KOSPI index closed at a six-month low as chipmakers slumped amid AI-related worries, and at least one major fund manager shifted allocations away from Korean equities; however, the finance minister insisted the semiconductor outlook remained solid. Separately, South Korea reviewed expanding its military mission in the Middle East, and its relations with Ukraine soured over the handling of North Korean\n- US-SK intelligence row (dominant, escalating): Washington halted the prosecution of a former CIA analyst accused of aiding South Korean intelligence, and officials acknowledged that bilateral ties had reached a low point over the dispute.\n- Peninsula hypersonic arms race (dominant, escalating): Both North and South Korea conducted hypersonic missile tests, and Pyongyang's missile chief publicly questioned the validity of Seoul's glide-vehicle trial, underscoring a rapid arms build-up on the Peninsula.\n- KOSPI and chip-market slump (regular, continuing): The KOSPI closed at a six-month low as semiconductor names fell on AI worries, and a $29 billion manager recommended Nigerian stocks over Korean equities, though the finance minister reassured investors the chip cycle was still intact.\n- Middle East military mission (regular, new): South Korea is reviewing an expansion of its existing military mission in the Middle East, per a Reuters report.\n- Ukraine-SK North Korean POW dispute (regular, continuing): Relations between Ukraine and South Korea soured over the handling of North Korean prisoners of war previously transferred to Kyiv.\n- Winter energy and coal pivot (occasional, new): South Korea turned to coal-fired power generation as a winter natural-gas supply squeeze loomed, raising environmental and cost concerns.\n- Wartime command transfer friction (regular, continuing): A South Korean official warned that shifting requirements could block the long-planned transfer of wartime operational command from the US to Seoul.\n- Racial abuse at Swansea-Millwall (occasional, new): Swansea reported an alleged racial abuse incident directed at South Korean winger Ji-sung Eom during a match at Millwall.\n",
+    "PREVIOUS_FORECAST": "Lead: Inter-Korean border escalation. Expected: North Korea will activate its propaganda loudspeakers along the border, prompting Seoul to announce a military response and schedule the proposed inter-Korean talks. Direction: escalate. Sign: Headlines will report North Korea resuming loudspeaker broadcasts or issuing a new boundary threat, with Seoul officials vowing a firm military reply or convening talks.\nSecond: Semiconductor export momentum. Expected: South Korea will post another stretch of record chip export data, reinforcing the finance minister's projection that the semiconductor boom extends through 2027. Direction: persist. Sign: Headlines will carry fresh export figures for the chip sector or a major supply-chain announcement involving Samsung, TSMC, or Nvidia.\nThird: Ukraine embassy and POW dispute. Expected: South Korea will withdraw additional embassy staff from Ukraine and issue a formal diplomatic protest over the handling of the North Korean POW transfer. Direction: escalate. Sign: Headlines will report more South Korean diplomats leaving Ukraine or a formal statement of protest over the POW dispute.\nFade call: Bukangi shark rescue. Expected: fade. Sign: The shark story drops from South Korean coverage with no new rescue attempt or public statement about the freed animal.\nSurprise (chance low): Post-chip growth policy. The finance ministry will unveil a concrete policy package for South Korea's next growth engine beyond the current chip cycle.\nSummary: Next week, South Korea's news cycle will be driven by the inter-Korean border standoff. North Korea will press ahead with its loudspeaker threat, and Seoul will respond with a firm military posture while pushing the proposed talks forward. The semiconductor sector will stay in the spotlight as fresh export data and the Samsung-TSMC-Nvidia packaging deal keep the chip boom narrative alive, even as the Elice IPO stumble reminds investors the AI trade is not without risk. The Ukraine embassy dispute will deepen as more South Korean staff leave Kyiv and the POW question grows more pointed. The Bukangi shark, now free, will fade from the headlines. A less expected development could see the finance ministry sketch out a post-chip growth strategy, signaling that Seoul is already looking past the current boom.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject dominant). The inter-Korean standoff clearly escalated with missile launches, howitzer positioning, and a UN letter [43, 45, 38, 47], and Seoul vowed a firm response [21], but the specific loudspeaker activation and formal talks scheduling predicted are not the concrete events reported this week.\n- second: true_in_direction (observed: escalated, subject dominant). Fresh export data showing October exports nearly doubling year-on-year [1, 7, 8] and Q3 GDP beating forecasts [18, 41, 53] match the forecast's expectation of 'fresh export figures for the chip sector' reinforcing the 2027 boom projection.\n- third: did_not_appear (observed: faded, subject absent). The Ukraine embassy staff withdrawal and the North Korean POW transfer dispute are both listed as no longer in the headlines, with no headline in this round referencing additional diplomats leaving Kyiv or a formal protest over the POW matter.\n- fade_call: came_true (observed: faded, subject marginal). The Bukangi shark drops to a single climate-change reflection headline [24] with no new rescue attempt or public statement about the freed animal, exactly matching the forecast's expectation that the story would disappear from coverage.\nArcher note: The semiconductor export forecast was the strongest call, matching both the data and the 2027 narrative almost verbatim. The Ukraine embassy and POW dispute, however, faded completely, a miss shared with Bulletin X. The main thesis of border escalation plus chip-momentum persistence was correct in direction, with the loudspeaker detail being the only notable miss on mechanism.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

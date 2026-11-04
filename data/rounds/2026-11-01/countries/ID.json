@@ -1,0 +1,548 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "ID",
+  "name": "Indonesia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T09:52:01+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "pending",
+    "crystal": "pending",
+    "plain_repeat": "pending"
+  },
+  "reader": {
+    "summary": "Indonesia's week was defined by the ongoing forest-fire and toxic-haze crisis, which a new report said killed 3,560 people in September alone. Rain eventually brought relief to Borneo and other affected areas, but the health toll and public frustration remained severe. Student-led protests erupted in multiple cities, with demonstrators demanding government action on both the wildfires and rising living costs; some chanted 'eat the rich' against graft. On the economic front, the MSCI downgrade warning continued to shake markets: Indonesian tycoons lost roughly 57 billion dollars, a corporate bond sale was shelved, the 10-year yield hit a four-year high, and the central bank moved to strengthen anti-manipulation rules while reassuring businesses. Prabowo's brother publicly sounded the alarm over the stock market. Diplomatically, Indonesia cut pipeline gas exports to Singapore by about nine percent, prompting a joint haze task force and a visit by Singapore's top envoy. Indonesia also secured a UAE oil-supply commitment of up to 30 million barrels and sent its energy minister to China and India to secure gasoline. An earthquake displaced nearly 13,000 people, and Thailand returned smuggled orangutans to Indonesia.",
+    "key_events": [
+      {
+        "event": "A new report found that wildfire smoke killed 3,560 people in Indonesia in September, underscoring the severe health toll of the haze crisis.",
+        "date": "2026-10-28",
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "The MSCI downgrade warning triggered a market rout in which Indonesian tycoons lost roughly 57 billion dollars and a corporate bond sale was shelved.",
+        "date": "2026-10-25",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Hundreds of students protested across Indonesia, demanding government action on wildfires, rising costs, and graft, with chants of 'eat the rich.'",
+        "date": "2026-10-29",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "Indonesia cut pipeline gas exports to Singapore by about nine percent, prompting a joint haze task force and a visit by Singapore's top envoy.",
+        "date": "2026-10-26",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "An earthquake in Indonesia displaced nearly 13,000 people.",
+        "date": "2026-10-27",
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Indonesia secured a UAE oil-supply commitment for up to 30 million barrels and sent its energy minister to China and India to ensure gasoline supply.",
+        "date": "2026-10-30",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Indonesia's free-meals agency pledged urgent action after a wave of food-poisoning incidents linked to the programme.",
+        "date": "2026-10-28",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "Thailand returned smuggled orangutans to Indonesia, where a new sanctuary was set up for animals rescued from burning forests.",
+        "date": "2026-10-27",
+        "domain": "environment",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "environment",
+      "economy",
+      "society",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🔥",
+      "📉",
+      "✊"
+    ],
+    "emoji_reasons": [
+      "The wildfire and toxic-haze crisis dominated coverage, with headlines about 3,560 September deaths, oxygen buses, and Borneo residents choking on smoke (headlines 9, 12, 25, 29).",
+      "The MSCI downgrade warning triggered a market rout, with tycoons losing 57 billion dollars, yields at four-year highs, and the central bank scrambling to reassure investors (headlines 8, 16, 33, 39).",
+      "Student protests across Indonesia demanded action on wildfires, rising costs, and graft, with demonstrators chanting 'eat the rich' (headlines 10, 22, 28, 31)."
+    ],
+    "developments": [
+      {
+        "subject": "Wildfire haze health toll",
+        "what_happened": "A new report attributed 3,560 deaths in September to wildfire smoke, while rain finally brought relief to affected cities and Borneo residents expressed deep fatigue from the toxic air.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          9,
+          12,
+          13,
+          15,
+          17,
+          19,
+          20,
+          24,
+          25,
+          29,
+          42
+        ]
+      },
+      {
+        "subject": "MSCI market rout aftermath",
+        "what_happened": "The MSCI downgrade warning continued to rattle Indonesian markets, with tycoons losing 57 billion dollars, a bond sale shelved, the central bank tightening anti-manipulation rules, and Prabowo's brother publicly warning about the stock market.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          16,
+          21,
+          23,
+          30,
+          33,
+          35,
+          39,
+          45,
+          52
+        ]
+      },
+      {
+        "subject": "Student protests on wildfires and costs",
+        "what_happened": "Hundreds of students marched in multiple cities demanding government action on the haze, rising living costs, and graft, with some chanting 'eat the rich' and Gen Z finding a louder political voice.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          10,
+          14,
+          22,
+          28,
+          31
+        ]
+      },
+      {
+        "subject": "Gas supply cut to Singapore",
+        "what_happened": "Indonesia reduced pipeline gas exports to Singapore by about nine percent, prompting a joint haze task force, a visit by Singapore's top envoy, and Indonesia's energy minister travelling to China and India to secure alternative fuel supplies.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          2,
+          7,
+          26,
+          32,
+          37,
+          41,
+          43,
+          53,
+          55,
+          63
+        ]
+      },
+      {
+        "subject": "UAE oil and investment push",
+        "what_happened": "Indonesia secured a UAE oil-supply commitment of up to 30 million barrels and announced a special body to accelerate oil and gas investment, while Danantara bid for a stake in the domestic stock exchange.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          34,
+          36,
+          38,
+          44
+        ]
+      },
+      {
+        "subject": "Earthquake displacement",
+        "what_happened": "An earthquake in Indonesia displaced nearly 13,000 people, adding to the week's pile of natural-disaster stress.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "Free-meals programme food poisoning",
+        "what_happened": "Indonesia's free-meals agency pledged urgent action after a wave of food-poisoning incidents linked to the programme.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          27
+        ]
+      },
+      {
+        "subject": "Orangutan rescue and return",
+        "what_happened": "Thailand returned smuggled orangutans to Indonesia, where a new sanctuary was established for animals rescued from the burning forests.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          18
+        ]
+      },
+      {
+        "subject": "Submerged village re-emerges",
+        "what_happened": "Drought-driven water-level drops caused a previously submerged Indonesian village to re-emerge.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          57
+        ]
+      }
+    ],
+    "gone": [
+      "Badr defence pact",
+      "Record drug seizure",
+      "Ferry fire and rescue",
+      "Nickel production and market signals",
+      "Radioactive shrimp scare resolved",
+      "Palm oil and El Niño stress"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major stories—wildfire haze, MSCI market rout, gas diplomacy, student protests, and the earthquake—well, though some stock-price tickers dilute the signal and the earthquake and free-meals stories get only single-headline coverage."
+    },
+    "headlines_used": [
+      "Singapore braces as Indonesia slaps back at neighbours amid haze, political woes",
+      "Singapore and Indonesia set up a task force to combat haze from illegal burning",
+      "New home for orangutans rescued from Indonesia's burning forests",
+      "Beyond Bali: Travel pros share their favorite Indonesia destinations",
+      "Indonesia earthquake displaces nearly 13,000",
+      "Objectif Monde L'hebdo - Indonésie, les aventuriers d'un monde perdu",
+      "Indonesia’s Gas Cut Shows Why Singapore Can’t Rely on Pipelines Alone",
+      "Letter: MSCI owes investors an explanation for its Indonesia warning",
+      "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
+      "Students unite the resistance in Indonesia",
+      "Andrea Bocelli concerts in Indonesia to proceed despite opposition from Muslim clerics",
+      "Fire pollution killed 3,560 people in Indonesia in September: report",
+      "Wildfire-weary crews celebrate much-needed rain in Indonesia",
+      "How Gen Z is finding its voice in Indonesia",
+      "Feux de forêts en Indonésie: quelles conséquences pour la santé de la population?",
+      "Prabowo’s Brother Sounds Alarm Over Indonesian Stock Market",
+      "Indonesians share impact of haze on their livelihoods",
+      "Thailand returns smuggled orangutans to Indonesia",
+      "Rains bring relief to Indonesian city weary of fire haze",
+      "La pollution due aux incendies a tué 3.560 Indonésiens en septembre",
+      "Indonesia’s Wealth Fund CIO Owns Stake in Sanctioned Brokerage",
+      "Indonesian students demand action on wildfires and rising costs",
+      "MSCI warning a 'short-term shock', Indonesia central bank chief reassures businesses",
+      "Conspiracy theory baselessly links Indonesia wildfires to new tuberculosis vaccine",
+      "VIDÉO. Indonésie: un brouillard toxique étouffe des centaines de milliers de personnes",
+      "Singapore’s Top Envoy Visits Indonesia After Natural Gas Cuts",
+      "Indonesian free meals agency pledges urgent action to curb food poisoning",
+      "'Eat the rich': Indonesians protest against graft, wildfires",
+      "Feux en Indonésie : la lassitude des habitants de Bornéo, intoxiqués par les fumées",
+      "MSCI Fallout Widens With Indonesian Corporate Bond Sale Shelved",
+      "As forest fires rage, hundreds of Indonesian students protest government response",
+      "L'Indonésie réduit ses exportations de gaz vers Singapour",
+      "Why Indonesia Is on the Brink of a Downgrade Disaster",
+      "Danantara bids for stake in Indonesian stock exchange, bourse chief says",
+      "IDR/USD: Indonesia 10-Year Yield at Four-Year High on MSCI Risk, Oil",
+      "PT Perusahaan Perseroan (persero) Pt Danantara Sumberdaya Indonesia",
+      "Indonesia Is Reducing Its Gas Supplies to Singapore. Is This a Worry?",
+      "Indonesia to form special body to accelerate oil and gas investment, minister says",
+      "Indonesia Tycoons Lose $57 Billion Since MSCI Warnings Began",
+      "Communication Cable Systems Indonesia Tbk PT (CCSI.JK) | Stock Price & Latest News",
+      "Singapore Shields Itself From Energy Risks as Indonesia Cuts Gas",
+      "Indonesia sends oxygen bus to aid residents choking on forest fire haze",
+      "Singapore, Indonesia eye haze task force, reaffirm ties amid tensions, ministers say",
+      "Indonesia secures UAE oil supply commitment for up to 30 million barrels",
+      "Who's exposed to Indonesia's market meltdown?",
+      "Aspirasi Hidup Indonesia Tbk PT (4AH1.SG) | Stock Price & Latest News",
+      "Bank Rakyat Indonesia (Persero) Tbk PT (BBRI.JK) | Stock Price & Latest News",
+      "Champion Pacific Indonesia Tbk PT (IGAR.MU) | Stock Price & Latest News",
+      "Bank Maybank Indonesia Tbk PT (BNII.JK) | Stock Price & Latest News",
+      "Bank Danamon Indonesia Tbk PT (PBDBY.PK) | Stock Price & Latest News",
+      "Telkom Indonesia (Persero) Tbk PT (TLK.N) | Stock Price & Latest News",
+      "Indonesia strengthens measures against stock manipulation after market rout triggered by MSCI",
+      "Indonesia meeting Singapore gas terms despite supply cut, minister says",
+      "Mark Dynamics Indonesia Tbk PT (MARK.JK) | Stock Price & Latest News",
+      "Indonesia energy minister to visit China, India to ensure gasoline supply",
+      "Bank Capital Indonesia Tbk PT (BACA.JK) | Stock Price & Latest News",
+      "Submerged Indonesian village re-emerges as drought lowers water levels",
+      "NFC Indonesia Tbk PT (NFCX.JK) | Stock Price & Latest News",
+      "Bank KB Indonesia PT Tbk (BBKP.JK) | Stock Price & Latest News",
+      "PT Bank SMBC Indonesia Tbk (BTPN.JK) | Stock Price & Latest News",
+      "PT Alamtri Minerals Indonesia Tbk (ADMR.JK) | Stock Price & Latest News",
+      "PT Bank Negara Indonesia (Persero) Tbk (BBNI.JK) | Stock Price & Latest News",
+      "Indonesia cuts pipeline gas exports to Singapore by about 9%",
+      "Samudera Indonesia Tbk PT (SMDR.JK) | Stock Price & Latest News",
+      "Jakarta Setiabudi Internasional Tbk PT (JSPT.JK) | Stock Price & Latest News"
+    ],
+    "converted": false,
+    "relevant_headlines": 65,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Wildfire haze health toll",
+        "expected": "Wildfire haze health toll stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Wildfire haze health toll appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "MSCI market rout aftermath",
+        "expected": "MSCI market rout aftermath stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about MSCI market rout aftermath appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Student protests on wildfires and costs",
+        "expected": "Student protests on wildfires and costs stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Student protests on wildfires and costs appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "UAE oil and investment push",
+        "expected": "persist",
+        "sign": "UAE oil and investment push is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Wildfire haze health toll stays in the news at the same level. MSCI market rout aftermath stays in the news at the same level. Student protests on wildfires and costs stays in the news at the same level. UAE oil and investment push is still being reported at the next collection.",
+      "generated_by": "python template"
+    }
+  },
+  "display": null,
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The MSCI warning stood and markets continued to suffer with tycoons losing 57 billion dollars [39], a bond sale shelved [30], and the 10-year yield hitting a four-year high [35], but no 'partial relief rally' or 'formal review window' appeared as predicted.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Rain brought relief to Borneo [13][19], a Singapore-Indonesia haze task force was established [2][43], and student protest marches erupted in multiple cities [10][22][28][31], matching the predicted pattern of slowing fires, lingering haze, and growing protests.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Student protests over wildfires and costs with 'eat the rich' chants [28][31] and free-meals food poisoning [27] appeared, but no specific 'two-year anniversary' gathering, security-force deployment, or named cabinet figures breaking ranks over the free-meals budget were reported.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The ferry fire and rescue story dropped out of headlines entirely, listed under 'No longer in the headlines' in the reality bulletin.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The Badr defence pact disappeared from headlines with no joint naval exercise or Chinese diplomatic response reported this round.",
+          "bonus": 0
+        },
+        "archer_note": "Bulletin X correctly identified the three dominant threads (MSCI, wildfire, political friction) and got the fade call right, but it misread the MSCI meeting's direction, predicting a relief rally when the damage actually deepened with the bond sale shelved and yields hitting four-year highs. The 'two-year anniversary' framing was a specific detail that did not match the actual protest trigger, which was broader student anger over costs and graft. Its main thesis was right on subjects but wrong on the MSCI direction, making it early rather than fundamentally wrong.",
+        "S": 14
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The wildfire and haze crisis remained the dominant story with 3,560 deaths reported [9][12], rain finally bringing relief [13][19], and Borneo residents expressing deep fatigue [29], sustaining roughly the same headline volume as the prior round.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The MSCI downgrade threat continued to dominate economic reporting with tycoons losing 57 billion dollars [39], a bond sale shelved [30], and the central bank tightening anti-manipulation rules [52], maintaining the same headline prominence as the prior round.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Bank Indonesia's policy response appeared in headlines with the central bank chief reassuring businesses [23] and the bank strengthening measures against stock manipulation [52], remaining a clearly reported but secondary thread.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Badr defence pact was listed under 'No longer in the headlines' in the reality bulletin, meaning it faded rather than persisted as Y predicted.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "Several new stories emerged this round that were not in the prior headline set, including the UAE oil-supply commitment [44], the earthquake displacing 13,000 [5], the Danantara bid for a stock-exchange stake [34], and the submerged village re-emerging [57], contradicting Y's 'nothing new' prediction.",
+          "bonus": 0
+        },
+        "archer_note": "Bulletin Y's core 'persist' calls on the wildfire, MSCI, and central-bank stories were directionally correct and matched the reality bulletin's 'dominant, continuing' labels. However, it missed the Badr pact's disappearance (predicting persistence when it faded) and its 'no surprise' call was contradicted by at least five genuinely new stories. Its main thesis was right on the dominant threads but too conservative, underestimating how much new material would enter the news cycle.",
+        "S": 12
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The MSCI warning persisted with no clear 'partial easing' or stock rebound; instead tycoons lost 57 billion dollars [39], a bond sale was shelved [30], and the 10-year yield hit a four-year high [35], while the central bank's reassurance [23] was a milder gesture than the predicted softening of the downgrade threat.",
+            "forecast_direction": "de-escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Rain eased the worst hotspots [13][19], the haze task force and Singapore envoy visit addressed regional diplomatic pressure [2][26][43], and student protests provided the predicted protest imagery [10][22][28][31], closely matching Z's description of lingering haze, regulatory action, and protest visuals.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The free-meals programme friction continued with a food-poisoning pledge [27] and Prabowo's brother sounding the alarm [16], but no specific 'two-year anniversary' event or the president publicly responding to his own camp's criticism appeared in the headlines.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The ferry fire and rescue story dropped out of headlines entirely, listed under 'No longer in the headlines' in the reality bulletin.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Danantara appeared in headlines bidding for a stake in the Indonesian stock exchange [34][36] and its CIO owning a stake in a sanctioned brokerage [21], a related but not identical form of the predicted large-scale market intervention.",
+          "bonus": 2
+        },
+        "archer_note": "Bulletin Z correctly identified the twin crises as dominant and got the wildfire trajectory and fade call right, and its Danantara surprise was close to the actual headline about Danantara bidding for an exchange stake. However, it misread the MSCI direction as 'de-escalate' when the damage actually continued to deepen, and its 'two-year anniversary' framing was a specific detail that did not match the actual protest dynamics. Its main thesis was right on the subjects and the overall shape of the week but wrong on the MSCI direction, making it early rather than fundamentally wrong.",
+        "S": 12
+      }
+    },
+    "S": [
+      {
+        "plain": 14,
+        "persistence": 12,
+        "crystal": 12
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 14, persistence 12."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 14, crystal 12."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Computed from the scores: persistence 12, crystal 12."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 1.0,
+      "plain_vs_crystal": 1.0,
+      "persistence_vs_crystal": 0.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -1.0,
+    "u": 0.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": null,
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

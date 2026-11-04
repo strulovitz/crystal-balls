@@ -1,0 +1,743 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "VE",
+  "name": "Venezuela",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T00:32:01+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The defining event of the week was the return of opposition leader María Corina Machado to Venezuela after nearly a year in exile. She was greeted by jubilant crowds in Caracas, held a press conference calling for 2027 presidential elections, thanked President Trump for 'opening the door of freedom,' and signaled readiness to negotiate with the government. The acting president, Delcy Rodríguez, expressed hope for dialogue while also saying Machado must 'repent and avoid spectacle,' and named an ex-opposition aide as foreign minister in a notable gesture. Simultaneously, the first shipment of Venezuelan crude under the US-NABEP oil deal arrived in Texas, with Chevron projecting output of roughly 600,000 barrels per day by 2031. Trump touted the deal at a Texas rally and floated the idea of making Venezuela a 51st state, while opposition figures criticized the arrangement as extractive. The US also proposed a 2027 election timeline, with Secretary Rubio insisting electoral infrastructure must be rebuilt first. Federal judge Alvin Hellerstein, who had overseen the Maduro case, died at 92. A former FARC leader was allegedly killed in Venezuela, and a bomb blast near the Colombian border injured four police officers.",
+    "key_events": [
+      {
+        "event": "María Corina Machado returned from exile to Venezuela and was welcomed by large crowds in Caracas, calling for 2027 elections.",
+        "date": null,
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "The first shipment of Venezuelan crude under the US-NABEP deal arrived in Texas, to be sold to Exxon and Citgo.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "The US proposed a 2027 presidential election for Venezuela, with Rubio insisting electoral infrastructure must be replaced first.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Acting president Delcy Rodríguez named an ex-opposition aide as foreign minister and said she hopes dialogue will offer space for all voices.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Federal judge Alvin K. Hellerstein, who had overseen the Maduro case and 9/11 cases, died at 92.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Trump floated the idea of making Venezuela a 51st US state while rallying in Texas.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A top former FARC leader was allegedly killed in Venezuela.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Guyana sought regional support ahead of a Venezuela border ruling.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "A bomb blast near the Colombia-Venezuela border injured at least four police officers.",
+        "date": null,
+        "domain": "security",
+        "importance": 2
+      },
+      {
+        "event": "Venezuela committed to restarting a crucial power plant with China's help amid stalled grid repairs.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "security"
+    ],
+    "emojis": [
+      "👑",
+      "🗳️",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "Machado's dramatic return from exile and her positioning as a leader challenging the government is the dominant story of the week (headlines 27, 47, 48, 53).",
+      "The US proposed a 2027 election timeline and Machado called for elections in her first press conference (headlines 35, 56, 90, 94).",
+      "The first Venezuelan crude under the US-NABEP deal arrived in Texas and Chevron projected 600k bpd by 2031 (headlines 73, 11, 23)."
+    ],
+    "developments": [
+      {
+        "subject": "Machado's return from exile",
+        "what_happened": "María Corina Machado returned to Venezuela after nearly a year abroad, was greeted by jubilant crowds, held a press conference calling for 2027 elections, and signaled openness to dialogue with the government.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          7,
+          10,
+          12,
+          17,
+          18,
+          27,
+          28,
+          30,
+          32,
+          37,
+          38,
+          40,
+          41,
+          42,
+          44,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          56,
+          58,
+          59,
+          60,
+          62,
+          63,
+          64,
+          65,
+          67,
+          69,
+          70,
+          71,
+          72,
+          74,
+          75,
+          80,
+          82,
+          84,
+          85,
+          91,
+          93,
+          95,
+          96,
+          97,
+          98,
+          99,
+          105,
+          106
+        ]
+      },
+      {
+        "subject": "US-Venezuela oil deal and first shipment",
+        "what_happened": "The first Venezuelan crude under the US-NABEP deal arrived in Texas, Chevron projected 600k bpd by 2031, and Trump touted the deal at a rally while critics questioned its fairness.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          5,
+          6,
+          11,
+          20,
+          22,
+          23,
+          24,
+          36,
+          39,
+          57,
+          73,
+          81,
+          82,
+          87,
+          92
+        ]
+      },
+      {
+        "subject": "2027 election proposal",
+        "what_happened": "The US proposed a 2027 presidential election for Venezuela, Rubio said electoral infrastructure must be rebuilt first, and Machado endorsed the timeline in her press conference.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          12,
+          17,
+          18,
+          35,
+          56,
+          90,
+          94
+        ]
+      },
+      {
+        "subject": "Rodríguez government response",
+        "what_happened": "Acting president Delcy Rodríguez expressed hope for dialogue, said Machado must 'repent and avoid spectacle,' named an ex-opposition aide as foreign minister, and committed to an election.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          9,
+          15,
+          26,
+          31,
+          45,
+          52,
+          96,
+          97
+        ]
+      },
+      {
+        "subject": "Judge Hellerstein's death",
+        "what_happened": "Federal judge Alvin K. Hellerstein, who had overseen the Maduro case, Trump-related cases, and 9/11 cases, died at 92.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          14,
+          33,
+          68,
+          76
+        ]
+      },
+      {
+        "subject": "Guyana border dispute",
+        "what_happened": "Guyana sought regional support ahead of a ruling on its border with Venezuela.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          8
+        ]
+      },
+      {
+        "subject": "FARC leader killed",
+        "what_happened": "A top former FARC leader was allegedly killed in Venezuela.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          13
+        ]
+      },
+      {
+        "subject": "Power grid and infrastructure",
+        "what_happened": "Venezuela committed to restarting a crucial power plant with China's help, while GE Vernova reported grid repairs were stalled by a payment delay.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          61,
+          109
+        ]
+      },
+      {
+        "subject": "Border security incident",
+        "what_happened": "A bomb blast near the Colombia-Venezuela border injured at least four police officers.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          46
+        ]
+      },
+      {
+        "subject": "PDVSA bonds ruling",
+        "what_happened": "A US court of appeals affirmed the validity of Venezuela's PDVSA 2020 bonds amid the ongoing battle for Citgo.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          77,
+          86
+        ]
+      }
+    ],
+    "gone": [
+      "Maduro torture case",
+      "Sanctions relief on National Assembly leader",
+      "Business community calling for elections",
+      "Shrimp king jailed",
+      "Airlines eyeing return",
+      "Qatar bridge loan for IDB arrears"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Coverage of Machado's return and the oil deal is exceptionally rich, though secondary stories like the border dispute, FARC killing, and power grid issues are represented by only one or two headlines each."
+    },
+    "headlines_used": [
+      "Trump touted a record Venezuela oil deal. Now reality is setting in",
+      "Venezuela’s Maria Corina Machado hopeful for 2027 presidential election",
+      "92-year-old US judge handling Maduro case dies",
+      "Global News Podcast | Venezuelan opposition leader criticises US oil deal",
+      "The strange math that shows how Trump got Venezuela to ‘gift’ oil to the United States | CNN Business",
+      "Is the US looting Venezuela?",
+      "Venezuela : l'opposante Machado remercie Trump d'ouvrir \"la porte de la liberté\"",
+      "Guyana Seeks Regional Support Ahead of Venezuela Border Ruling",
+      "She Fled Maduro’s Regime. Washington Brought Her Back to Negotiate With It.",
+      "Venezuela opposition leader hails Donald Trump on return from exile",
+      "Chevron CEO Mike Wirth on Venezuela licenses: Output to reach roughly 600k barrels per day by 2031",
+      "Venezuela’s Machado lauds Trump for ‘freedom’, urges 2027 elections",
+      "Top former FARC leader allegedly killed in Venezuela",
+      "Alvin K. Hellerstein, a federal judge who handled Trump, Maduro and 9/11 cases, dies at 92",
+      "Venezuela leader criticizes Machado over dramatic return from exile",
+      "Nicolás Maduro",
+      "Machado pushes for new elections in first news conference since returning to Venezuela",
+      "Venezuela: Opposition leader Maria Corina Machado says US backs 2027 election",
+      "Venezuela : l'opposante Machado prête à négocier, le gouvernement ironise sur son retour",
+      "Trump’s Venezuela Strategy Needs More Than Oil Deals",
+      "Machado’s Return Offers a Preview of Venezuela’s Next Election—Whenever It Comes",
+      "Venezuela’s oil revival threatened by worker shortage",
+      "Chevron CEO on joint ventures in Venezuela: Output to reach roughly 600K barrels per day by 2031",
+      "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
+      "Venezuela cocoa growers fear new pest: the government",
+      "Venezuela: Delcy Rodríguez pide una \"elección para resolver problemas\" en mitin multitudinario",
+      "Machado returns from exile to jubilant crowds in Venezuela",
+      "Venezuela opposition leader María Machado calls for elections upon return",
+      "Madugun adawar Venezuela ta bukaci a hanzarta komawa dimokuradiyya",
+      "VIDÉO. Venezuela: Maria Corina Machado de retour",
+      "Venezuela Leader Commits to Election as Machado Applies Pressure",
+      "Machado Holds First News Conference After Returning to Venezuela From Exile",
+      "US judge Alvin Hellerstein who oversaw Archegos and Maduro cases dies at 92",
+      "How Venezuela’s earthquake amputees adapt to life without limbs",
+      "US proposes Venezuela elections for 2027, opposition leader Machado says",
+      "Trump floats Venezuela as 51st state while rallying to keep Texas Republican",
+      "Machado ready to meet Venezuela leader after shock return",
+      "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+      "Trump suggests making Venezuela 51st state | CNN Politics",
+      "De retour au Venezuela, l'opposante Machado acclamée par ses partisans",
+      "Machado’s Biggest Challenge in Venezuela Is Patience",
+      "What María Corina Machado’s Return Means for Venezuela",
+      "Weatherford Supports Eni’s Junín 5 Integrated Drilling and Completion Campaign in Venezuela",
+      "Thousands greet opposition leader Maria Machado upon return to Caracas",
+      "Venezuela to offer state assets to private sector, Rodriguez says",
+      "Bomb blast near Colombia’s border with Venezuela injures at least 4 police officers",
+      "'I am here': Opposition leader Machado returns to Venezuela",
+      "Opposition leader María Machado returns to Venezuela",
+      "Venezuela’s Machado returns from exile to cheering crowds",
+      "Machado agradece a Trump por \"compuerta a la libertad\" de Venezuela - DW.com",
+      "Venezuela: l’opposante Maria Corina Machado de retour au pays après presque un an d’exil",
+      "Rodríguez Names Ex-Opposition Aide as Venezuela Foreign Minister",
+      "Venezuela’s Machado Returns Home, Challenging U.S.-Backed Government",
+      "Venezuelan opposition leader María Corina Machado returns from exile",
+      "Venezuela - Al Jazeera",
+      "Machado says US has proposed Venezuela elections for 2027",
+      "Trump and Rubio plan to visit oil tanker carrying Venezuelan crude in Texas",
+      "Crowds welcome Venezuela's María Machado after months in exile",
+      "Machado finally made it back to Venezuela. Her challenge now is to pressure Rodríguez without upsetting the US",
+      "Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas - DW News",
+      "Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says",
+      "Opinion | María Corina Machado Needs Trump’s Protection",
+      "Venezuela's opposition leader Machado returns to Venezuela",
+      "Venezuela's opposition leader Machado returns after months in exile, as doubts over democracy deepen",
+      "What Trump is saying about Venezuela’s newly resurfaced opposition leader",
+      "Dark Fleet Tankers Move From Venezuela to Lucrative Hormuz Trade",
+      "Venezuela’s opposition leader Machado returns after months in exile",
+      "Alvin Hellerstein, federal judge who oversaw Trump, Maduro and September 11 cases, dies at 92",
+      "Photos of María Corina Machado’s return to Venezuela as supporters welcome opposition leader",
+      "Venezuela’s opposition leader María Corina Machado returns from exile to crowds of cheering supporters",
+      "Back from exile: Maria Corina Machado returns to Venezuela",
+      "Machado Thrust Back Into Job as Unifier of Venezuela Opposition",
+      "First Venezuelan oil from US-NABEP deal arrives in Texas, to be sold to Exxon, Citgo",
+      "Supporters welcome opposition leader María Corina Machado on her return to Venezuela",
+      "Opposition leader María Corina Machado returns to Venezuela from exile",
+      "Alvin Hellerstein, Judge in Maduro, 9/11 Cases, Dies at 92",
+      "US court of appeals affirms validity of Venezuela's PDVSA 2020 bonds",
+      "US told Venezuelan authorities that opposition leader Machado should be allowed to return",
+      "Venezuela im Umbruch - DW News",
+      "Machado’s Return Roils Trump’s Plans for Dealing With Venezuela",
+      "Trump says he will visit tanker in Texas with first oil from Venezuela deal",
+      "What to know about Venezuela’s opposition leader Maria Corina Machado",
+      "Machado’s Return Exposes Fault Line in Venezuela’s Oil Sector",
+      "Nobel Peace Prize committee welcomes Machado's return to Venezuela",
+      "Venezuela’s opposition leader Machado greets supporters on return after months in exile",
+      "PDVSA Bonds Deemed Valid in US Ruling Amid Battle for Citgo",
+      "Swiss engineering company signs deal with Venezuela's PDVSA",
+      "Trump comments on Machado's return to Venezuela, Brazil presidential election, Michigan Senate race",
+      "Watch ¿Machado acelerará la transición democrática en Venezuela?",
+      "Rubio says Venezuela's electoral infrastructure must be replaced before a vote",
+      "Large crowd cheers Machado outside Venezuelan basilica as she returns from exile",
+      "Trump, Rubio Plan to Visit Tanker With Venezuelan Crude in Texas",
+      "Now home, Venezuela opposition leader Machado walks tightrope with supporters, Trump",
+      "US Maps Path for Venezuela to Hold Fresh Presidential Election",
+      "Opposition leader Machado greets supporters after returning to Venezuela",
+      "Venezuela’s Regime Says Machado Must Repent and Avoid Spectacle",
+      "After return of opposition leader, Venezuela's acting president says hopes dialogue will offer space for all voices",
+      "Machado’s Venezuela Return Fuels Hope of Shift to Democracy",
+      "Venezuela opposition leader Machado returns home after fraught year away",
+      "Lula’s Improbable Election Win, Machado Returns to Venezuela, More",
+      "Lula Wins Fourth Term in Brazil, Machado Back in Venezuela, More",
+      "Lula Wins Brazil Presidential Election, Machado Venezuela Return, More",
+      "Lula Wins a Fourth Term in Brazil, Machado Venezuela Return, More",
+      "Lula Wins Brazil Election, Machado Venezuela Return, More",
+      "María Corina Machado vuelve a Caracas entre multitudes y eleva presión por elecciones",
+      "Machado Returns to Venezuela to Urge Democratic Transition",
+      "Trump Weighs Iran Decision, Machado Venezuela Return, More",
+      "Trump: Decision Nearing on Iran, Machado Back in Venezuela, More",
+      "Venezuela to Restart a Crucial Power Plant With China’s Help"
+    ],
+    "converted": false,
+    "relevant_headlines": 109,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Machado's return from exile",
+        "expected": "Machado's return from exile stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Machado's return from exile appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US-Venezuela oil deal and first shipment",
+        "expected": "US-Venezuela oil deal and first shipment stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-Venezuela oil deal and first shipment appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "2027 election proposal",
+        "expected": "2027 election proposal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about 2027 election proposal appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Machado's return from exile",
+        "expected": "persist",
+        "sign": "Machado's return from exile is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Machado's return from exile stays in the news at the same level. US-Venezuela oil deal and first shipment stays in the news at the same level. 2027 election proposal stays in the news at the same level. Machado's return from exile is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Machado-Rodríguez first meeting",
+        "expected": "Machado will hold her first formal sit-down with acting president Rodríguez or a senior government official in Caracas, producing a joint statement or press appearance.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a face-to-face meeting between the opposition leader and the acting president, with quotes from both sides and a photo of the two together in a government building."
+      },
+      "second": {
+        "subject": "Trump tanker visit in Texas",
+        "expected": "Trump and Rubio will board the tanker in Texas carrying the first Venezuelan crude to make a public show of support for the oil deal ahead of the midterms.",
+        "direction": "persist",
+        "sign": "Headlines will carry photos of the president and secretary of state on or beside a tanker in Texas, with quotes touting the oil deal and references to the midterms."
+      },
+      "third": {
+        "subject": "2027 election roadmap",
+        "expected": "US officials and the Venezuelan government will publish a concrete roadmap for rebuilding electoral infrastructure before the next presidential vote.",
+        "direction": "persist",
+        "sign": "Headlines will reference a published roadmap, a specific list of steps, or a deadline for completing electoral reforms before the next presidential vote."
+      },
+      "fade_call": {
+        "subject": "Judge Hellerstein's death",
+        "expected": "fade",
+        "sign": "Headlines will shift to other topics with no further obituaries or references to the late federal judge in Venezuela-related coverage."
+      },
+      "surprise": {
+        "subject": "Surprise cabinet reshuffle in Rodríguez government",
+        "expected": "Acting president Rodríguez will announce an unexpected replacement of one or more senior ministers, signaling internal pressure to show reform-mindedness ahead of the first Machado-Rodríguez talks.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, the dominant story will be the first formal meeting between Machado and the Rodríguez government in Caracas. After weeks of public statements, the two sides will sit down together, and headlines will carry quotes and imagery from that encounter. The US-Venezuela oil deal will stay front and center as Trump and Rubio board the first crude tanker in Texas to tout the partnership ahead of the midterms. The 2027 election proposal will shift from broad language to a concrete roadmap for rebuilding electoral infrastructure. The death of Judge Hellerstein will fade from the headlines. A medium-chance surprise involves an unexpected cabinet reshuffle in the Rodríguez government, signaling internal pressure to appear reformist before talks begin. The overall arc is escalation from symbolic gestures to substantive negotiations, with oil providing the economic backbone and the election timeline the political frame.",
+      "generated_at": "2026-11-02T00:16:16+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Machado-Rodríguez talks",
+        "expected": "Machado and Rodríguez will hold their first formal meeting in Caracas, producing either a joint statement on the 2027 election timeline or a public disagreement over who controls the electoral process.",
+        "direction": "escalate",
+        "sign": "A headline will reference a sit-down, dialogue, or formal meeting between the opposition leader and the acting president that yields a specific joint position or a public dispute over process"
+      },
+      "second": {
+        "subject": "Oil workforce crisis",
+        "expected": "The shortage of experienced oil workers in Venezuela will trigger a concrete production delay or a government retention program that pressures the Chevron output target.",
+        "direction": "escalate",
+        "sign": "A headline will reference a production shortfall, a worker strike, or a government measure to close the oil sector labor gap"
+      },
+      "third": {
+        "subject": "Election infrastructure plan",
+        "expected": "The US State Department and Venezuelan authorities will announce a specific committee or phased timeline for rebuilding Venezuela's electoral infrastructure ahead of the 2027 vote.",
+        "direction": "escalate",
+        "sign": "A headline will reference a newly formed committee, a named infrastructure project, or a formal phased schedule for preparing Venezuela's voting system"
+      },
+      "fade_call": {
+        "subject": "Hellerstein death",
+        "expected": "fade",
+        "sign": "No new headline will reference the late federal judge by name or the specific cases he oversaw"
+      },
+      "surprise": {
+        "subject": "Caracas blackout",
+        "expected": "A major multi-hour power outage will hit Caracas or the central grid, exposing the stalled GE Vernova repairs and the pending China-assisted plant restart as a political flashpoint.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Venezuela, the political focus will shift from Machado's triumphant return to the harder work of negotiation. She and acting president Rodríguez will hold their first formal talks, and the outcome—a joint statement on the 2027 election or a public spat over who controls the process—will set the tone for the transition. On the economic front, the oil sector's workforce shortage will surface as a concrete production problem, threatening the ambitious targets Chevron and the US government have touted. Washington and Caracas will move from the broad elections-in-2027 slogan to the specifics of rebuilding electoral infrastructure, with a committee or timeline expected. Judge Hellerstein's death will fade from coverage. A medium-chance surprise is a major Caracas blackout that turns the fragile grid into a political flashpoint.",
+      "generated_at": "2026-11-02T00:32:01+02:00"
+    }
+  },
+  "display": {
+    "headline": "Machado and Rodríguez Open Talks as Oil Workforce Gap Widens",
+    "emojis": [
+      "🗳️",
+      "🛢️",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "The 2027 election timeline and the first formal talks between Machado and Rodríguez are the week's central political event.",
+      "The oil sector's workforce shortage and the NABEP deal's operational challenges will dominate economic coverage.",
+      "The negotiation phase between the opposition and the government, including the US-Venezuela diplomatic track, defines the week's mood."
+    ],
+    "tldr": "Machado and Rodríguez will hold their first formal talks, setting the tone for Venezuela's transition toward 2027 elections. The oil sector's workforce shortage will surface as a production problem. A major Caracas blackout is a medium-chance surprise.",
+    "eli5": "María Corina Machado, the opposition leader, just came back to Venezuela after spending almost a year in another country. She is now in Caracas and wants to talk with the government about holding elections in 2027. Next week, she and the acting president Delcy Rodríguez are expected to sit down for their first real meeting. Think of it like two people who have been arguing over the phone finally getting into the same room and having to actually talk.\n\nThe other big story is oil. Venezuela has a lot of oil, and the US and companies like Chevron want to pump more of it. But here is the problem: there are not enough experienced workers to do the job. This workforce shortage is going to become a real headache, and you will see headlines about production falling short or the government scrambling to fix the labor gap.\n\nA surprise to watch for is a big power outage in Caracas. The electrical grid is in rough shape, repairs are stalled because of a payment delay, and a new power plant has not started up yet. If the lights go out for a long time, it becomes a political fight that everyone has to deal with, and it could change how people feel about the whole transition."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The 2027 election timeline became a dominant story through Machado's press conference [17][32] and the US proposal [35][94], but it emerged as a US-backed timeline endorsed by Machado rather than a 'formal written demand document' from the opposition alliance.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "escalated",
+            "form": "not_seen",
+            "evidence": "Reliance is not named in any headline this round; the US-Venezuela oil story escalated through the NABEP first shipment [73], Chevron's 600k bpd projection [11][23], and Trump touting the deal at a Texas rally [24][36], but the specific Indian refining framework was not reported.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Maduro torture case is listed as 'No longer in the headlines' in the reality bulletin, and the only related coverage is Judge Hellerstein's death [3][14][33][68][76], with no procedural filing or hearing date reported.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The shrimp magnate's detention is listed under 'No longer in the headlines' in the reality bulletin, confirming the predicted fade with no new headlines about his legal status or company.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "Machado's return from exile was the single defining event of the week, dominating headlines [27][44][47][48][49][54][60][63][67][70][74][75][85][91][95] and reshaping all other Venezuela coverage.",
+          "bonus": 2
+        },
+        "archer_note": "The core thesis of opposition escalation plus oil deepening was correct in direction, and flagging Machado's return as a medium-chance surprise was well-judged since it became the dominant story. The Reliance-specific oil framework was the weakest item: the broader US-Venezuela oil relationship clearly escalated, but it ran through NABEP, Chevron, and Exxon rather than the predicted Indian refining deal. The Maduro torture case was called to persist procedurally but actually faded from the headlines entirely, with only the judge's death keeping the name in brief coverage.",
+        "S": 9
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "not_seen",
+            "evidence": "The forecast called for the opposition election story to 'stay at the same level,' but it escalated dramatically with Machado's return [27][47][54] and the US proposing a concrete 2027 timeline [35][90][94], making it the dominant story of the week.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "not_seen",
+            "evidence": "The forecast predicted the oil relationship would 'stay at the same level,' but it escalated with the first NABEP shipment arriving in Texas [73], Chevron's 600k bpd by 2031 projection [11][23], and Trump touting the deal publicly [24][36][81][92].",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Oil investment expectations continued at a similar level with the Eni-Weatherford Junin 5 campaign [43], the Swiss engineering PDVSA deal [87], and the power plant restart with China [109], broadly matching the 'persist' call.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The forecast called for 'business community calling for elections' to persist, but the reality bulletin lists it under 'No longer in the headlines,' and no headline references Branson or the broader business community's election argument.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "The forecast called for 'no surprise, more of the same,' yet Machado's return from exile [27][47][54] was the defining new event, and additional new stories appeared including the FARC leader's killing [13], the Colombia border bomb blast [46], and Judge Hellerstein's death [3][14].",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis was wrong: the week was defined by Machado's return, which transformed the opposition story from steady protest momentum into a dominant political event, and the oil story escalated with concrete first-shipment and production milestones. Calling the business-community-elections item to persist was a misread, as it faded from coverage entirely. The flat 'no surprise' call was the most consequential miss, since the single biggest story of the week (Machado's homecoming) was precisely the kind of new development the forecast said would not appear.",
+        "S": 5
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The escalation to a concrete 2027 election timeline was correct, appearing through Machado's press conference [17][32] and the US proposal [35][90][94], but the specific form of a 'new demonstration in a different city' and a 'written opposition communiqué' was not the main vehicle; the story centered on Machado's return and the US government's timeline.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The Eni-Weatherford Junin 5 integrated drilling campaign [43] and the Swiss engineering company's PDVSA deal [87] fit the 'signed agreement or regulatory milestone' sign, while Chevron's 600k bpd projection [11][23] continued the investment expectations narrative at a similar level.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Machado physically arrived in Caracas and was greeted by jubilant crowds [27][44][47][49][58][60][69][74][85][91], matching the forecast's sign of a headline stating she had arrived, and the story dominated the week's coverage.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The shrimp magnate's detention is listed under 'No longer in the headlines' in the reality bulletin, confirming the predicted fade with no new court date or business development reported.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Machado signaled readiness to negotiate with the government [19][37][59][93] and Rodríguez expressed hope for dialogue while naming an ex-opposition aide as foreign minister [52][97], but no confirmed 'first direct negotiation session' was reported as a concrete event.",
+          "bonus": 2
+        },
+        "archer_note": "The parallel-tracks thesis of political escalation plus economic continuation was well-grounded, and identifying Machado's return as a key escalation item was a strong call that was fully realized. The lead's specific form (demonstration in a new city, written communiqué) was less precise than reality, where the 2027 timeline came through Machado's press conference and the US government's proposal rather than a formal opposition document. The 'direct talks' surprise was partially validated by the negotiation signals and the foreign-minister gesture, but the absence of a confirmed sitting session kept it from fully materializing.",
+        "S": 16
+      }
+    },
+    "S": [
+      {
+        "crystal": 9,
+        "persistence": 5,
+        "plain": 16
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: crystal 9, persistence 5."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Computed from the scores: crystal 9, plain 16."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Computed from the scores: persistence 5, plain 16."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 1.0,
+      "crystal_vs_plain": -2.0,
+      "persistence_vs_plain": -2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -2.0,
+    "u": 1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nVenezuela's opposition held its first national protest in nearly two years, with supporters in Caracas and Valencia demanding a date for presidential elections in 2027. The opposition alliance reaffirmed Nobel laureate Maria Corina Machado as its leader while awaiting her return. On the economic front, the US deepened its oil ties with Venezuela: the Treasury dropped the country from its list of outbound investment restrictions, Secretary of State Rubio pushed India's Reliance to refine more Venezuelan crude, and acting president Delcy Rodriguez announced expectations of nearly $76 billion in oil investment over five years. Eni advanced a heavy oil project toward year-end approval, and Weatherford signaled a return to peak Venezuelan revenue. The US also invoked a rarely used torture statute in a revamped criminal case against President Maduro, and lifted sanctions on the National Assembly leader. Richard Branson publicly argued that Venezuela needs elections to attract serious investment. The\n- Opposition protests and election demands (dominant, escalating): Supporters rallied in Caracas and Valencia in the first national protest in nearly two years, demanding a date for 2027 presidential elections.\n- US-Venezuela oil relationship deepening (dominant, continuing): The US Treasury dropped outbound investment restrictions, Rubio pushed Reliance to refine more Venezuelan crude, and multiple energy firms advanced projects in the country.\n- Oil investment expectations (dominant, continuing): Venezuela's acting president announced expectations of nearly $76 billion in oil investment over five years, and HSBC cautioned the energy investment story is long-term.\n- Machado leadership and return (regular, continuing): The opposition alliance reaffirmed Maria Corina Machado as its leader while awaiting her physical return to Venezuela.\n- Maduro torture case (regular, continuing): The US invoked a rarely used torture statute in a revamped criminal case against President Maduro.\n- Sanctions relief on National Assembly leader (regular, de-escalating): The US lifted sanctions on Venezuela's National Assembly leader, part of a broader thaw in economic relations.\n- Business community calling for elections (occasional, new): Richard Branson publicly argued that Venezuela needs elections to attract serious foreign investment.\n- Shrimp king jailed (occasional, new): Venezuela's shrimp industry magnate, who had sought to recover his $700 million firm, was placed in jail.\n- Airlines eyeing return (occasional, new): Latin American airlines began exploring a return to Venezuelan routes as bilateral ties improve, though operational hurdles remain.\n- Qatar bridge loan for IDB arrears (occasional, continuing): Venezuela sought a Qatar bridge loan to clear its arrears with the Inter-American Development Bank.\n- Earthquakes expose infrastructure fragility (occasional, new): Recent seismic activity revealed the precarious construction quality even in Caracas's wealthier neighborhoods.\n\nRound 2026-10-17:\nDuring this window, the dominant story was the continued legal proceedings against former President Nicolás Maduro in New York, where he and his wife pleaded not guilty to US charges of conspiracy to torture. The judge cut Maduro off as he attempted to deliver a personal statement, and he publicly called the new allegations false. Simultaneously, Washington signaled a thaw in bilateral relations by lifting sanctions on Jorge Rodríguez, the head of Venezuela's National Assembly, a move described by multiple outlets as a new gesture of rapprochement. On the economic front, Venezuela's acting president announced expectations of nearly $76 billion in oil investment over the next five years, while the World Bank indicated it could extend up to $5 billion in loans to the country. The top economic adviser stressed that debt restructuring was a priority and that a debt sustainability analysis would be published very soon. Centerview was confirmed\n- Maduro torture plea (dominant, continuing): Maduro and his wife pleaded not guilty to US conspiracy-to-torture charges in New York, with the judge cutting off his personal statement and Maduro calling the allegations false.\n- Sanctions lift on Rodríguez (regular, new): The US lifted sanctions on Jorge Rodríguez, head of Venezuela's National Assembly, in a gesture described as a new signal of rapprochement.\n- Oil investment expectations (regular, new): Venezuela's acting president said the country expects nearly $76 billion in oil investment over the next five years.\n- Debt restructuring and World Bank loans (regular, new): The World Bank indicated up to $5 billion in possible loans, and Venezuela's adviser said a debt sustainability analysis would be published very soon.\n- Machado polls and negotiations (occasional, continuing): María Corina Machado topped the latest polls as US-backed negotiations in Venezuelan politics resumed.\n- Space Force weapons display (occasional, new): The US Space Force showed weapons it said were used in operations involving Iran and Venezuela.\n- Chile gang sentence (occasional, new): Chile sentenced a Venezuelan gang member to 20 years for the kidnapping and killing of a dissident.\n",
+    "PREVIOUS_FORECAST": "Lead: Opposition election demand. Expected: The Venezuelan opposition will issue a formal written demand setting a specific timeline for 2027 presidential elections, building on the momentum of the first national protest in nearly two years. Direction: escalate. Sign: A headline will reference the opposition issuing a concrete election timetable or formal demand document rather than another rally announcement\nSecond: Reliance-Venezuela oil framework. Expected: Secretary of State Rubio and Reliance will announce a framework for Indian refining of Venezuelan crude following their scheduled discussion in Washington. Direction: escalate. Sign: A headline will name the Indian energy company and reference a specific refining or production commitment involving Venezuelan crude\nThird: Maduro torture case filing. Expected: The revamped criminal case against Maduro will see its first formal procedural filing under the newly invoked torture statute in the federal court. Direction: persist. Sign: A headline will reference a court filing or hearing date in the torture case without announcing a verdict or new charges\nFade call: Shrimp king jailed. Expected: fade. Sign: No new headline will reference the shrimp magnate's legal status or his company's ownership dispute\nSurprise (chance medium): Machado's return to Venezuela. María Corina Machado will physically return to Venezuela, ending her exile and joining the opposition's push for a 2027 election date.\nSummary: Next week in Venezuela, the opposition's first national protest in nearly two years will generate its most concrete political demand: a formal written timeline for 2027 presidential elections. The opposition alliance, which reaffirmed María Corina Machado as its leader, will push the government to commit to a specific date while Machado remains in exile awaiting her return. On the economic front, Secretary of State Rubio's scheduled discussion with India's Reliance will produce a framework for refining Venezuelan crude, adding to the wave of investment announcements from Eni, Weatherford, and the US Treasury's removal of outbound restrictions. In New York, the revamped torture case against Maduro will advance procedurally under the newly invoked statute. The shrimp magnate's jail story will fade from coverage. A medium-chance surprise is Machado's physical return to Caracas, which would transform the opposition's negotiating position overnight.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject dominant). The 2027 election timeline became a dominant story through Machado's press conference [17][32] and the US proposal [35][94], but it emerged as a US-backed timeline endorsed by Machado rather than a 'formal written demand document' from the opposition alliance.\n- second: did_not_appear (observed: escalated, subject absent). Reliance is not named in any headline this round; the US-Venezuela oil story escalated through the NABEP first shipment [73], Chevron's 600k bpd projection [11][23], and Trump touting the deal at a Texas rally [24][36], but the specific Indian refining framework was not reported.\n- third: did_not_appear (observed: faded, subject marginal). The Maduro torture case is listed as 'No longer in the headlines' in the reality bulletin, and the only related coverage is Judge Hellerstein's death [3][14][33][68][76], with no procedural filing or hearing date reported.\n- fade_call: came_true (observed: faded, subject absent). The shrimp magnate's detention is listed under 'No longer in the headlines' in the reality bulletin, confirming the predicted fade with no new headlines about his legal status or company.\nArcher note: The core thesis of opposition escalation plus oil deepening was correct in direction, and flagging Machado's return as a medium-chance surprise was well-judged since it became the dominant story. The Reliance-specific oil framework was the weakest item: the broader US-Venezuela oil relationship clearly escalated, but it ran through NABEP, Chevron, and Exxon rather than the predicted Indian refining deal. The Maduro torture case was called to persist procedurally but actually faded from the headlines entirely, with only the judge's death keeping the name in brief coverage.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

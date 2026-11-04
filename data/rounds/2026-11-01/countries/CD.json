@@ -1,0 +1,812 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "CD",
+  "name": "DR Congo",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T19:32:46+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The Ebola outbreak in DR Congo reached a critical threshold this week, with confirmed deaths surpassing 5,000 and total cases crossing 10,000, making it the deadliest Ebola epidemic in the country's history. The virus spread beyond the DRC, with linked cases confirmed in Kenya and Nigeria, prompting Uganda to impose a 21-day quarantine on citizens returning from Congo and the Central African Republic to tighten border controls. Violence against health workers intensified, with a nurse killed and another severely injured in an attack in eastern Congo while responding to a case. A three-shot vaccine trial also began. In the political and security sphere, the United States imposed sanctions on Rwanda's defense ministry over its support for M23 rebels in eastern Congo. Former president Joseph Kabila emerged as a new rebel leader, drawing sharp accusations from President Tshisekedi that he is acting as Rwanda's proxy. The controversial referendum law was passed without opposition support, and the C64 opposition platform met in Rome. On the economic front, DR Congo was removed from the FATF grey list, while a report linked gold smuggling to the Islamic State-linked ADF insurgency in the east.",
+    "key_events": [
+      {
+        "event": "Ebola deaths in DR Congo surpass 5,000 and total cases cross 10,000, confirming the outbreak as the deadliest in the country's history.",
+        "date": null,
+        "domain": "health",
+        "importance": 5
+      },
+      {
+        "event": "The United States imposed sanctions on Rwanda's defense ministry over its support for M23 rebels fighting in eastern Congo.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Ebola cases were confirmed in Kenya and Nigeria, with genomic sequencing linking them to the Congo outbreak chain.",
+        "date": null,
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "A nurse was killed and a health worker severely injured in a machete-wielding mob attack while responding to an Ebola case in eastern Congo.",
+        "date": null,
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "Former president Joseph Kabila emerged as a new rebel leader, and President Tshisekedi accused him of being Rwanda's proxy in the east.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Uganda imposed a 21-day quarantine on its citizens returning from DR Congo and tightened border controls.",
+        "date": null,
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "A controversial referendum law was adopted in DR Congo without opposition support, sparking political debate.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "DR Congo was removed from the FATF grey list alongside Bulgaria, Ivory Coast, and Monaco.",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "A report found that gold smuggling through Uganda is financing the Islamic State-linked ADF insurgency in eastern Congo.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A three-shot Ebola vaccine trial began in DR Congo.",
+        "date": null,
+        "domain": "health",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "health",
+      "security",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "🦠",
+      "🚫",
+      "⛏️"
+    ],
+    "emoji_reasons": [
+      "The Ebola outbreak dominates the week with over 10,000 cases and 5,000 deaths, as captured in headlines 1, 3, 22, and 31.",
+      "The US imposed sanctions on Rwanda's defense ministry over M23 support, as reported in headlines 9, 19, 20, and 30.",
+      "Gold smuggling funding the ADF insurgency and the suspension of the artisanal mining agency head appear in headlines 26, 36, and 38."
+    ],
+    "developments": [
+      {
+        "subject": "Ebola outbreak scale and spread",
+        "what_happened": "Deaths passed 5,000 and cases surpassed 10,000 in DR Congo, with linked infections confirmed in Kenya and Nigeria, making it the deadliest Ebola epidemic in the country's history.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          11,
+          15,
+          17,
+          18,
+          21,
+          22,
+          23,
+          27,
+          31,
+          32,
+          33,
+          34,
+          42
+        ]
+      },
+      {
+        "subject": "US sanctions on Rwanda",
+        "what_happened": "The United States sanctioned Rwanda's defense ministry and associated entities over its military support for M23 rebels in eastern Congo.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          9,
+          19,
+          20,
+          30,
+          46,
+          51,
+          55
+        ]
+      },
+      {
+        "subject": "Kabila as rebel leader",
+        "what_happened": "Former president Joseph Kabila became the latest rebel leader in the east, and Tshisekedi publicly accused him of being a Rwandan proxy.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          14,
+          28,
+          29,
+          59,
+          61
+        ]
+      },
+      {
+        "subject": "Violence against Ebola health workers",
+        "what_happened": "A nurse was killed and a health worker severely injured by a machete-wielding mob in eastern Congo while responding to an Ebola case.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          37,
+          39,
+          47,
+          49,
+          64,
+          65
+        ]
+      },
+      {
+        "subject": "Uganda and CAR border controls",
+        "what_happened": "Uganda imposed a 21-day quarantine on returnees from Congo and the Central African Republic strengthened border checks with the DRC.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          16,
+          43,
+          50,
+          54
+        ]
+      },
+      {
+        "subject": "Gold smuggling and ADF insurgency",
+        "what_happened": "A report found that gold smuggling through Uganda is financing the Islamic State-linked ADF insurgency in eastern Congo.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          26,
+          36,
+          63
+        ]
+      },
+      {
+        "subject": "Referendum law controversy",
+        "what_happened": "A controversial referendum law was passed in DR Congo without opposition support, drawing criticism from the C64 opposition platform.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          41,
+          56,
+          58
+        ]
+      },
+      {
+        "subject": "FATF grey list removal",
+        "what_happened": "DR Congo was removed from the FATF grey list alongside Bulgaria, Ivory Coast, and Monaco.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          8,
+          12
+        ]
+      },
+      {
+        "subject": "Artisanal mining crackdown",
+        "what_happened": "Congo suspended the head of its artisanal mining regulator for failing to prevent illegal mining activities.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          38,
+          48
+        ]
+      },
+      {
+        "subject": "Ebola vaccine trial",
+        "what_happened": "A three-shot Ebola vaccine trial began in DR Congo.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          53
+        ]
+      },
+      {
+        "subject": "China and mining exploration friction",
+        "what_happened": "A Gates-backed mining company reported that China is frustrating DR Congo exploration efforts.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Opposition dialogue in Rome",
+        "what_happened": "Members of the C64 opposition platform met in Rome and called for inclusive dialogue while rejecting armed rebellion.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          41,
+          44
+        ]
+      }
+    ],
+    "gone": [
+      "Ebola orphans and mental health",
+      "Tshisekedi party cadre arrested",
+      "Census obstacles in Kinshasa",
+      "Glencore mining deal",
+      "Hamilton and DR Congo at F1"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong multi-source coverage of the Ebola crisis, the US-Rwanda sanctions, and the Kabila-rebel storyline, though economic and environmental angles beyond mining are thin."
+    },
+    "headlines_used": [
+      "Congo Ebola outbreak kills more than 5,000",
+      "Congo’s Ebola deaths top 5,000 as fear of continent-wide spread mounts",
+      "Africa Ebola outbreak passes 10,000 cases, mostly in DR Congo",
+      "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "Ebola health workers celebrate last patients discharged in DRC",
+      "DRC Ebola outbreak 'growing exponentially,' UN says",
+      "Rwanda, États-Unis: pourquoi Washington durcit le ton contre Kigali malgré les accords de paix avec la RD Congo?",
+      "Monaco Taken Off Global Dirty-Money List Along With Bulgaria, Ivory Coast and Congo",
+      "U.S. Sanctions Rwanda Over Support for Congo Rebels",
+      "Gates-backed miner says China is frustrating DR Congo exploration efforts",
+      "Ebola death toll in DR Congo passes 5,000",
+      "FATF removes Bulgaria, Congo, Ivory Coast and Monaco from 'grey list' but leaves Vietnam on",
+      "A village chief in Congo works to overcome Ebola prejudice even as the disease kills his relatives",
+      "Joseph Kabila: Former president becomes DR Congo's latest rebel leader",
+      "Congo's Ebola caseload tops 6,000 as concerns grow",
+      "Ebola: la Centrafrique renforce les contrôles à sa frontière avec la RDC",
+      "Ebola Sequencing Links Kenya, Nigeria Cases to Congo Chain",
+      "Ebola death toll in DR Congo passes 5000 - Al Jazeera",
+      "US imposes sanctions on Rwanda's defense ministry over Congo conflict",
+      "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict",
+      "DR Congo Ebola case: Wat next for DRC as Ebola deaths hit ova 5000 wit 10,351 cases for second deadliest outbreak",
+      "Ebola cases exceed 10,000 in DR Congo as infections are confirmed in Kenya and Nigeria",
+      "Ebola: plus de 10.000 cas recensés en Afrique, la RDC toujours à l'épicentre",
+      "When Hardcore Pharma Investors Meet Enthusiastic Oncologists",
+      "Incredible celebrations as last patient leaves a DRC Ebola centre",
+      "Gold smuggling funds Islamic State-linked insurgency in eastern Congo, report says",
+      "Congo’s Ebola outbreak tops 10,000 cases as authorities race to slow the spread in African countries",
+      "DR Congo: Urukiko rwasheshe ishyaka rya Joseph Kabila ryahoze riri ku butegetsi",
+      "RDC: le président congolais accuse Kabila d'être un \"supplétif\" du Rwanda",
+      "US Targets Rwanda’s Defense Ministry for Fueling Congo Violence",
+      "Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak",
+      "Congo's Ebola cases surpass 10,000 as fears grow of wider African spread",
+      "Photos show Congo’s fight against Ebola as cases surpass 10,000",
+      "DR Congo: Abarenga 5000 bamaze kwicwa na Ebola ya kabiri yishe abantu benshi ku isi",
+      "VIDÉO. RD Congo: tension à Uvira face à la menace d'une nouvelle offensive rebelle",
+      "Congo Gold Finances IS-Backed Rebels Through Uganda, Sentry Says",
+      "Attackers kill nurse, injure health worker responding to DRC Ebola case",
+      "Congo suspends artisanal mining agency head for failing to prevent illegal activities",
+      "Attackers kill nurse, severely injure health worker responding to Ebola case in eastern Congo",
+      "Democratic Republic of Congo",
+      "VIDÉO. RD Congo : les opposants de la plateforme C64 réunis à Rome",
+      "Congo Ebola Cases Top 10,000 as Violence Hits Health Workers",
+      "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
+      "Congo opposition rejects armed rebellion, calls for inclusive dialogue",
+      "After Ebola devastates his family, a Congo chief works to overcome mistrust",
+      "M23 Rebels: US sanctions Rwanda's defence ministry over Congo war",
+      "RD Congo: ce que l'on sait du meurtre d'un infirmier sur fond de rumeurs liées au virus Ebola",
+      "Congo Removes Boss of Artisanal Mining Regulator Amid Crackdown",
+      "Machete-wielding mob attack health workers responding to Ebola in Congo",
+      "Uganda tightens Ebola border controls and requires returnees from Congo to pay for quarantine",
+      "US sanction Rwanda: United States sanction Rwanda defence ministry ova M23 rebels in DR Congo",
+      "'Merci à toi, mon frère': les images exclusives du soutien de Félix Tshisekedi au président de la Fifa Gianni Infantino",
+      "Ebola Vaccine Trial Begins in Congo With Three Shots in Sight",
+      "Uganda imposes 21-day quarantine on citizens returning from Congo",
+      "Amerika yafatiye ibihano minisiteri y'ingabo z'u Rwanda na banki Zigama CSS kubera intambara yo muri DR Congo",
+      "RD Congo: pourquoi la loi sur le référendum adoptée sans l'opposition fait polémique",
+      "Ibitero bya M23 muri Congo",
+      "VIDÉO. RD Congo : la loi référendaire controversée adoptée",
+      "DR Congo: FRN ivuga ko Brig Gen François Kamanzi yagiye gukorana na yo avuye muri FARDC",
+      "Ash Dykes completes Congo Basin expedition after going 'missing' for 24 hours",
+      "DR Congo : 'Ni ikimenyetso c'uko atigeze akunda igihugu', Tshisekedi kuri Kabila na FRN",
+      "Ash Dykes on what happened when 'going missing' in Congo",
+      "DRC: Umutwe wa ADF urashinjwa gukora magendu mu bucukuzi bwa zahabu",
+      "Ebola outbreak: DR Congo nurse killed in attack as Uganda tightens border",
+      "RDC: Umuforomokazi yahitanywe n'igitero abaturage bagabye ku nzego z'ubuzima"
+    ],
+    "converted": false,
+    "relevant_headlines": 65,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Ebola outbreak scale and spread",
+        "expected": "Ebola outbreak scale and spread stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ebola outbreak scale and spread appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US sanctions on Rwanda",
+        "expected": "US sanctions on Rwanda stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US sanctions on Rwanda appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Kabila as rebel leader",
+        "expected": "Kabila as rebel leader stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Kabila as rebel leader appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "US sanctions on Rwanda",
+        "expected": "persist",
+        "sign": "US sanctions on Rwanda is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Ebola outbreak scale and spread stays in the news at the same level. US sanctions on Rwanda stays in the news at the same level. Kabila as rebel leader stays in the news at the same level. US sanctions on Rwanda is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Ebola outbreak progression",
+        "expected": "The UN will report that the Ebola outbreak in DR Congo is growing exponentially, pushing the death toll past 6,000.",
+        "direction": "escalate",
+        "sign": "A headline will report the Ebola death toll in DR Congo crossing a new threshold as the outbreak accelerates."
+      },
+      "second": {
+        "subject": "M23 offensive and Rwanda sanctions",
+        "expected": "Rebels will launch a new offensive toward Uvira, testing the front lines in eastern DR Congo.",
+        "direction": "escalate",
+        "sign": "A headline will report a new rebel military advance in eastern DR Congo."
+      },
+      "third": {
+        "subject": "Ebola health worker security",
+        "expected": "DR Congo's health ministry will deploy security escorts for Ebola response teams after the killing of a nurse in the east.",
+        "direction": "escalate",
+        "sign": "A headline will report a new attack on health workers responding to Ebola cases in eastern DR Congo."
+      },
+      "fade_call": {
+        "subject": "FATF grey list removal",
+        "expected": "fade",
+        "sign": "The FATF removal will surface only in broader economic or trade context rather than as a standalone DR Congo story."
+      },
+      "surprise": {
+        "subject": "Referendum date announcement",
+        "expected": "Tshisekedi will announce a specific date for the controversial referendum, triggering street protests in Kinshasa.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, the Ebola outbreak in DR Congo will deepen, with the death toll climbing above 6,000 and the UN confirming exponential growth. At least one more African nation will confirm cases linked to the Congo epicentre. In the east, rebels will press a new offensive toward Uvira while Rwanda pushes back against US sanctions, and former president Kabila will solidify his rebel leadership role, drawing fresh accusations from Tshisekedi. Health workers in the Ebola response zone will face renewed attacks, prompting the government to deploy security escorts for medical teams. The controversial referendum law will generate street protests as the C64 opposition platform moves from Rome back to Kinshasa. The FATF grey list removal will recede from headlines, and the vaccine trial will enter its first reporting phase without definitive results.",
+      "generated_at": "2026-11-01T19:14:38+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Ebola cross-border spread",
+        "expected": "A new country beyond Kenya and Nigeria will confirm its first case of the Congolese Ebola strain, triggering fresh border restrictions and a new travel advisory from that government.",
+        "direction": "escalate",
+        "sign": "A headline naming a national health ministry confirming a case with a travel link to the eastern provinces, or a government announcing entry restrictions for travelers from Congo's eastern regions."
+      },
+      "second": {
+        "subject": "M23 offensive toward Uvira",
+        "expected": "M23 rebels will launch a coordinated ground offensive toward Uvira, testing the government's defensive positions in South Kivu and forcing a fresh military response.",
+        "direction": "escalate",
+        "sign": "A headline reporting rebel forces advancing on or capturing a town in the eastern provinces, with reference to the rebel faction or a Congolese military source describing the push."
+      },
+      "third": {
+        "subject": "Referendum law legal challenge",
+        "expected": "The C64 opposition platform will file a formal legal challenge to the referendum law before the constitutional court, arguing it was adopted without the opposition participation the constitution requires.",
+        "direction": "escalate",
+        "sign": "A headline naming the opposition coalition or a court body formally contesting the referendum legislation, framed as a constitutional or legal dispute rather than a street protest."
+      },
+      "fade_call": {
+        "subject": "FATF grey list removal",
+        "expected": "fade",
+        "sign": "The grey list removal will drop from front pages as the Ebola and conflict stories dominate, with only a brief financial-sector or banking update."
+      },
+      "surprise": {
+        "subject": "First non-African Ebola case",
+        "expected": "A European or North American country will confirm its first imported case of the Congolese Ebola strain, prompting a wave of new travel advisories targeting the eastern provinces.",
+        "chance": "low"
+      },
+      "summary": "DR Congo's Ebola outbreak will keep accelerating, with a new country beyond Kenya and Nigeria confirming a case linked to the Congolese strain and prompting fresh border restrictions. The three-shot vaccine trial will generate its first public reporting cycle, and health workers in the east will face renewed risk as the caseload climbs past the 10,000 mark. On the military front, M23 rebels will push a new offensive toward Uvira, testing the government's defensive line in South Kivu and giving the US-Rwanda sanctions axis a concrete field test. The controversial referendum law will meet its first formal legal challenge from the C64 opposition, which will argue the law was adopted without the participation required by the constitution. The FATF grey list removal will recede from front pages. Overall, the epidemic will dominate the narrative, the eastern front will heat up on the ground, and the political dispute over the referendum will move from the legislature to the courts.",
+      "generated_at": "2026-11-01T19:32:46+02:00"
+    }
+  },
+  "display": {
+    "headline": "Congo Ebola Spreads Further as M23 Pushes Toward Uvira",
+    "emojis": [
+      "🦠",
+      "⚔️",
+      "📜"
+    ],
+    "emoji_reasons": [
+      "The Ebola outbreak crossing into a new country is the single dominant story next week.",
+      "M23 rebels are expected to launch a new ground offensive in the east, making armed conflict a front-page driver.",
+      "The C64 opposition will formally challenge the newly passed referendum law, turning legislation into the next legal flashpoint."
+    ],
+    "tldr": "DR Congo's Ebola outbreak will cross into a new country and the M23 rebels will launch a fresh offensive toward Uvira. The C64 opposition will formally challenge the new referendum law in court. The FATF grey list removal will fade from headlines.",
+    "eli5": "DR Congo is dealing with a really bad Ebola outbreak right now. More than 5,000 people have died and over 10,000 have been sick. The virus has already jumped to Kenya and Nigeria. Next week, we expect it to reach yet another country, which will make neighbors even more nervous about their borders and travel rules.\n\nAt the same time, rebels called M23 are fighting the government in the east of the country. The United States just punished Rwanda for backing those rebels, and now the rebels are expected to push a new attack toward a town called Uvira. That would be the M23 offensive toward Uvira that we flagged as a key story.\n\nThe government also passed a new law about holding a referendum, but the opposition group C64 says it was done unfairly. Next week, they will take it to court. That is the referendum law challenge we are watching.\n\nA surprise would be if someone in Europe or North America got sick with the same Ebola virus, which would make the whole world pay attention and could trigger a global travel scramble."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Uganda imposed a 21-day quarantine on returnees from DR Congo [43, 54] and CAR strengthened border controls [16], matching the forecast of a new country imposing entry restrictions as cross-border spread intensified.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Glencore mining deal is listed under 'No longer in the headlines' and no headline reports the deal as signed or closed, instead a Gates-backed miner notes China is frustrating exploration [10].",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Tshisekedi party cadre arrest is listed under 'No longer in the headlines' with no new detention or censure within the presidential party reported this week.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Census obstacles in Kinshasa are listed under 'No longer in the headlines,' confirming the predicted fade from front pages.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline mentions a European government issuing a formal travel restriction on eastern Congolese provinces; the border restrictions came from Uganda [43] and CAR [16], not an EU state.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified Ebola cross-border spread as the dominant escalating story and the Uganda/CAR border actions as the concrete manifestation. It missed the Glencore deal entirely (it faded rather than closed) and the ruling-party purge (it faded rather than widened), and its EU travel advisory surprise did not materialize. The main thesis of Ebola dominance plus political infighting was directionally right but wrong on the specific political mechanism, as the Kabila-Tshisekedi-US triangle replaced the internal party purge as the key political story.",
+        "S": 8
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Cases climbed from 6,000 to over 10,000 [3, 22, 27, 31, 32] and deaths passed 5,000 [1, 4, 11, 18], confirming the forecast that the caseload would climb well above the current total as transmission accelerated.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Kabila emerged as an active rebel leader [14] and Tshisekedi publicly accused him of being Rwanda's proxy [29, 61], but the specific formal diplomatic protest to Brussels was not in the headlines; instead the US sanctioned Rwanda's defense ministry [9, 19, 20].",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Glencore deal is listed under 'No longer in the headlines' with no reporting of finalization or production targets being made public.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The Tshisekedi party cadre arrest is listed under 'No longer in the headlines,' confirming the predicted fade to a routine court matter.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Uganda imposed a 21-day quarantine on citizens returning from DR Congo [43, 50, 54] and CAR strengthened border controls [16], matching the forecast of a neighboring country imposing a travel restriction.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin correctly called the Ebola escalation and the Kabila-M23 tension as the two dominant stories, and its fade call on the cadre arrest was spot-on. It missed the Glencore deal (faded rather than finalized) and misidentified the diplomatic friction partner as Belgium when the US sanctions on Rwanda [9, 19] became the dominant new political story. The main thesis of escalating multi-front pressure (epidemic, eastern rebellion, diplomatic friction) was broadly correct, with the specific diplomatic actor being the main error.",
+        "S": 13
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "not_seen",
+            "evidence": "Cases more than doubled from 6,000 to over 10,000 [3, 22, 27, 31, 32] and deaths passed 5,000 [1, 4, 11, 18], a major escalation rather than the 'same level' persistence the bulletin predicted.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Kabila became an active rebel leader [14] and Tshisekedi publicly accused him of being Rwanda's proxy [29, 61], while US sanctions on Rwanda [9, 19, 20] shifted the diplomatic focus from Belgium to Washington, an escalation beyond mere persistence.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Headline [53] reports the three-shot Ebola vaccine trial beginning in DR Congo, confirming it remained in the news as predicted.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The vaccine trial is still reported in headline [53], confirming the correct prediction that it would persist in the headlines.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "US sanctions on Rwanda's defense ministry [9, 19, 20, 30, 46, 51, 55], FATF grey list removal [8, 12], gold smuggling funding the ADF [26, 36], the referendum law controversy [56, 58], and the C64 opposition meeting in Rome [41, 44] all represent major new stories absent from the previous round.",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis was wrong: Ebola escalated dramatically rather than holding steady, and the Kabila-M23 story shifted from a Belgium-focused diplomatic spat to a US-sanctions-driven geopolitical confrontation. Multiple entirely new stories appeared (FATF removal, gold smuggling, referendum law, C64 in Rome, violence against health workers) that the bulletin's 'no surprise' call did not anticipate. The main thesis was wrong rather than merely early, as the week brought both quantitative escalation in the Ebola story and qualitative shifts in the political narrative.",
+        "S": 10
+      }
+    },
+    "S": [
+      {
+        "crystal": 8,
+        "plain": 13,
+        "persistence": 10
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Computed from the scores: crystal 8, plain 13."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Computed from the scores: crystal 8, persistence 10."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 13, persistence 10."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": -2.0,
+      "crystal_vs_persistence": -1.0,
+      "plain_vs_persistence": 1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -2.0,
+    "u": -1.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nDR Congo's Ebola outbreak worsened sharply during this window. The disease spread to an eighth province, the total caseload surpassed 6,000, and confirmed cases emerged in at least four neighboring countries. Nigeria reported its first case, which matched the DR Congo strain, and Kenya saw its cases climb to eight. In response, the WHO and partners launched a clinical trial for a three-dose Ebola vaccine in the country. The human toll deepened: hundreds of children were orphaned, prompting emergency nurseries, and grieving families reported a growing mental health burden. Meanwhile, former President Joseph Kabila formally aligned himself with the M23 rebellion, a move Belgium called 'incomprehensible and unacceptable.' Kinshasa tightened its diplomatic posture by barring presidential-office staff from speaking with the Belgian embassy. A cadre of President Tshisekedi's party was arrested for calling to distribute weapons to the public. On the economic front, a US-backed mining company entered final negotiations\n- Ebola outbreak spread and caseload (dominant, escalating): The outbreak reached an eighth province, surpassed 6,000 cases, and spread to at least four neighboring countries including Nigeria and Kenya, with transmission worsening in North Kivu.\n- Ebola vaccine trial (regular, new): WHO and partners began a clinical trial for a three-dose Ebola vaccine in DR Congo.\n- Ebola orphans and mental health (regular, escalating): Hundreds of children were orphaned by the outbreak, prompting emergency nurseries, and grieving families reported a growing mental health toll.\n- Kabila-M23 alliance and Belgian reaction (dominant, escalating): Former President Joseph Kabila joined the M23 rebellion, and Belgium publicly called the alliance 'incomprehensible and unacceptable' while Kinshasa barred presidential-office staff from speaking with the Belgian embassy.\n- Tshisekedi party cadre arrested (occasional, new): A senior cadre of President Tshisekedi's party was arrested for calling to distribute weapons to the public in what was framed as a 'war' against Westerners.\n- Census obstacles in Kinshasa (regular, continuing): The national census in Kinshasa encountered significant logistical and political obstacles, with officials describing the challenges as a response to population demands.\n- Glencore mining deal (occasional, continuing): A US-backed mining company entered the final phases of a deal with Glencore in DR Congo.\n- Hamilton and DR Congo at F1 (occasional, new): Lewis Hamilton called for the freedom of Palestine and DR Congo as Rwanda hosted an F1 Grand Prix.\n\nRound 2026-10-17:\nThis week in the DR Congo was defined by three converging crises. Former President Joseph Kabila formally joined the AFC/M23 rebel coalition in eastern Congo; Kinshasa denounced the move as a prelude to a 'generalized attack' and warned that Kabila's own political family was fracturing over it. The development raised fresh fears that ongoing peace efforts in the east could unravel. The Ebola outbreak also accelerated sharply. The virus spread to an eighth province bordering Central Africa, the UN warned the epidemic was growing 'exponentially,' and the Africa CDC revealed over $700 million in pledged response funds remained unaccounted for. Fearing contagion, mothers in affected areas skipped vital maternal and pediatric care, prompting authorities to launch an improved vaccination drive in Beni. Diplomatically, tensions flared with Brussels after Belgian police searched the homes of President Tshisekedi's relatives; the DRC presidency then restricted its staff's contact with the Belgian embassy. The\n- Former President Joseph Kabila joined the (regular, continuing): Former President Joseph Kabila joined the AFC/M23 rebel coalition, which Kinshasa called the prelude to a 'generalized attack' on the country.\n- The Ebola outbreak spread to an (regular, continuing): The Ebola outbreak spread to an eighth province bordering Central African Republic and the UN warned it was growing 'exponentially.'\n- The Africa CDC reported that over (regular, continuing): The Africa CDC reported that over $700 million in pledged Ebola response funds for Congo remained unaccounted for.\n- Belgian police searched the homes of (regular, continuing): Belgian police searched the homes of relatives of President Tshisekedi, and Kinshasa restricted its presidential-office staff from contacting the Belgian embassy, raising fears of a diplomatic standoff.\n- Health authorities in Beni launched an (regular, continuing): Health authorities in Beni launched an improved Ebola vaccination program as young children bore a heavy toll of the outbreak.\n- Congo arrested hundreds of Chinese miners (regular, continuing): Congo arrested hundreds of Chinese miners in its copper-producing regions, and a $250 million Mercuria copper deal with a Chinese miner was announced the same week.\n- Reporters highlighted the growing role of (regular, continuing): Reporters highlighted the growing role of Erik Prince and private paramilitaries in securing Congo's critical-mineral supply chains.\n- The DR Congo government publicly protested (regular, continuing): The DR Congo government publicly protested Formula 1's 'indefensible' decision to hold a Grand Prix in neighboring Rwanda.\n",
+    "PREVIOUS_FORECAST": "Lead: Ebola cross-border spread. Expected: The Ebola outbreak will reach a fifth neighboring country as transmission in North Kivu intensifies, prompting a new border closure or travel advisory from an affected state. Direction: escalate. Sign: A headline naming a new country's health ministry confirming a case linked to the Congo strain, or a government announcing entry restrictions for travelers from the eastern provinces.\nSecond: Glencore mining deal. Expected: The US-backed mining company will finalize its commercial agreement with Glencore, announcing the terms and the volume of minerals to be extracted. Direction: escalate. Sign: A headline reporting the deal as signed or closed, with reference to the parties and the mineral in question.\nThird: Ruling party internal purge. Expected: A second senior figure from the presidential party will be detained or publicly censured in connection with the weapons-distribution call, widening the internal rift. Direction: escalate. Sign: A headline naming a new arrest or suspension within the presidential party, framed as a response to the earlier cadre's remarks.\nFade call: Kinshasa census obstacles. Expected: fade. Sign: The census story will drop from front pages as the Ebola and political stories dominate, with only a brief logistical update.\nSurprise (chance medium): EU travel advisory after Nigeria-Swiss case. The Swiss national's Ebola case in Nigeria, having no direct DR Congo travel history, will prompt a European government to issue a formal travel restriction on the eastern Congolese provinces.\nSummary: The coming week in DR Congo will be defined by the Ebola outbreak's relentless expansion beyond the country's borders. A fifth neighboring state will confirm a case tied to the Congolese strain, and the fresh vaccine trial will generate its first round of public commentary. In Kinshasa, the political fallout from the ruling party cadre's call to arm the public against Westerners will widen into a second detention or censure, deepening the internal fracture. On the economic front, the Glencore minerals deal will close, giving the government a rare positive headline. The standoff with Brussels will hold steady as both sides digest the Kabila-M23 alliance without a new dramatic gesture. The census in Kinshasa will recede from the front pages. Overall, the epidemic will dominate the narrative, the political infighting will sharpen, and the mining deal will provide a brief counterpoint of normalcy.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject dominant). Uganda imposed a 21-day quarantine on returnees from DR Congo [43, 54] and CAR strengthened border controls [16], matching the forecast of a new country imposing entry restrictions as cross-border spread intensified.\n- second: did_not_appear (observed: faded, subject absent). The Glencore mining deal is listed under 'No longer in the headlines' and no headline reports the deal as signed or closed, instead a Gates-backed miner notes China is frustrating exploration [10].\n- third: did_not_appear (observed: faded, subject absent). The Tshisekedi party cadre arrest is listed under 'No longer in the headlines' with no new detention or censure within the presidential party reported this week.\n- fade_call: came_true (observed: faded, subject absent). Census obstacles in Kinshasa are listed under 'No longer in the headlines,' confirming the predicted fade from front pages.\nArcher note: The bulletin correctly identified Ebola cross-border spread as the dominant escalating story and the Uganda/CAR border actions as the concrete manifestation. It missed the Glencore deal entirely (it faded rather than closed) and the ruling-party purge (it faded rather than widened), and its EU travel advisory surprise did not materialize. The main thesis of Ebola dominance plus political infighting was directionally right but wrong on the specific political mechanism, as the Kabila-Tshisekedi-US triangle replaced the internal party purge as the key political story.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null,
+  "judgment_v1": {
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Cross-border spread and new border restrictions are confirmed by headlines 17, 22 (Kenya/Nigeria linked cases), 43, 54 (Uganda 21-day quarantine), and 16 (CAR border controls), but the specific 'fifth neighboring country' framing is over-specific since Kenya and Nigeria are not DRC neighbors."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "The Glencore mining deal is listed under 'No longer in the headlines,' meaning the expected deal finalization did not surface in this round's coverage."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The Tshisekedi party cadre arrest is listed under 'No longer in the headlines,' and no new detention or censure of a second senior figure from the presidential party appears in the collection."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Census obstacles in Kinshasa are explicitly listed under 'No longer in the headlines,' confirming the predicted fade."
+          }
+        },
+        "archer_note": "X missed the Kabila-M23 alliance and the US sanctions on Rwanda, which were among the most prominent stories this round. Both its second and third predictions (Glencore deal, ruling-party purge) faded entirely, leaving only the lead and fade call as hits. The main thesis that Ebola would dominate was correct, but the secondary political and economic predictions were too narrow and specific, missing the security-diplomatic escalation."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "The caseload climbing well above the previous total is confirmed by headlines 3, 22, 27, 31, 32 (cases surpassing 10,000) and 1, 4, 11, 18 (deaths passing 5,000), but the specific 'ninth province' detail is over-specific as no headline names a particular new province by number."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The Kabila-M23 alliance is prominently in the headlines (14, 28, 29, 61) and US sanctions on Rwanda dominate (7, 9, 19, 20, 30, 46, 51, 55), but the specific 'formal diplomatic protest to Brussels' over a Belgian rift is not the dominant angle; the US-Rwanda axis is."
+          },
+          "third": {
+            "grade": "did_not_appear",
+            "evidence": "The Glencore mining deal is listed under 'No longer in the headlines,' so the expected finalization with production targets did not appear in this round."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The Tshisekedi party cadre arrest is explicitly listed under 'No longer in the headlines,' confirming the predicted fade."
+          }
+        },
+        "archer_note": "Y correctly identified the Kabila-M23 alliance as a major story in its second item, which was one of the dominant narratives this round. However, the 'Belgian rift' framing was too narrow when the US-Rwanda sanctions were the primary diplomatic angle. The Glencore prediction was a miss, and the 'ninth province' specificity was over-reach, but the overall escalation direction on Ebola was right."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Ebola is overwhelmingly present in the headlines (at least 20 of 65 headlines), but the direction 'persist' understates the reality of escalation, with deaths passing 5,000 and cases surpassing 10,000 (headlines 1, 3, 4, 22, 31)."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Kabila-M23 is in the headlines (14, 28, 29, 61) and US sanctions on Rwanda are prominent (9, 19, 20, 30, 46), but the 'Belgian reaction' is not the main angle and the 'persist' direction understates the escalation."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "The Ebola vaccine trial appears in headline 53 ('Ebola Vaccine Trial Begins in Congo With Three Shots in Sight'), confirming persistence in the headlines."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "The vaccine trial is still in the headlines per headline 53, confirming the persist call, though this item duplicates the third item."
+          }
+        },
+        "archer_note": "Z's uniform 'persist' framing was too passive; the reality showed clear escalation in both the Ebola caseload and the Kabila-M23/US-sanctions story. The duplication of the vaccine trial as both the third item and the fade call was a structural weakness that added no new information. The main thesis was not wrong, merely under-stated; every story it named was present, but the intensity and new developments (US sanctions, Kabila as rebel leader, cross-border spread to Kenya and Nigeria) exceeded a simple persistence."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Y's second item correctly identified the Kabila-M23 alliance as a major story, which was one of the dominant narratives this round, while X's second item (Glencore deal) faded entirely. X's lead was slightly more precise on the cross-border spread angle, but Y's overall coverage of the political-security escalation gives it the edge."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "X's lead correctly identified the direction as escalation with a specific cross-border mechanism, while Z's 'persist' framing understated the intensity of the Ebola story. X's fade call (census) was a genuine fade prediction that was correct, whereas Z's fade call merely duplicated its third item (vaccine trial), adding no new predictive content."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Y's directions (escalate on Ebola, escalate on Kabila-M23) better match the reality of intensifying headlines, while Z's uniform 'persist' framing was too passive. Y's fade call (cadre arrest) was a distinct, correct prediction, whereas Z's fade call was a duplicate of its third item, reducing its effective content."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": -1.0,
+      "crystal_vs_persistence": 1.0,
+      "plain_vs_persistence": 1.0
+    },
+    "consistency": {
+      "compared": 3,
+      "disagree": 2,
+      "flags": [
+        {
+          "pair": "XZ",
+          "winner": "X",
+          "points": {
+            "X": 5,
+            "Z": 10
+          },
+          "order": 0
+        },
+        {
+          "pair": "YZ",
+          "winner": "Y",
+          "points": {
+            "Y": 7,
+            "Z": 10
+          },
+          "order": 0
+        }
+      ]
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  }
+}

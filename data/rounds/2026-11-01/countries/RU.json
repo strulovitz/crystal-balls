@@ -1,0 +1,1083 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "RU",
+  "name": "Russia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T18:35:35+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The defining story of the week was the US-brokered local ceasefire in Russian-occupied Oleshky, where hundreds of starving residents were evacuated after a rare truce held for several days, with Melania Trump credited as mediator. Simultaneously, Russia's last major independent newspaper, Novaya Gazeta, shut down under sustained Kremlin pressure, with Nobel laureate Murat Bakhitov calling it an \"assassination\" of press freedom. In Moscow, Putin hosted a large Russia-Africa summit, pitching nuclear power deals, military recruitment, and an anti-colonial partnership to African leaders, while also sealing a 2,000 MW nuclear plant agreement with Ghana. At the G20 foreign ministers' meeting in the United States, European ministers refused to pose for the group photo alongside Russian foreign minister Lavrov, canceling the official photo-op. On the battlefield, a Russian drone strike killed at least 14 people at a Dnipro train station, while Ukraine hit Russian oil refineries before pausing strikes under US pressure. Putin held a rare phone call with the leaders of Finland and Norway, called Elon Musk a \"genius\" after satellite talks, and both US and Russia vetoed the renewal of the UN Western Sahara peacekeeping mission. Russian espionage and sabotage incidents surfaced in Romania, Germany, and Poland, raising fears of escalation in Europe.",
+    "key_events": [
+      {
+        "event": "A US-brokered local ceasefire in Russian-occupied Oleshky allowed the evacuation of hundreds of starving residents over several days, with demining and aid operations completed.",
+        "date": "2026-10-28",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Russia's last major independent newspaper, Novaya Gazeta, announced its closure under sustained pressure from Kremlin authorities.",
+        "date": "2026-10-29",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Putin hosted a Russia-Africa summit in Moscow, pitching nuclear deals, military partnerships, and an anti-colonial vision to dozens of African leaders.",
+        "date": "2026-10-30",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "European ministers cancelled the G20 group photo in protest over the presence of Russian foreign minister Lavrov at the foreign ministers' meeting in the US.",
+        "date": "2026-10-31",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "A Russian drone strike on a Dnipro train station killed at least 14 people, one of the deadliest single attacks on Ukrainian civilian infrastructure in recent weeks.",
+        "date": "2026-10-30",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Leaders of Finland and Norway held a rare direct phone call with Putin to discuss ending the Ukraine war, drawing both praise and criticism from EU partners.",
+        "date": "2026-10-29",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Putin called Elon Musk a \"genius\" after satellite talks, as Russia accelerates development of a Starlink alternative.",
+        "date": "2026-10-28",
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "The US and Russia both vetoed the renewal of the UN MINURSO peacekeeping mission in Western Sahara, leaving the mission to expire.",
+        "date": "2026-10-27",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Russia extended its ban on most diesel exports through January while planning to ship 2.15 million tons to the US under a new trade arrangement.",
+        "date": "2026-10-30",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Romania, Germany, and Poland reported a series of suspected Russian sabotage and espionage incidents, including a fire near a Romanian weapons factory and arrests in Germany.",
+        "date": "2026-10-31",
+        "domain": "security",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 7,
+    "domains_active": [
+      "diplomacy",
+      "security",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🕊️",
+      "📰",
+      "🌐"
+    ],
+    "emoji_reasons": [
+      "The Oleshky ceasefire and evacuation (headline 85) was the week's dominant story, representing a rare de-escalation in the Ukraine war.",
+      "Novaya Gazeta's forced closure (headline 27) marked a significant blow to Russian independent media and press freedom.",
+      "The Russia-Africa summit (headline 50) and the G20 photo-op cancellation (headline 40) underscored the week's intense multilateral diplomacy."
+    ],
+    "developments": [
+      {
+        "subject": "Oleshky ceasefire and evacuation",
+        "what_happened": "A US-brokered local truce in Russian-occupied Oleshky held for several days, allowing hundreds of starving residents to be evacuated to Ukrainian-controlled territory via Belarus, with demining and aid operations completed.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          6,
+          11,
+          12,
+          15,
+          16,
+          25,
+          28,
+          34,
+          48,
+          58,
+          62,
+          63,
+          70,
+          85,
+          93,
+          97,
+          108,
+          110,
+          127,
+          134,
+          135,
+          136,
+          137,
+          158,
+          163,
+          175,
+          204,
+          217,
+          225,
+          226,
+          235,
+          237
+        ]
+      },
+      {
+        "subject": "Novaya Gazeta closure",
+        "what_happened": "Russia's last major independent newspaper, Novaya Gazeta, announced its shutdown under sustained Kremlin pressure, with Nobel laureate Murat Bakhitov describing the closure as part of the Kremlin's \"military campaign.\"",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          27,
+          29,
+          31,
+          38,
+          46,
+          54,
+          55,
+          66,
+          75,
+          77,
+          89,
+          94,
+          150,
+          151
+        ]
+      },
+      {
+        "subject": "Russia-Africa summit",
+        "what_happened": "Putin hosted African leaders in Moscow for a summit focused on nuclear power deals, military recruitment, and positioning Russia as an alternative to Western partners, including a 2,000 MW plant for Ghana and floating nuclear reactors for other states.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          17,
+          43,
+          50,
+          95,
+          96,
+          113,
+          120,
+          122,
+          152,
+          153,
+          160,
+          161,
+          167,
+          176,
+          179,
+          187,
+          195,
+          198,
+          199,
+          200,
+          201,
+          203,
+          209,
+          211,
+          212,
+          213,
+          219,
+          223,
+          230,
+          231,
+          233,
+          246
+        ]
+      },
+      {
+        "subject": "G20 tensions over Russia",
+        "what_happened": "European ministers objected to Lavrov's presence at the G20 foreign ministers' meeting in the US, leading to the cancellation of the official group photo and broader diplomatic friction over Russia's role in the forum.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          14,
+          19,
+          30,
+          32,
+          37,
+          40,
+          49,
+          56,
+          64,
+          65,
+          67,
+          98,
+          112,
+          132,
+          156
+        ]
+      },
+      {
+        "subject": "Dnipro train station strike",
+        "what_happened": "A Russian drone strike on a crowded Dnipro train station killed at least 14 people, with Ukraine warning of further missile attacks on its energy infrastructure.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          18,
+          23,
+          51,
+          87,
+          129,
+          138,
+          164,
+          166,
+          182,
+          189,
+          216,
+          227,
+          240,
+          245
+        ]
+      },
+      {
+        "subject": "Nordic leaders call Putin",
+        "what_happened": "Finland and Norway held a rare direct phone call with Putin to discuss ending the Ukraine war, drawing both support and criticism from other EU partners who felt they were not consulted.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          78,
+          114,
+          165,
+          174,
+          205,
+          215,
+          228,
+          229,
+          249
+        ]
+      },
+      {
+        "subject": "Putin-Musk satellite talks",
+        "what_happened": "Putin called Elon Musk a \"genius\" after discussions on satellite technology, as Russia accelerates development of a domestic Starlink alternative.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          21,
+          35,
+          74,
+          145,
+          148,
+          242
+        ]
+      },
+      {
+        "subject": "Western Sahara UN vetoes",
+        "what_happened": "Competing US and Russian resolutions on Western Sahara were both defeated in the UN Security Council, and the MINURSO peacekeeping mission was not renewed after dual vetoes.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          7,
+          42,
+          72,
+          82
+        ]
+      },
+      {
+        "subject": "Russia diesel and US trade deal",
+        "what_happened": "Russia extended its diesel export ban through January while planning to ship 2.15 million tons to the US under a new arrangement, with tankers already en route and New Jersey threatening to block delivery.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          20,
+          47,
+          90,
+          92,
+          105,
+          157,
+          181,
+          188,
+          196,
+          210
+        ]
+      },
+      {
+        "subject": "Russian espionage in Europe",
+        "what_happened": "Suspected Russian sabotage and espionage incidents surfaced in Romania, Germany, and Poland, including a fire near a weapons factory, arrests of suspected saboteurs, and a Russian national detained photographing rail infrastructure.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          119,
+          170,
+          177,
+          193,
+          234,
+          243,
+          248
+        ]
+      },
+      {
+        "subject": "Ukraine strikes on Russian refineries",
+        "what_happened": "Ukraine hit multiple Russian oil refineries with drone strikes before pausing the offensive under US pressure, with at least one refinery set on fire and the pause seen as a gesture toward Trump-brokered talks.",
+        "coverage": "occasional",
+        "direction": "de-escalating",
+        "headline_ids": [
+          33,
+          44,
+          68,
+          86,
+          102,
+          107,
+          117,
+          126,
+          130
+        ]
+      },
+      {
+        "subject": "Ukraine-Russia peace talks outlook",
+        "what_happened": "Trump said a meeting with Zelenskyy and Putin would be set up soon, Zelenskyy confirmed talks would restart, and the Kremlin said the next round depends on the Middle East situation, while European countries were excluded from the next round.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          140,
+          197,
+          236,
+          247,
+          207
+        ]
+      }
+    ],
+    "gone": [
+      "Witkoff-Putin St. Petersburg meeting",
+      "Russia frees Stephen Hubbard",
+      "November peace talks in Abu Dhabi",
+      "Russia's central bank holds rate",
+      "Russia's jet-powered drone megabase"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide rich, multi-source coverage of the Oleshky evacuation, Novaya Gazeta closure, Russia-Africa summit, and G20 tensions, with good breadth across diplomacy, security, economy, and society, though some stories like the diesel deal and espionage incidents are thinner."
+    },
+    "headlines_used": [
+      "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties",
+      "Rival US and Russia resolutions on disputed Western Sahara are defeated in UN Security Council",
+      "Russia uncompromising as Rubio hosts G20 talks in shadow of conflicts",
+      "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "Italian taxpayers are paying millions to keep Russian yachts afloat",
+      "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+      "MINURSO au Sahara occidental: la mission de l'ONU n'est pas renouvelée, après les vetos de la Russie et des États-Unis",
+      "US Embassy Warns of Mass Casualty Threat at Moscow Museum",
+      "Russia’s Shadow Fleet Turns to Nets and Rubber Tires for Makeshift Drone Armor",
+      "Russia forced to ship grain via Arctic as Black Sea battles rage",
+      "Residents of Russian-controlled Ukrainian town arrive in Belarus",
+      "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
+      "FSB says US warned Russia of possible Moscow attack",
+      "Consensus looks elusive at G20 talks after European objections to Russia cancel group photo",
+      "Evacuees from Russian-occupied Oleshky expected in Ukraine",
+      "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "Putin is wooing Africa - and the feeling is mutual",
+      "Ukraine airstrike on bus in Russian-occupied Luhansk kills 9",
+      "La Russie intransigeante pour un G20 miné par les conflits",
+      "Russia Extends Ban on Most Diesel Exports Through January",
+      "Opinion | Elon Musk, Starlink and Vladimir Putin",
+      "Bulgaria votes as Russian attacks in Black Sea reach its shores",
+      "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of more missile attacks",
+      "On the Norway-Russia border, the Sámi people face a growing divide",
+      "Starved residents of Russian-occupied Oleshky return to Ukraine during a rare local ceasefire",
+      "Russia is back in the ice hockey world championships after sports court ruling",
+      "Independent Russian newspaper Novaya Gazeta shuts under Kremlin pressure",
+      "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "Novaya Gazeta, Russian independent newspaper, forced to shut down amid Kremlin pressure | CNN Business",
+      "European diplomats shun Russia at G20 gathering in the US",
+      "VIDÉO. Russie: Novaïa Gazeta ferme sous la pression des autorités",
+      "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
+      "Ukraine Hits Russian Oil Refinery, Ending Pause and Defying Trump",
+      "Evacuees from Russian-occupied city arrive in Ukraine",
+      "Putin praises Elon Musk as a ‘genius’ as Russia develops Starlink alternative",
+      "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "Russia's Lavrov says inviting Poland to attend G20 meeting breaks diplomatic rules",
+      "Russia’s top independent newspaper shuts down, blaming pressure from authorities",
+      "'Get them there alive': Ukraine's railways under Russian barrage",
+      "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "Former NATO chief discusses Putin and Ukraine",
+      "UN peacekeeping mission in Western Sahara to expire amid US, Russia vetoes",
+      "VIDÉO. Sommet Russie-Afrique: Moscou renforce ses liens avec le continent",
+      "Ukraine Strikes Bashneft Refineries as Russia Attacks Power Grid",
+      "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries",
+      "Russia’s last major independent newspaper shuts under government pressure",
+      "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+      "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
+      "G20 foreign ministers skip photo-op amid objections over Russia",
+      "Putin woos African leaders at a Moscow summit aimed at expanding Russia-Africa ties",
+      "'Horrific' Russian drone strike kills 14 at Ukraine train station: Kyiv",
+      "Anger as Cas overturns ban on Russia by ice hockey's global governing body",
+      "American held in Russia describes confinement as ‘spiritually good’",
+      "Russia: Critical newspaper 'Novaya Gazeta' to close",
+      "'Ils nous ont tué': Novaïa Gazeta, l'un des derniers journaux indépendants de Russie va fermer",
+      "EU’s Kallas Says Hosting Putin at G20 May Normalize War Crimes",
+      "Exclusive | The Troubled History of Russia’s Antiplague Institute",
+      "Russia observes rare Ukraine ceasefire to allow evacuations",
+      "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea",
+      "EXCLUSIVE: Pentagon tells Europeans to cool their rhetoric on Russia, sources say",
+      "Aid mission set to enter Oleshky as a localized Russia-Ukraine truce holds for a third day",
+      "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "G20 photo scrapped amid tensions over Russian foreign minister’s presence",
+      "Why European ministers refused to pose with Russia's Lavrov",
+      "\"Un assassinat\" : le journal indépendant russe Novaïa Gazeta annonce sa fermeture",
+      "G20 Photo Scrapped After Leaders Object to Russia’s Presence",
+      "Exclusive | Ukraine Pauses Strikes on Russian Refineries After Pressure From U.S.",
+      "Europe divided over how to influence US-Russia talks",
+      "Melania Trump-brokered local ceasefire begins as Russia continues attacks on Ukraine",
+      "Why are US, Russia and China racing to put nuclear reactors on the moon?",
+      "Competing US, Russia resolutions on Western Sahara defeated in UN Security Council",
+      "As war strains Kremlin finances, Putin reaches into more pockets in search of new revenue streams",
+      "Putin hails Elon Musk as 'truly a genius'",
+      "Prominent Russian newspaper shuts down under pressure from authorities",
+      "Russia and US discussing sanctions relief for Moscow’s sovereign wealth fund, Kremlin aide says",
+      "\"Ils nous ont tués\": le journal indépendant russe Novaïa Gazeta annonce sa fermeture",
+      "How Two Nordic Leaders Defied Russia Hawks With Putin Outreach",
+      "Opinion | Can Mitch McConnell Shift Trump’s Russia Policy?",
+      "Russian businessman blames sanctions in £30mn divorce battle",
+      "No alignment between U.S., UK & EU on Russia: Oliver Wyman's Tannebaum",
+      "Rival US and Russian resolutions on Western Sahara fail at UN",
+      "Lavrov says Zelenskiy comments are unhelpful, Russia's position is unchanged",
+      "Disinformation videos, likely from Russia, are exploiting real people to malign Senate candidates",
+      "US-brokered truce begins in Ukraine city occupied by Russia",
+      "Russian oil refinery on fire after Ukrainian strikes",
+      "Russia strikes Dnipro train station in central Ukraine, killing 15",
+      "Russia's war in Ukraine – All Content on this topic – Page 1 of 71",
+      "La fermeture de Novaïa Gazeta fait partie de \"la campagne militaire\" du Kremlin, selon le prix Nobel Mouratov",
+      "Russia Plans to Extend Diesel-Export Ban With Exemptions",
+      "Exclusive | Death Threats, Lawsuits and Billions in Play: The Battle Over Moving Russian Oil",
+      "New Jersey governor threatens to block delivery of Russian diesel cargoes",
+      "Local Russia-Ukraine truce brokered by Melania Trump takes effect amid strikes",
+      "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
+      "Russia in talks with four African states on large nuclear power plants, Rosatom says",
+      "Putin seeks to expand ties with African countries at Russia-Africa summit",
+      "Ukraine, Russia say US-brokered truce holding in ravaged city",
+      "PM | G20 official photo cancelled over presence of Russian Foreign Minister",
+      "UN panel: Russia is committing crimes against humanity by targeting civilians in Ukraine",
+      "Moscow confirms visit of CIA Director John Ratcliffe",
+      "VIDÉO. Russie-Afrique: l'ancien proche de Gbagbo défend un partenariat avec Moscou",
+      "Russia Downs Record Total of Ukrainian Drones Amid Summit",
+      "The Morning Risk Report: Extreme Networks to Pay $2.5 Million Over Sales to Russian Missile Maker",
+      "EU can compete with US AI giants, says Brussels’ frontier-model champion",
+      "Energy Secretary Wright on Trump's Russia diesel deal",
+      "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+      "Ukraine pauses strikes on Russian refineries after pressure from Trump, WSJ reports",
+      "A ceasefire in a Ukrainian city is holding, officials say, as Moscow and Kyiv await US-led talks",
+      "Zelensky doubtful on Russian acceptance of Trump's 'energy ceasefire'",
+      "Global News Podcast | Residents leave devastated Russian-occupied Oleshky",
+      "‘He can barely walk’: Russians tell how vulnerable men are being targeted and coerced into signing up",
+      "US irks Germany, Europe with Russian G20 invite, press bans",
+      "Guerre en Ukraine: 27 Ougandais enrôlés dans l'armée russe sont morts ou portés disparus, leurs familles sont désemparées",
+      "Putin Welcomes Stubb, Støre Call as Restoring European Contacts",
+      "France’s Nuclear Forces Bring In Neighbors to Keep Russia in Check",
+      "Volodymyr Zelenskyy opens door to security guarantees for Russia",
+      "Ukraine invests in firepower as it inflicts a new Russian casualty record",
+      "Japan demands release of national in meeting with Russia's Lavrov",
+      "Romanian president calls alleged Russian sabotage plot a 'grave violation' of NATO member's security",
+      "Ethiopia receives 12 Russian fighter jets and air defence systems as Tigray war escalates",
+      "Majority of Germans see Russia as a threat",
+      "Sommet Russie-Afrique: sécurité, nucléaire et influence... Ce que cherche à mettre Moscou en avant",
+      "Russia Grants Permission for Grain Vessels to Leave Azov Sea",
+      "Opinion | Coddling Putin Won’t Bring Peace to Ukraine",
+      "South Korean ‘tilt’ towards Russia alarms European allies",
+      "Russian oil refinery struck as Ukraine renews drone attacks",
+      "Residents leave Russian-occupied Oleshky by bus under truce brokered by Melania Trump",
+      "Russian satellites help Iran’s allies strike Saudi Arabia, data and officials say",
+      "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "Russia’s oil empire under pressure",
+      "Ukraine : 14 morts dans une attaque de drone russe sur la gare de Dnipro",
+      "Russia’s Lavrov to Go to US for G20 Foreign Ministers Meeting",
+      "How the Seizure of a Russian Vessel Brought the Ukraine War to the Arctic",
+      "What a local ceasefire means for the Russia-Ukraine war",
+      "Oleshky evacuees leave for Russia as ceasefire holds",
+      "Explainer: Key questions around the Russian and Ukrainian evacuation of Oleshky",
+      "Localized Ukraine ceasefire brokered by Melania Trump starts as Nordic leaders speak to Putin",
+      "Global News Podcast | Deadly Russian drone hits Ukrainian railway station",
+      "'Masha and the Bear': Ukraine sanctions Russian cartoon",
+      "Trump Says Meeting With Zelenskyy and Putin Will Be Set Up Soon",
+      "U.S. Energy Execs Say They Quit Startup Over Undisclosed Russian Funding",
+      "Letter: Ending the stand-off over Russia’s frozen central bank assets",
+      "CAS rules that Russia can compete in world championships",
+      "Russia committed war crimes in Ukraine by attacking its energy grid, UN-backed inquiry says",
+      "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+      "Is Ukraine running out of soldiers to fight Russia?",
+      "Les Russes \"utilisent les populations des pays pauvres\" pour faire la guerre: la sœur d'un jeune Malgache tué en Ukraine témoigne",
+      "Putin Says Russia Coordinates With ‘Genius’ Musk on Satellites",
+      "North Korean labour advertised online to Russian factories",
+      "Russia ‘forces’ closure of investigative newspaper Novaya Gazeta",
+      "Russian independent newspaper Novaya Gazeta forced to close its doors",
+      "Russia Africa summit 2026: Wetin to expect from Russia-Africa summit and how e go benefit African kontris",
+      "La Russie réunit des dirigeants africains pour renforcer les liens",
+      "Russia Adds Apple and Microsoft to State Surveillance Registry",
+      "Vladimir Putin lectures Nordic leaders on Russian history",
+      "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions",
+      "Russia plans to export 2.15 million tons of diesel in November, media say",
+      "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "Russia set to return to international ice hockey following CAS ruling",
+      "VIDÉO. Sommet Russie-Afrique: \"ce sommet est tout d’abord une vitrine politique\"",
+      "Ethiopia Takes Delivery of Russia Fighter Jets Ahead of Schedule",
+      "Inside Donald Trump Jr’s Mongolian hunting trip with a Kremlin-linked businessman",
+      "Russian, Ukrainian humanitarian officials enter Oleshky",
+      "Russian drone strike kills 14 on Ukrainian rail platform, 6 die in other attacks",
+      "Norway and Finland hold rare call with Putin to discuss ending war",
+      "Russia hits Dnipro station as Ukraine warns of new strikes",
+      "VIDÉO. Sommet Russie-Afrique: quelle est la stratégie de Vladimir Poutine en Afrique",
+      "Inside the Cyber Sabotage Campaign Waged by Russian Supporters",
+      "Washington discusses Russian deals for US oil majors in Ukraine peace talks",
+      "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
+      "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say",
+      "Moscow to host 2030 World Weightlifting Championships",
+      "VIDÉO. Guerre en Ukraine: un Malgache tué aux côtés de l'armée russe",
+      "Finland and Norway Hold ‘Frank’ Call With Putin on Ukraine",
+      "Russia and Ukraine begin local ceasefire in frontline city",
+      "Why is Russia sending fighter jets and air defences to Ethiopia?",
+      "Russian detained in Poland after photographing rail infrastructure, police say",
+      "Russia shadow fleet sanctions: Can the EU act without US? - DW.com",
+      "La France dénonce de nouvelles opérations d'ingérence en Afrique au profit de la Russie",
+      "Russia Ships Less Crude Even as Key Baltic Port’s Flows Rebound",
+      "Three Russian diesel tankers steam for US — including two under sanctions",
+      "At least 14 people killed in Russian attack on Dnipro train station",
+      "Putin says Moscow seeks better European ties, conflict will produce no winners",
+      "Russia's shadow fleet: Can the EU act even if the US eases sanctions on these ships?",
+      "Russie: deux hommes tués à Belgorod lors d'une frappe ukrainienne",
+      "Trump Should Do a Helmut Schmidt When He Meets Xi and Putin",
+      "‘Economic incentives are limited’: What does Russia really offer Africa?",
+      "Russia's diesel cargo changed its destination to 'Atlantic coast', shipping data shows",
+      "Ukraine: 14 killed in Russian drone strike on crowded Dnipro train station",
+      "Serbia’s Vucic Concedes Defeat After Putin-Like Gamble Fails",
+      "North Koreans being recruited into forced labour in Russia, report says",
+      "Russia's Rusal agrees bauxite, alumina joint ventures to tap big deposit in Ghana",
+      "Bonus Episode: Russian recruitment and sabotage",
+      "Europe’s Defense Powers Back Ukraine as US Eases Russia Pressure",
+      "Does Russia offer African countries an equal partnership?",
+      "Russia to extend diesel export ban, use quotas to fulfil US deal, sources say",
+      "Ukraine's Zelenskyy irked by US-Russia-China summit",
+      "Russia Is Said to Widen Military Recruitment Drive in Africa",
+      "Putin tells African leaders Moscow will not pursue ‘neo-colonialism’",
+      "Uganda says 27 citizens killed or presumed dead fighting for Russia in Ukraine",
+      "Russia in Africa: What does Putin hope to achieve?",
+      "Wheat Erases Black Sea Premium as Russia Signals Shipping Talks",
+      "Ethiopia receives 12 Russian Su-35 jets, plans S-400 acquisition",
+      "Russia, Ukraine say Oleshky demining operations complete, humanitarian operation to proceed",
+      "Denmark's Frederiksen criticizes Finland and Norway for calling Putin without coordinating with allies",
+      "Gulf Oil Bargains Lure India Away From Russia as Freight Soars",
+      "Kremlin says European countries not included in next Ukraine talks",
+      "Germany, South Korea deepen security partnership amid Russia-North Korea concerns",
+      "Russia in Africa: What is Putin hoping to achieve? - DW.com",
+      "Democrats to Probe Russian Diesel, Ask Banks to Save Records",
+      "Russia-Africa Summit: What is on the agenda, and why does it matter?",
+      "Russia's Rusal plans to mine bauxite in Ghana - RIA",
+      "Putin ya bude taron Rasha da nahiyar Afirka karo na uku a Moscow",
+      "Russia’s War on Ukraine Is Straining Food and Fuel Supply",
+      "Norway and Finland hold rare phone call with Putin: What that means",
+      "Ukraine sends drones towards Moscow, Russia strikes Kharkiv, officials say",
+      "Ukraine and Russia begin Melania Trump-brokered ceasefire to allow aid into occupied Oleshky",
+      "Major Ukraine Retailer Says Russian Hits Destroyed Its Chain",
+      "‘Russia is already part of who I am’: African students in Moscow",
+      "Moscow, Pyongyang back network sending workers to Russian factories, report says",
+      "Poland looks to India to push Russia towards peace in Ukraine",
+      "Europe’s Top Five Defense Powers to Call Russia Biggest Threat",
+      "Russia is selling Africa dependence disguised as partnership",
+      "Kremlin aide says discussions underway with US to lift sanctions on Russian investment fund",
+      "3. Ukraine and Russia begin Oleshky ceasefire for aid mission - DW.com",
+      "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+      "Ukraine's Zelenskiy: We have intelligence of new Russian ballistic missile strikes",
+      "Nordic leaders' call with Putin draws criticism from EU partners",
+      "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+      "Ethiopia says it received Russian Su-35 jets, S-400 air defence systems to follow",
+      "Ukraine's alleged support for Mali rebels: A risky strategy to weaken Russia in Africa?",
+      "Qatar’s Emir meets Iran’s Pezeshkian in Moscow",
+      "Putin woos African leaders, says Russia a better partner than 'colonial' West",
+      "Why Russia's arrest of Japanese journalist is the latest sign of deteriorating ties between the countries",
+      "Russia halts strikes on Ukraine’s Kherson as Oleshky ceasefire takes effect",
+      "Next round of Ukraine talks depends on Middle East, other factors, Kremlin aide says",
+      "Russia, Ukraine agree to US-brokered, 1 city ceasefire - DW.com",
+      "Qatar’s Emir and Putin call for diplomacy amid US-Iran conflict",
+      "Russia turns to Arctic WW2 route to export grain",
+      "Russia s attacks on Ukraine s capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
+      "Iranian and Qatari leaders meet at Russian energy forum",
+      "Putin salutes Musk's genius as Russia plays catch-up with Starlink",
+      "Romania says Russia-run sabotage network set fire near weapons factory",
+      "Turkey warns against further attacks by Russia, Ukraine on Black Sea vessels",
+      "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "Russia's Rosatom says it is in advanced talks to supply floating nuclear power plants to African countries",
+      "Zelenskyy says peace talks with Russia, US to restart",
+      "German police arrest two suspected of planning sabotage attacks for Russia, Spiegel says",
+      "Norway's premier says call with Putin was effort to present European views"
+    ],
+    "converted": false,
+    "relevant_headlines": 249,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Oleshky ceasefire and evacuation",
+        "expected": "Oleshky ceasefire and evacuation stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Oleshky ceasefire and evacuation appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Novaya Gazeta closure",
+        "expected": "Novaya Gazeta closure stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Novaya Gazeta closure appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Russia-Africa summit",
+        "expected": "Russia-Africa summit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Russia-Africa summit appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Oleshky ceasefire and evacuation",
+        "expected": "persist",
+        "sign": "Oleshky ceasefire and evacuation is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Oleshky ceasefire and evacuation stays in the news at the same level. Novaya Gazeta closure stays in the news at the same level. Russia-Africa summit stays in the news at the same level. Oleshky ceasefire and evacuation is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "US-brokered peace talks setup",
+        "expected": "The US-brokered Russia-Ukraine peace talks will be formally scheduled with a named venue and date, and the specific agenda items will be published, with European leaders excluded from the table.",
+        "direction": "escalate",
+        "sign": "Headlines will name the venue, the date, and the specific issues on the agenda, with Zelenskyy and Putin positions on territorial concessions and security guarantees laid out publicly."
+      },
+      "second": {
+        "subject": "Russia-Africa nuclear and military deals",
+        "expected": "African governments will announce implementation timelines for the nuclear power agreements and military recruitment programs signed in Moscow, while European and US officials will issue competing statements about their own African partnerships.",
+        "direction": "persist",
+        "sign": "Headlines will name specific African countries announcing contract details, Rosatom project milestones, or European counter-offers to African energy partners."
+      },
+      "third": {
+        "subject": "Novaya Gazeta closure aftermath",
+        "expected": "International press freedom organizations will issue formal resolutions condemning the Novaya Gazeta closure, and the Kremlin will either name a successor outlet or announce a new regulatory framework for Russian newspapers.",
+        "direction": "persist",
+        "sign": "Headlines will quote new statements from the Nobel laureate, the Kremlin response, or the announcement of a successor publication filling the gap."
+      },
+      "fade_call": {
+        "subject": "G20 Russia photo controversy",
+        "expected": "fade",
+        "sign": "Headlines will shift to other multilateral outcomes, with the group-photo dispute mentioned only in retrospectives or opinion columns."
+      },
+      "surprise": {
+        "subject": "Ratcliffe Moscow visit fallout",
+        "expected": "The confirmed visit of US CIA Director John Ratcliffe to Moscow will produce an unexpected joint intelligence announcement or a visible diplomatic incident that reshapes the US-Russia security dialogue ahead of the peace talks.",
+        "chance": "medium"
+      },
+      "summary": "The next week will be defined by the formal setup of US-brokered peace talks between Russia and Ukraine, with a venue, date, and agenda announced as Trump moves to bring Zelenskyy and Putin to the same table, while European leaders react to their exclusion. The Russia-Africa summit will shift from ceremony to implementation, with African governments publishing contract details for nuclear plants and military partnerships, and European capitals scrambling to counter Moscow's continental footprint. The Novaya Gazeta closure will ripple outward, drawing formal condemnations from press freedom bodies and prompting the Kremlin to signal its next move on independent media. The multilateral photo controversy will fade as attention turns to the next ministerial gathering. A surprise will come from the confirmed Moscow visit of US CIA Director Ratcliffe, whose meeting with Russian counterparts will produce a joint intelligence statement or a visible diplomatic friction that complicates the peace-track narrative.",
+      "generated_at": "2026-11-01T16:15:04+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Summit logistics",
+        "expected": "A named venue and delegation heads for the Trump-brokered Zelenskyy-Putin meeting will be announced as the Oleshky ceasefire is framed as the first tangible outcome of the talks track.",
+        "direction": "escalate",
+        "sign": "Headlines name a specific location for the summit or identify a working-level pre-meeting with named participants, rather than the current 'will be set up soon' framing."
+      },
+      "second": {
+        "subject": "European sabotage escalation",
+        "expected": "A new Russian espionage or sabotage incident in a third European country will trigger a formal NATO-level response, linking the Romania, Germany, and Poland cases into a coordinated European security posture.",
+        "direction": "escalate",
+        "sign": "Headlines report a new sabotage or espionage incident in a European country and a formal NATO or EU diplomatic response, rather than isolated national-level arrests and protests."
+      },
+      "third": {
+        "subject": "Diesel delivery standoff",
+        "expected": "The New Jersey governor's threat to block Russian diesel cargoes will trigger a specific legal or political confrontation as the first tanker approaches American waters.",
+        "direction": "persist",
+        "sign": "Headlines carry a specific legal filing, port authority decision, or congressional hearing on the diesel delivery, rather than the current threat-and-response exchanges."
+      },
+      "fade_call": {
+        "subject": "Russia-Africa summit",
+        "expected": "fade",
+        "sign": "The summit drops to a brief mention in a diplomacy roundup or a follow-up on the nuclear deals, with no new headlines about African leaders in Moscow."
+      },
+      "surprise": {
+        "subject": "Moscow museum security incident",
+        "expected": "The US Embassy warning of a mass casualty threat at a Moscow museum will materialize into an actual security alert, evacuation, or incident that dominates the news cycle.",
+        "chance": "low"
+      },
+      "summary": "Next week, the Oleshky ceasefire will anchor the diplomatic narrative as the US pushes toward concrete arrangements for a Trump-brokered Zelenskyy-Putin summit. A named venue and delegation heads will emerge, transforming the current 'will be set up soon' language into logistical planning. In Europe, the cluster of Russian sabotage incidents in Romania, Germany, and Poland will escalate into a coordinated NATO-level response as a new incident or formal diplomatic action links the cases together. In American ports, the Russian diesel delivery standoff will intensify as New Jersey's blocking threat moves from political rhetoric to legal or administrative action. The Novaya Gazeta closure will recede as the final issue publishes, and the Russia-Africa summit will fade into background follow-up on the nuclear deals already announced.",
+      "generated_at": "2026-11-01T16:28:59+02:00"
+    }
+  },
+  "display": {
+    "headline": "Summit Set After Oleshky, European Sabotage Cluster Escalates",
+    "emojis": [
+      "🕊️",
+      "🕵️",
+      "⛽"
+    ],
+    "emoji_reasons": [
+      "The Oleshky ceasefire and the upcoming Zelenskyy-Putin summit are the dominant diplomatic story of the week.",
+      "Russian espionage and sabotage incidents across Romania, Germany, and Poland are escalating into a broader European security issue.",
+      "The Russian diesel delivery to the US and New Jersey's blocking threat form a concrete ongoing standoff in American ports."
+    ],
+    "tldr": "Next week, the US will move from 'talks will be set up soon' to naming a summit venue and delegation, building on the Oleshky ceasefire. European sabotage incidents will escalate into a NATO-level response, and the Russian diesel tanker standoff in US ports will sharpen into legal action.",
+    "eli5": "Right now, the big news is that a ceasefire held in a Ukrainian city called Oleshky, and hundreds of hungry people got out safely. Trump said a meeting between the leaders will happen soon. Next week, we should hear where that meeting is and who is going. This is the summit logistics story.\n\nIn Europe, Russian spies and saboteurs have been caught in three countries this week. Next week, this is set to get worse, with a new incident or a bigger official response from NATO tying the cases together. This is the European sabotage story.\n\nThe diesel deal is tricky. Russia is sending fuel to the US, but a state governor wants to block it at the port. This will probably turn into a legal fight over who gets to say no.\n\nA surprise would be something actually happening at a Moscow museum, where the US already warned about a possible big attack. That is unlikely but possible."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Peace talks are still discussed with Trump saying a meeting will be 'set up soon' [140] and Zelenskyy confirming talks will restart [247], but no named delegation traveled to Abu Dhabi and no joint agenda document appeared; the specific Abu Dhabi venue dropped from headlines entirely.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "steady",
+            "form": "not_seen",
+            "evidence": "The jet-powered drone megabase is listed as 'No longer in the headlines' and no headline names jet-powered drones in a Russian strike; the drone war continued with standard drones hitting refineries [33, 86] and Dnipro [51] but the new capability was not reported in combat.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The diesel deal and sanctions friction continued with New Jersey threatening to block delivery [92] and Democrats probing Russian diesel [210], but no formal bipartisan congressional resolution or named committee chair challenged the waiver's legal basis as the forecast described.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Stephen Hubbard is listed as 'No longer in the headlines' with only a single follow-up headline [53] describing his personal confinement experience, matching the predicted shift to a brief personal-angle mention.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The specific escalation of the Black Sea cargo ship sinking into a formal Romanian diplomatic protest and joint investigation demand did not appear; Romania's 'grave violation' statement [119] concerned a separate sabotage plot near a weapons factory [243].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly sensed that diplomatic momentum and the diesel deal would continue to drive headlines, and the Stephen Hubbard fade was well called. It missed that the Abu Dhabi framing would dissolve into a vaguer 'meeting to be set up soon' and that the jet-powered drone would vanish from the news cycle entirely. The main thesis of diplomatic preparation driving the week was merely early rather than wrong, since the talks are still pending but in a less concrete form than forecast.",
+        "S": 8
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Witkoff-Putin St. Petersburg meeting is explicitly listed as 'No longer in the headlines' and no headline this round references the meeting or Witkoff's St. Petersburg visit.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The Oleshky ceasefire became the single dominant story of the week with over twenty headlines covering evacuations, demining, and family reunions [4, 6, 11, 12, 25, 28, 58, 62, 63, 93, 97, 108, 127, 134, 136, 163, 175, 204, 217, 225, 237], escalating from an agreed truce to actual civilian evacuation.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "Stephen Hubbard is listed as 'No longer in the headlines' with only one residual mention [53] about his personal experience, contradicting the forecast that the release would persist at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Witkoff-Putin St. Petersburg meeting, which the fade call expected to still be in the headlines, is explicitly listed as 'No longer in the headlines' with no residual coverage.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "The forecast predicted 'no surprise' and 'nothing outside the current stories appears,' yet multiple major new stories dominated the week: Novaya Gazeta's closure [27, 29, 31, 46, 54, 66, 75, 89, 94, 150, 151, 155], the Russia-Africa summit [1, 17, 43, 50, 95, 96, 122, 153, 160, 167, 199, 233, 246], and the G20 photo-op cancellation [3, 14, 19, 30, 32, 37, 40, 49, 56, 64, 65, 67, 98, 112, 156].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified that the Oleshky ceasefire would remain in the news, but it was the only item that held up; both the Witkoff meeting and the Hubbard release faded rather than persisting. The 'no surprise' call was the most significant miss, as the week produced at least four entirely new dominant stories that were absent from the previous round. The main thesis of 'more of the same' was wrong rather than merely early, because the news cycle rotated to fundamentally new subjects while the old ones receded.",
+        "S": 2
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Both sides issued contrasting public remarks with Zelenskyy confirming talks will restart [247], Lavrov calling Zelenskyy's comments 'unhelpful' [83], the Kremlin saying the next round depends on the Middle East [236], and Europe being excluded [207], but no detailed joint position statements or back-channel briefings were reported as the forecast's sign described.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Ukraine struck Russian oil refineries [33, 44, 86, 126] and Russia hit the Dnipro train station killing 14 [51, 87, 129, 164, 182, 189], but Ukraine then paused strikes under US pressure [68, 107] and the specific targets were energy rather than the forecast's aviation and digital infrastructure in the Moscow region.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Political friction over the diesel deal continued with New Jersey threatening to block delivery [92], Democrats probing the deal [210], and Russia discussing sanctions relief for its sovereign wealth fund [76, 224], but no formal congressional hearings or floor votes were reported as the forecast's sign required.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Stephen Hubbard is listed as 'No longer in the headlines' with only a single personal-angle follow-up [53] describing his confinement as 'spiritually good,' matching the predicted shift to his personal story and family reunion.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The jet-powered drone megabase is listed as 'No longer in the headlines' and no headline reports Russia revealing or deploying the new jet-powered attack drone in a combat operation.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's core thesis that both sides would engage in pre-talks positioning was broadly correct, as Zelenskyy, Lavrov, and the Kremlin all issued contrasting public remarks this week. It over-specified the drone escalation (aviation and digital targets in Moscow rather than refineries) and the congressional challenge (formal hearings rather than state-level and committee-level friction). The main thesis was neither wrong nor merely early but rather directionally correct with overly specific concrete details that did not materialize in the exact form described.",
+        "S": 9
+      }
+    },
+    "S": [
+      {
+        "crystal": 8,
+        "persistence": 2,
+        "plain": 9
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 8, persistence 2."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Computed from the scores: crystal 8, plain 9."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Computed from the scores: persistence 2, plain 9."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 2.0,
+      "crystal_vs_plain": 0.0,
+      "persistence_vs_plain": -2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 0.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was dominated by a surge in US-Russia diplomacy. US envoy Steve Witkoff traveled to St. Petersburg to meet President Putin, calling him a 'humanitarian' and pressing for an end to the war. The Kremlin responded by agreeing to three-way peace talks with Ukraine and the US in early November in Abu Dhabi. Melania Trump brokered a one-city humanitarian ceasefire in the Russian-occupied town of Oleshky, and Russia released 74-year-old American Stephen Hubbard after more than four years in a Russian jail. In a controversial move, Trump waived several newly enacted sanctions on Russian energy just before a new law took effect, angering Zelensky and parts of Congress. On the battlefield, Ukraine launched some of its largest drone attacks of the year, hitting Moscow-area airports, data centers, and Putin's hometown, while Russia pounded Kyiv with cluster bombs and missiles. The first tanker of Russian diesel under the Trump-Putin trade\n- Witkoff-Putin St. Petersburg meeting (dominant, new): US envoy Steve Witkoff met Putin in St. Petersburg, called him a 'humanitarian,' and proposed a three-way summit with Trump and Xi in China.\n- Oleshky humanitarian ceasefire (dominant, new): Melania Trump brokered a one-city ceasefire in the Russian-occupied town of Oleshky to allow humanitarian aid and civilian evacuation.\n- Russia frees Stephen Hubbard (dominant, resolved): Russia released 74-year-old American Stephen Hubbard after over four years in a Russian jail, at Trump's request, with Witkoff present.\n- Trump waives Russia sanctions (dominant, new): Trump suspended several newly enacted sanctions on Russian energy before a new law took effect, angering Zelensky and parts of Congress while he defended it as an incentive for peace.\n- November peace talks in Abu Dhabi (dominant, new): Russia, Ukraine, and the US agreed to hold three-way negotiations in early November in Abu Dhabi, with Putin also floating a separate summit with Trump and Xi.\n- Ukraine's massive drone offensive (regular, escalating): Ukraine launched over 1,000 drones at Russia, hitting Moscow-area airports, a major bank's data center, and an oil terminal in Putin's hometown, crippling diesel supply chains.\n- Russian diesel tanker to the US (regular, new): The first tanker of Russian diesel under the Trump-Putin trade deal set sail for the US, with delivery expected in 15 to 20 days.\n- Romania blames Russia for Black Sea ship sinking (regular, new): A cargo ship was sunk by a drone in the Black Sea, killing one and leaving three missing, with Romania blaming Russia.\n- Russia espionage in Europe (regular, continuing): Austria expelled four Russian diplomats over espionage, Germany arrested a Ukrainian man suspected of spying for Moscow, and Poland renovated Cold War bunkers against hybrid threats.\n- Russia's central bank holds rate (occasional, continuing): The Bank of Russia held its key rate at 14 percent while raising its 2026 inflation forecast, citing war-driven price pressures from Ukrainian strikes.\n- Putin floats Trump-Xi summit (regular, new): Putin proposed a three-way summit with Trump and Xi in China to discuss the Ukraine deal, with China reportedly preparing for the meeting.\n- Russia's jet-powered drone megabase (occasional, escalating): Russia built a new jet-powered attack drone base in just six weeks, ramping up its drone war capability.\n\nRound 2026-10-17:\nThis week in and around Russia was dominated by a sharp diplomatic rupture over US President Trump's decision to waive newly enacted sanctions on Russian energy, a move he justified by citing national interest and a diesel purchase deal with Moscow. Kyiv condemned the waiver as wrong and an encouragement for Putin, while Russian officials called it historic. Zelensky simultaneously defied Trump by ordering the resumption of strikes on Russian oil refineries, shattering a fragile energy truce. On the battlefield, Russia intensified strikes on Ukrainian steel plants, power grids, and ships, killing at least eight civilians and cutting electricity to one million people ahead of winter. Satellite imagery revealed Russia had constructed a major new drone launch base in just six weeks. Diplomatically, Putin spoke with Pope Leo about aiding civilians in Oleshky, a Russian envoy discussed joint US-Russia data-center deals, and Russia returned to the G20 table in Bangkok.\n- Trump waived newly enacted Russia energy (regular, continuing): Trump waived newly enacted Russia energy sanctions citing national interest, prompting bipartisan backlash in Congress and condemnation from Ukraine while Russia called it historic.\n- Zelensky defied Trump by ordering the (regular, continuing): Zelensky defied Trump by ordering the resumption of Ukrainian strikes on Russian oil refineries, shattering the energy ceasefire and drawing a sharp rebuke from the White House.\n- Russia struck nine Ukrainian regions with (regular, continuing): Russia struck nine Ukrainian regions with missiles and drones, killing at least eight civilians and cutting power to one million people as it targeted steel plants and energy infrastructure ahead of winter.\n- Satellite images revealed Russia had built (regular, continuing): Satellite images revealed Russia had built a major new drone attack base in just six weeks, signaling a significant escalation in its aerial campaign.\n- Putin spoke with Pope Leo from (regular, continuing): Putin spoke with Pope Leo from the Vatican, agreeing to cooperate on aid for civilians in the besieged town of Oleshky.\n- Oil prices touched $110 a barrel (regular, continuing): Oil prices touched $110 a barrel for the first time since May as markets worried about Russian supply disruptions and Middle East tensions.\n- Five Russian drones crashed on Moldovan (regular, continuing): Five Russian drones crashed on Moldovan territory, prompting condemnation from Chisinau and raising fears of spillover from the Ukraine war.\n- Russia returned to the G20 table (regular, continuing): Russia returned to the G20 table in Bangkok on a US invitation, angering European leaders who saw it as a signal of Washington's pivot toward Moscow.\n- A magnitude-7 earthquake struck Russia's Kamchatka (regular, continuing): A magnitude-7 earthquake struck Russia's Kamchatka Peninsula, a significant seismic event in one of the world's most active tectonic zones.\n- Russia used a large army of (regular, continuing): Russia used a large army of social-media bots to push fake US election videos, part of an ongoing information-war effort ahead of midterms.\n",
+    "PREVIOUS_FORECAST": "Lead: Abu Dhabi talks preparation. Expected: The US, Russia and Ukraine will finalize a joint agenda for the early-November Abu Dhabi session, with a named delegation traveling to Abu Dhabi for a pre-talks working meeting. Direction: persist. Sign: Headlines name a specific delegation or working group traveling to Abu Dhabi, or a joint document outlining the negotiation agenda, rather than the current agreed-to-hold-talks language\nSecond: Jet-powered drone first combat use. Expected: Russia will deploy its new jet-powered attack drones in a strike on Ukrainian energy or digital infrastructure, marking the first operational use of the capability built in the new megabase. Direction: escalate. Sign: Headlines name jet-powered drones or a new drone type in a Russian strike on Ukrainian infrastructure, rather than the current reporting of standard drones and missiles\nThird: Energy sanctions congressional challenge. Expected: A bipartisan congressional resolution will formally challenge the legal basis of the energy sanctions waiver, triggered by Zelensky's public confrontation with Trump over the diesel deal and the energy-ceasefire framing. Direction: escalate. Sign: Headlines carry a named committee chair or a numbered bill in the sanctions fight, or a White House briefing specifically addressing the energy-ceasefire question, rather than the current opinion-piece coverage\nFade call: Stephen Hubbard release. Expected: fade. Sign: The release drops to a brief mention in a diplomacy roundup or a follow-up health update, with no new headlines about his return or the conditions of his release\nSurprise (chance low): Black Sea incident escalation. Romania will file a formal diplomatic protest over the cargo ship sinking and demand a joint investigation, turning a single maritime loss into a standing security issue that complicates the peace-talks agenda.\nSummary: Next week, the diplomatic momentum from the Witkoff-Putin meeting will drive headlines as the US, Russia and Ukraine prepare for the early-November Abu Dhabi talks. A joint agenda or pre-talks working meeting will be the most concrete diplomatic step, settling whether the Trump-Xi-Putin summit will proceed in parallel. On the battlefield, Russia will test its newly built jet-powered drones in a strike on Ukrainian infrastructure, and the drone-and-missile exchange will intensify as both sides position for negotiations. In Washington, the Zelensky-Trump confrontation over the energy ceasefire will push Congress toward a formal challenge to the sanctions waiver, while the diesel tanker sails toward American ports. The Oleshky ceasefire will see its first aid convoys attempted, and the Black Sea ship sinking will linger as a diplomatic irritant.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. Diplomatic talks are progressing with Trump saying a Zelenskyy-Putin meeting will be set up soon (140), Zelenskyy confirming talks will restart (247), and the Kremlin noting the next round depends on the Middle East (236), but the specific Abu Dhabi named-delegation scenario is absent from all headlines.\n- second: did_not_appear. No headline specifically names jet-powered drones in a combat deployment; the jet-powered drone megabase is explicitly listed as no longer in the headlines, and the drone strikes reported (51, 87, 129) are described as standard drone attacks.\n- third: true_in_direction. Headline 210 shows Democrats probing the Russian diesel deal and asking banks to save records, and headline 92 shows New Jersey threatening to block delivery, but this is a Democratic probe rather than the formal bipartisan congressional resolution challenging the legal basis that was predicted.\n- fade_call: came_true. Headline 53 frames Hubbard's story as a personal account describing confinement as spiritually good, and the Witkoff-Putin meeting is no longer in the headlines, matching the predicted shift from diplomatic significance to personal narrative.\nArcher note: X's main thesis that the Witkoff-Putin meeting would drive diplomatic headlines was wrong because that meeting faded entirely, replaced by a broader US-brokered talks framework. The jet-powered drone prediction was over-specific and missed the general drone-and-missile escalation that actually dominated the battlefield coverage. The bulletin correctly identified the Hubbard fade and the congressional diesel fight, but its overall framing was anchored to a meeting that was already receding by the previous round.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null,
+  "judgment_v1": {
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Diplomatic talks are progressing with Trump saying a Zelenskyy-Putin meeting will be set up soon (140), Zelenskyy confirming talks will restart (247), and the Kremlin noting the next round depends on the Middle East (236), but the specific Abu Dhabi named-delegation scenario is absent from all headlines."
+          },
+          "second": {
+            "grade": "did_not_appear",
+            "evidence": "No headline specifically names jet-powered drones in a combat deployment; the jet-powered drone megabase is explicitly listed as no longer in the headlines, and the drone strikes reported (51, 87, 129) are described as standard drone attacks."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline 210 shows Democrats probing the Russian diesel deal and asking banks to save records, and headline 92 shows New Jersey threatening to block delivery, but this is a Democratic probe rather than the formal bipartisan congressional resolution challenging the legal basis that was predicted."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headline 53 frames Hubbard's story as a personal account describing confinement as spiritually good, and the Witkoff-Putin meeting is no longer in the headlines, matching the predicted shift from diplomatic significance to personal narrative."
+          }
+        },
+        "archer_note": "X's main thesis that the Witkoff-Putin meeting would drive diplomatic headlines was wrong because that meeting faded entirely, replaced by a broader US-brokered talks framework. The jet-powered drone prediction was over-specific and missed the general drone-and-missile escalation that actually dominated the battlefield coverage. The bulletin correctly identified the Hubbard fade and the congressional diesel fight, but its overall framing was anchored to a meeting that was already receding by the previous round."
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "did_not_appear",
+            "evidence": "The Witkoff-Putin St. Petersburg meeting is explicitly listed as no longer in the headlines, directly contradicting the prediction that it would persist at the same level."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "The Oleshky ceasefire is not merely persisting but has become the dominant story of the week (headlines 4, 25, 28, 58, 70, 85, 93, 97, 108, 110, 127, 134, 135, 136, 158, 163, 175, 204, 217, 225, 226, 235, 237), far exceeding the same-level persistence the bulletin predicted."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline 53 still covers the American held in Russia but in personal framing (describing confinement as spiritually good) rather than the diplomatic-significance level the bulletin predicted would persist at the same volume."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "The Witkoff-Putin St. Petersburg meeting is explicitly no longer in the headlines, contradicting the fade call that predicted it would still be reported at the next collection."
+          }
+        },
+        "archer_note": "Y's more-of-the-same thesis was fundamentally wrong because the defining stories of this week (Oleshky becoming dominant, Novaya Gazeta closure, Russia-Africa summit) were all new developments rather than continuations. The bulletin missed the dramatic escalation of Oleshky from a secondary item to the week's top story, and it incorrectly predicted the Witkoff-Putin meeting would persist when it was already fading. Its only strength was correctly identifying that Oleshky and Hubbard would remain in the headlines, though it badly underestimated their trajectories."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "Both sides are making positioning statements (Lavrov calling Zelenskiy's comments unhelpful in 83, Zelenskyy opening the door to security guarantees in 116, the Kremlin excluding Europe from next talks in 207), but the specific Abu Dhabi framing and detailed non-negotiable-terms statements are not the dominant coverage."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Ukraine hit Russian refineries (33, 44, 86, 126) and Russia struck the Dnipro train station killing 14 (51, 87, 129, 131, 164, 182, 189), confirming infrastructure escalation, though aviation-specific targets are not named in the headlines."
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Headline 210 shows Democrats probing the diesel deal and asking banks to save records, but this is a legislative probe rather than the formal congressional hearings and pointed floor statements the bulletin predicted."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Headline 53 covers Hubbard in personal terms (describing confinement as spiritually good), and the Witkoff-Putin meeting is gone from the headlines, matching the predicted shift from diplomatic significance to personal recovery framing."
+          }
+        },
+        "archer_note": "Z's main thesis of diplomatic positioning combined with drone-war escalation was the closest to reality among the three bulletins, with both tracks materializing clearly in the headlines. It missed the specific Abu Dhabi framing and over-emphasized formal congressional proceedings when the diesel fight was more informal and state-level. Its medium-chance surprise of a jet-powered drone reveal did not appear, but the general drone escalation it predicted in the second item did happen, showing the bulletin was directionally sound even when specific details shifted."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "X correctly predicted the Hubbard fade and had a reasonable diplomatic-talks lead, while Y got two of its four items wrong by predicting the Witkoff-Putin meeting would persist when it was already fading. X's thesis of forward-moving diplomacy was closer to reality than Y's static more-of-the-same framing."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Both bulletins scored three true_in_direction and one came_true, but Z's second item (general drone-war escalation) was more accurate than X's second (specific jet-powered drone deployment that did not appear). Z's lead framing of competing positioning statements was also slightly closer to the actual headlines than X's requirement for a named Abu Dhabi delegation."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Z scored three true_in_direction and one came_true, while Y scored only two true_in_direction and two did_not_appear, with both of Y's Witkoff-Putin predictions failing. Z's overall thesis of diplomatic positioning plus battlefield escalation tracked the actual headlines far more closely than Y's static persistence model."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 2.0,
+      "crystal_vs_plain": -1.0,
+      "persistence_vs_plain": -2.0
+    },
+    "consistency": {
+      "compared": 3,
+      "disagree": 0,
+      "flags": []
+    },
+    "v": -1.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  }
+}

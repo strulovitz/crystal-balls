@@ -1,0 +1,645 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "NL",
+  "name": "Netherlands",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T06:24:07+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The Netherlands was dominated this week by a dramatic Eurovision saga: the Dutch broadcaster initially pulled out of the 2027 contest over Israel-related sensitivities, then reversed the decision after public pushback, only to withdraw a second time, leaving 36 countries to compete. The back-and-forth made the Netherlands the center of a European cultural and political controversy. In other news, the Dutch coast guard rescued 38 people adrift in a rubber boat, a reminder of the ongoing Mediterranean migration crisis. The government pledged 500 million euros in military support to Ukraine and 500 million dollars to protect tropical forests. Domestically, the cabinet announced plans to cut roughly 25,000 government jobs over the next decade as part of an AI-led administrative overhaul, a move that drew both praise and concern. A Dutch zookeeper was killed after a leopard attacked her in the animal's enclosure. The government also ordered poultry to be kept indoors amid a bird-flu outbreak, and KLM extended Middle East flight cancellations through the winter. The Eredivisie football league continued its regular matchweek, with one club celebrating its Stranraer heritage in a tartan kit. Corporate news included Adyen beating sales estimates, Applied Materials doubling its stake in chip-tool maker Besi, and a Dutch court allowing Booking.com to mandate 40 percent office attendance.",
+    "key_events": [
+      {
+        "event": "The Netherlands withdrew from Eurovision 2027 over Israel sensitivities, then reversed, then withdrew again after public pushback.",
+        "date": null,
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Dutch coast guard rescued 38 people adrift in a rubber boat in the Mediterranean.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The Netherlands pledged 500 million euros in military support to Ukraine.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The Dutch government announced plans to cut 25,000 jobs over the next decade as part of an AI-led administrative overhaul.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "A Dutch zookeeper was killed after being attacked by a leopard in the animal's enclosure.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "A Dutch court ruled that Booking.com can require employees to attend the office 40 percent of the time.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The Dutch government ordered poultry to be kept indoors due to a bird-flu outbreak.",
+        "date": null,
+        "domain": "health",
+        "importance": 3
+      },
+      {
+        "event": "KLM extended its Middle East flight cancellations through the winter season.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Applied Materials moved to double its stake in Dutch chip-tool maker Besi, sending the stock soaring.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The Netherlands pledged 500 million dollars to protect tropical forests.",
+        "date": null,
+        "domain": "environment",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "politics",
+      "economy",
+      "society",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🎭",
+      "🛡️",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "The Netherlands' dramatic back-and-forth withdrawal from Eurovision 2027 over Israel sensitivities (headlines 3, 17, 30, 34) is the defining political-culture drama of the week.",
+      "The Dutch pledge of 500 million euros in military support to Ukraine (headline 10) underscores the country's growing defense commitment.",
+      "The government's plan to cut 25,000 jobs through an AI-led overhaul (headlines 14, 24, 35) signals a major structural shift in Dutch public administration."
+    ],
+    "developments": [
+      {
+        "subject": "Eurovision 2027 withdrawal",
+        "what_happened": "The Dutch broadcaster withdrew from Eurovision 2027 over Israel sensitivities, reversed after pushback, then withdrew again, leaving 36 countries to compete.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          7,
+          16,
+          17,
+          20,
+          30,
+          34
+        ]
+      },
+      {
+        "subject": "Mediterranean boat rescue",
+        "what_happened": "The Dutch coast guard rescued 38 people adrift in a rubber boat, highlighting the ongoing migration route across the Mediterranean.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          9,
+          15
+        ]
+      },
+      {
+        "subject": "Ukraine military pledge",
+        "what_happened": "The Netherlands committed 500 million euros in additional military support to Ukraine.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "AI-led government job cuts",
+        "what_happened": "The Dutch government announced a plan to cut roughly 25,000 public-sector jobs over the next decade as part of an AI-driven administrative overhaul.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          14,
+          24,
+          35
+        ]
+      },
+      {
+        "subject": "Zookeeper leopard attack",
+        "what_happened": "A Dutch zookeeper was killed after a leopard attacked her inside the animal's enclosure.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          22
+        ]
+      },
+      {
+        "subject": "Booking.com office mandate",
+        "what_happened": "A Dutch court allowed Booking.com to require employees to be in the office 40 percent of the time.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          21
+        ]
+      },
+      {
+        "subject": "Bird flu poultry order",
+        "what_happened": "The Dutch government ordered all poultry to be kept indoors in response to a bird-flu outbreak.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          28
+        ]
+      },
+      {
+        "subject": "KLM Middle East cancellations",
+        "what_happened": "KLM extended its Middle East flight cancellations through the entire winter season.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          39
+        ]
+      },
+      {
+        "subject": "Eredivisie matchweek",
+        "what_happened": "The Dutch Eredivisie played its regular Saturday matchweek, with a club celebrating its Stranraer heritage in a tartan kit.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          12,
+          18,
+          23,
+          29,
+          31,
+          36,
+          38,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ]
+      },
+      {
+        "subject": "Corporate and finance moves",
+        "what_happened": "Adyen beat sales estimates, Applied Materials doubled its stake in Besi, CVC weighed a bid for Corbion, and a Dutch regulator blocked a takeover of Unilever's Unox brand.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          8,
+          19,
+          32,
+          33,
+          37
+        ]
+      },
+      {
+        "subject": "Odido new CEO",
+        "what_happened": "Dutch telecom firm Odido, still recovering from a February cyberattack, named a new chief executive.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          25
+        ]
+      },
+      {
+        "subject": "Tropical forest pledge",
+        "what_happened": "The Netherlands pledged 500 million dollars to protect tropical forests.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          41
+        ]
+      }
+    ],
+    "gone": [
+      "PM Jetten expecting baby",
+      "Ahold Delhaize cyber incident",
+      "INVE Technologies Dutch auction",
+      "Amsterdam food culture",
+      "Dutch armada history"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major political, economic, and cultural stories of the week well, though the Eurovision saga is heavily overrepresented while smaller domestic policy debates receive little attention."
+    },
+    "headlines_used": [
+      "G Netherlands B.V.",
+      "Netherlands coast guard rescues 38 people adrift in a rubber boat",
+      "Dutch broadcaster pulls out of Eurovision over Israel 'sensitivities'",
+      "Cambuur vs Go Ahead Eagles: Dutch Eredivisie stats & head-to-head",
+      "Dutch zookeeper dies after being attacked by leopard",
+      "Tulip fever grips the Netherlands",
+      "Eurovision : les Pays-Bas se retirent en raison de la question \"sensible\" d'Israël",
+      "Dutch Payments Firm Adyen’s Sales Beat Estimates",
+      "Dutch authorities rescue 38 people adrift in rubber boat",
+      "Dutch pledge €500 million in military support to Ukraine",
+      "People enter cages while the animals seem free at a unique Amsterdam museum",
+      "PSV vs Willem II: Dutch Eredivisie stats & head-to-head",
+      "Le Creuset has lots of cool gifts besides its Dutch oven. These are our favorites",
+      "Can AI Replace Government Jobs? The World Is Watching the Dutch",
+      "Dutch authorities rescue 38 people adrift in rubber boat - Al Jazeera",
+      "36 countries to compete in Eurovision 2027 as Ireland, Netherlands stay out over Israel",
+      "After pushback, the Dutch reverse course and withdraw from Eurovision again",
+      "Ajax vs AZ Alkmaar: Dutch Eredivisie stats & head-to-head",
+      "CVC Weighs Bid for Dutch Ingredients Maker Corbion",
+      "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’",
+      "Dutch court allows Booking.com to require 40% office attendance",
+      "Dutch zookeeper dies after leopard attacked her in the animal’s enclosure",
+      "Excelsior vs Twente: Dutch Eredivisie stats & head-to-head",
+      "Dutch Government Plans to Cut 25,000 Jobs in AI-Led Overhaul",
+      "Dutch telecoms firm Odido, hit by February cyberattack, names new CEO",
+      "Netherlands",
+      "Dutch Crypto Groups Warn of Sell Off Over Wealth-Tax Carveout",
+      "Dutch government orders poultry to be kept inside due to bird flu",
+      "Feyenoord vs Fortuna Sittard: Dutch Eredivisie stats & head-to-head",
+      "Netherlands won't join 2027 Eurovision Song Contest as Israel protest continues",
+      "Heerenveen vs NEC Nijmegen: Dutch Eredivisie stats & head-to-head",
+      "Dutch regulator blocks takeover of Unilever's Unox brand",
+      "Dutch chip tool maker Besi soars after Applied Materials moves to double stake",
+      "Netherlands pulls out of Eurovision again over Israel participation",
+      "Netherlands aims to cut around 20% of government jobs over next decade",
+      "Groningen vs Sparta Rotterdam: Dutch Eredivisie stats & head-to-head",
+      "ASML may account for up to 1.6% of Dutch economy in 2026, ING says",
+      "Telstar vs Utrecht: Dutch Eredivisie stats & head-to-head",
+      "Dutch airline KLM extends Middle East flight cancellations throughout winter",
+      "PSV vs Feyenoord: Dutch Eredivisie stats & head-to-head",
+      "Netherlands pledges $500 million to protect tropical forests",
+      "AZ Alkmaar vs Twente: Dutch Eredivisie stats & head-to-head",
+      "Fortuna Sittard vs Excelsior: Dutch Eredivisie stats & head-to-head",
+      "Sparta Rotterdam vs Ajax: Dutch Eredivisie stats & head-to-head",
+      "NEC Nijmegen vs Groningen: Dutch Eredivisie stats & head-to-head",
+      "Willem II vs Cambuur: Dutch Eredivisie stats & head-to-head",
+      "Dutch football team celebrates Stranraer links with tartan kit",
+      "Utrecht vs PEC Zwolle: Dutch Eredivisie stats & head-to-head"
+    ],
+    "converted": false,
+    "relevant_headlines": 48,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Eurovision 2027 withdrawal",
+        "expected": "Eurovision 2027 withdrawal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Eurovision 2027 withdrawal appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Mediterranean boat rescue",
+        "expected": "Mediterranean boat rescue stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Mediterranean boat rescue appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Ukraine military pledge",
+        "expected": "Ukraine military pledge stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ukraine military pledge appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Mediterranean boat rescue",
+        "expected": "persist",
+        "sign": "Mediterranean boat rescue is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Eurovision 2027 withdrawal stays in the news at the same level. Mediterranean boat rescue stays in the news at the same level. Ukraine military pledge stays in the news at the same level. Mediterranean boat rescue is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Eurovision withdrawal fallout",
+        "expected": "Dutch political parties will hold formal debates over whether the broadcaster had the authority to reverse its decision twice, and the government will issue a statement clarifying the country's official position for the upcoming song contest.",
+        "direction": "de-escalate",
+        "sign": "Headlines will feature Dutch ministers and party leaders debating the broadcaster's authority to reverse its decision and the practical steps for the upcoming song contest without the Netherlands."
+      },
+      "second": {
+        "subject": "AI-driven government job cuts",
+        "expected": "Dutch trade unions will demand a formal public consultation before the cabinet identifies which ministries face the first wave of reductions under the AI-driven administrative overhaul.",
+        "direction": "escalate",
+        "sign": "Headlines will quote union leaders calling for a parliamentary hearing and name specific government departments targeted in the restructuring plan."
+      },
+      "third": {
+        "subject": "Bird-flu poultry order",
+        "expected": "New confirmed cases will prompt the government to extend the indoor poultry order, and Dutch poultry exporters will report lost contracts with European buyers.",
+        "direction": "escalate",
+        "sign": "Headlines will reference new bird-flu detections in Dutch provinces and the impact on poultry shipments to European markets."
+      },
+      "fade_call": {
+        "subject": "Zookeeper leopard attack",
+        "expected": "fade",
+        "sign": "Headlines will shift to the zoo's internal safety review and a public memorial, dropping the incident from front pages."
+      },
+      "surprise": {
+        "subject": "Tulip fever speculation",
+        "expected": "The 'tulip fever' phenomenon flagged in Dutch media this week will trigger a regulatory response as a financial watchdog or central bank warns of a speculative bubble in assets.",
+        "chance": "medium"
+      },
+      "summary": "Next week, the Netherlands will still be processing the Eurovision withdrawal saga. Political parties will question the broadcaster's authority, and the government will clarify its official stance as the contest moves forward without Dutch participation. The AI-driven plan to cut public-sector jobs will move from announcement to planning, with unions demanding a formal consultation before specific ministries are named. The bird-flu situation will tighten as winter approaches, with the indoor poultry order likely to extend and Dutch exporters facing lost contracts. Football will proceed through another Eredivisie matchweek, and corporate news will keep flowing around the chip and payments sectors. The 'tulip fever' story flagged this week may develop into a broader economic discussion if regulators step in. Overall, the week will feel like a settling of the Eurovision storm alongside the grinding forward of domestic policy debates.",
+      "generated_at": "2026-11-02T06:07:39+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Eurovision 2027 Dutch withdrawal",
+        "expected": "The European Broadcasting Union will issue a formal statement confirming the final competing field for the 2027 contest, settling the Dutch broadcaster's repeated public reversals.",
+        "direction": "persist",
+        "sign": "Headlines will carry a formal announcement from the contest organizers or a Dutch broadcaster press statement confirming the final lineup, with European outlets reporting the resolution."
+      },
+      "second": {
+        "subject": "AI-led government job cuts",
+        "expected": "Dutch parliament will open formal debate on the public-sector job reduction plan as opposition parties and trade unions table questions about which ministries will face the deepest reductions.",
+        "direction": "escalate",
+        "sign": "Headlines will reference a parliamentary debate or union statement naming specific ministries or departments facing the deepest workforce reductions."
+      },
+      "third": {
+        "subject": "Eredivisie matchweek",
+        "expected": "A new full round of Eredivisie fixtures will be played, generating the standard set of head-to-head stat previews across sports outlets.",
+        "direction": "persist",
+        "sign": "Headlines will list new head-to-head matchups with stats for clubs such as PSV, Ajax, Feyenoord and Utrecht."
+      },
+      "fade_call": {
+        "subject": "Zookeeper leopard attack",
+        "expected": "fade",
+        "sign": "The zookeeper death will drop from the headlines with no follow-up investigation or coroner's report appearing in the next bulletin."
+      },
+      "surprise": {
+        "subject": "Eurovision parliamentary inquiry",
+        "expected": "A Dutch parliamentary committee will launch a formal inquiry into the government's cultural diplomacy stance, asking the cabinet to justify the broadcaster's repeated Eurovision reversals.",
+        "chance": "low"
+      },
+      "summary": "Next week the Dutch news cycle will be shaped by the Eurovision 2027 saga reaching its formal resolution. The European Broadcasting Union will issue a definitive statement on the competing field, and the Dutch broadcaster will settle the public back-and-forth that dominated this week. The AI-led government job reduction plan will move from announcement to parliamentary debate, with opposition parties and trade unions pressing the cabinet for specifics. The Eredivisie will deliver its usual full round of fixtures and head-to-head previews. The zookeeper death will fade from the top of the news cycle. The main wildcard is whether the Eurovision controversy will spill into a formal parliamentary inquiry, turning a cultural decision into a political one. Overall it will be a week of resolution on one dominant story and escalation on a domestic policy debate.",
+      "generated_at": "2026-11-02T06:24:07+02:00"
+    }
+  },
+  "display": {
+    "headline": "Eurovision Settled, Parliament Grills AI Job Cuts",
+    "emojis": [
+      "🎬",
+      "🏛️",
+      "⚽"
+    ],
+    "emoji_reasons": [
+      "The Eurovision 2027 withdrawal saga is the dominant cultural and political story of the week.",
+      "The 25,000 public-sector job reduction plan will drive parliamentary debate and cabinet scrutiny.",
+      "The Eredivisie delivers its regular weekly matchweek with full fixture coverage."
+    ],
+    "tldr": "The Eurovision 2027 saga will reach its formal resolution as the organizers confirm the competing field. The AI-led government job cuts will move into parliamentary debate. The Eredivisie plays its usual weekly round.",
+    "eli5": "So the Netherlands had a huge drama this week about Eurovision, the big international song contest. The Dutch TV station kept flipping back and forth — first they said they were out, then they said they were in, then they said they were out again. It is like a group project where nobody can agree on the topic.\n\nThe reason it matters is that the Netherlands is a founding member of the contest, and the whole thing is tangled up with the Israel debate. Meanwhile, the Dutch government announced they want to cut 25,000 government jobs over the next ten years because they think AI can do a lot of that paperwork work.\n\nNext week, the Eurovision story will probably get a final official stamp from the contest organizers, and the AI job-cut plan will start getting debated in parliament where politicians will argue about which departments lose the most workers. Football will keep going as normal with the Eredivisie playing its weekly matches.\n\nThe surprise would be if parliament decides to formally investigate why the Dutch government let the Eurovision thing get so messy, turning a TV show decision into a proper political fight."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists Ahold Delhaize cyber incident under 'No longer in the headlines' with no follow-up statement or stock-market reaction headline appearing this round.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The reality bulletin lists PM Jetten expecting baby under 'No longer in the headlines,' confirming the de-escalation direction but with no visible wave of European commentary in this round's headlines.",
+            "forecast_direction": "de-escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Headlines [4, 12, 18, 29, 36, 40, 44, 48] show the standard set of head-to-head stat previews for PSV, Ajax, Feyenoord, Utrecht and other clubs as predicted.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The reality bulletin lists Amsterdam food culture under 'No longer in the headlines,' confirming the fade prediction exactly.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline in this round references a parliamentary question about cybersecurity oversight at major Dutch listed companies; the closest items are the Booking.com office mandate [21] and the Unox takeover block [32], neither of which is a formal parliamentary cyber-oversight inquiry.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's main thesis that the Ahold Delhaize cyber incident would be the lead and would persist was wrong, as the story faded entirely from the headlines. The Jetten de-escalation call and the Eredivisie persistence call were both directionally correct, and the Amsterdam food-culture fade was spot-on. The biggest miss was failing to anticipate the Eurovision saga, the AI-led government job cuts, and the zookeeper death, all of which became dominant or regular stories this week.",
+        "S": 8
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The reality bulletin lists PM Jetten expecting baby under 'No longer in the headlines,' confirming the de-escalation direction but with no visible political commentary headline or party-leader quote in this round.",
+            "forecast_direction": "de-escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists Ahold Delhaize cyber incident under 'No longer in the headlines' with no follow-up corporate statement or stock-market reaction headline appearing, contradicting the escalation call.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Headlines [4, 12, 18, 29, 36, 40, 44, 48] show the standard head-to-head stat previews for multiple Dutch top-flight matches as predicted.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The reality bulletin lists INVE Technologies Dutch auction under 'No longer in the headlines,' confirming the fade prediction exactly.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headlines [14, 24, 35] report the Dutch government's plan to cut 25,000 public-sector jobs in an AI-led overhaul, which is a new cabinet policy announcement that shifted the political conversation toward domestic governance.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin correctly called the Jetten de-escalation and the Eredivisie persistence, and its INVE fade was accurate, but the Ahold Delhaize escalation call was wrong as the story faded rather than generating a follow-up statement. The lead framing of a political reaction to the baby announcement was not visible in this round's headlines, making the lead feel misplaced. The surprise call of a cabinet policy announcement was notably prescient, as the AI-led 25,000-job cut plan emerged as a major new story, though the bulletin did not anticipate the Eurovision saga as the week's dominant event.",
+        "S": 10
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists PM Jetten expecting baby under 'No longer in the headlines,' contradicting the persist call as the story disappeared entirely.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Headlines [4, 12, 18, 29, 36, 40, 44, 48] show the Eredivisie matchweek continuing at the same level with head-to-head stat previews as predicted.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists Ahold Delhaize cyber incident under 'No longer in the headlines,' contradicting the persist call as the story disappeared entirely.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists PM Jetten expecting baby under 'No longer in the headlines,' contradicting the persist call that it would still be reported at the next collection.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The 'no surprise, more of the same' prediction was contradicted by multiple new dominant and regular stories including the Eurovision saga [3, 7, 16, 17, 20, 30, 34], the AI-led job cuts [14, 24, 35], and the zookeeper leopard attack [5, 22].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's 'more of the same' thesis was wrong on two of its three main items, as both the Jetten baby story and the Ahold Delhaize cyber incident faded completely rather than persisting at the same level. The Eredivisie persistence call was the one item that held steady, making it the only correct directional call. The 'no surprise' prediction was the biggest miss, as the Eurovision saga became the week's dominant story and several other new events (AI job cuts, zookeeper death, bird flu) filled the news cycle.",
+        "S": 4
+      }
+    },
+    "S": [
+      {
+        "crystal": 8,
+        "plain": 10,
+        "persistence": 4
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 1.0,
+          "reason": "Computed from the scores: crystal 8, plain 10."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: crystal 8, persistence 4."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: plain 10, persistence 4."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": -1.0,
+      "crystal_vs_persistence": 1.0,
+      "plain_vs_persistence": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe defining story of the week in the Netherlands was personal and political: Prime Minister Rob Jetten, the country's first openly LGBTQ head of government, announced that he and his partner are expecting their first child, to be born in 2027, via a surrogate mother. The news was picked up by Reuters, the BBC, Bloomberg and French broadcaster TV5Monde, and it framed Jetten as a symbol of progressive Dutch society at a moment when European politics is shifting. Beyond the family news, the major Dutch retailer Ahold Delhaize reported a cybersecurity incident to Dutch police, raising questions about the resilience of one of the country's largest listed companies. The Eredivisie football season continued with a full round of match previews covering fixtures involving PSV, Feyenoord, Ajax, Sparta Rotterdam, Twente, Utrecht and several other clubs. A Bloomberg column urged readers to look past Amsterdam's party reputation and take its food culture\n- PM Jetten expecting baby (dominant, new): Dutch Prime Minister Rob Jetten, the first openly LGBTQ head of government, announced he and his partner are expecting their first child via a surrogate, due in 2027.\n- Ahold Delhaize cyber incident (regular, new): The Dutch-headquartered retailer Ahold Delhaize reported a cybersecurity incident to Dutch police.\n- Eredivisie matchweek (dominant, continuing): A full round of Dutch Eredivisie fixtures was played, with BBC publishing head-to-head stats for multiple matches including PSV vs Feyenoord, Ajax vs Sparta Rotterdam, and others.\n- INVE Technologies Dutch auction (occasional, new): INVE Technologies announced a $20 million modified Dutch auction tender offer for its common stock, using the financial mechanism named after the Netherlands.\n- Amsterdam food culture (occasional, new): A Bloomberg column argued that Amsterdam's food scene deserves more attention than the city's party reputation.\n- Tartan kit for Stranraer links (occasional, new): A Dutch football team celebrated its connection to Stranraer by adopting a tartan kit.\n- Dutch armada history (occasional, new): The Financial Times published a historical piece on the last Dutch invasion of England and its role in building British stability.\n\nRound 2026-10-17:\nDuring the week of October 14 to 17, 2026, the Netherlands saw a mix of diplomatic friction, technological triumph, and routine domestic life. The most prominent story involved the Dutch prime minister defending the International Criminal Court after a video clip appeared to suggest the tribunal was finished, prompting a public clarification. Tensions with Israel surfaced as well, with Jerusalem stripping Dutch diplomats of their official status in the West Bank, a move that appeared linked to the broader ICC dispute. On the economic front, Dutch semiconductor giant ASML reported record sales driven by the global AI boom, reinforcing the Netherlands' role at the heart of the chip supply chain. Environmental coverage highlighted the ongoing race between Dutch engineers and rising sea levels, a defining challenge for the low-lying nation. Dutch football filled the rest of the news cycle: several Eredivisie fixtures drew coverage, Croatian supporters were arrested for antisemitic\n- Dutch PM defends ICC (dominant, escalating): The prime minister released a clarifying video after a clip made it look as though he had declared the International Criminal Court finished.\n- Israel strips Dutch diplomats (regular, escalating): Jerusalem removed official diplomatic status from Dutch representatives operating in the West Bank.\n- ASML record quarter (regular, continuing): ASML posted record sales attributed to surging demand for chip-making equipment amid the AI buildout.\n- Netherlands vs the sea (regular, continuing): CNN ran a feature on the long-running Dutch effort to defend against accelerating sea-level rise.\n- Eredivisie matchweek (regular, continuing): Several Eredivisie fixtures including Telstar-Feyenoord, Sparta Rotterdam-Willem II, and Heerenveen-Excelsior were covered.\n- Croatian fans arrested (occasional, new): Croatian supporters were arrested for chanting antisemitic slurs during a match against an Amsterdam club.\n- Seedorf to Corinthians (occasional, new): Former Dutch international Clarence Seedorf was officially presented as the new head coach of Brazilian club Corinthians.\n- WSJ on Dutch priorities (occasional, new): A Wall Street Journal opinion column argued the Netherlands has lost focus on its core strategic priorities.\n- ProcureTEX in Amsterdam (occasional, new): The ProcureTEX conference returned to Amsterdam for a second year, showcasing AI-driven procurement solutions.\n",
+    "PREVIOUS_FORECAST": "Lead: Ahold Delhaize cyber incident. Expected: The retailer will issue a follow-up public statement clarifying the scope of the breach and whether customer data was affected, prompting a visible stock-market reaction. Direction: persist. Sign: Headlines will carry the company's follow-up statement or a stock-market reaction to the cybersecurity disclosure.\nSecond: PM Jetten baby announcement. Expected: The personal-political story will generate a wave of European and international media commentary framing Jetten as a symbol of progressive governance, then recede from the top of the news cycle. Direction: de-escalate. Sign: Headlines will shift from the announcement itself to political commentary and European media analysis of the story's symbolic weight.\nThird: Eredivisie matchweek. Expected: A new full round of Eredivisie fixtures will be played, generating the standard set of head-to-head stat previews across BBC and Dutch sports outlets. Direction: persist. Sign: Headlines will list new head-to-head matchups with stats for clubs such as PSV, Ajax, Feyenoord and Utrecht.\nFade call: Amsterdam food culture column. Expected: fade. Sign: The Bloomberg column about Amsterdam's food scene will drop from the headlines with no follow-up coverage.\nSurprise (chance low): Parliamentary scrutiny of corporate cyber oversight. A member of the Dutch parliament will table a formal question asking the government what oversight exists for cybersecurity at major listed companies headquartered in the country.\nSummary: Next week the Dutch news cycle will be shaped by the Ahold Delhaize cybersecurity incident as the retailer issues follow-up statements and the stock market digests the disclosure. The Jetten baby announcement will complete its media lifecycle, shifting from breaking news to a broader European conversation about progressive leadership before fading. Eredivisie football will deliver its usual full round of match previews and head-to-head stats. The Bloomberg column on Amsterdam's food scene will drop from the headlines. The main wildcard is whether the cyber incident at one of the country's largest listed companies will spark a parliamentary question about government oversight of corporate security, a low-probability but politically resonant development. Overall it will be a calm week with one corporate story gaining ground and one personal-political story completing its arc.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear (observed: faded, subject absent). The reality bulletin lists Ahold Delhaize cyber incident under 'No longer in the headlines' with no follow-up statement or stock-market reaction headline appearing this round.\n- second: did_not_appear (observed: faded, subject absent). The reality bulletin lists PM Jetten expecting baby under 'No longer in the headlines,' confirming the de-escalation direction but with no visible wave of European commentary in this round's headlines.\n- third: came_true (observed: steady, subject present). Headlines [4, 12, 18, 29, 36, 40, 44, 48] show the standard set of head-to-head stat previews for PSV, Ajax, Feyenoord, Utrecht and other clubs as predicted.\n- fade_call: came_true (observed: faded, subject absent). The reality bulletin lists Amsterdam food culture under 'No longer in the headlines,' confirming the fade prediction exactly.\nArcher note: The bulletin's main thesis that the Ahold Delhaize cyber incident would be the lead and would persist was wrong, as the story faded entirely from the headlines. The Jetten de-escalation call and the Eredivisie persistence call were both directionally correct, and the Amsterdam food-culture fade was spot-on. The biggest miss was failing to anticipate the Eurovision saga, the AI-led government job cuts, and the zookeeper death, all of which became dominant or regular stories this week.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

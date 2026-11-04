@@ -1,0 +1,644 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "AU",
+  "name": "Australia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T09:32:57+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Australian courts delivered a definitive verdict in the Erin Patterson mushroom poisoning case, rejecting her appeal and imposing a harsher sentence that bars her from ever being released. The story dominated headlines alongside a separate ruling that denied her the right to eat Vegemite in prison. In cricket, South Africa claimed a 2-1 series win over Australia, with Harmer posting a career-best 6-16 in the decider; Mitchell Starc's 6-72 sparked a late Australian recovery that fell short of the target. The economy showed strain as September inflation accelerated beyond forecasts ahead of an RBA meeting, while banks eased lending standards amid a property slump. Diplomatically, the Prime Minister is set to visit Beijing following the APEC summit, and the treasurer urged middle powers to cooperate beyond geopolitical rivalries. On the technology front, Australia's data-centre push gathered momentum with AirTrunk securing a $3 billion green loan and a 20-year power pact signed for the Pilgangoora mine. The US assigned its first nuclear-powered submarine to an Australian base, keeping AUKUS on track for early-2030s delivery. The Australian MotoGP Grand Prix was cancelled by rain at Phillip Island, and Star Entertainment accepted a $183.6 million anti-money-laundering penalty.",
+    "key_events": [
+      {
+        "event": "Australian court rejected Erin Patterson's appeal and imposed a harsher sentence barring her from release",
+        "date": "2026-10-31",
+        "domain": "society",
+        "importance": 4
+      },
+      {
+        "event": "September inflation accelerated beyond forecasts ahead of the RBA meeting",
+        "date": "2026-10-28",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Prime Minister set to visit Beijing following the APEC summit",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "US assigned its first nuclear-powered submarine to an Australian base under AUKUS",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "South Africa won the cricket test series against Australia 2-1 with Harmer taking 6-16",
+        "date": "2026-10-30",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "AirTrunk secured a $3 billion green loan to expand its Sydney data centre",
+        "date": null,
+        "domain": "technology",
+        "importance": 3
+      },
+      {
+        "event": "Star Entertainment accepted a $183.6 million anti-money-laundering penalty",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Australian Grand Prix cancelled by rain at Phillip Island",
+        "date": "2026-10-25",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "economy",
+      "society",
+      "diplomacy",
+      "technology"
+    ],
+    "emojis": [
+      "⚖️",
+      "💸",
+      "🛫"
+    ],
+    "emoji_reasons": [
+      "Erin Patterson's appeal was rejected and her sentence extended, dominating the week's court coverage (headlines 12, 13, 15, 18, 20, 25, 36).",
+      "September inflation accelerated beyond forecasts and banks eased lending amid a property slump (headlines 7, 30, 43).",
+      "The Prime Minister is set to visit Beijing after the APEC summit, a notable diplomatic trip (headline 6)."
+    ],
+    "developments": [
+      {
+        "subject": "Erin Patterson appeal",
+        "what_happened": "The court rejected her appeal, imposed a harsher sentence barring release, and separately denied her a prison Vegemite ban challenge.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          12,
+          13,
+          15,
+          18,
+          20,
+          25,
+          35,
+          36,
+          64
+        ]
+      },
+      {
+        "subject": "South Africa vs Australia cricket",
+        "what_happened": "South Africa won the series 2-1, with Harmer's career-best 6-16 sealing the decider despite Starc's 6-72 and Inglis centuries.",
+        "coverage": "dominant",
+        "direction": "resolved",
+        "headline_ids": [
+          2,
+          3,
+          10,
+          19,
+          21,
+          27,
+          28,
+          29,
+          33,
+          34,
+          42,
+          44,
+          50,
+          51,
+          52
+        ]
+      },
+      {
+        "subject": "Inflation and RBA outlook",
+        "what_happened": "September inflation accelerated past estimates ahead of the RBA meeting, while banks eased loan approvals and the RBA warned about the retirement wave hitting pension funds.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          7,
+          30,
+          43,
+          65
+        ]
+      },
+      {
+        "subject": "Data-centre and tech economy",
+        "what_happened": "AirTrunk bagged a $3 billion green loan, a 20-year power pact was signed for Pilgangoora, and NEXTDC's CEO forgoes bonuses after a forecast cut.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          23,
+          24,
+          53,
+          54,
+          63,
+          68
+        ]
+      },
+      {
+        "subject": "PM Beijing visit and diplomacy",
+        "what_happened": "The Prime Minister is set to visit Beijing after APEC, and the treasurer urged middle powers to cooperate to avoid geopolitical hostage-taking.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6,
+          38
+        ]
+      },
+      {
+        "subject": "AUKUS nuclear submarine",
+        "what_happened": "The US assigned its first nuclear-powered submarine to an Australian base, with the defence minister confirming early-2030s delivery is on track.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          46,
+          49
+        ]
+      },
+      {
+        "subject": "Corporate and market stress",
+        "what_happened": "Coles posted its steepest fall since 2020, the regulator probed the failed $5 billion Firmus IPO, and Star Entertainment accepted a $183.6 million AML penalty.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          11,
+          26,
+          40,
+          48
+        ]
+      },
+      {
+        "subject": "MotoGP Australian GP",
+        "what_happened": "The Grand Prix at Phillip Island was called off by rain, and Jorge Martin was ruled out with a fractured wrist.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          5,
+          22,
+          32,
+          56
+        ]
+      },
+      {
+        "subject": "Parliament and politics",
+        "what_happened": "Parliament resumed work under increased security and paid tribute to an injured lawmaker.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          60
+        ]
+      },
+      {
+        "subject": "China mining and EU resources",
+        "what_happened": "China's tug-of-war with Australian miners lurked beneath iron-ore calm, while the EU signalled major Australian resources investment.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          59,
+          66
+        ]
+      }
+    ],
+    "gone": [
+      "Helen Haines car attack",
+      "Meta and social-media lawsuits",
+      "KPMG data-handling breach",
+      "Snowy Hydro cost blowout",
+      "Society: coroner, reality TV, senator"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide strong coverage of the court case, cricket series, economic data, and diplomatic moves, though some stories like the AUKUS sub and Beijing visit appear as single-item reports without detailed follow-up."
+    },
+    "headlines_used": [
+      "Australia's Coles marks steepest fall since 2020 as rival promotions bite",
+      "Harmer shines as South Africa wins 3rd cricket test against Australia to claim series 2-1",
+      "Harmer and Rabada wrap up South Africa series win over Australia",
+      "South Africa vs Australia: Five takeaways for England after epic series",
+      "MotoGP : le leader Marquez et Martin au poignet cassé en duel en Malaisie après le GP annulé en Australie",
+      "Australian PM Set to Visit Beijing After APEC Meeting, Report Says",
+      "Australia’s Inflation Continued to Accelerate in September",
+      "Has Australia’s push for lower house prices gone too far?",
+      "Japan and Australia lead bond picks as Europe stays tricky: Fund Manager",
+      "South Africa hammer Australia as Harmer takes career best bowling of 6-16",
+      "Australia's corporate regulator says talking to bankers over failed $5 billion Firmus IPO",
+      "Australian court orders Erin Patterson never to be released from prison for mushroom poisonings",
+      "Judge throws out Australian mushroom killer's appeal, imposes harsher sentence",
+      "Women's Rugby League World Cup: Australia hit debutants Wales for record score",
+      "Australie : l'empoisonneuse aux champignons voit sa peine alourdie",
+      "Anthropic’s IPO Plans Draw Skepticism From Australian CIOs",
+      "CATL globally launches ultra-high capacity energy storage system at All Energy 2026 and signs three Australian partnership MoUs – Company Announcement - FT.com",
+      "Australian mushroom murderer Erin Patterson loses appeal bid",
+      "Rickelton and Mulder centuries lead South Africa fightback and set Australia 288 chase",
+      "Australian mushroom killer loses appeal, has sentence extended",
+      "'Un-Australian' - Warner tears into former side after SA charge to win",
+      "MotoGP: Jorge Martin forfait en Australie offre un boulevard à Marc Marquez",
+      "NIMBY or Pension: Australia Pops the Data Center Bubble",
+      "Australia’s drive to transform economy with data centres, aerospace — and meat pies",
+      "Australian court rejects ‘mushroom murderer’ Erin Patterson’s appeal",
+      "Australia's Star Entertainment accepts $183.6 million anti-money laundering penalty",
+      "Lyon bowls Bavuma late and Australia tightens grip against South Africa in cricket series decider",
+      "Inglis, Carey put Australia in command of South Africa decider",
+      "South Africa vs Australia: Hosts set up epic finale - what do stats and history suggest could happen?",
+      "Australian Inflation Exceeds Estimate Ahead of RBA Meeting",
+      "Woodside to Host 2026 Capital Markets Days in Sydney and New York – Company Announcement",
+      "Australian Grand Prix called off as rain spoils Phillip Island sendoff",
+      "Century-maker Inglis wanted more runs as Australia chase victory",
+      "Josh Inglis leads way as Australia takes control of deciding test vs South Africa",
+      "Judges set to rule on Australian mushroom killer's appeal",
+      "Erin Patterson: Australian mushroom murderer loses appeal to overturn convictions",
+      "CATL Sees Australian Interest in Nascent Sodium-Ion Batteries",
+      "Australia’s treasurer says middle powers should co-operate to avoid being hostage to geopolitics",
+      "Serve launches robot deliveries in Australia in first international push",
+      "Ashes, India series result in record revenue, net surplus for Cricket Australia",
+      "Australia warns of 'unprecedented' AI threat",
+      "Careless dismissals give Australia route to series win",
+      "Banks Ease Loan Approvals to Weather Australia Property Slump",
+      "Inglis, Carey put Australia on top against South Africa",
+      "Man charged with posing as Sydney Hanukkah massacre victim to get compensation",
+      "US assigns first nuclear-powered sub to Australian base",
+      "Australia | Latest News & Updates",
+      "Anthropic’s IPO May See Australia’s Biggest Lender Sitting on Multi-Billion Windfall",
+      "AUKUS on track for Australia subs in early 2030s, Marles says",
+      "Mitchell Starc’s 6-72 sparks Australia recovery as South Africa slides from 203-1 to 329 all out",
+      "South Africa select 'enforcer' Coetzee for Australia decider",
+      "South Africa vs Australia: Marnus Labuschagne hits record low but new guard stand up for tourists",
+      "How Australia Built World’s Biggest Battery-Powered Ferry",
+      "Australia's PLS signs 20-year power pact with Fortescue unit for Pilgangoora mine",
+      "Australian judge rejects prisoner’s human rights challenge to Vegemite ban",
+      "Jorge Martin out of Australian MotoGP with fracture: team",
+      "Australian sunscreen brands face stricter rules after safety scandal",
+      "French Bond Rout Draws Australia Pension Into Market Others Shun",
+      "EU readying for major Australian resources investment, ambassador says",
+      "Australian Parliament pays tribute to injured lawmaker as it resumes work under increased security",
+      "Meghan to co-host Junior MasterChef Australia",
+      "Australian Regulator Warns Higher Market Risks May Hit Liquidity",
+      "Australia's AirTrunk bags $3 billion green loan to expand Sydney data centre",
+      "Australian murderer loses bid to eat Vegemite in prison",
+      "RBA Warns Retirement Wave Will Test Australian Pension Funds",
+      "COMMENTARY: China's tug-of-war with Australian miners lurks beneath iron ore calm",
+      "Sydney's new $5bn airport has one big problem: Getting there is tough",
+      "Australia's NEXTDC CEO to forgo fiscal 2027 bonuses after forecast cut, project delay"
+    ],
+    "converted": false,
+    "relevant_headlines": 68,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Erin Patterson appeal",
+        "expected": "Erin Patterson appeal stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Erin Patterson appeal appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "South Africa vs Australia cricket",
+        "expected": "South Africa vs Australia cricket stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about South Africa vs Australia cricket appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Inflation and RBA outlook",
+        "expected": "Inflation and RBA outlook stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Inflation and RBA outlook appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "PM Beijing visit and diplomacy",
+        "expected": "persist",
+        "sign": "PM Beijing visit and diplomacy is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Erin Patterson appeal stays in the news at the same level. South Africa vs Australia cricket stays in the news at the same level. Inflation and RBA outlook stays in the news at the same level. PM Beijing visit and diplomacy is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "RBA rate decision",
+        "expected": "The Reserve Bank of Australia will deliver its interest-rate call in response to September's hotter-than-expected inflation, and the outcome will set the tone for the property and lending debate.",
+        "direction": "escalate",
+        "sign": "Headlines will lead with the official cash-rate outcome and the governor's commentary on inflation and the retirement wave hitting pension funds."
+      },
+      "second": {
+        "subject": "PM Beijing visit",
+        "expected": "The Prime Minister will arrive in Beijing for a post-APEC bilateral meeting, and the two sides will issue joint statements on trade and middle-power cooperation.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the Prime Minister's arrival in Beijing, bilateral press conferences, and the treasurer's message about middle powers avoiding geopolitical hostage-taking."
+      },
+      "third": {
+        "subject": "Data-centre buildout",
+        "expected": "New funding and grid-connection announcements will follow the AirTrunk green loan and the Pilgangoora power pact as Australia's data-centre and energy push attracts further investment and regulatory attention.",
+        "direction": "persist",
+        "sign": "Headlines will report on new capital commitments, grid tie-ins, or policy moves tied to data-centre construction and the broader tech-economy transformation."
+      },
+      "fade_call": {
+        "subject": "Erin Patterson appeal",
+        "expected": "fade",
+        "sign": "The mushroom-poisoning verdict will drop out of front pages as the RBA decision and the Beijing visit claim the top slots."
+      },
+      "surprise": {
+        "subject": "AI threat warning",
+        "expected": "Australia's warning of an unprecedented AI threat will trigger a government consultation or a new industry-regulatory framework announcement within the week.",
+        "chance": "low"
+      },
+      "summary": "This week in Australia will be dominated by the Reserve Bank's rate decision, landing against September's above-forecast inflation and a property market that banks are already easing lending to support. The Prime Minister's post-APEC visit to Beijing will add a diplomatic layer, with both sides framing their relationship around middle-power cooperation rather than great-power rivalry. The data-centre and clean-energy buildout will keep generating headlines, from new funding rounds to grid connections and power-pact announcements. The Erin Patterson mushroom-poisoning saga will largely fade from front pages after her appeal was rejected and her sentence extended. A smaller but notable thread will be Australia's warning about an unprecedented AI threat, which may prompt a government or industry policy response. The overall mood will shift from this week's mixed cricket-and-courtroom tone toward a sharper focus on the economy and diplomacy.",
+      "generated_at": "2026-11-02T09:20:44+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "RBA rate decision",
+        "expected": "The RBA will announce its rate decision in response to accelerating September inflation, with the statement weighing the retirement wave's impact on pension funds against the need to keep prices in check.",
+        "direction": "escalate",
+        "sign": "A headline reporting the RBA's rate decision and the governor's key statement on inflation and pension-fund pressure"
+      },
+      "second": {
+        "subject": "PM Beijing visit",
+        "expected": "The Prime Minister will arrive in Beijing for a bilateral meeting following the APEC summit, and the visit will produce a specific announcement on trade, resources, or security cooperation.",
+        "direction": "escalate",
+        "sign": "A headline reporting a specific deal, joint statement, or notable exchange from the PM's Beijing meeting"
+      },
+      "third": {
+        "subject": "Data-centre economy",
+        "expected": "The data-centre buildout will generate a new major announcement or controversy, such as a power-supply dispute, a community challenge, or a large new investment commitment tied to the grid.",
+        "direction": "persist",
+        "sign": "A headline about a new data-centre project, a power dispute, or a major tech-sector investment in Australia"
+      },
+      "fade_call": {
+        "subject": "Erin Patterson verdict",
+        "expected": "fade",
+        "sign": "The Patterson story drops from front pages and is replaced by other court or crime reporting"
+      },
+      "surprise": {
+        "subject": "AI threat policy response",
+        "expected": "Australia's warning of an unprecedented AI threat will trigger a specific policy announcement or regulatory action, such as a new safety framework or a data-centre power-use cap.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Australia's economic centre of gravity shifts to the RBA's rate decision. With September inflation accelerating beyond forecasts and the central bank already warning that the outlook is materially worse, the meeting will test whether the RBA holds, hikes, or signals a pivot. The Prime Minister's Beijing visit will land in the same window, and the visit will produce a concrete announcement on trade or resources that reframes the middle-power diplomacy narrative. The data-centre economy will keep building momentum, with a new project, dispute, or investment headline marking the week. The Erin Patterson verdict, which dominated this week, will fade from front pages. A watch item is Australia's unprecedented AI threat warning, which may crystallise into a policy move.",
+      "generated_at": "2026-11-02T09:32:57+02:00"
+    }
+  },
+  "display": {
+    "headline": "RBA Decision and Beijing Visit Frame Australia's Week",
+    "emojis": [
+      "🏦",
+      "🛫",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "The RBA rate decision is the week's central economic event and will dominate financial headlines.",
+      "The PM's Beijing visit is the key diplomatic development of the coming week.",
+      "The data-centre and AI infrastructure push is the growing structural theme across multiple headlines."
+    ],
+    "tldr": "The RBA's rate decision and the PM's Beijing visit will anchor Australia's headlines next week. The data-centre economy will keep building, while the Erin Patterson verdict fades. A possible surprise is a concrete AI-policy response.",
+    "eli5": "Here's what's happening in Australia right now. The courts just wrapped up a big case about a woman who poisoned people with mushrooms, and the banks just reported that inflation is getting worse. At the same time, the government is planning a trip to China to talk trade and resources.\n\nWhy does this matter? The central bank has to decide whether to raise or lower interest rates, and that affects everyone's mortgage and savings. The trip to China matters because China buys a lot of Australia's iron ore and other resources, and the two countries have had a rocky relationship lately.\n\nWhat will probably happen next? The RBA will make its rate decision, and the PM will land in Beijing for talks. The data-centre buildout will keep generating news about power and investment.\n\nWhat would be a surprise? If the government suddenly announces a big new rule about artificial intelligence, or if the Beijing visit produces an unexpected trade deal that shakes up the mining sector."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "The Haines attack dropped from dominant to a marginal reference in headline [60] where Parliament pays tribute to the injured lawmaker under increased security, with no bail hearing or terrorism-squad finding in the headlines.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "South Africa won the series 2-1 with Harmer's career-best 6-16 in headlines [2], [3], [10], matching the forecast's expectation of a series-clinching victory for one side.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Inflation accelerated past forecasts in headlines [7] and [30] ahead of the RBA meeting, while corporate stress continued with Coles' steepest fall since 2020 [1], NEXTDC's CEO forgoing bonuses [68], and the Firmus IPO probe [11].",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Snowy Hydro does not appear in any of this round's headlines, confirming the forecast's prediction that the cost-blowout story would drop from front pages.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline mentions an ASX trading-outage regulatory review or investor compensation framework; the closest is headline [62] on the regulator warning about higher market risks, which is a different subject.",
+          "bonus": 0
+        },
+        "archer_note": "The forecast correctly anticipated the cricket decider and the RBA/corporate-stress thread, but its central thesis that the Helen Haines attack would stay dominant and escalate was wrong, as the story de-escalated to a marginal tribute. The completely absent Erin Patterson appeal, which became the week's dominant story, was not in the forecast's radar. The Sydney airport and Snowy Hydro fade calls were accurate, and the ASX trading-outage surprise did not materialize.",
+        "S": 10
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "The Haines attack was dominant in the prior round but appears only as a marginal note in headline [60] (Parliament tribute to injured lawmaker), meaning it did not stay at the same level as forecast.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "South Africa versus Australia cricket remained a dominant story across headlines [2], [10], [19], [27], [28], [33], [34], [50], [52], consistent with the persist prediction.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The RBA and inflation outlook actually escalated from regular to dominant, with headlines [7], [30], and [65] showing inflation accelerating ahead of the RBA meeting, exceeding the 'same level' forecast.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "Meta and social-media lawsuits are listed as 'no longer in the headlines,' contradicting the forecast's expectation that the story would persist at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Multiple new stories emerged that were not in the prior round, most notably the Erin Patterson appeal becoming dominant [12], [13], [15], [18], [20], [25], [36], [55], [64], plus the PM's Beijing visit [6] and the AUKUS submarine assignment [46], [49].",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis was too conservative: it correctly kept cricket and the RBA in frame but wrongly predicted Haines would stay dominant and Meta lawsuits would persist, when both de-escalated or faded. The 'no surprise' call was clearly wrong, as the Erin Patterson verdict became the week's single biggest story and several new diplomatic and defence stories appeared. The bulletin's uniform persist-everything structure gave it no room to capture the week's actual shifts in the news cycle.",
+        "S": 7
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "The Haines aftermath appears only in headline [60] (Parliament tribute and increased security), with no terrorism-squad spokesperson quote or bail-hearing headline as the forecast's sign required.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The decider was played and South Africa won [2], [10], with headline [52] noting Labuschagne's record low and new players stepping up, but the narrative centred on the result rather than a selection reshuffle around Smith's injury as the forecast described.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Inflation accelerated past estimates in headlines [7] and [30] ahead of the RBA meeting, and the RBA warned about the retirement wave [65], aligning with the forecast's framing of the rate decision as the central economic question.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "not_seen",
+            "evidence": "Headline [67] 'Sydney's new $5bn airport has one big problem: Getting there is tough' remains a standalone story rather than the brief aside within a broader infrastructure piece the forecast predicted.",
+            "forecast_direction": "fade",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline references a Greenpeace protest, a formal government review of the Woodside gas project, or a public decision on the project's energy-versus-climate trade-off; the only Woodside mention is headline [31] about its capital-markets days.",
+          "bonus": 0
+        },
+        "archer_note": "The forecast's specific detail about the terrorism squad's preliminary classification and the Smith-injury selection drama were too granular and did not surface in this week's headlines, though the broader Haines-aftermath thread was still present. The Sydney airport fade call was wrong because the story remained a standalone headline, and the Woodside gas-project surprise did not materialize. The main thesis that Haines would stay the political centre of gravity was early rather than fundamentally wrong, since Parliament did resume under increased security and pay tribute, but the story had clearly lost its dominant position.",
+        "S": 6
+      }
+    },
+    "S": [
+      {
+        "crystal": 10,
+        "persistence": 7,
+        "plain": 6
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: crystal 10, persistence 7."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Computed from the scores: crystal 10, plain 6."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Computed from the scores: persistence 7, plain 6."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 1.0,
+      "crystal_vs_plain": 1.0,
+      "persistence_vs_plain": 0.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 1.0,
+    "u": 1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was dominated by the deliberate car-ramming attack on Australian MP Helen Haines, who lost both legs and whose attacker was charged with a targeted assault. Police called the incident deliberate, the PM said it was 'no accident,' and a terrorism squad opened an inquiry. A second female lawmaker was threatened days later, and coverage highlighted a growing pattern of threats against Australian politicians. In sport, South Africa beat Australia by an innings in the second Test to level the series 1-1, leaving Australia with selection headaches ahead of the Cape Town decider. New Zealand won the second Bledisloe test 43-21, while Australia's women's rugby league team thrashed England 78-0 in the World Cup. Economically, the RBA warned the inflation outlook was 'materially worse' while noting labour-market easing, and growth is likely to slow. Shares in Zip fell 50% after a fraud incident, and data-centre operator NextDC dropped over\n- Helen Haines car attack (dominant, escalating): MP Helen Haines was deliberately rammed by a car, lost both legs, and the driver was charged; a second female lawmaker was threatened days later and police confirmed rising threats against politicians.\n- South Africa vs Australia cricket (dominant, continuing): South Africa crushed Australia by an innings in the second Test to level the series 1-1, with Jansen taking five and Australia forced to follow on; selection headaches and a Smith injury complicate the Cape Town decider.\n- RBA and economic outlook (regular, continuing): The RBA declared the inflation outlook 'materially worse' while noting labour-market easing, and growth is expected to slow on higher rates and prices.\n- Market and corporate stress (regular, escalating): Zip shares fell 50% after a fraud incident, NextDC dropped over 40% on an earnings warning, NAB cut 2,500 jobs, and Ares warned of private-credit stress from rising rates.\n- AI and data-centre boom (regular, continuing): Backlash over AI data centres threatens Australia's $70 billion plan, the Treasurer said he welcomes them only if they contribute to the grid, and NextDC's Melbourne power delay triggered its earnings warning.\n- China trade and mining (regular, continuing): China snapped up Australian canola as ties improved, while Rio Tinto and Fortescue warned of production risk without a China deal, and Rio Tinto committed $1.9 billion to a Queensland bauxite project.\n- Meta and social-media lawsuits (occasional, new): Meta faced an Australian class action over harm to children, and Australia moved to sue Facebook and TikTok for alleged breaches of a screen-time ban.\n- KPMG data-handling breach (occasional, continuing): Documents showed an Australian agency mulled firing KPMG over a data-handling rule breach, and a review found it mishandled whistleblower claims with a pause on government work extended.\n- Snowy Hydro cost blowout (occasional, new): The Snowy Hydro project's cost blew out to an estimated $18 billion, eleven times the original estimate.\n- Sydney second airport (occasional, new): The Financial Times described Sydney's second airport as a 'long haul' while Bloomberg reported the $4 billion airport opening with barely any flights, creating a contradiction in reporting.\n- Sports: Bledisloe, World Cup, WXV (occasional, continuing): New Zealand beat Australia 43-21 in the Bledisloe, Australia's women's rugby league team thrashed England 78-0 in the World Cup, and Australia came from behind to beat Scotland in the WXV Global Series.\n- Society: coroner, reality TV, senator (occasional, new): A coroner was moved to tears over a child denied insulin on religious grounds, police investigated Married at First Sight Australia over 'inappropriate' allegations, and senator Jordon Steele-John denied misconduct claims.\n\nRound 2026-10-17:\nAustralia's week was defined by a mix of sporting disappointment, an international justice milestone, and domestic economic recalibration. In rugby, Australia beat Scotland with an eight-try display but then lost badly to New Zealand 43-21 in the second Bledisloe test in Sydney, with the All Blacks dominating the first half. In rugby league, the Wallabies edged New Zealand 24-22 in the World Cup opener. Three men in Mexico were each sentenced to 158 years in prison for the murders of an Australian and a US surfer, closing out a case that had gripped both countries. Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, briefly pausing operations and intensifying the energy-transition debate. A hidden video camera was discovered in the women's shower of an Australian navy ship, prompting a formal inquiry. The first confirmed H5N1 bird-flu case was reported on sub-Antarctic Macquarie Island, raising biosecurity concerns. On the\n- Bledisloe Cup and Rugby League World Cup (dominant, continuing): Australia beat Scotland with an eight-try display but lost 43-21 to New Zealand in the second Bledisloe test, and then edged New Zealand 24-22 in the Rugby League World Cup opener.\n- Surfers' murder sentencing in Mexico (dominant, resolved): Three men were each sentenced to 158 years in prison for killing an Australian and a US surfer in Mexico, closing out a high-profile cross-border case.\n- Monetary policy and labour market (regular, de-escalating): September employment data showed rising unemployment, easing pressure for further RBA rate hikes, softening home-auction volumes, and prompting the treasurer to stress focus on inflation.\n- Greenpeace / Woodside gas protest (regular, escalating): Greenpeace activists occupied a Woodside natural-gas project unit off Western Australia, temporarily pausing operations and sharpening the energy-transition debate.\n- Navy ship hidden camera (regular, new): A hidden video camera was discovered in the women's shower area of an Australian navy ship, and a formal inquiry was opened.\n- South Africa cricket series (regular, continuing): South Africa sought a bounce-back against Australia in a Test series, with squad selection still undecided after a first-test loss that saw a player wield an axe in frustration.\n- H5N1 on Macquarie Island (occasional, new): Australia confirmed its first H5N1 bird-flu case on sub-Antarctic Macquarie Island, prompting biosecurity monitoring.\n- First Michelin stars (occasional, new): Australia received its first Michelin stars, with eleven restaurants in a single state receiving recognition.\n- 3M forever-chemicals lawsuit (occasional, continuing): 3M told an Australian court it would contest the A$1.4 billion class-action claim on procedural grounds.\n- Renewables and AI capital (occasional, continuing): Victoria approved the country's largest wind-power project and unveiled a A$250 million solar-scale-up fund, while analysts warned the AI boom risks diverting capital from Australia's renewables push.\n- Algorithm opt-out trial (occasional, new): Australia moved to pilot a mechanism allowing consumers to opt out of social-media algorithmic feeds, a first-of-its-kind consumer choice.\n",
+    "PREVIOUS_FORECAST": "Lead: Helen Haines attack aftermath. Expected: The charged driver faces a bail hearing while police open a formal investigation into the second female lawmaker's threat, and the terrorism squad releases preliminary findings on the motive. Direction: escalate. Sign: A headline announcing the driver's bail conditions or a new formal police investigation into the second lawmaker's threat\nSecond: Cape Town cricket decider. Expected: Australia and South Africa meet in the third Test with the series on the line, and Australia's selection changes and Smith's fitness will be the central narratives. Direction: persist. Sign: A headline reporting the third Test result with a series-clinching victory for one side\nThird: RBA warning and market stress. Expected: The RBA's 'materially worse' inflation warning and the November rate uncertainty will drive a round of corporate earnings warnings and further ASX selling in the tech and property sectors. Direction: persist. Sign: A headline about another major ASX-listed company cutting its profit forecast or a sector-wide sell-off following the central bank's guidance\nFade call: Snowy Hydro cost blowout. Expected: fade. Sign: The Snowy Hydro cost story drops from front pages and is replaced by routine energy-sector or parliamentary budget reporting\nSurprise (chance medium): ASX trading-outage response. The ASX announces a formal regulatory review of its trading systems and a compensation framework for investors affected by the outages.\nSummary: Next week, Australia's political centre of gravity stays fixed on the Helen Haines car attack. The charged driver will face a bail hearing, the terrorism squad will release preliminary findings, and police will open a formal probe into the second female lawmaker's threat. Parliament will debate member security, and the opposition will press for a public inquiry. On the cricket field, the Cape Town decider will settle the South Africa series, with selection changes and Smith's fitness the key narratives. In markets, the RBA's 'materially worse' inflation warning will hang over a week of earnings, and private-credit stress will test ASX-listed property stocks. The Snowy Hydro cost blowout will fade, and the Sydney airport contradiction will resolve into a single reporting line. A watch item is the ASX's response to its trading outages, which may trigger a regulatory review and investor compensation.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear (observed: de-escalated, subject marginal). The Haines attack dropped from dominant to a marginal reference in headline [60] where Parliament pays tribute to the injured lawmaker under increased security, with no bail hearing or terrorism-squad finding in the headlines.\n- second: came_true (observed: steady, subject dominant). South Africa won the series 2-1 with Harmer's career-best 6-16 in headlines [2], [3], [10], matching the forecast's expectation of a series-clinching victory for one side.\n- third: true_in_direction (observed: escalated, subject dominant). Inflation accelerated past forecasts in headlines [7] and [30] ahead of the RBA meeting, while corporate stress continued with Coles' steepest fall since 2020 [1], NEXTDC's CEO forgoing bonuses [68], and the Firmus IPO probe [11].\n- fade_call: came_true (observed: faded, subject absent). Snowy Hydro does not appear in any of this round's headlines, confirming the forecast's prediction that the cost-blowout story would drop from front pages.\nArcher note: The forecast correctly anticipated the cricket decider and the RBA/corporate-stress thread, but its central thesis that the Helen Haines attack would stay dominant and escalate was wrong, as the story de-escalated to a marginal tribute. The completely absent Erin Patterson appeal, which became the week's dominant story, was not in the forecast's radar. The Sydney airport and Snowy Hydro fade calls were accurate, and the ASX trading-outage surprise did not materialize.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

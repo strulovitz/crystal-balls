@@ -1,0 +1,1126 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "US",
+  "name": "United States",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T18:17:02+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "The week was dominated by the final days of the US midterm election campaign, with polls closing November 3. President Trump campaigned aggressively but cancelled in-person rallies in Kansas and Iowa in favor of telerallies, and he demanded the Alaska Democratic Senate candidate be removed from the ballot. A federal judge ordered the administration to stop threatening election officials with prosecution. Pope Leo XIV made history as the first pope ever to vote in a US general election. In a major diplomatic development, Flavio Bolsonaro fled Brazil after losing the presidential election and landed in Florida, where Trump said he could stay 'as long as he wants.' The US-Iran conflict continued, with Trump declaring the war would end 'when I want it to' while warning Gulf allies to prepare for possible strikes after the midterms; costs reportedly ballooned to $47 billion. The US economy posted 3.4 percent growth, the fastest in a year, though inflation remained stubbornly high, and the Fed held rates steady. Washington approved a $2.1 billion Patriot missile sale to Ukraine. Trump's lawsuit against the Wall Street Journal over Epstein reporting was dismissed yet again. Pioneering labor leader Dolores Huerta died at 96.",
+    "key_events": [
+      {
+        "event": "US midterm elections held on November 3 with Trump campaigning via telerallies and demanding the Alaska Democrat be removed from the ballot",
+        "date": "2026-11-03",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Flavio Bolsonaro fled Brazil after his presidential election defeat and was granted a US visa to stay in Florida",
+        "date": "2026-10-30",
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "US warned Gulf allies to prepare for possible Iran strikes after the midterms as war costs reportedly reached $47 billion",
+        "date": "2026-10-31",
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "US economy grew 3.4 percent, the fastest pace in a year, while the Fed held interest rates steady ahead of the elections",
+        "date": "2026-10-30",
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "US approved a $2.1 billion sale of Patriot interceptors to Ukraine",
+        "date": "2026-10-29",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "A federal judge ordered the Trump administration to stop threatening to prosecute election officials",
+        "date": "2026-10-29",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Trump's lawsuit against the Wall Street Journal over Epstein birthday book reporting was dismissed for a third time",
+        "date": "2026-10-28",
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "Pope Leo XIV cast the first-ever papal vote in a US general election",
+        "date": "2026-11-03",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Pioneering US labor leader Dolores Huerta died at age 96",
+        "date": "2026-10-28",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "US plans to deport Afghan immigrants back to Afghanistan through Pakistan",
+        "date": "2026-10-27",
+        "domain": "society",
+        "importance": 3
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🗳️",
+      "⚔️",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "The US midterm elections on November 3 were the dominant story of the week, with Trump cancelling rallies, demanding the Alaska Democrat off the ballot, and a judge ordering the administration to stop threatening election officials (headlines 12, 233, 228, 149).",
+      "The US-Iran war continued with Trump warning Gulf allies to prepare for post-election strikes, Iran threatening wider US strikes, and war costs ballooning to $47 billion (headlines 11, 59, 244, 180).",
+      "The US economy posted 3.4 percent growth, the fastest in a year, and the Fed held rates steady, though inflation remained stubbornly high (headlines 138, 151, 185)."
+    ],
+    "developments": [
+      {
+        "subject": "US Midterm Elections",
+        "what_happened": "The final week of the midterm campaign saw Trump cancel in-person rallies in favor of telerallies, demand the Alaska Democrat be removed from the ballot, and a judge order the administration to stop threatening election officials, while Pope Leo XIV voted for the first time in a US general election.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          4,
+          12,
+          17,
+          23,
+          25,
+          26,
+          27,
+          51,
+          55,
+          58,
+          62,
+          92,
+          93,
+          96,
+          106,
+          107,
+          113,
+          115,
+          120,
+          122,
+          127,
+          128,
+          133,
+          134,
+          135,
+          140,
+          141,
+          145,
+          149,
+          150,
+          153,
+          160,
+          162,
+          166,
+          170,
+          173,
+          176,
+          188,
+          192,
+          199,
+          201,
+          204,
+          205,
+          209,
+          212,
+          219,
+          221,
+          224,
+          225,
+          228,
+          229,
+          231,
+          233,
+          235,
+          237,
+          238,
+          239,
+          240,
+          242,
+          243,
+          245,
+          246,
+          248
+        ]
+      },
+      {
+        "subject": "US-Iran War and Post-Election Strike Warnings",
+        "what_happened": "Trump declared the Iran war would end 'when I want it to' while the US warned Gulf allies to prepare for possible strikes after the midterms; Iran targeted US air defenses at Mideast bases, and war costs reportedly reached $47 billion.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          9,
+          11,
+          33,
+          44,
+          48,
+          50,
+          59,
+          68,
+          70,
+          75,
+          76,
+          99,
+          100,
+          105,
+          111,
+          121,
+          132,
+          161,
+          165,
+          174,
+          180,
+          232,
+          244,
+          250
+        ]
+      },
+      {
+        "subject": "Flavio Bolsonaro Flees to US",
+        "what_happened": "Flavio Bolsonaro fled Brazil after losing the presidential election, landed in Florida, and was granted a US visa; Trump said he could stay 'as long as he wants,' while Rubio insisted the US did not facilitate the flight, and Bolsonaro declared himself Brazil's 'leader' in exile.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          7,
+          24,
+          38,
+          42,
+          47,
+          54,
+          71,
+          101,
+          109,
+          193,
+          197,
+          200,
+          202,
+          203,
+          207,
+          212,
+          216,
+          230
+        ]
+      },
+      {
+        "subject": "US Economy and Fed",
+        "what_happened": "The US economy posted 3.4 percent growth, the fastest in a year, but inflation remained stubbornly high; the Fed held rates steady ahead of the elections, and AI spending nearing $1 trillion alongside Alphabet's sales miss rattled tech stocks.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          10,
+          20,
+          22,
+          57,
+          80,
+          89,
+          110,
+          111,
+          112,
+          120,
+          121,
+          129,
+          138,
+          139,
+          143,
+          147,
+          151,
+          163,
+          168,
+          170,
+          177,
+          178,
+          185,
+          187,
+          210,
+          213,
+          250
+        ]
+      },
+      {
+        "subject": "Trump's Legal Battles and Court Rulings",
+        "what_happened": "A judge dismissed Trump's lawsuit against the Wall Street Journal over Epstein reporting for a third time, ordered the administration to stop threatening election officials, pushed back on the DC arch 'national security' argument, and ruled the DOJ unlawfully fired Epstein prosecutor Maurene Comey.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          3,
+          4,
+          14,
+          16,
+          25,
+          35,
+          45,
+          74,
+          81,
+          83,
+          86,
+          91,
+          149,
+          158,
+          192,
+          211,
+          226,
+          236,
+          238
+        ]
+      },
+      {
+        "subject": "Alaska Senate Race",
+        "what_happened": "Trump demanded the Alaska Democratic Senate candidate be removed from the ballot after a New York Times report, the administration accelerated a criminal probe into the race, and Alaska attorneys called the demand 'meritless' and 'not even possible.'",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          92,
+          141,
+          153,
+          162,
+          188,
+          228
+        ]
+      },
+      {
+        "subject": "Ukraine Defense and Patriot Sale",
+        "what_happened": "The US approved a $2.1 billion sale of Patriot interceptors to Ukraine after an alleged holdup, and Ukraine paused strikes on Russian refineries after pressure from Washington.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          63,
+          73,
+          78,
+          97,
+          117,
+          189,
+          208,
+          217
+        ]
+      },
+      {
+        "subject": "US-Cuba Tensions",
+        "what_happened": "The US kicked out a Cuban diplomat after a heated exchange at the UN, and the UN adopted a resolution demanding the end of the US embargo on Cuba.",
+        "coverage": "occasional",
+        "direction": "escalating",
+        "headline_ids": [
+          137,
+          206,
+          215,
+          218,
+          223,
+          241
+        ]
+      },
+      {
+        "subject": "Afghan Deportations",
+        "what_happened": "Documents showed the US planned to deport Afghan immigrants back to Afghanistan through Pakistan, drawing criticism as part of the administration's immigration enforcement.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          123
+        ]
+      },
+      {
+        "subject": "US-China Relations",
+        "what_happened": "China made its first inquiry for US wheat since the Trump-Xi summit, the US planned to ban Chinese telecom firms from direct access to US phone numbers, and China-linked spam accounts were found posing as US voters on X.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          15,
+          69,
+          114,
+          155,
+          186,
+          195
+        ]
+      },
+      {
+        "subject": "Dolores Huerta's Death",
+        "what_happened": "Pioneering US labor and civil rights leader Dolores Huerta died at age 96, marking the loss of a major figure in American labor history.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          166,
+          219
+        ]
+      }
+    ],
+    "gone": [
+      "Russia releases Stephen Hubbard",
+      "Pentagon F-35 purchase and defense"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 250 headlines provide rich, multi-source coverage of the midterm elections, the Iran war, the Bolsonaro flight, and the economic data, with only minor gaps on specific legislative or judicial actions during the window."
+    },
+    "headlines_used": [
+      "Trump says Flavio Bolsonaro can stay in US 'as long as he wants'",
+      "US plans to deport Afghans back to their home country through Pakistan, documents show",
+      "US judge dismisses Trump lawsuit against Wall Street Journal over Epstein letter",
+      "Judge orders Trump administration to stop threatening US election officials",
+      "Election officials brace for foreign threats — and an unpredictable Washington",
+      "Trump grants visa to mother of Ghanaian boy killed in NYC — Mamdani",
+      "Présidentielle au Brésil: Les États-Unis affirment ne pas être directement impliqués dans la fuite de Flavio Bolsonaro",
+      "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+      "Exclusive | Inside the U.S. Military’s Open-Ended Mission to Keep Gulf Oil Flowing",
+      "Bond investors sit out ‘most consequential’ US midterm elections in years",
+      "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
+      "US midterms: 2 days to go – what polls say as Trump, El-Sayed hit the trail",
+      "California governor asks US judges to resist Trump attempts to seize ballots",
+      "Virginia and DC sue over Trump's arch, adding to legal challenges as government wants work to begin",
+      "Trump says US looking 'closely' at report Nvidia CEO target of China spy plot",
+      "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+      "Storm set to hit central US on Election Day as key midterm races hang in balance",
+      "Donald Trump loses allies after elections in Serbia and Brazil",
+      "Trump menace l'Iran de nouvelles frappes sur \"un ou deux sites\"",
+      "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "American Speculators and Prospectors Find It’s Hard to Make Money in Greenland",
+      "Investors trim growth bets over fears of US economy’s AI exposure",
+      "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as affordability looms over midterm",
+      "Rubio says Trump administration did not help Bolsonaro flee Brazil to US",
+      "Trump calls $50 million contract for ex-lawyer Habba Mildon 'not acceptable'",
+      "Trump administration's social media posts ahead of elections criticized for being inflammatory",
+      "'Trump betrayed us': Arizona's Latino voters sour on president",
+      "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
+      "Pope Leo welcomes stars of US college basketball to the Vatican",
+      "Russia's shadow fleet: Can the EU act even if the US eases sanctions on these ships?",
+      "À Washington, un musée explore d'anciens portraits d'Afro-Américains",
+      "The Midterms Go Global as Voters Beyond US Turn Sour on Trumpism",
+      "The Methodology Behind the Journal’s Investigation of Damage to U.S. Bases",
+      "US midterms loom over jittery investors",
+      "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+      "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
+      "Hanwha signs $269 million shipbuilding contract for US Navy",
+      "Rubio says the US government did not facilitate Bolsonaro’s flight to the US",
+      "United States Signs Participation Contract for Expo 2030 Riyadh, Strengthening Momentum For Global Participation",
+      "Sir Keir Starmer: Europe can't rely on US to 'bankroll' defence, Dublin event told",
+      "A religious reckoning may be looming for White evangelicals who support Trump",
+      "Flavio Bolsonaro flees Brazil for US amid investigation — reports",
+      "Un allié complotiste de Trump candidate pour superviser les élections en Arizona",
+      "Iran Threatens Wider US Strikes Even as Talks Make Progress",
+      "Judge Dismisses Trump’s Lawsuit Against Wall Street Journal Publisher Again",
+      "Picasso called him ‘the father of us all’ — what explains Cézanne’s enduring influence?",
+      "Trump says he approves of Brazil's Flavio Bolsonaro coming to U.S. following election loss",
+      "What we know about latest efforts to end US war on Iran",
+      "US Senate candidate El-Sayed wants Democratic rival to stay away, source says",
+      "Iran targeted US air defenses then hit aircraft and buildings on Mideast bases, AP analysis finds",
+      "Trump backtracks on rallies in turbulent end to midterms campaign",
+      "'The necktie is dead': How US midterm candidates are dressing for votes",
+      "Americans voting from Mexico share a concern ahead of the midterms: the future of democracy",
+      "Brazil: Flavio Bolsonaro flees to US amid corruption probes",
+      "Des chatbots d'IA diffusent de fausses informations sur les élections américaines de mi-mandat",
+      "US Starts at ‘Basically Zero’ in Building Cheap Military Drones",
+      "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold",
+      "Martin Wolf on the US midterms: What’s the risk of political violence?",
+      "Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections",
+      "FSB says US warned Russia of possible Moscow attack",
+      "Heavy rains expected to bring flooding risk to already saturated parts of the US Southwest",
+      "Trump reinstates rallies in turbulent end to US midterms campaign",
+      "US approves sale of 500 Patriot missiles to Ukraine",
+      "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
+      "US midterms: What you need to know",
+      "MINURSO au Sahara occidental: la mission de l'ONU n'est pas renouvelée, après les vetos de la Russie et des États-Unis",
+      "US Embassy Warns of Mass Casualty Threat at Moscow Museum",
+      "How Iran Battered U.S. Bases and Caused Billions in Damage",
+      "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+      "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms",
+      "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+      "US woman who survived botched execution says she's in constant pain",
+      "Global News Podcast | US approves sale of 500 Patriot missiles to Ukraine",
+      "Judge tosses Trump’s lawsuit against Wall Street Journal again, this time for good",
+      "Two men charged over incident near British airbase used for US strikes on Iran",
+      "Le guide suprême iranien met en garde les États-Unis et Israël contre une reprise de la guerre",
+      "Carney Says No Hurry on Trade Deal If US Won’t Offer Good Terms",
+      "Exclusive | Ukraine Pauses Strikes on Russian Refineries After Pressure From U.S.",
+      "The Trump sons’ global network: money, influence and the family business",
+      "Chart: Anthropic's cash pile towers over nearly every U.S. company",
+      "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting",
+      "London police arrest 139 people outside US Embassy for supporting banned pro-Palestinian group",
+      "US judge pushes back on Trump arch 'national security' argument",
+      "Pontypool boy to go to US for cancer vaccine after drug withdrawn",
+      "Americans may feel a bit spooked by Halloween prices",
+      "Trump administration brings third criminal case against former FBI Director James Comey over alleged leak",
+      "États-Unis: Nevada Pierre, un footballeur de 3 ans exclu d’un match pour avoir marqué trop de buts",
+      "El Niño Storms Bring Flooding and Golf-Ball Hail to US Southwest",
+      "Opinion | The U.S. Investment Boom Arrives",
+      "US judge Alvin Hellerstein who oversaw Archegos and Maduro cases dies at 92",
+      "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+      "US midterm campaign enters final weekend as Alaska, California ballot fights heat up",
+      "Alabama Republicans thought they had drawn a safe US House seat. A Black congressman had other ideas",
+      "Carmaker Audi cuts outlook again on China, US woes",
+      "The fight to save Canadian town threatened by Trump's tariffs",
+      "Trump says his voice is at \"about 49.2%\" as he nears end of midterm rally blitz",
+      "Ukraine and Russia begin Melania Trump-brokered ceasefire to allow aid into occupied Oleshky",
+      "États-Unis: la croissance flambe avant les élections, les prix aussi",
+      "Here’s How Much You’re Paying for Trump’s Tariffs and Iran War",
+      "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms",
+      "Flávio Bolsonaro lands in US after fleeing Brazil",
+      "Trump invokes 9/11 in urging Michigan voters to oppose Muslim Senate candidate El-Sayed",
+      "Preschool case tests religious conservatives' US Supreme Court win streak",
+      "Rival US and Russia resolutions on disputed Western Sahara are defeated in UN Security Council",
+      "US oil giants report profit surge again on Iran war",
+      "From Our Own Correspondent | US Midterm Elections: Anger v Loyalty",
+      "Analysis: All signs point to Trump contesting the election. What to watch for | CNN Politics",
+      "Germany: Audi's $4 billion deal with Trump comes at a tricky moment for the automotive hub",
+      "Depuis les États-Unis, Flavio Bolsonaro affirme être le \"leader\" du Brésil",
+      "Europe’s Earnings Growth to Rival US for the First Time in Years",
+      "U.S. Natural Gas Futures Gain As November Contract Expires",
+      "The great American investment boom",
+      "Power bills and data centers cast rare spotlight on utilities in US midterms",
+      "Graphika finds China-linked Spamouflage accounts posing as US voters on X",
+      "Surging costs of living top US voter concerns",
+      "United States 12-55 England: Meg Jones asks for unpredictability",
+      "US approves potential $2.1 billion sale of scarce Patriot missiles to Ukraine | CNN Politics",
+      "Germany news: Audi boss faces union fury over Trump rally appearance as Merz and Steinmeier head to Asia",
+      "Venezuela : l'opposante Machado remercie Trump d'ouvrir \"la porte de la liberté\"",
+      "Why the US Economy Looks Strong But Feels Bad to Many",
+      "U.S. Crude Oil Stockpiles Fall for Fourth Straight Week",
+      "‘I want this over so much’: weary US voters face deluge of election ads",
+      "Trump administration plans to deport some Afghan immigrants to Afghanistan",
+      "Carney eyes June deal for Canada to become EU associate member as Trump reshapes alliances",
+      "US jury hands win to Bayer in weedkiller cancer case",
+      "Newshour | What's at stake for Trump in US midterms?",
+      "Pope Leo makes history by voting in US midterms",
+      "Midterms: les latinos lâchent-ils vraiment Donald Trump et les républicains?",
+      "Microsoft Looks to Raise at Least $25 Billion From US Bond Sale",
+      "Danone Sales Rise as It Mounts U.S. Comeback",
+      "Flutter’s fall is a cautionary tale for US listing wannabes",
+      "Iranian official says US attacked fishing boats off Qeshm Island, state media reports",
+      "Meet the democratic socialists likely on their way to Congress",
+      "Trump scraps last US midterms rallies",
+      "Pope Leo XIV casts historic vote in US midterm election",
+      "Peptides could soon be easier to get in the United States. Here’s what to know",
+      "VIDÉO. Cuba: une résolution de l'ONU demandant la fin de l'embargo américain adoptée",
+      "US Economy Grows a Faster-Than-Expected 3.4%, Most in a Year",
+      "U.S. Stocks Up, Treasury Yields Mixed After Fed Hold",
+      "US voters and Trump’s overflowing swamp",
+      "Attorneys for Alaska say 'meritless' Trump demand to set aside Senate ballots 'not even possible'",
+      "Video does not show stabbing at Trump rally",
+      "US tech stocks see sharp falls as AI spending nears $1tn",
+      "Russia and US discussing sanctions relief for Moscow’s sovereign wealth fund, Kremlin aide says",
+      "Les hôpitaux ruraux américains, victimes collatérales des politiques de Trump",
+      "McDonald’s Aims to Lure Budget Seekers With New US Value Deal",
+      "U.S. Stocks Narrowly Mixed Following Fed Decision",
+      "US insurance regulators back down on credit ratings scrutiny",
+      "Judge orders Trump administration to cease threats to prosecute election officials",
+      "Trump and Clinton rally as early voting surges, Alaska probe widens, and Michigan Democrats feud",
+      "US economy posts strong growth, inflation stubbornly high in challenge to Trump",
+      "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+      "Analysis: Alaska Democrats just handed Trump a political gift",
+      "Le déploiement de milliers de soldats salvadoriens en Haïti, sans doute plus qu'une opération de sauvetage",
+      "China Makes First Inquiry for US Wheat Since Trump-Xi Summit",
+      "Washington discusses Russian deals for US oil majors in Ukraine peace talks",
+      "McDonald's must face lawsuit over McRib, US judge rules",
+      "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+      "U.S. Bancorp Announces New U.S. Bancorp Global Funds Brand",
+      "What's at stake for Trump in the US midterms?",
+      "Hegseth ousts Pentagon’s chief planner as renewed action against Iran looms, source says",
+      "Deux Dan Sullivan candidats en Alaska: Donald Trump a-t-il raison de dénoncer une 'fraude' de la candidate démocrate?",
+      "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears",
+      "Inside Donald Trump Jr’s Mongolian hunting trip with a Kremlin-linked businessman",
+      "US orders non-emergency staff to leave Saudi Arabia over security risks",
+      "Pioneering US labor leader Dolores Huerta dies at 96",
+      "From green card to fraud: Kenyans arrested in $130m US ghost student scam",
+      "Last snapshot of the US economy before midterms shows stronger growth but higher inflation | CNN Business",
+      "Un sommet UE-Canada pour amener la relation \"au plus haut niveau possible\"",
+      "Watch Why the US Economy Feels Worse Than It Looks",
+      "Washington to issue Flávio Bolsonaro US visa after election loss",
+      "SoftBank-backed OPay withdraws $304 million US IPO after regulatory inquiry",
+      "Leo XIV has become the first pope in history to vote in a US general election",
+      "US fires top army general in latest ouster: media",
+      "'A way of celebrating presence': What Botero's rotund remakes of classical masterpieces tell us about art history",
+      "Is Fox News pivoting to its post-Trump era? Look at how it’s covering the midterms",
+      "Wall Street ouvre en baisse, plombée par Alphabet, qui décroche de plus de 10%",
+      "Starbucks US Sales Beat Estimates, Extending Growth Run",
+      "Three Russian diesel tankers steam for US — including two under sanctions",
+      "Trump on Iran war: It's going to get wrapped up soon",
+      "How major US stock indexes fared Friday 10/30/2026",
+      "EIG and Acwa Announce Plenum Power, a Strategic Partnership to Invest in U.S. Power Infrastructure",
+      "Global News Podcast | Venezuelan opposition leader criticises US oil deal",
+      "Obama teases Trump about reaction to Cheesecake Factory comment",
+      "Taux directeurs : la Fed s'abstient avant les élections aux États-Unis",
+      "China and the US Are Competing for Space Dominance",
+      "EU loan to Airbus threatens trade truce with US, Trump trade official warns",
+      "Trump administration accelerates criminal probe into Alaska Senate race",
+      "US approves a proposed $2.1 billion sale of Patriot interceptors to Ukraine after alleged holdup",
+      "Trump's border: quiet, but few people are happy",
+      "United States 12-55 England: Red Roses return to winning ways",
+      "Federal judge warns Trump administration’s bid to set aside 20,000 California mail ballots would ‘wreak havoc’",
+      "VIDÉO. États-Unis : Flavio Bolsonaro atterrit en Floride",
+      "Donald Trump accused of ‘manipulating’ Catholic bishops for political gain",
+      "US plans to ban Chinese telecom firms from direct access to US phone numbers",
+      "Consensus looks elusive at G20 talks after European objections to Russia cancel group photo",
+      "US to grant Flavio Bolsonaro visa as he flees Brazil after election loss",
+      "We went on holiday with our neighbours and swapped families - it tore us apart",
+      "Why Trump’s big claims of voter fraud have yielded so few prosecutions",
+      "Brésil: Flavio Bolsonaro est arrivé aux États-Unis après sa défaite à la présidentielle",
+      "US voters worried about corruption under Trump — FT poll",
+      "Trump not planning to back Bolsonaro's claim to be Brazil's leader, sources say",
+      "Brazil summons Argentina’s representative after Bolsonaro flees to the US via Argentina",
+      "'They don't care about us': Trump food aid cuts leave Americans struggling and angry",
+      "Newshour | Ahead of US Midterms, we ask how will Pennsylvania vote?",
+      "Trump administration kicks out Cuban diplomat from US as tensions rise",
+      "Flavio Bolsonaro sous le coup de plusieurs enquêtes au Brésil",
+      "US approves $2.1 billion Patriot missile sale to Ukraine",
+      "A midterm crossroads for both parties eyeing the beginning of the end of the Trump era",
+      "US Fed expected to hold rates steady ahead of key midterm elections",
+      "Judge to investigate whether Trump administration lied in golf course renovation case",
+      "Why the US has become a political base for Brazil’s Bolsonaro allies",
+      "Taux directeurs : la Fed tentée par l'abstention avant les élections de mi-mandat aux États-Unis",
+      "EXCLUSIVE: Pentagon tells Europeans to cool their rhetoric on Russia, sources say",
+      "Cuba welcomes home diplomat expelled from US after unusual altercation at the UN",
+      "Bolsonaro flees Brazil for US after election defeat: AFP",
+      "Democratic senator blames Egypt press crackdown on US military aid decision",
+      "Hell will freeze over before Havana gives in to Trump. But regular Cubans don’t have that long",
+      "Figure du syndicalisme américain, Dolores Huerta est morte à 96 ans",
+      "Trump touted a record Venezuela oil deal. Now reality is setting in",
+      "AP Decision Notes: What to expect in Washington on Election Day",
+      "92-year-old US judge handling Maduro case dies",
+      "Cubans in Florida waver on Trump and Republicans over immigration",
+      "Why Trump’s latest election warning is impossible to ignore",
+      "Mort d'Alex Pretti: ses parents accusent l'administration Trump de protéger les agents de l'ICE qui l'ont tué",
+      "White House hearing on Fed's Cook delayed to December, Hassett says",
+      "Norway turns to toilet humor after Trump bashes Scandinavian country",
+      "Trump demands Alaska Democrat off ballot after NY Times report",
+      "Who will win the midterms? How the US elections will be won and lost",
+      "Trump approved allowing Flávio Bolsonaro to enter US after Brazil election loss",
+      "Des migrants s'enracinent au Mexique après le blocage du \"rêve américain\" par Trump",
+      "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation",
+      "Trump cancels rallies in Kansas and Iowa, opting for telerallies to reach more voters, RNC says",
+      "US judge narrows Macron defamation case against conservative podcaster",
+      "US midterm elections results 2026",
+      "A ‘generational defense opportunity’: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle",
+      "US court lifts ruling requiring Idaho to allow some abortions to protect women's health",
+      "Judge wants to know if Trump attorneys violated ethics in one of 2 cases to change the DC landscape",
+      "Palestinian activist Khalil returns to Columbia after US detention",
+      "Details of thousands of US immigration agents leaked in major hack",
+      "US and Cuban officials get into heated exchange at UN",
+      "Les principaux thèmes des élections de mi-mandat aux États-Unis",
+      "Chocolate makers get Halloween fright as health-conscious US shoppers cut back",
+      "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say",
+      "Washington midterm elections results 2026",
+      "Flávio Bolsonaro says he will lead Brazil’s opposition in exile, after landing in US following election defeat",
+      "Viktor Orbán à la tête de l'ONU? Le plan prêté à l'administration de Donald Trump sous le feu des critiques en Europe",
+      "When US midterm results are contested, Congress has final say",
+      "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+      "Trump drastically loosens oil and gas methane rules"
+    ],
+    "converted": false,
+    "relevant_headlines": 294,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "US Midterm Elections",
+        "expected": "US Midterm Elections stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US Midterm Elections appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "US-Iran War and Post-Election Strike Warnings",
+        "expected": "US-Iran War and Post-Election Strike Warnings stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about US-Iran War and Post-Election Strike Warnings appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Flavio Bolsonaro Flees to US",
+        "expected": "Flavio Bolsonaro Flees to US stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Flavio Bolsonaro Flees to US appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Flavio Bolsonaro Flees to US",
+        "expected": "persist",
+        "sign": "Flavio Bolsonaro Flees to US is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. US Midterm Elections stays in the news at the same level. US-Iran War and Post-Election Strike Warnings stays in the news at the same level. Flavio Bolsonaro Flees to US stays in the news at the same level. Flavio Bolsonaro Flees to US is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "US Midterm Election Results",
+        "expected": "Trump will immediately dispute the Alaska Senate election result by demanding a recount after polls close on November 3.",
+        "direction": "escalate",
+        "sign": "Headlines will show Trump publicly disputing vote counts in a Senate race and demanding a recount, while state election officials push back on his claims."
+      },
+      "second": {
+        "subject": "US-Iran Post-Election Strikes",
+        "expected": "Trump will authorize a new round of US military strikes on Iranian targets in the days following the midterms.",
+        "direction": "escalate",
+        "sign": "Headlines will report US military strikes on Iranian sites and Iranian retaliation, with Gulf nations expressing alarm over the renewed conflict."
+      },
+      "third": {
+        "subject": "Flavio Bolsonaro in Florida",
+        "expected": "Bolsonaro will hold a public address from Florida declaring himself Brazil's leader in exile.",
+        "direction": "persist",
+        "sign": "Headlines will feature Bolsonaro speaking from Florida about his role in Brazilian politics, with Brazilian officials responding to his self-appointment."
+      },
+      "fade_call": {
+        "subject": "Dolores Huerta's death",
+        "expected": "fade",
+        "sign": "Headlines will shift from tributes and legacy stories to election coverage, with only brief follow-up obituaries appearing."
+      },
+      "surprise": {
+        "subject": "AI chatbot election misinformation",
+        "expected": "AI-generated chatbots will spread false claims about vote results in at least one state, prompting election officials to issue public corrections.",
+        "chance": "medium"
+      },
+      "summary": "Next week will be defined by US midterm election results. After polls close on November 3, the country will turn to who controls Congress, and Trump will move quickly to dispute results in close Senate races, particularly in Alaska. The US-Iran conflict will shift from warnings to action, as Trump follows through on his promise to strike after the midterms, with Gulf allies bracing for renewed fighting. In Florida, Flavio Bolsonaro will cement his self-declared role as Brazil's leader in exile, drawing sharp reactions from Brasília. The Dolores Huerta story will fade from front pages as the nation focuses on its new government. AI-generated misinformation will complicate the post-election narrative, and the strong economic growth numbers of this week will be overshadowed by the political fallout of a contested election.",
+      "generated_at": "2026-11-01T14:56:04+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US Midterm Election Results",
+        "expected": "The November 3 vote will produce a narrow Senate outcome that triggers an immediate legal challenge in a contested state, with the president declaring the result disputed within hours of polls closing.",
+        "direction": "escalate",
+        "sign": "A headline announcing projected or final Senate results with at least one race in dispute, paired with a presidential statement questioning the outcome and a court filing in a swing state."
+      },
+      "second": {
+        "subject": "US-Iran Post-Election Strikes",
+        "expected": "The US will launch a limited strike on Iranian targets in the days following the midterms, as previously warned to Gulf allies, triggering Iranian retaliatory attacks on US assets in the region.",
+        "direction": "escalate",
+        "sign": "A headline naming a specific Iranian site struck by US forces, paired with Iranian statements about retaliatory action against US bases or shipping in the Gulf."
+      },
+      "third": {
+        "subject": "Bolsonaro Exile in Florida",
+        "expected": "Flavio Bolsonaro will make a public declaration from Florida solidifying his self-proclaimed status as a Brazilian opposition leader in exile, drawing a wave of domestic and international political responses.",
+        "direction": "persist",
+        "sign": "A headline about a defeated Brazilian candidate making a public appearance from the US, paired with domestic political figures responding to his self-proclaimed leadership claim and US diplomatic commentary."
+      },
+      "fade_call": {
+        "subject": "Dolores Huerta Death",
+        "expected": "fade",
+        "sign": "The story shrinks to a brief mention in a broader cultural or labor piece, with no new developments about memorials or legacy projects."
+      },
+      "surprise": {
+        "subject": "US-Russia Sanctions Relief",
+        "expected": "The US and Russia will announce a preliminary framework for sanctions relief on Moscow's sovereign wealth fund, surprising markets and Congress in the post-election period.",
+        "chance": "medium"
+      },
+      "summary": "The week will be defined by the November 3 midterm election results, which will produce a contentious outcome with at least one Senate race in dispute and the president immediately challenging the result. In the days following the vote, the US will move to carry out the limited strikes on Iranian targets it has warned Gulf allies to prepare for, forcing Tehran into retaliatory action against American assets in the region. Flavio Bolsonaro will solidify his position as a self-proclaimed opposition leader in exile from Florida, while the US administration navigates the diplomatic complications of hosting a defeated candidate under investigation. The economy will hold steady with the Fed keeping rates on hold, and the tech sector will absorb the weight of near-trillion-dollar AI spending. The Dolores Huerta memorial will fade into the broader cultural conversation as the political storm dominates.",
+      "generated_at": "2026-11-01T15:17:57+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "US Midterm Election Results",
+        "expected": "The November 3 midterm election results will be tallied and the new balance of power in Congress will be declared, with the president publicly reacting to the outcome in key Senate and House races.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the final vote counts in contested states, the president's immediate public reaction, and the new composition of Congress"
+      },
+      "second": {
+        "subject": "US-Iran Post-Election Strikes",
+        "expected": "The US will authorize or carry out renewed military strikes on Iranian targets in the Gulf region, following the warning issued to regional allies before the vote.",
+        "direction": "escalate",
+        "sign": "Headlines will report US military action against Iranian sites, Gulf allies confirming preparations, and the war entering a new operational phase"
+      },
+      "third": {
+        "subject": "Bolsonaro US Legal Status",
+        "expected": "The US government will take a formal position on Flavio Bolsonaro's legal status in the country, moving beyond the informal welcome the president offered this week.",
+        "direction": "persist",
+        "sign": "Headlines will report the formalization or rejection of the Brazilian politician's asylum request and the diplomatic fallout with Brazil"
+      },
+      "fade_call": {
+        "subject": "Dolores Huerta Memorial",
+        "expected": "fade",
+        "sign": "Headlines will shift to new stories, with only occasional references to the late labor leader in tribute or policy contexts"
+      },
+      "surprise": {
+        "subject": "Alaska Senate Recount Crisis",
+        "expected": "The Alaska Senate race will be thrown into a recount or special election after the initial count is too close to declare a winner, leaving the seat in constitutional limbo as the administration's criminal probe intensifies.",
+        "chance": "medium"
+      },
+      "summary": "The coming week will be defined by the fallout from the November 3 midterm elections. The president will react publicly to the results, and at least one key race will face immediate legal challenges. In the Gulf, the US will follow through on its warning to regional allies and carry out or authorize renewed strikes on Iranian targets, pushing the war into a more uncertain phase. Flavio Bolsonaro will solidify his position in Florida, with the US government moving to formalize his legal status while Brazil's political establishment scrambles to respond. The Alaska Senate race will face a procedural crisis that leaves the seat unresolved. Markets will react to the new political balance, and the Fed's next move will be overshadowed by the election's economic implications. The Dolores Huerta story will fade from the front pages as the political and military news cycle takes over entirely.",
+      "generated_at": "2026-11-01T15:27:57+02:00"
+    }
+  },
+  "display": {
+    "headline": "Midterm Upset and Iran Strikes Define Volatile Week",
+    "emojis": [
+      "🗳️",
+      "💣",
+      "🛫"
+    ],
+    "emoji_reasons": [
+      "The November 3 midterm election is the defining event of the week with results and disputes dominating.",
+      "The US-Iran conflict will see post-election strikes and retaliatory action in the Gulf region.",
+      "Flavio Bolsonaro's flight to the US and his exile status will add a major diplomatic story."
+    ],
+    "tldr": "The November 3 midterms will produce a contentious result with legal challenges, and the US will follow through on warned strikes against Iran. Bolsonaro's arrival in Florida will add a new diplomatic headache.",
+    "eli5": "Next week is basically the biggest week of the US political year. On November 3, Americans will vote in the midterm elections, and based on how tense things are right now, the results will probably be super close and disputed. The president has already been making legal moves in Alaska and California, so expect court fights to follow the vote.\n\nAt the same time, the US and Iran are in a standoff. The US has told countries around the Gulf to get ready for possible strikes after the election. If those strikes happen, Iran will hit back at US bases or ships, and the whole region will be on edge.\n\nThere is also a big new story: Flavio Bolsonaro, who lost the Brazilian presidential election, has fled to Florida. He is calling himself Brazil's leader in exile, and Trump is basically saying he can stay as long as he wants. That is creating a lot of awkwardness for US diplomats.\n\nA surprise would be if the US and Russia suddenly announce some kind of sanctions deal, which would catch everyone off guard given how tense things are between the two countries."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "US-Iran remained the dominant story with Trump declaring the war would end 'when I want it to' and the US warning Gulf allies to prepare for post-midterm strikes [11][59][100][244], matching the 'persist at same level' call.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Midterm elections remained the dominant domestic story in the final week with Trump cancelling rallies, demanding the Alaska Democrat be removed, and a judge ordering the administration to stop threatening officials [12][51][149][233], consistent with the 'persist' forecast.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Ukraine diplomacy stayed at regular level with the US approving a $2.1 billion Patriot sale after a holdup and Ukraine pausing refinery strikes under US pressure [63][78][189], matching the 'persist' direction.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The Alaska Senate dispute escalated as Trump demanded the Democrat be removed from the ballot and the administration accelerated a criminal probe, with attorneys calling the demand 'meritless' [141][188][228], so it persisted and grew rather than simply holding steady.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Flavio Bolsonaro fled Brazil and landed in Florida as a dominant new story [1][42][101][193][200], contradicting the 'no surprise, nothing outside current stories' call.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified the three dominant threads and their steady persistence, which is a solid read of a week defined by continuation rather than rupture. Its main weakness is the 'no surprise' call, which was wrong given the Bolsonaro flight to the US became a top story. The Alaska fade call was directionally wrong in that the dispute escalated rather than merely persisting, but the subject did remain in the headlines as predicted.",
+        "S": 14
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The US-Iran confrontation stayed dominant but the specific 'limited US military strike against Iranian targets' did not occur this week; instead the US warned of post-midterm strikes and Iran targeted US air defenses [11][50][59][100][244], so the escalation direction was premature.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The Alaska dispute escalated with Trump demanding the Democrat be removed from the ballot and the DOJ accelerating a criminal probe [141][188][228], but no specific court hearing or ruling was reported, so the 'court hearing' form was partly met.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The Patriot sale was approved after a 'holdup' and Ukraine paused refinery strikes under US pressure [63][78][189], showing friction over timing, but no Abu Dhabi three-way talks were mentioned in this round's headlines.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The F-35 purchase dropped out of headlines entirely, listed under 'No longer in the headlines,' exactly as the fade call predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No SpaceX cell-site acquisition filing or telecom-stock reaction appeared in any of this round's US headlines, so the medium-chance surprise did not materialize.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's main thesis of a US strike on Iran was early; the strikes were explicitly positioned for after the midterms, so the week saw tension and warnings rather than a blow. The Alaska and Ukraine calls were directionally correct (escalation and persistence) but the specific forms (court hearing, Abu Dhabi talks) did not appear. The F-35 fade call was spot-on, and the SpaceX surprise was a reasonable guess that simply did not land.",
+        "S": 11
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The US-Iran story stayed dominant with Iran targeting US air defenses and the US warning of post-midterm strikes [50][59][100][244], but no specific US strike on a named Iranian facility occurred, so the 'headline naming a specific Iranian military or nuclear facility struck' form was partly met.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The Alaska dispute escalated with Trump demanding the Democrat be removed from the ballot and the DOJ accelerating a criminal probe [141][188][228], but no federal judge ruling or injunction was reported, so the 'court ruling' form was partly met.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The final stretch of the midterms was dominant with polls, cost-of-living anxiety, and Trump's rally changes [12][115][122][134][229], matching the 'persist' direction and the consumer-anxiety framing.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The Oleshky ceasefire appeared in a single headline [97] as a brief note rather than fading entirely, so it shrank to marginal presence but did not fully disappear as the fade call predicted.",
+            "forecast_direction": "fade",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No SpaceX cell-site acquisition announcement or telecom-stock volatility appeared in this round's US headlines, so the medium-chance surprise did not materialize.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's Iran-strike thesis was the same early call as Bulletin Y; the US explicitly positioned strikes for after the midterms, so the week was about warnings and Iranian counter-strikes rather than a US blow. The Alaska and midterm calls were directionally sound, with the midterm framing on consumer anxiety matching well. The Oleshky fade call was slightly off since the story lingered as a marginal headline rather than vanishing, and the SpaceX surprise, while plausible, did not surface.",
+        "S": 8
+      }
+    },
+    "S": [
+      {
+        "persistence": 14,
+        "plain": 11,
+        "crystal": 8
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Computed from the scores: persistence 14, plain 11."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -2.0,
+          "reason": "Computed from the scores: persistence 14, crystal 8."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 11, crystal 8."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": 1.0,
+      "persistence_vs_crystal": 2.0,
+      "plain_vs_crystal": 1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -1.0,
+    "u": -2.0,
+    "first_listed_wins": 3,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was defined by three intertwined threads: escalating US-Iran and Middle East security, the final stretch of the US midterm campaign, and a renewed push for Ukraine diplomacy. The US ordered the departure of some diplomats and family members from Saudi Arabia and four other Middle East embassies after intelligence warned of Iranian plots to target Americans and Houthi attacks continued, while the USS George Washington repositioned for possible strikes. In the midterm race, Trump ordered the Justice Department to sue to block Alaska's Senate results if the Republican incumbent lost, consumer sentiment slid to near-record lows, and heating oil costs became a flashpoint for Republican candidates. On Ukraine, US envoy Steve Witkoff met Putin in St. Petersburg, Russia freed American prisoner Stephen Hubbard at Trump's request, and Zelensky met US envoys in Oslo ahead of planned three-way talks in Abu Dhabi in early November. Zelensky accused the Pentagon\n- US-Middle East security and Iran (dominant, escalating): The US ordered some diplomats and families out of Saudi Arabia and four other Middle East embassies as intelligence warned of Iranian plots to kill Americans and Houthi attacks continued, while the USS George Washington repositioned for possible strikes.\n- US midterm elections (dominant, escalating): Trump ordered the DOJ to sue over Alaska's Senate result, consumer sentiment hit near-record lows, No Kings rallies pushed early voting, and heating oil costs and foreign-policy fallout became flashpoints for Republican candidates.\n- Ukraine diplomacy and Russia talks (dominant, continuing): Witkoff met Putin in St. Petersburg, Zelensky met US envoys in Oslo, three-way talks were set for Abu Dhabi in early November, and Zelensky accused the Pentagon of delaying Patriot missile deliveries.\n- Russia releases Stephen Hubbard (regular, resolved): Russia freed 74-year-old American Stephen Hubbard after more than four years in a Russian jail at Trump's request, and he returned to US soil.\n- Trade, tariffs, and energy deals (regular, continuing): The US lifted tariffs on some Canadian goods before the midterms, the first Russian diesel tanker under the Trump-Putin deal set sail, Qatar agreed to buy US LNG through 2054, and Trump was sued over 50 percent tariffs on Canada.\n- AI and technology policy (regular, escalating): The US banned DeepSeek from government agency systems, China opposed the ban, DeepSeek raised 15 billion dollars, and SpaceX was reported in talks to acquire cell sites, rattling US telecom stocks.\n- Alaska Senate lawsuit (regular, new): Trump ordered the Justice Department to file a lawsuit to block certification of Alaska's US Senate results if the Republican incumbent loses, drawing comparisons to past election disputes.\n- Pentagon F-35 purchase and defense (occasional, new): The Pentagon and Lockheed Martin announced a ten-year agreement for 850 F-35 fighter jets, and the Pentagon designated Confucius Institutes a national security threat.\n- Economic indicators and markets (regular, continuing): US stocks fell on a deepening tech selloff, initial jobless claims dropped to a three-month low, pending home sales hit a record low, and consumer sentiment approached a record low ahead of the midterms.\n- Trump's DC arch and golf projects (occasional, continuing): Trump moved forward with his planned 250-foot triumphal arch in Washington despite legal challenges, with construction potentially beginning within two weeks, while a separate golf-course plan for East Potomac Park also drew scrutiny.\n\nRound 2026-10-17:\nThis week was dominated by a sharp deterioration in US-Ukraine relations after President Trump waived new Russia sanctions under the Graham Act, citing national interest, just days after signing them into law. Zelenskyy called the move wrong and accused the US of helping Russia, while Moscow hailed it as historic. Congress expressed outrage but had no quick legislative counter. The timing ahead of midterms intensified partisan fights, with Democrats using the Iran war and the sanctions waiver as campaign themes. Inside the White House, press secretary Katie Zacharia was fired after just five days amid criticism over her legal credentials, adding to a pattern of turmoil. Trump also threatened California officials with imprisonment over mail-ballot rules and rallied in Georgia and Pennsylvania as Republican midterm prospects dimmed. No Kings rallies drew voters nationwide to cast early ballots. The US budget deficit ballooned to nearly two trillion dollars, the largest in\n- Trump waived new Russia sanctions and (regular, continuing): Trump waived new Russia sanctions and energy tariffs under the Graham Act, citing national interest, triggering a rift with Zelenskyy and outrage in Congress.\n- White House press secretary Katie Zacharia (regular, continuing): White House press secretary Katie Zacharia was fired after only five days in the role amid criticism over her legal background and a botched first briefing.\n- The US annual budget deficit swelled (regular, continuing): The US annual budget deficit swelled to nearly two trillion dollars, the largest in five years, while federal interest costs hit a record one trillion.\n- US midterm campaign intensified with No (regular, continuing): US midterm campaign intensified with No Kings rallies, Trump threatening California over mail ballots, and party ads attacking each other over the Iran war and Russia sanctions.\n- US and Iran both claimed control (regular, continuing): US and Iran both claimed control of the Strait of Hormuz amid attacks on vessels, and Trump said the US may need to strike Iran's Pickaxe Mountain site.\n- A school shooting in Oregon left (regular, continuing): A school shooting in Oregon left four people dead, including three children, with an armed father confronting the gunman.\n- US bank stocks posted their worst (regular, continuing): US bank stocks posted their worst weekly losing streak since 2008 as a tech-sector sell-off and credit fears weighed on markets.\n- FBI agents and analysts fired for (regular, continuing): FBI agents and analysts fired for their roles in the Trump classified-files probe filed a lawsuit to get their jobs back.\n- The US began reviving shuttered nuclear (regular, continuing): The US began reviving shuttered nuclear plants to meet growing electricity demand and power AI data centers, while Anthropic's Clark told policymakers AI could vastly boost US GDP.\n",
+    "PREVIOUS_FORECAST": "Lead: US-Iran military strike. Expected: A US military strike on an Iranian target will force Tehran to respond with retaliatory attacks on US assets in the Gulf region. Direction: escalate. Sign: A headline naming a specific Iranian military or nuclear facility struck by US forces, paired with Iranian statements about retaliatory action against US shipping or bases in the Gulf.\nSecond: Alaska Senate certification lawsuit. Expected: A federal judge will issue a ruling on the Justice Department motion to block certification of Alaska Senate results, setting a legal precedent for the election dispute. Direction: escalate. Sign: A headline about a court ruling or injunction in the Alaska Senate certification case, with both parties issuing press statements and campaign ads referencing the legal fight.\nThird: Midterm final stretch and consumer anxiety. Expected: A major swing-state poll will show the Senate race tightening as consumer sentiment and heating oil costs drive voter anxiety in the final week before the election. Direction: persist. Sign: A headline about a new poll in a contested state showing a narrow margin, paired with a candidate speech addressing the cost of living and foreign-policy fallout.\nFade call: Melania Trump Oleshky ceasefire. Expected: fade. Sign: The story shrinks to a single reference in a broader Ukraine diplomacy piece, with no new developments about the Oleshky truce or relief-aid delivery.\nSurprise (chance medium): SpaceX cell-site acquisition. SpaceX will announce a definitive agreement to acquire a major US cell-site operator, triggering a regulatory review and a wave of telecom-industry stock volatility in the final week before the midterms.\nSummary: Next week will center on the US-Iran confrontation as the repositioned carrier group points toward a potential strike on Iranian targets. Tehran will respond with retaliatory measures against US assets in the Gulf, forcing the White House to justify its military posture before the midterms. The Alaska Senate certification lawsuit will reach a critical legal milestone as a federal judge rules on the Justice Department motion, sharpening the partisan fight over election integrity. The midterm campaign will enter its final stretch with consumer sentiment near record lows and heating oil costs becoming a defining issue for Republican candidates. Ukraine diplomacy will see last-minute positioning ahead of the planned three-way talks in Abu Dhabi, while the DeepSeek ban and F-35 purchase will recede from the headlines. Markets will stay volatile as the tech selloff and oil price swings weigh on investor confidence.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction. US-Iran escalation was confirmed with post-midterm strike warnings [59], [100], [244] and Iran hitting US air defenses [50], but no specific US strike on a named Iranian facility occurred; the 'retaliatory attacks on US shipping' detail is partially supported by [50] and [70].\n- second: true_in_direction. Alaska dispute escalated with the ballot-removal demand [228], 'meritless' attorney response [141], and accelerated criminal probe [188], but the specific 'federal judge ruling on DOJ motion to block certification' was not the main development.\n- third: came_true. The midterm final stretch dominated with headlines [12], [65], [92], [126], [134], [229], [233], [245], [248], and consumer anxiety was a clear theme in [23], [85], [115], [120], [122], [170], [204].\n- fade_call: did_not_appear. Headline [97] reports 'Ukraine and Russia begin Melania Trump-brokered ceasefire to allow aid into occupied Oleshky,' indicating the story was a new development rather than fading.\nArcher note: Z missed the dominant Bolsonaro flight story and the Pope Leo historic vote, both major new developments. Its Oleshky fade call was directly contradicted by headline [97] showing the ceasefire actively beginning. The main thesis of a US strike plus Alaska judge ruling was over-specific; reality delivered warnings and preparation rather than an actual strike, and the Alaska fight took the form of a ballot demand and criminal probe rather than a certification ruling.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null,
+  "judgment_v1": {
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "grade": "came_true",
+            "evidence": "US-Iran conflict was a dominant continuing story with headlines [11], [19], [44], [50], [59], [100], [132], [161], [180], [244] confirming it persisted at the same high level."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Midterms were the single dominant story with dozens of headlines [12], [65], [92], [126], [134], [135], [229], [233], [245], [248], but they escalated to peak final-week dominance rather than simply persisting at the same level."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "Ukraine/Patriot remained a regular continuing topic with headlines [63], [73], [78], [117], [189], [208] at roughly the same level as before."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Alaska Senate race remained actively in the headlines with [49], [92], [141], [153], [162], [188], [228] confirming it persisted."
+          }
+        },
+        "archer_note": "X missed the dominant new story of Flavio Bolsonaro fleeing to the US, which was one of the three dominant stories this week. Its 'persist at same level' framing for midterms understated the peak final-campaign-week dominance and the Alaska ballot-removal escalation. The main thesis of 'more of the same' was directionally correct but too conservative, missing both the new Bolsonaro story and the post-midterm strike warnings that sharpened the Iran narrative."
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "US-Iran tensions escalated with Trump warning Gulf allies to prepare for post-midterm strikes [59], [100], [244] and Iran targeting US air defenses [50], but no specific US military strike on Iranian targets occurred; the 'USS George Washington' and 'Houthi attacks' details are over-specific."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Alaska Senate dispute escalated with Trump demanding the Democrat off the ballot [228], attorneys calling it 'meritless' [141], and the criminal probe accelerating [188], but the mechanism was a ballot-removal demand and criminal probe rather than a 'court hearing on certification.'"
+          },
+          "third": {
+            "grade": "true_in_direction",
+            "evidence": "Ukraine/Patriot appeared in headlines [63], [117], [189], [208] and Ukraine paused strikes under US pressure [78], confirming the persist direction, but 'Zelensky intensifying pressure' and 'Abu Dhabi three-way talks' are not confirmed in the headlines."
+          },
+          "fade_call": {
+            "grade": "came_true",
+            "evidence": "Reality explicitly lists 'Pentagon F-35 purchase and defense' as no longer in the headlines, confirming the fade."
+          }
+        },
+        "archer_note": "Y missed the dominant Bolsonaro flight story and the Pope Leo voting story, both of which were major. Its Iran lead was over-specific with the USS George Washington and Houthi details that appear in no headline, and the Abu Dhabi talks framing added unconfirmed specificity. The main thesis of Iran escalation plus Alaska court drama was partially right in direction but the specific mechanisms (a strike, a certification hearing) were not what happened."
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "grade": "true_in_direction",
+            "evidence": "US-Iran escalation was confirmed with post-midterm strike warnings [59], [100], [244] and Iran hitting US air defenses [50], but no specific US strike on a named Iranian facility occurred; the 'retaliatory attacks on US shipping' detail is partially supported by [50] and [70]."
+          },
+          "second": {
+            "grade": "true_in_direction",
+            "evidence": "Alaska dispute escalated with the ballot-removal demand [228], 'meritless' attorney response [141], and accelerated criminal probe [188], but the specific 'federal judge ruling on DOJ motion to block certification' was not the main development."
+          },
+          "third": {
+            "grade": "came_true",
+            "evidence": "The midterm final stretch dominated with headlines [12], [65], [92], [126], [134], [229], [233], [245], [248], and consumer anxiety was a clear theme in [23], [85], [115], [120], [122], [170], [204]."
+          },
+          "fade_call": {
+            "grade": "did_not_appear",
+            "evidence": "Headline [97] reports 'Ukraine and Russia begin Melania Trump-brokered ceasefire to allow aid into occupied Oleshky,' indicating the story was a new development rather than fading."
+          }
+        },
+        "archer_note": "Z missed the dominant Bolsonaro flight story and the Pope Leo historic vote, both major new developments. Its Oleshky fade call was directly contradicted by headline [97] showing the ceasefire actively beginning. The main thesis of a US strike plus Alaska judge ruling was over-specific; reality delivered warnings and preparation rather than an actual strike, and the Alaska fight took the form of a ballot demand and criminal probe rather than a certification ruling."
+      }
+    },
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "X correctly identified the midterms as a top-two story and called Iran 'persist at same level,' which matched reality, while Y over-specified the Iran lead with a US strike and USS George Washington that did not appear. X's conservative 'persist' calls were consistently accurate, whereas Y's specific mechanisms (strike, certification hearing, Abu Dhabi talks) were not confirmed by headlines."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "X got three of four items at came_true, while Z had one came_true (third) and one did_not_appear (Oleshky fade) with two true_in_direction items. Z's third item on the midterm final stretch and consumer anxiety was sharper than X's generic 'persist' call, but Z's wrong fade call and over-specific lead/second items cost it overall."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 0.0,
+          "reason": "Y and Z are structurally very similar, both predicting a US Iran strike and an Alaska court ruling, with the same SpaceX surprise. Y's F-35 fade call was correct while Z's Oleshky fade was wrong, but Z's third item on the midterm final stretch and consumer anxiety was clearly superior to Y's Ukraine/Abu Dhabi item."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": 1.0,
+      "persistence_vs_crystal": 1.0,
+      "plain_vs_crystal": 0.0
+    },
+    "consistency": {
+      "compared": 3,
+      "disagree": 0,
+      "flags": []
+    },
+    "v": 0.0,
+    "u": -1.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  }
+}

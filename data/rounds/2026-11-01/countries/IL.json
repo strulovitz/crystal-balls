@@ -1,0 +1,1069 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "IL",
+  "name": "Israel",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T22:00:43+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "During the week of October 24 to November 1, 2026, Israel held its first parliamentary election since the October 7 attacks, producing no clear winner. Netanyahu's Likud-led bloc edged ahead of Gadi Eisenkot's opposition camp but fell short of a majority, while Palestinian Arab parties posted record turnout and emerged as decisive kingmakers in coalition talks. Netanyahu immediately alleged the vote was stolen by foreign entities and pushed for probes into the Arab sector; the opposition accused him of delegitimising the result. President Herzog urged both sides to form a government rather than trigger a new election, and weeks of coalition haggling began. In the West Bank, the Israeli military carried out a major operation in Hebron, demolishing homes and displacing thousands of Palestinians around the vote. In Gaza, Israel launched its first strikes since May, killing a Hamas commander, though a ceasefire was also reported to hold. In Serbia, an assailant was shot dead outside the Israeli embassy in Belgrade. The shekel and Israeli bonds fell on the uncertainty, and Iran's supreme leader warned the US and Israel against resuming war. A Swiss court upheld complaints that TV commentary on Israel's Olympic bobsleigh team was discriminatory.",
+    "key_events": [
+      {
+        "event": "Israel's Knesset election produced no clear winner; Netanyahu's bloc leads but lacks a majority, and Arab parties become kingmakers.",
+        "date": "2026-10-27",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Netanyahu claims the election was stolen by foreign entities and pushes for probes into the Arab voting sector.",
+        "date": "2026-10-28",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "Israel carries out a major military operation in Hebron, demolishing Palestinian homes and displacing thousands ahead of and during the election.",
+        "date": "2026-10-26",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Israel launches its first targeted strikes in Gaza since May, killing a Hamas commander, while a ceasefire is also reported to hold.",
+        "date": "2026-10-28",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "President Herzog urges both Netanyahu and Eisenkot to form a government rather than call a new election.",
+        "date": "2026-10-29",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "An assailant attacks a police officer outside the Israeli embassy in Belgrade, Serbia, and is shot dead.",
+        "date": "2026-10-25",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Iran's supreme leader warns the US and Israel against resuming war, as reports say the two are planning a new strike on Iran.",
+        "date": "2026-10-30",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Israeli bonds and the shekel fall as the inconclusive election leaves both camps short of a parliamentary majority.",
+        "date": "2026-10-28",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "A Swiss court upholds complaints that TV commentary on Israel's Olympic bobsleigh team was discriminatory.",
+        "date": "2026-10-26",
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "The Netherlands withdraws from Eurovision over Israel sensitivities, and 36 countries are confirmed for Eurovision 2027.",
+        "date": "2026-10-30",
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 7,
+    "domains_active": [
+      "politics",
+      "security",
+      "economy",
+      "diplomacy"
+    ],
+    "emojis": [
+      "🗳️",
+      "🏛️",
+      "🧱"
+    ],
+    "emoji_reasons": [
+      "The entire week was dominated by Israel's Knesset election and its inconclusive result (headlines 4, 17, 20, 27).",
+      "Coalition haggling, kingmaker dynamics, and the president's mediation define the post-election political scramble (headlines 11, 38, 165).",
+      "The Hebron siege, home demolitions, and displacement of thousands in the West Bank anchor the territorial dimension (headlines 1, 12, 147, 171)."
+    ],
+    "developments": [
+      {
+        "subject": "Knesset election and no-clear-winner result",
+        "what_happened": "Israel voted in its first election since October 7; Netanyahu's bloc leads but lacks a majority, and neither side can easily form a government.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          17,
+          20,
+          27,
+          28,
+          41,
+          77,
+          92,
+          105,
+          119,
+          125,
+          135,
+          165,
+          169,
+          187,
+          194,
+          201,
+          211
+        ]
+      },
+      {
+        "subject": "Arab parties as kingmakers",
+        "what_happened": "Palestinian citizens of Israel turned out in record numbers, giving their parties decisive leverage in coalition negotiations and prompting both camps to court them.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          9,
+          40,
+          93,
+          97,
+          102,
+          126,
+          168,
+          185,
+          224,
+          228,
+          244
+        ]
+      },
+      {
+        "subject": "Netanyahu fraud claims and post-election disputes",
+        "what_happened": "Netanyahu alleged the election was stolen by foreign entities and pushed for probes into the Arab sector, while the opposition accused him of delegitimising the vote.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          16,
+          22,
+          43,
+          73,
+          95,
+          106,
+          118,
+          192,
+          225
+        ]
+      },
+      {
+        "subject": "Hebron siege and West Bank home demolitions",
+        "what_happened": "Israel sealed off Hebron at multiple entrances, demolished homes of Palestinians accused of killing soldiers, and displaced thousands during and around the election.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          1,
+          12,
+          147,
+          156,
+          166,
+          171,
+          178,
+          198,
+          208,
+          214,
+          237
+        ]
+      },
+      {
+        "subject": "Gaza strikes and fragile ceasefire",
+        "what_happened": "Israel launched its first targeted strikes in Gaza since May, killing a Hamas commander, while a broader ceasefire was also reported to hold and rockets hit near Tel Aviv.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          35,
+          48,
+          59,
+          72,
+          84,
+          107,
+          121,
+          180,
+          186
+        ]
+      },
+      {
+        "subject": "Coalition formation and president's mediation",
+        "what_happened": "Both Netanyahu and Eisenkot said they were ready to form a government; the president urged them to avoid a new election, and weeks of horse-trading are expected.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          38,
+          49,
+          67,
+          91,
+          140,
+          148,
+          161,
+          165,
+          203,
+          209,
+          226,
+          239
+        ]
+      },
+      {
+        "subject": "Iran warning and US-Israel strike planning",
+        "what_happened": "Iran's supreme leader warned against resuming war, while reports indicated the US and Israel were planning a new attack on Iran ahead of the vote.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          7,
+          33,
+          111,
+          155,
+          162,
+          197,
+          216,
+          222,
+          229
+        ]
+      },
+      {
+        "subject": "Serbia embassy attack",
+        "what_happened": "An assailant attacked a police officer outside the Israeli embassy in Belgrade and was shot dead; the suspect was described as a monitored minor with links to ISIS.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          53,
+          98,
+          144,
+          152,
+          175,
+          212,
+          249
+        ]
+      },
+      {
+        "subject": "Economic fallout",
+        "what_happened": "Israeli bonds and the shekel fell on the inconclusive result, and the central bank rejected Netanyahu's crypto plan to evade potential sanctions.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          46,
+          134,
+          191,
+          210,
+          238
+        ]
+      },
+      {
+        "subject": "Swiss bobsleigh and Eurovision disputes",
+        "what_happened": "A Swiss court ruled TV commentary on Israel's Olympic bobsleigh run was discriminatory, and the Netherlands withdrew from Eurovision over Israel sensitivities.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          61,
+          83,
+          86,
+          193,
+          220,
+          243
+        ]
+      }
+    ],
+    "gone": [
+      "Settler violence and diplomatic incidents",
+      "Gaza aid cut and famine risk",
+      "Malaysia Waze ban",
+      "Syria raid",
+      "Pacific Islands Forum partnership"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines overwhelmingly cover the election and its aftermath, with solid but thinner coverage of the West Bank operation, Gaza strikes, and the Serbia embassy attack; the Swiss bobsleigh and Eurovision stories are tangential but present."
+    },
+    "headlines_used": [
+      "Israel demolishes gunmen's homes in West Bank operation that has displaced thousands",
+      "Benjamin Netanyahu",
+      "Complaints upheld against Swiss TV commentary on Israeli bobsleigher",
+      "Weekend | Israeli election reaches stalemate",
+      "After decades of boycotts, Palestinian citizens of Israel turned out to vote. It could shape what comes next",
+      "Germany takes cautious approach as Israeli election results inconclusive",
+      "Le guide suprême iranien met en garde les États-Unis et Israël contre une reprise de la guerre",
+      "Trump’s Board of Peace Petitions Italy for Gaza Police Support",
+      "Israel’s Arabs Emerge as Key Political Powerhouse",
+      "The rightward march of Israel",
+      "Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'",
+      "Israel’s war on homes: From Hebron to Gaza and southern Lebanon",
+      "Palestinians demand end of Israeli occupation at ICJ",
+      "Israel",
+      "Israel piles pressure on Arab parties as Netanyahu seeks government",
+      "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+      "The final Israeli election results are in. Netanyahu hasn’t won – but he hasn’t lost either",
+      "Israel election: Authorities dispute Netanyahu's fraud claims",
+      "VIDÉO. Israël: Benjamin Netanyahu en tête sans majorité",
+      "Netanyahu’s Likud-Led Bloc Garners Most Seats in Israel Election",
+      "Opinion | Israel Votes for Hope",
+      "Netanyahu’s party claims election ‘stolen’ by ‘foreign entities’",
+      "Israel likely headed for another election, says former U.S. Ambassador",
+      "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "Netanyahu softens judicial overhaul but showdown looms",
+      "This Jewish ex-cop will represent an Islamist party in Israel’s newly elected parliament",
+      "Netanyahu bloc leads after half of Israeli votes counted but no majority",
+      "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "Israel’s election ended in deadlock. Here are four ways out",
+      "What would a new Israeli government mean for Israel's Arab neighbors?",
+      "Le camp Netanyahu en tête sans majorité: que faut-il retenir des résultats définitifs des législatives en Israël?",
+      "Polymarket Investigates Suspicious Trades on Israel Election",
+      "Israel vote leaves door open to Iran attack",
+      "Not ruling out possibility of another election: Former Israeli PM advisor",
+      "Gaza doctors struggle with bereavement, overwork, trauma amid genocidal war",
+      "'It will take more time': Netanyahu on Israel defense",
+      "Israel’s election results are in. Here’s what could happen next",
+      "Israel president urges against new vote despite inconclusive result",
+      "How could Israel break election deadlock? Here are four scenarios",
+      "Record turnout among Palestinian citizens of Israel could dictate election results",
+      "No clear winner emerges in Israel's election",
+      "Israël : le camp de Netanyahu en tête après les élections mais sans majorité",
+      "Israel Probes Votes After Netanyahu Alleges Arab Sector Rigging",
+      "Netanyahu Gives Israel One More Surprise",
+      "Can Netanyahu hold on to power?",
+      "Israeli bonds, shekel fall as election leaves Netanyahu and others short of majorities",
+      "Israel voted for Israel: Why Gaza wasn’t on the ballot",
+      "Israel launches first strikes in Gaza since May",
+      "Difficult negotiations lie ahead in Israel after Netanyahu’s bloc lost its parliamentary majority",
+      "Israel opposition takes edge over Netanyahu but no majority",
+      "Netanyahu shares AI image of Arab voters during Israeli election",
+      "Inconclusive Israeli election leaves future leadership uncertain",
+      "Serbian police shoot dead assailant at Israeli Embassy",
+      "VIDÉO. Élections en Israël: longues tractations avec les partis arabes",
+      "Live Q&A: Can Netanyahu Cling to Power in Israel?",
+      "Israel Braces for Uncertainty With Early Election Results Pointing to Deadlock",
+      "Israel’s ‘Houdini’ and his latest escape",
+      "Dan Senor on Israel election: The differences in this election came down to domestic issues",
+      "At least four Palestinians killed in Gaza as Israeli attacks continue",
+      "Palestinians celebrate Eid amid Israel-Gaza conflict",
+      "Swiss TV commentary of Israel’s Olympic bobsled run ruled to be discrimination",
+      "In tight Israel vote, both camps hold out cautious hope",
+      "Israel's election deadlock is a sign of the country's deep divisions",
+      "Israel’s election outcome will take time to become clear – what happens now?",
+      "Israel election: Netanyahu-led bloc in slight lead",
+      "VIDÉO. Israël : longues tractations avec les partis arabes",
+      "Israel Election Deadlock Sets Stage for Protracted Horse-Trading",
+      "Opinion | Netanyahu Gives Israel One More Surprise",
+      "Transcript: Can Netanyahu hold on to power?",
+      "Israel heads for coalition uncertainty as election outcome hangs in the balance",
+      "Education under fire: Gaza’s children face death on their way to school",
+      "Israel kills Hamas commander in first targeted strike in years",
+      "Netanyahu’s party claims election ‘stolen’ as results show him losing majority",
+      "Netanyahu and rival each claim mandate after tight Israel election",
+      "Global News Podcast | Israel election too close to call",
+      "No clear winner in Israel election exit polls",
+      "Israeli election: Netanyahu, main rival fall short of majority after all votes counted",
+      "Israël : le camp de Netanyahu cible les partis arabes après leur score historique",
+      "Netanyahu Builds Strong Position If Israel Has to Vote Again",
+      "What Comes Next for Benjamin Netanyahu",
+      "How Israel’s opposition fell short against Benjamin Netanyahu",
+      "Who are the kingmakers for Israel's election?",
+      "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
+      "Calm skies over Gaza as truce declared",
+      "4 more activists charged in intimidation campaign against University of Michigan over Israel ties",
+      "Dutch broadcaster pulls out of Eurovision over Israel 'sensitivities'",
+      "Newshour | No clear winner in Israel election",
+      "‘They wanted my voice gone’: A swing-seat, pro-Israel Democrat is fending off criticism from both parties",
+      "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+      "VIDÉO. Élections législatives en Israël: les raisons du succès des partis arabes",
+      "Netanyahu Leads Eisenkot in Race to Form Israeli Government",
+      "Netanyahu Holds on as Election Results Show No Clear Winner",
+      "Israel’s Arabs seek a slice of power",
+      "Netanyahu's path to power 'bleak', Eisenkot bloc likely 'first to blink': Analyst",
+      "Israel’s allegations of Qatari election interference rejected",
+      "Israel frees two hostages in assault that killed 74",
+      "For Palestinian citizens of Israel, a historic vote born of fear and frustration",
+      "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "Israel votes in first parliamentary elections since October 7 terror attacks",
+      "Israel election: Netanyahu-led bloc in slight lead with more than 80% of votes counted",
+      "Après les législatives en Israël, par Ali Dilem",
+      "Israeli Arab Parties Claim Kingmaker Status in Extra-Tight Vote",
+      "What’s on the Line as Israelis Prepare to Vote",
+      "The fear factor giving Benjamin Netanyahu the edge",
+      "Exit polls show a rebuke of Netanyahu but no clear winner in Israel's election",
+      "Why is Netanyahu accusing Palestinian Israeli parties of fraud?",
+      "Destruction and loss as Israel-Hamas ceasefire holds",
+      "Netanyahu’s bloc loses parliamentary majority, Justice Department subpoenas California officials",
+      "Israel's election result is messy - here's why",
+      "Netanyahu sparks backlash with nuclear bomb image ahead of Israeli election",
+      "Will elections in Israel change its Iran approach?",
+      "VIDÉO. Les partis arabes en Israël: un rôle décisif dans le nouveau paysage politique israélien",
+      "Israeli Opposition Leads Netanyahu After Inconclusive Vote",
+      "The Push to Oust Netanyahu Draws Thousands of Israeli Expats Home to Vote",
+      "Israel’s election: what happens next?",
+      "Israel's election: What is at stake?",
+      "What can a global strike of dockworkers achieve for Gaza?",
+      "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties",
+      "What to know after Israel's election results give neither Netanyahu nor the opposition a majority",
+      "Israeli exit polls suggest no clear winner in pivotal general election",
+      "In Gaza, teenage innovators are reusing rubble",
+      "Israel election 2026",
+      "VIDÉO. Israël: Benyamin Netanyahu devrait perdre sa majorité au parlement",
+      "The Referendum on Netanyahu Will Now Test Israel’s Democracy",
+      "Benjamin Netanyahu ahead but no clear winner in Israeli election",
+      "Netanyahu’s path to power may depend on Arab-led parties: Professor",
+      "How can Israel break its election deadlock?",
+      "Egyptian man who fire-bombed pro-Israel rally in Colorado pleads guilty to federal hate crimes",
+      "Middle East reacts to Israel’s election results",
+      "'Budget for a 'difficult moment' and 'Netanyahu's fate in balance'",
+      "Israel is holding its most important election in years. Here’s what’s at stake",
+      "UN sounds the alarm over Israel's West Bank military operation ahead of election",
+      "VIDÉO. Israël : les raisons du succès des partis arabes",
+      "Oil Holds Decline as Traders Track Result of Israeli Election",
+      "FirstFT: Netanyahu moves ahead in Israel’s election",
+      "Israeli election draws tens of thousands of citizens flying back to vote",
+      "Britain must sanction Israel, not just its settlers",
+      "Polymarket probes suspicious trades around Israel election, Bloomberg News reports",
+      "IRAN: Reacciones a las elecciones en Israel",
+      "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+      "CNN attends Gadi Eisenkot's final rally days before facing off with Netanyahu to become Israel's next prime minister",
+      "Youth vote could play crucial role in Israel election",
+      "Israël: pas de majorité en vue, le président veut éviter de nouvelles élections",
+      "Attacker on Israeli Embassy in Serbia Shot Dead, Police Say",
+      "Israel election turnout highest in decades",
+      "Israel election puts Netanyahu’s wartime leadership on the line as Trump urges voters to return him to power",
+      "How Israel choked off Hebron at 10 entrances, as 5,000 forced to flee",
+      "Explainer: How could Israel break the election deadlock?",
+      "What happens now after votes close in Israeli election?",
+      "Who is Gadi Eisenkot, Netanyahu’s main challenger in Israel’s elections?",
+      "How a centrist candidate with Moroccan roots hopes to oust right-wing Israeli Prime Minister Netanyahu",
+      "Mineur surveillé, 'partisan de l'État islamique'... Ce que l'on sait après l'attaque de l'ambassade d'Israël à Belgrade",
+      "Bloomberg Daybreak: Israel Election",
+      "A day in Benjamin Netanyahu’s heartland",
+      "A Netanyahu defeat would make Iran war harder for U.S., says analyst",
+      "Israel demolishes homes of Palestinians blamed for attack on soldiers",
+      "Israel's election gives survivor Netanyahu a path to keep power",
+      "Los palestinos se preguntan si las elecciones en Israel mejorarán sus vidas.",
+      "Outside Source | Netanyahu bloc slightly ahead in Israel elections",
+      "Israel to close all West Bank land crossings on election day",
+      "Israël : Isaac Herzog, le discret président qui détient les clés du prochain gouvernement",
+      "Watch US, Israel Are Planning New Attack on Iran, Cook Says",
+      "Trump, Netanyahu and the politics of escalation against Iran",
+      "Ethnic cleansing fears rise as Israel squeezes space in Gaza: UN",
+      "Netanyahu set to remain caretaker after inconclusive Israeli election",
+      "Israel demolishes two homes in Hebron after deadly attack",
+      "Israel election results live: Enwebeghị onye meriri ntuliaka a n'ime Gadi Eisenkot na Benjamin Netanyahu",
+      "Israël: pas de majorité en vue, les partis arabes en faiseurs de roi",
+      "Israelis Go to Polls in Tight Race to Decide Netanyahu’s Fate",
+      "Tens of thousands of Israelis fly home for pivotal election",
+      "Jerusalem Daily: Israel’s siege on Hebron displaces thousands",
+      "PODCAST: Bolsonaro claims victory, Israel's election uncertainty, Spain train crash (Updated)",
+      "Israel awaits final election results and other top photos from the Middle East",
+      "The World Tonight | Israeli exit polls put opposition just ahead of Netanyahu's bloc",
+      "Un assaillant abattu par la police devant l'ambassade d'Israël à Belgrade",
+      "Watch Israel Election: Exit Polls Show Netanyahu Trailing Eisenkot",
+      "The battle for the soul of Israel",
+      "Israeli forces blow up homes of Palestinians accused of killing soldiers",
+      "In Lebanese village near Israeli troops, farmers brave danger to harvest their olives",
+      "Israeli strikes hit Gaza Strip",
+      "Focus on Africa | Israel election: Why Africa is watching closely",
+      "Législatives en Israël: dans combien de temps connaîtra-t-on le prochain Premier ministre?",
+      "Israeli Vote Carries Big Implications for US Relationship",
+      "A knife-edge election in Israel and other potential pivot points",
+      "Palestinian voter turnout exposes Israel’s attitude towards Arab citizens",
+      "Israel reports Gaza rocket strike on home near Tel Aviv",
+      "The Latest: As votes are counted, no clear winner emerges in Israel’s election",
+      "Turnout so far highest on record as Israelis vote in pivotal election",
+      "Israël: aucune majorité après dépouillement de la moitié des voix, Netanyahu et son camp en tête",
+      "Watch Israel Election 2026: Eisenkot Casts Ballot as Opposition Seeks to Oust Netanyahu",
+      "Israeli central bank rejects Benjamin Netanyahu’s plan to use crypto to evade sanctions",
+      "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
+      "Lorde cancels Israel show in protest",
+      "Exit polls suggest no clear winner in Israel’s election, but Netanyahu is far from defeated",
+      "MPs and MSP detained by Israel and barred from entering West Bank",
+      "Élections en Israël: pas de majorité, et maintenant?",
+      "Iran Stance Splits Netanyahu and Challenger Eisenkot Before Vote",
+      "Netanyahu threatens ‘aggressive’ offensive after West Bank shooting",
+      "Israeli actress slams occupation in accidental ‘hot mic’ moment",
+      "October 7 families call on Israelis to vote for change as polls open",
+      "Takeaways from Israel’s inconclusive election",
+      "Global News Podcast | Israel holds first election since October 7th attacks",
+      "Israël : Eisenkot et Netanyahu tous deux prêts à former un gouvernement, pas de majorité",
+      "Israel’s War-Focused Election Masks Underlying Economic Schism",
+      "Activists urge Eisenkot to form new Israeli gov’t with Arab parties",
+      "Israelis break turnout records to vote in 'critical' test for Netanyahu",
+      "Netanyahu and top rival face postelection choices that could redefine Israeli politics",
+      "Newshour | Israel bulldozes Palestinian West Bank homes",
+      "Elections en Israël: Eisenkot se dit prêt à former un gouvernement",
+      "Netanyahu Says Israel Mulls Crypto Ahead of Possible Sanctions",
+      "Israel election result shows no overall majority as vote count complete",
+      "Policeman kills knife attacker outside Israeli embassy in Serbia",
+      "Who is Gadi Eisenkot, the man with the best chance to oust Netanyahu?",
+      "Newshour | Hebron military operation as Israelis prepare to vote",
+      "Elections en Israël: l'opposition devant Netanyahu, mais sans majorité",
+      "Watch US and Israel Elections Loom Over Iran War",
+      "How to stop the US-Israel war on Iran",
+      "Biden-era officials who quit over Gaza urge 2028 candidates to denounce policy architects",
+      "Gaza residents watch Israel election, hoping to unseat Netanyahu as airstrikes continue",
+      "Netherlands pulls out of Eurovision again over Israel participation",
+      "VIDÉO. Israël: législatives, mode d'emploi",
+      "Trump Prepares for Iran Escalation After US, Israeli Polls",
+      "‘Arab voice doesn’t count’: Jewish Israeli blocs reject Palestinian support",
+      "For Israel's Arabs, record turnout may bring political clout",
+      "Netanyahu called for a ‘strong, right-wing’ government in a defiant speech",
+      "Why it could take time for a new Israeli government to form",
+      "VIDÉO. Israël: un scrutin dans un pays fracturé",
+      "Israelis rally for Jewish-Arab government after election gains",
+      "Explainer: What's at stake for Trump in Israel's deadlocked election?",
+      "Israel elections result: Wetin go happun next if election no get any clear winner",
+      "VIDÉO. Israël: forte participation pour des législatives sous tension",
+      "Palestinians face growing bans from Al-Aqsa as Israel tightens control",
+      "Caretaker role could limit Netanyahu but not rule out war with Iran",
+      "How are Palestinians in Gaza reacting to Israel’s election?",
+      "Israelis and Americans are both voting - with global consequences",
+      "VIDÉO. Élections en Israël: Netanyahu joue sa survie politique",
+      "A week of Israel’s lockdown in Hebron: What’s happened, when will it end?",
+      "Israeli stocks fall, shekel weakens as Netanyahu bloc beats election forecasts",
+      "Results trickling in after Israel’s election shine a light on a complex political system",
+      "Why is IDF conscription dividing Israel's election?",
+      "VIDÉO. Élections en Israël: dans la bande de Gaza, l'indifférence domine",
+      "Israel bans travel for Brad Lander after detention in occupied West Bank",
+      "36 countries to compete in Eurovision 2027 as Ireland, Netherlands stay out over Israel",
+      "Ra’am supporters hope to oust Netanyahu government as they await final election results",
+      "Why Israel's election is one of the most important in its history",
+      "VIDÉO. Décryptage : Israël, législatives, mode d'emploi",
+      "Israel’s anti-Qatar campaign bleeds into elections",
+      "Israel's high-turnout vote brushed aside in rest of the Middle East",
+      "Serbian police say assailant killed after attacking officer outside the Israeli Embassy in Belgrade",
+      "How do Israel's elections work and who are the main contenders?"
+    ],
+    "converted": false,
+    "relevant_headlines": 297,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Knesset election and no-clear-winner result",
+        "expected": "Knesset election and no-clear-winner result stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Knesset election and no-clear-winner result appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Arab parties as kingmakers",
+        "expected": "Arab parties as kingmakers stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Arab parties as kingmakers appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Netanyahu fraud claims and post-election disputes",
+        "expected": "Netanyahu fraud claims and post-election disputes stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Netanyahu fraud claims and post-election disputes appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Knesset election and no-clear-winner result",
+        "expected": "persist",
+        "sign": "Knesset election and no-clear-winner result is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Knesset election and no-clear-winner result stays in the news at the same level. Arab parties as kingmakers stays in the news at the same level. Netanyahu fraud claims and post-election disputes stays in the news at the same level. Knesset election and no-clear-winner result is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Coalition deadlock and fraud probe",
+        "expected": "Netanyahu will formally table a Knesset motion demanding a committee recount the Arab-sector ballots, forcing a parliamentary showdown during the first week of coalition talks.",
+        "direction": "escalate",
+        "sign": "Headlines will report a special Knesset session convened to vote on a recount motion and Eisenkot's camp denouncing the probe as a power grab."
+      },
+      "second": {
+        "subject": "Hebron displacement and West Bank demolitions",
+        "expected": "The Israeli military will expand home demolitions beyond Hebron into a second West Bank town, displacing additional thousands of Palestinians and drawing a fresh UN warning.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new round of home demolitions in a West Bank town and the UN issuing a fresh statement about the growing displacement."
+      },
+      "third": {
+        "subject": "Gaza ceasefire and targeted strikes",
+        "expected": "Israel will carry out another targeted strike in Gaza that kills a senior Hamas figure, testing the fragile ceasefire and prompting rocket fire toward Tel Aviv.",
+        "direction": "persist",
+        "sign": "Headlines will report a new Israeli strike in Gaza killing a Hamas official and rockets landing near a major Israeli city."
+      },
+      "fade_call": {
+        "subject": "Swiss bobsleigh and Eurovision disputes",
+        "expected": "fade",
+        "sign": "The Swiss court ruling and the Dutch Eurovision withdrawal will drop out of the headline cycle as political attention shifts entirely to coalition formation."
+      },
+      "surprise": {
+        "subject": "Eisenkot-Arab preliminary coalition deal",
+        "expected": "Eisenkot and the two largest Arab parties will announce a preliminary coalition understanding before Netanyahu's fraud probe is even voted on, upending the entire power balance.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, Israel's political crisis will dominate the news cycle. Netanyahu will push a formal Knesset motion to recount Arab-sector ballots, and Eisenkot's camp will respond with sharp denunciations. President Herzog will press both sides to negotiate, but the gap between them will widen. In the West Bank, the Hebron operation will expand, with more homes demolished and thousands more Palestinians displaced, drawing fresh UN warnings. In Gaza, the ceasefire will hold in name but Israel will carry out at least one more targeted strike, and rockets will land near Tel Aviv. The shekel will stay under pressure as markets wait for clarity on who will form the government. The Swiss bobsleigh ruling and the Eurovision withdrawal will fade from the headlines. A small chance exists that Eisenkot and the Arab parties strike a preliminary deal, which would upend the entire coalition calculus and force Netanyahu into a defensive posture.",
+      "generated_at": "2026-11-01T21:28:09+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Coalition formation race",
+        "expected": "Netanyahu and Eisenkot will intensify their competing courtship of Arab parties with policy concessions and public attacks on each other while President Herzog mediates to avoid a second election.",
+        "direction": "escalate",
+        "sign": "Headlines will carry new policy offers from both camps to Arab parties, public sparring between the two leaders over who will form first, and Herzog's calls for unity."
+      },
+      "second": {
+        "subject": "Hebron military operation",
+        "expected": "The Israeli military will extend demolitions and displacement in Hebron while the UN and opposition press for an end to the campaign.",
+        "direction": "persist",
+        "sign": "Headlines will report further demolitions in Hebron, new displacement figures, and calls from the UN or opposition for the operation to end."
+      },
+      "third": {
+        "subject": "Gaza ceasefire fragility",
+        "expected": "Israel will carry out further targeted strikes against Hamas in Gaza while the broader ceasefire holds, creating a pattern of intermittent violence within an otherwise stable truce.",
+        "direction": "persist",
+        "sign": "Headlines will report new Israeli strikes in Gaza alongside confirmation that the broader ceasefire still holds and occasional rocket fire near Israeli cities."
+      },
+      "fade_call": {
+        "subject": "Swiss bobsleigh and Eurovision disputes",
+        "expected": "fade",
+        "sign": "The Swiss court ruling on bobsleigh commentary and the Dutch Eurovision withdrawal will surface only in sports and culture roundups rather than leading political news."
+      },
+      "surprise": {
+        "subject": "Surprise joint government deal",
+        "expected": "Netanyahu's bloc and Eisenkot's bloc will reach a power-sharing framework that short-circuits the expected weeks of separate horse-trading over Arab party support.",
+        "chance": "low"
+      },
+      "summary": "Israel will be defined next week by the grinding coalition negotiations that follow its inconclusive election. Netanyahu and Eisenkot will trade public attacks and competing policy offers as they race to court the Arab parties whose record turnout made them kingmakers. President Herzog will press both sides to form a government before the deadline for a second election looms. In the West Bank, the Hebron operation will press on with further demolitions and displacement, drawing fresh criticism from the UN and the opposition. In Gaza, the ceasefire will hold in broad terms, but Israel will carry out additional targeted strikes against Hamas, keeping the truce fragile. The shekel and bonds will stay volatile as markets digest the political uncertainty. The overall tone will be one of a country in limbo, where no one governs and everyone argues.",
+      "generated_at": "2026-11-01T21:42:01+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "Coalition formation talks",
+        "expected": "President Herzog will set a deadline for Netanyahu and Eisenkot to present a viable government formula, forcing both camps to accelerate negotiations with Arab party leaders.",
+        "direction": "persist",
+        "sign": "Headlines will describe Netanyahu or Eisenkot sitting down with Arab party leaders at a formal negotiation table, or the president convening both camps at the presidential residence."
+      },
+      "second": {
+        "subject": "Election fraud probe",
+        "expected": "The Interior Ministry will open a formal investigation into voting procedures in Arab-majority districts, giving Arab parties a new point of leverage in coalition talks.",
+        "direction": "escalate",
+        "sign": "Headlines will report the official launch of a probe into ballot counting in the Arab sector, with Arab party leaders calling it a move to unseat the result."
+      },
+      "third": {
+        "subject": "Gaza ceasefire",
+        "expected": "Israel will carry out a new targeted strike in Gaza in response to the killing of a Hamas commander, testing the fragile ceasefire.",
+        "direction": "persist",
+        "sign": "Headlines will report a new Israeli airstrike in Gaza or a rocket landing near Tel Aviv, with both sides accusing the other of breaking the truce."
+      },
+      "fade_call": {
+        "subject": "Swiss bobsleigh discrimination ruling",
+        "expected": "fade",
+        "sign": "The ruling will drop out of headlines as coalition politics and Gaza news dominate the news cycle."
+      },
+      "surprise": {
+        "subject": "Supreme Court challenge to election",
+        "expected": "Netanyahu will formally petition the Supreme Court to review the election result on the basis of the fraud probe, stalling government formation.",
+        "chance": "medium"
+      },
+      "summary": "Over the next week, Israel's political crisis will dominate the news. Netanyahu and Eisenkot will each pursue separate tracks of coalition talks with Arab party leaders, while President Herzog pressures both camps to avoid a second election. Netanyahu will press his fraud narrative, and the Interior Ministry will open a formal probe into voting in Arab-majority districts, giving Arab parties a new chip in their kingmaker leverage. In Gaza, the fragile ceasefire will face its first stress test as Israel responds to the killing of a Hamas commander with further strikes, and rockets will land near Tel Aviv. The shekel and bond markets will react to each round of political news. The Swiss bobsleigh ruling will fade. A surprise Supreme Court petition from Netanyahu to review the election result will add legal uncertainty to the political deadlock, and the question of a second vote will loom over every headline.",
+      "generated_at": "2026-11-01T22:00:43+02:00"
+    }
+  },
+  "display": {
+    "headline": "Israel's Coalition Race Heats Up as Arab Parties Hold the Keys",
+    "emojis": [
+      "🗳️",
+      "🏛️",
+      "⚔️"
+    ],
+    "emoji_reasons": [
+      "The election result and its aftermath dominate the entire political landscape",
+      "Coalition formation and government-building are the central question of the week",
+      "Military operations in Hebron and targeted strikes in Gaza keep the security front active"
+    ],
+    "tldr": "Israel will spend the week in a coalition scramble, with Netanyahu and Eisenkot competing for Arab party support while the president urges a deal. Hebron demolitions will press on and Gaza's ceasefire will hold but stay fragile. Markets will stay jumpy.",
+    "eli5": "Israel just had a big election and nobody won clearly. Netanyahu's side got the most seats but not enough to rule alone, and the Arab parties that voted in record numbers now hold the keys to who gets to form the government.\n\nThe reason this is a mess is that both Netanyahu and his rival Eisenkot need the same small Arab parties to join their coalition, so they're both trying to sweet-talk them while also bashing each other on TV.\n\nNext week you'll probably see a lot of coalition horse-trading in the headlines, with both sides making offers and the president trying to keep them from calling another election. You'll also see more news about the military operation in Hebron, where homes are being torn down and families are being moved out.\n\nA surprise would be if the two camps suddenly agree to a joint government, or if a big rocket attack or security incident happens and changes who gets the moral high ground in the talks."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "crystal",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Headlines [17], [41], [52], [77], [125], [211] confirm the election produced no clear winner and triggered coalition talks, but the forecast's 'determine the next prime minister' and 'identity of the winner' framing did not match the actual no-majority outcome.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [1], [147], [156], [166], [171], [178], [208], [237] report demolitions, displacement of thousands, and the Hebron operation expanding as predicted.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'Gaza aid cut and famine risk' as no longer in the headlines, and Gaza coverage this round focused on strikes [48], [72] and the ceasefire [84] rather than WFP food shortages or emergency funding appeals.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Trump is referenced in [146], [8], [229] as context within election coverage but does not generate a standalone endorsement headline, matching the predicted fade.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "Ben-Gvir is not featured as a surprise swing party in any headline; the kingmaker role went to the Arab parties per [9], [40], [82], [102], [126], [168].",
+          "bonus": 0
+        },
+        "archer_note": "The forecast correctly identified the election as the defining event and the West Bank operation as escalating, but the 'determine the next prime minister' framing was too specific for a no-majority outcome. The Gaza food crisis was expected to escalate but instead faded from headlines entirely, a notable miss on the third item. The Ben-Gvir surprise did not materialize; the Arab parties, not the far right, became the decisive kingmakers, so the main thesis was directionally right but misidentified the swing factor.",
+        "S": 11
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [9], [40], [74], [77], [82], [102], [126], [168] confirm a narrow result requiring coalition, Arab parties as decisive kingmakers, both candidates claiming mandate, and public overtures from Arab party leaders.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Headlines [1], [147], [171], [178], [208] report demolitions and displacement in Hebron, but the operation appears concentrated in Hebron rather than expanding to additional towns, and mass detentions are not prominently featured.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists the Gaza aid cut as no longer in the headlines, and no headline this round reports new WFP food-shortage figures, UN emergency appeals, or long queues at aid points.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The reality bulletin explicitly lists the Malaysia Waze ban under 'No longer in the headlines,' confirming it faded from international coverage as predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headline [186] reports a Gaza rocket strike on a home near Tel Aviv around the election period, though it did not dramatically shift the political narrative as the forecast anticipated.",
+          "bonus": 2
+        },
+        "archer_note": "The main thesis of a narrow result with Arab parties as kingmakers was remarkably accurate and matched the headlines almost exactly. The Gaza food crisis escalation was the clearest miss, as that story faded rather than intensified. The West Bank 'expansion beyond Hebron' was slightly overstated, and the election-night security incident was a minor footnote rather than a narrative shifter, but the overall picture was the closest to reality of the three bulletins.",
+        "S": 13
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Headlines [1], [12], [147], [156], [171], [178], [208], [237] show the West Bank operation is still reported at a similar volume, but the reality list marks it as 'escalating' rather than steady, and it dropped from dominant to regular as the election overtook it.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The election subject remains dominant with dozens of headlines [4], [17], [20], [27], [41], [52], [65], [77], [89], [100], [125], [145], [165], [187], [211], but the content shifted from 'campaign' to 'result and coalition talks,' a natural escalation the persist framing only partly captures.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly lists 'Settler violence and diplomatic incidents' under 'No longer in the headlines,' and no headline in this round specifically covers settler attacks or the detention of diplomats or journalists.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "Trump appears in [146], [8], [229] as election context, but the endorsement and Vance split are not standalone headlines, so the 'persist' call was only partly right.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Multiple new stories appeared this round that were not in the previous set, including the Serbia embassy attack [53], [98], [144], [212], [249], the Swiss bobsleigh ruling [3], [61], [83], and the Eurovision withdrawal [86], [220], [243].",
+          "bonus": 0
+        },
+        "archer_note": "The 'more of the same' thesis was the weakest of the three, as the election moved from campaign to a major result-and-coalition story, and several entirely new stories (Serbia, Swiss bobsleigh, economic fallout) emerged. Settler violence was called to persist but faded completely, a clear miss on the third item. The main thesis was not merely early but structurally wrong: it treated the pre-election situation as a steady state when the vote itself was the biggest new event of the week.",
+        "S": 2
+      }
+    },
+    "S": [
+      {
+        "plain": 11,
+        "crystal": 13,
+        "persistence": 2
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Computed from the scores: plain 11, crystal 13."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: plain 11, persistence 2."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 13, persistence 2."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_crystal": -1.0,
+      "plain_vs_persistence": 2.0,
+      "crystal_vs_persistence": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 2,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was dominated by the approaching October 27 Israeli election and a major escalation in the West Bank. Two Israeli soldiers were killed in a shooting attack near Hebron, prompting Prime Minister Netanyahu to order a full closure of the West Bank, launch what he called a large-scale anti-terror operation, and begin demolishing Palestinian buildings in the city. The campaign between Netanyahu and his main challenger, former military chief Gadi Eisenkot, turned increasingly ugly, with extreme rhetoric from both sides and the far-right Ben-Gvir seeking new ground among young voters. Arab parties positioned themselves as kingmakers, while Israelis abroad traveled home in large numbers to vote. Trump endorsed Netanyahu nine days before the vote, while Vice President JD Vance notably declined to do so. Settler violence surged, with masked settlers attacking European diplomats, a French mayor, and a US journalist, and the Israeli military detaining US congressional candidate Brad\n- West Bank closure and military operation (dominant, escalating): After two soldiers were killed near Hebron, Netanyahu ordered a full closure of the West Bank, launched a large-scale anti-terror operation, and began demolishing buildings in the city.\n- October 27 election campaign (dominant, continuing): The race between Netanyahu and Gadi Eisenkot intensified with extreme rhetoric, far-right gains among young voters, Arab parties positioning as kingmakers, and Israelis abroad traveling home to vote.\n- Settler violence and diplomatic incidents (dominant, escalating): Masked settlers attacked European diplomats, a French mayor, and a US journalist in the West Bank; Israel arrested ten suspects, and US candidate Brad Lander was detained at an olive harvest.\n- Trump endorsement and US split (regular, new): Trump endorsed Netanyahu nine days before the vote while Vice President Vance declined to endorse, and Hegseth made an unannounced visit to Israel to discuss Iran.\n- Gaza aid cut and famine risk (regular, continuing): The World Food Programme cut aid to 500,000 Gazans and 200,000 West Bank Palestinians over funding shortages, while Israeli fire killed at least four and children faced worsening food shortages.\n- Iran strike planning (regular, continuing): Netanyahu reportedly made plans to restart strikes against Iran earlier in the month, and Israel pushed to resume operations while Hegseth visited to discuss the matter.\n- Malaysia Waze ban (occasional, new): Malaysia banned civil servants from using the Israel-based Waze mapping app and may widen the ban, citing links to Israel.\n- Syria raid (occasional, new): Israeli forces killed a man with Down syndrome during a raid in southern Syria, drawing attention to the incursion.\n- Investment and economic signals (occasional, continuing): Pershing Square's Ackman declared strong long-term belief in Israel and predicted a trillion-dollar Israeli company within a decade, while Paulson committed 250 million dollars to an Israeli university.\n- Pacific Islands Forum partnership (occasional, new): Israel was accepted as a partner in the Pacific Islands Forum, per its foreign minister.\n\nRound 2026-10-22:\nIsrael stood on the brink of a tightly contested general election scheduled for October 27, pitting Prime Minister Netanyahu against former Defense Minister Gadi Eisenkot in a race where no side appeared close to a clean 61-seat mandate. In Gaza, commercial goods had been briefly suspended over a merchant-Hamas tax dispute before Israel announced their return, while the World Food Programme cut its beneficiary count from 1.6 million to 1.1 million, raising winter-shock fears. The West Bank saw a sharp spike in settler violence during the olive harvest, including attacks on European diplomats, a U.S. journalist, and a U.S. congressional candidate; Israel arrested ten suspects. On the diplomatic front, the United States and Israel advanced joint strike planning against Iran, with Secretary Hegseth making an unannounced visit to Jerusalem, while Trump openly endorsed Netanyahu and Vice President Vance withheld his. Large numbers of diaspora Israelis were flying home to vote.\n- October 27 election (dominant, escalating): Netanyahu and Eisenkot face each other in a razor-thin race where neither side appears close to 61 seats.\n- Gaza commercial goods (dominant, de-escalating): Commercial shipments were suspended over a tax dispute and Israel announced their partial resumption.\n- WFP aid cut (dominant, escalating): The World Food Programme reduced the number of Gazans it serves by a third ahead of winter.\n- West Bank settler violence (dominant, escalating): Settlers attacked harvesters, diplomats, and a U.S. journalist during the olive season; Israel arrested ten.\n- Iran-U.S. strike planning (regular, escalating): Washington and Jerusalem advanced joint military planning for Iran with the actual operation targeted after U.S. midterms.\n- Trump endorsement (regular, new): Trump gave Netanyahu a full public endorsement while Vance stayed silent, splitting the U.S. Jewish vote.\n- Diaspora voting surge (regular, new): Large numbers of Israelis abroad flew home to vote, many motivated to challenge Netanyahu.\n- Far-right fragmentation (regular, escalating): Ben-Gvir, Ofer Winter, and other challengers split the anti-Netanyahu right and complicate coalition building.\n- Economic markets (occasional, continuing): The Central Bank held rates steady and raised growth forecasts, but bonds and the shekel stayed nervous.\n",
+    "PREVIOUS_FORECAST": "Lead: October 27 election result. Expected: The October 27 vote will produce a narrow result requiring a coalition, with Arab parties and the far-right faction becoming the decisive kingmakers in post-election negotiations. Direction: escalate. Sign: Headlines will carry the official vote count, victory or concession speeches from both main candidates, and the first public coalition overtures from Arab party leaders.\nSecond: West Bank military operation. Expected: Israel will expand the West Bank anti-terror operation beyond Hebron, carrying out further demolitions, mass detentions, and roadblock restrictions in additional towns. Direction: escalate. Sign: Headlines will report new demolitions in West Bank towns, large-scale detentions, and families displaced from their homes.\nThird: Gaza food crisis. Expected: The World Food Programme's reduced distribution will begin to tighten Gaza's food supply, prompting new emergency appeals from health officials and reports of worsening shortages. Direction: escalate. Sign: Headlines will carry new food-shortage figures from Gaza, a renewed appeal from a UN agency, and reports of long queues at aid distribution points.\nFade call: Malaysia Waze ban. Expected: fade. Sign: The ban will surface only in technology or business roundups rather than leading international news.\nSurprise (chance low): Election-night security incident. A significant rocket barrage or armed attack will strike Israel on or around election day, shifting the political narrative and complicating coalition talks.\nSummary: Israel will be defined next week by the October 27 election and its immediate aftermath. The vote will produce a narrow result that leaves neither Netanyahu nor Eisenkot with a clean majority, pushing Arab parties and the far-right Ben-Gvir faction into the role of kingmakers in coalition talks. In the West Bank, the military operation launched after the Hebron shooting will expand, with further demolitions, mass detentions, and roadblock restrictions spreading to additional towns. In Gaza, the World Food Programme's reduction in aid will begin to bite, producing new hunger figures and renewed emergency appeals from health officials. The Iran strike question will stay in the background, with Washington and Jerusalem keeping the option open. The overall tone will be one of political uncertainty layered over a still-escalating security situation.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject dominant). Headlines [9], [40], [74], [77], [82], [102], [126], [168] confirm a narrow result requiring coalition, Arab parties as decisive kingmakers, both candidates claiming mandate, and public overtures from Arab party leaders.\n- second: came_true (observed: escalated, subject present). Headlines [1], [147], [171], [178], [208] report demolitions and displacement in Hebron, but the operation appears concentrated in Hebron rather than expanding to additional towns, and mass detentions are not prominently featured.\n- third: did_not_appear (observed: faded, subject marginal). The reality bulletin lists the Gaza aid cut as no longer in the headlines, and no headline this round reports new WFP food-shortage figures, UN emergency appeals, or long queues at aid points.\n- fade_call: came_true (observed: faded, subject absent). The reality bulletin explicitly lists the Malaysia Waze ban under 'No longer in the headlines,' confirming it faded from international coverage as predicted.\nArcher note: The main thesis of a narrow result with Arab parties as kingmakers was remarkably accurate and matched the headlines almost exactly. The Gaza food crisis escalation was the clearest miss, as that story faded rather than intensified. The West Bank 'expansion beyond Hebron' was slightly overstated, and the election-night security incident was a minor footnote rather than a narrative shifter, but the overall picture was the closest to reality of the three bulletins.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-22",
+    "elapsed_days": 10,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Headlines [4, 17, 41, 91, 111, 225, 229] all pair no-clear-winner language with coalition-formation questions, exactly as the bulletin predicted, with neither camp securing 61 seats.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly lists 'Gaza aid cut and famine risk' as no longer in the headlines, and this week's Gaza stories focus on strikes [48, 72, 180] and a fragile ceasefire [84, 107] rather than WFP cuts or commercial goods.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'Settler violence and diplomatic incidents' as no longer in the headlines; the West Bank story this week is the Hebron military operation and home demolitions [1, 147, 171, 237], not harvest-season settler attacks with arrests.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headlines [7, 162, 222] confirm US-Israel Iran strike planning continues with high-level meetings and warnings but no launch decision, matching the 'persist' call, though the framing shifted to post-election implications rather than post-midterm timing.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headlines [114, 136, 170] report tens of thousands of diaspora Israelis flying home to vote, but no headline identifies the diaspora ballot as the specific swing factor that altered the final seat count.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin correctly identified the dominant election-and-coalition story and the persisting Iran planning track, but it overestimated the continued salience of the WFP aid cut and settler violence, both of which faded from the headlines entirely. The diaspora-vote surprise was visible in coverage but not elevated to the decisive swing factor the bulletin predicted. Its main thesis was neither wrong nor merely early; it was accurate on the central story and only slightly off on the secondary items.",
+        "S": 9
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The election dominates the headlines with over fifty relevant items [4, 17, 20, 27, 41, 65, 77, 89, 100, 125, 165, 187, 211, 225], confirming the 'persist at the same level' call.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists Gaza commercial goods and aid as no longer in the headlines; this week's Gaza coverage centers on Israeli strikes [48, 72, 180] and the ceasefire [84, 107] rather than commercial shipment flows.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly states 'Gaza aid cut and famine risk' is no longer in the headlines, and no headline this week references the WFP beneficiary reduction.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "Headline [229] 'What's at stake for Trump in Israel's deadlocked election?' and [146] reference Trump, but the specific endorsement story that split the U.S. Jewish vote is no longer a standalone headline this week.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Multiple new stories appeared that were absent from the previous round, including the Serbia embassy attack [53, 98, 144, 152, 175, 212, 249], the Swiss bobsleigh discrimination ruling [3, 61, 83], and the Netherlands Eurovision withdrawal [86, 220, 243].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin called for 'more of the same' on three of its four items, yet the WFP aid cut, Gaza commercial goods, and Trump endorsement all faded from the headlines, contradicting the persist calls. Its 'no surprise' prediction was clearly wrong, as at least four new stories (Serbia, Swiss bobsleigh, Eurovision, Polymarket probe) entered the cycle. Its main thesis was wrong in form: the election did stay dominant, but the surrounding stories rotated out and new ones rotated in, making 'more of the same' an incomplete picture.",
+        "S": 4
+      }
+    },
+    "S": [
+      {
+        "crystal": 9,
+        "persistence": 4
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 9, persistence 4."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_persistence": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 1,
+    "hand_made": true
+  }
+}

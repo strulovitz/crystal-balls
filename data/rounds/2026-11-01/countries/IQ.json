@@ -1,0 +1,343 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "IQ",
+  "name": "Iraq",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T01:39:09+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "Iraqi courts handed down life sentences to six or seven French citizens convicted of Islamic State membership, a case that drew heavy international coverage and marked a significant judicial milestone. The Tishreen protest movement marked its seventh anniversary with reform demands and a symbolic 'wall of wishes' honoring slain protesters from 2019. The Pope visited Mosul, releasing a dove and praying for the dead, while Iraq's Christian community reflected on what was described as a bittersweet first Christmas home after the Islamic State. In diplomacy, Iraqi Prime Minister Ali al-Zaidi made a historic visit to Syria to meet Ahmed al-Sharaa, signaling a new phase in bilateral relations. A separate court sentenced two politicians and an oil official in a graft case. On the security front, a drone was intercepted near Baghdad's Green Zone, and PKK-linked Yazidi militia units agreed to disarm and integrate into the national army. Economically, the United States permitted wind-down transactions with an Iran-linked Iraqi bank, and Norway's DNO explored exporting Kurdish oil via Syria. The week combined judicial closure on a high-profile case with diplomatic outreach and modest security and economic moves.",
+    "key_events": [
+      {
+        "event": "Iraqi court sentences six or seven French citizens to life in prison for Islamic State membership",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Iraqi PM Ali al-Zaidi visits Syria and meets Ahmed al-Sharaa in a historic diplomatic trip",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Iraqis mark seven years since the Tishreen protests with reform demands and memorial activities",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Pope visits Mosul, releases a dove, and prays for the dead",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Iraqi court sentences two politicians and an oil official to prison terms in a graft case",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "PKK-linked Yazidi militia units agree to disarm and join Iraq's army",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "A drone is intercepted near Baghdad's Green Zone according to a military statement",
+        "date": null,
+        "domain": "security",
+        "importance": 2
+      },
+      {
+        "event": "DNO explores exporting oil from the Kurdistan region via Syria",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      },
+      {
+        "event": "U.S. allows wind-down transactions with an Iran-linked Iraqi bank",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 4,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "society",
+      "politics"
+    ],
+    "emojis": [
+      "⚖️",
+      "🛫",
+      "✊"
+    ],
+    "emoji_reasons": [
+      "The dominant story of the week was the Iraqi court's life sentences for six or seven French IS members, covered by five separate headlines (3, 4, 8, 12, 14).",
+      "The PM's historic Syria visit (headline 6) and the Pope's trip to Mosul (headline 7) both involved high-profile leaders traveling to Iraq or from Iraq.",
+      "The seven-year Tishreen anniversary and the 'wall of wishes' for slain protesters (headlines 1 and 9) kept the protest movement in the public eye."
+    ],
+    "developments": [
+      {
+        "subject": "French IS sentencing",
+        "what_happened": "An Iraqi court handed life sentences to six or seven French citizens convicted of Islamic State membership.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          3,
+          4,
+          8,
+          12,
+          14
+        ]
+      },
+      {
+        "subject": "Tishreen anniversary",
+        "what_happened": "Iraqis marked seven years since the 2019 Tishreen protests with reform demands and a memorial wall for slain protesters.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          9
+        ]
+      },
+      {
+        "subject": "Pope in Mosul",
+        "what_happened": "The Pope visited Mosul, released a dove, and prayed for the dead, drawing attention to Iraq's Christian community.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          13
+        ]
+      },
+      {
+        "subject": "PM Syria visit",
+        "what_happened": "Iraqi PM Ali al-Zaidi traveled to Syria for a historic meeting with Ahmed al-Sharaa.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          6
+        ]
+      },
+      {
+        "subject": "Graft case verdict",
+        "what_happened": "An Iraqi court sentenced two politicians and an oil official to prison terms in a corruption case.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2
+        ]
+      },
+      {
+        "subject": "Yazidi militia integration",
+        "what_happened": "PKK-linked Yazidi militia units agreed to disarm and join the Iraqi army as part of a weapons-control push.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11
+        ]
+      },
+      {
+        "subject": "Kurdistan oil via Syria",
+        "what_happened": "Norway's DNO explored exporting oil from the Kurdistan region through Syria.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "US-Iran bank wind-down",
+        "what_happened": "The United States permitted wind-down transactions with an Iran-linked Iraqi bank.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          5
+        ]
+      },
+      {
+        "subject": "Green Zone drone",
+        "what_happened": "A drone was intercepted near Baghdad's Green Zone according to a military statement.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          15
+        ]
+      }
+    ],
+    "gone": [
+      "US troop departure",
+      "IMF program",
+      "Sheeb border closure",
+      "Paramilitary base explosion",
+      "Chinese oil marketing",
+      "Airspace fines",
+      "Football collaboration"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Fifteen headlines cover courts, diplomacy, security, society, and economy, though the French IS sentencing dominates and no major new political or military crisis is reported."
+    },
+    "headlines_used": [
+      "Slain Iraq protesters inspire \"wall of wishes\"",
+      "Iraqi court hands down prison terms to 2 politicians and an oil official in graft case",
+      "Iraq: Life sentences for 3 French 'Islamic State' suspects",
+      "Six jihadistes français condamnés à la prison à perpétuité en Irak",
+      "U.S. Allows Wind-Down Transactions with Iran-Linked Iraqi Bank",
+      "Iraqi PM Ali al-Zaidi meets Ahmed al-Sharaa in historic Syria visit",
+      "In Mosul, Pope frees dove and prays for the dead",
+      "An Iraqi court sentences 7 French citizens to lengthy prison terms over Islamic State membership",
+      "Iraqis mark seven years since Tishreen protests with reform demands",
+      "DNO is looking at exporting oil from Kurdistan region of Iraq via Syria",
+      "PKK-linked Yazidi militia units to disarm and join Iraq’s army in push to control weapons",
+      "Three French nationals jailed for life in Iraq for Islamic State ties",
+      "For Iraq's Christians, a bittersweet first Christmas home after Islamic State",
+      "Iraqi court sentences six French men to life in prison for Islamic State membership",
+      "Drone intercepted near Baghdad's Green Zone, military statement says"
+    ],
+    "converted": false,
+    "relevant_headlines": 15,
+    "unscorable": true,
+    "unscorable_reason": "only 15 relevant headlines (fewer than 25)"
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "French IS sentencing",
+        "expected": "French IS sentencing stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about French IS sentencing appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Tishreen anniversary",
+        "expected": "Tishreen anniversary stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Tishreen anniversary appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Pope in Mosul",
+        "expected": "Pope in Mosul stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Pope in Mosul appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "French IS sentencing",
+        "expected": "persist",
+        "sign": "French IS sentencing is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. French IS sentencing stays in the news at the same level. Tishreen anniversary stays in the news at the same level. Pope in Mosul stays in the news at the same level. French IS sentencing is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "French IS sentencing",
+        "expected": "France will file a formal diplomatic appeal and request consular access for the convicted citizens in the days after the verdicts.",
+        "direction": "persist",
+        "sign": "A headline about a French government statement or diplomatic note reacting to the Iraqi court verdicts"
+      },
+      "second": {
+        "subject": "Iraq-Syria diplomacy",
+        "expected": "Iraq and Syria will issue a joint declaration or announce a concrete bilateral commitment in the wake of the Prime Minister's visit.",
+        "direction": "escalate",
+        "sign": "A headline announcing a new bilateral agreement or joint declaration between Iraq and Syria"
+      },
+      "third": {
+        "subject": "Tishreen reform demands",
+        "expected": "Iraqi authorities will issue a public response to the reform demands raised at the seventh anniversary gatherings.",
+        "direction": "persist",
+        "sign": "A headline about a government statement or a new protest in reaction to the anniversary demands"
+      },
+      "fade_call": {
+        "subject": "Pope's Mosul visit",
+        "expected": "fade",
+        "sign": "The Mosul visit drops from the top of the news cycle as new stories take its place"
+      },
+      "surprise": {
+        "subject": "Yazidi militia disarmament",
+        "expected": "A small clash or public dispute will erupt between the disarming Yazidi units and a rival militia over weapons handover logistics.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Iraq's news cycle will center on the diplomatic fallout from the French Islamic State sentencing, as Paris files appeals and requests consular access for the convicted citizens. The historic Iraq-Syria meeting will produce a joint declaration or a concrete bilateral commitment, pushing the two countries into a new phase of cooperation. The Tishreen anniversary demands will prompt a government response, keeping reform pressure in the public eye. The Pope's Mosul visit will fade from headlines as a completed event. A small security friction around the Yazidi militia disarmament process will provide an unexpected headline. Economic stories around Kurdish oil exports and the Iran-linked bank wind-down will stay in the background. Overall, the week will feel like a period of consolidation and follow-through on this week's major announcements, with the French verdict and the Syria opening as the dominant threads.",
+      "generated_at": "2026-11-02T01:28:06+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "French IS sentencing aftermath",
+        "expected": "The French government will issue a formal diplomatic response to the life sentences, triggering legal appeals from the convicted families and a parliamentary debate in Paris.",
+        "direction": "persist",
+        "sign": "Headlines will quote French foreign ministry statements and name the legal basis for appeals, distinguishing this from the sentencing verdict itself."
+      },
+      "second": {
+        "subject": "Syria-Iraq bilateral follow-through",
+        "expected": "Baghdad and Damascus will announce a concrete bilateral trade corridor or border arrangement emerging from the prime minister's historic Syria visit.",
+        "direction": "escalate",
+        "sign": "Headlines will name a specific corridor or agreement and quote both governments on implementation steps, moving beyond the diplomatic handshake."
+      },
+      "third": {
+        "subject": "Yazidi militia disarmament",
+        "expected": "The first PKK-linked Yazidi units will begin handing over weapons at designated checkpoints as the disarmament agreement enters its implementation phase.",
+        "direction": "persist",
+        "sign": "Headlines will describe a weapons handover ceremony at a checkpoint and quote a rival armed group's reaction to the integration."
+      },
+      "fade_call": {
+        "subject": "Pope in Mosul",
+        "expected": "fade",
+        "sign": "The one-time papal visit to Mosul will drop from headlines as the French sentencing and Syria diplomacy reclaim attention."
+      },
+      "surprise": {
+        "subject": "Tishreen new protest wave",
+        "expected": "The seventh anniversary of the Tishreen movement will catalyze a new march or sit-in in a southern Iraqi city, pushing reform demands beyond the symbolic wall of wishes.",
+        "chance": "low"
+      },
+      "summary": "Next week, Iraq will process the diplomatic fallout from the life sentences handed to French Islamic State defendants, with Paris responding formally and the families filing appeals. The historic Syria visit will move from handshake to substance as Baghdad and Damascus announce a concrete trade corridor or border arrangement. On the security front, the first PKK-linked Yazidi units will begin the practical process of handing over weapons and joining the national army, drawing reactions from other armed groups. The papal visit to Mosul will fade from headlines as a completed one-time event. The Tishreen anniversary will have passed its peak, though reform demands may linger in the background. The overall picture is a country closing one chapter on a high-profile foreign case while opening new diplomatic and security threads.",
+      "generated_at": "2026-11-02T01:39:09+02:00"
+    }
+  },
+  "display": {
+    "headline": "Baghdad Faces French Appeals, Seals Syria Corridor, Yazidi Units Disarm",
+    "emojis": [
+      "⚖️",
+      "🤝",
+      "🪖"
+    ],
+    "emoji_reasons": [
+      "The French IS sentencing and its diplomatic aftermath is the dominant story of the week.",
+      "The historic Syria visit and the expected bilateral trade agreement define the diplomatic dimension.",
+      "The Yazidi militia disarmament and the Green Zone drone highlight the security and military dimension."
+    ],
+    "tldr": "Baghdad will process the diplomatic fallout from life sentences handed to French IS defendants while converting the historic Syria visit into a concrete trade corridor. Yazidi militia units will begin handing over weapons as the first implementation step. The papal visit to Mosul will fade from headlines.",
+    "eli5": "Iraq just handed life sentences to a group of French citizens who were members of the Islamic State group. This is a big deal because France is now dealing with the aftermath. Its government will react diplomatically, the families will file appeals, and it will be a talking point in French politics for weeks to come.\n\nAt the same time, Iraq's prime minister just made a historic trip to Syria to meet the new leader there. That visit opens the door to real agreements between the two countries, like trade routes or border arrangements, and we should see the first concrete deal announced in the coming days.\n\nOn the security side, a group of Yazidi fighters linked to the Kurdish PKK militia agreed to hand in their weapons and join the national army. The first units will start this process at checkpoints, and other armed groups will be watching closely to see if this works.\n\nA surprise would be if the seventh anniversary of the 2019 Tishreen protests, where Iraqis demanded government reforms, turns into a new march or sit-in rather than just a symbolic memorial wall. That would signal the frustration has not gone away after all these years."
+  },
+  "judgment": {
+    "unscorable": true,
+    "reason": "only 15 relevant headlines (fewer than 25)",
+    "graded_round": "2026-10-24"
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nDuring the week of 17 to 24 October 2026, Iraq experienced a notable shift as US troops began their departure, leaving the country to confront new security and institutional challenges without a key foreign military backer. Simultaneously, Baghdad moved to formalize an IMF program, with the Fund's chief pledging firm support, a sign of growing international confidence in Iraq's economic direction. Security concerns surfaced on multiple fronts: Iraq closed the Sheeb border crossing with Iran for a security review, and an explosion at a paramilitary alliance base killed one member, continuing a pattern of low-level violence among armed groups. On the economic front, Chinese oilfield services company Anton began marketing Iraqi oil, marking a step toward diversifying Iraq's oil sales beyond traditional Western channels. In aviation, the United States fined Air France and KLM for operating flights through prohibited Iraqi airspace, underscoring ongoing tensions over the country's air domain. A\n- US troop departure (dominant, new): US military forces began leaving Iraq, and analysts flagged new security and institutional challenges for Baghdad in their absence.\n- IMF program (dominant, continuing): Iraq formally sought an IMF program and the Fund's chief pledged firm support, building on earlier negotiations.\n- Sheeb border closure (regular, new): Iraq shut the Sheeb crossing with Iran to review security arrangements at the site.\n- Paramilitary base explosion (regular, continuing): An explosion at an Iraqi paramilitary alliance base killed one member, a recurrence of the pattern seen earlier in the month.\n- Chinese oil marketing (regular, new): Chinese oilfield services company Anton began marketing Iraqi oil, expanding the country's buyer base beyond traditional partners.\n- Airspace fines (occasional, new): The US fined Air France and KLM for operating flights through prohibited Iraqi airspace.\n- Football collaboration (occasional, new): Scottish club Dundee United explored a potential collaboration with the Iraq Football Association.\n\nRound 2026-10-17:\nDuring the week of October 14 to 17, 2026, Iraqi politics dominated as parliament completed the approval of Prime Minister al-Zaidi's full cabinet, filling remaining posts and naming a US-sanctioned deputy prime minister. The vote came amid growing economic anxiety and was framed as a stabilization effort. In the same period, Iraq formally sought an IMF program, and the fund's chief pledged firm support, signaling international confidence in Baghdad's fiscal path. Domestically, the central bank devalued the dinar to ease a cash crunch, a move that left traders in limbo as the official rate shifted yet again. Security remained fragile: a roadside bomb near Kirkuk killed an army brigadier and a soldier, while an explosion at a paramilitary alliance base killed one member. Diplomatically, the prime minister reassured Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, hinting at ongoing coordination over regional tensions. A minor\n- Cabinet completion (dominant, new): Parliament approved all remaining cabinet posts, including a US-sanctioned deputy prime minister, finalizing al-Zaidi's government.\n- Dinar devaluation (regular, continuing): The central bank devalued the dinar to ease a cash crunch, continuing the pattern of rate adjustments and leaving traders uncertain.\n- IMF program (regular, new): Iraq formally sought an IMF program and the fund's chief pledged firm support, signaling a step toward international fiscal backing.\n- Kirkuk roadside bomb (occasional, new): A roadside bomb killed an Iraqi army brigadier and a soldier near Kirkuk.\n- Paramilitary base explosion (occasional, new): An explosion at an Iraqi paramilitary alliance base killed one member, underscoring ongoing low-level security risks.\n- Saudi diplomatic channel (occasional, new): PM al-Zaidi told Saudi Arabia's crown prince that Iraqi territory would not be used for attacks, indicating active bilateral coordination.\n- Neanderthal discovery (occasional, new): Researchers reported bones from an Iraqi cave offering new evidence of violence and compassion among Neanderthals.\n",
+    "PREVIOUS_FORECAST": "Lead: US troop departure completion. Expected: The US military's final units will leave Iraqi soil, prompting Baghdad to announce the new domestic security architecture that replaces the foreign backer. Direction: escalate. Sign: Headlines will describe a farewell ceremony or formal declaration, name the new Iraqi security body taking over, and quote officials about the post-withdrawal arrangement.\nSecond: IMF technical consultations. Expected: An IMF technical delegation will arrive in Baghdad to open detailed fiscal consultations covering the budget and revenue framework. Direction: escalate. Sign: Headlines will name the delegation's arrival in Baghdad and describe the specific conditionality benchmarks or revenue data being requested from Iraqi ministries.\nThird: Chinese oil marketing first sale. Expected: The first concrete sale of Iraqi oil under the new Chinese marketing arrangement will be announced, drawing a public reaction from traditional buyers. Direction: escalate. Sign: Headlines will report a transaction or price benchmark and note how established buyers responded to the expanded seller base.\nFade call: Airspace fines on European carriers. Expected: fade. Sign: The one-time penalty against the European carriers will drop from headlines as the troop departure and IMF stories reclaim attention.\nSurprise (chance low): Sheeb border friction with Iran. The security review at the Sheeb crossing will surface a dispute with Iran over inspection protocols, producing a brief diplomatic friction.\nSummary: Next week, Iraq will mark the formal completion of the US military departure, with Baghdad announcing the institutional arrangements that replace the foreign security backer. The IMF program will move from pledge to practice as a technical delegation arrives in Baghdad to open detailed fiscal consultations on the budget and revenue framework. On the energy front, the first concrete results of the Chinese oil marketing arrangement will surface, with a transaction or price benchmark drawing reactions from traditional buyers. The Sheeb border closure with Iran will stay on the radar as the security review produces findings. Low-level violence at paramilitary sites will persist. The airspace fines against European carriers will fade from headlines. The overall picture is a country in active transition, losing a military patron while building new economic and security structures in its place.\n",
+    "JUDGE_NOTES": "Not available.",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

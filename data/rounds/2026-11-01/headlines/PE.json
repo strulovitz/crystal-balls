@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-01",
+  "code": "PE",
+  "name": "Peru",
+  "window_start": "2026-10-24",
+  "window_end": "2026-11-01",
+  "fetched_at": "2026-11-01T13:42:52+02:00",
+  "total_items": 8,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 39,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Violent clashes in Peru after ex-leader pardoned",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55dk92QWVfUmo3SUVCTVhGdWdUWUFELXNPVVptcFNaV2ZMUXhPaWRtMDhLMzRZbVFTYjZkNVRXbnZRZllfcmQ1N1hNSDJoSGNvUEJkaWpjOTNsTUxp?oc=5"
+        },
+        {
+          "title": "ASMED Founder Dr. Koray Erdoğan to Speak at the 10th World FUE Institute Workshop in Lima",
+          "published": "2026-10-26",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSHl5QmlKWWgtaVVuZjlxdENhQ3JJYlBxRzFrTUt1WVIxYUc0Zmk3cDV3a1NsdHFEcThqdV9YZzg4LXdXN2x4Q0UxaGEzdXRFano0QmhmUzlJSFVZY2U2dFNPZTQxUTBSaU1HQnV5WHNEX3IxbUVYb0xWbjJZRkU4eUs0cmFqb1hESXE3VzliX2xmU09CQURSWXVValNSSDdTUHVCa2tiZXlzSkhTb3c?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 21,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Peru's Fujimori becomes latest Latin American leader to visit notorious Salvadoran prison CECOT",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2c4VmMtY2hEQUdYNFlQbWdZUkJBYVlIYnJxaVFVb05XSGZCcmk1UEltMGZCMnY4bnRwSWlBenpndjNHZjFINHdDYzI4TDViZUZVWlJXT0hMSVRkLW9BM2FzblVRX2dPM2QzcWNpUUJFek5KQUFMMjFZTjF4NVY2a1dESTM5M3dsRGN4ZTk4TmE1ZloweS1DRzRIaHN3cWhpVlBIWDR6RQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 6,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 28,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 16,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Peru's buses targeted by rising gang violence",
+          "published": "2026-10-31",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQWpERnI4ZWY1dklNOUpwaVZoUXdDMmN6SEpLUWNPaWl1MlRKUHNHb2xBaVBvRnZNaVNzdUMwR1BkdHFCWm9pNExyZzBuVWhXc21CTXBxdXRuOVppQlEzd1dlYkdiTldsWkJpUUliaS01Wk4tdUNmRVg2bUk4X3J0ZTE1bw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 38,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 61,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "China’s ‘Upgraded’ Peru Trade Deal Takes Effect, Widening Ties",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaHc1WGNITmJSTDNObWtJSDlPd0ZPYktkemdIMFlkUkZ6Y3I0VFdkU3ROc0M1SnQ4OWYxOXp5TXgyWnBMU281LVpnV3hkdGgwMUxUbUtOYnFLNXE1cUsyNC13QlowVzlOdl9tN0otcWsxU0p5bWJYWGpzckRramE2M2NxbjhxY01XZ2QtTkV2SFlCY2lkV2N3aTlubTNONGI1U1FWam9lbUxpSWJHTFpB?oc=5"
+        },
+        {
+          "title": "Petroperu Chair Eyes Rare Profit, Investors for Minority Stake",
+          "published": "2026-10-28",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQakpVMlQxb1VxZ2VRbFZTam4tcFBNcXhsMi1KbW04VmExZTFUNTBrZWxnQW9VOWlmekx5QmZxbWYyd08xMWRma2RBTHBGZElHbU1wMENYSmViN2ZPcVFQZUJneV9xeV81anBvOFVvSXRLMEhZa1JSNk5QSlJHR3drSFVHcTdHdXQ2RXh2OUJFcy1saWJfcUNOcUNVSXJJcHk1LVZVbW9XbGNBem9LUmRnU1l3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 14,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 32,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 15,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Fujimori tours El Salvador mega-prison with hopes to build one in Peru",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUWFhQTJjYTRpb25lSHc3bnd6SW1BRE5uQUg0WDZ3ejFoemk1aGdrZEVIVGpocW9Qb1FxWjdXWk0wR19XS25GVlFoQnJFZkl3bVN2eFJEdm5GLWNnNWVnSk9KOHVTYWpQSmppZTRqTDh6bmlLamROYUxEMnlNVkZOMEZUbzdGeThuU1U5aTg1RnNmVmxqMm9UYnQ2OFFIdkNsMkdtVkUwWEJBdDJHdGVYX3JYTXVTNmRFdmtvcF9Wc9IBxAFBVV95cUxPYWRkZzhmSTI0ODd2b3FjQjJYOGRIbnFnNFNZWTgtZE5JbG1IRHZEemp5M0kyejE4bXpUOFd1YWQ5OXFWYUxZRmt1bDV2Sk5zaUt2a1ZBazNNU09sZjJCTDRNSkVNXzJ6cXA5a2YxQllPMlVpRFJib3htYmozOElrclBnZFd1VXZfM0RrbENqNUtKdF9TeGZ0bXE3N3lkU01IalBrTE9MSFhCVGdObGJPOVpvR1pGWnV5WTVPdURWcWJnNjdC?oc=5"
+        },
+        {
+          "title": "Fujimori tours El Salvador mega-prison with hopes to build one in Peru - Al Jazeera",
+          "published": "2026-10-30",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWlZJcVZTdXJkWkl5NFdhNlNNYWExZlkwNWxjYmZVYlJtb1NUX18xeEJXa1l5VnpBMExXOVhYQXVpcmllblREVzY5Z2xXc09EanQwczNPZGJGWTV0c3Ewdmc4dmdDbGNnY2JpalhET0ZqenhlVmd0R0dhWjF3aDByakUzWlRxSF93NjhYd2E3MEoxYkRqcWZ0UUhORVJ6RWVSVlY4VERUNXc2WXhVS19XYU5MVXNwaU5MekJyLXYyQjZ1VVRYWDVEWjdaUzRuU3V0NmlxNHJNX3Q?oc=5"
+        }
+      ]
+    }
+  ]
+}

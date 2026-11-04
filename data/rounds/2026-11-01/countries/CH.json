@@ -1,0 +1,653 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "CH",
+  "name": "Switzerland",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T07:12:50+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "This week in Switzerland was dominated by the UBS capital crisis, as CEO Sergio Ermotti made his clearest threat yet to relocate the bank out of Switzerland over regulatory capital demands. The government confirmed it had assessed the impact of a UBS exit, the lower house committee is set to debate the issue in November, and employee groups warned of major job losses. A top Geneva banker called a departure 'bad news' for the city. In health, Switzerland confirmed the arrival of a Swiss woman evacuated from Nigeria after contracting Ebola, with 52 contacts placed under surveillance in Geneva. The evacuation put Nigeria's healthcare system in the spotlight and prompted Ghana to tighten prevention measures. In sports media, Swiss TV's commentary on Israel's Olympic bobsleigh team was ruled discriminatory by the national regulatory authority, with complaints formally upheld. Diplomatically, the Swiss foreign minister made a rare visit to North Korea to discuss security and political ties, while China and Switzerland celebrated a new trade deal that bucks global protectionist trends and opens access for Swiss firms in the drug and finance sectors. In sports, three-time Grand Slam champion Stan Wawrinka retired with a defeat at the Swiss Indoors in Basel. The Swiss supreme court also upheld a landmark 20-year war crimes sentence for a Liberian ex-rebel commander. The central bank posted a $23 billion profit driven by gold and foreign assets.",
+    "key_events": [
+      {
+        "event": "UBS CEO signals possible Swiss exit over capital demands, prompting government assessment and parliamentary debate",
+        "date": null,
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Swiss woman with Ebola evacuated from Nigeria to Geneva, 52 contacts under surveillance",
+        "date": null,
+        "domain": "health",
+        "importance": 4
+      },
+      {
+        "event": "Swiss TV commentary on Israel's Olympic bobsleigh team ruled discriminatory by regulatory authority",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Swiss foreign minister makes rare visit to North Korea to discuss security and political ties",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "Stan Wawrinka retires from professional tennis with a defeat at the Swiss Indoors in Basel",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "China and Switzerland sign trade deal boosting Swiss access in drug and finance sectors",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Swiss supreme court upholds landmark 20-year war crimes sentence for Liberian ex-rebel commander",
+        "date": null,
+        "domain": "politics",
+        "importance": 2
+      },
+      {
+        "event": "Swiss central bank posts $23 billion profit driven by gold and foreign asset gains",
+        "date": null,
+        "domain": "economy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "economy",
+      "health",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🏦",
+      "🦠",
+      "🤝"
+    ],
+    "emoji_reasons": [
+      "UBS CEO's clearest threat yet to exit Switzerland over capital demands (headline 25) makes banking the week's dominant story.",
+      "A Swiss woman with Ebola was evacuated from Nigeria to Geneva with 52 contacts under surveillance (headline 53).",
+      "China and Switzerland praised a new trade deal that bucks global protectionist trends (headline 21)."
+    ],
+    "developments": [
+      {
+        "subject": "UBS Swiss exit threat",
+        "what_happened": "UBS CEO Ermotti made his clearest threat yet to relocate the bank out of Switzerland over capital demands, the government assessed the impact of an exit, the lower house committee will debate in November, and employee groups warned of major job losses.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          8,
+          18,
+          25,
+          32,
+          41,
+          43,
+          57
+        ]
+      },
+      {
+        "subject": "Ebola evacuation to Geneva",
+        "what_happened": "A Swiss woman who contracted Ebola in Nigeria was evacuated to Geneva, with her husband and 52 contacts placed under surveillance, prompting Ghana to step up prevention measures.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          13,
+          37,
+          38,
+          39,
+          45,
+          53,
+          60
+        ]
+      },
+      {
+        "subject": "Bobsleigh commentary discrimination ruling",
+        "what_happened": "Swiss TV's commentary on Israel's Olympic bobsleigh team was ruled discriminatory and complaints were formally upheld by the national regulatory authority.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          3,
+          11,
+          20,
+          24
+        ]
+      },
+      {
+        "subject": "North Korea visit",
+        "what_happened": "The Swiss foreign minister made a rare visit to North Korea to discuss security issues and political ties.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          27,
+          55
+        ]
+      },
+      {
+        "subject": "Wawrinka retirement",
+        "what_happened": "Three-time Grand Slam champion Stan Wawrinka ended his professional career with a defeat to Jiri Lehecka at the Swiss Indoors in Basel.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          28,
+          40,
+          48,
+          49,
+          52
+        ]
+      },
+      {
+        "subject": "China-Switzerland trade deal",
+        "what_happened": "China's Xi and the Swiss president praised a new trade deal that boosts Swiss access to the Chinese market, with Swiss firms planning investment increases in the drug and finance sectors.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          7,
+          21,
+          35
+        ]
+      },
+      {
+        "subject": "Liberia war crimes ruling",
+        "what_happened": "The Swiss supreme court upheld a landmark 20-year war crimes sentence for a Liberian ex-rebel commander.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          12,
+          34
+        ]
+      },
+      {
+        "subject": "G7 Geneva riots",
+        "what_happened": "Violent riots overshadowed otherwise peaceful G7 protests in Geneva.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          23
+        ]
+      },
+      {
+        "subject": "Blatten glacier anniversary and snowmelt",
+        "what_happened": "Marking one year since the Blatten glacier collapse, record-breaking snowmelt in the Swiss Alps was reported.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          16
+        ]
+      },
+      {
+        "subject": "SNB $23 billion profit",
+        "what_happened": "The Swiss central bank posted a bumper $23 billion profit driven by gains in gold and foreign assets.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10
+        ]
+      },
+      {
+        "subject": "Xhaka and Embolo national team return",
+        "what_happened": "Switzerland captain Granit Xhaka and striker Breel Embolo were permitted to return to the national team after the fake COVID documents affair.",
+        "coverage": "occasional",
+        "direction": "resolved",
+        "headline_ids": [
+          14,
+          47,
+          59
+        ]
+      },
+      {
+        "subject": "Swiss stocks as AI haven",
+        "what_happened": "Swiss stocks continued to be seen as a haven from AI-related fears roiling global markets.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          46
+        ]
+      }
+    ],
+    "gone": [
+      "Niger hostage release",
+      "UBS vs ex-CS back-pay",
+      "Vietnam FTA with Switzerland",
+      "Swiss watch exports",
+      "Lindt CEO departure",
+      "US-Ukraine-Russia talks venue",
+      "Glacier melt exhibition",
+      "Nomura wealth push in Switzerland",
+      "Partners Group EU-tax call"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "Headlines cover Switzerland well across banking, health, diplomacy, sports, trade, and justice, though several BBC entries are routine Super League match previews that add little substance."
+    },
+    "headlines_used": [
+      "Swiss foreign minister discusses security issues with North Korea",
+      "Swiss TV commentary of Israel’s Olympic bobsled run ruled to be discrimination",
+      "Complaints upheld against Swiss TV commentary on Israeli bobsleigher",
+      "Grasshoppers vs Vaduz: Swiss Super League stats & head-to-head",
+      "Switzerland: Blatten glacier collapse, one year on",
+      "Ma vie sans filtre - Alicia et Aurélie (3) : la Suisse à cheval, arrivée triomphale et projets",
+      "Swiss Firms Plan Investment Boost in China Drug, Finance Sectors",
+      "UBS CEO Signals Possible Switzerland Exit Over Capital Demands",
+      "Switzerland’s cult architect creates a new temple for art",
+      "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+      "Swiss commentary on Israeli Olympic bobsleigh team termed ‘discriminatory’",
+      "Top Swiss court upholds landmark Liberia war crimes ruling",
+      "First confirmed Ebola patient in Nigeria evacuated to Switzerland",
+      "Xhaka, Embolo can return to Swiss squad after fake Covid docs affair",
+      "Young Boys vs Zürich: Swiss Super League stats & head-to-head",
+      "Record-breaking snowmelt in the Swiss Alps",
+      "Escapades en Suisse italienne",
+      "Swiss Government Says It Assessed Impact of Swiss Exit on UBS",
+      "AEVIS VICTORIA SA (AEVS.SW) – MRH Switzerland AG continues its growth in the third quarter of 2026, driven by higher average room rates and strong activity at its flagship properties – Company Announcement - FT.com",
+      "Swiss commentary on Israeli Olympic bobsleigh team termed 'discriminatory' - Al Jazeera",
+      "China's Xi, Swiss president praise trade deal that boosts access",
+      "St.Gallen vs Servette: Swiss Super League stats & head-to-head",
+      "Violent riots overshadow peaceful G7 protests in Geneva",
+      "JO-2026: un commentaire sur un bobeur israélien jugé discriminatoire par l'autorité de contrôle suisse",
+      "Ermotti Makes Clearest Threat Yet on Possible UBS Swiss Exit",
+      "Polymarket’s Swiss Tony returns",
+      "Swiss foreign minister talks political ties on rare visit to North Korea",
+      "Djokovic faces ATP Finals battle after loss in Basel",
+      "Lugano vs Basel: Swiss Super League stats & head-to-head",
+      "Swiss tourist jailed in Bali for insulting Hindu holiday",
+      "Suisse en scène",
+      "Swiss Lower House Committee to Debate UBS Capital in November",
+      "Polymarket’s top trader is sports gambler ‘Swiss Tony’",
+      "Swiss supreme court upholds Liberian ex-rebel commander’s 20-year sentence",
+      "China trade accord with Swiss bucks wider trend towards protectionism",
+      "Luzern vs Sion: Swiss Super League stats & head-to-head",
+      "Nigeria: une patiente suisse contaminée par le virus Ebola rapatriée à Genève, 52 cas contacts sous surveillance",
+      "Ebola Evacuation to Switzerland Puts Nigeria Healthcare in Focus",
+      "Nigeria evacuates Ebola patient to Switzerland",
+      "Former world No 3 Stan Wawrinka ends career in home match defeat in Basel",
+      "EXCLUSIVE: Swiss assess potential UBS relocation, highlight difficulties",
+      "Lausanne-Sport vs Thun: Swiss Super League stats & head-to-head",
+      "UBS Quitting Switzerland Would Be ‘Bad News,’ Top Geneva Banker Warns",
+      "Swiss biotech firm Molecular Partners to cut nearly half of workforce",
+      "Ebola in Ghana: Ghana authorities step up Ebola prevention measures afta Nigeria evacuate patient to Switzerland",
+      "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets",
+      "Xhaka, Embolo return to Swiss squad after fake COVID docs affair - Al Jazeera",
+      "Wawrinka brings career to a close with defeat in Basel",
+      "Stan Wawrinka retires: Three-time Grand Slam champion's career ends with Basel defeat",
+      "Art Basel Paris Seemed Impervious to Protests, Until It Didn’t",
+      "Swiss engineering company signs deal with Venezuela's PDVSA",
+      "Tennis: Stan Wawrinka retires after defeat to Jiri Lehecka at Swiss Indoors in Basel - highlights",
+      "Swiss woman with Ebola evacuated from Nigeria to Geneva",
+      "Burnley appoint ex-Basel boss Celestini as head coach",
+      "Swiss foreign minister to hold talks in North Korea this week",
+      "WTA Ladies Open Lausanne - Women's Doubles - Scores & Schedule - Tennis - BBC Sport",
+      "Employees group warns of major Swiss job losses if UBS relocates",
+      "St Mirren v Hibernian: Have your say",
+      "Granit Xhaka: Switzerland captain and striker Breel Embolo permitted to return to national team",
+      "Ebola in Nigeria: Switzerland confam arrival of evacuated patient and her husband from Nigeria",
+      "ATP Swiss Open Gstaad - Men's Doubles - Scores & Schedule - Tennis - BBC Sport",
+      "Thun vs Lugano: Swiss Super League stats & head-to-head",
+      "Basel vs Grasshoppers: Swiss Super League stats & head-to-head",
+      "Sion vs Lausanne-Sport: Swiss Super League stats & head-to-head",
+      "Servette vs Vaduz: Swiss Super League stats & head-to-head",
+      "Zürich vs Luzern: Swiss Super League stats & head-to-head",
+      "Young Boys vs St.Gallen: Swiss Super League stats & head-to-head"
+    ],
+    "converted": false,
+    "relevant_headlines": 67,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "UBS Swiss exit threat",
+        "expected": "UBS Swiss exit threat stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about UBS Swiss exit threat appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Ebola evacuation to Geneva",
+        "expected": "Ebola evacuation to Geneva stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Ebola evacuation to Geneva appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Bobsleigh commentary discrimination ruling",
+        "expected": "Bobsleigh commentary discrimination ruling stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Bobsleigh commentary discrimination ruling appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Bobsleigh commentary discrimination ruling",
+        "expected": "persist",
+        "sign": "Bobsleigh commentary discrimination ruling is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. UBS Swiss exit threat stays in the news at the same level. Ebola evacuation to Geneva stays in the news at the same level. Bobsleigh commentary discrimination ruling stays in the news at the same level. Bobsleigh commentary discrimination ruling is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "UBS Swiss exit debate",
+        "expected": "The lower house committee will hold its debate on UBS capital requirements, with members pressing the government for a concrete response to the CEO's exit threat.",
+        "direction": "escalate",
+        "sign": "Headlines reporting the committee session taking place, with politicians on both sides stating whether the government will adjust capital rules or defend the current framework."
+      },
+      "second": {
+        "subject": "Ebola patient in Geneva",
+        "expected": "The evacuated Swiss woman's condition will stabilize and the Geneva contacts under surveillance will complete their monitoring without new cases emerging.",
+        "direction": "de-escalate",
+        "sign": "Headlines confirming the patient's recovery and the all-clear on contact monitoring in the city."
+      },
+      "third": {
+        "subject": "Molecular Partners workforce cut",
+        "expected": "Molecular Partners will announce specifics of the restructuring, with employees and sector observers reacting to the scale of the workforce reduction.",
+        "direction": "escalate",
+        "sign": "Headlines about the scale of the restructuring, employee reactions, and the broader impact on the Swiss life sciences sector."
+      },
+      "fade_call": {
+        "subject": "Wawrinka retirement",
+        "expected": "fade",
+        "sign": "Headlines about Wawrinka's final match will drop from the front pages as the story is treated as a concluded chapter."
+      },
+      "surprise": {
+        "subject": "Ebola secondary case in Geneva",
+        "expected": "A second Ebola case will be confirmed among the Geneva contacts, prompting an expanded quarantine and a visible public health response in the city.",
+        "chance": "low"
+      },
+      "summary": "The next week in Switzerland will be shaped by the UBS capital debate as the lower house committee sits and politicians press the government for a concrete answer to the CEO's exit threat. The Ebola patient in Geneva will stabilize while contacts under surveillance complete their monitoring window without new cases. The Molecular Partners workforce cut will generate further coverage as employees and industry observers react to the restructuring. The Wawrinka retirement story will drop from front pages as attention shifts to political and health stories. The China trade deal will see early implementation details emerge as Swiss firms in the drug and finance sectors announce investment plans. The North Korea diplomatic visit will yield a joint statement. Overall, the week will feel politically charged, with the UBS question dominating headlines and the Ebola monitoring providing a steady undercurrent of public attention in Geneva.",
+      "generated_at": "2026-11-02T06:55:14+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "UBS parliamentary capital debate",
+        "expected": "The lower house committee will open its November session on UBS capital requirements, forcing the finance ministry to defend the government's assessment of a potential Swiss exit.",
+        "direction": "escalate",
+        "sign": "Headlines will carry the committee's vote on capital rules, the finance minister's floor statement on the CEO's relocation threat, and union leaders' warnings about job losses."
+      },
+      "second": {
+        "subject": "Ebola contact surveillance in Geneva",
+        "expected": "Swiss public health authorities will declare the surveillance period for the evacuated patient's contacts complete, ending the acute health alert in Geneva.",
+        "direction": "de-escalate",
+        "sign": "Headlines will report the end of the monitoring period, the patient's hospital discharge, and any updated travel guidance for Nigeria."
+      },
+      "third": {
+        "subject": "Bobsleigh discrimination ruling aftermath",
+        "expected": "The Swiss TV broadcaster will issue a formal public response to the discrimination ruling, stating whether it will accept the decision or seek a regulatory review.",
+        "direction": "persist",
+        "sign": "Headlines will carry the broadcaster's public statement, the Olympic committee's position on the ruling, and the Israeli athlete's camp's reaction."
+      },
+      "fade_call": {
+        "subject": "Wawrinka retirement",
+        "expected": "fade",
+        "sign": "Headlines will reference the former champion only in background context within broader tennis or Swiss sports coverage."
+      },
+      "surprise": {
+        "subject": "China trade deal corporate investment announcement",
+        "expected": "A major Swiss pharmaceutical or financial firm will announce a concrete investment commitment in China under the new trade accord, naming specific sectors and a timeline.",
+        "chance": "low"
+      },
+      "summary": "Next week in Switzerland, the UBS capital debate will dominate as the lower house committee opens its November session, forcing the finance ministry to defend its assessment of a potential Swiss exit and prompting union leaders to warn of job losses. The Ebola case will de-escalate as the surveillance period for the evacuated patient's contacts closes and Geneva's hospital discharges the Swiss woman, shifting the story from acute alert to a resolved health event. The bobsleigh discrimination ruling will generate follow-up as the Swiss TV broadcaster and the Olympic committee issue their formal responses, keeping the story in the news cycle. The Wawrinka retirement will fade from front pages as the tennis season moves on. A low-chance surprise: a major Swiss firm will announce a concrete investment in China under the new trade accord, giving the deal its first corporate headline.",
+      "generated_at": "2026-11-02T07:12:50+02:00"
+    }
+  },
+  "display": {
+    "headline": "UBS Exit Debate Dominates as Ebola Alert Fades in Geneva",
+    "emojis": [
+      "🏦",
+      "🦠",
+      "📰"
+    ],
+    "emoji_reasons": [
+      "The UBS capital debate and potential Swiss exit will be the dominant banking and parliamentary story",
+      "The Ebola evacuation and contact surveillance in Geneva will be the key public health story",
+      "The bobsleigh commentary discrimination ruling will generate media and sports commentary coverage"
+    ],
+    "tldr": "Switzerland's week will center on the UBS parliamentary capital debate as the government defends its regulatory stance against the CEO's exit threat. The Ebola alert will fade as the Geneva surveillance period closes, and the bobsleigh discrimination ruling will draw formal responses from Swiss broadcasters.",
+    "eli5": "Switzerland is in the middle of a big fight about its biggest bank, UBS. The CEO has threatened to move the bank out of the country if the government keeps demanding more capital. Next week, parliament will start debating the issue, and that is where the real action will be.\n\nThis matters because UBS is one of the world's largest banks, and if it leaves Switzerland, thousands of jobs in Geneva and other cities could disappear. The government says it has already looked at what an exit would mean, and now politicians have to decide whether to bend the rules or risk losing the bank.\n\nMeanwhile, the Ebola case that had everyone worried will wind down. The Swiss woman who was evacuated from Nigeria is in a Geneva hospital, and the people she was in contact with are being monitored. Once that monitoring period ends, the story will mostly be over.\n\nA surprise would be if a big Swiss pharma or banking company suddenly announces it is investing heavily in China under the new trade deal. That would show the agreement is really working and not just a handshake photo."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "plain",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "plain",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'Niger hostage release' under 'No longer in the headlines' and none of the 67 headlines reference the freed Swiss and Austrian women [reality list].",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The Ebola case escalated from a new confirmation to a full evacuation to Geneva with 52 contacts under surveillance, as shown in headlines [13], [37], [38], [39], [53], [60].",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Only headline [23] 'Violent riots overshadow peaceful G7 protests in Geneva' remains, down from regular to occasional in the reality list.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The Ebola case persisted and in fact escalated to dominant status with the evacuation to Geneva, matching the prediction that it would remain in headlines [13], [37], [60].",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The prediction of 'no surprise' was contradicted by the UBS exit threat [8], [25], [32], the North Korea visit [1], [27], the Wawrinka retirement [40], [48], [49], and the China trade deal [21], [35].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's core thesis of 'more of the same' was wrong: the week's dominant story (UBS exit threat) and several major new items (North Korea, Wawrinka, China deal, bobsleigh ruling) were entirely absent from its forecast. It correctly kept Ebola and G7 riots in view but missed that the Niger hostage release would fade completely rather than persist. Its 'no surprise' call was the most costly error, as at least five significant new stories broke that week.",
+        "S": 4
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The Ebola case escalated as the patient was evacuated to Geneva with 52 contacts under surveillance [13], [37], [38], [39], [53], [60], matching the predicted escalation though the specific form was evacuation rather than a medical update in Nigeria.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'US-Ukraine-Russia talks venue' under 'No longer in the headlines' and no headline references the trilateral talks or a venue decision.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The freed women moved toward closure as predicted, but the story faded entirely rather than producing a first interview or discharge headline, as confirmed by its placement under 'No longer in the headlines' in the reality list.",
+            "forecast_direction": "de-escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "The Geneva riots did not fully fade but dropped from regular to occasional, with only headline [23] remaining, a partial match to the predicted disappearance.",
+            "forecast_direction": "fade",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The reality bulletin lists 'Nomura wealth push in Switzerland' under 'No longer in the headlines' with no headline reporting a concrete Nomura acquisition or partnership in Switzerland.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly identified Ebola escalation and Niger de-escalation, showing good instinct on the health and hostage threads. However, it missed the week's actual dominant story (UBS exit threat) and several major new items (North Korea, Wawrinka, China deal, bobsleigh ruling) entirely. Its main thesis was not wrong in direction on Ebola but was too narrow, anchoring on US-Ukraine-Russia talks and Nomura as secondary pillars that both faded.",
+        "S": 4
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The predicted medical evacuation materialized as the Swiss woman was evacuated to Geneva with 52 contacts under surveillance and Ghana tightened prevention, as reported in headlines [13], [37], [38], [39], [45], [53], [60].",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'US-Ukraine-Russia talks venue' under 'No longer in the headlines' and no headline reports Switzerland confirming or declining the hosting role.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'Nomura wealth push in Switzerland' under 'No longer in the headlines' with no headline reporting a concrete Nomura move, partnership, or regulatory application.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The Niger hostage release faded completely as predicted, appearing under 'No longer in the headlines' in the reality list with no headline referencing the freed women.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The reality bulletin lists 'Lindt CEO departure' under 'No longer in the headlines' with no headline reporting a chocolate industry consolidation debate or restructuring announcement.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's Ebola lead was the most accurate of all three forecasts, correctly anticipating the evacuation and regional health-advisory angle. However, it over-weighted the US-Ukraine-Russia talks venue and Nomura as secondary pillars, both of which faded entirely from the news cycle. Its main thesis of a 'health-diplomatic crossover' was half right (health) but the diplomatic half (talks venue) did not materialize, and the dominant UBS exit story was missed.",
+        "S": 6
+      }
+    },
+    "S": [
+      {
+        "persistence": 4,
+        "plain": 4,
+        "crystal": 6
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Computed from the scores: persistence 4, plain 4."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Computed from the scores: persistence 4, crystal 6."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Computed from the scores: plain 4, crystal 6."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_plain": 0.0,
+      "persistence_vs_crystal": -1.0,
+      "plain_vs_crystal": -1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 1.0,
+    "u": 1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 2,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week's dominant story for Switzerland was the confirmed release of a Swiss woman and an Austrian woman after roughly eighteen months in captivity in Niger, where they had been held by the Islamic State since 2025. The pair were reported to have reached Benghazi, bringing relief to Bern and closing a long-running hostage case. In a separate health scare, Swiss authorities confirmed that an Ebola patient in Nigeria was the wife of a Swiss diplomat, who had reportedly contracted the virus in Uganda rather than in the Democratic Republic of Congo. On the economic front, UBS won a legal victory against former Credit Suisse managing directors over back-pay claims, while Swiss watch exports posted a fifth consecutive monthly rise driven by demand in the US and Europe. The Lindt CEO stepped down as the chocolate sector struggled. In Geneva, violent riots overshadowed what were meant to be peaceful G7-related\n- Niger hostage release (dominant, resolved): A Swiss and an Austrian woman were freed after roughly 18 months in ISIS captivity in Niger and reported to have reached Benghazi.\n- Ebola – Swiss diplomat's wife (dominant, new): Bern confirmed an Ebola case in Nigeria involved the wife of a Swiss diplomat, with infection likely acquired in Uganda rather than DR Congo.\n- Geneva G7 riots (regular, new): Violent clashes broke out alongside largely peaceful G7-related demonstrations in Geneva.\n- UBS vs ex-CS back-pay (regular, continuing): UBS won a court ruling against former Credit Suisse managing directors seeking back-pay, while analysts noted UBS capital rules continue to constrain Swiss shareholders.\n- Vietnam FTA with Switzerland (regular, new): Vietnam signed a free-trade agreement with a group of European countries that included Switzerland.\n- Swiss stocks as AI haven (regular, continuing): Swiss equities attracted inflows as global investors hedged against AI-sector volatility.\n- Swiss watch exports (regular, continuing): Watch exports rose for a fifth straight month on strong US and European demand, with F.P. Journe auction prices cited as a confidence boost.\n- Lindt CEO departure (occasional, new): Lindt's chief executive stepped down amid broader struggles in the Swiss chocolate industry.\n- US-Ukraine-Russia talks venue (occasional, new): A US official indicated the next working-level trilateral talks could take place in Switzerland or Abu Dhabi.\n- Glacier melt exhibition (occasional, new): A 'Treasury of Ice' exhibition opened, displaying artifacts uncovered as Swiss glaciers continue to recede rapidly.\n- Nomura wealth push in Switzerland (occasional, new): Nomura is reportedly exploring a wealth-management push on UBS's home turf in Switzerland.\n- Partners Group EU-tax call (occasional, new): Partners Group's Gantner urged a Swiss tax on firms that hire through the EU, highlighting cross-border labor-cost tensions.\n\nRound 2026-10-17:\nThe dominant story this week was the resolution of the Credit Suisse bonus dispute: Swiss top court definitively ruled against former CS bankers who sought to recover bonuses stripped after the UBS takeover, closing a long legal battle. In the same week Credit Suisse secured 800 million dollars from insurers in the Greensill settlement. These rulings appeared to sharpen a broader regulatory strain: multiple reports indicated UBS was actively exploring the option of relocating its headquarters outside Switzerland if capital and regulatory rules tightened further, a move a domestic competitor warned would be damaging for the country. In Zurich, FIFA president Gianni Infantino faced rebelling members following a failed attempt to sell a World Cup-related stake. On the economic front, Switzerland's finance minister warned that steep European debt levels risked triggering a new euro-area crisis, and the federal government approved emergency reserve fuel withdrawals at Zurich Airport amid a supply\n- UBS exploring departure from Switzerland (dominant, escalating): Multiple reports indicated UBS was weighing the option of relocating its headquarters abroad if Swiss capital and regulatory rules tightened, a move a domestic competitor warned would harm the country.\n- Credit Suisse bonus court ruling (dominant, resolved): The Swiss top court definitively rejected former Credit Suisse bankers' final bid to recover bonuses stripped after the UBS takeover, ending a prolonged legal battle.\n- Credit Suisse Greensill settlement (regular, new): Credit Suisse secured 800 million dollars from insurers as part of the Greensill Trade Finance settlement.\n- Zurich Airport fuel shortage (regular, new): The Swiss government approved emergency reserve fuel withdrawals to address a fuel shortage at Zurich Airport.\n- Finance minister euro-debt warning (regular, new): Switzerland's finance minister warned that the current level of European sovereign debt posed a risk of triggering a new euro-area crisis.\n- FIFA Zurich meeting (regular, new): FIFA president Gianni Infantino faced rebelling members in Zurich following the failure of a planned World Cup stake sale.\n- Journalist court case (regular, continuing): A Swiss journalist who had exposed a top banker faced the risk of a criminal court sentence.\n- Swisscom antitrust appeal (occasional, new): Swisscom prevailed on appeal against a Swiss antitrust fine connected to its fiber-network expansion plans.\n- Djokovic at Swiss Indoors (occasional, new): Novak Djokovic accepted a wild-card invitation to compete at the upcoming Swiss Indoors tennis tournament in Basel.\n- Solar-plane altitude record (occasional, new): The altitude record previously set by a Swiss solar-powered aircraft was officially confirmed.\n- Swiss trade chief on US gifts (occasional, new): Switzerland's trade chief stated that a recent Rolex-and-gold gift was intended for the United States rather than as a personal gesture toward the president.\n- Swiss tourist jailed in Bali (occasional, new): A Swiss tourist was jailed in Bali for insulting a Hindu religious holiday during a trip abroad.\n",
+    "PREVIOUS_FORECAST": "Lead: Ebola – Swiss diplomat's wife. Expected: Bern will announce the medical evacuation plan for the Swiss diplomat's wife in Nigeria, triggering a health advisory for Swiss nationals in West Africa. Direction: persist. Sign: Headlines will report the medical condition of the Swiss patient, the evacuation or hospitalization arrangements, and any Swiss travel or health advisory for the region.\nSecond: US-Ukraine-Russia talks venue. Expected: Switzerland will confirm or decline the hosting of the next trilateral working-level talks, triggering either diplomatic preparations in Geneva or a public statement from the foreign ministry. Direction: escalate. Sign: Headlines will state whether Switzerland has accepted the hosting role, the chosen city, and the expected date of the negotiations.\nThird: Nomura wealth push in Switzerland. Expected: Nomura will announce a concrete step toward entering the Swiss wealth-management market, intensifying competitive pressure on UBS. Direction: persist. Sign: Headlines will report a specific Nomura move in Switzerland including a partnership announcement, a new office, or a regulatory application.\nFade call: Niger hostage release. Expected: fade. Sign: Headlines will reference the freed Swiss and Austrian women only as background context in broader African security or Swiss foreign policy coverage.\nSurprise (chance low): Lindt CEO departure and industry consolidation. The Lindt CEO departure will trigger a public debate on Swiss chocolate industry consolidation, with at least one major player announcing a restructuring or acquisition plan.\nSummary: Next week in Switzerland, the Ebola case involving the Swiss diplomat's wife in Nigeria will dominate as Bern manages the medical evacuation and issues guidance for its nationals in West Africa. The question of whether Switzerland will host the next US-Ukraine-Russia working-level talks will generate diplomatic activity, with Bern either confirming the venue or explaining its choice. In the financial sector, Nomura's reported push into Swiss wealth management will produce a concrete announcement, sharpening competitive pressure on UBS amid the unresolved capital-rules debate. The Niger hostage release will drop from front pages, leaving the freed women as a resolved footnote. A low-chance surprise: the Lindt CEO departure sparks a broader industry consolidation debate. Switzerland's week will be shaped by a health-diplomatic crossover, a geopolitical hosting decision, and a banking competitive shift.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction (observed: escalated, subject dominant). The predicted medical evacuation materialized as the Swiss woman was evacuated to Geneva with 52 contacts under surveillance and Ghana tightened prevention, as reported in headlines [13], [37], [38], [39], [45], [53], [60].\n- second: did_not_appear (observed: faded, subject absent). The reality bulletin lists 'US-Ukraine-Russia talks venue' under 'No longer in the headlines' and no headline reports Switzerland confirming or declining the hosting role.\n- third: did_not_appear (observed: faded, subject absent). The reality bulletin lists 'Nomura wealth push in Switzerland' under 'No longer in the headlines' with no headline reporting a concrete Nomura move, partnership, or regulatory application.\n- fade_call: came_true (observed: faded, subject absent). The Niger hostage release faded completely as predicted, appearing under 'No longer in the headlines' in the reality list with no headline referencing the freed women.\nArcher note: The bulletin's Ebola lead was the most accurate of all three forecasts, correctly anticipating the evacuation and regional health-advisory angle. However, it over-weighted the US-Ukraine-Russia talks venue and Nomura as secondary pillars, both of which faded entirely from the news cycle. Its main thesis of a 'health-diplomatic crossover' was half right (health) but the diplomatic half (talks venue) did not materialize, and the dominant UBS exit story was missed.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

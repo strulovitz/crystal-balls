@@ -1,0 +1,770 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "DE",
+  "name": "Germany",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T05:42:08+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "Germany's dominant story this week was the eruption of Gen Z-led cost-of-living protests across more than thirty cities, which escalated from large marches into riots, shop looting, and police clashes, particularly in Frankfurt. The demonstrations were part of a broader European youth mobilisation that also swept France and Italy. On the energy front, Germany missed its winter gas-storage target as a cold snap hit, with storage at record lows, prompting a spat with Italy over rising European gas prices. Chancellor Friedrich Merz completed a multi-country Asia tour spanning South Korea, Japan, and China, where he pushed for wider EU-Asia market access, deepened security ties with Seoul over North Korea, and invited Japan to back a trade alliance. The Eagle's Nest, Hitler's former mountain retreat in the Bavarian Alps, was devastated by a fire and a suspect was detained. Economic signals were mixed: third-quarter growth of 0.2 percent beat expectations, inflation slowed on a fuel-tax cut, and business sentiment rose for a sixth consecutive month, yet consumer confidence slipped. The Audi CEO's appearance at a Trump rally drew union fury, and the debate over who will succeed President Steinmeier intensified, with Merkel calling for the country's first female head of state.",
+    "key_events": [
+      {
+        "event": "Gen Z protests in over 30 German cities turned violent, with rioters looting shops in Frankfurt and police clashing with demonstrators.",
+        "date": "2026-10-31",
+        "domain": "society",
+        "importance": 5
+      },
+      {
+        "event": "Germany missed its winter gas-storage target as a cold snap set in, with storage levels at a record low, triggering a pricing dispute with Italy.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Chancellor Merz completed an Asia tour visiting South Korea, Japan, and China, proposing wider EU-Asia market access and deepening security cooperation.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "A fire devastated the Eagle's Nest retreat built for Hitler in the Bavarian Alps; a suspect was detained.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "German economy logged 0.2 percent Q3 growth, faster than expected, while inflation slowed on a fuel-tax cut and business sentiment rose for a sixth month.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Audi's CEO faced union fury and public backlash after appearing at a Trump rally, complicating the company's four-billion-euro deal with the US administration.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "The debate over President Steinmeier's successor intensified, with Merkel calling for Germany's first female head of state and several women entering the discussion.",
+        "date": null,
+        "domain": "politics",
+        "importance": 3
+      },
+      {
+        "event": "German police arrested two suspects accused of planning sabotage attacks on behalf of Russia, according to Der Spiegel.",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Alexander Zverev clinched the world number-one tennis ranking, capping a strong season for German tennis.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      },
+      {
+        "event": "An eight-year-old girl was seriously injured in a wolf attack at a German zoo or wildlife park.",
+        "date": null,
+        "domain": "society",
+        "importance": 2
+      }
+    ],
+    "mood": "tense",
+    "intensity": 6,
+    "domains_active": [
+      "society",
+      "economy",
+      "diplomacy",
+      "politics"
+    ],
+    "emojis": [
+      "✊",
+      "⛽",
+      "🛫"
+    ],
+    "emoji_reasons": [
+      "Gen Z protests turned violent across 30+ cities with looting and police clashes, as covered in headlines 3, 13, and 23.",
+      "Germany missed its gas-storage target amid a cold snap and record-low levels, per headlines 1, 8, and 10.",
+      "Chancellor Merz toured South Korea, Japan, and China, pushing trade and security deals, per headlines 65, 89, and 93."
+    ],
+    "developments": [
+      {
+        "subject": "Gen Z cost-of-living protests",
+        "what_happened": "Massive youth demonstrations in over 30 German cities escalated into riots, shop looting, and police clashes, part of a broader European mobilisation.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          12,
+          13,
+          15,
+          18,
+          19,
+          20,
+          22,
+          23,
+          26,
+          28,
+          30,
+          33,
+          39,
+          88
+        ]
+      },
+      {
+        "subject": "Gas storage crisis",
+        "what_happened": "Germany missed its winter gas-storage target with levels at a record low, and a pricing dispute with Italy emerged over the resulting price spike.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          8,
+          10,
+          44,
+          66,
+          70
+        ]
+      },
+      {
+        "subject": "Merz Asia tour and trade diplomacy",
+        "what_happened": "Chancellor Merz visited South Korea, Japan, and China, proposing wider EU-Asia market access, deepening security ties, and inviting Japan to a trade alliance, while China urged a pragmatic German policy.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          24,
+          34,
+          40,
+          57,
+          64,
+          65,
+          74,
+          78,
+          79,
+          80,
+          89,
+          93,
+          96,
+          102,
+          103
+        ]
+      },
+      {
+        "subject": "Eagle's Nest fire",
+        "what_happened": "A fire devastated the Eagle's Nest retreat built for Hitler in the Bavarian Alps, and a suspect was detained.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          11,
+          51,
+          58
+        ]
+      },
+      {
+        "subject": "Economic data and sentiment",
+        "what_happened": "Q3 growth of 0.2 percent beat expectations, inflation slowed on a fuel-tax cut, and business sentiment rose for a sixth month, though consumer confidence slipped.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          21,
+          36,
+          41,
+          49,
+          50,
+          67,
+          83,
+          99,
+          105
+        ]
+      },
+      {
+        "subject": "Audi and Trump rally controversy",
+        "what_happened": "Audi's CEO faced union fury and public backlash after appearing at a Trump rally, complicating the company's four-billion-euro US deal.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          54,
+          59,
+          98,
+          100
+        ]
+      },
+      {
+        "subject": "Steinmeier succession debate",
+        "what_happened": "The search for President Steinmeier's successor gained momentum, with Merkel calling for Germany's first female head of state and parties debating candidates.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          38,
+          82,
+          90
+        ]
+      },
+      {
+        "subject": "Russian sabotage suspects",
+        "what_happened": "German police arrested two individuals suspected of planning sabotage attacks on behalf of Russia.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          91
+        ]
+      },
+      {
+        "subject": "Bayern Munich and Kane",
+        "what_happened": "Harry Kane's Ballon d'Or win boosted Bayern Munich, which returned to the top of the Bundesliga and advanced in the German Cup.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          14,
+          29,
+          43,
+          45,
+          52,
+          77,
+          101
+        ]
+      },
+      {
+        "subject": "Zverev world number one",
+        "what_happened": "Alexander Zverev clinched the tennis world number-one ranking, a milestone for German sport.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          35,
+          46,
+          61,
+          68
+        ]
+      },
+      {
+        "subject": "Wolf attack at zoo",
+        "what_happened": "An eight-year-old girl was seriously injured in a wolf attack at a German zoo or wildlife park.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          17,
+          27
+        ]
+      },
+      {
+        "subject": "EU-Asia trade and auto sector",
+        "what_happened": "Germany and France's 'Made in Europe' car deal drew criticism from the EU climate chief, while a report projected a record German trade deficit with Asia-Pacific in 2026.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          72,
+          76,
+          92,
+          97
+        ]
+      }
+    ],
+    "gone": [
+      "AfD email hack and leak",
+      "Invest in Germany Summit and investment drive",
+      "Berlin apartment seizure plan",
+      "Leipzig airport security incident",
+      "Iran plot against German Jewish leaders",
+      "Bayern Munich Kompany hospitalisation"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide broad and well-sourced coverage of the week's major stories in Germany, including the protests, gas crisis, Merz's Asia tour, and economic data, with only minor gaps in the security and technology domains."
+    },
+    "headlines_used": [
+      "Germany must do more to boost gas reserves as storage levels hit record low, lobby group says",
+      "An 8-year-old girl was attacked by a wolf in a German zoo",
+      "German rioters loot shops as 'Gen Z' demos turn ugly",
+      "Shops looted as German cost of living protests turn violent",
+      "Protests spread to Germany as hundreds of thousands march again in France",
+      "Germany's Gen Z protests disrupted by violence on Saturday",
+      "En Allemagne, des manifestations de la \"Gen Z\" suivies d'affrontements",
+      "Germany Misses Gas Storage Target as Cold Snap Sets In",
+      "Vonovia Shares Fall After German Landlord Warns of Tough Market",
+      "Germany fails to meet gas storage target as winter approaches",
+      "Fire devastates former Nazi guest house 'Eagle's Nest' in Germany",
+      "Gen Z-led protests in Germany turn violent",
+      "Rioters loot stores in Frankfurt as Gen Z-led protests in Germany turn violent",
+      "Ballon d'Or winner Harry Kane gets guard of honor from Bayern teammates before German Cup game",
+      "German police, protesters clash after 'Gen Z' demos",
+      "'People will be counting': What a German expert wants you to know about buying drinks in Germany",
+      "Girl, 8, injured in wolf attack at German zoo",
+      "Gen Z protests sweep cities across Germany with minor scuffles reported",
+      "France, Allemagne... Grande journée de mobilisation dans plusieurs pays d'Europe",
+      "German Protests Turn Violent as Activists Clash With Police",
+      "German Consumers Grow Slightly Gloomier on Lingering Inflation Concerns",
+      "Gen Z protests turn violent in Germany",
+      "Thousands rally in Berlin as Gen Z protests in more than 30 German cities",
+      "China willing to import more German goods, Premier Li says",
+      "German court rejects bid to end Ukrainian ex-officer’s trial over Nord Stream pipeline blasts",
+      "Germans to join Europe's youth protest wave",
+      "Girl seriously injured in wolf attack at German wildlife park",
+      "Massive Gen Z protests sweep cities across Germany",
+      "Allemagne: accroché par le Borussia, le Bayern conserve la tête après le Klassiker",
+      "France, Germany and Italy Brace for Protests as Dissent Spreads",
+      "This German Energy Giant Is an Overlooked AI Bargain",
+      "EQS-PVR: AUTO1 Group SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution – Company Announcement - FT.com",
+      "Germany and France brace for protests on Halloween weekend",
+      "China's Xi hails new chapter with Germany, urges friendly policy towards Beijing",
+      "Alcaraz with Spain and Zverev leads Germany for Davis Cup Final 8",
+      "German economy logs 0.2% growth, faster than expected",
+      "Witness History | Bonn v Berlin: How Germany chose its capital",
+      "Germany news: Merkel calls for first female president after Steinmeier's term ends",
+      "Allemagne: la police mobilisée en amont d'importantes manifestations de jeunes",
+      "Xi Urges Germany to Maintain ‘Pragmatic’ Policy Toward China",
+      "German Business Sentiment Rises Again Despite Energy Crunch",
+      "German Firms Prioritize AWS Cloud Innovation, Data Sovereignty – Company Announcement",
+      "Ballon d’Or win will help keep Kane at Bayern, says Germany’s Matthaus",
+      "Germany rejects 'unfounded' claims in spat with Italy over gas storage",
+      "Mbappé leads Real Madrid to 2-1 win over Barcelona in clasico, Bayern back on top in Germany",
+      "Germany's Zverev becomes tennis world No. 1",
+      "Germany takes cautious approach as Israeli election results inconclusive",
+      "A Berlin, le conflit au Proche-Orient continue de peser dans la course à la mairie",
+      "German Inflation Slows Sharply on Renewed Fuel-Tax Relief",
+      "German inflation cools on fuel tax cut, economy grows more than expected in Q3",
+      "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A suspect is detained",
+      "Kane watches as Bayern cruise into German Cup last 16",
+      "Germany rearms, but who will serve in the military?",
+      "\"Marionnette\" de Trump: le patron d'Audi provoque un tollé en Allemagne",
+      "Todor Stoychev, tmax Germany GmbH: Profile and Biography",
+      "‘They are an act of resistance’ — Tacita Dean on the works of Arte Povera artist Marisa Merz",
+      "Germany's Merz to relay Asian partners' protectionism concerns to Brussels",
+      "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany",
+      "German union slams Audi boss's appearance at Trump rally",
+      "Germany and other EU countries ready to block von der Leyen's plan to give Canada 'associate membership'",
+      "Coupe Davis : Alcaraz participera à la phase finale avec l'Espagne, Zverev présent avec l'Allemagne",
+      "Thorsten Thom, tmax Germany GmbH: Profile and Biography",
+      "Original-Research: Pharming Group NV (von First Berlin Equity Research GmbH): Buy – Company Announcement",
+      "Germany's Merz says EU to shape better offer as global trade order comes under pressure",
+      "Germany news: Merz visits Korean DMZ, expresses hope for reunification as Asia tour concludes",
+      "Germany Rebuffs Italy’s Blame Over Rising European Gas Prices",
+      "German inflation slows more than expected in October",
+      "Germany's Alexander Zverev clinches tennis No. 1 ranking",
+      "Orcel ‘Personally’ Vows to Back Mittelstand in Commerzbank Deal",
+      "Italy blames German gas storage delays for price spike",
+      "Berlin's Elif Eralp under fire over Der Spiegel interview",
+      "EU Climate Chief Hits Out at Franco-German Deal on Car Emissions",
+      "Germany to tap Ukrainian tech with missile purchase",
+      "Germany, South Korea deepen security partnership amid Russia-North Korea concerns",
+      "Goodbye, Germany - The Polish Workers Heading Home",
+      "Franco-German Car Deal Criticized by EU Climate Chief",
+      "German billionaire says €250mn Bayern Munich deal about more than money",
+      "Germany's Steinmeier says China must avoid one-sided benefits in economic ties",
+      "Germany news: Merz says North Korea threatening Europe's freedom",
+      "Merz Sees Mounting Concern in Asia Over EU ‘Buy European’ Rules",
+      "Thyssenkrupp's tk accelis valued at close to $2 billion in German market debut",
+      "Germany seeking new head of state",
+      "Germany’s Business Outlook Unexpectedly Improves for Sixth Month",
+      "Germany brigade in Lithuania to monitor Kaliningrad, Belarus with electronic warfare",
+      "Germany news: Volkswagen posts 3rd quarter losses of nearly €6 billion amid competition from China",
+      "Germany Warns of Difficulty in Blocking Property Seizure Plans",
+      "Airbus working with Germany, Spain on European fighter jet",
+      "Germany's Gen Z protests raise fears of violence — but experts see key differences with France",
+      "Germany weighs role in GCAP fighter jet program, says Merz on Japan visit",
+      "Germany news: Parties debate who should succeed President Steinmeier, with several women under discussion",
+      "German police arrest two suspected of planning sabotage attacks for Russia, Spiegel says",
+      "Germany and France's 'Made in Europe' raises global auto suppliers' costs and competitiveness concerns",
+      "Merz invites Japan to back trade alliance as China asks Germany to be 'rational'",
+      "Germany: Car ramming injures several near Hannover",
+      "Germany opens door to offshore wind returns as sector pressures grow",
+      "Germany's Merz says erosion of global order means middle powers in Europe and Asia must be more assertive",
+      "Germany set for record trade deficit with Asia-Pacific in 2026, report says",
+      "Germany: Audi's $4 billion deal with Trump comes at a tricky moment for the automotive hub",
+      "German consumer sentiment slips on inflation fears, survey shows",
+      "Germany news: Audi boss faces union fury over Trump rally appearance as Merz and Steinmeier head to Asia",
+      "Bayern crush Magdeburg in German Cup with fresh Ballon d'Or winner Kane on the bench",
+      "Chancellor Friedrich Merz tours Asia as Germany navigates a world of interconnected threats",
+      "Germany's Merz proposes wider EU-Asia market access to counter trade restrictions",
+      "Brazil elections: Germany's Merz and other world leaders have congratulated Lula on his victory",
+      "German business sentiment rises for the sixth consecutive month, Ifo says"
+    ],
+    "converted": false,
+    "relevant_headlines": 105,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Gen Z cost-of-living protests",
+        "expected": "Gen Z cost-of-living protests stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Gen Z cost-of-living protests appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Gas storage crisis",
+        "expected": "Gas storage crisis stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Gas storage crisis appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Merz Asia tour and trade diplomacy",
+        "expected": "Merz Asia tour and trade diplomacy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Merz Asia tour and trade diplomacy appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Audi and Trump rally controversy",
+        "expected": "persist",
+        "sign": "Audi and Trump rally controversy is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Gen Z cost-of-living protests stays in the news at the same level. Gas storage crisis stays in the news at the same level. Merz Asia tour and trade diplomacy stays in the news at the same level. Audi and Trump rally controversy is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Gen Z cost-of-living protests",
+        "expected": "A second wave of youth demonstrations will sweep German cities with smaller crowds than the riot-filled weekend but will still produce police clashes and renewed calls for government action on housing and prices.",
+        "direction": "persist",
+        "sign": "Headlines will report on a new round of marches in multiple cities, a government cost-of-living response package, and fresh confrontations between protesters and police in the streets."
+      },
+      "second": {
+        "subject": "Winter gas-storage shortfall",
+        "expected": "Germany's gas-storage levels will drop further as the cold snap deepens, pushing the pricing dispute with Italy into a broader European argument over winter energy security and emergency coordination.",
+        "direction": "escalate",
+        "sign": "Headlines will report on falling storage levels, a new round of blame between Berlin and Rome, and calls for emergency EU-level gas coordination as winter approaches."
+      },
+      "third": {
+        "subject": "Steinmeier succession race",
+        "expected": "German parties will move to name specific candidates for the presidency, sharpening the public debate over whether the next head of state will be a woman as the nomination process accelerates.",
+        "direction": "escalate",
+        "sign": "Headlines will name specific politicians as prospective candidates and report on party consultations and internal debates about the presidential nomination process."
+      },
+      "fade_call": {
+        "subject": "Eagle's Nest fire",
+        "expected": "fade",
+        "sign": "Headlines will shift from the fire itself to details of the investigation or a restoration plan, with the event no longer dominating the news cycle."
+      },
+      "surprise": {
+        "subject": "Coalition split over protest response",
+        "expected": "A visible split will emerge within the Merz government over how to respond to the Gen Z protests, with the junior coalition partner pushing for immediate economic concessions that Merz resists, threatening the stability of the governing alliance.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Germany's Gen Z cost-of-living protests will persist as a dominant story, with a second wave of demonstrations testing whether the government's emergency response can calm the streets. The winter gas-storage shortfall will deepen as the cold snap intensifies, and the pricing dispute with Italy will widen into a broader European argument over energy security. The race to succeed President Steinmeier will accelerate as parties begin naming candidates and the push for a female head of state gains traction. The Eagle's Nest fire will fade from the headlines as the investigation moves forward. A visible split within the Merz coalition over how to respond to the youth unrest will add a new layer of political tension. Economic indicators will show a mixed picture, with business confidence holding but consumer sentiment softening further as inflation concerns linger.",
+      "generated_at": "2026-11-02T05:04:37+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Gen Z cost-of-living protests",
+        "expected": "The government will announce a package of housing and wage concessions in direct response to the riots, forcing the coalition to split over the cost of the measures.",
+        "direction": "escalate",
+        "sign": "Headlines report a government emergency meeting, a named minister presenting new youth housing or wage measures, or a second march being called across multiple German cities"
+      },
+      "second": {
+        "subject": "Winter gas storage crisis",
+        "expected": "The government will activate emergency gas-allocation rules as storage levels fall further, and the resulting price spike will draw a formal complaint from Italy at the EU level.",
+        "direction": "escalate",
+        "sign": "Headlines cite a government emergency decree on gas distribution, a formal EU-level complaint from Italy, or a named energy minister announcing rationing measures for households"
+      },
+      "third": {
+        "subject": "Steinmeier succession debate",
+        "expected": "The governing coalition will hold a formal meeting to shortlist candidates for the presidency, with Merkel's call for a female head of state pushing the debate into the centre of party politics.",
+        "direction": "escalate",
+        "sign": "Headlines name specific candidates being discussed by named parties, report on a coalition meeting about the succession, or detail a formal timeline for the presidential election"
+      },
+      "fade_call": {
+        "subject": "Wolf attack at German zoo",
+        "expected": "fade",
+        "sign": "Headlines shift from the dramatic attack to the girl's recovery or the zoo's safety review, with no new incidents reported"
+      },
+      "surprise": {
+        "subject": "Audi and German auto-sector political crisis",
+        "expected": "The Audi CEO's Trump rally appearance will trigger a broader coalition rupture as the union and opposition parties link it to the Volkswagen losses and the Made in Europe car deal, forcing a cabinet vote on the sector's US strategy.",
+        "chance": "medium"
+      },
+      "summary": "Next week in Germany will be defined by the political fallout from the Gen Z cost-of-living riots that swept more than thirty cities. The government will be forced to respond with concrete policy measures, and the coalition is likely to split over how much to concede on housing and wages. The winter gas-storage crisis will deepen as cold weather drives consumption higher and storage levels fall, prompting emergency allocation rules and a sharper dispute with Italy over pricing. The search for Steinmeier's successor will move from abstract debate to concrete candidate discussions, with Merkel's call for a female president adding pressure on the parties to name names. The Eagle's Nest fire and the zoo wolf attack will recede from the headlines. A medium-probability wildcard is the Audi-CEO controversy expanding into a broader auto-sector political crisis that tests the coalition's unity on trade.",
+      "generated_at": "2026-11-02T05:18:22+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "Gen Z cost-of-living protests",
+        "expected": "A second wave of Gen Z demonstrations will erupt in German cities with more violent police clashes than the initial marches.",
+        "direction": "escalate",
+        "sign": "Headlines will describe a new round of violent Gen Z protests in multiple German cities with police responding to unrest."
+      },
+      "second": {
+        "subject": "Winter gas storage shortfall",
+        "expected": "The German government will announce an emergency energy price intervention as gas storage levels fall further below the winter target.",
+        "direction": "persist",
+        "sign": "Headlines will report a government energy price measure in response to the storage shortfall and the Italy dispute."
+      },
+      "third": {
+        "subject": "Steinmeier succession race",
+        "expected": "German parties will launch formal candidate selection for the presidency following Merkel's call for the country's first female head of state.",
+        "direction": "escalate",
+        "sign": "Headlines will name party candidates for the presidency and describe internal selection debates."
+      },
+      "fade_call": {
+        "subject": "Eagle's Nest fire",
+        "expected": "fade",
+        "sign": "Headlines will shift focus to the detained suspect and the investigation into the Eagle's Nest fire."
+      },
+      "surprise": {
+        "subject": "Eagle's Nest fire ruled deliberate",
+        "expected": "The investigation will conclude the Eagle's Nest blaze was deliberate arson, the detained suspect will face formal charges, and the site's management will come under political scrutiny.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, Gen Z cost-of-living protests will dominate German news as a second wave of marches hits multiple cities with more violent police clashes than the initial demonstrations, prompting the government to announce a targeted relief measure. The winter gas storage shortfall will persist as a central pressure, with the government likely to introduce an emergency price intervention and the dispute with Italy escalating to a formal EU-level complaint. The race to replace President Steinmeier will gain momentum as parties begin formal candidate selection, with women emerging as frontrunners after Merkel's call for Germany's first female head of state. The Eagle's Nest fire will shift from headlines to investigation details and questions about the site's future. The Audi-union controversy will produce further friction around the company's US deal, and economic data will paint a mixed picture of resilient business sentiment against softening consumer confidence.",
+      "generated_at": "2026-11-02T05:42:08+02:00"
+    }
+  },
+  "display": {
+    "headline": "Germany's Youth Riots Force Concessions as Winter Gas Crisis Deepens",
+    "emojis": [
+      "✊",
+      "⛽",
+      "👑"
+    ],
+    "emoji_reasons": [
+      "The Gen Z cost-of-living protests and riots are the dominant story and will drive next week's political response",
+      "The winter gas-storage crisis at record lows is the second major story and will escalate with the cold snap",
+      "The Steinmeier succession debate, amplified by Merkel's call for a female president, will move to the centre of party politics"
+    ],
+    "tldr": "Germany's youth riots will force a government policy response and coalition split, while the gas-storage crisis deepens into an emergency with a sharper Italy dispute. The Steinmeier succession will shift to concrete candidate discussions.",
+    "eli5": "Imagine a bunch of teenagers and young adults are really angry because everything costs too much to buy. They marched in over thirty German cities and some of the marches turned into big fights with police and shops got broken into. Next week, the government will have to figure out what to do about it, and the politicians will argue about whose fault it is and what to fix. This is the Gen Z cost-of-living protest story.\n\nAt the same time, Germany didn't fill up its gas tanks before winter, and it's getting cold. That means gas prices are going up and Germany is arguing with Italy about who's to blame. The government might have to start rationing gas for homes. This is the winter gas-storage crisis.\n\nOne surprise that could happen is that the boss of Audi got really angry at for going to a rally with the US president, and that could blow up into a bigger fight about how Germany's car companies should deal with America."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The AfD email hack is listed under 'No longer in the headlines' and no headline this week references the investigation or a leadership challenge involving Weidel.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headline [91] reports two arrests for planned sabotage attacks for Russia, matching the 'second arrest' sign, but the story dropped from dominant to occasional prominence and no explicit counter-sabotage military measures were announced.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headlines [36], [50], [83], and [105] report Q3 growth of 0.2 percent beating expectations and business sentiment rising for a sixth month, keeping the subject present but contradicting the expected stagnation and government scramble.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "not_seen",
+            "evidence": "Headlines [11], [51], and [58] all still report the Eagle's Nest fire devastation and suspect detention in the same dramatic framing rather than routine court proceedings, so the story did not fade.",
+            "forecast_direction": "fade",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline or reality item mentions a CDU-SPD working hours dispute or a threat to block the 2027 budget.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's lead story, the AfD email hack, faded entirely from the headlines, and its fade call on the Eagle's Nest fire was wrong because the story persisted with the same dramatic framing. The Russian espionage and economic subjects were directionally present but the specific trajectories (counter-sabotage measures, confirmed stagnation) did not materialize as described. The main thesis was wrong rather than merely early: it centred the week on a political scandal that disappeared, while the actual dominant story was the Gen Z cost-of-living protests that the bulletin did not mention at all.",
+        "S": 6
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The AfD email hack is listed under 'No longer in the headlines' and no headline this week reports on the leak or the party's internal investigation.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headline [91] reports two arrests for sabotage planning for Russia, keeping the subject present, but it dropped from dominant-escalating to occasional-continuing, a clear de-escalation in prominence.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headlines [36], [49], [67], [83], [99], and [105] keep economic data and sentiment in the news, but the narrative shifted from stagnation to modest positive growth and rising business confidence, only partly matching the 'stagnation and investor confidence' framing.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The AfD email hack, which the fade call predicted would persist, is listed under 'No longer in the headlines' with no corresponding headlines this week.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The forecast predicted 'no surprise, more of the same,' yet multiple unexpected stories emerged including Gen Z riots [3,4,13,20], the Audi-CEO-at-Trump-rally controversy [54,59,100], and the Steinmeier succession debate [38,82,90].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's blanket 'persist' calls on all three leads were wrong on at least two: the AfD story faded and the Russian espionage story de-escalated in prominence. Its 'no surprise' call was contradicted by the eruption of Gen Z protests into the dominant story and several other new items. The main thesis was wrong: the news cycle shifted dramatically toward social protest and Merz's Asia tour rather than holding steady on the previous week's three pillars.",
+        "S": 4
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The AfD email hack is listed under 'No longer in the headlines' and no headline this week reports investigation findings, a leadership challenge, or press revelations about the party leader.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headline [91] reports two arrests for planned sabotage attacks for Russia, matching the 'second arrest' sign, but the story dropped from dominant to occasional and no formal parliamentary intelligence briefing or multi-city spy-network confirmation appeared.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Headline [86] reports Germany warning of difficulty blocking property seizure plans and [9] shows Vonovia shares falling, but no formal cabinet decision, landlord walkout, or investment withdrawal occurred, and the story dropped from regular-escalating to marginal.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "not_seen",
+            "evidence": "Headlines [11], [51], and [58] continue to report the Eagle's Nest fire and suspect detention in the same dramatic framing rather than shifting to routine court proceedings, so the story did not fade.",
+            "forecast_direction": "fade",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "Headlines [3,4,5,6,7,12,13,15,18,20,22,23,26,28,30,33,39,88] report massive Gen Z cost-of-living protests in over 30 German cities escalating into riots and police clashes, becoming the dominant story of the week.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin's strongest call was the medium-probability surprise on youth mass protests, which materialised as the dominant story of the week. However, its lead (AfD email hack) faded entirely and its fade call (Eagle's Nest) was wrong because the story persisted with the same dramatic framing. The main thesis was partially early rather than wholly wrong: the Russian arrests and the youth protests both appeared, but the wrong story was placed at the centre, and the apartment-seizure escalation it predicted did not materialise.",
+        "S": 2
+      }
+    },
+    "S": [
+      {
+        "plain": 6,
+        "persistence": 4,
+        "crystal": 2
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 6, persistence 4."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 6, crystal 2."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": -1.0,
+          "reason": "Computed from the scores: persistence 4, crystal 2."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": 1.0,
+      "plain_vs_crystal": 1.0,
+      "persistence_vs_crystal": 1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": -1.0,
+    "u": -1.0,
+    "first_listed_wins": 3,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nGermany's week was defined by a major political scandal and layered security concerns. Hacked emails from the far-right AfD party were released, exposing internal communications and rocking party leadership, while the AfD launched an investigation into the breach. Simultaneously, a Ukrainian man was arrested in northeastern Germany on suspicion of spying for Russia, prompting Chancellor Merz to warn that Germany faces \"intensive\" Russian espionage and that Europe is underestimating the threat. A fire devastated Hitler's Eagle's Nest retreat in the Bavarian Alps, with a suspect detained. On the economic front, investor confidence fell for the first time in six months, the Bundesbank indicated the economy likely stagnated in the third quarter, and industry has lost nearly half a million jobs since 2019. The 2026 Invest in Germany Summit attracted pledges including Amazon's $17 billion expansion, but the event was shadowed by controversy over Berlin's plan to seize landlords' apartments, which\n- AfD email hack and leak (dominant, new): Hackers released a large batch of AfD party emails, revealing internal communications about the party leader, and the party launched an investigation into the cyberattack.\n- Russian espionage threat (dominant, escalating): A Ukrainian man was arrested in northeastern Germany on suspicion of spying for Russia, and Chancellor Merz warned that Germany faces \"intensive\" espionage and that Europe underestimates the Russian threat.\n- Economic stagnation and investor confidence (dominant, continuing): The Bundesbank indicated the economy likely stagnated in Q3, ZEW investor morale fell more than expected, and Ifo reported industry has lost nearly half a million jobs since 2019.\n- Invest in Germany Summit and investment drive (regular, continuing): The 2026 Invest in Germany Summit attracted pledges including Amazon's $17 billion expansion and Merz's pitch for defence, AI, and chip investment, but far-right election gains and the Berlin apartment-seizure plan cast a shadow over investor confidence.\n- Berlin apartment seizure plan (regular, escalating): Europe's largest landlord warned of an €8 billion hit from Berlin's plan to seize landlords' apartments, and Merz himself warned over the scheme, deepening tensions between the coalition and the property sector.\n- Eagle's Nest fire (regular, new): A fire devastated Hitler's Eagle's Nest retreat in the Bavarian Alps, and a suspect was detained by police.\n- Leipzig airport security incident (regular, new): Two men turned themselves in after smashing their car into a fence at Leipzig/Halle airport, and police opened a security investigation into the breach.\n- Iran plot against German Jewish leaders (occasional, new): Germany summoned Iran's envoy after Tehran was linked to a plot to kill leaders of German Jewish community groups, and an elderly man was detained at an Elbit Systems protest.\n- Gas and energy supply (regular, continuing): German gas use hit a nine-month high as cold weather boosted demand, the government secured extra winter supplies as storage levels lagged, and Berlin moved to prevent further refinery closures.\n- AI and tech investment push (regular, continuing): Chancellor Merz urged businesses to embrace AI ahead of a new Nvidia investment, idle nuclear plants eyed conversion to AI data centers, and SAP hit a €10 billion quarterly revenue milestone.\n- Youth protest plans (occasional, new): German youth groups announced plans for France-style mass protests, signalling growing social pressure on the government.\n- Bayern Munich Kompany hospitalisation (occasional, new): Bayern Munich coach Vincent Kompany was hospitalised after a medical episode, and his absence kept him in the spotlight during a match in Fribourg.\n\nRound 2026-10-17:\nThe dominant story of the week was France and Germany sealing a landmark deal to slow Europe's shift to all-electric cars, effectively scrapping the 2035 climate-neutrality target for vehicles. The two countries agreed to allow the UK to join the EU car policy if it aligns on China tariffs, and the pact drew immediate reactions from motorists and industry. In parallel, the long-awaited Nord Stream sabotage trial opened in a German court, with a Ukrainian ex-officer facing a war-crime charge and the defense moving to dismiss the case. Germany also pushed the EU toward imposing caps on more Chinese imports, a hardening trade line that risks Beijing's ire. On the budget side, the finance minister announced a €50 million contribution to Ukraine and sought a debt-brake exemption to sustain that aid. UniCredit received ECB green light to take control of Commerzbank, a major banking reshuffle. Berlin planned to unveil an\n- France-Germany car deal (dominant, new): The two countries formally agreed to slow the shift to all-electric vehicles, scrap the 2035 climate target for cars, and conditionally allow UK entry if it aligns on China tariffs.\n- Nord Stream trial (dominant, continuing): The trial of a Ukrainian ex-officer accused of blowing up the Nord Stream pipelines opened in Germany, with the defense seeking dismissal and prosecutors pressing a war-crime charge.\n- Germany-China trade push (regular, escalating): Germany lobbied EU leaders to impose caps on more Chinese imports and pushed for tougher trade defenses amid growing pressure from Chinese competition.\n- Ukraine aid and debt brake (regular, continuing): The finance minister pledged €50 million to Ukraine and sought a debt-brake exemption, while the AfD and BSW called for an end to all aid.\n- UniCredit-Commerzbank (regular, new): UniCredit received ECB approval to take control of Commerzbank, a significant consolidation of European banking.\n- Nvidia AI deal (occasional, new): Government sources confirmed Germany planned to unveil an AI cooperation agreement with Nvidia the following week.\n- Merz and coalition pressure (regular, continuing): Chancellor Merz attacked political extremes for fueling division and vowed the government would fight on, as the AfD and BSW forged a pro-Russia alliance and Berlin's leftist parties moved closer to forming a government.\n- KNDS stake (occasional, new): Germany entered talks to buy a 50 percent stake in the European defense firm KNDS.\n- Russia in G20 (occasional, new): Germany slammed the US push to bring Russia back into the G20, signaling disagreement with the broader Western reset.\n- Energy supply concerns (occasional, continuing): German power-supplier exits raised specter of the 2022 energy crisis, while the regulator reported gas storage was low but without an immediate supply risk.\n",
+    "PREVIOUS_FORECAST": "Lead: AfD email hack fallout. Expected: The AfD's internal investigation into the cyberattack will produce its first findings, triggering leadership disputes and press revelations about the party leader's role in internal decisions. Direction: escalate. Sign: Headlines name specific revelations from the leaked emails about the party leader, report on an internal party vote or leadership challenge, or detail the investigation's first conclusions\nSecond: Russian espionage threat. Expected: German authorities will announce a second arrest or a formal intelligence briefing confirming that Russian spy networks operate across multiple German cities, prompting a parliamentary security debate. Direction: escalate. Sign: Headlines cite a new arrest, a classified briefing to parliament, or a named intelligence agency confirming multiple active Russian cells in Germany\nThird: Berlin apartment seizure and investment tension. Expected: The coalition will face a formal cabinet decision or a revised proposal on the apartment seizure plan as major landlords and investment firms escalate their warnings ahead of the next round of corporate commitments. Direction: escalate. Sign: Headlines report a coalition cabinet decision, a landlord-sector walkout, or a named company withdrawing or revising its German investment pledge\nFade call: Eagle's Nest fire. Expected: fade. Sign: Headlines shift from the dramatic fire and suspect detention to routine property-damage reporting and the suspect's court appearance with no new revelations\nSurprise (chance medium): Youth mass protests. German youth groups will hold their announced France-style mass protests in multiple cities, drawing large crowds onto the streets and forcing the government to announce a policy response.\nSummary: Next week, the aftermath of the AfD email hack will dominate German politics as the party's investigation produces its first findings and internal leadership disputes surface in the press. The Russian espionage scare will intensify, with authorities expected to announce additional arrests or a formal intelligence briefing confirming spy networks operate in multiple German cities. The tension between Berlin's apartment seizure plan and the government's investment drive will come to a head as landlords and corporate partners press for a formal decision, potentially forcing the coalition to revise or vote on the scheme. The Eagle's Nest fire story will recede to routine court reporting. A medium-probability wildcard is the youth groups' planned France-style mass protests, which if they materialize in multiple cities, will add a social-pressure layer to an already tense political week.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear (observed: faded, subject absent). The AfD email hack is listed under 'No longer in the headlines' and no headline this week reports investigation findings, a leadership challenge, or press revelations about the party leader.\n- second: did_not_appear (observed: de-escalated, subject present). Headline [91] reports two arrests for planned sabotage attacks for Russia, matching the 'second arrest' sign, but the story dropped from dominant to occasional and no formal parliamentary intelligence briefing or multi-city spy-network confirmation appeared.\n- third: did_not_appear (observed: de-escalated, subject marginal). Headline [86] reports Germany warning of difficulty blocking property seizure plans and [9] shows Vonovia shares falling, but no formal cabinet decision, landlord walkout, or investment withdrawal occurred, and the story dropped from regular-escalating to marginal.\n- fade_call: did_not_appear (observed: steady, subject present). Headlines [11], [51], and [58] continue to report the Eagle's Nest fire and suspect detention in the same dramatic framing rather than shifting to routine court proceedings, so the story did not fade.\nArcher note: The bulletin's strongest call was the medium-probability surprise on youth mass protests, which materialised as the dominant story of the week. However, its lead (AfD email hack) faded entirely and its fade call (Eagle's Nest) was wrong because the story persisted with the same dramatic framing. The main thesis was partially early rather than wholly wrong: the Russian arrests and the youth protests both appeared, but the wrong story was placed at the centre, and the apartment-seizure escalation it predicted did not materialise.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

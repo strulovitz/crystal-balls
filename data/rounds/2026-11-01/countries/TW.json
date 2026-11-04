@@ -1,0 +1,577 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "TW",
+  "name": "Taiwan",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T04:32:49+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "During the week of 24 October to 1 November 2026, Taiwan faced a multi-front set of challenges. The most prominent was renewed Chinese maritime pressure: the coast guard conducted patrols east of the island, and Taipei flagged an 'obvious' threat from a wide sweep of roughly 50 Chinese vessels in its waters. Separately, a diplomatic hiccup emerged when Pakistan briefly closed its airspace to Taiwanese airlines before abruptly reversing the decision; Taiwan's deputy foreign chief publicly addressed the dispute and Taipei suspected China's hand behind the ban. Typhoon Champi battered the island, uprooting trees, capping boats, and toppling scooters, before moving on toward China and Japan. Economically, the picture was mixed: Taiwan's AI-driven semiconductor sector extended an economic growth run unseen since 1987, and UMC approved a further $3.2 billion capacity expansion, yet global AI-selloff pressures pushed the stock market toward a correction. On the social front, tens of thousands marched at the Taiwan Pride parade, where the Taipei mayor received an angry reception following a gay-bar raid. The semiconductor industry group also voiced backing for a government review of restarting nuclear power, and Taipei rebuffed China's post-World-War-Two 'restoration' commemorations.",
+    "key_events": [
+      {
+        "event": "Taiwan flagged an 'obvious' threat from roughly 50 Chinese vessels in a wide sweep of waters east of the island.",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Pakistan briefly closed its airspace to Taiwanese flights and then reversed the decision within days, prompting a diplomatic exchange with Taipei.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Taiwan's AI-driven semiconductor sector extended an economic growth run unseen since 1987 even as global AI-selloff pressures pushed stocks toward a correction.",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "China's coast guard conducted patrols east of Taiwan and scooped up data in surrounding waters that could aid its forces, per the Wall Street Journal.",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Typhoon Champi battered Taiwan, uprooting trees, capping boats, and toppling scooters before moving toward mainland China and Japan.",
+        "date": null,
+        "domain": "environment",
+        "importance": 3
+      },
+      {
+        "event": "Tens of thousands gathered at the Taiwan Pride parade, where the Taipei mayor received an angry reception after a gay-bar raid.",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Taiwan's semiconductor industry group publicly backed a government review of restarting nuclear power.",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Taipei rebuffed China's commemorations marking the post-World-War-Two 'restoration' of the island.",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 2
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 5,
+    "domains_active": [
+      "security",
+      "economy",
+      "diplomacy",
+      "environment"
+    ],
+    "emojis": [
+      "🚢",
+      "🌀",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "Headline 17 reports 50 Chinese vessels in a wide sweep of waters east of Taiwan and headline 13 confirms coast-guard patrols, making maritime tension the week's dominant security story.",
+      "Headlines 3 and 14 describe Typhoon Champi battering Taiwan, uprooting trees and capping boats before moving on to China and Japan.",
+      "Headline 10 notes Taiwan's AI-driven sector extending a growth run unseen since 1987, while headline 23 records UMC's $3.2 billion expansion, underscoring sustained economic momentum despite market jitters."
+    ],
+    "developments": [
+      {
+        "subject": "China maritime grey zone",
+        "what_happened": "China's coast guard patrolled east of Taiwan and a sweep of roughly 50 vessels was flagged as an 'obvious' threat, while Beijing also collected data in surrounding waters that could aid its forces.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          1,
+          6,
+          13,
+          17
+        ]
+      },
+      {
+        "subject": "Pakistan airspace dispute",
+        "what_happened": "Pakistan briefly closed its airspace to Taiwanese airlines, then abruptly reversed the ban; Taipei suspected Chinese involvement and its deputy foreign chief publicly addressed the incident.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          4,
+          9,
+          18,
+          20,
+          22,
+          24
+        ]
+      },
+      {
+        "subject": "AI and semiconductor economy",
+        "what_happened": "Taiwan's AI-driven sector extended a growth run unseen since 1987 and UMC approved a $3.2 billion expansion, yet global AI-selloff pressures pushed the stock market toward a correction.",
+        "coverage": "dominant",
+        "direction": "continuing",
+        "headline_ids": [
+          5,
+          10,
+          11,
+          23,
+          26
+        ]
+      },
+      {
+        "subject": "Typhoon Champi",
+        "what_happened": "The storm battered Taiwan, uprooting trees, capping boats, and toppling scooters before moving on toward mainland China and Japan.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          3,
+          14
+        ]
+      },
+      {
+        "subject": "Taiwan Pride parade",
+        "what_happened": "Tens of thousands marched in celebration of inclusivity, but the Taipei mayor received an angry reception following a recent gay-bar raid.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          2,
+          8
+        ]
+      },
+      {
+        "subject": "Nuclear restart review",
+        "what_happened": "The semiconductor industry group publicly backed a government review of restarting nuclear power, linking energy security to the chip sector's needs.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          19
+        ]
+      },
+      {
+        "subject": "WWII 'restoration' commemorations",
+        "what_happened": "Taipei rebuffed China's commemorations marking the post-World-War-Two 'restoration' of the island, reinforcing its stance on sovereignty.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          25
+        ]
+      },
+      {
+        "subject": "Comedian attack / China dismissal",
+        "what_happened": "China dismissed Taiwan's accusations of involvement in the comedian attack, a thread carried over from the previous bulletin.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          21
+        ]
+      },
+      {
+        "subject": "AI national-security angle",
+        "what_happened": "Opinion and industry commentary framed Anthropic's upcoming IPO and Palantir's defense leadership as reinforcing Taiwan's strategic position in the AI race against China.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          11,
+          26
+        ]
+      },
+      {
+        "subject": "Pharma approval",
+        "what_happened": "HanchorBio secured Taiwan TFDA approval for HCB303 following U.S. FDA clearance, a step for the island's biotech pipeline.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          12
+        ]
+      }
+    ],
+    "gone": [
+      "TSMC construction death",
+      "Micron Taoyuan bonus dispute",
+      "Grab-Foodpanda acquisition blocked",
+      "Philippines-Taiwan undersea cables",
+      "State asset manager consolidation"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the main security, diplomatic, economic, and weather stories of the week well, though the Pakistan airspace episode and the 50-vessel sweep could benefit from more granular daily reporting."
+    },
+    "headlines_used": [
+      "Taiwan says China harassing shipping with east coast patrol",
+      "Tens of thousands gather to celebrate inclusivity at Taiwan Pride parade",
+      "Tropical Storm Champi nears China after battering Taiwan, Japan",
+      "Le Pakistan a brièvement fermé son espace aérien aux vols taïwanais, affirme Taipei",
+      "Taiwan Stocks Heads for Correction as Global AI Selloff Deepens",
+      "China Scoops Up Data That Could Aid Its Forces in Waters Around Taiwan",
+      "TAIWAN SE WEIGHTED INDEX, IXTA:TAI Interactive Charts",
+      "Taipei mayor gets angry reception at Pride after gay bar raid",
+      "Pakistan approves flights by Taiwanese airlines after reported restrictions",
+      "AI Darling Taiwan Extends Economic Growth Run Unseen Since 1987",
+      "Opinion | Anthropic’s IPO Will Be a National-Security Win for Taiwan",
+      "Beyond Conventional Anti-TIGIT: HanchorBio Secures Taiwan TFDA Approval for HCB303 Following U.S. FDA Clearance – Company Announcement - FT.com",
+      "China's coast guard conducts patrols east of Taiwan, CCTV reports",
+      "Typhoon Champi uproots trees, capsizes boat and brings down scooters in Taiwan",
+      "China Critic Tests Opposition’s Decades-Old Grip in Taipei",
+      "A fashion homecoming in Taiwan",
+      "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters",
+      "First Taiwan Aircraft Flies Over Pakistan After Permit U-Turn",
+      "Taiwan semiconductor industry group backs government review of nuclear power restart",
+      "Taiwan ‘Suspects’ China Behind Brief Pakistan Airspace Ban",
+      "China dismisses Taiwan's accusations of involvement in comedian attack",
+      "Watch Taiwan Deputy Foreign Chief Speaks About Airspace Dispute With Pakistan",
+      "Taiwan's UMC approves additional $3.2 billion for capacity expansion",
+      "Pakistan Allows Taiwan Airlines to Use Airspace in Abrupt U-Turn",
+      "Taiwan rebuffs China's commemorations for post-World War Two 'restoration' of island",
+      "Palantir’s Defense Chief Sees China Threat to Taiwan Over AI"
+    ],
+    "converted": false,
+    "relevant_headlines": 26,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "China maritime grey zone",
+        "expected": "China maritime grey zone stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about China maritime grey zone appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Pakistan airspace dispute",
+        "expected": "Pakistan airspace dispute stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Pakistan airspace dispute appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "AI and semiconductor economy",
+        "expected": "AI and semiconductor economy stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about AI and semiconductor economy appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Pakistan airspace dispute",
+        "expected": "persist",
+        "sign": "Pakistan airspace dispute is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. China maritime grey zone stays in the news at the same level. Pakistan airspace dispute stays in the news at the same level. AI and semiconductor economy stays in the news at the same level. Pakistan airspace dispute is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "China maritime grey-zone pressure",
+        "expected": "A sweep of Chinese vessels will be flagged as a navigational threat in the waters east of Taiwan during a coast guard patrol operation.",
+        "direction": "persist",
+        "sign": "A headline will pair a coast guard patrol with a flagged vessel threat in eastern waters."
+      },
+      "second": {
+        "subject": "AI semiconductor stock correction",
+        "expected": "The global AI selloff will push Taiwan's stock index into a deeper correction as semiconductor names absorb further selling pressure.",
+        "direction": "escalate",
+        "sign": "A headline will report the stock index falling further into a correction phase tied to AI sector weakness."
+      },
+      "third": {
+        "subject": "Pakistan airspace dispute",
+        "expected": "Taiwan's foreign ministry will issue a formal diplomatic note to Pakistan pressing for clarity on the brief closure and the suspected Chinese role behind it.",
+        "direction": "de-escalate",
+        "sign": "A headline will describe a formal diplomatic exchange between Taipei and Pakistan over the airspace matter."
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "Typhoon Champi will drop out of Taiwan-specific headlines as the storm moves further toward mainland China and Japan."
+      },
+      "surprise": {
+        "subject": "Nuclear power restart timeline",
+        "expected": "Taiwan's government will announce a specific review timeline for restarting nuclear reactors in response to the semiconductor industry's energy-security argument.",
+        "chance": "medium"
+      },
+      "summary": "Next week, China's maritime pressure on Taiwan will stay at the center of the story, with another coast guard patrol and a flagged vessel sweep in the eastern waters keeping the grey-zone confrontation in headlines. The AI-driven semiconductor economy will face a tougher headwind as the global selloff deepens and Taiwan's stock index slides further into correction territory, even as the underlying growth run holds. The Pakistan airspace dispute will wind down into a formal diplomatic exchange, with Taipei pressing for clarity on the brief closure and the suspected Chinese hand behind it. Typhoon Champi will drop out of Taiwan's headlines entirely as the storm moves on. The one wildcard will be the nuclear restart review: if the government responds to the semiconductor industry's call with a concrete timeline, it will inject a fresh policy story into an otherwise familiar week.",
+      "generated_at": "2026-11-02T04:14:02+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "China maritime grey zone",
+        "expected": "Taipei will issue a formal diplomatic protest specifically targeting China's data-collection activity in the waters around the island.",
+        "direction": "escalate",
+        "sign": "A headline about a new diplomatic protest over intelligence-gathering in the strait or a new large-scale vessel standoff in the surrounding waters."
+      },
+      "second": {
+        "subject": "AI selloff and stock correction",
+        "expected": "Taiwan's stock index will enter a formal correction as the global AI selloff deepens.",
+        "direction": "persist",
+        "sign": "A headline about the stock index entering a correction or a finance-ministry statement on market volatility."
+      },
+      "third": {
+        "subject": "Nuclear power restart review",
+        "expected": "The government will formally announce that it will open a review of restarting nuclear power, citing the semiconductor sector's energy needs.",
+        "direction": "escalate",
+        "sign": "A headline about the government announcing an official nuclear-restart review with a named ministry responsible."
+      },
+      "fade_call": {
+        "subject": "Typhoon Champi",
+        "expected": "fade",
+        "sign": "The typhoon drops from the headlines as it crosses into mainland China and Japan with no further island damage reports."
+      },
+      "surprise": {
+        "subject": "Pakistan airspace dispute",
+        "expected": "A second brief airspace restriction or a formal compensation demand will surface from the Pakistan incident, reopening the bilateral dispute.",
+        "chance": "medium"
+      },
+      "summary": "Next week, Taiwan's attention will split between the western Pacific and the trading floor. China's coast guard will press another round of patrols and data-gathering in the waters around the island, and Taipei will respond with a formal diplomatic protest naming the intelligence angle. On the economic front, the global AI selloff will push the stock index into a formal correction, and the finance ministry will issue a statement to steady markets even as UMC's capacity expansion keeps the semiconductor narrative alive. The government will move the nuclear-restart question from industry lobbying to an official review, citing the chip sector's power needs. The typhoon will fade as it crosses into mainland China and Japan, and the Pakistan airspace blip will either settle quietly or resurface as a small diplomatic note.",
+      "generated_at": "2026-11-02T04:32:49+02:00"
+    }
+  },
+  "display": {
+    "headline": "Vessel Standoff Looms as AI Stocks Slide",
+    "emojis": [
+      "🚢",
+      "📉",
+      "☢️"
+    ],
+    "emoji_reasons": [
+      "China's repeated vessel sweeps and coast-guard patrols dominate the maritime-pressure story.",
+      "The global AI selloff is pushing Taiwan's stock index toward a formal correction.",
+      "The semiconductor industry's push for a nuclear-restart review brings energy policy to the fore."
+    ],
+    "tldr": "Taiwan will face a new round of Chinese maritime pressure and a formal stock-market correction driven by the global AI selloff. The government may also officially open a nuclear-restart review for the chip sector.",
+    "eli5": "Taiwan is dealing with a lot of pressure from China right now. Every week, Chinese boats and coast guard ships show up in the waters around the island, and this time about fifty of them showed up at once. Taipei is calling it a real threat.\n\nThe other big story is the stock market. Taiwan makes a huge share of the world's computer chips, and AI is making those chips incredibly valuable. But right now, investors everywhere are selling AI stocks, and that is dragging Taiwan's market down toward a big drop called a correction.\n\nHere is what will probably happen next: Taipei will make a formal complaint to China about the boats and the data they are collecting. The stock market will likely drop further, and the government will say something to calm people down. The government might also officially start looking at turning nuclear power plants back on, because the chip factories need a lot of electricity.\n\nA surprise would be if the Pakistan airspace thing, where Pakistan briefly stopped Taiwanese planes from flying over, comes back as a bigger diplomatic argument between the two countries."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "plain",
+        "persistence",
+        "crystal"
+      ]
+    ],
+    "label_order": {
+      "X": "plain",
+      "Y": "persistence",
+      "Z": "crystal"
+    },
+    "per_arm": {
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Chinese vessels patrolled east of Taiwan and a sweep of 50 ships was flagged as an 'obvious' threat [1][13][17], matching the maritime-standoff trend but in eastern rather than western waters and without a formal diplomatic protest.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "TSMC construction death is listed under 'No longer in the headlines' in the reality bulletin, with no safety-inspectorate investigation or compensation announcement appearing.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "Micron Taoyuan bonus dispute is listed under 'No longer in the headlines,' with no vote, settlement, or second strike reported.",
+            "forecast_direction": "de-escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Typhoon Champi dropped from dominant to regular level [3][14] but still appeared in two headlines about ongoing damage rather than shifting to recovery costs and stock-market rebound as the sign described.",
+            "forecast_direction": "fade",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "Grab-Foodpanda is listed under 'No longer in the headlines' with no regulatory appeal or legal proceeding mentioned.",
+          "bonus": 0
+        },
+        "archer_note": "The maritime-standoff lead was the right subject but the forecast pointed to western waters and a formal diplomatic protest, while reality showed eastern patrols and an 'obvious threat' flag. Both the TSMC construction and Micron bonus items were called to persist or de-escalate but simply vanished from the headlines entirely. The main thesis of an escalating multi-front week was partially right on the maritime front but wrong on the industrial-labor stories, which faded rather than developing.",
+        "S": 2
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Typhoon Champi was dominant in the previous round but dropped to regular level this week [3][14], so it did not stay at the same level as forecast.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "China maritime grey zone remained dominant with coast guard patrols, 50-vessel sweep, and data collection [1][6][13][17], matching the 'stays at the same level' prediction.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "TSMC construction death is listed under 'No longer in the headlines,' contradicting the forecast that it would persist at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The fade call on TSMC construction death was labelled 'persist' in the bulletin, yet the story disappeared entirely from this week's headlines.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The forecast predicted 'no surprise, more of the same,' yet multiple new stories appeared including the Pakistan airspace dispute [4][9][18][20][22][24], the Pride parade [2][8], and the nuclear restart review [19].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin correctly held the China maritime story steady but got the typhoon wrong by calling it 'persist' when it de-escalated from dominant to regular. The TSMC construction story was called to persist but faded entirely, a clear miss. The main thesis of 'more of the same, nothing new' was the weakest of the three bulletins because it missed every significant new development this week.",
+        "S": 5
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "China's coast guard patrolled east and 50 vessels were flagged in a wide sweep [1][13][17], continuing the grey-zone pressure, but the specific mechanism of a formal response to the US official or a South China Sea atoll deployment did not appear.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "TSMC construction fatality is listed under 'No longer in the headlines,' with no labor-ministry findings or safety inspection order reported.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "de-escalated",
+            "form": "partly",
+            "evidence": "Typhoon Champi moved from dominant to regular as it battered Taiwan then headed toward China and Japan [3][14], matching the de-escalation direction, but the specific sign of a government damage estimate and relief package was not visible in the headlines.",
+            "forecast_direction": "de-escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Micron Taoyuan bonus dispute is listed under 'No longer in the headlines,' confirming the fade call as the story disappeared without a second walkout or signed agreement.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "Grab-Foodpanda is listed under 'No longer in the headlines' with no regulatory appeal or broader foreign-ownership review mentioned.",
+          "bonus": 0
+        },
+        "archer_note": "The maritime-escalation lead captured the right subject and the de-escalation of the typhoon was correctly called, but the specific forms (US-official response, South China Sea atoll, government damage estimate) did not materialize. The TSMC construction story was called to persist but faded completely, a notable miss. The main thesis of a multi-front structural week was broadly right on the maritime and typhoon items but blind to the Pakistan airspace dispute and the Pride parade, which dominated this round.",
+        "S": 8
+      }
+    },
+    "S": [
+      {
+        "plain": 2,
+        "persistence": 5,
+        "crystal": 8
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 1.0,
+          "reason": "Computed from the scores: plain 2, persistence 5."
+        },
+        {
+          "first": "plain",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Computed from the scores: plain 2, crystal 8."
+        },
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 1.0,
+          "reason": "Computed from the scores: persistence 5, crystal 8."
+        }
+      ]
+    ],
+    "scores": {
+      "plain_vs_persistence": -1.0,
+      "plain_vs_crystal": -2.0,
+      "persistence_vs_crystal": -1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 2.0,
+    "u": 1.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nDuring the week of October 17 to 24, 2026, Typhoon Champi, supercharged by El Niño conditions, battered Taiwan, killing one person, injuring over 500, cutting power to 56,000 households, and forcing the closure of schools, businesses, and the stock market while nearly 1,000 flights were cancelled. The storm then moved on to Japan and China. In the Strait of Taiwan and the western Pacific, China intensified what Taipei called grey zone and hybrid warfare tactics: 16 Chinese ships were driven away from Taiwan's waters, militia boats were accused of expanding battlefield preparation, and Beijing declared it was safeguarding order around a Taiwan-controlled South China Sea atoll. A US Congress-appointed official called Chinese patrols to Taiwan's east destabilising. On the industrial front, TSMC halted some construction after a mishap killed four workers, and Micron's Taoyuan plant workers rejected a proposed bonus and staged a one-day strike before management unveiled a global\n- Typhoon Champi (dominant, resolved): The El Niño-supercharged typhoon battered Taiwan, killing one, injuring over 500, cutting power to 56,000 homes, and forcing the closure of schools, businesses, the stock market, and nearly 1,000 flights before moving on to Japan and China.\n- China maritime grey zone (dominant, escalating): Taiwan accused China of driving 16 ships into its waters, using militia boats for battlefield preparation, and safeguarding order around a South China Sea atoll, while a US official called the patrols destabilising.\n- TSMC construction death (regular, new): Four construction workers were killed in a mishap at a TSMC site in Taiwan, prompting the company to pause some construction.\n- Micron Taoyuan bonus dispute (regular, continuing): Micron's Taoyuan plant workers rejected a proposed bonus, staged a one-day strike, and pushed management to announce a global profit-linked bonus plan.\n- Grab-Foodpanda acquisition blocked (regular, new): Taiwan's financial regulator blocked Grab's roughly 600 million dollar purchase of Foodpanda's and Delivery Hero's Taiwan delivery business.\n- Comedian attack indictment (occasional, new): Five people were indicted for attempting to injure a comedian known for satirising Xi Jinping and the CCP.\n- Chinese transnational repression (occasional, continuing): Taiwan's security agency flagged a rise in Chinese disinformation ahead of local elections and the government opened a probe into organised crime links to Beijing's transnational repression.\n- Philippines-Taiwan undersea cables (occasional, new): The Philippines explored deeper cooperation with Taiwan to protect undersea cables in the region.\n- Record AI-driven exports (occasional, continuing): Taiwan's September export orders hit a record value on solid AI demand, and dollar bulls looked past an AI-led drop toward a year-end rally.\n- State asset manager consolidation (occasional, new): Taiwan combined its state asset managers as part of a broader finance push.\n\nRound 2026-10-17:\nDuring this window, Taiwan's economic and technological news dominated. TSMC confirmed exploration of a $4 billion Texas complex for AI chip production in partnership with Nvidia, while the government moved to curb AI chip exports to China as part of a broader US trade deal, signaling tighter alignment with Washington on semiconductor policy. In energy diplomacy, Taiwan signaled readiness to invest $4.4 billion in an Alaska LNG pipeline project promoted by President Trump, who in turn said Taiwan would purchase 30 percent of the output. On the domestic front, the president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant, a labor dispute now in its second reporting window. Financial markets saw a Taiwan stock boom that prompted some fund managers to quit and trade their own capital, though the dollar slumped alongside the won as a chip-stock selloff dented sentiment. Taiwan\n- TSMC Texas AI investment (dominant, new): TSMC is exploring a $4 billion Texas complex for AI chip production in partnership with Nvidia, with Taiwan confirming funding.\n- AI chip export curbs to China (dominant, new): Taiwan agreed to restrict AI chip exports to China as part of a broader US trade deal, tightening semiconductor policy alignment with Washington.\n- Alaska LNG pipeline (regular, new): Taiwan signaled readiness to invest $4.4 billion in a Trump-promoted Alaska LNG pipeline, and Trump said Taiwan will buy 30 percent of the output.\n- Micron workers strike risk (regular, continuing): The president urged Micron workers and management to negotiate sincerely ahead of a possible strike at the fabrication plant.\n- Taiwan stock boom and dollar slump (regular, new): A Taiwan equity boom prompted fund managers to quit and trade their own capital, while the dollar and won slumped on a chip-stock selloff.\n- Coinbase and Kalshi blocked (occasional, new): Taiwan blocked the crypto platform Coinbase and prediction platform Kalshi over suspected election-related betting activity.\n- PharmaEssentia global expansion (occasional, new): PharmaEssentia announced new drug approvals and overseas investments to broaden its global reach.\n- Shun Chinese anniversary events (occasional, new): Taiwan's government advised citizens to avoid Chinese anniversary events honoring a revolutionary hero.\n- Delta AI-era power systems (occasional, new): Delta unveiled microgrid solutions and an SST-based DC power system for the AI era at Energy Taiwan 2026.\n- AV and Thunder Tiger uncrewed systems (occasional, new): AV and Thunder Tiger signed an MOU to explore uncrewed-systems integration and co-production in Taiwan.\n",
+    "PREVIOUS_FORECAST": "Lead: China maritime grey zone escalation. Expected: Beijing will issue a formal diplomatic response to the US official's destabilising characterization and deploy additional coast guard vessels near the South China Sea atoll, deepening the confrontation in the western Pacific. Direction: escalate. Sign: Headlines reporting a new vessel standoff in the strait, a Chinese ministry statement naming the US official, or a scheduled patrol exercise in the western Pacific\nSecond: TSMC construction fatality investigation. Expected: The labor ministry will publish preliminary findings on the four-worker mishap and order a full safety inspection of the paused construction site. Direction: persist. Sign: Headlines naming the cause of the construction accident, a government inspection order at the site, or a union demand for accountability\nThird: Typhoon recovery and damage assessment. Expected: The government will announce the official cost of the typhoon damage and a relief package for affected households while airlines and the stock exchange report their losses from the island-wide shutdown. Direction: de-escalate. Sign: Headlines reporting the government's damage estimate, a relief measure for cut-off households, or airline and market loss figures from the storm\nFade call: Micron Taoyuan bonus dispute. Expected: fade. Sign: The Micron dispute drops from the headlines unless a second walkout or a formal signed agreement with revised pay terms appears\nSurprise (chance medium): Grab-Foodpanda regulatory appeal. The blocked delivery platform acquisition will trigger a formal regulatory appeal and a broader review of foreign ownership rules for Taiwan's food delivery market.\nSummary: Next week, Taiwan's focus shifts from the typhoon aftermath to the structural pressures already building. The government will publish the official damage cost from Typhoon Champi and announce relief for affected households, while airlines and the stock exchange tally their losses from the island-wide shutdown. In the western Pacific, Beijing will respond to the US official's destabilising characterization with additional coast guard deployments, and a new vessel standoff will test the grey zone boundary. The TSMC construction fatality will move from shock to investigation, with the labor ministry ordering a safety inspection and a union pushing for accountability. The Micron bonus dispute will largely settle as the new profit-linked plan takes effect. Export data will keep pointing to strong AI demand, and the state asset manager consolidation will enter its implementation phase.\n",
+    "JUDGE_NOTES": "- lead: true_in_direction (observed: steady, subject dominant). China's coast guard patrolled east and 50 vessels were flagged in a wide sweep [1][13][17], continuing the grey-zone pressure, but the specific mechanism of a formal response to the US official or a South China Sea atoll deployment did not appear.\n- second: did_not_appear (observed: faded, subject absent). TSMC construction fatality is listed under 'No longer in the headlines,' with no labor-ministry findings or safety inspection order reported.\n- third: came_true (observed: de-escalated, subject present). Typhoon Champi moved from dominant to regular as it battered Taiwan then headed toward China and Japan [3][14], matching the de-escalation direction, but the specific sign of a government damage estimate and relief package was not visible in the headlines.\n- fade_call: came_true (observed: faded, subject absent). Micron Taoyuan bonus dispute is listed under 'No longer in the headlines,' confirming the fade call as the story disappeared without a second walkout or signed agreement.\nArcher note: The maritime-escalation lead captured the right subject and the de-escalation of the typhoon was correctly called, but the specific forms (US-official response, South China Sea atoll, government damage estimate) did not materialize. The TSMC construction story was called to persist but faded completely, a notable miss. The main thesis of a multi-front structural week was broadly right on the maritime and typhoon items but blind to the Pakistan airspace dispute and the Pride parade, which dominated this round.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

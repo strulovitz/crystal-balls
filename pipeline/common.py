@@ -112,6 +112,8 @@ def find_previous_round(round_id, rounds_dir=None):
             continue
         if data.get("status") == "complete" and _covers_all_countries(data):
             candidates.append(d.name)
+        elif data.get("status") == "text-complete":   # Bible 13.22: a finished round of the text-only method
+            candidates.append(d.name)
     if not candidates:
         return None
     return max(candidates)

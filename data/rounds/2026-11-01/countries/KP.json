@@ -1,0 +1,666 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "KP",
+  "name": "North Korea",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-01T23:36:00+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "This week was dominated by the FBI's formal attribution of the record $6.3 billion Binance cryptocurrency heist to North Korean hackers, the largest crypto theft in history. Binance suspended trading, promised to cover customer losses, and began recovery efforts, while the Trump administration said the US was examining the link. On the diplomatic front, Kim Jong Un made a surprise state visit to China, crossing a newly opened border bridge in a visible display of warming ties, and attended a drone exhibition where he called for absolute drone superiority and greater use of military AI. Tensions with South Korea escalated sharply as Pyongyang fired roughly ten ballistic missiles toward the Sea of Japan, denounced joint US-South Korean air defense drills, and told the UN that Seoul fabricated a recent landmine blast near the border. A Swiss foreign minister made a rare visit to discuss security and political ties. Reports also highlighted the expanding pipeline of North Korean workers being sent to Russian factories, and Pyongyang publicly dismissed sanctions as unable to deny its status as a nuclear-armed state.",
+    "key_events": [
+      {
+        "event": "FBI formally blames North Korean hackers for the $6.3 billion Binance cryptocurrency theft, the largest crypto heist in history.",
+        "date": "2026-10-28",
+        "domain": "technology",
+        "importance": 5
+      },
+      {
+        "event": "Kim Jong Un makes a surprise state visit to China, crossing a newly opened border bridge and attending a war memorial.",
+        "date": "2026-10-29",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "North Korea fires approximately ten ballistic missiles toward the Sea of Japan amid rising border tensions with South Korea.",
+        "date": "2026-10-30",
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Kim Jong Un attends a drone exhibition and calls for absolute drone superiority and expanded military AI use.",
+        "date": "2026-10-27",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Swiss foreign minister makes a rare visit to North Korea to discuss security and political ties.",
+        "date": "2026-10-31",
+        "domain": "diplomacy",
+        "importance": 3
+      },
+      {
+        "event": "North Korea tells the UN that Seoul fabricated a recent landmine blast near the border, escalating the dispute.",
+        "date": "2026-10-30",
+        "domain": "security",
+        "importance": 3
+      },
+      {
+        "event": "Reports confirm an expanding network sending North Korean workers to Russian factories, with Moscow and Pyongyang backing the arrangement.",
+        "date": "2026-10-29",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "North Korea publicly dismisses sanctions as unable to deny its status as a nuclear-armed state.",
+        "date": "2026-10-31",
+        "domain": "security",
+        "importance": 2
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 7,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "technology",
+      "economy"
+    ],
+    "emojis": [
+      "🕵️",
+      "🛫",
+      "🚀"
+    ],
+    "emoji_reasons": [
+      "The FBI's attribution of the record $6.3 billion Binance hack to North Korean hackers is the dominant story of the week (headlines 1-4, 6-11, 15-16, 18-19, 23, 25, 27, 29, 36, 41, 46, 54).",
+      "Kim Jong Un's surprise state visit to China via a newly opened border bridge signals warming bilateral ties (headlines 14, 20, 26, 34, 38, 43, 53, 59, 64).",
+      "North Korea fired roughly ten ballistic missiles toward the Sea of Japan days after Kim's China trip, heightening regional tensions (headlines 24, 37, 42, 44, 52, 55, 58)."
+    ],
+    "developments": [
+      {
+        "subject": "Binance hack attribution",
+        "what_happened": "The FBI and blockchain analysis firm TRM formally blamed North Korean hackers for the $6.3 billion Binance theft, the largest crypto heist in history, while Binance suspended trading and promised to cover customer losses.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          15,
+          16,
+          18,
+          19,
+          23,
+          25,
+          27,
+          29,
+          36,
+          41,
+          46,
+          54
+        ]
+      },
+      {
+        "subject": "Kim China bridge visit",
+        "what_happened": "Kim Jong Un made a surprise trip to China, crossing a newly opened border bridge, visiting a war memorial, and returning home in a display of warming bilateral relations.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          14,
+          20,
+          26,
+          34,
+          38,
+          43,
+          53,
+          59,
+          64
+        ]
+      },
+      {
+        "subject": "Missile tests and South Korea tensions",
+        "what_happened": "North Korea fired approximately ten ballistic missiles toward the Sea of Japan, denounced US-South Korean air defense drills, and pointed artillery south as border friction intensified.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          24,
+          37,
+          42,
+          44,
+          45,
+          51,
+          52,
+          55,
+          58,
+          61,
+          62
+        ]
+      },
+      {
+        "subject": "Drone and military AI push",
+        "what_happened": "Kim Jong Un attended a drone exhibition, called for absolute drone superiority and expanded military AI use, and state media reported defence research institutes tested a major weapon system.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          12,
+          13,
+          28,
+          32,
+          48
+        ]
+      },
+      {
+        "subject": "Landmine blast dispute",
+        "what_happened": "North Korea told the UN that Seoul fabricated a recent landmine blast near the border, and South Korea vowed a firm response to border breaches.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          44,
+          50,
+          51,
+          62
+        ]
+      },
+      {
+        "subject": "Swiss foreign minister visit",
+        "what_happened": "The Swiss foreign minister made a rare visit to North Korea to discuss security issues and political ties.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          39,
+          40,
+          63
+        ]
+      },
+      {
+        "subject": "North Korean workers in Russia",
+        "what_happened": "Reports confirmed an expanding network, backed by Moscow and Pyongyang, sending North Korean workers to Russian factories, with some described as forced labour.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          31,
+          47,
+          60
+        ]
+      },
+      {
+        "subject": "Sanctions and nuclear status",
+        "what_happened": "North Korea publicly dismissed sanctions as unable to deny its nuclear-armed status while the US, South Korea, and Japan reiterated calls for complete denuclearisation.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          22,
+          33
+        ]
+      },
+      {
+        "subject": "Trump-Kim talks speculation",
+        "what_happened": "Commentary and reporting explored whether Trump-Kim talks might happen soon, with Seoul expressing concern about being sidelined as the US reaches out to Pyongyang.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          17,
+          35
+        ]
+      },
+      {
+        "subject": "Germany-South Korea security partnership",
+        "what_happened": "Germany and South Korea deepened their security partnership amid shared concerns about Russia and North Korea, with Chancellor Merz calling North Korea a threat to Europe's freedom.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          49,
+          56
+        ]
+      },
+      {
+        "subject": "Succession and next generation",
+        "what_happened": "Analysts and state media raised questions about North Korea's readiness for life after Kim Jong Un and the role of propaganda in grooming the next generation.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          30,
+          57
+        ]
+      }
+    ],
+    "gone": [
+      "Border loudspeaker and weapon threats",
+      "Seoul proposes military talks",
+      "Kim death and coma rumors",
+      "DDoS cyberattack on NK internet",
+      "Military revolution call",
+      "Humanitarian reflection",
+      "Satellite images of summer retreat"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines cover the major diplomatic, military, and cyber stories of the week well, with multiple sources confirming each key event, though some thinner angles like domestic economy and society are underrepresented."
+    },
+    "headlines_used": [
+      "FBI links North Korea to theft of $6 billion from Binance",
+      "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+      "FBI says North Korea behind $6 billion crypto theft from Binance",
+      "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "Kim Jong Un’s new drone war machine",
+      "FBI blames North Korea for $6 billion Binance Heist — Biggest cryptocurrency theft in history",
+      "Piratage de cryptomonnaies chez Binance: reprise des retraits, le FBI accuse la Corée du Nord",
+      "FBI Blames North Korea for $6 Billion Binance Crypto Hack",
+      "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea",
+      "FBI blames North Korean group for $6.3bn Binance cyber heist",
+      "FBI blames North Korea for record $6.3bn crypto heist from Binance",
+      "North Korea says defence research institutes tested major weapon system",
+      "Kim Jong Un attends a North Korean drone exhibition and calls for boosting the technology",
+      "North Korea's Kim returns home after visit to Chinese border city",
+      "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "Binance crypto hack: North Korea suspected to be behind biggest-ever heist | CNN Business",
+      "North Korea: Will Trump-Kim talks happen anytime soon?",
+      "Le FBI accuse la Corée du Nord du \"casse du siècle\" chez Binance",
+      "Trump Says US Looking at Whether Binance Hack Was By North Korea",
+      "Kim Jong Un Makes Surprise Trip to China, Crosses New Bridge",
+      "How North Korea became a hacking superpower",
+      "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
+      "Blockchain analysis firm TRM says North Korea behind Binance crypto theft",
+      "North Korea fires missile barrage toward the sea as tensions with South rise",
+      "North Korea: Binance na-agba mbọ inweghachite ego Crypto ha ruru ijeri dọla 6.3 e zuuru",
+      "Kim Jong Un crosses new bridge connecting North Korea and China",
+      "Cryptocurrency exchange Binance suspends trading after suspected hack linked to North Korea",
+      "La Corée du Nord teste des drones d'attaque, Kim veut la \"supériorité absolue\"",
+      "Binance Heist Shows Power of Suspected North Korean Hackers",
+      "Is North Korea Ready for Life After Kim Jong Un?",
+      "North Korean labour advertised online to Russian factories",
+      "Kim Jong Un calls for North Korea’s drone technology superiority",
+      "North Korea says sanctions don't work to deny its status as nuclear weapons state",
+      "North Korea’s Kim crosses new bridge into China as trade ties warm",
+      "Seoul fears being sidelined as US reaches out to North Korea",
+      "Piratage de Binance: le FBI accuse la Corée du Nord d'être derrière le vol de 6,3 milliards de dollars de cryptomonnaies",
+      "North Korea Fires Missiles Days After Kim’s China Trip",
+      "North Korea’s Kim Jong Un crosses new China border bridge to reaffirm ties",
+      "Swiss foreign minister talks political ties on rare visit to North Korea",
+      "Swiss foreign minister discusses security issues with North Korea",
+      "Binance crypto exchange suspends trades over North Korea-linked hack - DW.com",
+      "La Corée du Nord tire une dizaine de missiles balistiques vers la mer du Japon",
+      "Kim Jong Un Visits China for Second Trip in Just Over a Year",
+      "North Korea fires missiles as row over landmine blast intensifies",
+      "North Korea denounces South Korea-US air defence drills, KCNA reports",
+      "Cryptomonnaies : Binance promet de couvrir les pertes du piratage record, la Corée du Nord soupçonnée",
+      "North Koreans being recruited into forced labour in Russia, report says",
+      "North Korea's Kim urges drone dominance, greater military AI use amid border tensions",
+      "Germany news: Merz says North Korea threatening Europe's freedom",
+      "Seoul ‘fabricated’ landmine blast, North Korea tells UN in letter",
+      "South Korea to respond firmly to North Korean breaches of border, security aide says",
+      "North Korea fires several missiles amid growing tensions with South Korea",
+      "North Korea’s Kim Jong Un visits China via newly opened bridge",
+      "North Korean hackers linked to crypto thefts among world's best, experts say",
+      "North Korea fires around 10 ballistic missiles into sea - DW.com",
+      "Germany, South Korea deepen security partnership amid Russia-North Korea concerns",
+      "North Korea: Propaganda and the Next Generation - The Kim Dynasty",
+      "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says",
+      "Kim Jong Un travels to China via newly opened border bridge",
+      "Moscow, Pyongyang back network sending workers to Russian factories, report says",
+      "North Korean artillery pointed south stirs concern at border observatory",
+      "North Korea-South Korea tensions high as letters lodged with UN, howitzers spotted",
+      "Swiss foreign minister to hold talks in North Korea this week",
+      "North Korea's Kim Jong Un returns from China after war memorial visit, state media says"
+    ],
+    "converted": false,
+    "relevant_headlines": 64,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Binance hack attribution",
+        "expected": "Binance hack attribution stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Binance hack attribution appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Kim China bridge visit",
+        "expected": "Kim China bridge visit stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Kim China bridge visit appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Missile tests and South Korea tensions",
+        "expected": "Missile tests and South Korea tensions stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Missile tests and South Korea tensions appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Binance hack attribution",
+        "expected": "persist",
+        "sign": "Binance hack attribution is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Binance hack attribution stays in the news at the same level. Kim China bridge visit stays in the news at the same level. Missile tests and South Korea tensions stays in the news at the same level. Binance hack attribution is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Binance hack attribution",
+        "expected": "North Korea will issue an official statement responding to the FBI's formal attribution of the Binance crypto theft to its hackers.",
+        "direction": "persist",
+        "sign": "A headline reporting Pyongyang's official response to the US accusation of the record crypto heist"
+      },
+      "second": {
+        "subject": "South Korea border response",
+        "expected": "South Korea will carry out a new military drill or border action in direct response to the recent missile barrage and landmine dispute.",
+        "direction": "escalate",
+        "sign": "A headline describing Seoul's concrete military or diplomatic countermeasure following the missile tests"
+      },
+      "third": {
+        "subject": "Drone and military AI push",
+        "expected": "North Korea will announce or demonstrate a new drone or military AI capability following Kim Jong Un's call for absolute drone superiority.",
+        "direction": "persist",
+        "sign": "A headline reporting a new drone test or defence technology milestone from North Korean state media"
+      },
+      "fade_call": {
+        "subject": "Swiss foreign minister visit",
+        "expected": "fade",
+        "sign": "No new headline about Swiss-North Korean talks or a follow-up meeting appears"
+      },
+      "surprise": {
+        "subject": "US-North Korea direct contact over hack",
+        "expected": "The Trump administration will make a direct public statement or diplomatic overture to Pyongyang specifically over the Binance hack, bypassing South Korea.",
+        "chance": "medium"
+      },
+      "summary": "Over the coming week, the Binance hack will dominate North Korean news as Pyongyang issues its first official response to the FBI's attribution, likely a firm denial or strategic non-denial. South Korea will follow through on its promise of a firm response to the missile barrage, either through a new military drill or a pointed diplomatic statement at the UN. The drone and military AI push will produce at least one new test or announcement as North Korea works toward Kim Jong Un's goal of absolute drone superiority. The Swiss foreign minister's visit will fade from the headlines as a one-off diplomatic event. A medium-chance surprise involves the Trump administration making a direct overture to Pyongyang over the hack, potentially sidelining Seoul again and reigniting speculation about Trump-Kim talks.",
+      "generated_at": "2026-11-01T23:23:00+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "US response to Binance hack attribution",
+        "expected": "The US will issue a formal diplomatic or economic response to the FBI's attribution of the Binance crypto theft to North Korea, such as new sanctions or a public statement linking the heist to Pyongyang's cyber program.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new US action or statement specifically connecting the crypto theft to North Korea and outlining consequences for Pyongyang."
+      },
+      "second": {
+        "subject": "South Korea border and missile escalation",
+        "expected": "South Korea will take a concrete military or diplomatic step in response to North Korea's ballistic missile barrage and the disputed landmine incident, such as a new joint drill, an artillery response, or a formal UN filing.",
+        "direction": "escalate",
+        "sign": "Headlines will report a new South Korean military action or diplomatic filing at the UN directly referencing the missile tests or the border incident."
+      },
+      "third": {
+        "subject": "Drone and AI military testing",
+        "expected": "North Korea will announce or display a new drone or AI-equipped weapon system as part of Kim Jong Un's push for absolute drone superiority and expanded military AI.",
+        "direction": "persist",
+        "sign": "Headlines will report a new testing result, equipment display, or state media announcement about drone or AI military technology."
+      },
+      "fade_call": {
+        "subject": "Swiss foreign minister visit",
+        "expected": "fade",
+        "sign": "The Swiss visit will drop from active headlines, appearing only as a brief reference in broader diplomatic coverage."
+      },
+      "surprise": {
+        "subject": "ICBM or nuclear-related test",
+        "expected": "North Korea will fire an intercontinental ballistic missile or conduct a nuclear-related test as a strategic show of force in response to the US cyber attribution and border escalation.",
+        "chance": "low"
+      },
+      "summary": "Over the coming week, the formal US response to the FBI's attribution of the record Binance crypto theft to North Korean hackers will dominate coverage, with new sanctions or a diplomatic statement linking the heist to Pyongyang's cyber apparatus. Border friction with South Korea will sharpen as Seoul takes a concrete military or diplomatic step in response to the missile barrage and the disputed landmine incident, likely producing another round of UN filings and public accusations. North Korea's push for drone and AI military superiority will generate fresh testing announcements or equipment displays, reinforcing Kim Jong Un's call for absolute technological dominance. The Swiss foreign minister's rare visit will fade from active headlines after the talks conclude. A low-probability surprise would be a new intercontinental missile or nuclear-related test, which would signal Pyongyang treating the US cyber attribution as a provocation worth a strategic answer.",
+      "generated_at": "2026-11-01T23:36:00+02:00"
+    }
+  },
+  "display": {
+    "headline": "North Korea Faces US Cyber Retaliation as Border Tensions Spike",
+    "emojis": [
+      "🕵️",
+      "🚀",
+      "🤖"
+    ],
+    "emoji_reasons": [
+      "The FBI's formal attribution of the Binance heist to North Korean hackers makes cyber espionage the week's defining story.",
+      "North Korea's ballistic missile barrage and the landmine dispute with South Korea keep the border in active confrontation.",
+      "Kim Jong Un's call for absolute drone superiority and expanded military AI use will drive new testing announcements."
+    ],
+    "tldr": "The US will respond formally to the FBI's Binance hack attribution with new sanctions or diplomatic pressure on North Korea. Seoul will take a concrete military or diplomatic step over the missile barrage and landmine dispute. North Korea will showcase new drone or AI weapon systems.",
+    "eli5": "North Korea's hackers just got blamed for stealing a huge amount of money from a crypto exchange called Binance. The US government officially pointed the finger, and next week we will probably see the US do something about it — maybe new penalties or a formal letter saying this was you and here is what happens now.\n\nAt the same time, North Korea and South Korea are bickering badly at their shared border. North Korea fired a bunch of missiles into the sea and said South Korea made up a recent landmine incident. South Korea is getting ready to push back, and we will likely see a new military or diplomatic move from Seoul.\n\nOn the tech side, North Korea's leader went to a drone show and said his country needs to be the best at drones and military AI. Expect more announcements about new weapons or tests in that area.\n\nA surprise would be if North Korea fires a really big long-range missile or does a nuclear-related test, which would be a much bigger show of force than what we have seen so far."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "Border loudspeakers are listed under 'No longer in the headlines' in the reality bulletin, though border tensions escalated sharply through roughly ten ballistic missiles fired toward the Sea of Japan [24, 55, 58].",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Kim's China bridge visit remains a dominant story with multiple headlines [20, 26, 34, 38, 59, 64], and trade ties are noted as warming [34], but no specific joint diplomatic statement or trade agreement announcement is the headline.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The military modernization push continued through Kim's drone exhibition and call for absolute drone superiority [13, 28, 32, 48] plus a defence research institute weapon test [12], rather than a large-scale army exercise.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The DDoS cyberattack on North Korean websites is listed under 'No longer in the headlines' in the reality bulletin, confirming it faded from coverage as predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headline [17] asks whether Trump-Kim talks will happen anytime soon and [35] reports Seoul fears being sidelined as the US reaches out to Pyongyang, but no concrete meeting date or format was announced.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin correctly identified border escalation as the dominant trend and the China visit as a persistent thread, but it pinned the border story on loudspeakers when the escalation came through a missile barrage and landmine dispute. The military-revolution call was right in spirit but the concrete form was a drone exhibition and AI push rather than a large army exercise. The main thesis of simultaneous border escalation and China consolidation was broadly correct, merely early on the specific mechanisms.",
+        "S": 10
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "Anti-South loudspeakers are absent from this round's headlines and listed under 'No longer in the headlines,' while border tension escalated through a missile barrage [24, 55] and a landmine-blast dispute [44, 50].",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The China bridge visit is still a dominant story [20, 26, 34, 59, 64] with trade ties described as warming [34], but no specific bilateral trade agreement or economic cooperation statement is the headline.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Military modernization continued via Kim's drone exhibition and call for drone superiority [13, 28, 32, 48] and a weapon-system test [12], with artillery pointed south [61], but no specific 'new firing units' or 'new army formations' headline appeared.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Kim death and coma rumors are listed under 'No longer in the headlines' in the reality bulletin, confirming the rumor cycle quieted down as predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No headline reports North Korea publicly blaming a foreign actor for the DDoS attack; the DDoS topic itself is no longer in the headlines, and the cyber story of the week is the reverse—the FBI blaming North Korea for the Binance hack [1, 2, 10, 11].",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's three main threads (border escalation, China follow-up, military push) all pointed in the right direction, but it anchored the border story on loudspeakers that did not reappear and expected new firing units when the military news was dominated by drones and AI. The fade call on death rumors was spot-on, and the China thread was correctly identified as persistent. The main thesis was sound; the specific mechanisms were slightly off, making the forecast early rather than wrong.",
+        "S": 10
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "Kim's China bridge visit remains one of the two or three biggest stories this round, with at least eight headlines covering the trip [14, 20, 26, 34, 38, 43, 53, 59, 64], confirming it persisted at a similar volume.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Border loudspeakers specifically faded, but the broader weapon-threat dimension escalated sharply with roughly ten ballistic missiles fired [24, 55, 58], artillery pointed south [61], and a landmine-blast dispute [44, 50], pushing border tensions above the previous level.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "partly",
+            "evidence": "The specific framing of 'Seoul proposes military talks' is no longer in the headlines; Seoul's diplomatic posture shifted to vowing firm responses to border breaches [51] and fearing being sidelined as the US reaches out to Pyongyang [35].",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "dominant",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The China bridge visit is still in the headlines at a dominant level this round [20, 26, 34, 59, 64], confirming the persist call was correct.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "dominant",
+          "evidence": "The FBI's formal attribution of the $6.3 billion Binance crypto heist to North Korean hackers [1, 2, 3, 6, 10, 11] is the single dominant story of the week and was entirely absent from the previous round's context, making it a major surprise.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's 'more of the same' thesis was partially right on the China visit but wrong on the border, which escalated rather than stayed steady, and wrong on Seoul's diplomatic posture, which shifted from proposing talks to vowing firm responses. The biggest miss was calling for no surprise at all when the Binance hack became the week's defining story. The main thesis was not wrong in spirit but too conservative, underestimating both the escalation on the border and the probability of a major new story emerging.",
+        "S": 9
+      }
+    },
+    "S": [
+      {
+        "crystal": 10,
+        "plain": 10,
+        "persistence": 9
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": 0.0,
+          "reason": "Computed from the scores: crystal 10, plain 10."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": 0.0,
+          "reason": "Computed from the scores: crystal 10, persistence 9."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": 0.0,
+          "reason": "Computed from the scores: plain 10, persistence 9."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": 0.0,
+      "crystal_vs_persistence": 0.0,
+      "plain_vs_persistence": 0.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 0.0,
+    "u": 0.0,
+    "first_listed_wins": 0,
+    "first_listed_nonties": 0,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was dominated by Kim Jong Un's unannounced visit to China, where he crossed a newly inaugurated cross-border bridge into Dandong, signaling a noticeable warming of trade and diplomatic ties with Beijing. The trip reinforced a broader pattern of North Korea deepening its alliance with both China and Russia. Simultaneously, tensions with the South escalated sharply: Pyongyang ordered border troops to take 'resolute action' if Seoul threatened their safety, and Kim Yo Jong warned that anti-South propaganda loudspeakers would be operational within days. South Korea responded by proposing military talks to calm the border and vowing 'resolute punishment' if new measures were deployed. Kim also called for a 'military revolution' to strengthen army units. A separate thread saw North Korean websites suffer a DDoS cyberattack and intermittent outages, raising questions about the regime's digital defenses. Recurring rumors of Kim's death or coma prompted an official Pyongyang response, while a\n- Kim China bridge visit (dominant, new): Kim Jong Un crossed a newly inaugurated cross-border bridge into Dandong, marking a visible warming of North Korea-China trade and diplomatic relations.\n- Border loudspeaker and weapon threats (dominant, escalating): Pyongyang ordered border troops to take 'resolute action,' threatened to restart anti-South propaganda broadcasts within days, and signaled deployment of additional weapons along the DMZ.\n- Seoul proposes military talks (regular, new): South Korea offered to hold military negotiations with the North to calm rising border tensions and urged dialogue after Pyongyang's threats.\n- Kim death and coma rumors (regular, continuing): North Korea officially responded to yet another wave of rumors claiming Kim Jong Un was dead or in a coma, a recurring media cycle that re-emerged this week.\n- DDoS cyberattack on NK internet (occasional, new): Network monitoring firms reported that North Korean websites suffered a DDoS attack and intermittent outages, highlighting vulnerabilities in the regime's digital infrastructure.\n- Military revolution call (occasional, continuing): Kim Jong Un urged a 'military revolution' and called for stronger army units, signaling continued emphasis on military modernization.\n- Russian drone factory workers (occasional, new): A new report described North Korean workers at a Russian drone factory as being treated like 'slaves,' adding to scrutiny of the labor pipeline to Moscow.\n- Trump-Kim meeting speculation (occasional, new): Trump downplayed talk of a possible meeting with Kim Jong Un next month, leaving the prospect uncertain.\n- Humanitarian reflection (occasional, continuing): A humanitarian worker reflected on decades of helping North Koreans, noting that 'seeing the misery encouraged me to go on.'\n- Satellite images of summer retreat (occasional, continuing): BBC published an analysis of satellite imagery showing activity at Kim Jong Un's summer retreat, continuing interest in the leader's movements.\n\nRound 2026-10-17:\nDuring the reporting window, North Korea's most prominent development was the official opening of the New Yalu River Bridge linking the country to China, a project delayed for twelve years. State media confirmed the ceremony, and trucks bearing Chinese flags were photographed crossing into Sinuiju. Analysts noted the bridge may help Pyongyang route trade through China and partially offset sanctions pressure, though some experts cautioned that near-term volumes would remain modest. In parallel, North Korea conducted a series of submarine-launched missile tests, including an AI-equipped torpedo and two types of cruise missiles fired from a sub — the first underwater-launched missile exercises in nearly three years. State media released imagery of the launches. North Korea's missile chief publicly questioned South Korea's recent hypersonic glide vehicle test, underscoring the ongoing arms rivalry. Domestically, a report highlighted growing food shortages as drought threatened crops. Satellite imagery also offered a rare glimpse of\n- New Yalu River Bridge opens (dominant, new): China and North Korea held an opening ceremony for the long-delayed border bridge, with trucks immediately crossing into Sinuiju.\n- Submarine-launched cruise missile tests (regular, new): North Korea launched two types of cruise missiles from a submarine, marking the first such test in nearly three years.\n- AI-equipped torpedo test (regular, new): State media reported a new torpedo system with AI capabilities was successfully tested.\n- Missile chief questions SK hypersonic test (occasional, new): North Korea's missile chief publicly challenged the credibility of South Korea's recent hypersonic glide vehicle test.\n- Food shortages from drought (occasional, continuing): A report highlighted worsening food insecurity as drought conditions threatened North Korean crops.\n- Satellite images of summer retreat (occasional, new): Satellite imagery provided a rare public view of the interior of Kim Jong Un's summer compound.\n",
+    "PREVIOUS_FORECAST": "Lead: Border loudspeaker activation. Expected: North Korea will switch on its anti-South propaganda loudspeakers along the DMZ for the first time in years, triggering a formal South Korean military response. Direction: escalate. Sign: Headlines will report the live resumption of border broadcasts and Seoul's immediate verbal or military reaction to the new posture.\nSecond: China diplomatic follow-up. Expected: Beijing and Pyongyang will issue a joint diplomatic statement or trade announcement following Kim's bridge visit. Direction: persist. Sign: Headlines will feature a formal bilateral statement or trade-related announcement from both governments.\nThird: Military revolution exercise. Expected: North Korea will conduct a new large-scale military exercise or equipment display in response to Kim's call for a military revolution. Direction: escalate. Sign: Headlines will report a new military drill or equipment display framed as part of the army modernization push.\nFade call: DDoS cyberattack on NK internet. Expected: fade. Sign: No new headlines about the cyberattack or internet outages will appear in the coming week's coverage.\nSurprise (chance low): Trump-Kim meeting announcement. A concrete date or format for a Trump-Kim meeting will be announced through back channels.\nSummary: Over the coming week, the sharpest development will be North Korea's activation of anti-South propaganda loudspeakers along the DMZ, which will force South Korea into a visible military or diplomatic response and push border tensions to a new peak. The China relationship will stay in the headlines as both governments work through the diplomatic and trade implications of Kim's bridge visit, probably producing a formal joint statement. Kim's call for a military revolution will likely materialize in a new exercise or equipment display, reinforcing the image of an army in rapid modernization. The DDoS cyberattack on North Korean websites will fade from coverage as attention shifts to the border. A low-probability surprise would be a concrete Trump-Kim meeting date emerging through back channels, which would reshape the diplomatic picture overnight.\n",
+    "JUDGE_NOTES": "- lead: did_not_appear (observed: faded, subject absent). Border loudspeakers are listed under 'No longer in the headlines' in the reality bulletin, though border tensions escalated sharply through roughly ten ballistic missiles fired toward the Sea of Japan [24, 55, 58].\n- second: came_true (observed: steady, subject dominant). Kim's China bridge visit remains a dominant story with multiple headlines [20, 26, 34, 38, 59, 64], and trade ties are noted as warming [34], but no specific joint diplomatic statement or trade agreement announcement is the headline.\n- third: true_in_direction (observed: steady, subject present). The military modernization push continued through Kim's drone exhibition and call for absolute drone superiority [13, 28, 32, 48] plus a defence research institute weapon test [12], rather than a large-scale army exercise.\n- fade_call: came_true (observed: faded, subject absent). The DDoS cyberattack on North Korean websites is listed under 'No longer in the headlines' in the reality bulletin, confirming it faded from coverage as predicted.\nArcher note: The bulletin correctly identified border escalation as the dominant trend and the China visit as a persistent thread, but it pinned the border story on loudspeakers when the escalation came through a missile barrage and landmine dispute. The military-revolution call was right in spirit but the concrete form was a drone exhibition and AI push rather than a large army exercise. The main thesis of simultaneous border escalation and China consolidation was broadly correct, merely early on the specific mechanisms.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

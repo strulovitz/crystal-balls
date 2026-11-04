@@ -260,11 +260,62 @@ class Progress:
             + (f"Estimated finish {eta.strftime('%a %H:%M')}." if eta else ""))
 
 
+FIRST_WEEKLY = "2026-11-08"
+
+
+def round_complete(round_id, countries):
+    for code in countries:
+        f = load_text(round_id, code)
+        st = (f or {}).get("status", {})
+        if not f or st.get("crystal") != "done" or st.get("judge") not in ("done", "skipped"):
+            return False
+    return True
+
+
+def weekly_round_id(countries):
+    """Continue an unfinished weekly round (so a second double-click resumes it), else today's date."""
+    if DATA.exists():
+        for d in sorted((x.name for x in DATA.iterdir() if x.is_dir() and x.name >= FIRST_WEEKLY), reverse=True):
+            if not round_complete(d, countries):
+                say(f"Continuing the unfinished round {d}.")
+                return d
+    return date.today().isoformat()
+
+
+def bootstrap_round(round_id, countries, settings, skip_fetch):
+    """data/rounds/<round>/round.json and the fetched headlines, which the text steps read."""
+    from pipeline.fetch_headlines import fetch_round, compute_window
+    rd = ROOT / "data" / "rounds" / round_id
+    (rd / "headlines").mkdir(parents=True, exist_ok=True)
+    rj = rd / "round.json"
+    if not rj.exists():
+        ws, we = compute_window(round_id, settings)
+        save_json(rj, {"schema_version": 1, "round": round_id, "method": "text", "status": "running",
+                       "window_start": str(ws), "window_end": str(we), "horizon_days": int(settings.get("HORIZON_DAYS", 7)),
+                       "started_at": datetime.now().astimezone().isoformat(timespec="seconds")})
+    if not skip_fetch:
+        all_c = load_json(ROOT / "config" / "countries.json")
+        fetch_round(round_id, countries=[c for c in all_c if c["code"] in countries], settings=settings)
+
+
+def finish_round(round_id, countries):
+    rj = ROOT / "data" / "rounds" / round_id / "round.json"
+    if rj.exists() and round_complete(round_id, countries):
+        d = load_json(rj)
+        d["status"] = "text-complete"   # not "complete": the older pipeline lists those as earlier experiments
+        d["finished_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+        save_json(rj, d)
+        say(f"Round {round_id} is complete.")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--test8", action="store_true")
     ap.add_argument("--catchup", action="store_true",
                     help="13.23: all 32 countries through the three stored rounds, ending with the 11-01 crystal")
+    ap.add_argument("--weekly", action="store_true",
+                    help="a normal week: continue an unfinished round or start today's, fetch headlines, run all four steps")
+    ap.add_argument("--skip-fetch", action="store_true")
     ap.add_argument("--round")
     ap.add_argument("--only")
     ap.add_argument("--steps", help="comma-separated steps, default all that can run")
@@ -273,7 +324,13 @@ def main():
     settings = common.load_settings()
     vocabulary = load_json(ROOT / "config" / "emoji_vocabulary.json")
     countries = {c["code"]: c["name"] for c in load_json(ROOT / "config" / "countries.json")}
-    if args.catchup:
+    if args.weekly:
+        round_id = weekly_round_id(countries)
+        bootstrap_round(round_id, countries, settings, args.skip_fetch)
+        codes = args.only.split(",") if args.only else list(countries)
+        chain = sorted(d.name for d in (ROOT / "data" / "rounds").iterdir() if d.is_dir() and (d / "headlines").exists())
+        plan = [(round_id, c, s_) for c in codes for s_ in STEP_ORDER]
+    elif args.catchup:
         # Per country in dependency order, so each country's first verdict arrives as early as possible.
         # A step already done is skipped, so the eight test countries only owe their 11-01 crystal.
         CATCHUP_STEPS = {"2026-10-17": ["measurement"], "2026-10-24": ["measurement", "delta", "crystal"],
@@ -305,6 +362,8 @@ def main():
     for r, c in seen:
         steps = [s for rr, cc, s in plan if rr == r and cc == c]
         process(r, c, countries[c], steps, chain, settings, vocabulary, args.mock_llm, progress)
+    if args.weekly and not args.only:
+        finish_round(round_id, countries)
     say("Finished.")
 
 

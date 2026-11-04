@@ -1,0 +1,937 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "BR",
+  "name": "Brazil",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T08:52:56+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "done"
+  },
+  "reader": {
+    "summary": "Brazil held its presidential runoff between incumbent Luiz Inácio Lula da Silva and Flávio Bolsonaro, and Lula pulled off a stunning fourth-term comeback that shocked markets and upended regional politics. The Brazilian real plunged to its lowest level since 1999, equities crashed with some stocks sinking 50 percent, and hedge funds recorded 24 percent losses. Flávio Bolsonaro, reportedly amid corruption probes, fled Brazil via Argentina and Ecuador to land in Miami, where he declared himself Brazil's rightful leader. US President Trump called the vote a 'disgrace' and 'rigged' but approved granting Bolsonaro and his family visas. Brazil summoned Argentina's diplomat over the flight. A WhatsApp channel dubbed 'Lula's Army' was widely credited with mobilizing voters and turning the race in three weeks. Bolsonaro's party eventually accepted the result after briefly seeking annulment. Lula now faces a $1.8 trillion debt, a 9 percent interest burden, a hostile Congress, and the task of balancing fiscal discipline against popular spending demands, all while managing renewed US-Brazil tensions.",
+    "key_events": [
+      {
+        "event": "Lula wins his fourth term in a surprise runoff comeback over Flávio Bolsonaro",
+        "date": "2026-10-29",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Flávio Bolsonaro flees Brazil via Argentina and Ecuador to Miami amid corruption investigations",
+        "date": "2026-10-30",
+        "domain": "politics",
+        "importance": 5
+      },
+      {
+        "event": "Brazilian markets crash with the real hitting its lowest since 1999 and some stocks sinking 50 percent",
+        "date": "2026-10-29",
+        "domain": "economy",
+        "importance": 5
+      },
+      {
+        "event": "Trump calls the Brazil vote 'rigged' but approves granting Flávio Bolsonaro and family US visas",
+        "date": "2026-10-30",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Brazil summons Argentina's diplomat over the role of Argentine territory in Bolsonaro's escape",
+        "date": "2026-10-31",
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Flávio Bolsonaro declares himself Brazil's rightful leader from Miami, then his party accepts the result",
+        "date": "2026-10-31",
+        "domain": "politics",
+        "importance": 4
+      },
+      {
+        "event": "WhatsApp channel 'Lula's Army' credited with mobilizing voters and turning the race in three weeks",
+        "date": "2026-10-29",
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Lula faces $1.8 trillion national debt and 9 percent interest burden heading into fourth term",
+        "date": "2026-10-29",
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Lula to attend UN COP31 climate summit in Turkey as environmentalists celebrate his re-election",
+        "date": "2026-11-01",
+        "domain": "environment",
+        "importance": 3
+      }
+    ],
+    "mood": "mixed",
+    "intensity": 8,
+    "domains_active": [
+      "politics",
+      "economy",
+      "diplomacy",
+      "society"
+    ],
+    "emojis": [
+      "🗳️",
+      "📉",
+      "🎭"
+    ],
+    "emoji_reasons": [
+      "The entire window was dominated by Brazil's presidential runoff and Lula's surprise fourth-term victory (headlines 77, 99, 121, 192).",
+      "The Brazilian real plunged to its lowest since 1999 and some stocks sank 50 percent after the result (headlines 80, 120, 230).",
+      "Flávio Bolsonaro's dramatic flight to Miami and self-proclamation as Brazil's leader created a political spectacle (headlines 16, 18, 45)."
+    ],
+    "developments": [
+      {
+        "subject": "Lula's fourth-term victory",
+        "what_happened": "Lula won the presidential runoff in a stunning comeback, beating Flávio Bolsonaro and halting the region's right-wing wave.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          77,
+          99,
+          121,
+          156,
+          192,
+          234,
+          1,
+          53,
+          69,
+          164
+        ]
+      },
+      {
+        "subject": "Flávio Bolsonaro's flight to Miami",
+        "what_happened": "Bolsonaro left Brazil via Argentina and Ecuador on a privately funded jet, landing in Miami where he declared himself Brazil's rightful leader amid ongoing corruption probes.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          16,
+          17,
+          18,
+          21,
+          28,
+          32,
+          45,
+          58,
+          63,
+          95,
+          107,
+          127,
+          128,
+          163,
+          179,
+          209,
+          239
+        ]
+      },
+      {
+        "subject": "Market crash and fiscal shock",
+        "what_happened": "Brazilian stocks and the real crashed after the surprise result, with the currency hitting its lowest since 1999, some equities down 50 percent, and hedge funds losing 24 percent.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          80,
+          91,
+          120,
+          141,
+          152,
+          160,
+          207,
+          230,
+          56,
+          73,
+          155,
+          212,
+          242
+        ]
+      },
+      {
+        "subject": "Trump reaction and US-Brazil tension",
+        "what_happened": "Trump called the vote 'rigged' and a 'disgrace' but approved granting Bolsonaro US visas, reviving tensions between Washington and Brasília.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          5,
+          11,
+          29,
+          60,
+          125,
+          129,
+          136,
+          143,
+          194,
+          220,
+          246,
+          247
+        ]
+      },
+      {
+        "subject": "WhatsApp 'Lula's Army' channel",
+        "what_happened": "A grassroots WhatsApp channel was widely credited with mobilizing millions of voters and turning the race around in the final three weeks.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          55,
+          67,
+          78,
+          112,
+          161,
+          173,
+          216,
+          237
+        ]
+      },
+      {
+        "subject": "Bolsonaro's 'leader' claim and party acceptance",
+        "what_happened": "Bolsonaro declared himself Brazil's rightful leader from Miami, briefly sought annulment of the vote, then his party accepted the result after Trump's 'rigged' remark.",
+        "coverage": "regular",
+        "direction": "de-escalating",
+        "headline_ids": [
+          16,
+          34,
+          46,
+          75,
+          87,
+          133,
+          135,
+          158,
+          162,
+          189,
+          197,
+          200,
+          201,
+          206,
+          219,
+          36,
+          48
+        ]
+      },
+      {
+        "subject": "Brazil-Argentina diplomatic row",
+        "what_happened": "Brazil summoned Argentina's diplomat after Bolsonaro's flight transited Argentine territory, with the plane reportedly paid for from the US.",
+        "coverage": "regular",
+        "direction": "escalating",
+        "headline_ids": [
+          24,
+          26,
+          44,
+          49,
+          51,
+          105,
+          146,
+          31
+        ]
+      },
+      {
+        "subject": "Lula's fiscal challenges",
+        "what_happened": "Lula faces a $1.8 trillion debt, 9 percent interest burden, a hostile Congress, and pressure to balance spending with fiscal discipline shaped by the Rousseff-era collapse.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          47,
+          61,
+          68,
+          100,
+          130,
+          140,
+          142,
+          166,
+          185,
+          223,
+          243
+        ]
+      },
+      {
+        "subject": "Global reaction and BRICS ripple",
+        "what_happened": "World leaders including Germany's Merz congratulated Lula, BRICS nations celebrated, and the victory was seen as a turning point for Latin American politics.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          54,
+          122,
+          168,
+          175,
+          188,
+          204,
+          205,
+          134,
+          181
+        ]
+      },
+      {
+        "subject": "Market recovery and investor positioning",
+        "what_happened": "After the initial rout, markets recovered some ground as Brazil's finance minister vowed fiscal discipline and some investors called selling a mistake.",
+        "coverage": "occasional",
+        "direction": "de-escalating",
+        "headline_ids": [
+          23,
+          155,
+          212,
+          224,
+          243,
+          226,
+          231
+        ]
+      },
+      {
+        "subject": "Lula's fourth-term governance setup",
+        "what_happened": "Lula faces an unrestrained Supreme Court judge pushing top-court reform, a solar boom pressuring the grid, and the task of navigating a divided Congress.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          79,
+          187,
+          185,
+          193,
+          223
+        ]
+      }
+    ],
+    "gone": [
+      "Meta social media interference dispute",
+      "Poultry disease outbreak"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The 250 headlines provide exceptionally thorough coverage of the election result, Bolsonaro's flight, market reaction, and diplomatic fallout, with only minor gaps on domestic governance details and social-sector policy."
+    },
+    "headlines_used": [
+      "When buses stopped running on Brazil election day, 'Lula's Army' grabbed their car keys",
+      "Brazil",
+      "Brazil's Flavio Bolsonaro isolated, ridiculed after self-exile",
+      "Luiz Inacio Lula da Silva",
+      "Trump approved allowing Flávio Bolsonaro to enter US after Brazil election loss",
+      "Donald Trump loses allies after elections in Serbia and Brazil",
+      "Présidentielle au Brésil: Les États-Unis affirment ne pas être directement impliqués dans la fuite de Flavio Bolsonaro",
+      "France’s Woes, Brazil’s Limited Contagion Show New Emerging Era",
+      "Brazil-Exposed Companies Slide After Surprise Lula Victory",
+      "Lula’s surprise election victory sends agri-commodities tumbling",
+      "Trump says he approves of Brazil's Flavio Bolsonaro coming to U.S. following election loss",
+      "Rubio says Trump administration did not help Bolsonaro flee Brazil to US",
+      "Brazil's Lula to reap gains from Bolsonaro family flight",
+      "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+      "Thousands rally for Lula and Bolsonaro on eve of tight Brazil vote",
+      "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+      "Bolsonaro lands near Miami after fleeing Brazil",
+      "Flavio Bolsonaro lands in Miami, declares himself the 'leader' of Brazil",
+      "Flavio Bolsonaro dit avoir quitté le Brésil pour fuir une \"persécution\"",
+      "Rubio and Brazil Foreign Minister to Meet After Election Tension",
+      "How Bolsonaro Fled Brazil: Decoys, a Private Jet and a Friend in the White House",
+      "Lula, Brazil’s 81-year-old comeback kid",
+      "Santander CFO: Brazil election won't change bank's outlook",
+      "Brazil summons Argentinian diplomat over Bolsonaro’s flight to US",
+      "Trump not planning to back Bolsonaro's claim to be Brazil's leader, sources say",
+      "Brazil summons Argentina’s representative after Bolsonaro flees to the US via Argentina",
+      "Motive and Vivo Brazil Win 2026 Leading Lights Award for Network API Monetization",
+      "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "Trump: \"I Would Approve\" of Brazil's Bolsonaro Coming To U.S.",
+      "Flavio Bolsonaro flees Brazil for US amid investigation — reports",
+      "L'avion à bord duquel Bolsonaro a fui le Brésil a été payé depuis les États-Unis",
+      "Watch Bolsonaro Leaves Brazil After Rejecting Election",
+      "Opinion | To Brazil’s Victor Goes Political Revenge",
+      "Flávio Bolsonaro claims fraud in Brazil’s presidential election",
+      "Brazil’s Bolsonaro arrives in Miami after presidential election defeat: Here’s what you need to know",
+      "Flávio Bolsonaro vows to continue father’s political fight in Brazil",
+      "Brazil's Lula to attend UN COP31 climate summit in Turkey",
+      "The Bolsonaro clan is still strong in Brazilian politics despite Flávio’s defeat and flight to US",
+      "US to grant Flavio Bolsonaro visa as he flees Brazil after election loss",
+      "Global News Podcast | Bolsonaro declares himself 'Brazil's leader'",
+      "Flávio Bolsonaro says he will lead Brazil’s opposition in exile, after landing in US following election defeat",
+      "Brazil: Flavio Bolsonaro flees to US amid corruption probes",
+      "Brésil: Flavio Bolsonaro, un chef autoproclamé de l'opposition en exil en Floride déjà contesté dans son propre camp",
+      "Brazil Summons Argentine Envoy Over Role in Bolsonaro’s Escape",
+      "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+      "Brazil politicians back away from Flávio Bolsonaro’s election fraud claims",
+      "Lula’s election win leaves Brazil facing a fiscal tightrope",
+      "Flavio Bolsonaro says he may run again for Brazilian presidency",
+      "Brazil summons Argentine diplomat over role in Bolsonaro's flight to US, sources say",
+      "Brazil reelects Lula and other top photos from Latin America and the Caribbean",
+      "Plane reportedly carrying Brazil's Bolsonaro departs Ecuador",
+      "Lara Croft fans from Brazil 'love' Derby",
+      "How Lula beat Bolsonaro, broke records and halted the region’s right-wing wave",
+      "Brazil elections: Germany's Merz and other world leaders have congratulated Lula on his victory",
+      "VIDÉO. Brésil: Lula da Silva aurait-il gagné son élection grâce à WhatsApp",
+      "Hedge Funds in Brazil Reel as Losses Reach 24% After Lula Shock",
+      "U.S. to Issue Visa for Brazil’s Flávio Bolsonaro as Questions Swirl About His Location",
+      "How Flávio Bolsonaro fled Brazil",
+      "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+      "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
+      "Brazil's Lula faces spending rows as supporters oppose tougher fiscal measures",
+      "What to know about Brazil’s Bolsonaro’s departure to the US after his electoral defeat",
+      "Bolsonaro flees Brazil for US after election defeat: AFP",
+      "Learning English from the News | Lula wins Brazil election",
+      "How Brazil’s Gen Z helped elect an unlikely hero",
+      "Brazil heads to the polls for tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "VIDÉO. Brésil: Lula aurait-il gagné grâce à WhatsApp",
+      "Lula’s Fiscal Plans Shaped by Trauma of Rousseff’s Collapse",
+      "How Brazil’s Lula Pulled Off an Upset No One Saw Coming",
+      "Letter: Lula’s margin of victory is more than double Trump’s",
+      "A shock in Brazil sends stocks plunging, while neoclouds take another hit",
+      "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
+      "The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts",
+      "Ancelotti brings more young players for Brazil friendlies against Japan and Singapore",
+      "Bolsonaro claims he is Brazil's true leader after fleeing to US",
+      "Watch: Has Flávio Bolsonaro left Brazil to evade justice?",
+      "Lula secures a fourth term in historic comeback in Brazil",
+      "'L'armée de Lula': ce canal WhatsApp qui a aidé la gauche à l'emporter lors de la présidentielle au Brésil",
+      "Lula Forced Into Tricky Top Court Reform by Unrestrained Judge",
+      "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
+      "Euro falls against dollar; Brazilian real tumbles after Lula election win",
+      "Brazilians split over Flavio Bolsonaro’s exit to US",
+      "Brazil's Raizen says shareholders vote to back restructuring plan",
+      "Brazil winger Estevao was a thrilling sight at Chelsea last season. Now he barely plays",
+      "What do we know about Flávio Bolsonaro leaving Brazil?",
+      "Lula won election, but the right still has the ‘upper hand’ in Brazil, says expert",
+      "Depuis les États-Unis, Flavio Bolsonaro affirme être le \"leader\" du Brésil",
+      "Trump’s ‘Donroe Doctrine’ Gets a Reality Check in Brazil",
+      "Opinion | Markets Don’t Vote for Lula in Brazil",
+      "Halliburton Deploys ROCS Technology With Petrobras in a Deepwater Completion Operation in Brazil",
+      "Brazil ETF sinks on election results",
+      "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+      "Spanish groups lead Brazil power transmission auction, committing $1.6 billion",
+      "Defeated presidential candidate Flávio Bolsonaro and his family land in Miami after fleeing Brazil",
+      "Brazil's Bolsonaro lands in Florida after election defeat: AFP",
+      "Confusion about Flávio Bolsonaro's whereabouts after Brazil cancels his passports",
+      "Flavio Bolsonaro sous le coup de plusieurs enquêtes au Brésil",
+      "Trump Shelters Flavio Bolsonaro, Risking Tensions With Brazil",
+      "Lula Wins Fourth Term in Brazil Election Upset",
+      "Lula faces a fiscal reckoning after Brazil’s market rout",
+      "Lula wins Brazil election in historic comeback against Flávio Bolsonaro",
+      "President Lula calls Bolsonaro’s Brazil exit ‘shameful’",
+      "Bolsonaro ally blames ChatGPT for now-deleted 'president-elect of Brazil' claim",
+      "Brazil's Flávio Bolsonaro and family will get US visas after election loss, State Department says",
+      "Flavio Bolsonaro on way to Ecuador from Argentina after fleeing Brazil",
+      "Brazil voting extension didn't change election winner",
+      "Du Brésil à la Floride, la fuite spectaculaire de Flavio Bolsonaro",
+      "China’s Green Exports Enough to Offset Brazil’s Emissions, CREA Says",
+      "Opinion | Brazil Votes for More Lula",
+      "How Lula turned his election fortunes around in three weeks",
+      "Lula wins Brazil runoff after prediction markets favored Bolsonaro",
+      "The WhatsApp ‘general’ behind Lula’s election comeback in Brazil",
+      "Brazil's Petrobras makes third oil discovery in block off Amapa state",
+      "Lula questions Flávio Bolsonaro’s decision to leave Brazil",
+      "Flavio Bolsonaro headed to US after Brazil election defeat: US media",
+      "Newshour | Flavio Bolsonaro refuses to concede Brazil election",
+      "Brésil: Flavio Bolsonaro est arrivé aux États-Unis après sa défaite à la présidentielle",
+      "Why Is Flávio Bolsonaro Being Investigated in Brazil?",
+      "Opinion | The Common Ground for Lula and Trump",
+      "Brazil’s currency plunges most since 1999 after Lula’s election victory",
+      "Brazil's Lula wins presidential election in runoff vote",
+      "Lula’s victory echoes across BRICS after fears of a Bolsonaro win",
+      "Soy, rare earths and fuels: how Brazil vote impacts the global flow of resources",
+      "Defeated Brazilian presidential candidate Flávio Bolsonaro and his family land in Miami",
+      "Lula's re-election revives Brazil-US tensions",
+      "Newshour | Lula wins fourth term in Brazil",
+      "Flavio Bolsonaro est arrivé en Floride, après avoir fui le Brésil",
+      "Bolsonaro Arrives in Miami With Family After Fleeing Brazil",
+      "What Lula’s Election Victory Means for Brazil and the U.S.",
+      "Lula’s stunning comeback meets fiscal reality",
+      "Lula wins historic Brazil election as Bolsonaro reportedly refuses to concede",
+      "Bolsonaro’s party accepts Brazil election after Trump calls vote ‘rigged’",
+      "Bolsonaro's leadership claim fails to win support from allies in Brazil",
+      "Environmentalists celebrate Lula's reelection in Brazil: 'The Amazon can breathe a sigh of relief'",
+      "Brazil's Lula clinches poll victory, Bolsonaro seeks to annul election",
+      "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "Présidentielle au Brésil: Flavio Bolsonaro en fuite après sa défaite face à Lula",
+      "Brazil Exposed the Deficiencies of Prediction Markets",
+      "The Morning Risk Report: Lula Wins Fourth Term in Brazil Election Upset",
+      "After stunning victory, Lula will face a deep hangover",
+      "Brazil’s real sinks after Lula’s re-election victory",
+      "Brazil interest burden climbs to 9% of GDP, highest since 2016",
+      "Lula’s win in Brazil bucks a regional shift to the right and denies Trump a powerful ally",
+      "'I feel so happy!': Ecstasy, relief among Brazil's Lula supporters",
+      "Newshour | Last-minute extension keeps polls open in Brazil's presidential election",
+      "Bolsonaro vole vers l'Equateur depuis l'Argentine après avoir quitté le Brésil",
+      "China Refiners Tap African, Brazilian Oil as Freight Rates Fall",
+      "Lula is re-elected Brazil’s president in knife-edge vote",
+      "How did Lula beat Bolsonaro after losing Brazil’s first-round election?",
+      "China clean tech exports to cut global emissions by Brazil-sized amount in 2026",
+      "Brazilians living in the United States relieved over Lula's come-from-behind presidential victory",
+      "Brazil markets battered, tech in focus elsewhere",
+      "The Global Story | How Lula held on to Brazil",
+      "Lula réélu président au Brésil: quel avenir pour Flávio Bolsonaro désormais interdit de quitter le pays",
+      "Investors Jolted by Lula Win Seek Bottom After Brazil Rout",
+      "Update: Lula pulls off election win in Brazil",
+      "What will Lula’s fourth term mean for Brazil?",
+      "After landing in US, Flavio Bolsonaro declares himself Brazil's rightful leader",
+      "Lula is declared winner of Brazil’s election as Bolsonaro rejects results",
+      "Brazil markets battered after Lula win, AI in focus elsewhere",
+      "Brazil election: How 'Lula's Army' WhatsApp channel helped turn race around",
+      "Brésil : le parti de Flavio Bolsonaro reconnaît la victoire surprise de Lula",
+      "Bolsonaro Arrives in Miami After Fleeing Brazil, O Globo Says",
+      "FirstFT: How Lula pulled off a stunning victory",
+      "Brazil election results 2026 live - Al Jazeera",
+      "Brazil debt climbs to $1.8 trillion as interest costs surge",
+      "Lula mobilized millions to win Brazil's election, while Bolsonaro contests loss and Trump cries foul",
+      "'Historic victory': World leaders celebrate Lula's re-election",
+      "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+      "Les clés de la réélection historique de Lula au Brésil",
+      "Watch Bolsonaro Flees to Miami and the Memes Fly in Brazil",
+      "AST SpaceMobile Advances Brazil Expansion with Anatel's Approval for S-band Spectrum and Secondary Use of the 700 MHz Band, Agreements with Four Regional Operators and Planned Ground Infrastructure – Company Announcement - FT.com",
+      "How a WhatsApp channel helped Lula win Brazil’s election",
+      "Brazil's Bolsonaro, Lula face off in debate",
+      "In their words: Global leaders congratulate Trump critic Lula on reelection in Brazil",
+      "Lula savors Brazil win as Bolsonaro rejects result, markets tumble",
+      "Global News Podcast | Brazil's President Lula defeats Bolsonaro",
+      "VIDÉO. Brésil: Lula face à ses opposants",
+      "Watch Bolsonaro Arrives in Miami After Fleeing Brazil",
+      "Brazil’s Supreme Court extends voting as transport complaints mar election",
+      "Lula’s victory may be a turning point for Latin America",
+      "After landing in US, Bolsonaro says he's Brazil's rightful leader",
+      "Brazil election, Alaska’s Senate race, Texas’ Christian school program",
+      "Bolsonaro leads Lula in final Brazil election polls",
+      "Lula faces hostile Congress and divided country after Brazil election win",
+      "VIDÉO. Brésil: Lula, 4 ans de plus",
+      "Lula Feels the Heat From Brazil’s Solar Boom",
+      "World reacts to Lula’s victory in Brazil’s presidential election",
+      "Flavio Bolsonaro declares himself rightful president-elect of Brazil",
+      "Brazil’s presidential runoff between Lula and Flávio Bolsonaro, in photos",
+      "Lula, Bolsonaro strike calmer tone in final Brazil election debate",
+      "Brazil election: Lula wins fourth term in dramatic comeback over Bolsonaro",
+      "Les défis de Lula pour son quatrième mandat à la tête du Brésil",
+      "US to Give Visa to Brazilian Election Loser Bolsonaro",
+      "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
+      "Flavio Bolsonaro and family to receive US visas after leaving Brazil, State Department says",
+      "Bolsonaro calls for Brazil election results to be ‘annulled’ after loss to Lula",
+      "Brazil's Andrade returns to take vault gold at worlds",
+      "Lula da Silva : Who be 81 years old politician wey beat Flávio Bolsonaro to win historic fourth term as president for Brazil elections",
+      "Lula réélu président au Brésil: pourquoi Flavio Bolsonaro dénonce 'une magouille' et demande l'annulation de l'élection",
+      "Bolsonaro Changes Strategy, Drops Bid to Annul Brazil Election",
+      "Brazil election results 2026: Key takeaways from Lula’s historic win",
+      "Argentina sees EU soymeal opportunity as deforestation rules threaten Brazil trade",
+      "Dignatarios de todo el mundo felicitan a Lula por su reelección en Brasil",
+      "Outside Source | World leaders congratulate Lula after Brazil election win",
+      "Brésil : Lula décroche un quatrième mandat, Bolsonaro veut l'annulation du scrutin",
+      "Be-Bop-a-Lula, Brazil’s Black Monday",
+      "Lula holds off far right with victory in Brazil presidential election",
+      "Brazil's Flavio Bolsonaro arrives in US after election defeat",
+      "Brazil election: Lula supporters celebrate victory",
+      "Lula crée la surprise au Brésil, par Ali Dilem",
+      "GQG’s Jain Looks Past Lula Rout, Says Selling Brazil a ‘Mistake’",
+      "Photos: Lula supporters flood streets in celebration of historic win",
+      "Brazil Supreme Court says no search warrant issued against Senator Flavio Bolsonaro",
+      "Trump comments on Machado's return to Venezuela, Brazil presidential election, Michigan Senate race",
+      "Did a WhatsApp channel help get Lula re-elected?",
+      "Lula, l'idole de gauche qui défie les années et l'extrême droite",
+      "Brazil Probes Foreign Financing, Including Group Linked to Vance",
+      "Bolsonaro calls for Brazil election result to be annulled",
+      "Trump says he approves of Brazil's Flavio Bolsonaro coming to US",
+      "Brazil’s Lula, Bolsonaro close arguments to voters ahead of nail-biting election runoff",
+      "Fireworks heard as BBC reports Lula's victory in São Paulo",
+      "'Ce sera plus difficile pour Lula': quelles sont les marges de manœuvre du président brésilien pour son quatrième mandat?",
+      "Japanese Yen’s Role in Latin American Carry Trade Withstands Brazil Rout",
+      "Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports",
+      "European banks beat profit forecasts, Brazil overshadows Santander",
+      "Flávio Bolsonaro casts ballot in Brazil’s presidential runoff against Lula",
+      "Election victory was 'defeat of lies', says Lula",
+      "VIDÉO. Brésil : un scrutin présidentiel très serré",
+      "Brazil Markets Crater, Some Stocks Sink 50% After Lula Victory",
+      "Santander's Q3 profit jump overshadowed by Brazil weakness",
+      "Brazilian voters in Miami flock to polling station to vote in Brazil’s presidential runoff",
+      "Brazil election: Lula celebrates victory with family and allies",
+      "Lula Wins Record Fourth Term in Surprise Brazil Comeback",
+      "Bolsonaro's plane touches down in Miami after Trump offers Brazil exit",
+      "Lula votes in São Bernardo do Campo, birthplace of his political career as a union leader in the 1960s",
+      "Brazil elections: Did a WhatsApp channel help get Lula re-elected?",
+      "Milei Is Lone South American Leader Yet to Accept Lula’s Win",
+      "Flavio Bolsonaro leaves Brazil for US after election defeat, source, media say",
+      "Brazil’s Olympic skiing champion Pinheiro Braathen wins season-opening giant slalom",
+      "World Business Report | Lula's win shocks Brazil's financial markets",
+      "Lula’s Shock Win Stokes Fears Over Brazil’s Financial Fate",
+      "Brazil's markets recover some ground after selloff; minister vows fiscal discipline",
+      "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
+      "Brazil election: Voters choose between Lula and Bolsonaro's son",
+      "Trump Says Brazil Election Looked ‘Rigged’ After Lula Victory",
+      "COMMENTARY: Lula's win in Brazil deals harsh blow to Trump’s ‘Donroe Doctrine’",
+      "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil’s presidential race",
+      "Lula and Bolsonaro cast their votes",
+      "Flavio Bolsonaro misses deadline to turn in passports to Brazil police"
+    ],
+    "converted": false,
+    "relevant_headlines": 272,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Lula's fourth-term victory",
+        "expected": "Lula's fourth-term victory stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Lula's fourth-term victory appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Flávio Bolsonaro's flight to Miami",
+        "expected": "Flávio Bolsonaro's flight to Miami stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Flávio Bolsonaro's flight to Miami appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Market crash and fiscal shock",
+        "expected": "Market crash and fiscal shock stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Market crash and fiscal shock appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Lula's fourth-term victory",
+        "expected": "persist",
+        "sign": "Lula's fourth-term victory is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Lula's fourth-term victory stays in the news at the same level. Flávio Bolsonaro's flight to Miami stays in the news at the same level. Market crash and fiscal shock stays in the news at the same level. Lula's fourth-term victory is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Lula's fiscal reckoning",
+        "expected": "Lula will present a fiscal stabilization package to a hostile Congress, triggering immediate debate over spending cuts and tax policy.",
+        "direction": "escalate",
+        "sign": "Headlines will center on budget proposals, Congressional votes, and market reactions to fiscal policy signals from Brasília."
+      },
+      "second": {
+        "subject": "Bolsonaro's Miami opposition",
+        "expected": "Flávio Bolsonaro will consolidate his self-declared opposition-in-exile role from Miami, issuing statements and coordinating with allies while his corruption probes advance in Brazil.",
+        "direction": "persist",
+        "sign": "Headlines will feature Bolsonaro's public statements from Florida, reactions from his party, and updates on the corruption investigations back in Brazil."
+      },
+      "third": {
+        "subject": "US-Brazil diplomatic friction",
+        "expected": "The Trump administration and Lula's government will hold their first formal diplomatic exchange, with Rubio and Brazil's foreign minister meeting to address the election fallout and trade concerns.",
+        "direction": "escalate",
+        "sign": "Headlines will report on the meeting, statements about trade and tariffs, and whether the visa decision for Bolsonaro becomes a sticking point."
+      },
+      "fade_call": {
+        "subject": "WhatsApp 'Lula's Army' mobilization",
+        "expected": "fade",
+        "sign": "The WhatsApp channel story will drop from front pages as attention shifts to governance and the post-election political landscape."
+      },
+      "surprise": {
+        "subject": "Bolsonaro arrest warrant",
+        "expected": "A Brazilian court will issue a formal arrest warrant or asset freeze against Flávio Bolsonaro, forcing him to decide whether to return to face the probes or stay in Miami as a self-imposed exile.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Lula will shift from election victory to governing, presenting a fiscal stabilization plan to a Congress that resists his spending priorities. The debt burden and interest costs will frame every policy decision, and initial budget signals will test how much popular spending he can deliver. Flávio Bolsonaro will entrench himself in Miami as the opposition's self-declared leader, issuing statements from Florida while corruption probes advance at home. The US-Brazil relationship will absorb the shock of Trump's 'rigged' remarks and the visa decision, as Rubio and Brazil's foreign minister meet to manage the fallout. The WhatsApp 'Lula's Army' story will fade from front pages. Markets will find a new footing as investors reassess Brazil's fiscal trajectory. The Argentina diplomatic row will cool to a background grumble. A medium chance exists that a court action against Bolsonaro forces a sharper constitutional break.",
+      "generated_at": "2026-11-02T08:27:45+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Lula's fiscal program and Congress standoff",
+        "expected": "Lula will announce a concrete fiscal stabilization package in response to the market rout, triggering an immediate legislative confrontation with the opposition bloc over spending cuts and the interest burden.",
+        "direction": "escalate",
+        "sign": "Headlines will report a specific budget or austerity proposal from the government and a public clash or vote in the legislature over the fiscal measures"
+      },
+      "second": {
+        "subject": "US-Brazil diplomatic friction over Bolsonaro",
+        "expected": "Rubio and Brazil's foreign minister will hold a meeting that produces a public disagreement over Bolsonaro's flight, the visa approval, and Trump's 'rigged' characterization of the vote.",
+        "direction": "persist",
+        "sign": "Headlines will report a diplomatic meeting or phone call between the two foreign ministers followed by a public statement or press conference expressing disagreement"
+      },
+      "third": {
+        "subject": "Brazilian currency and market stabilization",
+        "expected": "The Brazilian real will stabilize from its post-election low as the finance minister's fiscal discipline pledge reassures investors and the initial panic selling exhausts itself.",
+        "direction": "de-escalate",
+        "sign": "Headlines will report the real trading higher or holding steady after the post-vote plunge, with analysts citing the government's fiscal commitment"
+      },
+      "fade_call": {
+        "subject": "WhatsApp 'Lula's Army' mobilization channel",
+        "expected": "fade",
+        "sign": "The WhatsApp mobilization story will appear in retrospective analysis and explainer pieces rather than as a breaking-news item, giving way to governance and policy headlines"
+      },
+      "surprise": {
+        "subject": "Arrest warrant for Bolsonaro issued in his absence",
+        "expected": "A Brazilian court will issue a new arrest warrant or formal charge against Flávio Bolsonaro while he is in Miami, creating a jurisdictional standoff with the US over whether to honor the warrant given his visa status.",
+        "chance": "medium"
+      },
+      "summary": "The next week in Brazil will be defined by the collision between Lula's fiscal agenda and a hostile Congress. The president will push a stabilization package to calm markets after the post-election rout, and the opposition will test his resolve in a legislative showdown. In Washington, the visa process for Flávio Bolsonaro will be finalized, and a meeting between the US and Brazilian foreign ministers will sharpen the diplomatic friction over the flight and Trump's 'rigged' remark. The Brazilian real will stabilize from its multi-year low as investor panic fades and the finance minister's fiscal pledge takes hold. The WhatsApp 'Lula's Army' story will recede into retrospective analysis. A surprise would be a new arrest warrant for Bolsonaro issued in his absence, forcing Brazil and the US to confront the jurisdictional question of whether to honor it.",
+      "generated_at": "2026-11-02T08:43:50+02:00"
+    },
+    "plain_repeat": {
+      "lead": {
+        "subject": "US-Brazil diplomatic standoff over Bolsonaro",
+        "expected": "Brazil will formally register a diplomatic protest with the United States over Flávio Bolsonaro's self-proclaimed leadership from Miami and the State Department's visa approval for him and his family.",
+        "direction": "escalate",
+        "sign": "Headlines about a formal Brazilian diplomatic note to the US and a new public statement from Bolsonaro in Florida challenging Lula's government."
+      },
+      "second": {
+        "subject": "Lula's fiscal stabilization push",
+        "expected": "Lula's finance minister will present a fiscal stabilization package to a hostile Congress as the real and equity markets attempt to recover from the post-election rout.",
+        "direction": "persist",
+        "sign": "Headlines about a new budget proposal from Brasília and a partial rebound in the Brazilian real after the initial crash."
+      },
+      "third": {
+        "subject": "Brazil-Argentina diplomatic row over Bolsonaro's flight",
+        "expected": "Brazil will escalate its diplomatic protest over Argentina's role in allowing Bolsonaro's private jet to transit its territory, demanding a formal response from Buenos Aires.",
+        "direction": "escalate",
+        "sign": "Headlines about a formal diplomatic note between Brazil and Argentina and a meeting of the two foreign ministers to address the incident."
+      },
+      "fade_call": {
+        "subject": "WhatsApp 'Lula's Army' channel",
+        "expected": "fade",
+        "sign": "The channel's role will appear in retrospective election analyses but will no longer generate standalone headlines."
+      },
+      "surprise": {
+        "subject": "Supreme Court arrest warrant for Bolsonaro",
+        "expected": "Brazil's Supreme Court will issue a formal international arrest warrant for Flávio Bolsonaro as part of the corruption probes, complicating his Miami stay and his opposition-in-exile ambitions.",
+        "chance": "medium"
+      },
+      "summary": "In the week ahead, Brazil will be dominated by the diplomatic fallout from Flávio Bolsonaro's self-proclaimed leadership from Miami. Brazil's foreign minister will meet with US Secretary Rubio to register a formal protest, and Bolsonaro will make further public claims that test the limits of Trump's backing. Domestically, Lula will push a fiscal stabilization plan through a hostile Congress as the real and equity markets attempt to recover from the post-election rout. The Brazil-Argentina diplomatic row over Bolsonaro's flight will escalate, with Brasília demanding a formal response from Buenos Aires. The WhatsApp 'Lula's Army' story will fade from headlines as governance questions take over. A medium-probability surprise is that Brazil's Supreme Court issues a formal arrest warrant for Bolsonaro, complicating his Miami stay and his opposition-in-exile ambitions. Overall, the week will be shaped by the collision between Bolsonaro's self-styled leadership and Lula's fiscal reckoning.",
+      "generated_at": "2026-11-02T08:52:56+02:00"
+    }
+  },
+  "display": {
+    "headline": "Lula's Fiscal Fight, Bolsonaro's Visa, Real Stabilizes",
+    "emojis": [
+      "🏛️",
+      "🌐",
+      "📈"
+    ],
+    "emoji_reasons": [
+      "Lula's fiscal program and the legislative standoff with Congress is the central governance story of the week",
+      "The US-Brazil diplomatic friction over Bolsonaro's visa and flight is the key international thread",
+      "The Brazilian real and equity markets will stabilize from the post-election crash"
+    ],
+    "tldr": "Lula will push a fiscal stabilization plan against a hostile Congress, and the US-Brazil diplomatic row over Bolsonaro's visa will sharpen. The real will find a floor as market panic fades. A new arrest warrant for Bolsonaro from Miami would be the surprise.",
+    "eli5": "Brazil just had a huge election upset. Lula, the 81-year-old president, won his fourth term in a shock that crashed the stock market and sent his rival Flávio Bolsonaro running to Miami on a private jet. Now the whole country is dealing with the aftermath.\n\nWhy is this a mess? Lula promised to keep spending under control, but his opponents in Congress want him to spend more. The currency crashed to its lowest level since the late 1990s, and the US president called the vote 'rigged' while also giving Bolsonaro a visa. So now Brazil and America are a bit at each other's throats.\n\nNext week, the main story will be Lula pushing a fiscal plan to calm the markets, and a meeting between the US and Brazilian foreign ministers that will make the diplomatic tension more public. The real, Brazil's currency, should stop falling and start to stabilize.\n\nThe surprise would be if a Brazilian court issues a new arrest warrant for Bolsonaro while he is sitting in Miami. That would force the US to decide whether to honor it, and things could get very awkward."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "persistence",
+        "crystal",
+        "plain"
+      ]
+    ],
+    "label_order": {
+      "X": "persistence",
+      "Y": "crystal",
+      "Z": "plain"
+    },
+    "per_arm": {
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "The runoff race transformed into a stunning Lula victory that dominated headlines [77, 99, 101, 121, 126, 192, 234], escalating far beyond the 'same level' the forecast predicted.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin explicitly lists 'Meta social media interference dispute' as no longer in the headlines, and none of the 250 headlines reference Meta or the platform bias dispute.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Market hedging escalated into a full crash with the real hitting its lowest since 1999 and stocks sinking 50 percent [80, 120, 230, 56, 141], far exceeding the 'same level' the forecast anticipated.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists 'Poultry disease outbreak' as no longer in the headlines, and no headline among the 250 mentions Newcastle disease or poultry exports.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "The forecast predicted 'no surprise, more of the same,' yet the week produced a stunning upset victory, a dramatic flight to Miami, a market crash, and a WhatsApp-channel story [161, 112, 16, 80].",
+          "bonus": 0
+        },
+        "archer_note": "The main thesis of 'more of the same' was wrong: the race did not stay level but exploded into a stunning upset with cascading political, diplomatic, and market consequences. The Meta dispute and poultry outbreak both vanished entirely, contradicting the persist calls for both. The bulletin failed to anticipate that the race's resolution would generate entirely new storylines (Bolsonaro's flight, Trump's reaction, the WhatsApp channel) rather than simply continuing the pre-vote narrative.",
+        "S": 2
+      },
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Lula's victory was announced and dominated headlines with diplomatic fallout and Bolsonaro's rejection [77, 99, 121, 131, 192, 234], matching the forecast's expectation that the result and first hours of fallout would define the bulletin.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The reality bulletin lists the Meta dispute as no longer in the headlines, and no headline references a final Meta ruling or a losing-campaign legal filing citing the platform dispute.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The real plunged to its lowest since 1999 and some stocks sank 50 percent in the post-vote session [120, 230, 80, 56], exactly matching the forecast's prediction of a sharp move in the real and equity indices.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The free-bus-ride and cash-back framing is gone from headlines; only a residual reference to spending rows [61] remains, confirming the fade the forecast predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Bolsonaro did file a post-vote challenge seeking annulment [135, 197, 200, 201, 219], though it cited fraud broadly rather than specifically invoking the Meta equal-treatment ruling.",
+          "bonus": 2
+        },
+        "archer_note": "The main thesis was correct: the runoff result would dominate and markets would swing sharply, both of which happened exactly as described. The Meta ruling as a post-vote legal instrument did not materialize, and the surprise of a Meta-specific challenge was only partially realized through a broader fraud claim. The forecast was early on the Meta angle but accurate on the two dominant trends of result and market reaction.",
+        "S": 14
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Lula was declared winner, celebrations erupted in São Paulo [222, 144, 213], markets crashed [80, 230], and Bolsonaro filed for annulment [135, 197, 200], matching every element of the forecast's description.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The Meta dispute is listed as no longer in the headlines, and no headline references a formal legal filing by a campaign citing platform bias or a court hearing on the Meta case.",
+            "forecast_direction": "escalate",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "third": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "The real tumbled, hedge funds lost 24 percent, Brazil ETFs sank, and analysts issued revised views on fiscal policy [81, 56, 91, 230, 166, 243], matching the forecast's expectation of currency swings and analyst revisions.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 1,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "marginal",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The campaign-promises framing (free bus rides, cash-back) is absent from the 250 headlines, with only a residual reference to spending rows [61] confirming the fade the forecast predicted.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No large-scale street protest or minor clash in a major Brazilian city is reported among the 250 headlines; celebrations [144, 213, 222] and Bolsonaro's legal filings [135, 197] are the main post-vote scenes, but no confrontation.",
+          "bonus": 0
+        },
+        "archer_note": "The main thesis was correct: the result would dominate, markets would swing, and the losing side would file a legal challenge, all of which occurred. The Meta dispute as a legal instrument did not survive into this round, and the predicted street confrontation did not materialize. The bulletin's 'persist' direction on the lead slightly understated the escalation from a close race to a stunning upset with global fallout.",
+        "S": 8
+      }
+    },
+    "S": [
+      {
+        "persistence": 2,
+        "crystal": 14,
+        "plain": 8
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "persistence",
+          "second": "crystal",
+          "score": 2.0,
+          "reason": "Computed from the scores: persistence 2, crystal 14."
+        },
+        {
+          "first": "persistence",
+          "second": "plain",
+          "score": 2.0,
+          "reason": "Computed from the scores: persistence 2, plain 8."
+        },
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 14, plain 8."
+        }
+      ]
+    ],
+    "scores": {
+      "persistence_vs_crystal": -2.0,
+      "persistence_vs_plain": -2.0,
+      "crystal_vs_plain": 2.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 2.0,
+    "u": 2.0,
+    "first_listed_wins": 1,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nThe week was consumed by the final stretch of Brazil's presidential runoff between incumbent Lula and Flávio Bolsonaro, with the vote set for Sunday, October 25. The two candidates held two debates: an earlier one marked by sharp exchanges over corruption and living costs, and a final one that was calmer but still combative. Polls from Datafolha and Quaest showed them essentially tied, making the outcome highly uncertain. A major controversy erupted over Meta's alleged social-media bias: Lula's campaign filed to disqualify Bolsonaro, a court ordered Meta to prove equal treatment within 24 hours, and the UN suggested Meta had disproportionately suppressed Lula's posts. Both campaigns made costly promises including free bus rides and cash-back schemes, and Lula fast-tracked welfare payments days before the vote. Markets hedged heavily ahead of the result. Inflation data presented a contradiction, with one report saying it undershot forecasts and another saying it breached the\n- Lula vs Bolsonaro runoff race (dominant, escalating): The two candidates held two debates, made costly promises, traded disqualification threats, and closed the week tied in polls ahead of the Sunday vote.\n- Meta social media interference dispute (dominant, escalating): Lula's campaign filed to disqualify Bolsonaro over alleged Meta bias, a court gave Meta 24 hours to prove equal treatment, and the UN suggested Meta disproportionately curbed Lula's posts.\n- Market hedging and economic uncertainty (regular, escalating): Traders ramped up hedges ahead of the close vote, inflation data was mixed, and the government flagged a four-billion-dollar budget reshuffle needed for Lula's 2027 measures.\n- Poultry disease outbreak (regular, new): Newcastle disease was detected at a turkey farm and at a supplier to major poultry company MBRF, raising export concerns though analysts called long-term impact limited.\n- Indigenous voters and Amazon (regular, continuing): A court ordered the government to provide transportation for Indigenous voters in the Amazon after they feared missing the runoff, and the Supreme Court suspended a major gold mine permit.\n- Campaign promises and welfare (regular, escalating): Both Lula and Bolsonaro courted voters with costly promises including free bus rides and cash-back schemes, and Lula fast-tracked welfare payments days before the vote.\n- Foreign diplomacy and election meddling (occasional, continuing): Foreign diplomats discussed quick recognition of the runoff winner, Brazil accused Argentina's Milei of meddling after he called Lula a thief, and Trump loomed over the race.\n- Working class and social divides (occasional, continuing): Reporters examined how a changing working class, the Uberisation of labour, country music, and cellphone theft were reshaping voter allegiances.\n- Corporate deals and foreign investment (occasional, new): Prudential sold its Brazil and Mexico units for four billion dollars, BYD planned to double capacity at its Brazilian plant, and Hitachi Energy committed 77 million dollars to a new plant.\n- Billionaire brothers and right-wing opposition (occasional, new): Billionaire Brazilian brothers emerged as vocal foes of Bolsonaro in the runoff, while the right embraced election betting odds amid polls skepticism.\n\nRound 2026-10-17:\nBrazil's week was dominated by the tight presidential runoff between the Bolsonaro camp and Lula, with multiple polls showing a narrow Bolsonaro or Flavio Bolsonaro lead. The Senate delivered Lula a major legislative win by approving a shorter five-day workweek, a campaign promise that energized his base ahead of the runoff. Simultaneously, Brazil announced that Amazon deforestation had fallen to its lowest level since 1988, a historic environmental milestone credited to Lula's policies but also a key issue in the race. A storm broke over Meta after Brazil's electoral court found the platform exhibited anti-Lula algorithmic bias, and Lula's party announced it would take the case to the OAS. In the Amazon, a surge of wildfires prompted a government investigation into whether the fires were criminal or coordinated, adding urgency to the environmental debate. On the economic front, US tariffs struck Brazil's manufacturing sector while market euphoria masked a growing\n- Amazon deforestation record low (dominant, new): Brazil announced that deforestation in the Amazon fell to its lowest level since 1988, a historic achievement credited to Lula's environmental policies.\n- Bolsonaro vs Lula runoff race (dominant, continuing): Polls consistently showed a razor-thin Bolsonaro or Flavio Bolsonaro lead over Lula ahead of the second-round vote, with both sides scrambling for endorsements and campaign energy.\n- Shorter workweek approved (dominant, new): The Senate passed a bill abolishing the six-day workweek in favour of a five-day week, fulfilling a major Lula campaign promise.\n- Meta anti-Lula bias ruling (regular, escalating): Brazil's electoral court found Meta guilty of algorithmic bias against Lula, Meta employees said his accounts were hindered, and Lula's party announced it would escalate the case to the OAS.\n- Amazon wildfires surge (regular, escalating): A sharp increase in Amazon fires, partly driven by El Niño, prompted a government probe into whether the fires were criminal or deliberately coordinated.\n- Economic signals and debt (regular, continuing): Economic activity edged up before the runoff but analysts warned that market euphoria was masking a surging public-debt problem, while US tariffs hurt the manufacturing sector.\n- Right-wing Congress vs Bolsonaro's judge (occasional, new): Brazil's incoming right-wing Congress took aim at the judge who jailed Bolsonaro, signalling post-election institutional battles.\n- Lula campaign moves (regular, continuing): Lula resorted to selfie videos, pledged free weekend transit, and defended lowering the criminal-responsibility age to 16 in an effort to close the polling gap.\n- Right-wing influencers and election betting (occasional, continuing): Right-wing influencers rallied around the Bolsonaro camp while election-betting odds were dubbed pseudo-polls, adding noise to the race.\n",
+    "PREVIOUS_FORECAST": "Lead: Presidential runoff result. Expected: The October 25 runoff will produce a winner, and the next bulletin will be dominated by the result announcement and the first hours of political and diplomatic fallout. Direction: escalate. Sign: Headlines will announce the winner and quote the victory or concession speech as the defining moment of the post-vote period\nSecond: Meta equal-treatment ruling. Expected: The Brazilian court will issue its final ruling on Meta's equal-treatment obligation, setting the stage for the losing campaign to invoke that ruling in a post-vote challenge before the Supreme Court. Direction: escalate. Sign: Headlines will report the court's final Meta ruling and the losing campaign's legal filing that cites the platform dispute\nThird: Market reaction to election outcome. Expected: Brazilian and global markets will move sharply in the first trading session after the runoff, with the real and equity indices reflecting the winner's fiscal credibility. Direction: escalate. Sign: Headlines will describe a sharp move in the real and the equity index in the post-vote trading session\nFade call: Campaign promises and welfare fast-tracking. Expected: fade. Sign: The free bus rides and cash-back schemes will surface as the winner's policy agenda rather than as a two-candidate courtship story\nSurprise (chance medium): Post-vote legal challenge invoking Meta ruling. The losing campaign will file an immediate post-vote challenge before the Supreme Court, citing the Meta equal-treatment ruling as grounds to delay certification of the result.\nSummary: Next week will be defined by the outcome of Brazil's presidential runoff, held on October 25. The bulletin will open with the result, the margin, and the first hours of diplomatic reaction as foreign governments move to recognize the winner. The Meta equal-treatment ruling will be resolved, and the losing campaign will invoke it in a post-vote challenge before the Supreme Court. Markets will swing sharply in the first trading session, with the real and equity indices reflecting the winner's fiscal credibility. The costly campaign promises of free transit and cash-back schemes will fade from the two-candidate courtship framing into the winner's policy agenda. A Newcastle disease outbreak and the Prudential sale will register as secondary economic news. The main surprise would be a post-vote challenge that delays certification and forces the Supreme Court to mediate.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject dominant). Lula's victory was announced and dominated headlines with diplomatic fallout and Bolsonaro's rejection [77, 99, 121, 131, 192, 234], matching the forecast's expectation that the result and first hours of fallout would define the bulletin.\n- second: did_not_appear (observed: faded, subject absent). The reality bulletin lists the Meta dispute as no longer in the headlines, and no headline references a final Meta ruling or a losing-campaign legal filing citing the platform dispute.\n- third: came_true (observed: escalated, subject dominant). The real plunged to its lowest since 1999 and some stocks sank 50 percent in the post-vote session [120, 230, 80, 56], exactly matching the forecast's prediction of a sharp move in the real and equity indices.\n- fade_call: came_true (observed: faded, subject marginal). The free-bus-ride and cash-back framing is gone from headlines; only a residual reference to spending rows [61] remains, confirming the fade the forecast predicted.\nArcher note: The main thesis was correct: the runoff result would dominate and markets would swing sharply, both of which happened exactly as described. The Meta ruling as a post-vote legal instrument did not materialize, and the surprise of a Meta-specific challenge was only partially realized through a broader fraud claim. The forecast was early on the Meta angle but accurate on the two dominant trends of result and market reaction.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}

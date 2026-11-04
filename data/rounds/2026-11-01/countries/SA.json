@@ -1,0 +1,731 @@
+{
+  "schema_version": 4,
+  "round": "2026-11-01",
+  "previous_round": "2026-10-24",
+  "is_legacy": false,
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "model": "huihui_ai/Qwen3.8-abliterated:27b",
+  "generated_at": "2026-11-02T02:26:16+02:00",
+  "status": {
+    "reader": "done",
+    "judge": "done",
+    "plain": "done",
+    "crystal": "done",
+    "plain_repeat": "skipped"
+  },
+  "reader": {
+    "summary": "The dominant story this week was the intensification of Houthi attacks on Saudi Arabia. The Houthis launched multiple missile and drone barrages targeting Riyadh, Mecca, and the oil-rich Eastern Region, hitting the Ras Tanura refinery and striking Riyadh Airport repeatedly. Saudi air defenses intercepted numerous projectiles, and the Saudi-led coalition destroyed Houthi missile facilities in Yemen, killing 14 at a market in northern Yemen. The attacks grounded flights, forced Riyadh Airport to close and then partially reopen, and sent oil prices swinging. Diplomatically, Iran hosted Saudi, Turkish, and Pakistani officials in Tehran for peace talks, with all sides agreeing to continue negotiations. Egypt's parliament authorized military support for Saudi Arabia to defend against Houthi attacks. The US ordered non-emergency embassy staff to leave the kingdom, signaling elevated security concerns. Economically, Saudi oil exports hit wartime highs as Aramco ramped up shipments, and the kingdom agreed to store oil in Singapore caverns from 2027. The 2027 Dakar Rally was moved out of Saudi Arabia, and the 2027 Asian Cup schedule was confirmed. Russian satellites were reported to be helping Houthis target Saudi facilities, adding a new dimension to the conflict.",
+    "key_events": [
+      {
+        "event": "Houthis launched multiple missile and drone barrages hitting Ras Tanura refinery, Riyadh Airport, and oil pumping stations across Saudi Arabia",
+        "date": null,
+        "domain": "security",
+        "importance": 5
+      },
+      {
+        "event": "Iran hosted Saudi, Turkish, and Pakistani officials in Tehran for multi-day peace talks, with all sides agreeing to continue negotiations",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 5
+      },
+      {
+        "event": "Egypt's parliament authorized military support for Saudi Arabia to defend against Houthi attacks",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "The US ordered non-emergency embassy staff and families to leave Saudi Arabia over security risks",
+        "date": null,
+        "domain": "diplomacy",
+        "importance": 4
+      },
+      {
+        "event": "Riyadh Airport closed due to repeated Houthi strikes before partially reopening later in the week",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "Saudi oil exports hit wartime highs as Aramco ramped up shipments and offered Europe additional spot oil",
+        "date": null,
+        "domain": "economy",
+        "importance": 4
+      },
+      {
+        "event": "Russian satellites were reported to be assisting Houthis in targeting Saudi facilities",
+        "date": null,
+        "domain": "security",
+        "importance": 4
+      },
+      {
+        "event": "The 2027 Dakar Rally was moved out of Saudi Arabia due to the ongoing conflict",
+        "date": null,
+        "domain": "society",
+        "importance": 3
+      },
+      {
+        "event": "Saudi Arabia agreed to store oil in Singapore underground caverns starting in 2027",
+        "date": null,
+        "domain": "economy",
+        "importance": 3
+      },
+      {
+        "event": "Saudi Arabia sought advanced AI weaponry from the US amid the Houthi conflict",
+        "date": null,
+        "domain": "security",
+        "importance": 3
+      }
+    ],
+    "mood": "escalating",
+    "intensity": 8,
+    "domains_active": [
+      "security",
+      "diplomacy",
+      "economy",
+      "society"
+    ],
+    "emojis": [
+      "🚀",
+      "🕊️",
+      "🛢️"
+    ],
+    "emoji_reasons": [
+      "Houthi missile and drone barrages repeatedly struck Riyadh, Mecca, and the Eastern Region, including the Ras Tanura refinery (headlines 2, 11, 74, 100).",
+      "Iran hosted Saudi, Turkish, and Pakistani officials for peace talks and all sides agreed to continue negotiations (headlines 5, 29, 67, 95).",
+      "Saudi oil exports hit wartime highs, Aramco offered Europe more spot oil, and the kingdom agreed to store oil in Singapore (headlines 41, 59, 77, 105)."
+    ],
+    "developments": [
+      {
+        "subject": "Houthi missile and drone attacks on Saudi infrastructure",
+        "what_happened": "The Houthis launched repeated missile and drone barrages targeting Riyadh Airport, the Ras Tanura refinery, oil pumping stations, and the Mecca area, with Saudi air defenses intercepting many projectiles and the coalition destroying Houthi missile facilities in Yemen.",
+        "coverage": "dominant",
+        "direction": "escalating",
+        "headline_ids": [
+          2,
+          6,
+          11,
+          13,
+          18,
+          23,
+          34,
+          39,
+          49,
+          52,
+          55,
+          56,
+          60,
+          61,
+          64,
+          68,
+          72,
+          74,
+          73,
+          83,
+          84,
+          98,
+          100,
+          117
+        ]
+      },
+      {
+        "subject": "Tehran multi-party peace talks",
+        "what_happened": "Iran hosted Saudi, Turkish, and Pakistani officials for negotiations on the Houthi conflict and broader regional security, with all sides agreeing to continue talks and Saudi Arabia's defense minister meeting directly with Iran's president.",
+        "coverage": "dominant",
+        "direction": "new",
+        "headline_ids": [
+          5,
+          29,
+          40,
+          67,
+          90,
+          92,
+          93,
+          95,
+          103,
+          104
+        ]
+      },
+      {
+        "subject": "Egypt's military support for Saudi Arabia",
+        "what_happened": "Egypt's parliament authorized military support for Saudi Arabia to defend against Houthi attacks, formalizing Cairo's pledge to back Riyadh.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          46,
+          53,
+          96,
+          97
+        ]
+      },
+      {
+        "subject": "Riyadh Airport disruption and reopening",
+        "what_happened": "Riyadh Airport was hit by Houthi strikes, forced to close, and then partially reopened later in the week despite renewed threats, causing significant flight cancellations.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          19,
+          56,
+          98,
+          109,
+          111,
+          113,
+          114
+        ]
+      },
+      {
+        "subject": "Oil market and sector impacts",
+        "what_happened": "Oil prices swung on the refinery attack and peace hopes, Saudi oil exports hit wartime highs, Aramco offered Europe additional spot oil, and the kingdom agreed to store oil in Singapore caverns from 2027.",
+        "coverage": "regular",
+        "direction": "continuing",
+        "headline_ids": [
+          8,
+          11,
+          21,
+          31,
+          33,
+          41,
+          59,
+          66,
+          68,
+          77,
+          102,
+          105,
+          116
+        ]
+      },
+      {
+        "subject": "US evacuation of non-emergency staff",
+        "what_happened": "The US ordered non-emergency embassy staff and families to leave Saudi Arabia, citing elevated security risks from the Houthi conflict.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          1,
+          47
+        ]
+      },
+      {
+        "subject": "Russian satellite assistance to Houthis",
+        "what_happened": "Data and officials reported that Russian satellites were helping Iran's allies, the Houthis, target Saudi facilities with greater precision.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          12,
+          25
+        ]
+      },
+      {
+        "subject": "Dakar Rally and events moved out of Saudi Arabia",
+        "what_happened": "The 2027 Dakar Rally was revoked from Saudi Arabia and moved to Portugal and Morocco, the Extreme H event was postponed to 2027, and UK's Informa cut revenue guidance after Saudi attacks disrupted its events calendar.",
+        "coverage": "regular",
+        "direction": "new",
+        "headline_ids": [
+          44,
+          58,
+          69,
+          75,
+          78,
+          89,
+          91,
+          110
+        ]
+      },
+      {
+        "subject": "Espionage cases involving Saudi Arabia",
+        "what_happened": "Two former Twitter employees were accused of spying for Saudi Arabia, and the FBI explored an espionage case against a Saudi-linked OpenAI suspect.",
+        "coverage": "occasional",
+        "direction": "continuing",
+        "headline_ids": [
+          24,
+          51
+        ]
+      },
+      {
+        "subject": "Saudi-UAE mending ties and Gulf coordination",
+        "what_happened": "Saudi Arabia sought to mend ties with the UAE amid the Houthi crisis, and Gulf bourses fluctuated as the defense pact countries pushed for peace in Tehran.",
+        "coverage": "occasional",
+        "direction": "new",
+        "headline_ids": [
+          10,
+          79,
+          104,
+          115
+        ]
+      }
+    ],
+    "gone": [
+      "FII Summit postponed to 2027",
+      "Mecca Defense Pact ratification",
+      "Saudi helicopter crash near Yemen",
+      "Macron's surprise visit to Saudi Arabia",
+      "Tanker struck off Saudi coast"
+    ],
+    "collection_quality": {
+      "rating": "adequate",
+      "note": "The headlines provide comprehensive coverage of the Houthi conflict, diplomatic responses, oil market impacts, and social consequences, with strong representation across multiple sources and domains."
+    },
+    "headlines_used": [
+      "US orders non-emergency staff to leave Saudi Arabia over security risks",
+      "Saudi Arabia says air defenses intercept Houthi missiles over capital",
+      "'Canelo' Alvarez wins back WBC title from Mbilli in Riyadh",
+      "Al Hilal vs Al Fateh: Saudi Pro League stats & head-to-head",
+      "Iran hosts Saudi Arabia and regional powers as fears grow of return to war",
+      "Air defense system operated by Greek military downs missiles over Saudi Arabia — report",
+      "Yémen: 14 morts dans des frappes saoudiennes, les Houthis ciblent eux l'aéroport d'Aden",
+      "Saudi Economy Shrank at Slower Pace Before Houthi War Escalation",
+      "Saudi Arabia’s Sabic Profit Rises Despite Lower Sales Volume",
+      "Saudi Arabia seeks to mend ties with UAE in Houthi crisis",
+      "Oil prices rise after attack on Saudi Arabian refinery reignites supply concerns",
+      "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+      "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
+      "Houthis say Saudi-led airstrikes killed 14 at a market in northern Yemen, and other Mideast news",
+      "United States Signs Participation Contract for Expo 2030 Riyadh, Strengthening Momentum For Global Participation",
+      "Al Taawoun vs Al Ettifaq: Saudi Pro League stats & head-to-head",
+      "Kawancen tsaron Saudi Arebiya na ganawa da Iran kan Houthi",
+      "Raffinerie saoudienne et ministère de la Défense: les Houthis multiplient les attaques",
+      "Houthi Attacks on Riyadh Airport Ramp Up Flight Cancellations",
+      "The Saudi Airline That Launched Right in the Middle of a War",
+      "Singapore to store Saudi Arabian oil in caverns",
+      "50% surge in private charter jet prices out of Saudi Arabia is the 'new normal': CEO",
+      "Saudi Arabia reports interception of Houthi drone targeting Mecca",
+      "Two former Twitter employees accused of spying for Saudi Arabia",
+      "Russian satellites help Iran’s allies strike Saudi Arabia, data and officials say",
+      "Unrelated visuals of couples falsely linked to Bangladeshis executed by Saudi Arabia",
+      "Al Fayha vs Al Faisaly: Saudi Pro League stats & head-to-head",
+      "As Yemen's Houthis continue strikes, Saudi Arabia is looking to the US for advanced AI weaponry",
+      "L'Iran dit avoir eu de 'très bonnes' discussions avec des responsables saoudiens, turcs et pakistanais",
+      "Fahad Bin Zwaid Melfi Al Mutairi, Saudi Manpower Solutions Co: Profile and Biography",
+      "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks",
+      "Saudi Arabia to increase electricity and water charges",
+      "Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive",
+      "Houthi forces claim six attacks on Saudi airports, oil facilities",
+      "Philippines in talks with several countries, including Saudi Arabia, for oil storage",
+      "Turkish parliamentary committee approves defense pact with Saudi Arabia and Pakistan",
+      "Decade-old clip misrepresented as execution of Bangladeshis in Saudi Arabia",
+      "Mbili vs Alvarez: Saul 'Canelo' Alvarez makes weight against backdrop of Saudi turmoil",
+      "More fighting between Yemen's Houthis, Saudi Arabia",
+      "Iran: le président iranien, Massoud Pezeshkian, appelle à “l’unité régionale” devant des responsables saoudiens, pakistanais et turcs",
+      "Satellites Show Saudi Persian Gulf Oil Loadings Hit Wartime High",
+      "Saudi-Led Troops Had Just Gathered When a Houthi Missile Left Dozens Dead",
+      "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
+      "Dakar Rally 2027 to be held in Portugal, Morocco as Saudi hosting revoked",
+      "Indian equity benchmarks inch lower as oil climbs; Jio makes strong debut",
+      "Egypt's parliament authorizes military support for Saudi Arabia to defend against Houthi attacks",
+      "Washington orders US embassy staff, families to leave Saudi Arabia",
+      "Abha vs Al Ittihad: Saudi Pro League stats & head-to-head",
+      "Les forces saoudiennes disent avoir intercepté un missile houthi vers Riyad, l'aéroport à nouveau visé",
+      "Mohammad Saeed Al-Tarani, Saudi Industrial Development Co: Profile and Biography",
+      "Exclusive | FBI Explores Espionage Case Against Saudi OpenAI Suspect",
+      "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+      "Egyptian parliament authorises military aid for Saudi Arabia",
+      "Mobile Telecommunications Company Saudi Arabia",
+      "Saudi-led coalition says it destroyed Houthi missile facilities, and other Mideast news",
+      "Houthis say attacked Riyadh airport hours after flights resume",
+      "Diriyah Club vs NEOM: Saudi Pro League stats & head-to-head",
+      "Le Dakar 2027 victime à son tour des attaques en Arabie saoudite",
+      "Saudi Oil Exports Near Wartime High as Houthis Mount Attacks",
+      "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
+      "Saudi-led coalition says it downed Houthi missiles, drones aimed at kingdom",
+      "National Shipping Company of Saudi Arabia SJSC (4030.SE) | Stock Price & Latest News",
+      "Asian Cup organizers set kickoff times and detailed schedule for the 2027 tournament in Saudi Arabia",
+      "Houthis attack Saudi Arabia before high-stakes talks in Tehran",
+      "Al Shabab vs Al Ahli: Saudi Pro League stats & head-to-head",
+      "Saudi Tanker Giant Posts 10-Fold Profit Jump as Ship Rates Surge",
+      "Iran, Saudi Arabia, Turkiye and Pakistan agree to continue talks for peace",
+      "Oil prices rise on Yemen fighting, Saudi refinery attack",
+      "Dakar Rally off-road race moved out of Saudi Arabia over ‘developments’ in Middle East",
+      "AI-generated clip passed off as Houthi attack on Riyadh airport",
+      "President Tinubu to 'pray for Nigeria' during Saudi Arabia trip to Mecca",
+      "Saudi Arabia Contains Fire Near Ras Tanura Oil Hub After Attack",
+      "Saudi-led coalition says it struck Houthi missile facilities",
+      "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
+      "2027 Dakar Rally to be moved from Saudi Arabia",
+      "Al Riyadh vs Al Qadsiah: Saudi Pro League stats & head-to-head",
+      "Saudi Aramco Offers Europe More Spot Oil as Supplies Ramp Up",
+      "Dakar Rally 2027 moved out of Saudi Arabia amid conflict in Middle East",
+      "Most Gulf bourses advance as Saudi defence pact countries push for peace",
+      "Old Saudi fire photo miscaptioned as recent Houthi attack",
+      "Al Nassr vs Al Kholood: Saudi Pro League stats & head-to-head",
+      "Saudi Arabia’s Houthi Challenge Shifts Fears to Non-Oil Economy",
+      "Saudi air defences intercept Houthi barrage near Mecca",
+      "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
+      "Al Khaleej vs Al Hazem: Saudi Pro League stats & head-to-head",
+      "Investcorp Joins Consortium for Saudi Firm Even as Houthi Attacks Intensify",
+      "COMMENTARY: Canada takes a page from the Saudi oil playbook",
+      "Watch How XDS Datacentres Cools Its Chips in Saudi Arabia",
+      "Extreme H event in Saudi Arabia postponed to 2027",
+      "Watch Egypt Backs Saudi Defense as Regional Powers Push Iran Talks",
+      "UK's Informa cuts revenue guidance after Saudi Arabia attacks disrupt events calendar",
+      "Watch Sutcliffe: Saudis in Tehran on Iran War, Houthi Conflict",
+      "Saudi defence pact countries push for peace in Tehran as Houthis launch more attacks",
+      "NEOM vs Abha: Saudi Pro League stats & head-to-head",
+      "Top Saudi, Turkish Officials Travel to Iran to Quell War Tension",
+      "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
+      "Egypt Parliament Backs El-Sisi’s Offer to Defend Saudi Arabia",
+      "How Houthi attacks have grounded flights across Saudi Arabia",
+      "Saudi Arabia’s Wall Street Appeal Dims Even as Mideast Rivals Score Wins",
+      "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+      "Saudi Arabia Needs a New Coalition Against the Houthis",
+      "Saudi Arabia to store oil in Singapore to bolster Asia supply security",
+      "Watch Saudi Defense Minister Set for Tehran Talks, Trump Weighs Iran Deal or New Strikes",
+      "Most Gulf bourses rebound on Iran diplomacy hopes; Egypt falls ahead of Saudi defence vote",
+      "Singapore to Store Saudi Oil in Underground Caverns From 2027",
+      "Saudi Arabia to kick off 2027 Asian Cup against Palestine in Riyadh",
+      "The Saudi and Gulf State Militaries Are Looking Very Hollow",
+      "Canelo says he is ready for Saturday fight in Riyadh",
+      "Riyadh Airport Reopens as Saudi Arabia Fights Houthi Attacks",
+      "Dakar Rally 2027 will not be held in Saudi Arabia, organisers say",
+      "Riyadh Airport Reopens After Houthi Attacks, France Dodges Riots",
+      "AFC postpones Al Nassr-Al Wasl Champions League Elite clash in Riyadh",
+      "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+      "Saudis say Riyadh airport partly reopens despite renewed Houthi threats",
+      "Most Gulf shares close lower as Saudi-Houthi fighting rages on",
+      "Oil settles lower on peace hopes, Saudi attacks limit losses",
+      "Houthis say they targeted Saudi oil sites; attacks reported in Aden"
+    ],
+    "converted": false,
+    "relevant_headlines": 117,
+    "unscorable": false,
+    "unscorable_reason": null
+  },
+  "forecasts": {
+    "persistence": {
+      "lead": {
+        "subject": "Houthi missile and drone attacks on Saudi infrastructure",
+        "expected": "Houthi missile and drone attacks on Saudi infrastructure stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Houthi missile and drone attacks on Saudi infrastructure appear at about the same volume as this round."
+      },
+      "second": {
+        "subject": "Tehran multi-party peace talks",
+        "expected": "Tehran multi-party peace talks stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Tehran multi-party peace talks appear at about the same volume as this round."
+      },
+      "third": {
+        "subject": "Egypt's military support for Saudi Arabia",
+        "expected": "Egypt's military support for Saudi Arabia stays at the same level in the headlines.",
+        "direction": "persist",
+        "sign": "Headlines about Egypt's military support for Saudi Arabia appear at about the same volume as this round."
+      },
+      "fade_call": {
+        "subject": "Tehran multi-party peace talks",
+        "expected": "persist",
+        "sign": "Tehran multi-party peace talks is still in the headlines at the next collection."
+      },
+      "surprise": {
+        "subject": "no surprise",
+        "expected": "More of the same: nothing outside the current stories appears.",
+        "chance": "low"
+      },
+      "summary": "More of the same. Houthi missile and drone attacks on Saudi infrastructure stays in the news at the same level. Tehran multi-party peace talks stays in the news at the same level. Egypt's military support for Saudi Arabia stays in the news at the same level. Tehran multi-party peace talks is still being reported at the next collection.",
+      "generated_by": "python template"
+    },
+    "plain": {
+      "lead": {
+        "subject": "Houthi strikes on Saudi infrastructure",
+        "expected": "Houthi missile and drone barrages will hit Saudi cities and oil facilities again, with Saudi air defenses reporting interceptions over Riyadh and the Eastern Region.",
+        "direction": "persist",
+        "sign": "Headlines will describe Houthi projectiles striking a Saudi city or oil site and Saudi air defenses downing incoming missiles over the kingdom."
+      },
+      "second": {
+        "subject": "Tehran multi-party peace talks",
+        "expected": "A second round of Saudi, Iranian, Turkish, and Pakistani negotiations in Tehran will produce a joint statement outlining de-escalation steps for the Houthi conflict.",
+        "direction": "persist",
+        "sign": "Headlines will report a new session of talks in Tehran and a coordinated communiqué from the four participating governments."
+      },
+      "third": {
+        "subject": "Oil market and Saudi exports",
+        "expected": "Saudi oil exports will hold at wartime highs as Aramco ships record volumes to Europe and Asia, while Brent prices will swing on every Houthi strike and peace-talk headline.",
+        "direction": "persist",
+        "sign": "Headlines will pair a move in oil prices with a reference to Saudi refinery output or a Houthi attack on energy infrastructure."
+      },
+      "fade_call": {
+        "subject": "US embassy staff evacuation",
+        "expected": "fade",
+        "sign": "The evacuation will be complete and no new headline will reference the departure of US diplomatic personnel from Saudi Arabia."
+      },
+      "surprise": {
+        "subject": "Saudi-Iran preliminary ceasefire framework",
+        "expected": "The Tehran talks will yield a preliminary Saudi-Iranian framework on Houthi ceasefire terms, announced jointly by both foreign ministries within the week.",
+        "chance": "low"
+      },
+      "summary": "Next week, Houthi missile and drone attacks will keep hitting Saudi cities and oil infrastructure, with air defenses reporting interceptions over Riyadh and the Eastern Region. Riyadh Airport will face further disruption from renewed strikes. In Tehran, a second round of Saudi, Iranian, Turkish, and Pakistani talks will take place, and the participants will issue a joint statement on de-escalation. Oil prices will swing with each attack and each peace headline, while Saudi exports hold at wartime highs. Egypt will begin positioning forces to support Saudi defense operations. The US embassy evacuation will wrap up and fade from headlines. Saudi Arabia will press the US for advanced AI weaponry to counter Houthi drones. The Dakar Rally relocation and event cancellations will settle into the background. Overall, the conflict will persist at high intensity, with diplomacy offering a narrow path toward de-escalation but no guaranteed breakthrough before the weekend.",
+      "generated_at": "2026-11-02T02:08:56+02:00"
+    },
+    "crystal": {
+      "lead": {
+        "subject": "Houthi missile and drone attacks on Saudi infrastructure",
+        "expected": "The Houthis will launch a new major missile and drone barrage targeting a Saudi city or energy facility, with air defenses intercepting most projectiles but debris causing damage in a populated area.",
+        "direction": "escalate",
+        "sign": "Headlines naming a specific Saudi city or refinery as the target of a new Houthi missile or drone wave, with reported casualties or structural damage in a residential or commercial zone."
+      },
+      "second": {
+        "subject": "Tehran peace talks follow-up",
+        "expected": "The Saudi, Iranian, Turkish, and Pakistani delegations will issue a joint de-escalation framework or announce a second round of negotiations with specific timelines for reducing Houthi attacks.",
+        "direction": "persist",
+        "sign": "Headlines reporting a joint statement or scheduled follow-up meeting from the Tehran talks, naming the specific de-escalation measures or timeline agreed upon by the delegations."
+      },
+      "third": {
+        "subject": "US military response to Saudi defense",
+        "expected": "The United States will deploy additional air-defense systems or carrier assets to the region and announce a concrete military support package for Saudi Arabia in response to the Houthi escalation.",
+        "direction": "escalate",
+        "sign": "Headlines naming a specific US military asset or system being deployed to the Gulf or Saudi Arabia, with a named official confirming the deployment as a direct response to Houthi attacks."
+      },
+      "fade_call": {
+        "subject": "Sports and events disruption",
+        "expected": "fade",
+        "sign": "The Dakar Rally relocation and Asian Cup schedule news drop from headlines as coverage shifts to the Houthi conflict and Tehran diplomacy, leaving at most a brief mention in a sports roundup."
+      },
+      "surprise": {
+        "subject": "Saudi AI air-defense procurement",
+        "expected": "Saudi Arabia will announce a major procurement deal for advanced AI-guided air-defense or missile systems with a Western partner, directly addressing the interception gaps exposed by the Houthi barrages.",
+        "chance": "medium"
+      },
+      "summary": "Over the next week, the Houthis will launch another major missile and drone barrage at a Saudi city or energy facility, with air defenses intercepting most projectiles but debris causing damage in a populated area. The Tehran peace process will produce a tangible outcome as the four delegations issue a joint de-escalation framework or schedule a second round of talks. The United States will deploy additional air-defense assets to the region and announce a concrete military support package for Saudi Arabia. Oil prices will swing on the refinery damage and the peace process, with Aramco maintaining elevated export levels. Riyadh Airport will face renewed disruption. The Saudi-UAE mending will produce a visible coordination gesture, and the Russian satellite-assistance angle will draw new scrutiny. Sports and events news will fade as the conflict dominates coverage.",
+      "generated_at": "2026-11-02T02:26:16+02:00"
+    }
+  },
+  "display": {
+    "headline": "Houthi Barrages Resume as Tehran Talks Yield First Framework",
+    "emojis": [
+      "🚀",
+      "🕊️",
+      "🛡️"
+    ],
+    "emoji_reasons": [
+      "Houthi missile and drone barrages on Saudi cities and refineries are the dominant story of the week.",
+      "The Tehran peace talks among four nations will produce a concrete de-escalation framework.",
+      "The US will deploy additional air-defense assets to protect Saudi Arabia from Houthi strikes."
+    ],
+    "tldr": "Houthi missile barrages will hit new Saudi targets while the Tehran peace talks produce a joint de-escalation framework. The US will deploy additional air-defense systems to the region. Oil prices will swing on refinery damage and peace hopes.",
+    "eli5": "Right now, Yemen's Houthi rebels are launching waves of missiles and drones at Saudi cities like Riyadh and Mecca, and at oil refineries. Saudi air defenses are shooting most of them down, but some get through and cause damage. This has been going on for weeks and is getting worse.\n\nAt the same time, Saudi Arabia, Iran, Turkey, and Pakistan met in Tehran to try to talk the conflict down. They all said the talks went well and agreed to keep meeting. Next week, we should see what concrete steps they actually agree on, like a plan to reduce Houthi attacks. This is the Tehran peace talks follow-up.\n\nThe US is watching closely and has already told its embassy staff to leave. Expect Washington to send more military hardware, like air-defense systems, to help protect Saudi Arabia. Oil prices will keep bouncing up and down depending on whether the attacks get worse or the peace talks make progress.\n\nA surprise would be Saudi Arabia announcing a big new purchase of AI-powered missile defense technology from a Western country, which would be a direct response to the gaps the Houthis have been exploiting."
+  },
+  "judgment": {
+    "rubric_version": 2,
+    "graded_round": "2026-10-24",
+    "elapsed_days": 8,
+    "dry_run": false,
+    "orders": [
+      [
+        "crystal",
+        "plain",
+        "persistence"
+      ]
+    ],
+    "label_order": {
+      "X": "crystal",
+      "Y": "plain",
+      "Z": "persistence"
+    },
+    "per_arm": {
+      "crystal": {
+        "items": {
+          "lead": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Headlines [46, 53, 96, 97] confirm Egypt's parliament authorized military support for Saudi Arabia, but the specific size and type of forces were not detailed in the reporting.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [2, 23, 34, 56, 74, 100] show the Houthis struck Riyadh Airport, Mecca, and the Ras Tanura refinery, all outside the Eastern Region, with flights grounded and a fire near Ras Tanura.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headlines [21, 102, 105] confirm the Singapore caverns storage deal, but oil prices swung both up [11, 68] and down [31, 116] rather than consistently holding above the prior level.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "Macron's surprise visit is listed under 'No longer in the headlines' and does not appear in any of the 117 headlines this round.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "present",
+          "evidence": "Headline [28] reports Saudi Arabia is looking to the US for advanced AI weaponry, which is in the general defense-procurement spirit of the predicted air-defense deal, though not an explicit missile-system announcement.",
+          "bonus": 2
+        },
+        "archer_note": "The bulletin missed the dominant new story of Iran hosting Saudi, Turkish, and Pakistani officials in Tehran for peace talks [5, 29, 40, 67, 95], as well as the Russian satellite-assistance angle [12, 25] and the Saudi-UAE mending [10]. Its three core predictions (Egypt vote, Houthi attacks on new targets, Aramco storage deal) all materialized in recognizable form, so the main thesis was correct and well-timed. The only notable miss was the diplomatic dimension, which was the week's biggest new development.",
+        "S": 16
+      },
+      "plain": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "recognizable",
+            "evidence": "Headlines [14, 55, 73] confirm the Saudi-led coalition destroyed Houthi missile facilities in Yemen and killed 14 at a market in northern Yemen, matching the predicted retaliatory strikes with casualties.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Headlines [46, 53, 96, 97] confirm the Egyptian parliamentary vote authorizing military support, but Sisi's specific public outline of the scope of Cairo's commitment is not clearly detailed in the reporting.",
+            "forecast_direction": "escalate",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "marginal",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "Headline [36] reports a Turkish parliamentary committee approved the defense pact, which is a step toward ratification but not the full parliamentary vote the forecast described, and the story is listed as no longer dominant.",
+            "forecast_direction": "escalate",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "fade_call": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "recognizable",
+            "evidence": "The FII Summit / Davos in the Desert postponement is listed under 'No longer in the headlines' and does not appear in any of this round's 117 headlines.",
+            "forecast_direction": "fade",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "No Houthi ceasefire or unilateral mediation channel appeared; instead the Houthis continued attacking [64, 100] and the diplomatic channel was the multi-party Tehran talks, not a Houthi-initiated truce.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin missed the Tehran multi-party peace talks, which were the week's single biggest new development [5, 29, 40, 67, 95], and the Russian satellite-assistance story [12, 25]. Its Mecca Defense Pact ratification prediction was slightly early, as only a committee approval occurred rather than a full parliamentary vote [36]. The main thesis of escalating military exchange plus Egypt's formal commitment was directionally correct and well-supported by the headlines.",
+        "S": 12
+      },
+      "persistence": {
+        "items": {
+          "lead": {
+            "subject_presence": "dominant",
+            "direction_observed": "escalated",
+            "form": "partly",
+            "evidence": "Houthi attacks remain the dominant story [2, 18, 23, 34, 49, 52, 56, 74, 83, 100], but they escalated rather than stayed at the same level, with new targets including Riyadh Airport and the Ras Tanura refinery.",
+            "forecast_direction": "persist",
+            "T": 1,
+            "B": 0,
+            "grade": "true_in_direction"
+          },
+          "second": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "partly",
+            "evidence": "The US evacuation of non-emergency staff is clearly reported [1, 47], but the UK military-diplomatic response is less prominent this week, with only a Greek-operated air-defense system mentioned [6] rather than Typhoon jets.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 0,
+            "grade": "came_true"
+          },
+          "third": {
+            "subject_presence": "absent",
+            "direction_observed": "faded",
+            "form": "not_seen",
+            "evidence": "The FII Summit postponement is listed under 'No longer in the headlines' and does not appear in any of this round's 117 headlines, contradicting the prediction that it would stay at the same level.",
+            "forecast_direction": "persist",
+            "T": 0,
+            "B": 0,
+            "grade": "did_not_appear"
+          },
+          "fade_call": {
+            "subject_presence": "present",
+            "direction_observed": "steady",
+            "form": "recognizable",
+            "evidence": "The US evacuation of embassy staff is still clearly in the headlines [1, 47], confirming the prediction that the US military-diplomatic response would persist.",
+            "forecast_direction": "persist",
+            "T": 3,
+            "B": 1,
+            "grade": "came_true"
+          }
+        },
+        "surprise": {
+          "surprise_presence": "absent",
+          "evidence": "Multiple new stories appeared that were not in the prior round, including the Tehran multi-party talks [5, 29, 40, 67], Russian satellite assistance [12, 25], and the Canelo Alvarez fight in Riyadh [3, 38, 108], contradicting the 'no surprise' prediction.",
+          "bonus": 0
+        },
+        "archer_note": "The bulletin's core 'more of the same' thesis was partially correct for the Houthi attacks and US response but wrong for the FII Summit, which faded entirely rather than persisting. It missed the week's biggest new development, the Tehran peace talks involving Saudi, Turkish, and Pakistani officials [5, 29, 40, 67, 95], as well as the Russian satellite angle and Saudi-UAE mending. The 'no surprise' prediction was the weakest element, as at least four or five genuinely new stories broke this round.",
+        "S": 8
+      }
+    },
+    "S": [
+      {
+        "crystal": 16,
+        "plain": 12,
+        "persistence": 8
+      }
+    ],
+    "verdicts": [
+      [
+        {
+          "first": "crystal",
+          "second": "plain",
+          "score": -1.0,
+          "reason": "Computed from the scores: crystal 16, plain 12."
+        },
+        {
+          "first": "crystal",
+          "second": "persistence",
+          "score": -2.0,
+          "reason": "Computed from the scores: crystal 16, persistence 8."
+        },
+        {
+          "first": "plain",
+          "second": "persistence",
+          "score": -1.0,
+          "reason": "Computed from the scores: plain 12, persistence 8."
+        }
+      ]
+    ],
+    "scores": {
+      "crystal_vs_plain": 1.0,
+      "crystal_vs_persistence": 2.0,
+      "plain_vs_persistence": 1.0
+    },
+    "consistency": {
+      "compared": 0,
+      "disagree": 0,
+      "flags": [],
+      "note": "removed in 13.20: the winner is computed"
+    },
+    "v": 1.0,
+    "u": 2.0,
+    "first_listed_wins": 3,
+    "first_listed_nonties": 3,
+    "hand_made": false
+  },
+  "history_used": {
+    "HISTORY_BULLETINS": "Round 2026-10-24:\nDuring the week of October 17-24, 2026, Saudi Arabia endured its most intense Houthi attack campaign to date. Yemen's Houthis launched ballistic missiles and drones at multiple Saudi cities, killing at least three people at the Dammam airport and an Aramco oil field in the Eastern Region. The Saudi-led coalition intercepted several waves but could not stop all strikes. The United States ordered some embassy staff and diplomats to depart, and the United Kingdom deployed Typhoon fighter jets for defensive air patrols over Saudi cities. Aramco ordered the evacuation of its Dhahran headquarters and asked staff to work remotely. The kingdom postponed its flagship 'Davos in the Desert' investor conference to 2027, and airlines canceled or restricted flights to Riyadh. Egypt's President Sisi sought parliamentary authorization to provide military support to Saudi Arabia, with the vote delayed to October 26. Turkey moved to ratify the Mecca Defense Pact with Pakistan\n- Houthi attacks on Saudi cities and infrastructure (dominant, escalating): The Houthis launched repeated ballistic missile and drone waves at Saudi cities, killing at least three at Dammam airport and an Aramco oil field, while the Saudi-led coalition intercepted several attacks.\n- US and UK military-diplomatic response (dominant, new): The United States ordered some diplomats and embassy staff to depart Saudi Arabia, and the United Kingdom deployed Typhoon fighter jets for defensive air patrols over Saudi cities.\n- FII Summit postponed to 2027 (dominant, new): Saudi Arabia canceled its next week's 'Davos in the Desert' flagship investor conference and rescheduled it to 2027, citing the Houthi attacks and security uncertainty.\n- Aramco evacuation and oil sector disruption (regular, escalating): Aramco ordered the evacuation of its Dhahran headquarters, asked staff to work remotely, and sought overseas oil storage partnerships as attacks hit its facilities and oil prices surged.\n- Egypt's potential military involvement (regular, continuing): President Sisi sought parliamentary authorization to provide military support to Saudi Arabia against the Houthis, with the Egyptian parliament delaying its vote to October 26.\n- Mecca Defense Pact ratification (regular, continuing): Turkey submitted the trilateral Mecca Defense Pact with Pakistan and Saudi Arabia to its parliament for ratification, signaling a formalized regional defense arrangement.\n- OpenAI bugging case and Saudi ties (regular, continuing): A US judge ordered the continued detention of a Saudi engineer accused of planting a bug in an OpenAI meeting room, with prosecutors claiming the suspect had Saudi royal backing and planned to fly to Saudi Arabia.\n- Oil prices and Gulf market reaction (regular, escalating): Brent crude topped $109 per barrel on supply fears from Houthi attacks on Saudi energy sites, while Gulf stock markets fell on regional risk.\n- Asian Cup and sports events at risk (occasional, escalating): Japan's football chief said the security situation made it difficult for Saudi Arabia to host the Asian Cup as scheduled, and the Dakar Rally 2027 was moved from Saudi Arabia to Africa.\n- Saudi helicopter crash near Yemen (occasional, new): A Saudi military helicopter crashed near the Yemen border, killing two troops amid the ongoing Houthi conflict.\n- Macron's surprise visit to Saudi Arabia (occasional, new): French President Macron made a surprise solidarity visit to Saudi Arabia as France secured additional diesel supplies.\n- Tanker struck off Saudi coast (occasional, continuing): The UKMTO reported a tanker was struck by an unknown projectile off Saudi Arabia on Friday, adding to maritime tension in the region.\n\nRound 2026-10-17:\nDuring the week of October 14 to 17, 2026, Saudi Arabia faced its most intense Houthi attack campaign to date. Iran-backed Yemeni rebels struck Riyadh's King Khalid International Airport, the headquarters of oil giant Aramco, and multiple other locations with missiles and drones. Debris from intercepted weapons fell on residential neighborhoods in the capital. Egypt's President Sisi sought parliamentary authorization to send military aid to defend Saudi Arabia. Wall Street Journal reporting indicated Iran was providing the Houthis with targeting data and intelligence. The attacks rippled through Saudi economic and social life: the Six Kings Slam tennis tournament featuring Alcaraz and Djokovic was postponed, three Saudi Pro League matches were canceled, the Asian Cup remained tentatively on schedule while golf and cycling events were affected, and Riyadh's airport stayed shut. Oil prices rose on Aramco risk, and the EU-Gulf Summit in Saudi Arabia was postponed. Separately, a Saudi national was\n- Houthi missile and drone strikes on Saudi cities (dominant, escalating): Houthis launched waves of missiles and drones at Riyadh, Jeddah, and other Saudi cities, with the Saudi-led coalition intercepting some while debris fell on residential areas.\n- Aramco headquarters hit (dominant, escalating): A Houthi missile struck the Aramco headquarters building in Riyadh, causing extensive damage and prompting the company to offer extra spot crude cargoes to Europe while oil prices rose.\n- Egypt offers military aid to Saudi Arabia (regular, new): President Sisi sought parliamentary authorization to send Egyptian forces to defend Saudi Arabia if requested, signaling a broader regional military response.\n- Iran feeding intelligence to Houthis (regular, new): Wall Street Journal reported Iran was providing the Houthis with targeting data and intelligence, and Saudi diplomats said Iran was encouraging escalation.\n- Sports events postponed and canceled (regular, new): The Six Kings Slam featuring Alcaraz and Djokovic, three Saudi Pro League matches, the Asian Tour Saudi International, and the FIFAe Finals were all postponed or canceled amid the attacks.\n- EU-Gulf Summit postponed (occasional, new): The EU and Gulf States postponed their summit scheduled in Saudi Arabia due to the ongoing Houthi attacks.\n- OpenAI bugging case involving Saudi national (regular, new): A Saudi national was arrested for planting a listening device at OpenAI offices and had booked a one-way ticket to Saudi Arabia with her family before arrest.\n- Riyadh airport shut and airlines repositioning (regular, escalating): Riyadh's airport remained shut for the week as Saudi Airlines rushed to relocate scores of aircraft out of the conflict zone.\n- Oil prices and Gulf markets react (regular, escalating): Oil prices gained on the Aramco attack and Hormuz shipping risks, while Saudi stocks were the hardest hit among Gulf markets.\n- Tanker struck off Saudi coast (occasional, new): A tanker was hit by an unknown projectile off Saudi Arabia's coast, adding to maritime tension in the region.\n",
+    "PREVIOUS_FORECAST": "Lead: Egyptian military deployment for Saudi defense. Expected: The Egyptian parliament will vote to authorize military forces to defend Saudi Arabia and Cairo will announce the size and type of forces being deployed. Direction: escalate. Sign: Headlines reporting the parliamentary vote outcome and naming the specific Egyptian military assets or unit size committed to the Saudi defense effort.\nSecond: Houthi missile and drone wave on a new Saudi target. Expected: The Houthis will launch another major missile and drone barrage targeting a Saudi city or facility outside the Eastern Region, with casualties and structural damage reported. Direction: escalate. Sign: Headlines naming a specific Saudi location as the target of a new Houthi missile or drone wave, with casualties or damage reported in a residential or commercial zone.\nThird: Aramco overseas storage deal and oil prices. Expected: Aramco will announce a concrete overseas oil storage partnership and Brent crude will hold above the current level on sustained supply concerns from the Saudi energy sector. Direction: persist. Sign: Headlines citing a named partner country in the Aramco storage deal and Brent crude price levels in the context of Saudi supply risk.\nFade call: Macron surprise solidarity visit to Saudi Arabia. Expected: fade. Sign: The visit drops from headlines as coverage shifts to the diesel supply logistics and the broader Houthi conflict, leaving at most one follow-up mention.\nSurprise (chance medium): Saudi air-defense procurement announcement. Saudi Arabia will announce a major new air-defense or missile system procurement deal with a Western partner in direct response to the gaps exposed by the Houthi attacks.\nSummary: Over the next week, the Egyptian parliament will vote to authorize military forces to defend Saudi Arabia, and Cairo will announce the specific contingent being deployed, turning a diplomatic pledge into an operational commitment. The Houthis will launch another major missile and drone barrage targeting a Saudi city outside the Eastern Region, with casualties and damage reported. Aramco will finalize an overseas oil storage partnership as Brent crude holds above current levels on sustained supply fears. The UK Typhoon jets will be operational over Saudi cities, and the US will maintain its reduced diplomatic presence. The OpenAI bugging case will see a bail hearing as the Saudi government offer is processed. The IMF recession warning will gain traction as the FII Summit absence leaves a gap in investor confidence. Oil markets will watch for new Houthi claims on shipping lanes as the tanker incident echoes through Gulf trade routes.\n",
+    "JUDGE_NOTES": "- lead: came_true (observed: escalated, subject present). Headlines [46, 53, 96, 97] confirm Egypt's parliament authorized military support for Saudi Arabia, but the specific size and type of forces were not detailed in the reporting.\n- second: came_true (observed: escalated, subject dominant). Headlines [2, 23, 34, 56, 74, 100] show the Houthis struck Riyadh Airport, Mecca, and the Ras Tanura refinery, all outside the Eastern Region, with flights grounded and a fire near Ras Tanura.\n- third: came_true (observed: steady, subject present). Headlines [21, 102, 105] confirm the Singapore caverns storage deal, but oil prices swung both up [11, 68] and down [31, 116] rather than consistently holding above the prior level.\n- fade_call: came_true (observed: faded, subject absent). Macron's surprise visit is listed under 'No longer in the headlines' and does not appear in any of the 117 headlines this round.\nArcher note: The bulletin missed the dominant new story of Iran hosting Saudi, Turkish, and Pakistani officials in Tehran for peace talks [5, 29, 40, 67, 95], as well as the Russian satellite-assistance angle [12, 25] and the Saudi-UAE mending [10]. Its three core predictions (Egypt vote, Houthi attacks on new targets, Aramco storage deal) all materialized in recognizable form, so the main thesis was correct and well-timed. The only notable miss was the diplomatic dimension, which was the week's biggest new development.\n",
+    "ELAPSED_TEXT": "8 days passed since the previous round, not 7."
+  },
+  "earlier_experiments": null,
+  "judgment_hand_made": null
+}
