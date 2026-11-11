@@ -91,3 +91,4 @@ Update 2026-11-04 (evening): 13.24 done. The text-only method is frozen for six 
 Update 2026-11-04 (night, laptop): the Site Folder Law is now part of the project (BIBLE Part 8 section 8.11, AGENTS.md). public/ is tracked and pushed (359 files, desktop commit b037332) and publish.sh fails loudly if it is not. The laptop cloned the repo for the first time and a fresh clone loaded with zero errors and zero 404s. Nothing about the method or the design changed.
 
 Update 2026-11-11: first weekly round 2026-11-09 done (32 countries, all four steps, about 28 hours) and published by Nir. Judge graded the 11-01 forecasts. Report with every judge essay verbatim: data/demo/PART13-WEEKLY-REPORT-FOR-FABLE-2026-11-11.md. Method stays frozen (13.24, round 1 of six).
+Update 2026-11-11 (later): the 280 KB report was replaced by a normal-sized summary with cross-sections: data/demo/PART13-WEEKLY-SUMMARY-FOR-FABLE-2026-11-11.md. Nothing about the method changed.
