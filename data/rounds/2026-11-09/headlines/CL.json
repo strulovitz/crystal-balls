@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-09",
+  "code": "CL",
+  "name": "Chile",
+  "window_start": "2026-11-01",
+  "window_end": "2026-11-09",
+  "fetched_at": "2026-11-09T21:30:13+02:00",
+  "total_items": 33,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 99,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Chile, Belgium join forces in bid to host UN biodiversity secretariat",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRUlrR1hyY28xakZFYi1lZGM4MVF2MXZJWGp5OV9jcDRQWVFvZWtGNF90QmdaTzVOeEk5dHdfRDhWQ2c3QlN3WmY2SWpRNHdtRjVuM3dMOUdCSkx2a09kbGhYZU5Qb2lMSHBNbGk0MWc0YVdGZjY2VElzMVNVYUxvZlFMcGh4dlFfUmhWdFl6ZUluTW5lLXE1X0Y3ejhFaXRfZ00wQlBTbG81TjQ1Y1dhcFc1QQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 48,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Oscar-winning Chilean filmmaker Sebastián Lelio dies at 52",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcHZLbWZYaDFiNElYd3BVblQ5aC1iOVhFV2lYRDV1UExUZW9iSmFrVHUyX1RRelBvOVFhUmtYYUMyU1NnU250eVBvbjhCSUI1N3h5bzFhNzVOSGVrdnVIdWFKV1I3endMXzBLTzMtVVhkcWsyVElsWXh1NjF2VFp5RlRROS1mTzJiWTFTUlUyVFBoRGM2dkM0?oc=5"
+        },
+        {
+          "title": "Chile revive \"Un violador en tu camino\" por el escándalo de rebajas de condena a abusadores de niños",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNVRmb1FGeUVoYzBxekkyTzdLY0lNWFhMRWVsRDU3NGxRUmFpR2NUVWVMZ1o0Wk1sOWJTUlJ6Z0xreXBPdjNacXgtalB1aXZCUjZwbzhVNnlIdmVVRnN6dzFDalRKV2p4b0VjWnZ1T1Y4VTJEVXVpeDh6dU9aS2d2QUJlWE1WTWVTMHZpR3BkckNSLWE3WTdBamR3Y1hvaHpqdTB1UzhjUzV3ZFpHaU84VUE0NFNycGNJRjVDN1QyU1plMVlyRWhlTEc4eXppRzdGcjJoYjU0VGRDLTE5VGltTHNWMk5pTDRUS0VHNQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 42,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "In Chile, Cape Verde hero Vozinha struggles to cope with glare of fame",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzllY2oyZl9ESHo2MHNiN1M0MDZ4aG9fRjFJaERJbHItbkRWYTNLMlYxVDFvcUFXNUU4TGhJQ0VxSlJBMEhnSlREclU2VkFrclQxZ3ltV0l2TEFTckdMVnFOdlR5SDVaVjlvcUtqaWhUdVVIWGxfMllIZThqd2ZJY0FUdVc?oc=5"
+        },
+        {
+          "title": "Chile protest demands minister resign over reduced sex abuse sentences",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQklFYkpDQWtENDgwMlEtMkdaTXp0bE1sT2M1dTFwQUQtTUNKYTQ3Zzc1aWd4a0UzWmY3b0p3NjY2ZjB5MkJxa0daUm5oQTBsZkFkVDc4blAwcXM0S3BTdm9Ldm1LeEFTSDFFNmpGZmIzLWMwSXpVRGtka3Qta0swSkRzSGFNUFJPcDl5U2FKRS1EaUlrWThJQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 46,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Paraguay's President Santiago Peña impeached and under house arrest",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13U2tMV01VSGd5ekZEWjNpRFh6SWhYMlFrNUNwa3Z2dkFrcmcxa29WcFNCUkNIbzZSS1NfVEtuWDJyZ1BwNV85ZW1oT2VBaUNVemNvUEdiVEJuTVE?oc=5"
+        },
+        {
+          "title": "Paraguay President Santiago Peña resigns after bank collapse",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aN045UTM5R3Y3cW9QSk9hMHJzM1pxRjVNbUNKY0doeUNjTGt4Q1hWWGNhRGV3NU84NTN1bkJEcE9oVVl1MVZBLTRYVDdpbW1zY0xybVY5bUMzOVE?oc=5"
+        },
+        {
+          "title": "Outlook | Recreating the art I lost after Chile’s coup",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBERkRKM29ka3VfbVNPUHQtLXI4b2l6OEtBSTJjNDhLNENackwxWEZ0ZHlNbnJyVVFac3dLVnZXaWN6MFJzMFdFcW5Ec1VndHIt?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 34,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 93,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Juez decreta prisión preventiva contra Santiago Peña",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUHM1ZHFFeGdIV1NKdl9EdkliRTlnTV9pd2JKQ1JCZ0tvWWRBRm5EUl8xZTVpOE0tSjUtdWt0dndqVWtKR0Q1X3l2Q3NUeXY3Znc5ekZrZDg1bjRoTU1sZVNaNDRYX0s1UVN6YjdKVC1tTGpVRHc4R2RIRzdqXzJWcXUwUTZIY0VuYjdORzdWSzVLXzh0UlRRamlTWDdLRTZfekVCaFEzbUpOOWIzbGEzcGpvcVNHRWtqX0Rv?oc=5"
+        },
+        {
+          "title": "Paraguay Senate dismisses President Santiago Pena over bank crisis - DW News",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcV9DZGFTSFdVVHpKM21pSmg1WDItUGdpeHdUM3loWGYyeVY3UEVKc1o5RXVFVUZ2dnpOWkEzRWNKc01OQWZmQjROTUZGVWhHSWY0dHJoMTN1blVBZHY1SzB5YjZ6QmQ0anR2RFVDNTF6WGR5TnBZbGNEamZ6WXRiQ29EX1JyQXZ5Y0QtWXBDUGRTdFVYZE16cS1kcWVNNm5vVHJFTzhyS0NxYlJ5U0RfcTRlLWttQUswVjBqZUMtSnAzLThzM2c?oc=5"
+        },
+        {
+          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis - DW News",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczBmcFpmMmtNdW5rTE9BenJGTnRGTm5pMkk4RlFGcG4tcEpxcU1aRW1xOU5xMWxMRDdVdTB3Y0Rfa2h6MXNkanYtQ2htT1RXLVdxUFdPM1VUT2sxc2FoaWlFVUZqa1pORFFyR1AxUnVyZ2phRC00SEN5eWVmb1AycVNsaFFGQzVUWUVhclJhQ3ZYdG94TjQ1RlRtLTFTZDV1Q2tQMkRxQ1pFNjIzdXNUSlhCd2JTdmJZUDRiNXlUSmVhQ3psR3pleA?oc=5"
+        },
+        {
+          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis - DW.com",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOenRjY2hvU3BsblNWVVVIRFl3N2pYd0NIZnVmb0RjOWs5RWVhNlhsZG53cVVUTFpYZEpvZjR1Vzd1Q0l5dXljZERFeTdNaUQ4M0ZsRXlHUkQ5TEUyLTlZV1daanlBRFQ3ZjB6QkxRLTlHTGJMY0t3Nk9xNmgtN3lSaFRzYVpDMDBWUzZ4N0RnTjZzdG5MZXJCbEVPTHFZOE5JZGd6Y21jRzFER0pWaUVmaVE3UU1NYmpxbl9vQVBqM0NtbG5ac01GSA?oc=5"
+        },
+        {
+          "title": "Paraguay Senate dismisses President Santiago Pena as bank collapse sparks protests",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON2tTdFhGcFg4NU82NUNDN1I1Y3I2NUNQY2Z0QVZYTjloNG1hdGtJWXptYVY4djQ5Wk44Z2E2eWVub1MwbEl5VUwySWtSTVo0MXRvbC1CQjFaRTFRRHRqV09NcXBfVl9PaWx1TXY5MEdPalk2TmpmeUk4d2tTdWRxWGhPWlhFZkJnZGdidlZkQV8wbjk0ZzI0cGNaTWpzT2gy0gGgAUFVX3lxTFBQRG0tckdQY1cwMTMzdWIyTklfZG14aWRnRlVTVFk3MVBLaDZVdUV0Tm9Jc2pIa2lVbEtUdEFvcjJINlJoZlpVTUMyekFPTjNoVHBkUnExUUhsZUVnWExCVWx4aXhQWkVqUDYzalNvRFRnYWUtN3lKNUdWSVkzYVBoS3hBOENEV0xpcE5yRVFVRG85aE45OXJiTmZ1cVQ1Z2I?oc=5"
+        },
+        {
+          "title": "Santiago Peña renuncia en Paraguay en plena crisis bancaria",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa0VlajB5WjJEbzRPOXV4N3RmbjhhZ1NacmtZUEt2ZDh6RHNHVEJacVRXQm9xMVo3OUpGWVpySTNFaG1NU2UyM1VzNk8wQnVzMWVsMHAwaXhjZkVpRHlPUnhNVi1BaHl6SHlwdGJpYnJiWnNqNWtNdFBTcGpVOHgyYUkwTk5vTVF5NVFxb0ktT3hoLXV1WTN2M3RoYUl2MllhNWNCbllWY3BQS0E3bVAwdA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 29,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Foot: au Chili, la nouvelle vie compliquée de Vozinha, le héros du Cap-Vert",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaGExbEM5NVpnUVdEOEFISnlfQUVvX1R3b05SdVZJMWpmWGlLdjMtRUZON3RZeGxvMndiSExZczZnOGNseDBGLUZvMDltMmRrTVZxQ2Qzc2VZUFBjbHdjSlZwTVB4YXhTTTNWZGZ0YXpfMDlUdVdfOVhONkJaRDFPbEZ0NTZtQ1IwTldMSnBmTEpoOE91U2hQMVUwLUZmMXk2UVcxZ3ZOVVJFdlA2ejhCWGJVaFZEN2Ftdzdz?oc=5"
+        },
+        {
+          "title": "Décès du réalisateur chilien Sebastián Lelio, oscarisé pour \"Une femme fantastique\"",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjVTRHcxeUZ0a2NOZDYyU3N3a25KTHFRM09oOVZHWXdQSzRLNnFvOEJILWxUUzRvSVNFbkJwdjZPUFctRFJZd0tKZW5kOEN5Z0JweVN2OGN6OW1ySzJiOW9RU0pSWm9lTGE5cFNWcEtDV2EyMjFXSHY5Vzk0dTEzOFl2RE9NMkFwTVVaNTVSYUU2NGNKRk85V0l5RnhoUUY4NUoxczZWckhwZ1dwTGswMU5ub2VacFR2cWhKdkIzTExkU3NYN0tIdQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 12,
+      "relevant_before_cap": 12,
+      "filtered_out": 53,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Vineyards in Chile Sell Land, Swap Crops and Go Luxe as Demand Fades",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYVNSSmt3anN5WWVEZ01DaTZPb3RzWVBNRGE0bzlVV2wwZEhid3NRbDFPNnFvczQ1NXZLM3dCTU56UW1QNHBXY2JhNThfN0RYTHBlSlBlbWl5WF9TVy1qTV9pYmNfT0JPQ1RvOUpRZVFRUXN2UXlybGdBSXNzWndTVmFBSXZwRm1ET2RPOWhybkU2V3lPXzBTNEdIbDFXZXp2Wi1rU1FVSjZjN2J2dmc?oc=5"
+        },
+        {
+          "title": "Crisis mundial del vino obliga a los viñedos chilenos a reinventar sus negocios",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenNlOGdQRTFhRVpyVDVMQWpGTzNnanRpN0VyamZlSWU5bDNyNDMtbDFoeTc4Yi12T1VsWkFJOE9kc01wdVAtWS1CUkJTSTM0VWpmbkJxdk5kQUt5T2Y0a2laYVI5dUZ0VzJMMFhTX0pwOTIydGEzWEEybGx4NWVBUG9ydWVMckFWc3RTQ0o5VHZnT1hBVU44ZUlOT2NOXzlDY1FOLVpEOA?oc=5"
+        },
+        {
+          "title": "Watch Crisis mundial del vino obliga a los viñedos chilenos a reinventar sus negocios",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenluSFROUTJYekRBWjBDeVN5aEt4RkV4VkhtT0ZtaHJsSHd4R0paNXNsMTlxMnJsQThoT092MllMd29kRU9Td25hNEt1MEdqTjhCMG1ONkcxVmhMVXkzeUJ3cHZHeDZEZFo5SzVxWHdsc1RhTHB4SF9IU1ppVTN0d0RSeWFQd28zVU8teXRSVThpWTQtSjV6bTlzWTZCRHhnNFNzbkc0ei10cHZER19nOERDeVlidm9VX25PVzJJNTRCQmNudFZr?oc=5"
+        },
+        {
+          "title": "Chile’s Annual Inflation Hits Highest Level in Over a Year",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeTVyeVoxcXQ1RUxJbzZ3SDlwblVWRlJHSzFIbWppMmFxZ1AzMmZ1THlKWl9uX0RfWDI2ZzRPMHRHWnM0WklkN0tQQk41X01LVVY2RTlLVk4yUS1kU2NBajZ2NzR3ekNtYWhrdDcyb2ZzaWpPTEFMLTROQTN1ZWo2cVpXM1hCa0VRVWZ5bFU4TlpHU0ZuajFBeV82bU5PcTViYk02d1k1SFFsa1FXc1NjTmNUdFZsUQ?oc=5"
+        },
+        {
+          "title": "Chile Rate-Hike Bets Build After Hawkish Central Bank Minutes",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUnRrX1N1eXIwdElyMGY2cU8tQTk3SWszaTNoMF83T1BRYzRaVEhXY1VpckRneWoyd3ZTRXZaV2pvelM5QUV5N2JacUl2YWJhSGZnWnNSdkN1MlRFeG5DeTZYMmcxV0NiR0ZxZF81WnlQOThuS0ZmemFqRTY5Z1NRaUYtS3otRVdQaDRmSGpmY3VONE5qNUxCLWpKV0dGcVBuRm1mTmFDaExaMnhQMFZFVWtncUFrTHdFZ3p4ZHBJeUpSTkludzY0R1YtTHI1UlZQ?oc=5"
+        },
+        {
+          "title": "Codelco Chair Eyes Overhaul After Production Scandal",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOU5Wa1lQcFBEVTQwYW11VS1fWDQwdWFseVN0aFNYdURFTzRiRkFfY1Q3UDFyQWhsUFZXYWdsRkZBWFBBZ1pSbG0yWU9iUDVEaFhkcXlWWnZqZi11dm9sSWpPZEN4dnlRcUJJRElweWhVTkZEdVUtNTcwWGRkOXRGcGFtNXdLLWJ5SFJnRG10dDYta1JtYl9ZZXNoQXZzZUI4WWFFWTRCWnpjYV9oNHBkc3ZCX0lKZw?oc=5"
+        },
+        {
+          "title": "Chile Central Bank Mulled a Key Rate Hike at Its Last Decision",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOczVwWmpFX1VSU2VtVFh5Zk5xR2hBZXZNN1JoTXZ5dU1SbG82SGV5WEluZGI4WXAwRWxSZTFfTGNLTTRUcmVMLXZoRzQtWkxhV0dsWk5VUnJxZ2x6UnJ4SVJVX25fdk85b0Y2dGl6QzYxRUg4VTJwbGFQakNORlU1SUxVbF9fTHBaOEhMNlJoV3dTZjF3OHpRVmY3cXdRUkJlU3Q4TVdnRGxacnFhVG41SHp1bw?oc=5"
+        },
+        {
+          "title": "Chile Pension Funds Breath Sigh of Relief as Swap Losses Narrow",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN1JfS3VnSnNzUEZwVkVfYVJzZDhubHBPNXZFcDRIZ3A2UGJlWk4tTGdabmhRLXlHZnVZUlE2U3hCRGRnaU1pcU1MU2I0OXdWeE9xeEtKT1JBZjcycVg2aFdrZGczclhoV3VLano5OEhObUlvblNjd1ZtUTY4VVBqX0R5WFBDRlJHbWN5QVJlME9ZeDQ0ZlJCb3hBT2tZalg5dDdmZmo0cXB5MW5SVnBGdHV3ZjM?oc=5"
+        },
+        {
+          "title": "Chile Bond Investors Turn to Inflation-Linked Notes as Oil Soars",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWHJKMzgzMmhMQS1qV0xTZjVVU3hDUEg1MHVPYU9MOUZDalFDMVF1OHJPSTZsanVqcWQzTG5IQm05N20xVkUyeUdmM2RmT1ZJNndlMHMzRUU3QnBQY1AxREU2eVZzcG5VcGJKaGxmTjE3VWY0RGQzN2R1YXlCSE8xRkNrTWJKWGpMVEdvbjRWMUZ6NnFwNWY3XzYxSnZSazRqeVMweG8tdzNLWExRd2lJNkd2ZXdnUQ?oc=5"
+        },
+        {
+          "title": "Chile’s Kast Approval Sinks Over Early Release of Sex Offenders",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3BGUGVpQ2Nqa1lTNzdHMm9mVDRDZndKa1JmUUpXTEZBZElDN1hpQXp6dk01bk9tbU1CUjlBREhzMFZiclItckk4c1BFM08xQUlIYnhaclVMTjVWRDJtV1F2Y01XcDRFVldfQ0RldXBvMERiZmE0RUxZT1FDdWYwU2VqUmZraThHemhTcnpZQURKdTBIYWMyWDg3TWJwMll4TUo3MFZXS2ViMWZGQS1zMVJ0eE0?oc=5"
+        },
+        {
+          "title": "Chile Economic Activity Posts First Monthly Rise Since June",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORWVmMkl4aVRXa0pvcFRxR3BzYWZlTDFnd1BRejI2N29oSFRCOVNUMDNYOW8yREhOM1ZyS2RaZjhQWTd0WjhKMGlCdGVVUHRZYzlwWmItYl9PYVZpb3hLWjlkLXg5a1cwVjRrVHJSdDM1azdGQWFaQzcwT1g3UVpxOVB1TmtYUGY5cHZqOUtCN1dxOVhWZUh2TW1QVXFqRWVyMmUwT05RVUZmNTVka2o0d2RR?oc=5"
+        },
+        {
+          "title": "Chilean, Mexican Pesos Lead EM Currencies Higher as Oil Sinks",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzdVUUk4V3BvUE13d0hDakkwM1ZnakZ0N0pZeDBiOTdhMzVLRU9QaE1oQ0NSVjdpQlc2VGlLVTFsWl8ySWFCWFFyRzVTU2FybUNzckpoVGJwQnRFNDh5UkF5a3lTdTEtZzZvNGE2dGpvVDZoTUlZb0YyVHZNRjhWVE9BVXgzTXJOMWJvNkxfeXlyX3U5UEhnNDhiN1VxdjZiYlF0RUJ1MEVObE40V0lsOV96ak8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 39,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Lithium Chile Inc. (LTMCF) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyc2hXR0JfWkVoNHQxRmRHZlNQMzBFVlFwTnNGdEhfb0VMMGxJTHBoUHhuWkNIVGJ6TTRGbHFRTHdpbmpQZklmNHYtS2VwR0FDWG9OeWxn?oc=5"
+        },
+        {
+          "title": "Accenture PLC Cl A ACN (Chile: Santiago)",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoU0dJcExfUW16TFdUdVBBMUxhTnhwaWRhYl9HWHBpT0hpcnpUSEs3RmVfYlQyZGhJby0tNk9STm1jZ0tuNk5TU2JzY2NDVlN2bUdpUTR0NW9IQXd6RTJNODdHWlVUSHdaYUhoNXo5TmZqb0VaelE0?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 70,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Scotiabank Named Best Transaction Bank in Canada and Chile by Euromoney – Company Announcement",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM3Z1R1puS2dPTzhWZXpvNXd5cl8yRE14SHRXbDd6YUozb2ppdFkzaWFjcExsQjdRaVZEWkYwcHRRV0N3UHE0dzJNUGtDMElMQW55bzB2WVdwY3pRTEM1TEdBLTVxZ2wxWjNLS05TY2hPLXloLVpIWVk5OFgzZUFVZ3pjaVE1bTNYVmtKWWRYN3NETTZaSnc?oc=5"
+        },
+        {
+          "title": "BTG Pactual Chile SA AGF, CFIBTGDPII:SGO profile",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OT0pzaE1iQVVWZTBHTnFtek52RTdNMWpWM3BLbk80T2VmSElSUk4wUGNleGhfdDhyWU93bDRJYUNsXzJnM1ZYVldCanBZQ25EYkFBcTBMWDV0VVF4RVI2ZFBzVnJ0c1JNTkdZZ1BkUUZtNzhVRUhQUzd4Yw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 5,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 73,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOblZZWERZN1ZWN1E4SG9oci1BSGdyZG8xVEJGbHdfNlZBTEFBUkthT2ppUlo0Szdkb2NMcENRaW5GNFJFQTVwQVNVRHliTGVmY3FOdVNhckk3OFV3U3RRaWJwb1MzaWJMdUxrRkpjbzBic2lLVUkxTEtndTlya3BrMl93UGpwTGttRHJKeDBqWUE5dmYyZWdiQ0FVcjdjXzVCZGNYVnNSRE01Z2FPaEt3Zm81amjSAboBQVVfeXFMTy1ZaVJKcWIydkdaVWZSaXQ5SEhvNW1MMXlIY0dnUDBBVEFUQXoyVDFMNzU4VjE5UjRjdC0xYUVaMTEzQXNNOHZaS040T1lLVE45aThRMzl3aUNweHU2S0w5V0dQRE9nVTNXSGVLMUw4TnJzOGxGbm51NkNnVEEzazAxdVFZQVk2U3FxSHU3LUc4T1NKMHNyc25GXzY4cGlWX2k2NU1OWWVDdXRoOTU1VEd4ellEbDZEZkpn?oc=5"
+        }
+      ]
+    }
+  ]
+}

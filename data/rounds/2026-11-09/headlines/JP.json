@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-09",
+  "code": "JP",
+  "name": "Japan",
+  "window_start": "2026-11-01",
+  "window_end": "2026-11-09",
+  "fetched_at": "2026-11-09T21:26:08+02:00",
+  "total_items": 132,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 13,
+      "relevant_before_cap": 13,
+      "filtered_out": 87,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Japan Tobacco hit by second day of limit-down losses after Russia seizes units",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeU9Cem45RWNaM3U2NXluS2xqZGxKbzZPX2dDdlFmY1lXYWlJb3NBcUt3eE02Mm5qRkJlNHZqMjBLZ0ptZElWM1B0ZmUzXzVCVDVBODVmNTdKM3ZrY2hxeGdQTHZqWklWSTUwZzl3RVdZQUZnMG10UElJaGVzQVY2TklROW94UURSc2ZlaVZweVNxdWFDV2VzazZYYVU0VEdORkdVY2RHRkxNWXZVSEEycFNzeTJyUWxjNDBQQ2NMdm43UnYxaXhVZzZ5dmlfQQ?oc=5"
+        },
+        {
+          "title": "Astellas employee imprisoned in China to be released in December, Japanese media report",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFjR25tcklTWnhjRDdJX0J4YjdUVTF3QU9hWUEwemp6cEd1c1NEb003Qm5kUE5WblVNN0c1SlBxZU4yM3lGdHRUZzR1cXpyNEs5VE9nTEF1b3d3NzlabkdLRDJWV3Nuc2tJQ3FaTU1MV1E5T0tUOUlKR2ZZSHp1TS10aWxrRzdiVi1ldlZlYXpJQldFMHFrUkRDd0hLc2NkUkp5NEpCTUlDSnJFTkYyUkE1SVJUcGw1cVI3dEdveEg3ckE?oc=5"
+        },
+        {
+          "title": "Putin expands temporary administration of Japan Tobacco assets in Russia",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeW9YS2daVjBqc2dKS0pnQVkzNnZPTF9yN2xDcFpibTRFRF9ULXBNVDlURjJfYS0xMjFaWHljQjRkODN6djRod3BMQzBBckE0NUxFMkRpeGcxQzNVOEIwb3BVc2VnT3EyM3Q1ZGYxWVdoZ3R4ZkZyRjBueW5BcS13WmZiSkVob3pjcW9VVTFWMThvN09WRVY0alZyVVEwVlpIdGVqUWlFcnVPdnFfRnZPSjRZSnR1WkJ2cVZHcHVB?oc=5"
+        },
+        {
+          "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTU9ZS0xSNlMtd3ptNEVtUXlpc0JDMFJpNVNJQVNPT29sbElqMlNEVVJIa1ItOEFzajMwT3AycHpKVFVqbU9oOTEwczVwZlA0WFZNX00xdGFtWTRrdHh0S1R3elNYNUZyby1oYW1aakppQ0pwZE5IUzFhUkNuYmdoQnk2RzRNNHcyMDhmQkxKcDZXMFp2N1lrR1IwdE11MmN6UDE5bnlvdFp1Y1p6TEtFeGU1NHUtU1p4VUMtVFZjMkNKVXZ6dkFCRQ?oc=5"
+        },
+        {
+          "title": "Japan's real wages rise for ninth month in September, backing BOJ rate hike",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlg3cE0wZk9VZ19wNWlhZ3h0SjN3MWloT1BKU0tiN2Nld0dXOWNmMVBxdE40d3VUMUMtZkI3Vnl2em9IdG5FSnNuZHJiZEgwemE5S2ZkVFNEUHZLMnMtS3J4ZWVWX0I1c1VFc21hM2dMbXVBZ3lmeldiNWVHS0w5TUN6MHY3YjFMVGlrYlZTSlJFRzVzTTlSXzJZei05YmV4ZkpoV09aNVAtOU5DbWdmQ2F1Y1hncUZFY0FMQTh3?oc=5"
+        },
+        {
+          "title": "Putin seizes control of Japan Tobacco's Russian assets",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVlg2TkhyTFdzWm9RWUdLZGwyMXBpWEYyY0VaNEhGdHh5UTdINk1GVW1sU0hJTDU0RkZYMDZMWml4bGw0bjN3S1c2R29lQ1VUdjlxLTdfSm95UU52REFtb0NadDMwNmdvR0NuUjZiWEdfa2R6ckpoRmRRejNDc3NraHNGMFliYXR5Q1ktRkVnQ1pBUEtrX1RTbXF3azQ4QXdsNVVjR01MNWtHQTJVZE9wcnRZc202alhnaHJHaFRTUzV2SkdJdkVj?oc=5"
+        },
+        {
+          "title": "Japanese savers have rediscovered interest rates and banks are feeling it",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnlnbmp2cDFGYlhlRDFqRFpUYW1zYWFKRDJlWTVQWjZ0Z2lMaXFyejdWNzcxcm1ScDk0aXZkcnF6bnpiYWl0RWZvSzh6NVFPdkVkaWRISnVBY09obk9SZHdXS01MS1BGUWJVd1o3YmJaVDM0Y0VwdzZSbTFWenliWkFCcThIcUJLeFV3OEdNdzF0RkVVWGU5LWhJUHBHWXhvZjZaa0JVY0VsV0oxeVZZQUs0NFA1MG9fbmctel9DVTcydw?oc=5"
+        },
+        {
+          "title": "Japan denies seeking Myanmar's removal from FATF blacklist",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUZuMGpHWlYxNDVaMHN4dTUyZ2lrYWdrVVBLV2kzTmxfeGpmOC14R3NLekJzUWVYcXpXVThSR0JzUWNYNlh4ZnBWckF0SEtjNWVpbUd4NGJScFZ4c05uN2VhUkRNM3RfZDR6dmtsbl90emRrWGpTc016eU5HQTNxclFSSDVObWdpTUdWdzRkOWthSl9aOG8wcmlTSmVHbWV4N3NqSngxNmFTUUE?oc=5"
+        },
+        {
+          "title": "Tokyo Gas withdraws from Ibaraki offshore wind project",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNGpzNHQxRm1UeUhRMVRPdWtOTHVPNVlwOFRvdG85ZkpHVWZUYzNVS1RTd2Q5ZzJMWDNOTHlvQ2JvbjEyMjJJVEFXc0ZVTXZTa0FhT0o0TjZiTUo0V29Jc1hrWFQzVmZqcnRwTVg2N2lnY2E3MEtQNnh2SkxaWGs5VHkzMW9oTjFBOHNnMW9sRHBGcUFFQ19yczV0ZE1xLUZjc0lz?oc=5"
+        },
+        {
+          "title": "Japan services activity expands for fifth month, PMI shows",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHJSdTJDMlBvc2ZsZlQ2czIxZ1IxTFEtTWJoYTFUUzl0aU0yQjRueG8xR0dmOUpuWk9wOTBQcVcyRldEUGFmM09vcHoxS090V256amdjVTVHaVNxMnNUVGo0M0cycXNYSXozM1VZdFdTdUdSY19kaVFBZ1E3b0N0S043Y3ZLTmxCRlJZX3kwd1NPWWdiX095YzJhNDIzTnhWN2t3NF92T2ZCcTlk?oc=5"
+        },
+        {
+          "title": "Japan to seek software vulnerability data from US AI firms amid cyberattack surge, Nikkei reports",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0JqeWdsQ0xmWS1STnJnN2JIZG1wbTBybm1ZMTlkRUFYdTRRZzhPcks4SGRXSVVGcHlDYmZnemRURmRra2ttcDk4NTVVMFZ3a2htWjVHT1JCR0wyNk9teWNWeXp0Z1FoT3ZEdEt0LW5IMVpiYVJENDNDV0lGa3I3TmhzcWJ0VzBaQjhHd2hfbTQzbWFXYVBEYkNHZmdNQnZvSFhhVEE4NjNnMkM0dm9Ma3hUQkpVNzZXR3FIbWRRajNPcE96UFJuSVg3VFJPZw?oc=5"
+        },
+        {
+          "title": "US Marine dies after training incident in Japan's Okinawa, ABC News reports",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjdlMHVuRlBybFBOZE5zOFAyQ0ZmUk1jXzlNYVQ2M042dUF2NkdiTjRVaUdPWEM2TFRCYWRwSzE2Y3JPRkFEak9rZzlFdHc0dmxfc2RaaXZjYkY3bTlyVVBiRzlCOUkxV1YxRGVMNTlwNm81aFVKMVE4MVNXMno3TkdqZXFKQUxhS1ozYjhSTndJR0I2REhkaVZteGtHb05GMUVZOTJWUjg5RWFMN1VFMGZ6bmRoVHRhZjJhTTN5b19VZkU?oc=5"
+        },
+        {
+          "title": "EXCLUSIVE: Japan fund JIC plans to sell JSR to Mitsui Chemicals, sources say",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ0NuZnZmczRXNFNBQlJvbXNmUXdpMk1DVnkzU29LVGVGc1dvTTlVRlRlQXZnUEFHSGRsY0lRQmpMRTNId1pQZ0c4Z2lmTFF1ZEVIQ0t0bWw2N0w5UVdmWndFQVg3ZjhkMFB4RDBCSjZFME81YzdrTGFxRWN2Yk1ma0ZVZy1aS05KVzJUY21HMlQzU2l4X21FX1ZoTVZXUGxCX2pZV1JZbWNlS2NxME5Ec0lrdw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 23,
+      "relevant_before_cap": 23,
+      "filtered_out": 77,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Japan to provide coastal radar and drones to the Philippines under $27M deal",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXFMdDYwVW1GYXA0cnB1UHYtR1JqRW55b08xMXVnUldTM2YwVGMyWlV1OHFDbk1MYmVvU1hOVXlqNDhiQW5Da284Nk5XU29IZlpFU3pGUlhhVVM5UUJUZzd6UWd0S2xYaGZHNnI0YmEteEExZ19EWjJoS3IyWHN0MkdEX2o4TkhVWE85dTBYWV9LdEVuYVpPdUlnRzc1NEJkcUtnMjVSbFM?oc=5"
+        },
+        {
+          "title": "Virus-related delays for Universal parks in Florida, Japan",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1saklMNVNiTkEtR0RWNlZiY3JCd1d5eERoXzc4aF9DM3VZSjVBRlZUYTJ4bFdkSWpPSGdtcmg2VjNYRUxNa1RGNURCcnF3eFVtOFp0WTNVSUdaQnBmQVZkUHpwaVMtZ1VzNWhUU3ljVlhIQQ?oc=5"
+        },
+        {
+          "title": "Shuri Sakuma picks up her first LPGA Tour title with an 8-under 64 to take Toto Japan Classic",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3dGU1o2OV91ZVBhSGVmODM3Mk54U05HZGF5LWZqR2hrRDJDMVVhTVh1S19ibDRmRWhXUTZfdHh2WlVFYVp5eWFDWm90V1JseVhrWV9XWm9UZ1UyMXhzVEkzdnZYaFZsNXhoVnJSa2tjQnJ4d2xFZElrSmRyU043MTlhVHlPc0VCQlU0?oc=5"
+        },
+        {
+          "title": "Strong earthquake shakes central Japan, shattering store windows and injuring at least 22",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWUdHZWFQdzh4U25aT0hXNC16czN1X1NmMzFMYXZleGZ6SWU1bWswdzktZ0pFbXRXQTBTajJTRGg3MFhMMzE5Q1NzMHIwU1dKMW1vUE5LTGdBU2dZa2NqN2J4TjN2aVU0ZDZaLWRaVjhqTjFqMXl3M0dRNUJrY3NSNnhB?oc=5"
+        },
+        {
+          "title": "Earthquake hits central Japan, shattering windows and injuring at least 22",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd1ZzNEtyM0RKeGYwd0dUUjRQWkhCOERlc1NMMURnYXZUcm0wYklvNDFmTG9EVTZ6SzRmVkRuYjQxY0pwcXlURkh2ZUlvdkZQcTZoNDRkd1Z3NzRQV2dINkcwQ0VnYXJrMGN1bmVmc3NaRHdNSmtyNk9rR1djOE5xNUxDVHRTUWM2SmFmUFF2RWszT2tncEg2ZUlLOExvY2dPX3c3eVFXaXNnWWE5X29PSDN1eXFEQnl1S1g4NkV1dXVJVkhZczRtODJkOA?oc=5"
+        },
+        {
+          "title": "Peschel scores in her debut as US shuts out Germany 5-0 at women's worlds, Canada routs Japan 9-0",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa1NZRmZEUl8tM1FYa3RkbllObUpuVjBfaVhnVHRGakYxOVg3SkNFSVhKOXNYNHp6TXpwT0ZwdnpzRG5id2ZkbWFjR0tkWFEwc0k1bjVuZW9HOV9iZ0tuMHF6U1NkZEIxQjE3RFRYSVZNcDN5YTlYRjZYYmRaOHRNOWVuaXJuU2RaRTc3UFdKN3VwSnh2OFNQeDZUWmpIX28?oc=5"
+        },
+        {
+          "title": "Kao Miura wins men’s figure skating title and completes Japanese sweep at Cup of China",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb0JGWHdTb0taeDM4WnJ5elpMTkVQbWZZWGljM1BacVRfNzRFM0swM1ZfbkdJamZEZG1ycFJLU1oteXlGb0tXOWdQSmxnUnpLSjMtd25iN2Z4MVU2b1N5YlYtRXl6QXB0M3liUlBSbFV1eC1JbDVZWUNkRXF5SVFMaGkzSHcwb3Rfa2JFU1FvTFpKTnF6?oc=5"
+        },
+        {
+          "title": "Wales edge Japan 28-21 in Nations Championship after late Adams try and ruck penalty",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZFFabnhJeE43UHhVMVYxM3FMRV8yWFNLVnJDc0RjOFF6WE9sbmFybkVzTlNNRTNrb2hXZHY0WnVCeHlGMWNRZnJQTl9QUkYwdWw5NGMyQU10RnlBRGY5M0ZJNkVJVTA1TXdsQWJjbEtVbGJZWWZWUE1tUFNYS0NEQU1oeF9xdzB2Tl9sMmp3?oc=5"
+        },
+        {
+          "title": "Aki Iwai takes a 1-shot lead into final round of the LPGA’s Japan Classic",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcVh6TmFjWXZ5RUJ3eTd5WW9yQ3ZEVk9HREZtelRsMHY2eXR0VnUwazZ2RW5uNGw5enk4SzNvVGlGSkdXT1N5OWVQWTJGR2ZVY3lPVllNY2dQVTBTeDg5Q0ZoN3BVZWpPMG9ITUtqOGQ0MDRVdjByWEtOb2I4QjJRY3JZRTVHUQ?oc=5"
+        },
+        {
+          "title": "Wales 28, Japan 21",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOFcxU19MUWVCaTREU2JVdmVGelR5eVVYeDFnZWFCSTRiS3dHdGY2b09DUnNzTTJZbzFTOUZuREYzcVhSSzFtZzBvRVdBZ1Z0VlczTE9hSGdIdHNqeWtpV2lkSGZKSTJnbTNxN2l1SDBRWjd1YTF6M3pjdUQyUTJBczNBbmVzbUctWGV4bg?oc=5"
+        },
+        {
+          "title": "Germany beats Austria 2-0 at women’s ice hockey worlds and Denmark prevails over Japan",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVTQzd0xkdVVKM0Y3RnRsellEa0lLeVlNX0RlMEduLVJfTnFUVjdaTDZWTEY0QkJRbjhHTHFicGgxa0JsY19KeUVCZWF4SGZ1V3pkQm5LY1Y5VE1IU3BpeThuSlp3czR1OWxkT3BXMEVILUFDclZrX3Y1d2ZoVVI0c2wxaXlmWFVpUmhrdms4SDdJMlFWNTJlckpHUGIxRmtneElQOURjdGFSdWxlUG1n?oc=5"
+        },
+        {
+          "title": "Japan announces emergency cybersecurity package following a wave of attacks",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVnVPMXhLMTFKN2NqQXFEWjVHc0hJeXNwZV9mODVqU09xM3ZrZ24ySE5mQjlXM1hEZWJhUFlPdy1SQm9sTFF3ZnBwaVJXR0VSUngxWXVsbzJQeTdYNVk4VGQzMTlNYi01SHlIOUV0UDlReG9VQmtKYmJONDJYajBnWGVRTmxmYUFvcXFaNE9DTlJNSjNrOXROVjNVWjdLZ1lQbFRtWHUxbVZiMzQ2bDkyalZaT0ZKbVJ0YVF3?oc=5"
+        },
+        {
+          "title": "Japan protests Russian takeover of Japan Tobacco subsidiaries in Russia",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnlrR3Zob090WmtxZVcyRkN2NTU4Vkg4QjNjQ2dvSUFlZXRQcXpua3hIeXhacm9waERPcGlOZE82RnF2UEk2QVlwRk40SXdMWHByWDNIQ25aR0tVcVBmX1J0WnA3NlA5VVdzYUE0b3BVM3BkakMtbnh3SVJBcVNDY2xCaWFNc0xHUUtGYXVKeWlfQjVOR3RhY0JlU195MWM3dUNR?oc=5"
+        },
+        {
+          "title": "FIFA council member Tashima to run against Infantino in election, Japanese media report",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQU9hTy1VZnNwZFVzRXRieC1rekxUcUJBSlBSeUtCdEZQanZwQ0V1V0RHcDR0bklhOVdJQ20zcVVTSzZTUlZBN1o2clJJblk5SnM1Szcxclp1RFpuNFJhUmxMbkRDVWh6bEE3WkJma1lVb3pheUN2bHFPRVRMUmJGMUxnajA2ZmFWRDh6a2pQOVAweUVNZ01MR2NXeGlvbGwyR01iRUVLbGU3dUk?oc=5"
+        },
+        {
+          "title": "Defending champion Hataoka takes a 1-stroke lead after 2 rounds at LPGA Japan",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa1N6V3BjSmgtUWMycjVzUmhlVmFWQ253WW53SVZwWmpkWTlJT1dCUnVlenVyNG5vZFE1UVhmWEZkMHZtcVRQc1VOdThFVFFCS09jcW04REg5RHJCVEtBS24zVDFRcEpqN2pUNEU4M3VwY2pCYk1JbXViQnZvVmRBdQ?oc=5"
+        },
+        {
+          "title": "Japan’s Tashima to challenge Infantino for FIFA presidency",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb3hNZ3IyeDVZM3RLT2VORTBwcEtMZW9lNzR6bjZFb0l3Z2ZONHh3M0wyTXJRV1lON01YNk5wQkltSUkwQWlHSlVBUmFUc1hpYmg1aEIxNkhqQXFuX1hMdVRrbnFFZDN4aEQ2N2FROW5mLU5WQ2xONzlzdzRxWUc5RHUzVUliRjV5NzAwdGNlRElfVzY2bGtCYnlfNk0tdVJ0M2NkWU5nZDE1R3ZWWUk5M1YwVVk0UQ?oc=5"
+        },
+        {
+          "title": "Japan’s Sony reports a hefty profit on the back of its blockbuster ‘Spider-Man’ movie",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU2ljWmhUei1PcUotNVhYcElOS0YwY0wyZTE5aVdjSEdxQS1rVTZrcDNvMDZBYmx6Q0lCWkg0RGpHVlUyVGZUVkp1eXAxZnB5STJPT3ZnSnU5blliMDk3cmx3c1k3N0o0Uk9KT2NtSGROVExGRm5yeTJHcE1OZFVxOVdVbWxfa01MX08wMEI3YlpndU9IRDhvRkVPVHFjMnVZS05Z?oc=5"
+        },
+        {
+          "title": "Australia approves seabed site where a Japanese company will store carbon pollution",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR0hLSkZzeXc3TWxaQVVXaWNXYVhoWWJYOHRzeEdlaDJmSFZnNkZBd1BYTGlsNXVRbkhYemNBTlNuU0pTMmlVVzJDZ3Q4QkQ2Wm5MZ281RnlKdEF6WUlVRVR3RHJPT2lPeHd4dDlsTHRJeDVyNkg1VzF2UllGLVppTnhRUE5lbUZmd3owS3lJN3lZdG1Xams5WFVZZDFkaEk?oc=5"
+        },
+        {
+          "title": "Japanese video game company Nintendo reports rising profit, falling sales",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRUgwcXBXMGNKdkxURV82Nll4SXY5dDMzZ2VNMUYxZVdVb2lsLUNRSXdEWlNmN3FuQlVDUy0xUEJ3ZXlsc3Y0Umc2OU1GX2ljU0UwSXU1X2VaWFNsSHpsRDVTSEUyc2JDQVRZYm5Ba1o2cV9HU3FGcjlKY19paGxKelpMYzJYZEd5dWgybVVrTHIxYlhiVzJzRjlId3p1cWF0ZlFieg?oc=5"
+        },
+        {
+          "title": "Miyu Yamashita shares the first-round LPGA lead in Japan as she tries for two wins in a row",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQzI0RU40cHBtbjZGVzFvS0prODkyNUpaQ3NuN3gzUEFnRktUTnpjOHpZYWI1VmVDZlJBNFlVdy1WZDdTRy1Ia1dZQ3ZIQ0RmS0M2WjZxcU1PQ0ZoeWV2bm9ReVh0QjI0NFdLTi14REw1VUo5RU1rVmVjWnJRWjd0eDFMMTBzWjA?oc=5"
+        },
+        {
+          "title": "Japanese online service company GMO apologizes for security breaches and promises compensation",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWtDYXFndkV4UTRNbTRLS2hmcHlxOHdBNTJmNy13NDJpcS01cmMtZ2Rqb2xTYk02Sjh5RlRvelo2WWthamtzckZkU2g4enNfZTFoNW1nbFQzdVctejFaNU5YMVdHNW9FdmlSSUh6cDhLNnhtTUNrbGJfMkYyMVZsTGUwcDhBTjFUZXBHREdHZTZ0ME1KT3dicUdiaw?oc=5"
+        },
+        {
+          "title": "Japan launches a new national agency to deal with disasters",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRzNHdHlJbTdxMThUdXFTM0F5TnVFZkRJellmbnJuR1h4RFhnZHp2SFMtYl8tZXVUWDBXUEFsX3Y5bFJLTEU2U3UwVlhNWWdLSjlRVlRnSXFBSC1VLU5oVzlVQldXZGRueEN2UmhFTFpGX0pxeHJwWnIyWlBEZjdhVERYZlQzcFVYRkN6b3F5ODZ4aDM1YnNFS2lGLXFFbXVKQkw2NDdZX0Z0OVRkRWQ4Ug?oc=5"
+        },
+        {
+          "title": "Mao Shimada of Japan wins Skate Canada International",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWEsxc29vbHV3ajY3Y2o5Y1VVUGdtRjBXeWVsOXpJN3lrcWZ5OFlDdFd3LTZ6NmZxNlIxZTg5NmExRlNmT0NTdGdlQmh1dEZjeG4xUDNPUWVhS09WVnFSa3I5WmlyYVdIVmhGUzBSbm5tc1FkRTZZVjYtdTQwNV9lbURVbGcyR3NaZGVtVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 12,
+      "relevant_before_cap": 12,
+      "filtered_out": 71,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "'Feeling guilty': price hikes a tough sell in Japan despite inflation",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVzBNcmYtVHduYllwSlFELTJ6UmVERVlHOExNaV9rc1RpOE1pT1ZyOG1rajhrSXVWX2xPR1MwcjVpSl8xRi1QZDNLNXA1aVVIYVl2ZEtRQmVlejJya253QUItU0ZYYndXT0FBMTViYW85RUdTV2R5X2x3b1RIZ01wNW1CUDNiZGRVR0UyVA?oc=5"
+        },
+        {
+          "title": "Sakuma wins LPGA Japan title after late hot streak",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwN0RIVE1xS01rV0tPYWZZclNCR1JJVmFBbVhnS0hGRTA5MVhDbTM2ZjVWeS1NU0ZMNzlUN0NEbUxHXzExOG5RZ3NOekZsbmFWZjg0cTl6UEdzU19hWVNOdGVHOTVWaDN2eUQzQlVpSVVPckNCSFZaZHJVYkx6dw?oc=5"
+        },
+        {
+          "title": "Adams double guides Wales past Japan in Nations Championship",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XVmZXd1ppYlpGYnlTamM5UUFEQlR6b2M1MVh4b2xCQlBuLTFlZ19DRjcyWWxhV0tXOTRxRzNZeS14QzFoVV9NMkNpMA?oc=5"
+        },
+        {
+          "title": "Kozo Tashima: Japan leader looking to bring 'integrity' to FIFA",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcW9uemV0ZzRhM2pWVEZ0MWNiUzFRVWNTYnVjeXJzZzVyNVExT2QxblVBZDNzaWtlOEJDMzczeEZyRWkxc1cwYUZMSEkzZkdRbkVaQi1abkVYTm1ldlBNT2RSLUF5UEdUeEt2QnZmeDlheTJ0SHZFaUl5X0trQ0tZNVlmNA?oc=5"
+        },
+        {
+          "title": "Rybakina secures year-end top rank with Tokyo win",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBjR1NyTlFrM0Qwa1d4N0hGOFpUTHlnU0FOTXFLTG4weFozdy1iek1rbnF2ZWpPZDN3RmFCRUhJTEdmQjhJLVBUQlhmcw?oc=5"
+        },
+        {
+          "title": "Wales pick powerful centre pair for Japan Nations Championship clash",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdVRLX2RDZWdNdkJLdmxPUFdNdGVpQnFMejhZZU1maXFNMUFYZHNLYUZ5WWRtY0tzR0trSE56bzhMdXVTZGc0Rnl0NVpqX0FRa3hObFgyNFJiWE15MUV4M1FKTWFVR0Q2YmV3UGwwLXpmUmp4U3ZPZ3V1ZzNvVEFCa042cjlfQ2F5dzB5cXdaOGw?oc=5"
+        },
+        {
+          "title": "Tropical Storm Champi nears China after battering Taiwan, Japan",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBjN2oxbVhMeTJDMi1MUGdvVUhaaG5mZjBRY2Z5NVNLTGd4c0EwNlI2MFJnM19XeW5VWVpWZ2Z6amp0aldrTUdyNkJuVQ?oc=5"
+        },
+        {
+          "title": "FiRa Consortium Establishes Japan Committee to Advance FiRa Technology in Japan",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY2dPT3lqdEl1aThYMHlrX0NKXzh1dGRSc2dLRXI3M1duV1dJTTBkTEpWbkpMbTE0Z09Yak1Ic1dsSk8zcGp6bExoYU5KT0JncDdKa0p0Rnd1dnhaRW5lYTN1dmVZZUNqc1JyemV3MzlnY3FDaTB2amFhcFFZVWotNS1IUlFQaXJhZUVoQ3BnMHRZZnJlbU1qRzlIc3ZTRFZQanpkeXFFY2VyT0ZBZUQ1ZUpJTmh3aVZTRkljeWRB?oc=5"
+        },
+        {
+          "title": "Japan boss accepts 'reality' as Asian Cup shift muddies departure",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUF9SMW1rUzZYRHpGd0hBX3hHQWNxVGt4eEwtakxFNWRZcVRuY3JrTnRQR2wzMzVUQzR1Z2pMOWNDbGdwMi0xVHJJRGp6LVFDc0hJc0hlNXVwY0dFc3ZKeFE0ck5EMDIwblphcEhjcEVCV3dVdjNhTXhGLUxTMU54clA5UTVOdDJ2RFM4?oc=5"
+        },
+        {
+          "title": "Sceye and SoftBank Corp. Sign Agreement for Fleet of Stratospheric Platforms Targeting Nationwide Coverage in Japan",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2ZNWGJNNWh5T3JscjRIY19pYmtMRGlaQjVoTzdjOU9XcWF4ZUJDeUVHcnNjbU9leTVZTHNUN3hxUkQ5YWFVWTZ4YnpSclJMNEpLY1hmcnU3cFlIaEZMbHM0SW1VRkZfNGprVlpkWVB2T2I2c0M5ZWl4YXkwZEFTa1pyaHJQTTlkc2F4bkJnV004ZG02bWNFa1RyUm4za0FfS1JlSHk3eFVoMmZ0d0E?oc=5"
+        },
+        {
+          "title": "SBC Medical Forms Capital and Business Alliance with AtomicSoftware, Provider of the medicalforce Clinic Management Platform Used by 800+ Clinics in Japan",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTFFRM3pfSEJUb2tYM2d2OEwtX3hLYU5vMjRDZVhoSnBtQ082d1dIS0FMNDlzUTNMM04tcjJ2SXVIU1pPdkZLdFd6MFdpUmRpX0tmQlBGMXZkUkFidFozSllVOHUwNjg2YUh1N0Q0YktOTG8yd3V5SzZSUVlTRFZrTlVpUFFZNXgtZnhBeEdmWEpJN3dveVRFUC1aLUFDZ0h4R1M1MVNXdGwzYno4TkZBb1ljeUt5NzBISHZRMg?oc=5"
+        },
+        {
+          "title": "Shnaider beats Fernandez to win Tokyo title",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4tNTlOaTlsRWZBZjdpZXdaOVJfb3FRRUNBc1dKWGUyazFOVUxvZWppQlFWSEtxT0xvOHgyUW9pamFWMnVuRmJyUDlpbw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 25,
+      "relevant_before_cap": 25,
+      "filtered_out": 75,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Nations Championship: Why Wales have a lot to prove despite Japan win",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00VF9ZNzVTOGotWk40TElTeVpSNG1LQlJ5Y2dtVS1zQmNKLURLTHUyZDR2ellmdjM5c3JTcjhoT2JrWmd1TmVOVXhTM0hRQmZWWHhVaGcwS2JkY1gweC1tckJoSkZPZ0MwNHgyVw?oc=5"
+        },
+        {
+          "title": "Dewi Lake: Japan win is massive for confidence",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUQXFpVUdWTW5acWZuVVVCdnR3Yy0zaWJsOWgxdHRZRHhUOXRUYkNyeDFFS1JVM0dMclZWV1hYeXhjUG5lcWxadWY5My16VUZrbWlRbmNGZUxpUQ?oc=5"
+        },
+        {
+          "title": "Scrum V The Warm Up: After Japan, New Zealand are next for Wales",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtN0RrOW9MTUowcktPc0NuVDVyQVFRUElkcVV0Ym1reGJ0eEx2Y3dGT3lHTW93ZDZuUHgyNHNnbTBBN1dieVE0MUc4SkQ3NDFCaURMdWloZExIUkt5ZmlXNVdKR2plT00?oc=5"
+        },
+        {
+          "title": "Dewi Lake says Wales let themselves down in Japan win",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hUTFlQ3Y4c3NqZTUxSXlxZmZ5aVNPSmZrTmtsdDlrSV91MTgzNGZSbVRWYmlZS2ZLaEQ4NVRSSUhSTG1LcmMybTVYOUdyV0RGbFNLQXQxcDBleWRMNGJSVURhTV9tZ1pwQ0tXdg?oc=5"
+        },
+        {
+          "title": "Wales 28-21 Japan: Steve Tandy's side labour to Nations Championship win",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pWG9BZlp1MERqaFd3VW12a1dSUV85TTdjS2ZUODBubVQ1RnZjZGVkaE9PQ0xHV3RDdllZUm84Z25ZdGw1dXpEaE5FRzJHUW01N2FRaHBkMWtPemkwYVF6dHh4cTZVRnFpY3pacQ?oc=5"
+        },
+        {
+          "title": "Highlights: Wales 28-21 Japan",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WVG5jMGkyVC1PLURYTzRPNk4xTFdmSjgtU1N5TEkxR1RqTXJNQkFCWkNab29ld0xObUlCOTRueV9vc0FPMTRaLUR4eXJIa1o3NmRQajY3djlQR3lZeGhVcDljVGdqT1RBTGc?oc=5"
+        },
+        {
+          "title": "Wales v Japan: Nations Championship date starts pivotal month for Welsh rugby",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwOXY5Nnd0aFp4ejRuZUh3RjdpM3loWHE5ZmoyeExtWnV1cUtzN1ViMi1xTFNLeEh3WGQ2Z3VJdGxxWGV6Q2JMSmx0ZWd3TFlkRjd1T05KaDRQV1puX05jaGwteFZ3VHpSWmpjeA?oc=5"
+        },
+        {
+          "title": "Tokyo vs Kashima Antlers: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16MHhtZ2xZWEd0RWVEc2xscW9HLU4xN3IyamRsSXUwTmc1VG9iaDhFa0lPX3pwVTZiOXo2dzJ3ZW1ITXV2SE5hb0FuZkhlMlQxZS12dkMzdVdaR2xuLVd5eGpubw?oc=5"
+        },
+        {
+          "title": "Nigeria vs Japan: Fifa U-17 Women World Cup final preview",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE04cEkzcjQzaUdpQmFqelV5TG5ZRHBqRG5qanZoUXFFYTVTU0RBYVR3Uk1HOGtoYnB1azlpYWJFZGloUkt2bUFiVnBUREFlTGYxRTBqSDVydVdJX1IxM095QVZ3a9IBY0FVX3lxTE04cEkzcjQzaUdpQmFqelV5TG5ZRHBqRG5qanZoUXFFYTVTU0RBYVR3Uk1HOGtoYnB1azlpYWJFZGloUkt2bUFiVnBUREFlTGYxRTBqSDVydVdJX1IxM095QVZ3aw?oc=5"
+        },
+        {
+          "title": "Shimizu S-Pulse vs Tokyo Verdy: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zNTg2T0R3dEctVW1zNjZTcjAxZWhvUnZ4ZkUwNFNHWG16OXdqSzVmUUlwbm5RaFQzNG04UzJmcjZsVEZKNnR1UHEyOGI4Z0dWX2RYQTNSSnZYeGpISklmQnF3dw?oc=5"
+        },
+        {
+          "title": "Steve Tandy admits he expected a better display from Wales against Japan",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sYm1wYnJzMk9DZkZYZ2VlVVBQZ21XRHhHZG9VVmEzSjFJYTk0UzZicWp6RHlRT2k0U2taQjl4dU1uN2hPU1RUbW8wbUJ1YjVNRVNndHA0Q3JvMTdzbmVPMW1iVlBwcFZMZkE?oc=5"
+        },
+        {
+          "title": "Fifa U17 Women's World Cup: Nigeria emeriela Japan ma turu ugo nke mbụ mba Africa ọbụla",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0U2V4OWk4RG9DNjBzM2FHSzR3cDFDcGwxcHdveDB4dUpJX1p2Z0c4VnhvYktuQ3prZzAtdW9JY1RNaEI5Z2ZvbE43dzRqSm1Hak8yS1gwMnA0NEXSAWBBVV95cUxNbVFkcEY2UHJaZFNWVENVeU1Tb0FKRU5DUGw1MklUb20yUHU4YkVlTzhpUThaRjFwSXlFQTc4Mm1feXkxanNWWUlKTXNRZC0yb0pDWEFyMXNFRXRnTl9Zdjk?oc=5"
+        },
+        {
+          "title": "Avispa Fukuoka vs V-Varen Nagasaki: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFbDdtbmJmQkFNX2xFSGVuN3RpZkRIR1BQUmJ4RDVEZnVwa0V3R2s3c0xPZ2FDQjNmYnFoTDVJbWg1ZnJZVHV0YVkweE1OeF9pdmVXNUpVVUFXeFJiRXJieWNPSQ?oc=5"
+        },
+        {
+          "title": "Yokohama F. Marinos vs Fagiano Okayama: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92Ri1Od1hveEQyVFNUT0JuYzZLUnNvdDl5OUZYS1FIVHQ2WThaSE9LQXZiaEhLd3NBMW9SQUQ5VGcxUV83WmI4OEdHZ0ZKVFdDMWdtaWdRcHZtcHRwaWg0Nllxcw?oc=5"
+        },
+        {
+          "title": "Nagoya Grampus vs Kyoto Sanga: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94M1pQYUY0c29lWHVCdnZldkRSLTM1MEo2OEdsTTRpa3pfSW1WSWNVekREWHlKQVdTZFJGdjNoTzkybGlWOWJLVFI1c1lZdXFkc05PSVpuWmFITDhWVU9sRmFLRQ?oc=5"
+        },
+        {
+          "title": "Japan's Tashima to stand against Infantino for Fifa presidency",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96VzZPM1c2M01NQUdnOFhrUFV4Wnc5TjVHejZaSnBYZmhUeDhySFE3cXZrcGx4MmJITWVrZVlhdHdZTGNLd0M2dGVmZlNHcGFpMFRqd3VPRjA5SXBYYU4tSHJQcUtkc1BC?oc=5"
+        },
+        {
+          "title": "Nations Championship: Wales opt for centre power pair against Japan",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mRWlyX0JZMFNqaXhLZGNHdE1YcEVGYlF1c2hIQ2FmNW5QSFRxMnc5cGZaX2JncHVNSXFvOVNDMmJkaUZGcW85UmRjc0hqcHNkejN1eXVPX3NOUGRWSVZDbnJWSXFKTlFsSGIwSw?oc=5"
+        },
+        {
+          "title": "Scrum V | Eddies take centre stage - Wales name team to face Japan",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TWlpaektJc1VBRkxHdDFfRTUtUEk1T3VoMEltMjJzRGdWb2VqZEVGTDBiU0NnMWJJOUVScXZLU1RKUlNOTnowMXNjRUtHa1lk?oc=5"
+        },
+        {
+          "title": "Nations Championship: Wales turn to English-based players for Japan match",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iaUFBM0JoSGYxZllrc3N2TThBdWdrQTl4VmRvR2otbm1fNWVaWEo3cXViRkhIU0JXLUxzbzQyUmFhTUJULXNYVUxIRjdWWEZ2WXVubXhLTHVXX3daN212R1lzWXZGNkc5RnNfZA?oc=5"
+        },
+        {
+          "title": "Nations Championship: Eddie Jones challenges Japan to create history against Wales",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GM2RnVXlyb2hDQ1IxVmV5MnRyTTk5WjJ6ZWtlMVhhWS1PU2NNQldQNnMtXzFYcmZLNXFNaHM1cW5aUjhGVlRmeVJOMndsZDRqU0dnUHotdGFRUElrWkRURzlVZWE0UE1NRko0Zw?oc=5"
+        },
+        {
+          "title": "Japan's quest to map the happy brain",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCb3F0bUhGQWxfZmRjd2RNal8tVjl2aEw1MzdLT2Fvc2oxb196N3ZyOVo0blVmNEdUdGQtckxmWlEzSVJxVU5uSUNZRGtzSENlNmRiTk1HSGo?oc=5"
+        },
+        {
+          "title": "The Documentary Podcast | Japan’s next meal?",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Fd2ZmdmdlczlYc3NkZHBTX29JVF8zOW0zNFBRM0NwcGZydGpTWWN5b3dEclJJZW5KYUE5V0Ffd250aFFEemh2SjZrYmJlZ1ZR?oc=5"
+        },
+        {
+          "title": "Scrum V | Japan review and preview",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81d0hXV1djVUNTRDVlc0RxSWNVZFNrYmZYNmxidDhRUUk2aTFGbTVvZXN4RlpJZm5TOFFsMlRTem9uSG1mN2lZMVRHVUFCTFBJ?oc=5"
+        },
+        {
+          "title": "WXV: Williams crosses for Wales' third try against Japan",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vQ2JsajdKNjd1X0dxenlLdm0yZUFDZmNsSDVYcG9nekp1aGNabFp5eFlfWmR3YXB3RGcwemtRTEFBd21lTjFXUEVUUC1kdHJ0MFlYcWJmU2tTRHZXRkczM1BDQW9WcWJPVnc?oc=5"
+        },
+        {
+          "title": "V-Varen Nagasaki vs Tokyo Verdy: Japanese J1 League stats & head-to-head",
+          "published": "2026-11-01",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vbTNDU25hNkZaTXhGX203NVlqNXh2TmM5ZkFpZUlUZG9rODVqV1dQTGR1YnNOeVVZYllyVlBwZ1RMWC1VSk5OWHYtZmEwZFpuWDBYdmdzVWRQUVdwRVd0d1pmSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 51,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Centuries on, travelers can still experience the culture that flourished in Edo Japan",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90TXNYYTQ0QXdiZkwxTXhEQTBqN0VPU3dtVWIwX0dDY3M0ai1nWW9qa0NlcUJ5aTZla3Bpc2lpc3g0c3ltaDRXTzFzN0NCbGhGRnhtekJ0b0E4Sm5yb2RjX1NUSnAyWkVfQ1oxM2hoVQ?oc=5"
+        },
+        {
+          "title": "Japan’s former soccer chief aims to run against Gianni Infantino for FIFA presidency",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNUp0UzNxRjNQLXdSNVpXYjYzN2NxTWY5TUhveF9zLV83UXdYMEUtN0tTX0dLY3A4bW1HN1lvNjBzRllBU1ZIa2tlbGswSEtlMEpoRjZNcmhFRWVaeHB3TW55dDZTRjM1ZXhza2JMTS1SSHJOcDlkamlhUnJzUXJnbjcwbDFlWUU?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 35,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Avoiding the heat, Japan's farmers are working nights",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkMtLXAwcm85UlpTTllQYmp2eXUtVzhqM0dHWWZLZWZNaFc2M2hvRWpCUGRLamdGcXppVTdVN29BeldGczVhdmZaVU5TLUpWdEdsMXF4QV9KempnLWZaU1dEY2g5T0lXUHVuTXFxbDc4VDlxMjdScXFoODlqa0NJeFZZTDRhYWJwTmZqOQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 42,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Au Japon, les hausses de prix ont du mal à passer",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdU14TVdKWS1TWUIyWkI3cVR4eS05YlFPQnM1QTJSMzNGNHVmRHRobmtBZE51bW92VFRpZ1p1WXlERndGMjBsQ3RMLWpXMXl3cV9FOE1TakN5Ulo3MXFETWhTYnZ2QW11dVQ5eF9oUzBXcVBiTjBnd242RERkQkxuS1gxZmNpVUstQUg4eE5KVnJHUUowbjRuVFVMeDQ?oc=5"
+        },
+        {
+          "title": "Crunchyroll, l'animation japonaise qui essaime auprès de la Gen Z",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUoxU29sTE9Rc3lUSmFGR01HbnhNTVVMRng4Sk1LWmU5aUVRSlloME1BbThrVzdVdDhRczN3RkxQem8tYjI1SDdLX3RXbWdyaUtLV2VJLWJEVGhEOHlyUF9CT3ZPSmxCRHA0NkJ0eXppRkpObThTc09zLWlQNjkzRU51d1drLWN0TXBuMXRtX1dScmZCcS16bUVFZzRxQjVwZHVTdExtM3FRLWQ3RTdRZnR5Zmp5UFFn?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 20,
+      "relevant_before_cap": 20,
+      "filtered_out": 80,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Russia’s Japan Tobacco Grab Is Risk for Takaichi’s Spending Plan",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThLOTlja0txbHhiaktuVmFBYU1FSnlHUUdGejItMVdLS1FzUm9LWXNWQ1RJcEt2TUo2QlRndmNLZlE1YjExQ2hqXzhTbVZXU2NwQ1NqSFhjVVdLMEMxRGk2RVI4V1o2R3lnU2VvRkcwSmM5MWtaUFdpRkY4eGVBSmc5R003MGdla1RhalUtcmpLand0a2RvY3BJYWZvcmpQZjlZblJ5a1pIel9JNUIwOWo1UlIxZw?oc=5"
+        },
+        {
+          "title": "Berkshire Plans First Japan Bond Offering Since April",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjg4SkFhMmdkTUtkSTdsY3hHbURQYUNHdlg0NWUtamdxNHVEZC1Ga3lWWWxBX3pwRE1ZazZpRFljWm1GRXM5MnpDN0hlWWNKVDRkdXFHNWcyOVQyN212NVdxWlZ2TFQ2TWh2d3MwdC0walJjMWlEN2p1OC1jV2JaWnpVZjRfYk4zWDNyb1FzNF9tb2xrVFFaYnRHZGZxRE80YkZlaURlOTdsbDdpYk9LbTZZTQ?oc=5"
+        },
+        {
+          "title": "Japan, Vietnam Eye Economic Security Ties as To Lam Visits Tokyo",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVG9DOWFDc3J6Q1VKLVMyYks1UlhSZnFpVFVhYjZpZ3duUGpySDBlT3lpZ2dfa1FSWHN2eVdWQVVlU1ppaUE1VC1oaXpYMTRMR042TG5kX3A4STkzWWhvRHZNeThvWGxITDBYTUpIM0V0alZaMWQ0YndMbDh4MlI2NUNZTy1VckpjelJlSmNLdU9ETGlFM3Y5UW9CeGw5MUoyODlJNjVpSzUyQm16NXJUT21YYXY?oc=5"
+        },
+        {
+          "title": "Japan Says Three-Day Yen Intervention Lifted Yen in Summer",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU0hIS1pBbjdyM0tsMldxMjVocXRtMW5PV2RrSkE4SjYxeG9zVG9FTTJnNi1IUkFUeU4yazRJMHlUenJHeWJkb1c3Tl95TUs0d2pwTmFGS2tkMlBGNzVnYm52Mjhfc1RFYWNBLVlWUWk3and3aUNzMlNuT0QyZHgwZWdsdnZvQ05NSkZRdVl2aGdfQl80WEZSMDV0WU9hMUJsQzJYOHlKNUI0RlJONVE?oc=5"
+        },
+        {
+          "title": "Mizuho Pierces Nomura’s Japan Bubble With Big-Ticket Global IPOs",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGQwUjFyOGJNaVZTN08xNmdRbkl4M192RVA0VklGWDEyYjM0V2Z4dmFKbTBNZm1QQmR6WHM1VmR2ZENPMGJKMmdKN0FYMkJCS0ZUOXRXUENIU2hVVHJkQkhwSktwSy1XNkNBRlBncUFKNU40N1EyV1lRTG12NGExZEVGaTIzR3psTmplQmVwZmZ2NzFSUmJjWEktMlRmQTE4ZUNfZXk2dFdrQUJLenNVZlgtdEwxUQ?oc=5"
+        },
+        {
+          "title": "Tohoku and Tokyo Power Prices Hit Four-Year High on Cold Snap",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQakhNY1ZaeXBrdWV5UTM3WU92cHhuUzg0U2ZtZkx3NV9vUnUzblM0ZUZPanc0S2Nfai1feXNSdTlZZHFJWWxDdkdsMkFUMUMwOTZlaHVLZ2lYNjdOWExYV1pjNENHM3o4ZElGZ21DZmlrcXlWaEFWUDl5bmp1bTV4Nk9BSHJySGFwQXRlWVhoUTE0aXFRcW9NczdEaTFud1VXSnE0NzhJZWQyZlNWUWxOdkJR?oc=5"
+        },
+        {
+          "title": "Japan Works to Shield Takaichi From Any Xi Snub at China Summit",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGl6X3V6LU55TkRZNHo0TW5VZFR0cnBCdkRQVnAyQU9hS3dkcnQ1ME1JVm9XTHBHWDdKUmpQX2Z3dGFjRFU0ZWVGU25rckozakpFNDNSZTRwc3dpdzBXZHl0ZEZMZkJ2ckh2MXpicmJsVVRfblJBT0gwMGhEanZGTHdOMVBJaTJUTzUtN1BLWlRZUFMwTDBGdkdLT2dPVTZVNTh2X3IwenFmTXZQZ2ZpS19fYVo?oc=5"
+        },
+        {
+          "title": "‘Godzilla Minus Zero’ Tops Box Office in Win for Japanese Film",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTEYwdlYyZHhSeWlFV3JFN1NzTi13ZUtuSjBVRVZWaThBQTY1d3I5SDhxNVpCeXBRVDdZeHg3OGNjQ1ZBZUI5c180NjFIenBRMmhXQXVPYVZmXzlNUEdVaE8ydzFpYXNTRG02RHp2aHpzZmU3N1JIbkkwVDV6Mmg5QWNHZEFvNDZOb21XVUloRnJLX3VrbDhDU1VzZlJrT2RtbUN1aXB3TDdHc191OFN2YWR3?oc=5"
+        },
+        {
+          "title": "Russia Takes More Japan Tobacco Assets After Seizures Hit Shares",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNenJOWm05WWVjbkhXOHA3M0tDRlNvS21ya1g2R09NcWtRUHl0VDUwaGtVMFBKMi1CRlNXdUhrSXVvUWREODV1ZVg0aE14RVRySWdsQjZpOEpvMWVPWkw5RndHZElpbGJNRnpyRHIyeDRSNFE1VWx1U1ZHd1NzRURHVk9sdTE4aVB6RWp6em16OXJ6ZkhfeHhGUDdLMzlFZDlyd1BpVEZkOG90dHhIV0Z3SUdfZDluZw?oc=5"
+        },
+        {
+          "title": "Japan’s Nikkei Breaks Below Key 60,000 Level on AI Selloff",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVW5hQzNwU0VSZVBHUnhVeTZ3RjVZUk1Xd0JsUnN2aG5FVlY3UkZ0emEtT0p5dkVYUXlmUmpOYXZ5YkRpdGhfdGJ0MjVNdmVYYUx4S3JPQ0tIUU1WUjlmdUNFVTdBVXMzT0R5ekY4TlRCdDFKZkpXS2lvYXozZ0lKeEZMMnVoU0dMTEZkN1VqLUhLYWtLeGJNeDJmZkl3ZFQxVm04MllrMW5UbENIMkE?oc=5"
+        },
+        {
+          "title": "Outages Hit 128 Japan Credit Unions, Preventing ATM Transactions",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdE01XzhXa2p2c3hrVUl3SVdEWnM0Q2l5MFpvNzFlcDZsTGpPQ1BzUHlRUHNQZGY2YU1FZWN6UktpTzZTbnBtbUtjQklHbkx1aTZuWEFTSU9PT1FRZ1dmYWIxb0taWXBDZTl0b0pYTjRadGJTaXNrOGJJUENqVEJFMkY1bkpFODM2Vl9RNzZTWTNPdTBjMlpJeHN3VEh3WVJFLUVkQUNrOU5TS2FmLUw4MnQyMXo?oc=5"
+        },
+        {
+          "title": "Japan Protests Russia’s Seizure of Japan Tobacco Assets",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmtGY0M2U0VxZk9BTS1yUWJPeXR3QXVoNS1QOG13WHA4Q3JMMmROX0tYTTcyWS11a3llVmJNdU5sQy05a3lZT25VVWM1UFlyakhCSzJVdk5NSmxVa2dnd2I2cFhOd2tzbFBDSEhjbGpPOW1mbk9jSEVNVVdKV09KQmpaMm1YWm1jMjFFRGx0Qy1USm50eWstUmtjVTB0WTF2U2lmaU9XNUVoZw?oc=5"
+        },
+        {
+          "title": "Japan Bonds Rally as Global Risk-Off Move Boosts Haven Demand",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWmJyTTlSNWdpa2E0WjU1VUdBOG5KNzVFem1CWVgwUHE3dVR4V3VXYjZBaTdZeE9Ndk80MDc4WVlHb0JjcmxEQXBfeEo0ZTRTWUFYWGJuaFBqUEJFX0NjVkxQUGdublYxVGo3UW5YM0hhbnd6a3ZXVnRIU2tBRXREenRUeVpfTW95ZmF0Q1VFM0FfdG41ZnJnUTE1a3N3Nkx2aHlqZ1luQVFoQmdsS24xSXpn?oc=5"
+        },
+        {
+          "title": "Japan’s Nominal Wages Rise at Fastest Pace In About 30 Years",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT19FM0d0ODVQb1BIdERuemY1WjFZNjZaeEt1Y21tamJycXJEVk12WThmZXlXcE9udE9DaS1sd2hXcHhyZ1FEbWVGb1B6VlBkM3ppRnl0R1ZXT29YaGpQU3k4OGZpSFBGenhHYjZlbkh2bWFMS1JweHRaUGtqOV9tVjlxZTBhcWloamctSjVTUXZUaG05NDdvWklTcWVlVWJSVHRLbFotQkxXSURDMDBfUjdB?oc=5"
+        },
+        {
+          "title": "Tokyo Is Being Reshaped by a Historic Real Estate Boom as Prices, Rents Soar",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcXlOYktzb3QyZHUwUTJfendnQmpWdHlHcTdLZy1QZVZ3ZC1HWjFlU0l4aGxXUUt3V2NtRW1JTXNWdWpyNlhvYWkwTGpBZ3JyQUJfYVBjTXo5ME9TNkxiQm1hclhUeUU2aDNNYW54b2hJRnBPRFYxeE9KNnJwWWR3SnhMVmFQalBWZTg2TzJIcDFGZDNaQ3lZX3V2bXNFQ0tTYmhCa0dhYVNsNTRKYXRyeVM3bzFWNFdFc3JDMEpHZ3RpUGRi?oc=5"
+        },
+        {
+          "title": "Japan’s 10-Year Bond Auction Sees Softer Demand as Yields Drop",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalBuUlRNamoyRVdlUFp2VkNzMkZJNXlzSkNMcTdadzBXbkJtVjVaUGluWGVoUW1RWVVTa0Z5OEUzbE1oN1BkYW9ORlRzVnhVNDFMclVhWG1mMFFQclh0U0NiRVVjYjJvcnh5NmlhZ2Z5eEt3QkFJN05jaXRYbjNvNllVVEMwYi1xak9ETjdrTllBeUs3SkRpR3h1bGR4b185T1ZlTTJmRlVnTmNmellUZVFGQQ?oc=5"
+        },
+        {
+          "title": "Japanese Equities Set to Plunge as AI Selloff Continues",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQk9sZnFoVEVxck80RGE2TloyNWdrb1VsVmY0M0t2cHFaaWxzYnhtekpBVlhZaVJnRlhKQ3dBVU9mTzQ2TksyNWRQRGxrY1NPMC1fVll4MmpBLWh0Z3h5TURXRWh2RG1BRUktVld2TllZUEcxX3BYMk5xSlRQOW5vcENJUk5kQU1hWWVIeDdkMEVnZWUwMmNuTkdOalMxU284N0ZzUVJVTUM1dw?oc=5"
+        },
+        {
+          "title": "‘Fast & Furious’ Tourists Are Flocking to Japan for a Taste of Tokyo Drift",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlc3NTNISkxNRjhBSy1iT3MzS0NSYjNycDYxSXU2X1pIZEhPV05VaTlFQ2pjcEdtX21MNTNqOW9Dc0FkbG4yYXNYQ195RkhRX0RBdEJIdWhldXpSTnQwUzZRWHFVc2NBQkdDSUdzOTQ0VWhCQmhOZXgzV0xpU1YtelVtbmtZNkZQa2p5QThRTjl1eEJSTGhlSlk4MFRVcEFXODFyZnJMdzk5RHRJZEE5Tm53T1hKUQ?oc=5"
+        },
+        {
+          "title": "Japan Courier Service Yamato’s Shares Surge on Farallon Stake",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXdGbnpJaXRFbzlQSS1JMHZZNmRkb29sSEM4UEtZRFp0TTJsdFlFd0E0Ylo5WlRlUzBETUpsSUZFYVFVLW42c1JXN1FuVmhMOThmN0xEUlZVRE1lT1IxVW92X25UckdhNGZKaS1UdjI3UEpoSUFob1NwTWtwc0RmdGNJMEU3SjdyVDRubHp2anlpTlM5cnFwTXFVcTVsNFdwNUpDb2llYTd6bGdsR0VwU1AxVQ?oc=5"
+        },
+        {
+          "title": "Anthropic Seeks Up to $3.5 Billion in Japan for Its Mega US IPO",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeE1JSHY4MlhmcGJZTDJ2aXoxaEdWaEZabl9hSTJic2FYODdCdk03cUtpRjNyVHNWOFp0MmNBeU1pa1ZBMExNT3cyNWlBVTBFWnhySlFjSUdUSU9DVjJ4cE5TdDFXbEJmVTJLMlpLT3BYUjZ6LXpoS2xQTnU4NVhvQ1V1TVlFWGdtZmp0dUstalZraDZOQURZNFlUYjJuTXRDWmFOT3QtNkNqazRUbW1NR3FXNA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 8,
+      "relevant_before_cap": 8,
+      "filtered_out": 92,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Japan Spent Record $50 Billion in Single Day to Bolster Yen",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY3lMUTI3WFg1TUlac1JZQ1Y4bDN0ejNVNXpKdmZJczk5dVlhaDlSbmhkamQ2TGdvb09hbWhJMjZpSFRCcDBpRUoxOHI1b3I4U0hMSXhWaUxYQWE2MVhXV2p1dGNBN3gtZXY4eWU5RVVpMzQ4ZFplbjI1aGV3UXZ4R2oxX0I0VHdmTXMtalRRMDVZQVdvellGandneGNCX0xhWjZLbDR2ZlBZM0VDdWktVw?oc=5"
+        },
+        {
+          "title": "Mitsui Chemicals to Acquire JSR With Development Bank of Japan for $8.8 Billion",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWlJPRjJiWWNmd1RhNVN2YmxSaVNvenpmTjV5ZFVabDA0S1YwWlVvbWFGdy1SZ2pHdER4ZDl4aUZRZW1iWURtdl9QZjcwUmNlRWU4NFh1LTJkUExSSEJBQi1CZzg2aG1QS3d1T051Yk02a1VrQXdCclFLc1M5a3ZuYzJXUktfejVHZFA3UjA0RDZIT1dUOENwZ1BPbUJmSVA1enpoWjI3R3VRa3NpbGhVcmtlWGNOZFNwcHpLQkdYSQ?oc=5"
+        },
+        {
+          "title": "Moscow Seizes Japan Tobacco’s Russia Factories",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRGJSYldodXRIdGxoX0t1RmdMSV9HRDM4TEh6SXBpc1BvMU5GWW1sNUN1SW1QNmd3Q0cycW1GWnlHanduYXNfQ3JiTmxoTTJaXzg2OXZzLWNkN095UThYNFFJYVdRWm9uSDJhQ1QxaEg5bFU0RE5fMURtcFktajE1TU4zZ291bDBkajlyTzI4UFppZ2l3cFhPYWF5eS1DNnc?oc=5"
+        },
+        {
+          "title": "Tokyo Electron Ltd. (TOELF) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrbDZiQVdwRkdScU1laXhIUmRLLUlXR0cxank4a2tKUDlnUjVnOWlMVVBzZ1ZRdjFnMldTbWtTRzBfUFF4WUNMNzRqVjBIajQtZVkxMkl3?oc=5"
+        },
+        {
+          "title": "Japan Post Holdings Co. Ltd. ADR (JPPHY) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40LWlLTGFobXVrUUd4RGJoZmItbUg2Z2FqYXE3NF9MWjBqcVpiSEdTS0ZGMWhGN1N6ZV8xVnlHYXU1QW5jMGJTZzZ5ZHE4blduZWVQSmZR?oc=5"
+        },
+        {
+          "title": "East Japan Railway Co. ADR (EJPRY) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KNHlib2p1SjNTV1IxU1UzV1lvMEZUaGRiU0lodWo4bDBZY29BcVhBOFBVSERaLXRjODZ6SXpfZWpRRXExMVFiQ2dqT3ZjdlZZemtVZUhB?oc=5"
+        },
+        {
+          "title": "TOELF | Tokyo Electron Ltd. Financial Statements",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pSFRvTlFIZW01cFBQU1lpOXhYNGNOSHlCX3p1NkdoWng1YXpSTnZzLVQ0REc2RE93ZnZjT3gwUGMzdzhIZlNqZ01oOE1JMzJBcGhfa0Z4WHY3UVJ6dXJMa3dta254djVXN296NlpFd01zQ2ZCendpag?oc=5"
+        },
+        {
+          "title": "Tokyo Electron Ltd. ADR (TELWY) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tcmJHVjcwMDItdzM3dlJfcXYtTzJ1Q09vYkd0Z2hONmRMWTFpZ3JKdjA2RUdESGF4VFRRWjJtcHFTd19wdmZWOHVCZXpCX3JsZVFRUU1n?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 18,
+      "relevant_before_cap": 18,
+      "filtered_out": 81,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "Janus Henderson Japan High Conviction Equity UCITS ETF - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVGRIOFN5bGR5VlhCdUVwYXRKaFJrblFGN3d4b0xHOXJVWm9tclpua1dBNzRRYklkTTlfanB4a1hWT25qYXd3WC1DcHZpd2V1NUpfN3NpdFpoemFYWGtKUG9pQnlIUkZNTGhRLTVlVkhOVGs1QXZyclNUdHZGTUt1THB4LUdpWGFQdkRlN0puWDZKb0pa?oc=5"
+        },
+        {
+          "title": "Janus Henderson Haitong Asia ex-Japan HY $ Acc - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZG9QSVltTDY2eUFsRE9XUzV2Y0lweUI0U0FCTkFoMlQ0VzNwbC1PWW11ejZBd05odld5bVEtTi0wWTBhbFR6aF8yZXVkQldNczVnQk9EYVJQSzlscHJjQnNRZVhtbkhkX2JPUGhyTHlaQjUxdzg4Szg4WFBnaFJ4ai1GTERzc1NMQWs4d0d3d2ZZZldt?oc=5"
+        },
+        {
+          "title": "Janus Henderson Haitong Asia ex-Japan HY £ D - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcHVxYy1QeS1reTFoTm5YMjNLbktya1ktYmhzVjZIQ2tOZkNTTHM2a0RYZ3NXaE05Vkx5QnduQWlpR2VBa2k3bEFUSnBDNUVVQ0t5cHZaZ3Z5UThla1d5bGQyenBvLVkwSEVGREZCV0NKNjRFOEFyOGRRclFkRlQwWnNnSVdjeEpIOHg2djVKbXRZSEhB?oc=5"
+        },
+        {
+          "title": "Rakuten and AST SpaceMobile Establish \"Rakuten AST\" Joint Venture to Build D2D Satellite Communications Network in Japan – Company Announcement - FT.com",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSVRqSDh3cm5qQTJFaFZQLW9NZmZvcG44dDl2TjlKZ1hOdnRodE5sUEl0clR5Vk8tV3k3OUxHUnNBeUhieDlvUHI0bUs5RVR2aW54T190VHhLa0FvczhQa2QxUEdjVU9QV1FOdkxFdFF0eTBTVVNRZlJuRnZMZ2xFSjc5TmdwSThzR3FtQUtnaHhHNEZtUjk3VmtuNFFsd2ZYRk04MkRB?oc=5"
+        },
+        {
+          "title": "Fidelity Japan Equity Research Enhanced UCITS ETF - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUtNb1NDOHRyR1VHMVN5c250c1RCbkFuU25nWHJFTjhsbjlPUmZNYzR0VnUyb3hVZjdJS203NUVjVnVIcVpxVFVLVXp5OElpUGNURld4cE1IT2FvMWFwR2dxOEhtQU9tU0tDV1VRbUgzSnV6eEZKVDlHY3pmdlh3eHNVZGFZZjhiYzI0ekxzRldpYU5U?oc=5"
+        },
+        {
+          "title": "Japanese stocks post biggest one-day fall since ‘liberation day’ chaos",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSnpPZ2l0SS1MRTJJQk1ZRWFuWGpBNG1tdGd5amlEaEN4TFR3VmNvSlBOVXA3OTJBMzE0azNrR1o3QkhVZ0lpcXhJejJGMEM5VTJEVnVsckZ0WWcyQ3doVVJGOFZQNTlYSGhIdTlZOHJTLS1wQzRYemVKRzBXSlhuUjIyQzg?oc=5"
+        },
+        {
+          "title": "Vladimir Putin orders seizure of Japan Tobacco’s Russian business",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd2p2WmlQMW5xZDRpN0lITDZkc2FvcXBHU0U2Qml5c0ZYOWxtcnp0bmg3RDNDVjVJbXVmbURjNVJpaFJTUFIzZERoTDE1VUZZa2Z4TFRWZFFKOWJuS3hBLU5mRE9udmVSQTZMNm9Va2ZOdHkyamNMdEFHQkdrTEhKc1lpc1o?oc=5"
+        },
+        {
+          "title": "Strong wage growth supports Bank of Japan’s December move higher",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tX3AxbDAzZU9zYlplX1NlLW5RZ3dnb2pNdWFKMUtHTnM0VGRneGd0OVhEcTJtbzZqQlhNVWhkZVZ3ajJKa3Jnc1hvR2JRQl80MWFRb1lJR08ySkJOWjNoWEY5ZzhRZ0NNWEhyNnNUSTM?oc=5"
+        },
+        {
+          "title": "Tokyo Gas Co Ltd, TOG:FRA summary - FT.com",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VZmF2TDFBbkpMYldmakZ5VVAyV04yRVVkV3ExTXB1UW1rM3d3d2hfbjhyNzdDMExYWHVHdkZHdUNoQnJtejJjeV9ha1NJZXhDLVBXOUdteGhpdkQ4NkRkYXpIU3NfUzhTLXYyS241ZVJ4UVlCQ2NKQWZjQQ?oc=5"
+        },
+        {
+          "title": "Japanese football official to challenge Gianni Infantino for Fifa presidency",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMVlvV05waGZLeWFSLU42d2k0Ry1JaDlCcG8xQVdrR2tTZ25GUERrbHlzS2JLODVuaDhjcUxjdnV0R242Yk5aR2c3VllpU0lhSkhiUEhET0hMZTVyeG9UcFpGZ0lLRXEzNmtMb1hSWVNXMGNyNV85YVV0cTFTRDdSS0hXd0k?oc=5"
+        },
+        {
+          "title": "Janus Henderson Haitong Asia ex-Japan HY £ - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWtacHJNT1VnZ0RiekJPM1FkV2FQcVN0UllsY25UM21XVElqSG5pUlR4WlJaaE1aWllHdzFJVlVVTWg1Y1BPQi1lT3prQ3dYZUw4LVVSQ2FlQmkwU1V0VDRjUVVSbm03NnE1VFBSdmtJLVZjRWc3WDlMdDhZN21sZmt6RlZHdkQ3Yk42OVFzaVNnb0pI?oc=5"
+        },
+        {
+          "title": "Rydex Japan 2x Strategy Fund Class C, RYJTX summary - FT.com",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1TTExS0luU3lvdkZnbVdhbzJ6S2xpbldNOUxSb2o5S0NxTTR3SWZHcjVhSWJYQVFyQXhjTmRSRWtlVmJLYjRLWHBONTBCZTNRQ1p5TGRlMW9DLUtVX055UHNkTkxFZ2l6dnR5SjBHcDJQdjh0?oc=5"
+        },
+        {
+          "title": "A Year in Travel 2026: Las Vegas Tops American Travelers' Bookings as Tokyo Leads the Wish List for 2027",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRWxHX1F3VmJYSlh4T1dPbTFnQW1TbkY4WU5HVkRhVGE1NlVSM0JhcGNiM19WRndQWGQ2b0NSRXY0c0lNMElGcjVfTjNaamwtYnNLUmR3dE5uYkJkTkVybVVVbEdZUGRBcDVBbHRWeGFSNDExQ2dnU3pJTEE5V2VSSmJlSXpsVWJlVkR5ODVaV0xBay1QNnEyZGR4YnNzZnNza2daMXVR?oc=5"
+        },
+        {
+          "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlNreXE2T2dFaVF4b29hdkFLUVl2dDRtV3BsSldmUEoycFB3MkxoYTV3MmJKWTdmSUZjVjBSRTd5Q2tzbjNKbE9JX1Y4enR6TDRFUVlMd2h4WHM0T3JkQlRieWtNMUtiX09oSTJrZndCNjNtZlJlc25saTd2Q05SM0dZb2k?oc=5"
+        },
+        {
+          "title": "Japan’s interest rates are rising. Will young people lose out?",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYk9oN00xWVJoQmhNZjlfQTY2YTd4QjJhU3ppeXVFaVU3U0g1Z1dOYUtaREt2WEZoNVNLUTZDaHluNENDRFktNmI2LVd6bDVGeWtJbU85SlFuU1lrTk91T0FIUl9CdU1JM0VyV0IyQm96eHdla0JQNC1sZ3N4eE9vOS10QmM?oc=5"
+        },
+        {
+          "title": "Fidelity Pacific ex Japan Equity Research Enhanced UCITS ETF - Net Asset Value(s) – Company Announcement",
+          "published": "2026-11-03",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOVV6N01Ia3BJM1FGdnI2UU1KczB4SkQxVHF6eFVhMHRucnphajdmeTBFU2xRWGV3Y3Jfcm44Qm13V29FT3RqLU85V3hPRlVaZ0hzU1ZwVi1GbGlTTXdqV01UVHBhNjNtVUJjM1FZNDU1WWR4bEEzOEtXSk5HM0F4TUE0REpJTEprTnpVMmk4MjQ3c2Jx?oc=5"
+        },
+        {
+          "title": "Japanese groups stage $21bn deal spree to secure gas supplies",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR0FxeDlOWTZ0czBQekhUQVJYOGYzUzNnSWZJaWdRNlZZdTRkbnRTSkxYT3pGUDNZVXlWRi1ra01MZEZIOXJ5ZERwcnltRzgxaU4xM3diOXQwQlVqaXBKYTlFY2czbWhWRDVRbXNOSjVCeHRRZlRxREdySWJvR1VvYUZLdEk?oc=5"
+        },
+        {
+          "title": "Tokyo Seimitsu Co Ltd, TYS:HAN historical prices",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PMldub2laLXAyOTg1dDB2dktFVXc2T19oZ05ZWnNGQ3Ixd2dqekJmcERTMHVjYVg1S090TUhLVVBOT0NPZFlzTUpoYWtveWtQY2xvVzY2cFBVYkh4ZXFqSTFWQVNTcG9WMC1TUjJBRTFtdmxwTmc?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 45,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "The race is on to build the first fusion power plant — and Europe is looking to Japan for help",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRDNZcTFDRkFORlMzQk9FU2wyMVpvY1RPMzRHSUZRSGJ4S2x2cmJKMHgyOHJGSWtXUU9wU2FPWG1xNUg2cVRKOGY1NVNxZldqSnFoTnZCaE1oS0ZuWVVKVkVlUzEzbG5tcGlJZ2VBMGxobGlkSjFRbFRXMXJEeFBMeHpn?oc=5"
+        },
+        {
+          "title": "Goldman Sachs Alpha Enhanced Japan Equity Active UCITS ETF Class JPY (Dis)",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FcWRpZ0RQYWotM01VZlBJT3R3SGVuTEttUWlUbVVlb0lxNFY5SXZRMGVmM3VzeVdQMFFSMWVVZkZsZ1o1N2JYVFZsSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 93,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "CCTV captures streets shaking as 5.7-magnitude earthquake hits Japan",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU0VFbnQyZThaQmNzb2J4RDRCSkZINGVjUU1TSUVUdzh6aEJPWkptUDJfaG12R3dTOWRmV2Y2UnlFLTJKbXVZWERRYnlPVmNFNkFXbEpqdlJpS2tFNll3YnA3VUlVZFRZdU52bVYtdG53VFA3bXlYOTBvRGVZem5pbVBQOEgwb3ZlTVdsNDVaRnFtTTJRU0lMX0ZhR3cwVDhxcmpaeVloYVc4WHJScjhhTUVtSnRiT2FBSVNR0gHAAUFVX3lxTE0xalJBTTJYXzdudHh1WUgxdEt4S1lqWWp5X3dFQkp3dzhNc19zbGJUOFVOaFBZYWEzTmw2QWpRM1lERnBBM0lVQ3dNWWl0QV9LNWIxVzVTN3hGM2xEY1l2N09hQ2tVX0dQdWo1amZhTHMwTW52NVRoRmVlX1NIR3hoTW1PQ28xMmZkUmJQbnZIQnF6T0p1REI1UE42eWF2ZU9WWFFKODNORmZtY2VWWDJ0NDhkSi13aXVuM2l0eVFEbA?oc=5"
+        },
+        {
+          "title": "Earthquake hits central Japan, injuring more than 20 people",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa05nV3hpY01YUHJaZFNtNE9NY3g1OWx5aG8wTW1jTXRLNldzTmJLMUZoLXFsbEhPNDYySGx2Y1JDbjBtU0VyRWVMTnZ1a2NGSW5fbXI5dFJmdWdNb0ZGTFVDbjFmbXplTU1GYWJsX2J0dlBNQS1PbGZiQXVSMHBNdEZoMGZCOUctT2hra2NndzhCbzhEUGRKQXFMUG42TVVo0gGmAUFVX3lxTFBxUlpNSG8zMVpDZ0o2LWJRUnNMaW9BUXd6UU9Yc1NvZlQ1MFlSLUEzRURvMHREMEJsYXF1NFFOUlZnUTdRb0s4N3Bkd0tfMzNlUUUyenlKNENxbnU0ZlFTRUxQUGh5NmFlcGNzcWVBUGZ5dHRKeFVTVFFET0JDdFhkVlRkNFFtREE5clpVelFUVXo0MW85QW9mSC11dVJadDliMDBlZ2c?oc=5"
+        },
+        {
+          "title": "Infantino’s Japanese challenger claims he could unseat FIFA president",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMy1tMmVRNkhHNG9MSHlYV3RFanZjVF9LbXFOc2VlOU43THJweXNqLXRfcjFCaC1CeWJQWGgzaGdoS1JUZzV6NWZTM3poMVJOQVN5YWpuNUgySS1FWlAwR0xGQmlVMWZ4alZoSTdOak1ob0lxUEdkTmJXZV9iZTliNHBLdmgydWo1ZWNtRTdNTkJRT0FfZHBOUGhaNkVFekc3bWRQQ3N0aG41ZV9lS25TZdIBtgFBVV95cUxOVW9TWDNldi1wRE1WcjZxemhFa1NnbElnemZMWVk3NDhIcnBHTlBRS2JZSkJTaVNEYjROMXM5N0ZsNlI0M0hLTTFZUVg0Uk9ITUpHZm1kQkhpazhDX1dfWGhKTlVZaTZSeHlLaE5zTkU5czNUbzNqY2lkWGxnYWY0R2IxdW9oaDBPM0M1QV9PbW1Ma3hQTWUtNXZRTm1TWXB6WHlPT2oyNWVBczZMWXRJMjIwOFR2Zw?oc=5"
+        },
+        {
+          "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVdhSFZJZHItMm02TVpTdnk3RjZWWEs0NGpReU9KS01KVVRUZ3JUbkhaZHJJNkJSM1J3VVRFU2VnUHB6bHl6b1MtSG85dS1uSHZURThFN1lRUTJHVTRLN29iZUpET2plWEIzUXdzVk9TZ0doSmk4Zk5Kc1VmY2V5QkctRV9NN25mX2tTb9IBkgFBVV95cUxPYUs3S2JXYkd2OG52ZWhCRU8yQWdycHI5Z0lNdFhnZ2dtZndYdmthd2hKMnUtWjJuY3g4VWlNSEFmcGpxNGM3OU9WelVPUkx2MFdlZnNuSGVuaVV5d0lJeThndG5jbjlYcllOUDdNR0dkVmxFcDZGSTBUYTc4YmdIWFNZZFhPMEhiQnRYSlhPM1VtQQ?oc=5"
+        },
+        {
+          "title": "Who is Kozo Tashima, the Japanese official running for FIFA presidency?",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekFNQjNWTEVjUDRuLWp6TmZlYldNU2ZKOTNTZDhmclE5cmpuMmh6UnFIU2YxNVBYSzFHWVlqeXhTcjNvTEcyRV93VzVqTmtkUzBhSUV1R01ETTg4cWZwLWZsSXhhN29IV1ZrNU9sQmg0YWdaREJERWdpSExfeTNPeU9sTF9QcjF3RzczNmdIMlpZb3VFTUROczdnWUpLRGYtTXVkNdIBqgFBVV95cUxQRW1RM3dUZmw5bHpNS3h5S29WZmxWaUhXaXBOeDFoV1RDWXNiSVZrZkozbl9NV3B0VlRRS3FvejBKYWhpOEt0ZWtNLW9sRHhJekJ4MmtOeGlzT0JEb1JzcHJqUFlWWFJ6LUZZeHowMnJxanUwMTVUd3RWdGVxajBhS2UxTkloOG5rZXhDWmJscFVGX2RIMHFDOWlqaTFGR0FSeWtrZGlfZzk1dw?oc=5"
+        },
+        {
+          "title": "Top Japan FA official to stand against Infantino for FIFA presidency",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQnV4bllnQlZ5SGgxOVRiamtZNUVWM0JEaDRwMmJuZng4Vk1hcV9NaG1iVkhkNFhpeDFNcWw1b2JoRnE0bXVqb2hTUnh5MllWaHctMkZIcUNRZ1dRZjlELUZoYjlUSUMyd0pMMGo5S21qczJxakFJbWhCZms5TWdKbFZkRm9nSjhOZ19nQXhfVENWOHYwdEJ4N0ZPR3dQWU9lYjMxQWVjeVdodEJ4cTF6bdIBtgFBVV95cUxOTFlneHJ3c21zNlYzZEpJQlM0VGJ0TEtVRXZjTU9TaGhrdHdvUUFJUThFNDlpbE55V3hlWnU3NGoxS0RfZWctVzhYZy0tbWdGZENRUGJMU2V4REw1c3hLMWsxY3RmdDRLZFpiY3pjSjFlUm9XQzlsXzhtT3otOEM2MGpwaHUteTUwMHBaXzZJNkc0VjlkdWRsZEhVUFpoRkJ2elNZbVU2TmdibGE4cUxZTzVNYkF1Zw?oc=5"
+        }
+      ]
+    }
+  ]
+}

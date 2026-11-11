@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-09",
+  "code": "IQ",
+  "name": "Iraq",
+  "window_start": "2026-11-01",
+  "window_end": "2026-11-09",
+  "fetched_at": "2026-11-09T21:25:18+02:00",
+  "total_items": 12,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 96,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5"
+        },
+        {
+          "title": "Iraq's Khor Mor gas field halted after drone attack, operator says",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSjc4dFNBUmN3UHp3Uk5FLUhNOElWeTVLRDNzSHZsSTAyUWZ4elN0eHdYUVJ5MDZBb0Y3MDNaNzlWbTRHMnctUFY5dGdNWWtKUnZTdHRPeXl1UUhlUE9mdTU0d2ZWTk9Hak9HaHVXaVBJQ3BoVXdfZnFxelF2aUc1MEV1U0JFQ1lDQ0s3RXhtRnk2dmoxZ2h4a3FRazE4Y3VpbGlDYW1zdE1DcDYxU3R4aE9zOWxkdTNuRVFxMzRlTDEtMDNHRmpr?oc=5"
+        },
+        {
+          "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVVxWlAwOFI0ZGd4TUdTNFozbzE5TXN5UGx3R0NnX0JRdExfcVhSb21iYklFOXJ2QUpncXdoSFB3eE1NS0FFeHljZXQxeWlEVTNKVWd1eFVLWTZmbVpsSUs5Q3NqNUk2b1JYQVNxSFIyTTMxZERFdDBWVUFfUFZ2MkFtOUlIYm5VbE9kQ2kzVmdUTV9pZHFxNWNvUVFhYkI1WHc5LTZSS0JMR1Nka3gwSjgzWWFZZXN6OFFTRHB5Rzk1THIz?oc=5"
+        },
+        {
+          "title": "Drones attack Iranian Kurdish opposition in Iraq's Sulaymaniyah and east Erbil, sources say",
+          "published": "2026-11-04",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTDVKUWNwVE9IVVdLZ2xLVW9qWGxrUW5GZ3FtRjZ6LTgzQWNfT0dXM3FzT3dsY05aNE4wWFRXLVVUckV6SUd5RUR3djlaeDlBVWlIVXhLTTRYY2ZmOUgwdFAxd0MzcXIwLXJvazlfc2kwSXpyQ1NMM1dOSkwxRnNUVlZBeW5CSFBWVlQwM3NSZENiWXFXXzJfTkVxSzVIUnl2VVFaME5hNkpfLXFiSnZsMVZHd0ZrVEJzN2oxRXVDX192WHFua2lna3lrUEg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 54,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Kurdish power-sharing deal cracks as one of two rival parties quits northern Iraq’s government",
+          "published": "2026-11-05",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMEVOWUlNSl9QRGFPQ3JuaUNLSUVHTDM5c3ljV0QwYjNxMWxVSFlsYUFpbU5abUlIRVpXQWhqa2h4Vm9KcnNOWjVZMTJmbEpaT084eXJQcEpJb2tOZWxRME12aG94LXp3VnN0M2hXdHp3QlA4ekZyRFpXNG9zUllhLVd4dHhzc2Z2YlpTZnhMSW1keXBaMW9mVFF1TW1WNUtyMWhJdDhDajNOV19qdG5Icg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 24,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 25,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 23,
+      "out_of_window": 1,
+      "items": []
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 10,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "En Irak, les \"regrets\" des jihadistes français jugés pour leur passé syrien",
+          "published": "2026-11-02",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTVGakFKR09qZU5qU2JBQUxqdGpsbklBQS03Q0RieDREbG96SmxSVlR5ZnkzbEp4c0xUN2Z4MEs1bGR2RG1xRk9wX2d6clRfMnhOLV9FT3hSdEtiWi16MnplV1RJUUVxbDBpQ1NmRUhYZE5mcm9rM2FyVTI0RGNiZXBKa2RmOGVUZVBzVkhzLTJnUXV0WEtvZ2Rnb253SmdZS21NS0cyVXRQRENlMFVkZ21UaGNBeE0zUHN3NTN0dWtOcjhCd1E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 50,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 33,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 12,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 4,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 94,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUFloQkNCNzRiYnhLS1pPa1puZXBsVG91ODBST0ZvQVVpZDJOVHB5WkZnUGE2X0ZkVE1xZ2ZVQWp3Y1JEYXJlWVNKODhDMEJpbjBrdTdwem9vZVIxV0NLSnhqLTAzX2Q3TW9EV3luemRhWE84VWpKeFVxaU0wX00xd0lDZkdJRTM1ekdLaExaVTVkb2xBTWpkSDctTFo4SXJaQ2fSAacBQVVfeXFMT05jOVJUbnFxaHc5cmt0Y0hIeWh5X2o3UFBZRklwcDNJd3BWR1Axb2xvRk1KVlZqT1BQX19pRTNyT2JmUDVfZmZISEc2dUNYOW1ETmIzT3d3dlhNZjhvY1RNbUFheldJenZBRjVZT1dQenA0eFhpMXlneXkyaTdnM1RHaS1vMFdtXzh3UHlWR3hlX3J0QkxvM2Rsek81M3dEbE9uSlZ0cHM?oc=5"
+        },
+        {
+          "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUtXa0gtQlN3YW1udzVuZlJKdGxOQ1U5a21XTlJTbUlHNUxvWVIyNWdIMFQ5WktsUkVHR3Nkcm1sc09lR05tcl80R3BzRTZFNEpqZ3Jvd0NiOUV2ZG5UR2dQd2s5aWVaV3hNLTNzdk01YXVaOWczLVB6b2JOMWMwdW9tQks3OHFRUzJENDl5SmtWcUliMUlQdXJyNzVQMDNPUWtDbWh2ZFFtMUVnUmhQX2hMUzZrZ9IBuwFBVV95cUxOSWlDOFpNa05qbFgyNVF3WnNmS0xxVGxFZ1BGSVVHNlBrWE8zd0oydURUYzVFMnR2bHJrY1RiZmtwOVc2STJ5U29HWGZqUHhXb0NueU5FMFQ1VkhxbmpkWUFpck9XaGczS0RIMi1aeGdBa1VuV3hsS0dwaENRY1kycEYyX2VpM1ZkWXl3QmxDd0dOcU9xSGVfdzkxTC1LYzlmMGZqU0gtQ05FUENmUWVmWGQ1QjZiN0pEWEhN?oc=5"
+        },
+        {
+          "title": "Could Iraq’s Kurdish region return to two separate administrations?",
+          "published": "2026-11-08",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXlwU2lGdFNNeGhKM29wazRDUVByTmlRSWVyQU15WlNNeHRjUF9pelpOaUxUN1JqN2xReGpfSk1ObjRheTg4UDhSNWdFSnVIbC1UdGpWM3A5eXk0Vm5rZ0VEUjNBdlhuWWpWaWZRX2IwWm92dlhVRVdmdDB4V0tISzNWSV9aT29ndGV6OHdCOXBxQkZEeG15N2Z2UkhlbWtHOXJZaXBscE81UdIBrwFBVV95cUxOWjFFd1VQdjlJMGtFWVZXWWdzVHFOWjFtY0NHZ3dwdFRaNjVRLURBbzBzSC0yQkcxUHJkWV90Skw0YWlFZWI4VXMwNmdKWW9TLWM5TEpILWd3cFlIazYtN00wSWxwQmlRREZmYlBUcXl3QTNTdmtObHFNM2FrakxyX2phekFCcW9JMkxUWTFsei1CNHdhcGtMNFNuVW5qNlZxUUg4a3JqM2JheHc3a3hN?oc=5"
+        },
+        {
+          "title": "Iraq’s FM says external parties using Iraqi soil to attack neighbours",
+          "published": "2026-11-07",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZXVNRlBhTUdiRjhLbkg4OW1LVlBUZGFMZm1qVDZtMjczNzc2aTcwcnFHWF9sUHBOc2psS2FXeXNINmdrVDNEN0RNZXB4OWQyVnNoUUJHQzZXOXo3dExScjdBcFN2OTNRYzFBb01wd2JtTjZoZWNsZEtRMk1tbndwX3VDYW84TEliWHh4N3BLVnNIVFVGVmZHeUdJUF9UTEUxMS01OWRkNFNDYlBWMmfSAbMBQVVfeXFMUDlBQ3I5emhGbHFPZDktc1BUUFZIQktGR2hlTU11OVlDYVU0X2syR0t0dVRMdmt0S25pekhkNkpWVzlxcEtjSmxvSXdBblgwZUFJT3BlNkRWa2hYTnN1b0ZZc0hPS1gxZlBZUXc1aW5pWDJHUHI4MWtWWDNHcmJQRFl6OExDbTVoTERIY0d3My1EV0RPNHV2cDltbEJDNDNTMW9Ibk5La2M0S0RTNjF6VzdGQms?oc=5"
+        },
+        {
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5"
+        },
+        {
+          "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
+          "published": "2026-11-06",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVfME83OVozQ0xVaFhEaUU4bG9yRWZBTmNVbHNVRXJLOS1hWFZBdnM4WWpiZTc5bG9aZ3pQcVJuLW85bGx0QWJvSU45bUpZaTdQWWp4cXc0OG8wb242SGdSSEk0VlMzSHlxdjFUbldDZnAzcHpISi1RdUZyNHpPNjZCQmNIdnZJdFFwM1hzTDNLcGNxVk81a3E5SUdlREtoQnhpNU5KNDFEdVdqenVfVWNMVkHSAboBQVVfeXFMTUZFb1JmYk45YmttZGZYSG9CTmpYd19CN2tSTlhaR3ROV3h2dk53bU1Ud3lzbzFtb2FZRkJVX256VkNlam1CanZjVFk0TmVEaGk5NFYtblo1UnBNUDN0TkR6cnFxV2hmUUlJRVJkOFVqRlhiekpkTmxxdkIxVFE5b0VyOWxvZ05sM1N6c05iUEQ4VndkSm1qWXVYZk9GVDZzYzNzVVF3VmliUFgzTF9kb053c2UySHZnU2Jn?oc=5"
+        }
+      ]
+    }
+  ]
+}
