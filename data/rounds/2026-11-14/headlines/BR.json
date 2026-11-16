@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-14",
+  "code": "BR",
+  "name": "Brazil",
+  "window_start": "2026-11-09",
+  "window_end": "2026-11-14",
+  "fetched_at": "2026-11-14T23:35:18+02:00",
+  "total_items": 64,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 18,
+      "relevant_before_cap": 18,
+      "filtered_out": 82,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Brazil's Bolsonaro shrugs off fugitive label, eyes future Brazil presidential bid",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZWlOY0VHcXJMM0JmZ2hmN1YtWmh5bkRrZFRweG04bDNhRDFvWTZybmwxQU56R1hpY0lta2o4bUI2MGx6LTIxaWt4TVlHd0pfTFlndEFQQmlrWTVyNms2Skl6M2lwWklYeGl4ek5PdC1jb1RFT1ZLWFVPeThLR1V0ZTNtU2tNN1czSW5TUkptOEFYcU5WR3NhWXZJRFB2a1JDbjQ3WGNKTXVlSkpDR1UtM3ZSbHU2REo0dC1HQW55S2F0YmZSQU9MbVZB?oc=5"
+        },
+        {
+          "title": "Brazil's Lula plays it safe with first post-election fiscal plan",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUNyNmZIckFSa241MENEc0VaV3VGNFNWU0dvT0Y5ZjhfZ2ljdG54V3lQQ0FGdnBBdjd0UWNoNzlkbUhNTGhmQldxZzAzb1BYbVpEVWI4N2s5QW0wX3ZWOGZjMGdrVGEwOEthWDhQMHBUb1c2TGNmX19JRXFiRHQ5TnRzUlNyUkpvV2hnMlJ4aEtxUXMtZU5zNVgxMURkYXE0a2R5aFZHRVZ0WFJRUEdKYzVEa1E?oc=5"
+        },
+        {
+          "title": "BP in talks to sell stake in Brazil oil discovery to Petrobras, sources say",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYU5lTXBjSHoxU29FM2N5NXFjb09mX3JuS3dCdldsc3NQaVdpZVFEVHVoV0VXY0NsU2s1dnRkTkhDWnY0ejl3MUk5Vkxzd01RYlRFelVCSW1fQUxUVXVYemhFbkhhR1FXQ1JBamp2OE1KZVVoWmpMaEpYRFJVaUt0c1BSTHFGWnBGWnFzczE1TXI5Ni1XZEJyODczQUVxbFhNTldxcDFtelR1NTkwQjAyU3NQVVI1LUdWU3lQUVVIX0JNV0k?oc=5"
+        },
+        {
+          "title": "Brazil inflation remains above goal despite softer-than-expected October reading",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQVJ6a0pya05jUTVhNXlpbmxpTmRsOEFfM0RuT29icFU3WE4yT0ctazV5bEU0R1hpZGRGZXU3LU9DLXhRQVU2aUYxMHVPSkcwcTRsZVRKN1RFS0FMVWxkZHJDVVgteEdWcFpCUXE5TGt4c1g3R3RRcHhjbDlkSFlDY1F4TnZ6SjVzdXk4MDdFSThUV1BnaTdpd2xOVkpkMFN2WWs4QTJKNmtEWTQyUEZtd09sVlhkX1N2YXRKZDMtLVduUC1wdl81MGpVTQ?oc=5"
+        },
+        {
+          "title": "Corteva shares plunge as CEO warns Brazil slump will drag on",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTmEwNUJzZ1ZHZnc5V3VQeXNJVlJfNGlON291dmNRRkx0TUZTNV9YUG9uT2pmNERmVkdFSEZ2Wk1mM0NqZmVTdmR3QnUyUHljMHBwNDhYN2xSYkNqdWc5ZjlBdHQ4OFh1OU10RXJIemEzTmNFdXE4dEJXTm5hQUQwNjFXVnFSckpQenVpVkxMdkVVd1YwYWNfZThiYmNnLXhXVkZ2STBrRzFicjNlMlFfalh0NjhvOVEzcWhCS0NMbjZuX0x1R1pR?oc=5"
+        },
+        {
+          "title": "Brazil to send energy minister to Venezuela amid Petrobras interest",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGVnTjJpeUE4VmVnUTlhR3dKWmFoV2UtVE4wdlFrdU9uRzltcUhDTEw0VDl1MlV1akJWdjFINUh4b012UmEyZ2RYYzBjU05XMC1DSEVBZUc0U1YyNFp3bVoyWFJQcUlQMnI5TlRmdk9abEZNajNwUmczT0ZxY2VSMVp6TGZqX2xlQjFxTmFDejQ3azcybE10aEswbDQzV242MmdSZUZIcWNROV83b3RPa0hFcw?oc=5"
+        },
+        {
+          "title": "Brazil unveils fiscal package worth up to $10.8 billion for next year",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUWhIT1NHMGE1SU4yUUVlNEEyUDhReGdPeUU5ak1aXzFyUlAtWG52TVFBX290MUZFWE53QThINHprU0hKRzdWSHljeWMzSm1XN1Jnc1RpQ1NuWTNmMlpaZHp5TlZnTTZKQzJjNFRnZXNXamd0ODhxSk5ONE5XU3ZNRnhnNjJkNGN2MXhXRzg4b1ZBdjV4Z2xNT25FekQ4UkhQUURRZC1IaDNSNlNFc2Jkdy1WZFBwY19zdldnRHotc1NfZw?oc=5"
+        },
+        {
+          "title": "Brazil electoral court fines Meta, sees no deliberate election bias",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLWlqWlVLM3AwUmhNN3gwV3FfNVlFTGZuelVaT0JWNVVGazJfRDFQeUZlOFlzMDRzQkVaTFB0T1h5d3VMX1czc1RlMmVSSzhVaHlZLWdBX3M4eUxjX0hVUThEVWNBdFRCd0N0QUhvd05wT21hVEotTTloY1RLd1Y4Tkh5Y2NXd0NPbTR5SmF1NzJwM1YwSkJNLVI1b2YyY0NVTU5IaUxZV242VUU5V3ZfRnJzZ2wxYUtmemE0?oc=5"
+        },
+        {
+          "title": "Brazil's central bank chief sees negative value in providing policy guidance",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzBNTVJyNkhQZTRVWFA4aEdobHowbUxzM2pqX21sYS00cEtLWGJEbGFvVUVTenNOVWZZdlFKb05Ba1ZyNDZ4ZE5xbTFlbnFxSklkdlNMZi1yYWFQRlpSbXhwcVJDQ25DWGdCcUxVZDBfQWxoNklLSjYyQVZDM1FjSE16MzdhbUgxV2xmTkFZa2dQaDNoZVJWUUFfTEZCZWo4OXV3NGRrZEwtdVN4SlhWczY4QTVOelRlaDlGM3F2V2g?oc=5"
+        },
+        {
+          "title": "Aspen Pharmacare wins approval for generic semaglutide in Brazil, South Africa",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSERteFdSRTU0czdqY3gya0xLaUJ2elg0UDNULWFFNnBQc2l0V1dXQU5jYlZrOFBXN3A3NHlNcklLSVR4eklVMjNhdXNKTTZydV9RWlhsTEc3SHF6MFFvbDRFZFh5dUxqNWNyWms4TUctd1FtekU0aTItX1dBT1QzQ2dsU2xOVjB1eTRibjJvRkFlSG1OR0hIZ0E2QzMxRlhGMWRyV09UMkpKWERvaXhFR2dzTDBOdURaRkJ4ZWlzOXg3TkVPWmZMOVZWSGJpT05MTURJa2w1cW5PUQ?oc=5"
+        },
+        {
+          "title": "Brazil to propose optional delay in federal consumption tax payments during 2027 transition",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUDFSZzJmSkhEVTBxWnJjVzRONU9ZRVpNalVfUzZPaWJhdHd4MVhCd3R3UjN6emVqWXlOVFJTUklyZUJDNkd2cWR1ZnRuR0JpdUh4YUYzeFJPRXJoS3NEOFN0MnpSX053V1FuVFJ3bVk3MzBGLWFveTZCTmtJTFBNLTZEa0dyNkNOampTU2gyZjF1VTdJZkY4aHZxTWczMkJNZml0ZmpWeEMxNkM2M3FHQ3VjVVAtb2NZdWl0TEZrcHFRLUE?oc=5"
+        },
+        {
+          "title": "Brazil plans measures for 2027 fiscal savings, source says",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS3FmUmhqZ1gta3JPLUhpcHFZMmM4U2NHa0xVSTNXWktJMTQyTDhoMDZzQzJmR2gxTXdUTVRqeG5KRk01OXc5M1dUdTFzNjBNbml0Rm40RU96SGVEUl90Z3oxM25Yb1VpV2VaUjd6ZzJSRWliU0NOb3oydFh4aEpKUXdSMFd3bHZvQm9IbFRtNV9obUFKMmExeDUyWHpQZ2xiNFQ3c19DQQ?oc=5"
+        },
+        {
+          "title": "Brazil's Petrobras to increase production capacity at another six oil platforms",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRDl4VnR0aDVxaENCaTBHVXRYM29NLUgyMElqRU5ITEl5Nk83bjRoQm9XWXpiV1lUTGNVdXdzdlpNRy16ckQxckFRWGJYMnNsbFE2QnE3OHRXWHg2aGpIcEhLVk80dDFuTGQtb2FjS0FaZVkwcFJDRzV6ak9NX2FzcUFJUTBQTEQyWS1ZeGNraC1vb2YwbGFsRkJXeEs3VFA3eFFDUmlNRHllYWpiTnJZcWlUaFRKN2VzMU9YSHc2STFmZw?oc=5"
+        },
+        {
+          "title": "Asia buys up African, Brazilian oil as shipping costs fall",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVVAxUUdfRXZEOWdvenVBWG5GY1JHcGsxVmxQUzQ2NkZMNUhrR1NLb0NZYXdCTnVPX2FsRy03VTdTWHhEOWlmckdvRFQ5R0MxLUtNN3ZvSnVwZjRkQ19oOEFIRDVLOXVUM1VKdmJsTlF3VTR0MEtEZHhMWEI1MXIxbVh1ZjJSbDRod0JfWnUyUnZxdnk0dlpZT1VFY1F4U2RNNUpyS3l3bFlvUQ?oc=5"
+        },
+        {
+          "title": "Brazil's Petrobras misses profit estimates, raises 2026 planned investments",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdWZ1NjdRZ0VzZFdGY3ZVd2lHaGdIX0ZJWV9jRDBxVTgwQ00xNUFBTlZ4Mm04N0h5ZURrMlBxeEpfNkM2TlhvLVNHUTR3ckphdVVGcWVETkpLeTNYenUxLW1OUm0tSHJKVG95YmRIRkpGaXpla0xybGpwSHJZLUdHaTFaWFlsdHNrVTZCRkdLeG05LVlHdXZKeVdyODdOSm1PSVBHc3lEWDlOa3dVaXc?oc=5"
+        },
+        {
+          "title": "Brazil's central bank signals high bar for rate hikes despite inflation risks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXp1eGp3MHJrZEdSVmZTQk9xRFBXcU9ac0haSUhRU3BHRGRGVE1uVlI2cnlwMzNMb3RMQmV6SzVtTE94ejE5WWNnSVdqUzdvNUpER2dFb3hmamlBYmUxZ19OZ0ZyM3VKZVhpWmdwR2lja09mckUxMHRNSmJ0TU1pVGxGTjk4bThPOWJMT09wVXBQQTdJRlh4WHZvRlNVRThzWXlyTzlJWkNvN0NJSnp5c1BiZVgtN2lpTS1SdURoMkVFcXFMclAw?oc=5"
+        },
+        {
+          "title": "Norway announces $64 million for Brazil's Amazon Fund after record deforestation decline",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOVpvQ2NoejNUVVVwQVlFVHRycHdMTzNEUmtLYjBoM1N2MjA5b1lFLWZzQ0dMaEpXSE9zcFVFT2tMQnJwUktZZTZZMVpEcElGZk5hbS1jd3NUa3Etek9HTkRETEs2cXp1TXNBbTYwYkJNcFpwWEpyRS1JRW0xUDJRaEE4WVJzbmlpUkZmRXN2bTJiRzVfVDlmSjdPRFZRNFZ3N25qRmxlVG9WNE52VGtNYnBTTGt0UEVpVjZiTjBaRDgxSEd6MkVDeWJVZw?oc=5"
+        },
+        {
+          "title": "Brazil's Braskem creditors, shareholders target Wednesday deadline for debt deal, sources say",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUGFnMmd5T2xKUjNXandZRFIzb0s0WTh1U1UyQlB0SGFkSlN4TFNxbk81OTlOdlBSd3F5M1R1dE5ZVUlKQUFrNHFsTU1YdHlITU95WXhqSGdUMHkzVDJSQm5oZllaZTJfZEFKZ1NYUWZUaU14SjFwbTU3OUVpMWltUXU0Y3RTYXRwOWlKbG9hb0hadlBFWXBFdkpXeU9kXzhKOWxyTXh5bkU2UUtDVGlFc1JWemdYNzA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 96,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Brazil loses 3-2 to Japan despite Vinicius brace with red cards for Ancelotti and Raphinha",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU2llZmpqblV2SmdmLXJtV2dFdGNDa2ZJbUExMlVla3V6Wl80YkFzWWM2RTFLUXdOQVNtU0VQVWk2WGptSFV5NUZlSDUzekxLVnRyME9YSzg3UjJDTWNCajhFNXFBUTJ6TWwxcGxJUTFXdEE5akZfbXNSbnk5Z1pZbG1EQ19BeFB0SjFha3R0SUZ3ZVc4anc?oc=5"
+        },
+        {
+          "title": "Brazil investigates strife between Israeli tourists and pro-Palestine residents",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2FSM2ppeHg2LVJHQ2JQTjlHdGM4MzZKTG1JelBwdUVZU3hQR09MQ2NZYXZDWS10bHExN2d5RVl3TjVQWEhpSHpFSTM5RExIYjhjNldoSGRmbGJiejJfMWVjZzFEZ08za2NxUzhzdTNUWE02el9ZOGt3RmROU2hjaldCSGtuTVo2MExYS2QxNWJPWWJOU2dkZzVWdHV3UQ?oc=5"
+        },
+        {
+          "title": "Brazil fines Facebook $1.3 million for failing to comply with court orders during election",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONjBBamRibTI5YjF3ZkVlU0pvTWM0QnBtN0RFbGVlNkFSQ0NSWW9aUlN5ZExRdUtRZjNIa001blZ2TzZHcVExWTMwSVZkcVRwWjM1Tm9hX2I1RmtVbS13S1JxNmVielB4Yjk3UmdhLVRtOHlfOVB5UlpUTHlKSlIwemxVekQtaGs?oc=5"
+        },
+        {
+          "title": "Brazil presents road map away from fossil fuels and toward renewable energies at UN climate talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRUtvZkUza2xwWlNCQ2gteVQ5YUpZUnBEc1BhRHExQTJaOFFuZ2xBN0NpaVo3d0xYbkZnU0hZd1VjZW5BQzVwNFR0bXNCcVJ3UVNqVFRYMG9hVDRMSWpqOGF0YldLY3k5NXFrRVZaR1loZWppQUJlblZVUE9nMG5EaW5yT2JqRllNd3huSWtxSml3RFdoeUFETlY3M1hPeDcwbHhFTm9YUDJLZXpCZW9n?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 29,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Japan score in injury time to stun Brazil 3-2 in Singapore",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HWm5IOWdzNEg2T2llVGFaTUt4emtYNXVGSzc4dkRLWkpDUU9mNENHcXl4dnY1VWJxM2RCMWJZRXNrd0ctZVpaME1IZDEwbUl4ejdvVU1Eel8xR2premJfMVRlMkw4RjdNcGpZRDZVZnV0V0xFT0tKRVExTF8?oc=5"
+        },
+        {
+          "title": "Motive and Vivo Brazil Win 2026 Leading Lights Award for Network API Monetization",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14QWxTc3dNQldLUWdBNkQxZW02bEI4bFYyeU1rb185Z0dPWGdZYW5zSWtwTTZyMXJLNDEwS29TVml0YXZpV2ZfLXVtZw?oc=5"
+        },
+        {
+          "title": "Brazil's Flavio Bolsonaro isolated, ridiculed after self-exile",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qdU9fa0F1ZGNSdXJCbmFNUGhISXdqWE1xdXZCcUF6MjJwSXMybVJPbk83cGtqOVk1ZmFNcnJyaEZyX1NpaFFDblI0OA?oc=5"
+        },
+        {
+          "title": "Video of Brazilian festival misrepresented as Shanghai Stock Exchange protest",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiRkMySUx6bmZ0NmhqMlE4WWk2NkFlR0ZJa05YaUhSRUdtOGxySk9OTERESlpaVF9Xd09qOUpCWFZzOU8xb3BJSnc4VkZ4RGVTdW93WVQ3ZFY?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 73,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Japan vs Brazil: Friendlies stats & head-to-head",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2Qm9jSm9mRlB6ZnIyX2ozdkszUXRQcTVKUUd6cV83QU5pcGN3bVpia3hFdjRjMUVrRXlrRUxPcmppMi1kWXJVVkcxVThpaTcwamNGek94UzRyRktSM3A3MC1jSk5EV0FoMkRmUA?oc=5"
+        },
+        {
+          "title": "Ronaldinho: Brazil legend set for first start for Italian club Ravenna aged 46",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IVjh0aXJrMnpXU1lSVGRQXzdnYS1oMXlUOHpONWgwdUpCdEdJVUNNOV9vbkN1WE85Slg2dm8wR05RYlpISUZnQWlzVjhxN1JBRmhJWTBlRS1haGY1em1OMzJ3aTRqX1h4?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 23,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 58,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Brazil – All Content on this topic – Page 1 of 16",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xTDhYVG0tTFVkVVdnWTE3cW1PWDVaQVVfTElsalNIbGVDUGp4eHFLX1JtU1BBUDZoWE5LTzJTT0VmaUJZZ1hla01yWngxOTRBbi04UWdIU3BMdw?oc=5"
+        },
+        {
+          "title": "Brazil elections: Germany's Merz and other world leaders have congratulated Lula on his victory",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTjBxdk16ZW9yQmJCWmwyaFd3ZFRLdFhtV2VkQ3JBX2NpN0M1R0tIcG1QS0VHUWZUZEJLRW9IQmFnZGZkZVh2ajJvSW1oUkIxUkRubElYNlpqWjRLS3ZMVFFXTllDcDR2SGtuZGlCS0sxSW9RSUU2T19NWEdNV3ZjYTd6XzlnZlFmeUVwRGZ5NnBvS1FxenoxRg?oc=5"
+        },
+        {
+          "title": "Tourists flock to a Brazilian favela for viral videos",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRDVlMWtvYXVva2JTX2Q2cmxCYWItYnJrc1BNSjhaRGdrVmtaSExtYXZxN3BFRjd5cVhnRmhYVkx5MW9sTmJNb182LURXa3FUakQ5QVlBc3JxZ3ZDM3Y3OWE2WVdRUWRsblloblpwTk9nUllNQ0ZYa2dELUxtMmR1ZU9QWF84Qm44RlJOREdIYw?oc=5"
+        },
+        {
+          "title": "Milei vuelve a insultar a Lula - DW News",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVFYVkRDVktaMWMyYlp1NE1DVEVzcnU4ckdJTmEzWDQ0dllFQWVpbkpOYXBlLVZHSW1qcU5kQXBoTE0yMXRxVWJGT1RXVE5qc2NlZDZBOGdPSkd0TG16Ymowb2ctaEV0LVpSX2p3NjFkSXVNQ08ydFkwRURfbEM4YXE5OXFNZnhZTjZZU25SdU5jSklLdVU5YTNnemEyNGg5ZkpsVllfelFzelVLeElQSHcydlZ1cGRzcVFiUVRRNA?oc=5"
+        },
+        {
+          "title": "Brazil: Top electoral court fines Meta $1.3 million over failing to fully comply with judicial orders",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSmFaVUN5XzFjVk5kaVNfZktQQUxlaTh1SmN4aUFxMjc1NnZuV3EwTVBUWnBmck01R1JrLWZGLW1vVHNIYXJEaEhrclRlZGZVR3p2X05hR1NOZWVDclZKZWxVQ2N4VzlITGZWY2ctRk5sRFlacHBjWEJ6Y292M3JFU2tWVnTSAYQBQVVfeXFMUFl2M09ZU0RrMC0zbkk4MDVFQXZXRmQtWWF6c2JRdExUaEhPY0FPRVlVaUp6STlfQ1pQQmhrWURYRTRNM3I4Q2R6N1o1UDdJQ0g2N0JibU5adGhWUEhaSGtnOHNYX3RjRDl5bTZnUUk5cUdLM2NQN2R0eDZUbHlHQzJOWndq?oc=5"
+        },
+        {
+          "title": "Brazil electoral court fines Meta, sees no deliberate election bias - DW News",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnl3dmxGQTdkLUZrWHVnZGh4Q1Ric2xtOUFERUlvdnIzZUVTalBHN1lJYTRteUFvdk9aVkIzbXgxTFJ2djNId1VBTTAxN3Z2NDVWR0g1a1piM3k3TmtYSlRUd255ZGpRVi1pUWV5RWpyanJ0WUo3c0RWNF9hRFZGNUc0V2NLVERUaHBWLW9WYlNvVjRCVjVDbVNQWUxqNlZLME9LZGpfODJQSW9nYjVQd0dxXzlrQ1RpaXpwVlJLSW1wYnVSNmc?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 33,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 29,
+      "relevant_before_cap": 29,
+      "filtered_out": 70,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "Lula Eyes Measures to Boost Fiscal Adjustment to $14 Billion",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcnFyTXBCYjhHQnpFaWJFd09MTjNHMTF4VWN1Y1A4NjV0RlltWWJIRUFVLWEyZFhBTGt3ZEhjamlFTlR2ZW01MTMzRmhLRjdaUUVuQkRyMmllYUVtUi0tWTJTQzJsWGdnb2Mtai1lZUE4UFJ3aWN5dlFvN2gyYjd0WndRWEtwVi1odnJsWTY5MUQ4N1hZd1puZkJqOU51RUNycTVFMTFSd00zaWdqWGp3?oc=5"
+        },
+        {
+          "title": "The Toxic Supply Chain Running From China to Brazilian Tap Water",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVlmM2lPdjlNYk1LLTRYT1lLaFFUa0pPMmZ4cl93UG5RYU9Ca1VFT0Y3RV8zZkpPSEIxcEdITl92a1lDemRuQ1Y2RlRLdXdOenpDbkdEN1YtZmVPaXpwazg2VTVkVlo5eFRVNGh0c3dXMzFzemY0Z0Vyc0s5c1YzTng2aEVUdEtnZkN5TXdKUHpVeGlmN3BCLUlxcm5Sd191ZGc?oc=5"
+        },
+        {
+          "title": "Raw Sugar Heads for Weekly Rise With India, Brazil in Focus",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWi1iOVpMem5ObHpvSmJuNU1Rb0puR2tTNlAwcV9ya29Xc2NKOTB5QjJ6Q0U0X2VwalhEMUdvbnU4d2VmbG12V2VSTmNiMkM3N2hBT1BPb2w3QnNhN0RINnZHUXl0T000U0ZHeVJrNnctTFJFb2ZSYjBicjBSeXBXeU80SkR0alhDckRlenJ6TFBLYi1vOUJHQ2pOT01JbGphU1IwM1pGT3hkTGVveFUw?oc=5"
+        },
+        {
+          "title": "Nubank Profit Beats, Driven by Brazil Expansion, New Market Push",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTV4c0g3cEUxdDUwYlRwcjV0UUstMEhrSEpUU241RTN2WlpuZzZLcUk2emd3VGFpX0F2WGdWUUZuNjNWc1dpRGRHN3AyeEozN0RXMGRwYndZeHpwTkt0VTk1SDAtXzhmdVhCRnV0dmhOenVTXy1aV0JQMEwzaVo2YkNMbmVGYk1EQmlLRlRKM3d0WmRzWEZYVWFZUm1tZGpKaU5FdnlhWVBHWTJaOGVxbDFFUQ?oc=5"
+        },
+        {
+          "title": "Watch Brasília em Off",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhdlQxMUpPNURySHlHaVpTeFhrNHY0RmVWVXVSV2FqbjJydFNsYy00ZmFUeVY3NndQUXEta0V3dWpNRkRMQk5vWjJhdnZESmZUYmZpN1MzM0JwWHBDUUhOOUtTbHJPczFwckpvLUV1c3JXdVZjbHpPZmxn?oc=5"
+        },
+        {
+          "title": "BP in Talks to Sell Stake in Brazil Oil Discovery to Petrobras",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWVhJd0xQTThBRnlhVHJnQ1JRVHUyTS1mS0xxUGlQd2RzUFRJUjJueWd6WWswbHgteDZUU20teUpUdklHOHVqdEdBdDZGWTlvWFhTalNTSTdBTmRaVUFUTnN5ZUFiX0IxbFdwNXo0RUpuR1ZWbUVBeTZPRFFjbUdHUTZDWnA5RFF0U0E2MlhSaW1BM1hpaU92eVZKLXdKbFl5WExHUkpuZUhDanBNUWUwNUlFbw?oc=5"
+        },
+        {
+          "title": "Brazilian Inflation Ticks Up After Lula’s Win Rattles Markets",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORi0ybWJ6Wi1OQkEzQzVOSVYtZGtlQm5uLVlqMmdxeDdLd19LZ2xvOG4tYl9JbU5nSnpGRzMzTTlCcWxiamM1UE81eGM0OU9sU2h5VW9nVWE2eHlmeUF3b0ZDMU41Qk5WbmVtcHJIcjA2OWhFRXhOekJ4bnRGWldUNkVTU043TFBzRU9wWlhodlFVbFFEanIwa29PdnVXYVBEYVJrT2wyLXNYVndKQUNCT2Rpa280LXZzZUtFRk9kUGswamxRMWI3bFpaTnBtdHl2?oc=5"
+        },
+        {
+          "title": "Brazil’s WEG Plans $250 Million Mexico Investment Through 2030",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSENtX3V0QTJXd3BkMWYyYUYxbzNtd2duaGtidktLakpzWmNaTGpWSWlSQVVxVUYtY0p4VExpenhBZ2ZNUFdoUDE0cnREck4xNkFFZTZJbFRkQWRDUzY4NG9ldjU4bUlfTVFwMFlWbmw3aWc0QnZZRDM0WnhPUTM5T01rOWdNdExfMEJKWkFlVnlFbE5qU1JUUnJJT2pDOG05WUZaQVBMV2l2ZmhhZnRwNWd3?oc=5"
+        },
+        {
+          "title": "Santander Sweetens Offer for Brazil Unit Stake With 5% Increase",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbmthNzdMR1I2SVJKbkIwUEhnTm80WEZUMHl6NGRtNUlMOV9YT21RdmhkejRXd2FNa2ZSVUJiSURzbzNoQ0hzSEI0V2F5b1ZzdDdLd3ptTHlITEVwRmxfMXAyOFc2ZjBLRkE3VkVRcVBaTWZkNDJPQmdCNDFIZ09Wd2dCUEdUcXdiZHgyTzgzWVIwNnhPaGtWT0x5dTI4bFZFajJCNTRBUk0tUDJ1a0c0eEtPVQ?oc=5"
+        },
+        {
+          "title": "Brazil’s Farm Economy Woes Hit Corteva Earnings, Shares",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYWo2UVV5bERLTGZWZnp3ZUtsamhxMzhmWFhqQTQxQVJjbWNfZGVCa1o1M2MtMk9WeURVZ19iQi1jbFp0T1RkRzZucXI3cDNJd1dEam1qa2lkU1c4TWo4dFJaVkVQZ2NQNDgzUEV4WnUxLU96UDlQQzRvZFhDTXNEbGE2b3ExalB3THBaVmZuOER1SXpjUEY5Vl9OU0tFaXVBc3hTaElJcEs?oc=5"
+        },
+        {
+          "title": "Brazil’s Inflation Ticks Up After Lula’s Win Rattles Markets",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSm9yWmJSQ2lNTHgxcnJmd21kMmpKbHNmQ0Y4TUV4c0VibzNTekpRQlNOQTdyX0RJMGRwVFhQbUxPNUpWVC03clNNdlkxaVYwWHR4MmpiblktMzF1aUpYNXd6UXNEdWlZcDViaGtYYm5wUU9iUDRsNG5sbm0xejIyQ2hMd3g5WnFiNlN2cXRzU1FJc1MtTDhKemhIVzZycnVhemx1Z2FvTDFtSWhPdW53cXdB?oc=5"
+        },
+        {
+          "title": "The Poison Pipeline: How Smuggled Pesticides Flood Brazil",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbDJjcnJzY1UyMlNkUE5LNXlFZ3FpbTRLQmZCU2VOT2xuOXlXZDFTTWdVb3c4RUNuTTJYZm5rMjIzWTRPblRiQXBzMlNveU9rMjh6dUdUQ3huX3pvSkJxdmc2SlhySXlna3BqWWh1YkJBY2NUU1pBTTZOeFhSUC0zc2VvQ21OQlgzNUVv?oc=5"
+        },
+        {
+          "title": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbGtudWlSQ3hmb0xIWlRJY3g0bEFlRzlXWlV6b0JqY3VnTnZxeDItUFRkMFBXc0tUdEtwOG5GTG5xSHFkOTFZdWZ5Qm93bjJ0VEVzbVV1d25qcHJSVV9lT1h3WUVSdk82WTk3NG9xM2k3bFdtckdZWHh0NEpJN0hGM2U0MFdKVWNsN2s2T01ocnhZNlNNMEtrcENOUUxndFZqcHRTekpnZE1YcHJFVld1aE1Qbw?oc=5"
+        },
+        {
+          "title": "Lula Unveils Plan to Curb Spending Growth in Bid to Calm Fiscal Worries",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZGhGSDhHUTZIdks3ci1JVll4bzFMN0FndFQtSmJkdUpUczlxMWNrQldrY0tUN0Zhc2JZOFdxcUtIak54TlY3bkxaSEFNOS1SZ2s5S05URE56T28zOXhTdGhDa0o1YTM0QUdlSkhpbXE1NXZmRHRIdnRUV2Ryc2Vab2JodnN2UTlxT3dYRWI2WTU5cFQ4U0xuekRUeW5naXZBTzhNY2c2NUlYLURzYTNYM2RTZTdlMm5feUpBSlBrbw?oc=5"
+        },
+        {
+          "title": "Brazil, Venezuela Vow to Upgrade Ties With Oil Investment Talks",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFlIb29ycnNCZUxoSEVHSWk3dENoZ0VqOXlkZ0l5NDQyQ01mdzFWbU9SZlBxUzc2dFc1eW5NRkRVUURMRElabEZ2UTJkQ0hzSU5vY0Vnanhab09LWFJQVDVlR0Z0WFdnSElfVUdKMjN4MzQ3aHVhTkJFYU83OUl6X1pQcGdtaTJZQkxTUElfLVZRYVJRSEZET19PNktaY3JEZVB4TUltNEZEMWJZck40RTlzSQ?oc=5"
+        },
+        {
+          "title": "Russian Fuel Exporters Court Brazilian Diesel Buyers After New Jersey Snub",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjBfUWJ6YUkxSWtmZ1NQdUpjdmhuTXpxdEZVVXNRZzBzZE5TaW9NM1d5Sm4wRV9ubmdoNWFjcHZNR3NFek0tbkdrRUNNUldPY0hueEJDa1NpS0MxekZyaHh2eTJ1TXZ5LXMtNlUxYU9FYWFfNEJ4c3hzSHhnUzhvVjJ5M1pXU0JfVm1IcVpxSEdkNGYtaldZOVEzb0tUNWpYRG5Yc3g3WkpoS0dfU2l1Y2JSaUtrNTZPdDVfOWhfQ05FQ28?oc=5"
+        },
+        {
+          "title": "Lula Scolds Leaders as War, Inflation Eclipse Climate Crisis",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVhRM2JWS29NT2FnaXlOUS1JczY4NlJQdnFacXhpYXlkcmtic1MwdjlFOGw2STFmcDBUUlQ1bllmTlZkZlJOSk1RWjdPcmxOcmlqUGpuUndxa1FMNklaNHJZSFYtN0RYYjdRNUlIT01KN3ZqM0VRaUNKSlJqUGEyN2IxVDlJcjZRbml5aVZ0Q0NvOHhwc0lUMTdEQkhuX2JjV2lCZ3llVlNyUUpwUDAwYVVn?oc=5"
+        },
+        {
+          "title": "Lula Team Readies Brazil Fiscal Plan in Bid to Calm Market Jitters",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNUVQa01nbGJoSG5KZlE5bTRmMzFYODVma0taRjJDaXA4cDlLRmhhOGRUaDR3dzFXb185V2h3akljbG5PaXVVMkN5M0RSSU9qQTNyVHF3RkJncW9MRE9neVlkZHhYVGhZN1ZtclFYcDBiZGZGM0JFRlBHYmRHR19GQ25MdXpIZ2Vta0ZxNlJyUHNtamdfRWlwSUpMNlo0WENGWVh2cUhFVWtnempvLTE5Mm1sSFE2NjA1?oc=5"
+        },
+        {
+          "title": "Brazil’s Agibank Hits ‘Cruise Speed’ as Lending Jumps Almost 77%",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEtQUGNtWDhNUW9xZG1CcDVSSHQ3dXhZaXp4VE5fXzZvdTNXZHVENVp5eEd5c2Z0QmtGVklJMFZ4MllzNl9kNnctYTY3eTJzMlg4dU5YSmtIdWt2S1Rsa0lMTHdxTGRGWUxXX2g2MDZxR2pQWUtPZHNmZFlwQnhBc0NyeVQ1V0dSUVBwLVVHZW1TQ2tzWFVyY1ZPRlBKMWNoVW0xQUdSUVlKczRPWFdHZmVBcXNTcm5sbmlVM3J6dlpEdVd4c1MxWQ?oc=5"
+        },
+        {
+          "title": "Brazil’s Agibank Hits ‘Cruise Speed’ as Lending Jumps 77%",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLVNWNTNhNXBJNGhtNVFpTm5qcGswWGFEX1JiMjlzM1Y0VENkcVFjUTl2YlktcXJnU25FemJvTGNVRFZ1VzJqcld2VFRqZXQ1SmpTd2dwZVlWUmoyYkRsSThFUjg4czJDRnp5MjVXZnl1bWRac19ZdW1ZaXFhaS1VMlRwODdHazZRX0tBRkZ4UWZ0UEZ0Rm52WEEyUHN1a1Fzcl9ISkFQeWZQWG1KcW9GQmd3?oc=5"
+        },
+        {
+          "title": "Franklin Templeton Brazil Trims Risk, Sees No Changes With Lula",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFBHQnZrcndZUE14ZW9McWQ1eFVtdGlySTlGWHRCSWdzdm5CNkZ1bFBfNWxXaGtPX1lLeHlFWHZBNXRXbVhXNUJaWkRpakxxeDJLNHRGUEVUb29SUjZBMzg1YmFndHpHZUdBb0IzWVZjMm43RG91UVl1OEZodmNoYjBRcTlSNzRhc0tJSGlaN0NMR2ExS1g5dkNQZmpHYk9Id2M5UG9tdm12dFhhV2ROSDkzSQ?oc=5"
+        },
+        {
+          "title": "Defaults Rattle Brazil’s Shadow Banks, Spark Regulatory Scrutiny",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTlFwZzkwRTVrTlVaZXNJcTIyQ2h4TTg0Uk84OUNmcG5XT2p6UmY0dEdmVzJsQ2w3R3d0RlZJaXpURVYtSG1wQlJMNlB4QTRUZEd2VW5PTUhIS29XQlM3Ym5qanlOdUQxT1dCbm9mTU8tRmVNbWc3cW15MzNTZ0RrQ1RtVjM2c2V1dHQ3TDJqNTUyNGlid25YQWNuR1RNMk5ocTdwMXZZVUZsR1ExVVNUbjd1Vi0?oc=5"
+        },
+        {
+          "title": "Brazil Central Bank Signals Caution on Price Rise, Slowdown",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1NNYTdtZDUteFRRQWFkRmJydHQzSk1BeFFqTTBySkhZczF5UkE3ZHZsZzdEckF4c3Ayb2dpNWhpZEV1Mk11eFBPOTNkRm1IQjhaQXJRRnNmVXVUcVQ3aWxCeHRVREhYdmJoTHdMa3lhZXNQWF95R3pkUElEbGVacUc1QWdtdFltRzgxOV9ncVlGUVpWdl9pMTZCN29fZlpGUWdjTUFjNzEzeWdhd08w?oc=5"
+        },
+        {
+          "title": "Brazil Real Nears Post-Vote Low as Dovish Minutes Add Pressure",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONEtsZVYwRmxDQTRYZHVaSHU0RDlNc0FYLU9Pbm5qV1FBaG5mbXFRSmxWal9hbU8yYl9KbTZLMk5RRlZwRjJNNVduOWdLOUxlNW5OLVRQRFVWVkR1Tm41MVRUVlhmOUd4VlE4QXZzek1oNUNSLTJPXzJqNHA5Q1ZzOTQ2bXk5ZEJUZS1IemF5Wmp0YjJ2aVhBakJRVWZ2OWNFYThiT2ZITGxqeGhZWFlOZkZPVQ?oc=5"
+        },
+        {
+          "title": "Brazil Dealmaker Sees Potential for More China Deals Ahead",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmVDMVR3NUFaWlFoRTdKYkZ0cUpKdUtCamk4RnFGTWY0WVVOR200NTI3dWhtSmI2SUxUdFE3QkZYWGtTdko5R0NXNlZTdWRaWnNDNVh2MXpQSXkta3FJb0ZMczdqWmNOYVV1OVEzTjhjVVdXRUlGbEk2VWZoUm1xbnN0Y050NW53STg4dW5vdG1ScTNhZjJuTzQ3NDBEX04yZ2FHYV9GX1NEbEFnOWc?oc=5"
+        },
+        {
+          "title": "Brazil Economists Lift Key Rate Forecasts Again After Lula’s Win",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON2RjWGN6WWtBMk15VW02YTNYYm9LNUZrX29tU0VObEluNUJwaHJFWFluYmNzMHM1cGlENGtJd292N1FlaDJRQm9PM2FIR0ljdXdXZUNxRnRlWDhEVGJuRXZyUUpOZjhzVEl6N2dUcTZoNFRYVUhpQlBmNERwT2Ftc0trS0Q0U3VESGZVRjVncm5pVTUyUkRUSW5tSm1iak9RZ2FjdUFqLTVEX0ZPU05lelVLelphdw?oc=5"
+        },
+        {
+          "title": "Brazil Startup Exchange Partners With MSCI for Index Derivatives",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1U0Nl9vRVk3Z2hxNXJ0dkl5c1ZtQUEwRDQxWEdrbWRXQ0lEV1R6ZUU0WjZuZ2V2aDVBajllUGt3amdNRVB0bUZUQlVtOXptVkRzWHI5bXlQYmhDeWp3VzNJMlhTcVdic3QwWXV4ZEdDSlZSMVpESWM0Si1JTkdFaHBVNV9TNnU4OFc0U0FjVExBLVd5Y25BMWphaE5RM1NRZzRfd3RMS2RxZnNRRG1WTDFpd2Vzdw?oc=5"
+        },
+        {
+          "title": "Brazil-Paraguay Dam Giant Stashed $182 Million in Failed Bank",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE12cElJbUU0TWYyUUlxbXJVdS10TGJZRUJiMVZqUjNLaDkwRDZLZGFzTk1FWnZoZWVQUFZTUExHVmZuTklTb3Y4b2EzVWxPd1RLOExLSGlDZ1FCZFVQay1aRGVVMU5mazFoeXQ1ZmhDT0h5NnlJckRxZjRfWG53Wm9mcTNCeTRQMjFMWFJCZ2loX2luSGE4cWN2RVUyMmtMd1Nkd255Y19CSmJJR2ZFNQ?oc=5"
+        },
+        {
+          "title": "Zero: How Brazil, US Elections Will Reshape Climate",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckJ1Slhyd09SMlpYRjYzUTJkaHhGU2Z2OEFmUGwxSjltQmViNFd4d1NQR25wVnR1MUJFdFV1b002eVhjbjJFNGRpSEdqZ3NZb1ZvU1loaUFvOWFxMGFJUzQ4QmZSR2ZoeG9DYzFCWktFYzI5RFBSRnFpYW5FSG9ZZ21DX1hSdWxVV2RGUVhPS0I5UE5PbERaSUpQcS1jNFVLTE11bXlYbzk?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 88,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Cyrela Brazil Realty S.A. ADR (CYRBY) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fVk82cHJYYmpXNzNRa0lQMjZtX2Z6RWtMQTRvUm1hcHFpVEpFSU1DWFF2d0ZoZjk1QlZ0Rkh6OVVlTnZHdHg4TGpHSV9TZGtVLVFTWUNB?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 89,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 4,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 34,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}

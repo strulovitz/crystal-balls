@@ -1,0 +1,1322 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-14",
+  "code": "UA",
+  "name": "Ukraine",
+  "window_start": "2026-11-09",
+  "window_end": "2026-11-14",
+  "fetched_at": "2026-11-14T23:30:00+02:00",
+  "total_items": 238,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 37,
+      "relevant_before_cap": 37,
+      "filtered_out": 63,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US floated idea of Ukraine ceding Donbas for NATO membership, Zelenskiy says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUy1QYS1aemtYbV8xczk0cmRVeHl2ZGNLTlFwVE1SUUZ3OHctZGRnZlpTMi1DRTFkbWlXMWRaVGliVk8xU1N1MGZ6dVdNTTJHd1BMaTVnT2JQaTAwdm1QWWh4aElDM1JlMVJvcjJNQ2pIUWlHd09qUXNuc2Q1Qnd6ZVJGTlIta3dkaHlMcWRYZC1KX0tneTJKVkNSaVdZQXlFX2Y2Z0Vwa1VmNGRzZjZYVDRRdDBNLTNF?oc=5"
+        },
+        {
+          "title": "Ukraine's Zelenskiy escalates criticism of SpaceX over speed caps",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMkhQTnktYkc2Wml2dS1JOURUTUtNSFNQell6R1BFY2FqT05iWUdKRV9SWC10WlJtbTNzdTJZUzJoZ3k1eUNSTVQySEhRNEp6dGd0VHIyNFkwSnFCeGtzQ1Y3MlI4eHBXbUlFX2tIbTE0TFpMYmZNcUVuSDZnS1c0N2haUk5NLWM1T3NSaWQwc0MwbUpjZjdZR2UwblVEWFVnU3RNaTlYSXA2QTh3SWxFUG05QjIzV1l6LUdEd2dHN0g2UQ?oc=5"
+        },
+        {
+          "title": "Democratic US senators order Musk to preserve records on Ukraine Starlink access",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOX25Kck55T1o2eEtVLW5rSlBkRzM0MnR4OWpYTGNYcHFJc0I4dW1UaTc5VEtJUzZGT1EtVGdSd2FQdm1iNEl4YzE0eFRDc1VPUFR4NmR6RjR1cW1veHpEZVowQlFMV1JpWGRpZUdOaTBiQ0R6MEdUQW1HdEZtWFhWdHBaZGlvaHZJRlZOLXFHWUU0aUkxQ01rdkwwN3JiZGgxNWZiZG9pTmM3eDRjQkhJYkhwQkw2VFdseG82U0tsWlNQQnVCaEg3eWdGYTJ5Ync?oc=5"
+        },
+        {
+          "title": "EU settles on five-nation group to speak for Europe at Ukraine peace talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdzdxUzRIeEdma0VrYkQtMXpkaF9WWXNCem5wcGRNMkhtZHBUd0MtWnhjdlZmcEd0dmZLRXBwRTRLMm53bnVLanZ5d01RRldxMUlJeDRaeWtWMVVBc2Jmbk41Uzg4RjBVbHE1WDFKRlRvMUFkU2szUXFPWHQzSjhmbHAyR3BWQk9FNDgxOWNfSlMxRFZXLU5jYjlaNzZoWlAxRllCUHBKNmtpZHF2?oc=5"
+        },
+        {
+          "title": "Russia says Europeans can join Ukraine peace talks if they show 'readiness to contribute'",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUZLZHJfVTJLQ0YwVGJBUmRIOXFKNW5VTU90Ni02a1EyWmc0NlZzX3NEay1fcE9INk1tdzYtYzF3Z2xWTU44NV8zRHRoRnR1U2hJM0xXWVllcFhyZDc5TldPbXUtaXVlX0Z5V0syOXBsb0s1QnpOMl9UYktfM2JHejl3dmVmd3ItcVp5Q0I5VTZGakVJaXU2Z1JTb1RqNktScGxEVEV0ZWpjeVBJZDZQVEFSMkNyRWpLY292Q0ticw?oc=5"
+        },
+        {
+          "title": "Zelenskiy says restrictions still in place on Starshield, hampering operations inside Ukraine",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMnJ4RmF3RHJlTENMdU92NTZKMmNPMkIyRG1fYjZ5WldKTXZkN3h6c0tkdjVWSmZjdmk1d1ktZ1Y1SEZOLW5XWHAyZFl4Y2hPeEIzN2lhUFFJc2wtZEJtVUg5QmVYb01URFlEWGZzdWRPMmc5M3BIaVRRZ0hDVkJEaFlLalJuWV9KWVdENGRVV1Ryc0lSS1VRNXRwNDdIV1E3ckVJdjl4TUw0SzJaUGxJbkVBOFJnaXhkNHlWOWdSVkxhRDh0WG5WZGxFaS1QQ0N2OG9QODNWSFg?oc=5"
+        },
+        {
+          "title": "Ukraine races to repair power plants wrecked by Russian missiles before winter",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2o2LXNicmlidEo2ekRzS0xJcnpoX01La3UyS1cwVFpGcmpqVEpwb0tYcmFZWjBmQ0VRUXBZNWhHZ3dyWEVmblotcHA0bDdaY28yaW1mM2ktbzlmeXZucFhkbGxtWkZ2cU11UFhuU1FpZE5vYkRfT1FPdFF4WlpkVGoxNVFNSEtuV3o5SF9ad0pnc0RjY3hRTjR4Rm9yai1IMEVnS0VJQ1pxWk9HSWtBdXFJVEpUbkpQYUJWVHVZeGVsdE1qWXc?oc=5"
+        },
+        {
+          "title": "Kushner says US working toward 'largest prisoner exchange' of Russia's war in Ukraine",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlhsUlJGZTlJTWxfaXhsOS1kNkFrSlRMLXNVZ09uQ0RvR0dobTRXWExCRk1SckN4aDZibm5Vdm9NWDUyWWdpRFR2aExsSFdscmNSX0U3QUlmTVRDYlpERWxHeVRUX2FUZjB3WVJBb05pYy1xZ2pILWpXQlQzaEVWNjljSUsxZ2xGVTdCZXNmazBFX21ZYkh3d1RqZTFCWEw2a09oanFWS0c0LTNwZkNOQThuamJkdk5HVFNROFFXQm1GS0E?oc=5"
+        },
+        {
+          "title": "Moscow car bomb wounds former aide to pro-Russian Ukrainian politician",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVI2bjBWdjllV2NjNmRKS3dFemNKemhlSnFXWEJGQjU4dkhJcHJlWEZKMVdPVE1PWGw0R3JjNXdLenR5OEZ5ODZMZkN6am5UNVdtdHM5LUhUdldZMVAtUVQzOVQ4X0p3Yk1odW5wc250MENjNUZfeXM1TXJTaUV1M01keXM2RmNzeE5TUmJKNGJsNmdiRjhyN3owWS1pWWlTcWoxN2gzQ3d6LWtfSmRvREphZklMNG9V?oc=5"
+        },
+        {
+          "title": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdmw0dUZybEJwcld4ZjVjZzlZUEJabnM2V3FHZ0wtMTFTTGp1U2w1VGk2TDY3R1dTZFdEb216RGFGV2ZqSDRaY18xSVlzZGhMN3NwR24wVXJ4cW1IRjBmOU9yd0xzVzItcXJnZlpUREg0ZUNsZnJoZXAydHR5QjJHNm5HWGQxY2UxRU5wY1RObFhoMm8xNkJlcERnbGNHRmpMMFhrdEJ6YlJwV2l5UHRzRDVPX1hWM2cwNVVqOEhGSG82Z2o2?oc=5"
+        },
+        {
+          "title": "Putin lets Europe join Ukraine peace talks, Zelenskiy welcomes prospect of European participation",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXpLT0g0Um9oM0IwWXhmckNTNThucTRnRDlxT1ZZX0d6QVlPbDV6NzlBekFubnZXWHhHTlhHZGtLbHlzNVJVTERKbmVhei00RTEwY0RjdGg1RklvVXVCa3hGdmQ2VGlrU1pmZ3E4TmV0UVVjd3hCY0diSmtBTDZnbjYxRGpkU3lDUFA1SVVJQWJ5ZFoxYVNZMGhMaGxOZWx4T0s0amlBMnZjdWIwcHhOX25NNjlXTlRFUlE?oc=5"
+        },
+        {
+          "title": "A Ukrainian army unit pioneered drone evacuations. Now it's scaling up",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZzUyeXViX2VkSVJhdE54Y3VYLTkwYnRPTkpnd1ZINlpXT1ZGZVBWZ01xWWRTVDdCSWZyM1RpMjBHSmhTeUZmcVVkR2tVZkYtVmZGWTdxSTZPTTdNamdwUTdKN0hCenVWelpRcmpQZDNEbkpCMEduM1JvTF9EMEYxaVJETHpYTndqUVhOdG5iQ1B6OXdLVFRlX3RSMmllMW84LWl0T01lZ2VyYzJI?oc=5"
+        },
+        {
+          "title": "Zelenskiy says Starshield speed limited again, hampering Ukraine's defences",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTjdYZlNPMU1SU1ZhVjBMUHNnaEdIaFNCcWtQTmdiTHE1RVZRdG1BbUVBQkhib2diNDFyeFh2QXBnYTI3Zk9pVHdaWEpldUQydy1IM3NjZ1lwMVVNajFCZDUyamFuVE5aVXVYX0FhYVh3bnlDa0FPTWpFZm9CNTNyclVCLVVWWDNYWUx3NmZwNmVxSnY4ckNqM3U0VlFEbmhrVERHeU9udWVEM2s1cm1zbFpjYjJybU9tNHlDN0FXajdkZVNUQ1ZEWTZ6ZWQ5N0xaWUE?oc=5"
+        },
+        {
+          "title": "EU to present new Russia sanctions package, Ukraine funding measures by year-end",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd2hxVXptWFBac1VNdFFUOE8zVi02NklWdlhCenlSNjROVGx3QVJpSERMN0lsbUEtWHpwODVGSVZFeV9CN3ZWb09xcHBCMnVfYkFaZHhiOU1YSWJFb3EtdWJwWW01UGRxTEtOVzlkVUxSTGotaVhfSVhFOVVVVFdfN0hKb3gtNjUtdUprOFFrVmxTa0lrYk5wWnNxVm9OaGFsNk1GRF93NUdrWXB4ZUItTFkzZFA2YjlpNGx5dmZZNjMwTUM5NmVNNg?oc=5"
+        },
+        {
+          "title": "Russia says it launched a massive overnight strike on Ukrainian military factories",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQXQzWEgtelNiMHRMRXFkQU15NEo2a3ZDRmdFRU5nWllrcV9mNm5BbVFkcjdEc19uVTlJYlpLTjg5UXFQUElJRXNwRmxhMTZUY2JvSGliRjExOUlZWm9iS2Q2QjRPZElPWGlpVmRsTGJPaXkxdDBmSDM1XzhHaVZwS2QxcElkaFl4aDRpUXRWY0JkUFduc3dTaGZuWm8wTDllQmhiZ3c4T19mOW9wcVU3Rw?oc=5"
+        },
+        {
+          "title": "Ukraine-founded drone startup UForce secures $700 million funding round at $6 billion valuation",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZGJabUpkZzBWRWE3UG0xTTMtbGRSWnpwbVNjR09FZHMtR2JqSThHS1djUWtSMlZCdm9LR3ZubGZBTnVTQkYzaXYwMi11dHh1VXREdFl4UkV3b0hRZ2dSN1BDeTczSndZdHVscy11OVlPUVhHbk82TEhpbDBSVklQcmF2LWJrengxNllxTlZ1YmtFTko5WXduenp2enFVdnpCTmhhVzlOaUxIeWhJMUVpUGxLMjBfUllEdnVhaHBnc1FYRGRoVk95SGVpU21COXBoaThwdzlCYml1cGc?oc=5"
+        },
+        {
+          "title": "Drone attack triggers fire in Russia's Baltic port of Ust-Luga, Ukraine says it launched the attack",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY2ZuM1hLajgyNkhZc3BNV3BsUzZyNi1tWU1CcmZCb1hZeTNXYml6YkFNRWlRaXdzdGlzRWxUVlRsZTcxY2dqUHlDWXFrWHNHSUhSWTFtaXpreGtkWUN0SE50YnpUdDRHWF9EMTliTTBJMkFxQ1E1NE1kZkZQOHpxYXlMNmhWbWZhckNpXzZyRkRjVlA5dUxBa1lQdEx6LXZnbHQ5ci1Id1BEOFRzWFIxOHBNcw?oc=5"
+        },
+        {
+          "title": "Ukraine's Zelenskiy says he is pleased with messages from US envoys on diplomatic efforts to end war",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOE1NajdIbmstcUtMa2VYcTRvZlFjbElZOG1aZVN6NDFyU1pxbTNlVkR6SnRqejAyYkMwcy0zV0YyT2lCeEtfaVNEVUwzaWo1cFA5Uko1QzVCQU13UDFhN1RWZGxwSjRqbmJEeUlqWVYwX0xuQ0EySE5wWk85X1Y4RXFUVnprRmw3eFpkY0RDbk1HTFg4N1I0X082Z3RNSkpOUDd0bGw0aFA0Zmdad2ozakRBQ0ZOeU1fTnZ4bExVUQ?oc=5"
+        },
+        {
+          "title": "Russia, Ukraine reach deal on prisoner swap as US says lack of trust holds back talks",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEZkalllTkswSW1lWVlXanFsVFBfVnBSUmE0U1VNWTJ4c3BrS3dzTDZWQUhwM3NfOTFMdjVuaHBqZVRTVFBYU2JEOWtpX2VoR1ZtUzZVcDlTN0tKVzVtczFhYThSSHpDTjJXSHV4U1Rqc0doRElpcW1WTGQwdmF6bE1VN3BpU2J4U3V1Rld3S25XNXZxWkVVNVlRZDAzLWpIVGFHWG9Bd2M?oc=5"
+        },
+        {
+          "title": "Ukraine's Zelenskiy says progress in peace talks hinges on US approach to Russia",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVVESEhzeFJHMmo1SUlBcWswbUctbUprbnVPc1pSRWx1ay00ci1hbmYyUjBqOE1JazB2c1l0dVE3cGtGbDc0QldyN3VqYkdGMUtQWlE1cG9FRnV3b2VkUENMbGxyMlJQdmg2MkJxTThvSENGVVVkR3IwcFlXMEJHWUJ5a0dTY0R2b1k2ZXpOUVdvcGkzWWtGcFc1VHl2MDR1UUxaWF9DdmdMY2JaNU5RM3g0UTBDdm1tUHIw?oc=5"
+        },
+        {
+          "title": "Russian negotiator reports some progress after Ukraine talks, sees no EU role in process for now",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV2RpSFF1Ym9mZkNRLTAyOFVnRk5JbzJmMmEydmFjMl9TS0lBdER0LVNieEZiSWlveXBwdjZtRkZuVWlWalBpdnNlZnZ6RmEtX3A2S0trZFF6OElSa0UyM1IxY1hUd1dnXzZzb2NZRVRkNUxJQmcycHhLN3JhRGo4RUo2N241cHpVeHMxWFlVeENaTFVtYk5GUUR6R3NYX2RxdmthQ0dKNlhKUkprN2tpNDVtVFhfWGVxUHlVbnN0bjRrUDA?oc=5"
+        },
+        {
+          "title": "Ukraine's path to EU accession narrows as war drags on",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGQ3Vnl3Q3JxLUxKMjE3OUdLSG5lYi1LRXZLTjR4U1hhSE1sMFdZWlB2ZHRrMEJnd2pRbGdlUWxkcHN3aHhNUmEyd2s3LUtRaHhtYVE1cWZ3cEE1aUpJRFB1TUJINXUxWE9VMVJKcnc3YnZVaDd3VE5vRTNUd2ZGT3BDZ2xaNWtBcDI2RWFtOS1VVjBlMHNvcg?oc=5"
+        },
+        {
+          "title": "US attempts new peace push at first Russia-Ukraine talks in nine months",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeFJoc0ZJdUVhZlNDUWpsU1A0MVhlbWZXMGphaHktSWpjblNReDNXd3FXUVlnSzRVa2doWEtNd21vNHJXdm1vQU5qVnJJX1p6TlVVWi01Nkt0NzVrMkFXVkstdXdfVHJGaWtSeXlPdjdwZVJrTW9MQW9fV2NmS3RpT29EZU9mal9BVWNRWXJ6RGxWbnJzcGJ5aG5tM3JUM1BMUmNqdGhEVlZiRGRhTG0xMVI5ZWw0V2dwenJMT2NB?oc=5"
+        },
+        {
+          "title": "Zelenskiy speaks to Modi ahead of Ukraine-Russia talks",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWZZUjlKNXFxRjZNbUZGcVFVdUFEZzJBY1pJZ2JVYVJHd3FuWkVrMllmcnhZU1NKbEVJdDNfbkI3MXhsOTh1V3ItQlZocXcyOWZNN0hsX1hiRWRDVzRGUEhRS20zX1RDNmlJalM5dGNJZ2ZtM194QnZPOWNPVXVSQ3ZrUVRkZGpzYzFYRnFoNmlSdXZ4WjNiNm96MGU?oc=5"
+        },
+        {
+          "title": "Baltic nations, Finland issue overnight drone warnings as Russia, Ukraine exchange strikes",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWx6TkpxdU5NeldhTTlsMTA2RklPdlVIZnYwWkZJcXVvUTkxM081UnROWUZ0Vzd0TUFwZFRQbWxLalNZUUszM3FldUlmSEpaemJLdV82NnB4Uk5mcjhMQ2h6dGVvWnpUY1d3SEc1UE9Zck1DVkVWbURmMG13VmM1R1RnNFYzT3lIOEt1TmtOdjA0bzB4MWtr?oc=5"
+        },
+        {
+          "title": "EXCLUSIVE: Recent Ukrainian attacks have reduced Russia's oil processing capacity by 30%, sources say",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTXJUZnFVTVJmR25VaW9YQkhwMTJEM0FzTWVHLXRZOFpXV09zN18zd1RIOThGTHdiVUVmbVFnbnJqRUhfQzdSQzBDTHFLUUxtSEI3YkZyNFQ0RzdlQ3oxMVRHb1d2YUNBa3hIbWQ3VWxmYTBNaWpiVmdjOXB4ZDlzMFhQQk10a1FZWkhWem81TGNaS0JFc25FNUV6eFVhd2RIYldEQTlCU051VUFlalpnSlBoYzdOVFFFNVN4cjNjRjVuX05jNGc?oc=5"
+        },
+        {
+          "title": "In EU budget clash, Germany's Merz says all EU states must back Ukraine",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVExTdERDcjlMTVdhVllZOW9xZDhyZl9rSGt1YS1WNFdvMFRuZzBrZ0JWRW9vVWVzZFUxc2ZUd2k1cU5VSWZHTDc4TUVxc0NsQzRaaVlXSXpKdDczUW80a3BQUXF0Q3RXaXlVazJkcVBaWFhzN082T3QyaTNwODNQT2o3OGJDYnl5emtrcVhUVVUzSlhJTXpHakpOcTNNR1J5cFJXZ0lYSWN2ZU9q?oc=5"
+        },
+        {
+          "title": "Russia sees European security framework as main thrust of Ukraine talks, delegation source says",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeV9jM2c1bUNuM1JEalVybmVybVZfM1docm42TjZ6QWdiNFZmeWItTndYZjk0dExkMUhnQzlLWTRGWDJuVVoxR2NBMlQtZW1nY1owdE5IaWM5SVBoTXp3NjdROWhRcjh3Z3A5SFl6VExpWGJ2WFl5TnZ0UUxQamgxcXdUNE1BSER5cUdqVVdwc3pJcWYzc1dGNmlmS1FkdmJMb1o3T282eU9FMDM1ZWw4VURkQ3BXQUJqdEVkUGZndl9vSTNWWGc?oc=5"
+        },
+        {
+          "title": "Russia pounds Ukraine's power grid as talks open in Abu Dhabi",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOTZBa1dKdjVHLWFUdklVcGRSZWMzbUVwVlVPYjVZNUpjbDU0NjBESjhwNEZMUjRtbm9hWGhfRzFZVEFDN0NjU2dKdE5hZmRwajhnWGJUQWdHbkNTOHZkWTM1anlBRFlUU3dXcXlGaXZxcnNuc2NVMHZOUzZBVGVIZGFWaTBWR1VLZmtkb2o1Y1F2dHA3TVhMRlF1OTE?oc=5"
+        },
+        {
+          "title": "Drone attack leaves part of Ukraine's Kryvyi Rih without power",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOME5JWDRTRmhqY2U1a2s1bkJHMjFfT2lZU3h5Qlc2YUQtMjhHSTNpbU1HdHZwSkRMdnBhYnBjd3EyeHdCLUM1YVZySDZ2UTI5THN6ME45c05aeXNxb1loS1VrYlBIU0hmam43SThUTnEwYWVvSm5FakZLMTRxc0VTQ1hkUWtGd0lmb3FhOWVDTFcyT1BoVkI3U3pfTS1reUFRQjZYbS1teUNpWlk?oc=5"
+        },
+        {
+          "title": "Ukraine urges US to speed up interceptor deliveries as Russia targets power grid",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTGdwSTdVbDNKcWFuM2ZVdk0zSmFHNkh2UFFLR1JQZnUzeXB3aFBWS1NDcTJWWWV3R1lxR2VseHRYdkpQX0xjRGFFekdiRUdQSVhYWktBTVV3TV90RHVhRUJGWHZ5XzllTTRQckZ6WG12MWxNZ2NTclBua3VHaWs4aHRnX2NZLXF0bjB6MF9kUzBRcVlBZzFPaTAwaFJXeXRqOUxDcm1YZHFpZEVFRm9rTDc1S3kyVDlxdGpDbUlOYw?oc=5"
+        },
+        {
+          "title": "Slovak PM Fico accuses Merz of 'blackmail' for linking Ukraine funding to EU budget talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnM0RUlnSmE5cHpkOFdfNWYteFFwaW5pY1hkZDBmbW5MYTFQMHdxN3ZoYlg2bmwyN19QWVFCT2MwdGh2M1pFOWtNNUx4azYtZ1NZNHBXMlZ2WXdsV2lsNFdEQVB4UTI5NXdDdTZwMW5aQU5oSVhNdWtDblFHUXBZcDFlMl9jWlZJeEFzblNFaldIMlFBTlExVkxZa1NiNGNNbkNSM1hqNmRGQUc0ajJ6akh3cjVzaW5XNnZn?oc=5"
+        },
+        {
+          "title": "BT to hold off Starlink launch until Ukraine 'noise' dies down, CEO tells FT",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQUNjZVZkRVQ4bjNDbkVTSFhpbEZhVUVNSHN4bmRNNEtGc1oxNmpZYTBLOTNnbkYyblJBUVppdWc4UGlUYlVaN0JldkVicTYtcjdxMDV4dDMyVVdOQmc3WUtEZWI5SGpBcXM4VUwyU3pEZ3VmWHBiT3M2eEpGX2wtb0E5X3FXU3AyLTl3YnhTWVRrdVBZTDhxSmFtRThsZGJVTGhzdHZLWXFDdzBGSmFYQ2NLU0o2OUEtTHMzTlZlY0d3ODBCRTlCcw?oc=5"
+        },
+        {
+          "title": "Russia attacks energy facilities in eight Ukrainian regions, grid operator says",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX2tteTF0RUtLTFhyN1lSeUZEa19XYmpNandtUWNPU3BDN24zdUFPbjBaSUhhT3VMMjFuU2tidFlwT1FRT1ZEZU1jUnU5OHZPV25KNXdfOXF5VjdZbi10OEZKRnVwWU9NM0tUZ3lOeXZRQWlUa0U2ZDZRRzJRR3oxTGRsWG1TZjA2ajFzMFItakp6allKeFB4WDl5UkhqYUh1bTNoUDZ1VGlCZzVqVkF5cFBsMFJfZzNuNU5ucmJ2TVJNenk2cXc?oc=5"
+        },
+        {
+          "title": "Trump says US seeing 'strong inclination' to end Russia's war in Ukraine",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc21fOTJsSUt2S1FtclRIdUVUUnBmcVAyWjd2WkdvcWt4bEw4MUtmaFFoZF9EYlNCZUwzRVJtekFhMy1rWElPTUxwekhLQXRXT25pTWdLa2NGdkFteWtibmxSdUNOLWZEcUpjeVJtcTZ3S0ZWUWx4T3p1a2hwTTV5ZEp0amVHdHRsZ2hiM2E5QUQ2U2owd09vcDdKMmlZWEIyNEl3U1Fic2puR2hhendj?oc=5"
+        },
+        {
+          "title": "EU's Kallas: Russia 'pretending' to negotiate on Ukraine while 'bombing civilians'",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2JEbVRTVVAxUDdfY2lCZ3JheVZ5QXdOck1vSDR3X2NpR1dCV1NxcnJITm1xN0Y1VFZ4ZlpibWcxNlJZeXg1YmYycW1GbkQ3RWo3Ym5MZDAzempjaWhRLXFNOEp5ZVBEeS1EMFI1NzF6LVM0UDRiSkdocFBMeWZlRnFXaE01XzRqVWxnS1djYk1lUW5rbDZ3eHhCNUZlYTA?oc=5"
+        },
+        {
+          "title": "Zelenskiy says Ukrainian battlefield successes strengthen Kyiv's position in talks",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdEhOSnVKY1QxU3I2d2I5Q2J3UTduUnV1X2l3YXRlVUtGTDdSSTNfb0FWeWJkTUNFU0ZDZkQ2N0dTb0lCLTNzQWlpZmNuV3k4N2dBLTk4QmdVZmNfYjlJZ2xxdW14YXRwclU1c0d6OWF0Nm9zbWVyQV9UelZINlFyYlhPelhaaTZrTTA0N2VkaXhZVDNOekNreFRPdkN2M3B0SFZzY3ZXcFd6eWI5UXdoTWxLMzIxX2YxanVvaw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 15,
+      "relevant_before_cap": 15,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Zelenskyy says a new European security framework floated by US could benefit Putin",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUW1pZDhVRDZHNFg1NmEtb2tWMVR0ZUVxS01NdUhkX1BlVTF1eG4yVVdFcGVLdWhTSWtmTUlSQ2NRNEpzZWJWWXVjazM2YmJyZjRndU1aM3BDcThWd2FqVElBT2s0bVZVeVpkVGFPeFZfTFZveGFCVWp2WE1QOUFyUVU4U2R0Z01jaWoyTkdvZWV1UElKSWllMnp3ZXA?oc=5"
+        },
+        {
+          "title": "Ukraine launches nearly 1,200 drones at Russia as US-led talks will consider wider European security",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLXVZUW9PS0M3SlFocHN4c3ZfZE5aZmwzamtmX3lkRHYtMm14N2EzVFV1M3ZzQ0tsbjNiMWVOMlBtRkdrLVp1cGhubG1yc283Y1RRMnk3SkRtXzVhQkItYlVJME9vX2stYUxNOEJTU2puX19kUHM4NnpZdVN4QUdTN2FNMGw5Sk9xeEtuV1hUT2pyYjBIRnQ0dDF1Um1lVFlMSEJzS1JmNUpYQjA?oc=5"
+        },
+        {
+          "title": "Europe to send a diplomat team to Ukraine talks as leaders push for a voice",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUjl3VUUwZnpqWVI3cEE5eEVMZlhzZmwyX3dZMy1oWXU1YjRidlVQa3NoMzhlSVdMbEJCazdBb2NFTFZ4Y2ZDVXZsbzFTTmxMR2E5MG5ndDQtZW5pUHRIRE9uQmQ2VmtCNjZRbWlSTFduYmhWcmNiNjRPRXY3R3ljd2hJQVFKNTJ1eHpFMUxfMkJ5WkJ1dkRQWDJHa3c?oc=5"
+        },
+        {
+          "title": "US envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5"
+        },
+        {
+          "title": "Bombings in Russia kill a military officer and injure an adviser to Ukraine's former prime minister",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb3luSkFyQnM4S0F2WjUtY2FnM2YwT3BaZTQ4VC1BRTcwZWZpVWt4U080dzlmZDRDWG9QZ2owQjFfV1BSN2FSMWl5WF8yRnZCNW13R1BESHdTaDBjT2drYzdSckd5Z2ZWZ1dFazV0X19LY2U2MGwxd01XMFNpeldaeHUybV9IZ2RCSFdtRnV5dENRWXZsVExpSWJJa1FSWGV2LWJyYkJHZw?oc=5"
+        },
+        {
+          "title": "Ireland faces pressure to stop sending Russia an ingredient vital to its war on Ukraine",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc2lvZUtOMFJMUFh0VlBpdnZObEJBZHNSSmNzOENBaDhrRElabllhNWo2bGV5QTNtbGZsZnpIQWpPSy1helVnWWxjRHB3emtzWm02bHpmS2xyM3JTM1NIc3pHQ0FZek1NQ1dLbWZJZWoteE9YYUp0SndXMFMtWlVKSlZuUWRob0RGbzZYQlpfWV8zbFBwRk1lVEdDTkoxOUxrWVdUVGgzMA?oc=5"
+        },
+        {
+          "title": "What to know as European leaders meet in Dublin to discuss Ukraine's security, and their own",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUnB2R1BnOVhKQlZxZUU5dGZ5Y2hGS0pHOTlVUC05ZjFsWGZPcnN1ZUM2Z1RsektnUzhzYmRySFc2am9xZmZuTTVzbFdVUFpJdDlwSXItLWNoR21rMU11ZldJajNLeGJ0UE5tWEJvQS1hUWI3S1RLWklFU3IxU0lVRmVta3ZSRUFvSlVlOGpFb3VGUkQzRHZRQ3ZGck1uVERGX25BSUZvbDdUNG1f?oc=5"
+        },
+        {
+          "title": "Stay or leave? Ukrainians face a hard choice ahead of what could be the war’s toughest winter",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0Q3Wkdxa0R4WG83d052SElGRm5zUGROWVhoLWlUV1U1MG1JNHhUVE53OFZHRDR2bHBJRFB4alVwYVlDSmRUYWNBaW9zY2U4VTgxa2MxWDFfNWppX0U2TVZuazdfQThrclhRVlRJNXZveklNVm5WMXkzNzdpbWpsQzNTNkJYOXphLVRfNzNTODJvSnhB?oc=5"
+        },
+        {
+          "title": "A 10th suspect arrested in South Africa over alleged bid to fight in Russia-Ukraine war",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNME9FS3hscmdZN3Nvbk54Z1dJTTB2ZzZDa0xyVDBxdHpiU01fdU54QS1NV3FBeUFTSXV1WTRuUGdDaVg5VU1PeWdpcUstTlRNamlTeHhlaHZGOHMzU2xJZ0VaZC1iQUc2Q195STJSNHY2cHo4NnVvUEppM1NBNWFSWTZheDlXY1ExNFVkV0d1a1JkSnU5aERMVnlfSmpWeWVIMmc?oc=5"
+        },
+        {
+          "title": "Russia and Ukraine hold nearly 4 hours of US-mediated talks in Abu Dhabi",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWFsNkFITi02Z1V3NGtpMndYU1JJZ1RKOUNYWW9tbWJvcHRpdDAwNGJzQlg1bURIS2pzMXA0UWRNRF9WY25QM1ppRTR0T1lqRzNRSTlzanQyeUY2WC1uOFJWQ3Mwd3pyMVFQcl8zTkZZeERfSTJQQ0g4WXFlWmpvdlI5RzNFeDNnVUUtdnZsVURBN2JPMmpYSEJUa2pXOWM?oc=5"
+        },
+        {
+          "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZGJLX21sUk93S0w1eDdOMEtDdC1ETk4zZ0E4d1dna2xHaWxFSXIxdGFFYVV0Wm5pWlc1Uk5YczNsa09FcGJtMHpKU1VnTkVJejR2YTJxR0ZFQXE3dndEcS0teGNKbHJBS3R1N1lHbUxuR3hOQ3hyZ2s5elFlbkFBVTJMNmE3TW1vN2x5dDl2VzBvWWpiWU5WRGxBLWJTNVZBUUE?oc=5"
+        },
+        {
+          "title": "Past talks involving Russia and Ukraine have yielded little progress toward peace",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ2ZpbkdNTFk2WGVZUC1CcFg1VDNNSDEtZDVKN0lYdnY0ZHEyb01RT3puTmpOek0ydjJ0TEhhMUpLRmlISkVQZThmcDRJd3p0M0xXd0x6NlpYNHRma1JIOWlIRzF1QW56OEptRWRiandnWkctUHU5ME5ZVzhjUkh3UWJVcGdyVm9LbWdIQ0xBdkcwRm9KS3pjcjdkbWhRWlRySmlRaHN5MGxjdw?oc=5"
+        },
+        {
+          "title": "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzJmdDczN2hxRVpiY0V5UzZWZlFBR3oxaUlhWW96SzNvUEcxd3Q5clI3M1FXUTZqMkF5dmpZV29xdjFZV1hBNDZpeXVwalQ4X1lISlZGY1lIWVZ2UXpYUUExQXl0aVlZazNycEFHQ25xclZiNHQyOW5nWlFoYlFPU3VyeTZwa0hPUkNMeTJ5ck9UVk95?oc=5"
+        },
+        {
+          "title": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVRvYUFQbS0za2RfNkk2T0xkYnVrcFVoNXZ3SzgwN2RpcTlMWDBha3lINTR1X0JSM0JkaldZMjB2SHFVYzJ2Mi1vcV9vamlQd1pOaWNtLV9aYjFlY1prMFh0ME1tZzdFa194dTJVSG1aU0c5bmZnU1BGWHdvbGhIakk1ekxVcjluRTZtQzJIQ19vSF91bHJsbVV4T1dWa1U?oc=5"
+        },
+        {
+          "title": "South African police arrest 9 foreigners for trying to join Russia-Ukraine war",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2N4a2djZmNTTXYyR2ZhemFQZURkNGFrSE0tcU1pc3dPakRmQ2lVMWs2eTRDZklrUXpsQlRGVGlMVDFRTnFpSWZnd2c3TGU3M2dnY3B3WGFEVHhzcHg1Mm5DUXlCNWdzTk9WNnlKU3RFX3ZRSzVFcEhFMmlocEU4SmphbWphWHptZkNlLWo2cnVweHFoNUZ5cEZyQm1nQlNFcGZCVHlKY0VNRW8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 17,
+      "relevant_before_cap": 17,
+      "filtered_out": 65,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US proposes Ukraine cede territory in exchange for joining NATO: Zelensky",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNS14dEFkUUtTSDQ0RmdCV25FZkVCRFVDT2Zha2JjUXFnSHhCMTV3ZHY2VHNDazZNeDNJcmliZ3E2OUdtSE14QWgzZjF5X2NtbnQyM0xLdUtDSm5zQ1hIcENQWDRjSUtYMTFEQmtFWmdDYU50a2VRS25feUxYT2NrTXdOT1RTdnJsdDF3VjdZWFByQQ?oc=5"
+        },
+        {
+          "title": "US suggested Kyiv cede land for NATO, Zelensky says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02TUtRTTRwRzRFZXF3VEdxMHJQRmtnb3cyU2g1RWxWY2NuNlFtRkI5TG9RaGNXWW81alV0Tk5HRGlSSkVTcE0wYUVfMVdISlU5bllqOE9fN0FZYmNMSzY1UUJLUnVXWFhrdEpzd19IQUk1bndyaFhiTg?oc=5"
+        },
+        {
+          "title": "Zelensky warns of Moscow seeking to redraw 'influence' in Europe",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbElYVXNKTFJETVhOaHo4dkJJVndLbzNjRGZlYXcyRXpuVnpJdWZ1cXl4aUpKLWw0Q0MycWV0M0tVbTh3T0swaExla0c5a3VkcXZrcDlWc2txR0ZFNXFPRkdtSXJPaml1WUJuUTlQU3RnblIyZmloSTR0Z1JWbHA3VmhB?oc=5"
+        },
+        {
+          "title": "'Breath of fresh air' truce brings hope to Ukraine's ravaged Kherson",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kcEsxWlJHOGtPRnJ4c056WWVBVzJKbXdwUGU1cTZEdUV0TWo1dU5rS2ZVTEpUMEtjVHJKV1dFanI0akdLZy1hNGpqOA?oc=5"
+        },
+        {
+          "title": "Europe chooses team for Ukraine talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwZmpZelFzNHAxN1h4R1h6V0RyU19LeGJFUkhVOUxYSWRwdjRobHAwcUJ3ZGY4emJFb0hVa0hxdm54a0R1WThGS0tEOA?oc=5"
+        },
+        {
+          "title": "Canada, EU launch new alliance with deals on Ukraine, minerals, AI",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUSWk5MUVSVi1pc0dNX2k0bTVUeWE3OW9QSEoxcV9kM3Z5SmFWRU4zX25aTXJtRzR1aldFZXNHV0ZPM19vZXNfOXRvbw?oc=5"
+        },
+        {
+          "title": "'Get them there alive': Ukraine's railways under Russian barrage",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NYml5cVRYdDFSc0d6QVAxSjRVSDQ0RC02YXFOcnBoZGxTSU9XUVFjRHJ1THp5Y3VzZnhOYTM2MUo3Z0VMVXBfT24yTQ?oc=5"
+        },
+        {
+          "title": "US envoys meet Zelensky after Putin signals no compromise",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR21mclpQbVVqblRFZERkN09DX0pXUkdOZmRJa01ndVRjODhLM0l4aEFMZTRFMndYQWkzUTVWN2lMNVZVTzd6N2FpMUpTeFJVWHZ1MndEODZiZkVxbWdkQ0FmU21Nb1dGZ0VNaUI1VkdiYzZGYndrU2tJMDYzRDBNY3d0eU5kUQ?oc=5"
+        },
+        {
+          "title": "US envoys arrive at Kremlin for Putin meeting after Ukraine talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWlUzQnd4TkRvc3VTVGZURnp3M3ZrTFhkSXYwM2oyaDNOVTFHQnFDZW1oRVRmNEllVVp6WTVQVUNLVm85TjljZkFCNlRMZEpqX3M4VVlXUTlpVUJVcUp6NGZ3WnFyZ1gzaWNBb3hkZmlIWVpXdTZHMmFqUGpfMll3OWotdXpfd3FF?oc=5"
+        },
+        {
+          "title": "US envoys arrive in Russia for Putin meeting after Ukraine talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSVFpdUNlbVRZa0NENk1kSnZIZVlxNGdCMjcwVU5ZQ3YySlg1Q2Y1Rm45YjNBSF9oT2NBQUxTa2hnVTZtRXMwcmtmdnhhanFNSWFlOG9zX0U5NG9hREdCbFB0RktpX29uaUhKXzB5M00tNDM5UzdVT3ZLOFJBS1EzNEVjTnoyWEU?oc=5"
+        },
+        {
+          "title": "NATO chief tells AFP 'very difficult to say' if Ukraine peace any closer",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdnFiRGdIN3U2ZWV1SXlTTGVuNUlaYjZRVS1nZk9vdndKTDhPSGVEbHR1RTZFREF5TnB5cllRT1Q3c2Z3aEpGeEZYVjRxYjhWRXA2SGUtMlZORGhxa3ZwaHJlNjJNakVMU0JhQWVIOV9ub0xqVHhkWkRBSkppN2lRcjh3V21NZVVYWXhlVzFXQ2Naa2Mw?oc=5"
+        },
+        {
+          "title": "US envoys to meet Putin, Zelensky after war talks in Abu Dhabi",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOFdxX1ZxYmo0VFRUQW5RcHk5VzYxLWpQMWo5SGJHcWllaEF2ODZJOEpERk9qdVBYUUoyLTc0ZTNTYXE4T2dMRjNYYkE3WFlINWpqS2V2NXVUa2xrdmNKUDkxcDRKNXZsNGxjQ2FIRXN3ZXU0Q0RWUWFiYzlkM2xIc1VpdG0?oc=5"
+        },
+        {
+          "title": "'Horrific' Russian drone strike kills 14 at Ukraine train station: Kyiv",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFaWxnQlhST2gyaHI1a2JNcVRLWFFTbkw5Rjl5V3pFcS03XzFkY3dTQ0ZsTTR0TWdmbEhSRW5LNS1aYU5LQjRydWY1aw?oc=5"
+        },
+        {
+          "title": "US calls for 'new' Europe security framework as Russia-Ukraine talks open",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT09YejZmTHlrcWJmWXR2c2N2QXVHRzFVdjJWYWxiWDFlSFU0dDNCcHhhOXV1VXRlYkpQdEIzSFFXMWVPeDlYNkFvSFlUM1FITGZvWkpncUtaRURiWXJGTlhOMHZURDY4OWloWXpMMUxRVHdKR3VadEs2OElMaXJscGY3aWttenRCMi1heFNYS3U?oc=5"
+        },
+        {
+          "title": "G7 ministers to press Rubio on Iran, Ukraine at Paris talks",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WUjVENDEwQXVmN0d4ejBIYTI2ZEdNWnI4NllHN3RBWGFIa1NrLXktWkt2NkwzRWw1akNObi1xcV90eE9sRVJPcFlMV1JnV2NwdWVneVdvRk1FV3hSUzl0ZWxOa0lTaTZZUVNIR0JETmM0aGJ4aXhRa1pPajg?oc=5"
+        },
+        {
+          "title": "Europe top diplomats press Rubio on Ukraine at G7",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FX2UwNkdrRUt5QVZqRDRDVEJpdkJ6eHdQLTdHV2hEMXNCSVY4T0pqY0l2WS1peGpiNk1INFA5RTBVSl84SE5iUEFRY0FDYmUxc0xyOXB4TFRlVXlBNFE3bnlMTnNTaUVFRkRPZHZhUHhsOFVk?oc=5"
+        },
+        {
+          "title": "A mother's campaign for Ukrainian sons captured by Russia",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3b0VuYnA2Mzd6SFRsZVlJVGZySUVPM1M3dkMxZUxZNkZraDVjdTdYUlFIdkxtWlN6Yk9jeEVhQWpHUHV3VWRoUzZ1aHF5YkZNWW53MWNGZDdkZjNOQnVMRVpSdXpHOTJiVHBtS2MyWWhTWU9qTjdjVDVR?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 34,
+      "relevant_before_cap": 34,
+      "filtered_out": 64,
+      "out_of_window": 2,
+      "items": [
+        {
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Sc2FZdms0a2VhSnZ3bHhCakcwcnl4SWhTWi1HaDJUdmZXdzVKTmtocFp0aFRYQk9VYllVZ1Uzdkp5OV9Ic2l5NmtUUXU4WVBaNFpMdDVselhoS2c?oc=5"
+        },
+        {
+          "title": "Intambara ya Ukraine: Aho kworosha kugira amahoro aboneke, Putin ariko yongereza ivyo asaba - Rosenberg",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FQUNUei1Na3Z1SkdiNVhzNXAwaHpzbVc4WUtxNV9TdWhLOXFPbXNZWXNKU1BCY3U2dGlJTGhQM1FfZlZqZ0ZkNWNwajVwa3gxNi1rLWwxWVFQVVVZYk5VUDZ5ONIBY0FVX3lxTE1FQUNUei1Na3Z1SkdiNVhzNXAwaHpzbVc4WUtxNV9TdWhLOXFPbXNZWXNKU1BCY3U2dGlJTGhQM1FfZlZqZ0ZkNWNwajVwa3gxNi1rLWwxWVFQVVVZYk5VUDZ5OA?oc=5"
+        },
+        {
+          "title": "Weekend Woman's Hour: Kyiv Independent, Falling birth rates, Actor Laura Linney",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Dck5tVVVKeENjY2dpeHFVU1pmWGhfOTlKNVY1NXFsVE5oS2M0bDkySWsxenI2SEZudHdMT2lOX0g4bHJqZ2tmNVVtczFFZTRv?oc=5"
+        },
+        {
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GajB0U2ZnbUFUUDFTS1pOdTljWThUMGZCM0tHMTJuV3ZWUm94LXRQcTBxUlc4OWNGb2ZlUHNLdTNFR0xUeWxQYzUtbnotS1ktRlpCdVJxWnE3Vkk?oc=5"
+        },
+        {
+          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yM3NJUTZ5WV9rdTBqcjJOdGhwakZkUnVFWHhpcExGMnFmYWluVWU2Y3l0ekIwYU9iamVZYTM2cU50aUo5dzM1VXloSGJPUFRtNUpBeXE0UmNkQ28?oc=5"
+        },
+        {
+          "title": "Aide to pro-Kremlin Ukrainian ex-PM badly hurt in Moscow car bomb",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSYnNXRE1pc3ZndW9MRzZJY2Z4SzN3ZlFycm1XWmdvQWlyeExVRi16b0FhVklWdFdBRmhCSThHWDhHSzVodFhQTUhxNFQwdGhZVDFfMGpMdjlyaXc?oc=5"
+        },
+        {
+          "title": "Global News Podcast | Putin lets Europe join Ukraine peace talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TT2VYMFFGQ0VEY0duN1VUUXdZMmdwRFRBZm1ydHNXSG9EeVl1OFY4MjN0RndSQ1BFZUtBQTZLU1pmaFVjMExSSDBCS2VFUTZQ?oc=5"
+        },
+        {
+          "title": "Northern Ireland v Ukraine: Who makes your starting team?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16UDlCMnRoTXJtSS1abzN4b2d2MXlyMTA1QVZMc2ZLVHJ3X19xVngtcVBWaW9Fc1hzTVpUankyVXZMUHBGTzU5NFdlTnI0cnJLTGpSeDFsNWFVUWM1NkJDUjNhM1pKVW5m?oc=5"
+        },
+        {
+          "title": "Burnham-on-Crouch town becomes first Essex twin with Ukraine",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UN0VMZDdMeF85ZWRieHZqVjZUYzB1N3J2RmJ2ekRZS1lNU2N3dDdsNm4yTUNyLWJnTndnZXNkRzBzSTZFTHFvUzdoU1ZyRG5QMC1YUTJIc2RaUUk?oc=5"
+        },
+        {
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56UXZpdU4zLUlwU0RjbWJZT1RsS19MWGxQeVFibzdQZG9ZaWYybmNXZkZWUzFwRzJ4dGRHaEJOQ1JrRjR6XzlsSEVCYjdGMW02MFhYY1p5VUtoYlE?oc=5"
+        },
+        {
+          "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2YUZtTEpkZ1E5YmYwVXlWYXFzTWc4S09mYnBkejB5Y3NHd0xKTjB3MlVGeFZKaHlUdTNJRVRvWkgzQ3hHWWpVZm1neElKcDZ3NWJqbnl4WGdLbDQ?oc=5"
+        },
+        {
+          "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBER1J4dGlzQ09zcmpIVml0V21KMmJSQXZVS1QwYlFZUlhuR2lEUnI4VDJ1OGhOc3Bnc2oyeHBReTZJY2dvTkJIU0Z1VjlKSFNUM2ZXdUNxVWtleUU?oc=5"
+        },
+        {
+          "title": "EU: Martin says Europe's security 'fundamentally reshaped' by war in Ukraine",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pUW1aQllXNnU1UmxpaUxWTUdRUm5UdHlaeGpOa0xCNV9yRkIwZ1pEM21qamx3ZkpiYUdqcjhrb2FrY1RxeXVlRllIbnpWOW16VzJzZmI0eU5YUXc?oc=5"
+        },
+        {
+          "title": "Scotland: Wilson and Miller score as under-21s thump Ukraine",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PV3hJYV90bXFsSEczbU5NRDZmalUxRlhodmpGU1VuWkRISlBLVGw2cFFZMTdQOEx4ME5rcjM1YjNSRHhVaW4wRm9LU1psVlBwQktSVGhwcWRPVERpVWUtM0ZQZ0pHRGNV?oc=5"
+        },
+        {
+          "title": "Cheshire families welcome new Ukrainian GCSE",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wOUd6bGV5alhmaHJGMUppTGQzaGlYSzZKN2U1ek1qaFFmS2NsWG9WcmhWMEVWZHJQSUNWUlNaOWZGRFVwVTJLNXRTc1RoQ3lRalpnN24taEVrOWM?oc=5"
+        },
+        {
+          "title": "Brown owes McConville a goal against Ukraine!",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13SUoxQTNrWlRFa2x0RHE2S3ppdWtwUEpydk5wRlEtRlZGenc5cDZEU01iUHROZXpyczVRY0VOYW5BUDdZSlM5MVdDMDNtZldUUHQ0anRsRXE0UQ?oc=5"
+        },
+        {
+          "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lZE9XY0dSV3ZINVVlTVhzQkVhTmVDTmdpTS1pel9leHhEbTltYTQ3Y205RkJRTTRrVkNlN0wxUlRjdDdpN0ZGYnZvckNrTWJUYkpzUG1xVXc?oc=5"
+        },
+        {
+          "title": "Ukraine: Ugutanga umuyagankuba birageramiwe, mu gihe ibitero vy'Uburusiya bituma haba umwijima n'imbeho",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXdEFJdzFpaTgtMUpvUHZGbmNEd2xEbTVJMVNZZjFvMmVxMVNqQ0dGUFJ6TlRYM3NoVXNmZFNlaVJfU0VvY05QNEJhR0RtUlozYzdWTTlZc1NKekhzN0HSAWNBVV95cUxPUjhMb3NGajZ5T1NWeXNicW9uTEdrVVQ2TzFmQ0RqOEh1SlVzWGJaM2NNcEtkcXhkR0pvOExNVmxRQ1RvVU52Y0IyOFhsZC14d2Jtalo4U2NONGx1WEVhZ3F4OW8?oc=5"
+        },
+        {
+          "title": "The World Tonight | Zelensky says there’s now a ‘window of opportunity’ to end the war between Russia and Ukraine",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNSXBBLVdTU2phOWxxM0NGUG1ibVp4dVZvMzNrZFNGS0kxR014RnpSUWFIdy1abTRoaHFrWFpXcWktbUw0LW1Yc3I2LTgzSEpx?oc=5"
+        },
+        {
+          "title": "Ireland and Ukraine considering co-production of unmanned drones",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XcWt1N1oteHJvMUVPRGlfZU95eERzTjdxVWxQSWpOV2dicV9HOEplOWlPQkZMMWtCNWFHNVNIM3NBYkJfVlZCNi02R2k2RnI3cXNlUjdXcEY4Tm8?oc=5"
+        },
+        {
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtdDJ1amh3VkZuY1d4SEV0amx1RWU5Q3FYa0R0VDBxNU5vcTFtOUVzajh0U2dhUzVxeWpUQkNWX0FPM1NHMmpqQ0dUblA4UjBuYXVWaWwwQmkzekE?oc=5"
+        },
+        {
+          "title": "Global News Podcast | Russia-Ukraine talks: Prisoner release agreed",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VcWdNMmxacVl2U2p4ZGcweDRKU0htclM2c0k0MmZYalBzblBCY1RKOU1SbEV3MVU2eklfbS1PUzIzQWgySjdVblRrdGtSUEc5?oc=5"
+        },
+        {
+          "title": "PM | Russia-Ukraine talks turn to post-war security",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xREhCQkQxMmZhWUV2WFUyZC1jVENaLTFSVHBjQ09Xc3NfbXpLMXVPTGRSa0lpUC00RDkySC1nZmhZN2FVMUkzMVBHaHJjdFE0?oc=5"
+        },
+        {
+          "title": "Six O'Clock News | Ukraine and Russia agree 'largest' prisoner exchange",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94NGRxcWpVcVVFU1JHZk5KXzJ5cS0xQzZSUjlqUUpDMG81UWhDMUtOaXFjMUxNUm5uMXd6VmNPSThMVDdnQmFYZUdQdVlDZWtM?oc=5"
+        },
+        {
+          "title": "Inside devastated front-line city that Russia wants Ukraine to give up",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kb3N1eGdUYzRReWxDMW1hVmxxS2FHR3oxSHBUOG81QVM3M3VqSHl5a0lOTkZFWWtpQ2lhbGhyRlJTRUxWNjEtSEhKcmJNelNkNzdzR0g5RmdFSkU?oc=5"
+        },
+        {
+          "title": "Newshour | Zelensky hails talks in Abu Dhabi as 'constructive and quite substantive'",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kTF9rSUpjbENwZ0pHU0dYcTFFLThXdWFOdWVlbWFPaC1PTEFUSGxEZ3hfcXBPSGFmRDVxSTZ3SFF5dVYxMWtYU3EtSDQ1dG4zdXk1TGlYZjdyZw?oc=5"
+        },
+        {
+          "title": "'If I tell you to run, run': BBC joins a Ukrainian drone unit as it protects a front-line city",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlS0tLbFRKRjRyNEdseUV1dzN1M3pNXy1qVHkwT1RzTXo1emhJd0p5UHRzbU1RUnFEMG1faFYxVVlkM19qcjV4ZU43bkQ5SE96bUs0OERjbm4?oc=5"
+        },
+        {
+          "title": "First day of Ukraine peace talks constructive, Zelensky says",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nOTZJMmkxOUs1TDloQTA0bGctdEpXVmotNVFaZ3dIYjFmbnJ1MmFVY3AxM3QzeE9lRUM0WXZPZnpnVzNCWU1EbzZkeDBqOTlQQTV2d3E2ckNvWG8?oc=5"
+        },
+        {
+          "title": "Carlisle band launch star-studded Ukraine concert",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1DVU9FOGlTRHhNMzFUN2owMWVXVTRYNzJiQV9sTy1peTdfTEJaVW52SlpPcE9kdE9vcy14TlVLV1pEeXFDeDdwcEV2SHBLTmlaMnFhV205Vmw?oc=5"
+        },
+        {
+          "title": "Ukraine: Ibiganiro vy'amahoro vyasubiye gutangura, buri ruhande rushaka impinduka",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tbkRsUjZ5T2tVZUtnNjZFWi1oVUFyZ1hGblFSUVU3a0s2SnB6NTJVX3JTbE5oN0FmcVcwMzZ3bjdrY0xLLTUzdjZrX1ZpLS1mWW5vMEc4NVhGdk9pUnfSAWNBVV95cUxOdHFJRV9lSlRld3hiNHRaLTBrUjBQTFF2d25heDdabnVkbUVxWWFneERxM3NOYzllT0REWjk2V0ZidDI1eUR1dW1qT3pEdEhKQkNrVXNNV2VFZnc4UWZpaUlvRkk?oc=5"
+        },
+        {
+          "title": "Interpol South Africa operation: Security authorities arrest nine foreign nationals at OR Tambo airport ova alleged plan to fight in Russia-Ukraine war",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtSHk4UFlyMlZOcnpmeVpmVjVnVmlCQ2s2Z3RjQ1RTSWE3T1JzeVhaQlpOYUdfVnpjR005dnE4dGJIcEt5ZmlnMTlPQ19Kb2J0VEdIMlljdlM1aVlt0gFiQVVfeXFMTTlYS0dhaGE1bXFxYW9VMXVwcmN3MTVWYmRmSU9IeV81T0NVT0lFT0NRang3Ym85U3BwTVBGckJEdkpNbU9iRTRLc3ZxY1VuRVUxbGxlSEQzSHduR1lRYjlyS0E?oc=5"
+        },
+        {
+          "title": "Cumbrian band behind star-studded Ukraine aid gig",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tNlZFMHZCWkV4SEV1bTM4OTE0bTRHX2pZMXFEX3dXSkRQc0tiQjRvTXU1c0ZnNFBUc05OQWpYcEZIN2s2QTJEd1E4Mm1BZW0xLTR2V0EzbHFkVlU?oc=5"
+        },
+        {
+          "title": "Nations League: Northern Ireland's Ceadach O'Neill ruled out of games against Ukraine and Hungary",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qdHF2T19XSWoyOXpTS0RwRi1yaFotZ250MHhRRlpNOGJhaTA3VURoZEpkM0xwQTVRUU5kQnlpTFRrWDdXRXEwU213YUs1a2NpbzZkZGE3elRwMjR0ZHBVVXBROUlqRm9q?oc=5"
+        },
+        {
+          "title": "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hUVlxYmoyNGlXbkp6OEhfZlg1QURlVE85S3NEZGRTUmhoUHRGcUFnM1VsX2JMZUlzbGxUd2l1QTJZdURHZ3RYMEFZd1ZhTHZJdW56T2xuR211Mk0?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 8,
+      "relevant_before_cap": 8,
+      "filtered_out": 92,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02ZlQ2Y1A0enpwLWYtVDFSYVgyVWZmUTJzcjdrLVp2VmlnSHNkcGNfbi00VkliUXdtNV9VbHlINDdDOTc3dUxHRlQ4aE9BZ3p6V2Ywdk1BQnhXbDBKYU5DZ1ZfUEJSVDNvNXJfTnpQbUFsSzV5cVE?oc=5"
+        },
+        {
+          "title": "Europe and Ukraine get a boost in peace talks, but Putin is playing for time",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcUF0RjZSUldra2R2TVp6OUg4YmFBRDdHMHYtMnpwNk9MelhKdU92NUtMaC1heV9GYnotUEZvWHdqLXVQejV2bnpScUlTaGlCbU5vU0ozX3pOWENTVGdDaVNoNGRGVzBSbFM3X25GcURsWFBjVFJkLWVxNjJJVkh0NlpJaFFHcnJhMTVNdnJR?oc=5"
+        },
+        {
+          "title": "Moscow car explosion injures former aide to pro-Russian Ukrainian politician",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2RrcTdHeWlRVXA2OGxNY1p3YVE1UGhVTFlhOElvWF9LWTZZQ2thOXBvR2IwOHlEZ0VBOHQzcldibDFPM1psMnNxaXZuUWtLTTdnQTZBVHJzbmFDXzhIMEllRnN3dmRqcTVHVmFyVDhqR3NyZ3Nhd1hzdGpfVkhBajFZQ0xzNTBZNU4tRnhvX3hsbWFsNWRj?oc=5"
+        },
+        {
+          "title": "Russia evasive after the US says Europe will join next Ukraine talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdXVPMktwTlZVSzQ0VHJSTm1SY1paMHR1alFvN3JvNy1oelVQcE52SG9rTUZxMWh2RUpNaUhKaGtIOUZHb1FyWGZRdmFwZVkxWG8yRS00aUtzVWluRWJaS3lnbEprSUVxTEZUbDdkRTEyV1JsR0R6U2FHc2JXdmpFcXlhLUlnLXAwRk5qYUwwUUNlXy1o?oc=5"
+        },
+        {
+          "title": "Witkoff says progress is being made after Ukraine talks with Putin",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQlZlN2pGS0V6dEZPaWV3cFJFZlptdTVZS0hmV3I4TnluUlZROTNpM0RDTl9nWV9wYzRiTWNhSHVLQlB3WU1VWEVrdWpuUWw5aVhtRTNLdTZXbEpPRjBrQVVyLVE3WklObFZrbmd4WDQtSU1Kd0FQUzFYbnFLQ2xqd2FhWDlQVGZpTEl3akV3c2NuU0x6cGJHX2J6ZkRkOTBlZkJod1RqX2syS0hzNEhBb0VWTEJ0S3l1ZlZ0S1Jn?oc=5"
+        },
+        {
+          "title": "Trump envoys to meet Putin in Moscow after latest Ukraine talks end with no breakthrough",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlFTSXpLWThLRnd4RXFHS05mUWFQdWs3MmtQWkhVNWJ4ZlV3N2lzWENNdlVfTjg3dXV2ZTBkUmVyTDlzUEJVbXlhZTZxcDAzZkwwc1RXZHhVNlotMUVXdk44d2ZUcmJ0QjVha0lRRG9pTk4xdFB2UHdzUE9EWnpsWjRqRXRuV3Jy?oc=5"
+        },
+        {
+          "title": "First round of Ukraine peace talks in 9 months begin in UAE",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcDg4YnlleDFlcjZKTmlsQmRrVS02T25XRUVvMUpVVWdoUnptcG56a1hPSjlYNU43c21GYVhYVGZQZUtlVnU4MGRGSDFvejBiMFZ1cTJxM3hFUUJRRi12elQ0Y3hoOEtwcF9iV0xuZW1ZWTdoVG82b01FbXZOOU9LQlVXYmlIcjFzQmJsNFhiQWwtejVVeDVHeXdJSFZQc2c5QS1CNkVDSnlsaTk0Z3UycTA0aU4?oc=5"
+        },
+        {
+          "title": "Ukraine peace talks restart after 9 months. What makes them different this time?",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbFFSOXRLNjM4cjRJUE0xRm5IcU02NnY5LUtaNklFU2ZLbXJnejh5TjNaTEcxMDlGSkhLVWluNU1VV0N0TEVadXFPLU1FdjdaTmpWbFlrV2dKdXk1ZlRvU2hYRDlLLWpWcWVMVm9lRVNkV2dXNF9QOVNGQ3l1b1lhOGVQdkNWNXM?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 17,
+      "relevant_before_cap": 17,
+      "filtered_out": 83,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Ukraine updates: Europe to send united front to potential peace talks",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS1oteUxOelRYWG4zNzBaMHdiRjJTQ3hWaHd4UXZmam4wN2pQbEg1dzR3dUVWVkEzN1VnbE1tTUVlSmtkNWpVaFVaa08tdzNCTDNfNlZIWTEweDFTM01ud2g5Vml2TEJfOG1rZF9vOVdOZzE4THVFWTY4R3lzSS1WNFhzYkQ0Z3loZk0zcTlmNHBDS3J5eGRUWWZsNTd5N0ZmenliVXRoTQ?oc=5"
+        },
+        {
+          "title": "Ukraine's Zelenskyy ready to put NATO security deal to referendum",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ18wRnh5dElHdEFBakZMZHBmUG0yVGlacjVEckswemNSWmVLN2tRVndscG84SnlzTWlqb3VvcXdSZ0lUbkJWYU90TGlJblFFOVE4Vk50c2xVaHBDSkZhbmZWX1JoQUJyUEI2QmQ0cGdKUW0zeGVEa0dXbkFCb1NfYmNYOS1uc25pRXhXa0dtRTJhOVc1bG9z0gGXAUFVX3lxTE9ybDdSR08wdldkTzdYUlhvTWkyTEpnMEFHM2VobUl6Z3NfVW11V0dZOGRjWWtSRjRMczRiaHBoRUFOM095d3pIOXhrOWd5eEZEa202UU5HSFZ0LXFIZE04Wk9oamNSNUVRTkFuOHIzSEdFTXNFUTdrYVBTVF9YeUJYWG43d0hXajV0WjRRa1k1OFNiTnBTOG8?oc=5"
+        },
+        {
+          "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWEzNmtRVDc1RlFMTTNiS3NUazFLRjB5VXVzd21la0JYNHY3b1kxd0ZUQmdmTXZLeTZadklWOUJZczZ0OXJaQXdEcG9VLVpCcmFPTmVqS3UtRmpGMjNseEh1b3dBMjUyUG1zcTJZNU1UQWdwOHU4dEdxXzA3Q204Ti1keE81aFJRWllMMUpiWWUwSk1LYWRGUHdaWUtjcktfQ1BTbQ?oc=5"
+        },
+        {
+          "title": "US, Ukraine say Europe 'will have a voice' in Russia peace talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcmZNQXFjXzc5bXVzVzdFRG1LMHlRSW1ncmhpSGFSRExjZTlqZENUOXNILUxOM1lLV1RKYUFoRklTU09BamRoNno1YThCbUU3ejJOTmpKcEFTalBjWjJQM1lfN1ZvNjVNTVktNE9jTTU2N0V5a3hVZ2pKOTZ6OS1fdDZnM3Ywb05zTnF4ZzZ6UDA3dlhLV2JJ?oc=5"
+        },
+        {
+          "title": "As Russia pounds Ukraine's infrastructure, Kyiv faces winter blackouts",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdVJmQTEzM0ZMWEg3dU9kQXJtQU5pTEpfLURHSWVDUTlnVXNxUmxzSTFkdDB1TjFiYWgyNTJRQ3pHNXFaRmQ2VDJfZTdic0Z2YUdCc2xvZFBRYmswRy1VRGtXekJNeVJmcmhVTTh0N2p5U01GbGwxNkFlRE5uczhBaEt0d2tIbVZXWTZ3SjgwM0t2VGN0akhwQmRYV0xQR3F6a0Nfbm5KcmE?oc=5"
+        },
+        {
+          "title": "Ukraine updates: Second car bomb to hit Russia in two days",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnNCNXdnNEVwUEljVEQ3bUVOdk1MODVBVER5eC1Nbk15aGppQ0Y1Z1BVS1dsZGYwbTNZdF84QzQzRlJqbnNzQW5xaU1NX2EtcmhqTE9VTHR4OV90bVQ3ZXU4R280NnN6NVUwR0pTaXVoblE5a3d3QmtZbVpTVURoa2RsWGwwZ3l4aUQyX0xMMll4VGtScXZQTw?oc=5"
+        },
+        {
+          "title": "EU leaders tussle over who to send to Ukraine peace talks with Russia",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlM3dUNSLV8wYmw1TXZDVWVTR0pWcFZ1MEprWWxHSDIzZ2ctZEptS0NJY3JBTmVUY2JLUE5Vb1NpSzRMWjR2M1pia1VqT2xhbGpsS3pvM0t5YXJkckVUWjd4Rnp3V0Vscm9HR3VvQ2dlUnFUd1pSbmxjTlI5ZmdvTm1DWU9tOHl6MW1oVHA2b0I4WEstb2pLNUdOU3FXd9IBngFBVV95cUxNUzl4Z2c5TVdIc3dIaTlLZnp4bTUwS0VoQVVycXNWMlU0ekFqMXBIRTlZcjlVV0VrQlNob3NIaFF1WDkzSEE2eURRMEZUVWxlaEgyNERVbE9DZ0lqUm9zOEI4OFhTNVl3S3p0dXZGbVB0XzFVUUM0Yjh1Wmh2U3FfQmVPTFlmdVJKYnVFZXpnOFFrTVkzYVdvaWNUeDB4QQ?oc=5"
+        },
+        {
+          "title": "Ukraine peace talks: Jared Kushner and Steve Witkoff arrive in Russia for meeting with Putin",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHg4ZG1SOVY2OEJGVzQzSDFfaDlFMGdzdXY3Rkl4ejZ4WkUwOERVbkIwVW9iaVZuUHlvS3NHX1RnUEdqQjlxd3ZFNDlYLUdrTGFVYWZMQmZQTmVnR292ejQ4N05mSjJ1U25VcFRoeUdfYmV3RVo0aFFGWXB3aVMyUm9YSHZNUlA1a3NjYkRQdXg3bWo4TzVqa1g0STE5enk3M2NF?oc=5"
+        },
+        {
+          "title": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFRhM29zNjVOZXc4UjdlMmVtOTA1SDBNTV9wZHgwZTQ4aHJNWmp4VUZ2RkZ1eWYteUVkdmwwTWFCRjA4SnR1WjVXaGJvU1ZBRDZDSllkVnBDZlhkQzhYWDBDV1hMbWFZN21pa284V1Z5UHpVM0NON3A3aDlfeHZhRUswcl9XWWU4RUlXTU4zUVJrYzV2Z3FBOVJtS1djdFNsOHdOeDJDMmltN0JtQVHSAa4BQVVfeXFMTnY0RU16dUFOWW40TUVidU9lVTl5eU94Z1psQ19oYlBrX2gyUHY0UGxmS1BrUDZSTXRybnFndTJWXzRoaUlsZlNEc1B5TkZqbVVtdWpBYUl2UjNVc0E2NjdtYnVqMk1yWE52OWNkMTRYR2pEM19zRkQzbzN1clRFWnVYZkhFR1Y2bFVINnBxaFhlRDRNWWdwaFlsb3dXTUFNbDBSUWRJYlZyT25leGJ3?oc=5"
+        },
+        {
+          "title": "EU leaders tussle over whom to send to Ukraine peace talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVTJtTGJ2SF9sUkx4dm1IWnNLYmM3VE5lT195M2ZMOFdZMGN3d1JjdmFBRWdVT19FcU1yckxzNUJVTGNXbUFSYlJqRWxhR29rcVhlZ2tSeFE0MEtINXdSTklic2xCTWxHRUlsLW02NFc5N1NEcm1KZHBXTS1lR3hhLU9JWkQ3NkpfSlJVUU12a0xKUWF4R19XaFlqdnFyZXM?oc=5"
+        },
+        {
+          "title": "Merz accused of 'blackmail' over Ukraine funding",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNUxlVXQ5OVVfekpKM0tRR09aNks2aFRoalNPSDdaN3FiWnNvdWI0a243V3c4eHBWdTEtM1hZdUtsS2h1TGQyWngxTVc4M3ZkSWxGZTN2MG9BUzlSUXdkZEppUHkyeThvbDZVbmJDdk03d3Q2M2RLMzd4XzNIMjZyZWt4Ym5rYU9EZlpz?oc=5"
+        },
+        {
+          "title": "US, Russia and Ukraine wrap up Abu Dhabi talks with teams agreeing to a prisoner exchange",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdFRfVFhsbVJxeklPT3V4WmFIWTVfUUU4d0ZyRjNEdnVmb01wTkxlbUlnU1lEUWtxRVgyUGt4ZUdpbnF3MHRrZnJORXV6YnJJMEhyeTZOdDhsMkR2T3g0R3JqV1hCcWpfTUdWdWdPUjNoUmpja1l4SjBUZjhtZjZNQ243bmFSNlJrZmZKTU1Nak4zQ3pHUFQtcXM0US12aGw4MUE?oc=5"
+        },
+        {
+          "title": "US, Russia and Ukraine wrap up Abu Dhabi talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWlpCZms3OFF1M01oV3J2S0x3SDNkblBXTG9FN0NwT25keU5fbkNjY0k4ZHVVelNfZWN3aHRWTThMNUQ5Q2I1M3V5eTZpQ3F6ODI0M1VGTmhaQVhZYzZHdHg1MF9IUFNTRVJScWM4MjkxVmlzMl9LSVZvc3h5QVhoRktuNEU5SE9R?oc=5"
+        },
+        {
+          "title": "India ready to mediate Black Sea food corridors — Ukraine's Zelenskyy",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV0JJTE8yclp5ek9idEtqb0Y4Y2cweVpyX0xtNnJDM2trU0VGa1JjTG1hS3lYa3RkeGx4UFFoNnJ3VEpjRUR3Y3A1eUVndTFBbnNveFVYcE52QnIzQ2lpU3ByY1RtT29rZHFxd1NiTi1aMC0tWWZKLUxwZ0QtUmMyUFFGclZ3QnlMR0NieXBSLXpCWE85Zmk1eGdVN00yeWptVGRYRWx5aHdjNVJfbm54cExWenZMdGxyMm8wQm5Wbw?oc=5"
+        },
+        {
+          "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFFFNGNPMEZ3M2VBX0owQ0ZnMXZXTU5qVTVOYW93a1Z4cVBvc2cwMTJPOF9UOGxFeExEamlKSzhFOGV6ZnkybHVEZXZCd2F5bjZ1VEs3WmhNVGcwN09jYnZNcENuYV9lVEsxVTlnU0JBNVBkTi1YNjNOZ1dRX1hoVS1DMklTak16YUNJOHpPYzhPTzJQVmVOZ1Qwb0nSAZwBQVVfeXFMUGFWcFhzaVlUZk5EV0hNTlZ1aFp3NHVHOHZVT1hSalYtajVybDlYVzI0OUJuR2tDcEhuOHcxWUVoQWJoWXRmNldUSGZ2a3BYVi1QdkxQcGpKSVQ3eWF1NHQ5S1d3eEVJb0pjUFhjNk12RXFqVzVmd0ZIeVFRcnZYNEhmRjUyRktfUUxrQ2RPZDllR0FZdWxiYlBObVd0?oc=5"
+        },
+        {
+          "title": "Ukraine peace talks resume in Abu Dhabi",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbXY1Mi1YZDBGSHdCYVF5NU5Yajd2S2IxMDI1Y2RpOFlGMEF4Q2lMWnJISndfaEVuZlMxOGlLREIycENkYXhRb0FvT3pBY2phenZMNlVWd29Ga0UxSmVFMVREenN5eW5HVlZwcENNMzhsWjg5RFVRM3JuWFVhRGgyUDNn?oc=5"
+        },
+        {
+          "title": "G7 foreign ministers meet in Paris as Europe seeks greater say in Ukraine peace talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeV9QcWdhVTVpQXBJWm8xNDB6MHdxMUlaejhOeHFIZ0R1M0ZvUFpBMlpBMlRwVmNvQjdRemUxd242eENOY0xHMG1DYXRMMmVxeWVWSXhjUTBKdDlDaHFKN1VxZmpUd1cxaE1yUl8zVHROWlZ6ZElKYmdOekZNeWVsWmJJTmxLRmVCbkR4S1E2WHJDSHpMcUVSZDBGeXo4SDhoZlF30gGjAUFVX3lxTFB5ekJ5UEsxdjNRR09vX3VJS2o5RnViUWU5TGNCN0VJbF9QWDRaSTJYcW9USmRwMXc0T1RKbFQ1QjhMd2lRZFdFdDRuLW9pQlNsZFBHaWgyaXNJX3FJTDZMNUNYTlJBRzZqUW5la2ZELTcybG5URC1wbGFHRTNKaXhkT29ySmczN3VWaVhHclNsa3A0dEo0cXZ3ZTNBLTlnc2Riejg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 32,
+      "relevant_before_cap": 32,
+      "filtered_out": 67,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Guerre en Ukraine: Zelensky demande des comptes sur les restrictions de Starlink et Starshield",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOUhvX0ZZM2hqRGZrczBQUGMtN1ZpelhpNnVTblIxcm9FUDJmT21YdWhOYWcwdElrYkRhUl9iUjhVTmUyRkEzWklWRXloNTRNNExwZk1zWjk3TzB4LXhVSU9sR1k2Y3pRdldISFUtX1BiVGlPNk82bVdGREV5TjNRa2tMRkZYc2N4MnNpRi1hb0ZXY3Z3UzNjbUhkX0ZzX21Zdk9YRGlBUFl5MWxPX3hnMzJwTGtLTVFESkI5aE94Um9sQ21yNDBJY2VoeE13Nmt5aWxUcGNvaVFmOTVvU3NLdzY5eGJBQTNxNEE?oc=5"
+        },
+        {
+          "title": "Ukraine-Russie: les États-Unis auraient proposé à l'Ukraine de céder le Donbass en échange de son adhésion à l'Otan",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYWl6bnVidzBfTGtFNkZ6OTZmaXNoS3pKLWhJS0puaUVDMjhGWTQ4emRVMDQzZnRJanB6VllwS3NTR0ZXa2tOX29TY0pfel9HRi1ITjdjV1h3U0tVcUdqWlgwakdjUHUwZDRWeEVTeGlwa2h6SmhkemI0SDhvSUFjREZWVUJSYjBpUVdubGJ6R2s2dk9zaGk3TEJmMG5jbUptLWxBcWJwbFU0R1pTT3lvS2dqbXBnMGVQS1pwMW9TelJvSTc0N3dpVWNzUTdKUTF4ZzdkTzZHdEluSXdEVmJMTnYyZmVXbmJRdnRSUXdzTnVjZWd4eVE?oc=5"
+        },
+        {
+          "title": "VIDÉO. Restrictions de Starlink et Starshield pour l'Ukraine",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0phM0xGblF6c1lkdEpybm1DaDZQWndFUkZiSmJYWDZhNlJmMFRtQXFMNE8yVi0wOVFYUGkzUGp2dUZMdlNKdXRWcTc5SV9JMUF1R24yNE5uRFJKMXl1OW5jMGI5b0xfMXlTUXB1Nnh2UzRDaXVhZHBQeHJxbWJZS21NNy16YlhuR2Nra3dkdUpQc3ZGZVdNbUJYbG50bXRFbWJNTVd0TFQ5clAxNWtxQm1LYw?oc=5"
+        },
+        {
+          "title": "Zelensky affirme que Washington a proposé des concessions territoriales en échange d'une adhésion de l'Ukraine à l'Otan",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaUNhRmJBX1ZLV2xxMkszQngtTEhSVjR6YllnWHNXVTY0S3Rwc1dxdDBSWWxWTjRJeEVkRUlmOE5yRkNrUVM5OVJ3VEdqS0dmdnNpXzlHOWdJYnU0clo1ekNqREZ0ekQzMnBrU3NTSUJ6eFBlS1VleGtWNVhMVE9DWFpQcTZWTVVwVDRfaUQwNGZPcVVHT2xlVU94bmhoQU5HbDVSaUMyNU1tUmJwdFJFZklNWUxhZ1N6LVphSkJrY09tRGw1eTY3SVN2eXdvU1Qza05GTXBzM1VYN2swOThUQThjdWxYQ2hLV1k4OF9qTnVaY25Oc05LMjhmQVBkdTY3?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: désormais incluse dans les pourparlers, l'Europe va-t-elle pouvoir convaincre la Russie?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSVd5SUVDLXluaWt6Y1pPLTVjbXJSdjhreTdaa0NjMnkxWk1mTEZMb3lUQ3Q5N3dJUXFnMk1vSVpsYnZ0dmcydEtzWEF6MUxMRnpvR0xkUEF6V01TS0g5alpPZWFLR2ZEdlpXSi02eE9xT05nRld4a3RlaVJHYlJBbC1tODd1SEhNT1VmRTFGZTdzcTZGcjZTV3VuOWEtU3RvTW5KdWs1azg5VDhnZGJpVXJiTnEwRER0TFBoNEItYlJhRkxZa0JDVTloaEUxbXY3Vkx0bUg0YUJsOGN4M2RxTnpGQlZFRWJiRFoydklDaw?oc=5"
+        },
+        {
+          "title": "VIDÉO. Les Européens dans les négociations sur l'Ukraine, mais qui pour y aller",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcW9kODljd3ZjdmpRVDN4NnhuT2xqZTlsckdMUzNsdlRab1IwYVI3d2V5MEhyZEFJMDh6cTNNVXdicTMwY1VvcXlfUkxoWUllVFIyMld1aVpBSDN2cDVScUpNbVJkdXRVVDlPUXZacUNGa1pCTmtVSlFhOWIxVkdxamJTNGpQM1ZyVC1HU1FQbzY2NWw1dGJYQzR6R2E0QXhJTUIybGdGNVBaMWZkaUVVeWEwMHM0OEpjaktHOFRjSTByMXB1SVZ3Qzlhaw?oc=5"
+        },
+        {
+          "title": "Ukraine: des ouvriers refusent d'\"abandonner\" leur centrale dévastée par la Russie",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQy1ESDhpaVh6U0x3YzZpbjc3N1lDWHpqbGRBRWJYdTRxeVJkbmJtS3dtcnFvUlRjVUpCR1c4X3dsNElXcG9vTks5bU0tU1dfbG9uTmJSeG5Sa0xaQkx4M0c5a0pEU1RBSWZxaUlEXy1YZk85RWdSdXY3RF8tS1NnbldLWS13Yzk5blExYmpQVVItQWtmemVRZVAyMDBOeXdkQlA4Q29CdDFOd1FRSkNzVDhSTF9JS3pvYXd1aTBaeUo4bHlCU1AxdzdyWnJuZw?oc=5"
+        },
+        {
+          "title": "Pourparlers sur l'Ukraine : les Européens seront représentés par cinq pays",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdXZkdEQ3SXRkZmJUSGwxcGZkei1ibWVsb1FTZVhCeDEwamVwWUtFQUg4aWpEdDFkMFV0Tm5tS04xYnlLaTFIelJaR0lSVmtPM0pwVGVuVldwdFJuOU1menNsNDRoa3ZZbUZsS1dybDk1dThDbVF2QlNISGw3dHR3NG5kaFJyV05neVdzVmxIWkFkZmF3b082eGJDeGk0NmpETFdsTWd2Y0pIbW53bmt4dGJ6Qk9McHdEWm5LNmtGRGxKRlVIcklKRlhn?oc=5"
+        },
+        {
+          "title": "Pourparlers sur l'Ukraine : imbroglio sur la participation de l'Europe, qui craint un 'piège' russe",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcTFMRU9YRXBockhkcHBVY0R4N0xCV3lxU3p5ZmxhLWhkc0Z4dXVJTlRVSnhvdGRpSXZFYmhEUTYwTFJaaGJoVXppamwyYUpucUFIa2FXTHozTUNfY1U1M1hJZEpjdC1QTzBMa3p3M1FGei16YzJLa3NYZkp1dTVCMEtxR1VtQ3pfV2loNFhDQWhfTkpidmF5dnh1SUZCQmxEcW5TM0ZRbjJGeVhDOW93emdINnI2LTFYOXlMNkFpeTFZeTNOUEhJdHBVYklNcE9YVGNiNXhHTUNOY2xEcTQ0MA?oc=5"
+        },
+        {
+          "title": "Les Européens présents aux prochaines négociations sur l'Ukraine, selon Kiev et Washington",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVzVITk5fRHdpT21HV3VlREVuZ3Q2TVlhNUhveTlUMnhUd0JiSUg2NHFzWjVOcC01R01ueFYzWHowdE96TTRlOEpscWZfM1N6QkFmSlBhbGNnTHFjdHR6dzNqLXpUdDhsTUU1SnBDOUFQdDhqZ2QwVmRnVG1RSEFacUIxMVlqUnNaMnpaY0JfMUpUQXFNVEpGb2VoR3lLd3hOYXgxX2pvQVV4M25DUWo1bUZacmpaVEVPMnYtdFBQbFZzN1ZPVEt2SmJCNVJtamNCaFFxdFJZQ3hZbms?oc=5"
+        },
+        {
+          "title": "Marine Le Pen prête à une rencontre avec Zelensky, propose qu'elle ait lieu à Bruxelles",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWlDQkl4MndnVjh3Rmd1Z3lwMHM2VVJEaWdtV0QxMHZ6OWlPeEdyN2pWa0dnVXlfOWFKa3k2OVl2aEVxTF9fdS1sWWFqWFpkMG5CNVhKZXV1Q2tlYkxrS3liZ0NrOXdobDlBZlRuczdmNjNJM1FEeGEwbS14a1dRTXJfRGdiTllsWnM1R2tFdzdyX3NMclprbWh3V3ZmSGZpN3pRQU1lOTJnMGh3S0xTbFJIWGJ0cGM3UkxZTHpORzFQTFUzZTN1bkltUGgtdw?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: pourparlers Ukraine-Russie, avec l'Union européenne à la table des négociations?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORUJ1ZFFjeVlVS21LNE5xdS1LSTBXTS1MaVBPZVo5NXZMQjgzMzJ6NlNwQi1ZU1lnTDZWQ2xzX1lBeWhzYmExMVphcGFYNTF3Y2llTldPVWJua0UxeUlfOXgtSktwQllJOWY4Q2Rpa3E0dHFRYnlGckt3T0t1X2VBM00zdXJhWG1kcUZXRGx2d3ZicHp2Tzl3dlFiU3RQdGFhei1PcFlLaHc4NnJRRUxZY1ROUG1zM0lrYTlsY1JIUTFvOXpkelhwek5vcmdGeHMxU3FRTFB5TWNPLWxxQ2FyMG9XMEM0YmJWLXc?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: de l'Asie à l'Amérique, via l'Afrique... ce que l'on sait sur les 11.000 étrangers morts pour la Russie",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZWZBVVFTOGt5QnlPRnE2d0VnRWxlZmdUVzBVSkpoUDRQdjRILXpzd3ExUEFsb2JScnhxNnRjaWdrQzVHNERDeXlJYTc0TlVFM1dBRENjbTlxNUJFdjBHcTBnYlBYa0plckNxOGsyMklSU3dhdUZ3aDFHRmV3X0ZTOHBtMEduS1hXNEdhZWVacERpTDBjb0ROM0pLc3kwdnBFQTNZM2dUY0RyYnZhcHBtUEtfQllHZUFVcmhXRzR0c0xlTmNYY1MyTGlPMnJZZDVGd243aXdJV2RCMGpnX3ZLSUtEUGI3YTc3bXFmM0FBelpPTXc?oc=5"
+        },
+        {
+          "title": "VIDÉO. 64' Débat: pourparlers Ukraine-Russie, une paix en 2027?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVRiamxUR3JPc2puZ09wclNJZG03NWRjNm10NlVqTUxaSmFGdWtYanB6V1gyQ3p2S0ZJUUJRNWhjdFJXNl9hbWFoN1FEalVhbllVVENQdllWUl9NNU1LQXJjTzVoc1gtcElaejYtMjNaSmxkVG9Dc2dQaFVrMGlrREY1SkoyVTNSUDF2X3VyTS11YTM4bENuRkJPMkx5WnlRR21rS25vZ3ZqNThfbVhMWDM3cw?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: vers un nouveau cadre de sécurité entre l'Europe et la Russie? Les États-Unis poussent sans convaincre",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdnhITk8tR1p4Zm5qOG13MUFXUElkMmU3N3ZGUUd3MU5xUTV2WjhvZXVCQTZyTno3QmE2OFo3a1AzdXpXbUxLYW1QaDVicXNWekNHSEszd041Tk5tSXd1N3FScWc0eE1RRGFkMlh2dVBSXzBQUmt3TkFrVHBvNjN6OWllZ3RfU0FwMTdISDFzb1FjWHJyVU9oSmR0Q0NPVDN5VnNJYjQyaGxhazF3TWZHNVpYSGYtSVNxelhBemZCZzZMNzZYMHFkTkE1NU94RkVrd3hRVlZ0Z1VVQVU1a29CbmQ0NGF5RWJUVmFVRDdURjM1VXBQeFpVdDhvd2ZYeVpaNGxR?oc=5"
+        },
+        {
+          "title": "Ukraine-Russie : Poutine inflexible lors de sa rencontre avec les envoyés américains",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdVdVWGo4N0k5cjJqaEVPRUJnVUlSZktRT2UyYldEOGlDVUI3eXdOS0JZSGdCSjJjeGc3bFo4VFg1cDluRHpkMGg0aGFVTmI5RzJJYzdsa0JfQy1tS3ItWDZENGZiN0pzdXlLMVVLaDdVbm56QXh0aHNsQlhjVmItcEswd0hwZG90VldpcUlpekJIbFNYRDF3TGNlVS02ZXB5MTZ4Uk5aU3J5R0hMeE5waGN1OXFWU0k5aHktLUk0ODBBVVJTemctZlFaVWxhMXVTSHVV?oc=5"
+        },
+        {
+          "title": "Pourparlers sur l'Ukraine: Berlin et Paris temporisent sur un émissaire européen",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYjYxa0xSSTdrbndwN1RXYmF2Q0NGSnJFTEtBRGJFVThuUE1rdVpFcTVDT0hob2p3dWE5VjVvYUc0OHdWakxxNjVOTVRxdnhkSk8tUnQyMTZaZTlvY2RvSHExZzlHaDM4SDhVM0lQdFFHWld6T2h1cWtSYUxqRVgwMTU0bDZRcDMtZ2tFTXBVWXNWWVFBYThqUjVnM0RmcnFHWG1jRy02eUpKUlNhS0ZfWFRYSGREVTZnWVQ4cHp0Vl9TamxHc0JUWWVxT1pJZw?oc=5"
+        },
+        {
+          "title": "Ukraine-Russie : les émissaires américains à Moscou pour rencontrer Poutine",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOW5vcnYwd0p6cHROSWZzUUg2NUQ4N0lyQ25sNG1yY1JQQ1JkQnZXdXhFTzBrSkNtaHdYdjBXQnI2ZVE0ZHh4eVFLNVdiRXBQN0ZzazNFR3d3VXhxQkxrN2xVSl9aMjJRX3djMzh1eXUwMUdPWndQcWQ3ZUdvcWdQUzJfNlhNd3g2UHBDSzdoVXBnYjg0QjdRTklGcWRDb2duNHZmZXJYYWVLOE5UYVFLUklGMl9adDh6bnVVWXVybUZNeUlj?oc=5"
+        },
+        {
+          "title": "Après Poutine, les émissaires de Trump rencontrent Zelensky à Dublin",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeVdId1REZnlIM1Q4dk14ekN6LTdYRmJFZkZhbVBYWG1teHQzQ01vYUJGcG9pWjFwR0E5dkV4d2FwTGV6bWJUd2diTFdIT3JzU1ZUSHV6M2JBNG5ycWdIemxGR3U5LXJuWDBHQjVxRDVFZVJHSk9vTGVVMHBKUXFmSmJBNU5fTmkyMXp4OEhZM2V5WXdvd2FsMVY3cU8xbTZieXJNWDI0MDZ2NHcxMk5QeWg3Y1pMM3JkVVFqUHdYNi1zQQ?oc=5"
+        },
+        {
+          "title": "VIDÉO. Guerre en Ukraine: fin des pourparlers avec la Russie, la guerre continue",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYTRfYVZCbmJtNmVSbHdDeFZVVDM1cU9xSkROekpDZHcwa1pwWDdJcUxnRlNMY3M2c1NZdkp5RmhobHYwclVOcVF4QUtPUkYyb21fMFZhdkVCN05rbEttY2V3Vmh2MV81TjlReEptbTRkSWt3eVI1UnpxZG16bHFHQlJWREp5VjdXYmdjSXRrYmI4bWdXOXlpbFYwTFM5X0N4WlNkenhvbm9wRFhLQnFRY3Z6ZGVMZWlTcjJQaWVHMzlzWjRTRkZFZVFTR2U?oc=5"
+        },
+        {
+          "title": "Ukraine-Russie : les émissaires américains vont rencontrer Poutine, puis Zelensky",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS2JTNm4yazZmR19mc3pzZjdGSnVScHF2aEhjbWxlZ050ZVFJaUhDc1pfQ1k1UFR4bXMyTDkzTk45SEJsVnBFbU15MUpRWjZyendFVEtIWUJwcldWMFBvdG56aUhwVEJJRTVJd3BrTW1aLS1scU1lcENCcnVMQlJLQldnNnRmVkduRFcyTXZRVTdHdDdMNUU3TGRMQVh6dXNNSzNuTWRTaEo4QlZuOHJwd21Ud29sODR1bVhRZ3V2ZVlCV3VVXzdRYUVfT2pjUQ?oc=5"
+        },
+        {
+          "title": "Rustem Oumerov, Vladimir Medinski... Qui sont les hommes qui ont mené les pourparlers entre l'Ukraine et la Russie?",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOYmpmUkRmS2VibERYU0dQN21HclE3dHNLd0s3bkNvcFpac3hPVHY1TzBrYmpDb1BERHU2QXVWVDRldnh1c0JDZlpkYjctNzBEand0NnFiLWw1ZUxPVU5yVHo5bDdkUlFVakV3TTQ5SWhmWVBiMjd6djFqZlNfOU5valh6R1dVell1N2RYUG54NHdKdmd6RXRVbTZWUnpTUVhGV1hzc3dST05yR0RiNFJIVWpFR0VLdkxPcmo5dWF5RWVXcnRCVlViQTRMemdPRHQwTmE4VkVsTUNvbXRfbEdhVGlHb2paU0p2anQ3NHJ6MlprRWplajI4?oc=5"
+        },
+        {
+          "title": "Cadre de sécurité, échange de prisonniers... Ce qu'il faut retenir des pourparlers entre l'Ukraine et la Russie à Abou Dhabi",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQd1ZXUFIyTWlvMGZhaWE4R1gzYXBkdWQ2ZVo3TmstVXh0T1FUbnBCSGU0VTdGSmVTZU16VGNmQV9ZY0tuTU9salJpWW5NOTRZVUJ6SW1hOTBqdlc3a29HRjF1QU9NUlZ4LTJveld2U2lucjZqRDJ3MHNYTXFqSmxzSE9DYVdvWktvcDBTcU5Sc1hZanVDVDJnSnZLZVI2TXNCbkl3ckNFc1lxRDRvZWRQVUhOdzlvSUhOZk1OandCRVB2Rm1GVTdvc3Y2YUxUak9pSEV6NFNqZVVNSVI4SVo3S2stUnFTMEM2b1dyZHZNTU1fRkVtOFAwRGtLYy0wVkt2?oc=5"
+        },
+        {
+          "title": "Ukraine-Russie: fin des pourparlers sous médiation américaine à Abou Dhabi",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGxXMURhX0tYVHMyRkRETUt2S09lTTNYcS1NZzBob0xHSGwxS3dSNkJXMTdGX0ZLa1h5c3VHVFAwNjd1YnRpd2Y3U0xIWVBTdEVEUmJ4OEhSeThOM20yMmZIeEh3MUo4SzEyVGUzRnZyY05VV3ZjR2JVTU5kU2lxZlc3Qmt6ZkJuWENWUzdzWndJMFFhZ1dFR2lRbGhjelNBckZhQVFLTjRTbXgwSG1XcWpZSW1razlFaWZiRDZLQWpUaF96aFRPbVVR?oc=5"
+        },
+        {
+          "title": "VIDÉO. Russie - Ukraine: des pourparlers de paix avec ou sans les Européens",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUnN5dm1EaXpjT3lITjRqRTMxLXJRdlFUUGdIWlVLc0pjQXpueE1JTFhtdmhhUzJENnNkQjIzakVWUmdvejN6NV9rcUhacmRJWE1vTEVWVlR4SXRSWndfN3NDTFB2UVBKd3dmbHk1dzd0eTRyWmhSOFZaeEs3a0ZzWm1RSU1IRW00Y1pMRWtDMkF2aXYxTlkyWGRQUjBIaEJNdVl4YXpoR01DWlVabUo0YlRMM0tsMHdrQ2xsRmQwcDMxZUY1?oc=5"
+        },
+        {
+          "title": "VIDÉO. Guerre en Ukraine: une reprise des négociations constructive",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWE9kVk1BQjMzOFM1ZlFhWEZaUlphLVBIQWk2Q3A0Y0ozM0V6TGtuQlpnRkdiYjFMbWdsWkRwU1pLM01DaTFLSkVoM2RXSDVleVF6aWtTZWlRNDRBalp4WFRMa3JBRDZvYUY4UFhpdGp2bXJ3RHRsbE5hXzdCNy1qRDgzMllvdUpvTnZfcDdPajdJRzEzZ1dyZm5ybjgtd01hRWpTQnk0QS1melZ1UC1pNkh2LU9MZFBXMWVVMA?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: ce que l'on sait des neuf Zimbabwéens arrêtés en Afrique du Sud suspectés d'avoir voulu rejoindre le conflit",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOeFNYVmdFNkRENXJZTUJnQnVyU3FVQy13VlFEVk9ZcVcwWS0tSExKZlRYdnMxZjVyb0p1Tld4ZjFhMXY5ejZqWWw1OFNMYmZNU1FZc09NVDNralZVbEdKTE1fbXVQcUUxN1dycHJHa0dGRVVuN2FrTkx5TFNQT1EyVXozaTJFdzdLWmRWNldUenl0LUJ3RTIyd3ZUaXFFUk5xV0F3eWU1TmVSODBEaENhQzhjOE5KZnZRUTFZd3ltTmRkWDN5RUpvMURMbXVQcVZWUjN3MFRPUFV6bW1hTTdsdWRvYllsV0dUMzhtc05QN3JuUEhZT1NjNm9sY0FfLXBWLVkw?oc=5"
+        },
+        {
+          "title": "Pourparlers Ukraine-Russie : Washington appelle à un 'nouveau' cadre de sécurité avec l'Europe",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcWpoTTdNMTE2WlJoNUdYbHozQ0pVX1VJY00xYU5FYVd5S0ZQcVdEMkVrU1d0Qy1Ra1RWSFZ5V1MydEVLQVRCNGpaUGFzLTFyenJiYlBfSXlnNDVSZzcwSDB1UVA1MmE3dkxtbzU3ci1nbU80akFkM2Njbzl5UHB2RVNqWWRfTS1feFZfYXN2cWtyZ3htMEgyQTNVSnlxbEM3UUM5WnpUYU5mcURXWjZlNW44R0xMaUJnUnFHSldjTXBnQzA1YWtYWmFYajdqNWpmbFpHVE56YlNoUQ?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: ce que la Russie et Kiev espèrent négocier lors des pourparlers à Abou Dhabi",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNa0xPSTJLVmczNnBXUjdabVEyRWpoWGxLUkVDQW43R1NaSDBBbldrSUliX1piSmRvVnAyemhWSU40ek1sTEtnaXdlREUxVTJqclI4MmRxcE1rRHF5Y18yME9vX3J5X0Z5eE1aR25HMHNkSlJ6bU91LXM5dEppZmtfczh5Z0dYeEExNTVRQVVUdC10Z21CRkZTWFA2SjhZVGhaSFRhVGtsU21Tc2Q1S3dIc1I5c1ZaODhDUVp3RXdNYWlFOE1KU1hnZnFuNVZXWkZOaXVEc3FFTHdGeWNzanM4eg?oc=5"
+        },
+        {
+          "title": "Guerre en Ukraine: plus de 400.000 Russes tués selon des statistiques officielles piratées par des hackers",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa25uS3JGM3VJUFRhZVBaLVZoRDdHMHREUW9ZS3NrdEk4ZDdmT3M4TjI3Xzkwc0RlYkRjczloWlRjQmExWVhhdEh6cDVpS0ppdFBsSGktNFhjQzRvcnprOFBocDJuUTlFTUoxZ1NEOGJlemhyYWdLRTV1QUFkS1g5ZzNfd090NEdET1dWdWQ4bTV0TUhHVFZ6RUIxVmdFeGdicVhkanZNZ0t1WmVwOUh2X0RRRTZHTlVITXBOVEdNLVRRNWVDRko5cnVMM1M5REdiZDRyVW9meW9KRndFVGxJMjJyT1FJWFBIRmgyZGdfSUE?oc=5"
+        },
+        {
+          "title": "Ukraine: les donateurs promettent la moitié du financement de la réparation de l'arche de Tchernobyl",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRlhmVnFlNGoyZTJ3SFZQajA5UTBEaHFkVjNMY3BtUmltdmxqVTBwb2FYMFpMMldaX3dyR2FkZkppTGg2Tnh2c3YtRkpoaExMQ0NNb0picFI2S3djSWRVOWlFNkhLOUJPSi1hREZ1c0ZMNzIzNlU4cFFVMy1DLWlSNmRTalRyZ21UU2RzRFA4QV9nOC1JeVdoNHBjdXRsTHpnRTN1blpPSjZ3R2ZaS1p4bEloU09MQ2hFRHVkX2wzTnhlRkpJLW1lLW5MODIwQmptM016bVFJUUlBc01pWkpwcmdWeUFFNjBB?oc=5"
+        },
+        {
+          "title": "Ukraine: réunion à Paris pour financer la réparation de l'arche de Tchernobyl",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR1BZUXlDejlsbVhrUm5FUFc2R0ZMWlNDSFJwZFZPd3BJU3g4Q1BnN3NIcGQ4R2NTRk5iaU5aRjNfRFhtWWtIcmhNSWxuN3gwT3owN2ZVaVpYRG1pWVBPalpXTVZVYzBiamNfeGIwaHdfaU0tYTJXR0lCY09DQnBnRFdtZkZLTXUzZHVmMmNBVE5UOXdLQlBwV2dZdmFEZlN0ZEtfaWVMeW5WUWdXUm1rODBSd0ExT19PTnFxX1RRQjY?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 30,
+      "relevant_before_cap": 30,
+      "filtered_out": 70,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Zelenskyy Says US Floats NATO Membership in Deal for Donbas",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZnU2bWVzWEppMldUY3MzMlhnMVhZb24tZzYzc2sxQ0VRUDV2dVlfM2taWnJXOXF6bHpOTXVXUGQ1QXI1TjRFWDhTeUFkTEJWMU5EbHFzeE5fX19OWmZKakRsdDhfdjZraFdxWjlHSUdaSzRPNVFjV1dkYTYteXRTd0hpM0tYeGl3cVgyWm16allXZjR0bG41YkE4M1dGckoyUUxLWTAzY3diRzQxSHF5OVctVEtpdw?oc=5"
+        },
+        {
+          "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGs1elRtd3lKNHhsNUt4cW5BUEYxR0xhejN2Zmo2aUN6RGl5RnBlSDRIMmV5OWZvWGpPS1RsbXNndTMyaHNHRHVIemdsUE5HalVaUWdaVWFrWWxIMUlrTG9sWDNPWUFzanRsbWUyUmFtVkU5UUh0anJXSVBQbmRqMkZUY0x4MkhKQWdncVdsWS1ZVjlsM0g2MkFreHd0ZE1RQUJIQ2NHeUhsYmozem9BblVxd18?oc=5"
+        },
+        {
+          "title": "Ukraine Says It Hit Oil-Pumping Station in Russia’s Samara",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNW9JZkVCYkpRVW80SWVjRVdRQk1QWkhQZl8yZjhxdE0zOWJTNW5mSkdvbnFWMm45dENoYXdfd0l3RnJEZVBpMlpwcm93WURZMHd2WmxMY01IQ0ZSOWx4UGFpamZTVXRZNGdHZjgwWHNZakhlZklMNmdXU2pLc1RuSjRHX3ZCOVJFVjBLNTVNQlhNYllzX1dZQ0VUSUZEdlB2WWJNclBGZWFCTnNPM1E?oc=5"
+        },
+        {
+          "title": "Ukraine Hits Ninth Russian Oil Refinery Since Start of November",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHdjLXl3WFY2c1NuaU9fLUJERHJGNHJQSlFKWVBoX2xLa2JYWC1lVllWLWxLU0EtSl9Hd3pTa19yZ1lwSGxJdXJfZXlpbTE5dnRzcTJxcjRwSC0xdnlPTmFFX3RvdG1hTDMyWDRsQld1QlBiWklUVzA4QlF4SmNkVkhqY1FoNnpsMHJVTmNWMG41MW1USWJqQi1EV2JDdFZvSWpNbEJaUkFZcU4xTE1FM0ZtVzE?oc=5"
+        },
+        {
+          "title": "Europe Taps National Security Aides for Russia-Ukraine Talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2JyQ2Z1NDZzaDN6b0pGcHFUXzhpRjV4ZnVUdXpJdXRmZlRrT3dPZURHN0MtUGZxVkRkTS03T2ZWbl9TUjh4UmxBZm5oQ21Id2RnSnhQaWJXSk5xMGtTSUowVVdPbWdKY1BDMUpCNElzVHppM2lrUVdPU2s3Q1ZpX0V0ZFhOR1RKQ3JDcjV2QjRKODVXTS1IOVZxUGRON0sxeTlic2k0bzUzMWsyaWtYWjMybXE?oc=5"
+        },
+        {
+          "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdFdaTVNLNzdxak8wLTRwSXNRbXR2djY4LWU1Q3JFUmR5b2RoZFBYcVRFaTY2c1F3dDVhLTY3OTVLYVRNYXMtWjE5bmNsdkExWU16YVVuVk1Va3ZzZTFfcGFQWlNSV0RPaGhWT1VFWFRIeXFEbmxUNy12eVBDY25JQm10ZmJya2FmYm5oa0JlczhxdzA4Ty1vTlNIMUtuN2xzcHFGbHFWWnB2Nk5mZnVF?oc=5"
+        },
+        {
+          "title": "Russian Diesel Exports Drop as Ukraine Renews Refinery Attacks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ1JOVWp5VDdxMjdRZ0RDY3pFdVhYbWJ5NmNWSnphblNqa3lkdnZod2lzbGpXQTl0bW1WU2c4ZF90bF9hTVkxczZSQ0pCQ1dreFgxUjg3VndPSVV6LW45Wm5BSlY3TmNlQkZEaElpT0Z1WEhlbHJpdHp3TkQ3S2FacmdhSEI0NEpJUjNTdTBFSkFkbHBqRjhoMU01LThrVnRjUHVpeFlaM1J0VmpSQ1N6dlZ3UQ?oc=5"
+        },
+        {
+          "title": "Finland Contacts Ukraine After Russian Warship Struck Nearby",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQek5YX25ZTkIzeURtYnZIeUt4V05lZExMcjVUXzI5R0g0S1VnUU9fUXZ4NXlCYjZKVnRBZFhuZUZhXzFseThxYy1Tc0lEUkMxbFo3MzMtSGlUd2RDZnZvc2NaLVM1cjlqN2lqNXRiUHRrdXJocVpXRTRDYjVRM21jMHpYaWdXVGpfRXcxakdmZlRHYXJ2SGwxZnFrX0tNaExKVjEwMmJ4Vm1vc1dOdFdKOA?oc=5"
+        },
+        {
+          "title": "Russia’s Economy Slows as Ukrainian Attacks Damage Industry",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGd3VXRQN19xU1pBUGU1U2V4Z3RZejVrMGd2Y2xOWWJRWGxndzBrODZTRFZTd2ppU2x4Y3RyNjZVcnE5UzROTzBLUWdDN29kWGlpX1o0UldabFpUZExTOGZpQ1hBM0JCV0lnUTdwUXhZSkJiMlNmR3hNM3RCdXV0RWM3dGlkZ0NXaktYQWJCOHN4T1BrcjJIdmgwQzdkQU84WjlCaFVPZ0d0VTljTHhJ?oc=5"
+        },
+        {
+          "title": "Russian Economy Slows as Ukrainian Strikes Weigh on Output",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZW9mVi1IcTZCNEJGaUVmb3I0U3IxUjhxTGc3TmkyRUhEc0hXcnc1N01US3RTUEV0UGRVamxBMURlMXltSGRVQVdERE92Y0hGTElzaTNmeG1ZX1l5bjV4SlpjSlQ0cnp4azJlcENWVU82Z1FPRUlkQ2FvMENYeDdXYTFXSF90Q3NjSVFIem10c29GZm9EUm5CQTVsdWlwaGNHcTUxRS1OSDZPUGhqeVE?oc=5"
+        },
+        {
+          "title": "Cocaine Militias Deploy Ukraine-Style Drone Warfare in Colombia",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTUZsRWhYbFRFNUY1SFYya3hLb2w3bHRjck5UVmRoMGprQU9JR3BCMjVyWW55N2VyUzJ6M1hOLUVaMll5S0FQTmJqcHZZSm5sNXdNVk1yYWo5Tm5QY1hKUzNuSzJvcjk5UlJmNWduRjI2cXdaUE1VSVRtdU5ldFJ5ZVU0aEJzM2JDRXUwdlJ5X0h4S1NTZzJ1eGxUMW5qSTFzY3FYT0t2S0tlM05zVUNFTzI1cnA?oc=5"
+        },
+        {
+          "title": "US Envoys Meet Putin as Kyiv Says Starshield Limits Resumed",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRl91dkI4X1RqdGFLVEV4TTdaNkhuMWNpSi1CcFpIYzBCVzhwX1NXMFRNSTBnbENpRHNvZDlzMGd1eWhrWDA3VjVHU0dyYzlHRXl2T0lnUHROUko4cEE4YTNBbXFMN2xHNEU4dGVHYlZXcEctTUN2WXJnOVdoZzVJRVF0Q1M0RVZXWmV2enZfZEt1THRfSTRtTU43M0VoamloZzhReW16RUt2NnBldXZTTE1LbjJCUnA4VEE?oc=5"
+        },
+        {
+          "title": "Ukraine Says It Hit Russia’s Biggest Oil Refinery in Siberia",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTmpDS002LUh4Y1NnRHllNTlSMlN3Nzk5aDhTNWpmM2FxWmhmbTRQTTk4eWlQSFpDLVJsOUtWMldyUW16bEc0N0FmZ2dWSEotQlZhcmZURXcyS0NaSzNOQXl0MmFEQXppcjdRRzZLRTh5WVpicHlJZXBIR25XX2xocnh4UFF4SmNTT1RGdzV0Z3JiTkpiWFdYV25OWmU2NXBrSXdwdXVaTlE1eC1zVGZMdQ?oc=5"
+        },
+        {
+          "title": "Ukraine Says Starshield Limitations Resumed for Frontline Troops",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ0tXN0VDdzdUaXA0WTRrT0RIZmVYNWp4Vk51S2FQWGRyVlhZdjIyMFY4NjRJWVlzdGVJYzJ6R3ZGRnZ1U1lKQkJ1Rm1LZ2piUV9LV1BaUmQzNzdhX0lXTjFtNnJScDBFZTNtUC1Da1NqRXc3VWlfMmpOY2tTZHo4SkdiaGtDcXNKbzZwb2d6RUR1SjhqYTdHOENsMGlNOHdfdFd5VUFRMHpMOWxsRUdDRlhRb0d5QQ?oc=5"
+        },
+        {
+          "title": "Russia Steps Up Attacks on Ukraine’s Vital Food Factories",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbHc3OFFDWS1MLU43VE92T1FWaGNTaFJlQi1rQmtPc1ZLcXNRYUgwZ0c5TDhVaThobjc1UFNocm1kQ2EtenVQVGYyOXFXanl1Q29zV1BIdW9aSVZGRnBHNzE4a183ZE9kcFlRdzI1a2NibWJYQnZFWWpaWG5tZlY2M0F0V2ZkNVRYUHVZb3NmZnotS3RlamlHM295OU56a3ZTMlB5VzE2TDhHak1V?oc=5"
+        },
+        {
+          "title": "History Is Calling Europe on Ukraine. Can it Answer?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWDk4TDBmYkJyQkFtLUFtMGVaWjFLZ3VyX1VodjFwVEl1QTUtZjhxQWF1SEVlWTVsMVJTcWZVODJUeHQ3M0VDQW8tOXZJREJzQ2FxM1NpdGZmcnRDS2pGVVd0dVZMallwQW0yS1RDdEhIbkRQYjVXWkZ4aUZJcDlSRlJiS2VDWGhMdVVKaWxqN0ozbUszUU9hWVFJLVhsVTNteV9PUE9DZw?oc=5"
+        },
+        {
+          "title": "Europe Split Over Presence at New Russia-Ukraine Peace Talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVXRtczRSVHRvUnZkUFBhUV91aVVtRjJWU0tpRGU1al9vamFabzB3bmpqYmpoelpoWG81U1R4SGV3Wm9IaUdoczMwaUJxTThFY2JVYXRUdG9CdHM3ZTJXbTM2ck1vWUZINXd2Z0t1Y0V2Q3Q4OGpZNDNEeW9iZmRPLUx0MkJvYjFfYnJ5eDRCSXRXSTMtcExHN3JoVVZFSTlOb0MzZmNpVXFua3pBdDE1Tg?oc=5"
+        },
+        {
+          "title": "Ukraine Drone Strikes Russian Warship on Gulf of Finland",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQkVKZXRmZmpBZjAtREMwblBXY0U0YXJWQkF2TndGOWxzOWMtNlNmX3MxeVBEQWw1dThUblNQbkhWaGc1dkZndVM3ZjcxRkhGMVpGZ05LTVVZYUNHUDFDc25Ja2tXTW9Td19ybXMwUjgtazc4UHpfbFlsTUtjUjFaeEM0TDhLbmMyVllPOElxazhjUW5IcTR1ck1lMzg4b0c4X2dLT3NjaFdXc2M?oc=5"
+        },
+        {
+          "title": "Zelenskyy Hails Progress After Witkoff and Kushner Meet Putin",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaFp0TG56bktEbXdPZ01DUE83Vkdva2F2Y09xZVQ0aWxxRkZBQktzLW90cVBDcmZxMUxYNmpMZ2cyR1c0VHNLT3NmNndZTDIwSHdETDZ3dE5OVzNyV003aUtvQkRfWnBEc2ZGZF9sUF9iTl9ZYWZBc0cyV2oyaURPTm1MSjQ5NjZaNDc1RmdTOC1GYzYyVksxeTVIQzhteDZySEZXeU9DXzJ2TTF3?oc=5"
+        },
+        {
+          "title": "Over 11,000 Foreign Military Deaths Recorded by Russia in War on Ukraine",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTjI5bS1maWM3ZVIzRWZtM1VKMVZQYTFWdkl2UDV5SXBFYy0wMVlOUDNwRnpEZERReV83QWNZTU1wMmdMeU5XS2RCRXZZcEFjemFCaGJEOW9iWDE3TGZRdUdoT1g1RVpRRlViT2RYbTRJQ19VVnYwbThUbHlxRXpBaVFhMFM2VFBVSjl2SV8wQUpiS3AxT2s5YTFiaWRVQ3REUnhTa1pLaUZjVmxBVDNQazBNb0EyVGEzOXJkbmNlVEU?oc=5"
+        },
+        {
+          "title": "Watch Rubio Says Ukraine Must Never Again Feel Threatened",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLWxhaFliS3NPbXRNWGNidXVRNVg1YXZqWDd1YXZGNE9DNTd1VU4xRXJCWm1mbmpfbldScGVGdnFmM0ZhN2xKcFMyaGJqcnhUVm5BcjlyX0xIX1drMUZudEdYaC1vTkhOZDB0MGV2WEV3T1NsYUdDUGN4U3ZPODJQNEFTemVqaHcwbVF4dlJ1XzlNOTFXTHpzVTZmMFRSeEJzV25sRnh0dEM5UQ?oc=5"
+        },
+        {
+          "title": "Russia, Ukraine End Second Day of Peace Talks Inside Two Hours",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdDI1WUUxalJRTFdxN0c3eEZLOFJkd0tlTVVnZUN3T2pFVlJyNlBZa0J6blhXaVBheS1abVkwd3ZWRmlZTkduRGhyM3pCZzYzX2czUDVpam85NlFFU0ZWTXRkazNLZEtxekx6dlJZZEFJOFZrRFl6aTFiaC04SldWLVBFdF9oSW84VlJlUnp4SkFrTTB1NUtXVzVnMDBSYUdObFBMMnFUa1o5aUltc2dVUzN3?oc=5"
+        },
+        {
+          "title": "Zelenskyy Says Political Shifts Open Window for Russia Talks",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeWF2d18xeVNLc2RLU3hJWHRRalBFenFCZXdjV0NWM0FsNzBHQ25KMElVR0FOZWV6dU5zYVZsUzhyTUhSaG5LQy1Md2gxQjJTb1RvdlRPdUxvMFM5QVVIYXcwUTNOSVJzYTRVdDZDeGN1dklXcmhrMmk5SF9oN3JRWEVyaEFkMUJoLWpVZHFKWjU1S0RsLWNMNWRnVHBLZEdPaWNXM25fMHdVUW1aQmVvdA?oc=5"
+        },
+        {
+          "title": "EU Steps Up Push For More Joint Borrowing to Finance Ukraine",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUTU4WVlTUUw0Q2JhNWxKaXhNcFcwVkRiYXpnUm4yRTVhLUJETGZRSlViaGl2cmFfS3VOcnpxRXlOVTlXTFQwX2JRbFhmX2liX21CVWprR1JJREJLU19JUW1vdnU2TXA0bXZvRTJ4S1dtZ1A5QjRvWS1qdFIxTXNMU2d2M0dGTURUbWQzRmxRWXlRVFo0Q3BfT1pjUXo5aWJ3dHY3dEM3UnBQVWw0enZNUQ?oc=5"
+        },
+        {
+          "title": "US-Led Peace Talks With Russia and Ukraine Start in Abu Dhabi",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVJiQ1RWY0N4aG5oajZuRVJPaTEzY0dNeUs5MUp5LVlmU2d4OEhkYkdkaUpacmxpTnF6VzE3enlMN3FIeVVQN05sNDZGeGRfQ1BLUTJ1VjJCcERhQnUyd2R3eWUxVUFOYXlBaGlPODhsSEF1Z0hwOUNNcm1WYnI4ekpCTXF6YUpPU0lVSGc3bDFiSU9jWE1ndEppYlpGdFdxYWFYeEgxZU9DdG9xbWE3ZVln?oc=5"
+        },
+        {
+          "title": "Rubio Touts Productive Ukraine Talks and Need to Include Europe",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSnc2ZjJNV0RsTDcwM2RzTVNoLVZfVlJ2SGdPSGtwdkJaa0tFcVNTU0hMNG5Qc2pNVC1UU1hVN1hjMTJ4NzEwakx2RWoyQzFUaFBfMHJMR2Y1aFEtckY4YkhmVlZnQk9neE9UWnBNbUFGN052eE12WlBaVlJ0QzYzeUR3ejB4dWVKSC1oZTdjRHpvMTVPS3NBZi1HeEN6TTUxaW5LZ3REWVdHZWRa?oc=5"
+        },
+        {
+          "title": "Merz Demand on Ukraine Funds Sparks Blowback From Eastern Europe",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNUxCUmhLVnpSdC1KamVWRFZMcDFKaU01bk9SYjVuSnlIaENJZm5pT1E1OXdvWEZhQmNYSkM3cm5lQ0RIVkQ3eUk1aEdmNjJRUDROOEhvcDZFa1dqUEhoZGdaSlFnSkxZTndZX1pFSTZ6NVlRT2w2TFhZdENxbFAwWlY3dDNPN3ZBdG5TM1ViSGs0elZnTkVwZHFLYzNPOEpiZk5RWlhsYWNCVHBKNWhsdTFlVmNOUQ?oc=5"
+        },
+        {
+          "title": "India Speaks With Russia, Ukraine Ahead of US-Led Peace Talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVM2aGpVS3l3dTlfODBMWlZWX1pfazNLcmZQbUllMG5VbWNHTjRqNW8wRERSNmoxNHlIVEFvWmExYUFPUnRrRTlmSXJzVXNkYnhwbjFIX0cwMzk0Tk1uZkVLQlZGNWgyOGVhZ29yWDd4dXY5ekZHQ3pyV3dKU0FpYTNQY2NwNzFvaDQ1WHVhOXRsajJTTW5LUmRqN00temhxdlRld2Y2ajBvajBpZWNGcQ?oc=5"
+        },
+        {
+          "title": "Russia, Ukraine Envoys to Talk Ceasefire Monitoring, Territory",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMjNsamhEb1lVal9ZNHE2MEdHR2FtdnhCcG1jUUxiUnJwUFpIUGNTQlFxbWx1cUxsZHRld29DWmNZNFplZFd1cjY3TTFNc2c3WDdPeTI0VFM5c0poc05rRmUydzdxZkJuREtVYWVWb29sMlM0aVBIazlKaFphUTFNcTRpQ2l5YUFYZnR6SFQtYmpjdnRGWTNfYkU1cXo3eUJ0V2N6d1RWcEtOSVZqa3QtNw?oc=5"
+        },
+        {
+          "title": "Merz Says Germany May Block EU Budget Over Ukraine Funding",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNHZBWGpHTXlfaHJkSDY4Q01UWDNGVU9rOFNJY2phbXNCeV9jbkJHWUVzdlg1ODhwaURpTGR2N0dSczlJS0tBaVk5MW1kbURHRWZhNUtORkhnNnRtbnN1cjFaWVR3U2d0N1VrMWozU0VzYnpHT0FORUJlSWdkZWdCWmlUcTdkN3g1cG9MSG43RTlEalNvSTF0Tzl5cmVXYXljbUk0VEc3SC1IbVhpQ1E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 97,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Exclusive | Democrats Order Musk to Preserve Records Over Ukraine Starlink Access",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZF9udEVzb0ExTk1fRlVWNVRLX1BYVlU3RXY3X08xaXFGXzRiMVMxd2xXWEt0T0dBb3ZQaVFqNDhjSHQ5cDE4Q2ZZRXhUbm80cW9UNVZUT0hVbGVxYV80U3FYbnVPT3lBVnRKcHFNMG9YSHlUVUZoOS1rQVA3My12SUVmdTVBSm9UNWJ0Vjg1bzRhMXRIclZhT3JiVGhOYkJxdTd3NVZEN1hxaDdNbjlGbDhEcEM?oc=5"
+        },
+        {
+          "title": "Putin Had Four Plans to Defeat Ukraine. He Only Has Two Left.",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUwtNDZmd2xnRmh5QU5UQWs1UWhXZXZsT3Vab2dPU3E4S295N0ZtWW1mQWN3NkdSNkJDeHdPV3FmUDRVVXVGWjlxS1B5dU50a2xMSGF4dEpjajltZEtrVmxWd1Y0Nlo2bGJBN0pWNUVBQlRvRlItSFJRcDROaGhXWk1yeDJDTzFGZm00WDBVSWpNRkx5VTgzcUFYY2xZVFlEa0tZ?oc=5"
+        },
+        {
+          "title": "Ukraine Says Its Military Starlink Is Disrupted Again, Hurting Defenses",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON21HTW5paGs5bGJjV0FNQVEwNDY2Q2hWaWJ2QmZaVW1zZGdWOGNWN2Vfdi11bWNNZUY2RFVMLXpoSHkzejBUMEpKcjlXSVVlWmd4Zm5iZjNtMWJDa0lPZFphU2NyOFdsZHFVVHZ4TG55alIwZlFTV0thOFdKTWx6clotUldJdlVxdWFQM2JVT29ZbVE0ajd4aldmTHppeVZiMWVnVThvdC0?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 15,
+      "relevant_before_cap": 15,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US floats Nato membership for Donbas withdrawal deal, Zelenskyy says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNi1IdTRFRXk4dnlyWE9ycGhxcHVNVjNSU1VBendhRjdFSHNYcVM5d0wwUGN3VUktaTM2b2R2UVIxZ3NMbjcybDlsa3llTGNUOFgzOVllMjg5UW9Db2FmQzB4QUJEcS1RODdNU3JhTy04QlJwY0duelNBTTdROEJMQTcyaTQ?oc=5"
+        },
+        {
+          "title": "Russia loses almost half a million lives in war on Ukraine",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLTN0Y0Iwdm1YeWcwUGZZUDVKTXd0NW1XTHBqOVRhNzQzY3RMTWRYenhWcU9HazhCOS1mcWxjc29YOE1vQUdsLUxWNUtNM1kyR2lrV2ZyLUtuZ1A3LW1PLVZJeE5qUERiRGpSa3FqbzJpSmppMGpMY3ptc3BnTEdpSUVWM2o?oc=5"
+        },
+        {
+          "title": "Ukraine talks call for European speaker despite lack of continental consensus",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGFLaGR1OVFIaTJ4UjVGOE81dHJvZnN4c09mZWxwaEVuTzZnSV9aQXZSTjV6NzNsaHlkNWRPd3RDX1lQbzJjck0tenZTRzRPWDB1ekNCSmJGNnVWcHM4WmFGOVdJUjlKeFdlemxWRll1QlNVQmJ4RmlubHNPVmItQTR3TmU?oc=5"
+        },
+        {
+          "title": "US cannot reach a deal to end Ukraine war without Europe, says Kushner",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVpqd3F6djk1S1p5c0NvX01Id3BJLWNKZ0k1Z2xCSkl5YnVaU0NzeTA5RGFsU0x0am5BWVNWaFBoNnhxZlJpdVB2LUJqcTdCSWhDR0JtczFZMVpzdXFUcGRCSEF2UE0yY0ZxSUo0YlpmLUNsNGhCT0w0QUZLNlViQ2NVdzU?oc=5"
+        },
+        {
+          "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU09mSERWUm1WZGpiZXh0ZXVxbmVSdEVucDY0UmhBZUFvMENEbmVzM2VVNmlCZkZ1SGNEaDZYaGw3S1hUZ2FpUXEzZ2Q1UDFtRnhLamJ6U2VNRWVWS2JsT1lYNVFGa1JuU2l1VzMyQ2NfWWFZaF8xU2swVjg1X2tDT2NYY0I?oc=5"
+        },
+        {
+          "title": "Europe dithers over who and how to talk to Putin amid US and Ukraine pressure",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ2VqM0hqNzQ2WmpjQnpLN0xFNHAyTGlDMFpTRGk5T0RlYXp0TThXTEJvXzlvSTB0dzJwXy14eENhUWlDamFBa0otLVViajNvX2E1S1BpeHNiUi1VUGM2eFJKMElPcUpQWlRoeFBjY2FGTE1ONVg5NHRENEFSQWl6NldveTg?oc=5"
+        },
+        {
+          "title": "Kyiv hit by water shortages as Russia targets Ukrainian infrastructure",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNEU1YzU1UVNETHdLZEQ2T2wzZDJKSXFFaE5XSlNvOVdTTlFxYTBOQjI0V2JVZFNHOHRncWQwOVJwbmdCR1U4VGZjd1NVbnpNRHVnM052ZGZHSENDTlMwRTdUbFhJbS03dnVpYWNJMWJvMTBBSkdiWVNVa2RheXlZa1FOd2I?oc=5"
+        },
+        {
+          "title": "Ukraine peace talks end with prisoner swap but no breakthrough",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlJDLWFFMmh2ck83OVBmbnFMUUFGSnUyMDRLNm5hRmNrSzRndVNRajRVSWZDS1d1cXA2M3hIMGw0V2JKZG5McFhwZkRSTGtienJHNW1YQ2FjU1VhZzQxNjkybHVQdWFtZ3gxb0NaQkFNN1p3Z0U4d05pVkllaDJsMmlOODc?oc=5"
+        },
+        {
+          "title": "Ukraine’s freedom must be defended",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcVZMTU5xQmMzZWNid3pnOUpjd1c2SmFaSjBRdUdZNTVUUGxUampSdmZaTThOTm9JTGVVdkFlSmFYTHFfd3BxYVVWeFlPcnA1Z1BGaHlneGR5bGlzaXc2UUtldlJLX1dEZXJ2OVEyYmFxZmFmdzZRclpTV2t1Y1B0WVpkYmM?oc=5"
+        },
+        {
+          "title": "Ukraine’s history is not Russia’s to tell",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWEtmLVdsa1BCWGx2U3c2Q3dQci14c1o1eFFncVFhcVFhSnNyN0tBWUptT2c3Z2w0cTdhMmszV0J2OVpyd0J6M2FkMmc0b29keFQtZHM2OGV0dG5ZSEJ5Y3BpTUF4TXlSX2RNajZmMks3emNDTldsX0dZRWNJQThvdVdXeTE?oc=5"
+        },
+        {
+          "title": "US, Russia and Ukraine resume talks on ending war",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSm9Ta2V2WUVRcTAtajFsdmZ2VjhXVi1vTGFveEFSOFBxY3QtbmNBbWpETWZidmF0TGJiRE40eXdFdU90ODFsSVhMS1V4UEVUT1dvRlFxeEZsRF94Qm83WklvZ1FqaldKbF92OVEtWUFzeHJyekluZEZpcVk4cXRaeElkdHM?oc=5"
+        },
+        {
+          "title": "BT cools on Starlink satellite tie-up after Elon Musk Ukraine controversy",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yOFlRYmpwWF9XR2NBRFRtcHZFQldmTEQtNU5YVzhMUXpYQTdyODdJYS1wQ01jTUQ5eGR5SjBEblFQQVk0WWlZRXphZHNjNHQ3RVJFRC14OW83bmF5Nmk5U2NOcEJZUU4xZFBFVllSWTI?oc=5"
+        },
+        {
+          "title": "Germany issues ultimatum to secure Ukraine funding",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMEZHeDdVWDlfZXBiMmJQYU5RSDhWTEJ0ckNVMWNoQlE5TkJ6MjI0cVpwbGthMnowRzloOXVOTlZZS0J0ZDFNZFdpZlJkWnB1dUwwOE9JMWhndjNSYlg5V0x4WF9NYmV4M1JrN2p2QTVCMzdoY21jM0ZIc2JYRm03bzh0Qmo?oc=5"
+        },
+        {
+          "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHBnamJTa0pVQ0g3dVFFNlVIOXRvLTE0QVRmbVVNcnY5c3d5MHVHUEdCQXhlZEpUZU1XaUFHZWMyUkFoRHVva2Mwc3FhdEtKRy1Vdl9kbERTYndCalNWMXpFQXUzZTI2ZnBRSWkyTUs3bFlRRUNDMF9zY2liSHJIajBsSjE?oc=5"
+        },
+        {
+          "title": "Russia rations petrol after new Ukrainian strikes on refineries",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeVd1TTl3TGdIcE1yeWtZVUJ0UFhsUVZBWVZYaHczRWFWa1lqZndtd1loTS1NcVMxWmNGOGM0bVdDbERZcTRWSGtjSVdFb003NFN2SDhKRWlYTW9iRkVTSXRMeDczaENXclBRVWp5eW1CYkYydFQzWjYyaVJ6WklTYXpiVG8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 10,
+      "relevant_before_cap": 10,
+      "filtered_out": 59,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership, Zelenskyy says",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb0Npc01uNW8wRmNnWGtEd3FkNGd4Nll3TFNQaTVhMVJMeWlSV283OGx3bjI2LWp3dGRQRVBGVXl5VmE0cXZIUHMyZFFUUHU2cDVRSGNUN1ZYMjFBU3FsWWxOQ0x3ZG03OGV5a3gxd3ZWOHlDS0kyQ2VOSjBYSktSczlhZXJ6RFnSAYwBQVVfeXFMT3l4eTRTY0dJYmhFODNjSk03OGZZS2dmQ3BlWGJSNi05d2pvcFR4UUNUTFlubnlWUHVEOTRaMDRPZ1BHWGoxTFMtR1RaQ1FDeDZNNmRHTlFrRExDdHIyMmR6dFJvTk9lRlF4SEdIam1Ham5BMEsxVDhkQlpmaHdySkN2TkJPUWg3cHh1VE8?oc=5"
+        },
+        {
+          "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVhjV2JWcjgyaUVMQk9saVBKS0pMLUhfYXZFNW1CNW84SXhkUEZ6YjBtTTZQODZtZy1rem5pdldwZ3Zod1BzRnBJalR5QWwwcjJiZ3FEVGtXU0MyUUg4ZzBxdk15VG1zcHl4RFBzTXJOTWFOZS1xTS1Xa29IbEZKQXQ0UzNDOGh0MlhBedIBkgFBVV95cUxNbmV4MkJjWTJIR05qYzZpQy1CeUNVaEhMc0FrUlhHUlR1UXNfd1RvZW5mUW1VX0FmaFcyOWJBRnpjUEkzNklKQ19HN1R1c21rbUNBQ0FXckhyczc3WWl0TjZ1Z09aNmN1V3A1UGlDQmZ6QWVKM2R4d1ZBcUtSVDE4bURJRHVjQlhOZGRrR0prQ1dhQQ?oc=5"
+        },
+        {
+          "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOVY3WkZZalE2ZVpGRUNRajg1QW9rZWpSZ0xjQ3kyM0NQR1NrUHlwMHlaR291eGZ3QkFfaHpGaXVwQlFqWmRKejJUR21lNUNVenhZbVVhU3hBWlYzOWtMeU12YVUwQ2lFcGpWdy1GblBYZDMyZG1PaldpZDZmUUppaDNxNHppd9IBiwFBVV95cUxQVVg3M3FHTXlWTFZkYUU2NnZOVDB2MDdUMkx6dmlWM2tuMjZMXzA5V3N2TkN5dVAxNzY4Y05sRHFZaUV4ZVF1dzh4SFVYNlBpWHpob1ZFUmJ6bnZ3LUZuSC1jQXowVGc4Q0d0VUFRaUQ4RjFsZHNMR3RQQmxjWDhRN0l0dWNmQkU1d0Zz?oc=5"
+        },
+        {
+          "title": "Oil prices drop more than $1 as hopes for Iran, Ukraine peace talks pressure markets",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdFlRcWJJUFg4N3J5eFpzVG01WGJoOE44SXBXY24wRlVMYl8xWHVxNzVadTNEQ1ZRcTVad05pYXRQXzRoamhmd1c1MVVJdEtNOERLUFpMazRVR0NDaVNCVDZfcGNvakcwY2hrT0U5OFBLeTBWVnZJYWlwS1Mtb2Q5UVhhMk1QWEswOF92TVFXdzdzT3E4Vk5rQXVhSkdoRGvSAaQBQVVfeXFMTjI3c2RZa0JPZVd4bUxmZEFzSkpfRmpWTm1xVFZ2bWRVbFdrMi1oUzY4SFY0YWNaZVFqNm5YYTB4RE51aTd1cW9pZ1lMaXZZS0NOdTVOMHRzdWI3R3ZxaGlBWVgtaEszXzNkcXFnRnNWWllOS01MYS11TU01bUVWbC1UVkNtZERIR3NLY2VaeDlxeFpYdXpBRUtPWWRhSGdVbmhfb1I?oc=5"
+        },
+        {
+          "title": "Zelenskyy warns Ukraine is 'not real estate' as experts say a Russia peace deal remains elusive",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQUlVVzRJczhQdFdOZHhoSFJISnZBSzhZT1JHdk4wNlFvaHc0N1JvNkhER3htclBYamxXREp3RXZTVzhtcTJmQ1ZCMGMzdmxDWGY4dGo0NzFwbVVJeWRVa05hbWp5OGwyX3JSWEpSTGlSRi1TSE0tWUhuY3V2WkZ3ZTdrMVdkd9IBiwFBVV95cUxPbDFOZHlOX3E3bjN0dDdYdVR0T0Z0VHV4VlpJbm1UTHE2OF84bWh4SFdMVkdCX3dYWHFYUG52blctU0ZCVlBvV290VTBmUm5lc293N0xJNTBxLW5FbVZldi1fakgzek9oaDZUUlA3SVNoSE11UER3aUNxeGZTcW01bXZHdjFYT0s2aHBF?oc=5"
+        },
+        {
+          "title": "Why a Zelenskyy-Putin meeting appears unlikely at this stage",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVo3U0t4dTJvZjUzQkQ5QTRRbTU5ZURheUlLNThlWkFxYzh4RUJXSWJYSTUxd0daYXV4NmFOZzkxMVl2RU5TSHNWLTBMclhjT0xvMVFycDhWZi04MWRvY0s2M3JzOFhMdUhiRC1KTDlpZ1VJT2pHVHowLUNkUlhrcnFWeEgxUHRvb0ltTTd6WGVjSXhVOU5VUUtfZ25VUVpCbmRhYU9R?oc=5"
+        },
+        {
+          "title": "Trump sees opening for Ukraine peace deal, but key questions remain ahead of Abu Dhabi talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTR4b1RSQ2FtZEFXLUNXQ195VmlRWHYxQ1plQUJtVW8tdlpwSVpYVndpcS1sTGFSYy1UWWh3Z1BDYWJnLVBWODM4bmhQWHlqYzlDNEc1eFliT0hXUzE0ekNwcE9TcFh4NWltbVdpMTNwVXJtMnNxcVJSYzh1SjUtajZvMNIBiAFBVV95cUxOb0NINjQ5cVpjWEt1dnh5QWZsYTQyWElMWlRLNVZNQzhST1VNSGJaUGVhc3NTTVhabXFfUWtTcmpSMVlvYkRLR0tDWndMYzJ4aE1vQU1sMzBlblZfQWg2ZWR1a2ZPdnRWLW0xTXJoa2kyZFdhMHBvaERhNTVmWmo0R1c5QUVPNjVV?oc=5"
+        },
+        {
+          "title": "Heritage Foundation's Victoria Coates on Russia-Ukraine talks, Iran war latest and Nvidia scandal",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPV2xtVzVUX2RVNEttbElmUUFRdzlTcjdhUmVDWDM5WXFiWXZ5UWNFVW52Yl9INDdCTzdqN1YzNWRQSG5uNTdQejNodnlOZG1BWjJkYkZWNmU4c19tREp2dUk3eXh0M3VqLUNFWXgxOHNfREZHeGpTV09aLUVPOU1MdGI5a0ZSLXM1cUJPR2JGSTRZQzJYLXg2ZUVVMEFkN1VWaVdXd0RxT3gxMW5yZGYtbE9TeUlYakV3TmhBLWxVQjN6dVVOVjJ5OEZNQTFiQ09rZWhHNQ?oc=5"
+        },
+        {
+          "title": "Europe should lead Russia-Ukraine talks: Former U.S. Ambassador",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV2dtc2FqUVpUMjJfaXc4cVE2X01LVzN1S3FEaU1LZjZaUndUQlVPM0NnNkh0YVhQbjdDN3dXRTVDM0UtWnZ6Rm80NVRfODFZUFVxNDVERHpza0ZkQ0VNM2hVUDl4U2NUTFc1ejg2WUloRklGaFpqRzd6WXRzSmY3YW1IeHkxdHlzMGlabU4xUVhPNlpaOXljemxBOGZTQnp1c093MUpDYmhfV2JKcVdBcF9lS2E1ZHBCSVh4Rkt1TzRnbDNYRmc?oc=5"
+        },
+        {
+          "title": "No 'lasting peace' with Ukraine while Putin in power: Former U.S. Ambassador",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVmVzbGRWOTE4WDk1bGdNU2RNQXBrWEktZGQ1NU8wU0U4bWphNl9iZXNkSFdFbTFPakNVdFBGb2xkTVZQRUpHYVhRYTJMcTBmVUphdFVaMFBnaUJrLXQyODMwZUd4RXRGUUdQRWg3Ym9VLUlTcXlVZExPSXc5Q1p1eWMxLXRXXzBDTVFMM3lzWVhCa0FBcjZVNzl1aWdLSUlWWmN4N2RaQ1RLdFZpTDZpREQ3NHU?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 20,
+      "relevant_before_cap": 20,
+      "filtered_out": 80,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMEFkUnFjYld1dUgwTlpzYXp1TG81YXVDci1CQi1MMVNGcXM1Y3ZIVXVMaVV2UktReXBneVpoUE1XYzkzZFBxa28xLV9RejJxTFZRQXMtelh3aXkxUnBKVDBPeXluZFdjVTJXdkpUTmxGRlNRcE1hWUFDRGd3M1N6STZjdTMydlE4N3g0WjFZRFhLd3VwZEJhTE13WlZSUE9xbUNkc0NxcTlmR2RWU1R1V1k5ckthLU3SAbwBQVVfeXFMUEdnNUhOc2MtWldmRjRUcVdycGFCTlctUGNmcFdiZTBDS3ZOanRtQVdldXduU25OLVdPUGh5eGJjcm1kTnk0b1NLZzlDRXdIclZ4aGNWYzFka3kyRzlZVG1lVXJNNGZaOWM4dkRvNks1YmFMeTVnb0tTcXpSLXhJRWRybjFmdHZJNC1wMHZaTkc5amhLRkU4dTVaTVE2NGdSd2lJalJqZnd1QVRGaDhPd3RwTmhfU0drOEFxT2M?oc=5"
+        },
+        {
+          "title": "Russian casualties ‘reach 450,000’: What that means for the Ukraine war",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM1ZOQkZOUFlTWklpVXVpbjFKd2RZdTNBbGNZUHN2ZGhILUdDSDlnVmVRQkxaVzBoajJKWEkyTjEyTEFUdENFejMwNnNucEdDRkRSdTZ4eXh2WXo3ckswZWE0ZGVrSnMtYXpOZkhQNDhPQ3NEWmdKc05MeWhaQUpGV25YUTZLR1FQX2xfNWVCdTRvaFpIR0ppTUtGcTBCZXNVZGlVc0VXaG9KTkNxOGfSAbMBQVVfeXFMTnhoendibndFZDA5c1RndEd1dDIzNjVBWngxZnB0T0NDMFNKMldxcHRmb2NMOC1veFB6TnZZTXdXUUg1M2JzWVRGYTlqTGVkcU5uelItYXA2b0VQTGlJR3hkb2FyS19BT0Z5NW92U3pJYmFyWUxaRWV2cEFhUFJZc1ZTSWdnQjFwdlZNNXVWalA4TXhyWkh5eWZ2bU1iWm1yaGlYYWU4REZBck9wcTNIRUIyRHc?oc=5"
+        },
+        {
+          "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3BSZGZYdTBnMGgwZ2pfM1FVWWdtQUlNT0xVci1Tb0VSYUVZVUIta05tSER2dHV1WDlpY0lzSkFfaXl2R0FvRUgxYUd0MEtXOUVYeVVGRzFfU3k0a3hGOXkxUnVBTVlEQVBib0N4N1VUN0REX3N2QUt5c0ZuZTVwNnVxUXhNazV6Y0dKV2VjWEhHLUVFU3RyeUdweEdwSUNyVjd5RUxSTHBBRFFuLTBEOGNNcFc0MDTSAbwBQVVfeXFMTWFfeHZ6ZE9JTlpTT0k2Qkt6c0FXamE3N1FEa25TTEQ5NVh3dmxvS3Y0NlJGelo4d2RQVTEyaTZmeW1aT0xUQnFpblk1dmhWTUNJV1ZXa2JKSlI2bUdLNm44Tlc3ZU1nZGd1UEFDY2lhZWFNUHhyVGlJSThuQy0zb2VhaHViYVZzbVJMMWNDOWZ4Z0ljM0hLY0djQ0sySU9BY2U1ekRVY0pnbkRfMmpwcElzRWVwMnZSbGs2c0E?oc=5"
+        },
+        {
+          "title": "Ukraine, Russia race to build military satellite networks as war rages on",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd0hSajl2c3VrUjNsS1YwRlFmVk9GRnpQR3lpNHpuSi1rX1ZhOTllQWxIY2JmeVA4eEo1RGxoYUR6WEozWVlLZy03VXFPenVseTBDVTNxUEZrT0xBMzVFN2xaSTRRU2loTEpTMGl6T1Y2ckdVRlRpa05PaFlvVDRTZUhnUkhzeF8zZE1HNFFiZEd4Yk9nc1o2UDBVSEt3ZUVRRnl6RWl2dDRsb3RvOG82RmNEcFrSAboBQVVfeXFMTXZwOFlIbVlXWFZ5dnlHQ2o3NVMzN19VLUh6QzZpNjdwVF9WZDNreklJSzdVQUlrOWF6NVNxNzNuZldPQV91SXJIeVBiNmxtQVRTVEpJZmg0OFJBa2t3T3BfZXBJVWpaVUdEamR1VXBwWkRoTTdHZ2QwNmJpYy1BX00xNTNyUlNMWUFiajNBV25zMWU1U1p6eFlDLTJ6aHRHdWdnV3NtdkREMFliRGVmMjlqd3FXWFNSRlZR?oc=5"
+        },
+        {
+          "title": "Ukraine is running out of options, and Russia knows it",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObXRxQVc5M1hsZTdYOHFsaUxIeUxZODk2NUpDWkRKM2t2Q3J5SmpXSU9YZS1iSFZFYnFoOHcwMmpjQVJqanRnUHp3Z0VqNGk4YVpUSGVOU25IMndFcFViaUhCUl9MMTU5UkxYaFdQeUxXNmVPTG5FZkI4V1Zic3VZMWhzcUxINGVXUEZfN1lBS2RYLUhOZ1k1LTBGMWlHZTNy0gGmAUFVX3lxTFBKUkRFUVVhLVlydWplWENHRGZ5VlV4VGdaT3haVkowUjdiYzJBekgzYXBVbDVmYTBGSnpTRnJnU29Mdl9ZekxkVHBsNGZrRW9xaFdXTkQzLWU0TGJXNk1GN1ktNjMyUXVSQWFMdTUxYUhDblZMUWFXRDkxZ3k4bHU2ZVRpd2kzMW8xRzRTRDVUMVBKZDEtWGRYR0JaenNOVkQ2Mm04N0E?oc=5"
+        },
+        {
+          "title": "Russian casualties 'reach 450000': What that means for the Ukraine war - Al Jazeera",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWRSczhCVlozVG1tQ1VrcWxkSEdJLVlfUGtMQ29JbUV3Wm9Yc0NOZUlGM0NrMGphRVpuTlBNLXBGWkE2NkxJdEI5ejJaSHIyRkR2R2ZHZU5HUzRYcVlsYzNqRk84b1U2aEFFcDJocDZPMFl4c2lxSTNOOGpDdFhlMUZXcEtJZnFQLXBDMU1jZ3FFSUw1VmJSNjlVcHpNUVJLTjczNE9GNV9pSmkwRFFhbThJZGVCX3RKY0tfZzloNkt1VGttRnRB?oc=5"
+        },
+        {
+          "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlEtMW5yVGdQUktZYnZqbnlPM3lmQzVOdUtGV3lhdl9pRWl2VWtHT0pGVFkxcDhTZTVsZDJlVWlpMm1FVTVUTVhNYUhjQVAxUEgyU3hRekhVcldURE5kTThUQVZBbkRqdGFaZTFtczAteGVlT3Z3WXhoTXVReXVOalBwUEJXU09HcW85Y0lWMjgzVDZXWURBRWl5OThDckpDODQ2b0Z6Tl9kZXpFUkRtb0930gG3AUFVX3lxTFA5OVpRZ0NQa0NrV0NsQzdKQlZZTzVPc2htVjFHd19qTUZNRTBRX0RGUlF4cUJUUXNCZGtoY2pXdm1mV2QzQ1ZYVTJ1ZXZkQlFtSm5VYTBJUjVsOTdNeHdhSk9fbHRzVmViSUdDME5NbHJPbUE4WFlLeFdxVUZHN3paUUFuUTNyVVpwcF9nekQ3NDAtazlqVkVha0NoRUg3UGUxd0FiWk5JeUdWQ3ZqX3RkNU95REtvNA?oc=5"
+        },
+        {
+          "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYzY5ODlrN1lPaS1xQndfcDAwc1M1STVqY0xCUnpHUjF0bVVvMnp2S2JQeHRraDQ4QTBVM3BDWUFCZWFhbzJCekV3bnpwQUdVbnN6ZTJjWE5UNWY1c1I3V0lFbzBMSGYwUDhaamVxSVc4eEtfVGdueV9pQ29rd25wdUxiS0NQN1hiWllBbjBYVHZIZUxxSEdCMDU4aDF4c202WE4yekRWTkhFd9IBrwFBVV95cUxPUEFBT01YNXNZQkpDbFJMM1ExbVJHaVhhM3lLMW52YjVpZUlteGpBczdMb2ZWZ0JUTkdZcWZWS0MyRWdnd1p2cGpoTXJuZzYtNFBUeFJWY2YxSzdxQkpVU0xsaE4tOU9SZlRCU2dVR0hIX1g1ZmhMd1pJa0U2dkpDQ2t0MmkwdmFCQTYyN1NwWXR4YTNnZTlFOC1LRjd5ZXhMSUo0UndnZy1wS3BkdHpv?oc=5"
+        },
+        {
+          "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTWk2V05hQVJ1VFBPdFFySGw4SU4tZGlNT3JYdDl4akdMQUJVQmhDeVZkR0VOSV9TN0tsaGZnZlJPYTJvZGRGc19KOU1aOFlHTlkzZG5qMFdjSjhXQk5xd1pLdkdlUHdkcFRTcnNSUVM5a2F1S0p6OTd0WjR6dUE4VGpqWHVLbVZYZHc5MkNESjhSdjN6bEh6TmZXYnY2a2EtN21SUXhRX1R2Tkw1QVRZ0gG0AUFVX3lxTE9OYXAyaC1NazBMTk5GdVYyeV9ZU1lmUTFGbFRkWTdHM1hEa3I0VDE5VXQtVkVjR2xuUkUxTWVMc0lLeEMxYW1fWFlSeE1aMnNoVkNjM2hBRE5OREE2QU93Z0JJeURrNHgxVVU1QmR1Vm5jRjVJbl9XQk9UY3dBTFUwdVIwZVRaMmFOaWdIUmhDUWR1aWtLcnpzcWdsaXlzS1V3THRRSWdpR2tPZDRkUmJ5UkUySg?oc=5"
+        },
+        {
+          "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQk5HZ2otLXgxVjM2Y2t3MVVGZllBYWlRUTBIYjJZb3FGcW15b0g1ZUlfR0FQT2NTZGhUcFpGR1JYczNaT3hucW91SE92U21TMW9lZEtkdUVTQm1hYUx1WmFJYmFzODdaUXFRSjV1aXZ5VzBRYzhrcHhvdTBMNVF2V1ZPTVhoWVN1dmdWRUUydWFFQi1mblE3a2dhN3ItSHhIWkNKSm1uMjVhS09NbW9na0VR0gG3AUFVX3lxTFBZTDVsS0F3WXJrQ1VlTDd1dUgzWC03ZlFSQjdSMzUyNG9JUzhzNW8wbmc2YXBiM1ZXbjlLa2NZc3VTTWtKY09QeHNOWHlFQl9mbVp2aFFId1JtdEFwb1N1WWc2c1VqYTJaX0U4ZTNjV1d4SUJJRW9WckF0Mm1hUVFQWENJS0xiYUNOTnRGdkk3WkRSZVJRUWxrRHlzN0JIX25ybzVCNk5ob2FjWEpobHJBblJabzhjdw?oc=5"
+        },
+        {
+          "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVRRdEc5Rk10S1U3ZGJORjlIRk4ya041dDVReFBzRkpkLU8xd3J0UTlLU2xTTEJKSW9Id2E0N2hWOUcwNVdwZTNqeDJXS3prZ1ZLQTlHd3k0UUVuQmxlT1Q4eUgtU3k2ZW1EeUZYbE9KZENYTy16Z3lsSFpUMXlOSVpWSEFNVV8yQm5SWi1GVVJWVENabC1wZWlRUFlfMlJaTW9xYnFFVGlxdnF6d25LRHU5VS1ZUdIBuwFBVV95cUxNa0JYWDY2cjViMW9ZU2dfUHJ5bDRNNzJhWWQ1d0dYVF9LWm9FRG5Jb0g5Q21ybFR0LVoyYlJhdENtT3pSS3BMcWhSZmo0U3FQVnNBbUxQN0xRR0staXFGcDUxaEVULVI1SlB5YXV5SFBMUjBrSHJwNmRzczg0YTBrLWJDbzhFeWM2UXQ5ckliZFVNbURwZ3NLX3IwSk1aTHNSUjRTN2I0bG9oZDhMYWFDZWtiUUh5YlRGU2hn?oc=5"
+        },
+        {
+          "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZlRoNnZkS1Q2N2NZaDhheS1hc0kzUlZncXNtNFlIbERETmFMYTJrV1JHbzJKekJMZnhSdDJ2SkgwN3h0NXp1a1E2RmthcmlKNVY3V19mWVV6OFhTYUw3cVFXakpMSzdrZUpaX1pCU3FUMVI0RFhQc1pKa3doTGh1MHdhWFZJY1lnMTQ2eUgxMzNjS3pTZGxmN1E5TW1uWTdMaXVTUTF2TnBpdmZxMnfSAbMBQVVfeXFMUExDSW5Ec2xDQnJMTFBILUtQM1A5dl81ZGtLVGZlbHljM0tRVGJONEFqSlBMeTBobzR1QkNtQ0M3S3N6d0VfUzkzNXozZHpCR2tfQ1d0X3lFSWdTYXhNWHFuQ1oxWmh2aE9YYUhVMFJiMDVKVHhDMnowZFFPMFlKSDlLYUtCYVJ2V3ZwdVFuSDdNb1h4Z1Q2R1RDY3JhbV9jX3NiTFItTEE2dnR0QmNjTVZXSHM?oc=5"
+        },
+        {
+          "title": "US envoys and Putin agree to continue Russia-Ukraine peace talks",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRG45T2R4UmFjWjFib21RZmdqMFNSNmc4VlM5SDhnSFNkOWU3WElJTHczOEhnSG5hc05KQ3BHdUV3R1RYeXRMVkQ0SlJmbkMxRWhkTVFDOEQ1N013VnhGdW1ENzlIR21VREJYUmk1SklrWEYyWUg1NTMtMDU3VFVaeTA0dkMtWFM1c0ZwUkNMNlE4VUd6Mm5CY1pESVZVdkw0SzZXNkVMMNIBrAFBVV95cUxPYThFUTlZR1BIaUZKVFdOcFlqbi1DR0FEUlV1d1UyMGNvRG5oa0ZtRnJsN0FoRW9GeUFyTGlsVkZtcS1HTmdoRGt1bmlvYmR0aEtuQ0pWT0NjdXBwRG1NSXY5RnRtQkx3MHR2WjRaQmkxMmxmRHBORnI1aXBrSnNvSGN6SHE4ODRsWlFLWGxraURmajBZc2daN20ycFY3SFRpOVVmQ3JEVVZvNmFz?oc=5"
+        },
+        {
+          "title": "Russia-Ukraine talks in Abu Dhabi end with prisoner exchange agreement",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcnNsTUpRMnM5N216eFlUcGxFb1R2TmQxRHdmc3dFNU5CWVVoRURqOG1NVkNaMldVTGd4NnB6ZGphVHJySFFLMEZBMjhycEdDUmhlbnR3X1U1em9UWnRtb0tYOF9VeVBmeVBINGs4ZjI3V2QtTmRGR1UzTU4zY09FTC1Ua2pnTWhFdU1TVFladmg1ZHU4N1lNRkcxMzAtZVhJVVc3bE5LWWEzcUtDLVlUOVpB0gG3AUFVX3lxTE9KU3pMWG9GeVJzOVZzSUVtTUJjS3VId1N2VDVpX1JpTzhRRnFxSFpMMmprc0hsak14aWM4MXluSnJOdVRGSlFSZW9mRWxaS3FuajA2R3ZjdHdRak5JVU1oQzh4RmJydlRJa1o0MUFIUDV2NnNfaXpvMkFuNG01aVd6ZF9STTdGbDRVMkVvQ3p6N1lBTEkxblpZMXpheVNuTzZfMG1fWGJPYVhXT3RMMlVadmRQVWZMQQ?oc=5"
+        },
+        {
+          "title": "Russia, Ukraine exchange strikes as Baltic nations issue drone alerts",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY19vcnl1bmFEN1RSdHhxYmJlT043aTVRT2YxWEFobXh1UXBtUU91RnhhRF9DM1NDd0lvRmJ5b1RkdVl4SHcwdnFadnNjN2pFMG4tMU92Ml9FVGRpTWZFYmJqZXN6bENyY0JJLVNQcW5GM2ctMWQyMkN5TTdPYXhwQ3lHd2pCMzExWnQ2T1otVmF5ME9JS01naDBfRkxid3h6eWNDb9IBqgFBVV95cUxPem03d3NxUDB4NUdQNi1qYkVidE9LOHRFbUstWGpMaDkzVFlEVWpCNDE2RmhJYno2X21tUkkzcTE2V3oydXRwbGdBVmRrY2x0LUxERTIwbnBtc1BRN1lvZi0tZ0FVTkJaQVNFa2hKZHB3VHN3V285RmNodGhfLS1PMkJBcmpScEF2RFYzU0stOEVVdmctaGtNR3pFSGFkUThhYXVOUHlkM3Z2QQ?oc=5"
+        },
+        {
+          "title": "‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGpMMy0ySU5GNjNUWDlJazZZR0VvcndtSnN2X0pCYUJjNXhxTkp0NVRrUlhITnNUbmZaVE91SGgteF9yd0lVdFgtRXFtdUE5NTlqbnZhY250dHFRbmt3MDhHbjZiVEFkcXFndHVRZk9kMGN0NldtT3NVcjQ4VEY2RGZkRElzNkR0R0hDVUUycW4zUW5IbGZZQ1hJTXdQUnppRXJaNmhRV1VsWERlX3NCVdIBtgFBVV95cUxOeTV3SnkxbDBiQnRKT2Zyd1lwOFpDcE5OdWJuczR1eUsyTjdEU1l6cnFzc3FDUXVkZktUS0FKeXJiU0xFVk8xRUVaUzJWR2xSbWJOeEJFUFphbGh1SVl5SkNhZW0wcjJlVTIwc2MwTU5kdjdJcWlkWTVmRU1GUzc5VkY1UFMya0pkQ0xVbDJGN3U0TkFDQkRjM1h3MWdyZXNkUDR0SFNNcl96Y2VReUJBQkgxYVJTdw?oc=5"
+        },
+        {
+          "title": "Why is India trying to broker a Russia-Ukraine Black Sea food corridor?",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVRVVzhFY2dQeml0ZnhlMGhaQjI1ZXBQcXE2NDZZcHQxV3pkSU91TEQ3Zkp6V0FLMUVvOG1vSWNGTHd5VkRwMHV3YWNQVnJwYXFzbWo0b2ZKVXBhenA5RWlJVFdHdEw5MGN6YVBhLWpSN2NHenlaVzVIb3lJdW11cWlaV3hxUDNxV2VrSG1TMzdMZkNfamhMM1dFNXdhYzEzTlVvaTFJeHduaHh0ci1WSVNB0gG3AUFVX3lxTE8yVU15TEhqTkMwMWlaZFhSTkZLbkxnaTZqbzg3ZEJaMmFHYlNCSnlKbThvNU9Bc2EtUnZYRVZ3SV9XNzFYY01EVmNIS1BSa0hFcXgtWThmMHR2enU2b0huV1dHT2l4LUFfbkp5dms4d2cwcTJDQnRLV09aenM4UGN5Q3VRT3RVVE42QXJ5R3ZNQ0ViX0R4Y0tmTGIzZkVhVGZ6WmY0S1FycnNqVmxiTm1BVXgtVTdtYw?oc=5"
+        },
+        {
+          "title": "European diplomats press Rubio for a role in Russia-Ukraine talks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUJDOW4xVE96czNlRUZtdE5yVWRoXzc2V2dWU2tkM2REb3NZQURWbzViX2J4azBVUnpRdUpjdE15Q09IQ2NfN1ppRHBvaWJDUHlFaVNyTVl3UTJtcDdsTF9wdmVwYURUd05kd19uck11REZNTHpMa3J5VnEzZldlV0dVTDdNaGFGN3gwV0pGM3ZGZVhkUnJLQ2ttVEhrODB6WUxTcGpfbjByaWRv0gGyAUFVX3lxTFBlQjZQSVFVd1pnRXFmeTdmUkdxaHRoWi1GVWV5MnRQSHR5T3g2QzN1cWdBTWJFYW1zZGtSM1hJQjZfNm15ZEhZaUNDY1h0VUtnNUpHRXM2SXQxM2c0U3djOXR3WGNtMGs5ZjhpZG5vV0tuUUExQWdrZWVOWkNYeDRJeFN3MHNpOElMQjZYRmpvV0VhcnYtZUIwMTR2R3B5OG80TmhNMG5mZExYZE9qYjk0SVE?oc=5"
+        },
+        {
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi ‘constructive’: Zelenskyy",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGhONWNmUnBCZjBHMWNrSU5JYjRDbVZ2UVZkcjFaNWVfZEJJS2dSQVd4NTdITjhZaHdUbHFQbDQ1VmhHVXVVLTd4UENvTXNxZUhBZTVsUTExYmJTaktacjUwQ0lpcUY3UU0yMGVSanVodTJYLVJjeERfVUxfTjlhSy12YkRnQ2Qwclp5RnJrRU5BY25wV1NZYlpKaHdZWHF4VnJfajc2ZV9qOXBmMmFCMEtmQdIBuAFBVV95cUxOZWZVY2FpTk0xWS1GSEkwUThabWJYMmQyeVBqWWlLUzh2ZFJOTzhoWEFXRHh1WmxQbE5BaHQyeTEycnlUUFJselphQ2dWVFJMcUdxblYzZ1JOd1VZdmQ2NFRESzRJUVRUWmlLeFZBalVhcHMweXNncnFQcFRLUDhOd2pkLVVMMWdwUDQyZDRiSUtaUWxCQW93TkdJZUdZX1Q1RUlaZzRHRW82OGNNS0EzejVvcTMxeGpL?oc=5"
+        },
+        {
+          "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDFSYmRqay12Ykc5NnFrd1pRQUxoX3NxQzAzQi1hVkRZMllCbTFrWUUxV2ZNZXNuc0pzbTZQWk0wQkJMT3VROWN0Wmd6WVZjMnk0RkZvWm9kOWxkdW40SUx3MzVCRVB1b0h5SnhJand1WWJMOFpnM29OQTdxVnNSZVNpdHk2U3pjVHBtMzdDd2x2c19IWVdrbDFVM2RaTjctd0lWalZ0WUpjNjY5dHhaNzN3Y9IBuAFBVV95cUxPNEppNnc1WU55ZXJmOTVuM21GYkpseVFWNGMyazQtdktGX3VEb1hybkQ3b21HTTh5dVh2bTVxQnlJN1RFNlhZMGVxTGtTYm5WQkxxZW4yWndESS1nZ3pGQWZCWDhIUlppaHd2bmdGMlVXV29rZzVxQVJjTV9ZeEpsOU9lbjBKNjAwRTZsbFY0SFJ2M0QxLVg4akhCSWVtcExpNWltclpNMUNmQXFiRkVrUHhMWWZLN3pa?oc=5"
+        }
+      ]
+    }
+  ]
+}

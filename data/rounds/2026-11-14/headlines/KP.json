@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-14",
+  "code": "KP",
+  "name": "North Korea",
+  "window_start": "2026-11-09",
+  "window_end": "2026-11-14",
+  "fetched_at": "2026-11-14T23:30:23+02:00",
+  "total_items": 15,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 74,
+      "out_of_window": 9,
+      "items": [
+        {
+          "title": "South Korea sees little prospect of US-North Korea contact around APEC",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcEgxWXUxOERpNTBJNXpwWGk5SEFrOXVYaE1JeTJVeGhZZy12c29tRXBENkE2bVdYTS1tdDNobE55NUlGRDJ4SGwwZ0lEVHpXTEh1T3NYdWlLelRVdnFMTmZwbGVmSmpQVXV0cm5maVlLMTk5SlNDTmd2b2tBMWFIRTBKaV9vbzJDRlczUHR2QU9PN3lDQ2thM2RuSm1zUGlLMTFpQ1lBVmZjMi1sajFmQTUwWkxwUQ?oc=5"
+        },
+        {
+          "title": "North Korea's Kim inspects construction of key naval base, KCNA says",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDNKZUVkc3hWOFZhTW9ZV0hWT3VQSFNmNWRVTlhGcV9DZTdxRWRpRmV1VV9KVlo3VUlDMEVFYXVsbG93WGhtYXlxUE9kNjlqdkVZRDJyNGRLUm5BTnVxbHBTRm5mRkpZdXJKR05DTVBXSDVweGFwTDNwYkJOYzRVNlozU3ZMUk1hQkExNGFXOWFfd3ZaMEl2cC1BaXZMQ3FkNzdTZDBMWVlnZ3czVXA0T2V4eXBCZnpsWXc?oc=5"
+        },
+        {
+          "title": "North Korea accuses UN chief of siding with South Korea over border tensions",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdE9DZS1sejZ1Y3ZBTWlScEMzMnRUMDJHQ0ZaVzFyUDVFbEJHaUs4bHhObGNLUmk5cEZQbl8xa3pnSnpSR3lJNENIQXMySnBaMERlRHV0bGZaWXo3ODA1M0VlTGxDU1hHMkYyZkdDb2dZMmQ5YzVSSVlTVlRrNHZkOE1nbTRDUEF6RmpDbEs4ZlFkRVBidkM3QlZLN01pd09INHlvNEgzTTFYVkd3Z3VET2VMdVRZV2s0MlV6eUhDaXVQQmJZT2ww?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 17,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "‘Like gods reigning over humans’: Many defectors see daughter of North Korea's Kim as heir apparent",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN3ZoMG1JYUgzREZBR2ZGMzFBaFZWeUN6ZUYtbzExNjhfOUQyMmRMNGFpUFFZRzI0SzlzUDQ3R3VzQkxhT0FsNXhxaHV1by1IWHNpUGtTNHdXS2YzY0YzZkFEdGhDT1BBaVk3ZVhqQkZkdmh1b1o5QlQxcDU1OVFYdEJiektaRWx4YjJaQlViUThyejVVanBORVJQUjFJU3RO?oc=5"
+        },
+        {
+          "title": "How North Korean defectors view Kim Jong Un’s daughter as his possible successor",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVWloN2JNY0N2bmZhNWIzMHozN2xaNGpIbEJvck0teExpdFN3ejd4WUZrM1N3UTEzUnZpbmI4SmtsQ1ZHN252M3VJbFR2UnItUGdxZ19uTmtDZlhobkNUaDZjeXk3V0F0WjBjR0Jna19WWmRsTmFkUlFXLThGRVNhc29xUXVVRmp4ZDNndTNreDRTMEZ2YVVhek5XX3h4b3lVczFIVDI0bHI?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 11,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 4,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Asia Specific | Is North Korea creating world class hackers?",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KZkUxUGtaWV9zdU9zcURtd1dNdHJIMFhYSGt5RXRzRjJNampETGdvN3BjWTMwS3ZVaVlYbjI1VldHZXVadzlyelByVGxXVmI2?oc=5"
+        },
+        {
+          "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0dTZDYlBKanhSU1hkU2pLdERyOWFrYVpETnBSMkV4N0VDZXlPNEFCT05YeFRNMExVNjJKVU1taW9JZFZyT1RJYlk4UldfZEpsRlBibHdKU0NmbVk?oc=5"
+        },
+        {
+          "title": "The Global Story | How North Korea pulled off a $6bn heist",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52T3Ytc2VneUZPc1RwZVNpWmJXUDAxdTY3Sk9EY2t0MzFVcWpaRWZHMTc0NjM4TjdxWmd1bl8xMjVHM2UyNmMyZ0ktbzl5dEd2?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 8,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Meat Is Scarce in North Korea. So Why the BBQ Boom?",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbkI2bEFfcWJnWkwzY2tSM0hnSjRaYmxGSkcwbWxXMFlpbHlmWUplbFh1ZHh4T3dYWnR5bzhIeVlJUDVnZy1BaGxWaU54a0Z1U3p3STVCV0VXZXE5VUxaeHFtQ3hvbm54a0ZMaVA0OVAxSDMyanV1aGhubzlJR1ktUW5TQVpGM1ZfMVMxYUxuNEM?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 25,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "North Korea: Will Trump-Kim talks happen anytime soon?",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjd1VEIzM051eUFBbjQtOHdaa3ZRSVFwWFd4MHFRWUhtX1hIWFltcVM0MnhFLVhxbzdSSXR5Rk9pS2hqZmpUclNkaVREOUFPS1VPSUpkd1htNlFVcnV2aEM4ak9jZjJHZkVhb05aNWdJQmFlblBJMVcyTkQwZnA5M1BHZXFtOTBzNXhhRy1CRG1EdWoyZWUzZnRKVEJ0QdIBngFBVV95cUxOcVdlQ0JjUUxVVHppMENVN2xfUkYwYzVDcFNiakw0ZzdfTlo5MDZacGt0Zk4yVUMyck9USXRraXlKRkltMEltYzJQQTVWVjQ4bmpPMUJQbVItUFVNeWhzcG5HWFUtOUNvVm0weDdudVQtTElVMjMtcVdVOGxCSkg1WGU4b1pSb3VNT2NKMmRMdll5QzRXeWJhTjNtRTJxQQ?oc=5"
+        },
+        {
+          "title": "US disrupts North Korea's $400 million crypto scam, FBI says",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN1RTc1hhOXdpUE5vY3AtWFpwWlpXMllnc1VfTTk0UDJHQWhFNTMxV2FXbnhYMXFqejlhSk53MEJ3cGR4VWFULV9qUHBUczQ4NmJfRWpxSG9yT0xqcUV6R1dXajFGWXdLS2tiZjZqLXk3eWh1R2p6cnVsTzM5bFJCV05UZnRmdlU3clpldkxpTWpMZENH0gGUAUFVX3lxTE1YSnR2U2lpM0hhMGhwdExuWDdqckk3OWlSUUNELTN0RVh1NzFBZHJfMlBLMmZWTEFMWmZwbDNZSlBLM2R1anIteG50OEI5VEpfTVVTeE1QTlJoY3d2b001Q19FanBfd084RTY2dUtQUHotYlRmWXFjdnpSUG5fNWZESjV6SEpMamN6Qm0wemMzd3Z6WWg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 10,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 24,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US Details $2.7 Billion Freeze After North Korea’s Binance Hack",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeW1GTEtDNFJteWJfNTQ3X0hZbFp6X283dU1aWkZ2SnlVNG5EQmdQcHhQeXpPMHJmUkxTMlNYUUNsZXN1aGVjVzhQMzFaUzBKZXlHT1ZYc2V4dlh2Y1VfM1pYSTB5SjhQWnRjZFVvQ01RTHllbGtvVmktWmp5cTBYV2FCUWpUNTVTd3dHM211Q1BpV0RJcEJURXJSbnlOcVQ4U213el9WX1pGODJmUDJORWxHZw?oc=5"
+        },
+        {
+          "title": "North Korea Plans New Torpedo Deployment Next Year in Naval Push",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkZ5cDhFSmdsSWV3aXVQVENtaTBSQmxuaHFWM3dzYzVUb2lxTlUxdFJqNkE1UUtRLV9jVEpDQ0xUME5GbW0zaF9wNmZxQVByMkt1ekFRS0NSMXVxdHlILUhwWWdQX2VkMlN3cm9fU1hZWWRLZkl5Ty1EQVdrWVJRalRDdFBjQTRxRmV4dkt2OUhtSFFqcWRjSGU0YzdnUVp3Rk53dUd1RkMtbThqd25FQl9HT0FRUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 98,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Kim Jong Un Remakes North Korea’s Flag, Ditching Soviet-Era Version",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPamFEUnFZRDE2MFE3WEZFN0NXeWR2ay00NHZ1a2JoN0MyNTFXNjZ0M1JUU3RpSE91RE5Fd3hJUmNHMmk5YVlDNVpwVy1BUjFoQ1BtRjhRZEE3RzJsY2NLYjExR3MzRHNBd1NoclJ2MEJybkxvcVo4N0FaU2hoUzdxNW5yVUEwZzVQYkJHNDZNbGQ2ajBGTG5wdWM3TU9wazVJTVNVLTZ0Y28?oc=5"
+        },
+        {
+          "title": "DOJ Says It Helped Freeze Nearly Half of More Than $6 Billion Stolen in North Korea’s Binance Hack",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHBWVGNXcW1VWElRUU1zTGRhUl9uZkc3ZGFMdTBKUTNReF93eTZRb0tXNklsRzdNMTMxVDM2WUc3NDgyUTF2RmdQTkdRNTV1S29yY0N6S25UcS1MaXcyaHpiWDRGSmFaQnY3TWY4Uy1vQkxWVVRzallNMFZ6eVUyVDF6NmlhX3lpOUVyMmsyeUxYYmd3SGs1M0wwWmhlVTVIRFpvNC1nUloyVzFLX2NSeTdmblZ0bDFOb0N3akVGR0ZPWDUx?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 7,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 4,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}

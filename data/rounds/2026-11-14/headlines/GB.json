@@ -1,0 +1,947 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-14",
+  "code": "GB",
+  "name": "United Kingdom",
+  "window_start": "2026-11-09",
+  "window_end": "2026-11-14",
+  "fetched_at": "2026-11-14T23:38:09+02:00",
+  "total_items": 163,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 33,
+      "relevant_before_cap": 33,
+      "filtered_out": 67,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US Air Force responds to suspected drone activity over UK airbase",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTkFnODI2ZmFiRTJzS3N4eXI5TzJqbXpFV3lUM29neFFnSFJJOVlQcDNZR3B3MmczQWlTNDA4ZE13bXpQcm9yQXdROXIzWjBCRnZHNzhwQkxldWtuREJ2Q1BvOFEzcTZRN2tpQkxwb3dCLUtvdzZiUEsxbGNvXzVmWTUzMTVvdHl5cjZBX2Y1VTJzZlFjUnZrMjFrVWZXTWltM1hoSkxDMThmdDdEckQ1NVJMbTE0dXFQYXJMM3NEVQ?oc=5"
+        },
+        {
+          "title": "UK police investigate allegations against best-selling children's author Walliams",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ3c1WDVKOVNJcWZEc3BZamtibGpDaVJSU1hnUnhnWkFMTUlCcUpYSVg0Zm1iV1N5d2ptcm9VM2x6OTBMMUxkdV9peG4wc2x6WXZrWUdXREhDZzBpUEhSSVNPakVVVUxyeHQ3VlVxNmszLVZOVzJwa19SSEZQUU5Gckh3ZVhPc1I5LW9HYXVVSDBWblhWWmhQODdEcnBHTHJiU3pHeUs2RDR5cHNLWkYyOHVzb290Vl9hSGR5bW93aE9YM3M?oc=5"
+        },
+        {
+          "title": "UK court dismisses claim against gambling firm by family of man who died by suicide",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFVncTNfTlNEZWRnbl9zd1VhWG9EekJ5MWNJZDRfLXBXajJfWVItZlo4U3pFbmhqZlVrWk9uNWpTdjNUYlJqMGpDLWJoX3c4Y29EckVvRXl2X1VwdGI0NGZkMFRhdm94cERxRUZhcFAxRnVZekFmV3RXc0s2UXJwc0tvVlp0My0zbHVYQXlsWG1LYWZMUXR6OGRvRy1VQ2hSX3ZPSWNqN09EVkItWExpdzdGX0Y4b1lObkJGMVg1TE5iQUdFbFdOUmR1ZWg5QQ?oc=5"
+        },
+        {
+          "title": "Britain eyes welfare cuts to tackle surge in youth unemployment",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjlYZDdzQlJPZUZOUENiNXBUQ2VaUk1CY09ubzVsWWVNd29QMjY1Qnoya3JlOGkwMHB6YjgtMVVJVVluQ3J5YkxkU1JJN0FFODBUbG0wdkk1eEhZeFNpZTZCaXY1TUVxX0ZDd1lYX1Vid3AxWkMzbUNtbUd6Tk9tUU5OZFdEbFBtZFN6VEhqWmd1aXZvM1J0V2doOXhMVTFNU05TSHhUWE9DblI3?oc=5"
+        },
+        {
+          "title": "Visa barriers push students from US and UK to Asia and Europe, global survey shows",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZktLTzhpRnZGMUNOa21odmN2ZDRmcjZpSzU1aUJyWVFzbGdIUjhfWDAzeGg0eHFUMGJOLWd2WVVBN1M2amhud3dnSV9HbmZ1eXVFdmR3cjVRa0drakdvMlVjUUpXUzFJRHNHM042N3NpT0pMSHhZRDBjSThiOXRISl9aVGJuVkZDdzZJQTZxTkQ1NlNOTUtrX1F5cmR4eFREazB5aG9HREpTMWc?oc=5"
+        },
+        {
+          "title": "AI spending helps lift UK growth to fastest since early 2024",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc3NrMUYyRGhKcEpUNXZhajh2Y2lfRXF0ekhtdVBBMVI5aGgtSmlqNzdHYzVfdmVlV296QkZzMi1rOGtVVDJsdG5aQ2haSmhnMVE0dXVPcGJnUEV4UHBWbnI4b1JkUjN0WlBHbTBfa2RpME11dV9tSUlBYnF4OFpYcFFCMm5KM1hROVE?oc=5"
+        },
+        {
+          "title": "UK sanctions Russia's Slavneft in latest move against oil producers",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcFM0cE41cGZrNzlMNjVpS25GaTZmNURHUHFDeXVocjd4NFI5OVU5N2dzS3NwdWdiTG54QkFlVGgzVTFBSUlpVGZhLXVqTnlUUllCSnVuN2M3VmJnTXhUTEx3YzYwQVhfb3FGX01leTRpdFM4azV5ZEtEVnpXb1NpT3NEbzROb2FoUjlvZnlPWU1wNnl3WUtYRUtLNnQ5TFd4TmRTV0taRmUyOFV5M2N3VndRSHVOQQ?oc=5"
+        },
+        {
+          "title": "Meta fined by UK regulator over repeated inaccuracies in WhatsApp Business data",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNUM1Y0YwNEY5YS1iQzZhNG51ZDhfTWxCLU9QZjhZSTZrVWluam1QdHctRUQzWjE1Vko2R3lHUklWN2xRR0UyYl8yT1F5S0tfeEM5UDg0d3B6elc2NTAydTZNbDFORDJjUm1la3JlRGNfam00QUhMY1RMNHgxQXNNSk4wVFhBRmdhQ1hkM0R1S05SWG0xTWpuX0pEeGpmWjYzZTRhUlZZNHpYOTRDMDVPQUNPbVFENE0wSnZwcGN0YU1QTk5lV3JpV0Nrc0R1cVRu?oc=5"
+        },
+        {
+          "title": "Two Iranian men found guilty in UK of assisting Iranian intelligence",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaWdPVmJKU0hSSFFKaHZqSjhkbmswNjdjN0V5ak1BZHdna1AzWk1YeXlsdHd0WEFxSEppRlpadHY4UTBQTWV1MVliRTVtN005WTdHNTdOWndramJPbXFCYnZQNmJTcldoM3FMbTFmU0RTcGt4TTBETnVqTGFiNDkxNnhYaUlZU2QyeTJPZ2QtR2FPaXFqR3MwamRKRkpON0VFR1NUN0dOaUFYRUxidWJ4M2F3?oc=5"
+        },
+        {
+          "title": "British challenger bank Metro put up for sale",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTBrano0X20tY0lBQWxXWXpHOVlKRXpBblNpOFgtUFVUMkhHZnZ2V1NBV2JNV3h0MnhwSVltbkVFS1lGUGdxU09TcFlucjVITThXMmhaT0VfVVNYSnNCYS1lRThfTmhhZ0xnWW9rY0RNQ1pES1dXZUR1cEc0SGZmUkRoWnA5Xy12RHNsNXdIX21FWF9uRk5jb3FRQXZWdw?oc=5"
+        },
+        {
+          "title": "Sterling steady after UK GDP data; Fed official up next",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ3pWNU5fbWpjV3NEb2xhb3E5LURMT3d2M2dNVmNhTm1aYWlOZXVwdERpNVlpQkJEM2dJV01kUnFVZkJHeHN2VUxIeXBkOWVEd1RwX3dONWx2WXVNTEdMS05fTUdXVklHV29OelljV0Mya2pfaVFfRjAxbF9QX3o4OWJLMl9Kdzl5RmVTczladkszVmJfYzRQbnFtTDVyTnBl?oc=5"
+        },
+        {
+          "title": "Britain seeking EU deal where benefits outweigh tradeoffs, finance minister Healey says",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVhVODc4bDFHTEJUMjNpRENFOWNJS2p4ZVhCUHlkbU5URlhsM3ppZWRTZEc0WTVsRlFMS2tHTnk3QnMxclYxczVvYVREdkhianJrN3RvaTh5R1ZsQkJwTGVGMWthZmFlQ09hUEMyY01yT3JWUHBZRFNTMDJnOEJHdzRPM180QlZ1RjZsU1R3TTF5eXN6QUxSVnRFZ2ttTHFoV0JTOHkwZXByeUlxRnl3UXBhUHFqUQ?oc=5"
+        },
+        {
+          "title": "UK retailer Poundland buys more time as rescue efforts continue",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb3JXcXVKQzdmRWtTMmxQZ2Y1akFFQjl5dGpMaS1qZGRjaTBiVC1FcEFsQW5scHdXb0N5T0xZTko1OEdDd19OZ0pRaDFXWk5EYjBnTGdJU0hSY20yZzZNQmFYZHFrcXpQNTFlVWVMb3RBSDIxZkM3QmdIdzl6MHZDS1J5R19NSkVuRWdVRWJiUS1LNjRBWUo0dnl5LXB5OEVkblpXUkRpTGJqMGVqdFJGSkc1dzM5UjlBQUJxYXFB?oc=5"
+        },
+        {
+          "title": "UK house sales outlook is darkest since 2023, RICS says",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJUTFRoWlNwYjhsRmxYaTU5OHB5U2tOY29SUG9vaWVocWRhRl91Rmc5RGJRRmZzUS1mM0swclRpZGFoTFhSdmZ2dHVmVWlfTGhaeGxlVF9KU3JrbWU1d095ZlN1alluTHJvc3VsMTVBOFphb2RzZV9WNkpBeWJYZmpaTlY5N25Ld3N4QWpOS09wODVXS0pCLUZScFU5SXdl?oc=5"
+        },
+        {
+          "title": "UK watchdog demands competition remedies in $65 billion Unilever-McCormick food deal",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVjlXdXF5cTQ3QlZnMVBrT0VUR0FzbzItV1R1cFNGX2FCVmdkUzI3SUo0YnAyZWI2NHBsc3RPc0F3ZGlVQ1lVc19rQmlDVU5RMXdCOWo0aDZBOFhTWW9jVXhZZ1BkQ25GREk1LXhpaUNzZ2hrM3E4dnRWUmIxT2ZleTBUSUw1dzNGU2xUcmF1eVNWVkJ1VE1HYWo3NDQtRHlpVmdtM0FCeGZINVdhNVl2Z2xzbmwzNkJPQjRUdXpucl9jaXAtT01VRw?oc=5"
+        },
+        {
+          "title": "HSBC to open new London HQ in March or April 2027",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTk3WVp3N1R1Q1pWamNZTG5qX3pRVFRSZ01BWGkwMW5xLTZ6Nk9GNlFLSzludVY3UVc4cldiOUxpekNBZ09VSkhyaTVQc2ZzMl9sMHVKU2E0aDRtSG9BdDMyMGIyS0IwX0ZtQlNfTVRVOW4xMzMwMlhrUmNNVGk4Sm5rNHJ4ZWlCZ3JJcENaVldZYmZMS2prOUNZWFk?oc=5"
+        },
+        {
+          "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland in latest disruption",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUZHS1hQdFNsS21tSW0zXzRnRDNsVEN2T1hITTBwX1l3d3VCWmw5MXVMaEYwM2ROMXpYNnR6cTNwMlVuSUNsekp2YmZtX1h2VE9wNnc2RThjc05OV2tBc0VNNzNicWNGcGtKVG9VTGo2Yzl5eUFxeE9IQ3JlZWpHb25vcWk5VmlWZkRwbmQzRmhzbDF2cmhWM1F0RmNlTGhtM0Zv?oc=5"
+        },
+        {
+          "title": "Threats sent to UK and Irish schools dismissed as hoax",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNWJvR196eGk1RmxveHVOYWNiVkN5SVJYbWdDcU1zNDNvb3BZV2lCUk9pQm1XVFd4STRkWlNaSVlFLVh2b21PbExpbm1xSWpSdjNEVzFEcTV6aGJjSWdIX0I4ckliM3NWUENaQ0dYMU51T1A4TFR4U09Idm5sd0ZTQ1VscDZpVTZSN3Jmb0RpRERMWFl3LXpBUmV1U0VZSHFaWmg0TTZVNjM3X2h2VkxLSFc5NTVGMXZiSjBWNkxn?oc=5"
+        },
+        {
+          "title": "Russia says military-to-military contacts with Britain are possible if London reaches out",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSzBmRHlDbU9IdFZqQmp1YjlFanlDNjlmUHFCYnE3a19FdTJ5dkx2elpZLThIazlHcTVXci1OXzc1UkJzOFF3OHhfaS02TjRBaGptTUVqVzNCZ2daU0dmcmt5d1l5R1l1eXBfa3ExcDg2bTQ4ckx0Z2pBWEE5ZFotZFhsWElnaDJXSHFqVTd3Njd6YXNSNXZhdVUzQUJvQmcyTUhDc3pLdWNtSGNkX0lSdjB5bm9kQkV2MHJCWUQzMA?oc=5"
+        },
+        {
+          "title": "RWE, KKR finalise $16 billion investment in UK renewables",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWZqWUJrNUF3VmVHaFNVY2FzczhHRm1hLTN1b3BBNTRQc2xzOS1XLTgyMTkxVFNON29LQnNiV1NFYjRNZXFrSnJnV2pvaC1nTklFR2JHZlRSMklwQUxmbThGdWdCakRvVlNCX2pYN3pwTFVNSW43MVBTblN4UHhKWFhHS21WdnNsSFRXQXBQTldUR1dDZzJXTXEtZlpPaEZ5VUJUUGludw?oc=5"
+        },
+        {
+          "title": "AkzoNobel, Axalta get week to address UK regulator concerns over $25 billion merger",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFRqbi04aGxLVFBsd3VaZHl4MERyOWNEUXBGWk5jSmRXbEVDX3FCSW1IYWJiQ29nQjNNNXlPVllQVmNibTBocVl1NWJHMi1uZHNXeGVlS2YyYVAtanNyNy1FLVRrdG9SU1dpVUs1ZW11QXRrX2RrV0w5WTJZdU5WN2tpNTlHdTRJRENQeWtDaWdET2ppTF9GYXZwY1NzclhHN1BTWDAyc3NnRjU2eDlaQXBfeVBUNWFPSU1WVFVFU0w?oc=5"
+        },
+        {
+          "title": "UK inflation to overshoot Bank of England target for next 4 years, NIESR forecasts",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQblRJcGdONUI3dmYxWjh1XzV5LUFtdkVhbkVRTUNMWE15U2ozVEhuVUd2M3g3TWh2Qkx0TFNUdXZhTHhFbmpyUlVVQzh4WnEyQmI4YmtHRkZ6a0xXR3hSbGZPS0pDWlB3aWd0aGJ3U2JBOUQ0OXpIOXNqaTVtX2VpUFJkR2ZRRy1uMzctbXYtSUhEeXJyYUxlXzR0Y0NqdGdLX25NRzFNaS0zaVM4d3BKTXBxWVB5dlE?oc=5"
+        },
+        {
+          "title": "British police say assessing further reports about Russell Brand",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWVYzWDBta01TMjlxWmxCY2hUMFlwY2VrQmw3SjhQYzFTNm5NcEd5R19nNHZSTUU2OU00ZU9vV0JGak5ONEZuMXZDQ0NpRjRJMkI4Q2ZHcVpOZ3dRZUdOakt2dmJSSVRRN2VXR0dLWW9fakt4NkZCODZFcHZqM1FLc0ZrVU9tRGRvVktFMTZzeU5KTG1ka3IyUVdsTDZVSVdLczhxdnk5NnBKSjFOZmxsSFkzcUZmRUx1ZzJienNQTVI?oc=5"
+        },
+        {
+          "title": "US Army member arrested in UK for suspected 'espionage' for Russia",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT0hNNGY0T0RDZVBLMGZlOW5iREJOMXN2VEt6VGV4aEo4Y2JoejZOa3VJMXJicWRvaUtnNE9pTG5iMzNfbGlpQjZPRVc0SW9zV0xiYjJJLU4wTW9OY25oUE5uMkkwRkxtd2NlOUZrVnJlVUVPX1ozcDdmVlNwbEh2WWxqSmNvRWZvTDF4X25jWURpUzFHUFAxWkNvUUtYbnhuLWdKZFIxMWxLS2tfWUY4?oc=5"
+        },
+        {
+          "title": "UK children's author Walliams named as subject of sexual allegations by media",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRFFnUFBYUjE5cmUwRHBXcVFlNVRZMnUtVXV5dkFuNEdhVF9iTlVyR0JIc3BQbmt5VVprRkVHSDAwYkV3V0puRmhxQUZvLWF3WC11NnNjZnVick10MVFkTjVLc0E0bGJUUHNsR2pudkxJYkoyX0JiVXFPam9XOGNCak1DUzUzM2d4MDBLWGVRRHhacy1uTWs3dkxHWG1oY0VkeFdfaVppUEZ6bnBoQTZSRTB3RG1fZmtYTlJvVnhVbXQ?oc=5"
+        },
+        {
+          "title": "UK court overturns Trinidad and Tobago law criminalising homosexual sex",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOXRVdVZaOHB6a3RZUUNabElXeTA3ZTVTLTViRG5VUkpKSG1fY0t3R19uZ0UyVTlVUW9GV25xWnRBVy0wUzBhblRxeWxDUnNxVEdqYzlsODZHR2w1NEZlbk0tY21IYmZGaFpLQ1NkRHF2OW95QWx0REFEaVQzLUloYjN0ZXpIN0ZKWW9ZQ2xicnVpSFBsLW5CS3cyekdTWDY5emdycUR1VHFpNGZoNFVFeW1n?oc=5"
+        },
+        {
+          "title": "Dangote Cement shelves London listing, blames market conditions in blow to LSE",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUk4TVJGaGdfSG8zcWRESzVmRWpmbTI3X1RaSl8xZXlndVJ4X3BmS0xTeVhpZGtmSzAyeG82M0ZlSUdVMGVOTmgzdV85TFIzV1pzd0xrQWRFNXp0am1TTG9TWlRhOHBXVDc0UlFxVGRON1ZMY09sZlA5Um9aenFNc0tVLTJYQkszSDZQWjI1bkFfQzgyVVU4UEpfVVZrTUFxX1RyMl9vbmlGM2xUQjYxQWFSZlE2LVktbG4yUnI2WUo?oc=5"
+        },
+        {
+          "title": "UK aviation regulator clears Amazon for expanded drone delivery",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcWlVRHBuVk00YUFUa1ZfRHQ0ZGN2ekwxa2IyYU5pYjhVdjVfTnF1ekU3NjU5QlRYUUV0LUU2OFRvWC0tQjVOQ2t0N0xqMlg1UmxsX29aRHVNdmdXNlFSdUF2cXVEVUJIOUZGUmc2YXdlSnhhVzRuMGRjcnQ5dVVYQm1oQ29DaXhRdEN4NkVhU3hWSk5mTzZ1dEZtNjlHWWdJNWlnYTZNNTFFYkZ0UG9GZFBuWDdQYkpORlZ3Wg?oc=5"
+        },
+        {
+          "title": "Fake UK Touchstone Exploration bidder gets suspended sentence",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPblNvYS1Qd3hzSlUwamNDamxKUXIyVlJuSEU3Vm1VM084alNxTDMtdTFGOTNmLU5qNzRiRW9Kb0poYTdjNUNudlc4bE1jVUkzbVFPM19uOUFDdnhSQUJrMTQzeDZVTUpIUDc2djJlbS1HVUxnbDJLUmdkeV9TcUwwaGFNUDhMVmFJc1hIcEVBVzBfNjNBSzRnSUl4aF9CMzBocDFOWk1jOWVaWk9WbXVOM3JlSEo5bXpMcmRqcHVkM1M?oc=5"
+        },
+        {
+          "title": "UK retail spending shows modest growth ahead Black Friday, survey show",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNME91Z2xUT3FETFBYbjRzYU43eUZiUUFfeUtIdUJDUkxOTVFIa2FMWU4yYmZGb2ZYOE1jdDVLajBzY3RsYTNkOThIY1ZGMDVfT2hJdlRWYlRvc0JWN3FobGZHQlNWUTltaHFBeEdjNV9QMjVHSlNhN0pQSFN6ZElIdTd1WkdIRHJHTkRpemo0My1WMkhTVmh3emVTcFhJRG9ULWVMdXZBT3lqaVZoN0duRzdKQTZDV3dic0dGUGlXcER1Ym5COGJha3VR?oc=5"
+        },
+        {
+          "title": "London's FTSE 100 slips as miners drag",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbDNTcW1sbG8tQUVSdDl6S3hiNjRIOWF6ZlNDWFV5dUs4OFpXVjBWUzBKUG93Rm5FeU9ZbDRXaVllLWRaaFJRMnhuOVdSMHRyN0ZjYlBMOFlSQW52WnphOHg5R0p0bWJJclE2N2JhZEdicFc4dURXNU04X0lmcDdFWU5ZWmJuRXpETHd5RktRRkNwM2lRbG1ZR1Q4NlpXcnVkT0lwRXV0S3U5S24wd1E?oc=5"
+        },
+        {
+          "title": "Man who sent racist threats to UK Conservative leader Badenoch receives jail sentence",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFk4R3dQdHhyTW40dkxtR1hrdTNqVEw5Z244ZzBJWFQzQzNoTEpLWVUxNTBvNE9udWRLanpuUU14di1zbC1ISXZtMmd3NDlsdG9tcVA1WnhxQmJVZUlSU3JpWGNka29IRUwwZkhXdWVSb3F0VF9XVzJpMmxTQmFpaVJ1UGpjaTFlU1Yxa3ZkdmNWVzlndHNJMnZXRDVuWnNFbjU1RFZGaGxDcEpfc2djNHlleDUtejlfNWc?oc=5"
+        },
+        {
+          "title": "London's FTSE 100 climbs over 1% as firmer gold prices boost miners",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTS1VbXpNM1ZmZ25GUlRCcng4aFVvbG91N2diSWpkMjZ4ZjdRQmR2RnpZaGo5b3ZkVXotUVVjS2Vtc3p1TERVZTZZLUdhRXlQYXBvMVdQX3hlVDZXM3ZUdkxFWWFkaXRra0pyQ1BPWm9xSGxnYVVCQkJYNVkyT0ZzR2VTckhDVm1mZld0ZHVKR1ZucU05NWcxalk0NGN5b1RFeUdaMQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 15,
+      "relevant_before_cap": 15,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Drone activity over US base in Britain prompts security response, US military says",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZkE5dDF0akNzS0JidGwzRmdWcjg0UVVPWEV6a1hYbHc3bEtmOHcycUx4SGkySmFLOW9ManU2RV96WVhlVWZiUk1XR3Q2VGlHNWxYZHp1RUR0cllnSTBGeDIxNkM4RWhzaWVTNmhvc1FGWWRFNTdOcW9CbVE2Z24xWmIwMXNWQ2dIZ0VTb1hn?oc=5"
+        },
+        {
+          "title": "UK police launch sex offense investigation into children’s author and TV personality David Walliams",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQczlhMFFEcjA0WHlFTW10cmZFdE9PYkpNemV2WV9pRHhxbTJMaE83akxtVnM4MVV0M3hWMkZTaFdSR0hBckU2NlgwcHB3SDVROUU4U0huVGJxc0pRSEVXWjVBM2h6X0RIaTl2V1BBOU5EeGZjQlpiSzlhTWRIb0x5QnhuOXd6ZHNnTHhUMklUczRRLWV5OXFoZXFHZEFwMUU?oc=5"
+        },
+        {
+          "title": "Wife of jailed ex-leader of Northern Ireland's largest pro-UK party put on sex offenders register",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEdUbjA1R1hUb3pzNk4ta2pOTTBrY1RoU08wUVBELUl1bTNrNk9uNGNaRGhhV1BSMFdfR3Y5MFFSU1Q1RzMtM0ZvZVlVZzdwYzJrb0Qzc21pZDN6N3dkc0h2b2lTellnbzVhR1FwNDFpTE5WVk5qdmFqbi1teU9DWGd3QzdOOFpPN1VTRUZwZGlQd2FZVjRVZW84bkNRNHZMMzhPa3dLNFY?oc=5"
+        },
+        {
+          "title": "Endangered Malay chicks survive after hand rearing in UK zoo",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXlneV9LWFBKcXRrUjlzLVJfU1J6QUplUVBBWlNlYlp3WC02dEdHcThKR3pjaFdwaW9vemNtSElSMzNIR0Ffb25wZ1h0aVdJY0tHbDhaOThoNjdBN2dFSnJRWDgyRzlGVXpvSDJDTlFSTi1WRHdfU3pBZnI5cXM0bkFPb0FKV0RNbGo0UTlBZzBHUHNzbHRxVUlmUW9QQklRRnlQSkNrQXg5RmtJR3FSd0g4eXRySnBUa3c?oc=5"
+        },
+        {
+          "title": "UK police launch investigation into David Walliams",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS25pdWh3Z3Etck9NYnMwQThuLWYwOF9uMDRNWmdpaWNaQmlMQk1aaUd2d3R6cGlFdFQ0OVBDeVNRTURsR19qeFFneTJTaGE3UnBNcUVrYkNmc1ByWG9CYmZleTVTN1NkVUItQzQySDBSdVRXUDNQVVpZWHFvODNHMTY4ZG5QeHFxSEFQZWxjc3pESV9qczFSenhJNnVHb0Y5TnkydWlyc0lPSWt5?oc=5"
+        },
+        {
+          "title": "United Kingdom",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB1S1E0YzFJODBqN1ZPb0tyeFlzUW5JVTBXSHZDMjlBUk1CWlFMYzktUk53YTVVREc5MkxNSVFLcC0yc3JHY19QXzVlTFVNdw?oc=5"
+        },
+        {
+          "title": "London court finds 2 Iranian men guilty of spying for Iran",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeF9paC12S2t6cVRUSzRYa0dyMm9QNWtJT1dhZklmeDdFMVhSU3phOXJScTYtdHVLTGwxSU5YVVduUXRQR2laZ3pxcXR4T0ZjdjJ0SDJ1WHM1al8wVDVjRjdnWEwydnJIaFB0MW1hVk91Tlo1YVhxaW1hN0E2QkV2SGR5OHl1OEFpVkFRLWZxYkN0am92Qlp5Q2w5Mk4wWW9SeXgxZk9TbXRPU3h2c3FSZUtacHVCZw?oc=5"
+        },
+        {
+          "title": "Prince William attends Tusk Conservation Awards in central London",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS1VhaVdkc3AxVEdJeGEtbmdaandZa0w1QTQ1OWNKdEItS09MVW5lZ2dkM0N1NllvZ1BQZG15TVdxcllVVDFsZi1Qc3BGeHFqb2RVYlpjNG9neEJ6dm50QjBUV0JueUQ3OG91Z3p1WWtSbjY1LXhfM3ZwakNrbzNCS1U3ODdLVXNRQ21XYy01WHZsMnc4SHVfSmh6WjdKYlM3cGE0b1k1cGQ0UGlZSHIyOGpGQk1NUzBoZ1k5NUZSdl8?oc=5"
+        },
+        {
+          "title": "UK anti-immigration activist pleads guilty to slashing migrant dinghy in the English Channel",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNU1tdTlYcDBYb3NfTWNEMmVMS3dhei00eWxGRW1IZmJuSEVDY2RhbGZXMHptU204dm5uWlp1MW9MaXJhd3RpSF94WHFNNDM5STdPYnkxMTljdlVXVndoU3JZZEV2bnBtSnVSeXdvMmszLTRwT1E1TzhCUER6VjFscGFvYmxuTjJ6NHNjMTd1X0Zsb3NYdXVsMlZpNFE0dw?oc=5"
+        },
+        {
+          "title": "Walliams and Brand were leading UK comics. Now they are part of a reckoning over sexual misconduct",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWW1CX3NWVk82WXRtbjRTdlVqLWRRc0JJeUVERDBjY1hmR3luclR6RlpKdjlpSzJod2RaRHhkaU5vZnRYaEFPNkV3Z1lhbWx6a2djTTgyV1l6c09WQi1Vbk1UVi1fMENqWlg3OW53cEUzV0JCbHJiWWhmQWNBT1JPa1JyQThVNm5RV3IyOFhqdzlkQVJPTzlDbExralAzRWtkbUl1R1F4LWU3QQ?oc=5"
+        },
+        {
+          "title": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0EzV2laWjJ3YTZhWW4wRTlqaER3MnhEWlk4bG52RUIzeTlFYVFHekl2UWhFSExiUVNqUDktR25SQUVUdEU1eFlwQmJhNEV2YTRCQ1VxUEZiUjlGeHlpV0w0cENrd2NFbVgyMnZVcFRtSExnTU9lckVOTl9abERDc1hyLXdXWHhKM2pnRmRLM1RlM0h2MEFrU1c4b1ZrQQ?oc=5"
+        },
+        {
+          "title": "Top UK appeals court rules gay sex not a crime in the Caribbean nation of Trinidad and Tobago",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcnlSM09VOF9uNGlXVkdQWnVBX2tBWk9fT0hldEZ3dXNjNXg0ZTYySTFoc2NlU2kwTWowbjJtem5tdDFIUDdKMWRHUW9wRGVGcHlTMjhLbkRSTVd4eEozS3lCem41UFQzRWNfTTZlMzhNX1JETjNaU1JMNnE5WUNrWThodjd0b3NpVWdJZW42RUZ2MEx5d3hLZWFxaEJDdw?oc=5"
+        },
+        {
+          "title": "British comedian and children’s author David Walliams accused of sexual misconduct",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzV6eGhta1EwczFLWGx6NDg0eDZieUUtTUd6bXlIc3NRSlhmZnNEOWRBSHV4X0RvQktrMmZDNnZVRU5LTklpY1Z5WVhBTnh0SFRUTFdMQm5ucEtOem15d2l4WktkX3VCamgwWWtTSy1LaUxOODJvUGlnVzFVSG5saTZldTNNcDN6UkNhSG8xaG5wdXVKR0JJZlRTaWNZOEFXZEpwZG9uU0plcDFNcldQTjk1bw?oc=5"
+        },
+        {
+          "title": "US soldier assigned to NATO unit arrested in Britain on suspicion of espionage linked to Russia",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUE1BdG9yN2hIRmJMbEFZdlEzZi1fUWpETU5WYU44WjJJZEJBTWYxNFF6X1pkSmVQUU1KbnRLWlJuMk9JTjZEd2VScHdHZGMxQTQ0bDgxclBIdmZqWVVPWFlzTjFBM3lUR0lWN04tZ0FfTlY1UTR5eHgya3VRVVQwTy0xZ1h4ZXNpWWI0ZXQ4V0V0WEN3OHlETTE0Zw?oc=5"
+        },
+        {
+          "title": "Russell Brand is sentenced to 10 1/2 years in British prison for rape and sexual assault",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3k5bUZCVzZ3bmpKMWtIVlVJM3YxWHRkUFpyQ0hjNE1WNWpUUkhwNldwZ0tkSmZxLWFUNzlZSzFSUjdIallGc3hDazdfMkUteWhyUFFhdmVFUTJscWNNQXJfMk5KRmdfN0Z5RTJ1anNrYWl2RXVpWlljR3AzMnhnc1FGVHd2elp2UW93Zkh6VDJvOTBDRWF2MERMclFObmJtNUdQdkk0VVJEVzFVWEZTdHJOVQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 15,
+      "relevant_before_cap": 15,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Avanzanite Bioscience Expands UK Presence and Appoints Sarah O’Connell as Country Manager",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mOE1JdWVRS3ltS2F0VW4zdWw0Q3RPTVFNT0FDRTFVa2haVG81X0ItLVEzbWVYVG1oRnBKdmZoQjB4cmFuN0VDWjF0UQ?oc=5"
+        },
+        {
+          "title": "UK police probe alleged sex offences by author David Walliams",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLS12VFJ4Vl9FaWw0YWNzTFNOWlVRNWdnV003cGdCcUNERkVRTm4weks1VlR3ZXoyWlJmYk1CYU9nVGtFUjV5Y1RCVTFHaEU0dzl5MVplSE9UTTFkN1NMV2tzLTZmMEpaVFlvZEhtQTJuYTZ4eUE0aEduMFh5R092UzB2MENFY19Y?oc=5"
+        },
+        {
+          "title": "Positively Languages Launches, Expands With Malta School and Opens New London Premises",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80UW5QNkZLWWR4UFhiSV9meFdhblM2MFNsR2kyMVJWLU9mWFpFdzVuNEw5RHhWTVBHbEpWaG5uMTBlcDloc3ZqbGZTZw?oc=5"
+        },
+        {
+          "title": "US says forces responded to suspected drone activity over base in Britain",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmx5SHBCLXEyTUliVXp0a3VGdllBUUZaNHExd3lsNU9fQk9QYkt2Rll6WmVkU29TSURleVNkRnVjTVRTODRQY3cwYXJnVFFvdmZQUEQyU1l5QlVtYnd3SnZUa1pKR3FDWVhOUmpnemx1NncycjRvS2pYMzduelh2WS1fYWpQc0hVMHNaTDkxTXF5NDM4?oc=5"
+        },
+        {
+          "title": "London mayor says cities key to climate fight",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QWGpmRzY4ZkFFNlRpY2lOUzIwX2g4b2EycVM2QkJCdHJpNmNGeExGZXhfUWZQdlM1V3Fvc0phUWJUYTdqbzh4NU4tMG96SDNfRWgwbWdqVXQ5cVcwd2RFYXFuVnBtY3MyX2psVXBvQ19kVDA?oc=5"
+        },
+        {
+          "title": "UK appoints 'climate security' envoy, a world first",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40ZUJZRXRZVFFQQ0MwV0NRT3pLckdnbHdUYXJQeVI0UGc5Rm9Rc1o2UWlLVmFxWVQxTXM3eFo4X0lBcWdjNXFYaUVSTXJ4cFVyVTZIQWNqY1pFZTNFclFfcW42Umw4ekFYbWJCZER4QWt0cXNOaVNTWA?oc=5"
+        },
+        {
+          "title": "AI powers UK economic growth in third quarter",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9UZE02VU5IcEF3Y2hsanZLV1poT2VYR3h2dkhwQ1dvcGI1SDlPV2dzSzNzdzAxUlA5QUdLZGNPRGZTd3B0MlNDV1NXZw?oc=5"
+        },
+        {
+          "title": "UK PM eyes EU 'prize' as leaders meet ahead of crunch summit",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaXA3aUhkV2FXeHFnQVVtTV80a1VKbzJYc2NFRlJMWmpLcFQ0WjNNS3JWSkp3TVJWdmNudnFDUHNoMWUyVmh1SGxXcE5FQW14TGtIcERZNGd4cVBqREdNeDBMX0p2TVRHbkt2V1NnNGZIRjlDbUZEcmZOZ0JjN3ZTYQ?oc=5"
+        },
+        {
+          "title": "UK arrests US soldier suspected of spying for Russia",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FSEdOZ1dnYmlYdjVzWHZ5QVM2cDZacUJZUGZSTVZxZWh4dUJmTmY3TjExX0FCcmUxelpJSWNIR2c3WWRzWFdVZmVBbTBDNHA5a1RtWWNYWkxNcWdKNmVYYVlrWWVnX2NuTnBSUVdYa3YwWjZoYTVN?oc=5"
+        },
+        {
+          "title": "xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdUhhXzBtOXZIUGdFb24wbkJ2RTE5bEhKelRmZUdHWTZWcWJERnBhbUJPOEdHZV9Nd0sxbHpEalBUbGtDZHhyeU9xeVVpbDlGellxWXZtU1dQdnFkUks2Rzh4UFZES1U5cVpEUHNvZTVHdGtqN2FobzlvYWpwenFjMW0wNWk4SUJ6a05UbUNYaHRlclhTbnEwS0xNUjlqVFVNTlZSNjdESGhnSGNIZU9aVkVHemU2NzlOaUFRWg?oc=5"
+        },
+        {
+          "title": "More women contact UK police after Russell Brand rape case",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTXRjczhRNWhQN0hBUmdKRXF1REpIS2dyX19CX0NaY1NrcWlwUk1TNGlLX0NXazdVT0pueWh5RGg0eVBLakRYT0NtZ3ZVb1p0Zk9STi1jN2dfLVZiMHpQeUZRYlA4OEJ3ZnFBS01mak9yZ0pHLWlyZjV6aHNRWXJuRm5iOVQ0T0Jf?oc=5"
+        },
+        {
+          "title": "UK children's author David Walliams accused of sex assault, grooming teens",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1hQ0JyQ1VMajdFVmdzNk1LQ1R2cDEydnVOaDRsblkyek00Y3J4ZG9DWGhuOEJzMG90ZEw3UExVWUx6NU1PVXpLaENKNA?oc=5"
+        },
+        {
+          "title": "US charges three 'Iranian operatives' over UK airbase plot",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWkxmR2t1RFdXYS10SV8wU0lBNnVjSEtWYXduamx1Q3N6M0NZbEM1U2NjWEl4REltUXNXNEprU3lYeFVJMWtRWC1pUHpxN19tMlRYdEpEcmxPVVdzazIxcm5iZXJSc0hnSVFUS0t0V0RxNE8yV2RPN3NDUU5RZE01Z3VSek80UQ?oc=5"
+        },
+        {
+          "title": "US taking 'appropriate' steps after planes leave UK base",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU2puRnljNUk4NW42SEdYUWxNQ3pGSUZMMkhmbmlrZEJiVlF3QmdWLWxDZHJKNEFuRWNUS2VHTzlmNVpwMG5BZVBfU093NFFnX2wyQWNJeks1bWplZ3oxRk9CZlpSelpLbV9rTDR2QXREZXBoS0M0YTh2VURRcG1tSHlMZw?oc=5"
+        },
+        {
+          "title": "UK children's author David Walliams accused of grooming teens",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEU2TEdZNVJOdUJsdVhieHdxdVdCZlVHczJ2dWlYdGZzX09pLXVORE45SzZBVmZYWmF1NmExajNpLVcyclRDWlp0M19wdUxLeFdRbGdHSjJ2N0dGWnJFdE9FTTg5NjlSaGd4TC1XaXZCWFg4azZheng0VWI3dTVwWU5UaFVsdGc?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 22,
+      "relevant_before_cap": 22,
+      "filtered_out": 78,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Lord Mayor’s Show takes place through City of London streets",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Odm5aWG44MnRWUVM4MmRaNFo0U0hhYU5DbWxMOGN4WUZ5VGRleEExZGRsZGViWGZsV3R5YzR5UWdrUmZkZWMxd0VVLXFVRktmQzUxdGRreDV5SG8?oc=5"
+        },
+        {
+          "title": "Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qeW5rRjVpV1dNNHk1RDNVTi1ROXdMU24yX3NoUjhaZGNpN29oWHY0eXRBcVFLOXcxVDVKdWZHTG9WVTRnMy1tZGdoUW1fRTNMMk5ZZ3NuWVJuVHM?oc=5"
+        },
+        {
+          "title": "Andy Burnham says 'win-win' deal can be agreed between UK and EU",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QaWZGdWQ1YjJHb190WW15VXZya3J3ckhBdFBLeThKY1JLVV81Q0FtR0hIaG4tYzduczF2WFpHbVczZnJ2Vl95MnVYd3RUMFFlNTllVkJpR3RUclU?oc=5"
+        },
+        {
+          "title": "UK weather: Earliest reversal of polar vortex on record but will it bring snow?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WUGFDb2pucU84NHN3WFE5UG1veUZFSDhqVWtTWDdoa0ZWY3NUZDIxcFFSQ3J4Q01mWXk2ZGk5bmtZMnZrYVFSd3RhQkJvY3hfM2NaTlZPandEclhEUHhB?oc=5"
+        },
+        {
+          "title": "Studley team's stolen racing car found in London after ransom sought",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hYXdiTGxVZjhnOEtlUGNEb1dfZzN5cEtEVUV1VDItRHZUdXl6YllYZlNPS25zSWU0VzlzVzRsS0JMTnQ1T2lDUDEydnp1YzlTMU9aakV0T3p1akU?oc=5"
+        },
+        {
+          "title": "Where do London's air pollution alerts come from?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KeW9ydHZPM0FFTmxHUHNLdEJwNVNDZ0ZnTzBzdjBzT1Fhc1U2a0E0QzIwR050MVJ3cFVXRXppR1MtdDFzNGZlc3hyNkpYWTVndkdKaXhJVW0xTXM?oc=5"
+        },
+        {
+          "title": "Kirklees Reform UK councillor denies saying Long Covid 'made up'",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1RGItZzA2V0xTOGdHalBnR3RxejEtMmlYdFpxM3JERGp6U1c5SUtfTXFVZkFLVm00WlBGUG1CUVdSTy1sWkFSWnR5YTJJNXk1dEZBb3ZaMENBVWs?oc=5"
+        },
+        {
+          "title": "Studley BTCC racing team's £350k car stolen from ExCel London",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tVHEzcW4yWlI3RmxCdVo2YTBuazh1SlN3MFMtcmVDT1dISlBkU0lOS0FBWUpUZU9vTDE2OVhpU0V0MFg3S2U5clZybVF0c3RGVk5yRkNEVzNkd1E?oc=5"
+        },
+        {
+          "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mU0l6SGd6OWJEX0JJM0l1TktFZC1hNTRyS2M1VDcwLTl6S2ZBNUVFc1I5VjZjN0drNzltaWdoUFoyaGRZQ0VrWlpRS2oybUJpVUoycHZUcy1pTFE?oc=5"
+        },
+        {
+          "title": "UK economy grows at fastest rate for more than two years",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SNTFXWkdLa3RHVGNUUDhBUzNoNzZDU3Zob1RtX1NGSHd3V3hvVWtkbEVZRGN0R2hSN2Nzb01JMmRpRkxKV1VBeUNSRE9kYk04S25FYWE5YkgyUHM?oc=5"
+        },
+        {
+          "title": "Croydon woman banned from every UK Greggs avoids jail",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnZlR4RHhua3Vqa3VRSVVfUkZMMHJmeFU3MWlWMXhVamdVTG11cGh0bEdielRhX3hrdU54UmJkMkFmSkM1TU5HY284TnMyRVhVWEp5YVFCLVE?oc=5"
+        },
+        {
+          "title": "What is GDP and how fast is the UK economy growing?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QakFPU2xybEpxakRQalQzdU1HUGNEN1pnWnkwS1hJRjhjNHYtUlRZenZYb184VjBhTGdhTV9UdnFuR2RUZ0c4aFNjUFB2WXZoQjlxQ0plZ0xuZw?oc=5"
+        },
+        {
+          "title": "Richmond upon Thames is Britain's happiest place, survey finds",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VaTh1R2VtUHVOdlJOcEg3ek9FcXNVT3BkVk1RUTEwUVdzOFBENWVsQVJRZTRFNk9uRkxBY0k3bHBhMHN1YkRvcF9ZR2l3VXI3ck5KSmZBc0hKb0k?oc=5"
+        },
+        {
+          "title": "UK falls silent to mark Armistice Day",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ySFM2UDJ5ZkxqcHVVS0I2cnZKZ0d6YnlCbWNBY3RxLUN3ZmFjUDhDTzJoMGFkd1hEV3MwX3JjUzlUaVZ1ODBjYjg1ekVjYzJrRjUzcDVBc1YyVmc?oc=5"
+        },
+        {
+          "title": "Toby Jones stars in film about UK Mars mission",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hZXAwRWh1ZnIyYTdkQUpPc1FXT2JtcVRQR3hiOG9wMzFQd05iY29CdHJ3a2lhb2p6SWlXc3dwOTFMMFlmVWxCTXIzdURIUVVsUFJrU21KckJiX0k?oc=5"
+        },
+        {
+          "title": "Heatwaves predicted to cost London £25bn in decade",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GRjIxeVpZVXVPdktMWXFydFFsLTJ6dVE1ZktWekNPVUFHM1RfTDNUWWcyX0k5MFlUeGVxRWxaMG1aamJxdzdQeFExaVd3NWtib2dpcE1OYTBhQ0U?oc=5"
+        },
+        {
+          "title": "PM offers support to UK families impacted by Krakow attack",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oc2pMMVRxX0U5bFc2dXcybnoxc0dNT1ZjaF8zUGVUS0p1bE5EdHducnlNTmFhNFRfX0pfbDk4djVNNkN1Vy1DSmJ2UHZWUXdyTU51NkFXZkY1OEE?oc=5"
+        },
+        {
+          "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wSFJOVjNvZkRlazE5MjlWMWtpWHN4aURIX290Q0NFX1daZVZjbGlmMEdaWmpfTzM5NUpvQ1BhWDdBcTVuN2JnT3VUVjhIb09fR3I0MF9TN0RMUFE?oc=5"
+        },
+        {
+          "title": "More than 12 US military aircraft leave second UK base",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rWUFlai05cVBxWHl3RGF0NWJoWTJ0U0NHV191NXBqMHQyU0pneVFzNkNINjVsRi1MbjVHUlFiX3lDV2VUb2E3eGxUSG4wQVBoTEZpckJIQ3VDbVE?oc=5"
+        },
+        {
+          "title": "London pollution warning after fog and fireworks",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LRFVaV3NUc2JqbUVTem8wS0ZCaTgyaHo4Z0NrSmZBUURPamRUR1lDa2VWVWpQLTJ2TlVKRlFFazdEbjBheHJ6SzMyREQzR0czX0treF9NNUdNcGs?oc=5"
+        },
+        {
+          "title": "NHS winter jab drive sees 1,700 walk-in hubs open in London",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NZklNZWFYU1JONjh0YU1odEhyZkFVMzNRQnYzaG5fYndQZ18wUXkyYlJXeHctMmRLNk9laU1GWTRaS1JTTmxLUEV3c1ZNZjFtM2pCREc2YVBHUzg?oc=5"
+        },
+        {
+          "title": "In pictures: London starts week under blanket of fog",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEQklzSExyMEpicDlPUW4ySmgwN1djWmpRNzZwZlpxejNVR1YzTGFqbXJ5TWtpQklRTndOMlF1MTFVazVOSldzb3g1VnJQeUNlcXktZlNlUUxJeVk?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 94,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Why are there so many security incidents linked to US military in Britain?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNVJzYVNrS0F6Y2xnTlo5VkdkTkFjX0EzM0w5dGFyc0g5YmJxRGtwTlZIVXBqdkNyQXp5Ql8yUmZ5OEdWdGgxdEEyVmdYTThKWWdoZDNJSkwzMThzdm9QdVQxN2s1bVF5ZU5VNDM0QlRHdUlVc1JnWEpRSUxad0N0WFB4a2w?oc=5"
+        },
+        {
+          "title": "US Army soldier arrested in UK on suspicion of espionage related to Russia",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUlBQaE11cnl4a0VjOVp6cHJyRGNLbUxNTHg5dXNlakpXRTJuWjdjVF8wTUFBY0xUS1dHQXhiYjdWcFh3WnM3Yjh4bUJFaERJQV8xUjRUVFhEVmxISWxYaEVSOEVGQ0Fac2hMZU9QVDFyc0RaWjExc2ZGNTBDaEY1T3VYVnNLRWwtSG8zQmYtVQ?oc=5"
+        },
+        {
+          "title": "Iranian operative used coded messages on NY jail call to direct failed UK terror plot",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96OTZXcFRYS2cwQkJMZko2bVpvSzFWZTdjeGRLYmcwRkpBUU00Mm5vaVI1MnNFSGlOc0oxNWczSFdZNndYRC10am80SlF3XzVmTXAwMzY1OW9KVC00SFBibWVmUEgtbEdfS1VQaWlUc1NoMlNOb0E?oc=5"
+        },
+        {
+          "title": "British celebrity David Walliams accused of sexual misconduct after losing legal battle to block reporting of claims",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVHhKSjNfaUxxRzVKM0V1WHNFUzVOS3A0WkFYRkctRlpQS09DMDZqTllPdzhsbGJLMV83aFlYaDlvM2tNS0tLclBrcXJiOTU1WVJKUkRNdUxzMTdjT3FJbm43WC1zQ1FIblMzMk5WX0FlYU03WmZSQkVhY3pmemVNTWp2VHRzZUtJSllYQWJ6TDVVMVo1YnEtc2RHRm9LLWJaX1UwcmlB?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 13,
+      "relevant_before_cap": 13,
+      "filtered_out": 82,
+      "out_of_window": 3,
+      "items": [
+        {
+          "title": "Mud, fun and donations: Mucky UK race thrills thousands",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYk1acWFzczN6NEdQdEdyMmw2ZjZVM1RJbGEybjNQLUExUUNZYmlLeTRuVEtqYXlGX0RMS1E3clg0LWk2bm9fbXdIWUNJNWtiSkQ5Tm8tTElTVHFWbGo1REtTMEFEOWw3SzJ4TFZtM2EwaGR4QWYyUllHZk5UaTFrQnBQUXFmcmd1S1hua3dVUQ?oc=5"
+        },
+        {
+          "title": "David Walliams: UK police launch sex offense probe into 'Little Britain' comedian, children's author",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPclY1TWxNTlNRSVVMd0lPbkhfcURuX3J1SjA4TWtwb1lsWjRmZXZweTVwUDJHMFJYMmtVWE03TU92UmU0RnFtS2d1X19veFJEbGdCeDA1dUNoNFJDQ3JpcEN1UDlad2JNTEpyVVBRbWxKVjBQVEw4eVRnaEUzLTRMTklMWWMtTDNmVVhVQlJBMFEydHgydjhWOW1rWDk1SlNic2xv0gGjAUFVX3lxTE55aVFzZDlrVzhmcXNoRDdqZHFubUZQWms2YVJQQzVJZVdmdzBMU2VXb2c3YzZaNlpJLUNlcWJmYXB3eTg0UG1RWjhBOV9TSFdObnlIQm9YelI2aVZ3WGpqV1lCWkZPT2pOLUxBVVJxWF8wVWNrb1d4WUw0bWlWMkhXNExxcTAzX2VKdFBmWHY0dTI1aW1pem8wSURPY2NLV2JDRU0?oc=5"
+        },
+        {
+          "title": "Bluebells blossom in Belgium, Britain",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IR3VLX2tVR1lxZGhlV0xfa1FwQy16SlNHVEpiTkJuUmZvRlFHM1dpM283R1JYdkRJR1VNcExDeFpRdkRyNjVSN2lxNnpHM0lfYnZFbnljNlpFblJ6LXByUjJTRGcxejl0eFJ1ckZOUVA1REVWYU9STg?oc=5"
+        },
+        {
+          "title": "UK maritime center reports fire on vessel off coast of Oman",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBXUk1hUGhITkhjaG1oZndMeW9WYWNlbDRPc0tGdmUtQWpfaXNDRjNlVE1FNloxbzJtVnIybw?oc=5"
+        },
+        {
+          "title": "UK court convicts 2 Iranian men of spying on journalists",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYVZQRzF4ZXQtbFNIOUtQZVprNDV3UEwwWURSeVNaZjQ5aXJESEVlNjNYd3E3OTQ1UWlpTmY0emE0ZDNaczMtZS05aEY1MVFWMm5zOE1jV0VCX0JlckYxbHpzRzd5aGdxcFhQTzVuZHlPNU11NmdSckVXbXVmazE0a3FUT28yVWZrX0VoaGhrM0hnYmPSAZMBQVVfeXFMUGpla052Tjh4OTVKUVo2M1JReVpPZ3hoSkpCX3AtSWxOcGlYeVA5LWtXUEgwcFpsemtwUlkwY2hpWmt5UmtCcUlXX3d4dzZfeG5EUk9mT0JfWk5tMGpmQlRKdkx5ZkgxbEZEdFA3X254MFhCbXh3SUI2MXRvWTNYcjVJV0MteGttb0xJcHBaQVpyY2xr?oc=5"
+        },
+        {
+          "title": "UK court convicts 2 Iranian men of spying on journalists - DW News",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnhmMkhoZUpKVUlNSFFzLUZMVnBpemxxaGRqNGdKMGRFcVNxOUdHVTRITmpXNzRRYnJmYUhZNzhKUUhQek5xX0dZMWxHTk9kbl9PQnBpVXM2Nl91T1NwNkk5bzZFQ000U05xVUQtTGg0R3JvMjZrWi1UV3l0U1I3MkotNk5ZTWVReURFN1BSTUx2emdCdTZ1Y2UxUFBVM2NvcmpaazYxTWdOV1V4UTJ2ckFFUlZkcWxB?oc=5"
+        },
+        {
+          "title": "Keir Starmer's exit: What next for UK-Africa relations?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3NQZTl4Y3I3dkFPc0YzSXkyTkhEaWVleEdHYUNtNGtmZDNyU2lpLWhDenRnWkVhMDF1b2FoWi1taFJiVlhIbGFBVGM4YjlsaWVmNXQyanQxdi1PNklDa1REdTFiQ3JWWnBoY1NKeVA0S2RkM3BFbjlLSEJOdUszZkhlQ29uWU9oYVFXY2JTczloQk0?oc=5"
+        },
+        {
+          "title": "UK Privy Council overrules Trinidad and Tobago gay sex law - DW News",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcG5hYThtbFVzVk9HdXpCelVHUzd4ZDZYbUJNdVZzUHpsQWtmTlFUalNWNFp1OU9BRmtsNjlUdXVBRUhZR1c1N3paOTFYa0tOcG8xdTl2R0N1RnZKbW9GX3JER2dfSWJYdjUzemlPbkRGZ1F3X2w5TzF2Skgya1ItQ0t2b21KdTlYOGxDWEV5UlVyRDBsUE96SnUtaUhrZ25wdHhDMUxYRDJ2MXdpQnpHMjFYX2M2S0puQ0hN?oc=5"
+        },
+        {
+          "title": "UK Privy Council overrules Trinidad and Tobago gay sex law",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUDZPWnR0V0poQkFxdmU1WVhDTnJJVk5DWEwwOU9BcjY4dlFWeUh3S1p0SDVrT3c2ZTZnd2wtLXYyRFNPaDNtT1FlanlnVDE4dzF2Yk42aEpJcXk4akRTYWczNEUydlc0NGZhWlN5N2g0bTliczE4M3ZEZnJEOVJkQ3NZbjdpUlFjeHRtZURuZjh3cm9DSGfSAZYBQVVfeXFMTmZ5Vk1wQ2xNWkRNSmFhZ2R2djdhSUJ1eHRVS0xVSUdiSjF3NV9ZZF9wa0dyOEFPemg1TFJKb2x6a2NEN0tkY3J5ZTZUbnNKU2VKTGJEU2paZHliN1BrOTk5cnBsdlM3bE1OTDVxTnBjc3Y2eXVwSmZua3lIWkExdld2c3BDeWlsRnI4TUxPTTlwcWVDQVJR?oc=5"
+        },
+        {
+          "title": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVVZ1RkJXU0dRLVRjZ1N1dDVBeXE1djFjOXBwT3RUS3llNzhMUjNQSjdaa0ZqdE1SWHgtM2VUTXpybVVpV2ZDOElzTU1OMUNhalNteEEyVGxESEpxcktZTnI4azRtRkpFTUE4a0dhRFdHbk1nMmJPaG1HUWNCTzZpNVZHbW5IT1k2UGJnejVfUkVPSGlITUU4MXRsbGJ4QW1yQ0x5WlM5YUgyRkhnNnE1NGRfeU43cGQtMmdaT0QySi0yUkxNNkxJTNIByAFBVV95cUxNQjBkMVRvTjYxV0JEbDgyeHU0d0hNb2VqclV5RTBaX0Y2NnB1akhfajBPM0NzM1VaakpoZ3ZmZHdVN0pnYXdNU0NjYXMwOURQa1g0blFEeXpMQUJKQkJVQ0J6WHJuejhiTDMyQk13Z1Y5RmxBaFpzRWcweFQ1cEVUZFpZYkZ6akI1bU4xYS1sTWhRX29HV25GS0tUTUVlaC1ieGdOSmpYZGZKOW0xbjFtVEFiM2RkQS1WTjgyNC1BMGI5S1BEeHRTUw?oc=5"
+        },
+        {
+          "title": "US soldier arrested in UK on Russian espionage allegations",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOakFXaVNPbmg2bTJZd1lNdkpDUExPbHBMR002azd5bEVPWFZCYTRpbm1zQTkyeFQzeG5sajJHVXBxRTlpT243cHA0TWxaVjNRbkJDdUNRWXhZT0NOV0FvNHE5ZklUSl9pVXZ1ak1STm5MSC1NQURKU2wtTGJkQ0xhenBNRmnSAYQBQVVfeXFMUEJkcG5sNWEtTVpGb09iX01wRHRZLS15WWVVQmZlOWJIZldtU1FjeXJwWlBiN3NXeXRySzVEMWNHRGtGVENwdG5UOGpVV3dibHdIRDU2S1doNDdITUNzbjRHZ1laOGlNei0zVzdCTlVyU3VySWZ1WXNLdHQ4Qlg3azhKTEs4?oc=5"
+        },
+        {
+          "title": "US soldier arrested in UK on Russian espionage allegations - DW News",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORGd2ampnM1BXQVliTGkyVUxDMlRWNUEycGE5ZVVuUlgxNlJkeTZtZ3Vlc1pUOUg5VU5NWTZkZUFNS0VuOEU4ejAyejR6SVVCSTJrR21EbjFMbEVNUF9Ia2k5eFZGeFYwcDIzdngteERFcDlXYVlWNk11aTIyTHlRZFo0ODl2a3hYaGNpWHphZjM3RV9SZHlyTHV4WVRndnFpR1FDbVVuVmhtMF9OYnFmcWxUVTVTRDZQbnA0?oc=5"
+        },
+        {
+          "title": "UK Privy Council overrules Trinidad and Tobago gay sex law - DW.com",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1qTldBTmk5Zy1NOWk2RURwRGpCYjNzeWw2SldaZ3NpbkQ1RWFKcjNVLTNaVURGYUpVUFdoWFpzNDZCSGhrVmJjUURrQklxVzFhVUM0YnhST2I2T28yTW5rVGMzSVBKVnB2VEh4cTVXQ0NkRlNCNjdiX3hNTTh4c3pSZzY2YUhHc0lWQ09tRGVqbGRYM190Uk9iS0JQbmQ5RnpoVFhYd1ZjVE1NV3hPWTlfc2pqcEZycTFF?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 9,
+      "relevant_before_cap": 9,
+      "filtered_out": 91,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "L'armée américaine a répondu à une suspicion d'activité de drone au-dessus d'une base britannique",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbTl2X055VTNMNWpnZkNLMndQVHJiY0JEVlZVM29ybUhmeTFKRzRLWjdZMnhiMGRFUHJ5Tk9yT2JFb0NYZFRLZVhsMnd0YlFGLUZhcFVtUG45cjZYRVRZdXRZWmFsTEFWNlI0T3Q0UDhtSjd5YnZhbi1jc3BYRUJlWjFYNXUyZDVKRU5CdUlOTzltTHMyTThxY25mZmJYa2dLOWZOTjg5c3RVM2Nrc0EtR0Y5ajNiX0ZLYUF6V0NaZkR4OHMwQWhGNVpTRHJQZTRjc3dOOEZ6OTlzeW0xc2c?oc=5"
+        },
+        {
+          "title": "L'armée américaine a répondu à une activité de drone détectée au-dessus d'une base britannique",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcjVyaGkwbUVPZ19WQml1TXp5V29UeDFiX2ZQWkRaV1haY3lMd2x6blprVDd4UEU1RndmQmltdjFiNVRnRElwYkxLSXNlR0VaT0pTUm9xUW5pMWhOT0RTbmpSdDlwZGEzb3hIVkFmb1JpUWgzSDdXdUhQRklaNlZ4bkVOMEU2RUozYU5JcXhKYWdaeUR2bHlhdGFDb192TFlJY2FZOTNVTzFrVGFJSHN4NzFxcHVTd0xVeHFLc2V0amRHUHg1U1lfWVJpU2d6RUs1R0hsOXFBeG1lWDZkQmRMTQ?oc=5"
+        },
+        {
+          "title": "La police britannique ouvre une enquête sur l'auteur David Walliams pour \"infractions sexuelles\"",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONDVmcE81Z2I2aHVVMF85MnY0bzhOTG95NW1sMFBrLTRiM3pxQjNqTEYxX29ubVhlM2lRX0REeE1XcEprV0E0Q18tSHFNUmNBZmlvRml4MnQ4a0ZnS0ZYS1dwMWw5Wl9fV3JKNHU4ampSWGczUUMzSzVCWHE4d0lHcUZGc2tmVHM1R2xOSnZlaFdWTDlfTkJmaHpjTTZ2aDBRWlpUbUJtTEhMSHUtd2tITWlVVzRtMkx2SVA1YnlmRFBleW5ldFdhYkNlc1ZRcVdTZDlJXzRxWUFzWnA3NHdrVw?oc=5"
+        },
+        {
+          "title": "Le Royaume-Uni confirme une croissance résiliente tirée par l'IA",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSFVheGlJYjNvNVc0UEJHUGx0ZEZzMjVKT3VWRmpwYWVoc0pmUGhrZXlhOVMxRUZEdE1EUVRQM1RyenhmZTl5NDhJVGpNeG01cmhDczU2U3JfUGFDc0pBR2RlTU9KM0I3YmR5WnZtVVZuaUNRczRVX25jZ050bndicXFqVmlYd1dvMV9scUFvXzViMG5zTFgxSVctemJLeUdWU2w0eTBKV0IzUlFENGZRM0gxVQ?oc=5"
+        },
+        {
+          "title": "Royaume-Uni, Pays-Bas, pays baltes... Une 'alliance des nations amateurs de bière' lancée contre l'activité navale russe",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUERVam1ocUVvenNYLWN4cDN6cE9kME40LU5HTWQtUGZPX3ZnREhGQ2VYQUs4TWR4OUhNN210ZGRMWnBNbVJyTUdWdnFPOG44b1h5a0toZ3pnOWJOd2RlcHJ2b3RyOGZnRmZZcHh3LVZrbTYxbDZuZWt4VG1PZ2VxX2k4djlGNEJKV1RrZ0l3MFVNdElmbzAwOGxaa042QzRJZ2U5T0E4eVJXMU9MLU1WVDVXdVJ3R0pFbzVvRWZjQ2pweXFlNmw1Z3Y5eTJQSElQUTI2WlFuT2lGdzZNRzVHbGEtRmtzQTNkcGRLVGQ1MW5FSERHb29LTWpPYw?oc=5"
+        },
+        {
+          "title": "Royaume-Uni: un militaire américain de l'Otan soupçonné d'espionner pour la Russie en garde à vue",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR3RNQ0xTYURjYVFkbTdVUElmNm41NjdYZEwyQVN6aDdicW9CZEswWnNxZzdXWTA5NWxpY0d3QVVNWVpMdEFRZVVVdUhOa3ozR2tqLVpoWldhRHNlb0NMMW1EeTlDSzQwOEgtQVk2QjlUS09ibFNvMjcwSkh3bnRtaUpwUG1qR3pscHgtOXdOWU5iRjJaS1pGOE84WWFkcDRma2xiaFpwN1IyT2V6VlhfWHRGcWZUR2JKbmZISVRrSkpiYTQ5S3dVMjlmTzRnbmhnc1ZFcGlSVXUwRTk1MFVBNg?oc=5"
+        },
+        {
+          "title": "L'Iran pointé du doigt: les États-Unis relocalisent des avions militaires stationnés au Royaume-Uni",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVGZsYkZtMm9la21TeTd5NHZNczJxSXJpODR4SWlIR09CRm5EdW9LUmd5WGd1dFJXaEZ4M1lHYmJhUlRkY3gydG1jWTZITURQQk1SMjg5dnZMZXdFekVLNFVyOTZxaE45ZDVjN1g0R3dpQjRsNHlTZklvX3NIMXdnWXUwQ2RJSnhQU1JmNWhuUEdwNVFUdENNWG1HSkc3RENQY01Yek9vNFF2UVVHRlZmcHdMbjYxRWpOUWl6YlFhS3BweU9FY1J0NWN1VHNlSktjR3JHOFRJM1dmWjdZMHRpM2hHVXVZdnc?oc=5"
+        },
+        {
+          "title": "L'auteur de science-fiction britannique M. John Harrison remporte le Booker Prize",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa1F3VFpXd3VLQllvWHVHRkZyRFRBVXFwTGh5VEVEYl9xUjlKaFg0YWNyaWVnYV81SUhyd3E5bVZoY0JWakVIOTR2cVQtZzFHallCczRuWWV3eUFoaFJ4VmJ1VkExNDhvWFVKSGJNRjdONDZBZjJyZzVPeVppZ1l5cWhpVXFOLWRaV1ltMmJ6Wl9rSGhvVW5EbGVZRXhaakg3ZXhDdkNtRm96QVlrZlhwSlRScF9ULXh0R1dpN0tOa3hVNlVYNTEw?oc=5"
+        },
+        {
+          "title": "Condamné pour viol, l'ex-comédien star britannique Russell Brand va être fixé sur sa peine",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaS1uSHpBeXFLZXVSU0QxNFBRbGlLNzhvQ1VXckVJeUg4ZUl5OWg2UWRGRXhycjI3U3VMUGNrdmhaeGxqTnRtclFhcUdWc2F3SF8wR3A2cDdZN1hpNTB1Tl9sZm5HVWJBaHN1R1BCNmpWMkNBandPUnZEelNBcmdpTG9DcEhYcXB3bEhQMVdzaVo1VC1KSnNSb1pJcUpSamRTc2d6U0ZSYjFEamZ3d0hxLTRQU2FhR1BxNGt3cmZhblZCZGR0NHdCSms5V2FnaWR1d2kyMDRFNG5WUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 19,
+      "relevant_before_cap": 19,
+      "filtered_out": 81,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Cameron Calls for UK to Quit Europe’s Human Rights Convention",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYW9WdjluLUpxT004UmNsMG4yenlzelhDLWRuZTVxM1lHdHAweVptQ05fYnA2Zzl3UU51QXdnY2VKNHN3SGo1UkJiTUNKdV9Fejc0cEFwS1dFd3l2SFRIMzloeG1zRURJVWR2ZVlyLWlmeTk0eDM4c2hFVkVzLURLdEh4THNoZzk0Nlh5dk9NbWFKQUYtaVpiaXVQVEF4RElvcldEaGVZMV8xSUFHWGlpbW9zQ0E3MU40R2xV?oc=5"
+        },
+        {
+          "title": "London’s Jazz Renaissance Has a Sound All Its Own",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnZsU1V5M2xaZ2dRbHhzUVRLbWRtemc0RmdnVU15cWF2dGtXZjhJdjBhSjdDS0ZGeldUcTBxUnNNTGx6UzRmdThmSTlmM0pMcWFmeTNXXy1peDZHWms0d0dZdndwcUJsU3pGZjlTWEo3V3R5bG9ETGliSmYtNHNfbUoxbWFIX2lleWZXQ1JuZlNVbnZGYmVYM0pqN1hqTUlwV2pyMWZFQVNoSWtaTGdNc0dn?oc=5"
+        },
+        {
+          "title": "London Infrastructure Investment Firm Arcus Said to Weigh Sale",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZVNTbzU1anZMZDZ0UV9vRHp1SDVYMUR6cXpKZXA1d09nSVE3LVlISHZFdkptRXRkVWZNS3JZVG5hQ0QxdW40UVN1N0lVSjd0UlhGdFpJYW9PX0Qwcm5rQUkycGVjcGtkcWJYT2U4SmtGSGVocURLZ0hMQXJYTy1qWjRQei1pMDc3OGhEUVIxTE1Qcy1vc1ZnWUhFM2VmcEY5ZVE1X09nTTVIbExHcFc1b2lGaw?oc=5"
+        },
+        {
+          "title": "Britain’s Split With the EU on AI Makes It Even Harder to Roll Back Brexit",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVG9kSHBhNUx1Slk1UldoNTlKYWZ1MUljUVNYZkp3Z3dxbkRvc1BEejREa2RaX1ZuX2trT3Nxbkl3OVdxdGxNZnNqSzJhU01nekZkWF9odkppZVVCWVVNbnBmaTBfUURQcnRIZEFhdTg0RFotZ0VlVXFFVjVRTTZfMXJuRlZtLXNHWGwxSlJKQXJYZ0doSkh1aV9ReS1BWmJXUE5lYjNnYkdBVVpGeGVaeGd0NFR0aXBDVmpMd1ZkN3E0VG8?oc=5"
+        },
+        {
+          "title": "Burnham Says Cameron Wrong to Dismiss Brexit’s Hit to UK Economy",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY0JfWlZOSktXRkV5Wm0zcEVUdUpxZE41NmRHRXBnMEQ4YXlKRmtGU1Jyc3Z6TVU3YzRXS05BZ3g0OWxHcmJfMGx1eGZxZ3I0UzY5M0xzcWJwd2VYWk5ORjFpZXBGVXdKR1owQ2Rxc1lYdGxkUm9UdkRxM0hRV0xhWXlOWlZySU0weUpJVEVyaHRCWVVlUW51SzdpUGJ3MUo3SVJYYnM1VXNFY2J6N2tYSC1FMm1Ldw?oc=5"
+        },
+        {
+          "title": "Drone Startup Uforce Valued at $6 Billion With UK Wealth Fund Backing",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWcxWHRFMXZidDVNRnl6YWlaeTQyb3J6NElySkNuNTR4cThvRy1TVEJRcFEwRVlic2d5SHBLVXYzWUpBZlZ0NnU1SkN1RXlBTUJ0UTFSZHpTYzN3cFJNUXJwMTc2bi1PSnZ2MFRZTU1PQktoRklrMWREZ2taLWZsSDR4RDFSTzBLamMtQVVoX1g4Wk04NnhTdE9jSkEzNjRKRXBjRHFKOEhSX2oteHdvclhLMTFwdEpjZHFF?oc=5"
+        },
+        {
+          "title": "Putin Orders Sanctioned Russian Bank Seize UK Brokerage Assets",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2FMUEpwRTd1Rkp3a0JjVF8xZ2RMUEprZm41Q0UwT1hVS19relRPdTFQRmhxbHEwTENnRERwdC1RNzNzXzl0VWhfaVBXN1dkV2ZWa1FkcHZjNXh2VGhOU253a1FnZzVUZlRUOUVISWZZOENaa3RqRjhzMmwzLUxfLXN2RkFFR2xQZjB4N0hQTmdSa3JRNXVKRExBVEtqRmpOMVVKQlYzSl9jTm82aXZFMUNKQQ?oc=5"
+        },
+        {
+          "title": "UK Economy Defies Headwinds With Strongest Growth Since 2024",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSU84MEZjd2ZxT0dKWk5ROVFCT3QzYk4ybU1PbDZQbXlmd3Jzc2tNMHgzcVZBdnJ1RS1WeURxUmhfblNhc2JLUTVxTUR4Q3d2MWp6Z3NsMmN4UlhiRWpWUkxnZlhQby1xVVRUcUNxcllpOXBIcEh2cmF1eXNFQjRQTDJaVmN1TFJvM1VrZC1VYWtpcE1fdWRIWmpmQVoydFZLMDdrMUFUUHNTLTNWbHJUMA?oc=5"
+        },
+        {
+          "title": "London Aluminum Market Faces Biggest Supply Squeeze in Decades",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkxZYlhkQ1FLR1QzbnkzYlp0aWhULUI5ZFFFbUs0WjlFdXItZHh1OWxpNF9oeWptVjI2emhPYUhDVDN5aHdLR0ZoaVQwVGhsQXY2Y1JjTW45TUI2RTNNam1vVmtVTTBnRXJtX1YwcW5IRFVuLVQ1emZxTHJXSU56S1FvODl0ZDlpVWJkbE1rc1E1aXBLdW4wekY3bkNpajZfMXRMTGlnb0cxd3AzNlJGay1tYw?oc=5"
+        },
+        {
+          "title": "Burnham’s North Sea Drilling Dilemma Risks UK Climate Leadership",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOakFjanM3SWt4LTFuSE52ODVIenQtTGR5QUUxSVVUV3hoLW9tdWNsaHdDUkxaLUgybGVfUHRXU3Mxd3BfMlI1TUR1RWQzY3doT3k3YlF2amQ2b25PZWxHei1Pc1hCSXhsZ25IS2lSQi1hekNuXzlGd1FOUVQzb1djcFAweFplQ2lMVEFpQVA5ejlqYUtKeTVYRFlBTjhTUkxWc0JyaWlwQ0lSeXVQb3JPdW5ueVViR0NVVnNYZ2lVbw?oc=5"
+        },
+        {
+          "title": "AI Has Driven a Quarter of UK Growth This Year, Analysis Shows",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdG5TdmRGalNoblRpNjhKQzRMRk5UcC00cGc2SlBuUUIzR0RLbWhzRkpVNEM2dVdWSTZRWXQwaVQtMVFGVlJWb0dieTFKMnFYWHlVVWZGa2RBY0VUWmJqRjlLX3o1Q1lIZVpxX3VaM1VzUENKblRzX29fdGE4X0ZoNElTeFhpa3hwSHJtMTY1X3ZlVm5PT1VkWU81NHRmbHNQOVI1WXVmNlVDOGJUYjk0bURR?oc=5"
+        },
+        {
+          "title": "Unilever-McCormick Deal Facing In-Depth Review From UK Watchdog",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXVSaUx6dVBFZzVYWkd3dHpTQ0lxZ3dEWFpIVjlLcUZRU0pCYTVHemdTMEU3VGQtWDFOVUlOci1mNHY1eFJib1J1a015c3Vfc19KOFNvMHZUejA0NGF5em1GNWhLRU9YWUhBTnRXTWxyX3FoMGUxcFV2VWlkdGYyMzRuWWV1WDFycXc2cUhWaGxyTGdKUlV3OVd2TElZZE1rdjhxYnVjazBoR3hDSWpLelo5UE8?oc=5"
+        },
+        {
+          "title": "UK Arrests US Army Soldier Over Russia Spying Allegations",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa0V6S1BoeHVhZXdOSXBISGllRGRSRk1xYW4tQWhBdWZjbW0wUDYyNV9ld1BXTkNmSWQteFp6QmJ3T3FlOWpNVVhKc2laQkNxbDhjM1luNXBndkswdjBtQUpmZnNKaGJjYWE5ZUNrR0NzalVUeldXSHZDZXhmdV8xR010RjZ3M3NqckwwVnZjSHhXMFhzcnNMWjVsSWpWUkl1TjdLX09zLXJNaVZR?oc=5"
+        },
+        {
+          "title": "Anthropic Taps UK Lobby Firm Before IPO to Counter AI Backlash",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0VzLWZLNE5ZWEdFa3dRbEpxXzFqVmRvbTNQbmFYRjBnd1NzRzRDU1Q0bzlyblZRbHMwYVVUR0t2SWd0dTY5ZUFkQUxfdUtLemsyeXpQQ2RUcHNnVlpiUWp6VGpRSEQ3WlNPSzFLNUVxeUdGWFJWa2dnQlFEWS02eUdPN3FOOEppSmxUZXBnamhuVTRUNWM5akxXem5SdnRwcTk3UUpMcFEzU3Q4UmdiU2NLZ3ZkSmM0aEE?oc=5"
+        },
+        {
+          "title": "Top UK Regulator Says Banks Are Trimming AI Risk as Alarm Grows",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYW1aT1g4WmYtTE4yTGZYbTFKTEpkbmZpTzdFa2hUMGJxQURkUGVGRS1JMHk1Q2VXRHE1ci1ia3paRE1ETFFmYWQ5Q0lkOURWOEJlQmJCaXp3dEZpd21FbTBNS0pMal91NnA2OGt1cDBhOWNBRDlxSkJxOGlkWHpLZW9uWVRUeGVFQzE2NzMzM0M0OW1mdm1HYU1rZVpwZlZEYjI4SEhVY0toOTFZSmVuUjhiSXk?oc=5"
+        },
+        {
+          "title": "Dangote Cement Pauses London Listing Plan After Market Selloff",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUNJc01nU2tZYjFib01mZVdKNHhubHZJUDVvTXRGNTIxeHhvZ2ljN0FXS1VaWWlVN3RMTHlZZVNtdHNZcXF0VGl3S3dDQUFoclQ1VTAyYjVyTkR2NnJRZkZ0VmVYWGRqVVpmZld3NDZUdmd4ZGY5VWJ0NEN5M1QyU1VZMkVPczZldml6RU5qSEdKTXd4R1RSbC1MT3NjQTBxczlXWXVrcEVhcHBKdUZZRzNYQQ?oc=5"
+        },
+        {
+          "title": "US Moves Aircraft From Second UK Base Over Iran Threat",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0FXcnY0dmdHd3BCd1NpcUNyYnVYb1JyT1J4RzN4ajJ0RkVEaG1TUjRXSUpST1pCajdtSUZXZWRITzd5Nl93WHlXWmdPTUEyMm9iYnlHZEU2VVJ3eWhzdURIcXZiNUl1bnhPRTJQalY5M0cxWmV4ZlF1ekU2eHBKc3YyNDNTZWtGa1hkZDhzc1dhdVhSZEl3UmttY1A5MjVicGZsazAtdFA?oc=5"
+        },
+        {
+          "title": "Sequoia Quits London After US Team Lands Buzzy European AI Deals",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFJOOU1yemI0b0Uyc24xbTJQWExVN0FFbzBfZE1oT0QycnlsY0l4OTFNTVNJUTdwb0xkbkNzcHQ1SW9lcGJvYlUxY05LdUN6VkpZUlNISGV1VWZiMkZiVFFzNXlLZldtc19Obm1ZVFlWbGNQQWVDM2tKa09SUlNvM2tsUDFiVERGcC1nQ0dhUlh4THBfc2JrUjV6QkNDQXE3d1hYVzlpb295ejF1M3lYU1NkWk1GUQ?oc=5"
+        },
+        {
+          "title": "Low Wind Triggers UK Power Grid Margin Warning for Monday",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOU9BRU9IT05oQkVwcDFrRkcwMkhZbFJtUnVmd2JlUU1hMEhselhDZGtzM3RjUk0tSTlEbkliemtHQ0tWbzVnLVg4cS04RnlfNUhyZmpudEEzZVNpeF9zY3N0ZmdvTTMtY3VKQThiR2xLSHNRZzA4ZW1PNHQ5a3lfQzRyWTUyZjVmcGVhTFpybXlQVlViYndsOTdjaWQ1Skt1aERBUTZya3ZGdXdy?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 99,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Dangote Cement Shelves Secondary London Listing",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc0ZXeTFoa01zOWNmSXBXNGFpNVFYVG5wZENTQ0dDUy1TUHZnUFNULXE4X2ZuQUVqT3JUcUp2VmUtRkx1SW0zZmRyRW9icldYM21qZWFuQ1hia29RVFFhOVNWTTVZQ3k1RGdtdW5FUjNZdjNsb0RYRHlhaWhuQ0VnaDhwbWJDd0trUHoyWjh3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 13,
+      "relevant_before_cap": 13,
+      "filtered_out": 87,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US military responds to ‘suspicious drone activity’ at UK air base",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcFdFR3AzbjZwMUczaEpya2t5TVJ2dnM3VDdhVXcyLUxkbWM5SlUxQ2hEVHdlai10WnFQSmc4NHBubXo2RDdNcmUwb3lPaVhyV05aS0NVMTNYU3RQQTZEVUh5c3dWenN4RlhCVS1aajBXYWdOY1R1S2JKRGRNZzlONGJ3ZDc?oc=5"
+        },
+        {
+          "title": "Tiny London quant fund emerges as one of the UK’s biggest corporate taxpayers",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeDExWkJqUEc1cFdSUFZpT3Z5MnNvZjdBOE5yUDVyYnhLLWR6TEFOdmJwQ2J5RmRKcTJGUTdkdEVZQ3dBSUpGMmp0cU5yRjVmZ09FMUhMQlJIZy1xanJUUnlEWUp5WnRLY0dmT3BMTnlWRHhxWUFhNzJrSFFHUi1SSWtsT1I?oc=5"
+        },
+        {
+          "title": "Reform UK pays for Nigel Farage’s security despite £5mn gift",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ0ZpR0lPazNqT0lBVlJXSXNLWS1jSm5nbUhJUXBMV1I5THdZWVVqd1NZQThOelhjOWlZd1NNenhrZFdwcVFTZjdtdHc4V2dpZ01lN25WUlMwYTQ2VFd5d1Y5UkRSRWNaeFlQdGVxMEY2N1lTLUwzVGVYNmFtbmt3djlobXU?oc=5"
+        },
+        {
+          "title": "Ministry of Defence delays decision on £2bn UK military satellite contest",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXNDOGlyQkFwcmRDNU5iR3Z4NHc1aUVyekFvZEZmQTRMeFpUekhvLW8xWUZHNWhYWWlOSFl3bHNZZ2ZWbC1PanRfb21OSy1sT0NORnRxcldPNV9hUzlsTmNObWhBb2g2UENFVXQ3cTE2MWF4eXNrMW5NNjR5R0FVU2ZYN1o?oc=5"
+        },
+        {
+          "title": "Who killed Britain’s electric car dreams?",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNmgzYVBjYjdlMnFlZGFtWjBVdGZQblZyR0dxWDNFQ3NodUZHLTJEcjQzM1JQLTZ4dHN3ZXduMjVHNW40eWtTNkRzMVRRUXdwcG9OVU5KMjM3QVZqYVpReVFRSGdmTmFacXRTX3k1NG93R3FidElSN1Ztb194N3hBQ2pnczY?oc=5"
+        },
+        {
+          "title": "Surging British tech sector helps drive UK economy",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbFZGb1RyQ2F6RXN2ZjlpekdtbFpiMlE1Q2ZIVWtjUGdCdS1VekdiQ2dXMlNYbVlMTzE1XzZkVy1SVVJpQjBsZkc5d04wNFpQZ3JaeG5JOGF5MlRleEFqcS1fWU5nek0zZTZSUlBZQUdacmRicEtFNzl4djFoY1ZZUmUxZ1c?oc=5"
+        },
+        {
+          "title": "City of London’s new Lord Mayor to press pension funds on investment pledges",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZVppVnRCLWVwZ0Fyb2kxNlBEMF9rV3p0ZGltUEZGbTA5dlczV2FpYTNTMTNFbVdmS3JzbTlod296cFlyUjEtV0tKTjQxWXVPUHhsbGFvR1FFS285R2QwQW9kRTExU3o0c2MtbVFyRkxpQ29nZmxteVdsZHpwUDZfd2FfVmw?oc=5"
+        },
+        {
+          "title": "The great British sell-off",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNWjA3ZmlBbEJIOHRnLU5iQ2RMNmFxVnlQVGpKX3pDcGhOM3lORXB2WnBHRHlZdGp5cHNZckdfeFpJMUw4UUhtb09DV1RtbjJlY2pvWVVwbVg1QURVei1XZHVZSVlfMlhvWU9mVFl3?oc=5"
+        },
+        {
+          "title": "UK suffers bigger fall in international postgraduate students than the US",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWXFrYnhXR3czUnNYSF9xOS02Umw2Q1lnYWkwREtXZ1JmQzNfVW1sQVlEZGpjT2pSWVgwTTJJRjhMQWFoMFB0THBZTGU4STQ3dEI1dkJzUHJkOXA4b08tS1hncGFBWkhialJEYktLRi1sNTgyVEViLVFUMVV2VEdWYTh4OVY?oc=5"
+        },
+        {
+          "title": "Why Reform UK is struggling",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWtpelAwRDIwYjRoNUdXb1VjMWJkRTl0RVFrSFdERTVVU3k4SUxxSGlyWDYxQ01YMFBHUkpTdWJrRGFBdi0yYUhkS25DeXhSckJZdWtEU3RXbENPeXZUTjRmZzNfeElHdUNMei1XUTlZYWgybjBYVjF3OXNWSGZNUU1ULUQ?oc=5"
+        },
+        {
+          "title": "Letter: Size of Britain’s grey vote makes growth policies hard to deliver",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwM0loRlZZU1lJWkNvS3dqZ1hEdWltUVlUTHdvRWcyTEU3emVfb1NCWjZTd005VnZHT2FIOC13NjhJbExaWktqMXl2SXl3SXBPc0d3T2dCMzB3SzY5Ym5fR3ItVkxVWEEwYWZ3SGFKLTY?oc=5"
+        },
+        {
+          "title": "What’s really going on in the UK labour market?",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qamFJZkRjZ0MzT1pqYnQ3V0dRdGVSVDFNV0NTa1BlMlFqTUVHRlRUVDROOVE5V1ZTLXhrbVFld09IeTFqTVEtYVhzTjRQMXFGSlRHRTloMnI0LWRDUnl2VFV0eG9JYTkxcmpYNVZSLTk?oc=5"
+        },
+        {
+          "title": "UK diplomacy suffers exodus of China experts",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNHRHUWhBNVZ4UUtINnNHVGxRYnY2a2EzTUlLMjJ6UEE0SzBCWldaVWNZVV9pZ29rYXVoYkE2aHBrUXM1MklMdDhaNk9hT3ZHUzdLWU5ITUxnNjFQVmk5a0J1R0xvYUtwb2RlX2VBZXdEUzBMVmltbVJ0clc0MTlzdmtQUEM?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 96,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zRmhvbUExWks5MlNTQllXWHJVYWVKckR5c18zbXNqRGU2bW5FQXNqMU5RT3RoLUxyRG5oX2N3MzFhRGpkS2ltRE9KSHBGck93ckk0S0dRdG5KSl9GNVhQc19IQXBnMFBLeHIzdlFyb9IBdEFVX3lxTFBIMWY2ZGtSQm1vM0lUdXpsS1dtNl9leEg5NWxOcG9XRXNsMDRWeUZLMDF3eTl2aWhnUHA0Zi1TNnZjNnhZWFVrNFlBSEctNUVud2JkZjlMZUFPNjZHR3diZmhLc3dEcjZndFVHcURfTzlTYnpN?oc=5"
+        },
+        {
+          "title": "Check out StSt Kempen Europe ex-UK Sm Cap Act Eq UCITS ETF A's stock price (SKEU-FF) in real time",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5yZ0tfaUgtNDZheEwtYVQ5Y1cxejM5VVktQkpMSHZjWGpNN0dzOGtQN0xxN291ajZRTGVqOFM2MnhkNEVoTWhZOTNPbw?oc=5"
+        },
+        {
+          "title": "Check out StSt Kempen Europe ex-UK Sm Cap Act Eq UCITS ETF A's stock price (SKEU-DE) in real time",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sUTZxcUI3YmNTVmRBZE03aXMwZUdmbDgxRXloNVBWeEdscFl0SkZVZGtEaGpqQk9NTjdiMUZFb1F0LThvNEFoc0RpTQ?oc=5"
+        },
+        {
+          "title": "Hundreds of schools in Italy, UK evacuated over 'hoax' bomb threats",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDVGxpb2ZMckVKazFNMllUYWE4YThxSVNGM2FGRW1kbk5NRjhyTnljN1R6eUlfeEhhUWVmLTZ2dE1iSE14aThCYk44V190MnpHeFVPMXdOc0Z0YzU1SHA0NmFDdGtGQXoyRnc1SUVIaXdmN2hSLUN6eGlNMNIBgAFBVV95cUxNMGdnV25QZVFndGMyVmtJWTRWclU1UGYtV3pORXZ4T2pGTU9hNk5vbVVxUU9TcFRiSEJKNUNVRjFiTHQzYmpra2kzN1JuelMwVnE2WnZaYmRHcnBuQ3cwZV9BMnBrNjFVMmdSd2RDbTVUYUtubnR1c3VMOXB2VkRWaQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 15,
+      "relevant_before_cap": 15,
+      "filtered_out": 85,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Paranoid or practical? Britain’s ‘Be Ready’ citizen campaign",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOREdSU1pkcmFhcFN0TFloTkljSmlPdl81NXRkZkhMU29sd3h4akIxRUwwdFNWQlMyc215eTRRQVloRVhtaXFBeHN5STI4VnhJbVEzbzJRXzZTbW1NZXVJVm12SXZRVzhRdkRqdVRCeDVpQmVjaE54ZGl5NTBYbWl3bjBiWWw0Q0RHbkxacUtablVtVEMweWQxMNIBngFBVV95cUxPV3ZuWEZJOFZfclRFMFNuNjA1UDFiUFJWRnYwWmUzZ1BKUWg1UFU2ckNHLVNjX0xINlZPRXJMZ3RsWWNZallJOTVQVFBpQnlGWjZJYk5VUFdtLUhKS3l2aDRtWGx3MDJiVHZmeG1hMEI5X2xKS3FSY0hUMjlvX2ZhZEtQQkFPQmdaUHNESV9kWjZYT20wQXRWVnI4SFFvUQ?oc=5"
+        },
+        {
+          "title": "UK police open sex offence probe into comedian and author David Walliams",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlhqYXllaGlEdG5SdDRvd1FQb3JTdW42ZC1yZTRSSkZBQ1Fzb0g3bTdrWHZITE43TDZXbDBtMGtGXzMzRFNSRGd3MVE4TEpSQ1cyRzRZS1p0VDdQQmZlTkFzMVFNMjZIWEx2NW5CYlhrczRybHhFSEJvYTBKTHRfREtkbGczZ1N0blprWmgzemNySVdJdTY1SzhpWVV4VVdPWXZ4QTJDUDlVUEF4cXVvWkRBY2zSAboBQVVfeXFMT1ZXcGczbE9VbHhCT1lFdERvNFlTczE0UXFITGdERndSeENtTkJTeUJPdmhpNnA0N1M3cDdPVUdLcUFlQkRzZXAzVXVOanhHTUxZRzdnLVdHdDQ0X0huQmVmRVBUcDZkNFdTdGMzUExud3c3VEpMSk9GMnVVemprVV8waDdUWHVIRl9XOThpY2lXc05Fc2ZBR3h3UUdOSjFwM3h3XzM1NjlPZWJWdGhoc29KdGplOW04OFhB?oc=5"
+        },
+        {
+          "title": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
+          "published": "2026-11-13",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX19WMnQ3Q3Vqb1MyTE5UUC1uTzBnSnpkel9aQW5KS1hkNXd4REZ2Q1lMbV9NY2h0VGJmUTBPQ21ZSFhNTEN2cDZ0UU15RVQ0eEFLNnNwYjlLQi1FbVAzQl94dW04TVBYUW9xWFkxb0NmZ29oMkxFZ192bHV0dDlHV0huMHRnWmNuTl9EZHFfTWthVHFVSkV4OUdhSTBWLURCS3VlQkFZTTl3cE9HajNNVE9TbVdod9IBuwFBVV95cUxOSVZ6N2FaS2Y1NlZLTzJyVHNvYnVzSGljQTQ2Z29pS3NDOVZKcDJjV3Nndk13RUl0RDI4RWdPNzREUk1MM0VrQ0VkTm9fcjlqZnNHMWJuWUtUSXJxUmdSUk8xX0Exc3dvcDN6MGQ5a2VvS3RMMmJQdUVFd0lZemVQajd6Y1B6Z3l6bVphRGJ1aXp4TmxtVUtTRmFSV1phVlRUZF9iRUxROUZvOFh3SkZGNzdXS2RPbjRlZlg4?oc=5"
+        },
+        {
+          "title": "From the UK to the Gulf, are US overseas bases becoming liabilities?",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObE5WWlQxeXd6RzFDWlZlSGdMVWtoM1M2Si1KUlQ4RVdtZTdSak1SaDhrdkg3WkhLZDRkYi1LcHBrOFZidjBCWlhwZXJiNUJFbWl3QURVSUR4dl9oYkw0N2RlUVJ5UUNaaDYwdVRDMkQ4VXZiQmdUMlJ0NWtULTBwd0sxSzEzNTJFeE5rY0ZIbmgzUVBDVWUydjUwUEV6Q2ROTDhrcW9ncE9xVEh2TVJDRDRaT3UxYm1o0gG-AUFVX3lxTE1zV09WVlF0NkdmaExnLWQyTTIxckxjWGc2T3AzeWhhZzJDLXZFdUNOUzl0aWRvOEgyZVF1RW5FLUhuTVZvb182SUFHaDJqVWh4VmR5SndaeUJLdG1qQ0Vnak5zX3BEejh4ek5LMGpDcnlNb0VtTzFVTG9oeFJ5bExyOVl4VEZHQVJDR1FmQjZ2UEJWOXVyVmhoT3NhWjZuV0Z3V3ZBZlliVmo3d0J0dUl4d0RkaG1xbzFlM0daQVE?oc=5"
+        },
+        {
+          "title": "UK court finds two Iranian men guilty of spying for Iran",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ3F1cE16TmpHTEVmY09GUnBadGhGUXJzaUd3Y2tlaW9ocXJ5UzQycG90QlZ0cnVUZWZ6cy00am5ZSHpWblAyLTRONkstSE5hY2hCa1FsSFJkdUVOQklCTEZTNUdYT21wY010aGFkR19CVUNzbm9fMk9Dczl2RE5kdU9HWjdZbmZLank0a2RDX2VvazdScEc5VnpFSzFQblnSAaQBQVVfeXFMTTN6T1IwSWRwUzRsSUZkRktmcmJkTUlmWFE0aWRHYUZ0WkNYQWtIVTFUNklHcjBqMEdtTHAzOHItbFhBeWRUZHhKa18yVklKeEVoUGx1ZnF0c0padnJPWmtsZjFBWUhFZWlYUFBVVEVFWFZxaWpBN2RzOHd3THdscVB4TDlpWDFmaEhKVm9nM19saFBNdm54dEVublozT2FaSGN6bmM?oc=5"
+        },
+        {
+          "title": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVnpOYXZsRWJhaHAtYXloLW5tTTUwOVBsMWE5MWRkRVZmeWJ6c2tXcEN0YVc1UFhjOUpBVHozTFNvLXhqV20tWmhaNHF5Tkp5MGM0ZDUycDF4RDJrT0ZnQ0liUTl6VTl1Q2VUQWk5VXQ2Nm5STWZYQ3cwbGdXZG42cmFlLW91dmF3WDNrOVlNQ1VFZ1A2MHdGR2F0cXdmel9nZEw3TTRPdzRjY0nSAbABQVVfeXFMTlhfa0hnNDdLUmh2NXl1ejhJMFh5OVZvdjlKd2RxcFh4Y3hXRFRfNGh1TUtLcVBZd1YydE9ZaXZjc2Z4ZUJCOXFpVkZPUllhUVduV3dPYVdzdGtSNVJ5dUdsMXdNZm1COTJHUmtJclpPZFNhXzNjZC03RkFIRFN1WVVVTF9FUWc2VFM5WENxdHdNb0RjMDByMXZxZXlxVk43ODUxUkoyTUlOcjdIVzJiYlY?oc=5"
+        },
+        {
+          "title": "Iranian men guilty of spying on British journalists",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcmRtTVZ5cnBIeUl1dlpLQkhWNkdyVXFUQ0YyYkVLMG5xREpDXzBQYkFhaURuaDdxWDJBZEp2U1hMQndoQVo5NEoxSGpyaEl3Qm5zbFd1LVdGWmdScFRzaUhsSmFBc1d3c3pPc2xfNl9rNk9vZVY0WlhMSkQzX0lad0NQQjVtQlk5NXNYVG8zbmFXUWU5Z29YajdnMk5oUzZpTUxEMW5B0gGrAUFVX3lxTE5MbFhWTjgwamJtTEdIT3ppbWZrNFdHdHdYamlsVWhBRlVHNkUzczNFWFc5blpmUl9kaUVqU3RDdGtMNEpXNGJCd0gtY2N1c3I5ZDQ5UUd6bVVCa2dkSVV6QWZwVlM0YVUzcjJxLUtUcWpmZ2FBbkNoU2ZPTWpMeWdmSk5mWWtxQ05UTERjaTlYQkxYR1NmalJVUndLYjY1c3kyblIzZW1BNTludw?oc=5"
+        },
+        {
+          "title": "US charges 3 men over alleged Iranian-backed plot at UK Fairford airbase",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWVWTXA3ZnRTYXdMUVVVTnpJTkVvWS1kSy1HQ0xJNTBVZVZlUklTcmx1TFJKWE84TWk1QjFIUFc4YTJiM0xQeUlkMFdpelhNX3N1WEM5Z24zRUtORmh4cE5aUDJnUzdIVnJmWE1YNHdhVXRCaVA1TGx5cDdBSVZwS0dvbU9sWnlGM1NKMmRqa25LWkVCeEZ5dzBsUlNfN1dlcVFsb3NyYWZ3ajBUanBtLU9rdS1IQdIBuwFBVV95cUxOY28weDF5U1hyYTNNc0lGTDh3dzBpUnNsSWhkSjkzMEdieDY0cmJoMmYwbmt5cFI4TWhuekhSUUVCTVZZQi12THZPOGpTRzlEdDZUNFpISUxIRVZMWUFtRXVTdGJOSzhCQThzLXNJUXVNQzRWT0VRbVhmTFh5WFhHTTY0aWpBb0NXOVI5QmpkUTNqZnZ6bmtHLS0zLVpTaXRqc0ZIbENSek01eEZJa0M4Umc1cFF2MzFuS0RB?oc=5"
+        },
+        {
+          "title": "US charges three men for allegedly plotting attack on UK base",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWTU5N2RoMjQ1UjdqNDJRVkJueGUtU2tCemJiLW5MSjZ3MHc5MnRTUjRPNm8wRWhGRlFrYWctSG9idm9JY19hT0xneGRIbU1tWlBzWGQzTXpjVzI3ZkJ0RzdqQXFUU3haRUxEOUVTOXdFVlRaeDgwRjBXaTIxcTd1bUZCZDNmb1ZOUjc4bjJ3STFFVFZTSzZ3WG5MUzhQcnFEME1aWk9yME5PSnZFZjFHcC13c9IBuAFBVV95cUxQR0Z5d1ppZllZZGtGTjJzQmoyeWx3cU5zTlBlZEREZ002VEVGMXhxU19hMHB5X2dONm1qMERRMGEwM3FfSHp4RUgyZl84YkNENm1qZDhMWG9OQ09UdE90enlWVEZoaXphTEUyOXRiWDVxS3VLSGNoRzRVRHFiVFRXSXRTelF0NkN3VzZFdmNva3ZCLUNjbFlDTHN0anhYeEpoazlGYmtsOHdYNWFrZVI1UG9ydWQzNllm?oc=5"
+        },
+        {
+          "title": "US soldier arrested in UK on suspicion of spying for Russia",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFJ3UmJ5R2NmWUU0cGhuQWtib1NwY3Q1TnhrT0ZoZGg1cjVabk0xdFFoRmw5LXNua3VUdXQ4Z2RqVU9FTlh2a0VYemlYenRjbFp4VWEwMl9vR1hEcTBXck1UUTUyLWJlUENVS1Y1WDR2aHNaeTlnNVlWX0FGUzF6cTJ1Zm9VTHhZVTV6TDlQRFBOdjZIcEdvWGRMbVREdzTSAaQBQVVfeXFMTkJOdnZNNmg0LU9SaDgwVE5DRnpsblZzZW5PbzNfbUZXb1ptUHoya1JWYmlLcUdxaElPa1BKQjUtaVYxU0NheHp1UEVGcHgwTm1EUHZLcG1XcnhZb3cwbTdCZExTYXpVazN0YTJtN3hnT2JTYmJvejBjR1NiNzRSTWMwSk9IVlBKTy1ES0dNRUpOVVNfQUZsUnZvUWZFZFpXWEVCREg?oc=5"
+        },
+        {
+          "title": "UK children’s author David Walliams accused of grooming minors",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFBtNFgzdGlrTkdEMGI2UG5DQTVXYldQSmN4ZjQwWWRUakVmMjU1b3ZGczZFZGNiSmh2aHZaS091VXoxck5tS0xrbnRoTVBXLVBvemw4UGZJTW84NzB5YjE1TW1JS3BOX0p3YnpmWS1IMGhibThxcGRETHZWaWJkam9jMVdGejlDZkdTc09uZ1d0UWdfcjBPN2tDaGtuNDFCV2RJZ1cwNEhlMDlJaXZURkE3c1hxd0HSAbwBQVVfeXFMT2pfUm5tRmlDeFhNZGwxdGxTU2RJaS1qQW9zZmFQeFFkLVpxbUdpOHYyUWdmMFpRcE90c0E1RnhVeWV5bk5GcHB5R3JGMm01YXpNeHRZZXFzR1JCOXRVcUd6MU9lbktVV3BEYVZLcUo2VFRSN1BkMHV5Q0hIVHFhZ0tJeERENVdScktGU3JKYUZoZktuOVpEMWx0RnEzN2N3ZjVJVWEzeG5ndjFhLWhuTGlOcncyM3dQRHp4c0Y?oc=5"
+        },
+        {
+          "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVXppMWZCamVGLXhoZU5BV09DSTA5X0dZLTV0VEtsTlhWSWd4UlZqWmJNUkFFc2VLcWZvcGlVYUFKX1FRU2gtN2FSMnJXeXF2Z0ZrWThkdW9XZGdyWEZrbFlwYkxsdzBGMlQ4bWlCVGtUTGZtX0hpX1poSjJLZS1pZGEzUF9mdGM2ZVo4SXFPUVFUbVRBRjVfbWVjTlVNQ3lYUWx3M295eXJwY3VBMWZrRDhR0gG3AUFVX3lxTE0temI2WWtMVGgwN3VTUUd3OXEzSXNaNUdSNmZ2VFRVdkJlbkhJVVpaZWJ4SF93MnZtdnI1M01UMmxQd3ZwVTI5M0pZSUFSSklySVFab0FXamh6RFFxNTJibzVmc1VNcEJhSVF4UzlwZWpUczFINXFiN2s3YmU1bzg2YmdnOGpadXh1bkNmNFhUb2NRMGpIUDRBOGxqbjdyOGVQcWc2em41TndSeVVteFFoVVJreC1zOA?oc=5"
+        },
+        {
+          "title": "UK author M John Harrison’s End of Everything wins Booker Prize",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElrZDJjaTZjb3N5UFBMMUVlTzRzR3RoMGJfQVZmQi1tTWRpSXBHSHdqbmxrdTc3MTF3aENUUHVLYjNaclVZaHRnMzZBUjV2N1duSmFfWFpRYlFUTHhiSTA4V1hjNnhPM0txVkZwVExRa19OTWIxMXMtVlFtdUpMRWhvSVY1MFU4NEdvZTRnMUdlNGluY28tYy0zdFhRZnZQU3lOd0tvWdIBrAFBVV95cUxNTzlHWFFqTEd0c3FuZ2VtV0lia2xhdWxiT2dYU2ZMS3NuR0JOVmF1QnJHSVduQXNQc2ltUXlPR0pNa1FuTFVYRlplb1pOQlp6WjNkcE5XTkF6c0s3UHNzMmpLWUU4dERTQ002S2JTWlpMR2pIR1ROUktMTjI5T296UWN1ejZwcTQzRF9faksteTJGS0MxcjM2SHdCYkROeHZQdnNmbC1feTFIbUFZ?oc=5"
+        },
+        {
+          "title": "UK court hands comedian Russell Brand 10.5 years for rape, sexual assault",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRUdLZDhrSDVZRnpHaF95N2hDbDdZNXlXMGlwTk10VHhpMTJjeFRDRzliem5uajF1TlZhUWxIWGdQZDdpQ1RmbjF3bGpidUJYbWRtU21WbnY0MTF2WGRIUHhsOXRlWVdXRkVxdU92N25xc1NPcTlrYnNrdW1jUWJPd1RhcUNnMzg0cTIwWWQ2N3B4TDNrME54V3BNNC1lWEh0eEhhQ1BnN1VaTHIyWlVINjR30gG3AUFVX3lxTE9fVXZ4SWF0MF9MMFUyVUVSSTdJNTVzdXNjNXZCMTYyeUIwMTc0MnFGdEJLNGp5dHBLM2dfNnNZcDhnN21xc1gzRkpOYUdHdmliU1NCRUc1NFB6ZHFadmZ0Q2p3QVNjZk1RblgxbGpITzFzZ3dvYU12SVUzZkpPeGlXOVdkU0xNS05tcHkyT3dRNjhvdTZxeHVDelhOcnFFVi1ncmdRZDdUbkZlTDZZVjR1RUlZWFpjRQ?oc=5"
+        },
+        {
+          "title": "British-Somali ‌‌‌‌boxer Ramla Ali defeats Mikiah Kreps for first ⁠⁠⁠⁠world title",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdnVfLUxUUC1qeDF3VUNoNTJiQjI3em5qcnYtNXc5OXRfVE91XzhpbzBTWUNXenhLdTk0eVpRLWcyQjVCZlZRTE8xY0xFRXgtOG0xSDFWa05OM251LWozTlpyZGczT05PMGd3QkFvVHFDNTlIU3NITi0zUXBPbXVFVkZ1RjhrZlBUb2ZzU0p2dDMtX3ZDazBUVFAwRFdzbVdyWld2Y29HdHRSaFhQQ2pNeUp3X3M5YkoxRjdqNVdnWnd2ZC1tRjh3Njk5UXQ5TEXSAdQBQVVfeXFMTzU1MTZEYnFYcURCM2hxRTI2ZW92TEhvbFVac0NpVkF6dlVVTV9MOFRmeFlqYS1wY09UYUd5NHVQZHE3MkpWQXdnQllsRk9BS0Zhby05dkFqTmRnN1pnbGtuMXJLUXAzQ2JfSlFHeWVuZ3pCQ3NyZ2Ytb2JFT1UxejZaeHN2WF96OXYtS3R6NU9mTnBFekhLWmxCcnBGM0RlZmM3Nm5CTWg0WUNVSmF0alB5eTdOU1hqOUVIUjhOUUR4Uk9YZHMzaEM3QUxjbW1Ec2k2R3E?oc=5"
+        }
+      ]
+    }
+  ]
+}

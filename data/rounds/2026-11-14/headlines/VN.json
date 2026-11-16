@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-14",
+  "code": "VN",
+  "name": "Vietnam",
+  "window_start": "2026-11-09",
+  "window_end": "2026-11-14",
+  "fetched_at": "2026-11-14T23:37:17+02:00",
+  "total_items": 10,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 30,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "US extends Vietnam trade probe on intellectual property to end of February",
+          "published": "2026-11-10",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG9LTnZNRkhUOGlFdG00dFlFMzdkTXU1TXp3ODBtb3dJQllpd0h1aTdpbjZLNFZNSm8tSGpTTWs0aXVKOWZzN3dYNXdmTFozeUxSRnVFdGkzbnZnOUYxVFhHc3YzWW1EcEhwcnRyLUN5Xzk5eVNtZTNYcTVVaHhGT21PS1kzREdNc1RZampNV0lGUWR4M01pSm5INmRQZUhuZlF4M1MwWEs0VzdJenpka01SbTFzZmR6OUlXbjN6cmM?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 22,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 11,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 10,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 32,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Vietnam veteran rips into 'juvenile' Hegseth's 'shallow appreciation' of Tomb of the Unknown Soldier",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb1BLbXA1c2NEbktzemRHcmRoWXNWc3JUQkdLT3NTdkpTVG5pcHlxTlRTMnB2ZUF5VWlSUEZuam4zU2J0UjVfQkphS3JuR1FWMUYxdWprVTc0bWwydjQwS0xSOC04OWhPT2lHdTlxUW56ZzBfZ3BmZUV3UWRkU0gyZVZXaHVYY0MyNjF2a0VVZlJFMXRhWDRSdTlaU1JKMVl0c2ZRNkdEbDZScHZBUDBj?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 14,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 12,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "VIDÉO. Francophonie: Florence Mussou designer textile française à Hoi An, au Vietnam",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaWl6eGhoeDhmbW83bnZ2a2VmMzk0ZE1zVmh5T3FKZWc3TDJUN25Pd2RNYzFzWkhzUlZ2MDN0bTQxek5Jb3MwTlZlMFRQbTJGZWdBRktzdGwyUnRFM1M1T3R6ZzZ0SzhYQ2tGMmtoTldMTk5nUHFuSjdGRE5SV0kyV1BrdUlobE5LalE0cHNoYmtILVRYN3ljR2hoSkZVN2hmVTV3T0JFSFVBTXVwazZrcHYta1JxMTk0dGlwbnM2UEltRWc?oc=5"
+        },
+        {
+          "title": "VIDÉO. Francophonie: Florence Mussou designer textile française à Hoï An, au Vietnam",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUluR0Ryd1l0WTBXTXVuVFVILUNZaU5GYkt0NHRnbEhxSnpaa0U1X21ubzFMM19NR0xWSG9keFl6M3BRRkNIT29OaTdKOTl5Y3lsdG9RUl93NWktSHhoZWF3Q0U3M2ZHRG93ekVFaV9vZWZOcElGQ2pkbGJQWFk2Q2lPbWNSa2NCOUZONEJRMTZTTlV2SFh5TGRzVTZHeWl4MXJyZVBGTzVtRnUyVlNGUmNxUTVjVk1RVG1qSG0ycFJ0aXM1MUhqeTlHMA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 5,
+      "relevant_before_cap": 5,
+      "filtered_out": 45,
+      "out_of_window": 2,
+      "items": [
+        {
+          "title": "Vietnam Dollar Bond Sale on Hold as Fuel Cost Fans Inflation",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbzM1TGdFOHUxelUweVZoX05ENUh3ZkJySl9sNjlyUlZnNmZxWUZzSXFDakZWakw1dnVxRVJmdWZ6STE2aVVxLUtFVmxNdjVKekhCZXVrT0JmeTlPblltclRUeE1YRjFKQnZEZWN3VHNyNDdpZkJVcFY4aEJhMk56cElOOXZCemh3WHBXMnlIQ2syQXk4aTc3RG8wcC1RWWxNVEM3U3pZS0xtQTl0Vm9HS01n?oc=5"
+        },
+        {
+          "title": "Vietnam Dollar Bond Sale on Hold as Fuel Shock Fans Inflation",
+          "published": "2026-11-12",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdlhSZTQxQVJXbnZVUkc5YXAzeFBuQ0ZSNjJ0VkRYZlEyUEdZa2JPSDhIMG9UODhMN2VhbjdQM3JGRWNfTEJLanZPRUs3azVra01HamhsZi1udGxTQ2dJMXZNc3hQTjBmVy1KTC1WTXBMT01SUHRVajNEWldJM1NMR0FSdnN0ZE42RWROSFk4M1VOdDR6ZEZBTUV6dVRsZm4zVUJGXy1MUndHMDZzYkVTZXJ4b0tHdFVKUUlldmhKX0x0NDV1VjR1bFdOX3BpUQ?oc=5"
+        },
+        {
+          "title": "Fake Fire Extinguisher Trial Spotlights Vietnam Fraud Crackdown",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPckNmR3I3Z2NRa1hMck10WTVBSE1nUi14UUl0RHN1ZmtrSDRUSGZmb2Q2SGwxZEVNT01MSVRlcUNhYldaYjhBbmJlSE1TWExzVk9aajFfNXpZT1ZtenRud09NNmhkcV82TjdBdTJ0OG5rZnV2MEhIbUNKVlk4M04ycS10bmpEWmhxbWVXUnp2RVI2WVZKNU5IejU4bDdodC1uS2l5Z01sSEdLWjllZFU2UkUxUGc?oc=5"
+        },
+        {
+          "title": "Japan, Vietnam Eye Economic Security Ties as To Lam Visits Tokyo",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVG9DOWFDc3J6Q1VKLVMyYks1UlhSZnFpVFVhYjZpZ3duUGpySDBlT3lpZ2dfa1FSWHN2eVdWQVVlU1ppaUE1VC1oaXpYMTRMR042TG5kX3A4STkzWWhvRHZNeThvWGxITDBYTUpIM0V0alZaMWQ0YndMbDh4MlI2NUNZTy1VckpjelJlSmNLdU9ETGlFM3Y5UW9CeGw5MUoyODlJNjVpSzUyQm16NXJUT21YYXY?oc=5"
+        },
+        {
+          "title": "Vietnam Turns to Taxes, State Borrowing to Finance Growth Push",
+          "published": "2026-11-09",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQREE1QnNuVnpCMEFvNnVxTU1TV044ajRiRlc3Q1pkRFNEU3VRUWZITjZMbkg5UlZ1TUc4eHRSMzRneERUYmtPNjZaUUE5eEhFUnBpU1gtbmpvSEhkX2dDOVQ4UlFuVGxlRnJ1bDlOcXVmbGxuRVlSbkJLT2tfckxTd29KQlBzMnlPNEtTU2RTR3ZyVU02TzJFSmhnamEtSWNEODJ2bE1WUnBxSGYwR1VqZG5TcU5qczFOQmtLOEJGa2JaNDdacWtUQ05n?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 32,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Luks Group (Vietnam Holdings) Co. Ltd. ADR (LKSGY) Options",
+          "published": "2026-11-11",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MRTQzbUt5QlR3R2VWV24zMlFoSU1vRjFqT3VOTkRxZHpMc3JfQlBlYVktTUF5UmR2eUFFMFZ0Q1BmWjlSdElLUlJvendzR1Z5OWhSNGVTbHJPcGRuN2l0VFo2VGNUVWJOUDZnaHBtZ205VVZF?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 16,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 5,
+      "out_of_window": 0,
+      "items": []
+    }
+  ]
+}
