@@ -1,11 +1,11 @@
 {
   "schema_version": 5,
   "method": "text",
-  "crystal": 38,
-  "plain": 16,
-  "even": 10,
-  "judged_country_weeks": 64,
-  "badge": "The judge preferred Crystal Balls in 38 country-weeks, the plain forecast in 16, and called 10 even.",
+  "crystal": 53,
+  "plain": 23,
+  "even": 20,
+  "judged_country_weeks": 96,
+  "badge": "The judge preferred Crystal Balls in 53 country-weeks, the plain forecast in 23, and called 20 even.",
   "sentence": "The judge is a model reading in words, not a score. Every forecast and every verdict is in the repository, timestamped before the week began.",
   "per_round": [
     {
@@ -21,6 +21,13 @@
       "crystal": 20,
       "plain": 8,
       "even": 4
+    },
+    {
+      "graded_round": "2026-11-09",
+      "judged_in_round": "2026-11-14",
+      "crystal": 15,
+      "plain": 7,
+      "even": 10
     }
   ],
   "note": "The first judged country-weeks are a test on stored headlines: the 2026-10-24 forecasts were judged against the week of 2026-11-01."
