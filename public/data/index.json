@@ -1,8 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T06:24:45+02:00",
-  "latest": "2026-11-14",
+  "generated_at": "2026-11-23T09:37:10+02:00",
+  "latest": "2026-11-21",
   "rounds": [
+    {
+      "round": "2026-11-21",
+      "previous_round": "2026-11-14",
+      "is_legacy": false,
+      "status": "complete",
+      "method": "text",
+      "label": "Nov 21, 2026",
+      "countries_done": 32
+    },
     {
       "round": "2026-11-14",
       "previous_round": "2026-11-09",
