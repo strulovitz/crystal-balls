@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-21",
+  "code": "EG",
+  "name": "Egypt",
+  "window_start": "2026-11-14",
+  "window_end": "2026-11-21",
+  "fetched_at": "2026-11-21T23:25:35+02:00",
+  "total_items": 21,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 75,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "IMF reaches agreement with Egypt to unlock $2.3 billion in funds",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWllPZ3lxVE52aEs3dHJvN2FuVmo3b2duTk1kS09JN1RPQzFGVzRkSW51THBDUkczb1NJUmh1elJNelhCczI0ZFlJUmo5M1Z5RGpqWUF3aXBuNUVRZHIzLVlJZ3QyYlVLb0MyOEY0Ml83TkdISzQ5QkRjbWgwRVRpV2xiTFp2emNIQTk2WnhHLV9pSnl0MEpIZ25BdS1GQnFMLTVwOHpOa1k?oc=5"
+        },
+        {
+          "title": "Energean, BP Egypt asset talks stall without government backing, sources say",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQlZ0WEtRMXJVZ3ltWEczVXQ0YXQySzUxUXdGWFhnQ3Vtbnk5NC1haEZHR3FkZnVQeXVOMkotOUxaVWJSQkhVR3VwM05BQWdhVlhRcWdibzRaZURpUTVHenpUS3Z6UFNmRnlaNlF5aFV0N3B1N0tNVGlaR2EyREM0Nk9GZFN5VHpyZjFlNkFOLVlEdFFfbEd0TVJHMTlPYXl4ODlCdUJuV1ZZNFhRcXU3eEJtRndtQnI2Zk5jbW5JWVZIMTIx?oc=5"
+        },
+        {
+          "title": "Commercial International Bank Egypt CIB (CIN0y.F) | Stock Price & Latest News",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUEEyeTkydUlfdC1QQkxZbWVXWWRpVm5QVGFCTnotZy1uaTg5YlNMZmxQYnNwQU80N1FuU0pBWlVSVWRkeXlWVF9jT09RcTd6eGV5Uk1sZkNOdUctaGJyZzR3TUh1RjNSYk1lZEZ3SQ?oc=5"
+        },
+        {
+          "title": "Shell starts gas production from Egypt's Mina West field",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONFpPcFd2Y19laU1VYmh0dTYtVjRYQUhBQ2F4YTVZbE9UX1l6TWRfNjAyWnZXY2tKell3NDYzTHZYa2RIUnlfQ0tld2MwY24wSDBKYWZLUnl2cWpJcExYaTRLTW8waWxLS3cxWmxNX2ZFMGw5ay1HR3ZJLW5qVTlSejVoR09QeVdtMl8yUnp0UWhqMjRqbGs5TDF0SW5lUHR2bmE2Rw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 25,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 3,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 50,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Qatar U17 vs Egypt U17: FIFA U17 World Cup stats & head-to-head",
+          "published": "2026-11-21",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHcHNGYkszWUtFcTFSeno3dDlXUG9US3lCRmZOODYwVGdMVktUbTR1VU5aVEhsNmV0OWtkUHBkTFhBeFBCekpPOFIwdE9JVG45MXhra1p2bjgtM0dOQmU3cDVjRQ?oc=5"
+        },
+        {
+          "title": "Egypt U17 vs Greece U17: FIFA U17 World Cup stats & head-to-head",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Zb2hVdmtXTmRWN3V6akZSSm1vQVR1enVMc0hlZkduY0hzS3cwcHZXdURXcXRrU2F0WUxsVDNXUXZGY1d1VDUwVDEwSUxpbFNsUjJXc3V2dUFuSHhXWmt1VE9NSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 2,
+      "relevant_before_cap": 2,
+      "filtered_out": 26,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "How Egypt hopes to welcome new kinds of travellers",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlE3UW5vYjQtYVdlcXk3REdEdDNHTDBZNFVPcEFWZFF4TVQ3UFV1NU9DbmM5YmU3ZVh2LXZUMVBocWJOOGJOTVVPdktycWU2a1RLV2tjbnVTOTdXdVg2SnVpSGU4ekZwNlU1LUJwRzg0TTBCUDYzdjhRVTJ0X1B3eGhSNjVLOEpScjZj?oc=5"
+        },
+        {
+          "title": "Meet the forgotten Bronze Age superpower that squared up against Egypt’s pharaohs — and abruptly vanished",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTld3aTRCOW8wM19mcTFvQnd2NGFOa1ZZUGRTOVZzV2tmbTVXamJvMHk2Q3Q4YnZDR0kwZ1dkYUR2SG1fVDNRWlBQcU9mdHBtZGRRZWF2TkwyNzdXaXZIaGVyQWFoeVMxVjY5bmQtWjB0Y2lMamdtaFdHYXJfUnNWWU1saXI?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 36,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Egypt train crash leaves several dead, many injured - DW News",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTJJblotVnQ2RW85U2dmVlJjZ2F1d01oazQzZnFGWTB2eVVtakk4Y0RweVZpN0RXR3dOVndTaVVXOS0xbU5zRWdNX0xyX2Z1eG4zV0JhVEtaOG9ZcFlDWlBBWDZ0cDVSaXlxMUNHVG1GTkhTem9ocXMzcVBrazZSVVFiSmpITW1aQ3d3N0xZd0dLWFVFVDBqbjBxdnNUU01XLW1udmZBcmNuTXhDMUpOeQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 97,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "VIDÉO. Égypte: le débat sur l'identité arabe et africaine relancé",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSWZkQ0ZIZl9zWjlQcUZZS3ZaQlQ1YnVKMXNKcC10WTR5RURlblB5MUpucW0xV2lLU2pYNzlUcFN5bnRXd1RpcjQ0SzFidUZqS0VrRnhGRlBudjZ1eEdmRjZ2YVhzMkNWblNUdXNlSll1ODJkNzRaX0VWSllxZVZLczBvMUgwcHlkcldvZzdSV3ZZUXV1a245c1dpVXFXLVo2WlQ4c0xxZjZuWW5SVGZtdnpSMzBodw?oc=5"
+        },
+        {
+          "title": "Inde, Egypte : les exportations de déchets européens au coeur d'un bras de fer",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNEFPdl9zOWhsb3E4RDlwQXREYzV4NW1WOHM2TVRsTmp3ZmxEWVFERFdTMUs1Q04xTVN6ME5XWEk0eXZGQTlKOEhTS1UxUld3b25KcTJpRHgxSUlEaXEzTy1GWmxLSmU3c3FXODJqVFB2ZElnOE5BeFMxTXplREE3cXMtMUdEVnNCX0dtU0JpZ2NSSGIySURpdTZUZC1kNHNsVEsyTFlmUmFmMTMtNmJYWkw3Vlh5NmRzeWpsc0xIX0I?oc=5"
+        },
+        {
+          "title": "Égypte : suspension du procès d'une journaliste indépendante réputée",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTzBVTUJRNk5iY0Y5eHhET2RPdDVrVk5vVUxUVk9Nc0xWTmN0di1TTFM3UU56OVdGdVJsS3FwRkhVdEpnbDdiLXQ0Q3I0VldNU0NMdWRjMHhubTgtZ281Sm10bnhLRHVQbzlIWjZKZ2RGWkdxeThlcy1vQWNuM3NZOU1CM3Znc3VTRmp3VFdQblJBQUdhNmw5VUcxVWZMQVJvWVRkdzFNazZ4Zk5EUUh1U0hSdzI?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 57,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Dongfeng’s First Egypt-Built Electric Car to Go On Sale in 2027",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbUdaeVVRZUxIRFRBT0dIa2Z3c19GQjZiYUJfU2xhNXhpUTkwNmtYcU1kZmhpWVotYWUxbXZTTlhabzdKV2VreXN2Y19KSHZaQURqczJHa0s0SkJNX2U2Tm1zZmtkLUdxNklsclNIdVk1TXVRS0lmQ3NpYU9fWmlNY1MyWU5jTkdKWVFhZ29sR0d0YVFlNXQ1ZFVZcW9MZFRGaDFlVGFHeHFlbDlsd3U3ZF9XaHE?oc=5"
+        },
+        {
+          "title": "Egypt, IMF Reach Initial Pact for $2.3 Billion Loan Tranches",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbnYwSUQ5Z2xZTUVHajhMc0I3a2Zpc3U5dnZZa0JOa3ItMVRwTWxLY0ZTWHJOX3FwU3hza2xOQ21fUjlvT1J2eGk2QnVmelFtNjNSbHpqWDZUc2txeG9IVnFYUDE5RWFXSFYweFpMRFFTclQ5aVI3RkRKUks0VEZYbTFxUFRmcWRrWDEtczJlRVhrZUE4SExSc1BKa1RmYy1GZUJzUzFNdnNscFR1TkE?oc=5"
+        },
+        {
+          "title": "Misr Life to Offer 15% Stake in Egypt’s Next State Asset Sale",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOEwxRmU5Nnp0bGVfS29UYjd3U05pU1F1X2w0QW1xdmFtb2llb2FWZndobjJLM3NJNUZsVFY3aURjLW9ta1JmSXlPVy1KYXc3bmtiLXI5ZFQwLUU1TzBWVzFsaFE3bV9LZVpncVNvYW1UZ3hGcktBOUVQMVhjUjBvd3pnTGhkZVdta1lmbGZlQk1oRF9LdGQtVDNNdF9Wb2Q1S3l5U3pMLTF0ejgzQllXbg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 26,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Commercial International Bank (Egypt) S.A.E. ADR (CIBEY) Stock Price Today - The Wall Street Journal",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoYk11aFhFQ2EtVzM2ZU9nTF84aEk1M1REU2hfbGp0V25EQ1MtTjhqY3R3cFhpc19oUndvb19peTVVQ0w1a2pXd3c0UFVCb2lYak9GaVhB?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 22,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Aedan Looking Glass and Magnom Properties Announce US$750 Million Pinnacle Data Center at Forbes International Tower, Egypt – Company Announcement - FT.com",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQanJEN2JQVHRIRTdscEh5M0RuNTU4NVM2alVOZ0VjNlJ0c3JscmdzSUEzeEh1NDBSb0tQX1FvQWhHQWtMbEdJVWRtYVdvNk51SmZOSjZVWXZ5RGRTV1ZGejRzaVNSOG1ZQjduMWRMZFo3Z1dxYXF2WGgyQ2tTNnBtSUxObjZXcWJJX24tdHE0OUhHMm1IN2l4SnFIYUQ3MDJfaEZxd1dB?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 1,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 52,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Mada Masr’s Lina Attalah due to appear before court in Egypt",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGMwMjA5UGJTbWJicTlFZF9IYUdGSDZJVkgxTUZWZ25mZU5zTGFwSFRJejYzTjBUUzJXLWxITGFXck9YbUw0U0o5OC14U3VaNVZWUkMybEhGRVF6NGZjempKLUZjOWE4Y1NSQ19WMmNRVGo5bjY2cEZlVC04TVBudFU3Z3V6d0paMUw5NzVBaENIT1FxaEk5X0NEUzRfQ2VidnQxN0VxY9IBrAFBVV95cUxPeXNseVphbDlVMkhBdVJCYkk0VDhQa05sT0NxcE5NLTV4cmxJTnhiajh4X1FUV1gyU2tvN0tmZE90RlVsZXVjYkw5azc3Vzg5eGNRM1ZWbjFCOFJ0ejUzSzUwamdDTHhyTHBiT1FxMkdGbHBRcS1pMjN3dHk0STZMaWM4WEN2THBvVGRmLUxVX2IzX1YtY3Q5VWh0Q1g4MWs0UUZseEFGTE9Sbl84?oc=5"
+        },
+        {
+          "title": "Ethiopia blames Egypt, Eritrea for Tigray attacks",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORVQtYmFnTHNGcUhhYjVCeDlqZExqSEVLcnNVcEdFak4xZDlDVklHb2FSdnRWcW5VMjZHamNVaW41djBtMG1va1dQZlY1X21NaE5YemRoSkkyTUN2dlNDQ3NKd05ZOG85S2kwQ29ZSnBOV20tNmxwaTZqVUl3U3JtVXFpYXlfSmtIcDBFTzRld3pJMG10bjEzTm5ObzZqSzF6RkHSAacBQVVfeXFMUFFkN3gwZEVLTEtXT09heUMtV1JYTzVoNElLOVQzWU9lRE5wQ0xBWGprQ1RpV3JiZ1pDR2txb3c4N1UyN3ViQ2V2Sl9uZDFWT01UaW5pQW9wUnZsZS1PQ1IwcnduTTJFQTBEX2Z6WDF2a3hJZEM0QWtGc3BOMVZYZFVyUGNwcllSeTIxaWNLX2FZTFhtNkRlb0pLbEx1SHdsRWtOSXhlSWs?oc=5"
+        },
+        {
+          "title": "Salah breaks Egypt scoring record, Tunisia lose to Libya in AFCON qualifier",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNmJ4TVB5YUZCOEdwajlKa1hrTXFWZ1M0T09QVjJtRldOM0lrQmZqQW9NMHhjQ0JSRjlCaVZtNDRSZWR4ZVM5S29tMnlLUENjSWRxbXo1UXBWM0pzS1F0ODBSZEduSGxndWljZk1XU19HVG5HVjN4UEFkdW9GUDZ0RUFZbFltV2kzSDNnc3QtbFJZbXZkUlJ3cDM4YkcwX09DYTg3SWdwdXhsY1RZUUs1RThORU0yMUVGVG5Dc9IBwgFBVV95cUxQSVJCN09lclptSURpR3hrTWctZXR1b3dDZGxpYzZGTzl5N1N5emhfZVpQeVJQbVVVU0ZFaDhaTS0tcWsxOHBNM0s3VFlYQ09wWVZFQ0JsUDBQb3NiWTNYWVU5SkFXRHB6VDBIWDN5Xzk3WC1UdlFRa3doWmdrelpibWQ1WW1MQ09DSGdJLWlIOHpqbDRhU21iRnNQRXVJVnE5UTNYamRrbzZRVFlXNERZM3daZEdQRGkwMlpJbWV0ZThVdw?oc=5"
+        },
+        {
+          "title": "Ethiopia blames Egypt, Eritrea for Tigray attacks - Al Jazeera",
+          "published": "2026-11-14",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQUIxbS1ZUnU1VWdKMXlYaHNxeWVyT0NEcmx1bjRrUlotWVQ4bE1uS05kUVhBTzZzTDJWdkZ6aUhuQTN6VVBjQlJGUDlnckpubDBLMTlNREhYNzhLUTl6a0tLUXVINTFuWnVxRGttS0lfUm5IRjdFR0ZqNEpzNExyNTY0cktyTi1YRVNJb2Q5ZG9ta2trOTNJbUJQTklNbnVHcU9HUzh5MEhpaExteFZwaklrRnM2eXU0WXhz?oc=5"
+        }
+      ]
+    }
+  ]
+}

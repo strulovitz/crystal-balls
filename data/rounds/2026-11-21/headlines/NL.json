@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "round": "2026-11-21",
+  "code": "NL",
+  "name": "Netherlands",
+  "window_start": "2026-11-14",
+  "window_end": "2026-11-21",
+  "fetched_at": "2026-11-21T23:19:19+02:00",
+  "total_items": 42,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "count": 5,
+      "relevant_before_cap": 5,
+      "filtered_out": 95,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Dutch court bars Chinese SUV in Europe over resemblance to Land Rover Defender",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQndCUkJWZ0Y1N0JSeERKTGVrQ3VrcTY1bUsyR3lmWTRUMVFjZVplT3dBVDhOVFVpaXlGQUpXeGpXSEZZLXhsRmZuZUFuMU1hREQ4bUdNcE9ITHE0ckZxeV8zODBoQUd2alBrQTA3TE5hZmpTV0hBTHM5eE1DckM1c3YtS29LaUpGajluWmdhNUdtZGVzRFhtQ1hmMTZNSkJwNnNwYlJtNmVZVFdLMzgzZS0xQzlZVkZiY2Rr?oc=5"
+        },
+        {
+          "title": "Dutch police says they foiled attempted violence linked to Revolut data leak",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTA5LUFqWGktMnJRZ0I4NVpIeTVvOGQ0dTZfemZISDZFUGtxUFNpOFZoSkxJcnFlWVQzaVYyODIyZE10RW9CeXRxMDNIWENWN3hKOEVaODdGdWhPYmJzdUVaUHFrUlN3OUtDbzhidW1tV3phdnI4dHFXaDFqOVlGdlRCaGtDeVRtSHpTanJpcDRuNXBqZkw4RXZLM2g2TWZjUGVSYVVRbFN6VUR4UTh1TTFmek1tZmRrV19KRTJwZmdzNDB3?oc=5"
+        },
+        {
+          "title": "Portugal draw Netherlands in Nations League quarter-finals, Spain meet France",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX2VlLW9yLUFaVlc3MDhTb1J5WTR5a0MyQTNtUG1qRER4WGhBb0JZcnctVXpZeEFNNkNTbFk0OGhPc2hIajNBOE9qRGVqZi1Ybnl2RHhGcXNlUWplYTVpeS1PUlpiUVVmaWx2ckptTmxXdVlrbHNLSWE1ZENlSVdxMkJMaEo1elpoZWx3RjY3bU9wd1laalNZZHd4UFlIeTZ2?oc=5"
+        },
+        {
+          "title": "Dutch privacy watchdog AP advises consumers not to purchase smart glasses",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWDJfS2RxQlRiZmpGR0xZQmVpdkZqdVR0bzdyRTVFZUctUnFsWUN6cXZlZ2hlSmpVUW0wUnpwOHUtMjBzZGtzVjhhRW13M09vUTJIRG00QXFiMGxMNW1wbDRuZzFlZDUtTldXWlpLWExPajd5Rzc1OWpDN01PVzBPd1BWVG1taWtUamc0Zzh5b1djTFY1cER0SnNsU0NXZ242YmhKUGVRU2JWelVsN3FYT3k1VjlheFlHY2YyNGp2Z2RwbjNJTDF6bQ?oc=5"
+        },
+        {
+          "title": "Netherlands summons Russian ambassador as Kyiv embassy hit",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSlhpc3VjQlJUMS1pb2FxdTNFSFlNODl6NFB5RXlnMlljcXI5dGl0emdoTkpFNmRRWnJzOXhVakxhQWdWb1hvb2tnaFZkLWZoYUFTc1lEQ0VmOXBETkp6TDQ0Tk84QWhWWlVqUFM3bG0tVXk5YVVveU91TU1MUHpvdVk4TTdBLVQtZGs0enhlZ290bjUzbDRQU1liWmVpUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "count": 3,
+      "relevant_before_cap": 3,
+      "filtered_out": 46,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Sirens heard across Kyiv all day, as Dutch and Austrian embassies sustain minor damage",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN2xRN2h1d3Z0UjZBS01ObFcySnlBeV9xVnpnTktMWDB4QzVqaEVhM3BoRnRsdnlXVFh3ekZ4ZDNjUFEtRU9KazNBTkNVNnlQbkVxMlFXYVdEU3hLLXBJYkJURndJRDhWVUFMWnJYTGUtdkNwQWJ1cmNvd3ctNnZvYThNSVRGX0FIeEhxclZVbWhXbkgwdzUtVF8wZ1N3UFpfdThfVng2TWZzNlZfR3NoZDhLZVBITEJHNW9FWHJiRTFHWjN2amxMQVpZSFVVRVdFTGZ6TmVnSmlUTHM?oc=5"
+        },
+        {
+          "title": "Crisis talks keep Dutch minority government together after tax dispute, prime minister says",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUVNlNzYwdUhuQWdVSzM3X2dRX21OOUN2dzFJYy1TMXRJel9sRmVMRnd5WWpiVzh1blAwbHRUZlB3V0pzQWlrem9qTTNjU0JOWndCOEV5RXpTOE5mTEJ5ZzFTRC1sa1BCLTZPVGo5UUVBWTJkZjNkNGpDV0Z6eWl6dm9mTnRNWDFqZVYyNnBUaU5mM1BfRXJFTWRoZFdkcHdmV2Y4UjZudTc?oc=5"
+        },
+        {
+          "title": "Germany routs the Netherlands 5-0 in Nations League to confirm renaissance under Klopp",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbWE1ak5WTFhPdEFKdXh4UHAwaWdyMnBCNnQ5U285Mk1aaUhDZlhyYUkwT3RkOTl4VnBxSzFlUnVLN2Rzdi1JeFM4TzBCREtxNTZ4ejZxQno3SmtFVXRfdi1vX1ZSVnZLZVRsMVFHUEdfZHlodV85UDkxa1BFcmhoRFhvakktWk9rYXc4MjZaVFYxdzVYenlYcy0wWVd6XzRZY285aWVSSjN0QkF3RmdiSEU0UQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "afp",
+      "name": "AFP",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 51,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "S.Leone 'destroying reputation' by hiding drug boss: Dutch minister",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVFldGdtQy1YalJiV0ZzV203a3duT2hRdU1ucC1KRDlaQllPeS1aTGkxLVpVd1Z0ZXN2Tk9EU01xNmlnaTQ1X1ZyaWs5cjhBVldUODcwZFZENkc0UXlVanNCOGdTRVJIR1Q5ZVZSWGJEZEFRUGxiUEw2VTdFQjkzT0hsV3c5ZDFkMmI0?oc=5"
+        },
+        {
+          "title": "Wirtz feels the fun as Germany run riot over Netherlands",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UNGEwYkJ5cnVubjhrYWQwV2ZUbF9tSGVhb1JQNTJiakJLSFVRUlpBNkY0QXRsaWNHNkswYjJhQkVkMzRrMEFxUExpcFpBN01oeGZUTWxLVExyczhiNXZXLU1NdjF3VjMzYmZXcjRlWE45cjV3QnFhN0o3ZkM?oc=5"
+        },
+        {
+          "title": "'This could turn into something', says Klopp after thrashing Netherlands",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ1dSdEdHamNTWG8zM1RLQkx0ZGE2NnluaEd0NW9DQWxQSllIOHh3Q0t2cHBETHptX0VxR0FGeGtwNVAyeXlNaHFLc3VSd09WSjVfVHZjSlVDTC1VOGk5bjFsWXlKalJoX3RwMlNGR0Mta21IbDd4azBqVklQdTJmaFBaUG8zUTBfbUE?oc=5"
+        },
+        {
+          "title": "Dutch already playing 'Xavi-style football', says Klopp",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQlBxQThnM2k3Qm1aQTJBOVgtc3FDNjhqejdfYmRUZzV5Nk9aeVJXMXF2VHloV1FRZG1oY3dVQjVVTGFBMFloNTdhbzhBeXF2Ti04VHpMNjY1U2R0UHpzQnd4cUZqcTd0UlV5MGlLZllyU0k2VUw0eW9qbE1LTnM5dQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "count": 11,
+      "relevant_before_cap": 11,
+      "filtered_out": 84,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Feyenoord vs Excelsior: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-21",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zVFFwVW9hc2xWdjY3Qmx0NlNKWDZSRlQzeU1Oam5LVDl6X0RmZGxwdFhNNjJ3QTRLUy0xd3NfN1c5S3hiZks2SWl4QlRudzhHTFR1VzJpZXpGVldRd05qT2hDWQ?oc=5"
+        },
+        {
+          "title": "NEC Nijmegen vs PSV: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-21",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1meklzd0xJQlR4Q3RfbDl3OGpseG5VUTdwU05yaGpuSHpGQlhsZzJyUHZoSEhEN1FoaXRQT2JVdlNLOV82ZHpPTjI4TTRJYTAtQUhwM1JlUEx0Sy10Sk01N0xXbw?oc=5"
+        },
+        {
+          "title": "Utrecht vs Cambuur: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-21",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zMWR2czdLaXhBZUY3YnFEVVJGY0FZZlBMSUE1NTJpNUpPWGhtM08zdndVaWVCZHhlTUM3UGlQRVFiaG53Um40cmVDLTlPeTE4MEJxMGNkMG5qaWpyRTczdFB5OA?oc=5"
+        },
+        {
+          "title": "Scots lose Super Six opening thriller to Dutch",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IQll6d0g2bW5LNC1Cdks5M3JLRUdtOFd6RVJQcGo0Tk43S2htMVV6UzVLYzdFVV9leWJUZjB6ak5RWTNlZkFpYi0zREIxc2FSZkNhOERWQjFSWm9SMjJKVW1KRkRSTFk?oc=5"
+        },
+        {
+          "title": "Telstar vs PEC Zwolle: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzbnkxMXNqT3F4ckVBbEVOMnRoWjNPUEFCcjVLZnQxWFFLV3ZKbnNwYVJBdkhzVnVpWkxMYlJJZFowdUVtWU9qOF9pZ0tNel9LX2VoMHhWQW43X0xuT19yQmFsRQ?oc=5"
+        },
+        {
+          "title": "Groningen vs Heerenveen: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02bkxwd0ItTElYUEh6YnAzd29rWWh5bU96eXR0OHo3ejl1ZzVVelJRZkVYZUx1RElLVWZ0UmUtTzlHZDJmbXVmd1BCZEY0dm5sREt0eVg1ZFRKUGY3TUlXRDNRWQ?oc=5"
+        },
+        {
+          "title": "Don't buy smart glasses, Dutch data watchdog advises",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TS0pHbEVSclItVDNtV3AydHVEWkVVZUIyTlhnM0hzSUF6WG5XWEVDYmd2c09LUnJkNkpXTGVHX2ZjN1BoSkdTSzBWRmpZTG0xZ3V1YlY5NTVCajg?oc=5"
+        },
+        {
+          "title": "Ajax vs ADO Den Haag: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9najNEYXZlSXlTWWU2UTdzbUhGV1JCekRBelJJbW5sdDBUTE1ZVEFiM2N2cjFjdFF3QVgxbzQxSVVPdkRIR0NEZ3RDcmw2WDNHMXJ4Ykw0UV9Obms2Qk9XMUlMTQ?oc=5"
+        },
+        {
+          "title": "Go Ahead Eagles vs Fortuna Sittard: Dutch Eredivisie stats & head-to-head",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMalRGLXk3SUZfVXZVc3Jtd1NCZzE0X01ETzdwRGpJT2hDbnV3QnRsbGNscW9ZczYyaDAybXhqQllhOURLMUVLRVNvVFg3Vy14RS02aWlfTWxKeno5N0stWWtGZw?oc=5"
+        },
+        {
+          "title": "Netherlands",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NbmphczYwRkZtdFVpSGtzU3ltYmg0NVVoVGpQbXhmN3k3WW96YlZRV0t3c2FtVXBVU1E2cHZfSUxHWkU1bGtpZEdHN0trUzVHNDV1N3NRaVp0dXh5ODlfQmo1Q0lUZ3ZTVDVtRQ?oc=5"
+        },
+        {
+          "title": "Netherlands Women vs Zimbabwe Women",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhamxUM1FBYmJ3c3ZkOXZhaGE1bEMzUVBpQ2I1UGx4anRwUm5lSFFCdnBJME5PVEgzTVZsdTBtSnNURkhhNVZzVUFEVmlfXzVsS19sTUNJQWQ1SHVlTWVHeUJn?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 40,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 65,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "Tulip fever grips the Netherlands",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84Ql9GWVlvQVUzYWdjbDZSclR0aWFYVXVabWQyRG1YcTBhcUlEdFg1clAxVk5VUVQyUXQxVmIwSktzNkFEWGRnd0dadlJUVTBMdW13SUh6NEtzV3E2XzRaclEwZDFmXzNYWndpN09fUUxSX2I2?oc=5"
+        },
+        {
+          "title": "Wirtz and Co., demolish Netherlands 5-0 in Nations League quarterfinal match-up",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWGIyM2t3alpTN2lsWG8zOXczQll4NnJhSDZWYWNNellLSjZOTUFBd0FVMVM4N3VIYnpaNHlLTmc5ejBuZDI0OVNsakdyMjdheUxYZjhDeW1MMFE5Z2h1cGJRRHlpNTlkeXNyMGx0UURXNEFfRHhjYjhxaDJkVHZURVhwaWx5OUc1MGZqYkRWa2dNdER0Y05oMFJJUGtLMDV3d3AtVmxVQUEzbFNJN0hCOFlnTDNjeVBEQm1henRVYw?oc=5"
+        },
+        {
+          "title": "Germany beat Netherlands 5-0 to win Nations League group - DW News",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTJqeEhtclVaSWZseGlJdUY2dkwwLXFaNWd0NTdfekRzZ2N6bDNkdWtPYzVPV3ZPTHZDUEI0ajR0RGZ2RzBkaWtUdko1QVVjQ2lRb3JOenBxVk1oeHN5bGUyYmlKeVUxQ3I4aUFOTmZGRkxDeHhZMjM2b2gyV2RQMmJPYXBGVVlrMjZHM0ExTkhtejZRblFtLWdnTDVVS296TXNuRjhtN3VCSDRGYThrT3RXNDVTZmFu?oc=5"
+        },
+        {
+          "title": "Germany beat Netherlands 5-0 to win Nations League group",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEdOUk1YbXdiUlFXOFB6UWhuNUZZaWNULVNRaU9mUmU5T3RNZ1hycnNLTUFmUTQ1U0dsNTByaW5abDBOOEY3VWNlLU45d1JEOGdsbDJVMVJ5TVR1UWZ6MEtTTFlOajBGVVpQMHdISHRvYVRRc3haSVY1X2VDXzdBS1loSEFMMTRvOXp6dGZmLWRRUWvSAZMBQVVfeXFMT2lBbjBNdmFybUxjVHhpaGNRbF9rT2Q3RVpCNWd2OFE3WndMbmlSSVc3SjRzUXNvV0hPcENLSDhReGZiWjRGY0FKRml5bmpJOWkzY0RUUk5MUndEQXYzaFg1YXBCRzBrQ0dYUTd3YmtwMlVCLWRsaFdzTGhPaGh4Y0Z5Vmk2SnlfcmdNM1BVWEZlTlV3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "tv5monde",
+      "name": "TV5Monde",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 96,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Une entreprise d'armement au cœur de tensions entre les Pays-Bas et la Russie",
+          "published": "2026-11-20",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUF9jVDlDMlI2RnZwXzFKZFN2V3R3RDliSjVVakU5R2lac0U2aTBhNS1YckYzUmk5RVNiTnpxLVl4SVEyN2ZjYjJuSWc5dnBZSkF0VC1RSUVvbW1GRnpfZER2dTNSaklBQlNXSVo4TjVKRzhwazB3YnpmZGM4TTRnbkVpTDgtMk92T1FkQk05LUd5Wkl2VWhLNzlJRUktTExLUXdVQ0ZWQzk5WmVWeHFYanZzeUpWbHl0bVd4WHE0QVJ0ZjdYcm41c2RVS1E?oc=5"
+        },
+        {
+          "title": "Avant le verdict de La Haye, la soif de justice des réfugiés rohingyas au Bangladesh",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVzBWNWlieGdraUdxNkxDSXZvT293ZHpOWXVjelI0WlB4TWFYcG1naXpTYzlUaFlDd1VGU3NabHdaNjBZNElyZi1rVzROTnJ0dE1JVWNodkM2VWRXYTlwZkw4SlBsS05iQk1hOThZdUlvNE1pcXFnamZGdU9ncGhCa24tS3RyQ3ZsZEpFWkh3QUNzVE14NngyQ3N5ZmdFVVpUb3I0UDBvNjJiQ0MwMTVrWHpVUGJFVkNPVFA2em1vc1MzXzlBMkJSOVV0U1VGSDJWVktkX2JjeW0wdw?oc=5"
+        },
+        {
+          "title": "Ligue des nations : l'Allemagne arrache sa place en quarts en corrigeant les Pays-Bas (5-0)",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcnFObWlXdzVnYXJjZTJIN2I5aFhCNWNIRDh6bEJhSTVzY21ZQTZRZXFRUU5EWmNPM3c4ZmlfcHktcFJPWDFKaF9nSGhFSEc5NTIzVENUTDJHbENQUlNZdlA2bmlxQnlpdWhCelFSdk1RdldNN0VFZndVYWpkZnp1aUNNem13UV94VzZZblI2dVZHT0RIVWJydVIyX0tyN0U1S2RkZlJQZ29RSnZnLXp4aWstRjNfc21QU3hNdFNfWmRtdWNMbUNFVDQ3dVZLQQ?oc=5"
+        },
+        {
+          "title": "Perte de signal GPS aérien aux Pays-Bas: les indices qui mènent vers la piste d'un sabotage russe",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObVQ2SHctbXVFYllQWGdwdTNzSjU3dWNEX085Vm9kaWVOdFpFVjFDdnY2cDNCQ3RacEtyRExpYkNNSU9kYzdvcHpkcUFITm5wZjhpN3hKWjJEbnUtWWtidC1oNkU2VDVjRXZncUlLY0FSVWtmcFRLZnhqN3NoRm9hSDJGX1h5SU5US2Y0b1ZQNTFvdUJ6TnZKYXhKTmdtY0k0WjVYLWYwXzZJYXlSQVhlcFZQWncwaVhkZWRmZWR3Vk1DS0V2VUVOSElSY1ZIM2VTY3JhTjJTbnZOYXZHZGxxOTlmVW8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "count": 4,
+      "relevant_before_cap": 4,
+      "filtered_out": 95,
+      "out_of_window": 1,
+      "items": [
+        {
+          "title": "Dutch, Austrian Embassies Damaged in Kyiv Projectile Strike",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcFN6QjV0aEM0cnJfWWZKZWN1UXBRR3ljUkhkZUNRMFJMMTdqSmwtRm1VUXczTjJIV1RKWkFrMEZ3bzRKdUEybWNva1d0cFQyamQ3WjVBUHFxYUdIVjhvU0ljaGhKbmhkTXJmaG5SYjhZRlY1RWVkcVhrVTJPV1M1UEFMTFhKc3ExeHJJSkJOOGNKd2lSMV9iRWFUbG80d2p0V0RZ?oc=5"
+        },
+        {
+          "title": "Dutch Push to Raise Wealth Taxes Exposes Political Fragility",
+          "published": "2026-11-18",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSkQzZEJYclpZRTBld0RIcWlEYkFYWjVMVnBtaWx5YjRLdzA2by1sZjk2VGw4M09rOUItVFQwc1FFUURZU1QtWjdpTVBrWDd3Z2JPbm9nYWlDSU1JYV9yeEtyUFZRN3JUUjY1M19NVVZvT3luSndTb1BhVjdCRWlRNmY3cnZLbnNGYUNldU41RzAtbzljQjlVa0RFTWpEX2FFVEg4dHdaMkhvWEhUSC1ldw?oc=5"
+        },
+        {
+          "title": "Dutch Coalition Makes New Deal to Avoid Government Collapse",
+          "published": "2026-11-17",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVRkVGZmQklsZTdEbWloLWlEVXNiQlBRT2R5NHgtQWppT2xpRmxSc29raHdJR0RVTXBhMHRVdE9ERXMxZGdSd2NXeGtmYktrSGljUHUzWnRfM19DN3diRUpuZUhqc1ZqYkIwaTNrNVlnOF9KVkd2dnRLaDZYb05tTFk3d3lIYW85dk5VdkpOOVpKY1VxR1pieEJuR2tEYUU2bWEzd0VBQS14LXlsc1VDUXJYR3c?oc=5"
+        },
+        {
+          "title": "Wingtech to Challenge Dutch Court’s Nexperia Interim Order",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSVg1eU9JeUxZbDZ6SERhYkZSWFZhb0thQk4wcjg0RWpGcHJBb0NPQS1LeDJWZndPRUN1WmM2TUE5VW5YMFFhV2NvQ1ZNUlVuT3NqVWo3TGZtWkd5UWdDSWZtM2x4NVJVbV9xd1N4dS1VT25mS09seUVjZXJFV1pOXzdlUS1tcTdLTkdHWjVLbE80SEg4WllmWmVLZGxVVFkyT1BHaUxzcG9HQlVoYXc?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 43,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "count": 1,
+      "relevant_before_cap": 1,
+      "filtered_out": 69,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Holland America Line Opens 2028 Alaska Cruisetours, Pairing Reimagined Oosterdam with Adventures Into the Great Land – Company Announcement - FT.com",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNnVONG44SXg2NnV2XzhkOHVYQ0pOMkJSVEZkakNKdTBTdC1VUzhRMkRoS3V6RzA1YXdsSEMxVTBhekg2Qm5uRmY5cDVUMl9pWW90WDFrZDFsOTRTVi1PTkExb2xEOFo0TVJIWU9UVVJHbmNmMWpGbzVwZkIwenY5RmptRDU2NGhwak5IdjNBMEZjSWJhTHZBZg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "count": 0,
+      "relevant_before_cap": 0,
+      "filtered_out": 7,
+      "out_of_window": 0,
+      "items": []
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "count": 6,
+      "relevant_before_cap": 6,
+      "filtered_out": 62,
+      "out_of_window": 0,
+      "items": [
+        {
+          "title": "Two years in, Dutch church’s nonstop service shields family seeking asylum",
+          "published": "2026-11-19",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNW0tZU4tTzZWd192U2J2X0EyeW92TU1JVnBkN0xBeGJXNGc4TGNQN2NQQnBJbDlnT1RsX0N6WWt6Ujc3OVktY1k5b0dfNkktb3NseEdNY0UxSkNwWk9vOWh1a0w3ZFYyd1B6Z1kwOXlZbkg0aDdBeFF1Wkt0VFlSLVROTzMtaGJ6X2QxbGVqMDRhQXg4WHlaZDhnNG5tOGcwSWYwWUI1b3V2enBhMnFHb24tZEnSAboBQVVfeXFMTWJ1UEhNMl9wb0t3b0hsQ0U2a2tLd3BieC1tOGdPMEM2S0ZNYkttaTBqUnZJWGt0SmwzRzV2UWlwZ0cxbVIzbjh3UWQzRTE0R1FjV3JNQ3FabWZTVXlEUzZqS0hwVlpVMnVwalNqb3VoX050bGlmYUFUVEVQWVhqVGNwZzJ0T1phLUVTRndMa2gwT3JWdldjYXhPLU02Wk91Tkx2SGM1c0pfZWI0cTV1ZC1oMVNkbXVnbXFR?oc=5"
+        },
+        {
+          "title": "Germany thrash Netherlands to book Nations League quarterfinal spot",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFRPdjZvMktmYW1yYi1sWFJKakxyamtXZHplMDFNd2h4TGFxVnA2RnFJS1FEU1B1RndQMy1Zb3FTM3g4bmYzY2FXejMzeEVvSVp1MWVjU1I5V2JnR0otNTZDbkgtQlh0ZnB4ODhUOVVaVTg4U09jRnEwZ1JCWFdSMk1sMTM5YlhtXzZsdTFMUjR1Q252Y0lhNWh2QkLSAaIBQVVfeXFMTlg4OHk5T0M3UkVnR29BWkFXOC1nZU8tRnVvTVhhSTVhSmVxYU55ZExidkRNV0Fja0NaMUhoZDV3ZWxnV3RhYktCSzZOTGVKYTJqZWI0by1ycm1pc2dGN1BzS25JMzZmRUxGbEd0YjdPY05fUjRYNTJBMDd1SDFPUXJuNDByNXY4R09zdTRrMWhSQVByQnM1aG1JRWxUQkNoeF9R?oc=5"
+        },
+        {
+          "title": "LIVE: Germany vs Netherlands – UEFA Nations League - Al Jazeera",
+          "published": "2026-11-16",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFlua3Vaa29ZQnBaWWlSODQzRlgtWXRMcGNPOVBkWXg1cGtvZk03QXRkc2p1aHZJbWJzbHlsRmJjSWxqa09MSHFaaDhCZDM1QVhjQW92RV93NjhrUFhsZE50YXcxOUxCS0pHNEN2ZFBTLUViUTVId0htcXAzMVRCUFBjTzdka1dJRXR3dkZDMXBGcWF5dVJqb0REbWwxdXJPemZIVmtMcG42TUowX2NHY1JTbFZXdw?oc=5"
+        },
+        {
+          "title": "Germany vs Netherlands: Nations League – preview, team news, predictions",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEpRV19YTmpTc0R1b2JwVE1XSUQ1LXJqeGRsZUFqZGUzRmdVN281TGtVNlNVMUFqcmtkRVRYUWt2YVU5QTFnYW9QcHg1N3VfNHc0b3RYenZNSFZLZW9Zc2N3ZmVTbnVmWTJ3aHdxMkFTMXRHSnpuNmt0WktjVDFhZDVBMXZzN0VKeVVDSm5RODdXaE12UWc1Y1Q2b09aaEtiYi12R2pYOUd4NGVJaUlVTdIBtgFBVV95cUxQMzhId0tkdkFweC1iQk10YzlvUEFyazAwU0ZsckRGYjcwbC1xSi1mRVRRRC1pakw2OW1yYmNBNHJlbTU3b2RPNUdMNzM1SGJLb2NMYmJGXzZTUWFYNXR6UUxwMzA3MlJXNGkyUDlkUkZwTWl1eWlNM05ISHVSczFPLWl1TXFnSUJZc1o3Y3QwVEQtVHJPMTZ5dFBsRnRlVE5nZVVGTkxwWVVhXzZuRjUtb3p5bllGQQ?oc=5"
+        },
+        {
+          "title": "Reijnders’ hat-trick fires Dutch to 7-0 rout of Greece, Germany beat Serbia",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWk1rakJCN0VES0NaMFlHOE1YeFFqMTFLY0dIYllXeFN4Ym5GX09PY3FaSVpLcEMtNG83RnhNVzVwdnhvRkI5ZWpLeXdqOXRkUk1GTmJrdGdYUFRXSFhGWklCTm5lMHBsZzBjbG5NZkhGOGdxVDBYTlJtUFRmWGlLVkpwVFM4WTh5a3hmUjM5Vmg3UUN5NDJjVzZYVWEyZWtST1JUNXlPb0RfYXliaXFzatIBtgFBVV95cUxPVmZyQWxpZTZ2dmp4UW9uXzFLSjV2Z2g5TVVFVjFVaHMzZE9SM1F2TkNQM0trdTBiRlFJdEF2Zy1ZX19MeWItY1JqNHE4X05MMUlWR0E2bUhZdkE2eWVEcFNJSG5vR2VLRjR6Tno3ellsWWtqM2JFamd4ZmpvaGF6VkpzbTlmV01CUHNGTno4cjhueGRqXzJTbThrbXozenRqQkZxb1hFTVZOSjFXc3c2YUhCU3M3UQ?oc=5"
+        },
+        {
+          "title": "Germany vs Netherlands: Nations League – preview, team news, predictions - Al Jazeera",
+          "published": "2026-11-15",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSFdoMElmeWhDUDB6N3BicWVUSWU1LWJWWXZCUThIZlRsaXl1M1hnU05hdmdXREx1VF9HSFFPNHFKZkdzNGE2eTc0VjFXQWlYUkFwMmZzM0V2Z1NVcktHSExjaVV1U2pldnc4bnhiY29rZkJ6M05sMWpZdm1hZnU0Y1hidFRXRndJRnN6M2piYnUxSkJMejkyTF9wakxiZC1pVkdELXpqQ1Uwb045bGlSTnkzWWhBUTJkMkZuU3I2eDNDeWdJT0JBTTdB?oc=5"
+        }
+      ]
+    }
+  ]
+}
