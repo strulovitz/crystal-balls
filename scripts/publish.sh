@@ -56,8 +56,9 @@ say "Building the text-method data (Bible 13.22)..."
 
 say "Putting public/ on GitHub (Site Folder Law: a pull on any computer must give the full website)..."
 git add -A public
-if ! git diff --cached --quiet -- public; then
-  git commit -q -m "publish: update public/ ($(date '+%Y-%m-%d %H:%M'))" -- public
+git add data/index.json
+if ! git diff --cached --quiet -- public data/index.json; then
+  git commit -q -m "publish: update public/ ($(date '+%Y-%m-%d %H:%M'))" -- public data/index.json
 fi
 git push || { say "git push FAILED. public/ is NOT on GitHub; the other computer will not see this round. Fix this before telling anyone it is published."; exit 1; }
 if [ -n "$(git status --porcelain --ignored public | grep -E '^(!!|\?\?)')" ]; then
